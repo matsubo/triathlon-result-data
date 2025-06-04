@@ -1,0 +1,841 @@
+{
+  "events": [
+    {
+      "id": "sado",
+      "name": "佐渡国際トライアスロン",
+      "location": "佐渡島",
+      "image": "images/sado.webp",
+      "source": "https://www.scsf.jp/triathlon/",
+      "editions": [
+        {
+          "date": "2024-09-01",
+          "categories": [
+            {
+              "id": "sado",
+              "name": "タイプA（ロングディスタンス）",
+              "distance": "LD",
+              "swim_distance": 4,
+              "bike_distance": 190,
+              "run_distance": 42.2,
+              "description": "2024年佐渡国際トライアスロン大会。最も歴史ある国内ロングディスタンストライアスロン。美しい佐渡島を舞台に、水泳3.8km、自転車190km、ランニング42.195kmの総距離226kmに挑戦。"
+            },
+            {
+              "id": "sado_b",
+              "name": "タイプB（ミドルディスタンス）",
+              "distance": "MD",
+              "swim_distance": 2,
+              "bike_distance": 108,
+              "run_distance": 21.1,
+              "description": "2024年佐渡国際トライアスロン大会。最も歴史ある国内ロングディスタンストライアスロン。美しい佐渡島を舞台に、水泳3.8km、自転車190km、ランニング42.195kmの総距離226kmに挑戦。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "miyakojima",
+      "name": "宮古島トライアスロン",
+      "location": "宮古島",
+      "image": "images/miyakojima.webp",
+      "source": "https://systemway.jp/",
+      "editions": [
+        {
+          "date": "2025-04-20",
+          "categories": [
+            {
+              "id": "miyakojima",
+              "name": "宮古島トライアスロン",
+              "distance": "LD",
+              "swim_distance": 3,
+              "bike_distance": 123,
+              "run_distance": 35,
+              "description": "2025年大会の予定情報。スイム3km、バイク123km、ラン35km。開催が期待されます。"
+            }
+          ]
+        },
+        {
+          "date": "2024-04-14",
+          "categories": [
+            {
+              "id": "miyakojima",
+              "name": "宮古島トライアスロン",
+              "distance": "LD",
+              "swim_distance": 3,
+              "bike_distance": 123,
+              "run_distance": 35,
+              "description": "2024年大会。スイム3km、バイク123km、ラン35kmで開催。多くの選手が完走を目指しました。"
+            }
+          ]
+        },
+        {
+          "date": "2023-04-16",
+          "categories": [
+            {
+              "id": "miyakojima",
+              "name": "宮古島トライアスロン",
+              "distance": "LD",
+              "swim_distance": 3,
+              "bike_distance": 123,
+              "run_distance": 30,
+              "description": "2023年、距離を短縮して4年ぶりに復活。新たな形式での開催となりました。"
+            }
+          ]
+        },
+        {
+          "date": "2019-04-14",
+          "categories": [
+            {
+              "id": "miyakojima",
+              "name": "宮古島トライアスロン",
+              "distance": "LD",
+              "swim_distance": 3,
+              "bike_distance": 157,
+              "run_distance": 42.195,
+              "description": "2019年大会。コロナ禍前最後のフルディスタンス開催。熱い戦いが繰り広げられました。"
+            }
+          ]
+        },
+        {
+          "date": "2018-04-22",
+          "categories": [
+            {
+              "id": "miyakojima",
+              "name": "宮古島トライアスロン",
+              "distance": "LD",
+              "swim_distance": 3,
+              "bike_distance": 157,
+              "run_distance": 42.195,
+              "description": "2018年の宮古島トライアスロン。フルディスタンスで行われ、多くの感動を生みました。"
+            }
+          ]
+        },
+        {
+          "date": "2017-04-23",
+          "categories": [
+            {
+              "id": "miyakojima",
+              "name": "宮古島トライアスロン",
+              "distance": "LD",
+              "swim_distance": 3,
+              "bike_distance": 157,
+              "run_distance": 42.195,
+              "description": "2017年大会。美しい宮古島の自然を舞台に、鉄人たちが限界に挑戦しました。"
+            }
+          ]
+        },
+        {
+          "date": "2016-04-17",
+          "categories": [
+            {
+              "id": "miyakojima",
+              "name": "宮古島トライアスロン",
+              "distance": "LD",
+              "swim_distance": 3,
+              "bike_distance": 157,
+              "run_distance": 42.195,
+              "description": "2016年の宮古島トライアスロン。スイム3km、バイク157km、ラン42.195kmの過酷なレース。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yokohama",
+      "name": "横浜トライアスロン",
+      "location": "横浜・みなとみらい",
+      "image": "images/yokohama.webp",
+      "source": "https://yokohamatriathlon.jp/wts/greeting.html",
+      "editions": [
+        {
+          "date": "2025-05-18",
+          "categories": [
+            {
+              "id": "yokohama",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年のWTCS横浜大会オリンピックディスタンス。世界各国からエリート選手が集結し、トップレベルの戦いが繰り広げられました。"
+            },
+            {
+              "id": "yokohama_sprint",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "2025年横浜大会スプリントディスタンス。都心の洗練された都市景観をコースに、スピード感あふれるレース展開が見どころでした。"
+            }
+          ]
+        },
+        {
+          "date": "2024-05-12",
+          "categories": [
+            {
+              "id": "yokohama",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2024年のWTCS横浜大会オリンピックディスタンス。世界各国からエリート選手が集結し、トップレベルの戦いが繰り広げられました。"
+            },
+            {
+              "id": "yokohama_sprint",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "2024年横浜大会スプリントディスタンス。都心の洗練された都市景観をコースに、スピード感あふれるレース展開が見どころでした。"
+            }
+          ]
+        },
+        {
+          "date": "2023-05-14",
+          "categories": [
+            {
+              "id": "yokohama",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2023年WTCS横浜オリンピックディスタンス。パリ五輪選考に向けた重要な大会として、各国代表選手が最高のパフォーマンスを見せました。"
+            },
+            {
+              "id": "yokohama_sprint",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "2023年横浜スプリント大会。山下公園周辺の海と街を舞台に、短距離ながら白熱したレースが展開されました。"
+            }
+          ]
+        },
+        {
+          "date": "2022-05-13",
+          "categories": [
+            {
+              "id": "yokohama",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2022年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
+            },
+            {
+              "id": "yokohama_sprint",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "2022年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
+            }
+          ]
+        },
+        {
+          "date": "2021-05-16",
+          "categories": [
+            {
+              "id": "yokohama",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2021年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
+            },
+            {
+              "id": "yokohama_sprint",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "2021年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
+            }
+          ]
+        },
+        {
+          "date": "2019-05-19",
+          "categories": [
+            {
+              "id": "yokohama",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2019年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
+            },
+            {
+              "id": "yokohama_sprint",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "2019年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
+            }
+          ]
+        },
+        {
+          "date": "2018-05-19",
+          "categories": [
+            {
+              "id": "yokohama",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2018年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
+            },
+            {
+              "id": "yokohama_sprint",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "2018年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
+            }
+          ]
+        },
+        {
+          "date": "2017-05-14",
+          "categories": [
+            {
+              "id": "yokohama",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2017年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
+            },
+            {
+              "id": "yokohama_sprint",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "2017年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
+            }
+          ]
+        },
+        {
+          "date": "2016-05-15",
+          "categories": [
+            {
+              "id": "yokohama",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2016年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
+            },
+            {
+              "id": "yokohama_sprint",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "2016年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
+            }
+          ]
+        },
+        {
+          "date": "2015-05-17",
+          "categories": [
+            {
+              "id": "yokohama",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2015年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
+            },
+            {
+              "id": "yokohama_sprint",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "2015年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
+            }
+          ]
+        },
+        {
+          "date": "2014-05-18",
+          "categories": [
+            {
+              "id": "yokohama",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2014年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
+            },
+            {
+              "id": "yokohama_sprint",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "2014年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
+            }
+          ]
+        },
+        {
+          "date": "2013-05-12",
+          "categories": [
+            {
+              "id": "yokohama",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2013年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
+            },
+            {
+              "id": "yokohama_sprint",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "2013年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
+            }
+          ]
+        },
+        {
+          "date": "2012-09-30",
+          "categories": [
+            {
+              "id": "yokohama",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2012年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
+            },
+            {
+              "id": "yokohama_sprint",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "2012年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
+            }
+          ]
+        },
+        {
+          "date": "2011-09-18",
+          "categories": [
+            {
+              "id": "yokohama",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2011年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "watarase",
+      "name": "東京都トライアスロン渡良瀬大会",
+      "location": "渡良瀬遊水地",
+      "image": "images/watarase.webp",
+      "source": "https://www.sportsentry.ne.jp/event/t/75005",
+      "editions": [
+        {
+          "date": "2018-06-17",
+          "categories": [
+            {
+              "id": "watarase",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2018年6月17日開催。ラムサール条約登録湿地の広大な渡良瀬遊水地が舞台。スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンス。JTU公認大会で、東京都の国体予選も兼ねる。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "niijima",
+      "name": "新島トライアスロン",
+      "location": "新島",
+      "image": "images/niijima.webp",
+      "source": "https://www.mspo.jp/island1/niijima_tri/",
+      "editions": [
+        {
+          "date": "2024-05-18",
+          "categories": [
+            {
+              "id": "niijima",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2024年新島オリンピックディスタンス大会。新島の美しい自然環境の中、エリート選手からアマチュアまでが参加する大会です。"
+            }
+          ]
+        },
+        {
+          "date": "2023-05-20",
+          "categories": [
+            {
+              "id": "niijima",
+              "name": "デュアスロン",
+              "distance": "DUATHLON",
+              "swim_distance": 2,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2023年新島オリンピックディスタンス大会。デュアスロン形式での開催もあり、参加者にとって新たな挑戦となりました。"
+            }
+          ]
+        },
+        {
+          "date": "2022-05-21",
+          "categories": [
+            {
+              "id": "niijima",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2022年新島オリンピックディスタンス大会。新島の美しい自然環境の中、エリート選手からアマチュアまでが参加する大会です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tateyama",
+      "name": "館山わかしおトライアスロン",
+      "location": "館山",
+      "image": "images/tateyama.webp",
+      "source": "https://www.tateyama-tri.com/",
+      "editions": [
+        {
+          "date": "2025-05-25",
+          "categories": [
+            {
+              "id": "tateyama",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 0.4,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年館山オリンピックディスタンス大会。南房総の美しい海と自然を舞台に、スイム400m、バイク40km、ラン10kmのコースに挑戦します。"
+            },
+            {
+              "id": "tateyama_duathlon",
+              "name": "デュアスロン",
+              "distance": "DUATHLON",
+              "swim_distance": 0.2,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年館山オリンピックディスタンス大会。スイムが無くなりデュアスロンになりました。、ラン(200m)、バイク40km、ラン10kmのコースに挑戦します。"
+            },
+            {
+              "id": "tateyama_sprint",
+              "name": "スプリントディスタンス",
+              "distance": "DUATHLON",
+              "swim_distance": 0.2,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "2025年館山スプリントディスタンス大会。南房総の美しい海と自然を舞台に、ラン(200m)、バイク20km、ラン5kmのコースに挑戦します。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "osaka",
+      "name": "大阪城トライアスロン",
+      "location": "大阪城",
+      "image": "images/osaka.webp",
+      "source": "https://eventdev.osaka-triathlon.com/ja/toppage/",
+      "editions": [
+        {
+          "date": "2025-05-25",
+          "categories": [
+            {
+              "id": "osaka",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年大阪城トライアスロン オリンピックディスタンス。歴史的な大阪城を背景に、スイム1.5km、バイク40km、ラン10kmのコースに挑戦。都市型トライアスロンの魅力が詰まった大会です。"
+            },
+            {
+              "id": "osaka_sprint",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "2025年大阪城トライアスロン スプリントディスタンス。大阪の中心部で開催される都市型レース。スイム750m、バイク20km、ラン5kmの距離で、初心者からエキスパートまで楽しめる大会です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amakusa",
+      "name": "天草宝島国際トライアスロン大会",
+      "location": "天草",
+      "image": "images/amakusa.webp",
+      "source": "https://amakusa-triathlon.jp/",
+      "editions": [
+        {
+          "date": "2025-05-25",
+          "categories": [
+            {
+              "id": "amakusa",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年天草宝島国際トライアスロン大会。美しい天草の海を舞台に、スイム1.5km、バイク40km、ラン10kmのコースに挑戦。自然と歴史が融合した魅力的な大会です。"
+            }
+          ]
+        },
+        {
+          "date": "2024-05-26",
+          "categories": [
+            {
+              "id": "amakusa",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2024年天草宝島国際トライアスロン大会。美しい天草の海を舞台に、スイム1.5km、バイク40km、ラン10kmのコースに挑戦。自然と歴史が融合した魅力的な大会です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sainokuni",
+      "name": "彩の国トライアスロンin加須大会",
+      "location": "加須・渡良瀬遊水地",
+      "image": "images/sainokuni.webp",
+      "source": "https://www.sainokunitri.com/",
+      "editions": [
+        {
+          "date": "2025-06-01",
+          "categories": [
+            {
+              "id": "sainokuni_a",
+              "name": "Aタイプ（ミドルディスタンス）",
+              "distance": "MD",
+              "swim_distance": 2.25,
+              "bike_distance": 72,
+              "run_distance": 15,
+              "description": "2025年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム2.25km、バイク72km、ラン15kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+            },
+            {
+              "id": "sainokuni_b",
+              "name": "Bタイプ（オリンピックディスタンス）",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 43,
+              "run_distance": 10,
+              "description": "2025年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム1.5km、バイク43km、ラン10kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+            },
+            {
+              "id": "sainokuni_c",
+              "name": "Cタイプ（スプリントディスタンス）",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 21.6,
+              "run_distance": 5,
+              "description": "2025年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム750m、バイク21.6km、ラン5kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+            }
+          ]
+        },
+        {
+          "date": "2023-06-04",
+          "categories": [
+            {
+              "id": "sainokuni_a",
+              "name": "Aタイプ（ミドルディスタンス）",
+              "distance": "MD",
+              "swim_distance": 2.25,
+              "bike_distance": 72,
+              "run_distance": 15,
+              "description": "2023年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム2.25km、バイク72km、ラン15kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+            },
+            {
+              "id": "sainokuni_b",
+              "name": "Bタイプ（オリンピックディスタンス）",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 43,
+              "run_distance": 10,
+              "description": "2023年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム1.5km、バイク43km、ラン10kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+            },
+            {
+              "id": "sainokuni_c",
+              "name": "Cタイプ（スプリントディスタンス）",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 21.6,
+              "run_distance": 5,
+              "description": "2023年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム750m、バイク21.6km、ラン5kmのコースに挑戦。地域の自然や文化の魅力を感じながらのレースです。"
+            }
+          ]
+        },
+        {
+          "date": "2022-06-05",
+          "categories": [
+            {
+              "id": "sainokuni_a",
+              "name": "Aタイプ（ミドルディスタンス）",
+              "distance": "MD",
+              "swim_distance": 2.25,
+              "bike_distance": 72,
+              "run_distance": 15,
+              "description": "2022年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム2.25km、バイク72km、ラン15kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+            },
+            {
+              "id": "sainokuni_b",
+              "name": "Bタイプ（オリンピックディスタンス）",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 43,
+              "run_distance": 10,
+              "description": "2022年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム1.5km、バイク43km、ラン10kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+            },
+            {
+              "id": "sainokuni_c",
+              "name": "Cタイプ（スプリントディスタンス）",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 21.6,
+              "run_distance": 5,
+              "description": "2022年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム750m、バイク21.6km、ラン5kmのコースに挑戦。地域の自然や文化の魅力を感じながらのレースです。"
+            }
+          ]
+        },
+        {
+          "date": "2021-06-06",
+          "categories": [
+            {
+              "id": "sainokuni_a",
+              "name": "Aタイプ（ミドルディスタンス）",
+              "distance": "MD",
+              "swim_distance": 2.25,
+              "bike_distance": 72,
+              "run_distance": 15,
+              "description": "2021年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム2.25km、バイク72km、ラン15kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+            },
+            {
+              "id": "sainokuni_b",
+              "name": "Bタイプ（オリンピックディスタンス）",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 43,
+              "run_distance": 10,
+              "description": "2021年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム1.5km、バイク43km、ラン10kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+            },
+            {
+              "id": "sainokuni_c",
+              "name": "Cタイプ（スプリントディスタンス）",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 21.6,
+              "run_distance": 5,
+              "description": "2021年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム750m、バイク21.6km、ラン5kmのコースに挑戦。地域の自然や文化の魅力を感じながらのレースです。"
+            }
+          ]
+        },
+        {
+          "date": "2017-06-04",
+          "categories": [
+            {
+              "id": "sainokuni_a",
+              "name": "Aタイプ（ミドルディスタンス）",
+              "distance": "MD",
+              "swim_distance": 2.25,
+              "bike_distance": 60,
+              "run_distance": 15,
+              "description": "2017年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム2.25km、バイク60km、ラン15kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+            },
+            {
+              "id": "sainokuni_b",
+              "name": "Bタイプ（オリンピックディスタンス）",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2017年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム1.5km、バイク43km、ラン10kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+            },
+            {
+              "id": "sainokuni_c",
+              "name": "Cタイプ（スプリントディスタンス）",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "2017年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム750m、バイク21.6km、ラン5kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ishigakijima",
+      "name": "石垣島トライアスロン",
+      "location": "石垣島",
+      "image": "images/ishigakijima.webp",
+      "source": "https://ishigaki-triathlon.jp/",
+      "editions": [
+        {
+          "date": "2025-04-13",
+          "categories": [
+            {
+              "id": "ishigakijima",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年の石垣島トライアスロン。八重山ブルーの海を舞台に、スイム1500m、バイク40km、ラン10kmのレースが行われます。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
