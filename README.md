@@ -41,3 +41,16 @@ https://ai-triathlon-result.teraren.com/
 
 ヘッダ名などは元のリザルトデータを使ってもらってOKです。
 取り込む際に調整します。
+
+
+## ライセンス / License
+
+このプロジェクトは、ディレクトリによって異なるライセンスが適用されています。
+
+* **データ (`/data` 内の全ファイル):** [Creative Commons 表示-改変禁止 4.0 国際 (CC BY-ND 4.0)](https://creativecommons.org/licenses/by-nd/4.0/deed.ja)  
+    データを利用する際は、出所の明記をお願いします。データの改変および、改変したデータの配布は許可されていません。
+
+* **コード (`/scripts` 内の全ファイル):** [MIT License](https://opensource.org/licenses/MIT)  
+    スクリプトは、MITライセンスの条件の下で自由に利用・改変できます。
+
+
