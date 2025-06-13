@@ -870,38 +870,6 @@
       ]
     },
     {
-      "id": "fukuyama",
-      "name": "福山かわまちトライアスロン",
-      "location": "広島・福山市",
-      "image": "images/fukuyama.webp",
-      "source": "https://fukuyamakawamachi-triathlon.com/",
-      "editions": [
-        {
-          "date": "2025-06-08",
-          "categories": [
-            {
-              "id": "fukuyama_short",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2025年福山鞆の浦トライアスロン。国の重要伝統的建造物群保存地区に選定された風光明媚な鞆の浦を舞台に、スイム1.5km、バイク40km、ラン10kmのコースに挑戦します。"
-            },
-            {
-              "id": "fukuyama_middle",
-              "name": "ミドルディスタンス",
-              "distance": "MD",
-              "swim_distance": 2.25,
-              "bike_distance": 80,
-              "run_distance": 20,
-              "description": "2025年福山かわまちトライアスロンミドルディスタンス。広島県福山市の芦田川河口や瀬戸内海を舞台に、スイム2.25km、バイク80km、ラン20kmのコースに挑戦。瀬戸内の風景を楽しみながら行う本格ミドルレース。"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "nagaragawa",
       "name": "長良川ミドルトライアスロン102",
       "location": "岐阜県岐阜市",
