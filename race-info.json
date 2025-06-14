@@ -9,9 +9,11 @@
       "editions": [
         {
           "date": "2024-09-01",
+          "weather_file": "master/2024/sado/weather-data.json",
           "categories": [
             {
               "id": "sado",
+              "result_tsv": "master/2024/sado/result.tsv",
               "name": "タイプA（ロングディスタンス）",
               "distance": "LD",
               "swim_distance": 4,
@@ -21,6 +23,7 @@
             },
             {
               "id": "sado_b",
+              "result_tsv": "master/2024/sado_b/result.tsv",
               "name": "タイプB（ミドルディスタンス）",
               "distance": "MD",
               "swim_distance": 2,
@@ -41,9 +44,11 @@
       "editions": [
         {
           "date": "2025-04-20",
+          "weather_file": "master/2025/miyakojima/weather-data.json",
           "categories": [
             {
               "id": "miyakojima",
+              "result_tsv": "master/2025/miyakojima/result.tsv",
               "name": "宮古島トライアスロン",
               "distance": "LD",
               "swim_distance": 3,
@@ -55,9 +60,11 @@
         },
         {
           "date": "2024-04-14",
+          "weather_file": "master/2024/miyakojima/weather-data.json",
           "categories": [
             {
               "id": "miyakojima",
+              "result_tsv": "master/2024/miyakojima/result.tsv",
               "name": "宮古島トライアスロン",
               "distance": "LD",
               "swim_distance": 3,
@@ -69,9 +76,11 @@
         },
         {
           "date": "2023-04-16",
+          "weather_file": "master/2023/miyakojima/weather-data.json",
           "categories": [
             {
               "id": "miyakojima",
+              "result_tsv": "master/2023/miyakojima/result.tsv",
               "name": "宮古島トライアスロン",
               "distance": "LD",
               "swim_distance": 3,
@@ -83,9 +92,11 @@
         },
         {
           "date": "2019-04-14",
+          "weather_file": "master/2019/miyakojima/weather-data.json",
           "categories": [
             {
               "id": "miyakojima",
+              "result_tsv": "master/2019/miyakojima/result.tsv",
               "name": "宮古島トライアスロン",
               "distance": "LD",
               "swim_distance": 3,
@@ -97,9 +108,11 @@
         },
         {
           "date": "2018-04-22",
+          "weather_file": "master/2018/miyakojima/weather-data.json",
           "categories": [
             {
               "id": "miyakojima",
+              "result_tsv": "master/2018/miyakojima/result.tsv",
               "name": "宮古島トライアスロン",
               "distance": "LD",
               "swim_distance": 3,
@@ -111,9 +124,11 @@
         },
         {
           "date": "2017-04-23",
+          "weather_file": "master/2017/miyakojima/weather-data.json",
           "categories": [
             {
               "id": "miyakojima",
+              "result_tsv": "master/2017/miyakojima/result.tsv",
               "name": "宮古島トライアスロン",
               "distance": "LD",
               "swim_distance": 3,
@@ -125,9 +140,11 @@
         },
         {
           "date": "2016-04-17",
+          "weather_file": "master/2016/miyakojima/weather-data.json",
           "categories": [
             {
               "id": "miyakojima",
+              "result_tsv": "master/2016/miyakojima/result.tsv",
               "name": "宮古島トライアスロン",
               "distance": "LD",
               "swim_distance": 3,
@@ -148,9 +165,11 @@
       "editions": [
         {
           "date": "2025-05-18",
+          "weather_file": "master/2025/yokohama/weather-data.json",
           "categories": [
             {
               "id": "yokohama",
+              "result_tsv": "master/2025/yokohama/result.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -160,6 +179,7 @@
             },
             {
               "id": "yokohama_sprint",
+              "result_tsv": "master/2025/yokohama_sprint/result.tsv",
               "name": "スプリントディスタンス",
               "distance": "SD",
               "swim_distance": 0.75,
@@ -171,9 +191,11 @@
         },
         {
           "date": "2024-05-12",
+          "weather_file": "master/2024/yokohama/weather-data.json",
           "categories": [
             {
               "id": "yokohama",
+              "result_tsv": "master/2024/yokohama/result.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -183,6 +205,7 @@
             },
             {
               "id": "yokohama_sprint",
+              "result_tsv": "master/2024/yokohama_sprint/result.tsv",
               "name": "スプリントディスタンス",
               "distance": "SD",
               "swim_distance": 0.75,
@@ -194,9 +217,11 @@
         },
         {
           "date": "2023-05-14",
+          "weather_file": "master/2023/yokohama/weather-data.json",
           "categories": [
             {
               "id": "yokohama",
+              "result_tsv": "master/2023/yokohama/result.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -206,6 +231,7 @@
             },
             {
               "id": "yokohama_sprint",
+              "result_tsv": "master/2023/yokohama_sprint/result.tsv",
               "name": "スプリントディスタンス",
               "distance": "SD",
               "swim_distance": 0.75,
@@ -217,9 +243,11 @@
         },
         {
           "date": "2022-05-13",
+          "weather_file": "master/2022/yokohama/weather-data.json",
           "categories": [
             {
               "id": "yokohama",
+              "result_tsv": "master/2022/yokohama_sprint/result.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -229,6 +257,7 @@
             },
             {
               "id": "yokohama_sprint",
+              "result_tsv": "master/2022/yokohama_sprint/result.tsv",
               "name": "スプリントディスタンス",
               "distance": "SD",
               "swim_distance": 0.75,
@@ -240,9 +269,11 @@
         },
         {
           "date": "2021-05-16",
+          "weather_file": "master/2021/yokohama/weather-data.json",
           "categories": [
             {
               "id": "yokohama",
+              "result_tsv": "master/2021/yokohama/result.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -252,6 +283,7 @@
             },
             {
               "id": "yokohama_sprint",
+              "result_tsv": "master/2021/yokohama_sprint/result.tsv",
               "name": "スプリントディスタンス",
               "distance": "SD",
               "swim_distance": 0.75,
@@ -263,9 +295,11 @@
         },
         {
           "date": "2019-05-19",
+          "weather_file": "master/2019/yokohama/weather-data.json",
           "categories": [
             {
               "id": "yokohama",
+              "result_tsv": "master/2019/yokohama/result.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -275,6 +309,7 @@
             },
             {
               "id": "yokohama_sprint",
+              "result_tsv": "master/2019/yokohama_sprint/result.tsv",
               "name": "スプリントディスタンス",
               "distance": "SD",
               "swim_distance": 0.75,
@@ -286,9 +321,11 @@
         },
         {
           "date": "2018-05-19",
+          "weather_file": "master/2018/yokohama/weather-data.json",
           "categories": [
             {
               "id": "yokohama",
+              "result_tsv": "master/2018/yokohama/result.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -298,6 +335,7 @@
             },
             {
               "id": "yokohama_sprint",
+              "result_tsv": "master/2018/yokohama_sprint/result.tsv",
               "name": "スプリントディスタンス",
               "distance": "SD",
               "swim_distance": 0.75,
@@ -309,9 +347,11 @@
         },
         {
           "date": "2017-05-14",
+          "weather_file": "master/2017/yokohama/weather-data.json",
           "categories": [
             {
               "id": "yokohama",
+              "result_tsv": "master/2017/yokohama/result.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -321,6 +361,7 @@
             },
             {
               "id": "yokohama_sprint",
+              "result_tsv": "master/2017/yokohama_sprint/result.tsv",
               "name": "スプリントディスタンス",
               "distance": "SD",
               "swim_distance": 0.75,
@@ -332,9 +373,11 @@
         },
         {
           "date": "2016-05-15",
+          "weather_file": "master/2016/yokohama/weather-data.json",
           "categories": [
             {
               "id": "yokohama",
+              "result_tsv": "master/2016/yokohama/result.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -344,6 +387,7 @@
             },
             {
               "id": "yokohama_sprint",
+              "result_tsv": "master/2016/yokohama_sprint/result.tsv",
               "name": "スプリントディスタンス",
               "distance": "SD",
               "swim_distance": 0.75,
@@ -355,9 +399,11 @@
         },
         {
           "date": "2015-05-17",
+          "weather_file": "master/2015/yokohama/weather-data.json",
           "categories": [
             {
               "id": "yokohama",
+              "result_tsv": "master/2015/yokohama/result.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -367,6 +413,7 @@
             },
             {
               "id": "yokohama_sprint",
+              "result_tsv": "master/2015/yokohama_sprint/result.tsv",
               "name": "スプリントディスタンス",
               "distance": "SD",
               "swim_distance": 0.75,
@@ -378,9 +425,11 @@
         },
         {
           "date": "2014-05-18",
+          "weather_file": "master/2014/yokohama/weather-data.json",
           "categories": [
             {
               "id": "yokohama",
+              "result_tsv": "master/2014/yokohama/result.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -390,6 +439,7 @@
             },
             {
               "id": "yokohama_sprint",
+              "result_tsv": "master/2014/yokohama_sprint/result.tsv",
               "name": "スプリントディスタンス",
               "distance": "SD",
               "swim_distance": 0.75,
@@ -401,9 +451,11 @@
         },
         {
           "date": "2013-05-12",
+          "weather_file": "master/2013/yokohama/weather-data.json",
           "categories": [
             {
               "id": "yokohama",
+              "result_tsv": "master/2013/yokohama/result.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -413,6 +465,7 @@
             },
             {
               "id": "yokohama_sprint",
+              "result_tsv": "master/2013/yokohama_sprint/result.tsv",
               "name": "スプリントディスタンス",
               "distance": "SD",
               "swim_distance": 0.75,
@@ -424,9 +477,11 @@
         },
         {
           "date": "2012-09-30",
+          "weather_file": "master/2012/yokohama/weather-data.json",
           "categories": [
             {
               "id": "yokohama",
+              "result_tsv": "master/2012/yokohama/result.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -436,6 +491,7 @@
             },
             {
               "id": "yokohama_sprint",
+              "result_tsv": "master/2012/yokohama_sprint/result.tsv",
               "name": "スプリントディスタンス",
               "distance": "SD",
               "swim_distance": 0.75,
@@ -447,9 +503,11 @@
         },
         {
           "date": "2011-09-18",
+          "weather_file": "master/2011/yokohama/weather-data.json",
           "categories": [
             {
               "id": "yokohama",
+              "result_tsv": "master/2011/yokohama/result.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -470,9 +528,11 @@
       "editions": [
         {
           "date": "2018-06-17",
+          "weather_file": "master/2018/watarase/weather-data.json",
           "categories": [
             {
               "id": "watarase",
+              "result_tsv": "master/2018/watarase/result.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -493,9 +553,11 @@
       "editions": [
         {
           "date": "2024-05-18",
+          "weather_file": "master/2024/niijima/weather-data.json",
           "categories": [
             {
               "id": "niijima",
+              "result_tsv": "master/2024/niijima/result.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -507,9 +569,11 @@
         },
         {
           "date": "2023-05-20",
+          "weather_file": "master/2023/niijima/weather-data.json",
           "categories": [
             {
               "id": "niijima",
+              "result_tsv": "master/2023/niijima/result.tsv",
               "name": "デュアスロン",
               "distance": "DUATHLON",
               "swim_distance": 2,
@@ -521,9 +585,11 @@
         },
         {
           "date": "2022-05-21",
+          "weather_file": "master/2022/niijima/weather-data.json",
           "categories": [
             {
               "id": "niijima",
+              "result_tsv": "master/2022/niijima/result.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -544,9 +610,11 @@
       "editions": [
         {
           "date": "2025-05-25",
+          "weather_file": "master/2025/tateyama/weather-data.json",
           "categories": [
             {
               "id": "tateyama",
+              "result_tsv": "master/2025/tateyama/result.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "swim_distance": 0.4,
@@ -556,6 +624,7 @@
             },
             {
               "id": "tateyama_duathlon",
+              "result_tsv": "master/2025/tateyama_duathlon/result.tsv",
               "name": "デュアスロン",
               "distance": "DUATHLON",
               "swim_distance": 0.2,
@@ -565,6 +634,7 @@
             },
             {
               "id": "tateyama_sprint",
+              "result_tsv": "master/2025/tateyama_sprint/result.tsv",
               "name": "スプリントディスタンス",
               "distance": "DUATHLON",
               "swim_distance": 0.2,
@@ -585,9 +655,11 @@
       "editions": [
         {
           "date": "2025-05-25",
+          "weather_file": "master/2025/osaka/weather-data.json",
           "categories": [
             {
               "id": "osaka",
+              "result_tsv": "master/2025/osaka/result.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -597,6 +669,7 @@
             },
             {
               "id": "osaka_sprint",
+              "result_tsv": "master/2025/osaka_sprint/result.tsv",
               "name": "スプリントディスタンス",
               "distance": "SD",
               "swim_distance": 0.75,
@@ -617,9 +690,11 @@
       "editions": [
         {
           "date": "2025-05-25",
+          "weather_file": "master/2025/amakusa/weather-data.json",
           "categories": [
             {
               "id": "amakusa",
+              "result_tsv": "master/2025/amakusa/result.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -631,9 +706,11 @@
         },
         {
           "date": "2024-05-26",
+          "weather_file": "master/2024/amakusa/weather-data.json",
           "categories": [
             {
               "id": "amakusa",
+              "result_tsv": "master/2024/amakusa/result.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -654,9 +731,11 @@
       "editions": [
         {
           "date": "2025-06-01",
+          "weather_file": "master/2025/sainokuni_a/weather-data.json",
           "categories": [
             {
               "id": "sainokuni_a",
+              "result_tsv": "master/2025/sainokuni_a/result.tsv",
               "name": "Aタイプ（ミドルディスタンス）",
               "distance": "MD",
               "swim_distance": 2.25,
@@ -666,6 +745,7 @@
             },
             {
               "id": "sainokuni_b",
+              "result_tsv": "master/2025/sainokuni_b/result.tsv",
               "name": "Bタイプ（オリンピックディスタンス）",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -675,6 +755,7 @@
             },
             {
               "id": "sainokuni_c",
+              "result_tsv": "master/2025/sainokuni_c/result.tsv",
               "name": "Cタイプ（スプリントディスタンス）",
               "distance": "SD",
               "swim_distance": 0.75,
@@ -686,9 +767,11 @@
         },
         {
           "date": "2023-06-04",
+          "weather_file": "master/2023/sainokuni_a/weather-data.json",
           "categories": [
             {
               "id": "sainokuni_a",
+              "result_tsv": "master/2023/sainokuni_a/result.tsv",
               "name": "Aタイプ（ミドルディスタンス）",
               "distance": "MD",
               "swim_distance": 2.25,
@@ -698,6 +781,7 @@
             },
             {
               "id": "sainokuni_b",
+              "result_tsv": "master/2023/sainokuni_b/result.tsv",
               "name": "Bタイプ（オリンピックディスタンス）",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -707,6 +791,7 @@
             },
             {
               "id": "sainokuni_c",
+              "result_tsv": "master/2023/sainokuni_c/result.tsv",
               "name": "Cタイプ（スプリントディスタンス）",
               "distance": "SD",
               "swim_distance": 0.75,
@@ -718,9 +803,11 @@
         },
         {
           "date": "2022-06-05",
+          "weather_file": "master/2022/sainokuni_a/weather-data.json",
           "categories": [
             {
               "id": "sainokuni_a",
+              "result_tsv": "master/2022/sainokuni_a/result.tsv",
               "name": "Aタイプ（ミドルディスタンス）",
               "distance": "MD",
               "swim_distance": 2.25,
@@ -730,6 +817,7 @@
             },
             {
               "id": "sainokuni_b",
+              "result_tsv": "master/2022/sainokuni_b/result.tsv",
               "name": "Bタイプ（オリンピックディスタンス）",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -739,6 +827,7 @@
             },
             {
               "id": "sainokuni_c",
+              "result_tsv": "master/2022/sainokuni_c/result.tsv",
               "name": "Cタイプ（スプリントディスタンス）",
               "distance": "SD",
               "swim_distance": 0.75,
@@ -750,9 +839,11 @@
         },
         {
           "date": "2021-06-06",
+          "weather_file": "master/2021/sainokuni_a/weather-data.json",
           "categories": [
             {
               "id": "sainokuni_a",
+              "result_tsv": "master/2021/sainokuni_a/result.tsv",
               "name": "Aタイプ（ミドルディスタンス）",
               "distance": "MD",
               "swim_distance": 2.25,
@@ -762,6 +853,7 @@
             },
             {
               "id": "sainokuni_b",
+              "result_tsv": "master/2021/sainokuni_b/result.tsv",
               "name": "Bタイプ（オリンピックディスタンス）",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -771,6 +863,7 @@
             },
             {
               "id": "sainokuni_c",
+              "result_tsv": "master/2021/sainokuni_c/result.tsv",
               "name": "Cタイプ（スプリントディスタンス）",
               "distance": "SD",
               "swim_distance": 0.75,
@@ -782,9 +875,11 @@
         },
         {
           "date": "2017-06-04",
+          "weather_file": "master/2017/sainokuni_a/weather-data.json",
           "categories": [
             {
               "id": "sainokuni_a",
+              "result_tsv": "master/2017/sainokuni_a/result.tsv",
               "name": "Aタイプ（ミドルディスタンス）",
               "distance": "MD",
               "swim_distance": 2.25,
@@ -794,6 +889,7 @@
             },
             {
               "id": "sainokuni_b",
+              "result_tsv": "master/2017/sainokuni_b/result.tsv",
               "name": "Bタイプ（オリンピックディスタンス）",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -803,6 +899,7 @@
             },
             {
               "id": "sainokuni_c",
+              "result_tsv": "master/2017/sainokuni_c/result.tsv",
               "name": "Cタイプ（スプリントディスタンス）",
               "distance": "SD",
               "swim_distance": 0.75,
@@ -823,9 +920,11 @@
       "editions": [
         {
           "date": "2025-04-13",
+          "weather_file": "master/2025/ishigakijima/weather-data.json",
           "categories": [
             {
               "id": "ishigakijima",
+              "result_tsv": "master/2025/ishigakijima/result.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -846,9 +945,11 @@
       "editions": [
         {
           "date": "2025-06-08",
+          "weather_file": "master/2025/fukuyama_short/weather-data.json",
           "categories": [
             {
               "id": "fukuyama_short",
+              "result_tsv": "master/2025/fukuyama_short/result.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "swim_distance": 1.5,
@@ -858,6 +959,7 @@
             },
             {
               "id": "fukuyama_middle",
+              "result_tsv": "master/2025/fukuyama_middle/result.tsv",
               "name": "ミドルディスタンス",
               "distance": "MD",
               "swim_distance": 2.25,
@@ -878,9 +980,11 @@
       "editions": [
         {
           "date": "2025-05-25",
+          "weather_file": "master/2025/nagaragawa/weather-data.json",
           "categories": [
             {
               "id": "nagaragawa",
+              "result_tsv": "master/2025/nagaragawa/result.tsv",
               "name": "長良川ミドルトライアスロン102",
               "distance": "MD",
               "swim_distance": 2,
