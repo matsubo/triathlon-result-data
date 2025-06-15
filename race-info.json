@@ -1003,6 +1003,32 @@
       "image": "images/baramon.webp",
       "source": "https://gototri.com/?cat=12",
       "editions": [
+              {
+        "date": "2024-06-23",
+        "weather_file": "master/2024/baramon_a/weather-data.json",
+        "categories": [
+        {
+          "id": "baramon_a",
+          "result_tsv": "master/2024/baramon_a/result.tsv",
+          "name": "タイプA（ロングディスタンス）",
+          "distance": "LD",
+          "swim_distance": 0,
+          "bike_distance": 160,
+          "run_distance": 42.2,
+          "description": "2025年バラモンキング タイプA（ロングディスタンス）。長崎県五島列島の美しい海と山々を舞台に、バイク160km、ラン42.2kmの総距離約202kmに挑戦。起伏に富んだコースと島特有の厳しい気象条件が選手の限界を試します。"
+        },
+        {
+          "id": "baramon_b",
+          "result_tsv": "master/2024/baramon_b/result.tsv",
+          "name": "タイプB（ミドルディスタンス）",
+          "distance": "MD",
+          "swim_distance": 0,
+          "bike_distance": 124,
+          "run_distance": 21.1,
+          "description": "2025年バラモンキング タイプB（ミドルディスタンス）。五島の絶景を楽しみながら、バイク124km、ラン21.1kmのコースに挑戦。五島列島の豊かな自然と文化に触れながら、挑戦的なアップダウンと変化する気象条件の中で行われる大会です。"
+        }
+        ]
+      },
       {
         "date": "2025-06-15",
         "weather_file": "master/2025/baramon_a/weather-data.json",
