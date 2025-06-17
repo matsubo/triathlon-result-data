@@ -1,1060 +1,1095 @@
 {
-  "events": [
+  "events":[
     {
-      "id": "sado",
-      "name": "佐渡国際トライアスロン",
-      "location": "佐渡島",
-      "image": "images/sado.webp",
-      "source": "https://www.scsf.jp/triathlon/",
-      "editions": [
+      "id":"sado",
+      "name":"佐渡国際トライアスロン",
+      "location":"佐渡島",
+      "image":"images/sado.webp",
+      "source":"https://www.scsf.jp/triathlon/",
+      "editions":[
         {
-          "date": "2024-09-01",
-          "weather_file": "master/2024/sado/weather-data.json",
-          "categories": [
+          "date":"2024-09-01",
+          "weather_file":"master/2024/sado/weather-data.json",
+          "categories":[
             {
-              "id": "sado",
-              "result_tsv": "master/2024/sado/result.tsv",
-              "name": "タイプA（ロングディスタンス）",
-              "distance": "LD",
-              "swim_distance": 4,
-              "bike_distance": 190,
-              "run_distance": 42.2,
-              "description": "2024年佐渡国際トライアスロン大会。最も歴史ある国内ロングディスタンストライアスロン。美しい佐渡島を舞台に、水泳3.8km、自転車190km、ランニング42.195kmの総距離226kmに挑戦。"
+              "id":"sado",
+              "result_tsv":"master/2024/sado/result.tsv",
+              "name":"タイプA（ロングディスタンス）",
+              "distance":"LD",
+              "swim_distance":4,
+              "bike_distance":190,
+              "run_distance":42.2,
+              "description":"2024年佐渡国際トライアスロン大会。最も歴史ある国内ロングディスタンストライアスロン。美しい佐渡島を舞台に、水泳3.8km、自転車190km、ランニング42.195kmの総距離226kmに挑戦。"
             },
             {
-              "id": "sado_b",
-              "result_tsv": "master/2024/sado_b/result.tsv",
-              "name": "タイプB（ミドルディスタンス）",
-              "distance": "MD",
-              "swim_distance": 2,
-              "bike_distance": 108,
-              "run_distance": 21.1,
-              "description": "2024年佐渡国際トライアスロン大会。最も歴史ある国内ロングディスタンストライアスロン。美しい佐渡島を舞台に、水泳3.8km、自転車190km、ランニング42.195kmの総距離226kmに挑戦。"
+              "id":"sado_b",
+              "result_tsv":"master/2024/sado_b/result.tsv",
+              "name":"タイプB（ミドルディスタンス）",
+              "distance":"MD",
+              "swim_distance":2,
+              "bike_distance":108,
+              "run_distance":21.1,
+              "description":"2024年佐渡国際トライアスロン大会。最も歴史ある国内ロングディスタンストライアスロン。美しい佐渡島を舞台に、水泳3.8km、自転車190km、ランニング42.195kmの総距離226kmに挑戦。"
             }
           ]
         }
       ]
     },
     {
-      "id": "miyakojima",
-      "name": "宮古島トライアスロン",
-      "location": "宮古島",
-      "image": "images/miyakojima.webp",
-      "source": "https://systemway.jp/",
-      "editions": [
+      "id":"miyakojima",
+      "name":"宮古島トライアスロン",
+      "location":"宮古島",
+      "image":"images/miyakojima.webp",
+      "source":"https://systemway.jp/",
+      "editions":[
         {
-          "date": "2025-04-20",
-          "weather_file": "master/2025/miyakojima/weather-data.json",
-          "categories": [
+          "date":"2025-04-20",
+          "weather_file":"master/2025/miyakojima/weather-data.json",
+          "categories":[
             {
-              "id": "miyakojima",
-              "result_tsv": "master/2025/miyakojima/result.tsv",
-              "name": "宮古島トライアスロン",
-              "distance": "LD",
-              "swim_distance": 3,
-              "bike_distance": 123,
-              "run_distance": 35,
-              "description": "2025年大会の予定情報。スイム3km、バイク123km、ラン35km。開催が期待されます。"
+              "id":"miyakojima",
+              "result_tsv":"master/2025/miyakojima/result.tsv",
+              "name":"宮古島トライアスロン",
+              "distance":"LD",
+              "swim_distance":3,
+              "bike_distance":123,
+              "run_distance":35,
+              "description":"2025年大会の予定情報。スイム3km、バイク123km、ラン35km。開催が期待されます。"
             }
           ]
         },
         {
-          "date": "2024-04-14",
-          "weather_file": "master/2024/miyakojima/weather-data.json",
-          "categories": [
+          "date":"2024-04-14",
+          "weather_file":"master/2024/miyakojima/weather-data.json",
+          "categories":[
             {
-              "id": "miyakojima",
-              "result_tsv": "master/2024/miyakojima/result.tsv",
-              "name": "宮古島トライアスロン",
-              "distance": "LD",
-              "swim_distance": 3,
-              "bike_distance": 123,
-              "run_distance": 35,
-              "description": "2024年大会。スイム3km、バイク123km、ラン35kmで開催。多くの選手が完走を目指しました。"
+              "id":"miyakojima",
+              "result_tsv":"master/2024/miyakojima/result.tsv",
+              "name":"宮古島トライアスロン",
+              "distance":"LD",
+              "swim_distance":3,
+              "bike_distance":123,
+              "run_distance":35,
+              "description":"2024年大会。スイム3km、バイク123km、ラン35kmで開催。多くの選手が完走を目指しました。"
             }
           ]
         },
         {
-          "date": "2023-04-16",
-          "weather_file": "master/2023/miyakojima/weather-data.json",
-          "categories": [
+          "date":"2023-04-16",
+          "weather_file":"master/2023/miyakojima/weather-data.json",
+          "categories":[
             {
-              "id": "miyakojima",
-              "result_tsv": "master/2023/miyakojima/result.tsv",
-              "name": "宮古島トライアスロン",
-              "distance": "LD",
-              "swim_distance": 3,
-              "bike_distance": 123,
-              "run_distance": 30,
-              "description": "2023年、距離を短縮して4年ぶりに復活。新たな形式での開催となりました。"
+              "id":"miyakojima",
+              "result_tsv":"master/2023/miyakojima/result.tsv",
+              "name":"宮古島トライアスロン",
+              "distance":"LD",
+              "swim_distance":3,
+              "bike_distance":123,
+              "run_distance":30,
+              "description":"2023年、距離を短縮して4年ぶりに復活。新たな形式での開催となりました。"
             }
           ]
         },
         {
-          "date": "2019-04-14",
-          "weather_file": "master/2019/miyakojima/weather-data.json",
-          "categories": [
+          "date":"2019-04-14",
+          "weather_file":"master/2019/miyakojima/weather-data.json",
+          "categories":[
             {
-              "id": "miyakojima",
-              "result_tsv": "master/2019/miyakojima/result.tsv",
-              "name": "宮古島トライアスロン",
-              "distance": "LD",
-              "swim_distance": 3,
-              "bike_distance": 157,
-              "run_distance": 42.195,
-              "description": "2019年大会。コロナ禍前最後のフルディスタンス開催。熱い戦いが繰り広げられました。"
+              "id":"miyakojima",
+              "result_tsv":"master/2019/miyakojima/result.tsv",
+              "name":"宮古島トライアスロン",
+              "distance":"LD",
+              "swim_distance":3,
+              "bike_distance":157,
+              "run_distance":42.195,
+              "description":"2019年大会。コロナ禍前最後のフルディスタンス開催。熱い戦いが繰り広げられました。"
             }
           ]
         },
         {
-          "date": "2018-04-22",
-          "weather_file": "master/2018/miyakojima/weather-data.json",
-          "categories": [
+          "date":"2018-04-22",
+          "weather_file":"master/2018/miyakojima/weather-data.json",
+          "categories":[
             {
-              "id": "miyakojima",
-              "result_tsv": "master/2018/miyakojima/result.tsv",
-              "name": "宮古島トライアスロン",
-              "distance": "LD",
-              "swim_distance": 3,
-              "bike_distance": 157,
-              "run_distance": 42.195,
-              "description": "2018年の宮古島トライアスロン。フルディスタンスで行われ、多くの感動を生みました。"
+              "id":"miyakojima",
+              "result_tsv":"master/2018/miyakojima/result.tsv",
+              "name":"宮古島トライアスロン",
+              "distance":"LD",
+              "swim_distance":3,
+              "bike_distance":157,
+              "run_distance":42.195,
+              "description":"2018年の宮古島トライアスロン。フルディスタンスで行われ、多くの感動を生みました。"
             }
           ]
         },
         {
-          "date": "2017-04-23",
-          "weather_file": "master/2017/miyakojima/weather-data.json",
-          "categories": [
+          "date":"2017-04-23",
+          "weather_file":"master/2017/miyakojima/weather-data.json",
+          "categories":[
             {
-              "id": "miyakojima",
-              "result_tsv": "master/2017/miyakojima/result.tsv",
-              "name": "宮古島トライアスロン",
-              "distance": "LD",
-              "swim_distance": 3,
-              "bike_distance": 157,
-              "run_distance": 42.195,
-              "description": "2017年大会。美しい宮古島の自然を舞台に、鉄人たちが限界に挑戦しました。"
+              "id":"miyakojima",
+              "result_tsv":"master/2017/miyakojima/result.tsv",
+              "name":"宮古島トライアスロン",
+              "distance":"LD",
+              "swim_distance":3,
+              "bike_distance":157,
+              "run_distance":42.195,
+              "description":"2017年大会。美しい宮古島の自然を舞台に、鉄人たちが限界に挑戦しました。"
             }
           ]
         },
         {
-          "date": "2016-04-17",
-          "weather_file": "master/2016/miyakojima/weather-data.json",
-          "categories": [
+          "date":"2016-04-17",
+          "weather_file":"master/2016/miyakojima/weather-data.json",
+          "categories":[
             {
-              "id": "miyakojima",
-              "result_tsv": "master/2016/miyakojima/result.tsv",
-              "name": "宮古島トライアスロン",
-              "distance": "LD",
-              "swim_distance": 3,
-              "bike_distance": 157,
-              "run_distance": 42.195,
-              "description": "2016年の宮古島トライアスロン。スイム3km、バイク157km、ラン42.195kmの過酷なレース。"
+              "id":"miyakojima",
+              "result_tsv":"master/2016/miyakojima/result.tsv",
+              "name":"宮古島トライアスロン",
+              "distance":"LD",
+              "swim_distance":3,
+              "bike_distance":157,
+              "run_distance":42.195,
+              "description":"2016年の宮古島トライアスロン。スイム3km、バイク157km、ラン42.195kmの過酷なレース。"
             }
           ]
         }
       ]
     },
     {
-      "id": "yokohama",
-      "name": "横浜トライアスロン",
-      "location": "横浜・みなとみらい",
-      "image": "images/yokohama.webp",
-      "source": "https://yokohamatriathlon.jp/wts/greeting.html",
-      "editions": [
+      "id":"yokohama",
+      "name":"横浜トライアスロン",
+      "location":"横浜・みなとみらい",
+      "image":"images/yokohama.webp",
+      "source":"https://yokohamatriathlon.jp/wts/greeting.html",
+      "editions":[
         {
-          "date": "2025-05-18",
-          "weather_file": "master/2025/yokohama/weather-data.json",
-          "categories": [
+          "date":"2025-05-18",
+          "weather_file":"master/2025/yokohama/weather-data.json",
+          "categories":[
             {
-              "id": "yokohama",
-              "result_tsv": "master/2025/yokohama/result.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2025年のWTCS横浜大会オリンピックディスタンス。世界各国からエリート選手が集結し、トップレベルの戦いが繰り広げられました。"
+              "id":"yokohama",
+              "result_tsv":"master/2025/yokohama/result.tsv",
+              "name":"オリンピックディスタンス",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2025年のWTCS横浜大会オリンピックディスタンス。世界各国からエリート選手が集結し、トップレベルの戦いが繰り広げられました。"
             },
             {
-              "id": "yokohama_sprint",
-              "result_tsv": "master/2025/yokohama_sprint/result.tsv",
-              "name": "スプリントディスタンス",
-              "distance": "SD",
-              "swim_distance": 0.75,
-              "bike_distance": 20,
-              "run_distance": 5,
-              "description": "2025年横浜大会スプリントディスタンス。都心の洗練された都市景観をコースに、スピード感あふれるレース展開が見どころでした。"
+              "id":"yokohama_sprint",
+              "result_tsv":"master/2025/yokohama_sprint/result.tsv",
+              "name":"スプリントディスタンス",
+              "distance":"SD",
+              "swim_distance":0.75,
+              "bike_distance":20,
+              "run_distance":5,
+              "description":"2025年横浜大会スプリントディスタンス。都心の洗練された都市景観をコースに、スピード感あふれるレース展開が見どころでした。"
             }
           ]
         },
         {
-          "date": "2024-05-12",
-          "weather_file": "master/2024/yokohama/weather-data.json",
-          "categories": [
+          "date":"2024-05-12",
+          "weather_file":"master/2024/yokohama/weather-data.json",
+          "categories":[
             {
-              "id": "yokohama",
-              "result_tsv": "master/2024/yokohama/result.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2024年のWTCS横浜大会オリンピックディスタンス。世界各国からエリート選手が集結し、トップレベルの戦いが繰り広げられました。"
+              "id":"yokohama",
+              "result_tsv":"master/2024/yokohama/result.tsv",
+              "name":"オリンピックディスタンス",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2024年のWTCS横浜大会オリンピックディスタンス。世界各国からエリート選手が集結し、トップレベルの戦いが繰り広げられました。"
             },
             {
-              "id": "yokohama_sprint",
-              "result_tsv": "master/2024/yokohama_sprint/result.tsv",
-              "name": "スプリントディスタンス",
-              "distance": "SD",
-              "swim_distance": 0.75,
-              "bike_distance": 20,
-              "run_distance": 5,
-              "description": "2024年横浜大会スプリントディスタンス。都心の洗練された都市景観をコースに、スピード感あふれるレース展開が見どころでした。"
+              "id":"yokohama_sprint",
+              "result_tsv":"master/2024/yokohama_sprint/result.tsv",
+              "name":"スプリントディスタンス",
+              "distance":"SD",
+              "swim_distance":0.75,
+              "bike_distance":20,
+              "run_distance":5,
+              "description":"2024年横浜大会スプリントディスタンス。都心の洗練された都市景観をコースに、スピード感あふれるレース展開が見どころでした。"
             }
           ]
         },
         {
-          "date": "2023-05-14",
-          "weather_file": "master/2023/yokohama/weather-data.json",
-          "categories": [
+          "date":"2023-05-14",
+          "weather_file":"master/2023/yokohama/weather-data.json",
+          "categories":[
             {
-              "id": "yokohama",
-              "result_tsv": "master/2023/yokohama/result.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2023年WTCS横浜オリンピックディスタンス。パリ五輪選考に向けた重要な大会として、各国代表選手が最高のパフォーマンスを見せました。"
+              "id":"yokohama",
+              "result_tsv":"master/2023/yokohama/result.tsv",
+              "name":"オリンピックディスタンス",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2023年WTCS横浜オリンピックディスタンス。パリ五輪選考に向けた重要な大会として、各国代表選手が最高のパフォーマンスを見せました。"
             },
             {
-              "id": "yokohama_sprint",
-              "result_tsv": "master/2023/yokohama_sprint/result.tsv",
-              "name": "スプリントディスタンス",
-              "distance": "SD",
-              "swim_distance": 0.75,
-              "bike_distance": 20,
-              "run_distance": 5,
-              "description": "2023年横浜スプリント大会。山下公園周辺の海と街を舞台に、短距離ながら白熱したレースが展開されました。"
+              "id":"yokohama_sprint",
+              "result_tsv":"master/2023/yokohama_sprint/result.tsv",
+              "name":"スプリントディスタンス",
+              "distance":"SD",
+              "swim_distance":0.75,
+              "bike_distance":20,
+              "run_distance":5,
+              "description":"2023年横浜スプリント大会。山下公園周辺の海と街を舞台に、短距離ながら白熱したレースが展開されました。"
             }
           ]
         },
         {
-          "date": "2022-05-13",
-          "weather_file": "master/2022/yokohama/weather-data.json",
-          "categories": [
+          "date":"2022-05-13",
+          "weather_file":"master/2022/yokohama/weather-data.json",
+          "categories":[
             {
-              "id": "yokohama",
-              "result_tsv": "master/2022/yokohama_sprint/result.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2022年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
+              "id":"yokohama",
+              "result_tsv":"master/2022/yokohama_sprint/result.tsv",
+              "name":"オリンピックディスタンス",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2022年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
             },
             {
-              "id": "yokohama_sprint",
-              "result_tsv": "master/2022/yokohama_sprint/result.tsv",
-              "name": "スプリントディスタンス",
-              "distance": "SD",
-              "swim_distance": 0.75,
-              "bike_distance": 20,
-              "run_distance": 5,
-              "description": "2022年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
+              "id":"yokohama_sprint",
+              "result_tsv":"master/2022/yokohama_sprint/result.tsv",
+              "name":"スプリントディスタンス",
+              "distance":"SD",
+              "swim_distance":0.75,
+              "bike_distance":20,
+              "run_distance":5,
+              "description":"2022年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
             }
           ]
         },
         {
-          "date": "2021-05-16",
-          "weather_file": "master/2021/yokohama/weather-data.json",
-          "categories": [
+          "date":"2021-05-16",
+          "weather_file":"master/2021/yokohama/weather-data.json",
+          "categories":[
             {
-              "id": "yokohama",
-              "result_tsv": "master/2021/yokohama/result.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2021年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
+              "id":"yokohama",
+              "result_tsv":"master/2021/yokohama/result.tsv",
+              "name":"オリンピックディスタンス",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2021年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
             },
             {
-              "id": "yokohama_sprint",
-              "result_tsv": "master/2021/yokohama_sprint/result.tsv",
-              "name": "スプリントディスタンス",
-              "distance": "SD",
-              "swim_distance": 0.75,
-              "bike_distance": 20,
-              "run_distance": 5,
-              "description": "2021年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
+              "id":"yokohama_sprint",
+              "result_tsv":"master/2021/yokohama_sprint/result.tsv",
+              "name":"スプリントディスタンス",
+              "distance":"SD",
+              "swim_distance":0.75,
+              "bike_distance":20,
+              "run_distance":5,
+              "description":"2021年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
             }
           ]
         },
         {
-          "date": "2019-05-19",
-          "weather_file": "master/2019/yokohama/weather-data.json",
-          "categories": [
+          "date":"2019-05-19",
+          "weather_file":"master/2019/yokohama/weather-data.json",
+          "categories":[
             {
-              "id": "yokohama",
-              "result_tsv": "master/2019/yokohama/result.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2019年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
+              "id":"yokohama",
+              "result_tsv":"master/2019/yokohama/result.tsv",
+              "name":"オリンピックディスタンス",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2019年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
             },
             {
-              "id": "yokohama_sprint",
-              "result_tsv": "master/2019/yokohama_sprint/result.tsv",
-              "name": "スプリントディスタンス",
-              "distance": "SD",
-              "swim_distance": 0.75,
-              "bike_distance": 20,
-              "run_distance": 5,
-              "description": "2019年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
+              "id":"yokohama_sprint",
+              "result_tsv":"master/2019/yokohama_sprint/result.tsv",
+              "name":"スプリントディスタンス",
+              "distance":"SD",
+              "swim_distance":0.75,
+              "bike_distance":20,
+              "run_distance":5,
+              "description":"2019年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
             }
           ]
         },
         {
-          "date": "2018-05-19",
-          "weather_file": "master/2018/yokohama/weather-data.json",
-          "categories": [
+          "date":"2018-05-19",
+          "weather_file":"master/2018/yokohama/weather-data.json",
+          "categories":[
             {
-              "id": "yokohama",
-              "result_tsv": "master/2018/yokohama/result.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2018年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
+              "id":"yokohama",
+              "result_tsv":"master/2018/yokohama/result.tsv",
+              "name":"オリンピックディスタンス",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2018年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
             },
             {
-              "id": "yokohama_sprint",
-              "result_tsv": "master/2018/yokohama_sprint/result.tsv",
-              "name": "スプリントディスタンス",
-              "distance": "SD",
-              "swim_distance": 0.75,
-              "bike_distance": 20,
-              "run_distance": 5,
-              "description": "2018年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
+              "id":"yokohama_sprint",
+              "result_tsv":"master/2018/yokohama_sprint/result.tsv",
+              "name":"スプリントディスタンス",
+              "distance":"SD",
+              "swim_distance":0.75,
+              "bike_distance":20,
+              "run_distance":5,
+              "description":"2018年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
             }
           ]
         },
         {
-          "date": "2017-05-14",
-          "weather_file": "master/2017/yokohama/weather-data.json",
-          "categories": [
+          "date":"2017-05-14",
+          "weather_file":"master/2017/yokohama/weather-data.json",
+          "categories":[
             {
-              "id": "yokohama",
-              "result_tsv": "master/2017/yokohama/result.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2017年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
+              "id":"yokohama",
+              "result_tsv":"master/2017/yokohama/result.tsv",
+              "name":"オリンピックディスタンス",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2017年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
             },
             {
-              "id": "yokohama_sprint",
-              "result_tsv": "master/2017/yokohama_sprint/result.tsv",
-              "name": "スプリントディスタンス",
-              "distance": "SD",
-              "swim_distance": 0.75,
-              "bike_distance": 20,
-              "run_distance": 5,
-              "description": "2017年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
+              "id":"yokohama_sprint",
+              "result_tsv":"master/2017/yokohama_sprint/result.tsv",
+              "name":"スプリントディスタンス",
+              "distance":"SD",
+              "swim_distance":0.75,
+              "bike_distance":20,
+              "run_distance":5,
+              "description":"2017年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
             }
           ]
         },
         {
-          "date": "2016-05-15",
-          "weather_file": "master/2016/yokohama/weather-data.json",
-          "categories": [
+          "date":"2016-05-15",
+          "weather_file":"master/2016/yokohama/weather-data.json",
+          "categories":[
             {
-              "id": "yokohama",
-              "result_tsv": "master/2016/yokohama/result.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2016年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
+              "id":"yokohama",
+              "result_tsv":"master/2016/yokohama/result.tsv",
+              "name":"オリンピックディスタンス",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2016年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
             },
             {
-              "id": "yokohama_sprint",
-              "result_tsv": "master/2016/yokohama_sprint/result.tsv",
-              "name": "スプリントディスタンス",
-              "distance": "SD",
-              "swim_distance": 0.75,
-              "bike_distance": 20,
-              "run_distance": 5,
-              "description": "2016年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
+              "id":"yokohama_sprint",
+              "result_tsv":"master/2016/yokohama_sprint/result.tsv",
+              "name":"スプリントディスタンス",
+              "distance":"SD",
+              "swim_distance":0.75,
+              "bike_distance":20,
+              "run_distance":5,
+              "description":"2016年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
             }
           ]
         },
         {
-          "date": "2015-05-17",
-          "weather_file": "master/2015/yokohama/weather-data.json",
-          "categories": [
+          "date":"2015-05-17",
+          "weather_file":"master/2015/yokohama/weather-data.json",
+          "categories":[
             {
-              "id": "yokohama",
-              "result_tsv": "master/2015/yokohama/result.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2015年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
+              "id":"yokohama",
+              "result_tsv":"master/2015/yokohama/result.tsv",
+              "name":"オリンピックディスタンス",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2015年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
             },
             {
-              "id": "yokohama_sprint",
-              "result_tsv": "master/2015/yokohama_sprint/result.tsv",
-              "name": "スプリントディスタンス",
-              "distance": "SD",
-              "swim_distance": 0.75,
-              "bike_distance": 20,
-              "run_distance": 5,
-              "description": "2015年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
+              "id":"yokohama_sprint",
+              "result_tsv":"master/2015/yokohama_sprint/result.tsv",
+              "name":"スプリントディスタンス",
+              "distance":"SD",
+              "swim_distance":0.75,
+              "bike_distance":20,
+              "run_distance":5,
+              "description":"2015年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
             }
           ]
         },
         {
-          "date": "2014-05-18",
-          "weather_file": "master/2014/yokohama/weather-data.json",
-          "categories": [
+          "date":"2014-05-18",
+          "weather_file":"master/2014/yokohama/weather-data.json",
+          "categories":[
             {
-              "id": "yokohama",
-              "result_tsv": "master/2014/yokohama/result.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2014年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
+              "id":"yokohama",
+              "result_tsv":"master/2014/yokohama/result.tsv",
+              "name":"オリンピックディスタンス",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2014年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
             },
             {
-              "id": "yokohama_sprint",
-              "result_tsv": "master/2014/yokohama_sprint/result.tsv",
-              "name": "スプリントディスタンス",
-              "distance": "SD",
-              "swim_distance": 0.75,
-              "bike_distance": 20,
-              "run_distance": 5,
-              "description": "2014年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
+              "id":"yokohama_sprint",
+              "result_tsv":"master/2014/yokohama_sprint/result.tsv",
+              "name":"スプリントディスタンス",
+              "distance":"SD",
+              "swim_distance":0.75,
+              "bike_distance":20,
+              "run_distance":5,
+              "description":"2014年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
             }
           ]
         },
         {
-          "date": "2013-05-12",
-          "weather_file": "master/2013/yokohama/weather-data.json",
-          "categories": [
+          "date":"2013-05-12",
+          "weather_file":"master/2013/yokohama/weather-data.json",
+          "categories":[
             {
-              "id": "yokohama",
-              "result_tsv": "master/2013/yokohama/result.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2013年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
+              "id":"yokohama",
+              "result_tsv":"master/2013/yokohama/result.tsv",
+              "name":"オリンピックディスタンス",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2013年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
             },
             {
-              "id": "yokohama_sprint",
-              "result_tsv": "master/2013/yokohama_sprint/result.tsv",
-              "name": "スプリントディスタンス",
-              "distance": "SD",
-              "swim_distance": 0.75,
-              "bike_distance": 20,
-              "run_distance": 5,
-              "description": "2013年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
+              "id":"yokohama_sprint",
+              "result_tsv":"master/2013/yokohama_sprint/result.tsv",
+              "name":"スプリントディスタンス",
+              "distance":"SD",
+              "swim_distance":0.75,
+              "bike_distance":20,
+              "run_distance":5,
+              "description":"2013年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
             }
           ]
         },
         {
-          "date": "2012-09-30",
-          "weather_file": "master/2012/yokohama/weather-data.json",
-          "categories": [
+          "date":"2012-09-30",
+          "weather_file":"master/2012/yokohama/weather-data.json",
+          "categories":[
             {
-              "id": "yokohama",
-              "result_tsv": "master/2012/yokohama/result.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2012年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
+              "id":"yokohama",
+              "result_tsv":"master/2012/yokohama/result.tsv",
+              "name":"オリンピックディスタンス",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2012年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
             },
             {
-              "id": "yokohama_sprint",
-              "result_tsv": "master/2012/yokohama_sprint/result.tsv",
-              "name": "スプリントディスタンス",
-              "distance": "SD",
-              "swim_distance": 0.75,
-              "bike_distance": 20,
-              "run_distance": 5,
-              "description": "2012年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
+              "id":"yokohama_sprint",
+              "result_tsv":"master/2012/yokohama_sprint/result.tsv",
+              "name":"スプリントディスタンス",
+              "distance":"SD",
+              "swim_distance":0.75,
+              "bike_distance":20,
+              "run_distance":5,
+              "description":"2012年横浜スプリント競技。みなとみらいの都市景観の中、初心者からエリートまで楽しめる短距離レースとして開催されました。"
             }
           ]
         },
         {
-          "date": "2011-09-18",
-          "weather_file": "master/2011/yokohama/weather-data.json",
-          "categories": [
+          "date":"2011-09-18",
+          "weather_file":"master/2011/yokohama/weather-data.json",
+          "categories":[
             {
-              "id": "yokohama",
-              "result_tsv": "master/2011/yokohama/result.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2011年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
+              "id":"yokohama",
+              "result_tsv":"master/2011/yokohama/result.tsv",
+              "name":"オリンピックディスタンス",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2011年横浜オリンピックディスタンス大会。世界ランキングポイントが懸かる国際大会として、日本代表選手も健闘しました。"
             }
           ]
         }
       ]
     },
     {
-      "id": "watarase",
-      "name": "東京都トライアスロン渡良瀬大会",
-      "location": "渡良瀬遊水地",
-      "image": "images/watarase.webp",
-      "source": "https://www.sportsentry.ne.jp/event/t/75005",
-      "editions": [
+      "id":"watarase",
+      "name":"東京都トライアスロン渡良瀬大会",
+      "location":"渡良瀬遊水地",
+      "image":"images/watarase.webp",
+      "source":"https://www.sportsentry.ne.jp/event/t/75005",
+      "editions":[
         {
-          "date": "2018-06-17",
-          "weather_file": "master/2018/watarase/weather-data.json",
-          "categories": [
+          "date":"2018-06-17",
+          "weather_file":"master/2018/watarase/weather-data.json",
+          "categories":[
             {
-              "id": "watarase",
-              "result_tsv": "master/2018/watarase/result.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2018年6月17日開催。ラムサール条約登録湿地の広大な渡良瀬遊水地が舞台。スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンス。JTU公認大会で、東京都の国体予選も兼ねる。"
+              "id":"watarase",
+              "result_tsv":"master/2018/watarase/result.tsv",
+              "name":"オリンピックディスタンス",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2018年6月17日開催。ラムサール条約登録湿地の広大な渡良瀬遊水地が舞台。スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンス。JTU公認大会で、東京都の国体予選も兼ねる。"
             }
           ]
         }
       ]
     },
     {
-      "id": "niijima",
-      "name": "新島トライアスロン",
-      "location": "新島",
-      "image": "images/niijima.webp",
-      "source": "https://www.mspo.jp/island1/niijima_tri/",
-      "editions": [
+      "id":"niijima",
+      "name":"新島トライアスロン",
+      "location":"新島",
+      "image":"images/niijima.webp",
+      "source":"https://www.mspo.jp/island1/niijima_tri/",
+      "editions":[
         {
-          "date": "2024-05-18",
-          "weather_file": "master/2024/niijima/weather-data.json",
-          "categories": [
+          "date":"2024-05-18",
+          "weather_file":"master/2024/niijima/weather-data.json",
+          "categories":[
             {
-              "id": "niijima",
-              "result_tsv": "master/2024/niijima/result.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2024年新島オリンピックディスタンス大会。新島の美しい自然環境の中、エリート選手からアマチュアまでが参加する大会です。"
+              "id":"niijima",
+              "result_tsv":"master/2024/niijima/result.tsv",
+              "name":"オリンピックディスタンス",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2024年新島オリンピックディスタンス大会。新島の美しい自然環境の中、エリート選手からアマチュアまでが参加する大会です。"
             }
           ]
         },
         {
-          "date": "2023-05-20",
-          "weather_file": "master/2023/niijima/weather-data.json",
-          "categories": [
+          "date":"2023-05-20",
+          "weather_file":"master/2023/niijima/weather-data.json",
+          "categories":[
             {
-              "id": "niijima",
-              "result_tsv": "master/2023/niijima/result.tsv",
-              "name": "デュアスロン",
-              "distance": "DUATHLON",
-              "swim_distance": 2,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2023年新島オリンピックディスタンス大会。デュアスロン形式での開催もあり、参加者にとって新たな挑戦となりました。"
+              "id":"niijima",
+              "result_tsv":"master/2023/niijima/result.tsv",
+              "name":"デュアスロン",
+              "distance":"DUATHLON",
+              "swim_distance":2,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2023年新島オリンピックディスタンス大会。デュアスロン形式での開催もあり、参加者にとって新たな挑戦となりました。"
             }
           ]
         },
         {
-          "date": "2022-05-21",
-          "weather_file": "master/2022/niijima/weather-data.json",
-          "categories": [
+          "date":"2022-05-21",
+          "weather_file":"master/2022/niijima/weather-data.json",
+          "categories":[
             {
-              "id": "niijima",
-              "result_tsv": "master/2022/niijima/result.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2022年新島オリンピックディスタンス大会。新島の美しい自然環境の中、エリート選手からアマチュアまでが参加する大会です。"
+              "id":"niijima",
+              "result_tsv":"master/2022/niijima/result.tsv",
+              "name":"オリンピックディスタンス",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2022年新島オリンピックディスタンス大会。新島の美しい自然環境の中、エリート選手からアマチュアまでが参加する大会です。"
             }
           ]
         }
       ]
     },
     {
-      "id": "tateyama",
-      "name": "館山わかしおトライアスロン",
-      "location": "館山",
-      "image": "images/tateyama.webp",
-      "source": "https://www.tateyama-tri.com/",
-      "editions": [
+      "id":"tateyama",
+      "name":"館山わかしおトライアスロン",
+      "location":"館山",
+      "image":"images/tateyama.webp",
+      "source":"https://www.tateyama-tri.com/",
+      "editions":[
         {
-          "date": "2025-05-25",
-          "weather_file": "master/2025/tateyama/weather-data.json",
-          "categories": [
+          "date":"2025-05-25",
+          "weather_file":"master/2025/tateyama/weather-data.json",
+          "categories":[
             {
-              "id": "tateyama",
-              "result_tsv": "master/2025/tateyama/result.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 0.4,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2025年館山オリンピックディスタンス大会。南房総の美しい海と自然を舞台に、スイム400m、バイク40km、ラン10kmのコースに挑戦します。"
+              "id":"tateyama",
+              "result_tsv":"master/2025/tateyama/result.tsv",
+              "name":"オリンピックディスタンス",
+              "distance":"OD",
+              "swim_distance":0.4,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2025年館山オリンピックディスタンス大会。南房総の美しい海と自然を舞台に、スイム400m、バイク40km、ラン10kmのコースに挑戦します。"
             },
             {
-              "id": "tateyama_duathlon",
-              "result_tsv": "master/2025/tateyama_duathlon/result.tsv",
-              "name": "デュアスロン",
-              "distance": "DUATHLON",
-              "swim_distance": 0.2,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2025年館山オリンピックディスタンス大会。スイムが無くなりデュアスロンになりました。、ラン(200m)、バイク40km、ラン10kmのコースに挑戦します。"
+              "id":"tateyama_duathlon",
+              "result_tsv":"master/2025/tateyama_duathlon/result.tsv",
+              "name":"デュアスロン",
+              "distance":"DUATHLON",
+              "swim_distance":0.2,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2025年館山オリンピックディスタンス大会。スイムが無くなりデュアスロンになりました。、ラン(200m)、バイク40km、ラン10kmのコースに挑戦します。"
             },
             {
-              "id": "tateyama_sprint",
-              "result_tsv": "master/2025/tateyama_sprint/result.tsv",
-              "name": "スプリントディスタンス",
-              "distance": "DUATHLON",
-              "swim_distance": 0.2,
-              "bike_distance": 20,
-              "run_distance": 5,
-              "description": "2025年館山スプリントディスタンス大会。南房総の美しい海と自然を舞台に、ラン(200m)、バイク20km、ラン5kmのコースに挑戦します。"
+              "id":"tateyama_sprint",
+              "result_tsv":"master/2025/tateyama_sprint/result.tsv",
+              "name":"スプリントディスタンス",
+              "distance":"DUATHLON",
+              "swim_distance":0.2,
+              "bike_distance":20,
+              "run_distance":5,
+              "description":"2025年館山スプリントディスタンス大会。南房総の美しい海と自然を舞台に、ラン(200m)、バイク20km、ラン5kmのコースに挑戦します。"
             }
           ]
         }
       ]
     },
     {
-      "id": "osaka",
-      "name": "大阪城トライアスロン",
-      "location": "大阪城",
-      "image": "images/osaka.webp",
-      "source": "https://eventdev.osaka-triathlon.com/ja/toppage/",
-      "editions": [
+      "id":"osaka",
+      "name":"大阪城トライアスロン",
+      "location":"大阪城",
+      "image":"images/osaka.webp",
+      "source":"https://eventdev.osaka-triathlon.com/ja/toppage/",
+      "editions":[
         {
-          "date": "2025-05-25",
-          "weather_file": "master/2025/osaka/weather-data.json",
-          "categories": [
+          "date":"2025-05-25",
+          "weather_file":"master/2025/osaka/weather-data.json",
+          "categories":[
             {
-              "id": "osaka",
-              "result_tsv": "master/2025/osaka/result.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2025年大阪城トライアスロン オリンピックディスタンス。歴史的な大阪城を背景に、スイム1.5km、バイク40km、ラン10kmのコースに挑戦。都市型トライアスロンの魅力が詰まった大会です。"
+              "id":"osaka",
+              "result_tsv":"master/2025/osaka/result.tsv",
+              "name":"オリンピックディスタンス",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2025年大阪城トライアスロン オリンピックディスタンス。歴史的な大阪城を背景に、スイム1.5km、バイク40km、ラン10kmのコースに挑戦。都市型トライアスロンの魅力が詰まった大会です。"
             },
             {
-              "id": "osaka_sprint",
-              "result_tsv": "master/2025/osaka_sprint/result.tsv",
-              "name": "スプリントディスタンス",
-              "distance": "SD",
-              "swim_distance": 0.75,
-              "bike_distance": 20,
-              "run_distance": 5,
-              "description": "2025年大阪城トライアスロン スプリントディスタンス。大阪の中心部で開催される都市型レース。スイム750m、バイク20km、ラン5kmの距離で、初心者からエキスパートまで楽しめる大会です。"
+              "id":"osaka_sprint",
+              "result_tsv":"master/2025/osaka_sprint/result.tsv",
+              "name":"スプリントディスタンス",
+              "distance":"SD",
+              "swim_distance":0.75,
+              "bike_distance":20,
+              "run_distance":5,
+              "description":"2025年大阪城トライアスロン スプリントディスタンス。大阪の中心部で開催される都市型レース。スイム750m、バイク20km、ラン5kmの距離で、初心者からエキスパートまで楽しめる大会です。"
             }
           ]
         }
       ]
     },
     {
-      "id": "amakusa",
-      "name": "天草宝島国際トライアスロン大会",
-      "location": "天草",
-      "image": "images/amakusa.webp",
-      "source": "https://amakusa-triathlon.jp/",
-      "editions": [
+      "id":"amakusa",
+      "name":"天草宝島国際トライアスロン大会",
+      "location":"天草",
+      "image":"images/amakusa.webp",
+      "source":"https://amakusa-triathlon.jp/",
+      "editions":[
         {
-          "date": "2025-05-25",
-          "weather_file": "master/2025/amakusa/weather-data.json",
-          "categories": [
+          "date":"2025-05-25",
+          "weather_file":"master/2025/amakusa/weather-data.json",
+          "categories":[
             {
-              "id": "amakusa",
-              "result_tsv": "master/2025/amakusa/result.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2025年天草宝島国際トライアスロン大会。美しい天草の海を舞台に、スイム1.5km、バイク40km、ラン10kmのコースに挑戦。自然と歴史が融合した魅力的な大会です。"
+              "id":"amakusa",
+              "result_tsv":"master/2025/amakusa/result.tsv",
+              "name":"オリンピックディスタンス",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2025年天草宝島国際トライアスロン大会。美しい天草の海を舞台に、スイム1.5km、バイク40km、ラン10kmのコースに挑戦。自然と歴史が融合した魅力的な大会です。"
             }
           ]
         },
         {
-          "date": "2024-05-26",
-          "weather_file": "master/2024/amakusa/weather-data.json",
-          "categories": [
+          "date":"2024-05-26",
+          "weather_file":"master/2024/amakusa/weather-data.json",
+          "categories":[
             {
-              "id": "amakusa",
-              "result_tsv": "master/2024/amakusa/result.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2024年天草宝島国際トライアスロン大会。美しい天草の海を舞台に、スイム1.5km、バイク40km、ラン10kmのコースに挑戦。自然と歴史が融合した魅力的な大会です。"
+              "id":"amakusa",
+              "result_tsv":"master/2024/amakusa/result.tsv",
+              "name":"オリンピックディスタンス",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2024年天草宝島国際トライアスロン大会。美しい天草の海を舞台に、スイム1.5km、バイク40km、ラン10kmのコースに挑戦。自然と歴史が融合した魅力的な大会です。"
             }
           ]
         }
       ]
     },
     {
-      "id": "sainokuni",
-      "name": "彩の国トライアスロンin加須大会",
-      "location": "加須・渡良瀬遊水地",
-      "image": "images/sainokuni.webp",
-      "source": "https://www.sainokunitri.com/",
-      "editions": [
+      "id":"sainokuni",
+      "name":"彩の国トライアスロンin加須大会",
+      "location":"加須・渡良瀬遊水地",
+      "image":"images/sainokuni.webp",
+      "source":"https://www.sainokunitri.com/",
+      "editions":[
         {
-          "date": "2025-06-01",
-          "weather_file": "master/2025/sainokuni_a/weather-data.json",
-          "categories": [
+          "date":"2025-06-01",
+          "weather_file":"master/2025/sainokuni_a/weather-data.json",
+          "categories":[
             {
-              "id": "sainokuni_a",
-              "result_tsv": "master/2025/sainokuni_a/result.tsv",
-              "name": "Aタイプ（ミドルディスタンス）",
-              "distance": "MD",
-              "swim_distance": 2.25,
-              "bike_distance": 72,
-              "run_distance": 15,
-              "description": "2025年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム2.25km、バイク72km、ラン15kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+              "id":"sainokuni_a",
+              "result_tsv":"master/2025/sainokuni_a/result.tsv",
+              "name":"Aタイプ（ミドルディスタンス）",
+              "distance":"MD",
+              "swim_distance":2.25,
+              "bike_distance":72,
+              "run_distance":15,
+              "description":"2025年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム2.25km、バイク72km、ラン15kmのコースに挑戦。地域の魅力を感じながらのレースです。"
             },
             {
-              "id": "sainokuni_b",
-              "result_tsv": "master/2025/sainokuni_b/result.tsv",
-              "name": "Bタイプ（オリンピックディスタンス）",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 43,
-              "run_distance": 10,
-              "description": "2025年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム1.5km、バイク43km、ラン10kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+              "id":"sainokuni_b",
+              "result_tsv":"master/2025/sainokuni_b/result.tsv",
+              "name":"Bタイプ（オリンピックディスタンス）",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":43,
+              "run_distance":10,
+              "description":"2025年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム1.5km、バイク43km、ラン10kmのコースに挑戦。地域の魅力を感じながらのレースです。"
             },
             {
-              "id": "sainokuni_c",
-              "result_tsv": "master/2025/sainokuni_c/result.tsv",
-              "name": "Cタイプ（スプリントディスタンス）",
-              "distance": "SD",
-              "swim_distance": 0.75,
-              "bike_distance": 21.6,
-              "run_distance": 5,
-              "description": "2025年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム750m、バイク21.6km、ラン5kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+              "id":"sainokuni_c",
+              "result_tsv":"master/2025/sainokuni_c/result.tsv",
+              "name":"Cタイプ（スプリントディスタンス）",
+              "distance":"SD",
+              "swim_distance":0.75,
+              "bike_distance":21.6,
+              "run_distance":5,
+              "description":"2025年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム750m、バイク21.6km、ラン5kmのコースに挑戦。地域の魅力を感じながらのレースです。"
             }
           ]
         },
         {
-          "date": "2023-06-04",
-          "weather_file": "master/2023/sainokuni_a/weather-data.json",
-          "categories": [
+          "date":"2023-06-04",
+          "weather_file":"master/2023/sainokuni_a/weather-data.json",
+          "categories":[
             {
-              "id": "sainokuni_a",
-              "result_tsv": "master/2023/sainokuni_a/result.tsv",
-              "name": "Aタイプ（ミドルディスタンス）",
-              "distance": "MD",
-              "swim_distance": 2.25,
-              "bike_distance": 72,
-              "run_distance": 15,
-              "description": "2023年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム2.25km、バイク72km、ラン15kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+              "id":"sainokuni_a",
+              "result_tsv":"master/2023/sainokuni_a/result.tsv",
+              "name":"Aタイプ（ミドルディスタンス）",
+              "distance":"MD",
+              "swim_distance":2.25,
+              "bike_distance":72,
+              "run_distance":15,
+              "description":"2023年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム2.25km、バイク72km、ラン15kmのコースに挑戦。地域の魅力を感じながらのレースです。"
             },
             {
-              "id": "sainokuni_b",
-              "result_tsv": "master/2023/sainokuni_b/result.tsv",
-              "name": "Bタイプ（オリンピックディスタンス）",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 43,
-              "run_distance": 10,
-              "description": "2023年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム1.5km、バイク43km、ラン10kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+              "id":"sainokuni_b",
+              "result_tsv":"master/2023/sainokuni_b/result.tsv",
+              "name":"Bタイプ（オリンピックディスタンス）",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":43,
+              "run_distance":10,
+              "description":"2023年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム1.5km、バイク43km、ラン10kmのコースに挑戦。地域の魅力を感じながらのレースです。"
             },
             {
-              "id": "sainokuni_c",
-              "result_tsv": "master/2023/sainokuni_c/result.tsv",
-              "name": "Cタイプ（スプリントディスタンス）",
-              "distance": "SD",
-              "swim_distance": 0.75,
-              "bike_distance": 21.6,
-              "run_distance": 5,
-              "description": "2023年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム750m、バイク21.6km、ラン5kmのコースに挑戦。地域の自然や文化の魅力を感じながらのレースです。"
+              "id":"sainokuni_c",
+              "result_tsv":"master/2023/sainokuni_c/result.tsv",
+              "name":"Cタイプ（スプリントディスタンス）",
+              "distance":"SD",
+              "swim_distance":0.75,
+              "bike_distance":21.6,
+              "run_distance":5,
+              "description":"2023年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム750m、バイク21.6km、ラン5kmのコースに挑戦。地域の自然や文化の魅力を感じながらのレースです。"
             }
           ]
         },
         {
-          "date": "2022-06-05",
-          "weather_file": "master/2022/sainokuni_a/weather-data.json",
-          "categories": [
+          "date":"2022-06-05",
+          "weather_file":"master/2022/sainokuni_a/weather-data.json",
+          "categories":[
             {
-              "id": "sainokuni_a",
-              "result_tsv": "master/2022/sainokuni_a/result.tsv",
-              "name": "Aタイプ（ミドルディスタンス）",
-              "distance": "MD",
-              "swim_distance": 2.25,
-              "bike_distance": 72,
-              "run_distance": 15,
-              "description": "2022年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム2.25km、バイク72km、ラン15kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+              "id":"sainokuni_a",
+              "result_tsv":"master/2022/sainokuni_a/result.tsv",
+              "name":"Aタイプ（ミドルディスタンス）",
+              "distance":"MD",
+              "swim_distance":2.25,
+              "bike_distance":72,
+              "run_distance":15,
+              "description":"2022年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム2.25km、バイク72km、ラン15kmのコースに挑戦。地域の魅力を感じながらのレースです。"
             },
             {
-              "id": "sainokuni_b",
-              "result_tsv": "master/2022/sainokuni_b/result.tsv",
-              "name": "Bタイプ（オリンピックディスタンス）",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 43,
-              "run_distance": 10,
-              "description": "2022年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム1.5km、バイク43km、ラン10kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+              "id":"sainokuni_b",
+              "result_tsv":"master/2022/sainokuni_b/result.tsv",
+              "name":"Bタイプ（オリンピックディスタンス）",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":43,
+              "run_distance":10,
+              "description":"2022年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム1.5km、バイク43km、ラン10kmのコースに挑戦。地域の魅力を感じながらのレースです。"
             },
             {
-              "id": "sainokuni_c",
-              "result_tsv": "master/2022/sainokuni_c/result.tsv",
-              "name": "Cタイプ（スプリントディスタンス）",
-              "distance": "SD",
-              "swim_distance": 0.75,
-              "bike_distance": 21.6,
-              "run_distance": 5,
-              "description": "2022年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム750m、バイク21.6km、ラン5kmのコースに挑戦。地域の自然や文化の魅力を感じながらのレースです。"
+              "id":"sainokuni_c",
+              "result_tsv":"master/2022/sainokuni_c/result.tsv",
+              "name":"Cタイプ（スプリントディスタンス）",
+              "distance":"SD",
+              "swim_distance":0.75,
+              "bike_distance":21.6,
+              "run_distance":5,
+              "description":"2022年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム750m、バイク21.6km、ラン5kmのコースに挑戦。地域の自然や文化の魅力を感じながらのレースです。"
             }
           ]
         },
         {
-          "date": "2021-06-06",
-          "weather_file": "master/2021/sainokuni_a/weather-data.json",
-          "categories": [
+          "date":"2021-06-06",
+          "weather_file":"master/2021/sainokuni_a/weather-data.json",
+          "categories":[
             {
-              "id": "sainokuni_a",
-              "result_tsv": "master/2021/sainokuni_a/result.tsv",
-              "name": "Aタイプ（ミドルディスタンス）",
-              "distance": "MD",
-              "swim_distance": 2.25,
-              "bike_distance": 72,
-              "run_distance": 15,
-              "description": "2021年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム2.25km、バイク72km、ラン15kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+              "id":"sainokuni_a",
+              "result_tsv":"master/2021/sainokuni_a/result.tsv",
+              "name":"Aタイプ（ミドルディスタンス）",
+              "distance":"MD",
+              "swim_distance":2.25,
+              "bike_distance":72,
+              "run_distance":15,
+              "description":"2021年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム2.25km、バイク72km、ラン15kmのコースに挑戦。地域の魅力を感じながらのレースです。"
             },
             {
-              "id": "sainokuni_b",
-              "result_tsv": "master/2021/sainokuni_b/result.tsv",
-              "name": "Bタイプ（オリンピックディスタンス）",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 43,
-              "run_distance": 10,
-              "description": "2021年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム1.5km、バイク43km、ラン10kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+              "id":"sainokuni_b",
+              "result_tsv":"master/2021/sainokuni_b/result.tsv",
+              "name":"Bタイプ（オリンピックディスタンス）",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":43,
+              "run_distance":10,
+              "description":"2021年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム1.5km、バイク43km、ラン10kmのコースに挑戦。地域の魅力を感じながらのレースです。"
             },
             {
-              "id": "sainokuni_c",
-              "result_tsv": "master/2021/sainokuni_c/result.tsv",
-              "name": "Cタイプ（スプリントディスタンス）",
-              "distance": "SD",
-              "swim_distance": 0.75,
-              "bike_distance": 21.6,
-              "run_distance": 5,
-              "description": "2021年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム750m、バイク21.6km、ラン5kmのコースに挑戦。地域の自然や文化の魅力を感じながらのレースです。"
+              "id":"sainokuni_c",
+              "result_tsv":"master/2021/sainokuni_c/result.tsv",
+              "name":"Cタイプ（スプリントディスタンス）",
+              "distance":"SD",
+              "swim_distance":0.75,
+              "bike_distance":21.6,
+              "run_distance":5,
+              "description":"2021年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム750m、バイク21.6km、ラン5kmのコースに挑戦。地域の自然や文化の魅力を感じながらのレースです。"
             }
           ]
         },
         {
-          "date": "2017-06-04",
-          "weather_file": "master/2017/sainokuni_a/weather-data.json",
-          "categories": [
+          "date":"2017-06-04",
+          "weather_file":"master/2017/sainokuni_a/weather-data.json",
+          "categories":[
             {
-              "id": "sainokuni_a",
-              "result_tsv": "master/2017/sainokuni_a/result.tsv",
-              "name": "Aタイプ（ミドルディスタンス）",
-              "distance": "MD",
-              "swim_distance": 2.25,
-              "bike_distance": 60,
-              "run_distance": 15,
-              "description": "2017年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム2.25km、バイク60km、ラン15kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+              "id":"sainokuni_a",
+              "result_tsv":"master/2017/sainokuni_a/result.tsv",
+              "name":"Aタイプ（ミドルディスタンス）",
+              "distance":"MD",
+              "swim_distance":2.25,
+              "bike_distance":60,
+              "run_distance":15,
+              "description":"2017年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム2.25km、バイク60km、ラン15kmのコースに挑戦。地域の魅力を感じながらのレースです。"
             },
             {
-              "id": "sainokuni_b",
-              "result_tsv": "master/2017/sainokuni_b/result.tsv",
-              "name": "Bタイプ（オリンピックディスタンス）",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2017年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム1.5km、バイク43km、ラン10kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+              "id":"sainokuni_b",
+              "result_tsv":"master/2017/sainokuni_b/result.tsv",
+              "name":"Bタイプ（オリンピックディスタンス）",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2017年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム1.5km、バイク43km、ラン10kmのコースに挑戦。地域の魅力を感じながらのレースです。"
             },
             {
-              "id": "sainokuni_c",
-              "result_tsv": "master/2017/sainokuni_c/result.tsv",
-              "name": "Cタイプ（スプリントディスタンス）",
-              "distance": "SD",
-              "swim_distance": 0.75,
-              "bike_distance": 20,
-              "run_distance": 5,
-              "description": "2017年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム750m、バイク21.6km、ラン5kmのコースに挑戦。地域の魅力を感じながらのレースです。"
+              "id":"sainokuni_c",
+              "result_tsv":"master/2017/sainokuni_c/result.tsv",
+              "name":"Cタイプ（スプリントディスタンス）",
+              "distance":"SD",
+              "swim_distance":0.75,
+              "bike_distance":20,
+              "run_distance":5,
+              "description":"2017年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム750m、バイク21.6km、ラン5kmのコースに挑戦。地域の魅力を感じながらのレースです。"
             }
           ]
         }
       ]
     },
     {
-      "id": "ishigakijima",
-      "name": "石垣島トライアスロン",
-      "location": "石垣島",
-      "image": "images/ishigakijima.webp",
-      "source": "https://ishigaki-triathlon.jp/",
-      "editions": [
+      "id":"ishigakijima",
+      "name":"石垣島トライアスロン",
+      "location":"石垣島",
+      "image":"images/ishigakijima.webp",
+      "source":"https://ishigaki-triathlon.jp/",
+      "editions":[
         {
-          "date": "2025-04-13",
-          "weather_file": "master/2025/ishigakijima/weather-data.json",
-          "categories": [
+          "date":"2025-04-13",
+          "weather_file":"master/2025/ishigakijima/weather-data.json",
+          "categories":[
             {
-              "id": "ishigakijima",
-              "result_tsv": "master/2025/ishigakijima/result.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2025年の石垣島トライアスロン。八重山ブルーの海を舞台に、スイム1500m、バイク40km、ラン10kmのレースが行われます。"
+              "id":"ishigakijima",
+              "result_tsv":"master/2025/ishigakijima/result.tsv",
+              "name":"オリンピックディスタンス",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2025年の石垣島トライアスロン。八重山ブルーの海を舞台に、スイム1500m、バイク40km、ラン10kmのレースが行われます。"
             }
           ]
         }
       ]
     },
     {
-      "id": "fukuyama",
-      "name": "福山かわまちトライアスロン",
-      "location": "広島・福山市",
-      "image": "images/fukuyama.webp",
-      "source": "https://fukuyamakawamachi-triathlon.com/",
-      "editions": [
+      "id":"fukuyama",
+      "name":"福山かわまちトライアスロン",
+      "location":"広島・福山市",
+      "image":"images/fukuyama.webp",
+      "source":"https://fukuyamakawamachi-triathlon.com/",
+      "editions":[
         {
-          "date": "2025-06-08",
-          "weather_file": "master/2025/fukuyama_short/weather-data.json",
-          "categories": [
+          "date":"2025-06-08",
+          "weather_file":"master/2025/fukuyama_short/weather-data.json",
+          "categories":[
             {
-              "id": "fukuyama_short",
-              "result_tsv": "master/2025/fukuyama_short/result.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "swim_distance": 1.5,
-              "bike_distance": 40,
-              "run_distance": 10,
-              "description": "2025年福山鞆の浦トライアスロン。国の重要伝統的建造物群保存地区に選定された風光明媚な鞆の浦を舞台に、スイム1.5km、バイク40km、ラン10kmのコースに挑戦します。"
+              "id":"fukuyama_short",
+              "result_tsv":"master/2025/fukuyama_short/result.tsv",
+              "name":"オリンピックディスタンス",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2025年福山鞆の浦トライアスロン。国の重要伝統的建造物群保存地区に選定された風光明媚な鞆の浦を舞台に、スイム1.5km、バイク40km、ラン10kmのコースに挑戦します。"
             },
             {
-              "id": "fukuyama_middle",
-              "result_tsv": "master/2025/fukuyama_middle/result.tsv",
-              "name": "ミドルディスタンス",
-              "distance": "MD",
-              "swim_distance": 2.25,
-              "bike_distance": 80,
-              "run_distance": 20,
-              "description": "2025年福山かわまちトライアスロンミドルディスタンス。広島県福山市の芦田川河口や瀬戸内海を舞台に、スイム2.25km、バイク80km、ラン20kmのコースに挑戦。瀬戸内の風景を楽しみながら行う本格ミドルレース。"
+              "id":"fukuyama_middle",
+              "result_tsv":"master/2025/fukuyama_middle/result.tsv",
+              "name":"ミドルディスタンス",
+              "distance":"MD",
+              "swim_distance":2.25,
+              "bike_distance":80,
+              "run_distance":20,
+              "description":"2025年福山かわまちトライアスロンミドルディスタンス。広島県福山市の芦田川河口や瀬戸内海を舞台に、スイム2.25km、バイク80km、ラン20kmのコースに挑戦。瀬戸内の風景を楽しみながら行う本格ミドルレース。"
             }
           ]
         }
       ]
     },
     {
-      "id": "nagaragawa",
-      "name": "長良川ミドルトライアスロン102",
-      "location": "岐阜県岐阜市",
-      "image": "images/nagaragawa.webp",
-      "source": "https://www.nagaragawa-middle102.jp/",
-      "editions": [
-      {
-        "date": "2025-05-25",
-        "weather_file": "master/2025/nagaragawa/weather-data.json",
-        "categories": [
+      "id":"nagaragawa",
+      "name":"長良川ミドルトライアスロン102",
+      "location":"岐阜県岐阜市",
+      "image":"images/nagaragawa.webp",
+      "source":"https://www.nagaragawa-middle102.jp/",
+      "editions":[
         {
-          "id": "nagaragawa",
-          "result_tsv": "master/2025/nagaragawa/result.tsv",
-          "name": "長良川ミドルトライアスロン102",
-          "distance": "MD",
-          "swim_distance": 2,
-          "bike_distance": 60,
-          "run_distance": 20,
-          "description": "2025年長良川ミドルトライアスロン102。岐阜県岐阜市の長良川を舞台に、スイム2km、バイク60km、ラン20kmのコースに挑戦。自然と歴史が融合した長良川の景観を眺めながらのレースです。"
+          "date":"2025-05-25",
+          "weather_file":"master/2025/nagaragawa/weather-data.json",
+          "categories":[
+            {
+              "id":"nagaragawa",
+              "result_tsv":"master/2025/nagaragawa/result.tsv",
+              "name":"長良川ミドルトライアスロン102",
+              "distance":"MD",
+              "swim_distance":2,
+              "bike_distance":60,
+              "run_distance":20,
+              "description":"2025年長良川ミドルトライアスロン102。岐阜県岐阜市の長良川を舞台に、スイム2km、バイク60km、ラン20kmのコースに挑戦。自然と歴史が融合した長良川の景観を眺めながらのレースです。"
+            }
+          ]
         }
-        ]
-      }
       ]
     },
     {
-      "id": "baramon",
-      "name": "五島長崎国際トライアスロン",
-      "location": "長崎県五島市",
-      "image": "images/baramon.webp",
-      "source": "https://gototri.com/?cat=12",
-      "editions": [
-              {
-        "date": "2024-06-23",
-        "weather_file": "master/2024/baramon_a/weather-data.json",
-        "categories": [
+      "id":"baramon",
+      "name":"五島長崎国際トライアスロン",
+      "location":"長崎県五島市",
+      "image":"images/baramon.webp",
+      "source":"https://gototri.com/?cat=12",
+      "editions":[
         {
-          "id": "baramon_a",
-          "result_tsv": "master/2024/baramon_a/result.tsv",
-          "name": "タイプA（ロングディスタンス）",
-          "distance": "LD",
-          "swim_distance": 0,
-          "bike_distance": 160,
-          "run_distance": 42.2,
-          "description": "2025年バラモンキング タイプA（ロングディスタンス）。長崎県五島列島の美しい海と山々を舞台に、バイク160km、ラン42.2kmの総距離約202kmに挑戦。起伏に富んだコースと島特有の厳しい気象条件が選手の限界を試します。"
+          "date":"2024-06-23",
+          "weather_file":"master/2024/baramon_a/weather-data.json",
+          "categories":[
+            {
+              "id":"baramon_a",
+              "result_tsv":"master/2024/baramon_a/result.tsv",
+              "name":"タイプA（ロングディスタンス）",
+              "distance":"LD",
+              "swim_distance":0,
+              "bike_distance":160,
+              "run_distance":42.2,
+              "description":"2025年バラモンキング タイプA（ロングディスタンス）。長崎県五島列島の美しい海と山々を舞台に、バイク160km、ラン42.2kmの総距離約202kmに挑戦。起伏に富んだコースと島特有の厳しい気象条件が選手の限界を試します。"
+            },
+            {
+              "id":"baramon_b",
+              "result_tsv":"master/2024/baramon_b/result.tsv",
+              "name":"タイプB（ミドルディスタンス）",
+              "distance":"MD",
+              "swim_distance":0,
+              "bike_distance":124,
+              "run_distance":21.1,
+              "description":"2025年バラモンキング タイプB（ミドルディスタンス）。五島の絶景を楽しみながら、バイク124km、ラン21.1kmのコースに挑戦。五島列島の豊かな自然と文化に触れながら、挑戦的なアップダウンと変化する気象条件の中で行われる大会です。"
+            }
+          ]
         },
         {
-          "id": "baramon_b",
-          "result_tsv": "master/2024/baramon_b/result.tsv",
-          "name": "タイプB（ミドルディスタンス）",
-          "distance": "MD",
-          "swim_distance": 0,
-          "bike_distance": 124,
-          "run_distance": 21.1,
-          "description": "2025年バラモンキング タイプB（ミドルディスタンス）。五島の絶景を楽しみながら、バイク124km、ラン21.1kmのコースに挑戦。五島列島の豊かな自然と文化に触れながら、挑戦的なアップダウンと変化する気象条件の中で行われる大会です。"
+          "date":"2025-06-15",
+          "weather_file":"master/2025/baramon_a/weather-data.json",
+          "categories":[
+            {
+              "id":"baramon_a",
+              "result_tsv":"master/2025/baramon_a/result.tsv",
+              "name":"タイプA（ロングディスタンス）",
+              "distance":"LD",
+              "swim_distance":3,
+              "bike_distance":160,
+              "run_distance":42.2,
+              "description":"2025年バラモンキング タイプA（ロングディスタンス）。長崎県五島列島の美しい海と山々を舞台に、スイム3km、バイク160km、ラン42.2kmの総距離約205kmに挑戦。起伏に富んだコースと島特有の厳しい気象条件が選手の限界を試します。"
+            },
+            {
+              "id":"baramon_b",
+              "result_tsv":"master/2025/baramon_b/result.tsv",
+              "name":"タイプB（ミドルディスタンス）",
+              "distance":"MD",
+              "swim_distance":2,
+              "bike_distance":124,
+              "run_distance":21.1,
+              "description":"2025年バラモンキング タイプB（ミドルディスタンス）。五島の絶景を楽しみながら、スイム2km、バイク124km、ラン21.1kmのコースに挑戦。五島列島の豊かな自然と文化に触れながら、挑戦的なアップダウンと変化する気象条件の中で行われる大会です。"
+            }
+          ]
         }
-        ]
-      },
-      {
-        "date": "2025-06-15",
-        "weather_file": "master/2025/baramon_a/weather-data.json",
-        "categories": [
+      ]
+    },
+    {
+      "id":"uminomori",
+      "name":"東京・海の森トライアスロン",
+      "location":"東京都江東区",
+      "image":"images/uminomori.webp",
+      "source":"https://www.mspo.jp/uminomoritr/",
+      "editions":[
         {
-          "id": "baramon_a",
-          "result_tsv": "master/2025/baramon_a/result.tsv",
-          "name": "タイプA（ロングディスタンス）",
-          "distance": "LD",
-          "swim_distance": 3,
-          "bike_distance": 160,
-          "run_distance": 42.2,
-          "description": "2025年バラモンキング タイプA（ロングディスタンス）。長崎県五島列島の美しい海と山々を舞台に、スイム3km、バイク160km、ラン42.2kmの総距離約205kmに挑戦。起伏に富んだコースと島特有の厳しい気象条件が選手の限界を試します。"
-        },
-        {
-          "id": "baramon_b",
-          "result_tsv": "master/2025/baramon_b/result.tsv",
-          "name": "タイプB（ミドルディスタンス）",
-          "distance": "MD",
-          "swim_distance": 2,
-          "bike_distance": 124,
-          "run_distance": 21.1,
-          "description": "2025年バラモンキング タイプB（ミドルディスタンス）。五島の絶景を楽しみながら、スイム2km、バイク124km、ラン21.1kmのコースに挑戦。五島列島の豊かな自然と文化に触れながら、挑戦的なアップダウンと変化する気象条件の中で行われる大会です。"
+          "date":"2025-06-15",
+          "weather_file":"master/2025/uminomori_short/weather-data.json",
+          "categories":[
+            {
+              "id":"uminomori_short",
+              "result_tsv":"master/2025/uminomori_short/result.tsv",
+              "name":"スタンダード・一般",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"2025年東京海の森トライアスロン大会。東京湾の人工島「海の森」で開催される都市型トライアスロン。2020年東京オリンピックの会場として整備された施設を使用し、スイム1500m、バイク40km、ラン10kmのコースで競います。東京の都心と湾岸エリアの景観を楽しめるコースが特徴です。"
+            },
+            {
+              "id":"uminomori_sprint",
+              "result_tsv":"master/2025/uminomori_sprint/result.tsv",
+              "name":"スプリント・一般",
+              "distance":"SD",
+              "swim_distance":0.75,
+              "bike_distance":20,
+              "run_distance":5,
+              "description":"2025年東京海の森トライアスロン大会。東京湾の人工島「海の森」で開催される都市型トライアスロン。2020年東京オリンピックの会場として整備された施設を使用し、スイム750m、バイク20km、ラン5kmのコースで競います。東京の都心と湾岸エリアの景観を楽しめるコースが特徴です。"
+            }
+          ]
         }
-        ]
-      }
       ]
     }
   ]
