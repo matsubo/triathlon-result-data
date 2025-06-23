@@ -1095,7 +1095,7 @@
     {
       "id":"fukuoka",
       "name":"福岡トライアスロン",
-      "location":"福岡県福岡市東区志賀島一帯,
+      "location":"福岡県福岡市東区志賀島一帯",
       "image":"images/fukuoka.webp",
       "source":"https://fukuoka-triathlon.jp/",
       "editions":[
@@ -1129,7 +1129,7 @@
           "weather_file":"master/2025/gamagori/weather-data.json",
           "categories":[
             {
-              "id":"fukuoka",
+              "id":"gamagori",
               "result_tsv":"master/2025/gamagori/result.tsv",
               "name":"スタンダード・一般",
               "distance":"OD",
