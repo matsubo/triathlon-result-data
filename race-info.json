@@ -1116,6 +1116,31 @@
           ]
         }
       ]
+    },
+    {
+      "id":"gamagori",
+      "name":"蒲郡オレンジトライアスロン大会",
+      "location":"愛知県蒲郡市（浜町・竹島・市民会館周辺）",
+      "image":"images/gamagori.webp",
+      "source":"https://www.gama-triathlon.jp/",
+      "editions":[
+        {
+          "date":"2025-06-22",
+          "weather_file":"master/2025/gamagori/weather-data.json",
+          "categories":[
+            {
+              "id":"fukuoka",
+              "result_tsv":"master/2025/gamagori/result.tsv",
+              "name":"スタンダード・一般",
+              "distance":"OD",
+              "swim_distance":1.5,
+              "bike_distance":40,
+              "run_distance":10,
+              "description":"TBD"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
