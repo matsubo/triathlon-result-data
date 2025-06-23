@@ -1071,7 +1071,7 @@
             {
               "id":"uminomori_short",
               "result_tsv":"master/2025/uminomori_short/result.tsv",
-              "name":"スタンダード・一般",
+              "name":"オリンピックディスタンス",
               "distance":"OD",
               "swim_distance":1.5,
               "bike_distance":40,
@@ -1106,7 +1106,7 @@
             {
               "id":"fukuoka",
               "result_tsv":"master/2025/fukuoka/result.tsv",
-              "name":"スタンダード・一般",
+              "name":"オリンピックディスタンス",
               "distance":"OD",
               "swim_distance":1.5,
               "bike_distance":40,
@@ -1131,7 +1131,7 @@
             {
               "id":"gamagori",
               "result_tsv":"master/2025/gamagori/result.tsv",
-              "name":"スタンダード・一般",
+              "name":"オリンピックディスタンス",
               "distance":"OD",
               "swim_distance":1.5,
               "bike_distance":40,
