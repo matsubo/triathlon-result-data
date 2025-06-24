@@ -1136,7 +1136,43 @@
               "swim_distance":1.5,
               "bike_distance":40,
               "run_distance":10,
-                "description":"2025年蒲郡オレンジトライアスロン大会。愛知県蒲郡市の美しい海岸線と竹島を望むコースで開催。スイム1.5km、バイク40km、ラン10kmのスタンダードディスタンス。地域の温かい応援とともに、爽やかな初夏の蒲郡を駆け抜ける大会です。"
+              "description":"2025年蒲郡オレンジトライアスロン大会。愛知県蒲郡市の美しい海岸線と竹島を望むコースで開催。スイム1.5km、バイク40km、ラン10kmのスタンダードディスタンス。地域の温かい応援とともに、爽やかな初夏の蒲郡を駆け抜ける大会です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id":"banpaku",
+      "name":"万博記念公園トライアスロン",
+      "location":"大阪府吹田市",
+      "image":"images/banpaku.webp",
+      "source":"https://suita-triathlon.com/",
+      "editions":[
+        {
+          "date":"2025-06-22",
+          "weather_file":"master/2025/banpaku_sprint/weather-data.json",
+          "categories":[
+
+            {
+              "id":"banpaku_sprint",
+              "result_tsv":"master/2025/banpaku_sprint/result.tsv",
+              "name":"スプリント",
+              "distance":"SD",
+              "swim_distance":0.75,
+              "bike_distance":20,
+              "run_distance":5,
+              "description":"2025年第3回万博記念公園トライアスロン大会。大阪府吹田市の万博記念公園で開催されるスプリントディスタンス。スイム750m、バイク20km、ラン5kmのコースで、中学生から一般まで幅広い年齢層が参加する大会です。歴史ある万博記念公園の緑豊かな環境の中で行われる都市型トライアスロンです。"
+            },
+            {
+              "id":"banpaku_challenge",
+              "result_tsv":"master/2025/banpaku_challenge/result.tsv",
+              "name":"チャレンジ",
+              "distance":"SS",
+              "swim_distance":0.375,
+              "bike_distance":12,
+              "run_distance":3,
+                "description":"2025年第3回万博記念公園トライアスロン大会 チャレンジの部。大阪府吹田市の万博記念公園で開催。スイム375m、バイク12km、ラン3kmのコースで、トライアスロン初心者でも参加しやすい大会です。歴史ある万博記念公園の緑豊かな環境の中で行われる都市型トライアスロンです。"
             }
           ]
         }
