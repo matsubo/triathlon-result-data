@@ -1,7 +1,7 @@
 # Triathlon result data
 
-このレポジトリに入っているレースの結果を以下のサイトで分析できるようになっています。
-https://ai-triathlon-result.teraren.com/
+このレポジトリに入っているレースの結果を[AI TRI+](https://ai-triathlon-result.teraren.com/)のサイトで分析できるようになっています。
+
 
 ## データ構造
 
