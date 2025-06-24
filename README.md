@@ -19,6 +19,8 @@ https://ai-triathlon-result.teraren.com/
 - 大会の開催日
   - その日に開催された内容。日をまたぐ場合は開始日を入力。
   - 天気情報の入力
+    - 過去の天気は[このサイト](https://tenki.jp/past/2025/04/weather/)を参考に取得する。
+    - 地点が少ないので近い都市を選ぶ。
   - モデル名: `Edition`
 - カテゴリ
   - モデル名: `Category`
