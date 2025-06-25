@@ -97,6 +97,14 @@ GitHub Actions でも同じテストが自動的に実行され、JSONの構文�
 
 
 
+## formatter
+
+race-info.jsonを整形するためには以下のコマンドを打ちます。
+
+```
+pnpm format
+```
+
 ## ライセンス / License
 
 このリポジトリに含まれるデータおよびスクリプトは、すべて [Creative Commons 表示-改変禁止 4.0 国際 (CC BY-ND 4.0)](https://creativecommons.org/licenses/by-nd/4.0/deed.ja) の下で公開されています。
