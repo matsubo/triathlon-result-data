@@ -89,6 +89,9 @@
 pytest
 ```
 
+GitHub Actions でも同じテストが自動的に実行され、JSONの構文エラーがないか確認
+されます。
+
 
 
 ## ライセンス / License
