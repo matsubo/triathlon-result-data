@@ -83,12 +83,7 @@
 
 ## ライセンス / License
 
-このプロジェクトは、ディレクトリによって異なるライセンスが適用されています。
-
-* **データ (`/data` 内の全ファイル):** [Creative Commons 表示-改変禁止 4.0 国際 (CC BY-ND 4.0)](https://creativecommons.org/licenses/by-nd/4.0/deed.ja)  
-    データを利用する際は、出所の明記をお願いします。データの改変および、改変したデータの配布は許可されていません。
-
-* **コード (`/scripts` 内の全ファイル):** [MIT License](https://opensource.org/licenses/MIT)  
-    スクリプトは、MITライセンスの条件の下で自由に利用・改変できます。
+このリポジトリに含まれるデータおよびスクリプトは、すべて [Creative Commons 表示-改変禁止 4.0 国際 (CC BY-ND 4.0)](https://creativecommons.org/licenses/by-nd/4.0/deed.ja) の下で公開されています。
+利用する際は、出所の明記をお願いします。データやコードを改変したものの配布は許可されていません。
 
 
