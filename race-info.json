@@ -1176,6 +1176,31 @@
           ]
         }
       ]
+    },
+    {
+      "id": "suwako",
+      "name": "スワコエイトピークスミドルトライアスロン",
+      "location": "長野県諏訪湖",
+      "image": "images/suwako.webp",
+      "source": "https://suwako8peaks.jp/",
+      "editions": [
+        {
+          "date": "2025-06-29",
+          "weather_file": "master/2025/suwako/weather-data.json",
+          "categories": [
+            {
+              "id": "suwako",
+              "result_tsv": "master/2025/suwako/result.tsv",
+              "name": "ミドルディスタンス",
+              "distance": "MD",
+              "swim_distance": 1.9,
+              "bike_distance": 66.2,
+              "run_distance": 20.5,
+              "description": "2025年スワコエイトピークスミドルトライアスロン。長野県諏訪湖を舞台に、スイム1.9km、バイク66.2km、ラン20.5kmのコースに挑戦。タフなバイクコースが特徴です。"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
