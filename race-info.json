@@ -1201,6 +1201,31 @@
           ]
         }
       ]
+    },
+    {
+      "id": "biwako",
+      "name": "LAKE BIWA TRIATHLON",
+      "location": "滋賀県守山市",
+      "image": "images/biwako.webp",
+      "source": "https://lbt.biwako-moriyama.com/",
+      "editions": [
+        {
+          "date": "2025-06-29",
+          "weather_file": "master/2025/biwako/weather-data.json",
+          "categories": [
+            {
+              "id": "biwako",
+              "result_tsv": "master/2025/biwako/result.tsv",
+              "name": "ミドルディスタンス",
+              "distance": "MD",
+              "swim_distance": 1.6,
+              "bike_distance": 66,
+              "run_distance": 18,
+              "description": "2025年びわ湖守山トライアスロン大会。日本最大の湖、琵琶湖を舞台に開催されるスタンダードディスタンスのトライアスロン。美しい湖岸の景色を楽しみながら競います。"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
