@@ -1226,6 +1226,42 @@
           ]
         }
       ]
+    },
+    {
+      "id": "kisarazu",
+      "name": "木更津トライアスロン",
+      "location": "千葉県木更津市",
+      "image": "images/kisarazu.webp",
+      "source": "https://kisarazu-tri.com/",
+      "editions": [
+      {
+        "date": "2025-06-29",
+        "weather_file": "master/2025/kisarazu/weather-data.json",
+        "categories": [
+        {
+          "id": "kisarazu",
+          "result_tsv": "master/2025/kisarazu/result.tsv",
+          "name": "オリンピックディスタンス",
+          "distance": "OD",
+          "swim_distance": 1.5,
+          "bike_distance": 40,
+          "run_distance": 10,
+          "description": "2025年木更津トライアスロン大会。陸上自衛隊木更津駐屯地を舞台に、スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンスで開催。滑走路を走るユニークなコースが特徴です。"
+        },
+        {
+          "id": "kisarazu_sprint",
+          "result_tsv": "master/2025/kisarazu_sprint/result.tsv",
+          "name": "スプリントディスタンス",
+          "distance": "SD",
+          "swim_distance": 0.75,
+          "bike_distance": 20,
+          "run_distance": 5,
+          "description": "2025年木更津トライアスロン大会。陸上自衛隊木更津駐屯地を舞台に、スイム750m、バイク20km、ラン5kmのスプリントディスタンスで開催。初心者でも参加しやすい大会です。"
+        }
+        ]
+      }
+      ]
     }
+
   ]
 }
