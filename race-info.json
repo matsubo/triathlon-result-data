@@ -1261,7 +1261,31 @@
         ]
       }
       ]
+    },
+    {
+      "id": "takamatsu",
+      "name": "サンポート高松トライアスロン",
+      "location": "香川県高松市",
+      "image": "images/takamatsu.webp",
+      "source": "https://www.tritakamatsu.jp/",
+      "editions": [
+        {
+          "date": "2025-07-06",
+          "weather_file": "master/2025/takamatsu/weather-data.json",
+          "categories": [
+            {
+              "id": "takamatsu",
+              "result_tsv": "master/2025/takamatsu/result.tsv",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年サンポート高松トライアスロン～瀬戸内国際体育祭～。香川県高松市のサンポート高松及び中心市街地周回コースで開催。スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンス。2025NTTトライアスロンエイジグループ・ナショナルチャンピオンシップシリーズ対象大会として、全国から多くの選手が参加。瀬戸内海の美しい景観と都市型コースが特徴の大会です。"
+            }
+          ]
+        }
+      ]
     }
-
   ]
 }
