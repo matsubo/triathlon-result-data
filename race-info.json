@@ -1287,5 +1287,31 @@
         }
       ]
     }
+    ,
+    {
+      "id": "namekawa",
+      "name": "滑川トライアスロン",
+      "location": "富山県滑川市",
+      "image": "images/namekawa.webp",
+      "source": "https://sites.google.com/view/namerikawa-triathlon",
+      "editions": [
+      {
+        "date": "2025-07-13",
+        "weather_file": "master/2025/namekawa/weather-data.json",
+        "categories": [
+        {
+          "id": "namekawa",
+          "result_tsv": "master/2025/namekawa/result.tsv",
+          "name": "オリンピックディスタンス",
+          "distance": "OD",
+          "swim_distance": 1.5,
+          "bike_distance": 40,
+          "run_distance": 10,
+          "description": "2025年滑川トライアスロン。富山湾の美しい海岸線を舞台に、スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンスで開催。地元の特産品や自然を楽しめる大会です。"
+        }
+        ]
+      }
+      ]
+    }
   ]
 }
