@@ -1,0 +1,17 @@
+{
+  "date": "2025-06-22",
+  "location": "千葉県我孫子市",
+  "weather_condition": "曇り時々晴れ",
+  "temperature": {
+    "max": 28,
+    "min": 25,
+    "average": 26.5
+  },
+  "humidity": 90,
+  "wind_speed": 2.5,
+  "wind_direction": "南東",
+  "precipitation": 0,
+  "pressure": 996,
+  "visibility": "良好",
+  "notes": "レース当日は曇り時々晴れの天候で、気温は25-28度と比較的過ごしやすい条件でした。湿度は高めでしたが、風は穏やかでトライアスロンには適した天候でした。"
+}

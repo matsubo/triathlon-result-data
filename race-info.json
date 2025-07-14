@@ -1234,32 +1234,32 @@
       "image": "images/kisarazu.webp",
       "source": "https://kisarazu-tri.com/",
       "editions": [
-      {
-        "date": "2025-06-29",
-        "weather_file": "master/2025/kisarazu/weather-data.json",
-        "categories": [
         {
-          "id": "kisarazu",
-          "result_tsv": "master/2025/kisarazu/result.tsv",
-          "name": "オリンピックディスタンス",
-          "distance": "OD",
-          "swim_distance": 1.5,
-          "bike_distance": 40,
-          "run_distance": 10,
-          "description": "2025年木更津トライアスロン大会。陸上自衛隊木更津駐屯地を舞台に、スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンスで開催。滑走路を走るユニークなコースが特徴です。"
-        },
-        {
-          "id": "kisarazu_sprint",
-          "result_tsv": "master/2025/kisarazu_sprint/result.tsv",
-          "name": "スプリントディスタンス",
-          "distance": "SD",
-          "swim_distance": 0.75,
-          "bike_distance": 20,
-          "run_distance": 5,
-          "description": "2025年木更津トライアスロン大会。陸上自衛隊木更津駐屯地を舞台に、スイム750m、バイク20km、ラン5kmのスプリントディスタンスで開催。初心者でも参加しやすい大会です。"
+          "date": "2025-06-29",
+          "weather_file": "master/2025/kisarazu/weather-data.json",
+          "categories": [
+            {
+              "id": "kisarazu",
+              "result_tsv": "master/2025/kisarazu/result.tsv",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年木更津トライアスロン大会。陸上自衛隊木更津駐屯地を舞台に、スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンスで開催。滑走路を走るユニークなコースが特徴です。"
+            },
+            {
+              "id": "kisarazu_sprint",
+              "result_tsv": "master/2025/kisarazu_sprint/result.tsv",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "2025年木更津トライアスロン大会。陸上自衛隊木更津駐屯地を舞台に、スイム750m、バイク20km、ラン5kmのスプリントディスタンスで開催。初心者でも参加しやすい大会です。"
+            }
+          ]
         }
-        ]
-      }
       ]
     },
     {
@@ -1286,8 +1286,7 @@
           ]
         }
       ]
-    }
-    ,
+    },
     {
       "id": "namekawa",
       "name": "滑川トライアスロン",
@@ -1295,22 +1294,77 @@
       "image": "images/namekawa.webp",
       "source": "https://sites.google.com/view/namerikawa-triathlon",
       "editions": [
-      {
-        "date": "2025-07-13",
-        "weather_file": "master/2025/namekawa/weather-data.json",
-        "categories": [
         {
-          "id": "namekawa",
-          "result_tsv": "master/2025/namekawa/result.tsv",
-          "name": "オリンピックディスタンス",
-          "distance": "OD",
-          "swim_distance": 1.5,
-          "bike_distance": 40,
-          "run_distance": 10,
-          "description": "2025年滑川トライアスロン。富山湾の美しい海岸線を舞台に、スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンスで開催。地元の特産品や自然を楽しめる大会です。"
+          "date": "2025-07-13",
+          "weather_file": "master/2025/namekawa/weather-data.json",
+          "categories": [
+            {
+              "id": "namekawa",
+              "result_tsv": "master/2025/namekawa/result.tsv",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年滑川トライアスロン。富山湾の美しい海岸線を舞台に、スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンスで開催。地元の特産品や自然を楽しめる大会です。"
+            }
+          ]
         }
-        ]
-      }
+      ]
+    },
+    {
+      "id": "teganuma",
+      "name": "手賀沼トライアスロン",
+      "location": "千葉県",
+      "image": "images/teganuma.webp",
+      "source": "https://teganuman.com/",
+      "editions": [
+        {
+          "date": "2025-06-22",
+          "weather_file": "master/2025/teganuma/weather-data.json",
+          "categories": [
+            {
+              "id": "teganuma_individual",
+              "result_tsv": "master/2025/teganuma/result.tsv",
+              "name": "個人の部",
+              "distance": "SD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年第18回手賀沼トライアスロン大会。都心から日帰りでき、ビギナーにも優しいアットホームな大会。スイム1.5km、バイク40km、ラン10kmのショートディスタンスで開催。"
+            },
+            {
+              "id": "teganuma_duathlon",
+              "result_tsv": "master/2025/teganuma/duathlon_result.tsv",
+              "name": "デュアスロンの部",
+              "distance": "DU",
+              "swim_distance": 0,
+              "bike_distance": 20,
+              "run_distance": 10,
+              "description": "2025年第18回手賀沼トライアスロン大会デュアスロン部門。ラン5km、バイク20km、ラン5kmの構成で、水泳が苦手な方でも参加できる競技。"
+            },
+            {
+              "id": "teganuma_relay",
+              "result_tsv": "master/2025/teganuma/relay_result.tsv",
+              "name": "リレーの部",
+              "distance": "SD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年第18回手賀沼トライアスロン大会リレー部門。3人1組でスイム、バイク、ランを分担して行う団体競技。"
+            },
+            {
+              "id": "teganuma_para",
+              "result_tsv": "master/2025/teganuma/para_result.tsv",
+              "name": "パラの部",
+              "distance": "SD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年第18回手賀沼トライアスロン大会パラトライアスロン部門。障がいのある選手が参加する部門。"
+            }
+          ]
+        }
       ]
     }
   ]
