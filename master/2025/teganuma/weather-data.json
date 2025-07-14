@@ -1,17 +1,125 @@
 {
   "date": "2025-06-22",
-  "location": "千葉県我孫子市",
+  "location": "千葉県",
   "weather_condition": "晴れ",
   "temperature": {
     "max": 32.0,
     "min": 25.0,
-    "average": 28.5
+    "average": 28.1
   },
   "humidity": 67,
   "wind_speed": 8.5,
   "wind_direction": "南南西",
   "precipitation": 0.0,
   "pressure": 1007.5,
-  "visibility": "良好",
-  "notes": "レース当日は晴天に恵まれ、最高気温32.0度、最低気温25.0度と夏らしい暑さとなりました。湿度は平均67%、南南西の風が8.5m/sと比較的強く吹いていました。降水量は0mmで、視程も良好でトライアスロンには良いコンディションでした。"
+  "visibility": 19,
+  "sunrise": "04:24",
+  "sunset": "18:59",
+  "hourly_data": [
+    {
+      "time": "03:00",
+      "weather": "曇り",
+      "temperature": 25.2,
+      "humidity": 81,
+      "dew_point": 21.7,
+      "pressure_local": 1008.8,
+      "pressure_sea_level": 1009.5,
+      "wind_direction": "南南西",
+      "wind_speed": 8,
+      "visibility": 20,
+      "discomfort_index": 75
+    },
+    {
+      "time": "06:00",
+      "weather": "晴れ",
+      "temperature": 26.1,
+      "humidity": 71,
+      "dew_point": 20.4,
+      "pressure_local": 1008.2,
+      "pressure_sea_level": 1008.9,
+      "wind_direction": "南南西",
+      "wind_speed": 9,
+      "visibility": 20,
+      "discomfort_index": 75
+    },
+    {
+      "time": "09:00",
+      "weather": "晴れ",
+      "temperature": 28.9,
+      "humidity": 60,
+      "dew_point": 20.4,
+      "pressure_local": 1008.0,
+      "pressure_sea_level": 1008.7,
+      "wind_direction": "南西",
+      "wind_speed": 8,
+      "visibility": 20,
+      "discomfort_index": 77
+    },
+    {
+      "time": "12:00",
+      "weather": "晴れ",
+      "temperature": 30.6,
+      "humidity": 55,
+      "dew_point": 20.5,
+      "pressure_local": 1006.8,
+      "pressure_sea_level": 1007.5,
+      "wind_direction": "南南西",
+      "wind_speed": 9,
+      "visibility": 19,
+      "discomfort_index": 79
+    },
+    {
+      "time": "15:00",
+      "weather": "晴れ",
+      "temperature": 30.6,
+      "humidity": 59,
+      "dew_point": 21.7,
+      "pressure_local": 1005.8,
+      "pressure_sea_level": 1006.5,
+      "wind_direction": "南西",
+      "wind_speed": 8,
+      "visibility": 20,
+      "discomfort_index": 79
+    },
+    {
+      "time": "18:00",
+      "weather": "晴れ",
+      "temperature": 28.2,
+      "humidity": 70,
+      "dew_point": 22.2,
+      "pressure_local": 1006.5,
+      "pressure_sea_level": 1007.2,
+      "wind_direction": "南南西",
+      "wind_speed": 10,
+      "visibility": 17,
+      "discomfort_index": 78
+    },
+    {
+      "time": "21:00",
+      "weather": "晴れ",
+      "temperature": 27.1,
+      "humidity": 73,
+      "dew_point": 21.8,
+      "pressure_local": 1008.0,
+      "pressure_sea_level": 1008.7,
+      "wind_direction": "南南西",
+      "wind_speed": 8,
+      "visibility": 17,
+      "discomfort_index": 77
+    },
+    {
+      "time": "24:00",
+      "weather": "曇り",
+      "temperature": 27.1,
+      "humidity": 76,
+      "dew_point": 22.5,
+      "pressure_local": 1007.8,
+      "pressure_sea_level": 1008.5,
+      "wind_direction": "南南西",
+      "wind_speed": 8,
+      "visibility": 20,
+      "discomfort_index": 77
+    }
+  ],
+  "notes": "レース当日は朝方曇りから始まり、6時以降は晴天に恵まれました。最高気温32.0度、最低気温25.0度と夏らしい暑さとなりました。湿度は55-81%で変動し、南南西から南西の風が8-10m/sで吹いていました。降水量は0mmで、視程は17-20kmと良好でトライアスロンには良いコンディションでした。不快指数は75-79と高めで、暑さ対策が重要な一日でした。"
 }
