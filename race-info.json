@@ -1332,6 +1332,27 @@
               "bike_distance": 40,
               "run_distance": 10,
               "description": "2025年第18回手賀沼トライアスロン大会。都心から日帰りでき、ビギナーにも優しいアットホームな大会。スイム1.5km、バイク40km、ラン10kmのショートディスタンスで開催。"
+            },
+            {
+              "id": "teganuma_duathlon",
+              "result_tsv": "master/2025/teganuma_duathlon/result.tsv",
+              "name": "デュアスロンの部",
+              "distance": "DU",
+              "swim_distance": 0,
+              "bike_distance": 20,
+              "run_distance": 10,
+              "description": "2025年第18回手賀沼トライアスロン大会デュアスロン部門。ラン5km、バイク20km、ラン5kmの構成で、水泳が苦手な方でも参加できる競技。"
+            },
+
+            {
+              "id": "teganuma_para",
+              "result_tsv": "master/2025/teganuma/para_result.tsv",
+              "name": "パラの部",
+              "distance": "SD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年第18回手賀沼トライアスロン大会パラトライアスロン部門。障がいのある選手が参加する部門。"
             }
           ]
         }
