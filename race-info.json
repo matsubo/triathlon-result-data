@@ -1343,7 +1343,6 @@
               "run_distance": 10,
               "description": "2025年第18回手賀沼トライアスロン大会デュアスロン部門。ラン5km、バイク20km、ラン5kmの構成で、水泳が苦手な方でも参加できる競技。"
             },
-
             {
               "id": "teganuma_para",
               "result_tsv": "master/2025/teganuma/para_result.tsv",
@@ -1353,6 +1352,116 @@
               "bike_distance": 40,
               "run_distance": 10,
               "description": "2025年第18回手賀沼トライアスロン大会パラトライアスロン部門。障がいのある選手が参加する部門。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basho",
+      "name": "秋田トライアスロン芭蕉レース象潟大会",
+      "location": "秋田県にかほ市象潟町",
+      "image": "images/dummy.webp",
+      "source": "https://kisakata-basyorace.amebaownd.com/",
+      "editions": [
+        {
+          "date": "2025-07-20",
+          "weather_file": "master/2025/basho/weather-data.json",
+          "categories": [
+            {
+              "id": "basho",
+              "result_tsv": "master/2025/basho/result.tsv",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年第35回秋田トライアスロン芭蕉レース象潟大会。秋田県にかほ市象潟町を舞台に、スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンスで開催。松尾芭蕉ゆかりの地で行われる歴史ある大会です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hiwasa",
+      "name": "ひわさうみがめトライアスロン",
+      "location": "徳島県美波町",
+      "image": "images/dummy.webp",
+      "source": "https://hiwasa-triathlon.jp/",
+      "editions": [
+        {
+          "date": "2025-07-13",
+          "weather_file": "master/2025/hiwasa/weather-data.json",
+          "categories": [
+            {
+              "id": "hiwasa",
+              "result_tsv": "master/2025/hiwasa/result.tsv",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年ひわさうみがめトライアスロン。徳島県美波町を舞台に、スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンスで開催。うみがめの産卵地として有名な美しい海岸線が特徴の大会です。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "itako",
+      "name": "水郷潮来トライアスロン",
+      "location": "茨城県潮来市",
+      "image": "images/dummy.webp",
+      "source": "https://itako-triathlon.com/",
+      "editions": [
+        {
+          "date": "2025-07-13",
+          "weather_file": "master/2025/itako/weather-data.json",
+          "categories": [
+            {
+              "id": "itako",
+              "result_tsv": "master/2025/itako/result.tsv",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年水郷潮来トライアスロン。茨城県潮来市ローイングセンターあめんぼを舞台に、スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンスで開催。水郷の美しい自然環境の中で行われる大会です。"
+            },
+            {
+              "id": "itako_sprint",
+              "result_tsv": "master/2025/itako_sprint/result.tsv",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "2025年水郷潮来トライアスロン スプリントディスタンス。茨城県潮来市で開催される初心者にも参加しやすいスプリント部門。スイム750m、バイク20km、ラン5kmのコースです。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oigawa",
+      "name": "大井川港トライアスロン大会",
+      "location": "静岡県焼津市",
+      "image": "images/dummy.webp",
+      "source": "https://oigawa-triathlon.com/",
+      "editions": [
+        {
+          "date": "2025-07-20",
+          "weather_file": "master/2025/oigawa/weather-data.json",
+          "categories": [
+            {
+              "id": "oigawa",
+              "result_tsv": "master/2025/oigawa/result.tsv",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年第19回大井川港トライアスロン大会。静岡県焼津市を舞台に、スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンスで開催。駿河湾の美しい海と富士山を望む景観が魅力の大会です。"
             }
           ]
         }
