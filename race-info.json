@@ -1466,6 +1466,41 @@
           ]
         }
       ]
+    },
+    {
+      "id": "kaike",
+      "name": "全日本トライアスロン皆生大会",
+      "location": "鳥取県米子市",
+      "image": "images/kaike.webp",
+      "source": "https://www.kaike-triathlon.com/",
+      "editions": [
+        {
+          "date": "2025-07-20",
+          "weather_file": "master/2025/kaike/weather-data.json",
+          "categories": [
+            {
+              "id": "kaike",
+              "result_tsv": "master/2025/kaike/result.tsv",
+              "name": "Aタイプ（ロング）",
+              "distance": "LD",
+              "swim_distance": 3,
+              "bike_distance": 140,
+              "run_distance": 40,
+              "description": "2025年第19回全日本トライアスロン皆生大会。鳥取県米子市を舞台に、スイム3km、バイク140km、ラン40kmのオリンピックディスタンスで開催。美しい海と自然に囲まれたコースが魅力の大会です。"
+            },
+            {
+              "id": "kaike_b",
+              "result_tsv": "master/2025/kaike_b/result.tsv",
+              "name": "Bタイプ（セミロング）",
+              "distance": "MD",
+              "swim_distance": 3,
+              "bike_distance": 115,
+              "run_distance": 23,
+              "description": "2025年第19回全日本トライアスロン皆生大会。鳥取県米子市を舞台に、スイム3km、バイク115km、ラン23kmのセミロングディスタンスで開催。美しい海と自然に囲まれたコースが魅力の大会です。"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
