@@ -1361,7 +1361,7 @@
       "id": "basho",
       "name": "秋田トライアスロン芭蕉レース象潟大会",
       "location": "秋田県にかほ市象潟町",
-      "image": "images/dummy.webp",
+      "image": "images/basho.webp",
       "source": "https://kisakata-basyorace.amebaownd.com/",
       "editions": [
         {
@@ -1386,7 +1386,7 @@
       "id": "hiwasa",
       "name": "ひわさうみがめトライアスロン",
       "location": "徳島県美波町",
-      "image": "images/dummy.webp",
+      "image": "images/hiwasa.webp",
       "source": "https://hiwasa-triathlon.jp/",
       "editions": [
         {
@@ -1411,8 +1411,8 @@
       "id": "itako",
       "name": "水郷潮来トライアスロン",
       "location": "茨城県潮来市",
-      "image": "images/dummy.webp",
-      "source": "https://itako-triathlon.com/",
+      "image": "images/itako.webp",
+      "source": "https://www.mspo.jp/itako/",
       "editions": [
         {
           "date": "2025-07-13",
@@ -1447,7 +1447,7 @@
       "name": "大井川港トライアスロン大会",
       "location": "静岡県焼津市",
       "image": "images/dummy.webp",
-      "source": "https://oigawa-triathlon.com/",
+      "source": "http://oigawatri.g2.xrea.com/",
       "editions": [
         {
           "date": "2025-07-20",
