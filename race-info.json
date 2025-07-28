@@ -1563,19 +1563,19 @@
       ]
     },
     {
-      "id": "nagaragwa_kokusai",
+      "id": "nagaragawa_kokusai",
       "name": "長良川国際トライアスロン大会",
       "location": "岐阜県海津市国営木曽三川公園 アクアフィールド特設トライアスロンコース",
       "image": "images/dummy.webp",
       "source": "https://www.nagaragawa-triathlon.jp/",
       "editions": [
         {
-          "date": "2025-07-20",
-          "weather_file": "master/2025/nagaragwa_kokusai/weather-data.json",
+          "date": "2025-07-27",
+          "weather_file": "master/2025/nagaragawa_kokusai/weather-data.json",
           "categories": [
             {
-              "id": "nagaragwa_kokusai",
-              "result_tsv": "master/2025/nagaragwa_kokusai/result.tsv",
+              "id": "nagaragawa_kokusai",
+              "result_tsv": "master/2025/nagaragawa_kokusai/result.tsv",
               "name": "スタンダード",
               "distance": "SD",
               "swim_distance": 0.75,
@@ -1584,8 +1584,8 @@
               "description": "2025年長良川国際トライアスロン大会。岐阜県海津市の国営木曽三川公園を舞台に、スイム750m、バイク30km、ラン6kmのスタンダードディスタンスで開催。自然豊かな環境の中で行われる大会です。"
             },
             {
-              "id": "nagaragwa_kokusai_sprint",
-              "result_tsv": "master/2025/nagaragwa_kokusai_sprint/result.tsv",
+              "id": "nagaragawa_kokusai_sprint",
+              "result_tsv": "master/2025/nagaragawa_kokusai_sprint/result.tsv",
               "name": "スプリント",
               "distance": "SD",
               "swim_distance": 0.75,
