@@ -50,7 +50,7 @@
     {
       "time": "12",
       "weather": "晴れ",
-      "weatherIcon": "sunny",
+      "weatherIcon": "clear-day",
       "temp": 35.4,
       "humidity": 47,
       "dewPoint": 22.4,
@@ -64,7 +64,7 @@
     {
       "time": "15",
       "weather": "晴れ",
-      "weatherIcon": "sunny",
+      "weatherIcon": "clear-day",
       "temp": 32.4,
       "humidity": 60,
       "dewPoint": 23.6,
@@ -78,7 +78,7 @@
     {
       "time": "18",
       "weather": "晴れ",
-      "weatherIcon": "sunny",
+      "weatherIcon": "clear-night",
       "temp": 31.0,
       "humidity": 71,
       "dewPoint": 25.1,
@@ -92,7 +92,7 @@
     {
       "time": "21",
       "weather": "晴れ",
-      "weatherIcon": "sunny",
+      "weatherIcon": "clear-night",
       "temp": 29.3,
       "humidity": 78,
       "dewPoint": 25.1,
@@ -106,7 +106,7 @@
     {
       "time": "24",
       "weather": "晴れ",
-      "weatherIcon": "sunny",
+      "weatherIcon": "clear-night",
       "temp": 27.6,
       "humidity": 77,
       "dewPoint": 23.2,

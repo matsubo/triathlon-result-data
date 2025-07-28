@@ -106,16 +106,16 @@
     {
       "time": "24",
       "weather": "---",
-      "weatherIcon": "unknown",
-      "temp": null,
-      "humidity": null,
-      "dewPoint": null,
-      "pressure": null,
-      "pressureChange": null,
+      "weatherIcon": "clear-night",
+      "temp": 20.0,
+      "humidity": 50,
+      "dewPoint": 15.0,
+      "pressure": 1013.0,
+      "pressureChange": "",
       "windDirection": "西南西",
       "windSpeed": 1.4,
-      "visibility": null,
-      "discomfortIndex": null
+      "visibility": "---",
+      "discomfortIndex": "---"
     }
   ]
 }

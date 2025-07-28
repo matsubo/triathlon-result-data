@@ -92,7 +92,7 @@
     {
       "time": "21",
       "weather": "にわか雨",
-      "weatherIcon": "shower",
+      "weatherIcon": "rain",
       "temp": 23.2,
       "humidity": 94,
       "dewPoint": 24.9,

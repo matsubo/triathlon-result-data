@@ -1,7 +1,7 @@
 {
   "date": "2025年6月29日",
-  "sunrise": null,
-  "sunset": null,
+  "sunrise": "05:00",
+  "sunset": "18:30",
   "minTemp": 19.5,
   "maxTemp": 31.3,
   "hourly": [
@@ -22,7 +22,7 @@
     {
       "time": "6",
       "weather": "晴れ",
-      "weatherIcon": "sunny",
+      "weatherIcon": "clear-night",
       "temp": 20.3,
       "humidity": 77,
       "dewPoint": 16.2,
@@ -36,7 +36,7 @@
     {
       "time": "9",
       "weather": "晴れ",
-      "weatherIcon": "sunny",
+      "weatherIcon": "clear-day",
       "temp": 24.9,
       "humidity": 67,
       "dewPoint": 18.4,
@@ -50,7 +50,7 @@
     {
       "time": "12",
       "weather": "晴れ",
-      "weatherIcon": "sunny",
+      "weatherIcon": "clear-day",
       "temp": 29.5,
       "humidity": 47,
       "dewPoint": 17.0,
@@ -64,7 +64,7 @@
     {
       "time": "15",
       "weather": "晴れ",
-      "weatherIcon": "sunny",
+      "weatherIcon": "clear-day",
       "temp": 30.8,
       "humidity": 50,
       "dewPoint": 19.2,
@@ -78,7 +78,7 @@
     {
       "time": "18",
       "weather": "晴れ",
-      "weatherIcon": "sunny",
+      "weatherIcon": "clear-night",
       "temp": 29.1,
       "humidity": 51,
       "dewPoint": 17.9,
@@ -106,7 +106,7 @@
     {
       "time": "24",
       "weather": "晴れ",
-      "weatherIcon": "sunny",
+      "weatherIcon": "clear-night",
       "temp": 23.2,
       "humidity": 80,
       "dewPoint": 19.6,

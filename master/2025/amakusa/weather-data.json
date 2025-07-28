@@ -1,6 +1,5 @@
 {
   "date": "2025年5月25日",
-  "location": "熊本県熊本市",
   "sunrise": "05:12",
   "sunset": "19:16",
   "minTemp": 16.4,
@@ -79,7 +78,7 @@
     {
       "time": "18",
       "weather": "晴れ",
-      "weatherIcon": "partly-cloudy",
+      "weatherIcon": "clear-night",
       "temp": 19.7,
       "humidity": 61,
       "dewPoint": 12.0,
