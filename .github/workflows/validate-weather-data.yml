@@ -1,0 +1,62 @@
+name: Validate Weather Data
+
+on:
+  push:
+    paths:
+      - 'master/**/weather-data.json'
+      - 'weather-schema.json'
+  pull_request:
+    paths:
+      - 'master/**/weather-data.json'
+      - 'weather-schema.json'
+  workflow_dispatch:
+
+jobs:
+  validate-weather-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      
+      - name: Install ajv-cli for JSON Schema validation
+        run: npm install -g ajv-cli
+      
+      - name: Find and validate weather data files
+        run: |
+          echo "Finding weather-data.json files..."
+          files=$(find master -name "weather-data.json" -type f)
+          
+          if [ -z "$files" ]; then
+            echo "No weather-data.json files found"
+            exit 0
+          fi
+          
+          echo "Found files:"
+          echo "$files"
+          echo ""
+          
+          validation_failed=0
+          
+          for file in $files; do
+            echo "Validating $file..."
+            if ajv validate -s weather-schema.json -d "$file"; then
+              echo "✅ $file is valid"
+            else
+              echo "❌ $file is invalid"
+              validation_failed=1
+            fi
+            echo ""
+          done
+          
+          if [ $validation_failed -eq 1 ]; then
+            echo "❌ One or more weather data files failed validation"
+            exit 1
+          else
+            echo "✅ All weather data files are valid"
+          fi
