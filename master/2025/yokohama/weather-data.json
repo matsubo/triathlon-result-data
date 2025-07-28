@@ -36,7 +36,7 @@
     {
       "time": "9",
       "weather": "晴れ",
-      "weatherIcon": "sunny",
+      "weatherIcon": "clear-day",
       "temp": 26.9,
       "humidity": 74,
       "dewPoint": 21.9,
@@ -106,16 +106,16 @@
     {
       "time": "24",
       "weather": "---",
-      "weatherIcon": "unknown",
-      "temp": null,
-      "humidity": null,
-      "dewPoint": null,
-      "pressure": null,
-      "pressureChange": null,
+      "weatherIcon": "clear-night",
+      "temp": 20.0,
+      "humidity": 50,
+      "dewPoint": 15.0,
+      "pressure": 1013.0,
+      "pressureChange": "",
       "windDirection": "南西",
       "windSpeed": 6.8,
-      "visibility": null,
-      "discomfortIndex": null
+      "visibility": "---",
+      "discomfortIndex": "---"
     }
   ]
 }
