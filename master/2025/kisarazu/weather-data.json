@@ -1,9 +1,11 @@
 {
   "date": "2025年6月29日",
-  "sunrise": "05:00",
-  "sunset": "18:30",
-  "minTemp": 21.6,
-  "maxTemp": 31.8,
+  "sunrise": "04:27",
+  "sunset": "18:59",
+  "minTemp": 23.6,
+  "maxTemp": 31.1,
+  "weather": "晴",
+  "precipitation": 0.0,
   "hourly": [
     {
       "time": "3",
