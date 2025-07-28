@@ -1,121 +1,75 @@
 {
-  "date": "2025-06-22",
+  "date": "2025年6月22日",
   "minTemp": 25.0,
   "maxTemp": 32.0,
+  "weather": "晴",
+  "precipitation": 0.0,
   "sunrise": "04:24",
   "sunset": "18:59",
   "hourly": [
     {
-      "time": "03:00",
+      "time": "3",
       "weather": "曇り",
+      "weatherIcon": "cloudy",
+      "temp": 25.2,
       "humidity": 81,
-      "visibility": 20,
-      "weatherIcon": "cloudy",
-      "temp": 20.0,
-      "dewPoint": 15.0,
-      "pressure": 1013.0,
-      "pressureChange": "",
-      "windDirection": "北",
-      "windSpeed": 0.0,
-      "discomfortIndex": 70
+      "discomfortIndex": 77
     },
     {
-      "time": "06:00",
+      "time": "6",
       "weather": "晴れ",
-      "humidity": 71,
-      "visibility": 20,
-      "weatherIcon": "clear-night",
-      "temp": 20.0,
-      "dewPoint": 15.0,
-      "pressure": 1013.0,
-      "pressureChange": "",
-      "windDirection": "北",
-      "windSpeed": 0.0,
-      "discomfortIndex": 70
-    },
-    {
-      "time": "09:00",
-      "weather": "晴れ",
-      "humidity": 60,
-      "visibility": 20,
-      "weatherIcon": "clear-day",
-      "temp": 20.0,
-      "dewPoint": 15.0,
-      "pressure": 1013.0,
-      "pressureChange": "",
-      "windDirection": "北",
-      "windSpeed": 0.0,
-      "discomfortIndex": 70
-    },
-    {
-      "time": "12:00",
-      "weather": "晴れ",
-      "humidity": 55,
-      "visibility": 19,
-      "weatherIcon": "clear-day",
-      "temp": 20.0,
-      "dewPoint": 15.0,
-      "pressure": 1013.0,
-      "pressureChange": "",
-      "windDirection": "北",
-      "windSpeed": 0.0,
-      "discomfortIndex": 70
-    },
-    {
-      "time": "15:00",
-      "weather": "晴れ",
-      "humidity": 59,
-      "visibility": 20,
-      "weatherIcon": "clear-day",
-      "temp": 20.0,
-      "dewPoint": 15.0,
-      "pressure": 1013.0,
-      "pressureChange": "",
-      "windDirection": "北",
-      "windSpeed": 0.0,
-      "discomfortIndex": 70
-    },
-    {
-      "time": "18:00",
-      "weather": "晴れ",
-      "humidity": 70,
-      "visibility": 17,
-      "weatherIcon": "clear-night",
-      "temp": 20.0,
-      "dewPoint": 15.0,
-      "pressure": 1013.0,
-      "pressureChange": "",
-      "windDirection": "北",
-      "windSpeed": 0.0,
-      "discomfortIndex": 70
-    },
-    {
-      "time": "21:00",
-      "weather": "晴れ",
-      "humidity": 73,
-      "visibility": 17,
-      "weatherIcon": "clear-night",
-      "temp": 20.0,
-      "dewPoint": 15.0,
-      "pressure": 1013.0,
-      "pressureChange": "",
-      "windDirection": "北",
-      "windSpeed": 0.0,
-      "discomfortIndex": 70
-    },
-    {
-      "time": "24:00",
-      "weather": "曇り",
+      "weatherIcon": "clear",
+      "temp": 26.8,
       "humidity": 76,
-      "visibility": 20,
+      "discomfortIndex": 79
+    },
+    {
+      "time": "9",
+      "weather": "晴れ",
+      "weatherIcon": "clear",
+      "temp": 29.4,
+      "humidity": 62,
+      "discomfortIndex": 81
+    },
+    {
+      "time": "12",
+      "weather": "晴れ",
+      "weatherIcon": "clear",
+      "temp": 30.6,
+      "humidity": 55,
+      "discomfortIndex": 82
+    },
+    {
+      "time": "15",
+      "weather": "晴れ",
+      "weatherIcon": "clear",
+      "temp": 31.8,
+      "humidity": 52,
+      "discomfortIndex": 83
+    },
+    {
+      "time": "18",
+      "weather": "晴れ",
+      "weatherIcon": "clear",
+      "temp": 28.2,
+      "humidity": 70,
+      "discomfortIndex": 79
+    },
+    {
+      "time": "21",
+      "weather": "曇り",
       "weatherIcon": "cloudy",
-      "temp": 20.0,
-      "dewPoint": 15.0,
-      "pressure": 1013.0,
-      "pressureChange": "",
-      "windDirection": "北",
-      "windSpeed": 0.0,
-      "discomfortIndex": 70
+      "temp": 27.1,
+      "humidity": 73,
+      "discomfortIndex": 78
+    },
+    {
+      "time": "24",
+      "weather": "曇り",
+      "weatherIcon": "cloudy",
+      "temp": 26.5,
+      "humidity": 75,
+      "discomfortIndex": 77
     }
   ]
 }
