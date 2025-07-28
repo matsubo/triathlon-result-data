@@ -1,0 +1,38 @@
+name: Validate Race Info
+
+on:
+  push:
+    paths:
+      - 'race-info.json'
+      - 'race-info-schema.json'
+  pull_request:
+    paths:
+      - 'race-info.json'
+      - 'race-info-schema.json'
+  workflow_dispatch:
+
+jobs:
+  validate-race-info:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      
+      - name: Install ajv-cli for JSON Schema validation
+        run: npm install -g ajv-cli
+      
+      - name: Validate race-info.json
+        run: |
+          echo "Validating race-info.json against race-info-schema.json..."
+          if ajv validate -s race-info-schema.json -d race-info.json; then
+            echo "✅ race-info.json is valid"
+          else
+            echo "❌ race-info.json is invalid"
+            exit 1
+          fi

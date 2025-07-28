@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Race Info Schema",
+  "description": "Schema for triathlon race information data",
+  "required": ["events"],
+  "properties": {
+    "events": {
+      "type": "array",
+      "description": "Array of triathlon events",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "location", "image", "source", "editions"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for the event"
+          },
+          "name": {
+            "type": "string",
+            "description": "Name of the event in Japanese"
+          },
+          "location": {
+            "type": "string",
+            "description": "Location where the event takes place"
+          },
+          "image": {
+            "type": "string",
+            "pattern": "^images/.*\\.webp$",
+            "description": "Path to the event image file"
+          },
+          "source": {
+            "type": "string",
+            "pattern": "^https?://",
+            "description": "Official website URL of the event"
+          },
+          "editions": {
+            "type": "array",
+            "description": "Array of event editions (yearly occurrences)",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["date", "weather_file", "categories"],
+              "properties": {
+                "date": {
+                  "type": "string",
+                  "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+                  "description": "Date of the event in YYYY-MM-DD format"
+                },
+                "weather_file": {
+                  "type": "string",
+                  "pattern": "^master/[0-9]{4}/[^/]+/weather-data\\.json$",
+                  "description": "Path to the weather data file"
+                },
+                "categories": {
+                  "type": "array",
+                  "description": "Array of race categories within this edition",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "required": ["id", "result_tsv", "name", "distance", "swim_distance", "bike_distance", "run_distance", "description"],
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "description": "Unique identifier for the category"
+                      },
+                      "result_tsv": {
+                        "type": "string",
+                        "pattern": "^master/[0-9]{4}/[^/]+/result\\.tsv$",
+                        "description": "Path to the TSV result file"
+                      },
+                      "name": {
+                        "type": "string",
+                        "description": "Name of the race category in Japanese"
+                      },
+                      "distance": {
+                        "type": "string",
+                        "enum": ["LD", "MD", "OD", "SD", "DUATHLON", "SS"],
+                        "description": "Race distance type (LD=Long Distance, MD=Middle Distance, OD=Olympic Distance, SD=Sprint Distance, DUATHLON=Duathlon, SS=Super Sprint, DU=Duathlon)"
+                      },
+                      "swim_distance": {
+                        "type": "number",
+                        "minimum": 0,
+                        "description": "Swimming distance in kilometers"
+                      },
+                      "bike_distance": {
+                        "type": "number",
+                        "minimum": 0,
+                        "description": "Cycling distance in kilometers"
+                      },
+                      "run_distance": {
+                        "type": "number",
+                        "minimum": 0,
+                        "description": "Running distance in kilometers"
+                      },
+                      "description": {
+                        "type": "string",
+                        "description": "Detailed description of the race category in Japanese"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

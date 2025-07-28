@@ -1337,7 +1337,7 @@
               "id": "teganuma_duathlon",
               "result_tsv": "master/2025/teganuma_duathlon/result.tsv",
               "name": "デュアスロンの部",
-              "distance": "DU",
+              "distance": "DUATHLON",
               "swim_distance": 0,
               "bike_distance": 20,
               "run_distance": 10,
