@@ -78,7 +78,7 @@
     {
       "time": "18",
       "weather": "暴風雨",
-      "weatherIcon": "storm",
+      "weatherIcon": "rain",
       "temp": 22.0,
       "humidity": 95,
       "dewPoint": 21.2,
@@ -92,7 +92,7 @@
     {
       "time": "21",
       "weather": "暴風雨",
-      "weatherIcon": "storm",
+      "weatherIcon": "rain",
       "temp": 21.0,
       "humidity": 96,
       "dewPoint": 20.3,

@@ -1,6 +1,5 @@
 {
   "date": "2025年06月15日",
-  "location": "長崎(長崎県)",
   "sunrise": "05:12",
   "sunset": "19:30",
   "minTemp": 21.6,
@@ -107,16 +106,16 @@
     {
       "time": "24",
       "weather": "",
-      "weatherIcon": "",
-      "temp": null,
-      "humidity": null,
-      "dewPoint": null,
-      "pressure": null,
-      "pressureChange": null,
+      "weatherIcon": "clear-night",
+      "temp": 20.0,
+      "humidity": 50,
+      "dewPoint": 15.0,
+      "pressure": 1013.0,
+      "pressureChange": "",
       "windDirection": "静穏",
       "windSpeed": 0.1,
-      "visibility": null,
-      "discomfortIndex": null
+      "visibility": "---",
+      "discomfortIndex": "---"
     }
   ]
 }
