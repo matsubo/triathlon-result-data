@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:tenki.jp)"
+    ],
+    "deny": []
+  }
+}
