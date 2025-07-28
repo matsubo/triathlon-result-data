@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Weather Data Schema",
+  "description": "Schema for triathlon race weather data",
+  "required": ["date", "sunrise", "sunset", "minTemp", "maxTemp", "hourly"],
+  "properties": {
+    "date": {
+      "type": "string",
+      "description": "Race date in Japanese format"
+    },
+    "sunrise": {
+      "type": "string",
+      "pattern": "^[0-9]{2}:[0-9]{2}$",
+      "description": "Sunrise time in HH:MM format"
+    },
+    "sunset": {
+      "type": "string",
+      "pattern": "^[0-9]{2}:[0-9]{2}$",
+      "description": "Sunset time in HH:MM format"
+    },
+    "minTemp": {
+      "type": "number",
+      "description": "Minimum temperature in Celsius"
+    },
+    "maxTemp": {
+      "type": "number",
+      "description": "Maximum temperature in Celsius"
+    },
+    "hourly": {
+      "type": "array",
+      "description": "Hourly weather data",
+      "items": {
+        "type": "object",
+        "required": ["time", "weather", "weatherIcon", "temp", "humidity", "dewPoint", "pressure", "pressureChange", "windDirection", "windSpeed", "visibility", "discomfortIndex"],
+        "properties": {
+          "time": {
+            "type": "string",
+            "description": "Hour of the day"
+          },
+          "weather": {
+            "type": "string",
+            "description": "Weather condition in Japanese"
+          },
+          "weatherIcon": {
+            "type": "string",
+            "enum": ["rain", "cloudy", "clear", "clear-night", "clear-day", "heavy-rain"],
+            "description": "Weather icon identifier"
+          },
+          "temp": {
+            "type": "number",
+            "description": "Temperature in Celsius"
+          },
+          "humidity": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100,
+            "description": "Humidity percentage"
+          },
+          "dewPoint": {
+            "type": "number",
+            "description": "Dew point temperature in Celsius"
+          },
+          "pressure": {
+            "type": "number",
+            "description": "Atmospheric pressure in hPa"
+          },
+          "pressureChange": {
+            "type": "string",
+            "description": "Pressure change with + or - prefix, or empty string"
+          },
+          "windDirection": {
+            "type": "string",
+            "description": "Wind direction in Japanese"
+          },
+          "windSpeed": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Wind speed in m/s"
+          },
+          "visibility": {
+            "oneOf": [
+              {
+                "type": "number",
+                "minimum": 0,
+                "description": "Visibility in km"
+              },
+              {
+                "type": "string",
+                "enum": ["---"],
+                "description": "No data available"
+              }
+            ]
+          },
+          "discomfortIndex": {
+            "oneOf": [
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100,
+                "description": "Discomfort index"
+              },
+              {
+                "type": "string",
+                "enum": ["---"],
+                "description": "No data available"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

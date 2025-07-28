@@ -46,6 +46,8 @@
 
 過去の天気をWeb上で探して、スクショを撮ってサンプルのデータを添付しつつAIに投げれば作れます。
 
+天気データは `weather-schema.json` で定義されたJSON Schemaに従って作成してください。GitHub Actionsで自動的にスキーマ検証が実行されます。
+
 
 ## リザルトを掲載する方法
 
@@ -94,6 +96,10 @@ GitHub Actions でも同じテストが自動的に実行され、JSONの構文�
 
 `race-info.json` に記載された画像やリザルト、天気データのファイルが存在するか
 どうかも併せてチェックしています。
+
+### 天気データの検証
+
+天気データ（`master/*/*/weather-data.json`）は、`weather-schema.json` で定義されたJSON Schemaに基づいて自動検証されます。GitHub Actionsの「Validate Weather Data」ワークフローが天気データファイルやスキーマファイルが変更されるたびに実行され、データの整合性を確認します。
 
 
 

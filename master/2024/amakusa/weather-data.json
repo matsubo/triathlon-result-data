@@ -1,6 +1,5 @@
 {
   "date": "2024年5月26日",
-  "location": "熊本県天草市",
   "sunrise": "05:10",
   "sunset": "19:21",
   "minTemp": 18.2,
@@ -79,7 +78,7 @@
     {
       "time": "18",
       "weather": "晴れ時々曇り",
-      "weatherIcon": "partly-cloudy",
+      "weatherIcon": "cloudy",
       "temp": 21.6,
       "humidity": 75,
       "dewPoint": 16.9,

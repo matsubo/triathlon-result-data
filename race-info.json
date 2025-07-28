@@ -1345,7 +1345,7 @@
             },
             {
               "id": "teganuma_para",
-              "result_tsv": "master/2025/teganuma/para_result.tsv",
+              "result_tsv": "master/2025/teganuma_para/result.tsv",
               "name": "パラの部",
               "distance": "SD",
               "swim_distance": 1.5,

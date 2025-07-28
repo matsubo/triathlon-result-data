@@ -50,7 +50,7 @@
     {
       "time": "12",
       "weather": "雨",
-      "weatherIcon": "rainy",
+      "weatherIcon": "rain",
       "temp": 23.3,
       "humidity": 82,
       "dewPoint": 20.1,

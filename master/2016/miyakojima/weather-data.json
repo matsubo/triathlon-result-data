@@ -36,7 +36,7 @@
     {
       "time": "9",
       "weather": "にわか雨",
-      "weatherIcon": "shower",
+      "weatherIcon": "rain",
       "temp": 22.9,
       "humidity": 96,
       "dewPoint": 22.2,
@@ -106,7 +106,7 @@
     {
       "time": "24",
       "weather": "不明",
-      "weatherIcon": "unknown",
+      "weatherIcon": "clear-night",
       "temp": 24.0,
       "humidity": 92,
       "dewPoint": 22.6,

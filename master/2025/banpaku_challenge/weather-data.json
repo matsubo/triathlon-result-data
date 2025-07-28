@@ -1,6 +1,5 @@
 {
   "date": "2025年6月22日",
-  "location": "大阪府吹田市・万博記念公園",
   "sunrise": "04:44",
   "sunset": "19:14",
   "minTemp": 22.6,
@@ -9,7 +8,7 @@
     {
       "time": "6",
       "weather": "晴れ",
-      "weatherIcon": "sunny",
+      "weatherIcon": "clear-night",
       "temp": 23.6,
       "humidity": 80,
       "dewPoint": 20.1,
@@ -23,7 +22,7 @@
     {
       "time": "9",
       "weather": "晴れ",
-      "weatherIcon": "sunny",
+      "weatherIcon": "clear-day",
       "temp": 27.7,
       "humidity": 68,
       "dewPoint": 21.5,
@@ -37,7 +36,7 @@
     {
       "time": "12",
       "weather": "晴れ",
-      "weatherIcon": "sunny",
+      "weatherIcon": "clear-day",
       "temp": 32.1,
       "humidity": 54,
       "dewPoint": 21.8,
@@ -51,7 +50,7 @@
     {
       "time": "15",
       "weather": "晴れ",
-      "weatherIcon": "sunny",
+      "weatherIcon": "clear-day",
       "temp": 34.2,
       "humidity": 48,
       "dewPoint": 21.9,
@@ -65,7 +64,7 @@
     {
       "time": "18",
       "weather": "晴れ",
-      "weatherIcon": "sunny",
+      "weatherIcon": "clear-night",
       "temp": 31.2,
       "humidity": 56,
       "dewPoint": 21.8,
@@ -79,7 +78,7 @@
     {
       "time": "21",
       "weather": "晴れ",
-      "weatherIcon": "sunny",
+      "weatherIcon": "clear-night",
       "temp": 27.2,
       "humidity": 68,
       "dewPoint": 21.1,
@@ -90,14 +89,5 @@
       "visibility": 10,
       "discomfortIndex": 76
     }
-  ],
-  "raceConditions": {
-    "startTime": "07:00",
-    "temperature": 24.2,
-    "humidity": 78,
-    "windSpeed": 2,
-    "weather": "晴れ",
-    "waterTemperature": 22.0,
-    "description": "2025年6月22日の万博記念公園トライアスロン大会当日は晴天で、朝のスタート時は気温24.2度、湿度78%とやや蒸し暑いコンディション。日中は最高気温34.2度まで上がり、南西の風が吹く中で厳しい暑さとなった。"
-  }
+  ]
 }
