@@ -1,7 +1,16 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:tenki.jp)"
+      "WebFetch(domain:tenki.jp)",
+      "Bash(gh issue:*)",
+      "WebFetch(domain:www.town.amagi.lg.jp)",
+      "WebFetch(domain:triathlon-style.com)",
+      "WebFetch(domain:www.mspo.jp)",
+      "Bash(mkdir:*)",
+      "Bash(npx ajv-cli validate:*)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_take_screenshot"
     ],
     "deny": []
   }

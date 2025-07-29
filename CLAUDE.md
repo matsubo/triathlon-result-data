@@ -39,6 +39,13 @@ Claude can help navigate and understand this triathlon result data repository wh
 - **Schemas**: JSON schemas for data validation
 - **Configuration**: Package.json and other project setup files
 
+## ファイルの役割
+
+- `race-info.json` 大会情報のマスタ
+- `images/` 大会を象徴する画像。webp形式。300x200以内に収まる大きさ。
+- `master/<year>/<id>/result.tsv` 大会のリザルトデータ
+- `master/<year>/<id>/weather-info.json` 大会の天気ータ
+
 ### GitHub Workflows (.github/workflows/)
 
 The project includes automated CI/CD workflows for data validation:
