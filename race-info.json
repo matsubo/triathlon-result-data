@@ -1561,6 +1561,31 @@
           ]
         }
       ]
+    },
+    {
+      "id": "tokunoshima",
+      "name": "トライアスロンIN徳之島",
+      "location": "鹿児島県徳之島・天城町",
+      "image": "images/tokunoshima.webp",
+      "source": "https://www.town.amagi.lg.jp/kanko/triathlon/2025/",
+      "editions": [
+        {
+          "date": "2025-06-29",
+          "weather_file": "master/2025/tokunoshima/weather-data.json",
+          "categories": [
+            {
+              "id": "tokunoshima",
+              "result_tsv": "master/2025/tokunoshima/result.tsv",
+              "name": "個人の部",
+              "distance": "MD",
+              "swim_distance": 2,
+              "bike_distance": 75,
+              "run_distance": 20,
+              "description": "2025年第38回トライアスロンIN徳之島大会。世界自然遺産の島、徳之島の美しい珊瑚礁の海を舞台に、スイム2km、バイク75km、ラン20kmのミドルディスタンスで開催。1987年から続く歴史ある大会で「遅くてもあなたが主役」をキャッチフレーズに、地元の太鼓や島民の温かい応援が特徴的。天城町を起点とした島一周コースで、変化に富んだ地形と美しい景観が楽しめる。"
+            }
+           ]
+        }
+      ]
     }
   ]
 }
