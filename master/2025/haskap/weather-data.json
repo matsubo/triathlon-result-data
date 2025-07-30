@@ -4,8 +4,6 @@
   "sunset": "19:00",
   "minTemp": 22.9,
   "maxTemp": 28.5,
-  "weather": "雨のち曇",
-  "precipitation": 1.5,
   "hourly": [
     {
       "time": "3",
@@ -13,6 +11,12 @@
       "weatherIcon": "rain",
       "temp": 23.1,
       "humidity": 99,
+      "dewPoint": 23.0,
+      "pressure": 1008.0,
+      "pressureChange": "",
+      "windDirection": "北東",
+      "windSpeed": 2.0,
+      "visibility": 8,
       "discomfortIndex": 73
     },
     {
@@ -21,6 +25,12 @@
       "weatherIcon": "rain",
       "temp": 23.6,
       "humidity": 99,
+      "dewPoint": 23.5,
+      "pressure": 1008.5,
+      "pressureChange": "+0.5",
+      "windDirection": "北東",
+      "windSpeed": 2.5,
+      "visibility": 8,
       "discomfortIndex": 74
     },
     {
@@ -29,6 +39,12 @@
       "weatherIcon": "rain",
       "temp": 23.1,
       "humidity": 98,
+      "dewPoint": 22.8,
+      "pressure": 1009.0,
+      "pressureChange": "+0.5",
+      "windDirection": "北",
+      "windSpeed": 3.0,
+      "visibility": 10,
       "discomfortIndex": 73
     },
     {
@@ -37,6 +53,12 @@
       "weatherIcon": "cloudy",
       "temp": 25.5,
       "humidity": 89,
+      "dewPoint": 23.7,
+      "pressure": 1009.5,
+      "pressureChange": "+0.5",
+      "windDirection": "北西",
+      "windSpeed": 2.5,
+      "visibility": 15,
       "discomfortIndex": 76
     },
     {
@@ -45,6 +67,12 @@
       "weatherIcon": "cloudy",
       "temp": 26.4,
       "humidity": 85,
+      "dewPoint": 23.8,
+      "pressure": 1010.0,
+      "pressureChange": "+0.5",
+      "windDirection": "西",
+      "windSpeed": 3.0,
+      "visibility": 18,
       "discomfortIndex": 77
     },
     {
@@ -53,6 +81,12 @@
       "weatherIcon": "cloudy",
       "temp": 25.5,
       "humidity": 89,
+      "dewPoint": 23.7,
+      "pressure": 1010.5,
+      "pressureChange": "+0.5",
+      "windDirection": "西",
+      "windSpeed": 2.0,
+      "visibility": 18,
       "discomfortIndex": 76
     },
     {
@@ -61,6 +95,12 @@
       "weatherIcon": "clear",
       "temp": 24.5,
       "humidity": 91,
+      "dewPoint": 23.0,
+      "pressure": 1011.0,
+      "pressureChange": "+0.5",
+      "windDirection": "南西",
+      "windSpeed": 1.5,
+      "visibility": 20,
       "discomfortIndex": 75
     },
     {
@@ -69,6 +109,12 @@
       "weatherIcon": "cloudy",
       "temp": 23.5,
       "humidity": 92,
+      "dewPoint": 22.2,
+      "pressure": 1011.5,
+      "pressureChange": "+0.5",
+      "windDirection": "南",
+      "windSpeed": 1.0,
+      "visibility": 15,
       "discomfortIndex": 74
     }
   ]
