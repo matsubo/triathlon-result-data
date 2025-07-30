@@ -1583,7 +1583,42 @@
               "run_distance": 20,
               "description": "2025年第38回トライアスロンIN徳之島大会。世界自然遺産の島、徳之島の美しい珊瑚礁の海を舞台に、スイム2km、バイク75km、ラン20kmのミドルディスタンスで開催。1987年から続く歴史ある大会で「遅くてもあなたが主役」をキャッチフレーズに、地元の太鼓や島民の温かい応援が特徴的。天城町を起点とした島一周コースで、変化に富んだ地形と美しい景観が楽しめる。"
             }
-           ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanagawa",
+      "name": "NISSAN CUP神奈川トライアスロン",
+      "location": "神奈川県横須賀市浦郷沖水域及び夏島町周辺特設コース",
+      "image": "images/kanagawa.webp",
+      "source": "https://www.kn-tu.or.jp/",
+      "editions": [
+        {
+          "date": "2025-06-08",
+          "weather_file": "master/2025/kanagawa/weather-data.json",
+          "categories": [
+            {
+              "id": "kanagawa",
+              "result_tsv": "master/2025/kanagawa/result.tsv",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年第39回NISSAN CUP神奈川トライアスロン／関東ブロック選手権。神奈川県横須賀市の浦郷沖水域及び夏島町周辺特設コースで開催。スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンス。関東ブロック選手権も兼ねた競技レベルの高い大会です。"
+            },
+            {
+              "id": "kanagawa_sprint",
+              "result_tsv": "master/2025/kanagawa_sprint/result.tsv",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "2025年第39回NISSAN CUP神奈川トライアスロン スプリントディスタンス。神奈川県横須賀市の浦郷沖水域及び夏島町周辺特設コースで開催。スイム750m、バイク20km、ラン5kmのスプリントディスタンス。初心者でも参加しやすい距離設定の大会です。"
+            }
+          ]
         }
       ]
     }
