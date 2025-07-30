@@ -1506,7 +1506,7 @@
       "id": "haskap",
       "name": "ハスカップトライアスロンin勇払",
       "location": "北海道苫小牧市勇払マリーナ及びその周辺",
-      "image": "images/dummy.webp",
+      "image": "images/haskap.webp",
       "source": "https://haskapp-tri2025.jimdofree.com/",
       "editions": [
         {
@@ -1531,7 +1531,7 @@
       "id": "nagaragawa_kokusai",
       "name": "長良川国際トライアスロン大会",
       "location": "岐阜県海津市国営木曽三川公園 アクアフィールド特設トライアスロンコース",
-      "image": "images/dummy.webp",
+      "image": "images/nagaragawa_kokusai.webp",
       "source": "https://www.nagaragawa-triathlon.jp/",
       "editions": [
         {
