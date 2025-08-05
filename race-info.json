@@ -1621,6 +1621,31 @@
           ]
         }
       ]
+    },
+    {
+      "id": "numadu",
+      "name": "沼津千本浜トライアスロン",
+      "location": "静岡県沼津市 千本浜公園",
+      "image": "images/numadu.webp",
+      "source": "https://teamkens.co.jp/race/numazu-2025/",
+      "editions": [
+        {
+          "date": "2025-08-03",
+          "weather_file": "master/2025/numadu/weather-data.json",
+          "categories": [
+            {
+              "id": "numadu",
+              "result_tsv": "master/2025/numadu/result.tsv",
+              "name": "個人",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 22.5,
+              "run_distance": 5,
+              "description": "2025年 沼津千本浜トライアスロン。静岡県沼津市の千本浜公園を舞台に、スイム750m、バイク22.5km、ラン5kmのスプリントディスタンスで開催。美しい海岸線と富士山を望む絶景の中で行われる大会です。"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
