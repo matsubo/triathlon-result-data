@@ -1646,6 +1646,31 @@
           ]
         }
       ]
+    },
+    {
+      "id": "uminomorisptri",
+      "name": "東京・海の森トライアスロン",
+      "location": "東京都江東区",
+      "image": "images/uminomori.webp",
+      "source": "https://www.mspo.jp/uminomorisptri/",
+      "editions": [
+        {
+          "date": "2025-08-31",
+          "weather_file": "master/2025/uminomorisptri/weather-data.json",
+          "categories": [
+            {
+              "id": "uminomorisptri",
+              "result_tsv": "master/2025/uminomorisptri/result.tsv",
+              "name": "スプリント・一般",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "日本トライアスロン連合主催の大会で、スプリントやスーパースプリントの個人戦のほか、3人1組で3種目を繋ぐリレー形式の「クラブフェスティバルEKIDEN」、大学OB&OG対抗戦、全国高等学校選手権などが開催されます。会場は海の森水上競技場で、自動車での来場が推奨されています。"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
