@@ -32,6 +32,32 @@
               "description": "2024年佐渡国際トライアスロン大会。最も歴史ある国内ロングディスタンストライアスロン。美しい佐渡島を舞台に、水泳3.8km、自転車190km、ランニング42.195kmの総距離226kmに挑戦。"
             }
           ]
+        },
+        {
+          "date": "2025-09-07",
+          "weather_file": "master/2025/sado/weather-data.json",
+          "categories": [
+            {
+              "id": "sado",
+              "result_tsv": "master/2025/sado/result.tsv",
+              "name": "タイプA（ロングディスタンス）",
+              "distance": "LD",
+              "swim_distance": 4,
+              "bike_distance": 190,
+              "run_distance": 42.2,
+              "description": "2025年佐渡国際トライアスロン大会。最も歴史ある国内ロングディスタンストライアスロン。美しい佐渡島を舞台に、水泳3.8km、自転車190km、ランニング42.195kmの総距離226kmに挑戦。"
+            },
+            {
+              "id": "sado_b",
+              "result_tsv": "master/2025/sado_b/result.tsv",
+              "name": "タイプB（ミドルディスタンス）",
+              "distance": "MD",
+              "swim_distance": 2,
+              "bike_distance": 108,
+              "run_distance": 21.1,
+              "description": "2025年佐渡国際トライアスロン大会。最も歴史ある国内ロングディスタンストライアスロン。美しい佐渡島を舞台に、水泳3.8km、自転車190km、ランニング42.195kmの総距離226kmに挑戦。"
+            }
+          ]
         }
       ]
     },
