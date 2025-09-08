@@ -52,10 +52,10 @@
               "result_tsv": "master/2025/sado_b/result.tsv",
               "name": "タイプB（ミドルディスタンス）",
               "distance": "MD",
-              "swim_distance": 2,
+              "swim_distance": 1.350,
               "bike_distance": 108,
               "run_distance": 21.1,
-              "description": "2025年佐渡国際トライアスロン大会。最も歴史ある国内ロングディスタンストライアスロン。美しい佐渡島を舞台に、水泳3.8km、自転車190km、ランニング42.195kmの総距離226kmに挑戦。"
+              "description": "スイムが短縮になりました"
             }
           ]
         }
