@@ -44,9 +44,7 @@ jobs:
           validation_failed=0
           
           for file in $files; do
-            echo "Validating $file..."
             if ajv validate -s weather-schema.json -d "$file"; then
-              echo "✅ $file is valid"
             else
               echo "❌ $file is invalid"
               validation_failed=1
