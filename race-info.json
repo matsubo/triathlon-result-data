@@ -1697,6 +1697,31 @@
           ]
         }
       ]
+    },
+    {
+      "id": "fujikawaguchiko",
+      "name": "Mt.富士トライアスロン富士河口湖",
+      "location": "山梨県富士河口湖町",
+      "image": "images/fujikawaguchiko.webp",
+      "source": "https://mtfuji-tri.jp/",
+      "editions": [
+        {
+          "date": "2025-09-07",
+          "weather_file": "master/2025/fujikawaguchiko/weather-data.json",
+          "categories": [
+            {
+              "id": "fujikawaguchiko",
+              "result_tsv": "master/2025/fujikawaguchiko/result.tsv",
+								"name": "オリンピックディスタンス",
+								"distance": "OD",
+								"swim_distance": 1.5,
+								"bike_distance": 40,
+								"run_distance": 10,
+							"description": "2025年Mt.富士トライアスロン富士河口湖。山梨県富士河口湖町を舞台に、スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンスで開催。富士山と河口湖の絶景を望みながら競う、日本を代表する美しいコースが魅力の大会です。"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
