@@ -44,7 +44,7 @@
           },
           "weatherIcon": {
             "type": "string",
-            "enum": ["rain", "cloudy", "clear", "clear-night", "clear-day", "heavy-rain"],
+            "enum": ["rain", "cloudy", "clear", "clear-night", "clear-day", "heavy-rain", "partly-cloudy"],
             "description": "Weather icon identifier"
           },
           "temp": {
