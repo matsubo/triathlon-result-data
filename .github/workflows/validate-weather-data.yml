@@ -5,56 +5,221 @@ on:
     paths:
       - 'master/**/weather-data.json'
       - 'weather-schema.json'
+      - 'WEATHER_DATA_RULES.md'
+      - '.github/workflows/validate-weather-data.yml'
   pull_request:
     paths:
       - 'master/**/weather-data.json'
       - 'weather-schema.json'
+      - 'WEATHER_DATA_RULES.md'
+      - '.github/workflows/validate-weather-data.yml'
   workflow_dispatch:
+
+env:
+  NODE_VERSION: '22'
+  VALIDATION_TIMEOUT: '300'
 
 jobs:
   validate-weather-data:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+          cache-dependency-path: 'package.json'
       
-      - name: Install ajv-cli for JSON Schema validation
-        run: npm install -g ajv-cli
+      - name: Cache validation tools
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ env.NODE_VERSION }}-validation-${{ hashFiles('**/package*.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-${{ env.NODE_VERSION }}-validation-
+            ${{ runner.os }}-node-${{ env.NODE_VERSION }}-
       
-      - name: Find and validate weather data files
+      - name: Install validation dependencies
         run: |
-          echo "Finding weather-data.json files..."
-          files=$(find master -name "weather-data.json" -type f)
+          echo "📦 Installing validation tools..."
+          npm install -g ajv-cli@5.0.0 ajv-formats@2.1.1
+          echo "✅ Dependencies installed successfully"
+      
+      - name: Validate weather schema
+        run: |
+          echo "🔍 Validating weather schema file..."
+          if [ ! -f "weather-schema.json" ]; then
+            echo "❌ ERROR: weather-schema.json not found"
+            exit 1
+          fi
           
-          if [ -z "$files" ]; then
-            echo "No weather-data.json files found"
+          # Validate schema syntax
+          if ! node -e "JSON.parse(require('fs').readFileSync('weather-schema.json', 'utf8'))"; then
+            echo "❌ ERROR: weather-schema.json contains invalid JSON"
+            exit 1
+          fi
+          
+          # Validate schema structure
+          if ! ajv compile -s weather-schema.json > /dev/null 2>&1; then
+            echo "❌ ERROR: weather-schema.json is not a valid JSON Schema"
+            exit 1
+          fi
+          
+          echo "✅ Weather schema is valid"
+      
+      - name: Find weather data files
+        id: find-files
+        run: |
+          echo "🔍 Searching for weather-data.json files..."
+          
+          # Find all weather-data.json files
+          files=$(find master -name "weather-data.json" -type f | sort)
+          file_count=$(echo "$files" | wc -l)
+          
+          if [ -z "$files" ] || [ "$file_count" -eq 0 ]; then
+            echo "⚠️  No weather-data.json files found"
+            echo "files=" >> $GITHUB_OUTPUT
+            echo "count=0" >> $GITHUB_OUTPUT
             exit 0
           fi
           
-          echo "Found files:"
-          echo "$files"
+          echo "📊 Found $file_count weather data files:"
+          echo "$files" | sed 's/^/  - /'
           echo ""
           
-          validation_failed=0
+          # Save files list for next step
+          echo "$files" > weather_files.txt
+          echo "files<<EOF" >> $GITHUB_OUTPUT
+          echo "$files" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          echo "count=$file_count" >> $GITHUB_OUTPUT
+      
+      - name: Validate weather data files
+        if: steps.find-files.outputs.count > 0
+        run: |
+          echo "🧪 Starting validation of ${{ steps.find-files.outputs.count }} files..."
+          echo "⏱️  Timeout set to ${{ env.VALIDATION_TIMEOUT }} seconds"
+          echo ""
           
-          for file in $files; do
-            if ajv validate -s weather-schema.json -d "$file"; then
+          # Initialize counters
+          validation_failed=0
+          valid_files=0
+          invalid_files=0
+          total_files=0
+          
+          # Create temporary files for results
+          valid_list=$(mktemp)
+          invalid_list=$(mktemp)
+          error_details=$(mktemp)
+          
+          # Process each file
+          while IFS= read -r file; do
+            if [ -z "$file" ]; then
+              continue
+            fi
+            
+            total_files=$((total_files + 1))
+            echo "🔍 Validating: $file"
+            
+            # Check if file exists and is readable
+            if [ ! -f "$file" ]; then
+              echo "❌ ERROR: File not found: $file"
+              echo "$file" >> "$invalid_list"
+              echo "File not found: $file" >> "$error_details"
+              invalid_files=$((invalid_files + 1))
+              validation_failed=1
+              continue
+            fi
+            
+            # Check if file is valid JSON
+            if ! jq empty "$file" 2>/dev/null; then
+              echo "❌ ERROR: Invalid JSON syntax in $file"
+              echo "$file" >> "$invalid_list"
+              echo "Invalid JSON syntax: $file" >> "$error_details"
+              invalid_files=$((invalid_files + 1))
+              validation_failed=1
+              continue
+            fi
+            
+            # Validate against schema with timeout
+            validation_output=$(timeout ${{ env.VALIDATION_TIMEOUT }} ajv validate -s weather-schema.json -d "$file" 2>&1)
+            validation_exit_code=$?
+            
+            if [ $validation_exit_code -eq 0 ]; then
+              echo "✅ Valid: $file"
+              echo "$file" >> "$valid_list"
+              valid_files=$((valid_files + 1))
+            elif [ $validation_exit_code -eq 124 ]; then
+              echo "⏰ TIMEOUT: Validation timed out for $file"
+              echo "$file" >> "$invalid_list"
+              echo "Validation timeout: $file" >> "$error_details"
+              invalid_files=$((invalid_files + 1))
+              validation_failed=1
             else
-              echo "❌ $file is invalid"
+              echo "❌ Invalid: $file"
+              echo "$validation_output" | sed 's/^/    /'
+              echo "$file" >> "$invalid_list"
+              echo "Schema validation failed: $file" >> "$error_details"
+              echo "$validation_output" >> "$error_details"
+              invalid_files=$((invalid_files + 1))
               validation_failed=1
             fi
             echo ""
-          done
+          done < weather_files.txt
           
+          # Generate summary report
+          echo "📊 VALIDATION SUMMARY"
+          echo "===================="
+          echo "Total files processed: $total_files"
+          echo "✅ Valid files: $valid_files"
+          echo "❌ Invalid files: $invalid_files"
+          echo ""
+          
+          if [ $valid_files -gt 0 ]; then
+            echo "✅ VALID FILES:"
+            cat "$valid_list" | sed 's/^/  - /'
+            echo ""
+          fi
+          
+          if [ $invalid_files -gt 0 ]; then
+            echo "❌ INVALID FILES:"
+            cat "$invalid_list" | sed 's/^/  - /'
+            echo ""
+            echo "📋 ERROR DETAILS:"
+            echo "=================="
+            cat "$error_details"
+            echo ""
+          fi
+          
+          # Cleanup temporary files
+          rm -f "$valid_list" "$invalid_list" "$error_details" weather_files.txt
+          
+          # Final result
           if [ $validation_failed -eq 1 ]; then
-            echo "❌ One or more weather data files failed validation"
+            echo "❌ VALIDATION FAILED: $invalid_files out of $total_files files are invalid"
+            echo ""
+            echo "💡 TROUBLESHOOTING TIPS:"
+            echo "  1. Check the WEATHER_DATA_RULES.md file for formatting guidelines"
+            echo "  2. Validate locally using: ajv validate -s weather-schema.json -d your-file.json"
+            echo "  3. Ensure all required fields are present and have correct data types"
+            echo "  4. Check that weatherIcon values are from the allowed list"
+            echo "  5. Verify numeric ranges (humidity: 0-100, windSpeed: ≥0, etc.)"
             exit 1
           else
-            echo "✅ All weather data files are valid"
+            echo "🎉 SUCCESS: All $total_files weather data files are valid!"
+            echo ""
+            echo "✨ Great job maintaining data quality! All files passed schema validation."
           fi
+      
+      - name: Validation complete
+        if: steps.find-files.outputs.count == 0
+        run: |
+          echo "ℹ️  No weather data files found to validate"
+          echo "This is normal if no weather-data.json files were modified in this change."
