@@ -1747,6 +1747,51 @@
           ]
         }
       ]
+    },
+    {
+      "id": "irago",
+      "name": "トライアスロン伊良湖大会",
+      "location": "愛知県田原市　伊良湖岬周辺",
+      "image": "images/irago.webp",
+      "source": "https://www.irago-triathlon.jp/",
+      "editions": [
+        {
+          "date": "2025-09-14",
+          "weather_file": "master/2025/irago_a/weather-data.json",
+					"categories": [
+						{
+							"id": "irago_a",
+							"result_tsv": "master/2025/irago_a/result.tsv",
+							"name": "Aタイプ（ミドル）",
+							"distance": "MD",
+							"swim_distance": 2.25,
+							"bike_distance": 74.7,
+							"run_distance": 18.0,
+							"description": "2025年トライアスロン伊良湖大会。愛知県田原市の伊良湖岬周辺を舞台に、スイム2.25km、バイク74.7km、ラン18kmのミドルディスタンスで開催。美しい海と自然を望む絶景の中で行われる大会です。"
+						},
+						{
+							"id": "irago_b",
+							"result_tsv": "master/2025/irago_b/result.tsv",
+							"name": "Bタイプ（スタンダード）",
+							"distance": "OD",
+							"swim_distance": 1.5,
+							"bike_distance": 44.4,
+							"run_distance": 10.0,
+							"description": "2025年トライアスロン伊良湖大会。愛知県田原市の伊良湖岬周辺を舞台に、スイム1.5km、バイク44.4km、ラン10kmのスタンダードディスタンスで開催。美しい海と自然を望む絶景の中で行われる大会です。"
+						},
+						{
+							"id": "irago_c",
+							"result_tsv": "master/2025/irago_c/result.tsv",
+							"name": "Cタイプ（スプリント）",
+							"distance": "SD",
+							"swim_distance": 0.75,
+							"bike_distance": 14.1,
+							"run_distance": 4.0,
+							"description": "2025年トライアスロン伊良湖大会。愛知県田原市の伊良湖岬周辺を舞台に、スイム750m、バイク14.1km、ラン4kmのスプリントディスタンスで開催。美しい海と自然を望む絶景の中で行われる大会です。"
+						}
+          ]
+        }
+      ]
     }
   ]
 }
