@@ -1722,6 +1722,31 @@
           ]
         }
       ]
+    },
+    {
+      "id": "imabari_hakata",
+      "name": "瀬戸内しまなみ海道 今治伯方島トライアスロン",
+      "location": "愛媛県 今治市 伯方Ｓ・Ｃパークトライアスロン特設会場",
+      "image": "images/imabari_hakata.webp",
+      "source": "https://imabari-triathlon.com/",
+      "editions": [
+        {
+          "date": "2025-09-14",
+          "weather_file": "master/2025/imabari_hakata/weather-data.json",
+          "categories": [
+            {
+              "id": "imabari_hakata",
+              "result_tsv": "master/2025/imabari_hakata/result.tsv",
+								"name": "オリンピックディスタンス",
+								"distance": "OD",
+								"swim_distance": 1.5,
+								"bike_distance": 40,
+								"run_distance": 10,
+							"description": "2025年瀬戸内しまなみ海道 今治伯方島トライアスロン。愛媛県今治市の伯方Ｓ・Ｃパークを舞台に、スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンスで開催。美しい海と島々を望む絶景の中で行われる大会です。"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
