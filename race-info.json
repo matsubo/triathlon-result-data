@@ -1792,6 +1792,31 @@
           ]
         }
       ]
+    },
+		{
+      "id": "ironman_minami_hokkaido",
+      "name": "IRONMAN JAPAN SOUTH HOKKAIDO",
+      "location": "北海道白老郡白老町",
+      "image": "images/ironman_minami_hokkaido.webp",
+      "source": "https://www.ironman.com/races/im-south-hokkaido",
+      "editions": [
+        {
+          "date": "2024-09-15",
+          "weather_file": "master/2024/ironman_minami_hokkaido/weather-data.json",
+					"categories": [
+						{
+							"id": "ironman_minami_hokkaido",
+							"result_tsv": "master/2024/ironman_minami_hokkaido/result.tsv",
+							"name": "IRONMAN DISTANCE",
+							"distance": "LD",
+							"swim_distance": 3.8,
+							"bike_distance": 180.0,
+							"run_distance": 42.195,
+							"description": "2024年IRONMAN JAPAN SOUTH HOKKAIDO。北海道白老郡白老町を舞台に、スイム3.8km、バイク180km、ラン42.195kmのフルディスタンスで開催。美しい自然と厳しいコースが特徴の大会です。"
+						}
+          ]
+        }
+      ]
     }
   ]
 }
