@@ -1833,6 +1833,31 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ironman_world_championship",
+      "name": "IRONMAN World Championship",
+      "location": "フランス・ニース",
+      "image": "images/nice.webp",
+      "source": "https://www.ironman.com/races/world-championship",
+      "editions": [
+        {
+          "date": "2025-09-14",
+          "weather_file": "master/2025/ironman_world_championship/weather-data.json",
+          "categories": [
+            {
+              "id": "ironman_world_championship",
+              "result_tsv": "master/2025/ironman_world_championship/result.tsv",
+              "name": "IRONMAN DISTANCE",
+              "distance": "LD",
+              "swim_distance": 3.8,
+              "bike_distance": 180.0,
+              "run_distance": 42.195,
+              "description": "2025年IRONMAN World Championship。フランス・ニースで開催される世界最高峰の大会。スイム3.8km、バイク180km、ラン42.195kmのフルディスタンスで、世界中のトップアスリートが集結します。"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
