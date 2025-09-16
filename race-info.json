@@ -1815,6 +1815,22 @@
 							"description": "2024年IRONMAN JAPAN SOUTH HOKKAIDO。北海道白老郡白老町を舞台に、スイム3.8km、バイク180km、ラン42.195kmのフルディスタンスで開催。美しい自然と厳しいコースが特徴の大会です。"
 						}
           ]
+        },
+        {
+          "date": "2025-09-14",
+          "weather_file": "master/2025/ironman_minami_hokkaido/weather-data.json",
+					"categories": [
+						{
+							"id": "ironman_minami_hokkaido",
+							"result_tsv": "master/2025/ironman_minami_hokkaido/result.tsv",
+							"name": "IRONMAN DISTANCE",
+							"distance": "LD",
+							"swim_distance": 3.8,
+							"bike_distance": 180.0,
+							"run_distance": 42.195,
+							"description": "2025年IRONMAN JAPAN SOUTH HOKKAIDO。北海道白老郡白老町を舞台に、スイム3.8km、バイク180km、ラン42.195kmのフルディスタンスで開催。美しい自然と厳しいコースが特徴の大会です。"
+						}
+          ]
         }
       ]
     }
