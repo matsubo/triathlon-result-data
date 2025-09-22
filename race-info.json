@@ -1858,6 +1858,31 @@
           ]
         }
       ]
+    },
+    {
+      "id": "gamagori_fall",
+      "name": "蒲郡オレンジトライアスロン大会秋スペシャルエディション",
+      "location": "愛知県蒲郡市（浜町・竹島・市民会館周辺）",
+      "image": "images/gamagori.webp",
+      "source": "https://www.gama-triathlon.jp/",
+      "editions": [
+        {
+          "date": "2025-06-22",
+          "weather_file": "master/2025/gamagori_fall/weather-data.json",
+          "categories": [
+            {
+              "id": "gamagori_fall",
+              "result_tsv": "master/2025/gamagori_fall/result.tsv",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年蒲郡オレンジトライアスロン大会秋スペシャルエディション。愛知県蒲郡市の美しい海岸線と竹島を望むコースで開催される秋の特別版。スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンス。秋の穏やかな気候の中、地域の温かい応援に包まれながら蒲郡の魅力を存分に味わえる大会です。"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
