@@ -3,12 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "bun run test:json && bun run test:weather",
+    "test:json": "bun run tests/test_json_validity.js",
+    "test:weather": "bun run scripts/validate-weather-data.js",
+    "test:npm": "npm run test:json:npm && npm run test:weather:npm",
+    "test:json:npm": "node tests/test_json_validity.js",
+    "test:weather:npm": "node scripts/validate-weather-data.js",
     "format": "npx prettier --write race-info.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.12.1"
+  "packageManager": "bun@1.1.38",
+  "devDependencies": {
+    "ajv": "^8.12.0",
+    "ajv-formats": "^2.1.1"
+  }
 }
