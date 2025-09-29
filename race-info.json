@@ -1883,6 +1883,31 @@
           ]
         }
       ]
+    },
+    {
+      "id": "murakami",
+      "name": "村上・笹川流れ国際トライアスロン",
+      "location": "新潟県村上市",
+      "image": "images/murakami.webp",
+      "source": "https://murakami-triathlon.com/",
+      "editions": [
+        {
+          "date": "2025-09-28",
+          "weather_file": "master/2025/murakami/weather-data.json",
+          "categories": [
+            {
+              "id": "murakami",
+              "result_tsv": "master/2025/murakami/result.tsv",
+              "name": "スタンダードディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年村上・笹川流れ国際トライアスロン大会。新潟県村上市の美しい笹川流れと瀬波温泉海岸を舞台に、スイム1.5km、バイク40km、ラン10kmのスタンダードディスタンスで開催。豊かな自然と趣のある町並み、美味しい鮭料理で有名な村上市の魅力を存分に味わえる大会です。NTTトライアスロンエイジグループ・ナショナルチャンピオンシップシリーズ対象大会。"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
