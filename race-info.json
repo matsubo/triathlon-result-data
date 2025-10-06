@@ -1908,6 +1908,41 @@
           ]
         }
       ]
+    },
+    {
+      "id": "yamagata_zao",
+      "name": "おもてなし山形トライアスロンin ZAO",
+      "location": "山形市 蔵王温泉",
+      "image": "images/dummy.webp",
+      "source": "https://example.com/yamagata-zao",
+      "editions": [
+        {
+          "date": "2025-09-20",
+          "weather_file": "master/2025/yamagata_zao/weather-data.json",
+          "categories": [
+            {
+              "id": "yamagata_zao",
+              "result_tsv": "master/2025/yamagata_zao/result.tsv",
+              "name": "スタンダードディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年おもてなし山形トライアスロンin ZAO。山形市蔵王温泉を舞台に、スイム1.5km、バイク40km、ラン10kmのスタンダードディスタンスで開催。蔵王の雄大な自然と温泉地の魅力を感じながら競う大会です。"
+            },
+            {
+              "id": "yamagata_zao_sprint",
+              "result_tsv": "master/2025/yamagata_zao_sprint/result.tsv",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "2025年おもてなし山形トライアスロンin ZAO スプリントディスタンス。山形市蔵王温泉を舞台に、スイム750m、バイク20km、ラン5kmで開催。初心者でも参加しやすい距離設定で、蔵王の自然を楽しめる大会です。"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
