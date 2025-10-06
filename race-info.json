@@ -1913,8 +1913,8 @@
       "id": "yamagata_zao",
       "name": "おもてなし山形トライアスロンin ZAO",
       "location": "山形市 蔵王温泉",
-      "image": "images/dummy.webp",
-      "source": "https://example.com/yamagata-zao",
+      "image": "images/yamagata_zao.webp",
+      "source": "https://www.yamagatatri.com/zao",
       "editions": [
         {
           "date": "2025-09-20",
