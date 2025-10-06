@@ -1968,6 +1968,41 @@
           ]
         }
       ]
+    },
+    {
+      "id": "kawasakiko",
+      "name": "川崎港トライアスロンin東扇島",
+      "location": "神奈川県川崎市",
+      "image": "images/kawasakiko.webp",
+      "source": "https://www.kn-tu.or.jp/",
+      "editions": [
+        {
+          "date": "2025-10-05",
+          "weather_file": "master/2025/kawasakiko/weather-data.json",
+          "categories": [
+            {
+              "id": "kawasakiko",
+              "result_tsv": "master/2025/kawasakiko/result.tsv",
+              "name": "スタンダードディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年川崎港トライアスロンin東扇島。神奈川県川崎市の東扇島を舞台に、スイム1.5km、バイク40km、ラン10kmのスタンダードディスタンスで開催。工業港の独特な景観の中で行われる都市型トライアスロン大会です。"
+            },
+            {
+              "id": "kawasakiko_sprint",
+              "result_tsv": "master/2025/kawasakiko_sprint/result.tsv",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "2025年川崎港トライアスロンin東扇島 スプリントディスタンス。神奈川県川崎市の東扇島を舞台に、スイム750m、バイク20km、ラン5kmで開催。初心者でも参加しやすい距離設定の都市型トライアスロン大会です。"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
