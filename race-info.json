@@ -1943,6 +1943,31 @@
           ]
         }
       ]
+    },
+    {
+      "id": "yokohama_hakkeijima",
+      "name": "横浜八景島トライアスロンフェスティバル",
+      "location": "神奈川県横浜市",
+      "image": "images/yokohama_hakkeijima.webp",
+      "source": "https://sea.tri.yokohama/",
+      "editions": [
+        {
+          "date": "2025-09-28",
+          "weather_file": "master/2025/yokohama_hakkeijima/weather-data.json",
+          "categories": [
+            {
+              "id": "yokohama_hakkeijima",
+              "result_tsv": "master/2025/yokohama_hakkeijima/result.tsv",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "2025年横浜八景島トライアスロンフェスティバル。神奈川県横浜市の八景島を舞台に、スイム750m、バイク20km、ラン5kmのスプリントディスタンスで開催。海と島の美しい景観を楽しみながら競う都市型トライアスロン大会です。"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
