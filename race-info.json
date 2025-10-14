@@ -2003,6 +2003,41 @@
           ]
         }
       ]
+    },
+    {
+      "id": "chibacity",
+      "name": "千葉シティトライアスロン大会",
+      "location": "千葉県千葉市",
+      "image": "images/chibacity.webp",
+      "source": "https://chiba-tra.jp/",
+      "editions": [
+        {
+          "date": "2025-10-13",
+          "weather_file": "master/2025/chibacity/weather-data.json",
+          "categories": [
+            {
+              "id": "chibacity",
+              "result_tsv": "master/2025/chibacity/result.tsv",
+              "name": "スタンダード",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年千葉シティトライアスロン大会。千葉県千葉市の稲毛海浜公園を舞台に、スイム1.5km、バイク40km、ラン10kmのスタンダードディスタンスで開催。都市近郊の海岸を活用した、アクセスの良い大会です。"
+            },
+            {
+              "id": "chibacity_sprint",
+              "result_tsv": "master/2025/chibacity_sprint/result.tsv",
+              "name": "スプリント",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 20,
+              "run_distance": 5,
+              "description": "2025年千葉シティトライアスロン大会 スプリント。千葉県千葉市の稲毛海浜公園を舞台に、スイム750m、バイク20km、ラン5kmのスプリントディスタンスで開催。初心者でも参加しやすい距離設定の大会です。"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
