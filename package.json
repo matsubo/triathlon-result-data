@@ -15,7 +15,7 @@
   "license": "ISC",
   "packageManager": "bun@1.1.38",
   "devDependencies": {
-    "ajv": "^8.12.0",
+    "ajv": "^8.17.1",
     "ajv-formats": "^2.1.1"
   }
 }
