@@ -2038,6 +2038,31 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ironman_world_championship_kona",
+      "name": "IRONMAN World Championship",
+      "location": "Kona,Hawaii,USA",
+      "image": "images/kona.webp",
+      "source": "https://www.ironman.com/races/im-world-championship-kona",
+      "editions": [
+        {
+          "date": "2025-10-11",
+          "weather_file": "master/2025/ironman_world_championship_kona/weather-data.json",
+          "categories": [
+            {
+              "id": "ironman_world_championship_kona",
+              "result_tsv": "master/2025/ironman_world_championship_kona/result.tsv",
+              "name": "IRONMAN DISTANCE",
+              "distance": "LD",
+              "swim_distance": 3.8,
+              "bike_distance": 180.0,
+              "run_distance": 42.195,
+              "description": "2025年IRONMAN World Championship。女子の世界選手権。"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
