@@ -17,6 +17,10 @@ on:
       - 'dist/result-schema.json'
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -50,3 +54,9 @@ jobs:
             git commit -m "chore: rebuild dist/data.json [skip ci]"
             git push
           fi
+
+      - name: Draft release
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: release-drafter/release-drafter@v6
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
