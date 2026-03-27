@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "bun run test:json && bun run test:weather",
+    "test": "bun run test:json && bun run test:weather && bun run test:normalizers",
+    "test:normalizers": "bun run tests/test-normalizers.js",
     "test:json": "bun run tests/test_json_validity.js",
     "test:weather": "bun run scripts/validate-weather-data.js",
     "build": "bun run scripts/build-data.js",
