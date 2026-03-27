@@ -1,96 +1,85 @@
 # Multi-Sport Race Result Data
 
-マルチスポーツ（トライアスロン、デュアスロン、アクアスロン等）のレースマスタとリザルトデータです。
-
-このレポジトリの役割は、**汚い TSV データを正規化された JSON データとしてアプリケーションへ提供すること**です。
-
-このレポジトリに入っているレースの結果を[AI TRI+](https://ai-triathlon-result.teraren.com/)のサイトで分析できるようになっています。
-
 [![JSON Syntax Check](https://github.com/matsubo/triathlon-result-data/actions/workflows/json-check.yml/badge.svg)](https://github.com/matsubo/triathlon-result-data/actions/workflows/json-check.yml)
 [![Validate Race Info](https://github.com/matsubo/triathlon-result-data/actions/workflows/validate-race-info.yml/badge.svg)](https://github.com/matsubo/triathlon-result-data/actions/workflows/validate-race-info.yml)
 [![Validate Weather Data](https://github.com/matsubo/triathlon-result-data/actions/workflows/validate-weather-data.yml/badge.svg)](https://github.com/matsubo/triathlon-result-data/actions/workflows/validate-weather-data.yml)
 
+## このリポジトリの目的
 
-## データ構造
+様々なスポーツの大会が開かれており、スポーツの形や種目・方法は多様化してきています。しかし、その中でも普遍的なものは**他者との競技性**です。競技性がある限り、自分や他者のパフォーマンスの分析は普遍的に価値があります。
 
-以下のツリー構造になっています。
+当初はトライアスロンだけをスコープとしていましたが、デュアスロン・アクアスロン・マラソンなど多くのスポーツでも同じユースケースがあることがわかりました。
 
-- 大会
-  - 大会の開催日・天気
-    - カテゴリ
-      - リザルト（結果）
+このリポジトリの使命は、**非正規化された大会リザルトデータ（TSV）を正規化し、JSON Schema + JSON データとして上位のアプリケーションへ提供すること**です。
 
-- 大会
-  - `race-info.json`
-  - 一番大元となるファイルです。
-  - モデル名: `Event`
-- 大会の開催日
-  - その日に開催された内容。日をまたぐ場合は開始日を入力。
-  - 天気情報の入力
-    - 過去の天気は[このサイト](https://tenki.jp/past/2025/04/weather/)を参考に取得する。
-    - 地点が少ないので近い都市を選ぶ。
-  - モデル名: `Edition`
-- カテゴリ
-  - モデル名: `Category`
-  - 普通は1つの大会で1つの競技が行われますがトライアスロンや競技中に競技内容が変更になった場合に使います。
-  - 分析ページではカテゴリごとに結果を比較するので比較する前提が異なる場合に対応するためです。
-  - `segments` 配列で競技構成を定義します（例: `[{sport:"swim", distance:1.5}, {sport:"bike", distance:40}, {sport:"run", distance:10}]`）
-  - トライアスロン以外にもデュアスロン、アクアスロン、マラソンなどマルチスポーツに対応しています。
-- リザルト
-  - モデル名: `Result`
-  - タイムが書かれたシートです
+### 提供するもの
 
+アプリケーションに提供するのは **2つだけ** です:
 
-## 大会マスタを追加する方法
+1. **JSON Schema**（`dist/result-schema.json`）— データの契約
+2. **JSON データ**（`dist/data.json`）— 正規化された全レース・全選手データ
 
-`race-info.json` を編集してください。
+アプリケーション側は TSV パーサーやヘッダーマッピングのロジックを持つ必要がありません。
 
-## 開催日の追加
+このリポジトリに入っているレースの結果を [AI TRI+](https://ai-triathlon-result.teraren.com/) のサイトで分析できるようになっています。
 
+## アーキテクチャ
+
+```
+入力（master/）                         出力（dist/）
+  *.tsv（非正規化リザルト）──┐
+  weather-data.json ────────┤── bun run build ──→ data.json（正規化済み）
+  race-info.json（マッピング）┘                    result-schema.json（契約）
+```
+
+## データモデル
+
+```
+Event（大会）
+  └── Edition（開催日）
+        ├── Weather（天気）
+        └── Category（カテゴリ）
+              ├── Segments（競技構成: swim, bike, run の順序付き配列）
+              └── Athletes（選手リザルト）
+```
+
+- **Event**: 大会そのもの（例: 横浜トライアスロン）
+- **Edition**: 年度ごとの開催（例: 2025-05-18）。天気情報を含む
+- **Category**: 同一大会内の種目区分（例: OD, Sprint, デュアスロン）
+- **Segments**: 競技構成を `[{sport, distance_km}]` の配列で定義。トライアスロン以外にもデュアスロン（run-bike-run）、アクアスロン（swim-run）、マラソン（run）、スイム中止大会（bike-run）に対応
+- **Athlete**: 各選手の正規化されたリザルト（順位、タイム、セグメント別データ）
+
+## データの追加方法
+
+### 大会マスタの追加
+
+`race-info.json` を編集してください。レース、開催日、カテゴリのツリー構造になっています。
+
+### 大会画像の追加
+
+`images/` ディレクトリに横400px, 縦300px程度の大会を象徴する画像を保存してください。フォーマットは webp です。
 
 ### 天気情報の追加
 
-レース日、レース場所の天気情報をjson形式で用意してください。
+レース日・場所の天気情報を JSON 形式で用意してください。
 
-`master/<year>/<slug>/weather-data.json` 
+```
+master/<year>/<event_id>/weather-data.json
+```
 
-過去の天気をWeb上で探して、スクショを撮ってサンプルのデータを添付しつつAIに投げれば作れます。
+天気データは `weather-schema.json` で定義された JSON Schema に従って作成してください。過去の天気は [tenki.jp](https://tenki.jp/past/2025/04/weather/) を参考に取得できます。
 
-天気データは `weather-schema.json` で定義されたJSON Schemaに従って作成してください。GitHub Actionsで自動的にスキーマ検証が実行されます。
+### リザルトの追加
 
+TSV ファイルを以下の場所に追加してください:
 
-## リザルトを掲載する方法
+```
+master/<year>/<event_id>/<category>.tsv
+```
 
-方法1: 掲載してほしいリザルトがある場合はissueに追加してください。
-ベストエフォートで対応します。
+ヘッダ名は元のリザルトデータをそのまま使って構いません。`race-info.json` にカラムマッピング（`columns`, `meta_columns`）を定義することで、ビルド時に正規化されます。
 
-方法2: リザルトのデータをTSVファイルとして追加してpull requestを送ってほしいです。そうしましたら結構すぐに掲載できます。
-（おすすめ）
-（そのうちドキュメントを用意します。）
-
-### リザルトの追加方法
-
-#### レースマスタの編集
-まずは、`race-info.json` を開いてください。
-レース、レース開催日と距離のセットのツリー構造になっています。
-
-すでにレースが存在していたら、レースカテゴリだけを追加してください。
-
-####  大会画像の追加(存在していなければ)
-
-`images/` ディレクトリに横400px, 縦300px程度の大会を象徴するような画像を保存してください。
-フォーマットはwebpです。背景として利用するのでやや抽象的な荒いほうが良いです。
-
-#### リザルトのファイルの追加
-
-以下の場所へリザルトをTSV形式で追加してください。
-
-`master/<year>/<slug>/result.tsv` 
-
-(後方互換のために今はこうなっていますが、今後変更予定)
-
-ヘッダ名などは元のリザルトデータを使ってもらってOKです。
-取り込む際に調整します。
+リザルトを追加したい場合は Issue か Pull Request をお送りください。
 
 ## アプリケーション向け：正規化データの利用
 
