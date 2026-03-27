@@ -849,7 +849,7 @@
                 {
                   "sport": "run",
                   "distance": 5,
-                  "columns": ["ランラップ"]
+                  "columns": ["ランラップ", "R順"]
                 }
               ]
             }
@@ -933,7 +933,7 @@
                 {
                   "sport": "run",
                   "distance": 10,
-                  "columns": ["ランラップ"]
+                  "columns": ["ランラップ", "R順"]
                 }
               ]
             },
@@ -957,7 +957,7 @@
                 {
                   "sport": "run",
                   "distance": 5,
-                  "columns": ["ランラップ"]
+                  "columns": ["ランラップ", "R順"]
                 }
               ]
             }
@@ -1060,12 +1060,12 @@
                 {
                   "sport": "bike",
                   "distance": 20,
-                  "columns": ["バイクラップ", "通過"]
+                  "columns": ["バイクラップ", "B順", "スプリット", "通過"]
                 },
                 {
                   "sport": "run",
                   "distance": 5,
-                  "columns": ["ランラップ"]
+                  "columns": ["ランラップ", "R順"]
                 }
               ]
             }
@@ -1228,7 +1228,7 @@
                 {
                   "sport": "bike",
                   "distance": 40,
-                  "columns": ["バイクラップ", "スプリット", "通過"]
+                  "columns": ["バイクラップ", "B順", "スプリット", "通過"]
                 },
                 {
                   "sport": "run",
@@ -1505,7 +1505,7 @@
                 {
                   "sport": "swim",
                   "distance": 1.5,
-                  "columns": ["スイムラップ"]
+                  "columns": ["スイムラップ", "S順"]
                 },
                 {
                   "sport": "bike",
@@ -1583,7 +1583,7 @@
                 {
                   "sport": "swim",
                   "distance": 1.5,
-                  "columns": ["スイムラップ"]
+                  "columns": ["スイムラップ", "S順"]
                 },
                 {
                   "sport": "bike",
@@ -1637,7 +1637,7 @@
                 {
                   "sport": "swim",
                   "distance": 2.25,
-                  "columns": ["スイムラップ"]
+                  "columns": ["スイムラップ", "S順"]
                 },
                 {
                   "sport": "bike",
@@ -1661,7 +1661,7 @@
                 {
                   "sport": "swim",
                   "distance": 1.5,
-                  "columns": ["スイムラップ"]
+                  "columns": ["スイムラップ", "S順"]
                 },
                 {
                   "sport": "bike",
@@ -1685,7 +1685,7 @@
                 {
                   "sport": "swim",
                   "distance": 0.75,
-                  "columns": ["スイムラップ"]
+                  "columns": ["スイムラップ", "S順"]
                 },
                 {
                   "sport": "bike",
@@ -1793,22 +1793,17 @@
                 {
                   "sport": "swim",
                   "distance": 2.25,
-                  "columns": ["スイムラップ", "スイム順位"]
+                  "columns": ["スイムラップ", "S順"]
                 },
                 {
                   "sport": "bike",
                   "distance": 60,
-                  "columns": [
-                    "バイクラップ",
-                    "バイク順位",
-                    "スプリット",
-                    "通過順位"
-                  ]
+                  "columns": ["バイクラップ", "B順", "スプリット", "通過順位"]
                 },
                 {
                   "sport": "run",
                   "distance": 15,
-                  "columns": ["ランラップ", "ラン順位"]
+                  "columns": ["ランラップ", "R順"]
                 }
               ]
             },
@@ -1822,22 +1817,17 @@
                 {
                   "sport": "swim",
                   "distance": 1.5,
-                  "columns": ["スイムラップ", "スイム順位"]
+                  "columns": ["スイムラップ", "S順"]
                 },
                 {
                   "sport": "bike",
                   "distance": 40,
-                  "columns": [
-                    "バイクラップ",
-                    "バイク順位",
-                    "スプリット",
-                    "通過順位"
-                  ]
+                  "columns": ["バイクラップ", "B順", "スプリット", "通過順位"]
                 },
                 {
                   "sport": "run",
                   "distance": 10,
-                  "columns": ["ランラップ", "ラン順位"]
+                  "columns": ["ランラップ", "R順"]
                 }
               ]
             },
@@ -1851,22 +1841,17 @@
                 {
                   "sport": "swim",
                   "distance": 0.75,
-                  "columns": ["スイムラップ", "スイム順位"]
+                  "columns": ["スイムラップ", "S順"]
                 },
                 {
                   "sport": "bike",
                   "distance": 20,
-                  "columns": [
-                    "バイクラップ",
-                    "バイク順位",
-                    "スプリット",
-                    "通過順位"
-                  ]
+                  "columns": ["バイクラップ", "B順", "スプリット", "通過順位"]
                 },
                 {
                   "sport": "run",
                   "distance": 5,
-                  "columns": ["ランラップ", "ラン順位"]
+                  "columns": ["ランラップ", "R順"]
                 }
               ]
             }
@@ -1944,7 +1929,7 @@
                 {
                   "sport": "run",
                   "distance": 10,
-                  "columns": ["ランラップ"]
+                  "columns": ["ランラップ", "R順"]
                 }
               ]
             },
@@ -1968,7 +1953,7 @@
                 {
                   "sport": "run",
                   "distance": 20,
-                  "columns": ["ランラップ"]
+                  "columns": ["ランラップ", "R順"]
                 }
               ]
             }
@@ -2430,12 +2415,12 @@
                 {
                   "sport": "bike",
                   "distance": 40,
-                  "columns": ["バイクラップ"]
+                  "columns": ["バイクラップ", "B順"]
                 },
                 {
                   "sport": "run",
                   "distance": 10,
-                  "columns": ["ランラップ"]
+                  "columns": ["ランラップ", "R順"]
                 }
               ]
             },
@@ -2454,12 +2439,12 @@
                 {
                   "sport": "bike",
                   "distance": 20,
-                  "columns": ["バイクラップ"]
+                  "columns": ["バイクラップ", "B順"]
                 },
                 {
                   "sport": "run",
                   "distance": 5,
-                  "columns": ["ランラップ"]
+                  "columns": ["ランラップ", "R順"]
                 }
               ]
             }
@@ -3105,12 +3090,12 @@
                 {
                   "sport": "bike",
                   "distance": 22.5,
-                  "columns": ["バイクラップ", "通過"]
+                  "columns": ["バイクラップ", "B順", "スプリット", "通過"]
                 },
                 {
                   "sport": "run",
                   "distance": 5,
-                  "columns": ["ランラップ"]
+                  "columns": ["ランラップ", "R順"]
                 }
               ]
             }
@@ -3139,17 +3124,17 @@
                 {
                   "sport": "swim",
                   "distance": 0.75,
-                  "columns": ["スイムラップ", "T1"]
+                  "columns": ["スイムラップ", "S順", "T1"]
                 },
                 {
                   "sport": "bike",
                   "distance": 20,
-                  "columns": ["バイクラップ", "T2"]
+                  "columns": ["バイクラップ", "B順", "T2"]
                 },
                 {
                   "sport": "run",
                   "distance": 5,
-                  "columns": ["ランラップ"]
+                  "columns": ["ランラップ", "R順"]
                 }
               ]
             }
