@@ -1,4 +1,4 @@
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import Ajv from "ajv";
@@ -28,13 +28,17 @@ const events = raceInfo.events.map((event) => ({
   image: event.image,
   source: event.source,
   editions: event.editions.map((edition) => {
-    // Read weather data
     let weather = null;
-    const weatherPath = join(repoRoot, edition.weather_file);
-    if (existsSync(weatherPath)) {
-      weather = JSON.parse(readFileSync(weatherPath, "utf-8"));
-    } else {
-      warnings.push(`Weather file not found: ${edition.weather_file}`);
+    try {
+      weather = JSON.parse(
+        readFileSync(join(repoRoot, edition.weather_file), "utf-8"),
+      );
+    } catch (err) {
+      if (err.code === "ENOENT") {
+        warnings.push(`Weather file not found: ${edition.weather_file}`);
+      } else {
+        throw err;
+      }
     }
 
     return {
@@ -44,11 +48,13 @@ const events = raceInfo.events.map((event) => ({
         totalCategories++;
 
         // Read TSV
-        const tsvPath = join(repoRoot, category.result_tsv);
         let athletes = [];
 
-        if (existsSync(tsvPath)) {
-          const tsvContent = readFileSync(tsvPath, "utf-8");
+        try {
+          const tsvContent = readFileSync(
+            join(repoRoot, category.result_tsv),
+            "utf-8",
+          );
           const { rows } = parseTsv(tsvContent);
 
           athletes = rows
@@ -58,8 +64,12 @@ const events = raceInfo.events.map((event) => ({
             .filter((a) => a.name !== "");
 
           totalAthletes += athletes.length;
-        } else {
-          warnings.push(`TSV file not found: ${category.result_tsv}`);
+        } catch (err) {
+          if (err.code === "ENOENT") {
+            warnings.push(`TSV file not found: ${category.result_tsv}`);
+          } else {
+            throw err;
+          }
         }
 
         return {
@@ -116,7 +126,6 @@ if (valid) {
   process.exit(1);
 }
 
-// Report file size
-const stats = readFileSync(outputPath);
-const sizeMB = (stats.length / 1024 / 1024).toFixed(1);
+const { size } = statSync(outputPath);
+const sizeMB = (size / 1024 / 1024).toFixed(1);
 console.log(`\n📦 Output: dist/data.json (${sizeMB} MB)`);

@@ -4,17 +4,7 @@ import { parseGender } from "./normalize-gender.js";
 import { parseResidence } from "./normalize-residence.js";
 import { parseRankAndStatus } from "./normalize-status.js";
 import { parseTime } from "./normalize-time.js";
-
-/**
- * Parse integer from string.
- * @param {string} str
- * @returns {number|null}
- */
-function parseInteger(str) {
-  if (!str || typeof str !== "string" || str.trim() === "") return null;
-  const num = Number.parseInt(str.trim(), 10);
-  return Number.isNaN(num) ? null : num;
-}
+import { parseInteger } from "./parse-integer.js";
 
 /**
  * Build a normalized athlete object from a TSV row.
@@ -81,7 +71,6 @@ export function buildAthlete(row, metaColumnDefs, segmentDefs) {
         if (value && value.trim()) athlete.penalty = value.trim();
         break;
       case "status":
-        if (value && value.trim()) athlete.status_note = value.trim();
         break;
       case "guide_name":
         if (value && value.trim()) athlete.guide_name = value.trim();

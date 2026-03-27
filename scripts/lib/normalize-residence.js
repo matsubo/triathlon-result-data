@@ -221,12 +221,9 @@ export function parseResidence(str) {
   // City → prefecture
   if (CITY_TO_PREFECTURE[trimmed]) return CITY_TO_PREFECTURE[trimmed];
 
-  // Country (case-insensitive)
+  // Country (case-insensitive; toLowerCase is no-op on CJK, so Japanese keys also match)
   const lower = trimmed.toLowerCase();
   if (COUNTRIES[lower]) return COUNTRIES[lower];
-
-  // Japanese country names (exact match from COUNTRIES)
-  if (COUNTRIES[trimmed]) return COUNTRIES[trimmed];
 
   return null;
 }
