@@ -80,4 +80,6 @@ for (const file of files) {
   }
 }
 
-console.log(`\nTotal fixed: ${totalFixed} values across ${files.length} files.`);
+console.log(
+  `\nTotal fixed: ${totalFixed} values across ${files.length} files.`,
+);
