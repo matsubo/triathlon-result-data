@@ -112,6 +112,14 @@
                               "type": "number",
                               "minimum": 0,
                               "description": "Distance in kilometers"
+                            },
+                            "columns": {
+                              "type": "array",
+                              "description": "TSV column names belonging to this segment, in order. Maps denormalized TSV columns (lap times, split times, intermediate checkpoints) to their parent segment.",
+                              "minItems": 1,
+                              "items": {
+                                "type": "string"
+                              }
                             }
                           }
                         }
