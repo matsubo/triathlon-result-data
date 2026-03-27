@@ -7640,6 +7640,134 @@
       ]
     },
     {
+      "id": "nagaragawa_aki",
+      "name": "長良川ミドルトライアスロン102秋",
+      "location": "岐阜県海津市",
+      "image": "images/nagaragawa.webp",
+      "source": "https://www.nagaragawa-middle.jp/",
+      "editions": [
+        {
+          "date": "2025-10-05",
+          "weather_file": "master/2025/nagaragawa_102/weather-data.json",
+          "categories": [
+            {
+              "id": "nagaragawa_aki",
+              "result_tsv": "master/2025/nagaragawa_102/result.tsv",
+              "name": "ミドルディスタンス102",
+              "distance": "MD",
+              "description": "2025年第4回長良川ミドルトライアスロン102秋。岐阜県海津市の国営木曽三川公園を舞台に、スイム2km、バイク80km、ラン20kmの総距離102kmに挑戦。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 2,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "T1",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 80,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    },
+                    {
+                      "header": "T2",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "所属／登録",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齢別順",
+                  "role": "age_rank"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "baramon",
       "name": "五島長崎国際トライアスロン",
       "location": "長崎県五島市",
