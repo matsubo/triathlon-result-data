@@ -39,12 +39,31 @@ Claude can help navigate and understand this triathlon result data repository wh
 - **Schemas**: JSON schemas for data validation
 - **Configuration**: Package.json and other project setup files
 
+## リポジトリの役割
+
+汚い TSV データを正規化された JSON データとしてアプリケーションへ提供する。
+
+```
+入力（master/）            出力（dist/）
+  result.tsv ─────┐
+  weather.json ───┤──→ data.json（正規化済み全データ）
+  race-info.json ─┘    result-schema.json（JSON Schema）
+```
+
+ビルドコマンド: `bun run build`
+
 ## ファイルの役割
 
-- `race-info.json` 大会情報のマスタ。カテゴリごとに `segments` 配列で競技構成を定義（例: `[{sport:"swim"}, {sport:"bike"}, {sport:"run"}]`）
+- `race-info.json` 大会情報のマスタ。カテゴリごとに `segments` 配列で競技構成を定義（例: `[{sport:"swim"}, {sport:"bike"}, {sport:"run"}]`）。TSVカラムと正規化フィールドのマッピングルール（`columns`, `meta_columns`）を含む。
+- `race-info-schema.json` race-info.json の JSON Schema（Single Source of Truth）
+- `schema.ts` TypeScript 型定義（race-info-schema.json から派生）
 - `images/` 大会を象徴する画像。webp形式。300x200以内に収まる大きさ。
-- `master/<year>/<id>/result.tsv` 大会のリザルトデータ
+- `master/<year>/<id>/result.tsv` 大会のリザルトデータ（入力・非正規化）
 - `master/<year>/<id>/weather-data.json` 大会の天気データ
+- `dist/data.json` 正規化済み出力データ（`bun run build` で生成）
+- `dist/result-schema.json` 出力データの JSON Schema
+- `scripts/build-data.js` TSV→JSON 変換スクリプト
+- `scripts/lib/` 正規化モジュール群（時間、性別、居住地、年齢区分、ステータス等）
 
 ### GitHub Workflows (.github/workflows/)
 

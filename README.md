@@ -1,6 +1,8 @@
-# Triathlon result data
+# Multi-Sport Race Result Data
 
-トライアスロンのレースマスタとリザルトデータです。
+マルチスポーツ（トライアスロン、デュアスロン、アクアスロン等）のレースマスタとリザルトデータです。
+
+このレポジトリの役割は、**汚い TSV データを正規化された JSON データとしてアプリケーションへ提供すること**です。
 
 このレポジトリに入っているレースの結果を[AI TRI+](https://ai-triathlon-result.teraren.com/)のサイトで分析できるようになっています。
 
@@ -90,6 +92,76 @@
 ヘッダ名などは元のリザルトデータを使ってもらってOKです。
 取り込む際に調整します。
 
+## アプリケーション向け：正規化データの利用
+
+`bun run build` を実行すると、TSV + race-info.json + 天気データから正規化された JSON が生成されます。
+
+```
+dist/
+├── result-schema.json   # 出力データの JSON Schema
+└── data.json            # 全レース・全選手の正規化データ
+```
+
+### 正規化ルール
+
+| フィールド | 変換 |
+|-----------|------|
+| 時間 | `"2:02:41"` → `7361`（秒数） |
+| 性別 | `"男"` → `"M"`, `"女"` → `"F"` |
+| 都道府県 | `"神奈川県"` → `"JP-14"`（ISO 3166-2:JP） |
+| 国名 | `"United States"` → `"US"`（ISO 3166-1 alpha-2） |
+| 年齢区分 | `"N25-29"` → `{"min_age": 25, "max_age": 29}` |
+| 順位/ステータス | `"DNF"` → `rank: null, status: "DNF"` |
+
+### ステータス値
+
+| 値 | 意味 |
+|----|------|
+| `finished` | 完走 |
+| `DNF` | Did Not Finish（途中棄権） |
+| `DNS` | Did Not Start（未出走） |
+| `DSQ` | Disqualified（失格） |
+| `TOV` | Time Over（制限時間超過） |
+| `OPEN` | オープン参加（順位なし） |
+| `SKIP` | スイムスキップ（バイク+ランのみ参加） |
+
+### data.json の構造
+
+```json
+{
+  "events": [{
+    "id": "yokohama",
+    "name": "横浜トライアスロン",
+    "editions": [{
+      "date": "2025-05-18",
+      "weather": { ... },
+      "categories": [{
+        "id": "yokohama",
+        "distance": "OD",
+        "segments": [
+          { "sport": "swim", "distance_km": 1.5 },
+          { "sport": "bike", "distance_km": 40 },
+          { "sport": "run", "distance_km": 10 }
+        ],
+        "athletes": [{
+          "rank": 1,
+          "status": "finished",
+          "name": "橋本 悠輝",
+          "gender": "M",
+          "residence": "JP-14",
+          "total_time_seconds": 7361,
+          "segments": [
+            { "lap_seconds": 1325, "rank": 11 },
+            { "lap_seconds": 3887, "rank": 1, "transition_seconds": 85 },
+            { "lap_seconds": 2064, "rank": 2 }
+          ]
+        }]
+      }]
+    }]
+  }]
+}
+```
+
 ## 開発環境のセットアップ
 
 ```bash
@@ -112,6 +184,16 @@ bun run lint     # lint のみ
 
 コミット時に Biome がステージされたファイルを自動で lint + format します（Husky 経由）。
 lint エラーがある場合はコミットがブロックされます。
+
+## ビルド
+
+TSV データから正規化 JSON を生成します。
+
+```bash
+bun run build
+```
+
+`dist/data.json` が生成され、`dist/result-schema.json` に対して自動バリデーションが実行されます。
 
 ## テストの実行
 
