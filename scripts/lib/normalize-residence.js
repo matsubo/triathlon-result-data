@@ -176,6 +176,42 @@ const COUNTRIES = {
   "saudi arabia": "SA",
   tunisia: "TN",
   uzbekistan: "UZ",
+  // Additional country names and variations
+  jersey: "JE",
+  guadeloupe: "GP",
+  bangladesh: "BD",
+  algeria: "DZ",
+  "united kingdom of great britain and northern ireland": "GB",
+  uk: "GB",
+  british: "GB",
+  réunion: "RE",
+  mys: "MY",
+  macao: "MO",
+  french: "FR",
+  azerbaijan: "AZ",
+  aruba: "AW",
+  taipei: "TW",
+  swiss: "CH",
+  "swiss and australian": "CH",
+  spanish: "ES",
+  southkorea: "KR",
+  "busan korea": "KR",
+  songpagu: "KR",
+  seongnam: "KR",
+  "gangneung-si": "KR",
+  daegu: "KR",
+  "saint pierre & miquelon": "PM",
+  panamanian: "PA",
+  monaco: "MC",
+  "french polynesia": "PF",
+  "faroe islands": "FO",
+  eswatini: "SZ",
+  cuba: "CU",
+  "central african republic": "CF",
+  canadian: "CA",
+  american: "US",
+  anguilla: "AI",
+  andorra: "AD",
   韓国: "KR",
   台湾: "TW",
   中国: "CN",
@@ -212,8 +248,19 @@ const COUNTRIES = {
 export function parseResidence(str) {
   if (!str || typeof str !== "string") return null;
   const trimmed = str.trim();
-  if (trimmed === "" || trimmed === "Unknown" || trimmed === "????")
+  if (
+    trimmed === "" ||
+    trimmed === "Unknown" ||
+    trimmed === "????" ||
+    trimmed === "#N/A"
+  )
     return null;
+  // Skip values that look like time data (column shift artifacts)
+  if (/^\d+:\d+:\d+$/.test(trimmed)) return null;
+  // Skip gender values leaked into residence column
+  if (trimmed === "男" || trimmed === "女") return null;
+  // Skip organization names
+  if (trimmed.startsWith("学連")) return null;
 
   // Japanese prefecture
   if (PREFECTURES[trimmed]) return PREFECTURES[trimmed];
