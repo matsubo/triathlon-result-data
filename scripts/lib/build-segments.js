@@ -1,16 +1,5 @@
 import { parseTime } from "./normalize-time.js";
-
-/**
- * Parse integer from string, stripping commas.
- * @param {string} str
- * @returns {number|null}
- */
-function parseInteger(str) {
-  if (!str || typeof str !== "string" || str.trim() === "") return null;
-  const cleaned = str.trim().replace(/,/g, "");
-  const num = Number.parseInt(cleaned, 10);
-  return Number.isNaN(num) ? null : num;
-}
+import { parseInteger } from "./parse-integer.js";
 
 /**
  * Build normalized segment data for one athlete row.
