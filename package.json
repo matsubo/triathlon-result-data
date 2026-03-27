@@ -8,6 +8,7 @@
     "test": "bun run test:json && bun run test:weather",
     "test:json": "bun run tests/test_json_validity.js",
     "test:weather": "bun run scripts/validate-weather-data.js",
+    "build": "bun run scripts/build-data.js",
     "check": "biome check --write",
     "format": "biome format --write",
     "lint": "biome lint",

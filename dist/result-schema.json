@@ -1,0 +1,159 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Multi-Sport Race Result Data",
+  "description": "Normalized race result data for consuming applications",
+  "type": "object",
+  "required": ["events"],
+  "properties": {
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "location", "image", "source", "editions"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "location": { "type": "string" },
+          "image": { "type": "string" },
+          "source": { "type": "string", "format": "uri" },
+          "editions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["date", "weather", "categories"],
+              "properties": {
+                "date": {
+                  "type": "string",
+                  "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+                },
+                "weather": { "type": ["object", "null"] },
+                "categories": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "id",
+                      "name",
+                      "distance",
+                      "segments",
+                      "description",
+                      "athletes"
+                    ],
+                    "properties": {
+                      "id": { "type": "string" },
+                      "name": { "type": "string" },
+                      "distance": {
+                        "type": "string",
+                        "enum": [
+                          "LD",
+                          "MD",
+                          "OD",
+                          "SD",
+                          "SS",
+                          "DUATHLON",
+                          "AQUATHLON",
+                          "MARATHON",
+                          "OTHER"
+                        ]
+                      },
+                      "description": { "type": "string" },
+                      "segments": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "required": ["sport", "distance_km"],
+                          "properties": {
+                            "sport": {
+                              "type": "string",
+                              "enum": ["swim", "bike", "run"]
+                            },
+                            "distance_km": { "type": "number", "minimum": 0 }
+                          }
+                        }
+                      },
+                      "athletes": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "required": ["rank", "status", "bib", "name"],
+                          "properties": {
+                            "rank": { "type": ["integer", "null"] },
+                            "status": {
+                              "type": "string",
+                              "enum": [
+                                "finished",
+                                "DNF",
+                                "DNS",
+                                "DSQ",
+                                "TOV",
+                                "OPEN",
+                                "SKIP"
+                              ]
+                            },
+                            "bib": { "type": "string" },
+                            "name": { "type": "string" },
+                            "age": { "type": ["integer", "null"] },
+                            "gender": {
+                              "type": ["string", "null"],
+                              "enum": ["M", "F", null]
+                            },
+                            "residence": { "type": ["string", "null"] },
+                            "total_time_seconds": {
+                              "type": ["integer", "null"]
+                            },
+                            "age_group": {
+                              "type": ["object", "null"],
+                              "properties": {
+                                "min_age": { "type": "integer", "minimum": 0 },
+                                "max_age": { "type": "integer", "minimum": 0 }
+                              },
+                              "required": ["min_age", "max_age"]
+                            },
+                            "rankings": {
+                              "type": "object",
+                              "properties": {
+                                "gender": { "type": ["integer", "null"] },
+                                "age_group": { "type": ["integer", "null"] }
+                              }
+                            },
+                            "penalty": { "type": ["string", "null"] },
+                            "guide_name": { "type": ["string", "null"] },
+                            "segments": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "lap_seconds": {
+                                    "type": ["integer", "null"]
+                                  },
+                                  "rank": { "type": ["integer", "null"] },
+                                  "checkpoints": {
+                                    "type": "array",
+                                    "items": { "type": ["integer", "null"] }
+                                  },
+                                  "transition_seconds": {
+                                    "type": ["integer", "null"]
+                                  },
+                                  "cumulative_seconds": {
+                                    "type": ["integer", "null"]
+                                  },
+                                  "cumulative_rank": {
+                                    "type": ["integer", "null"]
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
