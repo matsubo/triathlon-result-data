@@ -5568,6 +5568,327 @@
           ]
         },
         {
+          "date": "2024-06-02",
+          "weather_file": "master/2024/sainokuni/weather-data.json",
+          "categories": [
+            {
+              "id": "sainokuni_a",
+              "result_tsv": "master/2024/sainokuni/a.tsv",
+              "name": "Aタイプ（ミドルディスタンス）",
+              "distance": "MD",
+              "description": "2024年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム2.25km、バイク72km、ラン15kmのコースに挑戦。地域の魅力を感じながらのレースです。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 2.25,
+                  "columns": [
+                    {
+                      "header": "スイムラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "S順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 72,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 15,
+                  "columns": [
+                    {
+                      "header": "ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年代区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年代順位",
+                  "role": "age_rank"
+                }
+              ]
+            },
+            {
+              "id": "sainokuni_b",
+              "result_tsv": "master/2024/sainokuni/b.tsv",
+              "name": "Bタイプ（オリンピックディスタンス）",
+              "distance": "OD",
+              "description": "2024年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム1.5km、バイク43km、ラン10kmのコースに挑戦。地域の魅力を感じながらのレースです。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "スイムラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "S順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 43,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年代区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年代順位",
+                  "role": "age_rank"
+                }
+              ]
+            },
+            {
+              "id": "sainokuni_c",
+              "result_tsv": "master/2024/sainokuni/c.tsv",
+              "name": "Cタイプ（スプリントディスタンス）",
+              "distance": "SD",
+              "description": "2024年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム750m、バイク21.6km、ラン5kmのコースに挑戦。地域の自然や文化の魅力を感じながらのレースです。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 0.75,
+                  "columns": [
+                    {
+                      "header": "スイムラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "S順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 21.6,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 5,
+                  "columns": [
+                    {
+                      "header": "ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年代区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年代順位",
+                  "role": "age_rank"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "date": "2023-06-04",
           "weather_file": "master/2023/sainokuni/weather-data.json",
           "categories": [
