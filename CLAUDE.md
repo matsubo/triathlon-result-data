@@ -68,6 +68,12 @@ The project includes automated CI/CD workflows for data validation:
 
 These workflows ensure data integrity and consistency across the repository.
 
+### Lint / Format
+
+- **Biome** (`biome.json`) でJSON・JSファイルのlint + formatを管理
+- **Husky** (`.husky/pre-commit`) でコミット時にステージされたファイルを自動チェック
+- コマンド: `bun run check`（lint + format一括）、`bun run format`、`bun run lint`
+
 ## Getting Started with Claude
 
 1. **Ask Specific Questions**: "Analyze the 2024 Miyakojima race results"

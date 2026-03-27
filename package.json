@@ -8,14 +8,19 @@
     "test": "bun run test:json && bun run test:weather",
     "test:json": "bun run tests/test_json_validity.js",
     "test:weather": "bun run scripts/validate-weather-data.js",
-    "format": "npx prettier --write race-info.json"
+    "check": "biome check --write",
+    "format": "biome format --write",
+    "lint": "biome lint",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "bun@1.1.38",
   "devDependencies": {
+    "@biomejs/biome": "^2.4.9",
     "ajv": "^8.17.1",
-    "ajv-formats": "^2.1.1"
+    "ajv-formats": "^2.1.1",
+    "husky": "^9.1.7"
   }
 }
