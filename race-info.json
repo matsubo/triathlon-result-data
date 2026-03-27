@@ -52,7 +52,7 @@
               "result_tsv": "master/2025/sado_b/result.tsv",
               "name": "タイプB（ミドルディスタンス）",
               "distance": "MD",
-              "swim_distance": 1.350,
+              "swim_distance": 1.35,
               "bike_distance": 108,
               "run_distance": 21.1,
               "description": "スイムが短縮になりました"
@@ -1712,12 +1712,12 @@
             {
               "id": "fujikawaguchiko",
               "result_tsv": "master/2025/fujikawaguchiko/result.tsv",
-								"name": "オリンピックディスタンス",
-								"distance": "OD",
-								"swim_distance": 1.5,
-								"bike_distance": 40,
-								"run_distance": 10,
-							"description": "2025年Mt.富士トライアスロン富士河口湖。山梨県富士河口湖町を舞台に、スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンスで開催。富士山と河口湖の絶景を望みながら競う、日本を代表する美しいコースが魅力の大会です。"
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年Mt.富士トライアスロン富士河口湖。山梨県富士河口湖町を舞台に、スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンスで開催。富士山と河口湖の絶景を望みながら競う、日本を代表する美しいコースが魅力の大会です。"
             }
           ]
         }
@@ -1737,12 +1737,12 @@
             {
               "id": "imabari_hakata",
               "result_tsv": "master/2025/imabari_hakata/result.tsv",
-								"name": "オリンピックディスタンス",
-								"distance": "OD",
-								"swim_distance": 1.5,
-								"bike_distance": 40,
-								"run_distance": 10,
-							"description": "2025年瀬戸内しまなみ海道 今治伯方島トライアスロン。愛媛県今治市の伯方Ｓ・Ｃパークを舞台に、スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンスで開催。美しい海と島々を望む絶景の中で行われる大会です。"
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 40,
+              "run_distance": 10,
+              "description": "2025年瀬戸内しまなみ海道 今治伯方島トライアスロン。愛媛県今治市の伯方Ｓ・Ｃパークを舞台に、スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンスで開催。美しい海と島々を望む絶景の中で行われる大会です。"
             }
           ]
         }
@@ -1758,42 +1758,42 @@
         {
           "date": "2025-09-14",
           "weather_file": "master/2025/irago_a/weather-data.json",
-					"categories": [
-						{
-							"id": "irago_a",
-							"result_tsv": "master/2025/irago_a/result.tsv",
-							"name": "Aタイプ（ミドル）",
-							"distance": "MD",
-							"swim_distance": 2.25,
-							"bike_distance": 74.7,
-							"run_distance": 18.0,
-							"description": "2025年トライアスロン伊良湖大会。愛知県田原市の伊良湖岬周辺を舞台に、スイム2.25km、バイク74.7km、ラン18kmのミドルディスタンスで開催。美しい海と自然を望む絶景の中で行われる大会です。"
-						},
-						{
-							"id": "irago_b",
-							"result_tsv": "master/2025/irago_b/result.tsv",
-							"name": "Bタイプ（スタンダード）",
-							"distance": "OD",
-							"swim_distance": 1.5,
-							"bike_distance": 44.4,
-							"run_distance": 10.0,
-							"description": "2025年トライアスロン伊良湖大会。愛知県田原市の伊良湖岬周辺を舞台に、スイム1.5km、バイク44.4km、ラン10kmのスタンダードディスタンスで開催。美しい海と自然を望む絶景の中で行われる大会です。"
-						},
-						{
-							"id": "irago_c",
-							"result_tsv": "master/2025/irago_c/result.tsv",
-							"name": "Cタイプ（スプリント）",
-							"distance": "SD",
-							"swim_distance": 0.75,
-							"bike_distance": 14.1,
-							"run_distance": 4.0,
-							"description": "2025年トライアスロン伊良湖大会。愛知県田原市の伊良湖岬周辺を舞台に、スイム750m、バイク14.1km、ラン4kmのスプリントディスタンスで開催。美しい海と自然を望む絶景の中で行われる大会です。"
-						}
+          "categories": [
+            {
+              "id": "irago_a",
+              "result_tsv": "master/2025/irago_a/result.tsv",
+              "name": "Aタイプ（ミドル）",
+              "distance": "MD",
+              "swim_distance": 2.25,
+              "bike_distance": 74.7,
+              "run_distance": 18.0,
+              "description": "2025年トライアスロン伊良湖大会。愛知県田原市の伊良湖岬周辺を舞台に、スイム2.25km、バイク74.7km、ラン18kmのミドルディスタンスで開催。美しい海と自然を望む絶景の中で行われる大会です。"
+            },
+            {
+              "id": "irago_b",
+              "result_tsv": "master/2025/irago_b/result.tsv",
+              "name": "Bタイプ（スタンダード）",
+              "distance": "OD",
+              "swim_distance": 1.5,
+              "bike_distance": 44.4,
+              "run_distance": 10.0,
+              "description": "2025年トライアスロン伊良湖大会。愛知県田原市の伊良湖岬周辺を舞台に、スイム1.5km、バイク44.4km、ラン10kmのスタンダードディスタンスで開催。美しい海と自然を望む絶景の中で行われる大会です。"
+            },
+            {
+              "id": "irago_c",
+              "result_tsv": "master/2025/irago_c/result.tsv",
+              "name": "Cタイプ（スプリント）",
+              "distance": "SD",
+              "swim_distance": 0.75,
+              "bike_distance": 14.1,
+              "run_distance": 4.0,
+              "description": "2025年トライアスロン伊良湖大会。愛知県田原市の伊良湖岬周辺を舞台に、スイム750m、バイク14.1km、ラン4kmのスプリントディスタンスで開催。美しい海と自然を望む絶景の中で行われる大会です。"
+            }
           ]
         }
       ]
     },
-		{
+    {
       "id": "ironman_minami_hokkaido",
       "name": "IRONMAN JAPAN SOUTH HOKKAIDO",
       "location": "北海道白老郡白老町",
@@ -1803,33 +1803,33 @@
         {
           "date": "2024-09-15",
           "weather_file": "master/2024/ironman_minami_hokkaido/weather-data.json",
-					"categories": [
-						{
-							"id": "ironman_minami_hokkaido",
-							"result_tsv": "master/2024/ironman_minami_hokkaido/result.tsv",
-							"name": "IRONMAN DISTANCE",
-							"distance": "LD",
-							"swim_distance": 3.8,
-							"bike_distance": 180.0,
-							"run_distance": 42.195,
-							"description": "2024年IRONMAN JAPAN SOUTH HOKKAIDO。北海道白老郡白老町を舞台に、スイム3.8km、バイク180km、ラン42.195kmのフルディスタンスで開催。美しい自然と厳しいコースが特徴の大会です。"
-						}
+          "categories": [
+            {
+              "id": "ironman_minami_hokkaido",
+              "result_tsv": "master/2024/ironman_minami_hokkaido/result.tsv",
+              "name": "IRONMAN DISTANCE",
+              "distance": "LD",
+              "swim_distance": 3.8,
+              "bike_distance": 180.0,
+              "run_distance": 42.195,
+              "description": "2024年IRONMAN JAPAN SOUTH HOKKAIDO。北海道白老郡白老町を舞台に、スイム3.8km、バイク180km、ラン42.195kmのフルディスタンスで開催。美しい自然と厳しいコースが特徴の大会です。"
+            }
           ]
         },
         {
           "date": "2025-09-14",
           "weather_file": "master/2025/ironman_minami_hokkaido/weather-data.json",
-					"categories": [
-						{
-							"id": "ironman_minami_hokkaido",
-							"result_tsv": "master/2025/ironman_minami_hokkaido/result.tsv",
-							"name": "IRONMAN DISTANCE",
-							"distance": "LD",
-							"swim_distance": 3.8,
-							"bike_distance": 180.0,
-							"run_distance": 42.195,
-							"description": "2025年IRONMAN JAPAN SOUTH HOKKAIDO。北海道白老郡白老町を舞台に、スイム3.8km、バイク180km、ラン42.195kmのフルディスタンスで開催。美しい自然と厳しいコースが特徴の大会です。"
-						}
+          "categories": [
+            {
+              "id": "ironman_minami_hokkaido",
+              "result_tsv": "master/2025/ironman_minami_hokkaido/result.tsv",
+              "name": "IRONMAN DISTANCE",
+              "distance": "LD",
+              "swim_distance": 3.8,
+              "bike_distance": 180.0,
+              "run_distance": 42.195,
+              "description": "2025年IRONMAN JAPAN SOUTH HOKKAIDO。北海道白老郡白老町を舞台に、スイム3.8km、バイク180km、ラン42.195kmのフルディスタンスで開催。美しい自然と厳しいコースが特徴の大会です。"
+            }
           ]
         }
       ]
