@@ -117,7 +117,9 @@ for (const relPath of files) {
   }
 
   writeFileSync(filePath, newLines.join("\n"));
-  console.log(`CONVERTED: ${relPath} (${converted} rows, ${timeColIndices.length} time columns)`);
+  console.log(
+    `CONVERTED: ${relPath} (${converted} rows, ${timeColIndices.length} time columns)`,
+  );
 }
 
 console.log("\nDone.");
