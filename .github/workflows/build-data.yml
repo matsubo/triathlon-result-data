@@ -1,0 +1,38 @@
+name: Build Data
+
+on:
+  push:
+    paths:
+      - 'master/**'
+      - 'race-info.json'
+      - 'scripts/**'
+      - 'dist/result-schema.json'
+      - '.github/workflows/build-data.yml'
+  pull_request:
+    paths:
+      - 'master/**'
+      - 'race-info.json'
+      - 'scripts/**'
+      - 'dist/result-schema.json'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Run tests
+        run: bun run test
+
+      - name: Build normalized data
+        run: bun run build
