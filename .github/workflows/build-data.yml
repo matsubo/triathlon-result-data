@@ -2,6 +2,7 @@ name: Build Data
 
 on:
   push:
+    branches: [main]
     paths:
       - 'master/**'
       - 'race-info.json'
@@ -36,3 +37,16 @@ jobs:
 
       - name: Build normalized data
         run: bun run build
+
+      - name: Commit dist/data.json if changed
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dist/data.json
+          if git diff --cached --quiet; then
+            echo "No changes to dist/data.json"
+          else
+            git commit -m "chore: rebuild dist/data.json [skip ci]"
+            git push
+          fi
