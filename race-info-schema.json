@@ -58,7 +58,16 @@
                   "minItems": 1,
                   "items": {
                     "type": "object",
-                    "required": ["id", "result_tsv", "name", "distance", "swim_distance", "bike_distance", "run_distance", "description"],
+                    "required": [
+                      "id",
+                      "result_tsv",
+                      "name",
+                      "distance",
+                      "swim_distance",
+                      "bike_distance",
+                      "run_distance",
+                      "description"
+                    ],
                     "properties": {
                       "id": {
                         "type": "string",
