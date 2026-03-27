@@ -64,7 +64,8 @@
                       "name",
                       "distance",
                       "segments",
-                      "description"
+                      "description",
+                      "meta_columns"
                     ],
                     "properties": {
                       "id": {
@@ -118,7 +119,26 @@
                               "description": "TSV column names belonging to this segment, in order. Maps denormalized TSV columns (lap times, split times, intermediate checkpoints) to their parent segment.",
                               "minItems": 1,
                               "items": {
-                                "type": "string"
+                                "type": "object",
+                                "required": ["header", "role"],
+                                "properties": {
+                                  "header": {
+                                    "type": "string",
+                                    "description": "TSV column header name"
+                                  },
+                                  "role": {
+                                    "type": "string",
+                                    "enum": [
+                                      "lap",
+                                      "checkpoint",
+                                      "rank",
+                                      "transition",
+                                      "cumulative_time",
+                                      "cumulative_rank"
+                                    ],
+                                    "description": "Semantic role of this column within the segment"
+                                  }
+                                }
                               }
                             }
                           }
@@ -127,6 +147,41 @@
                       "description": {
                         "type": "string",
                         "description": "Detailed description of the race category in Japanese"
+                      },
+                      "meta_columns": {
+                        "type": "array",
+                        "description": "TSV columns for participant metadata, rankings, and status that are not part of any sport segment.",
+                        "items": {
+                          "type": "object",
+                          "required": ["header", "role"],
+                          "properties": {
+                            "header": {
+                              "type": "string",
+                              "description": "TSV column header name"
+                            },
+                            "role": {
+                              "type": "string",
+                              "enum": [
+                                "overall_rank",
+                                "bib",
+                                "name",
+                                "age",
+                                "gender",
+                                "residence",
+                                "total_time",
+                                "gender_rank",
+                                "age_category",
+                                "age_rank",
+                                "penalty",
+                                "status",
+                                "guide_name",
+                                "citizen_rank",
+                                "citizen_category"
+                              ],
+                              "description": "Semantic role of this metadata column"
+                            }
+                          }
+                        }
                       }
                     }
                   }
