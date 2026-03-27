@@ -102,7 +102,7 @@
                         "minItems": 1,
                         "items": {
                           "type": "object",
-                          "required": ["sport", "distance"],
+                          "required": ["sport", "distance", "columns"],
                           "properties": {
                             "sport": {
                               "type": "string",
