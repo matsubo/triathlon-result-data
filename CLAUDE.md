@@ -41,10 +41,10 @@ Claude can help navigate and understand this triathlon result data repository wh
 
 ## ファイルの役割
 
-- `race-info.json` 大会情報のマスタ
+- `race-info.json` 大会情報のマスタ。カテゴリごとに `segments` 配列で競技構成を定義（例: `[{sport:"swim"}, {sport:"bike"}, {sport:"run"}]`）
 - `images/` 大会を象徴する画像。webp形式。300x200以内に収まる大きさ。
 - `master/<year>/<id>/result.tsv` 大会のリザルトデータ
-- `master/<year>/<id>/weather-info.json` 大会の天気ータ
+- `master/<year>/<id>/weather-data.json` 大会の天気データ
 
 ### GitHub Workflows (.github/workflows/)
 

@@ -2,12 +2,12 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "title": "Race Info Schema",
-  "description": "Schema for triathlon race information data",
+  "description": "Schema for multi-sport race information data",
   "required": ["events"],
   "properties": {
     "events": {
       "type": "array",
-      "description": "Array of triathlon events",
+      "description": "Array of race events",
       "items": {
         "type": "object",
         "required": ["id", "name", "location", "image", "source", "editions"],
@@ -63,9 +63,7 @@
                       "result_tsv",
                       "name",
                       "distance",
-                      "swim_distance",
-                      "bike_distance",
-                      "run_distance",
+                      "segments",
                       "description"
                     ],
                     "properties": {
@@ -84,23 +82,39 @@
                       },
                       "distance": {
                         "type": "string",
-                        "enum": ["LD", "MD", "OD", "SD", "DUATHLON", "SS"],
-                        "description": "Race distance type (LD=Long Distance, MD=Middle Distance, OD=Olympic Distance, SD=Sprint Distance, DUATHLON=Duathlon, SS=Super Sprint, DU=Duathlon)"
+                        "enum": [
+                          "LD",
+                          "MD",
+                          "OD",
+                          "SD",
+                          "SS",
+                          "DUATHLON",
+                          "AQUATHLON",
+                          "MARATHON",
+                          "OTHER"
+                        ],
+                        "description": "Race distance/type classification"
                       },
-                      "swim_distance": {
-                        "type": "number",
-                        "minimum": 0,
-                        "description": "Swimming distance in kilometers"
-                      },
-                      "bike_distance": {
-                        "type": "number",
-                        "minimum": 0,
-                        "description": "Cycling distance in kilometers"
-                      },
-                      "run_distance": {
-                        "type": "number",
-                        "minimum": 0,
-                        "description": "Running distance in kilometers"
+                      "segments": {
+                        "type": "array",
+                        "description": "Ordered array of sport segments defining the race format",
+                        "minItems": 1,
+                        "items": {
+                          "type": "object",
+                          "required": ["sport", "distance"],
+                          "properties": {
+                            "sport": {
+                              "type": "string",
+                              "enum": ["swim", "bike", "run"],
+                              "description": "Type of sport segment"
+                            },
+                            "distance": {
+                              "type": "number",
+                              "minimum": 0,
+                              "description": "Distance in kilometers"
+                            }
+                          }
+                        }
                       },
                       "description": {
                         "type": "string",
