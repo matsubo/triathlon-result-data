@@ -1,8 +1,8 @@
-import { parseTime } from "../scripts/lib/normalize-time.js";
-import { parseRankAndStatus } from "../scripts/lib/normalize-status.js";
+import { parseAgeCategory } from "../scripts/lib/normalize-age-category.js";
 import { parseGender } from "../scripts/lib/normalize-gender.js";
 import { parseResidence } from "../scripts/lib/normalize-residence.js";
-import { parseAgeCategory } from "../scripts/lib/normalize-age-category.js";
+import { parseRankAndStatus } from "../scripts/lib/normalize-status.js";
+import { parseTime } from "../scripts/lib/normalize-time.js";
 import { parseInteger } from "../scripts/lib/parse-integer.js";
 
 let pass = 0;
@@ -91,23 +91,50 @@ assert("学連", parseResidence("学連(埼玉)"), null);
 // ============================================================
 console.log("parseAgeCategory:");
 assert("M25-29", parseAgeCategory("M25-29"), { min_age: 25, max_age: 29 });
-assert("50-54歳男子", parseAgeCategory("50-54歳男子"), { min_age: 50, max_age: 54 });
+assert("50-54歳男子", parseAgeCategory("50-54歳男子"), {
+  min_age: 50,
+  max_age: 54,
+});
 assert("N40-44", parseAgeCategory("N40-44"), { min_age: 40, max_age: 44 });
 assert("50-54F", parseAgeCategory("50-54F"), { min_age: 50, max_age: 54 });
 assert("M50～54", parseAgeCategory("M50～54"), { min_age: 50, max_age: 54 });
-assert("29歳以下男子", parseAgeCategory("29歳以下男子"), { min_age: 0, max_age: 29 });
-assert("19才以下女子", parseAgeCategory("19才以下女子"), { min_age: 0, max_age: 19 });
-assert("70歳以上男子", parseAgeCategory("70歳以上男子"), { min_age: 70, max_age: 99 });
-assert("70以上男子", parseAgeCategory("70以上男子"), { min_age: 70, max_age: 99 });
+assert("29歳以下男子", parseAgeCategory("29歳以下男子"), {
+  min_age: 0,
+  max_age: 29,
+});
+assert("19才以下女子", parseAgeCategory("19才以下女子"), {
+  min_age: 0,
+  max_age: 19,
+});
+assert("70歳以上男子", parseAgeCategory("70歳以上男子"), {
+  min_age: 70,
+  max_age: 99,
+});
+assert("70以上男子", parseAgeCategory("70以上男子"), {
+  min_age: 70,
+  max_age: 99,
+});
 assert("N80-", parseAgeCategory("N80-"), { min_age: 80, max_age: 99 });
-assert("50歳代男子", parseAgeCategory("50歳代男子"), { min_age: 50, max_age: 59 });
+assert("50歳代男子", parseAgeCategory("50歳代男子"), {
+  min_age: 50,
+  max_age: 59,
+});
 assert("20代男子", parseAgeCategory("20代男子"), { min_age: 20, max_age: 29 });
 assert("-19M", parseAgeCategory("-19M"), { min_age: 0, max_age: 19 });
 assert("F-19", parseAgeCategory("F-19"), { min_age: 0, max_age: 19 });
 assert("U20男子", parseAgeCategory("U20男子"), { min_age: 0, max_age: 20 });
-assert("go-54男子", parseAgeCategory("go-54男子"), { min_age: 50, max_age: 54 });
-assert("zo-74男子", parseAgeCategory("zo-74男子"), { min_age: 70, max_age: 74 });
-assert("7o-74男子", parseAgeCategory("7o-74男子"), { min_age: 70, max_age: 74 });
+assert("go-54男子", parseAgeCategory("go-54男子"), {
+  min_age: 50,
+  max_age: 54,
+});
+assert("zo-74男子", parseAgeCategory("zo-74男子"), {
+  min_age: 70,
+  max_age: 74,
+});
+assert("7o-74男子", parseAgeCategory("7o-74男子"), {
+  min_age: 70,
+  max_age: 74,
+});
 assert("2529男子", parseAgeCategory("2529男子"), { min_age: 25, max_age: 29 });
 assert("6560男子", parseAgeCategory("6560男子"), { min_age: 60, max_age: 65 });
 assert("bare 40", parseAgeCategory("40"), { min_age: 40, max_age: 49 });
