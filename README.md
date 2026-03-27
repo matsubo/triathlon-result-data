@@ -88,34 +88,44 @@
 ヘッダ名などは元のリザルトデータを使ってもらってOKです。
 取り込む際に調整します。
 
-## テストの実行
-
-`pytest` を使ってJSONファイルの整合性を確認するテストを実行できます。
-レポジトリのルートで次のコマンドを実行してください。
+## 開発環境のセットアップ
 
 ```bash
-pytest
+bun install
 ```
 
-GitHub Actions でも同じテストが自動的に実行され、JSONの構文エラーがないか確認
-されます。
+`bun install` を実行すると、Husky による Git pre-commit hook が自動的にセットアップされます。
 
-`race-info.json` に記載された画像やリザルト、天気データのファイルが存在するか
-どうかも併せてチェックしています。
+## Lint / Format
+
+[Biome](https://biomejs.dev/) を使って JSON・JS ファイルの lint とフォーマットを行います。
+
+```bash
+bun run check    # lint + format を一括実行・自動修正
+bun run format   # フォーマットのみ
+bun run lint     # lint のみ
+```
+
+### Pre-commit hook
+
+コミット時に Biome がステージされたファイルを自動で lint + format します（Husky 経由）。
+lint エラーがある場合はコミットがブロックされます。
+
+## テストの実行
+
+JSON ファイルの整合性を確認するテストを実行できます。
+
+```bash
+bun run test
+```
+
+GitHub Actions でも同じテストが自動的に実行され、JSON の構文エラーがないか確認されます。
+
+`race-info.json` に記載された画像やリザルト、天気データのファイルが存在するかどうかも併せてチェックしています。
 
 ### 天気データの検証
 
-天気データ（`master/*/*/weather-data.json`）は、`weather-schema.json` で定義されたJSON Schemaに基づいて自動検証されます。GitHub Actionsの「Validate Weather Data」ワークフローが天気データファイルやスキーマファイルが変更されるたびに実行され、データの整合性を確認します。
-
-
-
-## formatter
-
-race-info.jsonを整形するためには以下のコマンドを打ちます。
-
-```
-bun format
-```
+天気データ（`master/*/*/weather-data.json`）は、`weather-schema.json` で定義された JSON Schema に基づいて自動検証されます。GitHub Actions の「Validate Weather Data」ワークフローが天気データファイルやスキーマファイルが変更されるたびに実行され、データの整合性を確認します。
 
 ## ライセンス / License
 
