@@ -95,7 +95,7 @@ const distDir = join(repoRoot, "dist");
 mkdirSync(distDir, { recursive: true });
 
 const outputPath = join(distDir, "data.json");
-writeFileSync(outputPath, `${JSON.stringify(data, null, 2)}\n`);
+writeFileSync(outputPath, `${JSON.stringify(data)}\n`);
 
 console.log(
   `✅ Built ${totalCategories} categories, ${totalAthletes} athletes`,
