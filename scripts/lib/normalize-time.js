@@ -15,5 +15,5 @@ export function parseTime(str) {
   if ([h, m, s].some(Number.isNaN)) return null;
   if (m < 0 || m > 59 || s < 0 || s > 59) return null;
 
-  return h * 3600 + m * 60 + s;
+  return Math.round(h * 3600 + m * 60 + s);
 }
