@@ -117,7 +117,7 @@
                             "columns": {
                               "type": "array",
                               "description": "TSV column names belonging to this segment, in order. Maps denormalized TSV columns (lap times, split times, intermediate checkpoints) to their parent segment.",
-                              "minItems": 1,
+                              "minItems": 0,
                               "items": {
                                 "type": "object",
                                 "required": ["header", "role"],
