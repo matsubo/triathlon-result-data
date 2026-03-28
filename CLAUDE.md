@@ -93,24 +93,87 @@ These workflows ensure data integrity and consistency across the repository.
 - **Husky** (`.husky/pre-commit`) でコミット時にステージされたファイルを自動チェック
 - コマンド: `bun run check`（lint + format一括）、`bun run format`、`bun run lint`
 
-## Getting Started with Claude
+## 新規大会データの取り込み手順
 
-1. **Ask Specific Questions**: "Analyze the 2024 Miyakojima race results"
-2. **Request Code**: "Write a script to validate all JSON files"
-3. **Data Insights**: "What trends do you see in triathlon completion times?"
-4. **Documentation**: "Create documentation for the race-info schema"
+### 1. JTUリザルトシステムからの取り込み
 
-## Best Practices
+JTU（トライアスロンジャパン）のリザルトページは動的にデータをロードするため、Playwrightでのスクレイピングが必要。
 
-- Provide clear, specific requests
-- Share relevant file paths when asking about specific data
-- Ask for explanations of complex analyses
-- Request code comments for better understanding
+**リザルトURL体系:**
+- 大会プログラム一覧: `https://www.jtu.or.jp/result_program/?event_id={ID}`
+- 個別リザルト: `https://www.jtu.or.jp/result/?event_id={ID}&program_id={ID}_{N}`
 
-## Contact and Support
+**event_id の年度別レンジ（目安）:**
+- 2022年: 124〜169
+- 2023年: 172〜232
+- 2024年: 239〜310
+- 2025年: 309〜374
 
-Claude is available through various interfaces and can help with both technical and analytical aspects of this triathlon data project.
+**スクレイピング手順:**
+1. `result_program` ページでプログラム一覧を取得
+2. 各プログラムの `result` ページにアクセス
+3. `table.result_table` からヘッダーと行データを抽出
+4. TSV形式で `master/{year}/{id}/` に保存
 
----
+**Playwright（Node.js）でのデータ抽出パターン:**
+```javascript
+const headers = await page.locator('table.result_table thead th').allTextContents();
+const rows = await page.locator('table.result_table tbody tr').all();
+for (const row of rows) {
+  const cells = await row.locator('td').allTextContents();
+}
+```
 
-*This document serves as a guide for working with Claude AI on triathlon result data analysis and project management.*
+**フィルタすべきカテゴリ:** キッズ、ジュニア、リレー、パラ、小学、中学、アクアスロン、デュアスロン、ビギナー、チャレンジ等（メインのエイジグループカテゴリのみ取り込む）
+
+### 2. PDFリザルトからの取り込み
+
+JTU以外の大会（木更津、宮崎シーガイア等）はPDFでリザルトを公開している場合がある。
+
+```python
+import pdfplumber
+with pdfplumber.open('result.pdf') as pdf:
+    for page in pdf.pages:
+        table = page.extract_table()
+```
+
+### 3. race-info.json への追加
+
+- 既存大会に年度を追加: `editions` 配列に新しいエントリを追加
+- 新規大会: `events` 配列に新しいイベントを追加
+- TSVヘッダーを確認し、`segments.columns` と `meta_columns` のマッピングを正確に設定
+- バリデーション: `bunx ajv-cli validate -s race-info-schema.json -d race-info.json`
+
+### 4. 天気データの生成
+
+- 気象庁（JMA）の過去の気象データを使用
+- 最寄りのAMeDAS観測所のデータを取得
+- `weather-schema.json` に従ったJSON形式で保存
+- 3時間ごと（3, 6, 9, 12, 15, 18, 21, 24時）のデータを含める
+
+### 5. 大会画像
+
+- webp形式、300x200px以内
+- 各大会の開催地を象徴する風景写真を使用
+- **プレースホルダー画像の使い回しは不可** — 必ず個別の画像を設定する
+
+### 6. ビルドと検証
+
+```bash
+bunx ajv-cli validate -s race-info-schema.json -d race-info.json
+bunx ajv-cli validate -s weather-schema.json -d master/{year}/{id}/weather-data.json
+bun run build
+```
+
+## distance の種別
+
+| 値 | 説明 |
+|---|------|
+| LD | ロングディスタンス（スイム3km以上） |
+| MD | ミドルディスタンス |
+| OD | オリンピックディスタンス（スイム1.5km, バイク40km, ラン10km） |
+| SD | スプリントディスタンス（スイム0.75km, バイク20km, ラン5km） |
+| SS | スーパースプリント |
+| DUATHLON | デュアスロン（ラン-バイク-ラン） |
+| AQUATHLON | アクアスロン（スイム-ラン） |
+| OTHER | その他（TTなど） |
