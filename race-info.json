@@ -14268,6 +14268,1486 @@
           ]
         }
       ]
+    },
+    {
+      "id": "yusuichi_gunma",
+      "name": "遊水地ふれあいトライアスロン群馬大会",
+      "location": "群馬県板倉町",
+      "image": "images/yusuichi_gunma.webp",
+      "source": "https://www.gunma-triathlon.com/",
+      "editions": [
+        {
+          "date": "2025-05-18",
+          "weather_file": "master/2025/yusuichi_gunma/weather-data.json",
+          "categories": [
+            {
+              "id": "yusuichi_gunma",
+              "result_tsv": "master/2025/yusuichi_gunma/default.tsv",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "description": "2025年第32回遊水地ふれあいトライアスロン群馬大会。渡良瀬遊水地で開催されるスタンダードディスタンス。スイム1.5km、バイク42km、ラン10km。2025NTTトライアスロンエイジグループ・ナショナルチャンピオンシップシリーズ対象大会。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 42,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nanki_shirahama",
+      "name": "南紀白浜トライアスロン",
+      "location": "和歌山県白浜町",
+      "image": "images/nanki_shirahama.webp",
+      "source": "http://shirahama-triathlon.com/",
+      "editions": [
+        {
+          "date": "2025-05-18",
+          "weather_file": "master/2025/nanki_shirahama/weather-data.json",
+          "categories": [
+            {
+              "id": "nanki_shirahama",
+              "result_tsv": "master/2025/nanki_shirahama/default.tsv",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "description": "2025年第10回南紀白浜トライアスロン大会。和歌山県白浜町の白良浜周辺で開催。スイム1.5km、バイク40km、ラン10km。2025NTTトライアスロンエイジグループ・ナショナルチャンピオンシップシリーズ対象大会。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ainan",
+      "name": "愛南町いやしの郷トライアスロン大会",
+      "location": "愛媛県愛南町",
+      "image": "images/ainan.webp",
+      "source": "https://ainantriathlon.jp/",
+      "editions": [
+        {
+          "date": "2025-06-07",
+          "weather_file": "master/2025/ainan/weather-data.json",
+          "categories": [
+            {
+              "id": "ainan",
+              "result_tsv": "master/2025/ainan/default.tsv",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "description": "2025年第12回愛南町いやしの郷トライアスロン大会。愛媛県愛南町で開催。スイム1.5km、バイク40km、ラン10km。2025NTTトライアスロンエイジグループ・ナショナルチャンピオンシップシリーズ対象大会。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "登録",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "miyazaki_seagaia",
+      "name": "宮崎シーガイアトライアスロン",
+      "location": "宮崎県宮崎市",
+      "image": "images/miyazaki_seagaia.webp",
+      "source": "https://seagaia-tri.tv/",
+      "editions": [
+        {
+          "date": "2025-06-22",
+          "weather_file": "master/2025/miyazaki_seagaia/weather-data.json",
+          "categories": [
+            {
+              "id": "miyazaki_seagaia",
+              "result_tsv": "master/2025/miyazaki_seagaia/default.tsv",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "description": "2025年第27回宮崎シーガイアトライアスロン大会。宮崎県宮崎市のみやざき臨海公園で開催。スイム1.5km、バイク40km、ラン10km。2025NTTトライアスロンエイジグループ・ナショナルチャンピオンシップシリーズ対象大会。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shichigahama",
+      "name": "みやぎ国際トライアスロン仙台ベイ七ヶ浜大会",
+      "location": "宮城県七ヶ浜町",
+      "image": "images/shichigahama.webp",
+      "source": "http://date-tora.com/",
+      "editions": [
+        {
+          "date": "2025-07-06",
+          "weather_file": "master/2025/shichigahama/weather-data.json",
+          "categories": [
+            {
+              "id": "shichigahama_standard",
+              "result_tsv": "master/2025/shichigahama/standard.tsv",
+              "name": "スタンダード",
+              "distance": "OD",
+              "description": "2025年第31回みやぎ国際トライアスロン仙台ベイ七ヶ浜大会スタンダード。スイム1.5km、バイク39.5km、ラン10km。新設の菖蒲田海水浴場を会場に開催。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "S順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 39.5,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "都道府県",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年代区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年代順位",
+                  "role": "age_rank"
+                }
+              ]
+            },
+            {
+              "id": "shichigahama_middle",
+              "result_tsv": "master/2025/shichigahama/middle.tsv",
+              "name": "ミドルディスタンス",
+              "distance": "MD",
+              "description": "2025年第31回みやぎ国際トライアスロン仙台ベイ七ヶ浜大会ミドル。スイム1.5km、バイク55.3km、ラン7.55km。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "S順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 55.3,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 7.55,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "都道府県",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年代区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年代順位",
+                  "role": "age_rank"
+                }
+              ]
+            },
+            {
+              "id": "shichigahama_sprint",
+              "result_tsv": "master/2025/shichigahama/sprint.tsv",
+              "name": "スプリント",
+              "distance": "SD",
+              "description": "2025年第31回みやぎ国際トライアスロン仙台ベイ七ヶ浜大会スプリント。スイム0.75km、バイク23.7km、ラン5.02km。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 0.75,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "S順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 23.7,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 5.02,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "都道府県",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sprint_championship_aomori",
+      "name": "日本スプリントトライアスロン選手権",
+      "location": "青森県青森市",
+      "image": "images/sprint_championship_aomori.webp",
+      "source": "https://www.jtu.or.jp/championship-series/sprint/",
+      "editions": [
+        {
+          "date": "2025-09-14",
+          "weather_file": "master/2025/sprint_championship_aomori/weather-data.json",
+          "categories": [
+            {
+              "id": "sprint_championship_aomori",
+              "result_tsv": "master/2025/sprint_championship_aomori/default.tsv",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "description": "2025年第16回日本スプリントトライアスロン選手権（青森）。スイム0.75km、バイク20km、ラン5km。ドラフティング許可レース。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 0.75,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 5,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "所属／登録",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kokuspo_shiga",
+      "name": "わたSHIGA輝く国民スポーツ大会",
+      "location": "滋賀県近江八幡市",
+      "image": "images/kokuspo_shiga.webp",
+      "source": "https://www.jtu.or.jp/event/65863/",
+      "editions": [
+        {
+          "date": "2025-09-28",
+          "weather_file": "master/2025/kokuspo_shiga/weather-data.json",
+          "categories": [
+            {
+              "id": "kokuspo_shiga",
+              "result_tsv": "master/2025/kokuspo_shiga/default.tsv",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "description": "2025年わたSHIGA輝く国スポ（第79回国民スポーツ大会）トライアスロン競技。近江八幡市宮ヶ浜水泳場周辺で開催。スイム1.5km、バイク40km、ラン10km。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Split",
+                      "role": "cumulative_time"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "Pos",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "StartNum",
+                  "role": "bib"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Affiliation",
+                  "role": "residence"
+                },
+                {
+                  "header": "Time",
+                  "role": "total_time"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "japan_championship",
+      "name": "日本トライアスロン選手権",
+      "location": "東京都港区台場",
+      "image": "images/japan_championship.webp",
+      "source": "https://www.jtu.or.jp/championship-series/triathlon/",
+      "editions": [
+        {
+          "date": "2025-10-26",
+          "weather_file": "master/2025/japan_championship/weather-data.json",
+          "categories": [
+            {
+              "id": "japan_championship",
+              "result_tsv": "master/2025/japan_championship/default.tsv",
+              "name": "日本選手権",
+              "distance": "OD",
+              "description": "2025年第31回日本トライアスロン選手権・第15回日本U23トライアスロン選手権（東京・台場）。お台場海浜公園で開催。スイム1.5km、バイク38.45km、ラン10km。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "スイム",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 38.45,
+                  "columns": [
+                    {
+                      "header": "バイク",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ラン",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "所属／登録",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shirosato_tt",
+      "name": "しろさとTT200",
+      "location": "茨城県城里町",
+      "image": "images/shirosato_tt.webp",
+      "source": "https://shirosato-tt.com/",
+      "editions": [
+        {
+          "date": "2026-03-22",
+          "weather_file": "master/2026/shirosato_tt/weather-data.json",
+          "categories": [
+            {
+              "id": "shirosato_tt_200km",
+              "result_tsv": "master/2026/shirosato_tt/200km.tsv",
+              "name": "200km部門",
+              "distance": "OTHER",
+              "description": "2026年第11回しろさとTT200 200km部門（198.32km・35周回）。日本自動車研究所城里テストセンターの周回コースで開催されるノンドラフティングタイムトライアル。",
+              "segments": [
+                {
+                  "sport": "bike",
+                  "distance": 198.32,
+                  "columns": [
+                    {
+                      "header": "平均速度",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "LAP1",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP2",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP3",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP4",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP5",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP6",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP7",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP8",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP9",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP10",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP11",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP12",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP13",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP14",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP15",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP16",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP17",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP18",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP19",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP20",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP21",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP22",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP23",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP24",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP25",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP26",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP27",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP28",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP29",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP30",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP31",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP32",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP33",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP34",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP35",
+                      "role": "checkpoint"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "都道府県",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "P分",
+                  "role": "penalty"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "区分順位",
+                  "role": "age_rank"
+                }
+              ]
+            },
+            {
+              "id": "shirosato_tt_100km",
+              "result_tsv": "master/2026/shirosato_tt/100km.tsv",
+              "name": "100km部門",
+              "distance": "OTHER",
+              "description": "2026年第11回しろさとTT200 100km部門（101.99km・18周回）。日本自動車研究所城里テストセンターの周回コースで開催されるノンドラフティングタイムトライアル。",
+              "segments": [
+                {
+                  "sport": "bike",
+                  "distance": 101.99,
+                  "columns": [
+                    {
+                      "header": "平均速度",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "LAP1",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP2",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP3",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP4",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP5",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP6",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP7",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP8",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP9",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP10",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP11",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP12",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP13",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP14",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP15",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP16",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP17",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP18",
+                      "role": "checkpoint"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "都道府県",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "P分",
+                  "role": "penalty"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "区分順位",
+                  "role": "age_rank"
+                }
+              ]
+            },
+            {
+              "id": "shirosato_tt_50km",
+              "result_tsv": "master/2026/shirosato_tt/50km.tsv",
+              "name": "50km部門",
+              "distance": "OTHER",
+              "description": "2026年第11回しろさとTT200 50km部門（51.00km・9周回）。日本自動車研究所城里テストセンターの周回コースで開催されるノンドラフティングタイムトライアル。",
+              "segments": [
+                {
+                  "sport": "bike",
+                  "distance": 51.0,
+                  "columns": [
+                    {
+                      "header": "平均速度",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "LAP1",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP2",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP3",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP4",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP5",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP6",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP7",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP8",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "LAP9",
+                      "role": "checkpoint"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "都道府県",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "P分",
+                  "role": "penalty"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "区分順位",
+                  "role": "age_rank"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
