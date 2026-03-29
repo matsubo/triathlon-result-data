@@ -34487,6 +34487,1886 @@
           ]
         }
       ]
+    },
+    {
+      "id": "komatsu_tetsujin",
+      "name": "小松鉄人レース",
+      "location": "石川県小松市",
+      "image": "images/komatsu_tetsujin.webp",
+      "source": "https://komatsutetsujin.com/",
+      "editions": [
+        {
+          "date": "2014-09-28",
+          "weather_file": "master/2014/komatsu_tetsujin/weather-data.json",
+          "categories": [
+            {
+              "id": "komatsu_tetsujin",
+              "result_tsv": "master/2014/komatsu_tetsujin/tetsujin.tsv",
+              "name": "鉄人の部",
+              "distance": "OTHER",
+              "description": "2014年小松鉄人レース鉄人の部。バイク、ゆるぎ山登山、バイク、ランの4種目で競う過酷なレース。",
+              "segments": [
+                {
+                  "sport": "bike",
+                  "distance": 45,
+                  "columns": [
+                    {
+                      "header": "1stﾊﾞｲｸ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "1Ｂ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "trail_running",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "登山",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "登山順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 45,
+                  "columns": [
+                    {
+                      "header": "2ndﾊﾞｲｸ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "2Ｂ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "ﾍﾟﾅﾙﾃｨ",
+                  "role": "penalty"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2018-09-30",
+          "weather_file": "master/2018/komatsu_tetsujin/weather-data.json",
+          "categories": [
+            {
+              "id": "komatsu_tetsujin",
+              "result_tsv": "master/2018/komatsu_tetsujin/tetsujin.tsv",
+              "name": "鉄人の部",
+              "distance": "DUATHLON",
+              "description": "2018年小松鉄人レース鉄人の部。台風24号の影響によりコース変更、ラン-バイク-ラン形式で実施。",
+              "segments": [
+                {
+                  "sport": "run",
+                  "distance": 6,
+                  "columns": [
+                    {
+                      "header": "1stランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "1R順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 57,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "2ndランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "2R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "ペナルティ",
+                  "role": "penalty"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齢別順",
+                  "role": "age_rank"
+                }
+              ]
+            },
+            {
+              "id": "komatsu_tetsujin_long",
+              "result_tsv": "master/2018/komatsu_tetsujin/long.tsv",
+              "name": "ロングの部",
+              "distance": "DUATHLON",
+              "description": "2018年小松鉄人レースロングの部。ラン6km、バイク57km、ラン20kmのデュアスロン。",
+              "segments": [
+                {
+                  "sport": "run",
+                  "distance": 6,
+                  "columns": [
+                    {
+                      "header": "1stRUN",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "1R順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 57,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "2ndRUN",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "2R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齢別順",
+                  "role": "age_rank"
+                }
+              ]
+            },
+            {
+              "id": "komatsu_tetsujin_short",
+              "result_tsv": "master/2018/komatsu_tetsujin/short.tsv",
+              "name": "ショートの部",
+              "distance": "DUATHLON",
+              "description": "2018年小松鉄人レースショートの部。ラン6km、バイク57km、ラン6kmのデュアスロン。",
+              "segments": [
+                {
+                  "sport": "run",
+                  "distance": 6,
+                  "columns": [
+                    {
+                      "header": "1stRUN",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "1R順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 57,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 6,
+                  "columns": [
+                    {
+                      "header": "2ndRUN",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "2R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "ペナルティ",
+                  "role": "penalty"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齢別順",
+                  "role": "age_rank"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2019-09-22",
+          "weather_file": "master/2019/komatsu_tetsujin/weather-data.json",
+          "categories": [
+            {
+              "id": "komatsu_tetsujin",
+              "result_tsv": "master/2019/komatsu_tetsujin/tetsujin.tsv",
+              "name": "鉄人の部",
+              "distance": "OTHER",
+              "description": "2019年小松鉄人レース鉄人の部。バイク、ゆるぎ山登山、バイク、ランの4種目で競う。",
+              "segments": [
+                {
+                  "sport": "bike",
+                  "distance": 45,
+                  "columns": [
+                    {
+                      "header": "1stバイク",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "1B順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "trail_running",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "登山",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "登山順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 45,
+                  "columns": [
+                    {
+                      "header": "2ndバイク",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "2B順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "ラン",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齢別順",
+                  "role": "age_rank"
+                }
+              ]
+            },
+            {
+              "id": "komatsu_tetsujin_long",
+              "result_tsv": "master/2019/komatsu_tetsujin/long.tsv",
+              "name": "ロングの部",
+              "distance": "DUATHLON",
+              "description": "2019年小松鉄人レースロングの部。ラン6km、バイク57km、ラン20kmのデュアスロン。",
+              "segments": [
+                {
+                  "sport": "run",
+                  "distance": 6,
+                  "columns": [
+                    {
+                      "header": "1ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "1R順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 57,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "2ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "2R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齢別順",
+                  "role": "age_rank"
+                }
+              ]
+            },
+            {
+              "id": "komatsu_tetsujin_short",
+              "result_tsv": "master/2019/komatsu_tetsujin/short.tsv",
+              "name": "ショートの部",
+              "distance": "DUATHLON",
+              "description": "2019年小松鉄人レースショートの部。ラン6km、バイク57km、ラン6kmのデュアスロン。",
+              "segments": [
+                {
+                  "sport": "run",
+                  "distance": 6,
+                  "columns": [
+                    {
+                      "header": "1ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "1R順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 57,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 6,
+                  "columns": [
+                    {
+                      "header": "2ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "2R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齢別順",
+                  "role": "age_rank"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2022-09-25",
+          "weather_file": "master/2022/komatsu_tetsujin/weather-data.json",
+          "categories": [
+            {
+              "id": "komatsu_tetsujin_long",
+              "result_tsv": "master/2022/komatsu_tetsujin/long.tsv",
+              "name": "ロングの部",
+              "distance": "DUATHLON",
+              "description": "2022年小松鉄人レースロングの部。ラン6km、バイク60km、ラン20kmのデュアスロン。",
+              "segments": [
+                {
+                  "sport": "run",
+                  "distance": 6,
+                  "columns": [
+                    {
+                      "header": "1ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "1R順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 60,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "2ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "2R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齢別順",
+                  "role": "age_rank"
+                }
+              ]
+            },
+            {
+              "id": "komatsu_tetsujin_short",
+              "result_tsv": "master/2022/komatsu_tetsujin/short.tsv",
+              "name": "ショートの部",
+              "distance": "DUATHLON",
+              "description": "2022年小松鉄人レースショートの部。ラン6km、バイク60km、ラン6kmのデュアスロン。",
+              "segments": [
+                {
+                  "sport": "run",
+                  "distance": 6,
+                  "columns": [
+                    {
+                      "header": "1ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "1R順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 60,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 6,
+                  "columns": [
+                    {
+                      "header": "2ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "2R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齢別順",
+                  "role": "age_rank"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2023-09-24",
+          "weather_file": "master/2023/komatsu_tetsujin/weather-data.json",
+          "categories": [
+            {
+              "id": "komatsu_tetsujin",
+              "result_tsv": "master/2023/komatsu_tetsujin/tetsujin.tsv",
+              "name": "鉄人の部",
+              "distance": "OTHER",
+              "description": "2023年小松鉄人レース鉄人の部。バイク、ゆるぎ山登山、バイク、ランの4種目で競う。",
+              "segments": [
+                {
+                  "sport": "bike",
+                  "distance": 45,
+                  "columns": [
+                    {
+                      "header": "1stバイク",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "1B順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "trail_running",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "登山",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "登山順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 45,
+                  "columns": [
+                    {
+                      "header": "2ndバイク",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "2B順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "ラン",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齢別順",
+                  "role": "age_rank"
+                }
+              ]
+            },
+            {
+              "id": "komatsu_tetsujin_long",
+              "result_tsv": "master/2023/komatsu_tetsujin/long.tsv",
+              "name": "ロングの部",
+              "distance": "DUATHLON",
+              "description": "2023年小松鉄人レースロングの部。ラン6km、バイク57km、ラン20kmのデュアスロン。",
+              "segments": [
+                {
+                  "sport": "run",
+                  "distance": 6,
+                  "columns": [
+                    {
+                      "header": "1ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "1R順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 57,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "2ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "2R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齢別順",
+                  "role": "age_rank"
+                }
+              ]
+            },
+            {
+              "id": "komatsu_tetsujin_short",
+              "result_tsv": "master/2023/komatsu_tetsujin/short.tsv",
+              "name": "ショートの部",
+              "distance": "DUATHLON",
+              "description": "2023年小松鉄人レースショートの部。ラン6km、バイク57km、ラン6kmのデュアスロン。",
+              "segments": [
+                {
+                  "sport": "run",
+                  "distance": 6,
+                  "columns": [
+                    {
+                      "header": "1ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "1R順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 57,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 6,
+                  "columns": [
+                    {
+                      "header": "2ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "2R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齢別順",
+                  "role": "age_rank"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2024-09-29",
+          "weather_file": "master/2024/komatsu_tetsujin/weather-data.json",
+          "categories": [
+            {
+              "id": "komatsu_tetsujin_long",
+              "result_tsv": "master/2024/komatsu_tetsujin/long.tsv",
+              "name": "ロングの部",
+              "distance": "DUATHLON",
+              "description": "2024年小松鉄人レースロングの部。ラン6km、バイク45km、ラン20kmのデュアスロン。",
+              "segments": [
+                {
+                  "sport": "run",
+                  "distance": 6,
+                  "columns": [
+                    {
+                      "header": "1ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "1R順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 45,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "2ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "2R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "ペナルティ",
+                  "role": "penalty"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齢別順",
+                  "role": "age_rank"
+                }
+              ]
+            },
+            {
+              "id": "komatsu_tetsujin_short",
+              "result_tsv": "master/2024/komatsu_tetsujin/short.tsv",
+              "name": "ショートの部",
+              "distance": "DUATHLON",
+              "description": "2024年小松鉄人レースショートの部。ラン6km、バイク45km、ラン6kmのデュアスロン。",
+              "segments": [
+                {
+                  "sport": "run",
+                  "distance": 6,
+                  "columns": [
+                    {
+                      "header": "1ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "1R順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 45,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 6,
+                  "columns": [
+                    {
+                      "header": "2ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "2R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "ペナルティ",
+                  "role": "penalty"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齢別順",
+                  "role": "age_rank"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2025-09-21",
+          "weather_file": "master/2025/komatsu_tetsujin/weather-data.json",
+          "categories": [
+            {
+              "id": "komatsu_tetsujin",
+              "result_tsv": "master/2025/komatsu_tetsujin/tetsujin.tsv",
+              "name": "鉄人の部",
+              "distance": "OTHER",
+              "description": "2025年小松鉄人レース鉄人の部。バイク、ゆるぎ山登山、バイク、ランの4種目で競う。",
+              "segments": [
+                {
+                  "sport": "bike",
+                  "distance": 45,
+                  "columns": [
+                    {
+                      "header": "1stバイク",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "1B順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "trail_running",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "登山",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "登山順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 45,
+                  "columns": [
+                    {
+                      "header": "2ndバイク",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "2B順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "ラン",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齢別順",
+                  "role": "age_rank"
+                }
+              ]
+            },
+            {
+              "id": "komatsu_tetsujin_long",
+              "result_tsv": "master/2025/komatsu_tetsujin/long.tsv",
+              "name": "ロングの部",
+              "distance": "DUATHLON",
+              "description": "2025年小松鉄人レースロングの部。ラン6km、バイク45km、ラン20kmのデュアスロン。",
+              "segments": [
+                {
+                  "sport": "run",
+                  "distance": 6,
+                  "columns": [
+                    {
+                      "header": "1ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "1R順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 45,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "2ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "2R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齢別順",
+                  "role": "age_rank"
+                }
+              ]
+            },
+            {
+              "id": "komatsu_tetsujin_short",
+              "result_tsv": "master/2025/komatsu_tetsujin/short.tsv",
+              "name": "ショートの部",
+              "distance": "DUATHLON",
+              "description": "2025年小松鉄人レースショートの部。ラン6km、バイク45km、ラン6kmのデュアスロン。",
+              "segments": [
+                {
+                  "sport": "run",
+                  "distance": 6,
+                  "columns": [
+                    {
+                      "header": "1ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "1R順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 45,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 6,
+                  "columns": [
+                    {
+                      "header": "2ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "2R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齢別順",
+                  "role": "age_rank"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
