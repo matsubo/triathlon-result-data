@@ -21510,12 +21510,12 @@
               "id": "tokunoshima_2024",
               "result_tsv": "master/2024/tokunoshima/default.tsv",
               "name": "個人の部",
-              "distance": "OD",
-              "description": "2024年第37回トライアスロンIN徳之島大会。",
+              "distance": "MD",
+              "description": "2024年第37回トライアスロンIN徳之島大会。スイム2km、バイク75km、ラン20kmの計97km。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.5,
+                  "distance": 2,
                   "columns": [
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
@@ -21529,7 +21529,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 40,
+                  "distance": 75,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -21551,7 +21551,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 10,
+                  "distance": 20,
                   "columns": [
                     {
                       "header": "ﾗﾝﾗｯﾌﾟ",
