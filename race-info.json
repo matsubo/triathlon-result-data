@@ -1828,12 +1828,12 @@
                   "distance": 3,
                   "columns": [
                     {
-                      "header": "スイム折返",
-                      "role": "checkpoint"
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
                     },
                     {
-                      "header": "スイムF",
-                      "role": "checkpoint"
+                      "header": "Ｓ順",
+                      "role": "rank"
                     }
                   ]
                 },
@@ -1842,12 +1842,20 @@
                   "distance": 157,
                   "columns": [
                     {
-                      "header": "バイクS",
-                      "role": "checkpoint"
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
                     },
                     {
-                      "header": "バイクF",
-                      "role": "checkpoint"
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
                     }
                   ]
                 },
@@ -1856,20 +1864,12 @@
                   "distance": 42.195,
                   "columns": [
                     {
-                      "header": "ラン折り返し21km",
-                      "role": "checkpoint"
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
                     },
                     {
-                      "header": "ラン30km",
-                      "role": "checkpoint"
-                    },
-                    {
-                      "header": "ラン35km",
-                      "role": "checkpoint"
-                    },
-                    {
-                      "header": "ランF",
-                      "role": "checkpoint"
+                      "header": "Ｒ順",
+                      "role": "rank"
                     }
                   ]
                 }
@@ -1904,8 +1904,20 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "備考",
-                  "role": "status"
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
                 }
               ]
             }
@@ -1927,12 +1939,12 @@
                   "distance": 3,
                   "columns": [
                     {
-                      "header": "スイム折返",
-                      "role": "checkpoint"
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
                     },
                     {
-                      "header": "スイムF",
-                      "role": "checkpoint"
+                      "header": "Ｓ順",
+                      "role": "rank"
                     }
                   ]
                 },
@@ -1941,12 +1953,20 @@
                   "distance": 157,
                   "columns": [
                     {
-                      "header": "バイクS",
-                      "role": "checkpoint"
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
                     },
                     {
-                      "header": "バイクF",
-                      "role": "checkpoint"
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
                     }
                   ]
                 },
@@ -1955,20 +1975,12 @@
                   "distance": 42.195,
                   "columns": [
                     {
-                      "header": "ラン折り返し21km",
-                      "role": "checkpoint"
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
                     },
                     {
-                      "header": "ラン30km",
-                      "role": "checkpoint"
-                    },
-                    {
-                      "header": "ラン35km",
-                      "role": "checkpoint"
-                    },
-                    {
-                      "header": "ランF",
-                      "role": "checkpoint"
+                      "header": "Ｒ順",
+                      "role": "rank"
                     }
                   ]
                 }
@@ -1999,8 +2011,24 @@
                   "role": "residence"
                 },
                 {
-                  "header": "備考",
-                  "role": "status"
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
                 }
               ]
             }
@@ -2022,8 +2050,12 @@
                   "distance": 3,
                   "columns": [
                     {
-                      "header": "スイムF",
-                      "role": "checkpoint"
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
                     }
                   ]
                 },
@@ -2032,12 +2064,20 @@
                   "distance": 157,
                   "columns": [
                     {
-                      "header": "バイクS",
-                      "role": "checkpoint"
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
                     },
                     {
-                      "header": "バイクF",
-                      "role": "checkpoint"
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
                     }
                   ]
                 },
@@ -2046,20 +2086,12 @@
                   "distance": 42.195,
                   "columns": [
                     {
-                      "header": "ラン折り返し20km",
-                      "role": "checkpoint"
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
                     },
                     {
-                      "header": "ラン30km",
-                      "role": "checkpoint"
-                    },
-                    {
-                      "header": "ラン35km",
-                      "role": "checkpoint"
-                    },
-                    {
-                      "header": "ランF",
-                      "role": "checkpoint"
+                      "header": "Ｒ順",
+                      "role": "rank"
                     }
                   ]
                 }
@@ -2090,8 +2122,24 @@
                   "role": "residence"
                 },
                 {
-                  "header": "備考",
-                  "role": "status"
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
                 }
               ]
             }
@@ -2113,8 +2161,12 @@
                   "distance": 3,
                   "columns": [
                     {
-                      "header": "スイムF",
-                      "role": "checkpoint"
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
                     }
                   ]
                 },
@@ -2123,12 +2175,20 @@
                   "distance": 157,
                   "columns": [
                     {
-                      "header": "バイクS",
-                      "role": "checkpoint"
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
                     },
                     {
-                      "header": "バイクF",
-                      "role": "checkpoint"
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
                     }
                   ]
                 },
@@ -2137,20 +2197,12 @@
                   "distance": 42.195,
                   "columns": [
                     {
-                      "header": "ラン折り返し20km",
-                      "role": "checkpoint"
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
                     },
                     {
-                      "header": "ラン30km",
-                      "role": "checkpoint"
-                    },
-                    {
-                      "header": "ラン35km",
-                      "role": "checkpoint"
-                    },
-                    {
-                      "header": "ランF",
-                      "role": "checkpoint"
+                      "header": "Ｒ順",
+                      "role": "rank"
                     }
                   ]
                 }
@@ -2181,8 +2233,24 @@
                   "role": "residence"
                 },
                 {
-                  "header": "備考",
-                  "role": "status"
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
                 }
               ]
             }

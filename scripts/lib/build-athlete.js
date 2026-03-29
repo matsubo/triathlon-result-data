@@ -80,5 +80,23 @@ export function buildAthlete(row, metaColumnDefs, segmentDefs) {
 
   athlete.segments = buildSegments(row, segmentDefs);
 
+  // If total_time_seconds is null, derive from sum of segment laps + transitions
+  if (athlete.total_time_seconds == null && athlete.segments.length > 0) {
+    let total = 0;
+    let hasAny = false;
+    for (const seg of athlete.segments) {
+      if (seg.lap_seconds != null) {
+        total += seg.lap_seconds;
+        hasAny = true;
+      }
+      if (seg.transition_seconds != null) {
+        total += seg.transition_seconds;
+      }
+    }
+    if (hasAny && total > 0) {
+      athlete.total_time_seconds = total;
+    }
+  }
+
   return athlete;
 }
