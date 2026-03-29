@@ -1513,6 +1513,10 @@
                   "distance": 123,
                   "columns": [
                     {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
                       "header": "バイクS",
                       "role": "checkpoint"
                     },
@@ -1534,6 +1538,10 @@
                   "sport": "run",
                   "distance": 35,
                   "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
                     {
                       "header": "ランS",
                       "role": "checkpoint"
@@ -1620,6 +1628,10 @@
                   "distance": 123,
                   "columns": [
                     {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
                       "header": "バイクS",
                       "role": "checkpoint"
                     },
@@ -1641,6 +1653,10 @@
                   "sport": "run",
                   "distance": 35,
                   "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
                     {
                       "header": "ランS",
                       "role": "checkpoint"
@@ -1731,6 +1747,10 @@
                   "distance": 123,
                   "columns": [
                     {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
                       "header": "バイクS",
                       "role": "checkpoint"
                     },
@@ -1752,6 +1772,10 @@
                   "sport": "run",
                   "distance": 30,
                   "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
                     {
                       "header": "ランS",
                       "role": "checkpoint"
@@ -1828,6 +1852,14 @@
                   "distance": 3,
                   "columns": [
                     {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    },
+                    {
                       "header": "スイム折返",
                       "role": "checkpoint"
                     },
@@ -1842,7 +1874,35 @@
                   "distance": 157,
                   "columns": [
                     {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    },
+                    {
                       "header": "バイクS",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "伊良部島30km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "池間島60km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "東平安名崎98km",
                       "role": "checkpoint"
                     },
                     {
@@ -1855,6 +1915,14 @@
                   "sport": "run",
                   "distance": 42.195,
                   "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    },
                     {
                       "header": "ラン折り返し21km",
                       "role": "checkpoint"
@@ -1904,8 +1972,20 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "備考",
-                  "role": "status"
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
                 }
               ]
             }
@@ -1927,6 +2007,14 @@
                   "distance": 3,
                   "columns": [
                     {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    },
+                    {
                       "header": "スイム折返",
                       "role": "checkpoint"
                     },
@@ -1941,7 +2029,35 @@
                   "distance": 157,
                   "columns": [
                     {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    },
+                    {
                       "header": "バイクS",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "伊良部島30km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "池間島60km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "東平安名崎98km",
                       "role": "checkpoint"
                     },
                     {
@@ -1954,6 +2070,14 @@
                   "sport": "run",
                   "distance": 42.195,
                   "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    },
                     {
                       "header": "ラン折り返し21km",
                       "role": "checkpoint"
@@ -1999,8 +2123,24 @@
                   "role": "residence"
                 },
                 {
-                  "header": "備考",
-                  "role": "status"
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
                 }
               ]
             }
@@ -2022,6 +2162,14 @@
                   "distance": 3,
                   "columns": [
                     {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    },
+                    {
                       "header": "スイムF",
                       "role": "checkpoint"
                     }
@@ -2032,7 +2180,35 @@
                   "distance": 157,
                   "columns": [
                     {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    },
+                    {
                       "header": "バイクS",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "伊良部島30km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "池間島60km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "東平安名崎98km",
                       "role": "checkpoint"
                     },
                     {
@@ -2045,6 +2221,14 @@
                   "sport": "run",
                   "distance": 42.195,
                   "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    },
                     {
                       "header": "ラン折り返し20km",
                       "role": "checkpoint"
@@ -2090,8 +2274,24 @@
                   "role": "residence"
                 },
                 {
-                  "header": "備考",
-                  "role": "status"
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
                 }
               ]
             }
@@ -2113,6 +2313,14 @@
                   "distance": 3,
                   "columns": [
                     {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    },
+                    {
                       "header": "スイムF",
                       "role": "checkpoint"
                     }
@@ -2123,7 +2331,35 @@
                   "distance": 157,
                   "columns": [
                     {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    },
+                    {
                       "header": "バイクS",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "伊良部島30km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "池間島60km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "東平安名崎98km",
                       "role": "checkpoint"
                     },
                     {
@@ -2136,6 +2372,14 @@
                   "sport": "run",
                   "distance": 42.195,
                   "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    },
                     {
                       "header": "ラン折り返し20km",
                       "role": "checkpoint"
@@ -2181,8 +2425,24 @@
                   "role": "residence"
                 },
                 {
-                  "header": "備考",
-                  "role": "status"
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
                 }
               ]
             }
@@ -25428,6 +25688,10 @@
                   "distance": 1.5,
                   "columns": [
                     {
+                      "header": "SWIM",
+                      "role": "lap"
+                    },
+                    {
                       "header": "Ｓ順",
                       "role": "rank"
                     }
@@ -29430,7 +29694,7 @@
               "id": "okinawa_kin_ld",
               "result_tsv": "master/2025/okinawa_kin/ld.tsv",
               "name": "エイジLD選手権",
-              "distance": "LD",
+              "distance": "MD",
               "description": "2025年第1回日本エイジグループロングディスタンストライアスロン選手権（沖縄）。沖縄県金武町KINサンライズビーチを舞台に、スイム2km、バイク70km、ラン22kmの総距離94kmに挑戦。",
               "segments": [
                 {
@@ -29535,7 +29799,7 @@
               "id": "okinawa_kin_age",
               "result_tsv": "master/2025/okinawa_kin/age.tsv",
               "name": "KINトライアスロンエイジの部",
-              "distance": "LD",
+              "distance": "MD",
               "description": "2025年おきなわKINトライアスロン大会エイジの部。沖縄県金武町KINサンライズビーチを舞台に、スイム2km、バイク70km、ラン22kmの総距離94kmに挑戦。",
               "segments": [
                 {
@@ -29646,7 +29910,7 @@
               "id": "okinawa_kin_ld",
               "result_tsv": "master/2024/okinawa_kin/default.tsv",
               "name": "エイジLD選手権",
-              "distance": "LD",
+              "distance": "MD",
               "description": "2024年第1回日本エイジグループロングディスタンストライアスロン選手権（沖縄）。沖縄県金武町KINサンライズビーチを舞台に、スイム2km、バイク70km、ラン22kmの総距離94kmに挑戦。",
               "segments": [
                 {
