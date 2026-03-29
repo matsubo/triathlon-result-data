@@ -1513,6 +1513,10 @@
                   "distance": 123,
                   "columns": [
                     {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
                       "header": "バイクS",
                       "role": "checkpoint"
                     },
@@ -1534,6 +1538,10 @@
                   "sport": "run",
                   "distance": 35,
                   "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
                     {
                       "header": "ランS",
                       "role": "checkpoint"
@@ -1620,6 +1628,10 @@
                   "distance": 123,
                   "columns": [
                     {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
                       "header": "バイクS",
                       "role": "checkpoint"
                     },
@@ -1641,6 +1653,10 @@
                   "sport": "run",
                   "distance": 35,
                   "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
                     {
                       "header": "ランS",
                       "role": "checkpoint"
@@ -1731,6 +1747,10 @@
                   "distance": 123,
                   "columns": [
                     {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
                       "header": "バイクS",
                       "role": "checkpoint"
                     },
@@ -1752,6 +1772,10 @@
                   "sport": "run",
                   "distance": 30,
                   "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
                     {
                       "header": "ランS",
                       "role": "checkpoint"

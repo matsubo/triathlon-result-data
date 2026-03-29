@@ -42,14 +42,6 @@ export function buildSegments(row, segmentDefs) {
       seg.checkpoints = checkpoints;
     }
 
-    // If no lap_seconds but checkpoints exist, derive lap from sum of checkpoints
-    if (seg.lap_seconds == null && checkpoints.length > 0) {
-      const validCps = checkpoints.filter((cp) => cp != null);
-      if (validCps.length > 0) {
-        seg.lap_seconds = validCps.reduce((a, b) => a + b, 0);
-      }
-    }
-
     return seg;
   });
 }
