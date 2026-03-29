@@ -25520,6 +25520,10 @@
                   "distance": 1.5,
                   "columns": [
                     {
+                      "header": "SWIM",
+                      "role": "lap"
+                    },
+                    {
                       "header": "Ｓ順",
                       "role": "rank"
                     }
