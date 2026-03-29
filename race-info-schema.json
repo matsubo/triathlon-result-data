@@ -106,7 +106,7 @@
                           "properties": {
                             "sport": {
                               "type": "string",
-                              "enum": ["swim", "bike", "run"],
+                              "enum": ["swim", "bike", "run", "trail_running"],
                               "description": "Type of sport segment"
                             },
                             "distance": {
