@@ -1858,6 +1858,14 @@
                     {
                       "header": "Ｓ順",
                       "role": "rank"
+                    },
+                    {
+                      "header": "スイム折返",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "スイムF",
+                      "role": "checkpoint"
                     }
                   ]
                 },
@@ -1880,6 +1888,26 @@
                     {
                       "header": "通過",
                       "role": "cumulative_rank"
+                    },
+                    {
+                      "header": "バイクS",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "伊良部島30km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "池間島60km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "東平安名崎98km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "バイクF",
+                      "role": "checkpoint"
                     }
                   ]
                 },
@@ -1894,6 +1922,22 @@
                     {
                       "header": "Ｒ順",
                       "role": "rank"
+                    },
+                    {
+                      "header": "ラン折り返し21km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "ラン30km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "ラン35km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "ランF",
+                      "role": "checkpoint"
                     }
                   ]
                 }
@@ -1969,6 +2013,14 @@
                     {
                       "header": "Ｓ順",
                       "role": "rank"
+                    },
+                    {
+                      "header": "スイム折返",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "スイムF",
+                      "role": "checkpoint"
                     }
                   ]
                 },
@@ -1991,6 +2043,26 @@
                     {
                       "header": "通過",
                       "role": "cumulative_rank"
+                    },
+                    {
+                      "header": "バイクS",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "伊良部島30km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "池間島60km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "東平安名崎98km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "バイクF",
+                      "role": "checkpoint"
                     }
                   ]
                 },
@@ -2005,6 +2077,22 @@
                     {
                       "header": "Ｒ順",
                       "role": "rank"
+                    },
+                    {
+                      "header": "ラン折り返し21km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "ラン30km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "ラン35km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "ランF",
+                      "role": "checkpoint"
                     }
                   ]
                 }
@@ -2080,6 +2168,10 @@
                     {
                       "header": "Ｓ順",
                       "role": "rank"
+                    },
+                    {
+                      "header": "スイムF",
+                      "role": "checkpoint"
                     }
                   ]
                 },
@@ -2102,6 +2194,26 @@
                     {
                       "header": "通過",
                       "role": "cumulative_rank"
+                    },
+                    {
+                      "header": "バイクS",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "伊良部島30km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "池間島60km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "東平安名崎98km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "バイクF",
+                      "role": "checkpoint"
                     }
                   ]
                 },
@@ -2116,6 +2228,22 @@
                     {
                       "header": "Ｒ順",
                       "role": "rank"
+                    },
+                    {
+                      "header": "ラン折り返し20km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "ラン30km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "ラン35km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "ランF",
+                      "role": "checkpoint"
                     }
                   ]
                 }
@@ -2191,6 +2319,10 @@
                     {
                       "header": "Ｓ順",
                       "role": "rank"
+                    },
+                    {
+                      "header": "スイムF",
+                      "role": "checkpoint"
                     }
                   ]
                 },
@@ -2213,6 +2345,26 @@
                     {
                       "header": "通過",
                       "role": "cumulative_rank"
+                    },
+                    {
+                      "header": "バイクS",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "伊良部島30km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "池間島60km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "東平安名崎98km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "バイクF",
+                      "role": "checkpoint"
                     }
                   ]
                 },
@@ -2227,6 +2379,22 @@
                     {
                       "header": "Ｒ順",
                       "role": "rank"
+                    },
+                    {
+                      "header": "ラン折り返し20km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "ラン30km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "ラン35km",
+                      "role": "checkpoint"
+                    },
+                    {
+                      "header": "ランF",
+                      "role": "checkpoint"
                     }
                   ]
                 }
