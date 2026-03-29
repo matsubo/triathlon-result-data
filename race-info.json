@@ -29430,7 +29430,7 @@
               "id": "okinawa_kin_ld",
               "result_tsv": "master/2025/okinawa_kin/ld.tsv",
               "name": "エイジLD選手権",
-              "distance": "LD",
+              "distance": "MD",
               "description": "2025年第1回日本エイジグループロングディスタンストライアスロン選手権（沖縄）。沖縄県金武町KINサンライズビーチを舞台に、スイム2km、バイク70km、ラン22kmの総距離94kmに挑戦。",
               "segments": [
                 {
@@ -29535,7 +29535,7 @@
               "id": "okinawa_kin_age",
               "result_tsv": "master/2025/okinawa_kin/age.tsv",
               "name": "KINトライアスロンエイジの部",
-              "distance": "LD",
+              "distance": "MD",
               "description": "2025年おきなわKINトライアスロン大会エイジの部。沖縄県金武町KINサンライズビーチを舞台に、スイム2km、バイク70km、ラン22kmの総距離94kmに挑戦。",
               "segments": [
                 {
@@ -29646,7 +29646,7 @@
               "id": "okinawa_kin_ld",
               "result_tsv": "master/2024/okinawa_kin/default.tsv",
               "name": "エイジLD選手権",
-              "distance": "LD",
+              "distance": "MD",
               "description": "2024年第1回日本エイジグループロングディスタンストライアスロン選手権（沖縄）。沖縄県金武町KINサンライズビーチを舞台に、スイム2km、バイク70km、ラン22kmの総距離94kmに挑戦。",
               "segments": [
                 {
