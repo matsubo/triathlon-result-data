@@ -65,7 +65,7 @@
                           "properties": {
                             "sport": {
                               "type": "string",
-                              "enum": ["swim", "bike", "run"]
+                              "enum": ["swim", "bike", "run", "trail_running"]
                             },
                             "distance_km": { "type": "number", "minimum": 0 }
                           }
