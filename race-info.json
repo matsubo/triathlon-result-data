@@ -36052,7 +36052,7 @@
               "segments": [
                 {
                   "sport": "bike",
-                  "distance": 45,
+                  "distance": 20,
                   "columns": [
                     {
                       "header": "1stバイク",
@@ -36066,7 +36066,7 @@
                 },
                 {
                   "sport": "trail_running",
-                  "distance": 10,
+                  "distance": 8,
                   "columns": [
                     {
                       "header": "登山",
@@ -36080,7 +36080,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 45,
+                  "distance": 30,
                   "columns": [
                     {
                       "header": "2ndバイク",
