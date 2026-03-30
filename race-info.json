@@ -28551,7 +28551,7 @@
               "id": "miyazaki_sprint_men",
               "result_tsv": "master/2025/miyazaki_age/sprint_men.tsv",
               "name": "スプリント選手権男子",
-              "distance": "SS",
+              "distance": "SD",
               "description": "2025年日本エイジグループSPトライアスロン選手権（宮崎）男子。宮崎臨海公園を舞台に、スイム0.75km、バイク20km、ラン5kmのスプリントレース。",
               "segments": [
                 {
@@ -28644,7 +28644,7 @@
               "id": "miyazaki_sprint_women",
               "result_tsv": "master/2025/miyazaki_age/sprint_women.tsv",
               "name": "スプリント選手権女子",
-              "distance": "SS",
+              "distance": "SD",
               "description": "2025年日本エイジグループSPトライアスロン選手権（宮崎）女子。宮崎臨海公園を舞台に、スイム0.75km、バイク20km、ラン5kmのスプリントレース。",
               "segments": [
                 {
@@ -28929,7 +28929,7 @@
               "id": "miyazaki_sprint_men",
               "result_tsv": "master/2024/miyazaki_age/スプリント男子.tsv",
               "name": "スプリント選手権男子",
-              "distance": "SS",
+              "distance": "SD",
               "description": "2024年日本エイジグループSPトライアスロン選手権（宮崎）男子。宮崎臨海公園を舞台に、スイム0.75km、バイク20km、ラン5kmのスプリントレース。",
               "segments": [
                 {
@@ -29022,7 +29022,7 @@
               "id": "miyazaki_sprint_women",
               "result_tsv": "master/2024/miyazaki_age/スプリント女子.tsv",
               "name": "スプリント選手権女子",
-              "distance": "SS",
+              "distance": "SD",
               "description": "2024年日本エイジグループSPトライアスロン選手権（宮崎）女子。宮崎臨海公園を舞台に、スイム0.75km、バイク20km、ラン5kmのスプリントレース。",
               "segments": [
                 {
