@@ -52,6 +52,12 @@ Claude can help navigate and understand this triathlon result data repository wh
 
 ビルドコマンド: `bun run build`
 
+## TSVデータ規約
+
+- **氏名の区切り**: 姓と名の間は **半角スペース** を使用する（全角スペース不可）
+  - ○ `山田 太郎`
+  - × `山田　太郎`（全角スペース）
+
 ## ファイルの役割
 
 - `race-info.json` 大会情報のマスタ。カテゴリごとに `segments` 配列で競技構成を定義（例: `[{sport:"swim"}, {sport:"bike"}, {sport:"run"}]`）。TSVカラムと正規化フィールドのマッピングルール（`columns`, `meta_columns`）を含む。
