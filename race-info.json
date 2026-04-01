@@ -32757,6 +32757,158 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2019-10-06",
+          "weather_file": "master/2019/japan_championship/weather-data.json",
+          "categories": [
+            {
+              "id": "japan_championship_men_2019",
+              "result_tsv": "master/2019/japan_championship/men.tsv",
+              "name": "エリート男子",
+              "distance": "OD",
+              "description": "2019年第25回日本トライアスロン選手権（東京・台場）エリート男子。お台場海浜公園周辺で開催。スイム1.5km、バイク40km、ラン10km。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T1",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T2",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "Pos",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "StartNum",
+                  "role": "bib"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Affiliation",
+                  "role": "residence"
+                },
+                {
+                  "header": "YOB",
+                  "role": "age"
+                },
+                {
+                  "header": "Time",
+                  "role": "total_time"
+                }
+              ]
+            },
+            {
+              "id": "japan_championship_women_2019",
+              "result_tsv": "master/2019/japan_championship/women.tsv",
+              "name": "エリート女子",
+              "distance": "OD",
+              "description": "2019年第25回日本トライアスロン選手権（東京・台場）エリート女子。お台場海浜公園周辺で開催。スイム1.5km、バイク40km、ラン10km。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T1",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T2",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "Pos",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "StartNum",
+                  "role": "bib"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Affiliation",
+                  "role": "residence"
+                },
+                {
+                  "header": "YOB",
+                  "role": "age"
+                },
+                {
+                  "header": "Time",
+                  "role": "total_time"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
