@@ -10362,6 +10362,113 @@
           ]
         },
         {
+          "date": "2021-04-18",
+          "weather_file": "master/2021/ishigaki/weather-data.json",
+          "categories": [
+            {
+              "id": "ishigakijima",
+              "result_tsv": "master/2021/ishigaki/result.tsv",
+              "name": "石垣島トライアスロン",
+              "distance": "OD",
+              "description": "2021年石垣島トライアスロン大会。美しい珊瑚の海を舞台に、スイム1.5km、バイク40km、ラン10kmの51.5kmに挑戦。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "所属・登録",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "date": "2022-04-17",
           "weather_file": "master/2022/ishigakijima/weather-data.json",
           "categories": [
@@ -34439,6 +34546,115 @@
       "source": "https://komatsutetsujin.com/",
       "editions": [
         {
+          "date": "2009-09-27",
+          "weather_file": "master/2009/komatsu_tetsujin/weather-data.json",
+          "categories": [
+            {
+              "id": "komatsu_tetsujin",
+              "result_tsv": "master/2009/komatsu_tetsujin/tetsujin.tsv",
+              "name": "鉄人の部",
+              "distance": "OTHER",
+              "description": "2009年小松鉄人レース鉄人の部。バイク、ゆるぎ山登山、バイク、ランの4種目で競う過酷なレース。",
+              "segments": [
+                {
+                  "sport": "bike",
+                  "distance": 45,
+                  "columns": [
+                    {
+                      "header": "1stﾊﾞｲｸ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "1Ｂ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "trail_running",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "登山",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "登山順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 45,
+                  "columns": [
+                    {
+                      "header": "2ndﾊﾞｲｸ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "2Ｂ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "date": "2014-09-28",
           "weather_file": "master/2014/komatsu_tetsujin/weather-data.json",
           "categories": [
@@ -36304,6 +36520,1156 @@
                 {
                   "header": "年齢別順",
                   "role": "age_rank"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kokuspo_shiga_men",
+      "name": "わたSHIGA輝く国スポ2025 トライアスロン 成年男子",
+      "location": "近江八幡市",
+      "image": "images/kokuspo_shiga.webp",
+      "source": "https://results.shiga-sports2025.jp/discipline_460_20250928.html",
+      "editions": [
+        {
+          "date": "2025-09-28",
+          "weather_file": "master/2025/kokuspo_shiga/weather-data.json",
+          "categories": [
+            {
+              "id": "kokuspo_shiga_men",
+              "result_tsv": "master/2025/kokuspo_shiga/men.tsv",
+              "name": "成年男子",
+              "distance": "OD",
+              "description": "2025年わたSHIGA輝く国スポ トライアスロン成年男子。近江八幡市特設トライアスロン会場を舞台に開催。スイム1.5km、バイク40km、ラン10km。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "スイム",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "バイク",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ラン",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "選手名",
+                  "role": "name"
+                },
+                {
+                  "header": "所属",
+                  "role": "residence"
+                },
+                {
+                  "header": "合計記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "備考",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kokuspo_shiga_women",
+      "name": "わたSHIGA輝く国スポ2025 トライアスロン 成年女子",
+      "location": "近江八幡市",
+      "image": "images/kokuspo_shiga.webp",
+      "source": "https://results.shiga-sports2025.jp/discipline_460_20250928.html",
+      "editions": [
+        {
+          "date": "2025-09-28",
+          "weather_file": "master/2025/kokuspo_shiga/weather-data.json",
+          "categories": [
+            {
+              "id": "kokuspo_shiga_women",
+              "result_tsv": "master/2025/kokuspo_shiga/women.tsv",
+              "name": "成年女子",
+              "distance": "OD",
+              "description": "2025年わたSHIGA輝く国スポ トライアスロン成年女子。近江八幡市特設トライアスロン会場を舞台に開催。スイム1.5km、バイク40km、ラン10km。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "スイム",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "バイク",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ラン",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "選手名",
+                  "role": "name"
+                },
+                {
+                  "header": "所属",
+                  "role": "residence"
+                },
+                {
+                  "header": "合計記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "備考",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asia_hatsukaichi",
+      "name": "アジアトライアスロン廿日市",
+      "location": "広島県廿日市市",
+      "image": "images/asia_hatsukaichi.webp",
+      "source": "https://www.jtu.or.jp/",
+      "editions": [
+        {
+          "date": "2021-09-12",
+          "weather_file": "master/2021/asia_hatsukaichi/weather-data.json",
+          "categories": [
+            {
+              "id": "asia_hatsukaichi_elite_men",
+              "result_tsv": "master/2021/asia_hatsukaichi/elite_men.tsv",
+              "name": "エリート男子",
+              "distance": "OD",
+              "description": "2021年アジアトライアスロン廿日市エリート男子。スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンス。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T1",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T2",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "Pos",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "StartNum",
+                  "role": "bib"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Affiliation",
+                  "role": "residence"
+                },
+                {
+                  "header": "YOB",
+                  "role": "age"
+                },
+                {
+                  "header": "Time",
+                  "role": "total_time"
+                }
+              ]
+            },
+            {
+              "id": "asia_hatsukaichi_elite_women",
+              "result_tsv": "master/2021/asia_hatsukaichi/elite_women.tsv",
+              "name": "エリート女子",
+              "distance": "OD",
+              "description": "2021年アジアトライアスロン廿日市エリート女子。スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンス。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T1",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T2",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "Pos",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "StartNum",
+                  "role": "bib"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Affiliation",
+                  "role": "residence"
+                },
+                {
+                  "header": "YOB",
+                  "role": "age"
+                },
+                {
+                  "header": "Time",
+                  "role": "total_time"
+                }
+              ]
+            },
+            {
+              "id": "asia_hatsukaichi_age_group",
+              "result_tsv": "master/2021/asia_hatsukaichi/age_group.tsv",
+              "name": "エイジグループ",
+              "distance": "OD",
+              "description": "2021年アジアトライアスロン廿日市エイジグループ。スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンス。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年代区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年代別順",
+                  "role": "age_rank"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "miyazaki_ss",
+      "name": "宮崎スーパースプリントトライアスロン",
+      "location": "宮崎県宮崎市",
+      "image": "images/miyazaki_ss.webp",
+      "source": "https://www.jtu.or.jp/",
+      "editions": [
+        {
+          "date": "2021-10-17",
+          "weather_file": "master/2021/miyazaki_ss/weather-data.json",
+          "categories": [
+            {
+              "id": "miyazaki_ss_1st",
+              "result_tsv": "master/2021/miyazaki_ss/1st_race.tsv",
+              "name": "第1レース",
+              "distance": "SS",
+              "description": "2021年宮崎スーパースプリントトライアスロン第1レース。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 0.3,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T1",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 8,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T2",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 2,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "Pos",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "StartNum",
+                  "role": "bib"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Affiliation",
+                  "role": "residence"
+                },
+                {
+                  "header": "YOB",
+                  "role": "age"
+                },
+                {
+                  "header": "Time",
+                  "role": "total_time"
+                }
+              ]
+            },
+            {
+              "id": "miyazaki_ss_2nd",
+              "result_tsv": "master/2021/miyazaki_ss/2nd_race.tsv",
+              "name": "第2レース",
+              "distance": "SS",
+              "description": "2021年宮崎スーパースプリントトライアスロン第2レース。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 0.3,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T1",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 8,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T2",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 2,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "Pos",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "StartNum",
+                  "role": "bib"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Affiliation",
+                  "role": "residence"
+                },
+                {
+                  "header": "YOB",
+                  "role": "age"
+                },
+                {
+                  "header": "Time",
+                  "role": "total_time"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanto_block",
+      "name": "関東ブロックトライアスロン",
+      "location": "関東",
+      "image": "images/kanto_block.webp",
+      "source": "https://www.jtu.or.jp/",
+      "editions": [
+        {
+          "date": "2021-08-22",
+          "weather_file": "master/2021/kanto_block/weather-data.json",
+          "categories": [
+            {
+              "id": "kanto_block_men",
+              "result_tsv": "master/2021/kanto_block/men.tsv",
+              "name": "男子",
+              "distance": "OD",
+              "description": "2021年関東ブロックトライアスロン男子。スイム1.5km、バイク40km、ラン10km。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "Pos",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "StartNum",
+                  "role": "bib"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Affiliation",
+                  "role": "residence"
+                },
+                {
+                  "header": "YOB",
+                  "role": "age"
+                },
+                {
+                  "header": "Time",
+                  "role": "total_time"
+                }
+              ]
+            },
+            {
+              "id": "kanto_block_women",
+              "result_tsv": "master/2021/kanto_block/women.tsv",
+              "name": "女子",
+              "distance": "OD",
+              "description": "2021年関東ブロックトライアスロン女子。スイム1.5km、バイク40km、ラン10km。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "Pos",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "StartNum",
+                  "role": "bib"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Affiliation",
+                  "role": "residence"
+                },
+                {
+                  "header": "YOB",
+                  "role": "age"
+                },
+                {
+                  "header": "Time",
+                  "role": "total_time"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tokai_block",
+      "name": "東海ブロックトライアスロン",
+      "location": "東海",
+      "image": "images/tokai_block.webp",
+      "source": "https://www.jtu.or.jp/",
+      "editions": [
+        {
+          "date": "2021-08-29",
+          "weather_file": "master/2021/tokai_block/weather-data.json",
+          "categories": [
+            {
+              "id": "tokai_block_men",
+              "result_tsv": "master/2021/tokai_block/men.tsv",
+              "name": "男子",
+              "distance": "OD",
+              "description": "2021年東海ブロックトライアスロン男子。スイム1.5km、バイク40km、ラン10km。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "Pos",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "StartNum",
+                  "role": "bib"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Affiliation",
+                  "role": "residence"
+                },
+                {
+                  "header": "YOB",
+                  "role": "age"
+                },
+                {
+                  "header": "Time",
+                  "role": "total_time"
+                }
+              ]
+            },
+            {
+              "id": "tokai_block_women",
+              "result_tsv": "master/2021/tokai_block/women.tsv",
+              "name": "女子",
+              "distance": "OD",
+              "description": "2021年東海ブロックトライアスロン女子。スイム1.5km、バイク40km、ラン10km。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "Pos",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "StartNum",
+                  "role": "bib"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Affiliation",
+                  "role": "residence"
+                },
+                {
+                  "header": "YOB",
+                  "role": "age"
+                },
+                {
+                  "header": "Time",
+                  "role": "total_time"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "suigo_itako",
+      "name": "水郷いたこトライアスロン",
+      "location": "茨城県潮来市",
+      "image": "images/suigo_itako.webp",
+      "source": "https://www.jtu.or.jp/",
+      "editions": [
+        {
+          "date": "2021-07-04",
+          "weather_file": "master/2021/suigo_itako/weather-data.json",
+          "categories": [
+            {
+              "id": "suigo_itako",
+              "result_tsv": "master/2021/suigo_itako/standard.tsv",
+              "name": "スタンダードディスタンス",
+              "distance": "OD",
+              "description": "2021年水郷いたこトライアスロン。茨城県潮来市を舞台に、スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンスで開催。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年代区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年代別順",
+                  "role": "age_rank"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "miyazaki_jtu",
+      "name": "宮崎日本選手権トライアスロン",
+      "location": "宮崎県宮崎市",
+      "image": "images/miyazaki_jtu.webp",
+      "source": "https://www.jtu.or.jp/",
+      "editions": [
+        {
+          "date": "2021-10-17",
+          "weather_file": "master/2021/miyazaki_jtu/weather-data.json",
+          "categories": [
+            {
+              "id": "miyazaki_jtu_elite_men",
+              "result_tsv": "master/2021/miyazaki_jtu/elite_men.tsv",
+              "name": "エリート男子",
+              "distance": "OD",
+              "description": "2021年宮崎日本選手権トライアスロンエリート男子。スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンス。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T1",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T2",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "Pos",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "StartNum",
+                  "role": "bib"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Affiliation",
+                  "role": "residence"
+                },
+                {
+                  "header": "YOB",
+                  "role": "age"
+                },
+                {
+                  "header": "Time",
+                  "role": "total_time"
+                }
+              ]
+            },
+            {
+              "id": "miyazaki_jtu_elite_women",
+              "result_tsv": "master/2021/miyazaki_jtu/elite_women.tsv",
+              "name": "エリート女子",
+              "distance": "OD",
+              "description": "2021年宮崎日本選手権トライアスロンエリート女子。スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンス。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T1",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T2",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "Pos",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "StartNum",
+                  "role": "bib"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Affiliation",
+                  "role": "residence"
+                },
+                {
+                  "header": "YOB",
+                  "role": "age"
+                },
+                {
+                  "header": "Time",
+                  "role": "total_time"
                 }
               ]
             }
