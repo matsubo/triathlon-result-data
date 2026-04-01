@@ -463,7 +463,7 @@
               "id": "sado_championship_men",
               "result_tsv": "master/2023/sado/チャンピオンシップ男子.tsv",
               "name": "チャンピオンシップ男子",
-              "distance": "OD",
+              "distance": "MD",
               "description": "2023年佐渡国際トライアスロン大会チャンピオンシップ男子。エリート選手が佐渡島を舞台に競い合う。",
               "segments": [
                 {
@@ -548,7 +548,7 @@
               "id": "sado_championship_women",
               "result_tsv": "master/2023/sado/チャンピオンシップ女子.tsv",
               "name": "チャンピオンシップ女子",
-              "distance": "OD",
+              "distance": "MD",
               "description": "2023年佐渡国際トライアスロン大会チャンピオンシップ女子。エリート選手が佐渡島を舞台に競い合う。",
               "segments": [
                 {
@@ -846,87 +846,6 @@
                   "role": "age_rank"
                 }
               ]
-            },
-            {
-              "id": "sado_r",
-              "result_tsv": "master/2023/sado/ｒタイプ.tsv",
-              "name": "タイプR（リレー）",
-              "distance": "LD",
-              "description": "2023年佐渡国際トライアスロン大会タイプR。3人1組のリレー形式でロングディスタンスに挑む。",
-              "segments": [
-                {
-                  "sport": "swim",
-                  "distance": 4,
-                  "columns": [
-                    {
-                      "header": "ｽｲﾑﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "Ｓ順",
-                      "role": "rank"
-                    },
-                    {
-                      "header": "T1",
-                      "role": "transition"
-                    }
-                  ]
-                },
-                {
-                  "sport": "bike",
-                  "distance": 190,
-                  "columns": [
-                    {
-                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "Ｂ順",
-                      "role": "rank"
-                    },
-                    {
-                      "header": "ｽﾌﾟﾘｯﾄ",
-                      "role": "cumulative_time"
-                    },
-                    {
-                      "header": "通過",
-                      "role": "cumulative_rank"
-                    }
-                  ]
-                },
-                {
-                  "sport": "run",
-                  "distance": 42.2,
-                  "columns": [
-                    {
-                      "header": "ﾗﾝﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "Ｒ順",
-                      "role": "rank"
-                    }
-                  ]
-                }
-              ],
-              "meta_columns": [
-                {
-                  "header": "総合順位",
-                  "role": "overall_rank"
-                },
-                {
-                  "header": "No.",
-                  "role": "bib"
-                },
-                {
-                  "header": "チーム名",
-                  "role": "name"
-                },
-                {
-                  "header": "総合記録",
-                  "role": "total_time"
-                }
-              ]
             }
           ]
         },
@@ -938,7 +857,7 @@
               "id": "sado_championship_men",
               "result_tsv": "master/2022/sado/ナショナルチャンピオンシップ男子.tsv",
               "name": "ナショナルチャンピオンシップ男子",
-              "distance": "OD",
+              "distance": "MD",
               "description": "2022年佐渡国際トライアスロン大会ナショナルチャンピオンシップ男子。スイム1.5km、バイク40km、ラン10km。",
               "segments": [
                 {
@@ -1023,7 +942,7 @@
               "id": "sado_championship_women",
               "result_tsv": "master/2022/sado/ナショナルチャンピオンシップ女子.tsv",
               "name": "ナショナルチャンピオンシップ女子",
-              "distance": "OD",
+              "distance": "MD",
               "description": "2022年佐渡国際トライアスロン大会ナショナルチャンピオンシップ女子。スイム1.5km、バイク40km、ラン10km。",
               "segments": [
                 {
@@ -1108,7 +1027,7 @@
               "id": "sado_atype_elite",
               "result_tsv": "master/2022/sado/atype_elite.tsv",
               "name": "Aタイプエリート",
-              "distance": "OD",
+              "distance": "LD",
               "description": "2022年佐渡国際トライアスロン大会Aタイプエリート。スイム1.5km、バイク40km、ラン10km。",
               "segments": [
                 {
@@ -1390,87 +1309,6 @@
                   "role": "age_rank"
                 }
               ]
-            },
-            {
-              "id": "sado_r",
-              "result_tsv": "master/2022/sado/rtype.tsv",
-              "name": "タイプR（リレー）",
-              "distance": "LD",
-              "description": "2022年佐渡国際トライアスロン大会Rタイプ（リレー）。スイム3.8km、バイク190km、ラン42.2kmのチームリレー。",
-              "segments": [
-                {
-                  "sport": "swim",
-                  "distance": 4,
-                  "columns": [
-                    {
-                      "header": "ｽｲﾑﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "Ｓ順",
-                      "role": "rank"
-                    },
-                    {
-                      "header": "T1",
-                      "role": "transition"
-                    }
-                  ]
-                },
-                {
-                  "sport": "bike",
-                  "distance": 190,
-                  "columns": [
-                    {
-                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "Ｂ順",
-                      "role": "rank"
-                    },
-                    {
-                      "header": "ｽﾌﾟﾘｯﾄ",
-                      "role": "cumulative_time"
-                    },
-                    {
-                      "header": "通過",
-                      "role": "cumulative_rank"
-                    }
-                  ]
-                },
-                {
-                  "sport": "run",
-                  "distance": 42.2,
-                  "columns": [
-                    {
-                      "header": "ﾗﾝﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "Ｒ順",
-                      "role": "rank"
-                    }
-                  ]
-                }
-              ],
-              "meta_columns": [
-                {
-                  "header": "総合順位",
-                  "role": "overall_rank"
-                },
-                {
-                  "header": "No.",
-                  "role": "bib"
-                },
-                {
-                  "header": "チーム名",
-                  "role": "name"
-                },
-                {
-                  "header": "総合記録",
-                  "role": "total_time"
-                }
-              ]
             }
           ]
         }
@@ -1725,7 +1563,7 @@
               "id": "miyakojima",
               "result_tsv": "master/2023/miyakojima/default.tsv",
               "name": "宮古島トライアスロン",
-              "distance": "LD",
+              "distance": "MD",
               "description": "2023年、距離を短縮して4年ぶりに復活。新たな形式での開催となりました。",
               "segments": [
                 {
@@ -6939,7 +6777,7 @@
           "categories": [
             {
               "id": "osaka",
-              "result_tsv": "master/2024/osaka/スタンダード.tsv",
+              "result_tsv": "master/2024/osaka/standard.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
               "description": "2024年大阪城トライアスロン オリンピックディスタンス。歴史的な大阪城を背景に、スイム1.5km、バイク40km、ラン10kmのコースに挑戦。都市型トライアスロンの魅力が詰まった大会です。",
@@ -7044,7 +6882,7 @@
             },
             {
               "id": "osaka_sprint",
-              "result_tsv": "master/2024/osaka/スプリント.tsv",
+              "result_tsv": "master/2024/osaka/sprint.tsv",
               "name": "スプリントディスタンス",
               "distance": "SD",
               "description": "2024年大阪城トライアスロン スプリントディスタンス。大阪の中心部で開催される都市型レース。スイム750m、バイク20km、ラン5kmの距離で、初心者からエキスパートまで楽しめる大会です。",
@@ -7149,9 +6987,9 @@
             },
             {
               "id": "osaka_asia_cup_men",
-              "result_tsv": "master/2024/osaka/アジアカップ男子.tsv",
+              "result_tsv": "master/2024/osaka/asia-cup-men.tsv",
               "name": "アジアカップ男子",
-              "distance": "OD",
+              "distance": "SD",
               "description": "2024年大阪城トライアスロン アジアカップ男子。エリート選手による国際レース。",
               "segments": [
                 {
@@ -7222,9 +7060,9 @@
             },
             {
               "id": "osaka_asia_cup_women",
-              "result_tsv": "master/2024/osaka/アジアカップ女子.tsv",
+              "result_tsv": "master/2024/osaka/asia-cup-women.tsv",
               "name": "アジアカップ女子",
-              "distance": "OD",
+              "distance": "SD",
               "description": "2024年大阪城トライアスロン アジアカップ女子。エリート選手による国際レース。",
               "segments": [
                 {
@@ -7301,9 +7139,9 @@
           "categories": [
             {
               "id": "osaka_asiacup_men",
-              "result_tsv": "master/2023/osaka/アジアカップ男子.tsv",
+              "result_tsv": "master/2023/osaka/asia-cup-men.tsv",
               "name": "アジアカップ男子",
-              "distance": "OD",
+              "distance": "SD",
               "description": "2023年大阪城トライアスロン アジアカップ男子。国際トライアスロン連合公認のアジアカップレース。",
               "segments": [
                 {
@@ -7366,9 +7204,9 @@
             },
             {
               "id": "osaka_asiacup_women",
-              "result_tsv": "master/2023/osaka/アジアカップ女子.tsv",
+              "result_tsv": "master/2023/osaka/asia-cup-women.tsv",
               "name": "アジアカップ女子",
-              "distance": "OD",
+              "distance": "SD",
               "description": "2023年大阪城トライアスロン アジアカップ女子。国際トライアスロン連合公認のアジアカップレース。",
               "segments": [
                 {
@@ -7431,7 +7269,7 @@
             },
             {
               "id": "osaka",
-              "result_tsv": "master/2023/osaka/スタンダード.tsv",
+              "result_tsv": "master/2023/osaka/standard.tsv",
               "name": "スタンダード",
               "distance": "OD",
               "description": "2023年大阪城トライアスロン スタンダードディスタンス。スイム1.5km、バイク40km、ラン10km。",
@@ -7536,7 +7374,7 @@
             },
             {
               "id": "osaka_sprint",
-              "result_tsv": "master/2023/osaka/スプリント.tsv",
+              "result_tsv": "master/2023/osaka/sprint.tsv",
               "name": "スプリント",
               "distance": "SD",
               "description": "2023年大阪城トライアスロン スプリントディスタンス。スイム750m、バイク20km、ラン5km。",
@@ -7648,7 +7486,7 @@
             {
               "id": "osaka",
               "result_tsv": "master/2022/osaka/default.tsv",
-              "name": "大阪トライアスロン",
+              "name": "スタンダード",
               "distance": "OD",
               "segments": [
                 {
@@ -7703,6 +7541,111 @@
                 }
               ],
               "description": "2022年大阪トライアスロン大会。スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンス。",
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "登録地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                }
+              ]
+            },
+            {
+              "id": "osaka_sprint",
+              "result_tsv": "master/2022/osaka/sprint.tsv",
+              "name": "スプリント",
+              "distance": "SD",
+              "description": "2022年大阪城トライアスロン スプリントディスタンス。スイム750m、バイク20km、ラン5km。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 0.75,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 5,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
               "meta_columns": [
                 {
                   "header": "総合順位",
@@ -10966,7 +10909,7 @@
               "id": "fukuyama",
               "result_tsv": "master/2023/fukuyama/default.tsv",
               "name": "オリンピックディスタンス",
-              "distance": "OD",
+              "distance": "MD",
               "description": "2023年福山鞆の浦トライアスロン大会。広島県福山市で開催。スイム1.5km、バイク40km、ラン10km。",
               "segments": [
                 {
@@ -18574,7 +18517,7 @@
               "id": "teganuma",
               "result_tsv": "master/2025/teganuma/default.tsv",
               "name": "個人の部",
-              "distance": "SD",
+              "distance": "OD",
               "description": "2025年第18回手賀沼トライアスロン大会。都心から日帰りでき、ビギナーにも優しいアットホームな大会。スイム1.5km、バイク40km、ラン10kmのショートディスタンスで開催。",
               "segments": [
                 {
@@ -18784,7 +18727,7 @@
               "id": "teganuma_para",
               "result_tsv": "master/2025/teganuma/para.tsv",
               "name": "パラの部",
-              "distance": "SD",
+              "distance": "OD",
               "description": "2025年第18回手賀沼トライアスロン大会パラトライアスロン部門。障がいのある選手が参加する部門。",
               "segments": [
                 {
@@ -19118,7 +19061,7 @@
               "id": "basho",
               "result_tsv": "master/2023/basho/一般の部.tsv",
               "name": "一般の部",
-              "distance": "OD",
+              "distance": "SS",
               "description": "2023年秋田トライアスロン芭蕉レース象潟大会一般の部。秋田県にかほ市象潟町で開催。スイム1.5km、バイク40km、ラン10km。個別種目タイムのデータなし。",
               "segments": [
                 {
@@ -22867,7 +22810,7 @@
               "id": "numadu",
               "result_tsv": "master/2023/numadu/default.tsv",
               "name": "個人",
-              "distance": "OD",
+              "distance": "SD",
               "description": "2023年沼津千本浜トライアスロン大会。静岡県沼津市で開催。スイム1.5km、バイク40km、ラン10km。",
               "segments": [
                 {
@@ -26310,7 +26253,7 @@
               "id": "yokohama_hakkeijima_s250",
               "result_tsv": "master/2024/yokohama_hakkeijima/スプリント_s250.tsv",
               "name": "スプリント（S250）",
-              "distance": "SS",
+              "distance": "SD",
               "description": "2024年横浜八景島トライアスロン スプリントS250の部。",
               "segments": [
                 {
@@ -26599,7 +26542,7 @@
               "id": "yokohama_hakkeijima_s250",
               "result_tsv": "master/2023/yokohama_hakkeijima/スプリントs250.tsv",
               "name": "スプリントS250",
-              "distance": "SS",
+              "distance": "SD",
               "description": "2023年横浜八景島トライアスロン大会スプリントS250。スイム250m、バイク10km、ラン2.5km。",
               "segments": [
                 {
