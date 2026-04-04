@@ -5,10 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "bun run test:json && bun run test:weather && bun run test:normalizers && bun run test:tsv-lint",
+    "test": "bun run test:json && bun run test:schema && bun run test:weather && bun run test:normalizers && bun run test:tsv-lint",
     "test:normalizers": "bun run tests/test-normalizers.js",
     "test:json": "bun run tests/test_json_validity.js",
     "test:weather": "bun run scripts/validate-weather-data.js",
+    "test:schema": "bun run tests/test-schema-validation.js",
     "test:tsv-lint": "bun run tests/test-tsv-lint.js",
     "build": "bun run scripts/build-data.js",
     "check": "biome check --write",
