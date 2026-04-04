@@ -184,6 +184,13 @@ bun run build
 
 `dist/data.json` が生成され、`dist/result-schema.json` に対して自動バリデーションが実行されます。
 
+### dist/data.json について
+
+`dist/data.json` は `.gitignore` に含まれており、**リポジトリには含まれていません**。
+
+- **ローカルで使う場合**: `bun run build` を実行して生成してください。
+- **CI (GitHub Actions)**: `master/` や `race-info.json` が変更されると `build-data.yml` が自動実行され、生成した `dist/data.json` を main ブランチへ自動コミットします。
+
 ## テストの実行
 
 JSON ファイルの整合性を確認するテストを実行できます。
