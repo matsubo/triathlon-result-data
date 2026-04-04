@@ -109,7 +109,7 @@ if (warnings.length > 0) {
 // Validate against schema
 console.log("\n🔍 Validating against schema...");
 const schema = JSON.parse(
-  readFileSync(join(distDir, "result-schema.json"), "utf-8"),
+  readFileSync(join(repoRoot, "result-schema.json"), "utf-8"),
 );
 const ajv = new Ajv({ strict: false });
 addFormats(ajv);

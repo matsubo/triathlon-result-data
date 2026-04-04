@@ -67,7 +67,7 @@ Claude can help navigate and understand this triathlon result data repository wh
 - `master/<year>/<id>/result.tsv` 大会のリザルトデータ（入力・非正規化）
 - `master/<year>/<id>/weather-data.json` 大会の天気データ
 - `dist/data.json` 正規化済み出力データ（`bun run build` で生成）
-- `dist/result-schema.json` 出力データの JSON Schema
+- `result-schema.json` 出力データの JSON Schema
 - `scripts/build-data.js` TSV→JSON 変換スクリプト
 - `scripts/lib/` 正規化モジュール群（時間、性別、居住地、年齢区分、ステータス等）
 
