@@ -40,7 +40,7 @@
             "minItems": 1,
             "items": {
               "type": "object",
-              "required": ["date", "weather_file", "categories"],
+              "required": ["date", "categories"],
               "properties": {
                 "date": {
                   "type": "string",
