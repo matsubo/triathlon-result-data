@@ -1314,7 +1314,6 @@
         },
         {
           "date": "2019-07-21",
-          "weather_file": "master/2019/sado/weather-data.json",
           "categories": [
             {
               "id": "sado_ld",
@@ -1530,7 +1529,6 @@
         },
         {
           "date": "2018-07-15",
-          "weather_file": "master/2018/sado/weather-data.json",
           "categories": [
             {
               "id": "sado_ld",
@@ -1746,7 +1744,6 @@
         },
         {
           "date": "2017-07-16",
-          "weather_file": "master/2017/sado/weather-data.json",
           "categories": [
             {
               "id": "sado_ld",
@@ -1962,7 +1959,6 @@
         },
         {
           "date": "2016-07-17",
-          "weather_file": "master/2016/sado/weather-data.json",
           "categories": [
             {
               "id": "sado_ld",
@@ -6156,7 +6152,6 @@
         },
         {
           "date": "2022-06-19",
-          "weather_file": "master/2022/watarase/weather-data.json",
           "categories": [
             {
               "id": "watarase",
@@ -6267,7 +6262,6 @@
         },
         {
           "date": "2019-06-16",
-          "weather_file": "master/2019/watarase/weather-data.json",
           "categories": [
             {
               "id": "watarase",
@@ -6378,7 +6372,6 @@
         },
         {
           "date": "2017-06-18",
-          "weather_file": "master/2017/watarase/weather-data.json",
           "categories": [
             {
               "id": "watarase",
@@ -6489,7 +6482,6 @@
         },
         {
           "date": "2016-06-19",
-          "weather_file": "master/2016/watarase/weather-data.json",
           "categories": [
             {
               "id": "watarase",
@@ -6600,7 +6592,6 @@
         },
         {
           "date": "2015-06-21",
-          "weather_file": "master/2015/watarase/weather-data.json",
           "categories": [
             {
               "id": "watarase",
@@ -6711,7 +6702,6 @@
         },
         {
           "date": "2014-06-22",
-          "weather_file": "master/2014/watarase/weather-data.json",
           "categories": [
             {
               "id": "watarase",
@@ -11772,7 +11762,6 @@
         },
         {
           "date": "2019-08-04",
-          "weather_file": "master/2019/sainokuni/weather-data.json",
           "categories": [
             {
               "id": "sainokuni_a",
@@ -12585,7 +12574,6 @@
         },
         {
           "date": "2019-04-07",
-          "weather_file": "master/2019/ishigakijima/weather-data.json",
           "categories": [
             {
               "id": "ishigakijima",
@@ -12696,7 +12684,6 @@
         },
         {
           "date": "2017-04-02",
-          "weather_file": "master/2017/ishigakijima/weather-data.json",
           "categories": [
             {
               "id": "ishigakijima",
@@ -12807,7 +12794,6 @@
         },
         {
           "date": "2016-04-03",
-          "weather_file": "master/2016/ishigakijima/weather-data.json",
           "categories": [
             {
               "id": "ishigakijima",
@@ -15236,8 +15222,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2019/baramon/weather-data.json"
+          ]
         },
         {
           "date": "2018-06-03",
@@ -15452,8 +15437,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2018/baramon/weather-data.json"
+          ]
         },
         {
           "date": "2017-06-04",
@@ -15660,8 +15644,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2017/baramon/weather-data.json"
+          ]
         },
         {
           "date": "2016-06-05",
@@ -15868,8 +15851,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2016/baramon/weather-data.json"
+          ]
         },
         {
           "date": "2015-05-31",
@@ -16076,8 +16058,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2015/baramon/weather-data.json"
+          ]
         },
         {
           "date": "2014-06-01",
@@ -16284,8 +16265,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2014/baramon/weather-data.json"
+          ]
         }
       ]
     },
@@ -18839,7 +18819,6 @@
         },
         {
           "date": "2019-10-13",
-          "weather_file": "master/2019/gamagori/weather-data.json",
           "categories": [
             {
               "id": "gamagori_od",
@@ -19233,7 +19212,6 @@
         },
         {
           "date": "2018-10-07",
-          "weather_file": "master/2018/gamagori/weather-data.json",
           "categories": [
             {
               "id": "gamagori_od",
@@ -19530,7 +19508,6 @@
         },
         {
           "date": "2017-10-08",
-          "weather_file": "master/2017/gamagori/weather-data.json",
           "categories": [
             {
               "id": "gamagori_od",
@@ -19924,7 +19901,6 @@
         },
         {
           "date": "2016-10-09",
-          "weather_file": "master/2016/gamagori/weather-data.json",
           "categories": [
             {
               "id": "gamagori_od",
@@ -23581,7 +23557,6 @@
         },
         {
           "date": "2019-11-10",
-          "weather_file": "master/2019/takamatsu/weather-data.json",
           "categories": [
             {
               "id": "takamatsu",
@@ -23637,7 +23612,6 @@
         },
         {
           "date": "2017-11-12",
-          "weather_file": "master/2017/takamatsu/weather-data.json",
           "categories": [
             {
               "id": "takamatsu",
@@ -23693,7 +23667,6 @@
         },
         {
           "date": "2016-11-13",
-          "weather_file": "master/2016/takamatsu/weather-data.json",
           "categories": [
             {
               "id": "takamatsu",
@@ -23749,7 +23722,6 @@
         },
         {
           "date": "2015-11-08",
-          "weather_file": "master/2015/takamatsu/weather-data.json",
           "categories": [
             {
               "id": "takamatsu",
@@ -23805,7 +23777,6 @@
         },
         {
           "date": "2014-11-09",
-          "weather_file": "master/2014/takamatsu/weather-data.json",
           "categories": [
             {
               "id": "takamatsu",
@@ -24303,7 +24274,6 @@
         },
         {
           "date": "2024-06-16",
-          "weather_file": "master/2024/teganuma/weather-data.json",
           "categories": [
             {
               "id": "teganuma",
@@ -24414,7 +24384,6 @@
         },
         {
           "date": "2023-06-18",
-          "weather_file": "master/2023/teganuma/weather-data.json",
           "categories": [
             {
               "id": "teganuma",
@@ -24525,7 +24494,6 @@
         },
         {
           "date": "2022-06-19",
-          "weather_file": "master/2022/teganuma/weather-data.json",
           "categories": [
             {
               "id": "teganuma",
@@ -24943,7 +24911,6 @@
         },
         {
           "date": "2019-07-21",
-          "weather_file": "master/2019/basho/weather-data.json",
           "categories": [
             {
               "id": "basho",
@@ -25054,7 +25021,6 @@
         },
         {
           "date": "2018-07-22",
-          "weather_file": "master/2018/basho/weather-data.json",
           "categories": [
             {
               "id": "basho",
@@ -25165,7 +25131,6 @@
         },
         {
           "date": "2017-07-23",
-          "weather_file": "master/2017/basho/weather-data.json",
           "categories": [
             {
               "id": "basho",
@@ -25276,7 +25241,6 @@
         },
         {
           "date": "2016-07-17",
-          "weather_file": "master/2016/basho/weather-data.json",
           "categories": [
             {
               "id": "basho",
@@ -25387,7 +25351,6 @@
         },
         {
           "date": "2015-07-19",
-          "weather_file": "master/2015/basho/weather-data.json",
           "categories": [
             {
               "id": "basho",
@@ -25498,7 +25461,6 @@
         },
         {
           "date": "2014-07-20",
-          "weather_file": "master/2014/basho/weather-data.json",
           "categories": [
             {
               "id": "basho",
@@ -25907,7 +25869,6 @@
         },
         {
           "date": "2019-09-08",
-          "weather_file": "master/2019/hiwasa/weather-data.json",
           "categories": [
             {
               "id": "hiwasa",
@@ -26002,7 +25963,6 @@
         },
         {
           "date": "2018-09-09",
-          "weather_file": "master/2018/hiwasa/weather-data.json",
           "categories": [
             {
               "id": "hiwasa",
@@ -26097,7 +26057,6 @@
         },
         {
           "date": "2017-09-10",
-          "weather_file": "master/2017/hiwasa/weather-data.json",
           "categories": [
             {
               "id": "hiwasa",
@@ -26192,7 +26151,6 @@
         },
         {
           "date": "2016-09-11",
-          "weather_file": "master/2016/hiwasa/weather-data.json",
           "categories": [
             {
               "id": "hiwasa",
@@ -26287,7 +26245,6 @@
         },
         {
           "date": "2015-09-06",
-          "weather_file": "master/2015/hiwasa/weather-data.json",
           "categories": [
             {
               "id": "hiwasa",
@@ -26382,7 +26339,6 @@
         },
         {
           "date": "2014-09-07",
-          "weather_file": "master/2014/hiwasa/weather-data.json",
           "categories": [
             {
               "id": "hiwasa",
@@ -27245,7 +27201,6 @@
         },
         {
           "date": "2021-05-23",
-          "weather_file": "master/2021/itako/weather-data.json",
           "categories": [
             {
               "id": "itako",
@@ -27356,7 +27311,6 @@
         },
         {
           "date": "2020-05-24",
-          "weather_file": "master/2020/itako/weather-data.json",
           "categories": [
             {
               "id": "itako",
@@ -27467,7 +27421,6 @@
         },
         {
           "date": "2019-05-26",
-          "weather_file": "master/2019/itako/weather-data.json",
           "categories": [
             {
               "id": "itako",
@@ -27683,7 +27636,6 @@
         },
         {
           "date": "2018-05-27",
-          "weather_file": "master/2018/itako/weather-data.json",
           "categories": [
             {
               "id": "itako",
@@ -27899,7 +27851,6 @@
         },
         {
           "date": "2017-05-28",
-          "weather_file": "master/2017/itako/weather-data.json",
           "categories": [
             {
               "id": "itako",
@@ -28115,7 +28066,6 @@
         },
         {
           "date": "2016-05-22",
-          "weather_file": "master/2016/itako/weather-data.json",
           "categories": [
             {
               "id": "itako",
@@ -28331,7 +28281,6 @@
         },
         {
           "date": "2015-05-24",
-          "weather_file": "master/2015/itako/weather-data.json",
           "categories": [
             {
               "id": "itako",
@@ -28547,7 +28496,6 @@
         },
         {
           "date": "2014-05-25",
-          "weather_file": "master/2014/itako/weather-data.json",
           "categories": [
             {
               "id": "itako",
@@ -28658,7 +28606,6 @@
         },
         {
           "date": "2013-05-26",
-          "weather_file": "master/2013/itako/weather-data.json",
           "categories": [
             {
               "id": "itako",
@@ -28874,7 +28821,6 @@
         },
         {
           "date": "2012-05-27",
-          "weather_file": "master/2012/itako/weather-data.json",
           "categories": [
             {
               "id": "itako",
@@ -29090,7 +29036,6 @@
         },
         {
           "date": "2011-05-22",
-          "weather_file": "master/2011/itako/weather-data.json",
           "categories": [
             {
               "id": "itako",
@@ -29426,7 +29371,6 @@
         },
         {
           "date": "2024-10-13",
-          "weather_file": "master/2024/oigawa/weather-data.json",
           "categories": [
             {
               "id": "oigawa",
@@ -29533,7 +29477,6 @@
         },
         {
           "date": "2023-10-08",
-          "weather_file": "master/2023/oigawa/weather-data.json",
           "categories": [
             {
               "id": "oigawa",
@@ -29640,7 +29583,6 @@
         },
         {
           "date": "2022-10-09",
-          "weather_file": "master/2022/oigawa/weather-data.json",
           "categories": [
             {
               "id": "oigawa",
@@ -29729,7 +29671,6 @@
         },
         {
           "date": "2021-10-10",
-          "weather_file": "master/2021/oigawa/weather-data.json",
           "categories": [
             {
               "id": "oigawa",
@@ -29836,7 +29777,6 @@
         },
         {
           "date": "2019-10-13",
-          "weather_file": "master/2019/oigawa/weather-data.json",
           "categories": [
             {
               "id": "oigawa",
@@ -29943,7 +29883,6 @@
         },
         {
           "date": "2018-10-14",
-          "weather_file": "master/2018/oigawa/weather-data.json",
           "categories": [
             {
               "id": "oigawa",
@@ -30050,7 +29989,6 @@
         },
         {
           "date": "2017-10-08",
-          "weather_file": "master/2017/oigawa/weather-data.json",
           "categories": [
             {
               "id": "oigawa",
@@ -30157,7 +30095,6 @@
         },
         {
           "date": "2016-10-09",
-          "weather_file": "master/2016/oigawa/weather-data.json",
           "categories": [
             {
               "id": "oigawa",
@@ -30264,7 +30201,6 @@
         },
         {
           "date": "2015-10-11",
-          "weather_file": "master/2015/oigawa/weather-data.json",
           "categories": [
             {
               "id": "oigawa",
@@ -30371,7 +30307,6 @@
         },
         {
           "date": "2014-10-12",
-          "weather_file": "master/2014/oigawa/weather-data.json",
           "categories": [
             {
               "id": "oigawa",
@@ -30711,7 +30646,6 @@
         },
         {
           "date": "2024-07-21",
-          "weather_file": "master/2024/kaike/weather-data.json",
           "categories": [
             {
               "id": "kaike",
@@ -30790,7 +30724,6 @@
         },
         {
           "date": "2023-07-16",
-          "weather_file": "master/2023/kaike/weather-data.json",
           "categories": [
             {
               "id": "kaike",
@@ -30869,7 +30802,6 @@
         },
         {
           "date": "2022-07-17",
-          "weather_file": "master/2022/kaike/weather-data.json",
           "categories": [
             {
               "id": "kaike",
@@ -30948,7 +30880,6 @@
         },
         {
           "date": "2019-07-21",
-          "weather_file": "master/2019/kaike/weather-data.json",
           "categories": [
             {
               "id": "kaike",
@@ -31051,7 +30982,6 @@
         },
         {
           "date": "2018-07-15",
-          "weather_file": "master/2018/kaike/weather-data.json",
           "categories": [
             {
               "id": "kaike",
@@ -31154,7 +31084,6 @@
         },
         {
           "date": "2017-07-16",
-          "weather_file": "master/2017/kaike/weather-data.json",
           "categories": [
             {
               "id": "kaike",
@@ -31257,7 +31186,6 @@
         },
         {
           "date": "2016-07-17",
-          "weather_file": "master/2016/kaike/weather-data.json",
           "categories": [
             {
               "id": "kaike",
@@ -31360,7 +31288,6 @@
         },
         {
           "date": "2015-07-19",
-          "weather_file": "master/2015/kaike/weather-data.json",
           "categories": [
             {
               "id": "kaike",
@@ -31463,7 +31390,6 @@
         },
         {
           "date": "2014-07-20",
-          "weather_file": "master/2014/kaike/weather-data.json",
           "categories": [
             {
               "id": "kaike",
@@ -32455,7 +32381,6 @@
         },
         {
           "date": "2019-07-28",
-          "weather_file": "master/2019/nagaragawa_kokusai/weather-data.json",
           "categories": [
             {
               "id": "nagaragawa_kokusai",
@@ -32566,7 +32491,6 @@
         },
         {
           "date": "2016-07-24",
-          "weather_file": "master/2016/nagaragawa_kokusai/weather-data.json",
           "categories": [
             {
               "id": "nagaragawa_kokusai",
@@ -32677,7 +32601,6 @@
         },
         {
           "date": "2015-07-26",
-          "weather_file": "master/2015/nagaragawa_kokusai/weather-data.json",
           "categories": [
             {
               "id": "nagaragawa_kokusai",
@@ -32788,7 +32711,6 @@
         },
         {
           "date": "2014-07-27",
-          "weather_file": "master/2014/nagaragawa_kokusai/weather-data.json",
           "categories": [
             {
               "id": "nagaragawa_kokusai",
@@ -33130,7 +33052,6 @@
         },
         {
           "date": "2023-11-26",
-          "weather_file": "master/2023/tokunoshima/weather-data.json",
           "categories": [
             {
               "id": "tokunoshima",
@@ -33241,7 +33162,6 @@
         },
         {
           "date": "2022-11-27",
-          "weather_file": "master/2022/tokunoshima/weather-data.json",
           "categories": [
             {
               "id": "tokunoshima",
@@ -33352,7 +33272,6 @@
         },
         {
           "date": "2019-11-24",
-          "weather_file": "master/2019/tokunoshima/weather-data.json",
           "categories": [
             {
               "id": "tokunoshima",
@@ -33463,7 +33382,6 @@
         },
         {
           "date": "2018-11-25",
-          "weather_file": "master/2018/tokunoshima/weather-data.json",
           "categories": [
             {
               "id": "tokunoshima",
@@ -33574,7 +33492,6 @@
         },
         {
           "date": "2017-11-19",
-          "weather_file": "master/2017/tokunoshima/weather-data.json",
           "categories": [
             {
               "id": "tokunoshima",
@@ -33685,7 +33602,6 @@
         },
         {
           "date": "2015-11-22",
-          "weather_file": "master/2015/tokunoshima/weather-data.json",
           "categories": [
             {
               "id": "tokunoshima",
@@ -33796,7 +33712,6 @@
         },
         {
           "date": "2014-11-23",
-          "weather_file": "master/2014/tokunoshima/weather-data.json",
           "categories": [
             {
               "id": "tokunoshima",
@@ -37471,8 +37386,7 @@
               ],
               "description": "2019年トライアスロン伊良湖大会 Bタイプ（オリンピック）"
             }
-          ],
-          "weather_file": "master/2019/irago/weather-data.json"
+          ]
         },
         {
           "date": "2018-10-07",
@@ -37695,8 +37609,7 @@
               ],
               "description": "2018年トライアスロン伊良湖大会 Bタイプ（オリンピック）"
             }
-          ],
-          "weather_file": "master/2018/irago/weather-data.json"
+          ]
         },
         {
           "date": "2017-10-01",
@@ -37919,8 +37832,7 @@
               ],
               "description": "2017年トライアスロン伊良湖大会 Bタイプ（オリンピック）"
             }
-          ],
-          "weather_file": "master/2017/irago/weather-data.json"
+          ]
         },
         {
           "date": "2016-10-02",
@@ -38143,8 +38055,7 @@
               ],
               "description": "2016年トライアスロン伊良湖大会 Bタイプ（オリンピック）"
             }
-          ],
-          "weather_file": "master/2016/irago/weather-data.json"
+          ]
         },
         {
           "date": "2015-10-04",
@@ -38367,8 +38278,7 @@
               ],
               "description": "2015年トライアスロン伊良湖大会 Bタイプ（オリンピック）"
             }
-          ],
-          "weather_file": "master/2015/irago/weather-data.json"
+          ]
         },
         {
           "date": "2014-10-05",
@@ -38591,8 +38501,7 @@
               ],
               "description": "2014年トライアスロン伊良湖大会 Bタイプ（オリンピック）"
             }
-          ],
-          "weather_file": "master/2014/irago/weather-data.json"
+          ]
         }
       ]
     },
@@ -39421,7 +39330,6 @@
         },
         {
           "date": "2022-09-11",
-          "weather_file": "master/2022/murakami/weather-data.json",
           "categories": [
             {
               "id": "murakami",
@@ -39500,7 +39408,6 @@
         },
         {
           "date": "2019-09-08",
-          "weather_file": "master/2019/murakami/weather-data.json",
           "categories": [
             {
               "id": "murakami",
@@ -39579,7 +39486,6 @@
         },
         {
           "date": "2018-09-02",
-          "weather_file": "master/2018/murakami/weather-data.json",
           "categories": [
             {
               "id": "murakami",
@@ -39658,7 +39564,6 @@
         },
         {
           "date": "2017-09-03",
-          "weather_file": "master/2017/murakami/weather-data.json",
           "categories": [
             {
               "id": "murakami",
@@ -39737,7 +39642,6 @@
         },
         {
           "date": "2016-09-04",
-          "weather_file": "master/2016/murakami/weather-data.json",
           "categories": [
             {
               "id": "murakami",
@@ -44488,7 +44392,6 @@
         },
         {
           "date": "2023-10-22",
-          "weather_file": "master/2023/nanki_shirahama/weather-data.json",
           "categories": [
             {
               "id": "nanki_shirahama",
@@ -44599,7 +44502,6 @@
         },
         {
           "date": "2019-10-20",
-          "weather_file": "master/2019/nanki_shirahama/weather-data.json",
           "categories": [
             {
               "id": "nanki_shirahama",
@@ -44710,7 +44612,6 @@
         },
         {
           "date": "2018-10-21",
-          "weather_file": "master/2018/nanki_shirahama/weather-data.json",
           "categories": [
             {
               "id": "nanki_shirahama",
@@ -44821,7 +44722,6 @@
         },
         {
           "date": "2017-10-15",
-          "weather_file": "master/2017/nanki_shirahama/weather-data.json",
           "categories": [
             {
               "id": "nanki_shirahama",
@@ -44932,7 +44832,6 @@
         },
         {
           "date": "2016-10-16",
-          "weather_file": "master/2016/nanki_shirahama/weather-data.json",
           "categories": [
             {
               "id": "nanki_shirahama",
@@ -45043,7 +44942,6 @@
         },
         {
           "date": "2015-10-18",
-          "weather_file": "master/2015/nanki_shirahama/weather-data.json",
           "categories": [
             {
               "id": "nanki_shirahama",
@@ -45154,7 +45052,6 @@
         },
         {
           "date": "2014-10-19",
-          "weather_file": "master/2014/nanki_shirahama/weather-data.json",
           "categories": [
             {
               "id": "nanki_shirahama",
@@ -45583,7 +45480,6 @@
         },
         {
           "date": "2018-09-02",
-          "weather_file": "master/2018/ainan/weather-data.json",
           "categories": [
             {
               "id": "ainan",
@@ -45694,7 +45590,6 @@
         },
         {
           "date": "2017-09-03",
-          "weather_file": "master/2017/ainan/weather-data.json",
           "categories": [
             {
               "id": "ainan",
@@ -45805,7 +45700,6 @@
         },
         {
           "date": "2016-09-04",
-          "weather_file": "master/2016/ainan/weather-data.json",
           "categories": [
             {
               "id": "ainan",
@@ -45916,7 +45810,6 @@
         },
         {
           "date": "2015-09-06",
-          "weather_file": "master/2015/ainan/weather-data.json",
           "categories": [
             {
               "id": "ainan",
@@ -46027,7 +45920,6 @@
         },
         {
           "date": "2014-09-07",
-          "weather_file": "master/2014/ainan/weather-data.json",
           "categories": [
             {
               "id": "ainan",
@@ -46333,7 +46225,6 @@
         },
         {
           "date": "2023-11-05",
-          "weather_file": "master/2023/miyazaki_seagaia/weather-data.json",
           "categories": [
             {
               "id": "miyazaki_seagaia",
@@ -46404,7 +46295,6 @@
         },
         {
           "date": "2022-11-06",
-          "weather_file": "master/2022/miyazaki_seagaia/weather-data.json",
           "categories": [
             {
               "id": "miyazaki_seagaia",
@@ -46475,7 +46365,6 @@
         },
         {
           "date": "2019-11-03",
-          "weather_file": "master/2019/miyazaki_seagaia/weather-data.json",
           "categories": [
             {
               "id": "miyazaki_seagaia",
@@ -46546,7 +46435,6 @@
         },
         {
           "date": "2018-11-04",
-          "weather_file": "master/2018/miyazaki_seagaia/weather-data.json",
           "categories": [
             {
               "id": "miyazaki_seagaia",
@@ -47951,7 +47839,6 @@
         },
         {
           "date": "2019-07-21",
-          "weather_file": "master/2019/shichigahama/weather-data.json",
           "categories": [
             {
               "id": "shichigahama",
@@ -48062,7 +47949,6 @@
         },
         {
           "date": "2018-07-15",
-          "weather_file": "master/2018/shichigahama/weather-data.json",
           "categories": [
             {
               "id": "shichigahama",
@@ -48173,7 +48059,6 @@
         },
         {
           "date": "2017-07-16",
-          "weather_file": "master/2017/shichigahama/weather-data.json",
           "categories": [
             {
               "id": "shichigahama",
@@ -48284,7 +48169,6 @@
         },
         {
           "date": "2016-07-17",
-          "weather_file": "master/2016/shichigahama/weather-data.json",
           "categories": [
             {
               "id": "shichigahama",
@@ -48395,7 +48279,6 @@
         },
         {
           "date": "2015-07-19",
-          "weather_file": "master/2015/shichigahama/weather-data.json",
           "categories": [
             {
               "id": "shichigahama",
@@ -48506,7 +48389,6 @@
         },
         {
           "date": "2014-07-20",
-          "weather_file": "master/2014/shichigahama/weather-data.json",
           "categories": [
             {
               "id": "shichigahama",
@@ -49975,7 +49857,6 @@
         },
         {
           "date": "2016-08-28",
-          "weather_file": "master/2016/utsukushima_aizu/weather-data.json",
           "categories": [
             {
               "id": "utsukushima_aizu",
@@ -50086,7 +49967,6 @@
         },
         {
           "date": "2015-08-30",
-          "weather_file": "master/2015/utsukushima_aizu/weather-data.json",
           "categories": [
             {
               "id": "utsukushima_aizu",
@@ -50861,7 +50741,6 @@
         },
         {
           "date": "2022-09-25",
-          "weather_file": "master/2022/greenpark_kasai/weather-data.json",
           "categories": [
             {
               "id": "greenpark_kasai",
@@ -54426,7 +54305,6 @@
       "editions": [
         {
           "date": "2019-07-28",
-          "weather_file": "master/2019/showa_kinen/weather-data.json",
           "categories": [
             {
               "id": "showa_kinen_men",
@@ -54602,7 +54480,6 @@
         },
         {
           "date": "2018-07-22",
-          "weather_file": "master/2018/showa_kinen/weather-data.json",
           "categories": [
             {
               "id": "showa_kinen_men",
@@ -54802,7 +54679,6 @@
         },
         {
           "date": "2017-07-23",
-          "weather_file": "master/2017/showa_kinen/weather-data.json",
           "categories": [
             {
               "id": "showa_kinen_men",
@@ -55002,7 +54878,6 @@
         },
         {
           "date": "2016-07-24",
-          "weather_file": "master/2016/showa_kinen/weather-data.json",
           "categories": [
             {
               "id": "showa_kinen_men",
@@ -55211,7 +55086,6 @@
       "editions": [
         {
           "date": "2023-05-21",
-          "weather_file": "master/2023/kurashiki/weather-data.json",
           "categories": [
             {
               "id": "kurashiki",
@@ -55314,7 +55188,6 @@
         },
         {
           "date": "2019-05-26",
-          "weather_file": "master/2019/kurashiki/weather-data.json",
           "categories": [
             {
               "id": "kurashiki",
@@ -55417,7 +55290,6 @@
         },
         {
           "date": "2016-05-22",
-          "weather_file": "master/2016/kurashiki/weather-data.json",
           "categories": [
             {
               "id": "kurashiki",
@@ -55520,7 +55392,6 @@
         },
         {
           "date": "2015-05-24",
-          "weather_file": "master/2015/kurashiki/weather-data.json",
           "categories": [
             {
               "id": "kurashiki",
@@ -55623,7 +55494,6 @@
         },
         {
           "date": "2014-05-25",
-          "weather_file": "master/2014/kurashiki/weather-data.json",
           "categories": [
             {
               "id": "kurashiki",
@@ -55735,7 +55605,6 @@
       "editions": [
         {
           "date": "2019-11-03",
-          "weather_file": "master/2019/nagasaki_saikai/weather-data.json",
           "categories": [
             {
               "id": "nagasaki_saikai",
@@ -55842,7 +55711,6 @@
         },
         {
           "date": "2018-11-04",
-          "weather_file": "master/2018/nagasaki_saikai/weather-data.json",
           "categories": [
             {
               "id": "nagasaki_saikai",
@@ -55949,7 +55817,6 @@
         },
         {
           "date": "2017-11-05",
-          "weather_file": "master/2017/nagasaki_saikai/weather-data.json",
           "categories": [
             {
               "id": "nagasaki_saikai",
@@ -56056,7 +55923,6 @@
         },
         {
           "date": "2016-10-30",
-          "weather_file": "master/2016/nagasaki_saikai/weather-data.json",
           "categories": [
             {
               "id": "nagasaki_saikai",
@@ -56163,7 +56029,6 @@
         },
         {
           "date": "2015-11-01",
-          "weather_file": "master/2015/nagasaki_saikai/weather-data.json",
           "categories": [
             {
               "id": "nagasaki_saikai",
@@ -56270,7 +56135,6 @@
         },
         {
           "date": "2014-11-02",
-          "weather_file": "master/2014/nagasaki_saikai/weather-data.json",
           "categories": [
             {
               "id": "nagasaki_saikai",
@@ -56386,7 +56250,6 @@
       "editions": [
         {
           "date": "2022-09-04",
-          "weather_file": "master/2022/osakikamijima/weather-data.json",
           "categories": [
             {
               "id": "osakikamijima",
@@ -56477,7 +56340,6 @@
         },
         {
           "date": "2019-09-08",
-          "weather_file": "master/2019/osakikamijima/weather-data.json",
           "categories": [
             {
               "id": "osakikamijima",
@@ -56568,7 +56430,6 @@
         },
         {
           "date": "2018-09-02",
-          "weather_file": "master/2018/osakikamijima/weather-data.json",
           "categories": [
             {
               "id": "osakikamijima",
@@ -56643,7 +56504,6 @@
         },
         {
           "date": "2017-09-03",
-          "weather_file": "master/2017/osakikamijima/weather-data.json",
           "categories": [
             {
               "id": "osakikamijima",
@@ -56718,7 +56578,6 @@
         },
         {
           "date": "2016-09-04",
-          "weather_file": "master/2016/osakikamijima/weather-data.json",
           "categories": [
             {
               "id": "osakikamijima",
@@ -56806,7 +56665,6 @@
       "editions": [
         {
           "date": "2025-10-05",
-          "weather_file": "master/2025/iyoshi/weather-data.json",
           "categories": [
             {
               "id": "iyoshi",
@@ -56917,7 +56775,6 @@
         },
         {
           "date": "2024-10-06",
-          "weather_file": "master/2024/iyoshi/weather-data.json",
           "categories": [
             {
               "id": "iyoshi",
@@ -57028,7 +56885,6 @@
         },
         {
           "date": "2023-10-01",
-          "weather_file": "master/2023/iyoshi/weather-data.json",
           "categories": [
             {
               "id": "iyoshi",
@@ -57139,7 +56995,6 @@
         },
         {
           "date": "2019-10-06",
-          "weather_file": "master/2019/iyoshi/weather-data.json",
           "categories": [
             {
               "id": "iyoshi",
@@ -57250,7 +57105,6 @@
         },
         {
           "date": "2018-10-07",
-          "weather_file": "master/2018/iyoshi/weather-data.json",
           "categories": [
             {
               "id": "iyoshi",
@@ -57361,7 +57215,6 @@
         },
         {
           "date": "2017-10-01",
-          "weather_file": "master/2017/iyoshi/weather-data.json",
           "categories": [
             {
               "id": "iyoshi",
@@ -57472,7 +57325,6 @@
         },
         {
           "date": "2016-10-02",
-          "weather_file": "master/2016/iyoshi/weather-data.json",
           "categories": [
             {
               "id": "iyoshi",
@@ -57583,7 +57435,6 @@
         },
         {
           "date": "2015-10-04",
-          "weather_file": "master/2015/iyoshi/weather-data.json",
           "categories": [
             {
               "id": "iyoshi",
@@ -57694,7 +57545,6 @@
         },
         {
           "date": "2014-10-05",
-          "weather_file": "master/2014/iyoshi/weather-data.json",
           "categories": [
             {
               "id": "iyoshi",
@@ -57814,7 +57664,6 @@
       "editions": [
         {
           "date": "2025-09-28",
-          "weather_file": "master/2025/ako_tri/weather-data.json",
           "categories": [
             {
               "id": "ako_tri",
@@ -57881,7 +57730,6 @@
         },
         {
           "date": "2023-09-24",
-          "weather_file": "master/2023/ako_tri/weather-data.json",
           "categories": [
             {
               "id": "ako_tri",
@@ -57948,7 +57796,6 @@
         },
         {
           "date": "2022-09-25",
-          "weather_file": "master/2022/ako_tri/weather-data.json",
           "categories": [
             {
               "id": "ako_tri",
@@ -58015,7 +57862,6 @@
         },
         {
           "date": "2021-09-26",
-          "weather_file": "master/2021/ako_tri/weather-data.json",
           "categories": [
             {
               "id": "ako_tri",
@@ -58082,7 +57928,6 @@
         },
         {
           "date": "2020-09-27",
-          "weather_file": "master/2020/ako_tri/weather-data.json",
           "categories": [
             {
               "id": "ako_tri",
@@ -58153,7 +57998,6 @@
         },
         {
           "date": "2019-09-22",
-          "weather_file": "master/2019/ako_tri/weather-data.json",
           "categories": [
             {
               "id": "ako_tri",
@@ -58224,7 +58068,6 @@
         },
         {
           "date": "2018-09-23",
-          "weather_file": "master/2018/ako_tri/weather-data.json",
           "categories": [
             {
               "id": "ako_tri",
@@ -58291,7 +58134,6 @@
         },
         {
           "date": "2017-09-24",
-          "weather_file": "master/2017/ako_tri/weather-data.json",
           "categories": [
             {
               "id": "ako_tri",
@@ -58362,7 +58204,6 @@
         },
         {
           "date": "2016-09-25",
-          "weather_file": "master/2016/ako_tri/weather-data.json",
           "categories": [
             {
               "id": "ako_tri",
@@ -58433,7 +58274,6 @@
         },
         {
           "date": "2015-09-27",
-          "weather_file": "master/2015/ako_tri/weather-data.json",
           "categories": [
             {
               "id": "ako_tri",
@@ -58700,8 +58540,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2025/harunako/weather-data.json"
+          ]
         },
         {
           "date": "2024-08-04",
@@ -58868,8 +58707,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2024/harunako/weather-data.json"
+          ]
         },
         {
           "date": "2023-08-06",
@@ -59036,8 +58874,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2023/harunako/weather-data.json"
+          ]
         },
         {
           "date": "2022-08-07",
@@ -59204,8 +59041,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2022/harunako/weather-data.json"
+          ]
         },
         {
           "date": "2021-08-08",
@@ -59372,8 +59208,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2021/harunako/weather-data.json"
+          ]
         },
         {
           "date": "2019-08-04",
@@ -59556,8 +59391,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2019/harunako/weather-data.json"
+          ]
         },
         {
           "date": "2017-08-06",
@@ -59740,8 +59574,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2017/harunako/weather-data.json"
+          ]
         },
         {
           "date": "2015-08-02",
@@ -59924,8 +59757,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2015/harunako/weather-data.json"
+          ]
         },
         {
           "date": "2014-08-03",
@@ -60108,8 +59940,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2014/harunako/weather-data.json"
+          ]
         }
       ]
     },
@@ -60220,8 +60051,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2023/nojiriko/weather-data.json"
+          ]
         },
         {
           "date": "2022-09-04",
@@ -60331,8 +60161,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2022/nojiriko/weather-data.json"
+          ]
         }
       ]
     },
@@ -60451,8 +60280,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2025/nakajima/weather-data.json"
+          ]
         },
         {
           "date": "2024-09-08",
@@ -60562,8 +60390,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2024/nakajima/weather-data.json"
+          ]
         },
         {
           "date": "2023-09-10",
@@ -60673,8 +60500,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2023/nakajima/weather-data.json"
+          ]
         },
         {
           "date": "2019-09-08",
@@ -60756,8 +60582,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2019/nakajima/weather-data.json"
+          ]
         },
         {
           "date": "2018-09-09",
@@ -60839,8 +60664,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2018/nakajima/weather-data.json"
+          ]
         },
         {
           "date": "2017-09-10",
@@ -60922,8 +60746,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2017/nakajima/weather-data.json"
+          ]
         },
         {
           "date": "2016-09-11",
@@ -61005,8 +60828,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2016/nakajima/weather-data.json"
+          ]
         },
         {
           "date": "2015-09-13",
@@ -61080,8 +60902,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2015/nakajima/weather-data.json"
+          ]
         },
         {
           "date": "2014-09-14",
@@ -61155,8 +60976,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2014/nakajima/weather-data.json"
+          ]
         }
       ]
     },
@@ -61271,8 +61091,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2023/miyajima/weather-data.json"
+          ]
         },
         {
           "date": "2019-05-19",
@@ -61378,8 +61197,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2019/miyajima/weather-data.json"
+          ]
         },
         {
           "date": "2017-05-21",
@@ -61485,8 +61303,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2017/miyajima/weather-data.json"
+          ]
         },
         {
           "date": "2016-05-22",
@@ -61592,8 +61409,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2016/miyajima/weather-data.json"
+          ]
         },
         {
           "date": "2015-05-17",
@@ -61699,8 +61515,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2015/miyajima/weather-data.json"
+          ]
         },
         {
           "date": "2014-05-18",
@@ -61806,8 +61621,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2014/miyajima/weather-data.json"
+          ]
         }
       ]
     },
@@ -61922,8 +61736,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2025/hokkaido/weather-data.json"
+          ]
         },
         {
           "date": "2024-08-18",
@@ -62130,8 +61943,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2024/hokkaido/weather-data.json"
+          ]
         },
         {
           "date": "2023-08-20",
@@ -62237,8 +62049,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2023/hokkaido/weather-data.json"
+          ]
         },
         {
           "date": "2022-08-21",
@@ -62344,8 +62155,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2022/hokkaido/weather-data.json"
+          ]
         },
         {
           "date": "2019-08-18",
@@ -62451,8 +62261,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2019/hokkaido/weather-data.json"
+          ]
         },
         {
           "date": "2018-08-19",
@@ -62558,8 +62367,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2018/hokkaido/weather-data.json"
+          ]
         },
         {
           "date": "2017-08-20",
@@ -62665,8 +62473,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2017/hokkaido/weather-data.json"
+          ]
         }
       ]
     },
@@ -62818,8 +62625,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2024/omihachiman/weather-data.json"
+          ]
         },
         {
           "date": "2023-09-10",
@@ -62933,8 +62739,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2023/omihachiman/weather-data.json"
+          ]
         },
         {
           "date": "2022-09-18",
@@ -63048,8 +62853,7 @@
                 }
               ]
             }
-          ],
-          "weather_file": "master/2022/omihachiman/weather-data.json"
+          ]
         }
       ]
     },
@@ -63273,8 +63077,7 @@
               ],
               "description": "2024年仙台国際トライアスロン スプリント"
             }
-          ],
-          "weather_file": "master/2024/sendai/weather-data.json"
+          ]
         },
         {
           "date": "2023-07-16",
@@ -63489,8 +63292,7 @@
               ],
               "description": "2023年仙台国際トライアスロン スプリント"
             }
-          ],
-          "weather_file": "master/2023/sendai/weather-data.json"
+          ]
         },
         {
           "date": "2022-07-17",
@@ -63705,8 +63507,7 @@
               ],
               "description": "2022年仙台国際トライアスロン スプリント"
             }
-          ],
-          "weather_file": "master/2022/sendai/weather-data.json"
+          ]
         }
       ]
     },
@@ -63719,7 +63520,6 @@
       "editions": [
         {
           "date": "2023-09-03",
-          "weather_file": "master/2023/suzu/weather-data.json",
           "categories": [
             {
               "id": "suzu_a",
@@ -63935,7 +63735,6 @@
         },
         {
           "date": "2019-09-08",
-          "weather_file": "master/2019/suzu/weather-data.json",
           "categories": [
             {
               "id": "suzu_a",
@@ -64151,7 +63950,6 @@
         },
         {
           "date": "2018-09-02",
-          "weather_file": "master/2018/suzu/weather-data.json",
           "categories": [
             {
               "id": "suzu_a",
@@ -64367,7 +64165,6 @@
         },
         {
           "date": "2017-09-03",
-          "weather_file": "master/2017/suzu/weather-data.json",
           "categories": [
             {
               "id": "suzu_a",
@@ -64583,7 +64380,6 @@
         },
         {
           "date": "2016-09-04",
-          "weather_file": "master/2016/suzu/weather-data.json",
           "categories": [
             {
               "id": "suzu_a",
@@ -64799,7 +64595,6 @@
         },
         {
           "date": "2015-09-06",
-          "weather_file": "master/2015/suzu/weather-data.json",
           "categories": [
             {
               "id": "suzu_a",
@@ -65015,7 +64810,6 @@
         },
         {
           "date": "2014-09-07",
-          "weather_file": "master/2014/suzu/weather-data.json",
           "categories": [
             {
               "id": "suzu_a",
@@ -65240,7 +65034,6 @@
       "editions": [
         {
           "date": "2019-10-20",
-          "weather_file": "master/2019/niji_matsubara/weather-data.json",
           "categories": [
             {
               "id": "niji_matsubara",
@@ -65351,7 +65144,6 @@
         },
         {
           "date": "2018-10-21",
-          "weather_file": "master/2018/niji_matsubara/weather-data.json",
           "categories": [
             {
               "id": "niji_matsubara",
@@ -65462,7 +65254,6 @@
         },
         {
           "date": "2017-10-15",
-          "weather_file": "master/2017/niji_matsubara/weather-data.json",
           "categories": [
             {
               "id": "niji_matsubara",
@@ -65573,7 +65364,6 @@
         },
         {
           "date": "2016-10-16",
-          "weather_file": "master/2016/niji_matsubara/weather-data.json",
           "categories": [
             {
               "id": "niji_matsubara",
@@ -65684,7 +65474,6 @@
         },
         {
           "date": "2015-10-18",
-          "weather_file": "master/2015/niji_matsubara/weather-data.json",
           "categories": [
             {
               "id": "niji_matsubara",
@@ -65795,7 +65584,6 @@
         },
         {
           "date": "2014-10-19",
-          "weather_file": "master/2014/niji_matsubara/weather-data.json",
           "categories": [
             {
               "id": "niji_matsubara",
@@ -65906,7 +65694,6 @@
         },
         {
           "date": "2013-10-20",
-          "weather_file": "master/2013/niji_matsubara/weather-data.json",
           "categories": [
             {
               "id": "niji_matsubara",
@@ -66017,7 +65804,6 @@
         },
         {
           "date": "2012-10-21",
-          "weather_file": "master/2012/niji_matsubara/weather-data.json",
           "categories": [
             {
               "id": "niji_matsubara",
@@ -66120,7 +65906,6 @@
         },
         {
           "date": "2011-10-16",
-          "weather_file": "master/2011/niji_matsubara/weather-data.json",
           "categories": [
             {
               "id": "niji_matsubara",
@@ -66240,7 +66025,6 @@
       "editions": [
         {
           "date": "2025-11-09",
-          "weather_file": "master/2025/kawazu/weather-data.json",
           "categories": [
             {
               "id": "kawazu",
@@ -66343,7 +66127,6 @@
         },
         {
           "date": "2024-11-10",
-          "weather_file": "master/2024/kawazu/weather-data.json",
           "categories": [
             {
               "id": "kawazu",
@@ -66446,7 +66229,6 @@
         },
         {
           "date": "2023-11-12",
-          "weather_file": "master/2023/kawazu/weather-data.json",
           "categories": [
             {
               "id": "kawazu",
@@ -66549,7 +66331,6 @@
         },
         {
           "date": "2022-11-13",
-          "weather_file": "master/2022/kawazu/weather-data.json",
           "categories": [
             {
               "id": "kawazu",
@@ -66652,7 +66433,6 @@
         },
         {
           "date": "2019-11-10",
-          "weather_file": "master/2019/kawazu/weather-data.json",
           "categories": [
             {
               "id": "kawazu",
@@ -66755,7 +66535,6 @@
         },
         {
           "date": "2018-11-11",
-          "weather_file": "master/2018/kawazu/weather-data.json",
           "categories": [
             {
               "id": "kawazu",
@@ -66858,7 +66637,6 @@
         },
         {
           "date": "2017-11-12",
-          "weather_file": "master/2017/kawazu/weather-data.json",
           "categories": [
             {
               "id": "kawazu",
@@ -66961,7 +66739,6 @@
         },
         {
           "date": "2016-11-13",
-          "weather_file": "master/2016/kawazu/weather-data.json",
           "categories": [
             {
               "id": "kawazu",
@@ -67059,7 +66836,6 @@
       "editions": [
         {
           "date": "2025-09-07",
-          "weather_file": "master/2025/kujukuri/weather-data.json",
           "categories": [
             {
               "id": "kujukuri_md",
@@ -67107,99 +66883,6 @@
                 {
                   "sport": "run",
                   "distance": 20,
-                  "columns": [
-                    {
-                      "header": "ランラップ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "R順",
-                      "role": "rank"
-                    }
-                  ]
-                }
-              ],
-              "meta_columns": [
-                {
-                  "header": "総合順位",
-                  "role": "overall_rank"
-                },
-                {
-                  "header": "No.",
-                  "role": "bib"
-                },
-                {
-                  "header": "氏名",
-                  "role": "name"
-                },
-                {
-                  "header": "年齢",
-                  "role": "age"
-                },
-                {
-                  "header": "性別",
-                  "role": "gender"
-                },
-                {
-                  "header": "総合記録",
-                  "role": "total_time"
-                },
-                {
-                  "header": "年代区分",
-                  "role": "age_category"
-                },
-                {
-                  "header": "年代順位",
-                  "role": "age_rank"
-                }
-              ]
-            },
-            {
-              "id": "kujukuri_od",
-              "result_tsv": "master/2025/kujukuri/od.tsv",
-              "name": "オリンピックディスタンス",
-              "distance": "OD",
-              "description": "2025年 オリンピックディスタンス",
-              "segments": [
-                {
-                  "sport": "swim",
-                  "distance": 1.5,
-                  "columns": [
-                    {
-                      "header": "スイムラップ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "S順",
-                      "role": "rank"
-                    }
-                  ]
-                },
-                {
-                  "sport": "bike",
-                  "distance": 40,
-                  "columns": [
-                    {
-                      "header": "バイクラップ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "B順",
-                      "role": "rank"
-                    },
-                    {
-                      "header": "スプリット",
-                      "role": "cumulative_time"
-                    },
-                    {
-                      "header": "通過",
-                      "role": "cumulative_rank"
-                    }
-                  ]
-                },
-                {
-                  "sport": "run",
-                  "distance": 10,
                   "columns": [
                     {
                       "header": "ランラップ",
@@ -67344,7 +67027,6 @@
         },
         {
           "date": "2024-09-08",
-          "weather_file": "master/2024/kujukuri/weather-data.json",
           "categories": [
             {
               "id": "kujukuri_md",
@@ -67536,7 +67218,6 @@
         },
         {
           "date": "2023-09-10",
-          "weather_file": "master/2023/kujukuri/weather-data.json",
           "categories": [
             {
               "id": "kujukuri_md",
@@ -67728,7 +67409,6 @@
         },
         {
           "date": "2022-09-11",
-          "weather_file": "master/2022/kujukuri/weather-data.json",
           "categories": [
             {
               "id": "kujukuri_md",
@@ -67920,7 +67600,6 @@
         },
         {
           "date": "2021-09-12",
-          "weather_file": "master/2021/kujukuri/weather-data.json",
           "categories": [
             {
               "id": "kujukuri_md",
@@ -68112,7 +67791,6 @@
         },
         {
           "date": "2019-09-08",
-          "weather_file": "master/2019/kujukuri/weather-data.json",
           "categories": [
             {
               "id": "kujukuri_md",
@@ -68304,7 +67982,6 @@
         },
         {
           "date": "2018-09-09",
-          "weather_file": "master/2018/kujukuri/weather-data.json",
           "categories": [
             {
               "id": "kujukuri_md",
@@ -68496,7 +68173,6 @@
         },
         {
           "date": "2017-09-03",
-          "weather_file": "master/2017/kujukuri/weather-data.json",
           "categories": [
             {
               "id": "kujukuri_od",
@@ -68595,7 +68271,6 @@
         },
         {
           "date": "2016-09-04",
-          "weather_file": "master/2016/kujukuri/weather-data.json",
           "categories": [
             {
               "id": "kujukuri_od",
@@ -68694,7 +68369,6 @@
         },
         {
           "date": "2015-09-06",
-          "weather_file": "master/2015/kujukuri/weather-data.json",
           "categories": [
             {
               "id": "kujukuri_od",
@@ -68793,7 +68467,6 @@
         },
         {
           "date": "2014-09-07",
-          "weather_file": "master/2014/kujukuri/weather-data.json",
           "categories": [
             {
               "id": "kujukuri_od",
@@ -68892,7 +68565,6 @@
         },
         {
           "date": "2020-09-13",
-          "weather_file": "master/2020/kujukuri/weather-data.json",
           "categories": [
             {
               "id": "kujukuri_du",
@@ -69000,7 +68672,6 @@
       "editions": [
         {
           "date": "2025-10-12",
-          "weather_file": "master/2025/lake_hamana/weather-data.json",
           "categories": [
             {
               "id": "lake_hamana",
@@ -69107,7 +68778,6 @@
         },
         {
           "date": "2024-10-13",
-          "weather_file": "master/2024/lake_hamana/weather-data.json",
           "categories": [
             {
               "id": "lake_hamana",
@@ -69214,7 +68884,6 @@
         },
         {
           "date": "2023-10-15",
-          "weather_file": "master/2023/lake_hamana/weather-data.json",
           "categories": [
             {
               "id": "lake_hamana",
@@ -69325,7 +68994,6 @@
         },
         {
           "date": "2022-10-16",
-          "weather_file": "master/2022/lake_hamana/weather-data.json",
           "categories": [
             {
               "id": "lake_hamana",
@@ -69898,7 +69566,6 @@
       "editions": [
         {
           "date": "2024-08-11",
-          "weather_file": "master/2024/kisosangawa/weather-data.json",
           "categories": [
             {
               "id": "kisosangawa",
@@ -70009,7 +69676,6 @@
         },
         {
           "date": "2023-08-13",
-          "weather_file": "master/2023/kisosangawa/weather-data.json",
           "categories": [
             {
               "id": "kisosangawa",
@@ -70120,7 +69786,6 @@
         },
         {
           "date": "2022-08-14",
-          "weather_file": "master/2022/kisosangawa/weather-data.json",
           "categories": [
             {
               "id": "kisosangawa",
@@ -70231,7 +69896,6 @@
         },
         {
           "date": "2019-08-11",
-          "weather_file": "master/2019/kisosangawa/weather-data.json",
           "categories": [
             {
               "id": "kisosangawa",
@@ -70342,7 +70006,6 @@
         },
         {
           "date": "2018-08-12",
-          "weather_file": "master/2018/kisosangawa/weather-data.json",
           "categories": [
             {
               "id": "kisosangawa",
@@ -70453,7 +70116,6 @@
         },
         {
           "date": "2017-08-13",
-          "weather_file": "master/2017/kisosangawa/weather-data.json",
           "categories": [
             {
               "id": "kisosangawa",
@@ -70564,7 +70226,6 @@
         },
         {
           "date": "2016-08-07",
-          "weather_file": "master/2016/kisosangawa/weather-data.json",
           "categories": [
             {
               "id": "kisosangawa",
@@ -70675,7 +70336,6 @@
         },
         {
           "date": "2014-08-10",
-          "weather_file": "master/2014/kisosangawa/weather-data.json",
           "categories": [
             {
               "id": "kisosangawa",
@@ -70795,7 +70455,6 @@
       "editions": [
         {
           "date": "2024-10-13",
-          "weather_file": "master/2024/izuoshima/weather-data.json",
           "categories": [
             {
               "id": "izuoshima",
@@ -70902,7 +70561,6 @@
         },
         {
           "date": "2023-10-15",
-          "weather_file": "master/2023/izuoshima/weather-data.json",
           "categories": [
             {
               "id": "izuoshima",
@@ -71009,7 +70667,6 @@
         },
         {
           "date": "2022-10-16",
-          "weather_file": "master/2022/izuoshima/weather-data.json",
           "categories": [
             {
               "id": "izuoshima",
@@ -71116,7 +70773,6 @@
         },
         {
           "date": "2019-10-13",
-          "weather_file": "master/2019/izuoshima/weather-data.json",
           "categories": [
             {
               "id": "izuoshima",
@@ -71223,7 +70879,6 @@
         },
         {
           "date": "2018-10-14",
-          "weather_file": "master/2018/izuoshima/weather-data.json",
           "categories": [
             {
               "id": "izuoshima",
@@ -71330,7 +70985,6 @@
         },
         {
           "date": "2017-10-08",
-          "weather_file": "master/2017/izuoshima/weather-data.json",
           "categories": [
             {
               "id": "izuoshima",
@@ -71437,7 +71091,6 @@
         },
         {
           "date": "2016-10-09",
-          "weather_file": "master/2016/izuoshima/weather-data.json",
           "categories": [
             {
               "id": "izuoshima",
@@ -71544,7 +71197,6 @@
         },
         {
           "date": "2015-10-11",
-          "weather_file": "master/2015/izuoshima/weather-data.json",
           "categories": [
             {
               "id": "izuoshima",
@@ -71660,7 +71312,6 @@
       "editions": [
         {
           "date": "2024-07-14",
-          "weather_file": "master/2024/kamigoto/weather-data.json",
           "categories": [
             {
               "id": "kamigoto",
@@ -71755,7 +71406,6 @@
         },
         {
           "date": "2023-07-16",
-          "weather_file": "master/2023/kamigoto/weather-data.json",
           "categories": [
             {
               "id": "kamigoto",
@@ -71859,7 +71509,6 @@
       "editions": [
         {
           "date": "2025-07-13",
-          "weather_file": "master/2025/tomakomai/weather-data.json",
           "categories": [
             {
               "id": "tomakomai",
@@ -71950,7 +71599,6 @@
         },
         {
           "date": "2023-07-09",
-          "weather_file": "master/2023/tomakomai/weather-data.json",
           "categories": [
             {
               "id": "tomakomai",
@@ -72050,7 +71698,6 @@
       "editions": [
         {
           "date": "2025-07-20",
-          "weather_file": "master/2025/ako/weather-data.json",
           "categories": [
             {
               "id": "ako",
@@ -72125,7 +71772,6 @@
         },
         {
           "date": "2024-07-21",
-          "weather_file": "master/2024/ako/weather-data.json",
           "categories": [
             {
               "id": "ako",
@@ -72200,7 +71846,6 @@
         },
         {
           "date": "2023-07-16",
-          "weather_file": "master/2023/ako/weather-data.json",
           "categories": [
             {
               "id": "ako",
@@ -72275,7 +71920,6 @@
         },
         {
           "date": "2022-07-17",
-          "weather_file": "master/2022/ako/weather-data.json",
           "categories": [
             {
               "id": "ako",
@@ -72350,7 +71994,6 @@
         },
         {
           "date": "2021-07-18",
-          "weather_file": "master/2021/ako/weather-data.json",
           "categories": [
             {
               "id": "ako",
@@ -72425,7 +72068,6 @@
         },
         {
           "date": "2020-07-19",
-          "weather_file": "master/2020/ako/weather-data.json",
           "categories": [
             {
               "id": "ako",
@@ -72500,7 +72142,6 @@
         },
         {
           "date": "2019-07-21",
-          "weather_file": "master/2019/ako/weather-data.json",
           "categories": [
             {
               "id": "ako",
@@ -72575,7 +72216,6 @@
         },
         {
           "date": "2018-07-15",
-          "weather_file": "master/2018/ako/weather-data.json",
           "categories": [
             {
               "id": "ako",
@@ -72650,7 +72290,6 @@
         },
         {
           "date": "2017-07-16",
-          "weather_file": "master/2017/ako/weather-data.json",
           "categories": [
             {
               "id": "ako",
@@ -72725,7 +72364,6 @@
         },
         {
           "date": "2016-07-17",
-          "weather_file": "master/2016/ako/weather-data.json",
           "categories": [
             {
               "id": "ako",
@@ -72800,7 +72438,6 @@
         },
         {
           "date": "2015-07-19",
-          "weather_file": "master/2015/ako/weather-data.json",
           "categories": [
             {
               "id": "ako",
