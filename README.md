@@ -189,7 +189,7 @@ bun run build
 `dist/data.json` は `.gitignore` に含まれており、**リポジトリには含まれていません**。
 
 - **ローカルで使う場合**: `bun run build` を実行して生成してください。
-- **CI (GitHub Actions)**: `master/` や `race-info.json` が変更されると `build-data.yml` が自動実行され、生成した `dist/data.json` を main ブランチへ自動コミットします。
+- **CI (GitHub Actions)**: `build-data.yml` でビルドとテストが実行されますが、`dist/data.json` のコミットは行いません。
 
 ## テストの実行
 
