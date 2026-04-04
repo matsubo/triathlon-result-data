@@ -7,14 +7,14 @@ on:
       - 'master/**'
       - 'race-info.json'
       - 'scripts/**'
-      - 'dist/result-schema.json'
+      - 'result-schema.json'
       - '.github/workflows/build-data.yml'
   pull_request:
     paths:
       - 'master/**'
       - 'race-info.json'
       - 'scripts/**'
-      - 'dist/result-schema.json'
+      - 'result-schema.json'
   workflow_dispatch:
 
 permissions:

@@ -16,7 +16,7 @@
 
 アプリケーションに提供するのは **2つだけ** です:
 
-1. **JSON Schema**（`dist/result-schema.json`）— データの契約
+1. **JSON Schema**（`result-schema.json`）— データの契約
 2. **JSON データ**（`dist/data.json`）— 正規化された全レース・全選手データ
 
 アプリケーション側は TSV パーサーやヘッダーマッピングのロジックを持つ必要がありません。
@@ -86,8 +86,8 @@ master/<year>/<event_id>/<category>.tsv
 `bun run build` を実行すると、TSV + race-info.json + 天気データから正規化された JSON が生成されます。
 
 ```
+result-schema.json       # 出力データの JSON Schema
 dist/
-├── result-schema.json   # 出力データの JSON Schema
 └── data.json            # 全レース・全選手の正規化データ
 ```
 
@@ -182,7 +182,7 @@ TSV データから正規化 JSON を生成します。
 bun run build
 ```
 
-`dist/data.json` が生成され、`dist/result-schema.json` に対して自動バリデーションが実行されます。
+`dist/data.json` が生成され、`result-schema.json` に対して自動バリデーションが実行されます。
 
 ### dist/data.json について
 
