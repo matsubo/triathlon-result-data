@@ -29,15 +29,17 @@ const events = raceInfo.events.map((event) => ({
   source: event.source,
   editions: event.editions.map((edition) => {
     let weather = null;
-    try {
-      weather = JSON.parse(
-        readFileSync(join(repoRoot, edition.weather_file), "utf-8"),
-      );
-    } catch (err) {
-      if (err.code === "ENOENT") {
-        warnings.push(`Weather file not found: ${edition.weather_file}`);
-      } else {
-        throw err;
+    if (edition.weather_file) {
+      try {
+        weather = JSON.parse(
+          readFileSync(join(repoRoot, edition.weather_file), "utf-8"),
+        );
+      } catch (err) {
+        if (err.code === "ENOENT") {
+          warnings.push(`Weather file not found: ${edition.weather_file}`);
+        } else {
+          throw err;
+        }
       }
     }
 
