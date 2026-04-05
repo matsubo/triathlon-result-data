@@ -1,5 +1,5 @@
 /**
- * Parse time string "H:MM:SS" or "HH:MM:SS" to total seconds.
+ * Parse time string "H:MM:SS", "HH:MM:SS", or "MM:SS" to total seconds.
  * @param {string|null|undefined} str
  * @returns {number|null}
  */
