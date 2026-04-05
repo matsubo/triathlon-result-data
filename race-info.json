@@ -56064,11 +56064,11 @@
                       "role": "rank"
                     },
                     {
-                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "header": "ﾗﾝﾗｯﾌﾟ",
                       "role": "cumulative_time"
                     },
                     {
-                      "header": "通過",
+                      "header": "R順",
                       "role": "cumulative_rank"
                     }
                   ]
@@ -56076,16 +56076,7 @@
                 {
                   "sport": "run",
                   "distance": 10,
-                  "columns": [
-                    {
-                      "header": "ﾗﾝﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "R順",
-                      "role": "rank"
-                    }
-                  ]
+                  "columns": []
                 }
               ],
               "meta_columns": [
@@ -56170,11 +56161,11 @@
                       "role": "rank"
                     },
                     {
-                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "header": "ﾗﾝﾗｯﾌﾟ",
                       "role": "cumulative_time"
                     },
                     {
-                      "header": "通過",
+                      "header": "R順",
                       "role": "cumulative_rank"
                     }
                   ]
@@ -56182,16 +56173,7 @@
                 {
                   "sport": "run",
                   "distance": 10,
-                  "columns": [
-                    {
-                      "header": "ﾗﾝﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "R順",
-                      "role": "rank"
-                    }
-                  ]
+                  "columns": []
                 }
               ],
               "meta_columns": [
