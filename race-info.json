@@ -72493,6 +72493,85 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ironman_south_hokkaido",
+      "name": "IRONMAN Japan South Hokkaido",
+      "location": "北海道木古内町・北斗市",
+      "image": "images/ironman_south_hokkaido.webp",
+      "source": "https://www.ironman.com/im-south-hokkaido",
+      "editions": [
+        {
+          "date": "2025-09-14",
+          "categories": [
+            {
+              "id": "ironman_south_hokkaido",
+              "result_tsv": "master/2025/ironman_south_hokkaido/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "IRONMAN Japan South Hokkaido 2025。北海道木古内町・北斗市を舞台に開催。スイム3.8km（津軽海峡）、バイク180.2km、ラン42.195km。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
