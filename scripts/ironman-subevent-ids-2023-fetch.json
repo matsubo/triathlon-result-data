@@ -1,0 +1,190 @@
+{
+  "ironman_south_africa_2023": {
+    "event_uuid": "60accc34-83fe-e111-aa75-005056956277",
+    "subevent_uuid": "699d30d3-fc40-47b6-b0cd-f2b66bc688ae",
+    "year": 2023,
+    "name": "2023 IRONMAN African Championship South Africa",
+    "date": "2023-03-05T00:00:00Z"
+  },
+  "ironman_texas_2023": {
+    "event_uuid": "d998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "33c67f48-ba3c-472c-b696-2d8cad67b46e",
+    "year": 2023,
+    "name": "2023 IRONMAN Texas",
+    "date": "2023-04-22T00:00:00Z"
+  },
+  "ironman_australia_2023": {
+    "event_uuid": "a598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "89a21377-7ed9-42c7-ae59-a02ae9fbcd3a",
+    "year": 2023,
+    "name": "2023 IRONMAN Australia",
+    "date": "2023-05-07T00:00:00Z"
+  },
+  "ironman_austria_2023": {
+    "event_uuid": "e6b03b63-dbb0-e111-80ae-005056956277",
+    "subevent_uuid": "63ba0c5c-89e1-4646-a38c-55bda838e32a",
+    "year": 2023,
+    "name": "2023 IRONMAN Kaernten-Klagenfurt, Austria",
+    "date": "2023-06-18T00:00:00Z"
+  },
+  "ironman_lanzarote_2023": {
+    "event_uuid": "c598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "98eb36dd-6a46-4a80-92ac-2b599b57516e",
+    "year": 2023,
+    "name": "2023 IRONMAN Lanzarote",
+    "date": "2023-05-20T00:00:00Z"
+  },
+  "ironman_brazil_2023": {
+    "event_uuid": "a798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "53389811-79d1-4935-90b0-4b099b224b7b",
+    "year": 2023,
+    "name": "2023 IRONMAN Brazil",
+    "date": "2023-05-28T00:00:00Z"
+  },
+  "ironman_cairns_2023": {
+    "event_uuid": "6a6e11d2-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "b685b143-f655-4add-8283-f1517a98e7a1",
+    "year": 2023,
+    "name": "2023 IRONMAN Cairns",
+    "date": "2023-06-18T00:00:00Z"
+  },
+  "ironman_frankfurt_2023": {
+    "event_uuid": "b798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "d1227cc7-9f5f-4175-bf31-f1dfb0fee93d",
+    "year": 2023,
+    "name": "2023 IRONMAN Frankfurt",
+    "date": "2023-07-02T00:00:00Z"
+  },
+  "ironman_france_2023": {
+    "event_uuid": "bb98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "2ab0d9c7-defa-46a0-91b7-9f5e58c718cc",
+    "year": 2023,
+    "name": "2023 IRONMAN France",
+    "date": "2023-06-25T00:00:00Z"
+  },
+  "ironman_hamburg_2023": {
+    "event_uuid": "0ed71b3d-6974-e611-9410-005056951bf1",
+    "subevent_uuid": "b3efc195-b502-4fbf-bf5b-1dd031249e25",
+    "year": 2023,
+    "name": "2023 IRONMAN Hamburg",
+    "date": "2023-06-04T00:00:00Z"
+  },
+  "ironman_copenhagen_2023": {
+    "event_uuid": "6b909a24-f40f-e311-9ec7-005056956277",
+    "subevent_uuid": "8be47099-e69a-444b-98c5-f5be134ebacc",
+    "year": 2023,
+    "name": "2023 IRONMAN Copenhagen",
+    "date": "2023-08-20T00:00:00Z"
+  },
+  "ironman_tallinn_2023": {
+    "event_uuid": "37760ed4-c881-e711-9418-005056951bf1",
+    "subevent_uuid": "73365334-0bf8-41a4-8b3a-b8bf1fe263cf",
+    "year": 2023,
+    "name": "2023 IRONMAN Tallinn",
+    "date": "2023-08-05T00:00:00Z"
+  },
+  "ironman_switzerland_2023": {
+    "event_uuid": "d90fba34-21ae-e911-a986-000d3a364086",
+    "subevent_uuid": "89d248a9-cc2e-4d96-8949-d8526f500995",
+    "year": 2023,
+    "name": "2023 IRONMAN Switzerland Thun",
+    "date": "2023-07-09T00:00:00Z"
+  },
+  "ironman_wisconsin_2023": {
+    "event_uuid": "e598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "f81b2e11-ec16-43ac-941b-4386106a9a28",
+    "year": 2023,
+    "name": "2023 IRONMAN Wisconsin",
+    "date": "2023-09-10T00:00:00Z"
+  },
+  "ironman_maryland_2023": {
+    "event_uuid": "52f9c915-31ca-e311-b5f4-005056956277",
+    "subevent_uuid": "4a35d978-53d0-4897-b718-ce8299b53a92",
+    "year": 2023,
+    "name": "2023 IRONMAN Maryland",
+    "date": "2023-09-16T00:00:00Z"
+  },
+  "ironman_wales_2023": {
+    "event_uuid": "df98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "6efe6715-269e-491c-99a0-f86817a4d2b9",
+    "year": 2023,
+    "name": "2023 IRONMAN Wales",
+    "date": "2023-09-03T00:00:00Z"
+  },
+  "ironman_chattanooga_2023": {
+    "event_uuid": "0a742931-cf10-e311-9ec7-005056956277",
+    "subevent_uuid": "d4796fc3-d1ac-4c69-9dc8-215d1ecb3853",
+    "year": 2023,
+    "name": "2023 IRONMAN Chattanooga",
+    "date": "2023-09-24T00:00:00Z"
+  },
+  "ironman_gurye_2023": {
+    "event_uuid": "6e0f4c83-40d8-e611-9412-005056951bf1",
+    "subevent_uuid": "de9392dc-b470-4f63-a12c-20aeb7c1ae93",
+    "year": 2023,
+    "name": "2023 IRONMAN Gurye Korea",
+    "date": "2023-09-10T00:00:00Z"
+  },
+  "ironman_barcelona_2023": {
+    "event_uuid": "c413f2e7-2dca-e311-b5f4-005056956277",
+    "subevent_uuid": "0a3940cf-3793-4d08-aa72-176a27830c3e",
+    "year": 2023,
+    "name": "2023 IRONMAN Barcelona",
+    "date": "2023-10-01T00:00:00Z"
+  },
+  "ironman_california_2023": {
+    "event_uuid": "d74670f6-7fb2-4813-96e1-fae4ab1b948c",
+    "subevent_uuid": "a19ca236-64cb-4260-89b2-3235f8de33d2",
+    "year": 2023,
+    "name": "2023 IRONMAN California",
+    "date": "2023-10-22T00:00:00Z"
+  },
+  "ironman_florida_2023": {
+    "event_uuid": "b998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "811402c9-91a1-4ebb-b102-e083a44876e7",
+    "year": 2023,
+    "name": "2023 IRONMAN Florida",
+    "date": "2023-11-04T00:00:00Z"
+  },
+  "ironman_world_championship_kona_2023": {
+    "event_uuid": "e798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "0209b19e-84e2-417e-be79-cb4dfdb02e3a",
+    "year": 2023,
+    "name": "2023 IRONMAN World Championship - Men",
+    "date": "2023-09-10T00:00:00Z"
+  },
+  "ironman_vitoria_2023": {
+    "event_uuid": "47f47b8c-71ba-e811-a967-000d3a37468c",
+    "subevent_uuid": "a6aa560d-66a2-473c-ae0a-d6be004b8372",
+    "year": 2023,
+    "name": "2023 IRONMAN Vitoria-Gasteiz",
+    "date": "2023-07-16T00:00:00Z"
+  },
+  "ironman_sweden_2023": {
+    "event_uuid": "bd98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "9eaa4b74-9597-477a-b600-57628285f321",
+    "year": 2023,
+    "name": "2023 IRONMAN Kalmar-Sweden",
+    "date": "2023-08-19T00:00:00Z"
+  },
+  "ironman_italy_2023": {
+    "event_uuid": "aa3f9693-bd9a-e611-9410-005056951bf1",
+    "subevent_uuid": "8f2109e4-6d97-494c-9d54-ea42a5666dae",
+    "year": 2023,
+    "name": "2023 IRONMAN Italy Emilia Romagna",
+    "date": "2023-09-16T00:00:00Z"
+  },
+  "ironman_portugal_2023": {
+    "event_uuid": "4a7d66f0-94f5-e911-a812-000d3a5a1cf8",
+    "subevent_uuid": "d8bb4897-273e-4c7f-9a5e-a510b6fc63ca",
+    "year": 2023,
+    "name": "2023 IRONMAN Portugal-Cascais",
+    "date": "2023-10-21T00:00:00Z"
+  },
+  "ironman_world_championship_2023": {
+    "event_uuid": "e798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "61a15e83-504c-43b5-8ff6-029b92ba5f2a",
+    "year": 2023,
+    "name": "2023 IRONMAN World Championship - Women"
+  }
+}
