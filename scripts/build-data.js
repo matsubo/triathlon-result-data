@@ -57,7 +57,22 @@ const events = raceInfo.events.map((event) => ({
             join(repoRoot, category.result_tsv),
             "utf-8",
           );
-          const { rows } = parseTsv(tsvContent);
+          const { headers, rows } = parseTsv(tsvContent);
+
+          // Validate that all mapped headers exist in TSV
+          const allMappedHeaders = [
+            ...category.meta_columns.map((mc) => mc.header),
+            ...category.segments.flatMap((seg) =>
+              seg.columns.map((col) => col.header),
+            ),
+          ];
+          for (const h of allMappedHeaders) {
+            if (!headers.includes(h)) {
+              warnings.push(
+                `Header mismatch in ${category.result_tsv}: column "${h}" not found in TSV headers`,
+              );
+            }
+          }
 
           athletes = rows
             .map((row) =>

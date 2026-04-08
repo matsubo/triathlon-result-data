@@ -6719,7 +6719,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "S順",
+                      "header": "Ｓ順",
                       "role": "rank"
                     }
                   ]
@@ -6733,7 +6733,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "B順",
+                      "header": "Ｂ順",
                       "role": "rank"
                     },
                     {
@@ -6755,7 +6755,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "R順",
+                      "header": "Ｒ順",
                       "role": "rank"
                     }
                   ]
@@ -11775,11 +11775,11 @@
                   "distance": 1.5,
                   "columns": [
                     {
-                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "header": "スイムラップ",
                       "role": "lap"
                     },
                     {
-                      "header": "Ｓ順",
+                      "header": "S順",
                       "role": "rank"
                     }
                   ]
@@ -11789,15 +11789,15 @@
                   "distance": 40,
                   "columns": [
                     {
-                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "header": "バイクラップ",
                       "role": "lap"
                     },
                     {
-                      "header": "Ｂ順",
+                      "header": "B順",
                       "role": "rank"
                     },
                     {
-                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "header": "スプリット",
                       "role": "cumulative_time"
                     },
                     {
@@ -11811,11 +11811,11 @@
                   "distance": 10,
                   "columns": [
                     {
-                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "header": "ランラップ",
                       "role": "lap"
                     },
                     {
-                      "header": "Ｒ順",
+                      "header": "R順",
                       "role": "rank"
                     }
                   ]
@@ -11859,11 +11859,11 @@
                   "role": "gender_rank"
                 },
                 {
-                  "header": "年齢区分",
+                  "header": "年代区分",
                   "role": "age_category"
                 },
                 {
-                  "header": "年齡別順",
+                  "header": "年代順位",
                   "role": "age_rank"
                 }
               ]
@@ -11880,11 +11880,11 @@
                   "distance": 0.75,
                   "columns": [
                     {
-                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "header": "スイムラップ",
                       "role": "lap"
                     },
                     {
-                      "header": "Ｓ順",
+                      "header": "S順",
                       "role": "rank"
                     }
                   ]
@@ -11894,15 +11894,15 @@
                   "distance": 20,
                   "columns": [
                     {
-                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "header": "バイクラップ",
                       "role": "lap"
                     },
                     {
-                      "header": "Ｂ順",
+                      "header": "B順",
                       "role": "rank"
                     },
                     {
-                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "header": "スプリット",
                       "role": "cumulative_time"
                     },
                     {
@@ -11916,11 +11916,11 @@
                   "distance": 5,
                   "columns": [
                     {
-                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "header": "ランラップ",
                       "role": "lap"
                     },
                     {
-                      "header": "Ｒ順",
+                      "header": "R順",
                       "role": "rank"
                     }
                   ]
@@ -11964,11 +11964,11 @@
                   "role": "gender_rank"
                 },
                 {
-                  "header": "年齢区分",
+                  "header": "年代区分",
                   "role": "age_category"
                 },
                 {
-                  "header": "年齡別順",
+                  "header": "年代順位",
                   "role": "age_rank"
                 }
               ]
@@ -11985,11 +11985,11 @@
                   "distance": 0.3,
                   "columns": [
                     {
-                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "header": "スイムラップ",
                       "role": "lap"
                     },
                     {
-                      "header": "Ｓ順",
+                      "header": "S順",
                       "role": "rank"
                     }
                   ]
@@ -11999,11 +11999,11 @@
                   "distance": 10,
                   "columns": [
                     {
-                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "header": "バイクラップ",
                       "role": "lap"
                     },
                     {
-                      "header": "Ｂ順",
+                      "header": "B順",
                       "role": "rank"
                     }
                   ]
@@ -12013,11 +12013,11 @@
                   "distance": 2.5,
                   "columns": [
                     {
-                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "header": "ランラップ",
                       "role": "lap"
                     },
                     {
-                      "header": "Ｒ順",
+                      "header": "R順",
                       "role": "rank"
                     }
                   ]
@@ -12061,11 +12061,11 @@
                   "role": "gender_rank"
                 },
                 {
-                  "header": "年齢区分",
+                  "header": "年代区分",
                   "role": "age_category"
                 },
                 {
-                  "header": "年齡別順",
+                  "header": "年代順位",
                   "role": "age_rank"
                 }
               ]
@@ -26561,11 +26561,11 @@
                   "distance": 0.75,
                   "columns": [
                     {
-                      "header": "スイムラップ",
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
                       "role": "lap"
                     },
                     {
-                      "header": "S順",
+                      "header": "Ｓ順",
                       "role": "rank"
                     }
                   ]
@@ -26575,15 +26575,15 @@
                   "distance": 20,
                   "columns": [
                     {
-                      "header": "バイクラップ",
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
                       "role": "lap"
                     },
                     {
-                      "header": "B順",
+                      "header": "Ｂ順",
                       "role": "rank"
                     },
                     {
-                      "header": "スプリット",
+                      "header": "ｽﾌﾟﾘｯﾄ",
                       "role": "cumulative_time"
                     },
                     {
@@ -26597,11 +26597,11 @@
                   "distance": 5,
                   "columns": [
                     {
-                      "header": "ランラップ",
+                      "header": "ﾗﾝﾗｯﾌﾟ",
                       "role": "lap"
                     },
                     {
-                      "header": "R順",
+                      "header": "Ｒ順",
                       "role": "rank"
                     }
                   ]
@@ -29440,7 +29440,7 @@
                   "role": "bib"
                 },
                 {
-                  "header": "氏名",
+                  "header": "⽒名",
                   "role": "name"
                 },
                 {
@@ -29456,11 +29456,11 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "男子順位",
+                  "header": "男⼦順位",
                   "role": "gender_rank"
                 },
                 {
-                  "header": "女子順位",
+                  "header": "⼥⼦順位",
                   "role": "gender_rank"
                 },
                 {
@@ -29630,7 +29630,7 @@
                   "role": "bib"
                 },
                 {
-                  "header": "氏名",
+                  "header": "⽒名",
                   "role": "name"
                 },
                 {
@@ -29650,11 +29650,11 @@
                   "role": "penalty"
                 },
                 {
-                  "header": "男子順位",
+                  "header": "男⼦順位",
                   "role": "gender_rank"
                 },
                 {
-                  "header": "女子順位",
+                  "header": "⼥⼦順位",
                   "role": "gender_rank"
                 },
                 {
@@ -29740,7 +29740,7 @@
                   "role": "bib"
                 },
                 {
-                  "header": "氏名",
+                  "header": "⽒名",
                   "role": "name"
                 },
                 {
@@ -29756,11 +29756,11 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "男子順位",
+                  "header": "男⼦順位",
                   "role": "gender_rank"
                 },
                 {
-                  "header": "女子順位",
+                  "header": "⼥⼦順位",
                   "role": "gender_rank"
                 },
                 {
@@ -29972,7 +29972,7 @@
                   "role": "gender_rank"
                 },
                 {
-                  "header": "女子順位",
+                  "header": "⼥子順位",
                   "role": "gender_rank"
                 },
                 {
@@ -30815,7 +30815,7 @@
                   "distance": 3,
                   "columns": [
                     {
-                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "header": "スイムラップ",
                       "role": "lap"
                     }
                   ]
@@ -30825,7 +30825,7 @@
                   "distance": 160,
                   "columns": [
                     {
-                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "header": "バイクラップ",
                       "role": "lap"
                     }
                   ]
@@ -30835,7 +30835,7 @@
                   "distance": 42.195,
                   "columns": [
                     {
-                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "header": "ランラップ",
                       "role": "lap"
                     }
                   ]
@@ -31835,11 +31835,11 @@
                   "distance": 0.75,
                   "columns": [
                     {
-                      "header": "スイムラップ",
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
                       "role": "lap"
                     },
                     {
-                      "header": "S順",
+                      "header": "Ｓ順",
                       "role": "rank"
                     },
                     {
@@ -31853,11 +31853,11 @@
                   "distance": 20,
                   "columns": [
                     {
-                      "header": "バイクラップ",
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
                       "role": "lap"
                     },
                     {
-                      "header": "B順",
+                      "header": "Ｂ順",
                       "role": "rank"
                     }
                   ]
@@ -31867,11 +31867,11 @@
                   "distance": 4,
                   "columns": [
                     {
-                      "header": "ランラップ",
+                      "header": "ﾗﾝﾗｯﾌﾟ",
                       "role": "lap"
                     },
                     {
-                      "header": "R順",
+                      "header": "Ｒ順",
                       "role": "rank"
                     }
                   ]
@@ -33619,7 +33619,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "Ｓ順",
+                      "header": "S順",
                       "role": "rank"
                     }
                   ]
@@ -33633,7 +33633,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "Ｂ順",
+                      "header": "B順",
                       "role": "rank"
                     },
                     {
@@ -33655,7 +33655,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "Ｒ順",
+                      "header": "R順",
                       "role": "rank"
                     }
                   ]
@@ -33667,7 +33667,7 @@
                   "role": "overall_rank"
                 },
                 {
-                  "header": "No.",
+                  "header": "Ｎｏ．",
                   "role": "bib"
                 },
                 {
@@ -38147,7 +38147,7 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "PT",
+                  "header": "ＰＴ",
                   "role": "penalty"
                 },
                 {
@@ -44409,7 +44409,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "Ｓ順",
+                      "header": "S順",
                       "role": "rank"
                     }
                   ]
@@ -44423,11 +44423,11 @@
                       "role": "lap"
                     },
                     {
-                      "header": "Ｂ順",
+                      "header": "B順",
                       "role": "rank"
                     },
                     {
-                      "header": "スプリット",
+                      "header": "ｽﾌﾟﾘｯﾄ",
                       "role": "cumulative_time"
                     },
                     {
@@ -44445,7 +44445,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "Ｒ順",
+                      "header": "R順",
                       "role": "rank"
                     }
                   ]
@@ -44757,7 +44757,7 @@
                       "role": "rank"
                     },
                     {
-                      "header": "スプリット",
+                      "header": "ｽﾌﾟﾘｯﾄ",
                       "role": "cumulative_time"
                     },
                     {
@@ -58161,7 +58161,7 @@
                   "role": "overall_rank"
                 },
                 {
-                  "header": "No.カード",
+                  "header": "No.ｶｰﾄﾞ",
                   "role": "bib"
                 },
                 {
@@ -58177,7 +58177,7 @@
                   "role": "residence"
                 },
                 {
-                  "header": "フィニッシュ",
+                  "header": "ﾌｨﾆｯｼｭ",
                   "role": "total_time"
                 }
               ]
@@ -62864,7 +62864,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "Ｓ順",
+                      "header": "S順",
                       "role": "rank"
                     }
                   ]
@@ -62878,7 +62878,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "Ｂ順",
+                      "header": "B順",
                       "role": "rank"
                     },
                     {
@@ -62900,7 +62900,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "Ｒ順",
+                      "header": "R順",
                       "role": "rank"
                     }
                   ]
@@ -62969,7 +62969,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "Ｓ順",
+                      "header": "S順",
                       "role": "rank"
                     }
                   ]
@@ -62983,7 +62983,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "Ｂ順",
+                      "header": "B順",
                       "role": "rank"
                     },
                     {
@@ -63005,7 +63005,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "Ｒ順",
+                      "header": "R順",
                       "role": "rank"
                     }
                   ]
@@ -69565,7 +69565,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "Ｓ順",
+                      "header": "S順",
                       "role": "rank"
                     }
                   ]
@@ -69579,7 +69579,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "Ｂ順",
+                      "header": "B順",
                       "role": "rank"
                     },
                     {
@@ -69601,7 +69601,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "Ｒ順",
+                      "header": "R順",
                       "role": "rank"
                     }
                   ]
@@ -70450,7 +70450,7 @@
                   "distance": 1.5,
                   "columns": [
                     {
-                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "header": "スイムラップ",
                       "role": "lap"
                     },
                     {
@@ -70464,7 +70464,7 @@
                   "distance": 40,
                   "columns": [
                     {
-                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "header": "バイクラップ",
                       "role": "lap"
                     },
                     {
@@ -70472,7 +70472,7 @@
                       "role": "rank"
                     },
                     {
-                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "header": "スプリット",
                       "role": "cumulative_time"
                     },
                     {
@@ -70486,7 +70486,7 @@
                   "distance": 10,
                   "columns": [
                     {
-                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "header": "ランラップ",
                       "role": "lap"
                     },
                     {
@@ -70556,7 +70556,7 @@
                   "distance": 1.5,
                   "columns": [
                     {
-                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "header": "スイムラップ",
                       "role": "lap"
                     },
                     {
@@ -70570,7 +70570,7 @@
                   "distance": 40,
                   "columns": [
                     {
-                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "header": "バイクラップ",
                       "role": "lap"
                     },
                     {
@@ -70578,7 +70578,7 @@
                       "role": "rank"
                     },
                     {
-                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "header": "スプリット",
                       "role": "cumulative_time"
                     },
                     {
@@ -70592,7 +70592,7 @@
                   "distance": 10,
                   "columns": [
                     {
-                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "header": "ランラップ",
                       "role": "lap"
                     },
                     {
@@ -70782,7 +70782,7 @@
                   "distance": 40,
                   "columns": [
                     {
-                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "header": "バイクラップ",
                       "role": "lap"
                     },
                     {
@@ -70790,7 +70790,7 @@
                       "role": "rank"
                     },
                     {
-                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "header": "スプリット",
                       "role": "cumulative_time"
                     },
                     {
@@ -70874,7 +70874,7 @@
                   "distance": 1.5,
                   "columns": [
                     {
-                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "header": "スイムラップ",
                       "role": "lap"
                     },
                     {
@@ -70888,7 +70888,7 @@
                   "distance": 40,
                   "columns": [
                     {
-                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "header": "バイクラップ",
                       "role": "lap"
                     },
                     {
@@ -70896,7 +70896,7 @@
                       "role": "rank"
                     },
                     {
-                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "header": "スプリット",
                       "role": "cumulative_time"
                     },
                     {
@@ -70910,7 +70910,7 @@
                   "distance": 10,
                   "columns": [
                     {
-                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "header": "ランラップ",
                       "role": "lap"
                     },
                     {
@@ -70994,7 +70994,7 @@
                   "distance": 40,
                   "columns": [
                     {
-                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "header": "バイクラップ",
                       "role": "lap"
                     },
                     {
@@ -71002,7 +71002,7 @@
                       "role": "rank"
                     },
                     {
-                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "header": "スプリット",
                       "role": "cumulative_time"
                     },
                     {
@@ -71090,7 +71090,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "S順",
+                      "header": "Ｓ順",
                       "role": "rank"
                     }
                   ]
@@ -71104,7 +71104,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "B順",
+                      "header": "Ｂ順",
                       "role": "rank"
                     },
                     {
@@ -71126,7 +71126,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "R順",
+                      "header": "Ｒ順",
                       "role": "rank"
                     }
                   ]
@@ -71170,7 +71170,7 @@
                   "role": "gender_rank"
                 },
                 {
-                  "header": "ハンデ記録",
+                  "header": "ﾊﾝﾃﾞ記録",
                   "role": "status"
                 }
               ]
@@ -71196,7 +71196,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "S順",
+                      "header": "Ｓ順",
                       "role": "rank"
                     }
                   ]
@@ -71210,7 +71210,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "B順",
+                      "header": "Ｂ順",
                       "role": "rank"
                     },
                     {
@@ -71232,7 +71232,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "R順",
+                      "header": "Ｒ順",
                       "role": "rank"
                     }
                   ]
@@ -71276,7 +71276,7 @@
                   "role": "gender_rank"
                 },
                 {
-                  "header": "ハンデ記録",
+                  "header": "ﾊﾝﾃﾞ記録",
                   "role": "status"
                 }
               ]

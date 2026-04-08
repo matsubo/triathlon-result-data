@@ -1,0 +1,215 @@
+{
+  "ironman_minami_hokkaido": {
+    "event_uuid": "4cdb1049-4f27-4e32-b49d-4fc9ca73c2fb",
+    "subevent_uuid": "b6916cea-30a0-4eba-b37d-c1ba186fb004",
+    "year": 2024,
+    "name": "2024 IRONMAN Japan South Hokkaido"
+  },
+  "ironman_south_hokkaido": {
+    "event_uuid": "4cdb1049-4f27-4e32-b49d-4fc9ca73c2fb",
+    "subevent_uuid": "9526bfb3-167a-4fa4-9808-39753c55eb90",
+    "year": 2025,
+    "name": "2025 IRONMAN Japan South Hokkaido"
+  },
+  "ironman_south_africa_2025": {
+    "event_uuid": "60accc34-83fe-e111-aa75-005056956277",
+    "subevent_uuid": "2483e5e8-6b36-4786-b568-784fcb1a6f6b",
+    "year": 2025,
+    "name": "2025 IRONMAN South Africa"
+  },
+  "ironman_taiwan_2025": {
+    "event_uuid": "8b4e50b2-04b2-e411-9400-005056951bf1",
+    "subevent_uuid": "d2dcda47-067d-463d-8fe0-bb002c1fc1bc",
+    "year": 2025,
+    "name": "2025 IRONMAN Taiwan"
+  },
+  "ironman_texas_2025": {
+    "event_uuid": "d998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "0a34c991-b758-4d40-bf60-d6138ed86336",
+    "year": 2025,
+    "name": "2025 IRONMAN Texas"
+  },
+  "ironman_australia_2025": {
+    "event_uuid": "a598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "274e2cff-0517-4fcc-bbb6-845c25652390",
+    "year": 2025,
+    "name": "2025 IRONMAN Australia"
+  },
+  "ironman_austria_2025": {
+    "event_uuid": "e6b03b63-dbb0-e111-80ae-005056956277",
+    "subevent_uuid": "9e9018ff-c307-447c-a26c-5927df800fdd",
+    "year": 2025,
+    "name": "2025 IRONMAN Kaernten-Klagenfurt, Austria"
+  },
+  "ironman_lanzarote_2025": {
+    "event_uuid": "c598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "15de8d69-e94d-4fff-b456-97da49f8d00d",
+    "year": 2025,
+    "name": "2025 IRONMAN Lanzarote"
+  },
+  "ironman_brazil_2025": {
+    "event_uuid": "a798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "e00bb95b-d764-4927-a226-434bf5ae0f3b",
+    "year": 2025,
+    "name": "2025 IRONMAN Brazil"
+  },
+  "ironman_cairns_2025": {
+    "event_uuid": "6a6e11d2-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "3ee496da-ea1b-4d5a-bd2b-bc98612e794d",
+    "year": 2025,
+    "name": "2025 IRONMAN Cairns"
+  },
+  "ironman_frankfurt_2025": {
+    "event_uuid": "b798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "dcfae363-4480-4c9c-b8af-bbdeea0b00ef",
+    "year": 2025,
+    "name": "2025 IRONMAN Frankfurt"
+  },
+  "ironman_france_2025": {
+    "event_uuid": "bb98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "f3a6cf4c-e9d5-4c6f-a425-86b3b8ba0524",
+    "year": 2025,
+    "name": "2025 IRONMAN France Nice"
+  },
+  "ironman_hamburg_2025": {
+    "event_uuid": "0ed71b3d-6974-e611-9410-005056951bf1",
+    "subevent_uuid": "b25a3825-7c68-4442-a4d2-ea887b2fb50e",
+    "year": 2025,
+    "name": "2025 IRONMAN Hamburg"
+  },
+  "ironman_les_sables_2025": {
+    "event_uuid": "f377736f-9933-4b8b-8734-a920dbe4b699",
+    "subevent_uuid": "d6047ad1-824f-45a2-b70c-a757cc9ea609",
+    "year": 2025,
+    "name": "2025 IRONMAN Les Sables d'Olonne-Vendee"
+  },
+  "ironman_copenhagen_2025": {
+    "event_uuid": "6b909a24-f40f-e311-9ec7-005056956277",
+    "subevent_uuid": "e76951cf-c3df-4295-8cee-a41b118a33ff",
+    "year": 2025,
+    "name": "2025 IRONMAN Copenhagen"
+  },
+  "ironman_tallinn_2025": {
+    "event_uuid": "37760ed4-c881-e711-9418-005056951bf1",
+    "subevent_uuid": "65a18272-8dae-466a-bbf7-99a1c9b79183",
+    "year": 2025,
+    "name": "2025 IRONMAN Tallinn"
+  },
+  "ironman_switzerland_2025": {
+    "event_uuid": "d90fba34-21ae-e911-a986-000d3a364086",
+    "subevent_uuid": "e9345d08-ebd3-481d-948f-2cb3b9833189",
+    "year": 2025,
+    "name": "2025 IRONMAN Switzerland Thun"
+  },
+  "ironman_wisconsin_2025": {
+    "event_uuid": "e598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "3bd630ca-4c2a-4775-87bd-b0d2c2764c53",
+    "year": 2025,
+    "name": "2025 IRONMAN Wisconsin"
+  },
+  "ironman_maryland_2025": {
+    "event_uuid": "52f9c915-31ca-e311-b5f4-005056956277",
+    "subevent_uuid": "bc4f3a18-945f-493b-a363-9e993a41636d",
+    "year": 2025,
+    "name": "2025 IRONMAN Maryland"
+  },
+  "ironman_wales_2025": {
+    "event_uuid": "df98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "2a497ecb-1f5e-49b0-ad8e-f44dfd891922",
+    "year": 2025,
+    "name": "2025 IRONMAN Wales"
+  },
+  "ironman_chattanooga_2025": {
+    "event_uuid": "0a742931-cf10-e311-9ec7-005056956277",
+    "subevent_uuid": "eecbddcc-fec9-4c52-ab35-28f77cb1c81b",
+    "year": 2025,
+    "name": "2025 IRONMAN Chattanooga"
+  },
+  "ironman_gurye_2025": {
+    "event_uuid": "6e0f4c83-40d8-e611-9412-005056951bf1",
+    "subevent_uuid": "239e2810-77f5-4d66-a93c-dc59aed8c2a8",
+    "year": 2025,
+    "name": "2025 IRONMAN Gurye Korea"
+  },
+  "ironman_barcelona_2025": {
+    "event_uuid": "c413f2e7-2dca-e311-b5f4-005056956277",
+    "subevent_uuid": "633f40fa-698f-4380-bb5f-9b50fe173849",
+    "year": 2025,
+    "name": "2025 IRONMAN Calella-Barcelona"
+  },
+  "ironman_california_2025": {
+    "event_uuid": "d74670f6-7fb2-4813-96e1-fae4ab1b948c",
+    "subevent_uuid": "1fc58eb1-18fc-417d-bd3b-5aa674132777",
+    "year": 2025,
+    "name": "2025 IRONMAN California"
+  },
+  "ironman_florida_2025": {
+    "event_uuid": "b998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "83af8238-4ace-4d88-a3d3-0371f9b88294",
+    "year": 2025,
+    "name": "2025 IRONMAN Florida"
+  },
+  "ironman_world_championship_kona": {
+    "event_uuid": "e798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "e3bdd10e-80a5-48b3-bbf7-fda62ffb0824",
+    "year": 2025,
+    "name": "2025 IRONMAN World Championship - Women"
+  },
+  "ironman_vitoria_2025": {
+    "event_uuid": "47f47b8c-71ba-e811-a967-000d3a37468c",
+    "subevent_uuid": "78cc342f-5383-4d91-8299-fb7f0ec0339a",
+    "year": 2025,
+    "name": "2025 IRONMAN Vitoria-Gasteiz"
+  },
+  "ironman_leeds_2025": {
+    "event_uuid": "ab1297a2-42d5-4b6f-b408-23ae319f5a31",
+    "subevent_uuid": "ca01846e-727d-4ff9-b390-f91750ce3c16",
+    "year": 2025,
+    "name": "2025 IRONMAN Leeds"
+  },
+  "ironman_sweden_2025": {
+    "event_uuid": "bd98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "b5c5197c-0040-425d-93f7-fa5d0c4edf8e",
+    "year": 2025,
+    "name": "2025 IRONMAN Kalmar-Sweden"
+  },
+  "ironman_italy_2025": {
+    "event_uuid": "aa3f9693-bd9a-e611-9410-005056951bf1",
+    "subevent_uuid": "261dd41f-3a15-4684-bbe4-1a0284bad7e5",
+    "year": 2025,
+    "name": "2025 IRONMAN Emilia Romagna"
+  },
+  "ironman_portugal_2025": {
+    "event_uuid": "4a7d66f0-94f5-e911-a812-000d3a5a1cf8",
+    "subevent_uuid": "a407a3d4-6076-441c-abac-be93484f40a8",
+    "year": 2025,
+    "name": "2025 IRONMAN Portugal-Cascais"
+  },
+  "ironman_world_championship": {
+    "event_uuid": "e798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "13a8e2a2-e528-40a8-adb4-412b23364826",
+    "year": 2025,
+    "name": "2025 IRONMAN World Championship - Men"
+  },
+  "not_found": [
+    {
+      "id": "ironman_malaysia_2025",
+      "slugs_tried": [
+        "im-malaysia-langkawi",
+        "im-malaysia",
+        "im-langkawi"
+      ],
+      "year": 2025,
+      "reason": "not found with any slug"
+    },
+    {
+      "id": "ironman_arizona_2025",
+      "slugs_tried": [
+        "im-arizona",
+        "im-arizona"
+      ],
+      "year": 2025,
+      "reason": "not found with any slug"
+    }
+  ]
+}
