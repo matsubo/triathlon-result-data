@@ -38605,16 +38605,8 @@
                   "distance": 3.8,
                   "columns": [
                     {
-                      "header": "スイムラップ",
+                      "header": "Swim",
                       "role": "lap"
-                    },
-                    {
-                      "header": "S順",
-                      "role": "rank"
-                    },
-                    {
-                      "header": "T1",
-                      "role": "transition"
                     }
                   ]
                 },
@@ -38623,16 +38615,8 @@
                   "distance": 180,
                   "columns": [
                     {
-                      "header": "バイクラップ",
+                      "header": "Bike",
                       "role": "lap"
-                    },
-                    {
-                      "header": "B順",
-                      "role": "rank"
-                    },
-                    {
-                      "header": "T2",
-                      "role": "transition"
                     }
                   ]
                 },
@@ -38641,60 +38625,48 @@
                   "distance": 42.195,
                   "columns": [
                     {
-                      "header": "ランラップ",
+                      "header": "Run",
                       "role": "lap"
-                    },
-                    {
-                      "header": "R順",
-                      "role": "rank"
                     }
                   ]
                 }
               ],
               "meta_columns": [
                 {
-                  "header": "総合順位",
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
                 {
-                  "header": "No.",
-                  "role": "bib"
-                },
-                {
-                  "header": "氏名",
+                  "header": "Name",
                   "role": "name"
                 },
                 {
-                  "header": "年齢",
-                  "role": "age"
-                },
-                {
-                  "header": "性別",
+                  "header": "Gender",
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
-                  "role": "residence"
-                },
-                {
-                  "header": "総合記録",
-                  "role": "total_time"
-                },
-                {
-                  "header": "男子順位",
-                  "role": "gender_rank"
-                },
-                {
-                  "header": "女子順位",
-                  "role": "gender_rank"
-                },
-                {
-                  "header": "年齢区分",
+                  "header": "Division",
                   "role": "age_category"
                 },
                 {
-                  "header": "年齢別順",
+                  "header": "Div_Rank",
                   "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -38725,16 +38697,8 @@
                   "distance": 3.8,
                   "columns": [
                     {
-                      "header": "スイムラップ",
+                      "header": "Swim",
                       "role": "lap"
-                    },
-                    {
-                      "header": "S順",
-                      "role": "rank"
-                    },
-                    {
-                      "header": "T1",
-                      "role": "transition"
                     }
                   ]
                 },
@@ -38743,16 +38707,8 @@
                   "distance": 180,
                   "columns": [
                     {
-                      "header": "バイクラップ",
+                      "header": "Bike",
                       "role": "lap"
-                    },
-                    {
-                      "header": "B順",
-                      "role": "rank"
-                    },
-                    {
-                      "header": "T2",
-                      "role": "transition"
                     }
                   ]
                 },
@@ -38761,60 +38717,48 @@
                   "distance": 42.195,
                   "columns": [
                     {
-                      "header": "ランラップ",
+                      "header": "Run",
                       "role": "lap"
-                    },
-                    {
-                      "header": "R順",
-                      "role": "rank"
                     }
                   ]
                 }
               ],
               "meta_columns": [
                 {
-                  "header": "総合順位",
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
                 {
-                  "header": "No.",
-                  "role": "bib"
-                },
-                {
-                  "header": "氏名",
+                  "header": "Name",
                   "role": "name"
                 },
                 {
-                  "header": "年齢",
-                  "role": "age"
-                },
-                {
-                  "header": "性別",
+                  "header": "Gender",
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
-                  "role": "residence"
-                },
-                {
-                  "header": "総合記録",
-                  "role": "total_time"
-                },
-                {
-                  "header": "男子順位",
-                  "role": "gender_rank"
-                },
-                {
-                  "header": "女子順位",
-                  "role": "gender_rank"
-                },
-                {
-                  "header": "年齢区分",
+                  "header": "Division",
                   "role": "age_category"
                 },
                 {
-                  "header": "年齢別順",
+                  "header": "Div_Rank",
                   "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -42364,16 +42308,8 @@
                   "distance": 3.8,
                   "columns": [
                     {
-                      "header": "スイムラップ",
+                      "header": "Swim",
                       "role": "lap"
-                    },
-                    {
-                      "header": "S順",
-                      "role": "rank"
-                    },
-                    {
-                      "header": "T1",
-                      "role": "transition"
                     }
                   ]
                 },
@@ -42382,16 +42318,8 @@
                   "distance": 180,
                   "columns": [
                     {
-                      "header": "バイクラップ",
+                      "header": "Bike",
                       "role": "lap"
-                    },
-                    {
-                      "header": "B順",
-                      "role": "rank"
-                    },
-                    {
-                      "header": "T2",
-                      "role": "transition"
                     }
                   ]
                 },
@@ -42400,60 +42328,48 @@
                   "distance": 42.195,
                   "columns": [
                     {
-                      "header": "ランラップ",
+                      "header": "Run",
                       "role": "lap"
-                    },
-                    {
-                      "header": "R順",
-                      "role": "rank"
                     }
                   ]
                 }
               ],
               "meta_columns": [
                 {
-                  "header": "総合順位",
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
                 {
-                  "header": "No.",
-                  "role": "bib"
-                },
-                {
-                  "header": "氏名",
+                  "header": "Name",
                   "role": "name"
                 },
                 {
-                  "header": "年齢",
-                  "role": "age"
-                },
-                {
-                  "header": "性別",
+                  "header": "Gender",
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
-                  "role": "residence"
-                },
-                {
-                  "header": "総合記録",
-                  "role": "total_time"
-                },
-                {
-                  "header": "男子順位",
-                  "role": "gender_rank"
-                },
-                {
-                  "header": "女子順位",
-                  "role": "gender_rank"
-                },
-                {
-                  "header": "年齢区分",
+                  "header": "Division",
                   "role": "age_category"
                 },
                 {
-                  "header": "年齢別順",
+                  "header": "Div_Rank",
                   "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -72533,6 +72449,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -72555,6 +72475,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -72612,6 +72540,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -72634,6 +72566,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -72691,6 +72631,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -72713,6 +72657,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -72770,6 +72722,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -72792,6 +72748,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -72849,6 +72813,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -72871,6 +72839,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -72928,6 +72904,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -72950,6 +72930,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -73007,6 +72995,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -73029,6 +73021,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -73086,6 +73086,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -73108,6 +73112,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -73165,6 +73177,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -73187,6 +73203,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -73244,6 +73268,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -73266,6 +73294,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -73323,6 +73359,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -73345,6 +73385,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -73402,6 +73450,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -73424,6 +73476,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -73481,6 +73541,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -73503,6 +73567,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -73560,6 +73632,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -73582,6 +73658,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -73639,6 +73723,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -73661,6 +73749,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -73718,6 +73814,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -73740,6 +73840,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -73797,6 +73905,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -73819,6 +73931,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -73876,6 +73996,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -73898,6 +74022,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -73955,6 +74087,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -73977,6 +74113,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -74034,6 +74178,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -74056,6 +74204,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -74113,6 +74269,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -74135,6 +74295,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -74192,6 +74360,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -74214,6 +74386,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -74271,6 +74451,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -74293,6 +74477,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -74350,6 +74542,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -74372,6 +74568,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -74429,6 +74633,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -74451,6 +74659,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -74508,6 +74724,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -74530,6 +74750,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -74666,6 +74894,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -74688,6 +74920,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -74745,6 +74985,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -74767,6 +75011,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }
@@ -74824,6 +75076,10 @@
               ],
               "meta_columns": [
                 {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
                   "header": "Overall_Rank",
                   "role": "overall_rank"
                 },
@@ -74846,6 +75102,14 @@
                 {
                   "header": "Total_Time",
                   "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
                 }
               ]
             }

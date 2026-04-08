@@ -194,20 +194,13 @@
   "not_found": [
     {
       "id": "ironman_malaysia_2025",
-      "slugs_tried": [
-        "im-malaysia-langkawi",
-        "im-malaysia",
-        "im-langkawi"
-      ],
+      "slugs_tried": ["im-malaysia-langkawi", "im-malaysia", "im-langkawi"],
       "year": 2025,
       "reason": "not found with any slug"
     },
     {
       "id": "ironman_arizona_2025",
-      "slugs_tried": [
-        "im-arizona",
-        "im-arizona"
-      ],
+      "slugs_tried": ["im-arizona", "im-arizona"],
       "year": 2025,
       "reason": "not found with any slug"
     }

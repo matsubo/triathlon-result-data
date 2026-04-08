@@ -176,7 +176,10 @@
                                 "status",
                                 "guide_name",
                                 "citizen_rank",
-                                "citizen_category"
+                                "citizen_category",
+                                "athlete_id",
+                                "championship_rank",
+                                "note"
                               ],
                               "description": "Semantic role of this metadata column"
                             }

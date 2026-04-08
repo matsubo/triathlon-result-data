@@ -163,7 +163,9 @@ async function processRace(raceId, info) {
   const fullPath = join(repoRoot, tsvPath);
 
   if (dryRun) {
-    console.log(`  [DRY RUN] Would write ${results.length} results to ${tsvPath}`);
+    console.log(
+      `  [DRY RUN] Would write ${results.length} results to ${tsvPath}`,
+    );
   } else {
     mkdirSync(dirname(fullPath), { recursive: true });
     writeFileSync(fullPath, tsvContent);

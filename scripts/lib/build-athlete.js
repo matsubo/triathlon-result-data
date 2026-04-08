@@ -75,6 +75,13 @@ export function buildAthlete(row, metaColumnDefs, segmentDefs) {
       case "guide_name":
         if (value && value.trim()) athlete.guide_name = value.trim();
         break;
+      case "athlete_id":
+        if (value && value.trim()) athlete.athlete_id = value.trim();
+        break;
+      case "championship_rank":
+        break;
+      case "note":
+        break;
     }
   }
 

@@ -91,6 +91,7 @@
                               ]
                             },
                             "bib": { "type": "string" },
+                            "athlete_id": { "type": ["string", "null"] },
                             "name": { "type": "string" },
                             "age": { "type": ["integer", "null"] },
                             "gender": {
