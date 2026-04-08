@@ -2554,10 +2554,6 @@
                       "role": "lap"
                     },
                     {
-                      "header": "Ｓ順",
-                      "role": "rank"
-                    },
-                    {
                       "header": "スイム折返",
                       "role": "checkpoint"
                     },
@@ -2574,18 +2570,6 @@
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
                       "role": "lap"
-                    },
-                    {
-                      "header": "Ｂ順",
-                      "role": "rank"
-                    },
-                    {
-                      "header": "ｽﾌﾟﾘｯﾄ",
-                      "role": "cumulative_time"
-                    },
-                    {
-                      "header": "通過",
-                      "role": "cumulative_rank"
                     },
                     {
                       "header": "バイクS",
@@ -2616,10 +2600,6 @@
                     {
                       "header": "ﾗﾝﾗｯﾌﾟ",
                       "role": "lap"
-                    },
-                    {
-                      "header": "Ｒ順",
-                      "role": "rank"
                     },
                     {
                       "header": "ラン折り返し21km",
@@ -2670,20 +2650,8 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "男子順位",
-                  "role": "gender_rank"
-                },
-                {
-                  "header": "女子順位",
-                  "role": "gender_rank"
-                },
-                {
-                  "header": "年齢区分",
-                  "role": "age_category"
-                },
-                {
-                  "header": "年齡別順",
-                  "role": "age_rank"
+                  "header": "備考",
+                  "role": "note"
                 }
               ]
             }
@@ -2709,10 +2677,6 @@
                       "role": "lap"
                     },
                     {
-                      "header": "Ｓ順",
-                      "role": "rank"
-                    },
-                    {
                       "header": "スイム折返",
                       "role": "checkpoint"
                     },
@@ -2729,18 +2693,6 @@
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
                       "role": "lap"
-                    },
-                    {
-                      "header": "Ｂ順",
-                      "role": "rank"
-                    },
-                    {
-                      "header": "ｽﾌﾟﾘｯﾄ",
-                      "role": "cumulative_time"
-                    },
-                    {
-                      "header": "通過",
-                      "role": "cumulative_rank"
                     },
                     {
                       "header": "バイクS",
@@ -2771,10 +2723,6 @@
                     {
                       "header": "ﾗﾝﾗｯﾌﾟ",
                       "role": "lap"
-                    },
-                    {
-                      "header": "Ｒ順",
-                      "role": "rank"
                     },
                     {
                       "header": "ラン折り返し21km",
@@ -2825,20 +2773,8 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "男子順位",
-                  "role": "gender_rank"
-                },
-                {
-                  "header": "女子順位",
-                  "role": "gender_rank"
-                },
-                {
-                  "header": "年齢区分",
-                  "role": "age_category"
-                },
-                {
-                  "header": "年齡別順",
-                  "role": "age_rank"
+                  "header": "備考",
+                  "role": "note"
                 }
               ]
             }
@@ -3015,10 +2951,6 @@
                       "role": "lap"
                     },
                     {
-                      "header": "Ｓ順",
-                      "role": "rank"
-                    },
-                    {
                       "header": "スイムF",
                       "role": "checkpoint"
                     }
@@ -3031,18 +2963,6 @@
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
                       "role": "lap"
-                    },
-                    {
-                      "header": "Ｂ順",
-                      "role": "rank"
-                    },
-                    {
-                      "header": "ｽﾌﾟﾘｯﾄ",
-                      "role": "cumulative_time"
-                    },
-                    {
-                      "header": "通過",
-                      "role": "cumulative_rank"
                     },
                     {
                       "header": "バイクS",
@@ -3073,10 +2993,6 @@
                     {
                       "header": "ﾗﾝﾗｯﾌﾟ",
                       "role": "lap"
-                    },
-                    {
-                      "header": "Ｒ順",
-                      "role": "rank"
                     },
                     {
                       "header": "ラン折り返し20km",
@@ -3127,20 +3043,8 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "男子順位",
-                  "role": "gender_rank"
-                },
-                {
-                  "header": "女子順位",
-                  "role": "gender_rank"
-                },
-                {
-                  "header": "年齢区分",
-                  "role": "age_category"
-                },
-                {
-                  "header": "年齡別順",
-                  "role": "age_rank"
+                  "header": "備考",
+                  "role": "note"
                 }
               ]
             }
@@ -7343,14 +7247,6 @@
                   "distance": 0.2,
                   "columns": [
                     {
-                      "header": "スイムラップ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "S順",
-                      "role": "rank"
-                    },
-                    {
                       "header": "T1",
                       "role": "transition"
                     }
@@ -7373,16 +7269,7 @@
                 {
                   "sport": "run",
                   "distance": 5,
-                  "columns": [
-                    {
-                      "header": "ランラップ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "R順",
-                      "role": "rank"
-                    }
-                  ]
+                  "columns": []
                 }
               ],
               "meta_columns": [
@@ -7423,11 +7310,11 @@
                   "role": "gender_rank"
                 },
                 {
-                  "header": "年齢区分",
+                  "header": "区分",
                   "role": "age_category"
                 },
                 {
-                  "header": "年齢別順",
+                  "header": "区分順位",
                   "role": "age_rank"
                 }
               ]
@@ -12005,6 +11892,14 @@
                     {
                       "header": "B順",
                       "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
                     }
                   ]
                 },
@@ -12647,15 +12542,11 @@
                   "role": "name"
                 },
                 {
-                  "header": "年齢",
-                  "role": "age"
-                },
-                {
                   "header": "性別",
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
+                  "header": "所属・登録",
                   "role": "residence"
                 },
                 {
@@ -12765,7 +12656,7 @@
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
+                  "header": "所属・登録",
                   "role": "residence"
                 },
                 {
@@ -12875,7 +12766,7 @@
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
+                  "header": "所属・登録",
                   "role": "residence"
                 },
                 {
@@ -17928,6 +17819,10 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             },
@@ -18037,6 +17932,10 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             },
@@ -18146,6 +18045,10 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             }
@@ -18261,6 +18164,10 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             },
@@ -18370,6 +18277,10 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             },
@@ -18479,6 +18390,10 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             }
@@ -18594,6 +18509,10 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             },
@@ -18703,6 +18622,10 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             },
@@ -18812,6 +18735,10 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             }
@@ -18900,7 +18827,7 @@
                   "role": "gender"
                 },
                 {
-                  "header": "登録",
+                  "header": "登録地",
                   "role": "residence"
                 },
                 {
@@ -18914,6 +18841,18 @@
                 {
                   "header": "女子順位",
                   "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             },
@@ -18997,7 +18936,7 @@
                   "role": "gender"
                 },
                 {
-                  "header": "登録",
+                  "header": "登録地",
                   "role": "residence"
                 },
                 {
@@ -19011,6 +18950,18 @@
                 {
                   "header": "女子順位",
                   "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             },
@@ -19094,7 +19045,7 @@
                   "role": "gender"
                 },
                 {
-                  "header": "登録",
+                  "header": "登録地",
                   "role": "residence"
                 },
                 {
@@ -19108,6 +19059,18 @@
                 {
                   "header": "女子順位",
                   "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             },
@@ -19189,10 +19152,6 @@
                 {
                   "header": "性別",
                   "role": "gender"
-                },
-                {
-                  "header": "登録",
-                  "role": "residence"
                 },
                 {
                   "header": "総合記録",
@@ -19293,7 +19252,7 @@
                   "role": "gender"
                 },
                 {
-                  "header": "登録",
+                  "header": "登録地",
                   "role": "residence"
                 },
                 {
@@ -19307,6 +19266,14 @@
                 {
                   "header": "女子順位",
                   "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
                 }
               ]
             },
@@ -19390,19 +19357,15 @@
                   "role": "gender"
                 },
                 {
-                  "header": "登録",
-                  "role": "residence"
-                },
-                {
                   "header": "総合記録",
                   "role": "total_time"
                 },
                 {
-                  "header": "男子順位",
+                  "header": "男子",
                   "role": "gender_rank"
                 },
                 {
-                  "header": "女子順位",
+                  "header": "女子",
                   "role": "gender_rank"
                 }
               ]
@@ -19501,6 +19464,18 @@
                 {
                   "header": "女子順位",
                   "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             }
@@ -19589,7 +19564,7 @@
                   "role": "gender"
                 },
                 {
-                  "header": "登録",
+                  "header": "居住地",
                   "role": "residence"
                 },
                 {
@@ -19603,6 +19578,14 @@
                 {
                   "header": "女子順位",
                   "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
                 }
               ]
             },
@@ -19700,6 +19683,18 @@
                 {
                   "header": "女子順位",
                   "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             },
@@ -19797,6 +19792,18 @@
                 {
                   "header": "女子順位",
                   "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             },
@@ -19996,6 +20003,14 @@
                 {
                   "header": "女子順位",
                   "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
                 }
               ]
             },
@@ -20093,6 +20108,18 @@
                 {
                   "header": "女子順位",
                   "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             },
@@ -20190,6 +20217,18 @@
                 {
                   "header": "女子順位",
                   "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             },
@@ -21717,23 +21756,9 @@
               "id": "kisarazu_sp_2024",
               "result_tsv": "master/2024/kisarazu/sprint.tsv",
               "name": "スプリントディスタンス",
-              "distance": "SD",
+              "distance": "DUATHLON",
               "description": "2024年木更津トライアスロン スプリントディスタンス。",
               "segments": [
-                {
-                  "sport": "swim",
-                  "distance": 0.75,
-                  "columns": [
-                    {
-                      "header": "スイムラップ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "S順",
-                      "role": "rank"
-                    }
-                  ]
-                },
                 {
                   "sport": "bike",
                   "distance": 20,
@@ -22126,11 +22151,11 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "男子順位",
+                  "header": "男子",
                   "role": "gender_rank"
                 },
                 {
-                  "header": "女子順位",
+                  "header": "女子",
                   "role": "gender_rank"
                 },
                 {
@@ -22138,7 +22163,7 @@
                   "role": "age_category"
                 },
                 {
-                  "header": "年代別順",
+                  "header": "年代",
                   "role": "age_rank"
                 }
               ]
@@ -22231,11 +22256,11 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "男子順位",
+                  "header": "男子",
                   "role": "gender_rank"
                 },
                 {
-                  "header": "女子順位",
+                  "header": "女子",
                   "role": "gender_rank"
                 },
                 {
@@ -22243,7 +22268,7 @@
                   "role": "age_category"
                 },
                 {
-                  "header": "年代別順",
+                  "header": "年代",
                   "role": "age_rank"
                 }
               ]
@@ -23587,7 +23612,7 @@
                   "role": "overall_rank"
                 },
                 {
-                  "header": "No.",
+                  "header": "レースナンバー",
                   "role": "bib"
                 },
                 {
@@ -23642,7 +23667,7 @@
                   "role": "overall_rank"
                 },
                 {
-                  "header": "No.",
+                  "header": "レースナンバー",
                   "role": "bib"
                 },
                 {
@@ -24373,10 +24398,6 @@
                 {
                   "header": "年代区分",
                   "role": "age_category"
-                },
-                {
-                  "header": "年代別順",
-                  "role": "age_rank"
                 }
               ]
             }
@@ -25946,16 +25967,16 @@
                   "role": "age"
                 },
                 {
-                  "header": "性別",
-                  "role": "gender"
-                },
-                {
                   "header": "都道府県",
                   "role": "residence"
                 },
                 {
                   "header": "ゴールタイム",
                   "role": "total_time"
+                },
+                {
+                  "header": "エイジ別",
+                  "role": "age_category"
                 }
               ]
             }
@@ -26040,16 +26061,16 @@
                   "role": "age"
                 },
                 {
-                  "header": "性別",
-                  "role": "gender"
-                },
-                {
                   "header": "都道府県",
                   "role": "residence"
                 },
                 {
                   "header": "ゴールタイム",
                   "role": "total_time"
+                },
+                {
+                  "header": "エイジ別",
+                  "role": "age_category"
                 }
               ]
             }
@@ -26134,16 +26155,16 @@
                   "role": "age"
                 },
                 {
-                  "header": "性別",
-                  "role": "gender"
-                },
-                {
                   "header": "都道府県",
                   "role": "residence"
                 },
                 {
                   "header": "ゴールタイム",
                   "role": "total_time"
+                },
+                {
+                  "header": "エイジ別",
+                  "role": "age_category"
                 }
               ]
             }
@@ -26228,16 +26249,16 @@
                   "role": "age"
                 },
                 {
-                  "header": "性別",
-                  "role": "gender"
-                },
-                {
                   "header": "都道府県",
                   "role": "residence"
                 },
                 {
                   "header": "ゴールタイム",
                   "role": "total_time"
+                },
+                {
+                  "header": "エイジ別",
+                  "role": "age_category"
                 }
               ]
             }
@@ -26322,16 +26343,16 @@
                   "role": "age"
                 },
                 {
-                  "header": "性別",
-                  "role": "gender"
-                },
-                {
                   "header": "都道府県",
                   "role": "residence"
                 },
                 {
                   "header": "ゴールタイム",
                   "role": "total_time"
+                },
+                {
+                  "header": "エイジ別",
+                  "role": "age_category"
                 }
               ]
             }
@@ -26426,6 +26447,10 @@
                 {
                   "header": "ゴールタイム",
                   "role": "total_time"
+                },
+                {
+                  "header": "エイジ別",
+                  "role": "age_category"
                 }
               ]
             }
@@ -26649,7 +26674,7 @@
                   "role": "age_category"
                 },
                 {
-                  "header": "年代順位",
+                  "header": "年代別順",
                   "role": "age_rank"
                 }
               ]
@@ -26756,11 +26781,11 @@
                   "role": "gender_rank"
                 },
                 {
-                  "header": "年齢区分",
+                  "header": "年代区分",
                   "role": "age_category"
                 },
                 {
-                  "header": "年齡別順",
+                  "header": "年代別順",
                   "role": "age_rank"
                 }
               ]
@@ -26861,11 +26886,11 @@
                   "role": "gender_rank"
                 },
                 {
-                  "header": "年齢区分",
+                  "header": "年代区分",
                   "role": "age_category"
                 },
                 {
-                  "header": "年齡別順",
+                  "header": "年代別順",
                   "role": "age_rank"
                 }
               ]
@@ -27298,11 +27323,11 @@
                   "role": "gender_rank"
                 },
                 {
-                  "header": "年齢区分",
+                  "header": "年代区分",
                   "role": "age_category"
                 },
                 {
-                  "header": "年齡別順",
+                  "header": "年代別順",
                   "role": "age_rank"
                 }
               ]
@@ -27408,11 +27433,11 @@
                   "role": "gender_rank"
                 },
                 {
-                  "header": "年齢区分",
+                  "header": "年代区分",
                   "role": "age_category"
                 },
                 {
-                  "header": "年齡別順",
+                  "header": "年代別順",
                   "role": "age_rank"
                 }
               ]
@@ -27621,14 +27646,6 @@
                 {
                   "header": "女子順位",
                   "role": "gender_rank"
-                },
-                {
-                  "header": "年齢区分",
-                  "role": "age_category"
-                },
-                {
-                  "header": "年齡別順",
-                  "role": "age_rank"
                 }
               ]
             }
@@ -27836,14 +27853,6 @@
                 {
                   "header": "女子順位",
                   "role": "gender_rank"
-                },
-                {
-                  "header": "年齢区分",
-                  "role": "age_category"
-                },
-                {
-                  "header": "年齡別順",
-                  "role": "age_rank"
                 }
               ]
             }
@@ -28051,14 +28060,6 @@
                 {
                   "header": "女子順位",
                   "role": "gender_rank"
-                },
-                {
-                  "header": "年齢区分",
-                  "role": "age_category"
-                },
-                {
-                  "header": "年齡別順",
-                  "role": "age_rank"
                 }
               ]
             }
@@ -28266,14 +28267,6 @@
                 {
                   "header": "女子順位",
                   "role": "gender_rank"
-                },
-                {
-                  "header": "年齢区分",
-                  "role": "age_category"
-                },
-                {
-                  "header": "年齡別順",
-                  "role": "age_rank"
                 }
               ]
             }
@@ -28481,14 +28474,6 @@
                 {
                   "header": "女子順位",
                   "role": "gender_rank"
-                },
-                {
-                  "header": "年齢区分",
-                  "role": "age_category"
-                },
-                {
-                  "header": "年齡別順",
-                  "role": "age_rank"
                 }
               ]
             }
@@ -28709,6 +28694,10 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             },
@@ -28806,14 +28795,6 @@
                 {
                   "header": "女子順位",
                   "role": "gender_rank"
-                },
-                {
-                  "header": "年齢区分",
-                  "role": "age_category"
-                },
-                {
-                  "header": "年齡別順",
-                  "role": "age_rank"
                 }
               ]
             }
@@ -28924,6 +28905,10 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             },
@@ -29021,14 +29006,6 @@
                 {
                   "header": "女子順位",
                   "role": "gender_rank"
-                },
-                {
-                  "header": "年齢区分",
-                  "role": "age_category"
-                },
-                {
-                  "header": "年齡別順",
-                  "role": "age_rank"
                 }
               ]
             }
@@ -29061,24 +29038,7 @@
                 {
                   "sport": "bike",
                   "distance": 40,
-                  "columns": [
-                    {
-                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "Ｂ順",
-                      "role": "rank"
-                    },
-                    {
-                      "header": "ｽﾌﾟﾘｯﾄ",
-                      "role": "cumulative_time"
-                    },
-                    {
-                      "header": "通過",
-                      "role": "cumulative_rank"
-                    }
-                  ]
+                  "columns": []
                 },
                 {
                   "sport": "run",
@@ -29096,10 +29056,6 @@
                 }
               ],
               "meta_columns": [
-                {
-                  "header": "総合順位",
-                  "role": "overall_rank"
-                },
                 {
                   "header": "No.",
                   "role": "bib"
@@ -29125,11 +29081,11 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "男子順位",
+                  "header": "男子",
                   "role": "gender_rank"
                 },
                 {
-                  "header": "女子順位",
+                  "header": "女子",
                   "role": "gender_rank"
                 },
                 {
@@ -29139,6 +29095,14 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             },
@@ -29166,24 +29130,7 @@
                 {
                   "sport": "bike",
                   "distance": 20,
-                  "columns": [
-                    {
-                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "Ｂ順",
-                      "role": "rank"
-                    },
-                    {
-                      "header": "ｽﾌﾟﾘｯﾄ",
-                      "role": "cumulative_time"
-                    },
-                    {
-                      "header": "通過",
-                      "role": "cumulative_rank"
-                    }
-                  ]
+                  "columns": []
                 },
                 {
                   "sport": "run",
@@ -29201,10 +29148,6 @@
                 }
               ],
               "meta_columns": [
-                {
-                  "header": "総合順位",
-                  "role": "overall_rank"
-                },
                 {
                   "header": "No.",
                   "role": "bib"
@@ -29230,19 +29173,15 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "男子順位",
+                  "header": "男子",
                   "role": "gender_rank"
                 },
                 {
-                  "header": "女子順位",
+                  "header": "女子",
                   "role": "gender_rank"
                 },
                 {
-                  "header": "年齢区分",
-                  "role": "age_category"
-                },
-                {
-                  "header": "年齡別順",
+                  "header": "順位",
                   "role": "age_rank"
                 }
               ]
@@ -29470,6 +29409,10 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "ﾍﾟﾅﾙﾃｨ",
+                  "role": "penalty"
                 }
               ]
             }
@@ -29576,6 +29519,10 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "ﾍﾟﾅﾙﾃｨ",
+                  "role": "penalty"
                 }
               ]
             }
@@ -29770,6 +29717,10 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "ﾍﾟﾅﾙﾃｨ",
+                  "role": "penalty"
                 }
               ]
             }
@@ -29876,6 +29827,10 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "ﾍﾟﾅﾙﾃｨ",
+                  "role": "penalty"
                 }
               ]
             }
@@ -29982,6 +29937,14 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "ﾍﾟﾅﾙﾃｨ",
+                  "role": "penalty"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             }
@@ -30088,6 +30051,14 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "ﾍﾟﾅﾙﾃｨ",
+                  "role": "penalty"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             }
@@ -30172,7 +30143,7 @@
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
+                  "header": "都道府県",
                   "role": "residence"
                 },
                 {
@@ -30194,6 +30165,14 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "ﾍﾟﾅﾙﾃｨ",
+                  "role": "penalty"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             }
@@ -30300,6 +30279,14 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "ﾍﾟﾅﾙﾃｨ",
+                  "role": "penalty"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             }
@@ -30406,6 +30393,10 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             }
@@ -30661,6 +30652,10 @@
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
                       "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
                     }
                   ]
                 },
@@ -30671,6 +30666,18 @@
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
                       "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
                     }
                   ]
                 },
@@ -30681,13 +30688,17 @@
                     {
                       "header": "ﾗﾝﾗｯﾌﾟ",
                       "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
                     }
                   ]
                 }
               ],
               "meta_columns": [
                 {
-                  "header": "総合順位",
+                  "header": "総合 順位",
                   "role": "overall_rank"
                 },
                 {
@@ -30699,7 +30710,7 @@
                   "role": "name"
                 },
                 {
-                  "header": "年齢",
+                  "header": "年 齢",
                   "role": "age"
                 },
                 {
@@ -30707,7 +30718,7 @@
                   "role": "gender"
                 },
                 {
-                  "header": "年齢区分",
+                  "header": "年齢 区分",
                   "role": "age_category"
                 },
                 {
@@ -30715,7 +30726,19 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "年齢別順",
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "男子 順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子 順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齡 別順",
                   "role": "age_rank"
                 }
               ]
@@ -30739,6 +30762,10 @@
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
                       "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
                     }
                   ]
                 },
@@ -30749,6 +30776,18 @@
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
                       "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
                     }
                   ]
                 },
@@ -30759,13 +30798,17 @@
                     {
                       "header": "ﾗﾝﾗｯﾌﾟ",
                       "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
                     }
                   ]
                 }
               ],
               "meta_columns": [
                 {
-                  "header": "総合順位",
+                  "header": "総合 順位",
                   "role": "overall_rank"
                 },
                 {
@@ -30777,7 +30820,7 @@
                   "role": "name"
                 },
                 {
-                  "header": "年齢",
+                  "header": "年 齢",
                   "role": "age"
                 },
                 {
@@ -30785,7 +30828,7 @@
                   "role": "gender"
                 },
                 {
-                  "header": "年齢区分",
+                  "header": "年齢 区分",
                   "role": "age_category"
                 },
                 {
@@ -30793,7 +30836,19 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "年齢別順",
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "男子 順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子 順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齡 別順",
                   "role": "age_rank"
                 }
               ]
@@ -30817,6 +30872,10 @@
                     {
                       "header": "スイムラップ",
                       "role": "lap"
+                    },
+                    {
+                      "header": "S順",
+                      "role": "rank"
                     }
                   ]
                 },
@@ -30827,6 +30886,10 @@
                     {
                       "header": "バイクラップ",
                       "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
                     }
                   ]
                 },
@@ -30837,6 +30900,10 @@
                     {
                       "header": "ランラップ",
                       "role": "lap"
+                    },
+                    {
+                      "header": "R順",
+                      "role": "rank"
                     }
                   ]
                 }
@@ -30863,16 +30930,20 @@
                   "role": "gender"
                 },
                 {
-                  "header": "年齢区分",
-                  "role": "age_category"
-                },
-                {
                   "header": "総合記録",
                   "role": "total_time"
                 },
                 {
-                  "header": "年齢別順",
-                  "role": "age_rank"
+                  "header": "都道府県",
+                  "role": "residence"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
                 }
               ]
             }
@@ -30913,14 +30984,6 @@
                     {
                       "header": "B順",
                       "role": "rank"
-                    },
-                    {
-                      "header": "ｽﾌﾟﾘｯﾄ",
-                      "role": "cumulative_time"
-                    },
-                    {
-                      "header": "通過",
-                      "role": "cumulative_rank"
                     }
                   ]
                 },
@@ -31015,14 +31078,6 @@
                     {
                       "header": "B順",
                       "role": "rank"
-                    },
-                    {
-                      "header": "ｽﾌﾟﾘｯﾄ",
-                      "role": "cumulative_time"
-                    },
-                    {
-                      "header": "通過",
-                      "role": "cumulative_rank"
                     }
                   ]
                 },
@@ -31117,14 +31172,6 @@
                     {
                       "header": "B順",
                       "role": "rank"
-                    },
-                    {
-                      "header": "ｽﾌﾟﾘｯﾄ",
-                      "role": "cumulative_time"
-                    },
-                    {
-                      "header": "通過",
-                      "role": "cumulative_rank"
                     }
                   ]
                 },
@@ -31219,14 +31266,6 @@
                     {
                       "header": "B順",
                       "role": "rank"
-                    },
-                    {
-                      "header": "ｽﾌﾟﾘｯﾄ",
-                      "role": "cumulative_time"
-                    },
-                    {
-                      "header": "通過",
-                      "role": "cumulative_rank"
                     }
                   ]
                 },
@@ -31321,14 +31360,6 @@
                     {
                       "header": "B順",
                       "role": "rank"
-                    },
-                    {
-                      "header": "ｽﾌﾟﾘｯﾄ",
-                      "role": "cumulative_time"
-                    },
-                    {
-                      "header": "通過",
-                      "role": "cumulative_rank"
                     }
                   ]
                 },
@@ -31423,14 +31454,6 @@
                     {
                       "header": "B順",
                       "role": "rank"
-                    },
-                    {
-                      "header": "ｽﾌﾟﾘｯﾄ",
-                      "role": "cumulative_time"
-                    },
-                    {
-                      "header": "通過",
-                      "role": "cumulative_rank"
                     }
                   ]
                 },
@@ -31899,10 +31922,6 @@
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
-                  "role": "residence"
-                },
-                {
                   "header": "総合記録",
                   "role": "total_time"
                 },
@@ -31923,11 +31942,7 @@
                   "role": "age_rank"
                 },
                 {
-                  "header": "選手権",
-                  "role": "age_category"
-                },
-                {
-                  "header": "選手権順",
+                  "header": "選手権順位",
                   "role": "age_rank"
                 }
               ]
@@ -32151,6 +32166,10 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             }
@@ -32262,6 +32281,10 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "選手権順位",
+                  "role": "championship_rank"
                 }
               ]
             }
@@ -32392,29 +32415,12 @@
                 {
                   "sport": "swim",
                   "distance": 1.5,
-                  "columns": [
-                    {
-                      "header": "ｽｲﾑﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "Ｓ順",
-                      "role": "rank"
-                    }
-                  ]
+                  "columns": []
                 },
                 {
                   "sport": "bike",
                   "distance": 40,
                   "columns": [
-                    {
-                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "Ｂ順",
-                      "role": "rank"
-                    },
                     {
                       "header": "ｽﾌﾟﾘｯﾄ",
                       "role": "cumulative_time"
@@ -32422,22 +32428,21 @@
                     {
                       "header": "通過",
                       "role": "cumulative_rank"
+                    },
+                    {
+                      "header": "バイク",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "バイク順位",
+                      "role": "rank"
                     }
                   ]
                 },
                 {
                   "sport": "run",
                   "distance": 10,
-                  "columns": [
-                    {
-                      "header": "ﾗﾝﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "Ｒ順",
-                      "role": "rank"
-                    }
-                  ]
+                  "columns": []
                 }
               ],
               "meta_columns": [
@@ -32484,6 +32489,10 @@
                 {
                   "header": "年齢別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             }
@@ -32594,6 +32603,10 @@
                 {
                   "header": "年齢別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             }
@@ -32704,6 +32717,10 @@
                 {
                   "header": "年齢別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             }
@@ -32814,6 +32831,10 @@
                 {
                   "header": "年齢別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             }
@@ -33141,7 +33162,7 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "男子 順位",
+                  "header": "男子順位",
                   "role": "gender_rank"
                 },
                 {
@@ -33153,7 +33174,7 @@
                   "role": "age_category"
                 },
                 {
-                  "header": "年齡別順",
+                  "header": "年齢別順",
                   "role": "age_rank"
                 }
               ]
@@ -33173,16 +33194,7 @@
                 {
                   "sport": "swim",
                   "distance": 1.5,
-                  "columns": [
-                    {
-                      "header": "ｽｲﾑﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "Ｓ順",
-                      "role": "rank"
-                    }
-                  ]
+                  "columns": []
                 },
                 {
                   "sport": "bike",
@@ -33210,10 +33222,6 @@
                   "sport": "run",
                   "distance": 10,
                   "columns": [
-                    {
-                      "header": "ﾗﾝﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
                     {
                       "header": "Ｒ順",
                       "role": "rank"
@@ -33251,7 +33259,7 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "男子 順位",
+                  "header": "男子順位",
                   "role": "gender_rank"
                 },
                 {
@@ -33361,7 +33369,7 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "男子 順位",
+                  "header": "男子順位",
                   "role": "gender_rank"
                 },
                 {
@@ -33373,7 +33381,7 @@
                   "role": "age_category"
                 },
                 {
-                  "header": "年齡別順",
+                  "header": "年齢別順",
                   "role": "age_rank"
                 }
               ]
@@ -33393,16 +33401,7 @@
                 {
                   "sport": "swim",
                   "distance": 1.5,
-                  "columns": [
-                    {
-                      "header": "ｽｲﾑﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "Ｓ順",
-                      "role": "rank"
-                    }
-                  ]
+                  "columns": []
                 },
                 {
                   "sport": "bike",
@@ -33429,16 +33428,7 @@
                 {
                   "sport": "run",
                   "distance": 10,
-                  "columns": [
-                    {
-                      "header": "ﾗﾝﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "Ｒ順",
-                      "role": "rank"
-                    }
-                  ]
+                  "columns": []
                 }
               ],
               "meta_columns": [
@@ -33471,7 +33461,7 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "男子 順位",
+                  "header": "男子順位",
                   "role": "gender_rank"
                 },
                 {
@@ -33483,7 +33473,7 @@
                   "role": "age_category"
                 },
                 {
-                  "header": "年齡別順",
+                  "header": "年齢別順",
                   "role": "age_rank"
                 }
               ]
@@ -33581,7 +33571,7 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "男子 順位",
+                  "header": "男子順位",
                   "role": "gender_rank"
                 },
                 {
@@ -33593,7 +33583,7 @@
                   "role": "age_category"
                 },
                 {
-                  "header": "年齡別順",
+                  "header": "年齢別順",
                   "role": "age_rank"
                 }
               ]
@@ -33691,7 +33681,7 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "男子 順位",
+                  "header": "男子順位",
                   "role": "gender_rank"
                 },
                 {
@@ -33703,7 +33693,7 @@
                   "role": "age_category"
                 },
                 {
-                  "header": "年齡別順",
+                  "header": "年齢別順",
                   "role": "age_rank"
                 }
               ]
@@ -34559,6 +34549,10 @@
                 {
                   "header": "総合記録",
                   "role": "total_time"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             },
@@ -34640,6 +34634,10 @@
                 {
                   "header": "総合記録",
                   "role": "total_time"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             },
@@ -37247,16 +37245,8 @@
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
-                  "role": "residence"
-                },
-                {
                   "header": "総合記録",
                   "role": "total_time"
-                },
-                {
-                  "header": "PT",
-                  "role": "penalty"
                 },
                 {
                   "header": "男子 順位",
@@ -37267,12 +37257,20 @@
                   "role": "gender_rank"
                 },
                 {
-                  "header": "年齢区分",
+                  "header": "年齢 区分",
                   "role": "age_category"
                 },
                 {
                   "header": "年齡 別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "JTU 登録地",
+                  "role": "residence"
+                },
+                {
+                  "header": "PNLT",
+                  "role": "penalty"
                 }
               ],
               "description": "2019年トライアスロン伊良湖大会 Aタイプ（ミドル）"
@@ -37364,10 +37362,6 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "PT",
-                  "role": "penalty"
-                },
-                {
                   "header": "男子 順位",
                   "role": "gender_rank"
                 },
@@ -37376,12 +37370,16 @@
                   "role": "gender_rank"
                 },
                 {
-                  "header": "年齢区分",
+                  "header": "年齢 区分",
                   "role": "age_category"
                 },
                 {
                   "header": "年齡 別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "PNLT",
+                  "role": "penalty"
                 }
               ],
               "description": "2019年トライアスロン伊良湖大会 Bタイプ（オリンピック）"
@@ -37470,16 +37468,8 @@
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
-                  "role": "residence"
-                },
-                {
                   "header": "総合記録",
                   "role": "total_time"
-                },
-                {
-                  "header": "PT",
-                  "role": "penalty"
                 },
                 {
                   "header": "男子 順位",
@@ -37490,12 +37480,16 @@
                   "role": "gender_rank"
                 },
                 {
-                  "header": "年齢区分",
+                  "header": "年齢 区分",
                   "role": "age_category"
                 },
                 {
                   "header": "年齡 別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "PNLT",
+                  "role": "penalty"
                 }
               ],
               "description": "2018年トライアスロン伊良湖大会 Aタイプ（ミドル）"
@@ -37579,16 +37573,8 @@
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
-                  "role": "residence"
-                },
-                {
                   "header": "総合記録",
                   "role": "total_time"
-                },
-                {
-                  "header": "PT",
-                  "role": "penalty"
                 },
                 {
                   "header": "男子 順位",
@@ -37599,12 +37585,16 @@
                   "role": "gender_rank"
                 },
                 {
-                  "header": "年齢区分",
+                  "header": "年齢 区分",
                   "role": "age_category"
                 },
                 {
                   "header": "年齡 別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "PNLT",
+                  "role": "penalty"
                 }
               ],
               "description": "2018年トライアスロン伊良湖大会 Bタイプ（オリンピック）"
@@ -37693,16 +37683,8 @@
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
-                  "role": "residence"
-                },
-                {
                   "header": "総合記録",
                   "role": "total_time"
-                },
-                {
-                  "header": "PT",
-                  "role": "penalty"
                 },
                 {
                   "header": "男子 順位",
@@ -37713,12 +37695,16 @@
                   "role": "gender_rank"
                 },
                 {
-                  "header": "年齢区分",
+                  "header": "年齢 区分",
                   "role": "age_category"
                 },
                 {
                   "header": "年齡 別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "PNLT",
+                  "role": "penalty"
                 }
               ],
               "description": "2017年トライアスロン伊良湖大会 Aタイプ（ミドル）"
@@ -37802,16 +37788,8 @@
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
-                  "role": "residence"
-                },
-                {
                   "header": "総合記録",
                   "role": "total_time"
-                },
-                {
-                  "header": "PT",
-                  "role": "penalty"
                 },
                 {
                   "header": "男子 順位",
@@ -37822,12 +37800,16 @@
                   "role": "gender_rank"
                 },
                 {
-                  "header": "年齢区分",
+                  "header": "年齢 区分",
                   "role": "age_category"
                 },
                 {
                   "header": "年齡 別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "PNLT",
+                  "role": "penalty"
                 }
               ],
               "description": "2017年トライアスロン伊良湖大会 Bタイプ（オリンピック）"
@@ -37916,32 +37898,20 @@
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
-                  "role": "residence"
-                },
-                {
                   "header": "総合記録",
                   "role": "total_time"
                 },
                 {
-                  "header": "PT",
-                  "role": "penalty"
-                },
-                {
-                  "header": "男子 順位",
-                  "role": "gender_rank"
-                },
-                {
-                  "header": "女子 順位",
-                  "role": "gender_rank"
-                },
-                {
-                  "header": "年齢区分",
+                  "header": "年齢 区分",
                   "role": "age_category"
                 },
                 {
                   "header": "年齡 別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "PNLT",
+                  "role": "penalty"
                 }
               ],
               "description": "2016年トライアスロン伊良湖大会 Aタイプ（ミドル）"
@@ -38025,16 +37995,8 @@
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
-                  "role": "residence"
-                },
-                {
                   "header": "総合記録",
                   "role": "total_time"
-                },
-                {
-                  "header": "PT",
-                  "role": "penalty"
                 },
                 {
                   "header": "男子 順位",
@@ -38045,12 +38007,16 @@
                   "role": "gender_rank"
                 },
                 {
-                  "header": "年齢区分",
+                  "header": "年齢 区分",
                   "role": "age_category"
                 },
                 {
                   "header": "年齡 別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "PNLT",
+                  "role": "penalty"
                 }
               ],
               "description": "2016年トライアスロン伊良湖大会 Bタイプ（オリンピック）"
@@ -38119,7 +38085,7 @@
               ],
               "meta_columns": [
                 {
-                  "header": "総合 順位",
+                  "header": "総合順位",
                   "role": "overall_rank"
                 },
                 {
@@ -38151,11 +38117,11 @@
                   "role": "penalty"
                 },
                 {
-                  "header": "男子 順位",
+                  "header": "男子順位",
                   "role": "gender_rank"
                 },
                 {
-                  "header": "女子 順位",
+                  "header": "女子順位",
                   "role": "gender_rank"
                 },
                 {
@@ -38163,7 +38129,7 @@
                   "role": "age_category"
                 },
                 {
-                  "header": "年齡 別順",
+                  "header": "年齡別順",
                   "role": "age_rank"
                 }
               ],
@@ -38228,7 +38194,7 @@
               ],
               "meta_columns": [
                 {
-                  "header": "総合 順位",
+                  "header": "総合順位",
                   "role": "overall_rank"
                 },
                 {
@@ -38260,11 +38226,11 @@
                   "role": "penalty"
                 },
                 {
-                  "header": "男子 順位",
+                  "header": "男子順位",
                   "role": "gender_rank"
                 },
                 {
-                  "header": "女子 順位",
+                  "header": "女子順位",
                   "role": "gender_rank"
                 },
                 {
@@ -38272,7 +38238,7 @@
                   "role": "age_category"
                 },
                 {
-                  "header": "年齡 別順",
+                  "header": "年齡別順",
                   "role": "age_rank"
                 }
               ],
@@ -39343,8 +39309,12 @@
                   "distance": 1.5,
                   "columns": [
                     {
-                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "header": "SWIM",
                       "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
                     }
                   ]
                 },
@@ -39353,8 +39323,20 @@
                   "distance": 40,
                   "columns": [
                     {
-                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "header": "バイク",
                       "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
                     }
                   ]
                 },
@@ -39363,8 +39345,12 @@
                   "distance": 10,
                   "columns": [
                     {
-                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "header": "ラン",
                       "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
                     }
                   ]
                 }
@@ -39401,6 +39387,18 @@
                 {
                   "header": "年齢別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
                 }
               ]
             }
@@ -44270,6 +44268,14 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "加算分",
+                  "role": "penalty"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             }
@@ -44405,7 +44411,7 @@
                   "distance": 1.5,
                   "columns": [
                     {
-                      "header": "SWIM",
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
                       "role": "lap"
                     },
                     {
@@ -44419,7 +44425,7 @@
                   "distance": 40,
                   "columns": [
                     {
-                      "header": "バイク",
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
                       "role": "lap"
                     },
                     {
@@ -44441,7 +44447,7 @@
                   "distance": 10,
                   "columns": [
                     {
-                      "header": "ラン",
+                      "header": "ﾗﾝﾗｯﾌﾟ",
                       "role": "lap"
                     },
                     {
@@ -44473,7 +44479,7 @@
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
+                  "header": "登録地",
                   "role": "residence"
                 },
                 {
@@ -44489,12 +44495,16 @@
                   "role": "gender_rank"
                 },
                 {
-                  "header": "年齢区分",
+                  "header": "区分",
                   "role": "age_category"
                 },
                 {
-                  "header": "年齢別順",
+                  "header": "区分順位",
                   "role": "age_rank"
+                },
+                {
+                  "header": "PNLT",
+                  "role": "penalty"
                 }
               ]
             }
@@ -44515,7 +44525,7 @@
                   "distance": 1.5,
                   "columns": [
                     {
-                      "header": "SWIM",
+                      "header": "スイム",
                       "role": "lap"
                     },
                     {
@@ -44563,10 +44573,6 @@
               ],
               "meta_columns": [
                 {
-                  "header": "総合順位",
-                  "role": "overall_rank"
-                },
-                {
                   "header": "No.",
                   "role": "bib"
                 },
@@ -44591,19 +44597,19 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "男子順位",
-                  "role": "gender_rank"
-                },
-                {
-                  "header": "女子順位",
-                  "role": "gender_rank"
-                },
-                {
                   "header": "年齢区分",
                   "role": "age_category"
                 },
                 {
-                  "header": "年齢別順",
+                  "header": "順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "PNLT",
+                  "role": "penalty"
+                },
+                {
+                  "header": "年齡別順",
                   "role": "age_rank"
                 }
               ]
@@ -44625,7 +44631,7 @@
                   "distance": 1.5,
                   "columns": [
                     {
-                      "header": "SWIM",
+                      "header": "スイム",
                       "role": "lap"
                     },
                     {
@@ -44701,19 +44707,15 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "男子順位",
-                  "role": "gender_rank"
-                },
-                {
-                  "header": "女子順位",
-                  "role": "gender_rank"
-                },
-                {
                   "header": "年齢区分",
                   "role": "age_category"
                 },
                 {
-                  "header": "年齢別順",
+                  "header": "PNLT",
+                  "role": "penalty"
+                },
+                {
+                  "header": "年齡別順",
                   "role": "age_rank"
                 }
               ]
@@ -44735,7 +44737,7 @@
                   "distance": 1.5,
                   "columns": [
                     {
-                      "header": "SWIM",
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
                       "role": "lap"
                     },
                     {
@@ -44749,7 +44751,7 @@
                   "distance": 40,
                   "columns": [
                     {
-                      "header": "バイク",
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
                       "role": "lap"
                     },
                     {
@@ -44771,7 +44773,7 @@
                   "distance": 10,
                   "columns": [
                     {
-                      "header": "ラン",
+                      "header": "ﾗﾝﾗｯﾌﾟ",
                       "role": "lap"
                     },
                     {
@@ -44823,7 +44825,7 @@
                   "role": "age_category"
                 },
                 {
-                  "header": "年齢別順",
+                  "header": "年齡別順",
                   "role": "age_rank"
                 }
               ]
@@ -44845,7 +44847,7 @@
                   "distance": 1.5,
                   "columns": [
                     {
-                      "header": "SWIM",
+                      "header": "スイム",
                       "role": "lap"
                     },
                     {
@@ -44921,19 +44923,15 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "男子順位",
-                  "role": "gender_rank"
-                },
-                {
-                  "header": "女子順位",
-                  "role": "gender_rank"
-                },
-                {
                   "header": "年齢区分",
                   "role": "age_category"
                 },
                 {
-                  "header": "年齢別順",
+                  "header": "PNLT",
+                  "role": "penalty"
+                },
+                {
+                  "header": "年齡別順",
                   "role": "age_rank"
                 }
               ]
@@ -44955,7 +44953,7 @@
                   "distance": 1.5,
                   "columns": [
                     {
-                      "header": "SWIM",
+                      "header": "スイム",
                       "role": "lap"
                     },
                     {
@@ -45031,19 +45029,15 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "男子順位",
-                  "role": "gender_rank"
-                },
-                {
-                  "header": "女子順位",
-                  "role": "gender_rank"
-                },
-                {
                   "header": "年齢区分",
                   "role": "age_category"
                 },
                 {
-                  "header": "年齢別順",
+                  "header": "PNLT",
+                  "role": "penalty"
+                },
+                {
+                  "header": "年齡別順",
                   "role": "age_rank"
                 }
               ]
@@ -45561,7 +45555,7 @@
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
+                  "header": "登録",
                   "role": "residence"
                 },
                 {
@@ -45671,7 +45665,7 @@
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
+                  "header": "登録",
                   "role": "residence"
                 },
                 {
@@ -45781,7 +45775,7 @@
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
+                  "header": "登録",
                   "role": "residence"
                 },
                 {
@@ -45891,7 +45885,7 @@
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
+                  "header": "登録",
                   "role": "residence"
                 },
                 {
@@ -46270,20 +46264,12 @@
                   "role": "overall_rank"
                 },
                 {
-                  "header": "レースNo.",
+                  "header": "№",
                   "role": "bib"
                 },
                 {
-                  "header": "氏名（漢字）",
+                  "header": "⽒名",
                   "role": "name"
-                },
-                {
-                  "header": "年齢",
-                  "role": "age"
-                },
-                {
-                  "header": "所属（地区）",
-                  "role": "residence"
                 },
                 {
                   "header": "TOTAL",
@@ -46340,19 +46326,15 @@
                   "role": "overall_rank"
                 },
                 {
-                  "header": "レースNo.",
+                  "header": "№",
                   "role": "bib"
                 },
                 {
-                  "header": "氏名（漢字）",
+                  "header": "⽒名",
                   "role": "name"
                 },
                 {
-                  "header": "年齢",
-                  "role": "age"
-                },
-                {
-                  "header": "所属（地区）",
+                  "header": "居住地",
                   "role": "residence"
                 },
                 {
@@ -46378,8 +46360,12 @@
                   "distance": 1.5,
                   "columns": [
                     {
-                      "header": "SWIM",
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
                       "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
                     }
                   ]
                 },
@@ -46388,8 +46374,20 @@
                   "distance": 40,
                   "columns": [
                     {
-                      "header": "BIKE",
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
                       "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
                     }
                   ]
                 },
@@ -46398,23 +46396,23 @@
                   "distance": 10,
                   "columns": [
                     {
-                      "header": "RUN",
+                      "header": "ﾗﾝﾗｯﾌﾟ",
                       "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
                     }
                   ]
                 }
               ],
               "meta_columns": [
                 {
-                  "header": "順位",
-                  "role": "overall_rank"
-                },
-                {
-                  "header": "レースNo.",
+                  "header": "No.",
                   "role": "bib"
                 },
                 {
-                  "header": "氏名（漢字）",
+                  "header": "氏名",
                   "role": "name"
                 },
                 {
@@ -46422,12 +46420,36 @@
                   "role": "age"
                 },
                 {
-                  "header": "所属（地区）",
+                  "header": "居住地",
                   "role": "residence"
                 },
                 {
-                  "header": "TOTAL",
+                  "header": "総合記録",
                   "role": "total_time"
+                },
+                {
+                  "header": "総合 順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "男子",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "区分別 順",
+                  "role": "age_rank"
                 }
               ]
             }
@@ -47920,10 +47942,6 @@
                   "role": "gender"
                 },
                 {
-                  "header": "登録",
-                  "role": "residence"
-                },
-                {
                   "header": "総合記録",
                   "role": "total_time"
                 },
@@ -47942,6 +47960,10 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "都道府県",
+                  "role": "residence"
                 }
               ]
             }
@@ -48030,10 +48052,6 @@
                   "role": "gender"
                 },
                 {
-                  "header": "登録",
-                  "role": "residence"
-                },
-                {
                   "header": "総合記録",
                   "role": "total_time"
                 },
@@ -48052,6 +48070,10 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "都道府県",
+                  "role": "residence"
                 }
               ]
             }
@@ -48140,10 +48162,6 @@
                   "role": "gender"
                 },
                 {
-                  "header": "登録",
-                  "role": "residence"
-                },
-                {
                   "header": "総合記録",
                   "role": "total_time"
                 },
@@ -48162,6 +48180,10 @@
                 {
                   "header": "年齡別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "都道府県",
+                  "role": "residence"
                 }
               ]
             }
@@ -50619,6 +50641,18 @@
                 {
                   "header": "区分順位",
                   "role": "age_rank"
+                },
+                {
+                  "header": "加算秒",
+                  "role": "penalty"
+                },
+                {
+                  "header": "JTU登録地",
+                  "role": "residence"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             }
@@ -50734,6 +50768,10 @@
                 {
                   "header": "JTU登録地",
                   "role": "residence"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             }
@@ -50844,6 +50882,14 @@
                 {
                   "header": "区分順位",
                   "role": "age_rank"
+                },
+                {
+                  "header": "加算秒",
+                  "role": "penalty"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
                 }
               ]
             }
@@ -57695,7 +57741,7 @@
                   "role": "name"
                 },
                 {
-                  "header": "No.",
+                  "header": "№",
                   "role": "bib"
                 },
                 {
@@ -57761,7 +57807,7 @@
                   "role": "name"
                 },
                 {
-                  "header": "No.",
+                  "header": "№",
                   "role": "bib"
                 },
                 {
@@ -58515,10 +58561,6 @@
                 {
                   "header": "総合記録",
                   "role": "total_time"
-                },
-                {
-                  "header": "ﾍﾟﾅﾙﾃｨ",
-                  "role": "penalty"
                 }
               ]
             }
@@ -62944,11 +62986,11 @@
                   "role": "gender_rank"
                 },
                 {
-                  "header": "年齢区分",
+                  "header": "年代区分",
                   "role": "age_category"
                 },
                 {
-                  "header": "年齡別順",
+                  "header": "年代順位",
                   "role": "age_rank"
                 }
               ],
@@ -63047,14 +63089,6 @@
                 {
                   "header": "女子順位",
                   "role": "gender_rank"
-                },
-                {
-                  "header": "区分",
-                  "role": "age_category"
-                },
-                {
-                  "header": "区分順位",
-                  "role": "age_rank"
                 }
               ],
               "description": "2024年仙台国際トライアスロン スプリント"
@@ -63159,11 +63193,11 @@
                   "role": "gender_rank"
                 },
                 {
-                  "header": "年齢区分",
+                  "header": "年代区分",
                   "role": "age_category"
                 },
                 {
-                  "header": "年齡別順",
+                  "header": "年代別順",
                   "role": "age_rank"
                 }
               ],
@@ -63262,14 +63296,6 @@
                 {
                   "header": "女子順位",
                   "role": "gender_rank"
-                },
-                {
-                  "header": "区分",
-                  "role": "age_category"
-                },
-                {
-                  "header": "区分順位",
-                  "role": "age_rank"
                 }
               ],
               "description": "2023年仙台国際トライアスロン スプリント"
@@ -65577,16 +65603,7 @@
                 {
                   "sport": "swim",
                   "distance": 1.5,
-                  "columns": [
-                    {
-                      "header": "ｽｲﾑﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "Ｓ順",
-                      "role": "rank"
-                    }
-                  ]
+                  "columns": []
                 },
                 {
                   "sport": "bike",
@@ -65613,16 +65630,7 @@
                 {
                   "sport": "run",
                   "distance": 10,
-                  "columns": [
-                    {
-                      "header": "ﾗﾝﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "Ｒ順",
-                      "role": "rank"
-                    }
-                  ]
+                  "columns": []
                 }
               ],
               "meta_columns": [
@@ -65977,15 +65985,15 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "男子順位",
+                  "header": "男子",
                   "role": "gender_rank"
                 },
                 {
-                  "header": "女子順位",
+                  "header": "女子",
                   "role": "gender_rank"
                 },
                 {
-                  "header": "年齢区分",
+                  "header": "区分",
                   "role": "age_category"
                 },
                 {
@@ -69177,10 +69185,6 @@
                   "role": "gender"
                 },
                 {
-                  "header": "登録地",
-                  "role": "residence"
-                },
-                {
                   "header": "総合記録",
                   "role": "total_time"
                 },
@@ -69199,6 +69203,10 @@
                 {
                   "header": "年齢別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "所属／登録",
+                  "role": "residence"
                 }
               ]
             }
@@ -69288,10 +69296,6 @@
                   "role": "gender"
                 },
                 {
-                  "header": "登録地",
-                  "role": "residence"
-                },
-                {
                   "header": "総合記録",
                   "role": "total_time"
                 },
@@ -69310,6 +69314,10 @@
                 {
                   "header": "年齢別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "所属／登録",
+                  "role": "residence"
                 }
               ]
             }
@@ -69351,14 +69359,6 @@
                     {
                       "header": "Ｂ順",
                       "role": "rank"
-                    },
-                    {
-                      "header": "ｽﾌﾟﾘｯﾄ",
-                      "role": "cumulative_time"
-                    },
-                    {
-                      "header": "通過",
-                      "role": "cumulative_rank"
                     }
                   ]
                 },
@@ -69399,10 +69399,6 @@
                   "role": "gender"
                 },
                 {
-                  "header": "登録地",
-                  "role": "residence"
-                },
-                {
                   "header": "総合記録",
                   "role": "total_time"
                 },
@@ -69421,6 +69417,10 @@
                 {
                   "header": "年齢別順",
                   "role": "age_rank"
+                },
+                {
+                  "header": "所属／登録",
+                  "role": "residence"
                 }
               ]
             }
@@ -69645,12 +69645,16 @@
                   "role": "gender_rank"
                 },
                 {
-                  "header": "年齢区分",
+                  "header": "区分",
                   "role": "age_category"
                 },
                 {
-                  "header": "年齡別順",
+                  "header": "区分順位",
                   "role": "age_rank"
+                },
+                {
+                  "header": "PNLT",
+                  "role": "penalty"
                 }
               ]
             }
@@ -69669,16 +69673,7 @@
                 {
                   "sport": "swim",
                   "distance": 1.5,
-                  "columns": [
-                    {
-                      "header": "ｽｲﾑﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "Ｓ順",
-                      "role": "rank"
-                    }
-                  ]
+                  "columns": []
                 },
                 {
                   "sport": "bike",
@@ -69705,16 +69700,7 @@
                 {
                   "sport": "run",
                   "distance": 10,
-                  "columns": [
-                    {
-                      "header": "ﾗﾝﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "Ｒ順",
-                      "role": "rank"
-                    }
-                  ]
+                  "columns": []
                 }
               ],
               "meta_columns": [
@@ -69959,7 +69945,7 @@
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
+                  "header": "都道府県",
                   "role": "residence"
                 },
                 {
@@ -70069,7 +70055,7 @@
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
+                  "header": "都道府県",
                   "role": "residence"
                 },
                 {
@@ -70179,10 +70165,6 @@
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
-                  "role": "residence"
-                },
-                {
                   "header": "総合記録",
                   "role": "total_time"
                 },
@@ -70195,12 +70177,16 @@
                   "role": "gender_rank"
                 },
                 {
-                  "header": "年齢区分",
-                  "role": "age_category"
+                  "header": "年代順位",
+                  "role": "age_rank"
                 },
                 {
-                  "header": "年齡別順",
-                  "role": "age_rank"
+                  "header": "JTU登録地",
+                  "role": "residence"
+                },
+                {
+                  "header": "年代 区分",
+                  "role": "age_category"
                 }
               ]
             }
@@ -70289,7 +70275,7 @@
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
+                  "header": "都道府県",
                   "role": "residence"
                 },
                 {
@@ -70766,16 +70752,7 @@
                 {
                   "sport": "swim",
                   "distance": 1.5,
-                  "columns": [
-                    {
-                      "header": "ｽｲﾑﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "S順",
-                      "role": "rank"
-                    }
-                  ]
+                  "columns": []
                 },
                 {
                   "sport": "bike",
@@ -70803,10 +70780,6 @@
                   "sport": "run",
                   "distance": 10,
                   "columns": [
-                    {
-                      "header": "ﾗﾝﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
                     {
                       "header": "R順",
                       "role": "rank"
@@ -70980,10 +70953,6 @@
                   "distance": 1.5,
                   "columns": [
                     {
-                      "header": "ｽｲﾑﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
-                    {
                       "header": "S順",
                       "role": "rank"
                     }
@@ -71015,10 +70984,6 @@
                   "sport": "run",
                   "distance": 10,
                   "columns": [
-                    {
-                      "header": "ﾗﾝﾗｯﾌﾟ",
-                      "role": "lap"
-                    },
                     {
                       "header": "R順",
                       "role": "rank"
@@ -71134,10 +71099,6 @@
               ],
               "meta_columns": [
                 {
-                  "header": "順位",
-                  "role": "overall_rank"
-                },
-                {
                   "header": "No.",
                   "role": "bib"
                 },
@@ -71154,10 +71115,6 @@
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
-                  "role": "residence"
-                },
-                {
                   "header": "総合記録",
                   "role": "total_time"
                 },
@@ -71172,6 +71129,10 @@
                 {
                   "header": "ﾊﾝﾃﾞ記録",
                   "role": "status"
+                },
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
                 }
               ]
             }
@@ -71240,10 +71201,6 @@
               ],
               "meta_columns": [
                 {
-                  "header": "順位",
-                  "role": "overall_rank"
-                },
-                {
                   "header": "No.",
                   "role": "bib"
                 },
@@ -71260,10 +71217,6 @@
                   "role": "gender"
                 },
                 {
-                  "header": "居住地",
-                  "role": "residence"
-                },
-                {
                   "header": "総合記録",
                   "role": "total_time"
                 },
@@ -71278,6 +71231,10 @@
                 {
                   "header": "ﾊﾝﾃﾞ記録",
                   "role": "status"
+                },
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
                 }
               ]
             }
@@ -71401,12 +71358,12 @@
                   "distance": 0.75,
                   "columns": [
                     {
-                      "header": "スイムラップ",
-                      "role": "lap"
-                    },
-                    {
                       "header": "S順",
                       "role": "rank"
+                    },
+                    {
+                      "header": "スイム",
+                      "role": "lap"
                     }
                   ]
                 },
@@ -71415,20 +71372,12 @@
                   "distance": 20,
                   "columns": [
                     {
-                      "header": "バイクラップ",
-                      "role": "lap"
-                    },
-                    {
                       "header": "B順",
                       "role": "rank"
                     },
                     {
-                      "header": "スプリット",
-                      "role": "cumulative_time"
-                    },
-                    {
-                      "header": "通過",
-                      "role": "cumulative_rank"
+                      "header": "バイク",
+                      "role": "lap"
                     }
                   ]
                 },
@@ -71437,12 +71386,12 @@
                   "distance": 5,
                   "columns": [
                     {
-                      "header": "ランラップ",
-                      "role": "lap"
-                    },
-                    {
                       "header": "R順",
                       "role": "rank"
+                    },
+                    {
+                      "header": "ラン",
+                      "role": "lap"
                     }
                   ]
                 }
@@ -71469,11 +71418,11 @@
                   "role": "total_time"
                 },
                 {
-                  "header": "男子",
-                  "role": "gender_rank"
+                  "header": "年齢",
+                  "role": "age"
                 },
                 {
-                  "header": "女子",
+                  "header": "男女順位",
                   "role": "gender_rank"
                 }
               ]
@@ -71504,12 +71453,8 @@
                   "distance": 1.5,
                   "columns": [
                     {
-                      "header": "スイムラップ",
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
                       "role": "lap"
-                    },
-                    {
-                      "header": "S順",
-                      "role": "rank"
                     }
                   ]
                 },
@@ -71518,20 +71463,8 @@
                   "distance": 40,
                   "columns": [
                     {
-                      "header": "バイクラップ",
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
                       "role": "lap"
-                    },
-                    {
-                      "header": "B順",
-                      "role": "rank"
-                    },
-                    {
-                      "header": "スプリット",
-                      "role": "cumulative_time"
-                    },
-                    {
-                      "header": "通過",
-                      "role": "cumulative_rank"
                     }
                   ]
                 },
@@ -71540,12 +71473,8 @@
                   "distance": 10,
                   "columns": [
                     {
-                      "header": "ランラップ",
+                      "header": "ﾗﾝﾗｯﾌﾟ",
                       "role": "lap"
-                    },
-                    {
-                      "header": "R順",
-                      "role": "rank"
                     }
                   ]
                 }
@@ -71572,8 +71501,16 @@
                   "role": "gender"
                 },
                 {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
                   "header": "総合記録",
                   "role": "total_time"
+                },
+                {
+                  "header": "男女",
+                  "role": "gender_rank"
                 }
               ]
             }
@@ -71594,11 +71531,11 @@
                   "distance": 1.5,
                   "columns": [
                     {
-                      "header": "スイムラップ",
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
                       "role": "lap"
                     },
                     {
-                      "header": "S順",
+                      "header": "Ｓ順",
                       "role": "rank"
                     }
                   ]
@@ -71608,15 +71545,15 @@
                   "distance": 40,
                   "columns": [
                     {
-                      "header": "バイクラップ",
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
                       "role": "lap"
                     },
                     {
-                      "header": "B順",
+                      "header": "Ｂ順",
                       "role": "rank"
                     },
                     {
-                      "header": "スプリット",
+                      "header": "ｽﾌﾟﾘｯﾄ",
                       "role": "cumulative_time"
                     },
                     {
@@ -71630,11 +71567,11 @@
                   "distance": 10,
                   "columns": [
                     {
-                      "header": "ランラップ",
+                      "header": "ﾗﾝﾗｯﾌﾟ",
                       "role": "lap"
                     },
                     {
-                      "header": "R順",
+                      "header": "Ｒ順",
                       "role": "rank"
                     }
                   ]
@@ -71662,8 +71599,16 @@
                   "role": "gender"
                 },
                 {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
                   "header": "総合記録",
                   "role": "total_time"
+                },
+                {
+                  "header": "男女",
+                  "role": "gender_rank"
                 }
               ]
             }
@@ -71747,6 +71692,10 @@
                 {
                   "header": "総合記録",
                   "role": "total_time"
+                },
+                {
+                  "header": "備考",
+                  "role": "note"
                 }
               ]
             }
@@ -71821,6 +71770,10 @@
                 {
                   "header": "総合記録",
                   "role": "total_time"
+                },
+                {
+                  "header": "備考",
+                  "role": "note"
                 }
               ]
             }
@@ -71895,6 +71848,10 @@
                 {
                   "header": "総合記録",
                   "role": "total_time"
+                },
+                {
+                  "header": "備考",
+                  "role": "note"
                 }
               ]
             }
@@ -71969,6 +71926,10 @@
                 {
                   "header": "総合記録",
                   "role": "total_time"
+                },
+                {
+                  "header": "備考",
+                  "role": "note"
                 }
               ]
             }
@@ -72043,6 +72004,10 @@
                 {
                   "header": "総合記録",
                   "role": "total_time"
+                },
+                {
+                  "header": "備考",
+                  "role": "note"
                 }
               ]
             }
@@ -72117,6 +72082,10 @@
                 {
                   "header": "総合記録",
                   "role": "total_time"
+                },
+                {
+                  "header": "備考",
+                  "role": "note"
                 }
               ]
             }
@@ -72191,6 +72160,10 @@
                 {
                   "header": "総合記録",
                   "role": "total_time"
+                },
+                {
+                  "header": "備考",
+                  "role": "note"
                 }
               ]
             }
@@ -72265,6 +72238,10 @@
                 {
                   "header": "総合記録",
                   "role": "total_time"
+                },
+                {
+                  "header": "備考",
+                  "role": "note"
                 }
               ]
             }
@@ -72339,6 +72316,10 @@
                 {
                   "header": "総合記録",
                   "role": "total_time"
+                },
+                {
+                  "header": "備考",
+                  "role": "note"
                 }
               ]
             }
@@ -72413,6 +72394,10 @@
                 {
                   "header": "総合記録",
                   "role": "total_time"
+                },
+                {
+                  "header": "備考",
+                  "role": "note"
                 }
               ]
             }
@@ -72487,6 +72472,10 @@
                 {
                   "header": "総合記録",
                   "role": "total_time"
+                },
+                {
+                  "header": "備考",
+                  "role": "note"
                 }
               ]
             }
