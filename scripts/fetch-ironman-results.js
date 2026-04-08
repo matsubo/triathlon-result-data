@@ -20,9 +20,11 @@ const args = process.argv.slice(2);
 const dryRun = args.includes("--dry-run");
 const raceIdx = args.indexOf("--race");
 const raceFilter = raceIdx !== -1 ? args[raceIdx + 1] : null;
+const inputIdx = args.indexOf("--input");
+const inputFile = inputIdx !== -1 ? args[inputIdx + 1] : "ironman-subevent-ids.json";
 
 // Load subevent IDs
-const subeventsPath = join(__dirname, "ironman-subevent-ids.json");
+const subeventsPath = join(__dirname, inputFile);
 const subevents = JSON.parse(readFileSync(subeventsPath, "utf-8"));
 
 // Load race-info to find TSV paths and year mappings

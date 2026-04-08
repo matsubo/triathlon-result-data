@@ -1,0 +1,170 @@
+{
+  "ironman_minami_hokkaido_2024": {
+    "event_uuid": "4cdb1049-4f27-4e32-b49d-4fc9ca73c2fb",
+    "subevent_uuid": "b6916cea-30a0-4eba-b37d-c1ba186fb004",
+    "year": 2024,
+    "name": "2024 IRONMAN Japan South Hokkaido"
+  },
+  "ironman_south_africa_2024": {
+    "event_uuid": "60accc34-83fe-e111-aa75-005056956277",
+    "subevent_uuid": "fd87009d-506c-40f6-bf1e-6d8b94d34d3b",
+    "year": 2024,
+    "name": "2024 IRONMAN South Africa"
+  },
+  "ironman_texas_2024": {
+    "event_uuid": "d998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "86a0e55c-989f-4d25-bfff-cfb49e044797",
+    "year": 2024,
+    "name": "2024 IRONMAN Texas"
+  },
+  "ironman_australia_2024": {
+    "event_uuid": "a598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "a0a601f2-a5ef-45dd-8001-faea87c3ad10",
+    "year": 2024,
+    "name": "2024 IRONMAN Australia"
+  },
+  "ironman_austria_2024": {
+    "event_uuid": "e6b03b63-dbb0-e111-80ae-005056956277",
+    "subevent_uuid": "74f7a320-3cb3-4e1f-a860-faebaa6e0e61",
+    "year": 2024,
+    "name": "2024 IRONMAN Kaernten-Klagenfurt, Austria"
+  },
+  "ironman_lanzarote_2024": {
+    "event_uuid": "c598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "182022fd-4f7a-41b1-a636-b3d6da402ec3",
+    "year": 2024,
+    "name": "2024 IRONMAN Lanzarote"
+  },
+  "ironman_brazil_2024": {
+    "event_uuid": "a798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "a6de1990-93cb-42f1-aaf9-670dbc95ad70",
+    "year": 2024,
+    "name": "2024 IRONMAN Brazil"
+  },
+  "ironman_cairns_2024": {
+    "event_uuid": "6a6e11d2-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "c0a881f6-dead-4fdf-9dd3-cebd6fa4b83b",
+    "year": 2024,
+    "name": "2024 IRONMAN Cairns"
+  },
+  "ironman_frankfurt_2024": {
+    "event_uuid": "b798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "d3e4c293-9d14-4be0-9167-d9f6b886f26d",
+    "year": 2024,
+    "name": "2024 IRONMAN Frankfurt"
+  },
+  "ironman_france_2024": {
+    "event_uuid": "bb98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "66511861-b71e-44fd-8c65-cd282323354c",
+    "year": 2024,
+    "name": "2024 IRONMAN France Nice"
+  },
+  "ironman_hamburg_2024": {
+    "event_uuid": "0ed71b3d-6974-e611-9410-005056951bf1",
+    "subevent_uuid": "7aeeee79-b2fc-4bbd-b723-cc1193bde63f",
+    "year": 2024,
+    "name": "2024 IRONMAN Hamburg"
+  },
+  "ironman_copenhagen_2024": {
+    "event_uuid": "6b909a24-f40f-e311-9ec7-005056956277",
+    "subevent_uuid": "f7ea583a-e06f-4f4d-a19e-bfa325dce97c",
+    "year": 2024,
+    "name": "2024 IRONMAN Copenhagen"
+  },
+  "ironman_tallinn_2024": {
+    "event_uuid": "37760ed4-c881-e711-9418-005056951bf1",
+    "subevent_uuid": "7750ad1d-779f-4d25-8948-a6df22122bab",
+    "year": 2024,
+    "name": "2024 IRONMAN Tallinn"
+  },
+  "ironman_switzerland_2024": {
+    "event_uuid": "d90fba34-21ae-e911-a986-000d3a364086",
+    "subevent_uuid": "c446d5ec-661d-4d03-9e9c-08c821027476",
+    "year": 2024,
+    "name": "2024 IRONMAN Switzerland Thun"
+  },
+  "ironman_wisconsin_2024": {
+    "event_uuid": "e598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "2589106a-7c4e-4218-9922-fc5443c1b29e",
+    "year": 2024,
+    "name": "2024 IRONMAN Wisconsin"
+  },
+  "ironman_maryland_2024": {
+    "event_uuid": "52f9c915-31ca-e311-b5f4-005056956277",
+    "subevent_uuid": "d4fd21c6-c504-42fa-b9a6-bfa3e66231bb",
+    "year": 2024,
+    "name": "2024 IRONMAN Maryland"
+  },
+  "ironman_wales_2024": {
+    "event_uuid": "df98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "cf78e723-848d-4d18-be36-1a83174549af",
+    "year": 2024,
+    "name": "2024 IRONMAN Wales"
+  },
+  "ironman_chattanooga_2024": {
+    "event_uuid": "0a742931-cf10-e311-9ec7-005056956277",
+    "subevent_uuid": "545610b7-a7c5-4eea-ac20-ca75e220294f",
+    "year": 2024,
+    "name": "2024 IRONMAN Chattanooga"
+  },
+  "ironman_gurye_2024": {
+    "event_uuid": "6e0f4c83-40d8-e611-9412-005056951bf1",
+    "subevent_uuid": "7c14c361-ef3c-484b-952f-150212710101",
+    "year": 2024,
+    "name": "2024 IRONMAN Gurye Korea"
+  },
+  "ironman_barcelona_2024": {
+    "event_uuid": "c413f2e7-2dca-e311-b5f4-005056956277",
+    "subevent_uuid": "8613dae2-83f4-4dcd-b7db-deb752f5cd90",
+    "year": 2024,
+    "name": "2024 IRONMAN Calella-Barcelona"
+  },
+  "ironman_california_2024": {
+    "event_uuid": "d74670f6-7fb2-4813-96e1-fae4ab1b948c",
+    "subevent_uuid": "ae0e5d71-3d79-4515-a179-11f044dccb61",
+    "year": 2024,
+    "name": "2024 IRONMAN California"
+  },
+  "ironman_florida_2024": {
+    "event_uuid": "b998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "af3f560c-494c-464d-9ed9-c0fbd05ef73b",
+    "year": 2024,
+    "name": "2024 IRONMAN Florida"
+  },
+  "ironman_world_championship_kona_2024": {
+    "event_uuid": "e798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "8ac0ab78-2ef7-4481-87da-044d8a032079",
+    "year": 2024,
+    "name": "2024 IRONMAN World Championship - Men"
+  },
+  "ironman_vitoria_2024": {
+    "event_uuid": "47f47b8c-71ba-e811-a967-000d3a37468c",
+    "subevent_uuid": "c5770170-0d51-4d0e-a6f5-c2a35a7b48b0",
+    "year": 2024,
+    "name": "2024 IRONMAN Vitoria-Gasteiz"
+  },
+  "ironman_sweden_2024": {
+    "event_uuid": "bd98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "9ca4223e-fee3-4583-a796-4f360a13cfc4",
+    "year": 2024,
+    "name": "2024 IRONMAN Kalmar-Sweden"
+  },
+  "ironman_italy_2024": {
+    "event_uuid": "aa3f9693-bd9a-e611-9410-005056951bf1",
+    "subevent_uuid": "fea6dadb-93a9-42c9-ba4e-3dfc6d024b22",
+    "year": 2024,
+    "name": "2024 IRONMAN Emilia Romagna"
+  },
+  "ironman_portugal_2024": {
+    "event_uuid": "4a7d66f0-94f5-e911-a812-000d3a5a1cf8",
+    "subevent_uuid": "faa82b9b-746d-4b35-ab08-12d5d590052f",
+    "year": 2024,
+    "name": "2024 IRONMAN Portugal-Cascais"
+  },
+  "ironman_world_championship_2024": {
+    "event_uuid": "e798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "f2bd48fb-d595-4163-b090-f6b04089fa42",
+    "year": 2024,
+    "name": "2024 IRONMAN World Championship - Women"
+  }
+}
