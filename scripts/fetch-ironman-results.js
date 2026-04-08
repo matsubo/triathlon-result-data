@@ -21,7 +21,8 @@ const dryRun = args.includes("--dry-run");
 const raceIdx = args.indexOf("--race");
 const raceFilter = raceIdx !== -1 ? args[raceIdx + 1] : null;
 const inputIdx = args.indexOf("--input");
-const inputFile = inputIdx !== -1 ? args[inputIdx + 1] : "ironman-subevent-ids.json";
+const inputFile =
+  inputIdx !== -1 ? args[inputIdx + 1] : "ironman-subevent-ids.json";
 
 // Load subevent IDs
 const subeventsPath = join(__dirname, inputFile);
@@ -201,8 +202,8 @@ async function main() {
     try {
       const r = await processRace(raceId, info);
       results.push(r);
-      // Small delay to be polite to the API
-      await new Promise((resolve) => setTimeout(resolve, 500));
+      // Delay to be polite to the API
+      await new Promise((resolve) => setTimeout(resolve, 2000));
     } catch (err) {
       console.error(`  ❌ ${raceId}: ${err.message}`);
       results.push({ raceId, count: 0, skipped: true, error: err.message });
