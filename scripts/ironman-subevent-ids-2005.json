@@ -1,0 +1,51 @@
+{
+  "ironman_australia_2025_2005": {
+    "event_uuid": "a598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "350ca926-af5a-e211-b7a2-005056956277",
+    "year": 2005,
+    "name": "2005 IRONMAN Australia: Triathlon",
+    "date": "2005-04-03T00:00:00Z"
+  },
+  "ironman_austria_2025_2005": {
+    "event_uuid": "e6b03b63-dbb0-e111-80ae-005056956277",
+    "subevent_uuid": "26acd771-a55a-e211-b7a2-005056956277",
+    "year": 2005,
+    "name": "2005 IRONMAN Austria: Triathlon",
+    "date": "2005-07-03T00:00:00Z"
+  },
+  "ironman_frankfurt_2025_2005": {
+    "event_uuid": "b798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "e513d0b1-4eae-e111-80ae-005056956277",
+    "year": 2005,
+    "name": "2005 IRONMAN European Championship: Triathlon",
+    "date": "2005-07-10T00:00:00Z"
+  },
+  "ironman_france_2025_2005": {
+    "event_uuid": "bb98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "1043f2b9-e155-e211-b7a2-005056956277",
+    "year": 2005,
+    "name": "2005 IRONMAN France: Triathlon",
+    "date": "2005-06-18T00:00:00Z"
+  },
+  "ironman_wisconsin_2025_2005": {
+    "event_uuid": "e598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "1314d0b1-4eae-e111-80ae-005056956277",
+    "year": 2005,
+    "name": "2005 IRONMAN Wisconsin: Triathlon",
+    "date": "2005-09-11T00:00:00Z"
+  },
+  "ironman_florida_2025_2005": {
+    "event_uuid": "b998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "0314d0b1-4eae-e111-80ae-005056956277",
+    "year": 2005,
+    "name": "2005 IRONMAN Florida: Triathlon",
+    "date": "2005-11-05T00:00:00Z"
+  },
+  "ironman_world_championship_kona_2005": {
+    "event_uuid": "e798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "0b14d0b1-4eae-e111-80ae-005056956277",
+    "year": 2005,
+    "name": "2005 IRONMAN World Championship: Triathlon",
+    "date": "2005-10-15T00:00:00Z"
+  }
+}

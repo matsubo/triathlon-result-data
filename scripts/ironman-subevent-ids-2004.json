@@ -1,0 +1,23 @@
+{
+  "ironman_wisconsin_2025_2004": {
+    "event_uuid": "e598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "cd13d0b1-4eae-e111-80ae-005056956277",
+    "year": 2004,
+    "name": "2004 IRONMAN Wisconsin: Triathlon",
+    "date": "2004-09-12T00:00:00Z"
+  },
+  "ironman_florida_2025_2004": {
+    "event_uuid": "b998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "bf13d0b1-4eae-e111-80ae-005056956277",
+    "year": 2004,
+    "name": "2004 IRONMAN Florida: Triathlon",
+    "date": "2004-11-06T00:00:00Z"
+  },
+  "ironman_world_championship_kona_2004": {
+    "event_uuid": "e798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "c313d0b1-4eae-e111-80ae-005056956277",
+    "year": 2004,
+    "name": "2004 IRONMAN World Championship: Triathlon",
+    "date": "2004-10-16T00:00:00Z"
+  }
+}
