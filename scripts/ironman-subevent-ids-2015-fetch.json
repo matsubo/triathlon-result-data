@@ -1,0 +1,135 @@
+{
+  "ironman_south_africa_2015": {
+    "event_uuid": "60accc34-83fe-e111-aa75-005056956277",
+    "subevent_uuid": "3281fd14-0dc9-42f4-b1cd-32b91e20f895",
+    "year": 2015,
+    "name": "2015 IRONMAN South Africa",
+    "date": "2015-03-29T00:00:00Z"
+  },
+  "ironman_taiwan_2015": {
+    "event_uuid": "8b4e50b2-04b2-e411-9400-005056951bf1",
+    "subevent_uuid": "aa91f144-00be-e411-9400-005056951bf1",
+    "year": 2015,
+    "name": "2015 IRONMAN Taiwan",
+    "date": "2015-04-12T00:00:00Z"
+  },
+  "ironman_australia_2015": {
+    "event_uuid": "a598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "bdcc3b32-e117-4063-97e7-5566c0cfdea8",
+    "year": 2015,
+    "name": "2015 IRONMAN Australia",
+    "date": "2015-05-03T00:00:00Z"
+  },
+  "ironman_texas_2015": {
+    "event_uuid": "d998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "ba4b07f1-27ec-e311-b4c2-005056956277",
+    "year": 2015,
+    "name": "2015 IRONMAN Texas",
+    "date": "2015-05-16T00:00:00Z"
+  },
+  "ironman_lanzarote_2015": {
+    "event_uuid": "c598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "6b1d9e07-b9b6-4e55-b555-0806602f6389",
+    "year": 2015,
+    "name": "2015 IRONMAN Lanzarote",
+    "date": "2015-05-23T00:00:00Z"
+  },
+  "ironman_brazil_2015": {
+    "event_uuid": "a798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "9cf16db7-1e36-4195-bbd9-34875b4f3c6c",
+    "year": 2015,
+    "name": "2015 IRONMAN Brazil",
+    "date": "2015-05-31T00:00:00Z"
+  },
+  "ironman_cairns_2015": {
+    "event_uuid": "6a6e11d2-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "e35e353e-ce2a-4a19-bd32-578882c81cf3",
+    "year": 2015,
+    "name": "2015 IRONMAN Cairns",
+    "date": "2015-06-14T00:00:00Z"
+  },
+  "ironman_austria_2015": {
+    "event_uuid": "e6b03b63-dbb0-e111-80ae-005056956277",
+    "subevent_uuid": "4f8f2417-dcbf-4560-beab-6d464acc5530",
+    "year": 2015,
+    "name": "2015 IRONMAN Austria",
+    "date": "2015-06-28T00:00:00Z"
+  },
+  "ironman_france_2015": {
+    "event_uuid": "bb98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "c9927e7f-55d3-4d9b-b752-12ed6bab334d",
+    "year": 2015,
+    "name": "2015 IRONMAN France",
+    "date": "2015-06-28T00:00:00Z"
+  },
+  "ironman_frankfurt_2015": {
+    "event_uuid": "b798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "e9776336-1e37-46f3-b674-b15da2d3bf04",
+    "year": 2015,
+    "name": "2015 IRONMAN European Championship Frankfurt",
+    "date": "2015-07-05T00:00:00Z"
+  },
+  "ironman_sweden_2015": {
+    "event_uuid": "bd98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "f44e9bf6-4593-46fb-9469-a6ed3aab5a84",
+    "year": 2015,
+    "name": "2015 IRONMAN Kalmar-Sweden",
+    "date": "2015-08-15T00:00:00Z"
+  },
+  "ironman_copenhagen_2015": {
+    "event_uuid": "6b909a24-f40f-e311-9ec7-005056956277",
+    "subevent_uuid": "d0a25579-f64d-4e47-84a9-b0c97ceabcaf",
+    "year": 2015,
+    "name": "2015 IRONMAN Copenhagen",
+    "date": "2015-08-23T00:00:00Z"
+  },
+  "ironman_wales_2015": {
+    "event_uuid": "df98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "919ee335-beb4-48de-a09a-2d712921c4d1",
+    "year": 2015,
+    "name": "2015 IRONMAN Wales",
+    "date": "2015-09-13T00:00:00Z"
+  },
+  "ironman_wisconsin_2015": {
+    "event_uuid": "e598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "026a115e-8689-43d3-af57-566691d53987",
+    "year": 2015,
+    "name": "2015 IRONMAN Wisconsin",
+    "date": "2015-09-13T00:00:00Z"
+  },
+  "ironman_chattanooga_2015": {
+    "event_uuid": "0a742931-cf10-e311-9ec7-005056956277",
+    "subevent_uuid": "65c909cb-8a31-4c49-bbcb-ffb5281ecedb",
+    "year": 2015,
+    "name": "2015 IRONMAN Chattanooga",
+    "date": "2015-09-27T00:00:00Z"
+  },
+  "ironman_barcelona_2015": {
+    "event_uuid": "c413f2e7-2dca-e311-b5f4-005056956277",
+    "subevent_uuid": "1dada4bb-01c5-4e71-bc3f-9644807682db",
+    "year": 2015,
+    "name": "2015 IRONMAN Barcelona",
+    "date": "2015-10-04T00:00:00Z"
+  },
+  "ironman_world_championship_kona_2015": {
+    "event_uuid": "e798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "d57bb0ac-432e-4d3e-a4ba-7ad7439b8b02",
+    "year": 2015,
+    "name": "2015 IRONMAN World Championship",
+    "date": "2015-10-10T00:00:00Z"
+  },
+  "ironman_maryland_2015": {
+    "event_uuid": "52f9c915-31ca-e311-b5f4-005056956277",
+    "subevent_uuid": "ff5a8189-aaf2-4fc7-889c-62ea894905f9",
+    "year": 2015,
+    "name": "2015 IRONMAN Maryland",
+    "date": "2015-10-17T00:00:00Z"
+  },
+  "ironman_florida_2015": {
+    "event_uuid": "b998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "4e2b2957-fa27-433d-8049-0651fe1f8cc4",
+    "year": 2015,
+    "name": "2015 IRONMAN Florida",
+    "date": "2015-11-07T00:00:00Z"
+  }
+}
