@@ -1,0 +1,135 @@
+{
+  "ironman_south_africa_2016": {
+    "event_uuid": "60accc34-83fe-e111-aa75-005056956277",
+    "subevent_uuid": "851e7357-3840-e511-9409-005056951bf1",
+    "year": 2016,
+    "name": "2016 IRONMAN African Championship South Africa",
+    "date": "2016-04-10T00:00:00Z"
+  },
+  "ironman_australia_2016": {
+    "event_uuid": "a598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "edc04f23-14ff-e411-9401-005056951bf1",
+    "year": 2016,
+    "name": "2016 IRONMAN Australia",
+    "date": "2016-05-01T00:00:00Z"
+  },
+  "ironman_texas_2016": {
+    "event_uuid": "d998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "ab5760d0-d8f8-e411-9401-005056951bf1",
+    "year": 2016,
+    "name": "2016 IRONMAN North American Championship Texas",
+    "date": "2016-05-14T00:00:00Z"
+  },
+  "ironman_lanzarote_2016": {
+    "event_uuid": "c598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "5b4b4313-4505-e511-9401-005056951bf1",
+    "year": 2016,
+    "name": "2016 IRONMAN Lanzarote",
+    "date": "2016-05-21T00:00:00Z"
+  },
+  "ironman_brazil_2016": {
+    "event_uuid": "a798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "a84047ac-751e-e511-9403-005056951bf1",
+    "year": 2016,
+    "name": "2016 IRONMAN South American Championship Brazil",
+    "date": "2016-05-29T00:00:00Z"
+  },
+  "ironman_france_2016": {
+    "event_uuid": "bb98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "686d74e1-e419-e511-9403-005056951bf1",
+    "year": 2016,
+    "name": "2016 IRONMAN France",
+    "date": "2016-06-05T00:00:00Z"
+  },
+  "ironman_cairns_2016": {
+    "event_uuid": "6a6e11d2-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "88c8fdaf-e519-e511-9403-005056951bf1",
+    "year": 2016,
+    "name": "2016 IRONMAN Asia-Pacific Championship Cairns",
+    "date": "2016-06-12T00:00:00Z"
+  },
+  "ironman_austria_2016": {
+    "event_uuid": "e6b03b63-dbb0-e111-80ae-005056956277",
+    "subevent_uuid": "46882db3-fe0d-e511-9401-005056951bf1",
+    "year": 2016,
+    "name": "2016 IRONMAN Austria",
+    "date": "2016-06-26T00:00:00Z"
+  },
+  "ironman_frankfurt_2016": {
+    "event_uuid": "b798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "ea0f5d69-721e-e511-9403-005056951bf1",
+    "year": 2016,
+    "name": "2016 IRONMAN European Championship Frankfurt",
+    "date": "2016-07-03T00:00:00Z"
+  },
+  "ironman_sweden_2016": {
+    "event_uuid": "bd98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "ab4144c6-773f-e511-9409-005056951bf1",
+    "year": 2016,
+    "name": "2016 IRONMAN Kalmar-Sweden",
+    "date": "2016-08-20T00:00:00Z"
+  },
+  "ironman_copenhagen_2016": {
+    "event_uuid": "6b909a24-f40f-e311-9ec7-005056956277",
+    "subevent_uuid": "f5f53b8a-2f41-e511-9409-005056951bf1",
+    "year": 2016,
+    "name": "2016 IRONMAN Copenhagen",
+    "date": "2016-08-21T00:00:00Z"
+  },
+  "ironman_wisconsin_2016": {
+    "event_uuid": "e598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "6fd44d69-6056-e511-9409-005056951bf1",
+    "year": 2016,
+    "name": "2016 IRONMAN Wisconsin",
+    "date": "2016-09-11T00:00:00Z"
+  },
+  "ironman_wales_2016": {
+    "event_uuid": "df98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "c400e83d-fd4f-e511-9409-005056951bf1",
+    "year": 2016,
+    "name": "2016 IRONMAN Wales",
+    "date": "2016-09-18T00:00:00Z"
+  },
+  "ironman_chattanooga_2016": {
+    "event_uuid": "0a742931-cf10-e311-9ec7-005056956277",
+    "subevent_uuid": "84917a1c-1f62-e511-9409-005056951bf1",
+    "year": 2016,
+    "name": "2016 IRONMAN Chattanooga",
+    "date": "2016-09-25T00:00:00Z"
+  },
+  "ironman_maryland_2016": {
+    "event_uuid": "52f9c915-31ca-e311-b5f4-005056956277",
+    "subevent_uuid": "26e3f625-3b77-e511-9409-005056951bf1",
+    "year": 2016,
+    "name": "2016 IRONMAN Maryland",
+    "date": "2016-10-01T00:00:00Z"
+  },
+  "ironman_taiwan_2016": {
+    "event_uuid": "8b4e50b2-04b2-e411-9400-005056951bf1",
+    "subevent_uuid": "d3322025-1b69-e511-9409-005056951bf1",
+    "year": 2016,
+    "name": "2016 IRONMAN Taiwan",
+    "date": "2016-10-01T00:00:00Z"
+  },
+  "ironman_barcelona_2016": {
+    "event_uuid": "c413f2e7-2dca-e311-b5f4-005056956277",
+    "subevent_uuid": "b32f8e30-ef65-e511-9409-005056951bf1",
+    "year": 2016,
+    "name": "2016 IRONMAN Barcelona",
+    "date": "2016-10-02T00:00:00Z"
+  },
+  "ironman_world_championship_kona_2016": {
+    "event_uuid": "e798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "9cb970f1-a951-e511-9409-005056951bf1",
+    "year": 2016,
+    "name": "2016 IRONMAN World Championship",
+    "date": "2016-10-08T00:00:00Z"
+  },
+  "ironman_florida_2016": {
+    "event_uuid": "b998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "c7fe0aab-6982-e511-9409-005056951bf1",
+    "year": 2016,
+    "name": "2016 IRONMAN Florida",
+    "date": "2016-11-05T00:00:00Z"
+  }
+}
