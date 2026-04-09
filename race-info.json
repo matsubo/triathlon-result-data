@@ -76003,6 +76003,88 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2020-09-27",
+          "categories": [
+            {
+              "id": "ironman_cairns_2020",
+              "result_tsv": "master/2020/ironman_cairns_2020/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2020 IRONMAN Asia-Pacific Championship Cairns",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -78964,6 +79046,88 @@
               "name": "Full Distance",
               "distance": "LD",
               "description": "2021 IRONMAN Tallinn",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2020-09-05",
+          "categories": [
+            {
+              "id": "ironman_tallinn_2020",
+              "result_tsv": "master/2020/ironman_tallinn_2020/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2020 IRONMAN Tallinn",
               "segments": [
                 {
                   "sport": "swim",
@@ -83324,6 +83488,88 @@
               "name": "Full Distance",
               "distance": "LD",
               "description": "2021 IRONMAN Florida",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2020-11-07",
+          "categories": [
+            {
+              "id": "ironman_florida_2020",
+              "result_tsv": "master/2020/ironman_florida_2020/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2020 IRONMAN Florida",
               "segments": [
                 {
                   "sport": "swim",

@@ -1,0 +1,23 @@
+{
+  "ironman_cairns_2025_2020": {
+    "event_uuid": "6a6e11d2-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "2771122a-7c8b-e911-a978-000d3a37468c",
+    "year": 2020,
+    "name": "2020 IRONMAN Asia-Pacific Championship Cairns",
+    "date": "2020-09-27T00:00:00Z"
+  },
+  "ironman_tallinn_2025_2020": {
+    "event_uuid": "37760ed4-c881-e711-9418-005056951bf1",
+    "subevent_uuid": "bb559164-3cb9-e911-a986-000d3a364086",
+    "year": 2020,
+    "name": "2020 IRONMAN Tallinn",
+    "date": "2020-09-05T00:00:00Z"
+  },
+  "ironman_florida_2025_2020": {
+    "event_uuid": "b998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "4c54363c-c8fc-e911-a812-000d3a5a1477",
+    "year": 2020,
+    "name": "2020 IRONMAN Florida",
+    "date": "2020-11-07T00:00:00Z"
+  }
+}
