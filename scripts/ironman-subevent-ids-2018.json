@@ -1,0 +1,163 @@
+{
+  "ironman_south_africa_2025_2018": {
+    "event_uuid": "60accc34-83fe-e111-aa75-005056956277",
+    "subevent_uuid": "03194d68-0831-e711-9415-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN South Africa",
+    "date": "2018-04-15T00:00:00Z"
+  },
+  "ironman_taiwan_2025_2018": {
+    "event_uuid": "8b4e50b2-04b2-e411-9400-005056951bf1",
+    "subevent_uuid": "49e1b215-55bb-e711-941b-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN Taiwan",
+    "date": "2018-10-07T00:00:00Z"
+  },
+  "ironman_texas_2025_2018": {
+    "event_uuid": "d998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "7f57d401-9352-e711-9418-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN North American Championship Texas",
+    "date": "2018-04-28T00:00:00Z"
+  },
+  "ironman_australia_2025_2018": {
+    "event_uuid": "a598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "251ef595-b531-e711-9416-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN Australia",
+    "date": "2018-05-06T00:00:00Z"
+  },
+  "ironman_austria_2025_2018": {
+    "event_uuid": "e6b03b63-dbb0-e111-80ae-005056956277",
+    "subevent_uuid": "ecb0249c-925a-e711-9418-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN Austria",
+    "date": "2018-07-01T00:00:00Z"
+  },
+  "ironman_lanzarote_2025_2018": {
+    "event_uuid": "c598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "777094c8-1c76-e711-9418-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN Lanzarote",
+    "date": "2018-05-26T00:00:00Z"
+  },
+  "ironman_brazil_2025_2018": {
+    "event_uuid": "a798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "94ddc8cf-1a4a-e711-9418-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN Brazil",
+    "date": "2018-05-27T00:00:00Z"
+  },
+  "ironman_cairns_2025_2018": {
+    "event_uuid": "6a6e11d2-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "10a0b97c-9152-e711-9418-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN Cairns",
+    "date": "2018-06-10T00:00:00Z"
+  },
+  "ironman_frankfurt_2025_2018": {
+    "event_uuid": "b798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "eed3d75c-c961-e711-9418-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN European Championship Frankfurt",
+    "date": "2018-07-08T00:00:00Z"
+  },
+  "ironman_france_2025_2018": {
+    "event_uuid": "bb98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "2762e142-1972-e711-9418-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN France",
+    "date": "2018-06-24T00:00:00Z"
+  },
+  "ironman_hamburg_2025_2018": {
+    "event_uuid": "0ed71b3d-6974-e611-9410-005056951bf1",
+    "subevent_uuid": "7ae98e84-f680-e711-9418-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN Hamburg",
+    "date": "2018-07-29T00:00:00Z"
+  },
+  "ironman_copenhagen_2025_2018": {
+    "event_uuid": "6b909a24-f40f-e311-9ec7-005056956277",
+    "subevent_uuid": "2f9635a9-4187-e711-9419-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN Copenhagen",
+    "date": "2018-08-19T00:00:00Z"
+  },
+  "ironman_tallinn_2025_2018": {
+    "event_uuid": "37760ed4-c881-e711-9418-005056951bf1",
+    "subevent_uuid": "c59ea32a-cc81-e711-9418-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN Tallinn",
+    "date": "2018-08-04T00:00:00Z"
+  },
+  "ironman_wisconsin_2025_2018": {
+    "event_uuid": "e598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "406b4079-5c99-e711-9419-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN Wisconsin",
+    "date": "2018-09-09T00:00:00Z"
+  },
+  "ironman_maryland_2025_2018": {
+    "event_uuid": "52f9c915-31ca-e311-b5f4-005056956277",
+    "subevent_uuid": "9ba75f9b-f6ac-e711-9419-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN Maryland",
+    "date": "2018-09-29T00:00:00Z"
+  },
+  "ironman_wales_2025_2018": {
+    "event_uuid": "df98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "9c1ad20a-5c99-e711-9419-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN Wales",
+    "date": "2018-09-09T00:00:00Z"
+  },
+  "ironman_chattanooga_2025_2018": {
+    "event_uuid": "0a742931-cf10-e311-9ec7-005056956277",
+    "subevent_uuid": "324aba02-08a2-e711-9419-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN Chattanooga",
+    "date": "2018-09-30T00:00:00Z"
+  },
+  "ironman_gurye_2025_2018": {
+    "event_uuid": "6e0f4c83-40d8-e611-9412-005056951bf1",
+    "subevent_uuid": "bb2effd1-35bf-e711-941b-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN Gurye Korea",
+    "date": "2018-09-09T00:00:00Z"
+  },
+  "ironman_barcelona_2025_2018": {
+    "event_uuid": "c413f2e7-2dca-e311-b5f4-005056956277",
+    "subevent_uuid": "b51269e6-49a5-e711-9419-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN Barcelona",
+    "date": "2018-10-07T00:00:00Z"
+  },
+  "ironman_florida_2025_2018": {
+    "event_uuid": "b998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "3d59d1a9-abc5-e711-941b-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN Florida",
+    "date": "2018-11-04T00:00:00Z"
+  },
+  "ironman_world_championship_kona_2018": {
+    "event_uuid": "e798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "19c48b66-758e-e711-9419-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN World Championship",
+    "date": "2018-10-13T00:00:00Z"
+  },
+  "ironman_sweden_2025_2018": {
+    "event_uuid": "bd98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "77b45a74-3f87-e711-9419-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN Kalmar-Sweden",
+    "date": "2018-08-18T00:00:00Z"
+  },
+  "ironman_italy_2025_2018": {
+    "event_uuid": "aa3f9693-bd9a-e611-9410-005056951bf1",
+    "subevent_uuid": "9264dba0-acdb-e711-941b-005056951bf1",
+    "year": 2018,
+    "name": "2018 5150 Cervia Triathlon Emilia Romagna",
+    "date": "2018-09-23T00:00:00Z"
+  }
+}
