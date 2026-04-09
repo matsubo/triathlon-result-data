@@ -1,0 +1,128 @@
+{
+  "ironman_south_africa_2014": {
+    "event_uuid": "60accc34-83fe-e111-aa75-005056956277",
+    "subevent_uuid": "294952b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN South Africa",
+    "date": "2014-04-06T00:00:00Z"
+  },
+  "ironman_australia_2014": {
+    "event_uuid": "a598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "1c4952b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN Australia",
+    "date": "2014-05-04T00:00:00Z"
+  },
+  "ironman_lanzarote_2014": {
+    "event_uuid": "c598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "2c4952b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN Lanzarote",
+    "date": "2014-05-17T00:00:00Z"
+  },
+  "ironman_texas_2014": {
+    "event_uuid": "d998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "2d4952b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN Texas",
+    "date": "2014-05-17T00:00:00Z"
+  },
+  "ironman_brazil_2014": {
+    "event_uuid": "a798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "2b4952b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN Brazil",
+    "date": "2014-05-25T00:00:00Z"
+  },
+  "ironman_cairns_2014": {
+    "event_uuid": "6a6e11d2-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "264952b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN Cairns",
+    "date": "2014-06-08T00:00:00Z"
+  },
+  "ironman_austria_2014": {
+    "event_uuid": "e6b03b63-dbb0-e111-80ae-005056956277",
+    "subevent_uuid": "1d4952b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN Austria",
+    "date": "2014-06-29T00:00:00Z"
+  },
+  "ironman_france_2014": {
+    "event_uuid": "bb98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "284952b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN France",
+    "date": "2014-06-29T00:00:00Z"
+  },
+  "ironman_frankfurt_2014": {
+    "event_uuid": "b798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "224952b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN European Championship",
+    "date": "2014-07-06T00:00:00Z"
+  },
+  "ironman_sweden_2014": {
+    "event_uuid": "bd98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "e04852b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN Kalmar-Sweden",
+    "date": "2014-08-16T00:00:00Z"
+  },
+  "ironman_copenhagen_2014": {
+    "event_uuid": "6b909a24-f40f-e311-9ec7-005056956277",
+    "subevent_uuid": "1e4952b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN Copenhagen",
+    "date": "2014-08-24T00:00:00Z"
+  },
+  "ironman_wisconsin_2014": {
+    "event_uuid": "e598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "354952b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN Wisconsin",
+    "date": "2014-09-07T00:00:00Z"
+  },
+  "ironman_wales_2014": {
+    "event_uuid": "df98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "344952b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN Wales",
+    "date": "2014-09-14T00:00:00Z"
+  },
+  "ironman_maryland_2014": {
+    "event_uuid": "52f9c915-31ca-e311-b5f4-005056956277",
+    "subevent_uuid": "6dff6f3f-31ca-e311-b5f4-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN Maryland",
+    "date": "2014-09-20T00:00:00Z"
+  },
+  "ironman_chattanooga_2014": {
+    "event_uuid": "0a742931-cf10-e311-9ec7-005056956277",
+    "subevent_uuid": "ea3c727b-cf10-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN Chattanooga",
+    "date": "2014-09-28T00:00:00Z"
+  },
+  "ironman_barcelona_2014": {
+    "event_uuid": "c413f2e7-2dca-e311-b5f4-005056956277",
+    "subevent_uuid": "15507a1d-2eca-e311-b5f4-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN Barcelona",
+    "date": "2014-10-05T00:00:00Z"
+  },
+  "ironman_world_championship_kona_2014": {
+    "event_uuid": "e798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "324952b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN World Championship",
+    "date": "2014-10-11T00:00:00Z"
+  },
+  "ironman_florida_2014": {
+    "event_uuid": "b998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "314952b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN Florida",
+    "date": "2014-11-01T00:00:00Z"
+  }
+}

@@ -43358,6 +43358,88 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2014-10-11",
+          "categories": [
+            {
+              "id": "ironman_world_championship_kona_2014",
+              "result_tsv": "master/2014/ironman_world_championship_kona_2014/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2014 IRONMAN World Championship",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -74300,6 +74382,88 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2014-04-06",
+          "categories": [
+            {
+              "id": "ironman_south_africa_2014",
+              "result_tsv": "master/2014/ironman_south_africa_2014/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2014 IRONMAN South Africa",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -75712,6 +75876,88 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2014-05-17",
+          "categories": [
+            {
+              "id": "ironman_texas_2014",
+              "result_tsv": "master/2014/ironman_texas_2014/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2014 IRONMAN Texas",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -76387,6 +76633,88 @@
               "name": "Full Distance",
               "distance": "LD",
               "description": "2015 IRONMAN Australia",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2014-05-04",
+          "categories": [
+            {
+              "id": "ironman_australia_2014",
+              "result_tsv": "master/2014/ironman_australia_2014/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2014 IRONMAN Australia",
               "segments": [
                 {
                   "sport": "swim",
@@ -77288,6 +77616,88 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2014-06-29",
+          "categories": [
+            {
+              "id": "ironman_austria_2014",
+              "result_tsv": "master/2014/ironman_austria_2014/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2014 IRONMAN Austria",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -78117,6 +78527,88 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2014-05-17",
+          "categories": [
+            {
+              "id": "ironman_lanzarote_2014",
+              "result_tsv": "master/2014/ironman_lanzarote_2014/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2014 IRONMAN Lanzarote",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -78792,6 +79284,88 @@
               "name": "Full Distance",
               "distance": "LD",
               "description": "2015 IRONMAN Brazil",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2014-05-25",
+          "categories": [
+            {
+              "id": "ironman_brazil_2014",
+              "result_tsv": "master/2014/ironman_brazil_2014/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2014 IRONMAN Brazil",
               "segments": [
                 {
                   "sport": "swim",
@@ -79775,6 +80349,88 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2014-06-08",
+          "categories": [
+            {
+              "id": "ironman_cairns_2014",
+              "result_tsv": "master/2014/ironman_cairns_2014/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2014 IRONMAN Cairns",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -80604,6 +81260,88 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2014-07-06",
+          "categories": [
+            {
+              "id": "ironman_frankfurt_2014",
+              "result_tsv": "master/2014/ironman_frankfurt_2014/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2014 IRONMAN European Championship",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -81361,6 +82099,88 @@
               "name": "Full Distance",
               "distance": "LD",
               "description": "2015 IRONMAN France",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2014-06-29",
+          "categories": [
+            {
+              "id": "ironman_france_2014",
+              "result_tsv": "master/2014/ironman_france_2014/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2014 IRONMAN France",
               "segments": [
                 {
                   "sport": "swim",
@@ -83528,6 +84348,88 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2014-08-16",
+          "categories": [
+            {
+              "id": "ironman_sweden_2014",
+              "result_tsv": "master/2014/ironman_sweden_2014/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2014 IRONMAN Kalmar-Sweden",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -84285,6 +85187,88 @@
               "name": "Full Distance",
               "distance": "LD",
               "description": "2015 IRONMAN Copenhagen",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2014-08-24",
+          "categories": [
+            {
+              "id": "ironman_copenhagen_2014",
+              "result_tsv": "master/2014/ironman_copenhagen_2014/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2014 IRONMAN Copenhagen",
               "segments": [
                 {
                   "sport": "swim",
@@ -86270,6 +87254,88 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2014-09-07",
+          "categories": [
+            {
+              "id": "ironman_wisconsin_2014",
+              "result_tsv": "master/2014/ironman_wisconsin_2014/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2014 IRONMAN Wisconsin",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -87764,6 +88830,88 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2014-09-20",
+          "categories": [
+            {
+              "id": "ironman_maryland_2014",
+              "result_tsv": "master/2014/ironman_maryland_2014/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2014 IRONMAN Maryland",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -88439,6 +89587,88 @@
               "name": "Full Distance",
               "distance": "LD",
               "description": "2015 IRONMAN Wales",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2014-09-14",
+          "categories": [
+            {
+              "id": "ironman_wales_2014",
+              "result_tsv": "master/2014/ironman_wales_2014/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2014 IRONMAN Wales",
               "segments": [
                 {
                   "sport": "swim",
@@ -89268,6 +90498,88 @@
               "name": "Full Distance",
               "distance": "LD",
               "description": "2015 IRONMAN Chattanooga",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2014-09-28",
+          "categories": [
+            {
+              "id": "ironman_chattanooga_2014",
+              "result_tsv": "master/2014/ironman_chattanooga_2014/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2014 IRONMAN Chattanooga",
               "segments": [
                 {
                   "sport": "swim",
@@ -90516,6 +91828,88 @@
               "name": "Full Distance",
               "distance": "LD",
               "description": "2015 IRONMAN Barcelona",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2014-10-05",
+          "categories": [
+            {
+              "id": "ironman_barcelona_2014",
+              "result_tsv": "master/2014/ironman_barcelona_2014/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2014 IRONMAN Barcelona",
               "segments": [
                 {
                   "sport": "swim",
@@ -92262,6 +93656,88 @@
               "name": "Full Distance",
               "distance": "LD",
               "description": "2015 IRONMAN Florida",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2014-11-01",
+          "categories": [
+            {
+              "id": "ironman_florida_2014",
+              "result_tsv": "master/2014/ironman_florida_2014/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2014 IRONMAN Florida",
               "segments": [
                 {
                   "sport": "swim",
