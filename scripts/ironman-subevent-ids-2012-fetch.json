@@ -1,0 +1,100 @@
+{
+  "ironman_south_africa_2012": {
+    "event_uuid": "60accc34-83fe-e111-aa75-005056956277",
+    "subevent_uuid": "72b7736d-83fe-e111-aa75-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN South Africa",
+    "date": "2012-04-22T00:00:00Z"
+  },
+  "ironman_australia_2012": {
+    "event_uuid": "a598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "0518d0b1-4eae-e111-80ae-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN Australia",
+    "date": "2012-05-06T00:00:00Z"
+  },
+  "ironman_lanzarote_2012": {
+    "event_uuid": "c598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "0918d0b1-4eae-e111-80ae-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN Lanzarote",
+    "date": "2012-05-19T00:00:00Z"
+  },
+  "ironman_texas_2012": {
+    "event_uuid": "d998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "0d18d0b1-4eae-e111-80ae-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN Texas",
+    "date": "2012-05-19T00:00:00Z"
+  },
+  "ironman_brazil_2012": {
+    "event_uuid": "a798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "0718d0b1-4eae-e111-80ae-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN Brazil",
+    "date": "2012-05-27T00:00:00Z"
+  },
+  "ironman_cairns_2012": {
+    "event_uuid": "6a6e11d2-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "e8918918-87fe-e111-aa75-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN Cairns",
+    "date": "2012-06-03T00:00:00Z"
+  },
+  "ironman_france_2012": {
+    "event_uuid": "bb98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "dd17d0b1-4eae-e111-80ae-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN France",
+    "date": "2012-06-24T00:00:00Z"
+  },
+  "ironman_austria_2012": {
+    "event_uuid": "e6b03b63-dbb0-e111-80ae-005056956277",
+    "subevent_uuid": "9b193d7d-56fc-e111-aa75-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN Austria",
+    "date": "2012-07-01T00:00:00Z"
+  },
+  "ironman_frankfurt_2012": {
+    "event_uuid": "b798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "a917d0b1-4eae-e111-80ae-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN European Championship",
+    "date": "2012-07-08T00:00:00Z"
+  },
+  "ironman_sweden_2012": {
+    "event_uuid": "bd98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "8117d0b1-4eae-e111-80ae-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN Kalmar-Sweden",
+    "date": "2012-08-18T00:00:00Z"
+  },
+  "ironman_wisconsin_2012": {
+    "event_uuid": "e598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "4118d0b1-4eae-e111-80ae-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN Wisconsin",
+    "date": "2012-09-09T00:00:00Z"
+  },
+  "ironman_wales_2012": {
+    "event_uuid": "df98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "3f18d0b1-4eae-e111-80ae-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN Wales",
+    "date": "2012-09-16T00:00:00Z"
+  },
+  "ironman_world_championship_kona_2012": {
+    "event_uuid": "e798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "2518d0b1-4eae-e111-80ae-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN World Championship",
+    "date": "2012-10-13T00:00:00Z"
+  },
+  "ironman_florida_2012": {
+    "event_uuid": "b998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "1718d0b1-4eae-e111-80ae-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN Florida",
+    "date": "2012-11-03T00:00:00Z"
+  }
+}
