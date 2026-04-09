@@ -1,0 +1,23 @@
+{
+  "ironman_wisconsin_2003": {
+    "event_uuid": "e598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "8f13d0b1-4eae-e111-80ae-005056956277",
+    "year": 2003,
+    "name": "2003 IRONMAN Wisconsin",
+    "date": "2003-09-14T00:00:00Z"
+  },
+  "ironman_world_championship_kona_2003": {
+    "event_uuid": "e798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "8d13d0b1-4eae-e111-80ae-005056956277",
+    "year": 2003,
+    "name": "2003 IRONMAN World Championship",
+    "date": "2003-10-18T00:00:00Z"
+  },
+  "ironman_florida_2003": {
+    "event_uuid": "b998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "8913d0b1-4eae-e111-80ae-005056956277",
+    "year": 2003,
+    "name": "2003 IRONMAN Florida",
+    "date": "2003-11-01T00:00:00Z"
+  }
+}

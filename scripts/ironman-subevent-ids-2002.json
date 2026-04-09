@@ -1,0 +1,16 @@
+{
+  "ironman_wisconsin_2025_2002": {
+    "event_uuid": "e598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "6113d0b1-4eae-e111-80ae-005056956277",
+    "year": 2002,
+    "name": "2002 IRONMAN Wisconsin: Triathlon",
+    "date": "2002-09-15T00:00:00Z"
+  },
+  "ironman_florida_2025_2002": {
+    "event_uuid": "b998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "5913d0b1-4eae-e111-80ae-005056956277",
+    "year": 2002,
+    "name": "2002 IRONMAN Florida: Triathlon",
+    "date": "2002-11-09T00:00:00Z"
+  }
+}
