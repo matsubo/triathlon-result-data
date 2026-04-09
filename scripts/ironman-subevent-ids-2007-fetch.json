@@ -1,0 +1,51 @@
+{
+  "ironman_australia_2007": {
+    "event_uuid": "a598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "3aef9550-af5a-e211-b7a2-005056956277",
+    "year": 2007,
+    "name": "2007 IRONMAN Australia",
+    "date": "2007-04-29T00:00:00Z"
+  },
+  "ironman_brazil_2007": {
+    "event_uuid": "a798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "9d14d0b1-4eae-e111-80ae-005056956277",
+    "year": 2007,
+    "name": "2007 IRONMAN Brazil",
+    "date": "2007-05-27T00:00:00Z"
+  },
+  "ironman_france_2007": {
+    "event_uuid": "bb98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "7f52d920-e255-e211-b7a2-005056956277",
+    "year": 2007,
+    "name": "2007 IRONMAN France",
+    "date": "2007-06-24T00:00:00Z"
+  },
+  "ironman_austria_2007": {
+    "event_uuid": "e6b03b63-dbb0-e111-80ae-005056956277",
+    "subevent_uuid": "4626d8e9-a55a-e211-b7a2-005056956277",
+    "year": 2007,
+    "name": "2007 IRONMAN Austria",
+    "date": "2007-07-08T00:00:00Z"
+  },
+  "ironman_wisconsin_2007": {
+    "event_uuid": "e598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "b314d0b1-4eae-e111-80ae-005056956277",
+    "year": 2007,
+    "name": "2007 IRONMAN Wisconsin",
+    "date": "2007-09-09T00:00:00Z"
+  },
+  "ironman_world_championship_kona_2007": {
+    "event_uuid": "e798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "a714d0b1-4eae-e111-80ae-005056956277",
+    "year": 2007,
+    "name": "2007 IRONMAN World Championship",
+    "date": "2007-10-13T00:00:00Z"
+  },
+  "ironman_florida_2007": {
+    "event_uuid": "b998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "a114d0b1-4eae-e111-80ae-005056956277",
+    "year": 2007,
+    "name": "2007 IRONMAN Florida",
+    "date": "2007-11-03T00:00:00Z"
+  }
+}
