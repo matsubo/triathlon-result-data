@@ -1,0 +1,58 @@
+{
+  "ironman_australia_2025_2009": {
+    "event_uuid": "a598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "0a787398-af5a-e211-b7a2-005056956277",
+    "year": 2009,
+    "name": "2009 IRONMAN Australia: Triathlon",
+    "date": "2009-04-05T00:00:00Z"
+  },
+  "ironman_austria_2025_2009": {
+    "event_uuid": "e6b03b63-dbb0-e111-80ae-005056956277",
+    "subevent_uuid": "22d09c4f-a65a-e211-b7a2-005056956277",
+    "year": 2009,
+    "name": "2009 IRONMAN Austria: Triathlon",
+    "date": "2009-07-05T00:00:00Z"
+  },
+  "ironman_brazil_2025_2009": {
+    "event_uuid": "a798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "6515d0b1-4eae-e111-80ae-005056956277",
+    "year": 2009,
+    "name": "2009 IRONMAN Brazil: Triathlon",
+    "date": "2009-05-31T00:00:00Z"
+  },
+  "ironman_frankfurt_2025_2009": {
+    "event_uuid": "b798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "3115d0b1-4eae-e111-80ae-005056956277",
+    "year": 2009,
+    "name": "2009 IRONMAN European Championship: Triathlon",
+    "date": "2009-04-05T00:00:00Z"
+  },
+  "ironman_france_2025_2009": {
+    "event_uuid": "bb98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "04fb1e83-e255-e211-b7a2-005056956277",
+    "year": 2009,
+    "name": "2009 IRONMAN France: Triathlon",
+    "date": "2009-06-28T00:00:00Z"
+  },
+  "ironman_wisconsin_2025_2009": {
+    "event_uuid": "e598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "8d15d0b1-4eae-e111-80ae-005056956277",
+    "year": 2009,
+    "name": "2009 IRONMAN Wisconsin: Triathlon",
+    "date": "2009-09-13T00:00:00Z"
+  },
+  "ironman_florida_2025_2009": {
+    "event_uuid": "b998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "7115d0b1-4eae-e111-80ae-005056956277",
+    "year": 2009,
+    "name": "2009 IRONMAN Florida: Triathlon",
+    "date": "2009-11-07T00:00:00Z"
+  },
+  "ironman_world_championship_kona_2009": {
+    "event_uuid": "e798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "7b15d0b1-4eae-e111-80ae-005056956277",
+    "year": 2009,
+    "name": "2009 IRONMAN World Championship: Triathlon",
+    "date": "2009-10-10T00:00:00Z"
+  }
+}
