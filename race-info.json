@@ -73398,6 +73398,88 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2021-11-21",
+          "categories": [
+            {
+              "id": "ironman_south_africa_2021",
+              "result_tsv": "master/2021/ironman_south_africa_2021/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2021 IRONMAN African Championship South Africa",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -73836,6 +73918,88 @@
               "name": "Full Distance",
               "distance": "LD",
               "description": "2022 IRONMAN Texas",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2021-10-09",
+          "categories": [
+            {
+              "id": "ironman_texas_2021",
+              "result_tsv": "master/2021/ironman_texas_2021/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2021 IRONMAN Texas",
               "segments": [
                 {
                   "sport": "swim",
@@ -74582,6 +74746,88 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2021-09-19",
+          "categories": [
+            {
+              "id": "ironman_austria_2021",
+              "result_tsv": "master/2021/ironman_austria_2021/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2021 IRONMAN Austria",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -74847,6 +75093,88 @@
               "name": "Full Distance",
               "distance": "LD",
               "description": "2022 IRONMAN Lanzarote",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2021-07-03",
+          "categories": [
+            {
+              "id": "ironman_lanzarote_2021",
+              "result_tsv": "master/2021/ironman_lanzarote_2021/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2021 IRONMAN Lanzarote",
               "segments": [
                 {
                   "sport": "swim",
@@ -75593,6 +75921,88 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2021-06-06",
+          "categories": [
+            {
+              "id": "ironman_cairns_2021",
+              "result_tsv": "master/2021/ironman_cairns_2021/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2021 IRONMAN Cairns",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -75858,6 +76268,88 @@
               "name": "Full Distance",
               "distance": "LD",
               "description": "2022 IRONMAN European Championship Frankfurt",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2021-08-15",
+          "categories": [
+            {
+              "id": "ironman_frankfurt_2021",
+              "result_tsv": "master/2021/ironman_frankfurt_2021/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2021 IRONMAN European Championship Frankfurt",
               "segments": [
                 {
                   "sport": "swim",
@@ -76267,6 +76759,88 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2021-09-12",
+          "categories": [
+            {
+              "id": "ironman_france_2021",
+              "result_tsv": "master/2021/ironman_france_2021/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2021 IRONMAN France",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -76532,6 +77106,88 @@
               "name": "Full Distance",
               "distance": "LD",
               "description": "2022 IRONMAN Hamburg",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2021-08-29",
+          "categories": [
+            {
+              "id": "ironman_hamburg_2021",
+              "result_tsv": "master/2021/ironman_hamburg_2021/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2021 IRONMAN Hamburg",
               "segments": [
                 {
                   "sport": "swim",
@@ -76960,6 +77616,88 @@
               "name": "Full Distance",
               "distance": "LD",
               "description": "2022 IRONMAN Vitoria-Gasteiz",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2021-09-12",
+          "categories": [
+            {
+              "id": "ironman_vitoria_2021",
+              "result_tsv": "master/2021/ironman_vitoria_2021/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2021 IRONMAN Vitoria-Gasteiz",
               "segments": [
                 {
                   "sport": "swim",
@@ -77797,6 +78535,88 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2021-08-22",
+          "categories": [
+            {
+              "id": "ironman_copenhagen_2021",
+              "result_tsv": "master/2021/ironman_copenhagen_2021/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2021 IRONMAN Copenhagen",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -78062,6 +78882,88 @@
               "name": "Full Distance",
               "distance": "LD",
               "description": "2022 IRONMAN Tallinn",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2021-08-07",
+          "categories": [
+            {
+              "id": "ironman_tallinn_2021",
+              "result_tsv": "master/2021/ironman_tallinn_2021/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2021 IRONMAN Tallinn",
               "segments": [
                 {
                   "sport": "swim",
@@ -78471,6 +79373,88 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2021-09-05",
+          "categories": [
+            {
+              "id": "ironman_switzerland_2021",
+              "result_tsv": "master/2021/ironman_switzerland_2021/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2021 IRONMAN Switzerland Thun",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -78736,6 +79720,88 @@
               "name": "Full Distance",
               "distance": "LD",
               "description": "2022 IRONMAN Wisconsin",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2021-09-12",
+          "categories": [
+            {
+              "id": "ironman_wisconsin_2021",
+              "result_tsv": "master/2021/ironman_wisconsin_2021/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2021 IRONMAN Wisconsin",
               "segments": [
                 {
                   "sport": "swim",
@@ -79145,6 +80211,88 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2021-01-01",
+          "categories": [
+            {
+              "id": "ironman_italy_2021",
+              "result_tsv": "master/2021/ironman_italy_2021/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2021 IRONMAN Emilia Romagna",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -79410,6 +80558,88 @@
               "name": "Full Distance",
               "distance": "LD",
               "description": "2022 IRONMAN Maryland",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2021-09-18",
+          "categories": [
+            {
+              "id": "ironman_maryland_2021",
+              "result_tsv": "master/2021/ironman_maryland_2021/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2021 IRONMAN Maryland",
               "segments": [
                 {
                   "sport": "swim",
@@ -80156,6 +81386,88 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2021-09-26",
+          "categories": [
+            {
+              "id": "ironman_chattanooga_2021",
+              "result_tsv": "master/2021/ironman_chattanooga_2021/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2021 IRONMAN Chattanooga",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -80748,6 +82060,88 @@
               ]
             }
           ]
+        },
+        {
+          "date": "2021-10-03",
+          "categories": [
+            {
+              "id": "ironman_barcelona_2021",
+              "result_tsv": "master/2021/ironman_barcelona_2021/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2021 IRONMAN Barcelona",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -81092,6 +82486,88 @@
               "name": "Full Distance",
               "distance": "LD",
               "description": "2022 IRONMAN Portugal-Cascais",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2021-10-23",
+          "categories": [
+            {
+              "id": "ironman_portugal_2021",
+              "result_tsv": "master/2021/ironman_portugal_2021/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2021 IRONMAN Portugal-Cascais",
               "segments": [
                 {
                   "sport": "swim",
@@ -81766,6 +83242,88 @@
               "name": "Full Distance",
               "distance": "LD",
               "description": "2022 IRONMAN Florida",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2021-11-06",
+          "categories": [
+            {
+              "id": "ironman_florida_2021",
+              "result_tsv": "master/2021/ironman_florida_2021/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2021 IRONMAN Florida",
               "segments": [
                 {
                   "sport": "swim",

@@ -1,0 +1,135 @@
+{
+  "ironman_south_africa_2025_2021": {
+    "event_uuid": "60accc34-83fe-e111-aa75-005056956277",
+    "subevent_uuid": "59c39bb9-bd17-4ca4-9c29-bc5bc28d9bf0",
+    "year": 2021,
+    "name": "2021 IRONMAN African Championship South Africa",
+    "date": "2021-11-21T00:00:00Z"
+  },
+  "ironman_texas_2025_2021": {
+    "event_uuid": "d998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "37a255ce-58a5-4f54-a47d-d6ee047ba487",
+    "year": 2021,
+    "name": "2021 IRONMAN Texas",
+    "date": "2021-10-09T00:00:00Z"
+  },
+  "ironman_austria_2025_2021": {
+    "event_uuid": "e6b03b63-dbb0-e111-80ae-005056956277",
+    "subevent_uuid": "1ec4ff9e-e91f-42e0-825b-3ee0aa27cbd8",
+    "year": 2021,
+    "name": "2021 IRONMAN Austria",
+    "date": "2021-09-19T00:00:00Z"
+  },
+  "ironman_lanzarote_2025_2021": {
+    "event_uuid": "c598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "c73a0924-d713-4926-aecf-91911f350ccf",
+    "year": 2021,
+    "name": "2021 IRONMAN Lanzarote",
+    "date": "2021-07-03T00:00:00Z"
+  },
+  "ironman_cairns_2025_2021": {
+    "event_uuid": "6a6e11d2-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "2cceae96-8e89-4ef3-8b62-6e7aefe879f2",
+    "year": 2021,
+    "name": "2021 IRONMAN Cairns",
+    "date": "2021-06-06T00:00:00Z"
+  },
+  "ironman_frankfurt_2025_2021": {
+    "event_uuid": "b798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "28d151b2-0f82-4945-b853-5de5b70c3fd1",
+    "year": 2021,
+    "name": "2021 IRONMAN European Championship Frankfurt",
+    "date": "2021-08-15T00:00:00Z"
+  },
+  "ironman_france_2025_2021": {
+    "event_uuid": "bb98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "59b5f3e2-891e-4ef0-9d20-e301e7ad5edf",
+    "year": 2021,
+    "name": "2021 IRONMAN France",
+    "date": "2021-09-12T00:00:00Z"
+  },
+  "ironman_hamburg_2025_2021": {
+    "event_uuid": "0ed71b3d-6974-e611-9410-005056951bf1",
+    "subevent_uuid": "47af6768-2329-48da-99d0-cd6808e82204",
+    "year": 2021,
+    "name": "2021 IRONMAN Hamburg",
+    "date": "2021-08-29T00:00:00Z"
+  },
+  "ironman_copenhagen_2025_2021": {
+    "event_uuid": "6b909a24-f40f-e311-9ec7-005056956277",
+    "subevent_uuid": "d475d4af-8721-4f69-949f-e8e187d5544e",
+    "year": 2021,
+    "name": "2021 IRONMAN Copenhagen",
+    "date": "2021-08-22T00:00:00Z"
+  },
+  "ironman_tallinn_2025_2021": {
+    "event_uuid": "37760ed4-c881-e711-9418-005056951bf1",
+    "subevent_uuid": "d566b15d-abcd-4da0-aef1-b8731b681f20",
+    "year": 2021,
+    "name": "2021 IRONMAN Tallinn",
+    "date": "2021-08-07T00:00:00Z"
+  },
+  "ironman_switzerland_2025_2021": {
+    "event_uuid": "d90fba34-21ae-e911-a986-000d3a364086",
+    "subevent_uuid": "d1921b2b-d5dc-4057-9887-e296c114d0ee",
+    "year": 2021,
+    "name": "2021 IRONMAN Switzerland Thun",
+    "date": "2021-09-05T00:00:00Z"
+  },
+  "ironman_wisconsin_2025_2021": {
+    "event_uuid": "e598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "9d7fc5ab-e7ed-40fd-b46d-36eef2fe3fae",
+    "year": 2021,
+    "name": "2021 IRONMAN Wisconsin",
+    "date": "2021-09-12T00:00:00Z"
+  },
+  "ironman_maryland_2025_2021": {
+    "event_uuid": "52f9c915-31ca-e311-b5f4-005056956277",
+    "subevent_uuid": "525754c0-dae5-4e6c-ac4f-0f034a9b1719",
+    "year": 2021,
+    "name": "2021 IRONMAN Maryland",
+    "date": "2021-09-18T00:00:00Z"
+  },
+  "ironman_chattanooga_2025_2021": {
+    "event_uuid": "0a742931-cf10-e311-9ec7-005056956277",
+    "subevent_uuid": "e7c5b87f-7b8b-4bfe-8989-c9f65ece83e5",
+    "year": 2021,
+    "name": "2021 IRONMAN Chattanooga",
+    "date": "2021-09-26T00:00:00Z"
+  },
+  "ironman_barcelona_2025_2021": {
+    "event_uuid": "c413f2e7-2dca-e311-b5f4-005056956277",
+    "subevent_uuid": "0c82c066-8f9e-4d6d-b8a9-a452c14dfa50",
+    "year": 2021,
+    "name": "2021 IRONMAN Barcelona",
+    "date": "2021-10-03T00:00:00Z"
+  },
+  "ironman_florida_2025_2021": {
+    "event_uuid": "b998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "d8df0b33-0809-4507-bcbc-611067a517ca",
+    "year": 2021,
+    "name": "2021 IRONMAN Florida",
+    "date": "2021-11-06T00:00:00Z"
+  },
+  "ironman_vitoria_2025_2021": {
+    "event_uuid": "47f47b8c-71ba-e811-a967-000d3a37468c",
+    "subevent_uuid": "b57965c1-e903-4d02-a14b-1d8e14223d1d",
+    "year": 2021,
+    "name": "2021 IRONMAN Vitoria-Gasteiz",
+    "date": "2021-09-12T00:00:00Z"
+  },
+  "ironman_italy_2025_2021": {
+    "event_uuid": "aa3f9693-bd9a-e611-9410-005056951bf1",
+    "subevent_uuid": "2492e792-a3ca-4214-83bf-672467110bb4",
+    "year": 2021,
+    "name": "2021 5150 Cervia Triathlon Emilia Romagna",
+    "date": "2021-09-19T00:00:00Z"
+  },
+  "ironman_portugal_2025_2021": {
+    "event_uuid": "4a7d66f0-94f5-e911-a812-000d3a5a1cf8",
+    "subevent_uuid": "c79d05ee-8b01-4208-8464-ebca79cd435c",
+    "year": 2021,
+    "name": "2021 IRONMAN Portugal-Cascais",
+    "date": "2021-10-23T00:00:00Z"
+  }
+}
