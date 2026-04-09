@@ -1,0 +1,51 @@
+{
+  "ironman_australia_2025_2006": {
+    "event_uuid": "a598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "1714d0b1-4eae-e111-80ae-005056956277",
+    "year": 2006,
+    "name": "2006 IRONMAN Australia: Triathlon",
+    "date": "2006-04-02T00:00:00Z"
+  },
+  "ironman_austria_2025_2006": {
+    "event_uuid": "e6b03b63-dbb0-e111-80ae-005056956277",
+    "subevent_uuid": "33e2e6a7-a55a-e211-b7a2-005056956277",
+    "year": 2006,
+    "name": "2006 IRONMAN Austria: Triathlon",
+    "date": "2006-07-16T00:00:00Z"
+  },
+  "ironman_brazil_2025_2006": {
+    "event_uuid": "a798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "4b14d0b1-4eae-e111-80ae-005056956277",
+    "year": 2006,
+    "name": "2006 IRONMAN Brazil: Triathlon",
+    "date": "2006-05-28T00:00:00Z"
+  },
+  "ironman_france_2025_2006": {
+    "event_uuid": "bb98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "f2ab3dea-e155-e211-b7a2-005056956277",
+    "year": 2006,
+    "name": "2006 IRONMAN France: Triathlon",
+    "date": "2006-06-25T00:00:00Z"
+  },
+  "ironman_wisconsin_2025_2006": {
+    "event_uuid": "e598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "5f14d0b1-4eae-e111-80ae-005056956277",
+    "year": 2006,
+    "name": "2006 IRONMAN Wisconsin: Triathlon",
+    "date": "2006-09-10T00:00:00Z"
+  },
+  "ironman_florida_2025_2006": {
+    "event_uuid": "b998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "4f14d0b1-4eae-e111-80ae-005056956277",
+    "year": 2006,
+    "name": "2006 IRONMAN Florida: Triathlon",
+    "date": "2006-11-04T00:00:00Z"
+  },
+  "ironman_world_championship_kona_2006": {
+    "event_uuid": "e798aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "5514d0b1-4eae-e111-80ae-005056956277",
+    "year": 2006,
+    "name": "2006 IRONMAN World Championship: Triathlon",
+    "date": "2006-10-21T00:00:00Z"
+  }
+}
