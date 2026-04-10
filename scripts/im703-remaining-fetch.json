@@ -1,0 +1,3706 @@
+{
+  "im703_cairns_2025": {
+    "event_uuid": "eec737b8-84fe-e111-aa75-005056956277",
+    "subevent_uuid": "ee61cea7-a128-4c05-bad4-da375d0e7187",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Cairns",
+    "date": "2025-06-15T00:00:00Z",
+    "race_base": "im703_cairns"
+  },
+  "im703_cairns_2024": {
+    "event_uuid": "eec737b8-84fe-e111-aa75-005056956277",
+    "subevent_uuid": "7869d555-2aff-4f50-9767-2086c1a877a3",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Cairns",
+    "date": "2024-06-16T00:00:00Z",
+    "race_base": "im703_cairns"
+  },
+  "im703_cairns_2023": {
+    "event_uuid": "eec737b8-84fe-e111-aa75-005056956277",
+    "subevent_uuid": "08785e4f-29de-4b82-98b1-1f3b57ab6d34",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Cairns",
+    "date": "2023-06-18T00:00:00Z",
+    "race_base": "im703_cairns"
+  },
+  "im703_cairns_2022": {
+    "event_uuid": "eec737b8-84fe-e111-aa75-005056956277",
+    "subevent_uuid": "2fa7c9b2-8d67-4dad-ab3e-8435c9f6f65b",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Cairns",
+    "date": "2022-06-12T00:00:00Z",
+    "race_base": "im703_cairns"
+  },
+  "im703_cairns_2021": {
+    "event_uuid": "eec737b8-84fe-e111-aa75-005056956277",
+    "subevent_uuid": "b7b6dfd4-fb41-4d0b-83c1-125678fb133c",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Cairns",
+    "date": "2021-06-06T00:00:00Z",
+    "race_base": "im703_cairns"
+  },
+  "im703_cairns_2020": {
+    "event_uuid": "eec737b8-84fe-e111-aa75-005056956277",
+    "subevent_uuid": "517bff90-788b-e911-a978-000d3a37468c",
+    "year": 2020,
+    "name": "2020 IRONMAN 70.3 Cairns",
+    "date": "2020-09-27T00:00:00Z",
+    "race_base": "im703_cairns"
+  },
+  "im703_cairns_2019": {
+    "event_uuid": "eec737b8-84fe-e111-aa75-005056956277",
+    "subevent_uuid": "0f8f9e60-7a72-e811-941f-005056951bf1",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Cairns",
+    "date": "2019-06-09T00:00:00Z",
+    "race_base": "im703_cairns"
+  },
+  "im703_cairns_2018": {
+    "event_uuid": "eec737b8-84fe-e111-aa75-005056956277",
+    "subevent_uuid": "b1e9fe39-9252-e711-9418-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Cairns",
+    "date": "2018-06-10T00:00:00Z",
+    "race_base": "im703_cairns"
+  },
+  "im703_cairns_2017": {
+    "event_uuid": "eec737b8-84fe-e111-aa75-005056956277",
+    "subevent_uuid": "d3bf44dc-6868-e611-940f-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Cairns",
+    "date": "2017-06-11T00:00:00Z",
+    "race_base": "im703_cairns"
+  },
+  "im703_cairns_2015": {
+    "event_uuid": "eec737b8-84fe-e111-aa75-005056956277",
+    "subevent_uuid": "70912ef4-a252-49fd-bf99-2aef44c495b7",
+    "year": 2015,
+    "name": "2015 IRONMAN 70.3 Cairns",
+    "date": "2015-06-14T00:00:00Z",
+    "race_base": "im703_cairns"
+  },
+  "im703_cairns_2014": {
+    "event_uuid": "eec737b8-84fe-e111-aa75-005056956277",
+    "subevent_uuid": "ef4852b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN 70.3 Cairns",
+    "date": "2014-06-08T00:00:00Z",
+    "race_base": "im703_cairns"
+  },
+  "im703_cairns_2013": {
+    "event_uuid": "eec737b8-84fe-e111-aa75-005056956277",
+    "subevent_uuid": "43626994-3055-e211-b7a2-005056956277",
+    "year": 2013,
+    "name": "2013 IRONMAN 70.3 Cairns: Triathlon",
+    "date": "2013-06-09T00:00:00Z",
+    "race_base": "im703_cairns"
+  },
+  "im703_cairns_2012": {
+    "event_uuid": "eec737b8-84fe-e111-aa75-005056956277",
+    "subevent_uuid": "1afb70e9-84fe-e111-aa75-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN 70.3 Cairns",
+    "date": "2012-06-03T00:00:00Z",
+    "race_base": "im703_cairns"
+  },
+  "im703_chattanooga_2025": {
+    "event_uuid": "e2352999-586b-e411-93fa-005056951bf1",
+    "subevent_uuid": "d4ab9ef4-8b7f-43c2-a594-c432415d8f90",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Chattanooga",
+    "date": "2025-05-18T00:00:00Z",
+    "race_base": "im703_chattanooga"
+  },
+  "im703_chattanooga_2024": {
+    "event_uuid": "e2352999-586b-e411-93fa-005056951bf1",
+    "subevent_uuid": "c644b569-80b0-4346-ab8d-42d46b037abc",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Chattanooga",
+    "date": "2024-05-19T00:00:00Z",
+    "race_base": "im703_chattanooga"
+  },
+  "im703_chattanooga_2023": {
+    "event_uuid": "e2352999-586b-e411-93fa-005056951bf1",
+    "subevent_uuid": "91fa1be8-3002-4755-a8ef-01b8254d5d44",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Chattanooga",
+    "date": "2023-05-21T00:00:00Z",
+    "race_base": "im703_chattanooga"
+  },
+  "im703_chattanooga_2022": {
+    "event_uuid": "e2352999-586b-e411-93fa-005056951bf1",
+    "subevent_uuid": "8980bc3f-3694-4e37-b53f-d2378a26d7c9",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Chattanooga",
+    "date": "2022-05-22T00:00:00Z",
+    "race_base": "im703_chattanooga"
+  },
+  "im703_chattanooga_2021": {
+    "event_uuid": "e2352999-586b-e411-93fa-005056951bf1",
+    "subevent_uuid": "d5abbfc1-778d-47d8-9048-ea36a75fb885",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Chattanooga",
+    "date": "2021-05-23T00:00:00Z",
+    "race_base": "im703_chattanooga"
+  },
+  "im703_chattanooga_2019": {
+    "event_uuid": "e2352999-586b-e411-93fa-005056951bf1",
+    "subevent_uuid": "56367699-dd91-e811-941f-005056951bf1",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Chattanooga",
+    "date": "2019-05-19T00:00:00Z",
+    "race_base": "im703_chattanooga"
+  },
+  "im703_chattanooga_2018": {
+    "event_uuid": "e2352999-586b-e411-93fa-005056951bf1",
+    "subevent_uuid": "8707d1d4-0d6b-e711-9418-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Chattanooga",
+    "date": "2018-05-20T00:00:00Z",
+    "race_base": "im703_chattanooga"
+  },
+  "im703_chattanooga_2017": {
+    "event_uuid": "e2352999-586b-e411-93fa-005056951bf1",
+    "subevent_uuid": "ed22224c-d23e-e611-940f-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Chattanooga",
+    "date": "2017-05-21T04:00:00Z",
+    "race_base": "im703_chattanooga"
+  },
+  "im703_chattanooga_2015": {
+    "event_uuid": "e2352999-586b-e411-93fa-005056951bf1",
+    "subevent_uuid": "087326dd-586b-e411-93fa-005056951bf1",
+    "year": 2015,
+    "name": "2015 IRONMAN 70.3 Chattanooga",
+    "date": "2015-05-17T00:00:00Z",
+    "race_base": "im703_chattanooga"
+  },
+  "im703_waco_2025": {
+    "event_uuid": "ed0ed7f4-3fca-e711-941b-005056951bf1",
+    "subevent_uuid": "a34c72f5-d303-4b85-bd36-bcc44f46c1c7",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Waco",
+    "date": "2025-10-05T00:00:00Z",
+    "race_base": "im703_waco"
+  },
+  "im703_waco_2024": {
+    "event_uuid": "ed0ed7f4-3fca-e711-941b-005056951bf1",
+    "subevent_uuid": "e42f12ce-2366-4beb-aadf-844c9142c76f",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Waco",
+    "date": "2024-10-06T00:00:00Z",
+    "race_base": "im703_waco"
+  },
+  "im703_waco_2023": {
+    "event_uuid": "ed0ed7f4-3fca-e711-941b-005056951bf1",
+    "subevent_uuid": "cc0a2ef2-daa0-47a8-a1a5-29d3159ad63f",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Waco",
+    "date": "2023-10-15T00:00:00Z",
+    "race_base": "im703_waco"
+  },
+  "im703_waco_2022": {
+    "event_uuid": "ed0ed7f4-3fca-e711-941b-005056951bf1",
+    "subevent_uuid": "21e399c5-51c5-4420-8b7f-aa2c91dfe83d",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Waco",
+    "date": "2022-10-16T00:00:00Z",
+    "race_base": "im703_waco"
+  },
+  "im703_waco_2021": {
+    "event_uuid": "ed0ed7f4-3fca-e711-941b-005056951bf1",
+    "subevent_uuid": "974f44a5-ce5f-45be-aab8-1446cc3e5fd8",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Waco",
+    "date": "2021-10-24T00:00:00Z",
+    "race_base": "im703_waco"
+  },
+  "im703_waco_2019": {
+    "event_uuid": "ed0ed7f4-3fca-e711-941b-005056951bf1",
+    "subevent_uuid": "c9ad8486-9403-e911-a968-000d3a3749bc",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Waco",
+    "date": "2019-10-27T00:00:00Z",
+    "race_base": "im703_waco"
+  },
+  "im703_waco_2018": {
+    "event_uuid": "ed0ed7f4-3fca-e711-941b-005056951bf1",
+    "subevent_uuid": "a9375cc6-40ca-e711-941b-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Waco",
+    "date": "2018-10-28T00:00:00Z",
+    "race_base": "im703_waco"
+  },
+  "im703_calgary_2025": {
+    "event_uuid": "4598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "8bb5fc88-797c-43aa-9c1d-743c12e3ea12",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Calgary (full bike)",
+    "date": "2025-07-27T00:00:00Z",
+    "race_base": "im703_calgary"
+  },
+  "im703_calgary_2024": {
+    "event_uuid": "4598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "805f0377-94d0-4b70-9f2f-b768a0f9535e",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Calgary",
+    "date": "2024-07-28T00:00:00Z",
+    "race_base": "im703_calgary"
+  },
+  "im703_calgary_2023": {
+    "event_uuid": "4598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "679f6b8d-3767-4a52-88ba-21a006a611b5",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Calgary",
+    "date": "2023-07-30T00:00:00Z",
+    "race_base": "im703_calgary"
+  },
+  "im703_calgary_2022": {
+    "event_uuid": "4598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "1046bcfa-1617-4db5-a7e6-cc6c7fb21490",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Calgary",
+    "date": "2022-07-31T00:00:00Z",
+    "race_base": "im703_calgary"
+  },
+  "im703_calgary_2021": {
+    "event_uuid": "4598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "8274ba63-dfc6-4b5c-8f2f-05aa40029c31",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Calgary",
+    "date": "2021-08-01T00:00:00Z",
+    "race_base": "im703_calgary"
+  },
+  "im703_calgary_2019": {
+    "event_uuid": "4598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "1c241d45-0202-e911-a96e-000d3a36478d",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Calgary",
+    "date": "2019-08-11T00:00:00Z",
+    "race_base": "im703_calgary"
+  },
+  "im703_calgary_2018": {
+    "event_uuid": "4598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "bb2b0b39-92ba-e711-941b-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Calgary",
+    "date": "2018-07-29T00:00:00Z",
+    "race_base": "im703_calgary"
+  },
+  "im703_calgary_2017": {
+    "event_uuid": "4598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "b63b6f81-688a-e611-9410-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Calgary",
+    "date": "2017-07-23T00:00:00Z",
+    "race_base": "im703_calgary"
+  },
+  "im703_calgary_2015": {
+    "event_uuid": "4598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "5f69eef8-9900-4f50-8466-ed3cd6a8261c",
+    "year": 2015,
+    "name": "2015 IRONMAN 70.3 Calgary",
+    "date": "2015-07-26T00:00:00Z",
+    "race_base": "im703_calgary"
+  },
+  "im703_calgary_2014": {
+    "event_uuid": "4598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "f04852b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN 70.3 Calgary",
+    "date": "2014-07-27T00:00:00Z",
+    "race_base": "im703_calgary"
+  },
+  "im703_calgary_2013": {
+    "event_uuid": "4598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "de616994-3055-e211-b7a2-005056956277",
+    "year": 2013,
+    "name": "2013 IRONMAN 70.3 Calgary: Triathlon",
+    "date": "2013-07-28T00:00:00Z",
+    "race_base": "im703_calgary"
+  },
+  "im703_calgary_2012": {
+    "event_uuid": "4598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "9f17d0b1-4eae-e111-80ae-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN 70.3 Calgary: Triathlon",
+    "date": "2012-07-29T00:00:00Z",
+    "race_base": "im703_calgary"
+  },
+  "im703_calgary_2011": {
+    "event_uuid": "4598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "8b16d0b1-4eae-e111-80ae-005056956277",
+    "year": 2011,
+    "name": "2011 IRONMAN 70.3 Calgary: Triathlon",
+    "date": "2011-07-31T00:00:00Z",
+    "race_base": "im703_calgary"
+  },
+  "im703_calgary_2010": {
+    "event_uuid": "4598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "a515d0b1-4eae-e111-80ae-005056956277",
+    "year": 2010,
+    "name": "2010 IRONMAN 70.3 Calgary: Triathlon",
+    "date": "2010-08-01T00:00:00Z",
+    "race_base": "im703_calgary"
+  },
+  "im703_calgary_2009": {
+    "event_uuid": "4598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "1b15d0b1-4eae-e111-80ae-005056956277",
+    "year": 2009,
+    "name": "2009 IRONMAN 70.3 Calgary: Triathlon",
+    "date": "2009-08-02T00:00:00Z",
+    "race_base": "im703_calgary"
+  },
+  "im703_bolton_2025": {
+    "event_uuid": "3a228722-c851-4db8-b5af-31254f16d701",
+    "subevent_uuid": "963b0ba7-395f-4b06-86cf-ca211e275b53",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Bolton",
+    "date": "2025-06-08T00:00:00Z",
+    "race_base": "im703_bolton"
+  },
+  "im703_bolton_2024": {
+    "event_uuid": "3a228722-c851-4db8-b5af-31254f16d701",
+    "subevent_uuid": "418c854e-6631-41cf-ba77-7f9a1336b776",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Bolton",
+    "date": "2024-06-30T00:00:00Z",
+    "race_base": "im703_bolton"
+  },
+  "im703_bolton_2021": {
+    "event_uuid": "3a228722-c851-4db8-b5af-31254f16d701",
+    "subevent_uuid": "c52854e9-8499-4139-b705-b5ca164882dd",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Bolton",
+    "date": "2021-09-26T00:00:00Z",
+    "race_base": "im703_bolton"
+  },
+  "im703_belgrade_2025": {
+    "event_uuid": "41e1ec53-e777-473b-a015-2c64c1f56442",
+    "subevent_uuid": "a9af15cf-c2ce-4671-8ce0-21e2cd7b71f9",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Belgrade",
+    "date": "2025-09-21T00:00:00Z",
+    "race_base": "im703_belgrade"
+  },
+  "im703_belgrade_2024": {
+    "event_uuid": "41e1ec53-e777-473b-a015-2c64c1f56442",
+    "subevent_uuid": "91afaf8d-f60b-4641-ae66-560bd2ae1421",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Belgrade",
+    "date": "2024-09-15T00:00:00Z",
+    "race_base": "im703_belgrade"
+  },
+  "im703_salalah_2025": {
+    "event_uuid": "d7e1a857-a41b-4be8-a2e5-9c5b096640a4",
+    "subevent_uuid": "6645c5cd-76a2-4716-9b0b-86602ced1b18",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Salalah",
+    "date": "2025-10-25T00:00:00Z",
+    "race_base": "im703_salalah"
+  },
+  "im703_salalah_2024": {
+    "event_uuid": "d7e1a857-a41b-4be8-a2e5-9c5b096640a4",
+    "subevent_uuid": "6ee68e06-b373-4ebc-bd11-4846d79b8e36",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Salalah",
+    "date": "2024-10-26T00:00:00Z",
+    "race_base": "im703_salalah"
+  },
+  "im703_salalah_2023": {
+    "event_uuid": "d7e1a857-a41b-4be8-a2e5-9c5b096640a4",
+    "subevent_uuid": "be7ecfa7-70a9-4340-bb0a-a824e46768c7",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Salalah",
+    "date": "2023-09-23T00:00:00Z",
+    "race_base": "im703_salalah"
+  },
+  "im703_salalah_2022": {
+    "event_uuid": "d7e1a857-a41b-4be8-a2e5-9c5b096640a4",
+    "subevent_uuid": "7abe8673-565b-4b40-9580-999aa70c485f",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Salalah",
+    "date": "2022-09-24T00:00:00Z",
+    "race_base": "im703_salalah"
+  },
+  "im703_melbourne_2025": {
+    "event_uuid": "ca57aaf3-5a31-ea11-a810-000d3a5a1477",
+    "subevent_uuid": "383c17df-a990-4c0f-bbba-4f8e4a53f00a",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Melbourne",
+    "date": "2025-11-09T00:00:00Z",
+    "race_base": "im703_melbourne"
+  },
+  "im703_melbourne_2024": {
+    "event_uuid": "ca57aaf3-5a31-ea11-a810-000d3a5a1477",
+    "subevent_uuid": "f1613e4f-6cdd-4f25-a77e-253fefee00e4",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Melbourne",
+    "date": "2024-11-10T00:00:00Z",
+    "race_base": "im703_melbourne"
+  },
+  "im703_melbourne_2023": {
+    "event_uuid": "ca57aaf3-5a31-ea11-a810-000d3a5a1477",
+    "subevent_uuid": "3887a9fc-399e-433a-b5d5-3e2eab4e0ee6",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Melbourne",
+    "date": "2023-11-12T00:00:00Z",
+    "race_base": "im703_melbourne"
+  },
+  "im703_melbourne_2022": {
+    "event_uuid": "ca57aaf3-5a31-ea11-a810-000d3a5a1477",
+    "subevent_uuid": "1c2d90d3-3fd3-4989-bbfc-5e636cbabebf",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Melbourne",
+    "date": "2022-03-20T00:00:00Z",
+    "race_base": "im703_melbourne"
+  },
+  "im703_desaru_2025": {
+    "event_uuid": "f8b9aa5e-b5b7-e911-a986-000d3a364086",
+    "subevent_uuid": "89755f15-6604-46b2-a4bf-cfd7797a3a75",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Desaru Coast",
+    "date": "2025-05-25T00:00:00Z",
+    "race_base": "im703_desaru"
+  },
+  "im703_desaru_2024": {
+    "event_uuid": "f8b9aa5e-b5b7-e911-a986-000d3a364086",
+    "subevent_uuid": "896b1717-f2b2-4fd4-a949-b2b2805d720e",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Desaru Coast",
+    "date": "2024-05-19T00:00:00Z",
+    "race_base": "im703_desaru"
+  },
+  "im703_desaru_2023": {
+    "event_uuid": "f8b9aa5e-b5b7-e911-a986-000d3a364086",
+    "subevent_uuid": "aebbf326-0ee8-4a0b-8db2-d5186dc9c835",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Desaru Coast",
+    "date": "2023-05-14T00:00:00Z",
+    "race_base": "im703_desaru"
+  },
+  "im703_desaru_2022": {
+    "event_uuid": "f8b9aa5e-b5b7-e911-a986-000d3a364086",
+    "subevent_uuid": "644eb8fb-47b9-4e52-bfae-9012e9ec9a80",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Desaru Coast",
+    "date": "2022-07-24T00:00:00Z",
+    "race_base": "im703_desaru"
+  },
+  "im703_langkawi_2025": {
+    "event_uuid": "f8e5a828-360b-e711-9414-005056951bf1",
+    "subevent_uuid": "936bcf89-22be-42bf-95fc-df72d8965766",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Langkawi",
+    "date": "2025-11-01T00:00:00Z",
+    "race_base": "im703_langkawi"
+  },
+  "im703_langkawi_2024": {
+    "event_uuid": "f8e5a828-360b-e711-9414-005056951bf1",
+    "subevent_uuid": "c0af3c2c-a2c2-4c5e-adf4-8f61dc205225",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Langkawi",
+    "date": "2024-10-12T00:00:00Z",
+    "race_base": "im703_langkawi"
+  },
+  "im703_langkawi_2023": {
+    "event_uuid": "f8e5a828-360b-e711-9414-005056951bf1",
+    "subevent_uuid": "31942fa7-0a03-48e7-bcff-c84b09392bbf",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Langkawi",
+    "date": "2023-10-07T00:00:00Z",
+    "race_base": "im703_langkawi"
+  },
+  "im703_langkawi_2022": {
+    "event_uuid": "f8e5a828-360b-e711-9414-005056951bf1",
+    "subevent_uuid": "cdf215ab-d02b-4b17-98f2-2e6676c2715e",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Langkawi",
+    "date": "2022-11-05T00:00:00Z",
+    "race_base": "im703_langkawi"
+  },
+  "im703_langkawi_2019": {
+    "event_uuid": "f8e5a828-360b-e711-9414-005056951bf1",
+    "subevent_uuid": "deab62f2-5d3b-e911-a96d-000d3a3740b7",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Langkawi",
+    "date": "2019-10-26T00:00:00Z",
+    "race_base": "im703_langkawi"
+  },
+  "im703_langkawi_2018": {
+    "event_uuid": "f8e5a828-360b-e711-9414-005056951bf1",
+    "subevent_uuid": "da6f00a9-d84f-e811-941e-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Langkawi",
+    "date": "2018-11-17T00:00:00Z",
+    "race_base": "im703_langkawi"
+  },
+  "im703_langkawi_2017": {
+    "event_uuid": "f8e5a828-360b-e711-9414-005056951bf1",
+    "subevent_uuid": "753a08ab-360b-e711-9414-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Langkawi",
+    "date": "2017-11-11T00:00:00Z",
+    "race_base": "im703_langkawi"
+  },
+  "im703_goa_2025": {
+    "event_uuid": "a8a0c439-4cfd-e811-a968-000d3a3749bc",
+    "subevent_uuid": "a6bbbdda-013d-4e63-9abf-8d2b66f53664",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Goa",
+    "date": "2025-11-09T00:00:00Z",
+    "race_base": "im703_goa"
+  },
+  "im703_goa_2024": {
+    "event_uuid": "a8a0c439-4cfd-e811-a968-000d3a3749bc",
+    "subevent_uuid": "df642982-5fff-4460-8470-49efcb8fdc79",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Goa",
+    "date": "2024-10-27T00:00:00Z",
+    "race_base": "im703_goa"
+  },
+  "im703_goa_2023": {
+    "event_uuid": "a8a0c439-4cfd-e811-a968-000d3a3749bc",
+    "subevent_uuid": "a9e26e6a-2f4f-410b-b3c8-b96e2d2a3130",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Goa",
+    "date": "2023-10-08T00:00:00Z",
+    "race_base": "im703_goa"
+  },
+  "im703_goa_2022": {
+    "event_uuid": "a8a0c439-4cfd-e811-a968-000d3a3749bc",
+    "subevent_uuid": "c2b8dbc9-fdf9-422c-a147-d976146f1902",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Goa",
+    "date": "2022-11-13T00:00:00Z",
+    "race_base": "im703_goa"
+  },
+  "im703_goa_2019": {
+    "event_uuid": "a8a0c439-4cfd-e811-a968-000d3a3749bc",
+    "subevent_uuid": "7284cebd-4cfd-e811-a968-000d3a3749bc",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Goa",
+    "date": "2019-10-20T00:00:00Z",
+    "race_base": "im703_goa"
+  },
+  "im703_puerto_princesa_2025": {
+    "event_uuid": "befc8af5-8303-436a-a7d1-2531e3218268",
+    "subevent_uuid": "53049f1d-dbb1-4bae-9e31-97314ae44378",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Puerto Princesa",
+    "date": "2025-03-02T00:00:00Z",
+    "race_base": "im703_puerto_princesa"
+  },
+  "im703_puerto_princesa_2023": {
+    "event_uuid": "befc8af5-8303-436a-a7d1-2531e3218268",
+    "subevent_uuid": "2b4ad192-20f2-48fa-8881-dceb8a12910f",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Puerto Princesa",
+    "date": "2023-11-12T00:00:00Z",
+    "race_base": "im703_puerto_princesa"
+  },
+  "im703_puerto_princesa_2022": {
+    "event_uuid": "befc8af5-8303-436a-a7d1-2531e3218268",
+    "subevent_uuid": "d27beee4-ca77-4e09-a0ef-b91a8ed62284",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Puerto Princesa",
+    "date": "2022-11-13T00:00:00Z",
+    "race_base": "im703_puerto_princesa"
+  },
+  "im703_gulf_coast_2025": {
+    "event_uuid": "67d2be01-c0a2-e611-9410-005056951bf1",
+    "subevent_uuid": "8f32c36f-ad87-43d9-a96c-2f3bd3f610d5",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Gulf Coast",
+    "date": "2025-05-10T00:00:00Z",
+    "race_base": "im703_gulf_coast"
+  },
+  "im703_gulf_coast_2024": {
+    "event_uuid": "67d2be01-c0a2-e611-9410-005056951bf1",
+    "subevent_uuid": "cc9adaba-72d4-4500-8183-3ae7f10ea9e1",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Gulf Coast",
+    "date": "2024-05-11T00:00:00Z",
+    "race_base": "im703_gulf_coast"
+  },
+  "im703_gulf_coast_2023": {
+    "event_uuid": "67d2be01-c0a2-e611-9410-005056951bf1",
+    "subevent_uuid": "7e08c71f-7e66-4e0a-ac6c-4a63b871c249",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Gulf Coast",
+    "date": "2023-05-13T00:00:00Z",
+    "race_base": "im703_gulf_coast"
+  },
+  "im703_gulf_coast_2022": {
+    "event_uuid": "67d2be01-c0a2-e611-9410-005056951bf1",
+    "subevent_uuid": "e2f30de6-5431-46ee-a2ff-93c63b61373b",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Gulf Coast",
+    "date": "2022-05-07T00:00:00Z",
+    "race_base": "im703_gulf_coast"
+  },
+  "im703_gulf_coast_2021": {
+    "event_uuid": "67d2be01-c0a2-e611-9410-005056951bf1",
+    "subevent_uuid": "a91e1f36-43f9-4b46-b7c0-f2ea9906abfd",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Gulf Coast",
+    "date": "2021-05-15T00:00:00Z",
+    "race_base": "im703_gulf_coast"
+  },
+  "im703_gulf_coast_2020": {
+    "event_uuid": "67d2be01-c0a2-e611-9410-005056951bf1",
+    "subevent_uuid": "bf58c5bd-c4a8-e911-a979-000d3a3740b7",
+    "year": 2020,
+    "name": "2020 IRONMAN 70.3 Gulf Coast",
+    "date": "2020-11-07T00:00:00Z",
+    "race_base": "im703_gulf_coast"
+  },
+  "im703_gulf_coast_2019": {
+    "event_uuid": "67d2be01-c0a2-e611-9410-005056951bf1",
+    "subevent_uuid": "cc9ee743-dd91-e811-941f-005056951bf1",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Gulf Coast",
+    "date": "2019-05-11T00:00:00Z",
+    "race_base": "im703_gulf_coast"
+  },
+  "im703_gulf_coast_2018": {
+    "event_uuid": "67d2be01-c0a2-e611-9410-005056951bf1",
+    "subevent_uuid": "5b36a90e-096b-e711-9418-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Gulf Coast",
+    "date": "2018-05-12T00:00:00Z",
+    "race_base": "im703_gulf_coast"
+  },
+  "im703_gulf_coast_2017": {
+    "event_uuid": "67d2be01-c0a2-e611-9410-005056951bf1",
+    "subevent_uuid": "cd0eb09b-c0a2-e611-9410-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Gulf Coast",
+    "date": "2017-05-13T00:00:00Z",
+    "race_base": "im703_gulf_coast"
+  },
+  "im703_hawaii_2025": {
+    "event_uuid": "5398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "cb9654b6-2176-479b-bc7e-f38bc8e150ae",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Hawaii",
+    "date": "2025-05-31T00:00:00Z",
+    "race_base": "im703_hawaii"
+  },
+  "im703_hawaii_2024": {
+    "event_uuid": "5398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "13fcb784-c058-4df2-8ea3-683aecfa675d",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Hawaii",
+    "date": "2024-06-01T00:00:00Z",
+    "race_base": "im703_hawaii"
+  },
+  "im703_hawaii_2023": {
+    "event_uuid": "5398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "7dfbd00b-2bf2-49ad-8795-065df9e6b0b0",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Hawaii",
+    "date": "2023-06-03T00:00:00Z",
+    "race_base": "im703_hawaii"
+  },
+  "im703_hawaii_2022": {
+    "event_uuid": "5398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "eb94f177-ed20-4fb1-80e7-3ac0e69d848a",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Hawaii",
+    "date": "2022-06-04T00:00:00Z",
+    "race_base": "im703_hawaii"
+  },
+  "im703_hawaii_2021": {
+    "event_uuid": "5398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "ecbcba01-8dbc-4765-8b40-c9c918f6be8a",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Hawaii",
+    "date": "2021-06-05T00:00:00Z",
+    "race_base": "im703_hawaii"
+  },
+  "im703_hawaii_2019": {
+    "event_uuid": "5398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "8c99c5bb-16a2-e811-a960-000d3a36478d",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Hawaii",
+    "date": "2019-06-01T00:00:00Z",
+    "race_base": "im703_hawaii"
+  },
+  "im703_hawaii_2018": {
+    "event_uuid": "5398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "d338bbab-8983-e711-9419-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Hawaii",
+    "date": "2018-06-02T00:00:00Z",
+    "race_base": "im703_hawaii"
+  },
+  "im703_hawaii_2017": {
+    "event_uuid": "5398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "2124392f-1f45-e611-940f-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Hawaii",
+    "date": "2017-06-03T00:00:00Z",
+    "race_base": "im703_hawaii"
+  },
+  "im703_hawaii_2015": {
+    "event_uuid": "5398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "e21f2918-40df-446b-8182-afe2000eb6b4",
+    "year": 2015,
+    "name": "2015 IRONMAN 70.3 Hawaii",
+    "date": "2015-05-30T00:00:00Z",
+    "race_base": "im703_hawaii"
+  },
+  "im703_hawaii_2014": {
+    "event_uuid": "5398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "f74852b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN 70.3 Hawaii",
+    "date": "2014-05-31T00:00:00Z",
+    "race_base": "im703_hawaii"
+  },
+  "im703_hawaii_2013": {
+    "event_uuid": "5398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "b8febed4-a1dd-e111-aa75-005056956277",
+    "year": 2013,
+    "name": "2013 IRONMAN 70.3 Hawaii: Triathlon",
+    "date": "2013-06-01T00:00:00Z",
+    "race_base": "im703_hawaii"
+  },
+  "im703_hawaii_2012": {
+    "event_uuid": "5398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "cf17d0b1-4eae-e111-80ae-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN 70.3 Hawaii: Triathlon",
+    "date": "2012-06-02T00:00:00Z",
+    "race_base": "im703_hawaii"
+  },
+  "im703_hawaii_2011": {
+    "event_uuid": "5398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "b716d0b1-4eae-e111-80ae-005056956277",
+    "year": 2011,
+    "name": "2011 IRONMAN 70.3 Hawaii: Triathlon",
+    "date": "2011-06-04T00:00:00Z",
+    "race_base": "im703_hawaii"
+  },
+  "im703_hawaii_2010": {
+    "event_uuid": "5398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "dd15d0b1-4eae-e111-80ae-005056956277",
+    "year": 2010,
+    "name": "2010 IRONMAN 70.3 Hawaii: Triathlon",
+    "date": "2010-06-05T00:00:00Z",
+    "race_base": "im703_hawaii"
+  },
+  "im703_hawaii_2009": {
+    "event_uuid": "5398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "6115d0b1-4eae-e111-80ae-005056956277",
+    "year": 2009,
+    "name": "2009 IRONMAN 70.3 Hawaii: Triathlon",
+    "date": "2009-05-30T00:00:00Z",
+    "race_base": "im703_hawaii"
+  },
+  "im703_hawaii_2008": {
+    "event_uuid": "5398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "ef14d0b1-4eae-e111-80ae-005056956277",
+    "year": 2008,
+    "name": "2008 IRONMAN 70.3 Hawaii: Triathlon",
+    "date": "2008-05-31T00:00:00Z",
+    "race_base": "im703_hawaii"
+  },
+  "im703_hawaii_2007": {
+    "event_uuid": "5398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "8f14d0b1-4eae-e111-80ae-005056956277",
+    "year": 2007,
+    "name": "2007 IRONMAN 70.3 Hawaii: Triathlon",
+    "date": "2007-06-02T00:00:00Z",
+    "race_base": "im703_hawaii"
+  },
+  "im703_hawaii_2006": {
+    "event_uuid": "5398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "3b14d0b1-4eae-e111-80ae-005056956277",
+    "year": 2006,
+    "name": "2006 IRONMAN 70.3 Hawaii: Triathlon",
+    "date": "2006-06-03T00:00:00Z",
+    "race_base": "im703_hawaii"
+  },
+  "im703_hawaii_2005": {
+    "event_uuid": "5398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "e913d0b1-4eae-e111-80ae-005056956277",
+    "year": 2005,
+    "name": "2005 IRONMAN 70.3 Hawaii: Triathlon",
+    "date": "2005-06-05T00:00:00Z",
+    "race_base": "im703_hawaii"
+  },
+  "im703_boulder_2025": {
+    "event_uuid": "3b98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "e1555ad0-d967-434a-bcbd-572d8ad2e74b",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Boulder",
+    "date": "2025-06-14T00:00:00Z",
+    "race_base": "im703_boulder"
+  },
+  "im703_boulder_2024": {
+    "event_uuid": "3b98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "a3249034-8c8a-43d0-92c6-5f56f3f574bc",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Boulder",
+    "date": "2024-06-08T00:00:00Z",
+    "race_base": "im703_boulder"
+  },
+  "im703_boulder_2023": {
+    "event_uuid": "3b98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "bb139c33-6c93-4596-81c2-f43159d93687",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Boulder",
+    "date": "2023-06-10T00:00:00Z",
+    "race_base": "im703_boulder"
+  },
+  "im703_boulder_2022": {
+    "event_uuid": "3b98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "1f0e33db-974b-4695-880d-f45cd34da2cb",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Boulder",
+    "date": "2022-08-06T00:00:00Z",
+    "race_base": "im703_boulder"
+  },
+  "im703_boulder_2021": {
+    "event_uuid": "3b98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "ee962fff-76b2-40b6-a6db-05584480b809",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Boulder",
+    "date": "2021-08-07T00:00:00Z",
+    "race_base": "im703_boulder"
+  },
+  "im703_boulder_2019": {
+    "event_uuid": "3b98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "ae7ad45a-52b7-e811-a967-000d3a37468c",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Boulder",
+    "date": "2019-08-03T00:00:00Z",
+    "race_base": "im703_boulder"
+  },
+  "im703_boulder_2018": {
+    "event_uuid": "3b98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "39f3f709-13a2-e711-9419-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Boulder",
+    "date": "2018-08-04T00:00:00Z",
+    "race_base": "im703_boulder"
+  },
+  "im703_boulder_2017": {
+    "event_uuid": "3b98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "8bbe629c-9568-e611-940f-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Boulder",
+    "date": "2017-08-05T00:00:00Z",
+    "race_base": "im703_boulder"
+  },
+  "im703_boulder_2015": {
+    "event_uuid": "3b98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "e7362b4e-ee49-43cd-af09-7707478be8e5",
+    "year": 2015,
+    "name": "2015 IRONMAN 70.3 Boulder",
+    "date": "2015-06-13T00:00:00Z",
+    "race_base": "im703_boulder"
+  },
+  "im703_boulder_2014": {
+    "event_uuid": "3b98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "eb4852b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN 70.3 Boulder",
+    "date": "2014-06-15T00:00:00Z",
+    "race_base": "im703_boulder"
+  },
+  "im703_boulder_2013": {
+    "event_uuid": "3b98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "c9616994-3055-e211-b7a2-005056956277",
+    "year": 2013,
+    "name": "2013 IRONMAN 70.3 Boulder: Triathlon",
+    "date": "2013-08-04T00:00:00Z",
+    "race_base": "im703_boulder"
+  },
+  "im703_boulder_2012": {
+    "event_uuid": "3b98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "6f17d0b1-4eae-e111-80ae-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN 70.3 Boulder: Triathlon",
+    "date": "2012-08-05T00:00:00Z",
+    "race_base": "im703_boulder"
+  },
+  "im703_boulder_2011": {
+    "event_uuid": "3b98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "5316d0b1-4eae-e111-80ae-005056956277",
+    "year": 2011,
+    "name": "2011 IRONMAN 70.3 Boulder: Triathlon",
+    "date": "2011-08-07T00:00:00Z",
+    "race_base": "im703_boulder"
+  },
+  "im703_boulder_2010": {
+    "event_uuid": "3b98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "a115d0b1-4eae-e111-80ae-005056956277",
+    "year": 2010,
+    "name": "2010 IRONMAN 70.3 Boulder: Triathlon",
+    "date": "2010-08-08T00:00:00Z",
+    "race_base": "im703_boulder"
+  },
+  "im703_coeur_dalene_2025": {
+    "event_uuid": "eca2b3cf-881e-e511-9403-005056951bf1",
+    "subevent_uuid": "d50458cb-0af5-493e-8830-836cbf0c1e73",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Coeur d'Alene",
+    "date": "2025-06-22T00:00:00Z",
+    "race_base": "im703_coeur_dalene"
+  },
+  "im703_coeur_dalene_2024": {
+    "event_uuid": "eca2b3cf-881e-e511-9403-005056951bf1",
+    "subevent_uuid": "690c2747-f5dd-4c5b-96a0-42eb6c1fe7db",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Coeur d'Alene",
+    "date": "2024-06-23T00:00:00Z",
+    "race_base": "im703_coeur_dalene"
+  },
+  "im703_coeur_dalene_2022": {
+    "event_uuid": "eca2b3cf-881e-e511-9403-005056951bf1",
+    "subevent_uuid": "d1a8bafe-7cb8-4043-9825-6a83ae768ea4",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Coeur d'Alene",
+    "date": "2022-06-26T00:00:00Z",
+    "race_base": "im703_coeur_dalene"
+  },
+  "im703_coeur_dalene_2019": {
+    "event_uuid": "eca2b3cf-881e-e511-9403-005056951bf1",
+    "subevent_uuid": "5b1694f5-59a1-e811-a960-000d3a3740b7",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Coeur d'Alene",
+    "date": "2019-06-30T00:00:00Z",
+    "race_base": "im703_coeur_dalene"
+  },
+  "im703_coeur_dalene_2018": {
+    "event_uuid": "eca2b3cf-881e-e511-9403-005056951bf1",
+    "subevent_uuid": "65a4c2bd-0a88-e711-9419-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Coeur d'Alene",
+    "date": "2018-06-24T00:00:00Z",
+    "race_base": "im703_coeur_dalene"
+  },
+  "im703_coeur_dalene_2017": {
+    "event_uuid": "eca2b3cf-881e-e511-9403-005056951bf1",
+    "subevent_uuid": "c5b38460-517f-e611-9410-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Coeur d'Alene",
+    "date": "2017-06-25T00:00:00Z",
+    "race_base": "im703_coeur_dalene"
+  },
+  "im703_florida_2025": {
+    "event_uuid": "5198aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "a5bd95df-bec2-413e-ba85-8f79657905e1",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Florida",
+    "date": "2025-12-14T00:00:00Z",
+    "race_base": "im703_florida"
+  },
+  "im703_florida_2024": {
+    "event_uuid": "5198aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "3a9f941e-b4bf-4ff6-aa46-baa71a86e27d",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Florida",
+    "date": "2024-12-15T00:00:00Z",
+    "race_base": "im703_florida"
+  },
+  "im703_florida_2023": {
+    "event_uuid": "5198aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "9724bb90-98af-4c92-af18-16fbd42c4981",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Florida",
+    "date": "2023-12-10T00:00:00Z",
+    "race_base": "im703_florida"
+  },
+  "im703_florida_2022": {
+    "event_uuid": "5198aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "2c2f87f2-b6bf-4651-a968-3fc6266601aa",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Florida",
+    "date": "2022-12-11T00:00:00Z",
+    "race_base": "im703_florida"
+  },
+  "im703_florida_2021": {
+    "event_uuid": "5198aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "819cd3fb-05a8-490c-adba-4d3001009339",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Florida",
+    "date": "2021-04-18T00:00:00Z",
+    "race_base": "im703_florida"
+  },
+  "im703_florida_2019": {
+    "event_uuid": "5198aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "58f4bb9a-dc91-e811-941f-005056951bf1",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Florida",
+    "date": "2019-04-14T00:00:00Z",
+    "race_base": "im703_florida"
+  },
+  "im703_florida_2018": {
+    "event_uuid": "5198aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "23d874a3-d068-e711-9418-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Florida",
+    "date": "2018-04-08T00:00:00Z",
+    "race_base": "im703_florida"
+  },
+  "im703_florida_2017": {
+    "event_uuid": "5198aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "9b66e871-0f50-e611-940f-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Florida",
+    "date": "2017-04-09T00:00:00Z",
+    "race_base": "im703_florida"
+  },
+  "im703_florida_2015": {
+    "event_uuid": "5198aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "b4e141ad-c316-467e-acf4-886819d22c69",
+    "year": 2015,
+    "name": "2015 IRONMAN 70.3 Florida",
+    "date": "2015-04-12T00:00:00Z",
+    "race_base": "im703_florida"
+  },
+  "im703_florida_2014": {
+    "event_uuid": "5198aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "3c6e0276-0f01-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN 70.3 Florida",
+    "date": "2014-04-13T00:00:00Z",
+    "race_base": "im703_florida"
+  },
+  "im703_florida_2013": {
+    "event_uuid": "5198aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "079ba23e-a3dd-e111-aa75-005056956277",
+    "year": 2013,
+    "name": "2013 IRONMAN 70.3 Florida: Triathlon",
+    "date": "2013-05-19T00:00:00Z",
+    "race_base": "im703_florida"
+  },
+  "im703_florida_2012": {
+    "event_uuid": "5198aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "fd17d0b1-4eae-e111-80ae-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN 70.3 Florida: Triathlon",
+    "date": "2012-05-20T00:00:00Z",
+    "race_base": "im703_florida"
+  },
+  "im703_florida_2011": {
+    "event_uuid": "5198aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "df16d0b1-4eae-e111-80ae-005056956277",
+    "year": 2011,
+    "name": "2011 IRONMAN 70.3 Florida: Triathlon",
+    "date": "2011-05-15T00:00:00Z",
+    "race_base": "im703_florida"
+  },
+  "im703_florida_2010": {
+    "event_uuid": "5198aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "fb15d0b1-4eae-e111-80ae-005056956277",
+    "year": 2010,
+    "name": "2010 IRONMAN 70.3 Florida: Triathlon",
+    "date": "2010-05-16T00:00:00Z",
+    "race_base": "im703_florida"
+  },
+  "im703_florida_2008": {
+    "event_uuid": "5198aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "ed14d0b1-4eae-e111-80ae-005056956277",
+    "year": 2008,
+    "name": "2008 IRONMAN 70.3 Florida: Triathlon",
+    "date": "2008-05-18T00:00:00Z",
+    "race_base": "im703_florida"
+  },
+  "im703_florida_2007": {
+    "event_uuid": "5198aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "9914d0b1-4eae-e111-80ae-005056956277",
+    "year": 2007,
+    "name": "2007 IRONMAN 70.3 Florida: Triathlon",
+    "date": "2007-05-20T00:00:00Z",
+    "race_base": "im703_florida"
+  },
+  "im703_florida_2006": {
+    "event_uuid": "5198aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "4714d0b1-4eae-e111-80ae-005056956277",
+    "year": 2006,
+    "name": "2006 IRONMAN 70.3 Florida: Triathlon",
+    "date": "2006-05-21T00:00:00Z",
+    "race_base": "im703_florida"
+  },
+  "im703_florida_2005": {
+    "event_uuid": "5198aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "f513d0b1-4eae-e111-80ae-005056956277",
+    "year": 2005,
+    "name": "2005 IRONMAN 70.3 Florida: Triathlon",
+    "date": "2005-05-22T00:00:00Z",
+    "race_base": "im703_florida"
+  },
+  "im703_florida_2004": {
+    "event_uuid": "5198aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "b313d0b1-4eae-e111-80ae-005056956277",
+    "year": 2004,
+    "name": "2004 IRONMAN 70.3 Florida: Triathlon",
+    "date": "2004-05-23T00:00:00Z",
+    "race_base": "im703_florida"
+  },
+  "im703_wisconsin_2025": {
+    "event_uuid": "adaedbb8-6095-e611-9410-005056951bf1",
+    "subevent_uuid": "f574a527-2f31-4bb3-8b45-d1908a220996",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Wisconsin",
+    "date": "2025-09-06T00:00:00Z",
+    "race_base": "im703_wisconsin"
+  },
+  "im703_wisconsin_2024": {
+    "event_uuid": "adaedbb8-6095-e611-9410-005056951bf1",
+    "subevent_uuid": "2ab591b3-84fa-4abe-96ea-f8d5d20b8eb3",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Wisconsin",
+    "date": "2024-09-07T00:00:00Z",
+    "race_base": "im703_wisconsin"
+  },
+  "im703_wisconsin_2023": {
+    "event_uuid": "adaedbb8-6095-e611-9410-005056951bf1",
+    "subevent_uuid": "afe146c0-9e49-4a8e-b320-f2ed0ce4c619",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Wisconsin",
+    "date": "2023-09-09T00:00:00Z",
+    "race_base": "im703_wisconsin"
+  },
+  "im703_wisconsin_2022": {
+    "event_uuid": "adaedbb8-6095-e611-9410-005056951bf1",
+    "subevent_uuid": "ecbd42b2-1144-4a60-84cd-19d5e7029e69",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Wisconsin",
+    "date": "2022-09-10T00:00:00Z",
+    "race_base": "im703_wisconsin"
+  },
+  "im703_wisconsin_2021": {
+    "event_uuid": "adaedbb8-6095-e611-9410-005056951bf1",
+    "subevent_uuid": "8c623579-dcdd-4779-8f5a-b5e441db337d",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Wisconsin",
+    "date": "2021-09-12T00:00:00Z",
+    "race_base": "im703_wisconsin"
+  },
+  "im703_wisconsin_2019": {
+    "event_uuid": "adaedbb8-6095-e611-9410-005056951bf1",
+    "subevent_uuid": "bc893804-23a2-e811-a960-000d3a3740b7",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Wisconsin",
+    "date": "2019-06-09T00:00:00Z",
+    "race_base": "im703_wisconsin"
+  },
+  "im703_wisconsin_2018": {
+    "event_uuid": "adaedbb8-6095-e611-9410-005056951bf1",
+    "subevent_uuid": "7cc86e40-cc7d-e711-9418-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Wisconsin",
+    "date": "2018-06-10T00:00:00Z",
+    "race_base": "im703_wisconsin"
+  },
+  "im703_wisconsin_2017": {
+    "event_uuid": "adaedbb8-6095-e611-9410-005056951bf1",
+    "subevent_uuid": "8150d212-6295-e611-9410-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Wisconsin",
+    "date": "2017-06-11T00:00:00Z",
+    "race_base": "im703_wisconsin"
+  },
+  "im703_michigan_2025": {
+    "event_uuid": "20ac93b1-5db7-e811-a967-000d3a37468c",
+    "subevent_uuid": "ea01b4d9-1bf6-4a1d-b7a7-f3b489f2fbd0",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Michigan",
+    "date": "2025-09-14T00:00:00Z",
+    "race_base": "im703_michigan"
+  },
+  "im703_michigan_2024": {
+    "event_uuid": "20ac93b1-5db7-e811-a967-000d3a37468c",
+    "subevent_uuid": "432ffccc-4011-4066-a4f9-955231369e17",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Michigan",
+    "date": "2024-09-15T00:00:00Z",
+    "race_base": "im703_michigan"
+  },
+  "im703_michigan_2023": {
+    "event_uuid": "20ac93b1-5db7-e811-a967-000d3a37468c",
+    "subevent_uuid": "4b572b09-6c6e-4f74-a708-e26430db3dbf",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Michigan",
+    "date": "2023-09-17T00:00:00Z",
+    "race_base": "im703_michigan"
+  },
+  "im703_michigan_2022": {
+    "event_uuid": "20ac93b1-5db7-e811-a967-000d3a37468c",
+    "subevent_uuid": "6bc4a8d8-a343-405a-8838-0d1a8fefd111",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Michigan",
+    "date": "2022-09-11T00:00:00Z",
+    "race_base": "im703_michigan"
+  },
+  "im703_michigan_2021": {
+    "event_uuid": "20ac93b1-5db7-e811-a967-000d3a37468c",
+    "subevent_uuid": "e22bebf3-f9cd-486a-8e53-270daeb02b59",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Michigan",
+    "date": "2021-09-12T00:00:00Z",
+    "race_base": "im703_michigan"
+  },
+  "im703_michigan_2019": {
+    "event_uuid": "20ac93b1-5db7-e811-a967-000d3a37468c",
+    "subevent_uuid": "09df055b-5eb7-e811-a967-000d3a37468c",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Traverse City",
+    "date": "2019-08-25T00:00:00Z",
+    "race_base": "im703_michigan"
+  },
+  "im703_ohio_2025": {
+    "event_uuid": "0c4e3cef-3477-e511-9409-005056951bf1",
+    "subevent_uuid": "e87fc7a3-cf8d-4af2-8a23-f3766d3dc0c3",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Ohio",
+    "date": "2025-07-20T00:00:00Z",
+    "race_base": "im703_ohio"
+  },
+  "im703_ohio_2024": {
+    "event_uuid": "0c4e3cef-3477-e511-9409-005056951bf1",
+    "subevent_uuid": "236f874b-4832-42a1-b16a-a1f381b548b9",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Ohio",
+    "date": "2024-07-21T00:00:00Z",
+    "race_base": "im703_ohio"
+  },
+  "im703_ohio_2023": {
+    "event_uuid": "0c4e3cef-3477-e511-9409-005056951bf1",
+    "subevent_uuid": "c889b3e2-24db-4c87-9355-4eb020b6c090",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Ohio",
+    "date": "2023-07-23T00:00:00Z",
+    "race_base": "im703_ohio"
+  },
+  "im703_ohio_2022": {
+    "event_uuid": "0c4e3cef-3477-e511-9409-005056951bf1",
+    "subevent_uuid": "604be70b-5d68-4166-b12b-2501183175d0",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Ohio",
+    "date": "2022-07-24T00:00:00Z",
+    "race_base": "im703_ohio"
+  },
+  "im703_ohio_2021": {
+    "event_uuid": "0c4e3cef-3477-e511-9409-005056951bf1",
+    "subevent_uuid": "4836a4d3-7fbf-47dd-bf87-f6a6274cc9ff",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Ohio",
+    "date": "2021-07-25T00:00:00Z",
+    "race_base": "im703_ohio"
+  },
+  "im703_ohio_2019": {
+    "event_uuid": "0c4e3cef-3477-e511-9409-005056951bf1",
+    "subevent_uuid": "a0b5b8d6-52b7-e811-a967-000d3a37468c",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Ohio",
+    "date": "2019-07-28T00:00:00Z",
+    "race_base": "im703_ohio"
+  },
+  "im703_ohio_2018": {
+    "event_uuid": "0c4e3cef-3477-e511-9409-005056951bf1",
+    "subevent_uuid": "c23f71f7-11a2-e711-9419-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Ohio",
+    "date": "2018-07-29T00:00:00Z",
+    "race_base": "im703_ohio"
+  },
+  "im703_ohio_2017": {
+    "event_uuid": "0c4e3cef-3477-e511-9409-005056951bf1",
+    "subevent_uuid": "897b1c1c-789c-e611-9410-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Ohio",
+    "date": "2017-07-30T00:00:00Z",
+    "race_base": "im703_ohio"
+  },
+  "im703_oregon_2025": {
+    "event_uuid": "a2bd7104-f82f-42f2-8943-1265d315a160",
+    "subevent_uuid": "8f6716de-4036-427f-9e94-00d9e7ef8026",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Oregon",
+    "date": "2025-07-20T00:00:00Z",
+    "race_base": "im703_oregon"
+  },
+  "im703_oregon_2024": {
+    "event_uuid": "a2bd7104-f82f-42f2-8943-1265d315a160",
+    "subevent_uuid": "4a1ee310-0583-4649-953c-7042c73d6aa1",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Oregon",
+    "date": "2024-07-21T00:00:00Z",
+    "race_base": "im703_oregon"
+  },
+  "im703_oregon_2023": {
+    "event_uuid": "a2bd7104-f82f-42f2-8943-1265d315a160",
+    "subevent_uuid": "2abea98f-5d4c-45f6-88bd-6bdc410e7c7b",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Oregon",
+    "date": "2023-07-23T00:00:00Z",
+    "race_base": "im703_oregon"
+  },
+  "im703_oregon_2022": {
+    "event_uuid": "a2bd7104-f82f-42f2-8943-1265d315a160",
+    "subevent_uuid": "e9a444d6-19e4-4d31-a942-711e13906b1e",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Oregon",
+    "date": "2022-07-10T00:00:00Z",
+    "race_base": "im703_oregon"
+  },
+  "im703_oregon_2021": {
+    "event_uuid": "a2bd7104-f82f-42f2-8943-1265d315a160",
+    "subevent_uuid": "999ba657-1d2a-4ff3-916e-c200ffd9fef5",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Oregon",
+    "date": "2021-07-25T00:00:00Z",
+    "race_base": "im703_oregon"
+  },
+  "im703_maine_2025": {
+    "event_uuid": "40494fab-1aa5-e611-9410-005056951bf1",
+    "subevent_uuid": "dbef5370-8d4c-49bd-9508-302990a539da",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Maine",
+    "date": "2025-07-27T00:00:00Z",
+    "race_base": "im703_maine"
+  },
+  "im703_maine_2024": {
+    "event_uuid": "40494fab-1aa5-e611-9410-005056951bf1",
+    "subevent_uuid": "34bde565-2345-478c-8b8f-544d18f3c20d",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Maine",
+    "date": "2024-07-28T00:00:00Z",
+    "race_base": "im703_maine"
+  },
+  "im703_maine_2023": {
+    "event_uuid": "40494fab-1aa5-e611-9410-005056951bf1",
+    "subevent_uuid": "79e68221-3d59-46a2-b042-f347e0692868",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Maine",
+    "date": "2023-07-30T00:00:00Z",
+    "race_base": "im703_maine"
+  },
+  "im703_maine_2022": {
+    "event_uuid": "40494fab-1aa5-e611-9410-005056951bf1",
+    "subevent_uuid": "8dfdbf2e-4730-44b6-ab0a-af6c4cb64988",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Maine",
+    "date": "2022-07-31T00:00:00Z",
+    "race_base": "im703_maine"
+  },
+  "im703_maine_2021": {
+    "event_uuid": "40494fab-1aa5-e611-9410-005056951bf1",
+    "subevent_uuid": "4efb8a4a-3aec-4bd9-a741-bf7c5bb89adb",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Maine",
+    "date": "2021-08-29T00:00:00Z",
+    "race_base": "im703_maine"
+  },
+  "im703_maine_2019": {
+    "event_uuid": "40494fab-1aa5-e611-9410-005056951bf1",
+    "subevent_uuid": "bbbb19f5-88c1-e811-a963-000d3a3749bc",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Maine",
+    "date": "2019-08-25T00:00:00Z",
+    "race_base": "im703_maine"
+  },
+  "im703_maine_2018": {
+    "event_uuid": "40494fab-1aa5-e611-9410-005056951bf1",
+    "subevent_uuid": "d7706c3a-72a7-e711-9419-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Maine",
+    "date": "2018-08-26T00:00:00Z",
+    "race_base": "im703_maine"
+  },
+  "im703_maine_2017": {
+    "event_uuid": "40494fab-1aa5-e611-9410-005056951bf1",
+    "subevent_uuid": "ac0c57ef-1aa5-e611-9410-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Maine",
+    "date": "2017-08-27T00:00:00Z",
+    "race_base": "im703_maine"
+  },
+  "im703_new_york_2025": {
+    "event_uuid": "c7c8f92c-9cb1-4d76-9700-20c57ae28f17",
+    "subevent_uuid": "d6d5f967-fe97-49ea-b497-c80584cce98c",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 New York",
+    "date": "2025-09-20T00:00:00Z",
+    "race_base": "im703_new_york"
+  },
+  "im703_new_york_2024": {
+    "event_uuid": "c7c8f92c-9cb1-4d76-9700-20c57ae28f17",
+    "subevent_uuid": "e4e5605e-9fd5-4aa6-ab3e-7fe1d7871327",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 New York",
+    "date": "2024-09-28T00:00:00Z",
+    "race_base": "im703_new_york"
+  },
+  "im703_new_york_2023": {
+    "event_uuid": "c7c8f92c-9cb1-4d76-9700-20c57ae28f17",
+    "subevent_uuid": "969f5eca-6c39-47d1-955c-a0868ac38a58",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 New York",
+    "date": "2023-09-23T00:00:00Z",
+    "race_base": "im703_new_york"
+  },
+  "im703_north_carolina_2025": {
+    "event_uuid": "e4a5a6b8-0d92-e511-9409-005056951bf1",
+    "subevent_uuid": "2abe8e28-df19-4ec5-9ddc-9e2c86277ce4",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 North Carolina",
+    "date": "2025-10-25T00:00:00Z",
+    "race_base": "im703_north_carolina"
+  },
+  "im703_north_carolina_2024": {
+    "event_uuid": "e4a5a6b8-0d92-e511-9409-005056951bf1",
+    "subevent_uuid": "e12fd041-e7e7-499c-9cb4-37887b5b40c2",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 North Carolina",
+    "date": "2024-10-19T00:00:00Z",
+    "race_base": "im703_north_carolina"
+  },
+  "im703_north_carolina_2023": {
+    "event_uuid": "e4a5a6b8-0d92-e511-9409-005056951bf1",
+    "subevent_uuid": "3493d41f-2d4d-4075-a7ed-18c2798a976d",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 North Carolina",
+    "date": "2023-10-21T00:00:00Z",
+    "race_base": "im703_north_carolina"
+  },
+  "im703_north_carolina_2022": {
+    "event_uuid": "e4a5a6b8-0d92-e511-9409-005056951bf1",
+    "subevent_uuid": "7c8387a8-1512-4357-a32f-5ca16dea9fab",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 North Carolina",
+    "date": "2022-10-15T00:00:00Z",
+    "race_base": "im703_north_carolina"
+  },
+  "im703_north_carolina_2021": {
+    "event_uuid": "e4a5a6b8-0d92-e511-9409-005056951bf1",
+    "subevent_uuid": "822c0309-8267-41e7-9d66-b4745e64fe2c",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 North Carolina",
+    "date": "2021-10-23T00:00:00Z",
+    "race_base": "im703_north_carolina"
+  },
+  "im703_north_carolina_2019": {
+    "event_uuid": "e4a5a6b8-0d92-e511-9409-005056951bf1",
+    "subevent_uuid": "aa5d74fd-9103-e911-a968-000d3a3749bc",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 North Carolina",
+    "date": "2019-10-19T00:00:00Z",
+    "race_base": "im703_north_carolina"
+  },
+  "im703_north_carolina_2017": {
+    "event_uuid": "e4a5a6b8-0d92-e511-9409-005056951bf1",
+    "subevent_uuid": "5bf69039-d1b8-e611-9410-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 North Carolina",
+    "date": "2017-10-21T00:00:00Z",
+    "race_base": "im703_north_carolina"
+  },
+  "im703_augusta_2025": {
+    "event_uuid": "3398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "1671d800-f7fe-4ef2-9321-041dadb04d7b",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Augusta",
+    "date": "2025-09-28T00:00:00Z",
+    "race_base": "im703_augusta"
+  },
+  "im703_augusta_2023": {
+    "event_uuid": "3398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "0e770043-0f42-4201-ba12-db3db74776cb",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Augusta",
+    "date": "2023-09-24T00:00:00Z",
+    "race_base": "im703_augusta"
+  },
+  "im703_augusta_2022": {
+    "event_uuid": "3398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "64085fc2-d99f-4aff-ac3e-3c8a5c7777fd",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Augusta",
+    "date": "2022-09-25T00:00:00Z",
+    "race_base": "im703_augusta"
+  },
+  "im703_augusta_2021": {
+    "event_uuid": "3398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "ccc81b29-0eca-4bcc-bf0d-499131a59f8d",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Augusta",
+    "date": "2021-09-26T00:00:00Z",
+    "race_base": "im703_augusta"
+  },
+  "im703_augusta_2019": {
+    "event_uuid": "3398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "6d575ec6-9303-e911-a968-000d3a3749bc",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Augusta",
+    "date": "2019-09-29T00:00:00Z",
+    "race_base": "im703_augusta"
+  },
+  "im703_augusta_2018": {
+    "event_uuid": "3398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "34400ea4-e6d6-e711-941b-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Augusta",
+    "date": "2018-09-23T00:00:00Z",
+    "race_base": "im703_augusta"
+  },
+  "im703_augusta_2017": {
+    "event_uuid": "3398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "2c760368-d0b0-e611-9410-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Augusta",
+    "date": "2017-09-24T00:00:00Z",
+    "race_base": "im703_augusta"
+  },
+  "im703_augusta_2015": {
+    "event_uuid": "3398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "2eaaef80-4c6f-421e-809a-d10fc9b65502",
+    "year": 2015,
+    "name": "2015 IRONMAN 70.3 Augusta",
+    "date": "2015-09-27T00:00:00Z",
+    "race_base": "im703_augusta"
+  },
+  "im703_augusta_2014": {
+    "event_uuid": "3398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "e64852b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN 70.3 Augusta",
+    "date": "2014-09-28T00:00:00Z",
+    "race_base": "im703_augusta"
+  },
+  "im703_augusta_2013": {
+    "event_uuid": "3398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "14626994-3055-e211-b7a2-005056956277",
+    "year": 2013,
+    "name": "2013 IRONMAN 70.3 Augusta: Triathlon",
+    "date": "2013-09-29T00:00:00Z",
+    "race_base": "im703_augusta"
+  },
+  "im703_augusta_2012": {
+    "event_uuid": "3398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "2d18d0b1-4eae-e111-80ae-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN 70.3 Augusta: Triathlon",
+    "date": "2012-09-30T00:00:00Z",
+    "race_base": "im703_augusta"
+  },
+  "im703_augusta_2011": {
+    "event_uuid": "3398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "a076af39-ac5a-e211-b7a2-005056956277",
+    "year": 2011,
+    "name": "2011 IRONMAN 70.3 Augusta",
+    "date": "2011-09-25T00:00:00Z",
+    "race_base": "im703_augusta"
+  },
+  "im703_augusta_2010": {
+    "event_uuid": "3398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "2916d0b1-4eae-e111-80ae-005056956277",
+    "year": 2010,
+    "name": "2010 IRONMAN 70.3 Augusta: Triathlon",
+    "date": "2010-09-26T00:00:00Z",
+    "race_base": "im703_augusta"
+  },
+  "im703_augusta_2009": {
+    "event_uuid": "3398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "8515d0b1-4eae-e111-80ae-005056956277",
+    "year": 2009,
+    "name": "2009 IRONMAN 70.3 Augusta: Triathlon",
+    "date": "2009-09-27T00:00:00Z",
+    "race_base": "im703_augusta"
+  },
+  "im703_louisville_2025": {
+    "event_uuid": "17d618ca-6a56-4aae-bda6-7c221acdbb7c",
+    "subevent_uuid": "f4f634e6-72c1-416f-9c1a-40a381fccff6",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Louisville",
+    "date": "2025-08-17T00:00:00Z",
+    "race_base": "im703_louisville"
+  },
+  "im703_louisville_2024": {
+    "event_uuid": "17d618ca-6a56-4aae-bda6-7c221acdbb7c",
+    "subevent_uuid": "fe0101d8-7150-4e0a-839f-6b81ff6af3c6",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Louisville",
+    "date": "2024-08-18T00:00:00Z",
+    "race_base": "im703_louisville"
+  },
+  "im703_des_moines_2025": {
+    "event_uuid": "ed940c67-c299-e911-a97a-000d3a37468c",
+    "subevent_uuid": "ce430268-9649-4303-aff5-118264a1d58e",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Des Moines",
+    "date": "2025-06-08T00:00:00Z",
+    "race_base": "im703_des_moines"
+  },
+  "im703_des_moines_2024": {
+    "event_uuid": "ed940c67-c299-e911-a97a-000d3a37468c",
+    "subevent_uuid": "4f527c4c-f8c0-4b53-a296-57dd0f09f4b1",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Des Moines",
+    "date": "2024-06-09T00:00:00Z",
+    "race_base": "im703_des_moines"
+  },
+  "im703_des_moines_2023": {
+    "event_uuid": "ed940c67-c299-e911-a97a-000d3a37468c",
+    "subevent_uuid": "02938ddc-067f-4a9e-a128-0282ce56cb96",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Des Moines",
+    "date": "2023-06-11T00:00:00Z",
+    "race_base": "im703_des_moines"
+  },
+  "im703_des_moines_2021": {
+    "event_uuid": "ed940c67-c299-e911-a97a-000d3a37468c",
+    "subevent_uuid": "951360a4-3212-4a21-b99d-69bfb52d8215",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Des Moines",
+    "date": "2021-06-20T00:00:00Z",
+    "race_base": "im703_des_moines"
+  },
+  "im703_eagleman_2025": {
+    "event_uuid": "d26b290a-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "cf9bf8c9-1321-49a6-a9a8-e5acdef75c35",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Eagleman",
+    "date": "2025-06-08T00:00:00Z",
+    "race_base": "im703_eagleman"
+  },
+  "im703_eagleman_2024": {
+    "event_uuid": "d26b290a-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "ede48026-ea03-4c1e-8ed2-7ab6ecacac48",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Eagleman",
+    "date": "2024-06-09T00:00:00Z",
+    "race_base": "im703_eagleman"
+  },
+  "im703_eagleman_2023": {
+    "event_uuid": "d26b290a-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "492f4a98-d43f-4f8d-8817-05e59893d155",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Eagleman",
+    "date": "2023-06-11T00:00:00Z",
+    "race_base": "im703_eagleman"
+  },
+  "im703_eagleman_2022": {
+    "event_uuid": "d26b290a-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "3c80e4ce-e1ce-4cf7-ab46-be0ac547ef9c",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Eagleman",
+    "date": "2022-06-12T00:00:00Z",
+    "race_base": "im703_eagleman"
+  },
+  "im703_eagleman_2021": {
+    "event_uuid": "d26b290a-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "b84fc433-bdb8-42a4-a13b-e58b71e86439",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Eagleman",
+    "date": "2021-06-13T00:00:00Z",
+    "race_base": "im703_eagleman"
+  },
+  "im703_eagleman_2019": {
+    "event_uuid": "d26b290a-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "67888708-87a1-e811-a962-000d3a3749bc",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Eagleman",
+    "date": "2019-06-09T00:00:00Z",
+    "race_base": "im703_eagleman"
+  },
+  "im703_eagleman_2018": {
+    "event_uuid": "d26b290a-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "aac8c3d1-0988-e711-9419-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Eagleman",
+    "date": "2018-06-10T00:00:00Z",
+    "race_base": "im703_eagleman"
+  },
+  "im703_eagleman_2017": {
+    "event_uuid": "d26b290a-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "9930d53f-c460-e611-940f-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Eagleman",
+    "date": "2017-06-11T00:00:00Z",
+    "race_base": "im703_eagleman"
+  },
+  "im703_eagleman_2015": {
+    "event_uuid": "d26b290a-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "8c9c7c1e-911c-47c1-b452-1eb4b1743197",
+    "year": 2015,
+    "name": "2015 IRONMAN 70.3 Eagleman",
+    "date": "2015-06-14T00:00:00Z",
+    "race_base": "im703_eagleman"
+  },
+  "im703_eagleman_2014": {
+    "event_uuid": "d26b290a-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "f44852b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN 70.3 Eagleman",
+    "date": "2014-06-08T00:00:00Z",
+    "race_base": "im703_eagleman"
+  },
+  "im703_eagleman_2013": {
+    "event_uuid": "d26b290a-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "45626994-3055-e211-b7a2-005056956277",
+    "year": 2013,
+    "name": "2013 IRONMAN 70.3 Eagleman: Triathlon",
+    "date": "2013-06-09T00:00:00Z",
+    "race_base": "im703_eagleman"
+  },
+  "im703_eagleman_2012": {
+    "event_uuid": "d26b290a-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "500bd438-86fe-e111-aa75-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN 70.3 Eagleman: Triathlon",
+    "date": "2012-06-10T00:00:00Z",
+    "race_base": "im703_eagleman"
+  },
+  "im703_eagleman_2011": {
+    "event_uuid": "d26b290a-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "4792ae96-e055-e211-b7a2-005056956277",
+    "year": 2011,
+    "name": "2011 IRONMAN 70.3 Eagleman: Triathlon",
+    "date": "2011-06-12T00:00:00Z",
+    "race_base": "im703_eagleman"
+  },
+  "im703_eagleman_2010": {
+    "event_uuid": "d26b290a-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "de0af846-e055-e211-b7a2-005056956277",
+    "year": 2010,
+    "name": "2010 IRONMAN 70.3 Eagleman: Triathlon",
+    "date": "2010-06-13T00:00:00Z",
+    "race_base": "im703_eagleman"
+  },
+  "im703_eagleman_2009": {
+    "event_uuid": "d26b290a-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "3372e809-e055-e211-b7a2-005056956277",
+    "year": 2009,
+    "name": "2009 IRONMAN 70.3 Eagleman: Triathlon",
+    "date": "2009-06-14T00:00:00Z",
+    "race_base": "im703_eagleman"
+  },
+  "im703_eagleman_2008": {
+    "event_uuid": "d26b290a-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "26c0bacf-df55-e211-b7a2-005056956277",
+    "year": 2008,
+    "name": "2008 IRONMAN 70.3 Eagleman: Triathlon",
+    "date": "2008-06-08T00:00:00Z",
+    "race_base": "im703_eagleman"
+  },
+  "im703_eagleman_2007": {
+    "event_uuid": "d26b290a-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "ba21e39c-df55-e211-b7a2-005056956277",
+    "year": 2007,
+    "name": "2007 June IRONMAN 70.3 Eagleman: Triathlon",
+    "date": "2007-06-10T00:00:00Z",
+    "race_base": "im703_eagleman"
+  },
+  "im703_eagleman_2006": {
+    "event_uuid": "d26b290a-86fe-e111-aa75-005056956277",
+    "subevent_uuid": "f8c12d62-df55-e211-b7a2-005056956277",
+    "year": 2006,
+    "name": "2006 IRONMAN 70.3 Eagleman: Triathlon",
+    "date": "2006-06-11T00:00:00Z",
+    "race_base": "im703_eagleman"
+  },
+  "im703_muncie_2025": {
+    "event_uuid": "6398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "3ae94f1b-3487-4d83-bafc-c94ae740052e",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Muncie",
+    "date": "2025-07-12T00:00:00Z",
+    "race_base": "im703_muncie"
+  },
+  "im703_muncie_2024": {
+    "event_uuid": "6398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "3f1b43ca-e9f8-4585-ac76-608007533cc3",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Muncie",
+    "date": "2024-07-13T00:00:00Z",
+    "race_base": "im703_muncie"
+  },
+  "im703_muncie_2023": {
+    "event_uuid": "6398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "56e82fc5-b1b1-43a8-b5b7-c17b7b996cc2",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Muncie",
+    "date": "2023-09-30T00:00:00Z",
+    "race_base": "im703_muncie"
+  },
+  "im703_muncie_2022": {
+    "event_uuid": "6398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "7a39afc4-8223-40d7-b1a3-dd9ef771c250",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Muncie",
+    "date": "2022-10-01T00:00:00Z",
+    "race_base": "im703_muncie"
+  },
+  "im703_muncie_2021": {
+    "event_uuid": "6398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "c8bb42e3-b744-4dd1-93c7-45f30fdfbe95",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Muncie",
+    "date": "2021-10-02T00:00:00Z",
+    "race_base": "im703_muncie"
+  },
+  "im703_muncie_2019": {
+    "event_uuid": "6398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "927c3e61-54b7-e811-a967-000d3a37468c",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Muncie",
+    "date": "2019-07-13T00:00:00Z",
+    "race_base": "im703_muncie"
+  },
+  "im703_muncie_2018": {
+    "event_uuid": "6398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "93ecb0b5-11a2-e711-9419-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Muncie",
+    "date": "2018-07-14T00:00:00Z",
+    "race_base": "im703_muncie"
+  },
+  "im703_muncie_2017": {
+    "event_uuid": "6398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "4d02c1ed-517f-e611-9410-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Muncie",
+    "date": "2017-07-08T00:00:00Z",
+    "race_base": "im703_muncie"
+  },
+  "im703_muncie_2015": {
+    "event_uuid": "6398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "ebe9bc7a-1db9-44f8-8a53-19830d3ef960",
+    "year": 2015,
+    "name": "2015 IRONMAN 70.3 Muncie",
+    "date": "2015-07-11T00:00:00Z",
+    "race_base": "im703_muncie"
+  },
+  "im703_muncie_2014": {
+    "event_uuid": "6398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "024952b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN 70.3 Muncie",
+    "date": "2014-07-12T00:00:00Z",
+    "race_base": "im703_muncie"
+  },
+  "im703_muncie_2013": {
+    "event_uuid": "6398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "a995ab89-a3dd-e111-aa75-005056956277",
+    "year": 2013,
+    "name": "2013 IRONMAN 70.3 Muncie: Triathlon",
+    "date": "2013-07-13T00:00:00Z",
+    "race_base": "im703_muncie"
+  },
+  "im703_muncie_2012": {
+    "event_uuid": "6398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "a317d0b1-4eae-e111-80ae-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN 70.3 Muncie: Triathlon",
+    "date": "2012-07-07T00:00:00Z",
+    "race_base": "im703_muncie"
+  },
+  "im703_muncie_2011": {
+    "event_uuid": "6398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "8d16d0b1-4eae-e111-80ae-005056956277",
+    "year": 2011,
+    "name": "2011 IRONMAN 70.3 Muncie: Triathlon",
+    "date": "2011-07-09T00:00:00Z",
+    "race_base": "im703_muncie"
+  },
+  "im703_santa_cruz_2025": {
+    "event_uuid": "76fcef91-46b1-e411-9400-005056951bf1",
+    "subevent_uuid": "27004a41-e205-40e9-8449-edd83aee24ef",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Santa Cruz",
+    "date": "2025-09-07T00:00:00Z",
+    "race_base": "im703_santa_cruz"
+  },
+  "im703_santa_cruz_2024": {
+    "event_uuid": "76fcef91-46b1-e411-9400-005056951bf1",
+    "subevent_uuid": "74d3d1bf-f05d-46a8-9240-c6abfe1fb061",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Santa Cruz",
+    "date": "2024-09-08T00:00:00Z",
+    "race_base": "im703_santa_cruz"
+  },
+  "im703_santa_cruz_2023": {
+    "event_uuid": "76fcef91-46b1-e411-9400-005056951bf1",
+    "subevent_uuid": "47de4ddb-f2a3-4862-8df6-0e8d40bc4a2a",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Santa Cruz",
+    "date": "2023-09-10T00:00:00Z",
+    "race_base": "im703_santa_cruz"
+  },
+  "im703_santa_cruz_2022": {
+    "event_uuid": "76fcef91-46b1-e411-9400-005056951bf1",
+    "subevent_uuid": "2a2a1fe9-1308-4e8a-afdb-2d053f0a9fdb",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Santa Cruz",
+    "date": "2022-09-11T00:00:00Z",
+    "race_base": "im703_santa_cruz"
+  },
+  "im703_santa_cruz_2021": {
+    "event_uuid": "76fcef91-46b1-e411-9400-005056951bf1",
+    "subevent_uuid": "e3918498-a5d4-409c-9d40-bccd22f4b183",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Santa Cruz",
+    "date": "2021-09-12T00:00:00Z",
+    "race_base": "im703_santa_cruz"
+  },
+  "im703_santa_cruz_2019": {
+    "event_uuid": "76fcef91-46b1-e411-9400-005056951bf1",
+    "subevent_uuid": "970620a8-18e8-e811-a965-000d3a3749bc",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Santa Cruz",
+    "date": "2019-09-08T00:00:00Z",
+    "race_base": "im703_santa_cruz"
+  },
+  "im703_santa_cruz_2018": {
+    "event_uuid": "76fcef91-46b1-e411-9400-005056951bf1",
+    "subevent_uuid": "3eaecef5-26ce-e711-941b-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Santa Cruz",
+    "date": "2018-09-09T00:00:00Z",
+    "race_base": "im703_santa_cruz"
+  },
+  "im703_santa_cruz_2017": {
+    "event_uuid": "76fcef91-46b1-e411-9400-005056951bf1",
+    "subevent_uuid": "e6bd53d6-23bb-e611-9410-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Santa Cruz",
+    "date": "2017-09-10T00:00:00Z",
+    "race_base": "im703_santa_cruz"
+  },
+  "im703_santa_cruz_2015": {
+    "event_uuid": "76fcef91-46b1-e411-9400-005056951bf1",
+    "subevent_uuid": "e4e2f028-47b1-e411-9400-005056951bf1",
+    "year": 2015,
+    "name": "2015 IRONMAN 70.3 Santa Cruz",
+    "date": "2015-09-13T00:00:00Z",
+    "race_base": "im703_santa_cruz"
+  },
+  "im703_texas_2025": {
+    "event_uuid": "8f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "0ab6595d-d661-4a4d-ad01-e06b95675cdc",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Texas",
+    "date": "2025-04-06T00:00:00Z",
+    "race_base": "im703_texas"
+  },
+  "im703_texas_2024": {
+    "event_uuid": "8f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "7e1c6afa-b63a-4aa2-b935-fbc741fdbf3a",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Texas",
+    "date": "2024-04-07T00:00:00Z",
+    "race_base": "im703_texas"
+  },
+  "im703_texas_2023": {
+    "event_uuid": "8f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "e869b857-f22d-45a2-af9f-a269a1728ad0",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Texas",
+    "date": "2023-04-02T00:00:00Z",
+    "race_base": "im703_texas"
+  },
+  "im703_texas_2022": {
+    "event_uuid": "8f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "459ee5b4-7fe7-44ee-8992-1bdd7743bc46",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Texas",
+    "date": "2022-04-03T00:00:00Z",
+    "race_base": "im703_texas"
+  },
+  "im703_texas_2021": {
+    "event_uuid": "8f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "76d2a06a-898b-4a43-a071-daaa37661f1e",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Texas",
+    "date": "2021-04-11T00:00:00Z",
+    "race_base": "im703_texas"
+  },
+  "im703_texas_2019": {
+    "event_uuid": "8f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "24dc0e64-dc91-e811-941f-005056951bf1",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Texas",
+    "date": "2019-04-07T00:00:00Z",
+    "race_base": "im703_texas"
+  },
+  "im703_texas_2018": {
+    "event_uuid": "8f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "24c16832-0d6b-e711-9418-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Texas",
+    "date": "2018-04-08T00:00:00Z",
+    "race_base": "im703_texas"
+  },
+  "im703_texas_2017": {
+    "event_uuid": "8f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "7beff767-f249-e611-940f-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Texas",
+    "date": "2017-04-02T00:00:00Z",
+    "race_base": "im703_texas"
+  },
+  "im703_texas_2015": {
+    "event_uuid": "8f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "7d8936f8-335f-4d87-8a7b-28e3db579866",
+    "year": 2015,
+    "name": "2015 IRONMAN 70.3 Texas",
+    "date": "2015-04-26T00:00:00Z",
+    "race_base": "im703_texas"
+  },
+  "im703_texas_2014": {
+    "event_uuid": "8f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "164952b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN 70.3 Texas",
+    "date": "2014-04-06T00:00:00Z",
+    "race_base": "im703_texas"
+  },
+  "im703_texas_2013": {
+    "event_uuid": "8f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "2c61215e-a1dd-e111-aa75-005056956277",
+    "year": 2013,
+    "name": "2013 IRONMAN 70.3 Texas: Triathlon",
+    "date": "2013-04-07T00:00:00Z",
+    "race_base": "im703_texas"
+  },
+  "im703_texas_2012": {
+    "event_uuid": "8f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "5f17d0b1-4eae-e111-80ae-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN 70.3 Texas: Triathlon",
+    "date": "2012-04-01T00:00:00Z",
+    "race_base": "im703_texas"
+  },
+  "im703_texas_2011": {
+    "event_uuid": "8f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "3f16d0b1-4eae-e111-80ae-005056956277",
+    "year": 2011,
+    "name": "2011 IRONMAN 70.3 Texas: Triathlon",
+    "date": "2011-04-10T00:00:00Z",
+    "race_base": "im703_texas"
+  },
+  "im703_texas_2010": {
+    "event_uuid": "8f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "9315d0b1-4eae-e111-80ae-005056956277",
+    "year": 2010,
+    "name": "2010 IRONMAN 70.3 Texas: Triathlon",
+    "date": "2010-04-25T00:00:00Z",
+    "race_base": "im703_texas"
+  },
+  "im703_indian_wells_2025": {
+    "event_uuid": "a581b0d5-23f2-e711-941c-005056951bf1",
+    "subevent_uuid": "aa86aa3b-52d0-4660-9dcf-19eb528ba20b",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 La Quinta",
+    "date": "2025-12-07T00:00:00Z",
+    "race_base": "im703_indian_wells"
+  },
+  "im703_indian_wells_2024": {
+    "event_uuid": "a581b0d5-23f2-e711-941c-005056951bf1",
+    "subevent_uuid": "254362da-e352-4067-a632-7f6ebb4814e0",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Indian Wells La Quinta",
+    "date": "2024-12-08T00:00:00Z",
+    "race_base": "im703_indian_wells"
+  },
+  "im703_indian_wells_2023": {
+    "event_uuid": "a581b0d5-23f2-e711-941c-005056951bf1",
+    "subevent_uuid": "eac11233-a71f-4b2f-b63c-9e8a9016f094",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Indian Wells La Quinta",
+    "date": "2023-12-03T00:00:00Z",
+    "race_base": "im703_indian_wells"
+  },
+  "im703_indian_wells_2022": {
+    "event_uuid": "a581b0d5-23f2-e711-941c-005056951bf1",
+    "subevent_uuid": "d978fa3e-b272-42e3-b544-7b4cfae73c1e",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Indian Wells La Quinta",
+    "date": "2022-12-04T00:00:00Z",
+    "race_base": "im703_indian_wells"
+  },
+  "im703_indian_wells_2021": {
+    "event_uuid": "a581b0d5-23f2-e711-941c-005056951bf1",
+    "subevent_uuid": "e1fbebe0-53f7-473c-ab44-40441dc2f557",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Indian Wells La Quinta",
+    "date": "2021-12-05T00:00:00Z",
+    "race_base": "im703_indian_wells"
+  },
+  "im703_indian_wells_2019": {
+    "event_uuid": "a581b0d5-23f2-e711-941c-005056951bf1",
+    "subevent_uuid": "026802a8-8f51-e911-a977-000d3a37468c",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Indian Wells La Quinta",
+    "date": "2019-12-08T00:00:00Z",
+    "race_base": "im703_indian_wells"
+  },
+  "im703_indian_wells_2018": {
+    "event_uuid": "a581b0d5-23f2-e711-941c-005056951bf1",
+    "subevent_uuid": "8b5ced2b-c2fa-e711-941c-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Indian Wells La Quinta",
+    "date": "2018-12-09T00:00:00Z",
+    "race_base": "im703_indian_wells"
+  },
+  "im703_mont_tremblant_2025": {
+    "event_uuid": "5397aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "0b8191e1-76de-427b-bc4a-78fefdcd90e6",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Mont Tremblant",
+    "date": "2025-06-22T00:00:00Z",
+    "race_base": "im703_mont_tremblant"
+  },
+  "im703_mont_tremblant_2024": {
+    "event_uuid": "5397aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "49e3a2a0-f4d7-492a-9fbe-489a98e535ae",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Mont Tremblant",
+    "date": "2024-06-23T00:00:00Z",
+    "race_base": "im703_mont_tremblant"
+  },
+  "im703_mont_tremblant_2023": {
+    "event_uuid": "5397aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "f72ca307-0795-4021-bf3e-7d6d7962c053",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Mont-Tremblant",
+    "date": "2023-08-20T00:00:00Z",
+    "race_base": "im703_mont_tremblant"
+  },
+  "im703_mont_tremblant_2022": {
+    "event_uuid": "5397aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "e67aa96d-bb2a-41f5-97d0-e3e5a9ed33f1",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Mont-Tremblant",
+    "date": "2022-06-26T00:00:00Z",
+    "race_base": "im703_mont_tremblant"
+  },
+  "im703_mont_tremblant_2019": {
+    "event_uuid": "5397aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "cd82e990-6e80-e811-941f-005056951bf1",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Mont-Tremblant",
+    "date": "2019-06-23T00:00:00Z",
+    "race_base": "im703_mont_tremblant"
+  },
+  "im703_mont_tremblant_2018": {
+    "event_uuid": "5397aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "b99735c1-6b62-e711-9418-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Mont-Tremblant",
+    "date": "2018-06-24T00:00:00Z",
+    "race_base": "im703_mont_tremblant"
+  },
+  "im703_mont_tremblant_2017": {
+    "event_uuid": "5397aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "f56e2d01-c63e-e611-940f-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Mont-Tremblant",
+    "date": "2017-06-25T04:00:00Z",
+    "race_base": "im703_mont_tremblant"
+  },
+  "im703_mont_tremblant_2015": {
+    "event_uuid": "5397aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "7ad34a56-2a14-48be-9f17-2d4ef4f5dd9a",
+    "year": 2015,
+    "name": "2015 IRONMAN 70.3 Mont-Tremblant",
+    "date": "2015-06-21T00:00:00Z",
+    "race_base": "im703_mont_tremblant"
+  },
+  "im703_mont_tremblant_2014": {
+    "event_uuid": "5397aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "014952b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN 70.3 Mont-Tremblant",
+    "date": "2014-06-22T00:00:00Z",
+    "race_base": "im703_mont_tremblant"
+  },
+  "im703_mont_tremblant_2013": {
+    "event_uuid": "5397aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "e7616994-3055-e211-b7a2-005056956277",
+    "year": 2013,
+    "name": "2013 IRONMAN 70.3 Mont-Tremblant: Triathlon",
+    "date": "2013-06-23T00:00:00Z",
+    "race_base": "im703_mont_tremblant"
+  },
+  "im703_mont_tremblant_2012": {
+    "event_uuid": "5397aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "b917d0b1-4eae-e111-80ae-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN 70.3 Mont-Tremblant: Triathlon",
+    "date": "2012-06-24T00:00:00Z",
+    "race_base": "im703_mont_tremblant"
+  },
+  "im703_muskoka_2025": {
+    "event_uuid": "6598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "3ef00211-2d31-4a14-a6be-3cff7570d43a",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Muskoka",
+    "date": "2025-07-06T00:00:00Z",
+    "race_base": "im703_muskoka"
+  },
+  "im703_muskoka_2024": {
+    "event_uuid": "6598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "472c5b82-c6dd-49f6-8e8e-33c4ebd405ee",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Muskoka",
+    "date": "2024-07-07T00:00:00Z",
+    "race_base": "im703_muskoka"
+  },
+  "im703_muskoka_2023": {
+    "event_uuid": "6598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "49469810-b5fc-4d11-9a1e-2b1ec8b678d2",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Muskoka",
+    "date": "2023-07-09T00:00:00Z",
+    "race_base": "im703_muskoka"
+  },
+  "im703_muskoka_2022": {
+    "event_uuid": "6598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "f6cb50b2-0b8a-487a-8dd5-4609565ce866",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Muskoka",
+    "date": "2022-07-10T00:00:00Z",
+    "race_base": "im703_muskoka"
+  },
+  "im703_muskoka_2021": {
+    "event_uuid": "6598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "47ae989d-fa9b-44af-988b-76b387209ea0",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Muskoka",
+    "date": "2021-08-29T00:00:00Z",
+    "race_base": "im703_muskoka"
+  },
+  "im703_muskoka_2019": {
+    "event_uuid": "6598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "985ebde0-cbd6-e811-a968-000d3a37468c",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Muskoka",
+    "date": "2019-07-07T00:00:00Z",
+    "race_base": "im703_muskoka"
+  },
+  "im703_muskoka_2018": {
+    "event_uuid": "6598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "4247d771-d3b4-e711-941b-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Muskoka",
+    "date": "2018-07-08T00:00:00Z",
+    "race_base": "im703_muskoka"
+  },
+  "im703_muskoka_2017": {
+    "event_uuid": "6598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "c4935271-9ee8-e611-9414-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Muskoka",
+    "date": "2017-07-09T00:00:00Z",
+    "race_base": "im703_muskoka"
+  },
+  "im703_muskoka_2015": {
+    "event_uuid": "6598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "b929aeba-b566-471f-b08a-e6002463ad6c",
+    "year": 2015,
+    "name": "2015 IRONMAN 70.3 Muskoka",
+    "date": "2015-07-05T00:00:00Z",
+    "race_base": "im703_muskoka"
+  },
+  "im703_muskoka_2014": {
+    "event_uuid": "6598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "034952b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN 70.3 Muskoka",
+    "date": "2014-09-07T00:00:00Z",
+    "race_base": "im703_muskoka"
+  },
+  "im703_muskoka_2013": {
+    "event_uuid": "6598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "18626994-3055-e211-b7a2-005056956277",
+    "year": 2013,
+    "name": "2013 IRONMAN 70.3 Muskoka: Triathlon",
+    "date": "2013-09-08T00:00:00Z",
+    "race_base": "im703_muskoka"
+  },
+  "im703_muskoka_2012": {
+    "event_uuid": "6598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "3518d0b1-4eae-e111-80ae-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN 70.3 Muskoka: Triathlon",
+    "date": "2012-09-09T00:00:00Z",
+    "race_base": "im703_muskoka"
+  },
+  "im703_muskoka_2011": {
+    "event_uuid": "6598aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "4917d0b1-4eae-e111-80ae-005056956277",
+    "year": 2011,
+    "name": "2011 IRONMAN 70.3 Muskoka: Triathlon",
+    "date": "2011-09-11T00:00:00Z",
+    "race_base": "im703_muskoka"
+  },
+  "im703_washington_2025": {
+    "event_uuid": "cd32ce29-af1d-ea11-a811-000d3a5a1f86",
+    "subevent_uuid": "3b6e2894-afe1-41b9-94e5-415fdc478e1f",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Washington Tri-Cities",
+    "date": "2025-09-21T00:00:00Z",
+    "race_base": "im703_washington"
+  },
+  "im703_washington_2024": {
+    "event_uuid": "cd32ce29-af1d-ea11-a811-000d3a5a1f86",
+    "subevent_uuid": "29cab160-3f3d-424b-b8a0-18f6bc94bdad",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Washington Tri-Cities",
+    "date": "2024-09-22T00:00:00Z",
+    "race_base": "im703_washington"
+  },
+  "im703_washington_2023": {
+    "event_uuid": "cd32ce29-af1d-ea11-a811-000d3a5a1f86",
+    "subevent_uuid": "d1fab44c-b5aa-42d3-a238-3b8c11b19f0c",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Washington",
+    "date": "2023-09-17T00:00:00Z",
+    "race_base": "im703_washington"
+  },
+  "im703_washington_2022": {
+    "event_uuid": "cd32ce29-af1d-ea11-a811-000d3a5a1f86",
+    "subevent_uuid": "9a4c6cf4-c4c0-4705-b6c0-1865105cdd9f",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Washington Maple Valley",
+    "date": "2022-09-18T00:00:00Z",
+    "race_base": "im703_washington"
+  },
+  "im703_washington_2021": {
+    "event_uuid": "cd32ce29-af1d-ea11-a811-000d3a5a1f86",
+    "subevent_uuid": "fb86bf44-2dd1-4eb8-b751-03cc4ac07fc7",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Washington Maple Valley",
+    "date": "2021-09-19T00:00:00Z",
+    "race_base": "im703_washington"
+  },
+  "im703_western_mass_2025": {
+    "event_uuid": "bf860cb8-4efc-49f5-90f3-7e8d8ac13f18",
+    "subevent_uuid": "c446b07e-708e-43dd-9d47-d310ffc19658",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Western Massachusetts",
+    "date": "2025-06-08T00:00:00Z",
+    "race_base": "im703_western_mass"
+  },
+  "im703_western_mass_2024": {
+    "event_uuid": "bf860cb8-4efc-49f5-90f3-7e8d8ac13f18",
+    "subevent_uuid": "392fa620-68fd-409c-a215-2f52a4c04ba3",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Western Massachusetts",
+    "date": "2024-06-09T00:00:00Z",
+    "race_base": "im703_western_mass"
+  },
+  "im703_western_mass_2023": {
+    "event_uuid": "bf860cb8-4efc-49f5-90f3-7e8d8ac13f18",
+    "subevent_uuid": "0854fcee-2eae-442d-ab09-eca21a1befc6",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Western Massachusetts",
+    "date": "2023-06-11T00:00:00Z",
+    "race_base": "im703_western_mass"
+  },
+  "im703_musselman_2025": {
+    "event_uuid": "f8b84893-cabe-e911-a980-000d3a3749bc",
+    "subevent_uuid": "ca5c4954-e274-4358-b921-868097a625cb",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Musselman",
+    "date": "2025-07-13T00:00:00Z",
+    "race_base": "im703_musselman"
+  },
+  "im703_musselman_2024": {
+    "event_uuid": "f8b84893-cabe-e911-a980-000d3a3749bc",
+    "subevent_uuid": "068c2860-a07e-4751-9dd6-959cd3206592",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Musselman",
+    "date": "2024-07-14T00:00:00Z",
+    "race_base": "im703_musselman"
+  },
+  "im703_musselman_2023": {
+    "event_uuid": "f8b84893-cabe-e911-a980-000d3a3749bc",
+    "subevent_uuid": "0cab603e-b6bf-4a1d-a7c4-57b84cbd2f4e",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Musselman",
+    "date": "2023-07-09T00:00:00Z",
+    "race_base": "im703_musselman"
+  },
+  "im703_musselman_2022": {
+    "event_uuid": "f8b84893-cabe-e911-a980-000d3a3749bc",
+    "subevent_uuid": "fa50780f-02d4-4b0d-8131-1df24836ad88",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Musselman",
+    "date": "2022-07-10T00:00:00Z",
+    "race_base": "im703_musselman"
+  },
+  "im703_musselman_2021": {
+    "event_uuid": "f8b84893-cabe-e911-a980-000d3a3749bc",
+    "subevent_uuid": "f3b9bf4a-4539-4cc3-908b-1515578dec94",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Musselman",
+    "date": "2021-07-11T00:00:00Z",
+    "race_base": "im703_musselman"
+  },
+  "im703_nice_2025": {
+    "event_uuid": "b40cebab-c4ad-e711-9419-005056951bf1",
+    "subevent_uuid": "9718158a-07b2-4ab6-99b8-d207c74cb432",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Nice",
+    "date": "2025-06-29T00:00:00Z",
+    "race_base": "im703_nice"
+  },
+  "im703_nice_2024": {
+    "event_uuid": "b40cebab-c4ad-e711-9419-005056951bf1",
+    "subevent_uuid": "04e65ab7-7425-4cdd-80f9-fd10c0ecfb09",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Nice",
+    "date": "2024-06-16T00:00:00Z",
+    "race_base": "im703_nice"
+  },
+  "im703_nice_2023": {
+    "event_uuid": "b40cebab-c4ad-e711-9419-005056951bf1",
+    "subevent_uuid": "99f76aa0-8c0f-4638-b4f7-909c0aa300ce",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Nice",
+    "date": "2023-06-25T00:00:00Z",
+    "race_base": "im703_nice"
+  },
+  "im703_nice_2022": {
+    "event_uuid": "b40cebab-c4ad-e711-9419-005056951bf1",
+    "subevent_uuid": "5316402b-3702-471e-b02d-a281fd963e42",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Nice",
+    "date": "2022-06-26T00:00:00Z",
+    "race_base": "im703_nice"
+  },
+  "im703_nice_2021": {
+    "event_uuid": "b40cebab-c4ad-e711-9419-005056951bf1",
+    "subevent_uuid": "c1326ddc-9b48-4580-a911-176bdde44c31",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Nice",
+    "date": "2021-09-12T00:00:00Z",
+    "race_base": "im703_nice"
+  },
+  "im703_nice_2018": {
+    "event_uuid": "b40cebab-c4ad-e711-9419-005056951bf1",
+    "subevent_uuid": "a75a0f1e-c5ad-e711-9419-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Nice",
+    "date": "2018-09-16T00:00:00Z",
+    "race_base": "im703_nice"
+  },
+  "im703_vichy_2025": {
+    "event_uuid": "4db33a98-76a5-e411-9400-005056951bf1",
+    "subevent_uuid": "bff11f8b-5b01-482f-8c43-9a0f50d5b394",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Vichy",
+    "date": "2025-08-24T00:00:00Z",
+    "race_base": "im703_vichy"
+  },
+  "im703_vichy_2024": {
+    "event_uuid": "4db33a98-76a5-e411-9400-005056951bf1",
+    "subevent_uuid": "d0d11a9f-7ba1-4ae1-a308-556363546b25",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Vichy",
+    "date": "2024-09-01T00:00:00Z",
+    "race_base": "im703_vichy"
+  },
+  "im703_vichy_2023": {
+    "event_uuid": "4db33a98-76a5-e411-9400-005056951bf1",
+    "subevent_uuid": "63310100-2ab9-4ac7-b635-ab879968f1f9",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Vichy",
+    "date": "2023-08-19T00:00:00Z",
+    "race_base": "im703_vichy"
+  },
+  "im703_vichy_2022": {
+    "event_uuid": "4db33a98-76a5-e411-9400-005056951bf1",
+    "subevent_uuid": "21fd83d1-c771-42fc-898a-366af92fabbc",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Vichy",
+    "date": "2022-08-20T00:00:00Z",
+    "race_base": "im703_vichy"
+  },
+  "im703_vichy_2021": {
+    "event_uuid": "4db33a98-76a5-e411-9400-005056951bf1",
+    "subevent_uuid": "6f1e9f11-54ce-4b46-89ad-c8154f7b98d3",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Vichy",
+    "date": "2021-08-21T00:00:00Z",
+    "race_base": "im703_vichy"
+  },
+  "im703_vichy_2019": {
+    "event_uuid": "4db33a98-76a5-e411-9400-005056951bf1",
+    "subevent_uuid": "8bf835cd-4cc6-e811-a96a-000d3a35f53a",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Vichy",
+    "date": "2019-08-24T00:00:00Z",
+    "race_base": "im703_vichy"
+  },
+  "im703_vichy_2018": {
+    "event_uuid": "4db33a98-76a5-e411-9400-005056951bf1",
+    "subevent_uuid": "bc3b8529-60a8-e711-9419-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Vichy",
+    "date": "2018-08-25T00:00:00Z",
+    "race_base": "im703_vichy"
+  },
+  "im703_vichy_2017": {
+    "event_uuid": "4db33a98-76a5-e411-9400-005056951bf1",
+    "subevent_uuid": "bdcc773d-8091-e611-9410-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Vichy",
+    "date": "2017-08-26T00:00:00Z",
+    "race_base": "im703_vichy"
+  },
+  "im703_vichy_2015": {
+    "event_uuid": "4db33a98-76a5-e411-9400-005056951bf1",
+    "subevent_uuid": "ad264dda-76a5-e411-9400-005056951bf1",
+    "year": 2015,
+    "name": "2015 IRONMAN 70.3 Vichy",
+    "date": "2015-08-29T00:00:00Z",
+    "race_base": "im703_vichy"
+  },
+  "im703_tours_2025": {
+    "event_uuid": "c795d5c4-a4ef-40cb-846e-9889cdb6ef12",
+    "subevent_uuid": "96e392d6-f606-4946-982f-b2ed052a952f",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Tours Metropole - Loire Valley",
+    "date": "2025-06-01T00:00:00Z",
+    "race_base": "im703_tours"
+  },
+  "im703_switzerland_2025": {
+    "event_uuid": "8998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "6d0b6ef9-0f75-4a59-9945-eb6743a38ce1",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Switzerland",
+    "date": "2025-06-01T00:00:00Z",
+    "race_base": "im703_switzerland"
+  },
+  "im703_switzerland_2024": {
+    "event_uuid": "8998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "3bb7a485-6d0d-4237-9bb1-ece82c93a317",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Switzerland",
+    "date": "2024-06-02T00:00:00Z",
+    "race_base": "im703_switzerland"
+  },
+  "im703_switzerland_2023": {
+    "event_uuid": "8998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "fdd29721-a47d-408b-b6c2-4bf0934a373c",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Switzerland",
+    "date": "2023-06-11T00:00:00Z",
+    "race_base": "im703_switzerland"
+  },
+  "im703_switzerland_2022": {
+    "event_uuid": "8998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "3b12b880-6fdb-45aa-99e9-29e1099143e4",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Switzerland",
+    "date": "2022-06-19T00:00:00Z",
+    "race_base": "im703_switzerland"
+  },
+  "im703_switzerland_2021": {
+    "event_uuid": "8998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "a00ab9c9-481c-4cb8-967b-b86df162e176",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Switzerland",
+    "date": "2021-08-08T00:00:00Z",
+    "race_base": "im703_switzerland"
+  },
+  "im703_switzerland_2019": {
+    "event_uuid": "8998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "0110bd42-ef94-e811-9421-005056951bf1",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Switzerland",
+    "date": "2019-06-02T00:00:00Z",
+    "race_base": "im703_switzerland"
+  },
+  "im703_switzerland_2018": {
+    "event_uuid": "8998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "9bc13d16-9277-e711-9418-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Switzerland",
+    "date": "2018-06-10T00:00:00Z",
+    "race_base": "im703_switzerland"
+  },
+  "im703_switzerland_2017": {
+    "event_uuid": "8998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "6401aea4-c055-e611-940f-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Switzerland",
+    "date": "2017-06-11T00:00:00Z",
+    "race_base": "im703_switzerland"
+  },
+  "im703_switzerland_2015": {
+    "event_uuid": "8998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "215f4fb9-4424-48f3-9f2b-d6aba7c078cf",
+    "year": 2015,
+    "name": "2015 IRONMAN 70.3 Switzerland",
+    "date": "2015-06-07T00:00:00Z",
+    "race_base": "im703_switzerland"
+  },
+  "im703_switzerland_2014": {
+    "event_uuid": "8998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "134952b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN 70.3 Switzerland",
+    "date": "2014-06-01T00:00:00Z",
+    "race_base": "im703_switzerland"
+  },
+  "im703_switzerland_2013": {
+    "event_uuid": "8998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "f4616994-3055-e211-b7a2-005056956277",
+    "year": 2013,
+    "name": "2013 IRONMAN 70.3 Switzerland: Triathlon",
+    "date": "2013-06-02T00:00:00Z",
+    "race_base": "im703_switzerland"
+  },
+  "im703_switzerland_2012": {
+    "event_uuid": "8998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "d517d0b1-4eae-e111-80ae-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN 70.3 Switzerland: Triathlon",
+    "date": "2012-06-03T00:00:00Z",
+    "race_base": "im703_switzerland"
+  },
+  "im703_switzerland_2011": {
+    "event_uuid": "8998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "bd16d0b1-4eae-e111-80ae-005056956277",
+    "year": 2011,
+    "name": "2011 IRONMAN 70.3 Switzerland: Triathlon",
+    "date": "2011-06-05T00:00:00Z",
+    "race_base": "im703_switzerland"
+  },
+  "im703_kraichgau_2025": {
+    "event_uuid": "7b9d72b1-f044-e411-93f8-005056951bf1",
+    "subevent_uuid": "8d7662e2-29f1-4d3e-9c4b-eb25a4d86af1",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Kraichgau",
+    "date": "2025-05-25T00:00:00Z",
+    "race_base": "im703_kraichgau"
+  },
+  "im703_kraichgau_2024": {
+    "event_uuid": "7b9d72b1-f044-e411-93f8-005056951bf1",
+    "subevent_uuid": "971c5bb8-4616-4f21-8088-46d6265733f6",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Kraichgau",
+    "date": "2024-05-26T00:00:00Z",
+    "race_base": "im703_kraichgau"
+  },
+  "im703_kraichgau_2023": {
+    "event_uuid": "7b9d72b1-f044-e411-93f8-005056951bf1",
+    "subevent_uuid": "cf9cd1bd-c45b-4b80-9e94-bb07529df6f2",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Kraichgau",
+    "date": "2023-05-21T00:00:00Z",
+    "race_base": "im703_kraichgau"
+  },
+  "im703_kraichgau_2022": {
+    "event_uuid": "7b9d72b1-f044-e411-93f8-005056951bf1",
+    "subevent_uuid": "e5cd015c-7ca0-4a1c-b334-683fc2ee7f5f",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Kraichgau",
+    "date": "2022-05-29T00:00:00Z",
+    "race_base": "im703_kraichgau"
+  },
+  "im703_kraichgau_2019": {
+    "event_uuid": "7b9d72b1-f044-e411-93f8-005056951bf1",
+    "subevent_uuid": "57437a4e-cb89-e811-941f-005056951bf1",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Kraichgau",
+    "date": "2019-06-02T00:00:00Z",
+    "race_base": "im703_kraichgau"
+  },
+  "im703_kraichgau_2018": {
+    "event_uuid": "7b9d72b1-f044-e411-93f8-005056951bf1",
+    "subevent_uuid": "3ee31510-ce61-e711-9418-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Kraichgau",
+    "date": "2018-06-03T00:00:00Z",
+    "race_base": "im703_kraichgau"
+  },
+  "im703_kraichgau_2017": {
+    "event_uuid": "7b9d72b1-f044-e411-93f8-005056951bf1",
+    "subevent_uuid": "43d381e1-1345-e611-940f-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Kraichgau",
+    "date": "2017-06-11T00:00:00Z",
+    "race_base": "im703_kraichgau"
+  },
+  "im703_kraichgau_2015": {
+    "event_uuid": "7b9d72b1-f044-e411-93f8-005056951bf1",
+    "subevent_uuid": "47fd0416-f144-e411-93f8-005056951bf1",
+    "year": 2015,
+    "name": "2015 IRONMAN 70.3 Kraichgau",
+    "date": "2015-06-07T00:00:00Z",
+    "race_base": "im703_kraichgau"
+  },
+  "im703_duisburg_2025": {
+    "event_uuid": "9ee9bf47-e2f0-e911-a812-000d3a5a1cf8",
+    "subevent_uuid": "f48751dd-2cf1-4310-b026-bb1c10b8dc73",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Duisburg",
+    "date": "2025-09-07T00:00:00Z",
+    "race_base": "im703_duisburg"
+  },
+  "im703_duisburg_2024": {
+    "event_uuid": "9ee9bf47-e2f0-e911-a812-000d3a5a1cf8",
+    "subevent_uuid": "e110ced7-7958-45a2-9546-32ceb29be7a5",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Duisburg",
+    "date": "2024-09-01T00:00:00Z",
+    "race_base": "im703_duisburg"
+  },
+  "im703_duisburg_2023": {
+    "event_uuid": "9ee9bf47-e2f0-e911-a812-000d3a5a1cf8",
+    "subevent_uuid": "b70670b3-eea2-47a1-b174-3986c9f24d63",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Duisburg",
+    "date": "2023-08-06T00:00:00Z",
+    "race_base": "im703_duisburg"
+  },
+  "im703_duisburg_2022": {
+    "event_uuid": "9ee9bf47-e2f0-e911-a812-000d3a5a1cf8",
+    "subevent_uuid": "52e7df1d-36fd-4222-a1cf-7d03063c8282",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Duisburg",
+    "date": "2022-08-28T00:00:00Z",
+    "race_base": "im703_duisburg"
+  },
+  "im703_duisburg_2021": {
+    "event_uuid": "9ee9bf47-e2f0-e911-a812-000d3a5a1cf8",
+    "subevent_uuid": "f8b5a1ce-b142-4d63-b50d-7edd6e23fbf0",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Duisburg",
+    "date": "2021-08-29T00:00:00Z",
+    "race_base": "im703_duisburg"
+  },
+  "im703_erkner_2025": {
+    "event_uuid": "25bc1a07-6985-434a-86ab-f7c867230491",
+    "subevent_uuid": "2ba48a3a-17c4-483f-b101-c848e07c0f48",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Erkner Berlin-Brandenburg",
+    "date": "2025-09-14T00:00:00Z",
+    "race_base": "im703_erkner"
+  },
+  "im703_erkner_2024": {
+    "event_uuid": "25bc1a07-6985-434a-86ab-f7c867230491",
+    "subevent_uuid": "88b83ce4-0a39-4631-9d9b-40dbf50b4b1c",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Erkner",
+    "date": "2024-09-15T00:00:00Z",
+    "race_base": "im703_erkner"
+  },
+  "im703_erkner_2023": {
+    "event_uuid": "25bc1a07-6985-434a-86ab-f7c867230491",
+    "subevent_uuid": "3f4d1c86-9928-4d10-972e-e24ba9528c1c",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Erkner",
+    "date": "2023-09-10T00:00:00Z",
+    "race_base": "im703_erkner"
+  },
+  "im703_erkner_2022": {
+    "event_uuid": "25bc1a07-6985-434a-86ab-f7c867230491",
+    "subevent_uuid": "85016295-2c5d-4a90-bd26-80acc709c2c7",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Erkner",
+    "date": "2022-09-11T00:00:00Z",
+    "race_base": "im703_erkner"
+  },
+  "im703_swansea_2025": {
+    "event_uuid": "7f9774c3-b171-4a38-a2ee-afb15573054a",
+    "subevent_uuid": "8b695ceb-5d5a-43de-b6dc-389a836da5fd",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Swansea",
+    "date": "2025-07-13T00:00:00Z",
+    "race_base": "im703_swansea"
+  },
+  "im703_swansea_2024": {
+    "event_uuid": "7f9774c3-b171-4a38-a2ee-afb15573054a",
+    "subevent_uuid": "cd32f0f7-fb44-4476-b178-05c4fff7bb56",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Swansea",
+    "date": "2024-07-14T00:00:00Z",
+    "race_base": "im703_swansea"
+  },
+  "im703_swansea_2023": {
+    "event_uuid": "7f9774c3-b171-4a38-a2ee-afb15573054a",
+    "subevent_uuid": "58779cf2-dc52-4b9c-ae92-5156c370b12e",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Swansea",
+    "date": "2023-07-16T00:00:00Z",
+    "race_base": "im703_swansea"
+  },
+  "im703_swansea_2022": {
+    "event_uuid": "7f9774c3-b171-4a38-a2ee-afb15573054a",
+    "subevent_uuid": "701d9bbe-0831-4438-bc4e-633294a8c07a",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Swansea",
+    "date": "2022-08-07T00:00:00Z",
+    "race_base": "im703_swansea"
+  },
+  "im703_weymouth_2025": {
+    "event_uuid": "9da9ce3f-1c7f-e511-9409-005056951bf1",
+    "subevent_uuid": "81ebf782-cc26-46a4-8cf1-2d8a6e0c8b19",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Weymouth",
+    "date": "2025-09-14T00:00:00Z",
+    "race_base": "im703_weymouth"
+  },
+  "im703_weymouth_2024": {
+    "event_uuid": "9da9ce3f-1c7f-e511-9409-005056951bf1",
+    "subevent_uuid": "32d50904-af04-4fe7-a5b3-4ffbd19c264f",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Weymouth",
+    "date": "2024-09-15T00:00:00Z",
+    "race_base": "im703_weymouth"
+  },
+  "im703_weymouth_2023": {
+    "event_uuid": "9da9ce3f-1c7f-e511-9409-005056951bf1",
+    "subevent_uuid": "21d5f802-e971-4d26-b5f4-e265383a7aa3",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Weymouth",
+    "date": "2023-09-17T00:00:00Z",
+    "race_base": "im703_weymouth"
+  },
+  "im703_weymouth_2022": {
+    "event_uuid": "9da9ce3f-1c7f-e511-9409-005056951bf1",
+    "subevent_uuid": "f28a2871-7bcc-4aa7-99e7-34452a789643",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Weymouth",
+    "date": "2022-09-18T00:00:00Z",
+    "race_base": "im703_weymouth"
+  },
+  "im703_weymouth_2021": {
+    "event_uuid": "9da9ce3f-1c7f-e511-9409-005056951bf1",
+    "subevent_uuid": "3ef53222-43ac-4fcc-8f17-556057833d30",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Weymouth",
+    "date": "2021-09-19T00:00:00Z",
+    "race_base": "im703_weymouth"
+  },
+  "im703_weymouth_2019": {
+    "event_uuid": "9da9ce3f-1c7f-e511-9409-005056951bf1",
+    "subevent_uuid": "c169f197-a2f4-e811-a972-000d3a364086",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Weymouth",
+    "date": "2019-09-22T00:00:00Z",
+    "race_base": "im703_weymouth"
+  },
+  "im703_weymouth_2018": {
+    "event_uuid": "9da9ce3f-1c7f-e511-9409-005056951bf1",
+    "subevent_uuid": "02d06c66-fac3-e711-941b-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Weymouth",
+    "date": "2018-09-23T00:00:00Z",
+    "race_base": "im703_weymouth"
+  },
+  "im703_weymouth_2017": {
+    "event_uuid": "9da9ce3f-1c7f-e511-9409-005056951bf1",
+    "subevent_uuid": "207611db-b96b-e611-940f-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Weymouth",
+    "date": "2017-09-17T00:00:00Z",
+    "race_base": "im703_weymouth"
+  },
+  "im703_elsinore_2025": {
+    "event_uuid": "fec9c75b-55a5-e311-b5f4-005056956277",
+    "subevent_uuid": "9bd8c169-0c37-4ce9-9a21-d1dd75895524",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Elsinore",
+    "date": "2025-06-22T00:00:00Z",
+    "race_base": "im703_elsinore"
+  },
+  "im703_elsinore_2024": {
+    "event_uuid": "fec9c75b-55a5-e311-b5f4-005056956277",
+    "subevent_uuid": "ebc6bd7d-d840-4ba0-8338-74d294911a4a",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Elsinore",
+    "date": "2024-06-23T00:00:00Z",
+    "race_base": "im703_elsinore"
+  },
+  "im703_elsinore_2023": {
+    "event_uuid": "fec9c75b-55a5-e311-b5f4-005056956277",
+    "subevent_uuid": "cf562f20-de52-4612-ad57-230810c293ad",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Elsinore",
+    "date": "2023-06-25T00:00:00Z",
+    "race_base": "im703_elsinore"
+  },
+  "im703_elsinore_2022": {
+    "event_uuid": "fec9c75b-55a5-e311-b5f4-005056956277",
+    "subevent_uuid": "c9e159db-5f88-4cff-ac20-a06e4a8f8ea5",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 European Championship Elsinore",
+    "date": "2022-06-26T00:00:00Z",
+    "race_base": "im703_elsinore"
+  },
+  "im703_elsinore_2021": {
+    "event_uuid": "fec9c75b-55a5-e311-b5f4-005056956277",
+    "subevent_uuid": "c690a6d3-e15d-4199-9356-8931c3fbfb5c",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 European Championship Elsinore",
+    "date": "2021-06-27T00:00:00Z",
+    "race_base": "im703_elsinore"
+  },
+  "im703_elsinore_2019": {
+    "event_uuid": "fec9c75b-55a5-e311-b5f4-005056956277",
+    "subevent_uuid": "186ad0bc-33a2-e811-a960-000d3a3740b7",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 European Championship Elsinore",
+    "date": "2019-06-23T00:00:00Z",
+    "race_base": "im703_elsinore"
+  },
+  "im703_elsinore_2018": {
+    "event_uuid": "fec9c75b-55a5-e311-b5f4-005056956277",
+    "subevent_uuid": "daa6203f-cb61-e711-9418-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 European Championship Elsinore",
+    "date": "2018-06-17T00:00:00Z",
+    "race_base": "im703_elsinore"
+  },
+  "im703_elsinore_2017": {
+    "event_uuid": "fec9c75b-55a5-e311-b5f4-005056956277",
+    "subevent_uuid": "eab3bc66-bc6b-e611-940f-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 European Championship Elsinore",
+    "date": "2017-06-18T00:00:00Z",
+    "race_base": "im703_elsinore"
+  },
+  "im703_elsinore_2015": {
+    "event_uuid": "fec9c75b-55a5-e311-b5f4-005056956277",
+    "subevent_uuid": "809c5382-4f61-449c-ab87-854fc7442335",
+    "year": 2015,
+    "name": "2015 IRONMAN 70.3 Kronborg",
+    "date": "2015-06-21T00:00:00Z",
+    "race_base": "im703_elsinore"
+  },
+  "im703_elsinore_2014": {
+    "event_uuid": "fec9c75b-55a5-e311-b5f4-005056956277",
+    "subevent_uuid": "52c55c11-57a5-e311-b5f4-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN 70.3 Kronborg",
+    "date": "2014-09-14T00:00:00Z",
+    "race_base": "im703_elsinore"
+  },
+  "im703_jonkoping_2025": {
+    "event_uuid": "7f88d2cc-ea65-e511-9409-005056951bf1",
+    "subevent_uuid": "3aee4f6b-cc2a-4d7c-8f71-795651d7a3af",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Jönköping",
+    "date": "2025-07-06T00:00:00Z",
+    "race_base": "im703_jonkoping"
+  },
+  "im703_jonkoping_2024": {
+    "event_uuid": "7f88d2cc-ea65-e511-9409-005056951bf1",
+    "subevent_uuid": "adb19add-31e8-4076-a995-1e62e7b0c375",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Jönköping",
+    "date": "2024-07-07T00:00:00Z",
+    "race_base": "im703_jonkoping"
+  },
+  "im703_jonkoping_2023": {
+    "event_uuid": "7f88d2cc-ea65-e511-9409-005056951bf1",
+    "subevent_uuid": "60f13c14-634f-46b8-8380-675cd7663c93",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Jonkoping",
+    "date": "2023-07-09T00:00:00Z",
+    "race_base": "im703_jonkoping"
+  },
+  "im703_jonkoping_2022": {
+    "event_uuid": "7f88d2cc-ea65-e511-9409-005056951bf1",
+    "subevent_uuid": "e41f3be9-8b5f-47cb-8a05-0f85ec2cd3ba",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Jonkoping",
+    "date": "2022-07-10T00:00:00Z",
+    "race_base": "im703_jonkoping"
+  },
+  "im703_jonkoping_2021": {
+    "event_uuid": "7f88d2cc-ea65-e511-9409-005056951bf1",
+    "subevent_uuid": "35c00dd2-abdd-4ab3-bc84-13eb59d7bc15",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Jonkoping",
+    "date": "2021-09-18T00:00:00Z",
+    "race_base": "im703_jonkoping"
+  },
+  "im703_jonkoping_2019": {
+    "event_uuid": "7f88d2cc-ea65-e511-9409-005056951bf1",
+    "subevent_uuid": "c48510e3-68a5-e811-a966-000d3a37468c",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Jönköping",
+    "date": "2019-07-07T00:00:00Z",
+    "race_base": "im703_jonkoping"
+  },
+  "im703_jonkoping_2018": {
+    "event_uuid": "7f88d2cc-ea65-e511-9409-005056951bf1",
+    "subevent_uuid": "8b625e16-3e87-e711-9419-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Jonkoping",
+    "date": "2018-07-08T00:00:00Z",
+    "race_base": "im703_jonkoping"
+  },
+  "im703_jonkoping_2017": {
+    "event_uuid": "7f88d2cc-ea65-e511-9409-005056951bf1",
+    "subevent_uuid": "7f48e3e3-bc6b-e611-940f-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Jonkoping",
+    "date": "2017-07-09T00:00:00Z",
+    "race_base": "im703_jonkoping"
+  },
+  "im703_tallinn_2025": {
+    "event_uuid": "f3f8d4fc-0e48-420a-a50e-6e749b5ce83b",
+    "subevent_uuid": "a636a84c-fda7-4ce0-b469-b09bea4bcd97",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Tallinn",
+    "date": "2025-08-24T00:00:00Z",
+    "race_base": "im703_tallinn"
+  },
+  "im703_tallinn_2024": {
+    "event_uuid": "f3f8d4fc-0e48-420a-a50e-6e749b5ce83b",
+    "subevent_uuid": "8badc34f-fee3-4abb-bb1d-35c5600d560e",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Tallinn",
+    "date": "2024-08-25T00:00:00Z",
+    "race_base": "im703_tallinn"
+  },
+  "im703_tallinn_2023": {
+    "event_uuid": "f3f8d4fc-0e48-420a-a50e-6e749b5ce83b",
+    "subevent_uuid": "3baa0bda-bf27-4929-acf7-785bb831085b",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 European Championship Tallinn",
+    "date": "2023-08-06T00:00:00Z",
+    "race_base": "im703_tallinn"
+  },
+  "im703_tallinn_2022": {
+    "event_uuid": "f3f8d4fc-0e48-420a-a50e-6e749b5ce83b",
+    "subevent_uuid": "93fde213-f4fb-4b92-83ee-9d4a9886ee21",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Tallinn",
+    "date": "2022-08-07T00:00:00Z",
+    "race_base": "im703_tallinn"
+  },
+  "im703_tallinn_2021": {
+    "event_uuid": "f3f8d4fc-0e48-420a-a50e-6e749b5ce83b",
+    "subevent_uuid": "9cfbe723-2501-4df3-9874-765a3400314b",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Tallinn",
+    "date": "2021-08-08T00:00:00Z",
+    "race_base": "im703_tallinn"
+  },
+  "im703_tallinn_2020": {
+    "event_uuid": "f3f8d4fc-0e48-420a-a50e-6e749b5ce83b",
+    "subevent_uuid": "a33b7872-8da8-e911-a980-000d3a36478d",
+    "year": 2020,
+    "name": "2020 IRONMAN 70.3 Tallinn",
+    "date": "2020-09-05T00:00:00Z",
+    "race_base": "im703_tallinn"
+  },
+  "im703_warsaw_2025": {
+    "event_uuid": "b323092a-adef-4ffc-a093-ce89b8aed598",
+    "subevent_uuid": "3b87ce72-18df-4451-9696-f8bb7fb6573e",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Warsaw",
+    "date": "2025-06-08T00:00:00Z",
+    "race_base": "im703_warsaw"
+  },
+  "im703_warsaw_2024": {
+    "event_uuid": "b323092a-adef-4ffc-a093-ce89b8aed598",
+    "subevent_uuid": "153cfa15-b021-4f2b-b22a-d4dc560f4eb5",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Warsaw",
+    "date": "2024-06-09T00:00:00Z",
+    "race_base": "im703_warsaw"
+  },
+  "im703_warsaw_2023": {
+    "event_uuid": "b323092a-adef-4ffc-a093-ce89b8aed598",
+    "subevent_uuid": "0f531726-03f5-4cb9-b175-64adb2e61fab",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Warsaw",
+    "date": "2023-06-11T00:00:00Z",
+    "race_base": "im703_warsaw"
+  },
+  "im703_warsaw_2022": {
+    "event_uuid": "b323092a-adef-4ffc-a093-ce89b8aed598",
+    "subevent_uuid": "8449aee9-90d4-4256-acf5-53eb4aef1149",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Warsaw",
+    "date": "2022-06-12T00:00:00Z",
+    "race_base": "im703_warsaw"
+  },
+  "im703_warsaw_2021": {
+    "event_uuid": "b323092a-adef-4ffc-a093-ce89b8aed598",
+    "subevent_uuid": "5ebb5765-ce57-4661-b4d5-fc760cebdcfd",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Warsaw",
+    "date": "2021-09-05T00:00:00Z",
+    "race_base": "im703_warsaw"
+  },
+  "im703_krakow_2025": {
+    "event_uuid": "2c2982fc-2c97-459d-b2ef-e77b92eecd4f",
+    "subevent_uuid": "d662cc38-6c46-4b35-b417-f49645897053",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Krakow",
+    "date": "2025-08-03T00:00:00Z",
+    "race_base": "im703_krakow"
+  },
+  "im703_poznan_2025": {
+    "event_uuid": "5a9a5b9c-f4ff-4dd5-9b1d-11b3379c427f",
+    "subevent_uuid": "f36900d6-bf81-4b8c-9cee-8595e2f90adc",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Poznan",
+    "date": "2025-09-07T00:00:00Z",
+    "race_base": "im703_poznan"
+  },
+  "im703_poznan_2024": {
+    "event_uuid": "5a9a5b9c-f4ff-4dd5-9b1d-11b3379c427f",
+    "subevent_uuid": "ebac006c-00d6-4bd8-bc24-7910c179044d",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Poznan",
+    "date": "2024-09-01T00:00:00Z",
+    "race_base": "im703_poznan"
+  },
+  "im703_poznan_2023": {
+    "event_uuid": "5a9a5b9c-f4ff-4dd5-9b1d-11b3379c427f",
+    "subevent_uuid": "6f1ea1ea-d46a-49f9-a361-00303103f827",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Poznan",
+    "date": "2023-09-03T00:00:00Z",
+    "race_base": "im703_poznan"
+  },
+  "im703_poznan_2022": {
+    "event_uuid": "5a9a5b9c-f4ff-4dd5-9b1d-11b3379c427f",
+    "subevent_uuid": "5a96f2a0-119b-4f91-b095-16811260b7a0",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Poznan",
+    "date": "2022-09-04T00:00:00Z",
+    "race_base": "im703_poznan"
+  },
+  "im703_hradec_2025": {
+    "event_uuid": "87f1af8b-ceaf-4f25-a975-16e17e4f6de4",
+    "subevent_uuid": "302ea8a5-d5f7-47d1-a516-4870613e4b10",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Hradec Králové",
+    "date": "2025-08-17T00:00:00Z",
+    "race_base": "im703_hradec"
+  },
+  "im703_hradec_2024": {
+    "event_uuid": "87f1af8b-ceaf-4f25-a975-16e17e4f6de4",
+    "subevent_uuid": "26551646-3142-4835-ad55-98b3a5ea031c",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Hradec Králové",
+    "date": "2024-08-18T00:00:00Z",
+    "race_base": "im703_hradec"
+  },
+  "im703_westfriesland_2025": {
+    "event_uuid": "67d2b761-0eae-e911-a981-000d3a36478d",
+    "subevent_uuid": "ddc798a0-abce-41ba-8c10-d0dd07fe3572",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Westfriesland",
+    "date": "2025-06-22T00:00:00Z",
+    "race_base": "im703_westfriesland"
+  },
+  "im703_westfriesland_2024": {
+    "event_uuid": "67d2b761-0eae-e911-a981-000d3a36478d",
+    "subevent_uuid": "7d91a5a9-9baa-4e3f-a977-e05c069de8a6",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Westfriesland",
+    "date": "2024-06-23T00:00:00Z",
+    "race_base": "im703_westfriesland"
+  },
+  "im703_westfriesland_2023": {
+    "event_uuid": "67d2b761-0eae-e911-a981-000d3a36478d",
+    "subevent_uuid": "1b78b86f-3345-47ac-a36a-4d7addc65c08",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Westfriesland",
+    "date": "2023-06-25T00:00:00Z",
+    "race_base": "im703_westfriesland"
+  },
+  "im703_westfriesland_2022": {
+    "event_uuid": "67d2b761-0eae-e911-a981-000d3a36478d",
+    "subevent_uuid": "07ebfb33-cf3c-423f-b3c4-286b1cfddc19",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Westfriesland",
+    "date": "2022-06-26T00:00:00Z",
+    "race_base": "im703_westfriesland"
+  },
+  "im703_westfriesland_2021": {
+    "event_uuid": "67d2b761-0eae-e911-a981-000d3a36478d",
+    "subevent_uuid": "cbb22e26-b737-47f7-9a0a-e540eb7c9e57",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Westfriesland",
+    "date": "2021-09-26T00:00:00Z",
+    "race_base": "im703_westfriesland"
+  },
+  "im703_knokke_2025": {
+    "event_uuid": "9a8052e4-602f-4269-943f-5a40a28a9969",
+    "subevent_uuid": "a5b5af7f-162f-4b4c-8af4-e3a00f92ede0",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Knokke-Heist",
+    "date": "2025-09-07T00:00:00Z",
+    "race_base": "im703_knokke"
+  },
+  "im703_knokke_2024": {
+    "event_uuid": "9a8052e4-602f-4269-943f-5a40a28a9969",
+    "subevent_uuid": "04a493eb-3339-4ccf-9dff-1bd450b19c27",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Knokke-Heist",
+    "date": "2024-09-08T00:00:00Z",
+    "race_base": "im703_knokke"
+  },
+  "im703_knokke_2023": {
+    "event_uuid": "9a8052e4-602f-4269-943f-5a40a28a9969",
+    "subevent_uuid": "1d88c207-fabe-428c-8c4c-77fe8c7d8726",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Knokke-Heist",
+    "date": "2023-09-17T00:00:00Z",
+    "race_base": "im703_knokke"
+  },
+  "im703_turkey_2025": {
+    "event_uuid": "3a513a94-c15e-e411-93fa-005056951bf1",
+    "subevent_uuid": "81dc1d5e-c292-42d8-8c2e-aa9858b18a57",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Türkiye",
+    "date": "2025-11-02T00:00:00Z",
+    "race_base": "im703_turkey"
+  },
+  "im703_turkey_2024": {
+    "event_uuid": "3a513a94-c15e-e411-93fa-005056951bf1",
+    "subevent_uuid": "f11df8be-7d48-4444-90ef-a3b842fcff63",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Turkey",
+    "date": "2024-11-03T00:00:00Z",
+    "race_base": "im703_turkey"
+  },
+  "im703_turkey_2023": {
+    "event_uuid": "3a513a94-c15e-e411-93fa-005056951bf1",
+    "subevent_uuid": "5ca0d730-c4a2-4432-9225-d956ea545eac",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Turkey",
+    "date": "2023-10-29T00:00:00Z",
+    "race_base": "im703_turkey"
+  },
+  "im703_turkey_2022": {
+    "event_uuid": "3a513a94-c15e-e411-93fa-005056951bf1",
+    "subevent_uuid": "cd87739b-129d-4d8e-a733-2b132d487fa4",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Turkey",
+    "date": "2022-11-06T00:00:00Z",
+    "race_base": "im703_turkey"
+  },
+  "im703_turkey_2021": {
+    "event_uuid": "3a513a94-c15e-e411-93fa-005056951bf1",
+    "subevent_uuid": "06cfbe49-a6f1-4901-b4c7-1b7c4508b93f",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Turkey",
+    "date": "2021-10-31T00:00:00Z",
+    "race_base": "im703_turkey"
+  },
+  "im703_turkey_2020": {
+    "event_uuid": "3a513a94-c15e-e411-93fa-005056951bf1",
+    "subevent_uuid": "6790952f-5831-ea11-a810-000d3a5a1477",
+    "year": 2020,
+    "name": "2020 IRONMAN 70.3 Turkey",
+    "date": "2020-11-01T00:00:00Z",
+    "race_base": "im703_turkey"
+  },
+  "im703_turkey_2019": {
+    "event_uuid": "3a513a94-c15e-e411-93fa-005056951bf1",
+    "subevent_uuid": "86497c81-8d2f-e911-a970-000d3a37468c",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Turkey",
+    "date": "2019-11-03T00:00:00Z",
+    "race_base": "im703_turkey"
+  },
+  "im703_turkey_2018": {
+    "event_uuid": "3a513a94-c15e-e411-93fa-005056951bf1",
+    "subevent_uuid": "34e055b2-5117-e811-941d-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Turkey",
+    "date": "2018-10-28T00:00:00Z",
+    "race_base": "im703_turkey"
+  },
+  "im703_turkey_2017": {
+    "event_uuid": "3a513a94-c15e-e411-93fa-005056951bf1",
+    "subevent_uuid": "ff3ed31a-c7d3-e611-9412-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Turkey",
+    "date": "2017-10-15T00:00:00Z",
+    "race_base": "im703_turkey"
+  },
+  "im703_turkey_2015": {
+    "event_uuid": "3a513a94-c15e-e411-93fa-005056951bf1",
+    "subevent_uuid": "0bd942c4-c15e-e411-93fa-005056951bf1",
+    "year": 2015,
+    "name": "2015 IRONMAN 70.3 Turkey",
+    "date": "2015-10-25T00:00:00Z",
+    "race_base": "im703_turkey"
+  },
+  "im703_oman_2025": {
+    "event_uuid": "d56de758-0895-e811-9421-005056951bf1",
+    "subevent_uuid": "e9342639-f10c-4ac9-b52b-6bc0af0e5cdb",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Oman",
+    "date": "2025-02-08T00:00:00Z",
+    "race_base": "im703_oman"
+  },
+  "im703_oman_2024": {
+    "event_uuid": "d56de758-0895-e811-9421-005056951bf1",
+    "subevent_uuid": "a501dc86-866f-4b5e-8315-acc33c1ecb34",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Oman",
+    "date": "2024-02-17T00:00:00Z",
+    "race_base": "im703_oman"
+  },
+  "im703_oman_2023": {
+    "event_uuid": "d56de758-0895-e811-9421-005056951bf1",
+    "subevent_uuid": "c200edb9-c575-41ca-8ade-297433b8fe11",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Oman",
+    "date": "2023-02-04T00:00:00Z",
+    "race_base": "im703_oman"
+  },
+  "im703_oman_2022": {
+    "event_uuid": "d56de758-0895-e811-9421-005056951bf1",
+    "subevent_uuid": "c14c594a-a71d-4ab9-bddb-e273c429c824",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Oman",
+    "date": "2022-02-25T00:00:00Z",
+    "race_base": "im703_oman"
+  },
+  "im703_oman_2020": {
+    "event_uuid": "d56de758-0895-e811-9421-005056951bf1",
+    "subevent_uuid": "6f4c381e-8c66-e911-a97a-000d3a36478d",
+    "year": 2020,
+    "name": "2020 IRONMAN 70.3 Oman",
+    "date": "2020-02-21T00:00:00Z",
+    "race_base": "im703_oman"
+  },
+  "im703_oman_2019": {
+    "event_uuid": "d56de758-0895-e811-9421-005056951bf1",
+    "subevent_uuid": "1f35beb2-0895-e811-9421-005056951bf1",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Oman",
+    "date": "2019-03-01T00:00:00Z",
+    "race_base": "im703_oman"
+  },
+  "im703_port_macquarie_2025": {
+    "event_uuid": "7398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "4fe9765b-694c-416d-a604-6de989eac170",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Port Macquarie",
+    "date": "2025-05-04T00:00:00Z",
+    "race_base": "im703_port_macquarie"
+  },
+  "im703_port_macquarie_2024": {
+    "event_uuid": "7398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "68bc7b90-071d-4602-9d4c-12379cb2b9e3",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Port Macquarie",
+    "date": "2024-05-05T00:00:00Z",
+    "race_base": "im703_port_macquarie"
+  },
+  "im703_port_macquarie_2023": {
+    "event_uuid": "7398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "bfcc2cb7-3dbc-42a8-8d39-6b2ed4228442",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Port Macquarie",
+    "date": "2023-05-07T00:00:00Z",
+    "race_base": "im703_port_macquarie"
+  },
+  "im703_port_macquarie_2022": {
+    "event_uuid": "7398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "1f262d18-a4f2-4844-b68d-cc8ebf1a3158",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Port Macquarie",
+    "date": "2022-05-01T00:00:00Z",
+    "race_base": "im703_port_macquarie"
+  },
+  "im703_port_macquarie_2019": {
+    "event_uuid": "7398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "7a89f6f6-f752-e811-941e-005056951bf1",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Port Macquarie",
+    "date": "2019-05-05T00:00:00Z",
+    "race_base": "im703_port_macquarie"
+  },
+  "im703_port_macquarie_2018": {
+    "event_uuid": "7398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "3d2ea7ea-c534-e711-9416-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Port Macquarie",
+    "date": "2018-05-06T00:00:00Z",
+    "race_base": "im703_port_macquarie"
+  },
+  "im703_port_macquarie_2017": {
+    "event_uuid": "7398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "b0f0c5d8-7168-e611-940f-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Port Macquarie",
+    "date": "2017-05-07T00:00:00Z",
+    "race_base": "im703_port_macquarie"
+  },
+  "im703_port_macquarie_2015": {
+    "event_uuid": "7398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "b7a6bf48-8a5c-49bb-82a9-6066d7204814",
+    "year": 2015,
+    "name": "2015 IRONMAN 70.3 Port Macquarie",
+    "date": "2015-10-18T00:00:00Z",
+    "race_base": "im703_port_macquarie"
+  },
+  "im703_port_macquarie_2014": {
+    "event_uuid": "7398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "084952b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN 70.3 Port Macquarie",
+    "date": "2014-10-19T00:00:00Z",
+    "race_base": "im703_port_macquarie"
+  },
+  "im703_port_macquarie_2013": {
+    "event_uuid": "7398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "0e626994-3055-e211-b7a2-005056956277",
+    "year": 2013,
+    "name": "2013 IRONMAN 70.3 Port Macquarie: Triathlon",
+    "date": "2013-10-20T00:00:00Z",
+    "race_base": "im703_port_macquarie"
+  },
+  "im703_port_macquarie_2012": {
+    "event_uuid": "7398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "1d18d0b1-4eae-e111-80ae-005056956277",
+    "year": 2012,
+    "name": "2012 IRONMAN 70.3 Port Macquarie: Triathlon",
+    "date": "2012-10-27T00:00:00Z",
+    "race_base": "im703_port_macquarie"
+  },
+  "im703_port_macquarie_2011": {
+    "event_uuid": "7398aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "ff16d0b1-4eae-e111-80ae-005056956277",
+    "year": 2011,
+    "name": "2011 IRONMAN 70.3 Port Macquarie: Triathlon",
+    "date": "2011-11-06T00:00:00Z",
+    "race_base": "im703_port_macquarie"
+  },
+  "im703_kenting_2025": {
+    "event_uuid": "89d75720-a6a0-4985-a20d-5bcf468c99f6",
+    "subevent_uuid": "77208bc8-7837-4736-b2fe-b4f41f85a1fb",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Kenting",
+    "date": "2025-11-02T00:00:00Z",
+    "race_base": "im703_kenting"
+  },
+  "im703_kenting_2024": {
+    "event_uuid": "89d75720-a6a0-4985-a20d-5bcf468c99f6",
+    "subevent_uuid": "3eef74eb-c459-4eff-9c9d-827bea775793",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Kenting",
+    "date": "2024-10-06T00:00:00Z",
+    "race_base": "im703_kenting"
+  },
+  "im703_kenting_2023": {
+    "event_uuid": "89d75720-a6a0-4985-a20d-5bcf468c99f6",
+    "subevent_uuid": "4d9d8903-3b94-4e48-9bc0-8363186ea89d",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Kenting",
+    "date": "2023-10-29T00:00:00Z",
+    "race_base": "im703_kenting"
+  },
+  "im703_kenting_2022": {
+    "event_uuid": "89d75720-a6a0-4985-a20d-5bcf468c99f6",
+    "subevent_uuid": "640c30e8-d501-4d7c-8df8-15a6765adf74",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Kenting",
+    "date": "2022-10-02T00:00:00Z",
+    "race_base": "im703_kenting"
+  },
+  "im703_kenting_2021": {
+    "event_uuid": "89d75720-a6a0-4985-a20d-5bcf468c99f6",
+    "subevent_uuid": "dde60a7f-d41b-43ab-9730-1f4ba2330679",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Kenting",
+    "date": "2021-04-25T00:00:00Z",
+    "race_base": "im703_kenting"
+  },
+  "im703_goseong_2025": {
+    "event_uuid": "80711e6b-fdca-e811-a96a-000d3a35f53a",
+    "subevent_uuid": "bb62f578-4535-4293-a1fd-95a1bad7ba46",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Goseong",
+    "date": "2025-06-15T00:00:00Z",
+    "race_base": "im703_goseong"
+  },
+  "im703_goseong_2024": {
+    "event_uuid": "80711e6b-fdca-e811-a96a-000d3a35f53a",
+    "subevent_uuid": "34e8c66b-a3d1-45ea-ad3a-b2fa037034dd",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Goseong",
+    "date": "2024-06-16T00:00:00Z",
+    "race_base": "im703_goseong"
+  },
+  "im703_goseong_2023": {
+    "event_uuid": "80711e6b-fdca-e811-a96a-000d3a35f53a",
+    "subevent_uuid": "8b384579-d96d-4b49-bb63-6ddfcc0e8912",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Goseong",
+    "date": "2023-06-18T00:00:00Z",
+    "race_base": "im703_goseong"
+  },
+  "im703_goseong_2022": {
+    "event_uuid": "80711e6b-fdca-e811-a96a-000d3a35f53a",
+    "subevent_uuid": "a857b6f0-d139-410f-b3ff-82c2570be69b",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Goseong",
+    "date": "2022-06-19T00:00:00Z",
+    "race_base": "im703_goseong"
+  },
+  "im703_goseong_2019": {
+    "event_uuid": "80711e6b-fdca-e811-a96a-000d3a35f53a",
+    "subevent_uuid": "084d5371-feca-e811-a96a-000d3a35f53a",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Goseong",
+    "date": "2019-05-26T00:00:00Z",
+    "race_base": "im703_goseong"
+  },
+  "im703_phu_quoc_2025": {
+    "event_uuid": "854fec6c-e9e0-47a0-a9f9-855f9313cbc1",
+    "subevent_uuid": "3daa5b50-23eb-4460-9eb6-b6ffe8326cff",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Phu Quoc",
+    "date": "2025-11-16T00:00:00Z",
+    "race_base": "im703_phu_quoc"
+  },
+  "im703_phu_quoc_2024": {
+    "event_uuid": "854fec6c-e9e0-47a0-a9f9-855f9313cbc1",
+    "subevent_uuid": "7914e389-23ea-4492-8e4f-fcdbd16b3814",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Phu Quoc",
+    "date": "2024-11-17T00:00:00Z",
+    "race_base": "im703_phu_quoc"
+  },
+  "im703_phu_quoc_2023": {
+    "event_uuid": "854fec6c-e9e0-47a0-a9f9-855f9313cbc1",
+    "subevent_uuid": "08ea2a8f-8aec-4757-a24d-cc084f926ac5",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Phu Quoc",
+    "date": "2023-11-19T00:00:00Z",
+    "race_base": "im703_phu_quoc"
+  },
+  "im703_cozumel_2025": {
+    "event_uuid": "4f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "6d40132b-67da-4fd2-969f-326403c51ebb",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Cozumel",
+    "date": "2025-09-21T00:00:00Z",
+    "race_base": "im703_cozumel"
+  },
+  "im703_cozumel_2024": {
+    "event_uuid": "4f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "6de385b2-6587-42f3-a58b-404fe0f60ba6",
+    "year": 2024,
+    "name": "2024 IRONMAN 70.3 Cozumel",
+    "date": "2024-09-22T00:00:00Z",
+    "race_base": "im703_cozumel"
+  },
+  "im703_cozumel_2023": {
+    "event_uuid": "4f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "9d2221a6-928b-49b4-b3fc-c243f5a1c63d",
+    "year": 2023,
+    "name": "2023 IRONMAN 70.3 Cozumel",
+    "date": "2023-09-24T00:00:00Z",
+    "race_base": "im703_cozumel"
+  },
+  "im703_cozumel_2022": {
+    "event_uuid": "4f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "f0a465d0-1b05-4bce-8b5d-e885a9e17997",
+    "year": 2022,
+    "name": "2022 IRONMAN 70.3 Cozumel",
+    "date": "2022-09-25T00:00:00Z",
+    "race_base": "im703_cozumel"
+  },
+  "im703_cozumel_2021": {
+    "event_uuid": "4f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "93463968-5ae1-470a-81b4-e4a5f480306e",
+    "year": 2021,
+    "name": "2021 IRONMAN 70.3 Cozumel Day 1",
+    "date": "2021-09-25T00:00:00Z",
+    "race_base": "im703_cozumel"
+  },
+  "im703_cozumel_2020": {
+    "event_uuid": "4f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "0e050b13-6aef-e911-a986-000d3a3749bc",
+    "year": 2020,
+    "name": "2020 IRONMAN 70.3 Cozumel",
+    "date": "2020-09-27T00:00:00Z",
+    "race_base": "im703_cozumel"
+  },
+  "im703_cozumel_2019": {
+    "event_uuid": "4f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "6acabb00-4cc6-e811-a96a-000d3a35f53a",
+    "year": 2019,
+    "name": "2019 IRONMAN 70.3 Cozumel",
+    "date": "2019-09-29T00:00:00Z",
+    "race_base": "im703_cozumel"
+  },
+  "im703_cozumel_2018": {
+    "event_uuid": "4f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "338960da-71a7-e711-9419-005056951bf1",
+    "year": 2018,
+    "name": "2018 IRONMAN 70.3 Cozumel",
+    "date": "2018-09-30T00:00:00Z",
+    "race_base": "im703_cozumel"
+  },
+  "im703_cozumel_2017": {
+    "event_uuid": "4f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "e427fe41-f3a5-e611-9410-005056951bf1",
+    "year": 2017,
+    "name": "2017 IRONMAN 70.3 Cozumel",
+    "date": "2017-09-24T00:00:00Z",
+    "race_base": "im703_cozumel"
+  },
+  "im703_cozumel_2015": {
+    "event_uuid": "4f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "3105a2e0-0eb2-e411-9400-005056951bf1",
+    "year": 2015,
+    "name": "2015 IRONMAN 70.3 Cozumel",
+    "date": "2015-09-20T00:00:00Z",
+    "race_base": "im703_cozumel"
+  },
+  "im703_cozumel_2014": {
+    "event_uuid": "4f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "f34852b5-7a15-e311-9ec7-005056956277",
+    "year": 2014,
+    "name": "2014 IRONMAN 70.3 Cozumel",
+    "date": "2014-09-21T00:00:00Z",
+    "race_base": "im703_cozumel"
+  },
+  "im703_cozumel_2013": {
+    "event_uuid": "4f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "16626994-3055-e211-b7a2-005056956277",
+    "year": 2013,
+    "name": "2013 IRONMAN 70.3 Cozumel: Triathlon",
+    "date": "2013-09-22T00:00:00Z",
+    "race_base": "im703_cozumel"
+  },
+  "im703_cozumel_2011": {
+    "event_uuid": "4f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "4517d0b1-4eae-e111-80ae-005056956277",
+    "year": 2011,
+    "name": "2011 IRONMAN 70.3 Cancun: Triathlon",
+    "date": "2011-09-18T00:00:00Z",
+    "race_base": "im703_cozumel"
+  },
+  "im703_cozumel_2010": {
+    "event_uuid": "4f98aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "2d16d0b1-4eae-e111-80ae-005056956277",
+    "year": 2010,
+    "name": "2010 IRONMAN 70.3 Cancun: Triathlon",
+    "date": "2010-09-19T00:00:00Z",
+    "race_base": "im703_cozumel"
+  }
+}
