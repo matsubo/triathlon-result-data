@@ -380,7 +380,7 @@ d24ef8d9-29bc-ee11-a569-000d3a314be4	378	Aleksandr Kormilets	M	M40-44	86	5:03:41
 251a070b-08bf-48d6-b56d-bf84817fd7d7	379	Tatyana Filippovich	F	F35-39	6	5:03:43	0:38:33	0:04:36	2:33:29	0:03:28	1:43:37	RU	
 59dd42c8-d919-ef11-9f89-6045bd00e0b7	380	Jacob Luscombe	M	M25-29	20	5:03:44	0:37:39	0:04:04	2:40:12	0:03:35	1:38:15	GB	
 e744b288-07ca-4a17-8df9-56c350521337	381	Duncan Abdilla	M	M35-39	81	5:03:44	0:34:41	0:06:21	2:35:19	0:03:41	1:43:41	MT	
-3ebbf41a-8bc5-408b-9d92-999996ba2f0e	382	Hakan Dogu	M	M40-44	87	5:03:56	0:45:16	0:04:23	2:28:12	0:04:05	1:42:00	TR	
+3ebbf41a-8bc5-408b-9d92-6ba2f0e	382	Hakan Dogu	M	M40-44	87	5:03:56	0:45:16	0:04:23	2:28:12	0:04:05	1:42:00	TR	
 33b86da4-17e5-45f6-8bdf-2e1ccad947f7	383	Kasper Møller	M	M40-44	88	5:03:56	0:36:08	0:06:38	2:31:01	0:03:00	1:47:10	DK	
 16dfdf6c-455c-ed11-9562-000d3a314329	384	Karen Schanyan	M	M45-49	63	5:04:07	0:36:04	0:04:37	2:28:10	0:03:46	1:51:30	RU	
 680313a2-e709-ed11-82e4-000d3a3b2e28	385	Jonathan Caruana	M	M35-39	82	5:04:09	0:36:18	0:05:03	2:31:50	0:02:59	1:47:59	MT	
@@ -1270,294 +1270,294 @@ d758738d-4287-4c35-b8f0-3b6e42636529	1267	Berat Lutfi Mehmet Koc	M	M18-24	33	8:1
 6ad24c9a-b962-4089-85ef-07295ce8d7c3	1269	Adrian Collins	M	M55-59	46	8:24:19	0:53:47	0:15:15	3:42:16	0:13:52	3:19:09		
 0ea9e7d0-83b5-4c69-9215-131c5ad2ead2	1270	Philipp Nett	M	M55-59	47	8:42:48	1:01:31	0:09:32	3:40:14	0:11:30	3:40:02	CH	
 fc133384-39bc-407d-9cb5-37f91b2f3fc3	1271	Pascal Streit	M	M60-64	38	8:50:07	0:51:01	0:11:28	4:10:28	0:11:21	3:25:50	US	
-0259dcdc-26ab-42c6-9144-14904e81036d	99999	Charlie Collins	M	M65-69	99999							GB	DNS
-323bc27d-47ef-45c7-ab97-dafc0da3d274	99999	Robert Sparks	M	M50-54	99999							GB	DNS
-0d141ec1-1422-449b-8bb2-80c2d0c7ef5f	99999	Pavel Artyushenko	M	M45-49	99999							KZ	DNS
-f5c75189-47e2-4b76-a609-39080c0c213e	99999	Simonn Shawyer	M	M50-54	99999		0:43:50	0:12:31	3:07:28			QA	DNF
-1b3a2523-529a-4229-926b-5712fae5c0c6	99999	Ines Hernandez Hernandez	F	F60-64	99999		0:41:05	0:07:44				ES	DNF
-ee6c57a7-5867-ee11-9ae6-0022480acaa6	99999	Aslihan Ikizoglu	F	F30-34	99999		0:39:51	0:06:43	2:35:22	0:04:38		TR	DNF
-befa0078-37e1-433b-bff5-3bc82f10b511	99999	Alexander Vasilchenko	M	M35-39	99999							RU	DNS
-909e4f13-d8e1-4d94-8449-31434c0960e9	99999	Ertugrul Özdinç	M	M30-34	99999		0:39:13	0:04:40	2:14:16	0:03:37		TR	DNF
-ee84c608-f941-49ff-abd8-66ba2beb2ecb	99999	Valentin Golubev	M	M35-39	99999							RU	DNS
-50d857b2-93f0-4b12-8545-c101aeccd7bf	99999	Matthew Elke	M	M45-49	99999							US	DNS
-6db9dc95-6f29-411a-9646-16a071d964d5	99999	Courtney Wirtz	F	F30-34	99999	8:52:05	0:56:11	0:13:14	4:23:37	0:06:25	3:12:38	US	
-7d267e2f-044b-4d10-94f2-3f157fa7c47b	99999	Ali Bulut	M	M30-34	99999		0:36:17	0:04:44	2:25:15	0:03:23		TR	DNF
-e7740fd7-e9db-4ab6-b23c-0412e9797436	99999	Alexandr Zhukov	M	M35-39	99999							KZ	DNS
-785e8cb9-9991-4f36-bf4e-d0c47c757e1d	99999	Pavel Glushenkov	M	M40-44	99999							RU	DNS
-54c4a224-b055-4a60-b6e3-476aaad6d4d6	99999	Ghita Benchekroun	F	F25-29	99999							MA	DNS
-76e58676-c0d7-464e-9a4d-fc738ce3c076	99999	Michael Menager	M	M40-44	99999							CI	DNS
-1b7dc4c2-a2e3-4de4-9860-3182bae19834	99999	Marat Malataev	M	M55-59	99999							KZ	DNS
-3f356880-f8d8-4e3b-a4d6-b94b5f6f46ef	99999	Batuhan Can Güler	M	M25-29	99999							TR	DNS
-9680cfb8-0fc2-429f-ae05-416471bb83e1	99999	Natalia Roj	F	F40-44	99999							QA	DNS
-72fb2892-47ea-40d7-8e75-76cf7fd04ed8	99999	Dmitrii Sannikov	M	M45-49	99999							RU	DNS
-77f806ed-15e5-4f41-92a5-6e9706d6e3dd	99999	Rolf Seiler	M	M60-64	99999							CH	DNS
-0088c72a-01f2-44a1-bb53-e76007732133	99999	Vladimir Kobyliakov	M	M40-44	99999							RU	DNS
-42b08081-1948-4245-b85d-e84457dd22b2	99999	Ezekiel Psaila	M	M30-34	99999								DNS
-fd6fd17a-adda-ec11-a7b6-000d3a3b5ce5	99999	Rob Gevaux	M	M50-54	99999								DNS
-48f89e64-6ac0-499c-9954-71ca3bafaebe	99999	Sergey Roganov	M	M30-34	99999								DNS
-5c6d7919-0d89-412a-8254-ee86c1819c22	99999	Greg Myers	M	M40-44	99999							US	DNS
-b35d704b-72a4-4134-b7cb-01d0631520eb	99999	Thomas Schijf	M	M35-39	99999							NL	DNS
-f82a7f2b-99d9-4466-b895-e8a59da4f6da	99999	Dmitrii Iakovlev	M	M45-49	99999							KG	DNS
-e567aba5-9a22-ef11-840b-6045bd08f8ed	99999	Mehmet Yildirim	M	M35-39	99999		0:36:44	0:08:29	2:24:14	0:08:06		TR	DNF
-7583429f-c5d9-4969-a85a-10c40c596962	99999	Bakhit Alqars	M	M30-34	99999							AE	DNS
-986d37ae-af2b-4291-ba4c-7e01b555ac8d	99999	Alexey Nechaev	M	M35-39	99999							RU	DNS
-af066a9d-a80b-41e0-9f83-651608998be8	99999	Iskender Kanbay	M	M45-49	99999		1:11:39					TR	DNF
-f7fdf1d0-80e5-4ea1-98fc-281b35f40201	99999	Miles Mcwilliams	M	M45-49	99999							GB	DNS
-d4821a32-a116-ea11-a811-000d3a5a1bfb	99999	Aleksey Korenev	M	M45-49	99999							RUS	DNS
-55d5c41e-6653-491a-b716-f4ba2694d499	99999	Viktorija Kanepe	F	F35-39	99999							est	DNS
-2dd35bc3-7e36-4751-b65b-1f3fd682f1ca	99999	Valerii Tingaev	M	M55-59	99999	5:21:35	0:37:18	0:05:42	2:44:38	0:03:09	1:50:47	RU	
-653330fa-cbea-450c-825e-0af72c470335	99999	Alkim Arin	M	M40-44	99999							TR	DNS
-a7433e45-09af-4654-bedf-4483fc463a15	99999	Stephen Lopez	M	M40-44	99999							Netherlands	DNS
-3c4ef648-f659-49a7-a552-84a23aed2462	99999	Mert Agan	M	M45-49	99999		0:29:37	0:03:08	2:10:52	0:02:44		TR	DNF
-03605891-81ed-4877-82c5-3681cdfee3c2	99999	Will Cooper	M	M18-24	99999							GB	DNS
-70e3807b-05be-4a97-90eb-c2a502c02858	99999	Lisa Roldugina	F	F35-39	99999							AE	DNS
-496f7bfa-f741-ea11-a812-000d3a5a1f86	99999	Aleksei Maksimkin	M	M35-39	99999							RU	DQ
-ac6a326e-b893-4be1-aa28-39fa4739c687	99999	Bobby Cox	M	M60-64	99999							GB	DNS
-426c5c91-9613-48df-b9c1-2371f09458fe	99999	Li Hongping	F	F35-39	99999							CN	DNF
-8cab08fd-ab4d-499c-9d71-e605459869c2	99999	Dennis Grosse	M	M45-49	99999							DE	DNS
-8630690a-8378-485f-82c8-6474fdfa55da	99999	Burak Yildiz	M	M40-44	99999							TR	DNS
-462523c9-8df6-453e-a9aa-1ef9e3dc5669	99999	Ülkü Yilmaz	F	F35-39	99999							TR	DNS
-2c14ec91-e4ce-ee11-9079-000d3a31406e	99999	Nursultan Khamzin	M	M30-34	99999							KZ	DNS
-80d8517f-d502-4ef9-a7c0-941cf62ef057	99999	Arif Akdemir	M	M35-39	99999							TR	DNS
-7f96514b-f97b-4d79-9413-29c13c011b9a	99999	Miguel Alcober	M	M50-54	99999							CH	DNS
-980841ee-de85-4926-9031-4a7d881995f8	99999	Katie Davies	F	F40-44	99999							GB	DNS
-69c3ea47-c83e-430a-a43f-e239a419a1f8	99999	Tobias König	M	M40-44	99999							DE	DNS
-a267379a-71dc-4b92-bd08-9f78dcf2aad3	99999	Konstantin Novikov	M	M40-44	99999							RU	DNS
-c7bbf206-1b43-42ea-a260-bb1637640b51	99999	Alexey Yakushenko	M	M35-39	99999							DE	DNS
-59746784-706b-4f0d-b961-c08151cf2811	99999	Pavel Rastrygin	M	M35-39	99999							RU	DNS
-93dde75e-b85c-4e74-9b85-a2055ae6e30e	99999	Etienne Vassallo	M	M50-54	99999							MT	DNS
-6b695766-5bbc-46fc-8395-66a479e1858a	99999	Sergey Stopnevich	M	M45-49	99999							CY	DNS
-782e73c9-0073-ec11-8943-000d3a34a686	99999	Gokhan Ceylan	M	M40-44	99999		0:40:25	0:06:03	2:27:47			TR	DNF
-6e78ab1a-2b65-4b8b-b58f-87c9b24d2d70	99999	Azamat Kozhekov	M	M55-59	99999							KZ	DNS
-64556f5c-04e6-45c5-af8f-da2bf9342678	99999	Azat Chynarbek Uulu	M	M30-34	99999							KG	DNS
-6e4b1c7d-4ca6-4fd4-8d2f-4a748da266fd	99999	Joanne Pegg	F	F35-39	99999								DNF
-bcea014e-febb-4a88-92fc-41182a85dadf	99999	Artem Titaevskiy	M	M35-39	99999							RU	DNS
-b77a7cc6-0660-ef11-bfe3-00224808301f	99999	Aibek Akylbayev	M	M35-39	99999							KZ	DQ
-225cc084-23ef-ed11-8849-000d3a314be4	99999	Vladimir Kozhevnikov	M	M40-44	99999							KZ	DNS
-0141dd0a-23d3-49d5-846a-2c928e3a8791	99999	Özgür Aksaman	M	M45-49	99999							TR	DQ
-21d7f68b-0c70-44c6-9b13-326d5762266e	99999	Ivan Parusimov	M	M40-44	99999							RU	DNS
-1aef5075-b360-ef11-bfe3-000d3a367177	99999	Chesler Alexandru Dan	M	M45-49	99999							RO	DNS
-912ecaf9-d5a0-4df2-a988-09a271071cce	99999	Nikolay Polovinkin	M	M65-69	99999							RU	DNS
-af0b8bec-e752-411a-9690-05b7ad9e6f8d	99999	Daniel Kruger	M	M40-44	99999							GB	DNS
-a9740c1e-b2af-ed11-83fe-000d3a31440b	99999	Rashed Al Sulaiti	M	M35-39	99999							QA	DNS
-41fe2d15-8f37-406e-b403-d76aaa745029	99999	Hudai Altinkaymak	M	M40-44	99999							TR	DQ
-7d667b9a-1124-4b55-a44b-d22647cbea31	99999	Benjamin Penny	M	M25-29	99999							GB	DNS
-848c1c5f-6385-4fb4-82a8-f49e69bfe453	99999	Richard Powell	M	M50-54	99999							GB	DNS
-f3d2b074-a9db-4262-af69-0c6400a43083	99999	Piotr Kuchynski	M	M35-39	99999							BY	DNS
-f16fd2f7-041f-4d26-a223-3b7b4665bb6b	99999	Sergei Kozlov	M	M35-39	99999							RU	DNS
-9945c658-6e99-45cc-93d9-9f2512e56f98	99999	Serkan Aksel	M	M40-44	99999							TR	DNS
-556d817a-9202-4074-98f1-9c2ad1a439fd	99999	Ivan Williams	M	M50-54	99999							AE	DNS
-fe65f074-4542-4ce5-a49f-8b01146723eb	99999	Dmitriy Litvyakov	M	M30-34	99999							RU	DNS
-33042b5b-ad9d-45b7-bfc2-69f5f817cf6b	99999	Emrah Yildirim	M	M35-39	99999	5:37:26	0:40:26	0:08:06	2:53:34	0:05:03	1:50:16	TR	DNF
-176fa994-ad1f-4de6-ae6a-b72fc209ceba	99999	Onur Eken	M	M30-34	99999							TR	DNS
-bf5fe763-07dd-4f40-9855-1465863e8ca3	99999	Christiaan Botha	M	M40-44	99999							ES	DNS
-9b8da4d0-00f3-4e36-89b6-b8ed12bc33f8	99999	Jessica Verstegen	F	F40-44	99999							Netherlands	DNS
-95f2389b-e1ab-4a52-b233-62c7fadd602d	99999	Samantha Turner	F	F35-39	99999							GB	DNS
-147f1ae9-9ea7-47ea-92f4-5c301b82c36b	99999	Jean-François Prévost	M	M45-49	99999							CA	DNS
-37a4ab0a-1eb9-ee11-a569-000d3a314329	99999	Sonia Howse	F	F55-59	99999	8:52:22	0:47:33	0:15:46	4:11:00	0:10:17	3:27:46	GB	
-5e04e812-f2fd-4203-b757-a8b34fc09390	99999	Nagesh Kamat	M	M55-59	99999		1:12:27					IN	DNF
-0b97405b-405a-41e7-abe7-fac3b0039ac1	99999	Pavel Shubentsev	M	M40-44	99999							RU	DNS
-7435bf0f-f302-ef11-a1fd-00224809fd7c	99999	Bander Shamlan	M	M40-44	99999							SA	DNS
-750bebb3-053a-ee11-bdf4-000d3a31458d	99999	Elouise Millard	F	F30-34	99999							GB	DNS
-0f7bdc9c-480b-4b10-aaec-63cf376320aa	99999	Maxim Kim	M	M40-44	99999							KZ	DNS
-a4e06414-9bd7-ee11-9079-000d3a5ca14e	99999	Kamil Gültepe	M	M35-39	99999							TR	DNS
-9b72aa0b-c258-ef11-a317-6045bd017e21	99999	Iana Al-Gandur	F	F35-39	99999							RU	DNS
-2536d9e9-a807-4db6-b3f6-4c0131821df7	99999	Assankadyr Baurzhan	M	M18-24	99999							KZ	DNS
-1afd57ec-7534-4a38-9430-a237476f5056	99999	Anke Jordan	F	F55-59	99999		0:55:38	0:14:45	4:11:00	0:09:56		DE	DNF
-69d1bd0f-6933-490d-9ce2-08523e6f28ec	99999	Dave Badham	M	M55-59	99999							GB	DNF
-4a5a21a2-a4c9-4880-a05d-9fe45db09eae	99999	Raikan Alanzi	M	M40-44	99999							KW	DNS
-2092a027-f015-432c-8bd2-4bc02860fe2a	99999	Anthony Attard	M	M40-44	99999							MT	DNS
-0fbfa0d4-1f19-4e2c-943e-1ede5a6fa5a8	99999	Dariya Pyrchinskaya	F	F35-39	99999							RU	DNS
-6c9e6eb4-9b79-ef11-a670-000d3a30152c	99999	Rinat Garipov	M	M40-44	99999							RU	DNS
-c3c99938-6d81-49b4-895b-34f2bb0e0bb3	99999	Mario Zimaridis	M	M25-29	99999							TR	DNS
-8dc46524-9b4d-4020-b28a-7cd4fc06228b	99999	Daniel Marsh	M	M30-34	99999							GB	DNS
-62172022-1853-4919-b999-b046f3f7ba74	99999	Vladislav Rogozinskiy	M	M25-29	99999							RU	DNS
-9cf5ef6b-9434-4484-bb43-86d8fa11a529	99999	Branko Mlinar	M	M75-79	99999							SI	DNS
-dfac024c-e775-4140-a5ad-12f0d31edcd6	99999	Paul Le Houillier	M	M60-64	99999							US	DNS
-14232bdb-d88f-4b73-a742-89b2f4ff47c5	99999	Semen Tereshchenko	M	M30-34	99999							UA	DNS
-93f23f7a-4096-4572-b378-b0878e74789c	99999	Tomasz Otto	M	M30-34	99999							PL	DQ
-0a668119-fa3d-412c-a326-2db5577cd12f	99999	Gustav Falch	M	M18-24	99999							DK	DNS
-9c9e77ad-ed23-ef11-840b-6045bd08f8ed	99999	Radoslaw Ejnik	M	M45-49	99999							TR	DNS
-1e0db0d6-2824-ec11-b6e5-000d3a5bb7fc	99999	Saurabh Singh	M	M25-29	99999							IN	DNS
-fee800d7-3f77-ee11-8179-000d3a314c24	99999	Rasim Gubaydullin	M	M25-29	99999							BG	DNS
-8d0a76ec-1696-46b7-9e29-9038f32fa119	99999	Karen Huang	F	F40-44	99999							US	DNS
-56088ed5-a408-ef11-9f89-000d3a59e106	99999	Dmitrii Khamitov	M	M30-34	99999							RU	DNS
-fcc9140e-424b-44ac-a048-ca5d43ea2654	99999	Mehmet Hilmi Soylu	M	M45-49	99999		0:33:58	0:04:26				TR	DNF
-9ee6a2b3-0262-402b-9051-8be3f1ffb4f8	99999	Kemmel Atkinson	M	M65-69	99999		0:35:30	0:07:21	2:47:55			GB	DNF
-4181d2d4-74fa-4c39-9a6d-a54d996b689e	99999	José Trasobares Pradas	M	M30-34	99999							GB	DNS
-f883dd57-9d99-ec11-b400-000d3a34b715	99999	Ali Kuscuoglu	M	M30-34	99999							TR	DNS
-e80ff8ee-beb0-4b69-adb5-bafc24093061	99999	Gennady Lebedenko	M	M45-49	99999							RU	DNS
-cf8bcd1b-a93a-ef11-8409-000d3a348633	99999	Andrey Seifulin	M	M45-49	99999		0:40:12	0:04:15	2:25:02	0:08:43		RU	DNF
-5df14b64-bd9d-ee11-be37-000d3a31440b	99999	Oguz Can Okuyucu	M	M35-39	99999							TR	DNS
-4b63b37e-5041-4809-bd5c-7a8185b9ef89	99999	Lolita Kladovikova	F	F18-24	99999							RU	DQ
-f4945916-4cf7-4e0e-9fc7-1b1c94627c02	99999	Fahd Mukhtar	M	M35-39	99999							UKR	DNS
-1d7fbed3-c166-ee11-9ae6-0022480acaa6	99999	Alexander Gashnikov	M	M60-64	99999		0:41:48	0:04:09				RU	DNF
-9d853a4b-9d7d-4be7-8583-d27e0f5861aa	99999	Harry Middleton	M	M18-24	99999								DNS
-8eba95db-b51d-ef11-840b-6045bd08f8ed	99999	Ersin Yilmaz	M	M40-44	99999							TR	DNS
-85d927a5-6e8d-ee11-8179-000d3a314ae2	99999	Phil Shackleton	M	M35-39	99999							GB	DNS
-141c3d66-c237-ef11-8409-000d3a367177	99999	Cem Ozgur	M	M30-34	99999								DNS
-a131b716-a4de-48c5-a611-81c011c2ff6d	99999	Anuar Omarov	M	M50-54	99999		1:10:09					KZ	DNF
-9e770bed-8a39-43d6-8e8f-0805bde3be0a	99999	Baris Ilçel	M	M45-49	99999							TR	DNS
-a0bafa2d-4640-4876-9356-0d3071bef1c0	99999	Can Ozbek	M	M40-44	99999							TR	DNS
-9e4fe208-f0b2-4211-a34b-111ea357c074	99999	Stuart Little	M	M35-39	99999							GB	DNS
-d3a4de59-2e9d-408d-8dd6-336715a3dcfa	99999	Myriam Alj	F	F40-44	99999		1:28:25					MA	DNF
-95e8d15b-8f63-ef11-bfe3-000d3a371e3b	99999	Aleksandr Leushkanov	M	M45-49	99999	8:38:01	0:37:39	0:06:17	5:24:02	0:03:35	2:26:29	RU	
-339c6120-a62a-4422-b41b-3f8fa96beb22	99999	Elena Besschetnova	F	F30-34	99999		0:37:22	0:05:08	2:36:07			RU	DNF
-d84e4f46-0f9a-4d92-9c40-512d24a9012a	99999	Mustafa Yerlikaya	M	M35-39	99999							TR	DQ
-c460acb9-821b-4b97-a9b3-c04176f1fb4d	99999	Elliot Steele	M	M40-44	99999							GB	DNS
-89b3299c-eeae-4e46-92e9-cf8c75bc2c60	99999	Ievgen Smirnov	M	M40-44	99999							UA	DNS
-d4c584b2-f9f0-4fc6-ae96-ff7bad3bfcdf	99999	Pavel Larionov	M	M50-54	99999							BG	DNS
-26ddd33d-c7ae-ee11-a569-000d3a3144b3	99999	Viktor Borisov	M	M40-44	99999							RU	DNS
-c4a0eb07-ade3-ed11-a7c7-000d3a31406e	99999	Lutie Akinci	F	F30-34	99999							AU	DNS
-31258551-5fbd-445c-802d-c8252d829c57	99999	Douglas Fogoz	M	M50-54	99999							CH	DNS
-10cac4ee-5225-4f8a-9326-4dbc8d339470	99999	Вячеслав Сокиркин	M	M35-39	99999							KZ	DNS
-43518acb-74c3-4325-92d5-75a9dcaed10e	99999	Chris Riddell	M	M25-29	99999							nzl	DNS
-f3333c61-08aa-458d-8db0-9d18f973b7d1	99999	Gareth Penny	M	M60-64	99999							GB	DNS
-9468a9a5-0305-4afc-bf71-460e95c56bbe	99999	Abdulla Alsada	M	M25-29	99999							Qatar	DNS
-c0e0efa0-12ef-4801-bb68-8efb60227069	99999	Omran Sadeq	M	M35-39	99999		1:23:17					AE	DNF
-75399add-5473-4f67-90d0-5aa060c7dae1	99999	Adonis Succar	M	M25-29	99999							FR	DNS
-418c89a0-8735-4870-96ec-6f292fa582ae	99999	Michael Huth	M	M50-54	99999							KE	DNS
-d60420a1-371a-4ade-b07e-fccaf8753776	99999	Vitaliy Kim	M	M75-79	99999		0:56:48	0:20:30				RU	DNF
-b2d4be52-d33e-ef11-8409-6045bd079a13	99999	Alexander Biryukov	M	M45-49	99999							RU	DNS
-ae73b2f4-2b05-ef11-9f8a-000d3a314c24	99999	Ahmet Karaman	M	M45-49	99999							TR	DNS
-849ee724-d6f8-4ab8-adeb-bd63575ede55	99999	Katrin Palsdottir	F	F40-44	99999							IS	DNS
-0d3c2c2b-4816-4b93-9cba-83d8c8cdc0db	99999	Svyatoslav Barshchovskyy	M	M25-29	99999							UA	DQ
-3d59a33c-adea-ee11-a203-6045bd064839	99999	Ekaterina Karpenko	F	F35-39	99999							RU	DNS
-094378ce-aec4-46cd-b4c6-80c372a2b85e	99999	Priyanka Fernandes	F	F30-34	99999		1:08:06	0:09:13	4:20:50	0:04:33		IN	DNF
-d58bd02a-5cb7-46ba-a2d7-fbd3c4f6f391	99999	Kassymzhan Abdulin	M	M40-44	99999							KZ	DNS
-dafad65b-4cd6-49e7-b480-d7da062c9635	99999	Mohamad Kobrosly	M	M30-34	99999							GB	DNS
-1819b113-e6ce-49f1-b488-830322f32638	99999	Samil Dagistanli	M	M35-39	99999							TR	DNS
-47d1e8ea-6e6b-4e3c-9248-f4e0e074e69d	99999	Valerii Gratii	M	M35-39	99999							RU	DNS
-95b316ba-0d86-4953-b263-b3c61060387e	99999	Mehmet Komaz	M	M45-49	99999							TR	DNS
-cb9c6d53-b312-404f-b9d1-b71a7e601a7f	99999	Bektur Subanbekov	M	M35-39	99999							KG	DNS
-46ea798f-9200-4a30-b00e-666963549f99	99999	Cansu Sakizligil	F	F30-34	99999		0:44:42	0:04:54	2:42:32	0:03:46		TR	DNF
-4c571b23-5cab-49db-a328-1016958217c9	99999	Aleksandra Shkurdova	F	F30-34	99999							RU	DQ
-8afd618f-f6aa-4f11-8f7a-d37e8afac6cf	99999	Eren Ünlü	M	M40-44	99999							TR	DNS
-0536abd7-1b9d-4334-85b5-ce8bde6fe546	99999	Oliver Møller	M	M18-24	99999							Denmark	DNS
-b8d07d2c-d0ce-4e0b-bcb8-65565e2269b1	99999	Ghazi Alhusaini	M	M35-39	99999							BH	DNS
-7ac87935-fa18-4141-b477-66d69301158c	99999	Baizhan Kanafin	M	M40-44	99999							KZ	DNS
-a0dc73e6-8178-ea11-a811-000d3a5a1cf8	99999	Mohamed Eraky	M	M40-44	99999							QA	DNS
-6a77f8cd-883a-4cb0-a9fb-13ca93c239cd	99999	Dieter Mallmann	M	M60-64	99999							DE	DQ
-abfa37d7-6fab-426e-8b8e-53bae7339f2c	99999	Sergii Zakrevskyi	M	M60-64	99999							UA	DNS
-fc1d1bb4-78a0-456a-9cdc-01e6ce05467a	99999	Oleh Antokhiv	M	M35-39	99999		0:35:45	0:04:57	2:42:38			Ukraine	DNF
-8e787bef-eb39-44bd-991d-e7ae9beab43d	99999	Hamad Alnoubi	M	M30-34	99999		0:55:53	0:05:44	2:51:45	0:04:30		Qatar	DNF
-d3588b9e-3899-4353-8ab5-da2877699d7f	99999	Giuseppe Bodrero	M	M55-59	99999							IT	DNS
-09f90009-3afe-490a-bf5b-a1b775fb27ae	99999	Vadim Egorov	M	M50-54	99999							RU	DNS
-3f885f7e-e572-4a03-a78a-936844ce9152	99999	Simohamed Lofti	M	M40-44	99999							MA	DNS
-3bef9e4f-e8cb-ee11-9079-000d3a314d17	99999	Komarov Klim	M	M25-29	99999							RU	DNS
-a17af4a2-d2d9-ec11-a7b6-000d3a3735ea	99999	Shaun Good	M	M60-64	99999		0:42:53	0:09:38	3:07:20	0:05:26		GB	DNF
-f6f37e0b-8049-475b-9fe4-3a039b3b7496	99999	Manon Lequet	F	F18-24	99999							FR	DNS
-4faca255-85b4-487a-abbc-c73ac5f06bcb	99999	Abdul Alothman	M	M25-29	99999							GB	DNS
-bca7785c-5bf0-ee11-904b-6045bd064839	99999	Jan Machtans	M	M45-49	99999							DE	DNS
-e0f661ab-274a-4268-82c3-7ace11a6a5a8	99999	Tina Lainer	F	F35-39	99999		0:36:33					AT	DNF
-184327be-1d59-4749-bc5f-121a41073aa8	99999	Zamirbek Torogeldiev	M	M40-44	99999							DEU	DNS
-9ed80ccd-6d29-4065-825a-5323e51f167c	99999	Aykut Yeni	M	M40-44	99999							TR	DNS
-9646ed73-f47a-46fd-8d66-1121bdf1261c	99999	Yulia Kremer	F	F45-49	99999							RU	DNS
-85ffbb77-786b-eb11-a812-0022480416f4	99999	Rose Ann Castillo	F	F35-39	99999							AE	DNS
-4dba11e3-8aca-4290-8ece-927b47463e65	99999	Alexey Ushakov	M	M30-34	99999							KZ	DNS
-8121c924-e979-402b-aa7b-f3dc76d32b46	99999	Ruslan Assatullin	M	M35-39	99999							KZ	DNS
-459902e4-8e2c-ef11-840a-000d3a348633	99999	Sergei Zalesnyi	M	M50-54	99999							RU	DNS
-2b40b807-8e8a-42f0-97fc-10e1da57213e	99999	Vivienne Sparks	F	F50-54	99999							GB	DNS
-56209393-2dd1-4e8c-ad4d-f91e9baeae98	99999	Eleonora Semenovskii	F	F50-54	99999							TR	DNS
-27fef6cd-81fc-4f7f-aee7-4bbfc295b8b0	99999	Mateo De La Vega Perrin	M	M25-29	99999							nld	DNS
-1e165326-c7c2-485b-885b-5d7c26e21d11	99999	Mels Erkinbek	M	M40-44	99999							KG	DNS
-702f9fac-8881-4348-94b0-f0d928cd587e	99999	Jochen Karsch	M	M45-49	99999							DE	DNS
-94df76ee-2923-ef11-840a-6045bd079a13	99999	Kanat Kenzhin	M	M45-49	99999		0:33:18	0:04:29				KZ	DNF
-c972b29a-2957-491f-b559-853dea7bf63f	99999	Sergey Konkov	M	M40-44	99999							PT	DNS
-78370fdf-1e3b-4eab-ba6b-f3d1cd3d9735	99999	Askar Yerkassov	M	M45-49	99999							KZ	DQ
-5e00823e-0338-4088-88dd-4a4b01c36765	99999	Mikhail Feoktistov	M	M65-69	99999		0:36:46	0:07:58				RU	DNF
-6cd29c69-c8b1-4aa1-906c-ba2e4d170417	99999	Md Omar Faruk	M	M30-34	99999							SG	DNS
-d0270df3-4331-4f17-9f0f-abe1953b02fc	99999	Serkan Yürür	M	M45-49	99999							CYP	DNS
-244fc0ac-54a8-4de0-94c0-dd1459d11c48	99999	Marwa El Masri	F	F30-34	99999							AE	DNS
-d389ce68-fd6b-4834-8c5d-202e50c45145	99999	Gordon Ciantar	M	M45-49	99999							MT	DQ
-ff77d635-0620-ee11-9cbe-000d3a3144b3	99999	Egor Antipov	M	M30-34	99999							PL	DNS
-25acf6c6-df01-44e0-970d-b602e802c6f7	99999	Avedis Kalpaklian	M	M50-54	99999							LB	DNS
-aa1de4f5-cd2e-4205-b9ad-71fa5b05485b	99999	Ash Hall	M	M35-39	99999							GB	DNS
-e06ef1f4-7962-466d-be1e-f1fed70385d5	99999	Tolga Gonenli	M	M40-44	99999							TR	DNS
-89335aaf-421d-4f14-aa0c-fe5af81ff0da	99999	Andrew Griffiths	M	M40-44	99999								DNS
-c809a5bf-e11d-43a1-b8c2-87915e6fbbcc	99999	Sergey Bobryshev	M	M65-69	99999		0:40:25	0:06:22				RU	DNF
-dec48afa-31cf-4fc1-a485-c33c65066f47	99999	Danila Nikolaev	M	M40-44	99999							RU	DNS
-203766b3-0a36-493a-a08c-67ac8f6a28e8	99999	Simon Turner	M	M35-39	99999		0:54:03	0:05:53	3:26:50			GB	DNF
-a6f0b8d8-5313-ea11-a811-000d3a5a1477	99999	Meriç Aser	M	M35-39	99999		0:37:35	0:04:05	2:18:23	0:03:36		Turkey	DNF
-5d9668af-afb6-4f54-8a5b-2fbf51bd7acd	99999	Wajdi Homrani	M	M35-39	99999							TN	DNS
-a65d4106-fdca-4dec-b1ae-cd4c6107e5e8	99999	Ibrahim Buyukkomurcu	M	M55-59	99999							TR	DNS
-8ffaedb6-e4a2-40c1-a096-668a69799f6b	99999	Karl Wallis	M	M35-39	99999							GB	DNS
-aa979baf-2d43-4982-affb-8f5f95988307	99999	Mahmoud Yacoub	M	M35-39	99999							SA	DNS
-a492f48c-a1ba-4382-871d-de67da3e76eb	99999	Alex Novikov	M	M40-44	99999							RU	DNS
-603a1001-21d7-ee11-9079-000d3a314d17	99999	Aseel Mohamed	F	F18-24	99999							TR	DNF
-b86998f7-03e3-4642-9549-8bfb33fb8a36	99999	John Venable	M	M50-54	99999		0:32:00	0:06:49	2:35:41	0:04:24		US	DNF
-cbb47211-66f1-46f9-8f52-22b55702effb	99999	Ceren Eker Guven	F	F40-44	99999							TR	DNS
-8cfe04b1-37cc-42a5-8bd4-219c7f35839c	99999	Jan Michael Reyes	M	M40-44	99999							QA	DNS
-9d6c5b48-60c0-45cc-a621-c6204684861c	99999	Almaz Seidakhmetov	M	M30-34	99999							KZ	DNS
-7ab4e7f1-385b-4f78-b088-3393aa136e49	99999	Axel Werner	M	M55-59	99999							DE	DNS
-9091315d-660f-4a51-9514-407da2ab12a4	99999	Ingrid Bruning	F	F40-44	99999							US	DNS
-616195ef-db32-4c4d-9146-67e90a1bdb2d	99999	Rustem Salibayev	M	M40-44	99999							KZ	DNS
-c3e77225-daaf-ee11-a569-000d3a314c24	99999	Stanislav Mateev	M	M45-49	99999							BG	DNS
-96b36a20-d82a-4740-ba2a-2fafca9dfa8f	99999	Anders Hinn	M	M45-49	99999							SE	DNS
-34c552f0-4fc8-4e67-9e42-089781e91ae1	99999	Nikita Komissarov	M	M35-39	99999		0:37:31	0:03:52	2:20:53	0:02:56		RU	DNF
-2c34954f-a27e-ec11-8d21-000d3a595b65	99999	Ivan Gorlanov	M	M35-39	99999							RU	DQ
-0bbaeedf-3b8f-4229-8fe2-835f5748f5cb	99999	Saule Kultemirova	F	F40-44	99999		1:11:45					KZ	DNF
-ee77538d-ee25-4f85-9df8-e9e80d66b339	99999	Polina Kovaleva	F	F25-29	99999							AE	DNS
-41ed2714-858c-4270-b3ed-aab74ec06f93	99999	Seppo Halme	M	M45-49	99999							ES	DNS
-eea830b6-02ae-466e-ad9e-ffdedc8c95f3	99999	Nail Safiullin	M	M35-39	99999							RU	DNS
-524370eb-61d9-43bd-a8b3-9e258e5009fa	99999	Antonio Guido Monno	M	M70-74	99999							IT	DNS
-a3753c96-1792-ea11-a811-000d3a5a1cf8	99999	Rashid Alsheraim	M	M30-34	99999							Qatar	DNS
-e2bde03c-168e-46a7-882d-d982ff10d782	99999	Pooja Srivinas	F	F45-49	99999								DNS
-bbb1d417-f9e8-4c06-8fc2-ca2aa39da4e2	99999	Kainar Kamalov	M	M30-34	99999								DNS
-24194ce9-122b-eb11-a813-000d3a5a1bfb	99999	Andrew Sychev	M	M35-39	99999							RU	DNS
-e0be8627-97a5-4a63-8c1b-ee11d48c7c3f	99999	Megha Meelu	F	F30-34	99999							IN	DNS
-c7d08cf8-7962-457f-b3ca-1ff431468d80	99999	Alena Voronina	F	F35-39	99999							RU	DNS
-3e85c11f-bafb-4051-88b5-43d18c88f2d6	99999	Nemanja Kostic	M	M40-44	99999							US	DNS
-9c85f0bd-6369-43f3-809d-53dcdc8c1831	99999	Tony Hoare	M	M70-74	99999		1:17:58					GB	DNF
-042029d8-ebb4-41b1-babf-3d6b8aea3953	99999	Mohammed Alrumaihi	M	M25-29	99999							QA	DNS
-bd008db7-0a17-4ff7-8d37-38fbaf7a4bd4	99999	Mathis Guillou	M	M25-29	99999							FR	DNS
-c1500c1b-5d30-4d0f-82c0-54821474fb71	99999	Farrukh Novruzov	M	M30-34	99999							AZ	DNS
-72382d32-0eba-485a-91f1-c3c2f7b8f259	99999	Ahmed Amer	M	M30-34	99999							AE	DNS
-5c62b906-ef7a-4876-bb68-e751313319d5	99999	Aleksandr Kharchenkov	M	M40-44	99999							RU	DNS
-9e14749f-f089-46a7-a129-eb790d8451fa	99999	Matteo Donghi	M	M40-44	99999								DNS
-b696df24-92b0-ec11-9840-000d3a5a3dd2	99999	Friso Gammelin	M	M45-49	99999							DE	DNF
-e68d226e-c518-45ae-bf6a-aadd4dc68f25	99999	Simon Chapman	M	M40-44	99999							QA	DNS
-892cb81f-e355-4125-8ca5-79ece3018fac	99999	Greg Voronin	M	M50-54	99999							RU	DNS
-a2653a25-e728-4215-bc6c-955bdcbc9912	99999	Amani Abouda	F	F35-39	99999		0:55:15	0:08:32	3:57:44	0:08:47		TN	DNF
-721b6f09-540c-ef11-9f89-002248044460	99999	Bilge Sezer	M	M35-39	99999							TR	DNS
-5d27ccd4-5b44-40b2-a92c-71eca2e2ae39	99999	Ramazan Alan	M	M35-39	99999							TR	DNS
-d19b6a56-3fe3-40d5-ac45-b5f48121631c	99999	Sergey Burov	M	M40-44	99999							RU	DNS
-de857761-71d2-4d81-b7dc-e6c498bc0176	99999	Dmitrii Edakin	M	M45-49	99999							RU	DNS
-8273e512-7d29-4099-bec6-610ce3eb0dc5	99999	Nurali Aliyev	M	M35-39	99999							AE	DNS
-ddf08b95-0c12-46f4-8e8a-a65d7b81bb31	99999	Pawel Kubiak	M	M45-49	99999							POL	DQ
-aad40f37-3dc6-4c59-907f-4bf753c8d62a	99999	Dmitry Drobinin	M	M40-44	99999		0:31:52	0:02:56	2:04:54	0:02:42		RU	DNF
-13ab59b0-ff10-ef11-9f89-6045bd00e0b7	99999	Georges Chami	M	M40-44	99999							LB	DNS
-9c441426-6f07-4b70-8d9c-a33b31c946d3	99999	Nikita Kurganskiy	M	M18-24	99999							KZ	DNS
-8e9a4399-a9e1-4e6d-915b-db756aec5159	99999	Vatsal Goyal	M	M18-24	99999							AE	DNS
-a4239fef-3cb4-418c-8716-a8f7c6f6b5bd	99999	Bartosz Zachara	M	M35-39	99999							FR	DNS
-87e91dfc-9cc7-4068-b952-908ceeeb5656	99999	Sofia Alcober-Dettmann	F	F18-24	99999							CH	DNS
-4a225631-bf46-47fd-9420-4218f4f18d79	99999	Vildan Mutlu	F	F35-39	99999							TUR	DNS
-f26bcebf-130e-41aa-bb71-ae844dd23343	99999	Konstantin Chukhlantsev	M	M40-44	99999							RU	DNS
-68fc10e1-bbcc-40ab-aeb9-914a5bc95a18	99999	Marina Akimova	F	F25-29	99999		0:31:01	0:02:50				RU	DNF
-22fe30f0-8247-44fb-88da-f192ce0ac284	99999	Janusz Stryjek	M	M35-39	99999								DNS
-aed0534b-edda-4afa-8743-e9c7678439ed	99999	Ivan Shishkin	M	M55-59	99999							KZ	DNS
-d26693d6-8e40-4181-99bf-41a646fe6973	99999	Salman Alkuwari	M	M25-29	99999							QA	DNS
-978849b9-645b-41c8-8e5a-4cb5bae63ba3	99999	Alexandru Gal	M	M35-39	99999							CH	DNS
-297037d9-4659-4e05-8dea-35e2720c53b5	99999	Abdulrahman Alobaidli	M	M30-34	99999							Qatar	DNS
-0b5f198a-4769-eb11-b0b0-000d3a5913bd	99999	David Fragoso Roig	M	M50-54	99999		0:43:25	0:08:14					DNF
-cebcafb7-f0a2-4b9f-bd5b-aff496c17dbe	99999	Cihan Asrak	M	M35-39	99999		0:29:05	0:02:56				Turkey	DNF
-40e739ea-6d6f-4786-ba76-fba3742eaad4	99999	Toghrul Hasanli	M	M35-39	99999							USA	DNS
-723da768-9863-ef11-bfe3-00224808301f	99999	Gökçe Kemal Yelgar	M	PC/ID	99999	6:26:57	0:56:07	0:10:28	2:49:08	0:06:48	2:24:25	TR	
-73beb67f-b70a-46a6-bce3-53a17b2cff7c	99999	Donata Pachowicz	F	F25-29	99999							Poland	DNS
-76435f20-1de0-ee11-904c-000d3a5c3552	99999	Sara Fischer	F	F25-29	99999							CH	DNS
-f07f9d46-6ea3-43f1-8660-1860e343ea0b	99999	Omar Di Felice	M	M40-44	99999							IT	DNS
-66086d46-30e7-43e2-bddc-52483b5c555a	99999	Myrzabek Orumbaev	M	M40-44	99999		0:29:56	0:06:47				Kyrgyztan	DNF
-9a37852f-9748-eb11-bf68-000d3a5913bd	99999	Sergei Stepanian	M	M45-49	99999							RU	DNS
-5d0a66a3-ed32-4284-8d39-f432383c3c7c	99999	Aslan Alimbek	M	M30-34	99999							KZ	DNS
-da4465ae-7db6-4c73-b60d-6c7267818bd8	99999	Matt Rozee	M	M30-34	99999							GB	DNS
-faaa66f0-ee80-4b22-b61f-7dfa89b70688	99999	Albert Block	M	M55-59	99999		0:41:31	0:04:41	2:24:35				DNF
-47bd2a57-990f-411b-b55b-99311018c2a7	99999	Robin Mohseni	M	M30-34	99999							GB	DNS
-41de575e-711d-47fd-b2d6-ddf3a3917d15	99999	Artem Lavrentev	M	M35-39	99999							RU	DNS
-20d439b0-d1a2-4bd1-8089-e364f81ba710	99999	Neil Phillips	M	M55-59	99999							GB	DQ
-a71e1a03-5985-4b7d-95ba-cf9a12d2a8d2	99999	Raghav Gandotra	M	M35-39	99999								DNS
-07dce0e0-7a11-4ac2-bef1-d90444566e81	99999	Evgenii Kozyrev	M	M45-49	99999							RU	DNS
-e11a72e6-3dcf-ee11-9079-000d3a314329	99999	Yusuf Fahmy	M	M18-24	99999							US	DNS
-eb90915d-2011-43dd-929d-4d46a5dfb71d	99999	Kaan Aslan	M	M25-29	99999							DE	DNS
-1db463a6-a8ba-45a7-b59c-ceec0789d231	99999	Olga Seifulin	F	F40-44	99999							RU	DNS
-2b387994-9c1c-4913-b9b0-c9f5347773b3	99999	Simon Torras	M	M25-29	99999							ES	DQ
-9645465f-891b-477e-add4-596644b44b9e	99999	Juraj Pis	M	M40-44	99999							CZ	DNS
+0259dcdc-26ab-42c6-9144-14904e81036d		Charlie Collins	M	M65-69								GB	DNS
+323bc27d-47ef-45c7-ab97-dafc0da3d274		Robert Sparks	M	M50-54								GB	DNS
+0d141ec1-1422-449b-8bb2-80c2d0c7ef5f		Pavel Artyushenko	M	M45-49								KZ	DNS
+f5c75189-47e2-4b76-a609-39080c0c213e		Simonn Shawyer	M	M50-54			0:43:50	0:12:31	3:07:28			QA	DNF
+1b3a2523-529a-4229-926b-5712fae5c0c6		Ines Hernandez Hernandez	F	F60-64			0:41:05	0:07:44				ES	DNF
+ee6c57a7-5867-ee11-9ae6-0022480acaa6		Aslihan Ikizoglu	F	F30-34			0:39:51	0:06:43	2:35:22	0:04:38		TR	DNF
+befa0078-37e1-433b-bff5-3bc82f10b511		Alexander Vasilchenko	M	M35-39								RU	DNS
+909e4f13-d8e1-4d94-8449-31434c0960e9		Ertugrul Özdinç	M	M30-34			0:39:13	0:04:40	2:14:16	0:03:37		TR	DNF
+ee84c608-f941-49ff-abd8-66ba2beb2ecb		Valentin Golubev	M	M35-39								RU	DNS
+50d857b2-93f0-4b12-8545-c101aeccd7bf		Matthew Elke	M	M45-49								US	DNS
+6db9dc95-6f29-411a-9646-16a071d964d5		Courtney Wirtz	F	F30-34		8:52:05	0:56:11	0:13:14	4:23:37	0:06:25	3:12:38	US	
+7d267e2f-044b-4d10-94f2-3f157fa7c47b		Ali Bulut	M	M30-34			0:36:17	0:04:44	2:25:15	0:03:23		TR	DNF
+e7740fd7-e9db-4ab6-b23c-0412e9797436		Alexandr Zhukov	M	M35-39								KZ	DNS
+785e8cb9-9991-4f36-bf4e-d0c47c757e1d		Pavel Glushenkov	M	M40-44								RU	DNS
+54c4a224-b055-4a60-b6e3-476aaad6d4d6		Ghita Benchekroun	F	F25-29								MA	DNS
+76e58676-c0d7-464e-9a4d-fc738ce3c076		Michael Menager	M	M40-44								CI	DNS
+1b7dc4c2-a2e3-4de4-9860-3182bae19834		Marat Malataev	M	M55-59								KZ	DNS
+3f356880-f8d8-4e3b-a4d6-b94b5f6f46ef		Batuhan Can Güler	M	M25-29								TR	DNS
+9680cfb8-0fc2-429f-ae05-416471bb83e1		Natalia Roj	F	F40-44								QA	DNS
+72fb2892-47ea-40d7-8e75-76cf7fd04ed8		Dmitrii Sannikov	M	M45-49								RU	DNS
+77f806ed-15e5-4f41-92a5-6e9706d6e3dd		Rolf Seiler	M	M60-64								CH	DNS
+0088c72a-01f2-44a1-bb53-e76007732133		Vladimir Kobyliakov	M	M40-44								RU	DNS
+42b08081-1948-4245-b85d-e84457dd22b2		Ezekiel Psaila	M	M30-34									DNS
+fd6fd17a-adda-ec11-a7b6-000d3a3b5ce5		Rob Gevaux	M	M50-54									DNS
+48f89e64-6ac0-499c-9954-71ca3bafaebe		Sergey Roganov	M	M30-34									DNS
+5c6d7919-0d89-412a-8254-ee86c1819c22		Greg Myers	M	M40-44								US	DNS
+b35d704b-72a4-4134-b7cb-01d0631520eb		Thomas Schijf	M	M35-39								NL	DNS
+f82a7f2b-99d9-4466-b895-e8a59da4f6da		Dmitrii Iakovlev	M	M45-49								KG	DNS
+e567aba5-9a22-ef11-840b-6045bd08f8ed		Mehmet Yildirim	M	M35-39			0:36:44	0:08:29	2:24:14	0:08:06		TR	DNF
+7583429f-c5d9-4969-a85a-10c40c596962		Bakhit Alqars	M	M30-34								AE	DNS
+986d37ae-af2b-4291-ba4c-7e01b555ac8d		Alexey Nechaev	M	M35-39								RU	DNS
+af066a9d-a80b-41e0-9f83-651608998be8		Iskender Kanbay	M	M45-49			1:11:39					TR	DNF
+f7fdf1d0-80e5-4ea1-98fc-281b35f40201		Miles Mcwilliams	M	M45-49								GB	DNS
+d4821a32-a116-ea11-a811-000d3a5a1bfb		Aleksey Korenev	M	M45-49								RUS	DNS
+55d5c41e-6653-491a-b716-f4ba2694d499		Viktorija Kanepe	F	F35-39								est	DNS
+2dd35bc3-7e36-4751-b65b-1f3fd682f1ca		Valerii Tingaev	M	M55-59		5:21:35	0:37:18	0:05:42	2:44:38	0:03:09	1:50:47	RU	
+653330fa-cbea-450c-825e-0af72c470335		Alkim Arin	M	M40-44								TR	DNS
+a7433e45-09af-4654-bedf-4483fc463a15		Stephen Lopez	M	M40-44								Netherlands	DNS
+3c4ef648-f659-49a7-a552-84a23aed2462		Mert Agan	M	M45-49			0:29:37	0:03:08	2:10:52	0:02:44		TR	DNF
+03605891-81ed-4877-82c5-3681cdfee3c2		Will Cooper	M	M18-24								GB	DNS
+70e3807b-05be-4a97-90eb-c2a502c02858		Lisa Roldugina	F	F35-39								AE	DNS
+496f7bfa-f741-ea11-a812-000d3a5a1f86		Aleksei Maksimkin	M	M35-39								RU	DQ
+ac6a326e-b893-4be1-aa28-39fa4739c687		Bobby Cox	M	M60-64								GB	DNS
+426c5c91-9613-48df-b9c1-2371f09458fe		Li Hongping	F	F35-39								CN	DNF
+8cab08fd-ab4d-499c-9d71-e605459869c2		Dennis Grosse	M	M45-49								DE	DNS
+8630690a-8378-485f-82c8-6474fdfa55da		Burak Yildiz	M	M40-44								TR	DNS
+462523c9-8df6-453e-a9aa-1ef9e3dc5669		Ülkü Yilmaz	F	F35-39								TR	DNS
+2c14ec91-e4ce-ee11-9079-000d3a31406e		Nursultan Khamzin	M	M30-34								KZ	DNS
+80d8517f-d502-4ef9-a7c0-941cf62ef057		Arif Akdemir	M	M35-39								TR	DNS
+7f96514b-f97b-4d79-9413-29c13c011b9a		Miguel Alcober	M	M50-54								CH	DNS
+980841ee-de85-4926-9031-4a7d881995f8		Katie Davies	F	F40-44								GB	DNS
+69c3ea47-c83e-430a-a43f-e239a419a1f8		Tobias König	M	M40-44								DE	DNS
+a267379a-71dc-4b92-bd08-9f78dcf2aad3		Konstantin Novikov	M	M40-44								RU	DNS
+c7bbf206-1b43-42ea-a260-bb1637640b51		Alexey Yakushenko	M	M35-39								DE	DNS
+59746784-706b-4f0d-b961-c08151cf2811		Pavel Rastrygin	M	M35-39								RU	DNS
+93dde75e-b85c-4e74-9b85-a2055ae6e30e		Etienne Vassallo	M	M50-54								MT	DNS
+6b695766-5bbc-46fc-8395-66a479e1858a		Sergey Stopnevich	M	M45-49								CY	DNS
+782e73c9-0073-ec11-8943-000d3a34a686		Gokhan Ceylan	M	M40-44			0:40:25	0:06:03	2:27:47			TR	DNF
+6e78ab1a-2b65-4b8b-b58f-87c9b24d2d70		Azamat Kozhekov	M	M55-59								KZ	DNS
+64556f5c-04e6-45c5-af8f-da2bf9342678		Azat Chynarbek Uulu	M	M30-34								KG	DNS
+6e4b1c7d-4ca6-4fd4-8d2f-4a748da266fd		Joanne Pegg	F	F35-39									DNF
+bcea014e-febb-4a88-92fc-41182a85dadf		Artem Titaevskiy	M	M35-39								RU	DNS
+b77a7cc6-0660-ef11-bfe3-00224808301f		Aibek Akylbayev	M	M35-39								KZ	DQ
+225cc084-23ef-ed11-8849-000d3a314be4		Vladimir Kozhevnikov	M	M40-44								KZ	DNS
+0141dd0a-23d3-49d5-846a-2c928e3a8791		Özgür Aksaman	M	M45-49								TR	DQ
+21d7f68b-0c70-44c6-9b13-326d5762266e		Ivan Parusimov	M	M40-44								RU	DNS
+1aef5075-b360-ef11-bfe3-000d3a367177		Chesler Alexandru Dan	M	M45-49								RO	DNS
+912ecaf9-d5a0-4df2-a988-09a271071cce		Nikolay Polovinkin	M	M65-69								RU	DNS
+af0b8bec-e752-411a-9690-05b7ad9e6f8d		Daniel Kruger	M	M40-44								GB	DNS
+a9740c1e-b2af-ed11-83fe-000d3a31440b		Rashed Al Sulaiti	M	M35-39								QA	DNS
+41fe2d15-8f37-406e-b403-d76aaa745029		Hudai Altinkaymak	M	M40-44								TR	DQ
+7d667b9a-1124-4b55-a44b-d22647cbea31		Benjamin Penny	M	M25-29								GB	DNS
+848c1c5f-6385-4fb4-82a8-f49e69bfe453		Richard Powell	M	M50-54								GB	DNS
+f3d2b074-a9db-4262-af69-0c6400a43083		Piotr Kuchynski	M	M35-39								BY	DNS
+f16fd2f7-041f-4d26-a223-3b7b4665bb6b		Sergei Kozlov	M	M35-39								RU	DNS
+9945c658-6e99-45cc-93d9-9f2512e56f98		Serkan Aksel	M	M40-44								TR	DNS
+556d817a-9202-4074-98f1-9c2ad1a439fd		Ivan Williams	M	M50-54								AE	DNS
+fe65f074-4542-4ce5-a49f-8b01146723eb		Dmitriy Litvyakov	M	M30-34								RU	DNS
+33042b5b-ad9d-45b7-bfc2-69f5f817cf6b		Emrah Yildirim	M	M35-39		5:37:26	0:40:26	0:08:06	2:53:34	0:05:03	1:50:16	TR	DNF
+176fa994-ad1f-4de6-ae6a-b72fc209ceba		Onur Eken	M	M30-34								TR	DNS
+bf5fe763-07dd-4f40-9855-1465863e8ca3		Christiaan Botha	M	M40-44								ES	DNS
+9b8da4d0-00f3-4e36-89b6-b8ed12bc33f8		Jessica Verstegen	F	F40-44								Netherlands	DNS
+95f2389b-e1ab-4a52-b233-62c7fadd602d		Samantha Turner	F	F35-39								GB	DNS
+147f1ae9-9ea7-47ea-92f4-5c301b82c36b		Jean-François Prévost	M	M45-49								CA	DNS
+37a4ab0a-1eb9-ee11-a569-000d3a314329		Sonia Howse	F	F55-59		8:52:22	0:47:33	0:15:46	4:11:00	0:10:17	3:27:46	GB	
+5e04e812-f2fd-4203-b757-a8b34fc09390		Nagesh Kamat	M	M55-59			1:12:27					IN	DNF
+0b97405b-405a-41e7-abe7-fac3b0039ac1		Pavel Shubentsev	M	M40-44								RU	DNS
+7435bf0f-f302-ef11-a1fd-00224809fd7c		Bander Shamlan	M	M40-44								SA	DNS
+750bebb3-053a-ee11-bdf4-000d3a31458d		Elouise Millard	F	F30-34								GB	DNS
+0f7bdc9c-480b-4b10-aaec-63cf376320aa		Maxim Kim	M	M40-44								KZ	DNS
+a4e06414-9bd7-ee11-9079-000d3a5ca14e		Kamil Gültepe	M	M35-39								TR	DNS
+9b72aa0b-c258-ef11-a317-6045bd017e21		Iana Al-Gandur	F	F35-39								RU	DNS
+2536d9e9-a807-4db6-b3f6-4c0131821df7		Assankadyr Baurzhan	M	M18-24								KZ	DNS
+1afd57ec-7534-4a38-9430-a237476f5056		Anke Jordan	F	F55-59			0:55:38	0:14:45	4:11:00	0:09:56		DE	DNF
+69d1bd0f-6933-490d-9ce2-08523e6f28ec		Dave Badham	M	M55-59								GB	DNF
+4a5a21a2-a4c9-4880-a05d-9fe45db09eae		Raikan Alanzi	M	M40-44								KW	DNS
+2092a027-f015-432c-8bd2-4bc02860fe2a		Anthony Attard	M	M40-44								MT	DNS
+0fbfa0d4-1f19-4e2c-943e-1ede5a6fa5a8		Dariya Pyrchinskaya	F	F35-39								RU	DNS
+6c9e6eb4-9b79-ef11-a670-000d3a30152c		Rinat Garipov	M	M40-44								RU	DNS
+c3c99938-6d81-49b4-895b-34f2bb0e0bb3		Mario Zimaridis	M	M25-29								TR	DNS
+8dc46524-9b4d-4020-b28a-7cd4fc06228b		Daniel Marsh	M	M30-34								GB	DNS
+62172022-1853-4919-b999-b046f3f7ba74		Vladislav Rogozinskiy	M	M25-29								RU	DNS
+9cf5ef6b-9434-4484-bb43-86d8fa11a529		Branko Mlinar	M	M75-79								SI	DNS
+dfac024c-e775-4140-a5ad-12f0d31edcd6		Paul Le Houillier	M	M60-64								US	DNS
+14232bdb-d88f-4b73-a742-89b2f4ff47c5		Semen Tereshchenko	M	M30-34								UA	DNS
+93f23f7a-4096-4572-b378-b0878e74789c		Tomasz Otto	M	M30-34								PL	DQ
+0a668119-fa3d-412c-a326-2db5577cd12f		Gustav Falch	M	M18-24								DK	DNS
+9c9e77ad-ed23-ef11-840b-6045bd08f8ed		Radoslaw Ejnik	M	M45-49								TR	DNS
+1e0db0d6-2824-ec11-b6e5-000d3a5bb7fc		Saurabh Singh	M	M25-29								IN	DNS
+fee800d7-3f77-ee11-8179-000d3a314c24		Rasim Gubaydullin	M	M25-29								BG	DNS
+8d0a76ec-1696-46b7-9e29-9038f32fa119		Karen Huang	F	F40-44								US	DNS
+56088ed5-a408-ef11-9f89-000d3a59e106		Dmitrii Khamitov	M	M30-34								RU	DNS
+fcc9140e-424b-44ac-a048-ca5d43ea2654		Mehmet Hilmi Soylu	M	M45-49			0:33:58	0:04:26				TR	DNF
+9ee6a2b3-0262-402b-9051-8be3f1ffb4f8		Kemmel Atkinson	M	M65-69			0:35:30	0:07:21	2:47:55			GB	DNF
+4181d2d4-74fa-4c39-9a6d-a54d996b689e		José Trasobares Pradas	M	M30-34								GB	DNS
+f883dd57-9d99-ec11-b400-000d3a34b715		Ali Kuscuoglu	M	M30-34								TR	DNS
+e80ff8ee-beb0-4b69-adb5-bafc24093061		Gennady Lebedenko	M	M45-49								RU	DNS
+cf8bcd1b-a93a-ef11-8409-000d3a348633		Andrey Seifulin	M	M45-49			0:40:12	0:04:15	2:25:02	0:08:43		RU	DNF
+5df14b64-bd9d-ee11-be37-000d3a31440b		Oguz Can Okuyucu	M	M35-39								TR	DNS
+4b63b37e-5041-4809-bd5c-7a8185b9ef89		Lolita Kladovikova	F	F18-24								RU	DQ
+f4945916-4cf7-4e0e-9fc7-1b1c94627c02		Fahd Mukhtar	M	M35-39								UKR	DNS
+1d7fbed3-c166-ee11-9ae6-0022480acaa6		Alexander Gashnikov	M	M60-64			0:41:48	0:04:09				RU	DNF
+9d853a4b-9d7d-4be7-8583-d27e0f5861aa		Harry Middleton	M	M18-24									DNS
+8eba95db-b51d-ef11-840b-6045bd08f8ed		Ersin Yilmaz	M	M40-44								TR	DNS
+85d927a5-6e8d-ee11-8179-000d3a314ae2		Phil Shackleton	M	M35-39								GB	DNS
+141c3d66-c237-ef11-8409-000d3a367177		Cem Ozgur	M	M30-34									DNS
+a131b716-a4de-48c5-a611-81c011c2ff6d		Anuar Omarov	M	M50-54			1:10:09					KZ	DNF
+9e770bed-8a39-43d6-8e8f-0805bde3be0a		Baris Ilçel	M	M45-49								TR	DNS
+a0bafa2d-4640-4876-9356-0d3071bef1c0		Can Ozbek	M	M40-44								TR	DNS
+9e4fe208-f0b2-4211-a34b-111ea357c074		Stuart Little	M	M35-39								GB	DNS
+d3a4de59-2e9d-408d-8dd6-336715a3dcfa		Myriam Alj	F	F40-44			1:28:25					MA	DNF
+95e8d15b-8f63-ef11-bfe3-000d3a371e3b		Aleksandr Leushkanov	M	M45-49		8:38:01	0:37:39	0:06:17	5:24:02	0:03:35	2:26:29	RU	
+339c6120-a62a-4422-b41b-3f8fa96beb22		Elena Besschetnova	F	F30-34			0:37:22	0:05:08	2:36:07			RU	DNF
+d84e4f46-0f9a-4d92-9c40-512d24a9012a		Mustafa Yerlikaya	M	M35-39								TR	DQ
+c460acb9-821b-4b97-a9b3-c04176f1fb4d		Elliot Steele	M	M40-44								GB	DNS
+89b3299c-eeae-4e46-92e9-cf8c75bc2c60		Ievgen Smirnov	M	M40-44								UA	DNS
+d4c584b2-f9f0-4fc6-ae96-ff7bad3bfcdf		Pavel Larionov	M	M50-54								BG	DNS
+26ddd33d-c7ae-ee11-a569-000d3a3144b3		Viktor Borisov	M	M40-44								RU	DNS
+c4a0eb07-ade3-ed11-a7c7-000d3a31406e		Lutie Akinci	F	F30-34								AU	DNS
+31258551-5fbd-445c-802d-c8252d829c57		Douglas Fogoz	M	M50-54								CH	DNS
+10cac4ee-5225-4f8a-9326-4dbc8d339470		Вячеслав Сокиркин	M	M35-39								KZ	DNS
+43518acb-74c3-4325-92d5-75a9dcaed10e		Chris Riddell	M	M25-29								nzl	DNS
+f3333c61-08aa-458d-8db0-9d18f973b7d1		Gareth Penny	M	M60-64								GB	DNS
+9468a9a5-0305-4afc-bf71-460e95c56bbe		Abdulla Alsada	M	M25-29								Qatar	DNS
+c0e0efa0-12ef-4801-bb68-8efb60227069		Omran Sadeq	M	M35-39			1:23:17					AE	DNF
+75399add-5473-4f67-90d0-5aa060c7dae1		Adonis Succar	M	M25-29								FR	DNS
+418c89a0-8735-4870-96ec-6f292fa582ae		Michael Huth	M	M50-54								KE	DNS
+d60420a1-371a-4ade-b07e-fccaf8753776		Vitaliy Kim	M	M75-79			0:56:48	0:20:30				RU	DNF
+b2d4be52-d33e-ef11-8409-6045bd079a13		Alexander Biryukov	M	M45-49								RU	DNS
+ae73b2f4-2b05-ef11-9f8a-000d3a314c24		Ahmet Karaman	M	M45-49								TR	DNS
+849ee724-d6f8-4ab8-adeb-bd63575ede55		Katrin Palsdottir	F	F40-44								IS	DNS
+0d3c2c2b-4816-4b93-9cba-83d8c8cdc0db		Svyatoslav Barshchovskyy	M	M25-29								UA	DQ
+3d59a33c-adea-ee11-a203-6045bd064839		Ekaterina Karpenko	F	F35-39								RU	DNS
+094378ce-aec4-46cd-b4c6-80c372a2b85e		Priyanka Fernandes	F	F30-34			1:08:06	0:09:13	4:20:50	0:04:33		IN	DNF
+d58bd02a-5cb7-46ba-a2d7-fbd3c4f6f391		Kassymzhan Abdulin	M	M40-44								KZ	DNS
+dafad65b-4cd6-49e7-b480-d7da062c9635		Mohamad Kobrosly	M	M30-34								GB	DNS
+1819b113-e6ce-49f1-b488-830322f32638		Samil Dagistanli	M	M35-39								TR	DNS
+47d1e8ea-6e6b-4e3c-9248-f4e0e074e69d		Valerii Gratii	M	M35-39								RU	DNS
+95b316ba-0d86-4953-b263-b3c61060387e		Mehmet Komaz	M	M45-49								TR	DNS
+cb9c6d53-b312-404f-b9d1-b71a7e601a7f		Bektur Subanbekov	M	M35-39								KG	DNS
+46ea798f-9200-4a30-b00e-666963549f99		Cansu Sakizligil	F	F30-34			0:44:42	0:04:54	2:42:32	0:03:46		TR	DNF
+4c571b23-5cab-49db-a328-1016958217c9		Aleksandra Shkurdova	F	F30-34								RU	DQ
+8afd618f-f6aa-4f11-8f7a-d37e8afac6cf		Eren Ünlü	M	M40-44								TR	DNS
+0536abd7-1b9d-4334-85b5-ce8bde6fe546		Oliver Møller	M	M18-24								Denmark	DNS
+b8d07d2c-d0ce-4e0b-bcb8-65565e2269b1		Ghazi Alhusaini	M	M35-39								BH	DNS
+7ac87935-fa18-4141-b477-66d69301158c		Baizhan Kanafin	M	M40-44								KZ	DNS
+a0dc73e6-8178-ea11-a811-000d3a5a1cf8		Mohamed Eraky	M	M40-44								QA	DNS
+6a77f8cd-883a-4cb0-a9fb-13ca93c239cd		Dieter Mallmann	M	M60-64								DE	DQ
+abfa37d7-6fab-426e-8b8e-53bae7339f2c		Sergii Zakrevskyi	M	M60-64								UA	DNS
+fc1d1bb4-78a0-456a-9cdc-01e6ce05467a		Oleh Antokhiv	M	M35-39			0:35:45	0:04:57	2:42:38			Ukraine	DNF
+8e787bef-eb39-44bd-991d-e7ae9beab43d		Hamad Alnoubi	M	M30-34			0:55:53	0:05:44	2:51:45	0:04:30		Qatar	DNF
+d3588b9e-3899-4353-8ab5-da2877699d7f		Giuseppe Bodrero	M	M55-59								IT	DNS
+09f90009-3afe-490a-bf5b-a1b775fb27ae		Vadim Egorov	M	M50-54								RU	DNS
+3f885f7e-e572-4a03-a78a-936844ce9152		Simohamed Lofti	M	M40-44								MA	DNS
+3bef9e4f-e8cb-ee11-9079-000d3a314d17		Komarov Klim	M	M25-29								RU	DNS
+a17af4a2-d2d9-ec11-a7b6-000d3a3735ea		Shaun Good	M	M60-64			0:42:53	0:09:38	3:07:20	0:05:26		GB	DNF
+f6f37e0b-8049-475b-9fe4-3a039b3b7496		Manon Lequet	F	F18-24								FR	DNS
+4faca255-85b4-487a-abbc-c73ac5f06bcb		Abdul Alothman	M	M25-29								GB	DNS
+bca7785c-5bf0-ee11-904b-6045bd064839		Jan Machtans	M	M45-49								DE	DNS
+e0f661ab-274a-4268-82c3-7ace11a6a5a8		Tina Lainer	F	F35-39			0:36:33					AT	DNF
+184327be-1d59-4749-bc5f-121a41073aa8		Zamirbek Torogeldiev	M	M40-44								DEU	DNS
+9ed80ccd-6d29-4065-825a-5323e51f167c		Aykut Yeni	M	M40-44								TR	DNS
+9646ed73-f47a-46fd-8d66-1121bdf1261c		Yulia Kremer	F	F45-49								RU	DNS
+85ffbb77-786b-eb11-a812-0022480416f4		Rose Ann Castillo	F	F35-39								AE	DNS
+4dba11e3-8aca-4290-8ece-927b47463e65		Alexey Ushakov	M	M30-34								KZ	DNS
+8121c924-e979-402b-aa7b-f3dc76d32b46		Ruslan Assatullin	M	M35-39								KZ	DNS
+459902e4-8e2c-ef11-840a-000d3a348633		Sergei Zalesnyi	M	M50-54								RU	DNS
+2b40b807-8e8a-42f0-97fc-10e1da57213e		Vivienne Sparks	F	F50-54								GB	DNS
+56209393-2dd1-4e8c-ad4d-f91e9baeae98		Eleonora Semenovskii	F	F50-54								TR	DNS
+27fef6cd-81fc-4f7f-aee7-4bbfc295b8b0		Mateo De La Vega Perrin	M	M25-29								nld	DNS
+1e165326-c7c2-485b-885b-5d7c26e21d11		Mels Erkinbek	M	M40-44								KG	DNS
+702f9fac-8881-4348-94b0-f0d928cd587e		Jochen Karsch	M	M45-49								DE	DNS
+94df76ee-2923-ef11-840a-6045bd079a13		Kanat Kenzhin	M	M45-49			0:33:18	0:04:29				KZ	DNF
+c972b29a-2957-491f-b559-853dea7bf63f		Sergey Konkov	M	M40-44								PT	DNS
+78370fdf-1e3b-4eab-ba6b-f3d1cd3d9735		Askar Yerkassov	M	M45-49								KZ	DQ
+5e00823e-0338-4088-88dd-4a4b01c36765		Mikhail Feoktistov	M	M65-69			0:36:46	0:07:58				RU	DNF
+6cd29c69-c8b1-4aa1-906c-ba2e4d170417		Md Omar Faruk	M	M30-34								SG	DNS
+d0270df3-4331-4f17-9f0f-abe1953b02fc		Serkan Yürür	M	M45-49								CYP	DNS
+244fc0ac-54a8-4de0-94c0-dd1459d11c48		Marwa El Masri	F	F30-34								AE	DNS
+d389ce68-fd6b-4834-8c5d-202e50c45145		Gordon Ciantar	M	M45-49								MT	DQ
+ff77d635-0620-ee11-9cbe-000d3a3144b3		Egor Antipov	M	M30-34								PL	DNS
+25acf6c6-df01-44e0-970d-b602e802c6f7		Avedis Kalpaklian	M	M50-54								LB	DNS
+aa1de4f5-cd2e-4205-b9ad-71fa5b05485b		Ash Hall	M	M35-39								GB	DNS
+e06ef1f4-7962-466d-be1e-f1fed70385d5		Tolga Gonenli	M	M40-44								TR	DNS
+89335aaf-421d-4f14-aa0c-fe5af81ff0da		Andrew Griffiths	M	M40-44									DNS
+c809a5bf-e11d-43a1-b8c2-87915e6fbbcc		Sergey Bobryshev	M	M65-69			0:40:25	0:06:22				RU	DNF
+dec48afa-31cf-4fc1-a485-c33c65066f47		Danila Nikolaev	M	M40-44								RU	DNS
+203766b3-0a36-493a-a08c-67ac8f6a28e8		Simon Turner	M	M35-39			0:54:03	0:05:53	3:26:50			GB	DNF
+a6f0b8d8-5313-ea11-a811-000d3a5a1477		Meriç Aser	M	M35-39			0:37:35	0:04:05	2:18:23	0:03:36		Turkey	DNF
+5d9668af-afb6-4f54-8a5b-2fbf51bd7acd		Wajdi Homrani	M	M35-39								TN	DNS
+a65d4106-fdca-4dec-b1ae-cd4c6107e5e8		Ibrahim Buyukkomurcu	M	M55-59								TR	DNS
+8ffaedb6-e4a2-40c1-a096-668a69799f6b		Karl Wallis	M	M35-39								GB	DNS
+aa979baf-2d43-4982-affb-8f5f95988307		Mahmoud Yacoub	M	M35-39								SA	DNS
+a492f48c-a1ba-4382-871d-de67da3e76eb		Alex Novikov	M	M40-44								RU	DNS
+603a1001-21d7-ee11-9079-000d3a314d17		Aseel Mohamed	F	F18-24								TR	DNF
+b86998f7-03e3-4642-9549-8bfb33fb8a36		John Venable	M	M50-54			0:32:00	0:06:49	2:35:41	0:04:24		US	DNF
+cbb47211-66f1-46f9-8f52-22b55702effb		Ceren Eker Guven	F	F40-44								TR	DNS
+8cfe04b1-37cc-42a5-8bd4-219c7f35839c		Jan Michael Reyes	M	M40-44								QA	DNS
+9d6c5b48-60c0-45cc-a621-c6204684861c		Almaz Seidakhmetov	M	M30-34								KZ	DNS
+7ab4e7f1-385b-4f78-b088-3393aa136e49		Axel Werner	M	M55-59								DE	DNS
+9091315d-660f-4a51-9514-407da2ab12a4		Ingrid Bruning	F	F40-44								US	DNS
+616195ef-db32-4c4d-9146-67e90a1bdb2d		Rustem Salibayev	M	M40-44								KZ	DNS
+c3e77225-daaf-ee11-a569-000d3a314c24		Stanislav Mateev	M	M45-49								BG	DNS
+96b36a20-d82a-4740-ba2a-2fafca9dfa8f		Anders Hinn	M	M45-49								SE	DNS
+34c552f0-4fc8-4e67-9e42-089781e91ae1		Nikita Komissarov	M	M35-39			0:37:31	0:03:52	2:20:53	0:02:56		RU	DNF
+2c34954f-a27e-ec11-8d21-000d3a595b65		Ivan Gorlanov	M	M35-39								RU	DQ
+0bbaeedf-3b8f-4229-8fe2-835f5748f5cb		Saule Kultemirova	F	F40-44			1:11:45					KZ	DNF
+ee77538d-ee25-4f85-9df8-e9e80d66b339		Polina Kovaleva	F	F25-29								AE	DNS
+41ed2714-858c-4270-b3ed-aab74ec06f93		Seppo Halme	M	M45-49								ES	DNS
+eea830b6-02ae-466e-ad9e-ffdedc8c95f3		Nail Safiullin	M	M35-39								RU	DNS
+524370eb-61d9-43bd-a8b3-9e258e5009fa		Antonio Guido Monno	M	M70-74								IT	DNS
+a3753c96-1792-ea11-a811-000d3a5a1cf8		Rashid Alsheraim	M	M30-34								Qatar	DNS
+e2bde03c-168e-46a7-882d-d982ff10d782		Pooja Srivinas	F	F45-49									DNS
+bbb1d417-f9e8-4c06-8fc2-ca2aa39da4e2		Kainar Kamalov	M	M30-34									DNS
+24194ce9-122b-eb11-a813-000d3a5a1bfb		Andrew Sychev	M	M35-39								RU	DNS
+e0be8627-97a5-4a63-8c1b-ee11d48c7c3f		Megha Meelu	F	F30-34								IN	DNS
+c7d08cf8-7962-457f-b3ca-1ff431468d80		Alena Voronina	F	F35-39								RU	DNS
+3e85c11f-bafb-4051-88b5-43d18c88f2d6		Nemanja Kostic	M	M40-44								US	DNS
+9c85f0bd-6369-43f3-809d-53dcdc8c1831		Tony Hoare	M	M70-74			1:17:58					GB	DNF
+042029d8-ebb4-41b1-babf-3d6b8aea3953		Mohammed Alrumaihi	M	M25-29								QA	DNS
+bd008db7-0a17-4ff7-8d37-38fbaf7a4bd4		Mathis Guillou	M	M25-29								FR	DNS
+c1500c1b-5d30-4d0f-82c0-54821474fb71		Farrukh Novruzov	M	M30-34								AZ	DNS
+72382d32-0eba-485a-91f1-c3c2f7b8f259		Ahmed Amer	M	M30-34								AE	DNS
+5c62b906-ef7a-4876-bb68-e751313319d5		Aleksandr Kharchenkov	M	M40-44								RU	DNS
+9e14749f-f089-46a7-a129-eb790d8451fa		Matteo Donghi	M	M40-44									DNS
+b696df24-92b0-ec11-9840-000d3a5a3dd2		Friso Gammelin	M	M45-49								DE	DNF
+e68d226e-c518-45ae-bf6a-aadd4dc68f25		Simon Chapman	M	M40-44								QA	DNS
+892cb81f-e355-4125-8ca5-79ece3018fac		Greg Voronin	M	M50-54								RU	DNS
+a2653a25-e728-4215-bc6c-955bdcbc9912		Amani Abouda	F	F35-39			0:55:15	0:08:32	3:57:44	0:08:47		TN	DNF
+721b6f09-540c-ef11-9f89-002248044460		Bilge Sezer	M	M35-39								TR	DNS
+5d27ccd4-5b44-40b2-a92c-71eca2e2ae39		Ramazan Alan	M	M35-39								TR	DNS
+d19b6a56-3fe3-40d5-ac45-b5f48121631c		Sergey Burov	M	M40-44								RU	DNS
+de857761-71d2-4d81-b7dc-e6c498bc0176		Dmitrii Edakin	M	M45-49								RU	DNS
+8273e512-7d29-4099-bec6-610ce3eb0dc5		Nurali Aliyev	M	M35-39								AE	DNS
+ddf08b95-0c12-46f4-8e8a-a65d7b81bb31		Pawel Kubiak	M	M45-49								POL	DQ
+aad40f37-3dc6-4c59-907f-4bf753c8d62a		Dmitry Drobinin	M	M40-44			0:31:52	0:02:56	2:04:54	0:02:42		RU	DNF
+13ab59b0-ff10-ef11-9f89-6045bd00e0b7		Georges Chami	M	M40-44								LB	DNS
+9c441426-6f07-4b70-8d9c-a33b31c946d3		Nikita Kurganskiy	M	M18-24								KZ	DNS
+8e9a4399-a9e1-4e6d-915b-db756aec5159		Vatsal Goyal	M	M18-24								AE	DNS
+a4239fef-3cb4-418c-8716-a8f7c6f6b5bd		Bartosz Zachara	M	M35-39								FR	DNS
+87e91dfc-9cc7-4068-b952-908ceeeb5656		Sofia Alcober-Dettmann	F	F18-24								CH	DNS
+4a225631-bf46-47fd-9420-4218f4f18d79		Vildan Mutlu	F	F35-39								TUR	DNS
+f26bcebf-130e-41aa-bb71-ae844dd23343		Konstantin Chukhlantsev	M	M40-44								RU	DNS
+68fc10e1-bbcc-40ab-aeb9-914a5bc95a18		Marina Akimova	F	F25-29			0:31:01	0:02:50				RU	DNF
+22fe30f0-8247-44fb-88da-f192ce0ac284		Janusz Stryjek	M	M35-39									DNS
+aed0534b-edda-4afa-8743-e9c7678439ed		Ivan Shishkin	M	M55-59								KZ	DNS
+d26693d6-8e40-4181-99bf-41a646fe6973		Salman Alkuwari	M	M25-29								QA	DNS
+978849b9-645b-41c8-8e5a-4cb5bae63ba3		Alexandru Gal	M	M35-39								CH	DNS
+297037d9-4659-4e05-8dea-35e2720c53b5		Abdulrahman Alobaidli	M	M30-34								Qatar	DNS
+0b5f198a-4769-eb11-b0b0-000d3a5913bd		David Fragoso Roig	M	M50-54			0:43:25	0:08:14					DNF
+cebcafb7-f0a2-4b9f-bd5b-aff496c17dbe		Cihan Asrak	M	M35-39			0:29:05	0:02:56				Turkey	DNF
+40e739ea-6d6f-4786-ba76-fba3742eaad4		Toghrul Hasanli	M	M35-39								USA	DNS
+723da768-9863-ef11-bfe3-00224808301f		Gökçe Kemal Yelgar	M	PC/ID		6:26:57	0:56:07	0:10:28	2:49:08	0:06:48	2:24:25	TR	
+73beb67f-b70a-46a6-bce3-53a17b2cff7c		Donata Pachowicz	F	F25-29								Poland	DNS
+76435f20-1de0-ee11-904c-000d3a5c3552		Sara Fischer	F	F25-29								CH	DNS
+f07f9d46-6ea3-43f1-8660-1860e343ea0b		Omar Di Felice	M	M40-44								IT	DNS
+66086d46-30e7-43e2-bddc-52483b5c555a		Myrzabek Orumbaev	M	M40-44			0:29:56	0:06:47				Kyrgyztan	DNF
+9a37852f-9748-eb11-bf68-000d3a5913bd		Sergei Stepanian	M	M45-49								RU	DNS
+5d0a66a3-ed32-4284-8d39-f432383c3c7c		Aslan Alimbek	M	M30-34								KZ	DNS
+da4465ae-7db6-4c73-b60d-6c7267818bd8		Matt Rozee	M	M30-34								GB	DNS
+faaa66f0-ee80-4b22-b61f-7dfa89b70688		Albert Block	M	M55-59			0:41:31	0:04:41	2:24:35				DNF
+47bd2a57-990f-411b-b55b-99311018c2a7		Robin Mohseni	M	M30-34								GB	DNS
+41de575e-711d-47fd-b2d6-ddf3a3917d15		Artem Lavrentev	M	M35-39								RU	DNS
+20d439b0-d1a2-4bd1-8089-e364f81ba710		Neil Phillips	M	M55-59								GB	DQ
+a71e1a03-5985-4b7d-95ba-cf9a12d2a8d2		Raghav Gandotra	M	M35-39									DNS
+07dce0e0-7a11-4ac2-bef1-d90444566e81		Evgenii Kozyrev	M	M45-49								RU	DNS
+e11a72e6-3dcf-ee11-9079-000d3a314329		Yusuf Fahmy	M	M18-24								US	DNS
+eb90915d-2011-43dd-929d-4d46a5dfb71d		Kaan Aslan	M	M25-29								DE	DNS
+1db463a6-a8ba-45a7-b59c-ceec0789d231		Olga Seifulin	F	F40-44								RU	DNS
+2b387994-9c1c-4913-b9b0-c9f5347773b3		Simon Torras	M	M25-29								ES	DQ
+9645465f-891b-477e-add4-596644b44b9e		Juraj Pis	M	M40-44								CZ	DNS
