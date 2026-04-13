@@ -1,0 +1,701 @@
+ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	Run	Country	Status
+	DNF	Linda Hallinger	F	F50-54	0							United States	DNF
+	DNF	Shane Hancock	M	M30-34	96		1:02:59		6:28:40			New Zealand	DNF
+	DNF	Peter Reid	M	MPRO	0							Canada	DNF
+	DNF	Maryse Rigaud	M	M65-69	0							French Polynesia	DNF
+	DNF	Luke Mckenzie	M	MPRO	26				5:27:51			Australia	DNF
+	DNF	Timothy Roberts	M	M35-39	0							Australia	DNF
+	DNF	Scott Green	M	MPRO	0				4:56:42			Australia	DNF
+	DNF	Paul Amey	M	MPRO	0		0:55:11					United Kingdom	DNF
+	DNF	Justin Granger	M	MPRO	0		0:55:12					Australia	DNF
+	DNF	Darren Franken	M	MPRO	0							Australia	DNF
+	DNF	Stephen Hemy	M	M40-44	92		0:58:43		5:08:59			Australia	DNF
+	DNF	Wati Ruwhiu	M	M35-39	0							Australia	DNF
+	DNF	Chip Van Halen Slater	M	MPRO	0		0:50:45					Australia	DNF
+	DNF	Cameron Watt	M	MPRO	0							Australia	DNF
+	DNF	Stefan Schicker	M	M35-39	0				5:52:24			Australia	DNF
+	DNF	John Van Wisse	M	MPRO	27		0:50:30		4:47:00			Australia	DNF
+	DNF	Sharyn Holmes	M	M60-64	0				8:41:37			Australia	DNF
+	DNF	Matthew Clark	M	MPRO	0		0:50:41					Australia	DNF
+	DNF	Alexander Schnell	M	MPRO	0							Germany	DNF
+	DNF	Deborah Shapira	F	F50-54	0							Australia	DNF
+	DNF	Tara Huffine	F	F25-29	0				7:26:46			United States	DNF
+	DNF	Flip Shelton	F	F35-39	0							Australia	DNF
+	DNF	Suzanne Humfrey	F	F30-34	0				7:21:45			Australia	DNF
+	DNF	Scott Imaye	M	M30-34	0							United States	DNF
+	DNF	Karly Allen	F	FPRO	0							Australia	DNF
+	DNF	Rebecca Preston	F	FPRO	0							Australia	DNF
+	DNF	Jean-Marc Leonetti	M	M35-39	0							New Caledonia	DNF
+	DNF	Mathew Jennings	M	M30-34	0							Australia	DNF
+	DNF	Josef Ajram	M	M25-29	0							Spain	DNF
+	DNF	Jason Anderson	M	M30-34	0							New Zealand	DNF
+	DNF	Marc Smith	M	M35-39	0							South Africa	DNF
+	DNF	Mitsuaki Arai	M	M40-44	0							Japan	DNF
+	DNF	Lau Soh Wai	F	F35-39	0							Singapore	DNF
+	DNF	Greg Arentz	M	M50-54	0							Australia	DNF
+	DNF	Stig Sorensen	M	M40-44	0							Denmark	DNF
+	DNF	Yukitoshi Kawabata	M	M60-64	0							Japan	DNF
+	DNF	Katsushige Kawamura	M	M40-44	0							Japan	DNF
+	DNF	Stephen Ash	M	M45-49	0		1:07:06		6:29:00			Australia	DNF
+	DNF	Benjamin Atkins	M	M25-29	47		1:10:48		5:35:28			Australia	DNF
+	DNF	Darrell Bailie	M	M50-54	0							Canada	DNF
+	DNF	Stephen Kirchner	M	M50-54	0				7:10:49			Australia	DNF
+	DNF	Sue Stockley	F	F35-39	0							United Kingdom	DNF
+	DNF	David Bassler	M	M35-39	0							United States	DNF
+	DNF	Bert Bayliss	M	M50-54	0							United Kingdom	DNF
+	DNF	Rebecca Laird	F	F30-34	0							Australia	DNF
+	DNF	Francesco Bertoli	M	M45-49	0							Italy	DNF
+	DNF	Ben Stutterd	M	M18-24	0							Australia	DNF
+	DNF	David Bertovic	M	M30-34	0							Australia	DNF
+	DNF	Andrew Lang	M	M40-44	0							Australia	DNF
+	DNF	Greg Lanham	M	M40-44	0							Indonesia	DNF
+	DNF	Dale Larabee	M	M60-64	0							United States	DNF
+	DNF	Mamiko Suzuki	F	F30-34	0		1:05:51		5:40:00			Japan	DNF
+	DNF	Will Blessing	M	M55-59	0							Australia	DNF
+	DNF	Julian Symonds	M	M40-44	0							United States	DNF
+	DNF	Kenji Tabuchi	M	M35-39	0							Japan	DNF
+	DNF	Shaun Borrett	M	M35-39	0							United Kingdom	DNF
+	DNF	Tetsuro Takase	M	M65-69	0							Japan	DNF
+	DNF	Chun Kit Tham	M	M18-24	0							Singapore	DNF
+	DNF	Robert Thomas	M	MPC	1							Australia	DNF
+	DNF	Stan Bratt	M	M40-44	0							United States	DNF
+	DNF	Chris Brehaut	M	M35-39	0							Australia	DNF
+	DNF	Narelle Lee	F	F45-49	0							Australia	DNF
+	DNF	James Touchstone	M	M45-49	0							United States	DNF
+	DNF	Michael Trimble	M	M40-44	94		1:13:37		6:27:23			Australia	DNF
+	DNF	Manabu Ueda	M	M60-64	4		1:52:21		8:00:02			United Kingdom	DNF
+	DNF	Gina Unwin	F	F25-29	6		1:11:45		5:49:04			Australia	DNF
+	DNF	Jillian Burns	F	F45-49	9		1:30:37		7:31:44			United Kingdom	DNF
+	DNF	Andrew Carey	M	M25-29	0							Australia	DNF
+	DNF	Dave Catt	M	M30-34	0							Australia	DNF
+	DNF	Ben Charles	M	M30-34	0							Australia	DNF
+	DNF	Tarka Chiba	M	M30-34	0							Canada	DNF
+	DNF	Griff Weste	M	M60-64	0							Australia	DNF
+	DNF	Steve Mason	M	M45-49	0				7:16:57			Australia	DNF
+	DNF	Kathy Williamon	F	F30-34	0							United States	DNF
+	DNF	Douglas Mcbride	M	M45-49	0							United States	DNF
+	DNF	Gavin Mckay	M	M30-34	0		1:01:06		5:38:32			Australia	DNF
+	DNF	John Mclachlan	M	M50-54	0		1:52:17					New Zealand	DNF
+	DNF	Brett Currie	M	M30-34	0		1:11:06		5:14:03			Australia	DNF
+	DNF	Jenny Mcrae	F	F25-29	0		1:43:14					Australia	DNF
+	DNF	Kohji Yamamoto	M	M35-39	0							Japan	DNF
+	DNF	Gregory Menvielle	M	M30-34	0				6:50:01			France	DNF
+	DNF	Vicki Young	F	F35-39	0							United States	DNF
+	DNF	Katherine Dickerson	F	F25-29	7		1:12:55		6:34:48			United States	DNF
+	DNF	Team Maclean	M	M	0							Australia	DNF
+	DNF	Team Buckled Broken & Burnt	M	M	4							Australia	DNF
+	DNF	Yasushi Miyazono	M	M45-49	0							Japan	DNF
+	DNF	Team Crown Clowns	M	M	2							Australia	DNF
+	DNF	Team Drown Draft Drop	M	M	1							Australia	DNF
+	DNF	Team Kiwi Rsa	M	M	6							Australia	DNF
+	DNF	Team Port Loc	M	M	3							Australia	DNF
+	DNF	Team Toilet Trainers	M	M	0							Australia	DNF
+	DNF	Sengoku Motonori	M	M65-69	0							Japan	DNF
+	DNF	Team Tompkins Park Sharks	M	M	5							Australia	DNF
+	DNF	Chan Mun Hong	M	M30-34	0							Singapore	DNF
+	DNF	Lisa Evans	F	F40-44	0							Australia	DNF
+	DNF	Andrew Murrie	M	M35-39	0							Australia	DNF
+	DNF	Eddie Fardell	M	M25-29	0							Australia	DNF
+	DNF	Peter Fergie	M	M50-54	0		1:15:07		4:17:27			Australia	DNF
+	DNF	Julie Neesam	F	F30-34	0							Australia	DNF
+	DNF	Anthony Fighera	M	M40-44	93		1:17:22		5:08:18			Australia	DNF
+	DNF	Frank Niemietz	M	M35-39	0							Germany	DNF
+	DNF	Josh Fraser	M	M30-34	0							United States	DNF
+	DNF	Shoichi Fujisawa	M	M45-49	0		1:34:01		6:23:20			Japan	DNF
+	DNF	Umeko Otake	F	F18-24	0							Japan	DNF
+	DNF	Annan Galloway	M	M35-39	0							United Kingdom	DNF
+	DNF	Alex Pallis	M	M40-44	0							Australia	DNF
+	DNF	Dean Gavan	M	M30-34	0		1:06:26		5:03:39			Albania	DNF
+	DNF	Alessandro Panarese	M	M40-44	0							Italy	DNF
+	DNF	Lynette Gentle	F	F50-54	0				8:43:21			Australia	DNF
+	DNF	Denis Perry	M	M25-29	0							Australia	DNF
+	DNF	Tracey Poffenroth	F	F30-34	0		2:16:12					Canada	DNF
+	DNF	Ferdinand Gunther	F	F65-69	0				5:31:26			French Polynesia	DNF
+	1	Mitchell Anderson	M	MPRO	1	8:27:36	0:57:11		4:30:41		2:59:44	Australia	FIN
+	2	Eneko Llanos	M	MPRO	2	8:31:41	0:50:38		4:46:10		2:54:53	Spain	FIN
+	3	Mathias Hecht	M	MPRO	3	8:32:16	0:50:36		4:45:52		2:55:48	Switzerland	FIN
+	4	Bryan Rhodes	M	MPRO	4	8:34:26	0:50:31		4:45:52		2:58:03	New Zealand	FIN
+	5	Petr Vabrousek	M	MPRO	5	8:36:06	0:57:14		4:42:38		2:56:14	Czech Republic	FIN
+	6	Chris Mcdonald	M	MPRO	6	8:37:39	0:55:10		4:38:01		3:04:28	New Zealand	FIN
+	7	Gerrit De Pauw	M	MPRO	7	8:41:51	0:53:49		4:45:51		3:02:11	Belgium	FIN
+	8	Boyd Conrick	M	MPRO	8	8:45:50	22:55:24				3:08:25	Australia	FIN
+	9	David Meade	M	MPRO	9	8:48:36	0:58:41		4:41:00		3:08:55	Australia	FIN
+	10	Kevin Cutjar	M	MPRO	10	8:52:09	0:55:13		4:55:28		3:01:28	Canada	FIN
+	11	Alain Vervoort	M	MPRO	11	8:54:36	0:55:56		4:59:35		2:59:05	Belgium	FIN
+	12	Lothar Leder	M	MPRO	12	9:00:12	0:55:03		4:53:15		3:11:54	Germany	FIN
+	13	Markus Strini	M	MPRO	13	9:03:27	1:04:47		4:50:28		3:08:12	Austria	FIN
+	14	Steven Bishop	M	MPRO	14	9:05:48	0:51:00		4:54:15		3:20:33	Australia	FIN
+	15	Luke Dragstra	M	MPRO	15	9:08:50	0:55:05		4:53:11		3:20:34	Canada	FIN
+	16	Oliver Piggin	M	MPRO	16	9:09:07	0:58:40		5:01:32		3:08:55	New Zealand	FIN
+	17	Mathew Tippett	M	MPRO	17	9:11:30	0:50:27		4:43:34		3:37:29	Australia	FIN
+	18	Giannis Koutsogiannis	M	M35-39	1	9:12:24	0:55:11		4:55:27		3:21:46	Greece	FIN
+	19	Kai Hundertmarck	M	MPRO	18	9:16:10	1:06:56		4:32:43		3:36:31	Germany	FIN
+	20	Steve Pratt	M	MPRO	19	9:18:00	0:54:24		5:14:43		3:08:53	Australia	FIN
+	21	Christopher Brown	M	M18-24	1	9:22:17	0:58:22		4:57:46		3:26:09	Canada	FIN
+	22	Mark Rossetto	M	M35-39	2	9:24:44	0:58:25		5:11:40		3:14:39	Australia	FIN
+	23	Dave Boyes	M	M40-44	1	9:28:30	1:06:02		5:02:49		3:19:39	Australia	FIN
+	24	Pete Jacobs	M	MPRO	20	9:28:35	0:50:45		5:05:30		3:32:20	Australia	FIN
+	25	James Sweeney	M	M35-39	3	9:29:46	1:02:53		5:09:58		3:16:55	Australia	FIN
+	26	Mike Le Roux	M	M25-29	1	9:30:15	1:03:44		5:06:44		3:19:47	Australia	FIN
+	27	Paul Smith	M	M35-39	4	9:30:41	0:58:39		5:04:41		3:27:21	Australia	FIN
+	28	Angela Milne	F	FPRO	1	9:31:32	0:58:40		5:14:32		3:18:20	Australia	FIN
+	29	Erin Carozzi	M	M30-34	1	9:31:33	1:07:07		5:19:56		3:04:30	Australia	FIN
+	30	Romano Bernhard	M	M35-39	5	9:31:49	1:03:10		5:08:44		3:19:55	Australia	FIN
+	31	Luke Matthews	M	M25-29	2	9:34:00	1:06:21		5:01:31		3:26:08	Australia	FIN
+	32	John Mergler	M	M45-49	1	9:34:43	1:10:58		4:57:17		3:26:28	Australia	FIN
+	33	Andy Hughes	M	M25-29	3	9:38:03	0:56:00		5:07:15		3:34:48	New Zealand	FIN
+	34	Margus Tamm	M	MPRO	21	9:39:15	1:01:34		5:01:31		3:36:10	Estonia	FIN
+	35	Anthony Palmer	M	M30-34	2	9:40:46	1:01:28		5:14:18		3:25:00	Australia	FIN
+	36	Jason Marino	M	M30-34	3	9:41:10	1:02:03		5:18:11		3:20:56	Australia	FIN
+	37	Peter Farrell	M	M30-34	4	9:43:21	1:06:38		5:06:59		3:29:44	Australia	FIN
+	38	Robbie Andrews	M	M35-39	6	9:44:25	1:02:45		5:15:06		3:26:34	Australia	FIN
+	39	Charlotte Paul	F	FPRO	2	9:47:28	1:01:28		5:35:23		3:10:37	Australia	FIN
+	40	Andrew Foggin	M	M35-39	7	9:47:46	1:05:34		5:03:06		3:39:06	Australia	FIN
+	41	Clive  Allen Chowles	M	MPRO	22	9:47:57	0:58:53		5:04:15		3:44:49	South Africa	FIN
+	42	Ben Cureton	M	M18-24	2	9:48:41	1:03:01		5:06:32		3:39:08	Australia	FIN
+	43	Tony Mcclement	M	M25-29	4	9:50:49	0:58:45		5:24:29		3:27:35	Australia	FIN
+	44	Darren Milligan	M	M25-29	5	9:52:58	1:06:40		5:15:44		3:30:34	Australia	FIN
+	45	Shannon Johanson	M	M25-29	6	9:53:11	1:02:54		5:26:54		3:23:23	Australia	FIN
+	46	Michael Rees	M	M35-39	8	9:54:15	0:53:54		5:16:02		3:44:19	Australia	FIN
+	47	Toby Somerville	M	M45-49	2	9:55:50	1:07:14		5:30:50		3:17:46	Australia	FIN
+	48	David Powell	M	M35-39	9	9:56:10	1:07:31		5:12:00		3:36:39	United Kingdom	FIN
+	49	Marilyn Macdonald	F	FPRO	3	9:56:51	1:06:55		5:09:19		3:40:37	Canada	FIN
+	50	Jeremy Brown	M	M30-34	5	10:01:16	1:07:07		5:10:26		3:43:43	Australia	FIN
+	51	Imke Schiersch	F	FPRO	4	10:01:40	1:06:55		5:24:26		3:30:19	Germany	FIN
+	52	Joanne Davies	F	F25-29	1	10:03:11	1:04:55		5:24:32		3:33:44	Australia	FIN
+	53	Matthew Koorey	M	M35-39	10	10:03:27	0:56:06		5:18:16		3:49:05	Australia	FIN
+	54	Paul Brabin	M	M35-39	11	10:03:31	1:11:54		5:25:27		3:26:10	New Zealand	FIN
+	55	Tim Howley	M	M40-44	2	10:04:52	1:03:03		5:24:35		3:37:14	Australia	FIN
+	56	John Hill	M	M45-49	3	10:06:22	1:08:42		5:25:34		3:32:06	Australia	FIN
+	57	Simon Burgess	M	M35-39	12	10:07:01	1:14:20		5:32:32		3:20:09	Australia	FIN
+	58	Matthew Von Bibra	M	M25-29	7	10:08:56	1:06:15		5:23:24		3:39:17	Australia	FIN
+	59	Brendyn Flood	M	M30-34	6	10:09:38	1:10:31		5:27:04		3:32:03	Australia	FIN
+	60	Sonja Heubach	F	FPRO	5	10:10:14	1:11:51		5:40:32		3:17:51	Germany	FIN
+	61	Jason Sim	M	M30-34	7	10:11:11	1:17:54		5:15:30		3:37:47	Australia	FIN
+	62	Benjamin Cornell	M	M30-34	8	10:12:33	1:11:56		5:21:34		3:39:03	United States	FIN
+	63	Jarrod Hudson	M	M30-34	9	10:12:45	1:05:45		5:31:57		3:35:03	Australia	FIN
+	64	Andrew Mccartney	M	MPRO	23	10:13:19	1:16:23		5:33:49		3:23:07	United Kingdom	FIN
+	65	Darren Jenkins	M	M18-24	3	10:13:47	1:22:42		5:31:41		3:19:24	Australia	FIN
+	66	Peter Richards	M	M45-49	4	10:16:22	1:11:59		5:25:28		3:38:55	Australia	FIN
+	67	Mark Jansen	M	M30-34	10	10:17:05	1:06:22		5:21:30		3:49:13	Australia	FIN
+	68	Matt Dec	M	M30-34	11	10:17:18	1:05:36		5:15:02		3:56:40	Australia	FIN
+	69	Matthew Poffenroth	M	M35-39	13	10:18:11	1:05:32		5:31:23		3:41:16	Canada	FIN
+	70	Scott Penny	M	M35-39	14	10:18:36	0:58:44		5:08:20		4:11:32	Australia	FIN
+	71	Shaun Sleep	M	M30-34	12	10:20:57	1:01:55		5:19:39		3:59:23	Australia	FIN
+	72	Anthony Rule	M	MPRO	24	10:22:46	0:58:42		4:55:19		4:28:45	Australia	FIN
+	73	Damion Littlewoood	M	M35-39	15	10:22:56	0:58:33		5:19:32		4:04:51	United Kingdom	FIN
+	74	Cordula Moller	F	FPRO	6	10:23:10			6:50:25		3:32:45	Namibia	FIN
+	75	Aaron Richardson	M	M30-34	13	10:23:28	0:59:11		5:52:41		3:31:36	Australia	FIN
+	76	Shane Clarke	M	M30-34	14	10:24:35	1:12:57		5:14:59		3:56:39	Australia	FIN
+	77	Stephen Firth	M	M45-49	5	10:24:39	1:02:02		5:30:50		3:51:47	Australia	FIN
+	78	Colin Muijs	M	M35-39	16	10:25:15	1:06:01		5:24:36		3:54:38	Australia	FIN
+	79	Mark Kay	M	M35-39	17	10:25:33	0:54:20		5:22:47		4:08:26	Australia	FIN
+	80	Lisa Marangon	F	FPRO	7	10:26:04	0:58:44		5:24:39		4:02:41	Australia	FIN
+	81	Ivan Whittle	M	M45-49	6	10:26:14	1:03:16		5:34:51		3:48:07	Australia	FIN
+	82	Nick Vaughan	M	M40-44	3	10:26:42	1:06:47		5:27:32		3:52:23	New Zealand	FIN
+	83	Jon Esslemont	M	M35-39	18	10:27:51	1:10:47		5:33:33		3:43:31	Australia	FIN
+	84	Alan Kuipers-Chan	M	M35-39	19	10:28:45	1:05:33		5:12:34		4:10:38	Australia	FIN
+	85	Michael Stevenson	M	M30-34	15	10:29:58	1:05:22		5:26:05		3:58:31	Australia	FIN
+	86	Jorge  Juan Mendoza	M	M30-34	16	10:30:35	1:13:28		5:46:07		3:31:00	Spain	FIN
+	87	Rod Grace	M	M40-44	4	10:31:15	1:06:43		5:22:38		4:01:54	Australia	FIN
+	88	Tim Brettig	M	M18-24	4	10:31:55	1:03:05		5:09:57		4:18:53	Australia	FIN
+	89	Jim Sunners	M	M40-44	5	10:32:13	1:05:47		5:02:26		4:24:00	Canada	FIN
+	90	Colin Clarke	M	M50-54	1	10:32:21	1:07:04		5:31:33		3:53:44	Australia	FIN
+	91	Deiter Mcdonald	M	M30-34	17	10:33:09	1:05:12		5:18:12		4:09:45	Australia	FIN
+	92	David Barber	M	M35-39	20	10:33:20	1:12:16		5:23:38		3:57:26	Australia	FIN
+	93	Matt Reed	M	M30-34	18	10:33:44	1:16:55		5:40:54		3:35:55	Australia	FIN
+	94	Chris Manzie	M	M30-34	19	10:35:50	1:11:57		5:42:05		3:41:48	Australia	FIN
+	95	John Henderson	M	M40-44	6	10:35:59	1:02:58		5:39:25		3:53:36	Australia	FIN
+	96	Roger Levie	M	M45-49	7	10:37:09	1:16:22		5:21:12		3:59:35	New Zealand	FIN
+	97	Jens Joedecke	M	M40-44	7	10:37:42	1:10:20		5:35:50		3:51:32	Germany	FIN
+	98	Andrew Cross	M	M30-34	20	10:38:08	1:07:16		5:37:27		3:53:25	Australia	FIN
+	99	Daniel Abercrombie	M	M30-34	21	10:38:33	1:13:12		5:37:31		3:47:50	Australia	FIN
+	100	Amanda Lovato	F	FPRO	8	10:38:45	1:02:35		5:33:09		4:03:01	United States	FIN
+	101	Chris Rulon	M	M35-39	21	10:38:53	1:15:51		5:21:23		4:01:39	United States	FIN
+	102	Dale Mcfaull	M	M30-34	22	10:39:25	1:03:11		5:34:15		4:01:59	Australia	FIN
+	103	Paul Haley	M	M35-39	22	10:39:43	1:12:06		5:27:38		3:59:59	Australia	FIN
+	104	Marcel Weijers	M	M35-39	23	10:41:50	1:01:26		5:57:48		3:42:36	Australia	FIN
+	105	Matthew Cowper	M	M30-34	23	10:41:53	1:06:24		5:40:46		3:54:43	Australia	FIN
+	106	Leon Marais	M	M30-34	24	10:42:01	1:06:42		5:28:13		4:07:06	South Africa	FIN
+	107	David Jennings	M	M35-39	24	10:42:52	1:07:00		5:36:57		3:58:55	Australia	FIN
+	108	Richard Armstrong	M	M40-44	8	10:43:11	1:06:37		5:34:19		4:02:15	Australia	FIN
+	109	Greg Mackenzie	M	M45-49	8	10:43:16	1:06:51		5:53:15		3:43:10	Australia	FIN
+	110	Mark Cumming	M	M30-34	25	10:43:39	1:06:34		5:39:50		3:57:15	Australia	FIN
+	111	Russell Platts	M	M40-44	9	10:43:46	1:07:10		5:07:59		4:28:37	Azerbaijan	FIN
+	112	Craig Sloan	M	M40-44	10	10:44:04	1:05:19		5:30:52		4:07:53	Australia	FIN
+	113	Gregory Burford	M	M35-39	25	10:44:43	1:15:02		5:39:14		3:50:27	Australia	FIN
+	114	Donny Everest	M	M40-44	11	10:44:50	1:05:41		5:30:01		4:09:08	Australia	FIN
+	115	Andrew Stewart	M	M25-29	8	10:44:59	1:01:54		5:40:38		4:02:27	Australia	FIN
+	116	Shannon Brisco	M	M30-34	26	10:45:26	1:12:01		5:35:18		3:58:07	New Zealand	FIN
+	117	Gerald Osullivan	M	M30-34	27	10:47:11	1:16:21		5:31:47		3:59:03	Australia	FIN
+	118	Shane Wharton	M	M35-39	26	10:47:16	1:05:56		5:48:38		3:52:42	Australia	FIN
+	119	Stewart Phillis	M	M30-34	28	10:48:20	1:18:50		5:16:58		4:12:32	Australia	FIN
+	120	Rick Twine	M	M40-44	12	10:48:32	1:06:06		5:27:48		4:14:38	Australia	FIN
+	121	Sean Justin Woolnough	M	M25-29	9	10:49:08	0:55:19		5:46:40		4:07:09	Australia	FIN
+	122	Michel Hanggi	M	M30-34	29	10:49:34	1:16:33		5:43:38		3:49:23	Switzerland	FIN
+	123	Chris Bray	M	M35-39	27	10:49:36	1:05:40		5:41:14		4:02:42	Australia	FIN
+	124	Hugo Lemmen	M	M40-44	13	10:50:10	1:00:53		5:28:26		4:20:51	South Africa	FIN
+	125	Shane Walker	M	M40-44	14	10:50:27	1:06:52		6:00:33		3:43:02	Australia	FIN
+	126	Andrew Ferguson	M	M30-34	30	10:50:46	1:01:32		5:13:54		4:35:20	United States	FIN
+	127	Michael Lelievre	M	M30-34	31	10:50:58	1:09:56		5:46:44		3:54:18	France	FIN
+	128	Eamonn Kenihan	M	M25-29	10	10:51:10	1:07:20		5:42:46		4:01:04	Ireland	FIN
+	129	Stuart Mayers	M	M30-34	32	10:52:45	1:02:22		5:41:38		4:08:45	Australia	FIN
+	130	Joseph Siegel	M	M25-29	11	10:52:50	1:26:55		5:50:06		3:35:49	Japan	FIN
+	131	Barbara Scatchard	F	FPRO	9	10:53:04	1:06:12		5:29:47		4:17:05	Canada	FIN
+	132	Gunnar Schaefer	M	M40-44	15	10:54:42	1:10:16		5:58:43		3:45:43	Germany	FIN
+	133	Chris Obrien	M	M35-39	28	10:55:08	1:07:02		5:27:28		4:20:38	Australia	FIN
+	134	Susan Langley	F	F35-39	1	10:55:11	1:14:46		5:45:02		3:55:23	Australia	FIN
+	135	Julie Guthrie	F	F30-34	1	10:55:30	1:13:18		5:44:51		3:57:21	United States	FIN
+	136	Brian Horvath	M	M40-44	16	10:55:32	1:09:32		5:36:15		4:09:45	United States	FIN
+	137	Brett Urwin	M	M35-39	29	10:56:36	0:58:37		5:14:22		4:43:37	Australia	FIN
+	138	Jason Hope	M	M35-39	30	10:56:36			7:05:48		3:50:48	Australia	FIN
+	139	Craig Whiting	M	M30-34	33	10:57:36	1:06:44		5:21:46		4:29:06	New Zealand	FIN
+	140	Robert Lennon	M	M25-29	12	10:58:01	1:09:40		5:50:39		3:57:42	Australia	FIN
+	141	Olaf Radike	M	M35-39	31	10:58:41	1:12:49		5:33:22		4:12:30	Germany	FIN
+	142	Peter Bacon	M	M25-29	13	10:59:48	1:06:50		5:58:25		3:54:33	United Kingdom	FIN
+	143	John Oleary	M	M25-29	14	11:02:21	1:15:45		6:04:31		3:42:05	United Kingdom	FIN
+	144	Bruce Dewar	M	M30-34	34	11:02:48	1:00:58		5:32:19		4:29:31	Australia	FIN
+	145	Terry Roberts	M	M40-44	17	11:02:59	1:06:20		5:33:09		4:23:30	Australia	FIN
+	146	Andra Verhaeghe	M	M45-49	9	11:03:40	1:22:38		5:38:02		4:03:00	Belgium	FIN
+	147	Doug Brightwell	M	M30-34	35	11:04:34	1:14:11		5:24:20		4:26:03	Australia	FIN
+	148	Keith Greenough	M	M55-59	1	11:05:25	1:17:18		5:48:25		3:59:42	United Kingdom	FIN
+	149	Gavin Cole	M	M25-29	15	11:06:14	1:10:22		5:47:20		4:08:32	Australia	FIN
+	150	David Wall	M	M45-49	10	11:06:32	1:09:41		5:50:51		4:06:00	Australia	FIN
+	151	Paul Wallace	M	M35-39	32	11:06:55	1:12:56		5:44:56		4:09:03	Australia	FIN
+	152	Mark Goodhand	M	M45-49	11	11:08:04	1:06:49		5:51:34		4:09:41	United Kingdom	FIN
+	153	Folker Hanusch	M	M30-34	36	11:08:41	1:14:14		5:48:31		4:05:56	Germany	FIN
+	154	Robert Johnston	M	M30-34	37	11:09:23	1:03:14		5:39:32		4:26:37	Ireland	FIN
+	155	Michelle Downs	F	F18-24	1	11:09:36	1:00:58		5:58:36		4:10:02	Australia	FIN
+	156	Rachael Smith	F	F30-34	2	11:09:57	1:11:50		5:36:16		4:21:51	Australia	FIN
+	157	Liam Johnson	M	M25-29	16	11:10:08	1:02:59		5:39:43		4:27:26	Australia	FIN
+	158	Stephen Bradshaw	M	M40-44	18	11:11:14	1:04:07		5:31:35		4:35:32	Australia	FIN
+	159	Michael Nightingale	M	M45-49	12	11:12:19	1:03:06		5:36:18		4:32:55	New Zealand	FIN
+	160	Marty Leahy	M	M35-39	33	11:12:27	1:17:42		5:04:58		4:49:47	Australia	FIN
+	161	Fraser Reid	M	M40-44	19	11:12:44	1:11:42		5:45:55		4:15:07	Australia	FIN
+	162	Christian Planus	M	M45-49	13	11:12:45	1:19:26		5:47:49		4:05:30	Belgium	FIN
+	163	Matthew Griffin	M	M35-39	34	11:12:45	1:22:52		5:33:06		4:16:47	New Zealand	FIN
+	164	Kristen Connell	F	F30-34	3	11:12:48	1:11:01		6:01:35		4:00:12	Australia	FIN
+	165	Lisa Markwick	F	F35-39	2	11:12:55	1:19:53		5:48:12		4:04:50	New Zealand	FIN
+	166	John Griffin	M	M40-44	20	11:13:07	1:06:03		5:26:39		4:40:25	United Kingdom	FIN
+	167	Dean Cook	M	M30-34	38	11:13:23	1:31:11		5:50:34		3:51:38	Australia	FIN
+	168	Kellie Epis	F	F35-39	3	11:13:30	1:35:47		5:55:09		3:42:34	Australia	FIN
+	169	Chris Walls	M	M35-39	35	11:14:10	1:06:26		5:34:53		4:32:51	New Zealand	FIN
+	170	Jacek Dziarek	M	M45-49	14	11:14:44	1:07:39		5:53:11		4:13:54	Poland	FIN
+	171	Mark Batten	M	M45-49	15	11:14:45	1:06:52		5:44:39		4:23:14	Australia	FIN
+	172	Mark Crudden	M	M40-44	21	11:14:52	1:27:27		5:34:30		4:12:55	United Kingdom	FIN
+	173	Bruce Layman	M	M35-39	36	11:15:20	1:06:17		5:42:23		4:26:40	Australia	FIN
+	174	Michelle Hampson	F	F35-39	4	11:15:33	1:22:11		5:54:42		3:58:40	Australia	FIN
+	175	David Evans	M	M45-49	16	11:16:14	1:23:58		5:40:18		4:11:58	Australia	FIN
+	176	Julian Chipper	M	M30-34	39	11:16:37	1:01:58		5:50:52		4:23:47	Australia	FIN
+	177	Vance Bryan	M	M30-34	40	11:18:12	1:02:12		6:06:04		4:09:56	Australia	FIN
+	178	Maria Ross	F	F40-44	1	11:18:32	1:17:24		6:05:26		3:55:42	Australia	FIN
+	179	Sara Steen	F	F30-34	4	11:18:44	1:16:28		5:55:49		4:06:27	Australia	FIN
+	180	Brad Hart	M	M25-29	17	11:19:17	1:06:23		5:48:06		4:24:48	Australia	FIN
+	181	Mark Flockhart	M	M45-49	17	11:21:29	1:05:33		5:27:51		4:48:05	Australia	FIN
+	182	Doug Griffiths	M	M35-39	37	11:21:47	1:13:57		5:43:36		4:24:14	Australia	FIN
+	183	Joe Stephens	M	M18-24	5	11:22:29	1:05:41		5:37:08		4:39:40	United States	FIN
+	184	Gary Couanis	M	M25-29	18	11:22:54	0:55:09		5:36:31		4:51:14	Australia	FIN
+	185	Volker Schaubruch	M	M35-39	38	11:23:02	1:32:14		5:38:12		4:12:36	Germany	FIN
+	186	Karen Sixsmith	F	F25-29	2	11:23:02	1:25:55		6:07:40		3:49:27	Australia	FIN
+	187	Jeff Hansen	M	M30-34	41	11:23:39	1:12:59		6:10:10		4:00:30	Australia	FIN
+	188	Dee Thomas	M	M40-44	22	11:23:53	1:16:32		5:47:33		4:19:48	Australia	FIN
+	189	Brad Teys	M	M35-39	39	11:25:19	1:10:06		5:52:15		4:22:58	Australia	FIN
+	190	Shane Steven	M	M25-29	19	11:25:24	1:10:45		5:56:48		4:17:51	Australia	FIN
+	191	Stephen Martin	M	M40-44	23	11:25:52	1:08:26		6:04:43		4:12:43	Australia	FIN
+	192	Chris Roberts	M	M35-39	40	11:26:20	1:05:35		5:31:20		4:49:25	Australia	FIN
+	193	Travis Giansiracusa	M	M25-29	20	11:27:25	1:20:31		5:41:05		4:25:49	Australia	FIN
+	194	Brett Smith	M	M30-34	42	11:27:29	1:09:28		6:01:08		4:16:53	Australia	FIN
+	195	Stephen Duerden	M	M40-44	24	11:27:35	1:16:34		5:44:06		4:26:55	Australia	FIN
+	196	Steve Milne	M	M45-49	18	11:27:45	1:16:28		6:04:03		4:07:14	New Zealand	FIN
+	197	Matthew Green	M	M35-39	41	11:28:50	1:14:55		5:47:42		4:26:13	Australia	FIN
+	198	Jeffery Heisler	M	M40-44	25	11:30:01	1:31:31		5:44:18		4:14:12	United States	FIN
+	199	Peter Zabiela	M	M45-49	19	11:30:03	1:12:58		5:43:30		4:33:35	Australia	FIN
+	200	Roger Casey	M	M40-44	26	11:31:16	0:55:55		6:10:55		4:24:26	Australia	FIN
+	201	Bryan Hoare	M	M35-39	42	11:31:37	0:57:16		5:19:11		5:15:10	Uganda	FIN
+	202	Marshall Howard	M	M45-49	20	11:31:56	1:14:35		6:07:37		4:09:44	Australia	FIN
+	203	Frank Strini	M	M35-39	43	11:32:11	1:05:24		5:42:37		4:44:10	Australia	FIN
+	204	Stephen Courtney	M	MPRO	25	11:32:33	0:59:11		5:23:39		5:09:43	South Africa	FIN
+	205	Kevin Lowe	M	M55-59	2	11:32:45	1:24:04		5:44:40		4:24:01	New Zealand	FIN
+	206	Raija Sell	F	F35-39	5	11:32:51	1:22:41		6:23:03		3:47:07	Australia	FIN
+	207	Wayne Steer	M	M40-44	27	11:32:52	1:07:26		5:43:33		4:41:53	Australia	FIN
+	208	Derek Sands	M	M35-39	44	11:33:29	1:18:59		5:42:18		4:32:12	Australia	FIN
+	209	Katsumi Kimura	M	M30-34	43	11:33:36	1:13:49		5:50:52		4:28:55	Japan	FIN
+	210	Chris Stewart	M	M18-24	6	11:33:50	1:09:38		5:59:51		4:24:21	Australia	FIN
+	211	Frank Matthews	M	M45-49	21	11:33:56	1:09:37		6:19:02		4:05:17	Australia	FIN
+	212	Justin Lee	M	M35-39	45	11:34:32	1:14:02		6:03:13		4:17:17	Australia	FIN
+	213	Mark Glossoti	M	M30-34	44	11:34:44	1:10:12		6:04:33		4:19:59	Singapore	FIN
+	214	Neil Anderson	M	M40-44	28	11:34:57	1:36:32		6:10:07		3:48:18	United Kingdom	FIN
+	215	Darryl Harris	M	M40-44	29	11:35:45	1:02:09		5:52:47		4:40:49	Australia	FIN
+	216	Matthias Munster	M	M35-39	46	11:36:08	1:31:25		5:40:30		4:24:13	Germany	FIN
+	217	Michael Jones	M	M45-49	22	11:38:36	1:30:35		5:35:52		4:32:09	Australia	FIN
+	218	Ben Ferguson	M	M30-34	45	11:38:42	1:30:30		5:52:30		4:15:42	United States	FIN
+	219	Ian Garrity	M	M40-44	30	11:38:59	1:10:24		5:16:36		5:11:59	Australia	FIN
+	220	Gavin Boromeo	M	M30-34	46	11:39:12	1:10:35		5:57:16		4:31:21	Australia	FIN
+	221	Brett Wiesner	M	M35-39	47	11:39:15	1:16:20		5:49:30		4:33:25	United States	FIN
+	222	Justin Hunter	M	M30-34	47	11:39:23	1:05:03		5:46:39		4:47:41	Australia	FIN
+	223	Stephen Mowrey	M	M55-59	3	11:39:48	1:16:02		5:49:41		4:34:05	United States	FIN
+	224	Richard Monaghan	M	M30-34	48	11:40:14	1:07:05		5:45:49		4:47:20	Australia	FIN
+	225	Moema Luethy	F	F30-34	5	11:40:29	1:18:00		6:13:59		4:08:30	Switzerland	FIN
+	226	Ruth Vesler	F	FPRO	10	11:40:35	1:01:05		5:59:33		4:39:57	United States	FIN
+	227	Colleen Penny	F	F35-39	6	11:40:46	1:07:01		6:09:02		4:24:43	Australia	FIN
+	228	Carl Mamers	M	M30-34	49	11:41:03	1:09:56		5:53:57		4:37:10	Australia	FIN
+	229	Mark Adams	M	M35-39	48	11:41:24	1:10:30		5:29:09		5:01:45	Australia	FIN
+	230	Jeffrey Foo	M	M30-34	50	11:41:28	1:21:27		6:18:35		4:01:26	Singapore	FIN
+	231	Bradford Krokosz	M	M25-29	21	11:41:38	1:08:29		6:33:42		3:59:27	Australia	FIN
+	232	Ian Edwards	M	M30-34	51	11:42:12	1:34:06		5:40:09		4:27:57	United Kingdom	FIN
+	233	Petr Horacek	M	M40-44	31	11:42:30	1:11:40		5:51:26		4:39:24	Czech Republic	FIN
+	234	David Spencer	M	M30-34	52	11:42:56	1:23:20		5:57:28		4:22:08	Australia	FIN
+	235	Peter Holenweg	M	M45-49	23	11:42:58	1:16:55		5:40:17		4:45:46	Switzerland	FIN
+	236	Belinda Wood	F	F35-39	7	11:44:18	1:14:20		6:05:26		4:24:32	Australia	FIN
+	237	Stuart Knuckey	M	M30-34	53	11:45:33	1:18:46		6:05:39		4:21:08	Australia	FIN
+	238	Robert Maddern	M	M40-44	32	11:46:21	1:18:39		6:22:08		4:05:34	Australia	FIN
+	239	Antonio Rapa	M	M45-49	24	11:46:31	1:11:53		6:02:00		4:32:38	Italy	FIN
+	240	Neil Mcallister	M	M25-29	22	11:46:40	1:05:49		5:45:15		4:55:36	Australia	FIN
+	241	Elizabeth Edmonds	F	F40-44	2	11:47:36	1:20:14		6:38:05		3:49:17	Australia	FIN
+	242	Laurence Bouchara	F	F25-29	3	11:47:44	1:30:06		5:49:28		4:28:10	France	FIN
+	243	Ian Traill	M	M30-34	54	11:49:11	1:00:48		5:34:01		5:14:22	Australia	FIN
+	244	Dougal Burton	M	M40-44	33	11:49:54	1:02:26		6:02:03		4:45:25	Australia	FIN
+	245	Mike Oneill	M	M45-49	25	11:50:30	1:21:34		6:18:36		4:10:20	Hong Kong	FIN
+	246	Julie Saunders	F	F18-24	2	11:50:52	1:07:24		6:31:48		4:11:40	Australia	FIN
+	247	Andrew Kerr	M	M30-34	55	11:51:08	1:27:58		5:29:23		4:53:47	Australia	FIN
+	248	Iain Purdie	M	M35-39	49	11:53:07	1:09:52		5:17:15		5:26:00	New Zealand	FIN
+	249	Richard Stacey	M	M40-44	34	11:53:14	1:19:01		5:44:24		4:49:49	Australia	FIN
+	250	Thomas Toth	M	M25-29	23	11:54:24	1:24:20		5:41:49		4:48:15	United States	FIN
+	251	Giuseppe Baldelli	M	M35-39	50	11:55:48	1:39:05		5:41:43		4:35:00	Italy	FIN
+	252	Jim Obrien	M	M25-29	24	11:56:27	1:21:17		6:17:41		4:17:29	Ireland	FIN
+	253	Anna Raptis	F	F30-34	6	11:56:37	1:06:31		6:33:38		4:16:28	Australia	FIN
+	254	Simon Utan	M	M30-34	56	11:57:05	1:10:36		6:12:03		4:34:26	Australia	FIN
+	255	Kevin Crowley	M	M45-49	26	11:58:56	1:15:41		5:55:17		4:47:58	New Zealand	FIN
+	256	Colin Hawkins	M	M45-49	27	11:59:13	1:11:12		5:49:37		4:58:24	Australia	FIN
+	257	Darren Pesich	M	M30-34	57	11:59:44	1:21:06		6:35:20		4:03:18	Australia	FIN
+	258	Jared Cornelius	M	M30-34	58	12:01:08	1:06:53		6:00:57		4:53:18	Australia	FIN
+	259	Melissa Cotter	F	F30-34	7	12:01:14	1:21:46		6:31:01		4:08:27	Australia	FIN
+	260	Chris Kiley	M	M50-54	2	12:02:11	1:57:40		5:36:15		4:28:16	Australia	FIN
+	261	Graeme Wood	M	M55-59	4	12:02:32	1:22:17		5:56:13		4:44:02	Australia	FIN
+	262	Juan Craveri	M	M35-39	51	12:02:39	1:13:39		5:55:15		4:53:45	Argentinia	FIN
+	263	Yoshihisa Godo	M	M55-59	5	12:02:47	1:22:01		6:24:03		4:16:43	Japan	FIN
+	264	Graeme Atwell	M	M30-34	59	12:03:17	1:13:30		6:09:55		4:39:52	Australia	FIN
+	265	Mitchell Marzo	M	M25-29	25	12:03:19	1:15:42		6:18:24		4:29:13	United States	FIN
+	266	Jason Cheshire	M	M30-34	60	12:03:56	1:05:12		5:26:11		5:32:33	Australia	FIN
+	267	Fiona Lawrence	F	F30-34	8	12:03:57	1:17:44		6:20:37		4:25:36	Australia	FIN
+	268	Simon Webber	M	M30-34	61	12:04:06	1:13:01		5:48:54		5:02:11	Australia	FIN
+	269	Jennifer Rulon	F	F30-34	9	12:04:22	1:24:30		6:15:51		4:24:01	United States	FIN
+	270	John Barker	M	M40-44	35	12:04:30	1:13:11		6:09:16		4:42:03	Australia	FIN
+	271	Jean-Philippe Trin	M	M35-39	52	12:04:47	1:19:02		5:47:42		4:58:03	New Caledonia	FIN
+	272	Andrew Mckenzie	M	M45-49	28	12:04:56	1:34:30		5:42:25		4:48:01	Australia	FIN
+	273	Michael Schwartz	M	M25-29	26	12:05:54	1:28:46		5:44:59		4:52:09	United States	FIN
+	274	Michael Parrotte	M	M40-44	36	12:06:48	1:15:22		6:22:08		4:29:18	Australia	FIN
+	275	Sibusiso Khoza	M	M18-24	7	12:07:47	1:07:30		6:44:44		4:15:33	South Africa	FIN
+	276	Steffen Reister	M	M40-44	37	12:09:11	1:14:42		6:16:08		4:38:21	Germany	FIN
+	277	Kazuhisa Otsuka	M	M40-44	38	12:09:13	1:25:58		5:59:40		4:43:35	Japan	FIN
+	278	Michael Abdo	M	M25-29	27	12:09:36	1:14:09		6:16:47		4:38:40	Australia	FIN
+	279	Yoshiro Ando	M	M50-54	3	12:09:40	1:41:21		6:16:28		4:11:51	Japan	FIN
+	280	Eric Higgins	M	M55-59	6	12:09:54	1:16:26		6:15:50		4:37:38	Australia	FIN
+	281	Glen Last	M	M30-34	62	12:10:24	1:09:54		6:05:15		4:55:15	Australia	FIN
+	282	Steve Bertling	M	M50-54	4	12:11:03	1:23:24		5:59:59		4:47:40	Australia	FIN
+	283	Laurent Wettstein	M	M50-54	5	12:11:04	1:17:41		5:55:21		4:58:02	Switzerland	FIN
+	284	Mark Sedgwick	M	M40-44	39	12:11:48	1:18:49		5:48:37		5:04:22	Australia	FIN
+	285	Keiko Kimura	F	F30-34	10	12:12:07	1:19:10		6:05:24		4:47:33	Japan	FIN
+	286	Mark Zwitser	M	M30-34	63	12:13:59	1:20:40		5:54:38		4:58:41	New Zealand	FIN
+	287	Brad Downs	M	M25-29	28	12:15:10	0:58:06		6:11:21		5:05:43	Australia	FIN
+	288	Paul Robilliard	M	M35-39	53	12:15:45	1:43:59		5:49:51		4:41:55	Canada	FIN
+	289	Jeff Coleman	M	M35-39	54	12:15:47	1:05:23		6:08:49		5:01:35	Australia	FIN
+	290	Alamo Candrian	M	M35-39	55	12:16:38	1:12:33		5:56:24		5:07:41	Switzerland	FIN
+	291	Simon Lu	M	M35-39	56	12:16:55	1:12:47		6:23:01		4:41:07	Singapore	FIN
+	292	Katherine Bryant	F	F40-44	3	12:18:06	1:17:31		6:03:02		4:57:33	New Zealand	FIN
+	293	William Blackshaw	M	M25-29	29	12:18:19	1:28:42		5:49:08		5:00:29	Australia	FIN
+	294	Andy Everest	M	M35-39	57	12:18:32	1:22:57		6:17:46		4:37:49	Australia	FIN
+	295	Daniel Grigson	M	M30-34	64	12:18:54	1:11:09		6:37:05		4:30:40	Australia	FIN
+	296	Andrew Crabb	M	M35-39	58	12:19:28	1:16:11		5:40:38		5:22:39	Australia	FIN
+	297	Kevin Fulker	M	M25-29	30	12:19:34	1:22:40		6:38:30		4:18:24	United Kingdom	FIN
+	298	John Domican	M	M45-49	29	12:21:28	1:19:06		5:42:00		5:20:22	Australia	FIN
+	299	Mark Cadle	M	M40-44	40	12:21:41	1:23:16		6:15:38		4:42:47	United Kingdom	FIN
+	300	Jiro Tsuchiya	M	M45-49	30	12:22:41	1:16:15		6:21:28		4:44:58	Japan	FIN
+	301	Mark Twiss	M	M35-39	59	12:23:06	1:22:01		6:21:36		4:39:29	Australia	FIN
+	302	Cheryl Lowery	F	F40-44	4	12:23:25	1:12:57		6:20:23		4:50:05	Canada	FIN
+	303	Jen Lowery	F	F18-24	3	12:23:25	1:03:02		6:39:56		4:40:27	Canada	FIN
+	304	Kristel Laureyssenn	F	F30-34	11	12:23:44	1:21:58		6:33:35		4:28:11	Belgium	FIN
+	305	Barry Turner	M	M40-44	41	12:23:53	2:05:54		5:25:29		4:52:30	Australia	FIN
+	306	Max Higgins	M	M45-49	31	12:24:06	1:25:41		6:10:48		4:47:37	Australia	FIN
+	307	Mark Stojanovski	M	M30-34	65	12:24:35	1:22:14		6:11:48		4:50:33	Australia	FIN
+	308	Darryl Ray	M	M35-39	60	12:24:41	1:12:04		5:56:05		5:16:32	Australia	FIN
+	309	Michael Shortill	M	M25-29	31	12:25:05	1:05:43		6:24:06		4:55:16	Australia	FIN
+	310	Peter Ware	M	M45-49	32	12:25:10	1:02:32		6:06:44		5:15:54	Australia	FIN
+	311	Trevor Sellers	M	M40-44	42	12:26:07	1:37:12		6:17:25		4:31:30	Australia	FIN
+	312	Karen Layman	F	F30-34	12	12:26:26	1:16:11		6:27:04		4:43:11	Australia	FIN
+	313	Mark Arentz	M	M18-24	8	12:26:43	1:06:07		6:07:35		5:13:01	Australia	FIN
+	314	Felix Arnold	M	M30-34	66	12:26:47	1:25:51		6:01:48		4:59:08	Switzerland	FIN
+	315	Michael Obst	M	M35-39	61	12:26:59	1:04:57		5:59:10		5:22:52	Australia	FIN
+	316	Brett Taylor	M	M30-34	67	12:28:25	1:16:02		6:09:29		5:02:54	Australia	FIN
+	317	Mack Reid	M	M18-24	9	12:29:05	1:07:40		6:19:27		5:01:58	Australia	FIN
+	318	Woody Paylor	M	M60-64	1	12:30:36	1:32:28		6:08:55		4:49:13	Canada	FIN
+	319	Ian Scott	M	M50-54	6	12:31:44	1:16:09		6:26:07		4:49:28	Australia	FIN
+	320	Alexis Kaless	M	M25-29	32	12:32:00	1:33:02		6:21:29		4:37:29	Australia	FIN
+	321	Shannon Codd	M	M25-29	33	12:32:02	1:18:06		5:39:00		5:34:56	Australia	FIN
+	322	Lloyd Morgan	M	M40-44	43	12:32:52	1:05:24		5:34:31		5:52:57	Australia	FIN
+	323	Peter Seldon	M	M30-34	68	12:32:54	1:28:30		5:59:10		5:05:14	Australia	FIN
+	324	Travis Murphy	M	M25-29	34	12:34:18	1:14:44		6:26:54		4:52:40	Australia	FIN
+	325	Justin Cook	M	M40-44	44	12:35:01	1:01:58		6:19:59		5:13:04	Australia	FIN
+	326	Heike Scheef	F	F40-44	5	12:35:23	1:28:45		6:18:23		4:48:15	Switzerland	FIN
+	327	Colin Luff	M	M45-49	33	12:35:32	1:27:00		6:05:11		5:03:21	Australia	FIN
+	328	Dave Lane	M	M50-54	7	12:35:50	1:14:39		6:17:20		5:03:51	New Zealand	FIN
+	329	Jon Mackelvie	M	M40-44	45	12:36:02	1:19:20		6:19:05		4:57:37	Australia	FIN
+	330	Garth Warren	M	M25-29	35	12:36:12	1:34:28		6:20:25		4:41:19	United States	FIN
+	331	Dennis Rae	M	M45-49	34	12:36:44	1:23:49		6:27:48		4:45:07	Australia	FIN
+	332	Laurence Wynne	M	M50-54	8	12:37:06	1:25:38		6:09:01		5:02:27	Australia	FIN
+	333	Eugene Lee	M	M25-29	36	12:37:36	1:11:14		6:27:30		4:58:52	Singapore	FIN
+	334	Dale Walters	M	M35-39	62	12:37:51	1:11:17		5:58:27		5:28:07	Australia	FIN
+	335	Kevin Millar	M	M50-54	9	12:38:30	1:18:32		6:27:43		4:52:15	South Africa	FIN
+	336	Denis Cullen	M	M55-59	7	12:38:57	1:18:57		6:14:23		5:05:37	Australia	FIN
+	337	Steve Baker	M	M35-39	63	12:39:42	1:13:07		6:06:45		5:19:50	Australia	FIN
+	338	Greg Bradley	M	M30-34	69	12:40:22	1:30:13		6:10:51		4:59:18	Canada	FIN
+	339	David Hosking	M	M55-59	8	12:41:07	1:11:02		6:10:21		5:19:44	Australia	FIN
+	340	Tetsuro Nomoto	M	M40-44	46	12:41:10	1:11:00		6:40:28		4:49:42	Hong Kong	FIN
+	341	Jeremy Gibson	M	M30-34	70	12:41:12	0:59:05		6:19:56		5:22:11	South Africa	FIN
+	342	Heidi Van Brocklin	F	F30-34	13	12:41:31	1:24:49		6:28:43		4:47:59	United States	FIN
+	343	Ronald Cummings	M	M35-39	64	12:41:40	1:13:01		6:09:35		5:19:04	Guam	FIN
+	344	Ben Mcdermid	M	M30-34	71	12:42:04	1:21:36		6:05:19		5:15:09	Australia	FIN
+	345	Susan Seay	F	F40-44	6	12:42:48	1:26:29		6:16:39		4:59:40	Guam	FIN
+	346	Rizalino Frias	M	M40-44	47	12:42:49	1:17:34		6:00:40		5:24:35	Guam	FIN
+	347	Justin Scott	M	M35-39	65	12:43:58	1:28:49		6:12:01		5:03:08	Australia	FIN
+	348	Greg Hogan	M	M40-44	48	12:44:40	1:21:19		6:15:54		5:07:27	Australia	FIN
+	349	Karen Short	F	F50-54	1	12:45:02	1:26:40		6:44:10		4:34:12	Australia	FIN
+	350	Alberto De La Fuente	M	M30-34	72	12:45:16	1:24:20		6:11:18		5:09:38	Mexico	FIN
+	351	Jane Ballantyne	F	F50-54	2	12:45:19	1:28:13		6:37:09		4:39:57	Canada	FIN
+	352	Gavin Bamford	M	M35-39	66	12:45:52	1:16:25		5:58:02		5:31:25	Australia	FIN
+	353	Warren Clarke	M	M40-44	49	12:46:47	1:13:06		6:46:23		4:47:18	Australia	FIN
+	354	Tan Cheng Yin	F	F30-34	14	12:46:57	1:21:42		6:44:48		4:40:27	Singapore	FIN
+	355	Melissa Cundy	F	F30-34	15	12:47:02	1:12:44		6:20:18		5:14:00	Australia	FIN
+	356	Pamela Williams	F	F50-54	3	12:48:40	1:25:42		6:30:58		4:52:00	Australia	FIN
+	357	Mark Williams	M	M40-44	50	12:49:30	1:16:32		6:15:02		5:17:56	Australia	FIN
+	358	Anton Kapel	M	M30-34	73	12:49:41	1:19:00		6:20:42		5:09:59	Australia	FIN
+	359	Kelly Bull	F	F30-34	16	12:50:03	1:16:53		6:28:46		5:04:24	Australia	FIN
+	360	Valerie Jensen	F	F45-49	1	12:50:43	1:41:14		6:13:13		4:56:16	Canada	FIN
+	361	Kevin Littler	M	M30-34	74	12:50:55	2:12:23		6:19:07		4:19:25	Australia	FIN
+	362	Tim Squires	M	M40-44	51	12:51:06	1:05:46		6:35:59		5:09:21	Australia	FIN
+	363	Gloria Stewart	F	F45-49	2	12:51:33	1:16:14		6:45:29		4:49:50	Australia	FIN
+	364	Chris Andrich	M	M25-29	37	12:51:41	1:12:30		6:14:27		5:24:44	Australia	FIN
+	365	Elizabeth Woodgate	F	F40-44	7	12:52:40	1:24:09		7:04:58		4:23:33	Australia	FIN
+	366	Michael Backshall	M	M45-49	35	12:52:45	1:16:19		6:27:59		5:08:27	Australia	FIN
+	367	Paul Millachip	M	M40-44	52	12:53:00	1:20:08		6:35:13		4:57:39	Australia	FIN
+	368	Ben Higgins	M	M30-34	75	12:53:07	1:27:01		6:06:11		5:19:55	United Kingdom	FIN
+	369	Rachel Stewart	F	F35-39	8	12:53:27	1:49:31		6:41:28		4:22:28	Australia	FIN
+	370	Gavin Siviour	M	M35-39	67	12:53:46	1:17:54		6:34:47		5:01:05	Australia	FIN
+	371	Peter Woodruff	M	M45-49	36	12:54:14	1:17:45		6:14:06		5:22:23	Australia	FIN
+	372	Brett Straatemeier	M	M40-44	53	12:54:24	1:13:04		6:20:27		5:20:53	Hong Kong	FIN
+	373	Jonathan Simpson	M	M40-44	54	12:54:30	1:18:48		6:14:48		5:20:54	New Zealand	FIN
+	374	Joshua Gava	M	M25-29	38	12:55:36	1:15:59		6:01:12		5:38:25	Australia	FIN
+	375	Jeff Jonas	M	M40-44	55	12:55:37	1:37:50		6:17:00		5:00:47	United States	FIN
+	376	Shane Edwards	M	M35-39	68	12:55:37	1:13:20		6:08:33		5:33:44	Australia	FIN
+	377	Ray Pitch	M	M45-49	37	12:55:53	1:25:18		6:39:28		4:51:07	New Zealand	FIN
+	378	Michael Mckean	M	M35-39	69	12:56:10	1:28:37		6:23:05		5:04:28	Australia	FIN
+	379	Sato Yuji	M	M40-44	56	12:56:17	1:17:11		6:36:16		5:02:50	South KOREA	FIN
+	380	Robin Haywood	M	M35-39	70	12:56:27	1:26:43		6:11:06		5:18:38	Australia	FIN
+	381	Stefanos Loukakos	M	M30-34	76	12:57:10	1:17:27		6:52:17		4:47:26	Greece	FIN
+	382	Koji Yamamoto	M	M55-59	9	12:58:48	1:33:29		6:36:39		4:48:40	Japan	FIN
+	383	Ryuichi Sakano	M	M45-49	38	12:58:54	1:33:46		6:38:34		4:46:34	Japan	FIN
+	384	Leonie Keilour	F	F40-44	8	12:59:55	1:17:13		7:30:16		4:12:26	Australia	FIN
+	385	Mark Strathern	M	M30-34	77	12:59:57	1:05:55		6:17:24		5:36:38	Australia	FIN
+	386	Stephen Blasdale	M	M40-44	57	13:01:14	1:17:15		6:02:13		5:41:46	Australia	FIN
+	387	Kerrie Smith	F	F25-29	4	13:02:28	1:11:52		6:30:52		5:19:44	Australia	FIN
+	388	Gerno Semmelroth	M	M35-39	71	13:02:38	1:28:20		6:17:21		5:16:57	Germany	FIN
+	389	Derek Bassett	M	M40-44	58	13:03:28	1:05:34		5:34:35		6:23:19	Australia	FIN
+	390	Silke Hinrichs	F	FPRO	11	13:04:26	0:58:27		5:25:31		6:40:28	Germany	FIN
+	391	Shuk Han Karen Lui	F	F35-39	9	13:05:34	1:40:03		6:45:25		4:40:06	Hong Kong	FIN
+	392	Shigetomo Fukumoto	M	M55-59	10	13:07:03	1:49:34		6:23:49		4:53:40	Japan	FIN
+	393	Ian Smith	M	M35-39	72	13:07:23	1:34:04		6:27:02		5:06:17	Canada	FIN
+	394	Shane Radnell	M	M30-34	78	13:07:48	1:19:12		5:53:23		5:55:13	Australia	FIN
+	395	Kathy Jenkin	F	F45-49	3	13:08:21	1:38:23		6:58:28		4:31:30	Australia	FIN
+	396	Glynis Greenough	F	F50-54	4	13:08:55	1:39:56		6:31:04		4:57:55	United Kingdom	FIN
+	397	Bryan Mcguinness	M	M45-49	39	13:09:01	1:19:57		6:10:56		5:38:08	Australia	FIN
+	398	Roger Mignosa	M	M25-29	39	13:10:02	1:11:19		7:30:37		4:28:06	United States	FIN
+	399	Gerardo Barrios	M	M35-39	73	13:10:08	1:46:55		6:33:53		4:49:20	Mexico	FIN
+	400	Joseph Dai	M	M25-29	40	13:10:23	1:30:43		6:38:30		5:01:10	United States	FIN
+	401	Naomi Edmunds	F	F40-44	9	13:10:46	1:13:25		5:55:58		6:01:23	Australia	FIN
+	402	Tony Holloway	M	M40-44	59	13:11:54	1:30:21		5:59:09		5:42:24	Australia	FIN
+	403	Ashley Ralph	M	M35-39	74	13:12:11	1:28:14		6:12:26		5:31:31	Australia	FIN
+	404	Craig Lamb	M	M40-44	60	13:12:38	1:07:09		6:13:17		5:52:12	Australia	FIN
+	405	David Norton	M	M25-29	41	13:12:58	1:34:11		5:50:08		5:48:39	Australia	FIN
+	406	Dario Zanini	M	M40-44	61	13:13:28	1:05:23		6:37:03		5:31:02	Italy	FIN
+	407	Doug Belford	M	M35-39	75	13:14:27	1:22:04		6:55:07		4:57:16	Australia	FIN
+	408	Ian Seymour	M	M40-44	62	13:15:02	1:32:23		6:28:30		5:14:09	Australia	FIN
+	409	Stephen Fryirs	M	M25-29	42	13:15:12	1:31:23		6:20:55		5:22:54	Australia	FIN
+	410	Ken Adriaansen	M	M45-49	40	13:16:00	1:52:25		6:29:01		4:54:34	Australia	FIN
+	411	David Schutz	M	M50-54	10	13:17:25	1:32:16		5:47:27		5:57:42	Australia	FIN
+	412	Graham Wilkinson	M	M50-54	11	13:18:35	1:18:59		6:34:13		5:25:23	Australia	FIN
+	413	Scott Loraine	M	M35-39	76	13:18:38	1:25:10		7:15:12		4:38:16	Australia	FIN
+	414	Steven Gillingham	M	M25-29	43	13:18:49	1:26:50		7:04:03		4:47:56	Australia	FIN
+	415	Lucas Spargo	M	M18-24	10	13:19:01	1:11:58		5:40:14		6:26:49	Australia	FIN
+	416	Sharyn Nilsen	F	F35-39	10	13:19:21	1:36:55		7:10:48		4:31:38	Australia	FIN
+	417	Margret Watkins	F	F40-44	10	13:19:26	1:30:05		7:02:18		4:47:03	United Kingdom	FIN
+	418	Glenn Dobson	M	M45-49	41	13:20:42	1:23:59		6:43:20		5:13:23	Australia	FIN
+	419	Andrew Jones	M	M40-44	63	13:21:00	1:18:45		6:59:14		5:03:01	United Kingdom	FIN
+	420	Peter Leafe	M	M55-59	11	13:21:20	1:17:43		6:06:35		5:57:02	New Zealand	FIN
+	421	Andrew Hubery	M	M35-39	77	13:21:26	1:15:44		6:40:25		5:25:17	Australia	FIN
+	422	Del Goodhand	F	F40-44	11	13:21:35	1:31:06		6:47:23		5:03:06	United Kingdom	FIN
+	423	Trent Haines	M	M30-34	79	13:21:54	1:16:27		6:42:21		5:23:06	Australia	FIN
+	424	Karl Slater	M	M30-34	80	13:23:12	1:28:05		6:50:10		5:04:57	United Kingdom	FIN
+	425	Joseph Trainor	M	M35-39	78	13:23:22	1:10:56		6:11:27		6:00:59	Australia	FIN
+	426	Ricky Hall	M	M35-39	79	13:23:48	1:30:51		5:51:16		6:01:41	Australia	FIN
+	427	Rodolfo Bianchi Cerezo	M	M30-34	81	13:24:10	1:24:26		7:07:42		4:52:02	Guatemala	FIN
+	428	Andrew Gunn	M	M35-39	80	13:24:17	1:18:56		6:14:51		5:50:30	United Kingdom	FIN
+	429	John Hillen	M	M45-49	42	13:24:23	1:41:24		7:08:21		4:34:38	Australia	FIN
+	430	Wade Croome	M	M30-34	82	13:24:47	1:12:28		6:34:42		5:37:37	Australia	FIN
+	431	John Sutherland	M	M50-54	12	13:24:58	1:31:49		6:04:42		5:48:27	New Zealand	FIN
+	432	Brett Roberts	M	M40-44	64	13:26:24	1:21:56		6:38:28		5:26:00	Australia	FIN
+	433	Edward Girvan	M	M50-54	13	13:27:04	1:26:21		6:23:39		5:37:04	Australia	FIN
+	434	Gregory Mcintosh	M	M35-39	81	13:27:22	1:24:33		6:41:53		5:20:56	Australia	FIN
+	435	Glen Kirk	M	M30-34	83	13:28:55	1:44:53		5:59:41		5:44:21	New Zealand	FIN
+	436	David Oconnell	M	M40-44	65	13:29:09	1:21:59		6:14:12		5:52:58	Australia	FIN
+	437	Nagatsuma Naomi	F	F35-39	11	13:29:42	1:48:54		7:12:16		4:28:32	Japan	FIN
+	438	Michael Smith	M	M30-34	84	13:31:44	1:24:12		6:19:22		5:48:10	Australia	FIN
+	439	Loke Tuck Wai	M	M35-39	82	13:31:52	1:17:50		6:58:50		5:15:12	Singapore	FIN
+	440	Tony Burns	M	M25-29	44	13:33:20	1:28:43		6:36:48		5:27:49	Australia	FIN
+	441	Karl Adcock	M	M30-34	85	13:37:32	1:16:13		6:16:28		6:04:51	United States	FIN
+	442	Lauryn Backshall	F	F30-34	17	13:37:56	1:16:20		6:29:07		5:52:29	Australia	FIN
+	443	Norman Clark	M	M50-54	14	13:38:34	1:23:07		6:46:26		5:29:01	Australia	FIN
+	444	David Young	M	M45-49	43	13:39:05	1:40:07		6:29:18		5:29:40	Australia	FIN
+	445	Christopher Day	M	M35-39	83	13:39:24	1:16:58		6:35:40		5:46:46	Australia	FIN
+	446	Stephane Pautard	M	M40-44	66	13:39:48	1:34:10		6:55:09		5:10:29	France	FIN
+	447	Randy Christofferson	M	M45-49	44	13:40:31	1:25:47		5:35:50		6:38:54	United States	FIN
+	448	Hannah Lawton	F	F30-34	18	13:41:12	1:24:19		6:37:06		5:39:47	Australia	FIN
+	449	David Morris	M	M40-44	67	13:41:32	1:13:32		6:07:05		6:20:55	Australia	FIN
+	450	Donald Smith	M	M45-49	45	13:41:47	1:21:52		6:54:52		5:25:03	Canada	FIN
+	451	Albert Ong	M	M30-34	86	13:42:40	1:32:30		7:06:18		5:03:52	Singapore	FIN
+	452	Joe Dimech	M	M50-54	15	13:43:55	1:24:51		6:28:37		5:50:27	Australia	FIN
+	453	Takashi Nakamura	M	M40-44	68	13:44:01	1:31:53		6:40:53		5:31:15	Japan	FIN
+	454	Andrew Venables	M	M35-39	84	13:44:16	1:13:13		6:11:01		6:20:02	Australia	FIN
+	455	David Shallcrass	M	M45-49	46	13:44:49	1:31:36		6:10:28		6:02:45	New Zealand	FIN
+	456	Andrea Brynjolfson	F	F30-34	19	13:46:01	1:31:16		7:02:09		5:12:36	Canada	FIN
+	457	Saori Furuma	F	F35-39	12	13:46:30	1:38:02		7:29:49		4:38:39	Japan	FIN
+	458	Paul Longrigg	M	M40-44	69	13:46:55	1:35:27		7:02:29		5:08:59	Australia	FIN
+	459	Mary Paley	F	F50-54	5	13:47:22	1:33:56		7:26:43		4:46:43	Australia	FIN
+	460	James Orlando	M	M25-29	45	13:47:43	1:26:53		6:32:21		5:48:29	United States	FIN
+	461	Andrew Stone	M	M30-34	87	13:47:48	1:17:49		7:01:26		5:28:33	Australia	FIN
+	462	Tadahiro Miyamoto	M	M40-44	70	13:48:24	1:25:50		6:42:21		5:40:13	Japan	FIN
+	463	Tim Gallagher	M	M30-34	88	13:49:47	1:37:33		6:35:09		5:37:05	United States	FIN
+	464	Shiralee Lubke	F	F30-34	20	13:50:35	1:25:55		6:20:04		6:04:36	Australia	FIN
+	465	Greg Lynch	M	M40-44	71	13:50:36	1:03:40		6:29:53		6:17:03	Australia	FIN
+	466	Jose Medina	M	M35-39	85	13:51:17	1:25:40		6:27:52		5:57:45	Spain	FIN
+	467	Gordon Mitchell	M	M40-44	72	13:51:22	1:23:10		7:24:45		5:03:27	Canada	FIN
+	468	Trevor Neaves	M	M50-54	16	13:52:18	1:11:21		6:42:00		5:58:57	Australia	FIN
+	469	Chak Ho	M	M40-44	73	13:52:47	1:31:40		7:23:45		4:57:22	China	FIN
+	470	Jay Seay	M	M55-59	12	13:53:24	1:09:47		7:03:31		5:40:06	Guam	FIN
+	471	Marc Sullivan	M	M45-49	47	13:54:12	1:22:21		7:04:25		5:27:26	Australia	FIN
+	472	David Hurley	M	M35-39	86	13:54:51	1:16:47		6:20:02		6:18:02	Australia	FIN
+	473	Keiko Nakamura	F	F40-44	12	13:55:15	1:57:28		7:01:43		4:56:04	Japan	FIN
+	474	Susan Thomas	F	F40-44	13	13:56:31	1:19:07		7:01:34		5:35:50	Australia	FIN
+	475	Michael Shaun	M	M40-44	74	13:57:35	1:41:44		7:04:30		5:11:21	United States	FIN
+	476	Lanny Smith	M	M50-54	17	13:58:23	1:12:02		6:32:28		6:13:53	Canada	FIN
+	477	Tatsuo Kobayashi	M	M65-69	1	13:58:55	1:42:51		7:18:09		4:57:55	Japan	FIN
+	478	Hiroaki Hattori	M	M40-44	75	13:59:11	1:28:35		6:56:07		5:34:29	Japan	FIN
+	479	Daniele Bullo	M	M55-59	13	14:00:09	1:31:08		7:16:35		5:12:26	Italy	FIN
+	480	Joanne Hopkins	F	F25-29	5	14:01:08	1:06:16		7:07:41		5:47:11	United States	FIN
+	481	Andree Carr	F	F45-49	4	14:01:47	1:28:52		7:12:55		5:20:00	Australia	FIN
+	482	Pek Ya Poon	F	F35-39	13	14:02:21	1:28:34		7:09:34		5:24:13	Singapore	FIN
+	483	Chris Aylen	M	M35-39	87	14:04:22	1:25:03		6:21:59		6:17:20	Australia	FIN
+	484	Robert Willings	M	M35-39	88	14:05:11	1:33:19		6:44:41		5:47:11	United Kingdom	FIN
+	485	Richard Uren	M	M35-39	89	14:06:22	1:20:28		6:29:12		6:16:42	Australia	FIN
+	486	Cyril Tolson	M	M55-59	14	14:06:41	1:36:15		6:58:10		5:32:16	Australia	FIN
+	487	Steven Vermaak	M	M30-34	89	14:07:08	1:19:54		6:56:06		5:51:08	Australia	FIN
+	488	Rosemary Dotlic	F	F18-24	4	14:07:38	1:40:38		7:17:39		5:09:21	Australia	FIN
+	489	Greg Haskins	M	M45-49	48	14:09:31	1:16:11		6:44:06		6:09:14	Australia	FIN
+	490	Paul Poffenroth	M	M65-69	2	14:09:33	1:50:06		7:07:07		5:12:20	Canada	FIN
+	491	Josh Tims	M	M25-29	46	14:10:27	1:09:20		7:00:02		6:01:05	United States	FIN
+	492	Michael Halliday	M	M45-49	49	14:10:49	1:37:08		6:43:28		5:50:13	Australia	FIN
+	493	Kelvin Panther	M	M40-44	76	14:11:43	2:07:06		6:53:59		5:10:38	Australia	FIN
+	494	Jeff Larabee	M	M30-34	90	14:13:17	1:36:07		6:57:15		5:39:55	United States	FIN
+	495	Mami Inoue	F	F30-34	21	14:14:37	1:25:14		7:29:43		5:19:40	Japan	FIN
+	496	Stephen Hone	M	M40-44	77	14:17:09	1:47:44		7:17:38		5:11:47	Ireland	FIN
+	497	Chris Meadwell	M	M45-49	50	14:18:26	1:41:25		6:36:52		6:00:09	Australia	FIN
+	498	Colin Grassie	M	M40-44	78	14:22:02	1:36:12		6:36:18		6:09:32	United Kingdom	FIN
+	499	Julie Hall	F	F35-39	14	14:23:31	1:23:00		6:59:11		6:01:20	United Kingdom	FIN
+	500	Nishitani Koichi	M	M40-44	79	14:24:37	1:54:57		6:26:44		6:02:56	Japan	FIN
+	501	Russell Horlin	M	M35-39	90	14:27:58	1:26:17		6:56:05		6:05:36	Australia	FIN
+	502	Debra Foggin	F	F45-49	5	14:32:19	1:25:05		7:16:16		5:50:58	Australia	FIN
+	503	Mary King	F	F40-44	14	14:33:40	1:42:00		7:00:26		5:51:14	South Africa	FIN
+	504	Patrick Bristowe	M	M45-49	51	14:34:47	1:31:13		6:01:39		7:01:55	New Zealand	FIN
+	505	Rob Jeffery	M	M45-49	52	14:34:51	1:12:00		6:41:05		6:41:46	Australia	FIN
+	506	Russell Ramey	M	M35-39	91	14:35:11	2:13:11		6:56:33		5:25:27	Australia	FIN
+	507	John Pearce	M	M35-39	92	14:37:41	1:29:21		6:47:09		6:21:11	Australia	FIN
+	508	Haruki Ando	M	M50-54	18	14:38:44	1:28:50		6:44:48		6:25:06	Japan	FIN
+	509	Alec Makdessian	M	M40-44	80	14:39:11	1:53:55		7:06:56		5:38:20	United States	FIN
+	510	Peter Vaughan	M	M50-54	19	14:40:44	1:22:00		6:59:04		6:19:40	Australia	FIN
+	511	Carrie Prior	F	F35-39	15	14:40:46	1:40:12		7:16:27		5:44:07	Australia	FIN
+	512	Bob Scammell	M	M50-54	20	14:40:50	1:09:42		7:10:16		6:20:52	Australia	FIN
+	513	Steven Rice	M	M40-44	81	14:43:02	2:09:36		7:14:25		5:19:01	Australia	FIN
+	514	Jacqui Gilbert	F	F18-24	5	14:43:05	1:12:22		6:59:27		6:31:16	New Zealand	FIN
+	515	Stephen Taylor	M	M45-49	53	14:43:12	1:12:17		6:47:04		6:43:51	Australia	FIN
+	516	Brett Boneham	M	M35-39	93	14:43:21	1:23:26		7:02:00		6:17:55	Australia	FIN
+	517	Taylor Larabee	F	F18-24	6	14:44:00	1:26:36		7:38:23		5:39:01	United States	FIN
+	518	Kenneth Marr	M	M40-44	82	14:46:35	1:31:44		6:34:13		6:40:38	Canada	FIN
+	519	Suzanne Mason	F	F45-49	6	14:48:27	1:25:55		7:29:23		5:53:09	Australia	FIN
+	520	Karen Wynne	F	F50-54	6	14:49:14	1:51:11		7:08:48		5:49:15	Australia	FIN
+	521	Stephanie Johnston	F	F45-49	7	14:49:31	1:40:40		8:03:36		5:05:15	Australia	FIN
+	522	Theresa Urban	F	F35-39	16	14:51:45	1:44:42		7:09:58		5:57:05	United States	FIN
+	523	Stefan Masuhr	M	M35-39	94	14:52:30	1:29:13		7:10:48		6:12:29	Germany	FIN
+	524	Murray Williams	M	M40-44	83	14:53:37	1:19:14		7:52:48		5:41:35	Australia	FIN
+	525	Terry Edwards	M	M55-59	15	14:55:31	1:20:03		7:19:08		6:16:20	United Kingdom	FIN
+	526	John Stewart	M	M35-39	95	14:56:03	1:28:01		7:00:27		6:27:35	United States	FIN
+	527	Brendon Kay	M	M30-34	91	14:57:13	1:21:21		7:39:11		5:56:41	Australia	FIN
+	528	Melanie Farley	F	F30-34	22	15:04:15	1:54:51		7:33:39		5:35:45	Australia	FIN
+	529	June Liew	F	F35-39	17	15:05:14	1:54:41		7:47:54		5:22:39	Malaysia	FIN
+	530	Geoffrey Innes	M	M45-49	54	15:05:33	1:38:57		6:53:31		6:33:05	Australia	FIN
+	531	Peter Burton	M	M45-49	55	15:05:58	1:25:08		8:05:00		5:35:50	Australia	FIN
+	532	Neil Hall	M	M35-39	96	15:06:08	1:43:05		6:35:07		6:47:56	Australia	FIN
+	533	Keith Anderson	M	M50-54	21	15:06:39	1:31:10		7:23:19		6:12:10	Australia	FIN
+	534	Andrew Milne	M	M35-39	97	15:13:06	1:11:46		6:47:40		7:13:40	Australia	FIN
+	535	Phillip Sydney-Jones	M	M35-39	98	15:13:30	2:03:04		6:40:05		6:30:21	Australia	FIN
+	536	Hiromi Hayakawa	F	F40-44	15	15:15:13	1:37:19		7:54:44		5:43:10	Japan	FIN
+	537	Werner Stebler	M	M50-54	22	15:15:38	1:34:02		6:43:21		6:58:15	New Zealand	FIN
+	538	Christine Stoner	F	F35-39	18	15:16:23	1:48:06		6:58:42		6:29:35	Australia	FIN
+	539	Kim White	F	F50-54	7	15:20:01	1:57:08		7:06:16		6:16:37	United States	FIN
+	540	Anders Christofferson	M	M18-24	11	15:21:57	1:18:25		6:28:23		7:35:09	United States	FIN
+	541	Takage Hisasi	F	F55-59	1	15:23:51	1:50:26		7:08:30		6:24:55	Japan	FIN
+	542	Axel Lux	M	M35-39	99	15:24:21	1:05:01		5:50:42		8:28:38	New Caledonia	FIN
+	543	Glen Duffield	M	M40-44	84	15:28:03	1:24:54		7:16:21		6:46:48	Australia	FIN
+	544	Masaru Nakamura	M	M35-39	100	15:29:13	1:42:14		7:10:40		6:36:19	Japan	FIN
+	545	Chris Arscott	M	M30-34	92	15:30:28	1:11:06		6:18:01		8:01:21	United States	FIN
+	546	James Long	M	M45-49	56	15:31:52	1:23:49		6:54:06		7:13:57	United States	FIN
+	547	Yasuo Manabe	M	M45-49	57	15:32:23	1:28:44		6:58:01		7:05:38	Japan	FIN
+	548	Megumi Nishiya	F	F30-34	23	15:34:05	2:14:19		7:25:00		5:54:46	Japan	FIN
+	549	Ross Denford	M	M55-59	16	15:36:36	1:39:04		7:02:37		6:54:55	Australia	FIN
+	550	Grace Fong	F	F50-54	8	15:37:02	1:26:42		8:03:53		6:06:27	Hong Kong	FIN
+	551	Silvio Wirth	M	M55-59	17	15:37:04	2:02:33		7:26:34		6:07:57	Australia	FIN
+	552	Chang  Jae Yeo	M	M30-34	93	15:38:09	2:01:07		7:47:19		5:49:43	South KOREA	FIN
+	553	Dave Lowery	M	M45-49	58	15:39:37	1:28:00		6:51:41		7:19:56	Canada	FIN
+	554	Jacinta Sheridan	F	F40-44	16	15:40:33	1:56:56		7:18:33		6:25:04	Canada	FIN
+	555	Sheila Boyd	F	F40-44	17	15:40:34	1:31:05		8:03:42		6:05:47	Canada	FIN
+	556	Robert Lees	M	M40-44	85	15:40:35	1:27:39		6:50:49		7:22:07	Australia	FIN
+	557	Kyla Smith	F	F30-34	24	15:42:08	1:28:25		7:27:22		6:46:21	Canada	FIN
+	558	Laura Green	F	F35-39	19	15:42:19	2:07:43		6:40:20		6:54:16	United States	FIN
+	559	Yoshimori Hirai	M	M65-69	3	15:42:58	1:28:45		8:19:26		5:54:47	Japan	FIN
+	560	Tony Geange	M	M40-44	86	15:43:13	1:22:24		7:04:12		7:16:37	Australia	FIN
+	561	Tony Highfield	M	M45-49	59	15:43:33	1:54:24		7:17:28		6:31:41	Australia	FIN
+	562	James King	M	M45-49	60	15:46:02	1:39:18		7:27:38		6:39:06	South Africa	FIN
+	563	Karen Lynch	F	F30-34	25	15:48:37	1:21:40		7:22:03		7:04:54	Australia	FIN
+	564	Linda Williamson	F	F18-24	7	15:49:05	1:38:50		7:56:05		6:14:10	Australia	FIN
+	565	John Haughton	M	M35-39	101	15:49:15	1:18:42		7:16:50		7:13:43	Australia	FIN
+	566	Koji Morita	M	M35-39	102	15:49:41	1:05:39		6:32:35		8:11:27	Japan	FIN
+	567	Kara Stinson	F	F30-34	26	15:49:53	2:10:11		7:25:27		6:14:15	United States	FIN
+	568	Steven Pontifex	M	M35-39	103	15:53:51	1:27:35		7:05:19		7:20:57	Australia	FIN
+	569	Miriam Nielsen	F	F50-54	9	15:57:41	1:51:49		7:21:07		6:44:45	Australia	FIN
+	570	Ted Vomacka	M	M55-59	18	15:58:22	1:53:43		7:28:45		6:35:54	United States	FIN
+	571	Sue Stevenson	F	F55-59	2	15:59:31			7:33:12		6:57:46	Australia	FIN
+	572	Wayne Metcalfe	M	M45-49	61	15:59:32	1:36:48		7:20:31		7:02:13	Australia	FIN
+	573	Iain Mcbride	M	M40-44	87	15:59:53	1:36:50		7:05:14		7:17:49	Australia	FIN
+	574	Peter Stone	M	M40-44	88	16:00:14	1:35:32		7:10:31		7:14:11	Australia	FIN
+	575	Rick Salazar	M	M35-39	104	16:02:48	2:00:52		7:11:52		6:50:04	United States	FIN
+	576	Miura Yoshinori	M	M40-44	89	16:04:32	1:33:54		7:32:13		6:58:25	Japan	FIN
+	577	Jeff Smith	M	M45-49	62	16:07:34	1:27:33		7:27:10		7:12:51	Australia	FIN
+	578	Carolyn Bolton	F	F45-49	8	16:16:30	2:01:22		7:56:36		6:18:32	Australia	FIN
+	579	Robert Baker	M	M45-49	63	16:19:09	1:23:13		7:29:49		7:26:07	United Kingdom	FIN
+	580	Michael Gerber	M	M55-59	19	16:19:52	1:57:39		7:21:02		7:01:11	United States	FIN
+	581	Jennifer Williams	F	F50-54	10	16:20:54	1:54:47		7:45:28		6:40:39	Australia	FIN
+	582	Dale Sinclair	M	M45-49	64	16:25:23	1:43:59		7:25:28		7:15:56	Australia	FIN
+	583	Luke Miller	M	M30-34	94	16:26:01	1:57:11		8:30:55		5:57:55	Australia	FIN
+	584	Peter Le Breton	M	M60-64	2	16:30:54	1:53:28		8:00:40		6:36:46	Australia	FIN
+	585	Ildoo Kim	M	M60-64	3	16:32:53	2:01:18		7:47:13		6:44:22	South KOREA	FIN
+	586	Hak  Soon Jang	M	M40-44	90	16:33:19	1:57:38		7:48:45		6:46:56	South KOREA	FIN
+	587	Syed Shah	M	M30-34	95	16:43:25	1:47:49		7:19:48		7:35:48	United Kingdom	FIN
+	588	Simon Head	M	M40-44	91	16:58:39	1:19:04		8:20:49		7:18:46	Australia	FIN

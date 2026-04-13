@@ -1,0 +1,740 @@
+ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	Run	Country	Status
+382668	DNF	Aykut Emre Keskin	M	M18-24	0			0:01:32	2:40:45	0:01:11		Turkey	DNF
+572597	DSQ	Nayla Al Marzooqi	F	F30-34	0							Bahrain	DQ
+722349	DSQ	Toby Richards	M	M45-49	0							United Kingdom	DQ
+722350	DSQ	Ali Humaidan	M	M35-39	0							Bahrain	DQ
+643435	DNS	Piotr Grupinski	M	M35-39	0							Poland	DNS
+604324	DNF	Abdulaziz Alsabbagh	M	M25-29	0			0:02:29	3:40:53	0:06:00		Bahrain	DNF
+679235	DNS	Yousef Alfares	M	M25-29	0							Kuwait	DNS
+722351	DNF	Apols Clarrizze Garcia	F	F35-39	0			0:01:55	2:54:49	0:01:46		Philippines 	DNF
+65266	DSQ	Eymeric Segard	M	M45-49	0							Switzerland	DQ
+305292	DNF	Maximilian Beilharz	M	M35-39	0			0:01:19	2:20:17	0:30:45		Germany	DNF
+271105	DNF	Stephen Clark	M	M55-59	0			0:02:03	2:43:55	0:02:16		United Kingdom	DNF
+149285	DSQ	Javed Hassan	M	M55-59	0							India	DQ
+215988	DSQ	Annemiek Schleurholts	F	F45-49	0							Netherlands 	DQ
+722352	DSQ	Thomas Burns	M	M50-54	0							United Kingdom	DQ
+123465	DNF	Hessa Al Khalifa	F	F35-39	0			0:02:14	4:08:20	0:02:20	3:21:51	Bahrain	DNF
+262069	DNF	Ahmed Alfahim	M	M35-39	0			0:01:36	2:34:52	0:01:15	1:49:52	United Arab Emirates 	DNF
+47735	DSQ	Alexander Geiss	M	M45-49	0							Germany	DQ
+722353	DNF	Sadeq Al-Alawi	M	M50-54	0			0:02:05	3:20:10			Bahrain	DNF
+722354	DNS	Hady Elcott	M	M25-29	0							Bahrain	DNS
+722355	DNF	Salman Ali	M	M40-44	0			0:01:52	2:53:09	0:02:15		Bahrain	DNF
+205828	DSQ	Artur Shaygardanov	M	M25-29	0							Russian Federation 	DQ
+722356	DSQ	Othmane Safi	M	M25-29	0							United Arab Emirates 	DQ
+202332	DSQ	Grant Nash	M	M35-39	0							South Africa	DQ
+206462	DSQ	Neil Wood	M	M50-54	0							Hong Kong	DQ
+410730	DSQ	Olzhas Kerimkulov	M	M30-34	0							Kazakhstan	DQ
+722357	DNF	Mario Marquez	M	M45-49	0			0:01:38	3:40:45			United States	DNF
+722358	DSQ	Aldin Malik	M	M40-44	0							Indonesia	DQ
+469808	DSQ	AbielRem Gonzales	F	F30-34	0							Philippines 	DQ
+495251	DNF	David Rochat	M	M30-34	0			0:01:22			6:59:46	Switzerland	DNF
+722359	DNF	Simon Bromyard	M	M40-44	0			0:01:43	3:03:19			United Kingdom	DNF
+539877	DSQ	Carole Huberty	F	F50-54	0							Belgium	DQ
+722360	DSQ	Tim O'Donnell	M	M40-44	0							South Africa	DQ
+722361	DSQ	Michel Matta	M	M35-39	0							Lebanon	DQ
+241908	DSQ	Brian Pert	M	M50-54	0							Australia	DQ
+378344	DNS	Steven Pontifex	M	M45-49	0							Australia	DNS
+504463	DSQ	Kelli Parady	F	F30-34	0							United States	DQ
+722362	DSQ	Eduard Bezuglov	M	M30-34	0							Russian Federation 	DQ
+581000	DNF	Charbel Bassil	M	M25-29	0			0:02:08	2:32:44	0:03:40		Lebanon	DNF
+701877	DNF	Hamad Al Doseri	M	M25-29	0			0:01:47	3:21:36	0:04:17	4:08:14	Bahrain	DNF
+722363	DSQ	Patricia Villegas	F	F25-29	0							Mexico	DQ
+178636	DNF	Maciej Belski	M	M40-44	0			0:01:22	2:29:25	0:01:36		Poland	DNF
+149512	DNF	Jilly Coppack	F	F30-34	0			0:01:57	2:58:46	0:04:00		Australia	DNF
+572529	DSQ	Kirsten Baillie	F	F40-44	0							United Kingdom	DQ
+722364	DNS	Shiela Ruiz	F	F18-24	0							Philippines 	DNS
+49055	DNS	Dhari Almousherji	M	M25-29	0							Kuwait	DNS
+632857	DSQ	jean-reynald millot	M	M40-44	0							France	DQ
+42647		Bart Aernouts	M	MPRO	0			0:01:05	1:55:14	0:00:56	1:14:00	Belgium	FIN
+23790		Ruedi Wild	M	MPRO	0			0:01:10	1:58:21	0:00:53	1:12:02	Switzerland	FIN
+53896		James Cunnama	M	MPRO	0			0:01:05	1:58:07	0:00:41	1:14:01	South Africa	FIN
+80618		David Plese	M	MPRO	0			0:01:13	1:57:57	0:00:48	1:15:26	Slovenia	FIN
+26744		Brent Mcmahon	M	MPRO	0			0:01:05	1:57:30	0:00:48	1:16:15	Canada	FIN
+130946		Antony Costes	M	MPRO	0			0:01:07	1:58:00	0:00:41	1:16:04	France	FIN
+122517		Christian HÃ¶rper	M	MPRO	0			0:01:10	1:59:49	0:00:50	1:15:58	Germany	FIN
+31150		Albert Moreno Molins	M	MPRO	0			0:01:05	2:01:55	0:00:54	1:14:42	Spain	FIN
+46414		Bertrand Billard	M	MPRO	0			0:01:08	1:59:24	0:01:01	1:17:08	France	FIN
+70467		Domenico Passuello	M	MPRO	0			0:01:21	1:58:22	0:00:59	1:18:28	Italy	FIN
+360542	1	Patrick Dirksmeier	M	MPRO	1	3:21:23		0:01:03	1:59:53	0:00:59	1:19:28	Germany	FIN
+23787	2	Ben Hoffman	M	MPRO	2	3:22:56		0:01:08	2:02:56	0:00:51	1:18:01	United States	FIN
+60895	3	Olivier Godart	M	MPRO	3	3:23:36		0:01:07	2:01:43	0:01:12	1:19:34	Luxembourg	FIN
+46393	4	Richie Cunningham	M	MPRO	4	3:24:32		0:01:09	1:59:03	0:00:39	1:23:41	Australia	FIN
+28976	5	Daniela Ryf	F	FPRO	1	3:28:20		0:01:11	2:07:28	0:00:53	1:18:48	Switzerland	FIN
+217278	6	Kacpe Adam	M	MPRO	5	3:29:59		0:01:09	2:02:30	0:00:51	1:25:29	Poland	FIN
+722211	7	Henri Schoeman	M	MPRO	6	3:32:38		0:01:04	2:05:16	0:01:05	1:25:13	South Africa	FIN
+360544	8	TomÃ¡Å¡ Renc	M	MPRO	7	3:34:02		0:01:10	2:11:11	0:01:10	1:20:31	Czechia	FIN
+256450	9	Ryan Christian	M	M25-29	1	3:34:20		0:01:16	2:08:52	0:00:42	1:23:30	Australia	FIN
+86181	10	Patrick Walimann	M	M40-44	1	3:35:58		0:01:30	2:09:24	0:01:07	1:23:57	Switzerland	FIN
+162418	11	Patrick Dekorsi	M	M30-34	1	3:36:54		0:01:14	2:10:43	0:00:46	1:24:11	Germany	FIN
+46587	12	Nuri Acar	M	M35-39	1	3:37:38		0:01:27	2:10:15	0:01:38	1:24:18	Turkey	FIN
+68138	13	Caroline Steffen	F	FPRO	2	3:37:45		0:01:10	2:12:54	0:00:47	1:22:54	Switzerland	FIN
+60897	14	Alberto Casadei	M	MPRO	8	3:38:38		0:01:12	2:12:03	0:01:20	1:24:03	Italy	FIN
+54253	15	William John Newbery	M	M35-39	2	3:38:52		0:01:09	2:12:47	0:00:46	1:24:10	United Kingdom	FIN
+101858	16	Asa Lundstrom	F	FPRO	3	3:39:35		0:01:16	2:09:28	0:00:45	1:28:06	Sweden	FIN
+89024	17	Eric Watson	M	MPRO	9	3:40:15		0:01:03	2:19:15	0:01:03	1:18:54	Bahrain	FIN
+32528	18	James Middleditch	M	M45-49	1	3:41:11		0:01:22	2:13:58	0:01:36	1:24:15	Singapore	FIN
+179727	19	Graham Crammond	M	M30-34	2	3:41:21		0:01:12	2:10:16	0:00:50	1:29:03	United Kingdom	FIN
+62379	20	Kevin Orlandi	M	M35-39	3	3:41:31		0:01:12	2:09:40	0:01:07	1:29:32	France	FIN
+162417	21	Oscar Balta	M	M35-39	4	3:41:45		0:01:14	2:17:04	0:00:59	1:22:28	Spain	FIN
+469034	22	Jordan Frapwell	M	M18-24	1	3:42:00		0:01:16	2:15:57	0:01:57	1:22:50	United Kingdom	FIN
+40252	23	Enrico SchmÃ¶ller	M	M35-39	5	3:42:57		0:01:28	2:13:25	0:01:03	1:27:01	Germany	FIN
+131348	24	Deak Zsombor	M	MPRO	10	3:42:59		0:01:05	2:13:58	0:00:45	1:27:11	Romania	FIN
+130960	25	Xabier Tijero	M	M18-24	2	3:42:59		0:01:10	2:15:30	0:01:02	1:25:17	Spain	FIN
+66527	26	Pedro Rui Silva	M	M35-39	6	3:43:06		0:01:17	2:11:34	0:00:52	1:29:23	Portugal	FIN
+136704	27	Luke Mathews	M	M30-34	3	3:43:22		0:01:12	2:14:53	0:00:50	1:26:27	United Kingdom	FIN
+722212	28	Mohamed Belal Aliy	M	M30-34	4	3:43:55		0:01:25	2:14:48	0:01:14	1:26:28	United Arab Emirates 	FIN
+539026	29	Dirk Koehler	M	M35-39	7	3:45:19		0:01:27	2:10:28	0:01:19	1:32:05	Germany	FIN
+31950	30	Stefan Spies	M	M45-49	2	3:46:21		0:01:34	2:12:12	0:01:48	1:30:47	Germany	FIN
+64990	31	Italo Rizzo JÃºnior	M	M30-34	5	3:47:01		0:01:28	2:14:07	0:01:08	1:30:18	Brazil	FIN
+95670	32	Manuel Javier Fernandez	M	M30-34	6	3:47:16		0:01:18	2:14:36	0:00:49	1:30:33	Spain	FIN
+77950	33	Dave Kyle	M	M45-49	3	3:47:49		0:01:15	2:12:01	0:01:23	1:33:10	United States	FIN
+133791	34	Roberto Cagnati	M	M35-39	8	3:48:23		0:01:26	2:16:02	0:00:53	1:30:02	Switzerland	FIN
+44919	35	Ralf Holzer	M	M45-49	4	3:49:00		0:01:28	2:13:52	0:01:48	1:31:52	Germany	FIN
+42653	36	Jodie Ann Swallow	F	FPRO	4	3:49:08		0:01:16	2:12:55	0:00:40	1:34:17	United Kingdom	FIN
+256472	37	Kristoffer Ahlin	M	M40-44	2	3:50:00		0:01:26	2:15:43	0:01:29	1:31:22	Sweden	FIN
+157764	38	Nicholas Tipper	M	M30-34	7	3:50:21		0:01:15	2:16:38	0:00:55	1:31:33	United Kingdom	FIN
+99574	39	Fabian Bertoncello	M	M40-44	3	3:50:26		0:01:08	2:17:15	0:01:10	1:30:53	Italy	FIN
+115051	40	Christian Stoimaier	M	M40-44	4	3:50:58		0:01:19	2:11:38	0:01:11	1:36:50	Austria	FIN
+191343	41	Andy Turner	M	M35-39	9	3:50:58		0:01:22	2:16:12	0:00:49	1:32:35	United Kingdom	FIN
+54354	42	Adam Christian Tanner	M	M35-39	10	3:51:09		0:01:25	2:18:20	0:01:05	1:30:19	United Kingdom	FIN
+123273	43	Jacek Podoba	M	M40-44	5	3:52:01		0:01:18	2:19:56	0:00:51	1:29:56	Poland	FIN
+99556	44	Christophe Jouffret	M	M50-54	1	3:54:04		0:01:23	2:16:27	0:01:21	1:34:53	France	FIN
+215188	45	Charles Martin	M	MPRO	11	3:54:04		0:01:01	2:16:11	0:01:22	1:35:30	France	FIN
+106035	46	Gregor Studer	M	M35-39	11	3:54:09		0:01:20	2:25:06	0:01:07	1:26:36	Switzerland	FIN
+256594	47	Salem Al Doseri	M	M30-34	8	3:54:19		0:01:26	2:18:08	0:01:13	1:33:32	United Arab Emirates 	FIN
+332215	48	Riccardo Bertoncello	M	M18-24	3	3:54:48		0:01:12	2:18:46	0:01:14	1:33:36	Italy	FIN
+201655	49	Andre Segger	M	M45-49	5	3:56:00		0:01:28	2:21:07	0:01:05	1:32:20	Germany	FIN
+118662	50	Hh Shaikh Nasser Bin Hamad Al Khalifa	M	M25-29	2	3:56:14		0:01:13	2:21:08	0:01:06	1:32:47	Bahrain	FIN
+191374	51	Clarke Shepherd	M	M35-39	12	3:56:24		0:01:24	2:15:54	0:01:24	1:37:42	United Kingdom	FIN
+202386	52	Paul Miles	M	M45-49	6	3:56:57		0:01:26	2:22:43	0:01:36	1:31:12	United Kingdom	FIN
+127571	53	Chris Knight	M	M45-49	7	3:57:00		0:01:12	2:16:41	0:01:20	1:37:47	United Kingdom	FIN
+84729	54	Aday Alvarez Diez De Ulzurrun	M	M25-29	3	3:57:01		0:01:25	2:16:33	0:00:50	1:38:13	Spain	FIN
+122548	55	Caroline Livesey	F	FPRO	5	3:57:14		0:01:18	2:22:06	0:00:58	1:32:52	United Kingdom	FIN
+722213	56	Mark Saggers	M	M50-54	2	3:57:53		0:01:30	2:23:49	0:01:38	1:30:56	United Kingdom	FIN
+89056	57	Gary Elizaga	M	M35-39	13	3:57:59		0:01:43	2:24:10	0:01:08	1:30:58	Philippines 	FIN
+89028	58	Ronald Molit	M	M30-34	9	3:58:16		0:01:48	2:22:55	0:02:12	1:31:21	Philippines 	FIN
+202320	59	Bill Weymouth	M	M30-34	10	3:58:44		0:01:20	2:16:10	0:00:50	1:40:24	Ireland	FIN
+722214	60	Jones Ivan	M	M45-49	8	3:58:44		0:01:16	2:22:10	0:01:13	1:34:05	United Kingdom	FIN
+205561	61	Jon Farley	M	M30-34	11	3:59:08		0:01:15	2:23:55	0:01:13	1:32:45	United Kingdom	FIN
+256507	62	Henry Clark	M	M50-54	3	4:00:21		0:01:25	2:23:23	0:01:00	1:34:33	United Kingdom	FIN
+539027	63	Bryan Harris	M	M45-49	9	4:00:24		0:01:58	2:25:46	0:02:04	1:30:36	United Kingdom	FIN
+178580	64	Fanoy Leanne	F	F18-24	1	4:01:08		0:01:40	2:29:19	0:01:34	1:28:35	Netherlands 	FIN
+138355	65	Pawel Skorupa	M	M25-29	4	4:01:19		0:01:29	2:17:23	0:01:07	1:41:20	Poland	FIN
+29246	66	Martin Flï¿½eler	M	M40-44	6	4:01:54		0:01:35	2:27:13	0:01:16	1:31:50	Switzerland	FIN
+75294	67	Thierry Bernard	M	M45-49	10	4:02:11		0:01:26	2:16:37	0:01:54	1:42:14	France	FIN
+122711	68	Yanick Cote	M	M40-44	7	4:02:14		0:01:18	2:21:51	0:01:27	1:37:38	Canada	FIN
+123614	69	Francesco Palermo	M	M50-54	4	4:02:43		0:01:43	2:28:08	0:01:20	1:31:32	Italy	FIN
+250250	70	Flavien Jourdain	M	M35-39	14	4:02:56		0:01:18	2:25:57	0:01:02	1:34:39	France	FIN
+134748	71	Darren Lang	M	M25-29	5	4:02:58		0:01:26	2:26:02	0:01:50	1:33:40	South Africa	FIN
+122565	72	Goksen Cinar	M	M30-34	12	4:03:11		0:01:40	2:23:11	0:00:52	1:37:28	Turkey	FIN
+46726	73	Ralf Schoen	M	M45-49	11	4:03:31		0:01:29	2:16:46	0:02:14	1:43:02	Germany	FIN
+202060	74	Gareth Gallagher	M	M30-34	13	4:03:41		0:01:42	2:24:52	0:01:15	1:35:52	Ireland	FIN
+106036	75	Henggeler Daniel	M	M40-44	8	4:03:51		0:01:52	2:25:17	0:01:17	1:35:25	Switzerland	FIN
+122637	76	Sitemkar Bolsoy	M	M35-39	15	4:03:56		0:01:27	2:24:50	0:01:20	1:36:19	Turkey	FIN
+502761	77	Laurent Courbon	M	M40-44	9	4:04:08		0:01:26	2:19:48	0:01:38	1:41:16	France	FIN
+708641	78	Luis Sanchez	M	M30-34	14	4:04:11		0:01:57	2:19:15	0:01:32	1:41:27	Spain	FIN
+149674	79	Matt Matt	M	M30-34	15	4:04:17		0:01:46	2:26:45	0:01:04	1:34:42	France	FIN
+123919	80	fiori pierre	M	M18-24	4	4:04:47		0:01:43	2:32:12	0:01:36	1:29:16	France	FIN
+120572	81	Manuel Huerzeler	M	M25-29	6	4:05:16		0:01:17	2:28:23	0:01:08	1:34:28	Switzerland	FIN
+256323	82	Maciej Komorowski	M	M35-39	16	4:05:27		0:01:29	2:19:28	0:00:59	1:43:31	Poland	FIN
+256490	83	Frank Mathews	M	M40-44	10	4:05:58		0:01:28	2:17:30	0:01:52	1:45:08	South Africa	FIN
+164294	84	Melanie Benson	F	F30-34	1	4:05:59		0:01:25	2:23:30	0:01:51	1:39:13	Canada	FIN
+44583	85	Lucie Zelenkova	F	FPRO	6	4:06:05		0:01:17	2:30:00	0:00:51	1:33:57	Czechia	FIN
+359638	86	Christopher Mccann	M	M45-49	12	4:06:12		0:01:53	2:26:04	0:01:34	1:36:41	United Kingdom	FIN
+354551	87	Yousif Zaman	M	M30-34	16	4:06:28		0:01:25	2:24:53	0:01:29	1:38:41	Bahrain	FIN
+122585	88	Sergei Tcarev	M	M45-49	13	4:06:36		0:01:32	2:27:02	0:01:12	1:36:50	Russian Federation 	FIN
+122564	89	Gyula Szabo	M	M40-44	11	4:06:51		0:01:18	2:24:08	0:01:36	1:39:49	Hungary	FIN
+111542	90	Emilio Lomi	M	M50-54	5	4:07:20		0:01:40	2:27:37	0:01:51	1:36:12	Italy	FIN
+220327	91	Nick Williamson	M	M40-44	12	4:07:21		0:01:44	2:36:02	0:01:28	1:28:07	United Kingdom	FIN
+275707	92	Christophe Dicranian	M	M30-34	17	4:07:28		0:01:23	2:17:41	0:01:32	1:46:52	France	FIN
+181793	93	Stephen Anderson	M	M40-44	13	4:07:33		0:01:37	2:28:13	0:01:47	1:35:56	Qatar	FIN
+122677	94	Paolo Mussotto	M	M50-54	6	4:07:37		0:01:21	2:27:18	0:01:26	1:37:32	Italy	FIN
+89384	95	Timothy Hawes	M	M30-34	18	4:07:45		0:01:14	2:24:10	0:00:54	1:41:27	United Kingdom	FIN
+124697	96	Gareth Hall	M	M35-39	17	4:07:58		0:01:28	2:25:46	0:02:01	1:38:43	Australia	FIN
+26962	97	Gabriel Carnwath	F	F30-34	2	4:08:26		0:01:14	2:37:21	0:01:10	1:28:41	United Kingdom	FIN
+455931	98	Paul Craig	M	M35-39	18	4:08:31		0:01:27	2:21:49	0:01:10	1:44:05	United Kingdom	FIN
+393707	99	Christophe Sargis	M	M45-49	14	4:08:39		0:01:18	2:25:52	0:01:05	1:40:24	Saudi Arabia	FIN
+94422	100	Mikel Calahorra	M	M30-34	19	4:08:42		0:01:16	2:19:01	0:01:27	1:46:58	Bahrain	FIN
+62431	101	Abdulla Alsharhan	M	M35-39	19	4:09:02		0:01:36	2:23:27	0:01:40	1:42:19	Kuwait	FIN
+722215	102	Ludger Gbiorczyk	M	M55-59	1	4:09:02		0:01:30	2:21:39	0:01:26	1:44:27	Germany	FIN
+256499	103	Marco Morelli	M	M50-54	7	4:09:13		0:01:24	2:24:39	0:01:33	1:41:37	Italy	FIN
+70564	104	Graham Brookhouse	M	M50-54	8	4:09:14		0:01:23	2:17:06	0:01:36	1:49:09	United Kingdom	FIN
+50178	105	Mohsen Alali	M	M30-34	20	4:09:57		0:01:24	2:28:23	0:00:54	1:39:16	United Arab Emirates 	FIN
+722216	106	Luke Oung	M	M30-34	21	4:10:20		0:01:32	2:35:26	0:01:42	1:31:40	United Kingdom	FIN
+148336	107	Thierry Depolla	M	M50-54	9	4:10:38		0:01:41	2:24:46	0:01:40	1:42:31	Lebanon	FIN
+205196	108	Nick Parris	M	M35-39	20	4:10:40		0:01:37	2:21:32	0:01:12	1:46:19	United Kingdom	FIN
+79303	109	Derek Brady	M	M35-39	21	4:10:41		0:01:22	2:18:39	0:01:59	1:48:41	Ireland	FIN
+359584	110	Flemming Christensen	M	M40-44	14	4:11:01		0:01:34	2:23:50	0:01:27	1:44:10	Denmark	FIN
+399644	111	Ronald Dribbin	M	M55-59	2	4:11:15		0:01:40	2:27:22	0:02:24	1:39:49	South Africa	FIN
+256543	112	Jasim Albastaki	M	M50-54	10	4:11:19		0:01:31	2:31:07	0:01:35	1:37:06	Bahrain	FIN
+60986	113	Finn Zwager	M	M45-49	15	4:11:22		0:01:29	2:29:25	0:01:45	1:38:43	Netherlands 	FIN
+396537	114	Selcuk Caglar	M	M45-49	16	4:11:43		0:01:37	2:26:23	0:01:10	1:42:33	United States	FIN
+446681	115	Ewa Kuzior	F	M45-49	17	4:12:16		0:01:39	2:23:04	0:02:17	1:45:16	Poland	FIN
+107699	116	Nawaf Aldhaen	M	M25-29	7	4:12:17		0:01:20	2:25:59	0:02:21	1:42:37	Bahrain	FIN
+201844	117	Jamie Anderson	M	M30-34	22	4:12:27		0:01:38	2:35:35	0:01:58	1:33:16	United Kingdom	FIN
+167657	118	Carina Brechters	F	FPRO	7	4:12:48		0:01:18	2:32:38	0:00:56	1:37:56	Germany	FIN
+256520	119	Rinat Mustafina	M	M35-39	22	4:12:59		0:01:32	2:28:29	0:01:19	1:41:39	Russian Federation 	FIN
+722217	120	Jamal Aldosary	M	M45-49	18	4:13:24		0:01:40	2:22:26	0:01:52	1:47:26	Bahrain	FIN
+179545	121	Michael Schnitzler	M	M30-34	23	4:13:27		0:01:27	2:19:13	0:01:20	1:51:27	Austria	FIN
+84781	122	Kenneth Heney	M	M35-39	23	4:13:36		0:01:31	2:26:38	0:00:40	1:44:47	United Kingdom	FIN
+290220	123	Fredrik Modin	M	M40-44	15	4:13:41		0:01:29	2:21:00	0:01:23	1:49:49	Sweden	FIN
+176205	124	Volker Johannes Hemberger	M	M55-59	3	4:14:00		0:01:29	2:30:49	0:01:39	1:40:03	Germany	FIN
+201838	125	Gary Cummings	M	M35-39	24	4:14:23		0:01:28	2:38:17	0:01:52	1:32:46	United Kingdom	FIN
+722218	126	Brandan Knibiehly	M	M30-34	24	4:14:39		0:01:34	2:32:01	0:02:08	1:38:56	Belgium	FIN
+89437	127	Benjamin Hans	M	M25-29	8	4:14:40		0:01:38	2:30:05	0:01:17	1:41:40	United States	FIN
+722219	128	Marion Tuin	F	F30-34	3	4:14:52		0:01:29	2:28:50	0:01:58	1:42:35	Netherlands 	FIN
+195781	129	Neil Wood	M	M40-44	16	4:15:03		0:01:20	2:29:19	0:00:53	1:43:31	United Kingdom	FIN
+27056	130	Martin Gannon	M	M55-59	4	4:15:35		0:01:21	2:28:37	0:01:00	1:44:37	United Kingdom	FIN
+123457	131	Ramazan Emre Apaydin	M	M25-29	9	4:16:15		0:01:23	2:21:25	0:00:59	1:52:28	Turkey	FIN
+178782	132	Christian Scaccianoce	M	M35-39	25	4:16:48		0:01:28	2:23:02	0:01:21	1:50:57	Italy	FIN
+256502	133	Greer Sansom	F	F45-49	1	4:16:55		0:01:25	2:25:41	0:01:01	1:48:48	Australia	FIN
+181330	134	Lucy Woollacott	F	F35-39	1	4:16:56		0:01:34	2:30:08	0:01:23	1:43:51	United Kingdom	FIN
+34207	135	Metin Aroyo	M	M50-54	11	4:17:16		0:01:44	2:33:36	0:02:06	1:39:50	Turkey	FIN
+52255	136	Annie Frederick	F	F18-24	2	4:17:19		0:01:24	2:29:13	0:00:54	1:45:48	United Kingdom	FIN
+556647	137	Sylvain Girardeau	M	M25-29	10	4:17:30		0:01:29	2:34:14	0:01:20	1:40:27	France	FIN
+110465	138	Ali Riza Bilal	M	M40-44	17	4:17:47		0:01:33	2:25:15	0:01:28	1:49:31	Turkey	FIN
+47675	139	Christopher Newman	M	M45-49	19	4:17:50		0:01:51	2:29:37	0:01:26	1:44:56	United Kingdom	FIN
+722220	140	Robin Card	M	M35-39	26	4:17:52		0:01:36	2:29:54	0:01:58	1:44:24	United Kingdom	FIN
+28727	141	Ander Mendia Larrinaga	M	M25-29	11	4:17:59		0:01:25	2:27:47	0:01:21	1:47:26	Spain	FIN
+722221	142	David Gallarato	M	M35-39	27	4:17:59		0:01:31	2:26:11	0:01:26	1:48:51	Italy	FIN
+201833	143	Osama Al-Adhamy	M	M35-39	28	4:18:00		0:01:21	2:24:20	0:01:49	1:50:30	United Arab Emirates 	FIN
+314810	144	Dmitry Mishanin	M	M30-34	25	4:18:08		0:01:21	2:24:56	0:01:14	1:50:37	Russian Federation 	FIN
+201904	145	Hasan Itani	M	M40-44	18	4:18:17		0:01:32	2:28:55	0:01:26	1:46:24	Lebanon	FIN
+188188	146	Muratkhan Tokmadi	M	M45-49	20	4:18:19		0:01:34	2:27:28	0:02:10	1:47:07	Kazakhstan	FIN
+354537	147	Omar Buti	M	M18-24	5	4:18:27		0:01:14	2:32:16	0:01:13	1:43:44	Bahrain	FIN
+180094	148	Alex Harris	M	M30-34	26	4:18:34		0:01:21	2:27:08	0:01:31	1:48:34	United Kingdom	FIN
+314813	149	Belal Hassan	M	M30-34	27	4:18:36		0:01:21	2:30:41	0:01:13	1:45:21	Egypt	FIN
+722222	150	Brett Girven	M	M35-39	29	4:18:46		0:01:32	2:20:56	0:01:34	1:54:44	New Zealand	FIN
+167948	151	Helder Francisco	M	M40-44	19	4:18:58		0:01:36	2:37:34	0:02:05	1:37:43	Portugal	FIN
+52263	152	Louella O'Herlihy	F	F45-49	2	4:19:20		0:01:44	2:34:24	0:01:57	1:41:15	United Kingdom	FIN
+66682	153	Serge Goutard	M	M50-54	12	4:19:37		0:01:47	2:27:28	0:01:11	1:49:11	France	FIN
+129796	154	Haythem El-Ansary	M	M35-39	30	4:19:49		0:01:26	2:25:11	0:01:09	1:52:03	Australia	FIN
+542412	155	Tito Rodriguez	M	M35-39	31	4:19:57		0:01:22	2:36:51	0:01:29	1:40:15	Spain	FIN
+133832	156	Ronnie De Pryck	M	M40-44	20	4:20:05		0:01:38	2:27:00	0:01:56	1:49:31	Luxembourg	FIN
+201872	157	Abdulrahman Alhosani	M	M30-34	28	4:20:08		0:01:36	2:38:59	0:01:04	1:38:29	United Arab Emirates 	FIN
+722223	158	Alexander Holzinger-Elias	M	M40-44	21	4:20:17		0:02:05	2:25:11	0:01:52	1:51:09	Germany	FIN
+395909	159	Gerard Wattam	M	M40-44	22	4:20:30		0:01:36	2:26:41	0:01:32	1:50:41	United Kingdom	FIN
+216288	160	David Hunt	M	M50-54	13	4:21:07		0:01:27	2:32:00	0:01:27	1:46:13	United Kingdom	FIN
+94471	161	Jan Gremmen	M	M40-44	23	4:22:38		0:01:52	2:32:23	0:01:48	1:46:35	Netherlands 	FIN
+215382	162	Yerzhan Izdikov	M	M30-34	29	4:22:51		0:01:32	2:35:14	0:01:18	1:44:47	Kazakhstan	FIN
+143594	163	Tanguy Dadon	M	M55-59	5	4:23:05		0:01:41	2:33:58	0:01:44	1:45:42	France	FIN
+414592	164	Frederic Lemaire	M	M40-44	24	4:23:16		0:01:46	2:35:17	0:01:39	1:44:34	France	FIN
+181351	165	Mark Fourie	M	M40-44	25	4:23:34		0:01:50	2:24:24	0:01:28	1:55:52	South Africa	FIN
+201839	166	Martin Bond	M	M40-44	26	4:23:37		0:01:18	2:16:50	0:01:29	2:04:00	United Kingdom	FIN
+494577	167	Andreas Sellin	M	M35-39	32	4:23:39		0:01:46	2:29:58	0:01:43	1:50:12	Sweden	FIN
+343646	168	John Tinetti	M	M45-49	21	4:23:50		0:01:29	2:26:17	0:02:06	1:53:58	United States	FIN
+378171	169	Ewan Cameron Cameron	M	M45-49	22	4:23:59		0:01:24	2:36:46	0:01:19	1:44:30	United Kingdom	FIN
+70173	170	Daniel Vogel	M	M30-34	30	4:24:08		0:01:45	2:23:55	0:02:09	1:56:19	Germany	FIN
+109563	171	Michel Gusbin	M	M45-49	23	4:24:11		0:01:28	2:31:01	0:02:38	1:49:04	Belgium	FIN
+355145	172	Hussain Alqallaf	M	M35-39	33	4:24:11		0:01:41	2:33:30	0:01:44	1:47:16	Kuwait	FIN
+504355	173	Hamad Almansoori	M	M18-24	6	4:24:11		0:01:01	2:20:52	0:01:18	2:01:00	Bahrain	FIN
+722224	174	Hamad Sharaf Alghanem	M	M25-29	12	4:24:20		0:01:37	2:28:27	0:01:24	1:52:52	Saudi Arabia	FIN
+722225	175	Andrew Allan Sword	M	M30-34	31	4:24:33		0:01:21	2:34:08	0:01:45	1:47:19	Ireland	FIN
+722226	176	Phil Solarski	M	M35-39	34	4:25:12		0:01:31	2:40:13	0:02:26	1:41:02	United Kingdom	FIN
+722227	177	Matteo Fransos	M	M40-44	27	4:25:21		0:01:32	2:39:47	0:01:06	1:42:56	Italy	FIN
+504364	178	Olivier Gemayel	M	M35-39	35	4:25:27		0:01:37	2:24:07	0:01:29	1:58:14	Lebanon	FIN
+118781	179	Andrew Verb	M	M50-54	14	4:25:32		0:01:39	2:30:36	0:01:49	1:51:28	United States	FIN
+164185	180	Jennifer Gibbons	F	F35-39	2	4:26:00		0:01:42	2:36:11	0:01:35	1:46:32	New Zealand	FIN
+722228	181	David Cunningham	M	M35-39	36	4:26:11		0:01:36	2:28:31	0:01:19	1:54:45	Ireland	FIN
+129985	182	Thomas Brackmann	M	M35-39	37	4:26:18		0:01:59	2:33:12	0:01:29	1:49:38	Germany	FIN
+447601	183	Evelyne Niederberger	F	F30-34	4	4:26:20		0:01:13	2:40:03	0:01:03	1:44:01	Switzerland	FIN
+256521	184	Paolo Volani	M	M40-44	28	4:26:26		0:01:29	2:29:43	0:01:00	1:54:14	Italy	FIN
+256513	185	Cristina Isora Sosa Caballero	F	F30-34	5	4:26:26		0:01:54	2:32:38	0:01:12	1:50:42	Spain	FIN
+202344	186	Bradley Holliday	M	M30-34	32	4:26:33		0:01:25	2:42:40	0:01:18	1:41:10	South Africa	FIN
+572495	187	Raul Minarro Palacios	M	M35-39	38	4:26:59		0:01:39	2:25:52	0:01:39	1:57:49	Spain	FIN
+256484	188	Abdulla Farhan	M	M25-29	13	4:27:09		0:01:18	2:37:20	0:01:00	1:47:31	United Arab Emirates 	FIN
+118772	189	Ahmed Jbar	M	M35-39	39	4:27:25		0:01:31	2:39:32	0:01:55	1:44:27	United Arab Emirates 	FIN
+446906	190	Tim Owen	M	M50-54	15	4:27:27		0:01:32	2:32:18	0:01:11	1:52:26	United Kingdom	FIN
+139813	191	Marco Albrecht	M	M30-34	33	4:27:31		0:01:24	2:28:49	0:01:32	1:55:46	Germany	FIN
+203129	192	Pavel Golikov	M	M30-34	34	4:27:36		0:01:29	2:29:24	0:01:33	1:55:10	Russian Federation 	FIN
+65340	193	Lisa Hancox	F	F35-39	3	4:27:38		0:01:35	2:34:15	0:01:01	1:50:47	United Kingdom	FIN
+701787	194	Suleiman Al-Alawi	M	M40-44	29	4:27:48		0:01:26	2:33:52	0:02:19	1:50:11	Oman	FIN
+71027	195	Abigail Bartholomew	F	F30-34	6	4:28:13		0:01:50	2:43:14	0:01:25	1:41:44	Kuwait	FIN
+65356	196	Marco Nardelli Leonardi	M	M45-49	24	4:28:20		0:01:26	2:26:08	0:02:57	1:57:49	Italy	FIN
+43151	197	Pierre Daniel	M	M30-34	35	4:28:27		0:01:17	2:30:44	0:01:17	1:55:09	France	FIN
+722229	198	Mark Little	M	M40-44	30	4:28:33		0:01:38	2:34:05	0:01:26	1:51:24	United Kingdom	FIN
+157003	199	Dawid Pikor	M	M25-29	14	4:28:41		0:01:25	2:32:23	0:00:42	1:54:11	Poland	FIN
+290223	200	Yury Popov	M	M35-39	40	4:28:45		0:01:31	2:37:58	0:01:40	1:47:36	Russian Federation 	FIN
+539041	201	Fabio Schuler	M	M40-44	31	4:29:08		0:01:20	2:35:08	0:01:05	1:51:35	Brazil	FIN
+123453	202	Diego Soto	M	M40-44	32	4:29:10		0:01:28	2:23:57	0:01:45	2:02:00	United States	FIN
+539036	203	Abdallah Alireza	M	M18-24	7	4:29:26		0:01:23	2:44:49	0:01:25	1:41:49	Saudi Arabia	FIN
+137161	204	Lynette Warn	F	F50-54	1	4:29:38		0:01:32	2:40:50	0:01:26	1:45:50	United Arab Emirates 	FIN
+542359	205	Albert Megens	M	M45-49	25	4:29:41		0:01:24	2:27:15	0:01:52	1:59:10	Netherlands 	FIN
+123410	206	Matteo Cantieri	M	M35-39	41	4:30:04		0:01:35	2:29:10	0:00:55	1:58:24	Italy	FIN
+201949	207	Mike Bermingham	M	M50-54	16	4:30:15		0:01:44	2:36:07	0:01:50	1:50:34	Canada	FIN
+106742	208	Kelly Ryan	F	F30-34	7	4:30:17		0:01:20	2:36:15	0:01:38	1:51:04	United States	FIN
+722230	209	Mitchell Lawson	M	M25-29	15	4:30:17		0:01:48	2:36:34	0:01:41	1:50:14	United Kingdom	FIN
+54026	210	Bernat Vinals Vilarnau	M	M35-39	42	4:30:22		0:01:16	2:43:05	0:01:12	1:44:49	Spain	FIN
+176149	211	Nicholas Johnson	M	M45-49	26	4:30:35		0:01:53	2:36:28	0:02:21	1:49:53	Australia	FIN
+229243	212	Oliver Sorby	M	M30-34	36	4:30:47		0:01:18	2:43:07	0:01:49	1:44:33	United Kingdom	FIN
+572531	213	Tomokazu Toyoumi	M	M35-39	43	4:31:05		0:01:31	2:42:41	0:03:41	1:43:12	Japan	FIN
+539039	214	Abdulmajeed Almuayqil	M	M25-29	16	4:31:11		0:01:43	2:46:46	0:01:19	1:41:23	Saudi Arabia	FIN
+181466	215	Maryanne Octave	F	F40-44	1	4:31:26		0:01:31	2:41:13	0:01:39	1:47:03	Belgium	FIN
+65526	216	Virginia Vasconcelos	F	F40-44	2	4:31:49		0:01:30	2:42:10	0:01:51	1:46:18	Brazil	FIN
+123397	217	EMRE TACIR	M	M40-44	33	4:31:55		0:01:41	2:41:01	0:01:11	1:48:02	Turkey	FIN
+70375	218	Marek Nemcik	M	MPRO	12	4:32:01		0:01:10	2:35:37	0:01:41	1:53:33	Slovakia	FIN
+270400	219	Hamish Greenwood	M	M25-29	17	4:32:16		0:01:25	2:31:57	0:03:27	1:55:27	United Kingdom	FIN
+262215	220	Janne Block	M	M40-44	34	4:32:27		0:01:37	2:31:33	0:01:30	1:57:47	Sweden	FIN
+722231	221	Amer Ebrahim	M	M35-39	44	4:32:33		0:01:30	2:43:53	0:02:07	1:45:03	Bahrain	FIN
+303595	222	Rudi Van Boven	M	M45-49	27	4:32:38		0:01:37	2:35:54	0:02:54	1:52:13	Netherlands 	FIN
+600160	223	Norbert Bota	M	M25-29	18	4:33:07		0:01:26	2:38:28	0:02:50	1:50:23	Hungary	FIN
+722232	224	Alessandro Maria Dimauro	M	M45-49	28	4:33:07		0:01:59	2:47:49	0:01:31	1:41:48	Italy	FIN
+256635	225	Karsten Due	M	M45-49	29	4:33:27		0:01:38	2:28:46	0:01:40	2:01:23	United Arab Emirates 	FIN
+69266	226	May Alhaji	F	F30-34	8	4:33:32		0:01:38	2:41:42	0:01:13	1:48:59	Bahrain	FIN
+722233	227	Jeroen Van Willigen	M	M35-39	45	4:33:38		0:01:18	2:40:43	0:01:49	1:49:48	Netherlands 	FIN
+85062	228	Audrey Syren	F	F30-34	9	4:33:39		0:01:28	2:35:45	0:01:13	1:55:13	France	FIN
+256682	229	Radek Podracky	M	M40-44	35	4:34:24		0:01:24	2:30:56	0:01:56	2:00:08	Czechia	FIN
+201826	230	Chris Seeley	M	M35-39	46	4:34:25		0:01:30	2:45:26	0:01:17	1:46:12	United Kingdom	FIN
+257202	231	Hasan Moose Hassan Al Qassab	M	M30-34	37	4:34:26		0:01:30	2:34:58	0:01:02	1:56:56	Bahrain	FIN
+47257	232	Noel Rossouw	M	M55-59	6	4:34:44		0:01:37	2:51:12	0:01:41	1:40:14	South Africa	FIN
+49234	233	Claudio Fabbri	M	M40-44	36	4:34:56		0:01:22	2:34:56	0:02:49	1:55:49	Monaco	FIN
+201931	234	Clare Mccabe	F	F40-44	3	4:35:04		0:01:53	2:44:43	0:01:40	1:46:48	United Kingdom	FIN
+90790	235	Leyla Porteous	F	F35-39	4	4:35:27		0:01:47	2:42:07	0:01:05	1:50:28	Australia	FIN
+202355	236	Ebrahim Alromaihi	M	M18-24	8	4:35:27		0:01:35	2:39:05	0:01:19	1:53:28	Qatar	FIN
+67806	237	Ali Janahi	M	M25-29	19	4:36:41		0:01:57	2:31:45	0:01:39	2:01:20	Bahrain	FIN
+712860	238	Michael Craven	M	M35-39	47	4:37:00		0:01:49	2:34:28	0:02:39	1:58:04	Ireland	FIN
+256666	239	Rolf Asmund	M	M40-44	37	4:37:12		0:01:38	2:41:08	0:02:36	1:51:50	Denmark	FIN
+256598	240	Marina Lovrek	F	F25-29	1	4:37:29		0:01:33	2:37:57	0:01:15	1:56:44	Croatia	FIN
+192329	241	JÃ¶rg Alex	M	M50-54	17	4:37:41		0:01:40	2:39:03	0:01:01	1:55:57	Germany	FIN
+261893	242	Lorenzo Zurlo	M	M40-44	38	4:37:48		0:01:19	2:30:48	0:01:55	2:03:46	Italy	FIN
+29651	243	Alberto Massola	M	M30-34	38	4:37:55		0:01:30	2:42:23	0:01:11	1:52:51	Italy	FIN
+276338	244	Stevie Morgan	M	M55-59	7	4:38:11		0:01:40	2:24:27	0:02:19	2:09:45	Uganda	FIN
+722234	245	Hirst Michael	M	M18-24	9	4:38:13		0:01:46	2:38:42	0:04:03	1:53:42	United Kingdom	FIN
+123324	246	Ahmad Alsharhan	M	M25-29	20	4:38:17		0:01:37	2:32:37	0:01:22	2:02:41	Kuwait	FIN
+523058	247	Jerico Mangunay	M	M25-29	21	4:38:19		0:01:30	2:31:38	0:01:14	2:03:57	Philippines 	FIN
+256676	248	Pascal Dufour	M	M45-49	30	4:38:31		0:01:36	2:45:58	0:01:13	1:49:44	France	FIN
+171205	249	Michael Aikman	M	M50-54	18	4:38:38		0:01:39	2:46:40	0:03:29	1:46:50	Canada	FIN
+685499	250	Franco Ravaglia	M	M50-54	19	4:38:40		0:01:46	2:35:29	0:02:13	1:59:12	Italy	FIN
+218293	251	Bora Yucel	M	M40-44	39	4:38:41		0:01:41	2:36:24	0:01:50	1:58:46	Turkey	FIN
+572512	252	Charles Fraser	M	M35-39	48	4:38:43		0:02:00	2:40:43	0:01:43	1:54:17	New Zealand	FIN
+191799	253	John Dunkerley	M	M45-49	31	4:38:44		0:01:37	2:30:44	0:00:59	2:05:24	United Kingdom	FIN
+322460	254	Bryce Fluker	M	M30-34	39	4:38:56		0:01:24	2:39:34	0:01:46	1:56:12	United States	FIN
+256791	255	Jameel Jassim Jawad	M	M40-44	40	4:39:01		0:01:50	2:35:02	0:02:25	1:59:44	Bahrain	FIN
+262010	256	Christophe Roux	M	M35-39	49	4:39:04		0:01:36	2:38:28	0:01:38	1:57:22	France	FIN
+355158	257	Simon NoÃ«l	M	M30-34	40	4:39:10		0:01:41	2:35:15	0:01:35	2:00:39	France	FIN
+722235	258	Vladimir Sarybekov	M	M30-34	41	4:39:35		0:01:36	2:46:34	0:01:35	1:49:50	Kazakhstan	FIN
+130143	259	Andrew Kilshaw	M	M45-49	32	4:39:48		0:01:36	2:46:17	0:01:22	1:50:33	Australia	FIN
+202274	260	zaid Altaweel	M	M25-29	22	4:39:57		0:01:38	2:40:02	0:01:50	1:56:27	Saudi Arabia	FIN
+226140	261	Jonathan Baron	M	M40-44	41	4:39:59		0:01:55	2:42:40	0:03:10	1:52:14	United Kingdom	FIN
+216573	262	Marcella Moohan	F	F40-44	4	4:40:12		0:01:27	2:36:33	0:01:31	2:00:41	United Kingdom	FIN
+86091	263	Linda Blakely	F	F40-44	5	4:40:31		0:01:38	2:46:21	0:01:27	1:51:05	United Kingdom	FIN
+722236	264	Sergio De Luca	M	M35-39	50	4:40:31		0:01:41	2:39:39	0:01:54	1:57:17	Italy	FIN
+167167	265	Kim Crawford	F	F45-49	3	4:40:37		0:02:05	2:41:51	0:01:11	1:55:30	Canada	FIN
+722237	266	Charlotte Berner	F	F40-44	6	4:40:40		0:01:51	2:48:39	0:01:31	1:48:39	Denmark	FIN
+205033	267	Tom Garrett	M	M18-24	10	4:40:53		0:02:05	2:54:06	0:02:03	1:42:39	United Kingdom	FIN
+722238	268	Declan Gaynor	M	M35-39	51	4:41:05		0:01:23	2:48:41	0:03:02	1:47:59	Ireland	FIN
+722239	269	Simon Bywater	M	M25-29	23	4:41:12		0:01:39	3:00:38	0:02:21	1:36:34	United Kingdom	FIN
+305311	270	Adam Wilkes	M	M35-39	52	4:41:26		0:01:40	2:44:32		1:55:14	United Kingdom	FIN
+69322	271	Khadiga Amin	F	F30-34	10	4:41:29		0:01:29	2:39:20	0:02:00	1:58:40	Egypt	FIN
+354642	272	Bruno Morand	M	M30-34	42	4:41:42		0:01:32	2:37:15	0:02:04	2:00:51	Brazil	FIN
+194527	273	Beth Lakier	F	F45-49	4	4:41:45		0:02:00	2:46:37	0:02:04	1:51:04	United States	FIN
+192106	274	Matthew Rushton	M	M40-44	42	4:41:45		0:01:34	2:33:16	0:01:21	2:05:34	South Africa	FIN
+164542	275	Nagima Kerimbayeva	F	F40-44	7	4:41:46		0:01:34	2:42:10	0:01:36	1:56:26	Kazakhstan	FIN
+514377	276	sebastien jaulent	M	M30-34	43	4:42:04		0:01:28	2:38:39	0:02:07	1:59:50	France	FIN
+62485	277	Nicolas Jacobs	M	M40-44	43	4:42:08		0:01:31	2:27:55	0:02:50	2:09:52	South Africa	FIN
+722240	278	Hendrik Meiring	M	M30-34	44	4:42:45		0:01:48	2:48:20	0:02:40	1:49:57	South Africa	FIN
+721161	279	Dmitry MELNIKOV	M	M30-34	45	4:42:47		0:01:27	2:37:58	0:02:40	2:00:42	Russian Federation 	FIN
+722241	280	Joel Driscoll	M	M30-34	46	4:42:50		0:01:31	2:48:00	0:01:47	1:51:32	United Kingdom	FIN
+256721	281	Annabelle Rust	F	F30-34	11	4:43:17		0:01:47	2:50:35	0:01:42	1:49:13	France	FIN
+365682	282	Asem Kunakbayeva	F	F30-34	12	4:43:19		0:01:28	2:51:15	0:01:47	1:48:49	Kazakhstan	FIN
+257207	283	Craig Broome	M	M35-39	53	4:43:39		0:01:28	2:31:52	0:01:35	2:08:44	United Kingdom	FIN
+722242	284	Rabih Farsoun	M	M35-39	54	4:43:48		0:01:50	2:44:40	0:02:32	1:54:46	Lebanon	FIN
+722243	285	Simon Chorlton	M	M45-49	33	4:43:50		0:01:40	2:31:11	0:01:30	2:09:29	United Kingdom	FIN
+594492	286	Juan Jose Somoza	M	M40-44	44	4:43:53		0:01:35	2:39:23	0:01:57	2:00:58	Venezuela 	FIN
+722244	287	Khalid Bualay	M	M25-29	24	4:43:56		0:01:40	2:49:42	0:02:16	1:50:18	Bahrain	FIN
+572501	288	Stephen Allen	M	M40-44	45	4:44:20		0:01:56	2:31:39	0:01:27	2:09:18	United Kingdom	FIN
+355275	289	Jonathan Comber	M	M45-49	34	4:44:20		0:01:34	2:39:09	0:01:59	2:01:38	United Kingdom	FIN
+181483	290	Jaynald Canaria	M	M40-44	46	4:44:23		0:01:42	2:42:43	0:01:56	1:58:02	Philippines 	FIN
+131900	291	Justin Sanak	M	M25-29	25	4:44:39		0:01:21	2:44:11	0:01:03	1:58:04	United States	FIN
+523064	292	Joe Max Villarico	M	M35-39	55	4:44:46		0:01:37	2:26:36	0:01:45	2:14:48	Philippines 	FIN
+539054	293	Alex Morris	M	M55-59	8	4:45:08		0:02:15	2:42:38	0:02:44	1:57:31	United Kingdom	FIN
+201998	294	Mike Hart	M	M55-59	9	4:45:29		0:01:43	2:44:44	0:02:32	1:56:30	United Kingdom	FIN
+722245	295	Rayan Al Ajaji	M	M25-29	26	4:45:43		0:01:23	2:47:45	0:01:16	1:55:19	Bahrain	FIN
+722246	296	Ian Burch	M	M45-49	35	4:45:43		0:01:21	2:34:06	0:01:27	2:08:49	United Kingdom	FIN
+722247	297	Toni Junghaenel	M	M35-39	56	4:45:51		0:01:41	2:31:00	0:01:25	2:11:45	Germany	FIN
+722248	298	Karl Street	M	M50-54	20	4:46:07		0:01:47	3:02:51	0:02:48	1:38:41	United Kingdom	FIN
+203922	299	Jonathan Batusbatusan	M	M35-39	57	4:46:10		0:01:33	2:39:40	0:02:13	2:02:44	Philippines 	FIN
+535718	300	Mazen Akhdar	M	M35-39	58	4:46:17		0:01:39	2:37:52	0:01:10	2:05:36	Saudi Arabia	FIN
+722249	301	Andrew Turnbull	M	M40-44	47	4:46:19		0:01:32	2:38:26	0:01:36	2:04:45	United Kingdom	FIN
+722250	302	Mohamed Althawadi	M	M25-29	27	4:46:46		0:01:52	2:46:18	0:01:51	1:56:45	Bahrain	FIN
+408016	303	Vincent Barouki	M	M35-39	59	4:47:01		0:01:55	2:39:14	0:01:46	2:04:06	Lebanon	FIN
+302525	304	Julius Imperial	M	M35-39	60	4:47:12		0:01:45	2:40:52	0:03:21	2:01:14	Philippines 	FIN
+119016	305	Mitchell Katten	M	M50-54	21	4:47:23		0:01:38	2:47:01	0:02:07	1:56:37	United States	FIN
+192016	306	Jonathan Robinson	M	M30-34	47	4:47:25		0:01:39	2:36:28	0:01:44	2:07:34	New Zealand	FIN
+722251	307	Alex Gibbs	M	M40-44	48	4:47:44		0:01:34	2:44:43	0:01:12	2:00:15	United Kingdom	FIN
+202111	308	Olga Garland	F	F40-44	8	4:47:48		0:01:41	2:49:54	0:01:10	1:55:03	France	FIN
+27278	309	Elizabeth Gannon	F	F55-59	1	4:48:03		0:01:45	2:37:04	0:01:22	2:07:52	United Kingdom	FIN
+495293	310	Sarah Economides	F	F40-44	9	4:48:34		0:01:50	2:48:33	0:01:23	1:56:48	United Kingdom	FIN
+85016	311	Eddy Moreau	M	M35-39	61	4:48:50		0:01:27	2:35:13	0:01:16	2:10:54	France	FIN
+256720	312	Salman Fulad	M	M18-24	11	4:49:08		0:01:30	2:57:51	0:02:14	1:47:33	Bahrain	FIN
+359483	313	Antonio Da Rold	M	M45-49	36	4:49:23		0:01:55	2:42:18	0:01:49	2:03:21	Argentina	FIN
+722252	314	Lone Schaadt	F	F45-49	5	4:49:25		0:01:59	2:36:38	0:02:23	2:08:25	Denmark	FIN
+167826	315	Stuart Hart	M	M45-49	37	4:49:51		0:01:51	2:40:16	0:01:28	2:06:16	United Kingdom	FIN
+722253	316	John Denning	M	M35-39	62	4:49:55		0:01:25	2:51:37	0:01:05	1:55:48	United Kingdom	FIN
+343818	317	Yasmin Wadhai	F	F25-29	2	4:49:55		0:01:35	2:52:00	0:01:36	1:54:44	Iraq	FIN
+495651	318	Sarah Butler	F	F30-34	13	4:49:59		0:01:24	2:52:38	0:01:21	1:54:36	United Kingdom	FIN
+256625	319	Mark Paver	M	M45-49	38	4:50:03		0:01:51	2:42:39	0:01:46	2:03:47	United Kingdom	FIN
+722254	320	Abdul Karim Turki	M	M55-59	10	4:50:09		0:02:03	3:03:27	0:02:06	1:42:33	Bahrain	FIN
+201946	321	Joseph Broughton	M	M25-29	28	4:50:21		0:01:44	2:56:59	0:02:49	1:48:49	United Kingdom	FIN
+722255	322	Arslan Sarybekov	M	M30-34	48	4:51:04		0:01:34	2:44:38	0:01:49	2:03:03	Kazakhstan	FIN
+337754	323	Laurent Deage	M	M45-49	39	4:51:06		0:01:24	2:40:07	0:01:36	2:07:59	Armenia	FIN
+177455	324	Deirdre Macnally	F	F30-34	14	4:51:11		0:01:39	2:50:36	0:01:29	1:57:27	Ireland	FIN
+63331	325	Graham Smith	M	M45-49	40	4:51:19		0:01:24	2:39:59	0:01:15	2:08:41	United Kingdom	FIN
+539266	326	Mahmood Alansai	M	M30-34	49	4:51:24		0:01:34	2:53:58	0:01:53	1:53:59	Bahrain	FIN
+205048	327	Harry Goodson-Wickes	M	M35-39	63	4:51:41		0:01:43	2:37:29	0:01:42	2:10:47	United Kingdom	FIN
+65850	328	Ce Cadu Tilkian	M	M45-49	41	4:51:57		0:01:46	2:42:11	0:02:10	2:05:50	Brazil	FIN
+504433	329	Michael Schaadt	M	M40-44	49	4:52:08		0:01:48	2:47:26	0:02:39	2:00:15	Denmark	FIN
+95766	330	Unai Pastor	M	M30-34	50	4:52:09		0:01:32	2:37:09	0:01:30	2:11:58	Spain	FIN
+419865	331	Nikhil Raghavan	M	M40-44	50	4:52:14		0:01:47	3:01:13	0:01:49	1:47:25	India	FIN
+131169	332	Sebastien Guerin	M	M40-44	51	4:52:34		0:01:49	2:47:18	0:01:58	2:01:29	France	FIN
+198955	333	Lars OlvÃ©n	M	M55-59	11	4:52:39		0:02:06	2:41:36	0:02:35	2:06:22	Sweden	FIN
+722256	334	Sezin Tacir	F	F35-39	5	4:52:45		0:01:52	2:45:40	0:02:08	2:03:05	Turkey	FIN
+256687	335	Nasser Al Jalahma	M	M25-29	29	4:52:52		0:01:27	2:47:40	0:02:07	2:01:38	Bahrain	FIN
+354612	336	Farid Abderrezak	M	M30-34	51	4:53:11		0:01:46	3:00:35	0:04:04	1:46:46	France	FIN
+722257	337	Rob Penn	F	M45-49	42	4:53:12		0:01:48	2:39:35	0:01:29	2:10:20	United Kingdom	FIN
+206194	338	Ian Gilby	M	M50-54	22	4:53:14		0:01:37	2:39:39	0:01:43	2:10:15	United Kingdom	FIN
+572513	339	Guus Vogelzang	M	M45-49	43	4:53:26		0:01:54	2:45:36	0:01:50	2:04:06	Netherlands 	FIN
+48621	340	Luca Fratini	M	M50-54	23	4:53:29		0:01:30	2:52:00	0:01:41	1:58:18	Italy	FIN
+722258	341	Nader Dandachi	M	M35-39	64	4:53:36		0:01:29	2:33:57	0:01:39	2:16:31	Lebanon	FIN
+67654	342	Khalid Al Khalifa	M	M35-39	65	4:53:56		0:01:29	2:49:14	0:01:49	2:01:24	Bahrain	FIN
+285472	343	Andrea Bruhin	F	F40-44	10	4:54:01		0:01:58	2:32:55	0:01:45	2:17:23	Switzerland	FIN
+103937	344	Ed Hess	M	M45-49	44	4:54:04		0:01:30	2:53:16	0:01:42	1:57:36	United States	FIN
+504384	345	Saad Abdulaziz Bojlia	M	M35-39	66	4:54:22		0:01:36	2:35:12	0:02:38	2:14:56	Saudi Arabia	FIN
+149160	346	Annie Parker	F	F40-44	11	4:54:24		0:01:36	2:54:39	0:01:14	1:56:55	United Kingdom	FIN
+722259	347	Mohamed Alrowaili	M	M30-34	52	4:54:31		0:01:54	2:47:58	0:01:47	2:02:52	Bahrain	FIN
+200978	348	Vladimir Komarov	M	M35-39	67	4:54:39		0:01:36	2:41:04	0:01:49	2:10:10	Russian Federation 	FIN
+204073	349	Ralph Anthony Reyes	M	M30-34	53	4:54:46		0:01:34	2:38:22	0:01:29	2:13:21	Philippines 	FIN
+722260	350	Mahmood Matooq	M	M25-29	30	4:55:10		0:01:57	2:53:12	0:03:01	1:57:00	Bahrain	FIN
+722261	351	Ahmed Habib	M	M25-29	31	4:55:10		0:01:55	2:49:00	0:02:31	2:01:44	Bahrain	FIN
+408586	352	Edoardo Lando	M	M55-59	12	4:55:17		0:01:55	2:52:14	0:03:08	1:58:00	Italy	FIN
+70063	353	Frauke Riedinger	F	F45-49	6	4:55:19		0:01:46	2:49:28	0:02:45	2:01:20	Germany	FIN
+196383	354	Dirk Buss	M	M45-49	45	4:55:25		0:01:30	2:35:19	0:02:05	2:16:31	Germany	FIN
+722262	355	Eckert Sandra	F	F30-34	15	4:55:32		0:01:38	2:48:54	0:01:43	2:03:17	Switzerland	FIN
+539255	356	Warren Blore	M	M40-44	52	4:55:34		0:01:47	2:51:36	0:02:41	1:59:30	Australia	FIN
+285144	357	Alex Villec	M	M18-24	12	4:55:38		0:01:40	3:01:39	0:02:43	1:49:36	United States	FIN
+201881	358	Mohammed Alharbi	M	M25-29	32	4:55:56		0:01:31	2:45:55	0:01:56	2:06:34	Saudi Arabia	FIN
+125308	359	Sarah Walsh	F	F25-29	3	4:56:24		0:01:25	2:53:42	0:02:15	1:59:02	Ireland	FIN
+403172	360	Sara Althawadi	F	F25-29	4	4:56:37		0:01:50	2:53:00	0:01:59	1:59:48	Bahrain	FIN
+722263	361	Juliet Fullwood	F	F30-34	16	4:56:42		0:01:35	2:49:27	0:01:58	2:03:42	United Kingdom	FIN
+202346	362	Aljuhn Davantes	M	M45-49	46	4:56:44		0:01:56	2:42:46	0:02:28	2:09:34	Philippines 	FIN
+416902	363	Nasser Almohannadi	M	M40-44	53	4:56:57		0:01:56	2:50:54	0:01:18	2:02:49	Qatar	FIN
+722264	364	Grant Lemuel Ang	M	M35-39	68	4:57:05		0:01:51	2:41:33	0:01:15	2:12:26	Philippines 	FIN
+300999	365	Jordan Meintjes	M	M35-39	69	4:57:22		0:01:42	2:47:52	0:02:20	2:05:28	South Africa	FIN
+722265	366	Iain Mcdougall	M	M45-49	47	4:57:35		0:01:55	2:57:09	0:03:02	1:55:29	United Kingdom	FIN
+539079	367	Angela Carscadden	F	F35-39	6	4:57:42		0:01:52	2:55:13	0:01:23	1:59:14	Canada	FIN
+314980	368	Georges Baaklini	M	M35-39	70	4:57:48		0:01:52	2:45:04	0:01:28	2:09:24	Lebanon	FIN
+539095	369	Salah Janahi	M	M50-54	24	4:57:49		0:01:43	2:48:36	0:02:22	2:05:08	Bahrain	FIN
+722266	370	Enrique Fajardo LiaÃ±o	M	M40-44	54	4:58:00		0:01:51	2:48:39	0:05:42	2:01:48	Spain	FIN
+202073	371	Patricia Adeltoft	F	F40-44	12	4:58:04		0:01:42	2:51:43	0:01:13	2:03:26	Denmark	FIN
+362841	372	Yousif Althawadi	M	M50-54	25	4:58:11		0:01:39	2:39:56	0:01:42	2:14:54	Bahrain	FIN
+230551	373	Bert Michels	M	M45-49	48	4:58:28		0:01:41	2:48:27	0:02:13	2:06:07	Netherlands 	FIN
+722267	374	Taiba Alnouri	F	F25-29	5	4:58:42		0:01:30	2:58:50	0:01:33	1:56:49	Kuwait	FIN
+504399	375	Richard Pingram	M	M25-29	33	4:58:44		0:02:19	2:44:31	0:02:43	2:09:11	United Kingdom	FIN
+256750	376	Jewell Narzoles	F	F35-39	7	4:58:55		0:01:57	2:56:28	0:01:53	1:58:37	Philippines 	FIN
+204075	377	Alvin John Quimzon	M	M25-29	34	4:59:05		0:01:33	2:39:51	0:01:48	2:15:53	Philippines 	FIN
+469838	378	Abdulaziz Alhazeem	M	M25-29	35	4:59:18		0:01:28	2:28:30	0:01:40	2:27:40	Kuwait	FIN
+122999	379	Simone Camposeranio	M	M35-39	71	4:59:18		0:01:45	2:49:16	0:02:03	2:06:14	Italy	FIN
+205069	380	Ellie Penketh	F	F18-24	3	4:59:29		0:01:24	2:42:57	0:01:13	2:13:55	United Kingdom	FIN
+257183	381	Finola De Paor	F	F40-44	13	4:59:34		0:02:01	3:04:00	0:01:46	1:51:47	Ireland	FIN
+271318	382	Michael Goode	M	M50-54	26	4:59:35		0:01:44	2:44:43	0:01:44	2:11:24	United Kingdom	FIN
+62308	383	Pamela Vargas	F	F30-34	17	4:59:38		0:01:41	2:55:37	0:01:37	2:00:43	Chile	FIN
+217899	384	Joanna Sygula	F	F35-39	8	4:59:40		0:01:35	2:58:30	0:01:06	1:58:29	Poland	FIN
+722268	385	Mubarak Mohammed	M	M35-39	72	4:59:42		0:01:25	2:52:14	0:03:20	2:02:43	Bahrain	FIN
+722269	386	Hamid Belkebir	M	M40-44	55	4:59:55		0:01:36	2:45:20	0:01:28	2:11:31	Algeria	FIN
+52591	387	Clare Farrell	F	F40-44	14	5:00:22		0:02:19	2:58:17	0:01:32	1:58:14	United Kingdom	FIN
+276545	388	Victoria Arscott	F	F30-34	18	5:00:30		0:01:29	2:56:37	0:01:05	2:01:19	United Kingdom	FIN
+572527	389	Kolja Koracak	M	M40-44	56	5:00:32		0:01:36	2:37:21	0:01:45	2:19:50	Croatia	FIN
+504415	390	Keith Dunham	M	M35-39	73	5:00:37		0:01:35	2:57:34	0:01:37	1:59:51	United Kingdom	FIN
+722270	391	Mario Saradar	M	M45-49	49	5:00:46		0:01:52	2:54:40	0:03:08	2:01:06	Lebanon	FIN
+722271	392	Ahmad Aljarallah	M	M30-34	54	5:00:56		0:01:38	2:59:19	0:02:34	1:57:25	Kuwait	FIN
+201925	393	Simon Halford	M	M50-54	27	5:01:05		0:01:39	3:05:46	0:01:38	1:52:02	United Kingdom	FIN
+87154	394	Kwadjo Adusei-Poku	M	M50-54	28	5:01:06		0:01:57	2:56:16	0:02:17	2:00:36	United States	FIN
+722272	395	Alaauddin Ebrahim Mohamed	M	M25-29	36	5:01:09		0:01:34	2:41:48	0:03:15	2:14:32	Bahrain	FIN
+362207	396	Rafat Shobaki	M	M35-39	74	5:01:22		0:02:02	2:42:56	0:02:02	2:14:22	Jordan	FIN
+202083	397	Manish Sethi	M	M35-39	75	5:01:35		0:01:41	2:57:57	0:01:56	2:00:01	United Kingdom	FIN
+594491	398	Tracy Khayat	F	F18-24	4	5:01:46		0:01:47	2:57:22	0:02:20	2:00:17	Lebanon	FIN
+722273	399	Alfons Vinent	M	M40-44	57	5:01:47		0:01:31	2:46:40	0:01:47	2:11:49	Andorra	FIN
+47966	400	Julie Rossouw	F	F50-54	2	5:01:48		0:02:06	2:54:30	0:01:47	2:03:25	United Kingdom	FIN
+94725	401	Annemarie Kilshaw	F	F50-54	3	5:02:00		0:01:47	3:01:01	0:01:22	1:57:50	Australia	FIN
+66703	402	Marianne Gates	F	F35-39	9	5:02:11		0:01:52	2:48:49	0:01:50	2:09:40	South Africa	FIN
+722274	403	James Tracey	M	M40-44	58	5:02:15		0:01:55	2:43:53	0:03:57	2:12:30	Ireland	FIN
+712994	404	jamie groom	M	M35-39	76	5:02:47		0:01:36	2:39:05	0:01:49	2:20:17	Ireland	FIN
+722275	405	Sarah Lawson	F	F25-29	6	5:02:51		0:01:35	2:57:44	0:01:20	2:02:12	United Kingdom	FIN
+678957	406	Stefan Schwarzgruber	M	M35-39	77	5:02:53		0:01:38	2:35:57	0:01:28	2:23:50	Austria	FIN
+722276	407	Nirmeen Alireza	F	F45-49	7	5:02:55		0:01:40	2:55:12	0:01:27	2:04:36	Bahrain	FIN
+722277	408	Paul Millington	M	M40-44	59	5:03:37		0:01:48	2:56:34	0:03:43	2:01:32	Bahrain	FIN
+354614	409	Mustafa Janahi	M	M25-29	37	5:03:50		0:01:34	2:57:30	0:02:15	2:02:31	Bahrain	FIN
+722278	410	Alison Smith	F	F45-49	8	5:04:06		0:01:57	2:55:28	0:00:55	2:05:46	United Kingdom	FIN
+539048	411	Scott Dorward	M	M50-54	29	5:04:10		0:02:03	2:55:58	0:03:56	2:02:13	Canada	FIN
+256655	412	Abdulla Faqihi	M	M18-24	13	5:04:36		0:01:40	2:57:57	0:02:14	2:02:45	Bahrain	FIN
+430016	413	Ahmed Al Malki	M	M35-39	78	5:04:37		0:02:13	2:52:34	0:01:28	2:08:22	Oman	FIN
+594589	414	Carlos Castro	M	M50-54	30	5:04:46		0:01:43	2:56:16	0:02:41	2:04:06	Venezuela 	FIN
+701839	415	Ed Ryan	M	M60-64	1	5:05:13		0:01:48	3:02:23	0:01:53	1:59:09	Mexico	FIN
+382673	416	Ahmed Al Harban	M	M30-34	55	5:05:27		0:01:49	2:55:38	0:01:36	2:06:24	Bahrain	FIN
+560038	417	David Homer	M	M45-49	50	5:05:40		0:01:49	2:43:01	0:02:08	2:18:42	Australia	FIN
+519828	418	Andrew Horne	M	M55-59	13	5:05:46		0:01:55	2:45:17	0:01:47	2:16:47	United Kingdom	FIN
+256595	419	Ali Ahmed Abdulla Ahmed Ali	M	M25-29	38	5:05:58		0:01:27	2:49:50	0:01:50	2:12:51	Bahrain	FIN
+246561	420	Sibylle Gottschalk	F	F45-49	9	5:06:10		0:01:39	2:58:17	0:02:15	2:03:59	Germany	FIN
+459714	421	Ahmed Mohamed Khalifa	M	M35-39	79	5:06:33		0:01:34	2:47:26	0:01:45	2:15:48	Egypt	FIN
+722279	422	Sandy Warne	F	F30-34	19	5:06:47		0:01:23	2:57:16	0:01:32	2:06:36	United Kingdom	FIN
+722280	423	James Moore	M	M25-29	39	5:06:52		0:01:38	2:54:37	0:01:38	2:08:59	United Kingdom	FIN
+256790	424	Alec Spedding	M	M30-34	56	5:07:04		0:01:38	2:40:04	0:02:01	2:23:21	United Kingdom	FIN
+68751	425	Anton Vidineev	M	M30-34	57	5:07:14		0:01:48	2:43:58	0:01:28	2:20:00	Russian Federation 	FIN
+722281	426	Zayed Hussain Atwah	M	M25-29	40	5:07:23		0:01:53	2:58:24	0:02:12	2:04:54	Saudi Arabia	FIN
+568995	427	Simon Smith	M	M40-44	60	5:07:38		0:01:48	2:58:40	0:03:21	2:03:49	United Kingdom	FIN
+403135	428	Mohamed Al Madani	M	M25-29	41	5:07:56		0:01:40	3:02:28	0:02:01	2:01:47	Bahrain	FIN
+123311	429	Faisal Alateeq	M	M25-29	42	5:07:56		0:01:25	2:50:34	0:02:15	2:13:42	Kuwait	FIN
+722282	430	Alexander Pettet	M	M40-44	61	5:08:36		0:01:51	2:46:53	0:01:39	2:18:13	United Kingdom	FIN
+620110	431	Carl Stamer	M	M40-44	62	5:08:44		0:01:45	2:49:11	0:02:34	2:15:14	Germany	FIN
+563240	432	Fawzi M. Al-Qatami	M	M30-34	58	5:09:12		0:01:49	2:58:14	0:01:31	2:07:38	Kuwait	FIN
+355276	433	Brad Manser	M	M40-44	63	5:09:19		0:02:01	2:41:56	0:02:07	2:23:15	South Africa	FIN
+28201	434	Andriy Avramenko	M	M30-34	59	5:09:34		0:01:42	2:38:02	0:03:17	2:26:33	Ukraine	FIN
+202018	435	Sally Hart	F	F35-39	10	5:09:39		0:01:43	3:10:44	0:02:11	1:55:01	United Kingdom	FIN
+722283	436	Jacques Olckers	M	M45-49	51	5:09:40		0:02:15	2:50:32	0:03:00	2:13:53	South Africa	FIN
+451877	437	Vibeke Svensson	F	F40-44	15	5:09:48		0:01:49	2:46:06	0:02:08	2:19:45	Denmark	FIN
+123069	438	Vicky Andrews	F	F40-44	16	5:09:59		0:01:54	2:46:50	0:01:21	2:19:54	Bahrain	FIN
+471456	439	Mike Canning	M	M40-44	64	5:10:03		0:02:16	2:48:33	0:02:06	2:17:08	United Kingdom	FIN
+572548	440	Bruce Collins	M	M45-49	52	5:10:03		0:01:41	2:54:14	0:02:23	2:11:45	United States	FIN
+543696	441	Aydonat Atasever	M	M40-44	65	5:10:45		0:01:42	2:47:40	0:01:54	2:19:29	Turkey	FIN
+85842	442	Andreas Hornig	M	M50-54	31	5:10:47		0:01:56	2:43:20	0:02:12	2:23:19	Germany	FIN
+122614	443	Ã–zgÃ¼r Aksaman	M	M35-39	80	5:10:47		0:01:43	2:47:46	0:01:47	2:19:31	Turkey	FIN
+722284	444	Majel Padilla	F	F30-34	20	5:11:15		0:01:42	3:02:04	0:02:03	2:05:26	Philippines 	FIN
+149667	445	Karol Puklus	M	M30-34	60	5:11:20		0:01:53	2:40:43	0:03:53	2:24:51	Slovakia	FIN
+271132	446	Robert Wakefield	M	M55-59	14	5:12:10		0:01:38	2:53:28	0:02:12	2:14:52	United Kingdom	FIN
+256932	447	David Taylor	M	M45-49	53	5:12:27		0:01:52	2:47:44	0:02:26	2:20:25	Bahrain	FIN
+722285	448	Wyatt Franz	M	M40-44	66	5:12:44		0:01:36	2:45:30	0:03:11	2:22:27	United States	FIN
+722286	449	Paul Venn	M	M45-49	54	5:13:06		0:02:07	2:49:28	0:02:03	2:19:28	United Kingdom	FIN
+459690	450	Don Francis	M	M40-44	67	5:13:18		0:01:39	2:58:53	0:02:13	2:10:33	United States	FIN
+722287	451	Jesse Izdepski	M	M35-39	81	5:13:29		0:01:42	3:03:39	0:02:36	2:05:32	United States	FIN
+722288	452	Paul Kenna	M	M45-49	55	5:13:37		0:01:41	2:57:27	0:03:32	2:10:57	United Kingdom	FIN
+204149	453	Anthony Manabat	M	M35-39	82	5:14:21		0:01:56	2:36:41	0:03:41	2:32:03	Philippines 	FIN
+722289	454	Mike Palmer	M	M45-49	56	5:14:40		0:01:52	3:01:07	0:04:04	2:07:37	United Kingdom	FIN
+123122	455	Nevsin Mengu	F	F30-34	21	5:14:40		0:02:14	3:03:47	0:03:37	2:05:02	Turkey	FIN
+65996	456	David Rodrigues	M	M60-64	2	5:14:49		0:01:57	2:58:36	0:02:41	2:11:35	United States	FIN
+285209	457	Amanda Nimon Peters	F	F40-44	17	5:15:01		0:02:27	3:05:24	0:02:20	2:04:50	Canada	FIN
+89812	458	Nerissa Usero	F	F35-39	11	5:15:05		0:02:05	2:53:49	0:02:05	2:17:06	Philippines 	FIN
+469344	459	Sarah Jervoso	F	F30-34	22	5:15:09		0:01:44	3:04:56	0:02:07	2:06:22	Philippines 	FIN
+271128	460	Mary Anne Ballouz	F	F50-54	4	5:15:18		0:01:46	2:55:41	0:03:00	2:14:51	United States	FIN
+712943	461	Cormac Macmahon	M	M40-44	68	5:15:32		0:01:46	2:46:48	0:02:13	2:24:45	Ireland	FIN
+256849	462	Camil Boulos	M	M25-29	43	5:15:49		0:01:40	3:11:49	0:02:17	2:00:03	Lebanon	FIN
+242498	463	Phil Sumner	M	M50-54	32	5:16:12		0:01:50	3:00:01	0:04:49	2:09:32	United Kingdom	FIN
+633163	464	Florante Santiago	M	M45-49	57	5:16:18		0:01:46	2:56:43	0:02:19	2:15:30	Philippines 	FIN
+66767	465	Mary Gustus Straley	F	F50-54	5	5:16:25		0:02:00	3:04:46	0:02:25	2:07:14	United States	FIN
+572648	466	Joe Dalton	M	M35-39	83	5:16:27		0:01:38	3:02:45	0:01:32	2:10:32	Ireland	FIN
+722290	467	Mohamed Mehaier Almuhairi	M	M35-39	84	5:16:30		0:01:41	2:57:46	0:02:10	2:14:53	United Arab Emirates 	FIN
+354946	468	Mohamed Bouzoubaa	M	M30-34	61	5:16:41		0:01:47	3:00:21	0:01:50	2:12:43	Morocco	FIN
+201972	469	Roscoe Friend	M	M30-34	62	5:17:31		0:01:35	2:51:15	0:01:57	2:22:44	South Africa	FIN
+722291	470	Warren Sheard	M	M40-44	69	5:17:35		0:01:47	3:04:01	0:02:47	2:09:00	United Kingdom	FIN
+94880	471	Fabrice Peyrin	M	M40-44	70	5:17:47		0:01:37	2:53:38	0:01:23	2:21:09	France	FIN
+202289	472	Dmitry Govorov	M	M30-34	63	5:17:52		0:01:45	2:46:03	0:02:38	2:27:26	Russian Federation 	FIN
+678577	473	Johannes Glas	M	M40-44	71	5:17:58		0:01:52	2:56:23	0:02:11	2:17:32	Germany	FIN
+722292	474	Ehsan Abdulmajeed Alsaati	M	M30-34	64	5:18:06		0:01:56	3:00:48	0:00:38	2:14:44	Bahrain	FIN
+202358	475	Mohammed Alqassar	M	M35-39	85	5:18:24		0:01:57	2:46:45	0:01:54	2:27:48	Kuwait	FIN
+119133	476	Hamad Muraisi	M	M45-49	58	5:18:34		0:02:14	3:07:41	0:03:03	2:05:36	Bahrain	FIN
+722293	477	Alif Ruzuar	M	M40-44	72	5:18:35		0:01:47	2:54:17	0:01:42	2:20:49	Indonesia	FIN
+201945	478	Craig Lamshed	M	M45-49	59	5:18:44		0:01:53	2:49:39	0:02:45	2:24:27	Australia	FIN
+722294	479	Jamie Charlesworth	M	M35-39	86	5:18:51		0:01:47	2:52:57	0:01:56	2:22:11	United Kingdom	FIN
+563230	480	Hasan Alrashed	M	M25-29	44	5:19:00		0:01:24	2:46:29	0:02:05	2:29:02	Kuwait	FIN
+539083	481	Shaker Haji	M	M35-39	87	5:19:25		0:01:45	2:56:05	0:03:02	2:18:33	Bahrain	FIN
+310097	482	Frank Ryan	M	M65-69	1	5:19:25		0:01:45	2:56:36	0:01:51	2:19:13	United States	FIN
+722295	483	Ana Jarque Gomez	F	F30-34	23	5:19:37		0:01:53	3:06:41	0:03:15	2:07:48	Spain	FIN
+722296	484	Ariel Delmoro	M	M40-44	73	5:20:14		0:03:41	3:00:21	0:03:53	2:12:19	Philippines 	FIN
+218947	485	Krzysztof Zamasz	M	M40-44	74	5:20:30		0:01:46	3:04:14	0:02:49	2:11:41	Poland	FIN
+517591	486	Pascale Lemelin	F	F40-44	18	5:20:34		0:01:53	2:59:51	0:01:18	2:17:32	Canada	FIN
+201620	487	Youns El Khalifa	M	M35-39	88	5:20:40		0:01:39	3:07:25	0:02:56	2:08:40	Morocco	FIN
+523111	488	Nesty Jun Verdeprado	M	M30-34	65	5:20:47		0:01:47	2:47:39	0:01:57	2:29:24	Philippines 	FIN
+87023	489	Birgit Eibl	F	F50-54	6	5:20:54		0:01:54	2:53:19	0:02:31	2:23:10	Austria	FIN
+722297	490	Margaret Meagher	F	F50-54	7	5:20:54		0:01:58	3:09:39	0:03:02	2:06:15	United States	FIN
+722298	491	Ali Abdul Karim Turki	M	M25-29	45	5:21:00		0:01:48	3:09:42	0:04:17	2:05:13	Bahrain	FIN
+625052	492	Robin Holden	M	M35-39	89	5:21:09		0:01:51	2:50:05	0:03:10	2:26:03	United Kingdom	FIN
+89921	493	Paulinius Laurico	M	M30-34	66	5:21:11		0:01:59	3:02:25	0:02:34	2:14:13	Philippines 	FIN
+539128	494	Mohammed Al Khalifa	M	M35-39	90	5:21:26		0:02:09	3:14:39	0:02:52	2:01:46	Bahrain	FIN
+256939	495	Abdellatif Elghaish	M	M35-39	91	5:21:32		0:01:59	3:03:57	0:02:41	2:12:55	Egypt	FIN
+158534	496	Victoria Chia	F	F40-44	19	5:21:33		0:01:51	2:49:12	0:02:16	2:28:14	United States	FIN
+131188	497	Volker Magnie	M	M50-54	33	5:21:45		0:01:41	2:45:28	0:03:15	2:31:21	Germany	FIN
+504425	498	Bassam Shams	M	M25-29	46	5:21:48		0:01:31	3:00:18	0:01:52	2:18:07	Bahrain	FIN
+131275	499	Michail Mourtzis	M	M40-44	75	5:22:13		0:02:07	3:02:28	0:04:37	2:13:01	Greece	FIN
+131257	500	Michalis Moisiadis	M	M35-39	92	5:22:13		0:02:13	3:02:25	0:04:34	2:13:01	Greece	FIN
+279691	501	Andrew Thackray	M	M40-44	76	5:22:36		0:01:57	2:57:41	0:06:57	2:16:01	United Kingdom	FIN
+401546	502	Claudine Roghi	F	F45-49	10	5:22:42		0:01:46	3:21:07	0:02:19	1:57:30	France	FIN
+539084	503	Stephane Huriez	M	M45-49	60	5:22:43		0:01:49	3:12:47	0:10:36	1:57:31	France	FIN
+539053	504	Pierre Delbecq	M	M50-54	34	5:22:43		0:01:46	3:12:57	0:10:28	1:57:32	France	FIN
+722299	505	Christian B-Cote	M	M25-29	47	5:22:51		0:01:44	3:23:05	0:02:27	1:55:35	Canada	FIN
+722300	506	Osama Al Moayed	M	M40-44	77	5:23:02		0:01:42	3:07:32	0:01:10	2:12:38	Bahrain	FIN
+572668	507	Edwin Solomon	M	M55-59	15	5:23:15		0:01:44	2:48:29	0:02:28	2:30:34	United States	FIN
+362151	508	Aset Seitmagambetov	M	M35-39	93	5:23:21		0:01:31	3:04:07	0:01:53	2:15:50	Kazakhstan	FIN
+722301	509	Maxut Zhumayev	M	M35-39	94	5:23:21		0:01:32	3:04:08	0:01:51	2:15:50	Kazakhstan	FIN
+722302	510	Laura Bibby	F	F25-29	7	5:23:28		0:01:33	2:58:12	0:02:12	2:21:31	United Kingdom	FIN
+722303	511	Ahmed Yaqoob Nass	M	M35-39	95	5:23:32		0:02:07	2:56:49	0:04:20	2:20:16	Bahrain	FIN
+314999	512	Boris Najafov	M	M30-34	67	5:23:47		0:01:34	3:00:28	0:02:31	2:19:14	Azerbaijan	FIN
+572507	513	Liam Smith	M	M30-34	68	5:23:47		0:01:37	2:50:22	0:01:58	2:29:50	United Kingdom	FIN
+539117	514	Abby Fraser	F	F40-44	20	5:24:16		0:02:28	3:12:58	0:02:34	2:06:16	Australia	FIN
+722304	515	John Loughnane	M	M60-64	3	5:25:02		0:01:55	3:16:20		2:06:47	United Kingdom	FIN
+542509	516	Antonio Ribeiro	M	M35-39	96	5:25:11		0:01:32	2:52:43	0:01:53	2:29:03	Portugal	FIN
+713005	517	Donn Oshaughnessy	M	M50-54	35	5:25:12		0:02:03	3:05:47	0:02:19	2:15:03	Ireland	FIN
+572528	518	Abdullatif Althunyan	M	M30-34	69	5:25:18		0:01:51	2:44:43	0:02:42	2:36:02	Saudi Arabia	FIN
+569793	519	Carmel Lord	F	F40-44	21	5:25:23		0:01:52	2:56:21	0:01:29	2:25:41	South Africa	FIN
+256875	520	Eslam Ramadan	M	M30-34	70	5:25:53		0:01:45	2:49:13	0:01:27	2:33:28	Egypt	FIN
+539124	521	Mary Looby	F	F40-44	22	5:26:00		0:02:04	3:00:59	0:02:09	2:20:48	Ireland	FIN
+354974	522	Omar Sulaiman	M	M18-24	14	5:26:08		0:01:22	2:42:42	0:01:55	2:40:09	United Arab Emirates 	FIN
+572541	523	Adam Bussens	M	M25-29	48	5:26:32		0:01:31	3:01:37	0:01:33	2:21:51	United Kingdom	FIN
+722305	524	Khalid Al Maadheed	M	M55-59	16	5:26:49		0:02:05	2:51:22	0:03:29	2:29:53	Qatar	FIN
+260222	525	Jodi Knutson	F	F30-34	24	5:27:09		0:02:01	3:09:02	0:03:33	2:12:33	United States	FIN
+302692	526	Fernando Araga	M	M35-39	97	5:27:16		0:01:52	3:06:09	0:03:14	2:16:01	Philippines 	FIN
+664184	527	Isabell B_Rsing	F	F45-49	11	5:27:24		0:01:33	2:47:26	0:02:34	2:35:51	Germany	FIN
+539197	528	Janet Craven	F	F30-34	25	5:27:30		0:02:02	2:49:48	0:02:32	2:33:08	Ireland	FIN
+554104	529	Robert Marsland	M	M40-44	78	5:27:35		0:01:50	2:57:01	0:02:20	2:26:24	United Kingdom	FIN
+354632	530	Aman Kopessov	M	M25-29	49	5:28:10		0:01:26	2:52:56	0:03:07	2:30:41	Kazakhstan	FIN
+120982	531	Greg Murphy	M	M50-54	36	5:28:26		0:01:48	2:48:18	0:03:18	2:35:02	Canada	FIN
+61791	532	Amanda Borlotti	F	F35-39	12	5:29:41		0:02:04	2:59:32	0:02:58	2:25:07	United Kingdom	FIN
+722306	533	Ahmad Alramyan	M	M25-29	50	5:29:45		0:01:38	3:11:40	0:03:35	2:12:52	Kuwait	FIN
+202387	534	Hatem El-Safty	M	M35-39	98	5:30:01		0:01:36	3:17:21	0:01:30	2:09:34	Egypt	FIN
+572561	535	Meghan Allen	F	F40-44	23	5:30:12		0:02:01	3:02:05	0:03:18	2:22:48	United Kingdom	FIN
+281073	536	Hessa Al Khalifa	F	F18-24	5	5:30:19		0:01:45	3:01:59	0:02:35	2:24:00	Bahrain	FIN
+260039	537	Joanna Bolton	F	F35-39	13	5:30:22		0:01:41	3:19:06	0:01:57	2:07:38	United Kingdom	FIN
+539159	538	Cheryl Stewart	F	F45-49	12	5:30:24		0:02:10	3:02:00	0:03:27	2:22:47	Canada	FIN
+722307	539	ErnstJan van Manen	M	M45-49	61	5:30:28		0:01:45	3:16:55	0:08:13	2:03:35	Netherlands 	FIN
+473030	540	Michael Santos	M	M35-39	99	5:30:40		0:01:35	2:47:28	0:02:15	2:39:22	Philippines 	FIN
+572627	541	Maille Mcgough	F	F40-44	24	5:30:56		0:02:22	3:04:39	0:02:48	2:21:07	United States	FIN
+722308	542	Omar Abdullah Almarri	M	M30-34	71	5:31:07		0:01:49	2:52:41	0:01:50	2:34:47	Saudi Arabia	FIN
+504427	543	Kieren Hanlon	M	M35-39	100	5:31:20		0:01:28	2:58:18	0:02:19	2:29:15	United Kingdom	FIN
+425051	544	Reyad Malallah	M	M45-49	62	5:31:21		0:02:02	2:58:07	0:03:17	2:27:55	Kuwait	FIN
+202216	545	Fabrice Petit	M	M50-54	37	5:31:51		0:01:56	2:50:07	0:03:16	2:36:32	France	FIN
+722309	546	Kirsten Palmer Thompson	F	F35-39	14	5:32:01		0:02:04	3:02:03	0:02:47	2:25:07	United States	FIN
+151350	547	Jean Michele Moore	F	F40-44	25	5:32:17		0:02:28	3:15:52	0:02:56	2:11:01	United States	FIN
+645083	548	Hector Hernandez	M	M35-39	101	5:32:40		0:01:56	2:42:57	0:02:42	2:45:05	Philippines 	FIN
+256877	549	Soul Rowen	M	M40-44	79	5:32:40		0:01:36	3:01:55	0:02:24	2:26:45	United States	FIN
+572558	550	Kristian Syson	M	M35-39	102	5:32:56		0:01:48	2:54:53	0:03:34	2:32:41	United Kingdom	FIN
+722310	551	Francesco Bertoli	M	M55-59	17	5:33:24		0:01:31	2:53:07	0:02:30	2:36:16	Burkina Faso	FIN
+722311	552	Victor R-Ace Alvarez	M	M30-34	72	5:33:36		0:02:09	2:56:14	0:03:47	2:31:26	Philippines 	FIN
+679225	553	Ali Alnaser	M	M25-29	51	5:33:37		0:01:50	3:15:26	0:03:01	2:13:20	Kuwait	FIN
+722312	554	Hussain Alwadi	M	M50-54	38	5:33:44		0:01:37	2:58:14	0:02:47	2:31:06	Bahrain	FIN
+722313	555	Miguel Pujals	M	M35-39	103	5:34:13		0:01:38	3:15:34	0:02:33	2:14:28	Spain	FIN
+30559	556	Piotr Kosno	M	M40-44	80	5:35:06		0:01:46	3:09:57	0:04:46	2:18:37	Poland	FIN
+256925	557	Bader Alkhalifa	M	M40-44	81	5:35:45		0:01:49	3:01:15	0:02:58	2:29:43	Bahrain	FIN
+257060	558	Martin Mugharbil	M	M40-44	82	5:35:56		0:01:52	3:07:27	0:01:57	2:24:40	United States	FIN
+123242	559	Mohammed Aljarallah	M	M30-34	73	5:36:05		0:01:54	3:12:43	0:02:12	2:19:16	Kuwait	FIN
+355106	560	Colin O Riordan	M	M45-49	63	5:36:24		0:02:04	2:55:32	0:02:24	2:36:24	Ireland	FIN
+722314	561	Mohammed Ghuloom Hussain	M	M40-44	83	5:36:26		0:01:42	3:07:05	0:01:34	2:26:05	Bahrain	FIN
+572514	562	Amer Al Sheaibani	M	M25-29	52	5:36:43		0:01:54	3:10:11	0:02:49	2:21:49	Bahrain	FIN
+650828	563	Nick Valsamidis	M	M40-44	84	5:37:05		0:02:06	2:46:00	0:03:00	2:45:59	Greece	FIN
+89575	564	Edward Sampelo	M	M35-39	104	5:37:27		0:01:37	2:53:19	0:02:17	2:40:14	Philippines 	FIN
+539220	565	Saad Thani	M	M30-34	74	5:37:41		0:01:50	2:43:51	0:02:37	2:49:23	Bahrain	FIN
+243450	566	Abdulla Abdulsalam	M	M35-39	105	5:37:53		0:01:46	2:48:16	0:02:43	2:45:08	Bahrain	FIN
+512260	567	Adelfo Paredes	M	M35-39	106	5:38:21		0:02:14	3:20:08	0:02:31	2:13:28	Mexico	FIN
+722315	568	Hasan Jassim Buali	M	M55-59	18	5:38:26		0:03:50	2:54:05	0:02:51	2:37:40	Bahrain	FIN
+722316	569	Yousef Salman Alghanami	M	M30-34	75	5:38:53		0:01:45	2:46:43	0:01:50	2:48:35	Saudi Arabia	FIN
+123082	570	Abdullah Alenezi	M	M30-34	76	5:39:27		0:01:58	2:56:13	0:01:43	2:39:33	Kuwait	FIN
+523290	571	Marshelle Manalang	F	F35-39	15	5:39:31		0:02:05	3:02:36	0:03:20	2:31:30	Philippines 	FIN
+722317	572	Ahmed Al Sabt	M	M25-29	53	5:39:35		0:01:41	2:58:07	0:01:54	2:37:53	Bahrain	FIN
+204390	573	Geraldine Diaz	F	F25-29	8	5:39:38		0:02:07	3:08:03	0:02:07	2:27:21	Philippines 	FIN
+424954	574	Pedro Usero	M	M40-44	85	5:39:58		0:02:14	3:08:49	0:03:57	2:24:58	Philippines 	FIN
+126294	575	Thad Butcher	M	M55-59	19	5:40:16		0:01:56	3:04:50	0:03:15	2:30:15	United States	FIN
+540017	576	Charlie Burns	M	M50-54	39	5:40:18		0:02:07	2:55:07	0:02:18	2:40:46	United Kingdom	FIN
+539260	577	Bader Alsabah	M	M25-29	54	5:40:27		0:02:04	2:57:53	0:01:42	2:38:48	Kuwait	FIN
+722318	578	Annamarie Lawrence	F	F40-44	26	5:41:02		0:02:15	3:10:59	0:02:00	2:25:48	New Zealand	FIN
+722319	579	Che Acord	F	F30-34	26	5:41:47		0:01:45	3:22:05	0:01:40	2:16:17	United States	FIN
+256734	580	Ibrahim Touq	M	M30-34	77	5:41:54		0:01:27	3:09:15	0:02:02	2:29:10	Bahrain	FIN
+62481	581	Amin Soltani	M	M35-39	107	5:42:18		0:02:02	2:49:50	0:01:45	2:48:41	United Kingdom	FIN
+539033	582	Abulrahman Aldahmeli	M	M25-29	55	5:42:28		0:01:39	2:47:58	0:03:26	2:49:25	Kuwait	FIN
+539149	583	Isa Al Khalifa	M	M30-34	78	5:43:06		0:01:55	3:06:40	0:03:07	2:31:24	Bahrain	FIN
+390232	584	Ghada Hussain	F	F50-54	8	5:43:15		0:02:01	3:32:37	0:03:16	2:05:21	Kuwait	FIN
+722320	585	Fahad Albinali	M	M25-29	56	5:43:33		0:01:55	3:09:04	0:03:52	2:28:42	Bahrain	FIN
+256890	586	Ali Taqi	M	M25-29	57	5:43:48		0:01:38	3:01:13	0:02:39	2:38:18	Bahrain	FIN
+539211	587	Kai Khalid Miethig	M	M40-44	86	5:44:16		0:01:36	3:05:21	0:01:55	2:35:24	Germany	FIN
+722321	588	Cyriel Schenk	M	M50-54	40	5:44:23		0:01:54	2:50:26	0:03:49	2:48:14	Netherlands 	FIN
+123113	589	Ibrahim Alrekhais	M	M25-29	58	5:44:39		0:01:39	3:01:24	0:02:05	2:39:31	Kuwait	FIN
+722322	590	Jackielyn Lovingco	F	F25-29	9	5:44:56		0:01:47	3:08:11	0:07:13	2:27:45	Philippines 	FIN
+504450	591	Katrina Corcoran	F	F35-39	16	5:45:21		0:02:04	3:11:38	0:03:54	2:27:45	United States	FIN
+202293	592	Diane Gordon	F	F50-54	9	5:45:22		0:02:01	3:05:26	0:02:20	2:35:35	Canada	FIN
+722323	593	Ibrahim Khalil Albrahim	M	M25-29	59	5:45:57		0:01:36	3:25:47	0:01:53	2:16:41	Saudi Arabia	FIN
+204164	594	Rex Deleon	M	M40-44	87	5:46:31		0:01:59	3:07:11	0:01:31	2:35:50	United States	FIN
+257181	595	Dave Forsythe	M	M55-59	20	5:47:10		0:01:59	3:09:45	0:03:42	2:31:44	United Kingdom	FIN
+256629	596	Ahmed Almadani	M	M18-24	15	5:47:14		0:01:47	3:12:50		2:32:37	Bahrain	FIN
+645015	597	Manuel Ocampo	M	M35-39	108	5:47:18		0:01:58	3:08:35	0:04:45	2:32:00	Philippines 	FIN
+722324	598	Hannah Karanja	F	F45-49	13	5:48:19		0:02:36	3:13:32	0:05:30	2:26:41	Kenya	FIN
+229933	599	Daniel Walker	M	M40-44	88	5:48:42		0:02:05	2:59:58	0:02:34	2:44:05	United Kingdom	FIN
+722325	600	Rachel Banks	F	F40-44	27	5:49:19		0:01:58	3:20:01	0:02:24	2:24:56	United Kingdom	FIN
+722326	601	Julie Kriegshaber	F	F25-29	10	5:49:35		0:01:48	3:28:01	0:04:20	2:15:26	United States	FIN
+572520	602	Hannah Al Khalifa	F	F25-29	11	5:49:56		0:01:48	3:23:50	0:02:25	2:21:53	Bahrain	FIN
+572589	603	Bradley Dyck	M	M35-39	109	5:49:58		0:01:43	3:09:53	0:05:16	2:33:06	Canada	FIN
+722327	604	David Vicario Lara	M	M35-39	110	5:50:21		0:02:00	3:16:49	0:04:12	2:27:20	Spain	FIN
+62415	605	Clifford Campbell	M	M45-49	64	5:50:28		0:02:01	2:57:56	0:04:10	2:46:21	South Africa	FIN
+540534	606	Wajeeha Al-Husseini	F	F40-44	28	5:50:41		0:01:57	3:11:54	0:02:33	2:34:17	Jordan	FIN
+572661	607	Hadyah Fathallah	F	F35-39	17	5:50:58		0:01:45	3:13:25	0:01:31	2:34:17	Bahrain	FIN
+539188	608	Kelly Wood	F	F45-49	14	5:51:01		0:01:56	3:11:35	0:02:06	2:35:24	South Africa	FIN
+354781	609	Yerzhan Tsenov	M	M30-34	79	5:51:09		0:01:52	3:06:37	0:02:10	2:40:30	Kazakhstan	FIN
+71185	610	David Mcnamara	M	M40-44	89	5:51:38		0:01:41	2:39:07	0:01:25	3:09:25	United Kingdom	FIN
+408906	611	Luigi Lando	M	M60-64	4	5:51:47		0:01:58	3:09:16	0:03:41	2:36:52	Italy	FIN
+420575	612	Rohit Kapur	M	M50-54	41	5:52:44		0:01:46	3:35:58	0:02:54	2:12:06	United States	FIN
+149560	613	Mohammed Kenssous	M	M55-59	21	5:54:07		0:01:57	3:16:41	0:03:16	2:32:13	France	FIN
+539160	614	Svilena Stoilova	F	F40-44	29	5:54:23		0:02:09	3:27:09	0:04:17	2:20:48	Bulgaria	FIN
+205185	615	Tom Balmer	M	M35-39	111	5:54:33		0:01:33	2:55:11	0:03:08	2:54:41	United Kingdom	FIN
+469773	616	Angela Aguilo	F	F25-29	12	5:54:47		0:01:52	3:31:38	0:01:31	2:19:46	Philippines 	FIN
+216884	617	Barbara GrÃ¼ter	F	F60-64	1	5:55:45		0:01:41	3:05:41	0:01:47	2:46:36	Switzerland	FIN
+722328	618	Christina Mccarver	F	F25-29	13	5:55:49		0:01:54	3:26:18	0:02:41	2:24:56	United States	FIN
+539208	619	Verdy Siregar	M	M40-44	90	5:55:54		0:02:04	3:14:50		2:39:00	Indonesia	FIN
+226897	620	Lesley Jones	F	F50-54	10	5:56:32		0:02:13	3:13:10	0:04:31	2:36:38	United Kingdom	FIN
+572585	621	Waleed Al Alawi	M	M50-54	42	5:57:15		0:01:52	3:12:08	0:03:21	2:39:54	Bahrain	FIN
+62530	622	Renata Schmidtova	F	F40-44	30	5:57:45		0:01:42	3:33:33	0:01:31	2:20:59	Slovakia	FIN
+594576	623	Kubra Varli	F	F18-24	6	5:58:00		0:01:45	3:14:21	0:03:32	2:38:22	Turkey	FIN
+202395	624	Robert Khoury	M	M40-44	91	5:58:25		0:02:01	2:54:06	0:01:43	3:00:35	Lebanon	FIN
+204361	625	Ricky Mercado	M	M45-49	65	6:00:11		0:01:44	3:09:28	0:02:43	2:46:16	Philippines 	FIN
+722329	626	Eduardo Florencio	M	M30-34	80	6:00:37		0:01:43	3:18:06	0:06:19	2:34:29	Brazil	FIN
+722330	627	Dong Lao	M	M18-24	16	6:01:08		0:01:41	2:44:02	0:05:30	3:09:55	China	FIN
+572617	628	Pablo Guardiola Molla	M	M30-34	81	6:01:25		0:01:46	2:53:56	0:04:44	3:00:59	French Polynesia	FIN
+572557	629	Marc Prudhomme	M	M35-39	112	6:02:17		0:01:44	2:58:40	0:03:02	2:58:51	Canada	FIN
+247174	630	Helmut Biehl	M	M50-54	43	6:02:59		0:01:50	3:23:35	0:04:09	2:33:25	Germany	FIN
+722331	631	Timur Khismatullin	M	M25-29	60	6:03:00		0:03:06	3:18:28	0:08:16	2:33:10	Russian Federation 	FIN
+722332	632	ALI ALSHEHRI	M	M35-39	113	6:03:10		0:01:55	3:17:37	0:04:16	2:39:22	Saudi Arabia	FIN
+722333	633	Mubarak Al Khalifa	M	M25-29	61	6:03:42		0:02:19	3:17:51	0:04:15	2:39:17	Bahrain	FIN
+257033	634	Grace Stewart	F	F18-24	7	6:04:04		0:01:38	3:35:04	0:04:30	2:22:52	United Kingdom	FIN
+572586	635	Alison Mcritchie	F	F45-49	15	6:04:13		0:01:55	3:31:15	0:02:54	2:28:09	United Kingdom	FIN
+625053	636	Robyn Chandler	F	F30-34	27	6:04:19		0:01:41	3:24:09	0:02:53	2:35:36	South Africa	FIN
+504468	637	Dani Afiouni	M	M35-39	114	6:04:31		0:02:01	3:25:23	0:06:07	2:31:00	Lebanon	FIN
+504449	638	Idrak Alaquel	F	F35-39	18	6:04:56		0:01:56	3:31:09	0:02:01	2:29:50	Saudi Arabia	FIN
+701920	639	Myrela Ryan	F	F55-59	2	6:05:37		0:01:52	3:10:55	0:02:43	2:50:07	Uruguay	FIN
+722334	640	gary bruce	M	M45-49	66	6:06:01		0:01:44	3:15:04	0:05:31	2:43:42	United States	FIN
+572667	641	Has Al Akwa	M	M40-44	92	6:06:04		0:03:45	3:09:18	0:03:54	2:49:07	Pakistan	FIN
+722335	642	Abbass Meftah	M	M45-49	67	6:06:33		0:02:27	3:31:28	0:04:09	2:28:29	Bahrain	FIN
+539063	643	Ernesto Gomez Gonzalez	M	M40-44	93	6:06:34		0:01:58	3:36:10	0:02:21	2:26:05	Venezuela 	FIN
+257103	644	Rhys Courtney	M	M30-34	82	6:07:34		0:01:46	3:06:36	0:13:47	2:45:25	United Kingdom	FIN
+722336	645	Mohammed Marhoon	M	M25-29	62	6:07:49		0:01:27	3:34:07	0:02:47	2:29:28	Bahrain	FIN
+123227	646	Kirill Khludnev	M	M25-29	63	6:09:24		0:01:54	3:33:00	0:05:00	2:29:30	Russian Federation 	FIN
+575219	647	Craig Mccallum	M	M45-49	68	6:09:37		0:02:04	3:24:31	0:06:33	2:36:29	United Kingdom	FIN
+722337	648	Suad Almoayed	F	F30-34	28	6:09:51		0:02:01	3:47:32	0:02:32	2:17:46	Bahrain	FIN
+62461	649	Etienne Herselman	M	M50-54	44	6:10:02		0:02:12	2:57:42	0:04:17	3:05:51	South Africa	FIN
+703296	650	Tim Thompson	M	M50-54	45	6:10:30		0:02:23	3:20:07	0:03:03	2:44:57	United States	FIN
+572563	651	Samantha Muller	F	F45-49	16	6:11:02		0:01:45	3:31:58	0:03:04	2:34:15	South Africa	FIN
+504455	652	Baris Sinan Ural	M	M40-44	94	6:13:59		0:01:52	3:45:35	0:01:33	2:24:59	Turkey	FIN
+722338	653	Ayad Kamal	M	M45-49	69	6:14:53		0:02:05	3:04:02	0:06:31	3:02:15	Bahrain	FIN
+91545	654	Brian Andersen	M	M35-39	115	6:15:06		0:01:43	3:23:50	0:05:53	2:43:40	United States	FIN
+504461	655	Mohammed Alhajeri	M	M25-29	64	6:16:06		0:01:40	3:27:52	0:03:28	2:43:06	Bahrain	FIN
+53332	656	Shaun Farrell	M	M50-54	46	6:16:16		0:02:20	3:04:28		3:09:28	United Kingdom	FIN
+256730	657	Neil Dâ€™souza	M	M30-34	83	6:16:52		0:01:46	3:00:04	0:03:11	3:11:51	India	FIN
+202267	658	Joel Parajas	M	M45-49	70	6:17:12		0:01:56	3:14:04	0:03:26	2:57:46	Philippines 	FIN
+722339	659	Alex Ohanlon	M	M18-24	17	6:18:19		0:01:48	3:24:12	0:03:48	2:48:31	New Zealand	FIN
+110527	660	Robert Ohanlon	M	M50-54	47	6:18:19		0:01:52	2:57:33	0:30:23	2:48:31	New Zealand	FIN
+539914	661	Georges Bertrand	M	M60-64	5	6:19:58		0:01:56	3:16:17	0:02:17	2:59:28	Belgium	FIN
+410955	662	JeanCarl Saliba	M	M30-34	84	6:20:47		0:02:07	3:35:56	0:03:53	2:38:51	Lebanon	FIN
+722340	663	Ali Abdulla Ali Baba	M	M18-24	18	6:21:20		0:01:34	3:03:55	0:04:10	3:11:41	Bahrain	FIN
+572635	664	Subathra Jeyaram	F	F35-39	19	6:22:15		0:01:59	3:37:49	0:04:22	2:38:05	India	FIN
+722341	665	Patrick Moore	M	M40-44	95	6:22:20		0:02:46	3:00:44	0:09:11	3:09:39	United States	FIN
+233689	666	Ockert Botha	M	M30-34	85	6:23:05		0:01:52	3:25:45	0:03:17	2:52:11	South Africa	FIN
+679226	667	Nawaf Alabduljader	M	M35-39	116	6:25:52		0:01:43	3:09:42	0:05:50	3:08:37	Kuwait	FIN
+722342	668	Ricardo (Ricky) Gonzales	M	M50-54	48	6:25:52		0:01:34	3:15:50	0:02:29	3:05:59	Philippines 	FIN
+645158	669	Danielo Picache	M	M30-34	86	6:27:48		0:01:48	3:36:53	0:01:35	2:47:32	Philippines 	FIN
+123255	670	Nailah Al-Khalifa	F	F18-24	8	6:28:13		0:02:21	3:21:23	0:02:19	3:02:10	Bahrain	FIN
+722343	671	Najwa Abdulrahim	F	F50-54	11	6:29:39		0:02:34	3:42:52	0:04:59	2:39:14	Bahrain	FIN
+189696	672	Karim Anis	M	M25-29	65	6:30:09		0:02:31	3:33:07	0:04:53	2:49:38	Egypt	FIN
+256618	673	Bertrand Fattal	M	M40-44	96	6:30:42		0:02:10	2:58:37	0:02:08	3:27:47	Lebanon	FIN
+572574	674	Mahmood Habib	M	M25-29	66	6:32:12		0:01:55	3:33:10	0:02:56	2:54:11	Bahrain	FIN
+257050	675	Graham Brown	M	M35-39	117	6:32:37		0:01:41	3:07:34	0:02:09	3:21:13	United Kingdom	FIN
+722344	676	Chris Luther	M	M40-44	97	6:32:40		0:01:45	3:39:30	0:03:55	2:47:30	United States	FIN
+722345	677	Sharon Decoopman	F	F45-49	17	6:34:07		0:01:54	3:42:28	0:02:57	2:46:48	United States	FIN
+722346	678	Erwin Ladim	M	M40-44	98	6:36:47		0:01:56	3:11:08	0:02:50	3:20:53	Philippines 	FIN
+722347	679	Fatima Fathalla	F	F30-34	29	6:39:58		0:01:55	3:34:03	0:03:05	3:00:55	Bahrain	FIN
+33183	680	Lew Hollander	M	M85-89	0	6:40:15		0:02:44	3:17:22	0:04:40	3:15:29	United States	FIN
+722348	681	Amanda Kitson	F	F25-29	14	6:42:35		0:01:35	3:56:07	0:01:27	2:43:26	United States	FIN
+204336	682	Reden Garcia	M	M40-44	99	6:44:31		0:01:56	3:11:38	0:01:57	3:29:00	Philippines 	FIN
+361701	683	Nouf Alkhalifa	F	F30-34	30	7:17:56		0:02:14	3:44:06	0:02:57	3:28:39	Bahrain	FIN

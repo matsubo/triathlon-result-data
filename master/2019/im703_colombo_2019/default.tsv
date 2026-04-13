@@ -1,0 +1,673 @@
+ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	Run	Country	Status
+	DNS	Manomi Kumari	F	F30-34	0							Sri Lanka	DNS
+	DNS	Issa Alsulaiti	M	M25-29	0							Qatar	DNS
+	DNS	Olga Matyushina	F	F30-34	0							Russia	DNS
+314808	DNS	Jordan Brown	M	M25-29	0							Australia	DNS
+	DNS	Toni Snoxell	F	F30-34	0							Qatar	DNS
+	DNF	Shevonne Herath	M	M25-29	0							Sri Lanka	DNF
+	DNS	Cheryl Tay	F	F30-34	0							Singapore	DNS
+	DNS	Brannavan Jeyavarman	M	M25-29	0							Sri Lanka	DNS
+	DNS	Dorothy Weymouth	F	F30-34	0							Ireland	DNS
+	DNS	Rudra Naik	M	M25-29	0							India	DNS
+	DNS	Vimal Nandwani	M	M25-29	0							United Kingdom	DNS
+	DNF	Jack Sexty	M	M25-29	0							United Kingdom	DNF
+	DNS	Krishan Udayathra Liyanage	M	M25-29	0							Sri Lanka	DNS
+	DNF	Shamaan Zahir	M	M25-29	0							Maldives	DNF
+	DNS	Amit Agarwal	M	M40-44	0							India	DNS
+	DNS	Nazeem Ahmed	M	M40-44	0							Maldives	DNS
+	DNS	Ahmad Al-Alem	M	M40-44	0							United Arab Emirates	DNS
+	DNS	Hashem Alharbi	M	M40-44	0							United Arab Emirates	DNS
+	DNS	Saleh Sager Almuhannadi	M	M40-44	0							Qatar	DNS
+	DNF	Valli Krishnama	F	F35-39	0							India	DNF
+	DNS	Lee Barry	M	M40-44	0							United Kingdom	DNS
+	DNS	Rynnette Leong	F	F35-39	0							Singapore	DNS
+	DNS	Matthias Berger	M	M40-44	0							Austria	DNS
+	DNS	Lauren Moye	F	F35-39	0							United States	DNS
+	DNF	Indran Gegathesa	M	M40-44	0							Malaysia	DNF
+	DNF	Ahmed Hamdy	M	M40-44	0							Egypt	DNF
+	DNS	Stephen Hull	M	M40-44	0							Hong Kong	DNS
+	DNS	Matt Jennison	M	M40-44	0							United Kingdom	DNS
+	DNS	Ashish Kapur	M	M40-44	0							India	DNS
+	DNS	Sanjaya Kodagoda	M	M40-44	0							Sri Lanka	DNS
+	DNS	Mubarak Mohamed	M	M40-44	0							Bahrain	DNS
+	DNS	Nikhil Raghavan	M	M40-44	0							India	DNS
+	DNS	Janaka Sadaruwan Silva	M	M40-44	0							Sri Lanka	DNS
+	DNS	Asad Tungeker	M	M40-44	0							Pakistan	DNS
+	DNS	Anthony Wong	M	M40-44	0							Hong Kong	DNS
+	DNS	Wei Wu	M	M40-44	0							China	DNS
+	DNS	Alexander Zhukov	M	M40-44	0							Russia	DNS
+	DNS	Cindy Hock	F	F40-44	0							Netherlands	DNS
+	DNS	Nicola Moore	F	F40-44	0							United Kingdom	DNS
+	DNS	Laura Wesley Al-Wir	F	F40-44	0							Jordan	DNS
+	DNS	Florrie Cheng	F	F45-49	0							Hong Kong	DNS
+	DNS	Marinda Engelbrecht	F	F45-49	0							South Africa	DNS
+	DNS	Dominique Le Roux	F	F45-49	0							South Africa	DNS
+	DNS	Sioned Taylor	F	F45-49	0							United Kingdom	DNS
+	DNS	Marta Abreu	F	F50-54	0							Portugal	DNS
+	DNS	Gamal Aboshabana	M	M30-34	0							Egypt	DNS
+	DSQ	Ling Anderson	M	M30-34	0							China	DQ
+	DNS	James Blue	M	M30-34	0							Australia	DNS
+	DNF	Nicolas Brocard-Saidi	M	M30-34	0							France	DNF
+	DNS	Craig Connor	M	M30-34	0							United Kingdom	DNS
+	DNS	Marek Durovkin	M	M30-34	0							Slovakia	DNS
+	DNF	Emrah Eksi	M	M30-34	0							Turkey	DNF
+	DNS	Lahiru Nuwan Kumara	M	M30-34	0							Sri Lanka	DNS
+	DNS	Suranga Chamara Kumarasinghe	M	M30-34	0							Sri Lanka	DNS
+	DNS	Carlyn Lobo	M	M30-34	0							India	DNS
+	DNS	Luke Mathews	M	M30-34	0							United Kingdom	DNS
+	DNS	Hardik Patil	M	M30-34	0							India	DNS
+	DNS	Chester Wang	M	M30-34	0							Australia	DNS
+	DNS	Ralf Eberhardt	M	M45-49	0							Switzerland	DNS
+	DNF	Pablo Erat	M	M45-49	0							Switzerland	DNF
+	DNF	Neil Flanagan	M	M45-49	0							United Kingdom	DNF
+	DNF	Jan Gremmen	M	M45-49	0							Netherlands	DNF
+	DNS	Robert Kelly	M	M45-49	0							Australia	DNS
+	DNS	David Martz	M	M45-49	0							United States	DNS
+	DNF	Alexander Mileev	M	M45-49	0							Russia	DNF
+	DNS	Frank Shelton	M	M45-49	0							United States	DNS
+	DNS	Elliot Sylvester	M	M45-49	0							United Kingdom	DNS
+	DNS	Hideyuki Takahashi	M	M45-49	0							Japan	DNS
+	DNS	Saoud Almarri	M	M50-54	0							Qatar	DNS
+	DNS	Telluja Amit	M	M50-54	0							India	DNS
+	DNF	Nicholas Browne	M	M50-54	0							United Kingdom	DNF
+	DNS	Richard Bysouth	M	M50-54	0							United Kingdom	DNS
+	DNS	Olivier Fleurot	M	M50-54	0							Switzerland	DNS
+	DNS	David Hunt	M	M50-54	0							United Kingdom	DNS
+	DNS	Chris Knight	M	M50-54	0							United Kingdom	DNS
+	DNS	Marc Laroche	M	M50-54	0							Canada	DNS
+	DNF	Urs Thomas Picco	M	M50-54	0							Switzerland	DNF
+	DNF	Tony Salter	M	M50-54	0							United Kingdom	DNF
+	DNS	Ravi Subramanian	M	M50-54	0							India	DNS
+	DNF	Martin Gautschi	M	M55-59	0							Switzerland	DNF
+	DNS	Doron Grossman	M	M55-59	0							Australia	DNS
+	DNF	Raymond Howe	M	M55-59	0							Singapore	DNF
+	DNS	David Knott	M	M55-59	0							United Kingdom	DNS
+	DNS	Abdulaziz Alkuwari	M	M35-39	0							Qatar	DNS
+	DNF	Masato Nomura	M	M55-59	0							Japan	DNF
+	DNS	Ahmed Athif	M	M35-39	0							Maldives	DNS
+	DNF	Michel Oostwal	M	M55-59	0							Netherlands	DNF
+	DNS	Vikramveer Singh Bawa	M	M35-39	0							India	DNS
+	DNS	Nagaraja Devoji Rao	M	M55-59	0							India	DNS
+	DNS	Niroshan Jayakody	M	M18-24	0							Sri Lanka	DNS
+	DNS	Tamas Bodri	M	M35-39	0							Hungary	DNS
+	DNS	Jim Shields	M	M55-59	0							United Kingdom	DNS
+	DNS	Kurt French	M	M35-39	0							Australia	DNS
+	DNS	Rahul Soman	M	M55-59	0							India	DNS
+	DNS	Remi Galland	M	M35-39	0							France	DNS
+	DNS	Kenneth Gan	M	M35-39	0							Singapore	DNS
+	DNS	Thomas Herrmann	M	M35-39	0							Germany	DNS
+	DNS	Bradley Holliday	M	M35-39	0							South Africa	DNS
+	DNF	Ramit Kapoor	M	M35-39	0							India	DNF
+	DNS	Desmond Ng	M	M35-39	0							Singapore	DNS
+521945	DNS	Vijay Pandey	M	M35-39	0							India	DNS
+252912	DNS	Bernard Brian Pingol	M	M35-39	0							Philippines	DNS
+307239	DNS	Ross Sanders	M	M35-39	0							United Kingdom	DNS
+521936	DNS	Nishan Silva	M	M35-39	0							Sri Lanka	DNS
+	DNS	Volovich Dov	M	M60-64	0							Israel	DNS
+293422	DNF	Shane Silva	M	M35-39	0							Sri Lanka	DNF
+	DNS	Rakesh Mehta	M	M60-64	0							India	DNS
+521944	DNS	Amin Soltani	M	M35-39	0							United Kingdom	DNS
+	DNF	Jahari Joe Brown Omar	M	M60-64	0							Singapore	DNF
+521926	DNF	Alec Spedding	M	M35-39	0							United Kingdom	DNF
+	DNF	Kevin Brewer	M	M70-74	0							Canada	DNF
+	DNF	Sze Mun Yee	M	M80-84	0							Malaysia	DNF
+	DNS	Neti Naik	F	F18-24	0							India	DNS
+	DNS	Maryam Al Thani	F	F25-29	0							Qatar	DNS
+	DNS	Dinusha Anuruddika De Silva	F	F25-29	0							Sri Lanka	DNS
+	DNF	Claire Duncan	F	F25-29	0							Canada	DNF
+	1	Olivier Godart	M	M40-44	1	4:06:06	0:28:35		2:08:55		1:25:56	Luxembourg	FIN
+	2	Davide Rossetti	M	M25-29	1	4:23:39	0:29:00		2:16:23		1:34:39	Italy	FIN
+	3	Francisco Gabriel Nebot Martin	M	M40-44	2	4:25:33	0:30:54		2:21:43		1:29:45	Spain	FIN
+	4	Jiri Krivanek	M	M30-34	1	4:25:59	0:29:40		2:14:50		1:37:47	Czech Republic	FIN
+	5	Nikolai Jenkins	M	M35-39	1	4:26:09	0:32:28		2:18:15		1:32:17	United States	FIN
+	6	Mario Bartolome Buil	M	M30-34	2	4:32:49	0:25:49		2:30:43		1:31:53	Spain	FIN
+	7	Jeren Seegers	M	M30-34	3	4:33:54	0:26:38		2:18:16		1:45:51	South Africa	FIN
+	8	Eric Ridez	M	M50-54	1	4:34:18	0:29:13		2:26:35		1:35:29	France	FIN
+	9	James Buchanan	M	M35-39	2	4:34:32	0:35:06		2:28:26		1:27:36	United Kingdom	FIN
+	10	Sujay Shalawadi	M	M25-29	2	4:38:20	0:32:57		2:30:55		1:31:11	India	FIN
+	11	Rory Buck	M	M30-34	4	4:39:06	0:26:33		2:20:52		1:48:22	South Africa	FIN
+	12	Vlad Ixel	M	M30-34	5	4:40:57	0:33:47		2:21:54		1:42:20	Australia	FIN
+	13	Luka Cupic	M	M30-34	6	4:41:41	0:29:15		2:24:51		1:44:24	Montenegro	FIN
+	14	Folker Schwesinger	M	M30-34	7	4:43:11	0:27:10		2:25:15		1:47:09	Germany	FIN
+	15	Ling Er Choo	F	F30-34	1	4:43:23	0:32:50		2:26:17		1:41:13	Singapore	FIN
+	16	Joan Pedret Ruiz	M	M40-44	3	4:43:36	0:32:12		2:32:49		1:36:01	Spain	FIN
+	17	Christopher Wright	M	M35-39	3	4:43:49	0:34:52		2:27:25		1:38:03	United Kingdom	FIN
+	18	Manuel Javier Fernandez	M	M30-34	8	4:45:22	0:32:24		2:21:53		1:47:48	Spain	FIN
+	19	Nicola Pini	M	M18-24	1	4:45:46	0:33:11		2:22:28		1:46:12	Switzerland	FIN
+	20	Maksim Orlov	M	M45-49	1	4:46:28	0:36:53		2:26:02		1:40:15	Russia	FIN
+	21	Ushakova Svetana	F	F25-29	1	4:46:40	0:27:28		2:32:03		1:44:16	Russia	FIN
+	22	Aday Alvarez Diez De Ulzurrun	M	M30-34	9	4:47:16	0:25:58		2:22:10		1:56:10	Spain	FIN
+	23	Christian Henn	M	M40-44	4	4:47:46	0:29:55		2:18:33		1:56:22	Germany	FIN
+	24	Ambroise Aufrere	M	M30-34	10	4:49:00	0:38:23		2:33:57		1:30:42	France	FIN
+	25	Suranga Nuwan	M	M25-29	3	4:49:36	0:32:26		2:30:34		1:44:19	Sri Lanka	FIN
+	26	Alexis Girin	M	M40-44	5	4:49:55	0:33:50		2:28:47		1:44:11	France	FIN
+	27	Sam Sakai	M	M45-49	2	4:51:47	0:34:22		2:28:20		1:45:17	Japan	FIN
+	28	Andres Torres	M	M50-54	2	4:52:45	0:29:00		2:29:02		1:51:25	United States	FIN
+	29	Ben Hawkins	M	M30-34	11	4:52:59	0:32:49		2:23:54		1:52:55	Australia	FIN
+337209	30	Ashwin Doranegama	M	M18-24	2	4:53:16	0:28:33		2:42:11		1:36:50	Sri Lanka	FIN
+	31	Wouter Delbaere	M	M30-34	12	4:55:44	0:37:25		2:28:19		1:47:01	Belgium	FIN
+	32	Tomasz Sydor	M	M30-34	13	4:57:28	0:32:48		2:24:34		1:57:07	Poland	FIN
+521925	33	Andrew Spencer	M	M35-39	4	4:57:58	0:31:21		2:27:18		1:55:57	Singapore	FIN
+	34	Lakshman Kumarasingha	M	M30-34	14	4:58:55	0:35:02		2:38:19		1:39:47	Sri Lanka	FIN
+	35	Lakmal Perera	M	M25-29	4	4:59:05	0:30:36		2:41:25		1:41:18	Sri Lanka	FIN
+	36	Brittany Campbell	F	F25-29	2	5:00:16	0:29:00		2:38:12		1:49:59	Australia	FIN
+	37	Christoph Rönn	M	M45-49	3	5:01:50	0:34:23		2:34:37		1:47:08	Germany	FIN
+	38	Raghul Sankaranarayanan	M	M30-34	15	5:02:37	0:37:02		2:32:17		1:46:09	India	FIN
+	39	Dave Walsh	M	M30-34	16	5:02:59	0:32:06		2:26:36		2:00:42	Ireland	FIN
+	40	Tom Surtmann	M	M35-39	5	5:03:04	0:32:11		2:35:23		1:52:33	Germany	FIN
+	41	Pia Sundstedt	F	F40-44	1	5:05:02	0:33:27		2:36:22		1:49:21	Finland	FIN
+	42	Ebrahim Alromaihi	M	M25-29	5	5:05:24	0:30:41		2:32:31		1:58:38	Qatar	FIN
+	43	Athula Chandrasiri	M	M18-24	3	5:05:31	0:32:50		2:46:06		1:40:10	Sri Lanka	FIN
+	44	Eric Surovik	M	M35-39	6	5:05:41	0:34:16		2:37:27		1:48:10	United States	FIN
+	45	Dewa Lakruwan Wijesiri	M	M25-29	6	5:05:42	0:30:10		2:36:11		1:53:11	Sri Lanka	FIN
+	46	Francis Lecuyer	M	M45-49	4	5:06:25	0:34:13		2:31:12		1:57:55	Reunion	FIN
+	47	Sampath Samaarasingha	M	M25-29	7	5:06:40	0:31:06		2:47:28		1:41:36	Sri Lanka	FIN
+	48	Schrijvers Ronny	M	M45-49	5	5:07:06	0:33:36		2:31:49		1:56:21	Belgium	FIN
+	49	Kevin Serou	M	M30-34	17	5:07:07	0:33:05		2:30:53		1:59:45	France	FIN
+	50	Bertrand Lambelin	M	M30-34	18	5:08:07	0:29:08		2:35:12		2:00:07	France	FIN
+	51	Ulrich Kirchhoff	M	M45-49	6	5:08:10	0:31:50		2:33:17		1:57:42	Germany	FIN
+	52	Janith Perera	M	M25-29	8	5:08:34	0:31:06		2:44:49		1:46:57	Sri Lanka	FIN
+	53	Marco Salamon	M	M45-49	7	5:09:37	0:29:38		2:30:24		2:05:26	Italy	FIN
+	54	Suresh Kalum	M	M25-29	9	5:09:52	0:40:35		2:37:05		1:45:40	Sri Lanka	FIN
+	55	Ahmed Iraky	M	M40-44	6	5:10:56	0:33:46		2:32:47		2:01:01	Egypt	FIN
+	56	Senarath Bandara	M	M30-34	19	5:10:58	0:32:16		2:45:01		1:45:53	Sri Lanka	FIN
+	57	Toan Tran	M	M30-34	20	5:11:19	0:40:08		2:31:27		1:53:07	Vietnam	FIN
+	58	Chalaka Wickramaarachchi	M	M18-24	4	5:11:31	0:34:25		2:41:51		1:49:24	Sri Lanka	FIN
+	59	Mark Wharton	M	M50-54	3	5:11:51	0:38:15		2:32:00		1:55:28	United Kingdom	FIN
+	60	Benjamin Cranwell	M	M25-29	10	5:12:16	0:26:42		2:40:01		2:02:10	United Kingdom	FIN
+	61	Vicente Luis Catalan Bernia	M	M45-49	8	5:13:10	0:41:09		2:43:04		1:42:53	Spain	FIN
+	62	Nalinda Kumara	M	M35-39	7	5:13:54	0:40:35		2:39:41		1:47:35	Sri Lanka	FIN
+	63	Anubhav Karmakar	M	M30-34	21	5:14:02	0:47:59		2:29:15		1:50:26	India	FIN
+	64	Olivier Estienne	M	M40-44	7	5:14:13	0:40:57		2:37:29		1:48:05	France	FIN
+	65	Ryan Lindsay	M	M30-34	22	5:15:10	0:42:23		2:32:43		1:52:51	United Kingdom	FIN
+	66	Neil Dsilva	M	M25-29	11	5:15:15	0:39:38		2:39:48		1:47:33	India	FIN
+	67	Nelumsiri Kumara	M	M35-39	8	5:15:21	0:40:07		2:51:07		1:38:05	Sri Lanka	FIN
+	68	James Dewar	M	M35-39	9	5:15:25	0:33:27		2:29:03		2:09:24	Australia	FIN
+	69	Lisa Hancox	F	F40-44	2	5:15:42	0:29:58		2:41:38		1:58:17	United Kingdom	FIN
+320360	70	Markus List	M	M35-39	10	5:15:47	0:38:53		2:36:33		1:54:35	Austria	FIN
+	71	Chor Kin Law	M	M40-44	8	5:15:51	0:47:10		2:41:46		1:40:44	Hong Kong	FIN
+	72	Ivo Dadic	M	M40-44	9	5:15:52	0:32:59		2:33:56		2:02:30	Croatia	FIN
+	73	Thomas Mcinnes	M	M55-59	1	5:15:56	0:36:33		2:34:55		1:58:12	United Kingdom	FIN
+236341	74	Greg Ware	M	M35-39	11	5:16:02	0:33:46		2:40:11		1:54:11	United Kingdom	FIN
+	75	Patrick Hermes	M	M30-34	23	5:16:48	0:36:50		2:34:08		1:58:32	Netherlands	FIN
+	76	Chaminda Priyadharshana	M	M30-34	24	5:17:13	0:32:28		2:56:33		1:41:51	Sri Lanka	FIN
+	77	Sioned Taylor	F	F45-49	1	5:17:16	0:38:23		2:45:44		1:47:02	United Kingdom	FIN
+	78	Andrew Kilshaw	M	M50-54	4	5:17:17	0:34:14		2:36:20		2:00:42	Australia	FIN
+	79	Simon Jones	M	M35-39	12	5:17:23	0:39:58		2:21:20		2:12:07	Qatar	FIN
+	80	Petri Kutinlahti	M	M40-44	10	5:17:37	0:38:33		2:30:37		2:02:33	Finland	FIN
+	81	Arjun Kandikuppa	M	M30-34	25	5:18:12	0:34:24		2:37:42		1:59:59	India	FIN
+	82	Slawomir Ledwon	M	M35-39	13	5:18:29	0:36:59		2:33:50		2:01:19	Poland	FIN
+	83	Annemiek Stegehuis	F	F30-34	2	5:18:35	0:43:41		2:34:28		1:53:24	Netherlands	FIN
+	84	Magali Reymonenq	F	F45-49	2	5:19:52	0:42:52		2:49:12		1:42:40	France	FIN
+521934	85	Kartik Ng	M	M35-39	14	5:19:59	0:44:29		2:42:18		1:46:07	India	FIN
+	86	Scott Cocking	M	M25-29	12	5:20:30	0:39:27		2:40:14		1:53:42	United Kingdom	FIN
+	87	Bahar Eksi	F	F30-34	3	5:20:45	0:32:32		2:50:35		1:51:27	Turkey	FIN
+	88	Holly Chipman	F	F25-29	3	5:20:46	0:36:26		2:37:18		2:00:31	United Kingdom	FIN
+	89	Prasanna Praddep	M	M25-29	13	5:20:51	0:34:12		2:39:12		2:01:21	Sri Lanka	FIN
+	90	Nicolas Dussart	M	M35-39	15	5:20:52	0:36:23		2:40:01		1:57:28	France	FIN
+	91	Abdulrahman Alhosani	M	M30-34	26	5:21:17	0:33:52		2:39:37		2:01:49	United Arab Emirates	FIN
+	92	Viktor Vitraganov	M	M35-39	16	5:21:18	0:37:33		2:40:40		1:56:53	Russia	FIN
+	93	Torsten Van Dullemen	M	M50-54	5	5:21:26	0:35:03		2:36:48		2:02:58	Netherlands	FIN
+	94	Ghaith Al Daker	M	M30-34	27	5:21:35	0:38:58		2:35:59		2:00:24	Canada	FIN
+162509	95	Simone Mugliarisi	M	M35-39	17	5:21:54	0:29:27		2:39:31		2:06:46	Italy	FIN
+	96	Grant Angus	M	M30-34	28	5:22:16	0:36:10		2:41:59		1:57:44	Qatar	FIN
+	97	Antonio Alcantara Granja	M	M30-34	29	5:22:46	0:34:20		2:35:26		2:06:58	Spain	FIN
+	98	Jonathan Eurnshaw	M	M55-59	2	5:22:49	0:36:25		2:37:24		2:01:38	United Kingdom	FIN
+	99	Isora Sosa Caballero	F	F35-39	1	5:23:15	0:28:46		2:42:33		2:06:16	Spain	FIN
+	100	Vladimir Riabushkin	M	M45-49	9	5:23:22	0:37:58		2:29:48		2:09:01	Russia	FIN
+	101	Valerio Curridori	M	M65-69	1	5:23:55	0:45:38		2:37:31		1:53:53	Italy	FIN
+	102	Pradeep Buddika Dissanayake	M	M25-29	14	5:24:02	0:35:10		2:51:24		1:51:37	Sri Lanka	FIN
+	103	Andreas Goros	M	M50-54	6	5:24:20	0:34:38		2:42:25		2:01:18	Greece	FIN
+	104	Gabriella Picco	F	F50-54	1	5:24:21	0:35:57		2:44:30		1:57:17	Switzerland	FIN
+	105	David Hall	M	M50-54	7	5:24:47	0:34:52		2:33:11		2:09:59	United Kingdom	FIN
+	106	Ben Corby	M	M35-39	18	5:24:57	0:39:22		2:49:49		1:49:12	United Kingdom	FIN
+	107	Vinayak Gaonkar	M	M30-34	30	5:25:03	0:46:55		2:36:57		1:53:49	India	FIN
+	108	John Bailey	M	M35-39	19	5:25:06	0:33:58		2:41:28		2:01:36	United Kingdom	FIN
+	109	Laurent Amestoy	M	M50-54	8	5:25:25	0:33:47		2:37:12		2:08:26	France	FIN
+	110	Simon Halford	M	M50-54	9	5:25:49	0:41:43		2:30:04		2:07:16	United Kingdom	FIN
+	111	Stephen Wilson	M	M45-49	10	5:25:53	0:34:09		2:35:28		2:10:11	South Africa	FIN
+	112	Andres Pablo Bustos Del Valle	M	M40-44	11	5:25:58	0:34:58		2:35:29		2:09:06	Argentinia	FIN
+	113	Philippe Boue	M	M50-54	10	5:26:08	0:41:42		2:39:42		1:58:15	France	FIN
+	114	Thomas Holenweger	M	M35-39	20	5:27:02	0:37:06		2:41:27		2:02:02	Switzerland	FIN
+	115	Siegfried Pittet	M	M50-54	11	5:27:12	0:34:49		2:37:03		2:08:50	France	FIN
+	116	Clare Farrell	F	F45-49	3	5:27:14	0:38:54		2:45:11		1:56:39	United Kingdom	FIN
+	117	Marco Poot	M	M45-49	11	5:27:34	0:43:38		2:39:00		1:59:05	Netherlands	FIN
+	118	Giles Richardson	M	M50-54	12	5:27:45	0:34:04		2:47:11		2:00:30	United Kingdom	FIN
+	119	Raja Dharmapala	M	M30-34	31	5:28:04	0:36:10		2:42:53		2:03:04	Sri Lanka	FIN
+	120	Nishan Abeysingha	M	M25-29	15	5:29:08	0:30:31		2:54:53		1:57:33	Sri Lanka	FIN
+	121	Daryl Albury	M	M50-54	13	5:29:22	0:40:03		2:38:48		2:04:09	Indonesia	FIN
+	122	Adriaan Robertson	M	M50-54	14	5:29:36	0:42:54		2:39:50		1:59:59	Netherlands	FIN
+	123	Asanka Nilaweera	M	M30-34	32	5:29:42	0:31:18		2:54:59		1:56:44	Sri Lanka	FIN
+	124	Andreas Goldau	M	M50-54	15	5:30:49	0:43:02		2:40:44		1:59:38	Germany	FIN
+521931	125	Mahesh Londe	M	M35-39	21	5:31:06	0:50:02		2:50:44		1:44:30	India	FIN
+	126	timothy hawes	M	M35-39	22	5:31:21	0:33:24		2:38:35		2:12:49	United Kingdom	FIN
+	127	Mathias Haase	M	M30-34	33	5:31:41	0:41:45		2:44:17		1:56:37	Denmark	FIN
+	128	Romain Bottier	M	M35-39	23	5:32:47	0:40:42		2:48:17		1:57:05	France	FIN
+	129	PANKAJ RAVALU	M	M18-24	5	5:32:58	0:36:40		2:38:23		2:11:02	India	FIN
+	130	Jan John Zastera	M	M50-54	16	5:33:58	0:40:50		2:41:40		2:05:23	Czech Republic	FIN
+	131	Ivan Lowe	M	M45-49	12	5:34:09	0:40:26		2:40:16		2:07:15	Ireland	FIN
+	132	Michal Prawdzic	M	M40-44	12	5:34:19	0:41:59		2:38:30		2:08:02	Poland	FIN
+	133	Matthew Glynn	M	M40-44	13	5:34:34	0:38:34		2:33:16		2:16:54	Canada	FIN
+	134	Hashan Chathuranga	M	M18-24	6	5:34:59	0:33:58		2:55:24		1:59:34	Sri Lanka	FIN
+	135	Abdulla Alhemaidi	M	M30-34	34	5:35:16	0:42:04		2:38:38		2:06:44	Qatar	FIN
+	136	Ernest Khong	M	M35-39	24	5:35:35	0:47:16		2:40:17		2:01:20	Singapore	FIN
+	137	Marco De Leo	M	M35-39	25	5:35:41	0:37:14		2:36:22		2:15:44	Italy	FIN
+66607	138	Lucy Richardson	F	F35-39	2	5:35:49	0:34:26		2:36:13		2:18:49	United Kingdom	FIN
+	139	Paul Ingpen	M	M50-54	17	5:36:04	0:30:31		2:36:18		2:25:01	South Africa	FIN
+	140	Dwayne Stewart	M	M25-29	16	5:36:27	0:30:48		2:45:29		2:14:04	Singapore	FIN
+	141	Franck Gourlaouen	M	M45-49	13	5:37:00	0:39:32		2:48:44		2:02:05	France	FIN
+	142	Luis Ignacio García Mora	M	M30-34	35	5:37:04	0:37:46		2:47:24		2:05:21	Spain	FIN
+	143	Jüergen Doerr	M	M50-54	18	5:37:08	0:32:41		2:45:12		2:12:42	Germany	FIN
+	144	Dilanka Rajapaksha	M	M18-24	7	5:37:26	0:32:39		2:58:20		2:00:14	Sri Lanka	FIN
+	145	Kreder Jean	M	M55-59	3	5:37:58	0:34:47		2:46:17		2:10:01	France	FIN
+514270	146	Soisha Siriwardana	M	M35-39	26	5:38:22	0:32:29		2:32:57		2:29:55	Sri Lanka	FIN
+	147	Michael Lelievre	M	M45-49	14	5:39:28	0:34:14		2:32:03		2:25:51	France	FIN
+	148	Brock Smith	M	M25-29	17	5:39:40	0:33:54		2:50:36		2:08:40	Australia	FIN
+	149	Abdullah Alrefae	M	M30-34	36	5:39:47	0:38:17		2:55:01		1:59:24	Kuwait	FIN
+	150	Barry Woods	M	M35-39	27	5:39:55	0:49:29		2:44:29		2:01:04	United Kingdom	FIN
+521941	151	Yigit Saricinar	M	M35-39	28	5:40:04	0:38:02		2:41:14		2:14:13	Turkey	FIN
+	152	Andrea Stadler	F	F40-44	3	5:40:30	0:35:58		2:54:31		2:03:07	Ecuador	FIN
+	153	Minh-Quang PHAM	M	M30-34	37	5:40:38	0:40:28		2:39:50		2:12:27	Vietnam	FIN
+	154	Dinaksha Hemachandra	M	M30-34	38	5:41:31	0:34:43		2:44:29		2:16:38	Sri Lanka	FIN
+	155	Abdulla Shaheen Alkaabi	M	M30-34	39	5:41:36	0:47:44		2:46:22		2:02:07	Qatar	FIN
+	156	Nicolas Rinie	M	M25-29	18	5:42:00	0:34:47		2:48:59		2:10:59	France	FIN
+	157	Carlos Jr. Delos Santos	M	M45-49	15	5:42:05	0:40:11		2:51:03		2:04:28	Philippines	FIN
+	158	Michael Hutton	M	M40-44	14	5:42:51	0:28:03		2:56:55		2:10:04	Spain	FIN
+	159	Géraud De La Tullaye	M	M35-39	29	5:43:19	0:38:54		2:45:20		2:10:02	France	FIN
+	160	Majed Dirsiyeh	M	M35-39	30	5:43:29	0:40:02		2:43:57		2:13:06	Jordan	FIN
+	161	Mei Yin Lee	F	F40-44	4	5:43:49	0:42:59		2:46:12		2:06:23	Singapore	FIN
+	162	Charlene Tang	F	F18-24	1	5:44:15	0:35:04		2:53:57		2:07:51	Singapore	FIN
+	163	Mathew Jackman	M	M30-34	40	5:44:19	0:29:08		2:30:39		2:41:18	Australia	FIN
+	164	Matthew Whelan	M	M30-34	41	5:45:13	0:34:10		2:57:40		2:06:29	Australia	FIN
+	165	Sara Ng	F	F25-29	4	5:45:14	0:36:24		2:59:27		2:03:27	Singapore	FIN
+	166	Mohamed Farhat Ben Thabet	M	M35-39	31	5:46:11	0:40:11		2:43:01		2:17:11	Tunisia	FIN
+	167	Darshaka Bandara	M	M30-34	42	5:46:26	0:28:58		2:37:05		2:37:32	Sri Lanka	FIN
+	168	Meghann Cleary	F	F35-39	3	5:47:13	0:37:11		2:41:45		2:21:05	United States	FIN
+	170	Kenji Takamiya	M	M45-49	16	5:48:26	0:42:47		2:49:10		2:10:30	Thailand	FIN
+	169	Mohd Syafei Bin Ahmad	M	M40-44	15	5:48:26	0:47:26		2:50:50		2:06:17	Malaysia	FIN
+	171	Denis Crassier	M	M45-49	17	5:48:58	0:37:52		2:40:12		2:24:44	France	FIN
+	172	Chalitha Dissanayke	M	M30-34	43	5:49:03	0:30:26		2:45:15		2:26:09	Sri Lanka	FIN
+521938	173	Rustam Sadykov	M	M35-39	32	5:49:25	0:37:25		2:44:53		2:20:16	Russia	FIN
+	174	Simon Roue	M	M40-44	16	5:49:36	0:39:46		2:40:52		2:18:25	United Kingdom	FIN
+	175	Marco Morelli	M	M50-54	19	5:49:39	0:32:09		2:45:25		2:25:22	Italy	FIN
+	177	Don Francis	M	M45-49	18	5:49:48	0:35:14		2:45:57		2:21:41	Qatar	FIN
+	176	Negraud Sebastien	M	M40-44	17	5:49:48	0:42:29		2:45:43		2:13:05	France	FIN
+	178	Nicolas Saunier	M	M40-44	18	5:50:10	0:35:15		2:48:25		2:18:49	France	FIN
+	179	Alexis Scheid	M	M35-39	33	5:50:18	0:39:03		2:45:58		2:18:09	France	FIN
+	180	Nishantha Pradeep Senarathna	M	M25-29	19	5:51:00	0:30:37		3:05:03		2:10:52	Sri Lanka	FIN
+	181	Fahad Al-Thuwaini	M	M30-34	44	5:51:16	0:48:57		2:44:26		2:11:22	Kuwait	FIN
+459710	182	Marianne Gates	F	F40-44	5	5:51:19	0:35:41		2:55:27		2:14:40	South Africa	FIN
+	183	Strath Lanyon	M	M30-34	45	5:51:29	0:31:41		2:39:15		2:33:14	Australia	FIN
+	184	Warwick Porteous	M	M40-44	19	5:51:30	0:44:00		2:40:02		2:20:17	Australia	FIN
+	185	Mark Hamilton	M	M25-29	20	5:51:52	0:34:07		2:40:37		2:31:00	United States	FIN
+	186	Andy Smith	M	M40-44	20	5:51:53	0:41:02		3:05:29		1:59:40	United Kingdom	FIN
+	187	Pradeep Ruwan Kumara Narangoda Gamage	M	M30-34	46	5:52:48	0:42:31		3:05:14		1:59:33	Sri Lanka	FIN
+521929	188	Amit Samarth	M	M35-39	34	5:53:07	0:53:56		2:39:07		2:14:55	India	FIN
+	189	Yousif Althawadi	M	M55-59	4	5:53:12	0:37:37		2:43:32		2:23:48	Bahrain	FIN
+	190	Geeth Samarasuriya	M	M25-29	21	5:53:15	0:34:21		2:42:26		2:29:44	Sri Lanka	FIN
+	191	Thierry Guerineau	M	M40-44	21	5:53:34	0:40:02		2:32:52		2:34:11	France	FIN
+	192	Neel Deshmukh	M	M18-24	8	5:54:18	0:29:28		2:43:02		2:35:29	India	FIN
+	193	Fahad Almohammed	M	M25-29	22	5:54:20	0:39:51		2:48:15		2:19:21	Qatar	FIN
+	194	Gerda Maria Dumitru	F	F30-34	4	5:54:56	0:31:28		3:02:09		2:14:18	Romania	FIN
+	195	Roberto Sery	M	M50-54	20	5:54:57	0:38:21		2:53:58		2:15:35	Reunion	FIN
+	196	Mark Strathern	M	M45-49	19	5:55:15	0:34:35		2:37:31		2:37:03	Australia	FIN
+	197	Miguel Varela	M	M40-44	22	5:55:20	0:43:02		2:45:46		2:20:02	Argentinia	FIN
+	198	Helle Bachofen Von Echt	F	F35-39	4	5:55:22	0:47:48		2:40:30		2:19:47	Denmark	FIN
+	199	Rishit Panigrahi	M	M30-34	47	5:55:46	0:43:29		2:39:22		2:24:45	India	FIN
+	200	Andrew Wong	M	M40-44	23	5:55:47	0:38:49		2:59:51		2:10:41	Australia	FIN
+	201	Agampodi Mahendra	M	M45-49	20	5:56:43	0:34:22		3:12:13		2:06:30	Sri Lanka	FIN
+	202	Sara Althawadi	F	F25-29	5	5:56:53	0:42:34		2:51:08		2:18:08	Bahrain	FIN
+	203	Fransexy Morrissey	M	M40-44	24	5:57:22	0:41:40		2:43:13		2:25:58	Ireland	FIN
+	204	Egor Rydannykh	M	M30-34	48	5:57:25	0:42:55		3:04:22		2:04:47	Russia	FIN
+	205	Robyn Norris	F	F35-39	5	5:57:36	0:35:21		3:03:11		2:13:05	Zimbabwe	FIN
+	206	Kell Oeberg	M	M45-49	21	5:58:13	0:52:37		2:39:36		2:19:42	Denmark	FIN
+	207	Catherine Roch	F	F50-54	2	5:58:22	0:38:06		2:44:29		2:28:50	Luxembourg	FIN
+	208	Jon Day	M	M30-34	49	5:58:25	0:46:28		3:10:12		1:51:13	United States	FIN
+	209	Daniel Pellissier	M	M45-49	22	5:58:49	0:40:37		2:46:37		2:24:24	United Kingdom	FIN
+	210	Kasun Hettiarachchi	M	M25-29	23	5:58:58	0:38:27		2:51:02		2:23:13	Sri Lanka	FIN
+256801	211	Nicol Van Dyk	M	M35-39	35	5:59:16	0:39:43		2:42:08		2:30:47	South Africa	FIN
+	212	Eulogy van Dyk	F	F30-34	5	5:59:19	0:37:58		2:50:56		2:24:22	South Africa	FIN
+	213	Jens Huelsermann	M	M40-44	25	5:59:33	0:45:06		2:54:02		2:11:17	Germany	FIN
+	214	Ingo Flore	M	M55-59	5	5:59:38	0:47:47		2:58:03		2:06:17	Germany	FIN
+	215	Pamila De Silva	M	M30-34	50	5:59:54	0:36:20		2:57:37		2:19:38	Sri Lanka	FIN
+	216	Chris Cullen	M	M30-34	51	6:00:20	0:38:44		2:41:22		2:33:48	New Zealand	FIN
+	217	Barrie Odgers	M	M45-49	23	6:00:22	0:37:32		2:38:15		2:37:59	United Kingdom	FIN
+	218	Katherine Gómez	F	F25-29	6	6:01:19	0:35:49		2:56:49		2:22:30	Colombia	FIN
+	219	Dmytro Budynsky	M	M40-44	26	6:01:23	0:37:40		2:56:11		2:22:38	Ukraine	FIN
+	220	Jean David Perthuis	M	M45-49	24	6:01:39	0:39:37		2:39:26		2:34:50	France	FIN
+	221	Lars Kuettel	M	M45-49	25	6:02:06	0:33:30		2:37:51		2:43:53	Switzerland	FIN
+	222	Miguel Fragoso	M	M25-29	24	6:02:41	0:38:28		3:12:40		2:04:07	Portugal	FIN
+	223	Manoranjan Nayak	M	M40-44	27	6:03:08	0:47:40		2:51:45		2:16:36	India	FIN
+	224	Shuang Lang	F	F30-34	6	6:03:42	0:47:05		3:05:56		2:03:46	China	FIN
+	226	Nerissa Usero	F	F40-44	6	6:03:51	0:45:10		2:59:59		2:10:36	Philippines	FIN
+	225	Franciska Gavin	F	F30-34	7	6:03:51	0:39:57		3:02:48		2:16:52	South Africa	FIN
+	227	Lesley Jones	F	F50-54	3	6:04:20	0:43:58		3:04:41		2:09:31	United Kingdom	FIN
+	228	Rohan Zaveri	M	M25-29	25	6:05:02	0:45:18		2:53:08		2:19:45	India	FIN
+	229	Bill Weymouth	M	M35-39	36	6:05:11	0:37:51		2:43:17		2:37:01	Ireland	FIN
+	230	Mark Heald	M	M40-44	28	6:05:15	0:41:11		2:51:52		2:27:12	Australia	FIN
+	231	Michael Ellis	M	M55-59	6	6:06:12	0:48:00		2:32:43		2:38:37	Hong Kong	FIN
+	232	Yashish Dahiya	M	M45-49	26	6:06:23	0:32:29		2:47:00		2:39:20	India	FIN
+	233	Paul Flynn	M	M35-39	37	6:06:27	0:36:29		3:00:56		2:21:38	United Kingdom	FIN
+	234	Robin Martz	F	F45-49	4	6:07:14	0:45:25		3:01:34		2:14:13	United States	FIN
+	235	Viet Tran	M	M30-34	52	6:08:04	0:50:41		2:56:59		2:15:15	Vietnam	FIN
+	236	Karim Abbas	M	M45-49	27	6:08:07	0:35:02		2:49:24		2:35:26	Egypt	FIN
+	237	Shane Manning	M	M40-44	29	6:08:25	0:35:38		2:45:49		2:39:30	Australia	FIN
+521937	238	Devdhar Yadav	M	M35-39	38	6:08:58	0:36:52		3:07:19		2:17:50	India	FIN
+	239	Anirudh Pandya	M	M45-49	28	6:09:09	0:41:48		2:59:54		2:21:25	India	FIN
+	240	Andy Davies	M	M45-49	29	6:09:10	0:33:23		2:39:48		2:48:27	United Kingdom	FIN
+	241	Doug Griffiths	M	M45-49	30	6:09:20	0:36:16		2:52:55		2:33:03	Australia	FIN
+	242	Keisuke Nishimura	M	M40-44	30	6:09:26	0:55:33		3:04:39		1:58:45	Japan	FIN
+	243	Nisha Anil Madgavkar	F	F35-39	6	6:09:44	0:33:55		2:59:39		2:29:16	India	FIN
+	245	Scott Harper	M	M45-49	31	6:09:45	0:42:41		2:48:40		2:32:04	United Kingdom	FIN
+	244	Arunashantha Dissanayake	M	M25-29	26	6:09:45	0:34:36		3:02:09		2:29:30	Sri Lanka	FIN
+	246	Gabrielle Robinson	F	F45-49	5	6:09:58	0:42:25		3:14:27		2:07:08	United Kingdom	FIN
+	247	Tisara Samarasuriya	M	M25-29	27	6:10:23	0:35:38		2:54:29		2:33:45	Sri Lanka	FIN
+	248	Janine Campbell	F	F50-54	4	6:10:29	0:32:16		2:56:03		2:35:05	Australia	FIN
+521939	249	Jacques Lombard	M	M35-39	39	6:11:00	0:39:58		2:51:41		2:32:53	South Africa	FIN
+	250	Surender Malik	M	M30-34	53	6:11:14	0:41:04		3:08:44		2:13:36	India	FIN
+	251	Ahmed Mohamed Khalifa	M	M40-44	31	6:12:04	0:43:24		2:49:30		2:32:47	Egypt	FIN
+	252	Michael Beautyman	M	M30-34	54	6:12:15	0:39:29		2:55:59		2:28:39	United States	FIN
+	253	Jean-Daniel Roch	M	M50-54	21	6:12:29	0:39:38		2:53:30		2:33:25	Luxembourg	FIN
+	254	Raja Ram Tokas	M	M40-44	32	6:12:30	0:28:32		3:06:36		2:31:21	India	FIN
+	255	Neil Melville	M	M50-54	22	6:12:34	0:36:30		2:37:39		2:52:09	United Kingdom	FIN
+	256	Azzurra Ministrini	F	F35-39	7	6:12:54	0:35:59		3:11:17		2:21:41	Italy	FIN
+	257	Ruanda Oberholzer	F	F45-49	6	6:12:59	0:41:17		2:57:28		2:28:15	South Africa	FIN
+469408	258	Alexis Sikora	M	M35-39	40	6:13:06	0:35:04		3:06:37		2:23:22	France	FIN
+	259	Jonathan Yap	M	M45-49	32	6:13:44	0:38:41		2:45:50		2:42:51	United Kingdom	FIN
+	260	Ken Takahashi	M	M35-39	41	6:14:14	0:39:23		2:41:36		2:46:53	Japan	FIN
+	261	Samuel Ducroquet	M	M35-39	42	6:15:01	0:39:09		2:52:48		2:36:21	France	FIN
+	262	Scott Kj	M	M30-34	55	6:15:24	0:46:11		3:00:48		2:20:32	Singapore	FIN
+	263	Stephane NORDE	M	M50-54	23	6:15:59	0:36:53		3:00:46		2:30:03	France	FIN
+	264	Kathryn Moore	F	F60-64	1	6:16:13	0:41:48		3:05:45		2:22:43	United Kingdom	FIN
+336777	265	Nd Liyanage	M	M35-39	43	6:16:20	0:31:19		3:26:01		2:14:06	Sri Lanka	FIN
+	266	Annemarie Kilshaw	F	F50-54	5	6:16:36	0:40:39		3:04:14		2:27:59	Australia	FIN
+	267	Abdul Kadir Abdul Karim	M	M45-49	33	6:17:14	0:46:51		3:04:42		2:19:19	Malaysia	FIN
+	268	Hussain Shameem	M	M35-39	44	6:17:46	0:38:00		2:53:19		2:38:38	Maldives	FIN
+	269	Catherine Cerezo Fittipaldi	F	F35-39	8	6:17:49	0:39:45		3:06:51		2:26:23	France	FIN
+	270	Xiyu Hu	M	M55-59	7	6:18:26	0:49:14		3:08:05		2:14:44	China	FIN
+	271	Francois Oberholzer	M	M45-49	34	6:18:37	0:45:08		2:58:33		2:28:54	South Africa	FIN
+	272	Lloyd Johnson	M	M30-34	56	6:18:55	0:40:43		2:53:51		2:38:29	United Kingdom	FIN
+148076	273	Romain Seiler	M	M35-39	45	6:19:11	0:36:27		2:47:09		2:45:48	France	FIN
+	274	Wai Hing Idy Chiu	F	F50-54	6	6:19:43	0:43:55		3:03:47		2:25:31	Hong Kong	FIN
+	275	Asutosh Bellur Ramesh	M	M25-29	28	6:20:04	0:47:52		3:00:30		2:21:52	India	FIN
+	276	Pulin Harshad Shroff	M	M45-49	35	6:20:32	0:50:24		3:10:27		2:12:27	India	FIN
+	277	Marta Centeno	F	F30-34	8	6:20:35	0:37:13		2:51:59		2:44:44	Spain	FIN
+	278	Ruwansiri Silva	M	M30-34	57	6:20:37	0:32:05		3:13:01		2:28:26	Sri Lanka	FIN
+354545	279	Fariz Atraz Fauzi	M	M25-29	29	6:20:39	0:36:23		2:45:25		2:51:32	Malaysia	FIN
+	280	Cheung Sze Yan Rhoda	F	F35-39	9	6:21:03	0:45:06		3:08:49		2:19:39	Hong Kong	FIN
+	281	Agwilh Collet	M	M25-29	30	6:21:20	0:42:17		2:56:57		2:37:20	France	FIN
+	282	Jaimie Metcalfe	F	F30-34	9	6:21:35	0:42:12		3:06:27		2:28:56	Australia	FIN
+	283	Tawfik Elkheshen	M	M40-44	33	6:21:47	0:37:50		3:13:24		2:25:06	Egypt	FIN
+	284	weng hong cheong	M	M45-49	36	6:22:47	0:37:44		3:01:21		2:38:57	Malaysia	FIN
+	285	Stephen Ashby	M	M35-39	46	6:22:58	0:47:53		3:03:06		2:24:31	United Kingdom	FIN
+	286	Vivek Menon	M	M40-44	34	6:23:36	0:47:11		2:49:58		2:37:54	India	FIN
+	287	Ferro Schat	M	M45-49	37	6:23:39	0:39:02		2:50:41		2:48:10	Netherlands	FIN
+	288	Ajath Anjanappa	M	M35-39	47	6:24:03	0:44:24		3:09:31		2:22:07	India	FIN
+521935	289	Tom Parker	M	M35-39	48	6:24:08	0:41:52		2:59:23		2:35:25	United Kingdom	FIN
+	290	Paolo Mevio	M	M55-59	8	6:25:05	0:42:37		3:05:01		2:30:58	Italy	FIN
+	291	Sridhar Venkataraman	M	M60-64	1	6:25:50	0:51:33		3:04:00		2:21:18	India	FIN
+	292	Rohithe Amarasinghe	M	M30-34	58	6:25:58	0:31:58		2:58:36		2:48:40	Sri Lanka	FIN
+	293	Chi Shing To	M	M45-49	38	6:26:08	1:05:45		3:10:02		2:04:26	Hong Kong	FIN
+	294	Lasindu Chathuranga	M	M18-24	9	6:26:29	0:39:45		3:11:32		2:29:00	Sri Lanka	FIN
+	295	Aylwin Chee	M	M35-39	49	6:26:34	0:42:33		3:04:15		2:35:04	Singapore	FIN
+	296	Naseema Roue	F	F45-49	7	6:27:01	0:47:24		3:01:13		2:29:12	United Kingdom	FIN
+	297	Pascal Cochard	M	M50-54	24	6:27:24	0:54:05		2:53:39		2:31:21	France	FIN
+	298	Georg Gernez	M	M35-39	50	6:27:59	0:37:41		2:51:29		2:50:39	Germany	FIN
+	299	Ida Bik Sai Lee	F	F45-49	8	6:28:23	0:49:14		3:13:58		2:16:21	Hong Kong	FIN
+	300	Hatem El-Safty	M	M35-39	51	6:28:23	0:35:47		3:07:20		2:40:52	Egypt	FIN
+	301	Gaurav Chauhan	M	M35-39	52	6:29:31	0:54:43		2:56:08		2:27:34	India	FIN
+	302	Tomasz Donhefner	M	M45-49	39	6:29:34	0:43:08		3:01:19		2:40:35	Poland	FIN
+	303	Punchi Banda	M	M35-39	53	6:29:45	0:53:21		3:23:29		2:06:42	Australia	FIN
+	304	Abdul Nassar P	M	M40-44	35	6:29:54	0:47:52		3:12:57		2:21:20	India	FIN
+	305	Jappie George	M	M45-49	40	6:29:56	0:40:00		3:36:46		2:06:19	South Africa	FIN
+	306	Y N Aditya Narayan	M	M18-24	10	6:30:17	0:47:15		2:57:45		2:37:16	India	FIN
+	307	Alvin John Quimzon	M	M25-29	31	6:30:56	0:45:53		2:57:28		2:42:24	Philippines	FIN
+	308	Abdulaziz Alabdulla	M	M35-39	54	6:31:10	0:52:43		2:57:08		2:32:27	Qatar	FIN
+	309	Yousef Alfadalah	M	M35-39	55	6:31:26	0:52:58		3:10:30		2:16:20	Kuwait	FIN
+	310	Aiman Elsayed	M	M30-34	59	6:31:36	0:50:56		3:04:43		2:30:11	Egypt	FIN
+	311	Laura Perez Quinto	F	F30-34	10	6:31:40	0:43:12		3:10:31		2:33:30	Spain	FIN
+	312	Guillaume Dufond	M	M30-34	60	6:32:04	0:43:42		3:00:38		2:43:26	France	FIN
+	313	Darren Wong	M	M25-29	32	6:32:19	0:41:35		3:20:56		2:21:43	Singapore	FIN
+	314	Motoharu Ochiai	M	M45-49	41	6:32:37	0:37:47		3:06:57		2:41:03	Japan	FIN
+	315	Francis Pinckers	M	M55-59	9	6:33:04	0:46:51		3:03:31		2:36:33	Belgium	FIN
+	316	Carlo Maniebo	M	M25-29	33	6:33:14	0:38:52		2:47:06		3:00:43	Philippines	FIN
+	317	Abdellatif Elghaish	M	M35-39	56	6:33:36	0:46:14		2:59:34		2:37:23	Egypt	FIN
+	318	Genia Gulyas	F	F35-39	10	6:33:43	0:41:25		3:07:10		2:38:19	Hungary	FIN
+	319	Kartika Rajaram	F	F35-39	11	6:33:43	0:52:11		3:22:08		2:12:56	India	FIN
+	320	Kerry Hall	M	M50-54	25	6:33:50	0:47:13		2:51:36		2:49:32	Australia	FIN
+	321	Diego Ponce	M	M30-34	61	6:34:28	0:42:07		3:10:18		2:34:34	Ecuador	FIN
+	322	Vince Rylance	M	M55-59	10	6:35:14	0:43:54		2:55:49		2:43:11	United Kingdom	FIN
+	323	Alexandre Chaux	M	M30-34	62	6:36:15	0:42:41		2:44:54		2:58:08	France	FIN
+	324	Charlie Hagger	M	M25-29	34	6:36:37	0:34:11		2:59:05		2:55:15	United Kingdom	FIN
+	325	Sari Harju	F	F45-49	9	6:36:50	0:49:24		3:03:52		2:34:58	Finland	FIN
+	326	Thomas Radal	M	M25-29	35	6:37:14	0:43:35		3:20:43		2:23:50	France	FIN
+	327	Sumie Fujimura	F	F45-49	10	6:37:15	0:35:25		3:19:03		2:35:45	Japan	FIN
+	328	Dr Hussain Haleem	M	M45-49	42	6:37:33	0:52:37		3:18:58		2:19:43	Maldives	FIN
+	329	Caroline Van Aartrijk	F	F55-59	1	6:37:57	0:38:30		3:11:28		2:42:14	Qatar	FIN
+	330	Jack Wilkinson	M	M18-24	11	6:38:37	0:51:28		3:25:00		2:11:38	United Kingdom	FIN
+	331	Pradeep Katrodia	M	M35-39	57	6:39:16	0:49:35		3:07:02		2:34:11	India	FIN
+	332	Dhanraj Palke	M	M25-29	36	6:39:37	0:48:18		3:30:08		2:11:57	India	FIN
+	333	Edward Sampelo	M	M40-44	36	6:39:49	0:49:45		3:00:49		2:44:35	Philippines	FIN
+	334	Nada Prouty	F	F45-49	11	6:40:30	0:43:26		3:52:23		1:59:00	United States	FIN
+	335	Hesham Sherif	M	M30-34	63	6:40:38	0:56:02		3:01:27		2:36:31	Egypt	FIN
+	336	Anthony Valet	M	M40-44	37	6:41:04	0:35:56		3:09:51		2:47:10	France	FIN
+	337	Jonathan Lucas	M	M30-34	64	6:41:17	0:53:50		3:16:58		2:24:06	United Kingdom	FIN
+	338	Anna Tambovtseva	F	F35-39	12	6:41:20	0:46:18		3:16:40		2:26:29	Russia	FIN
+	339	Bryant Eggett	M	M45-49	43	6:41:23	0:36:57		2:49:30		3:07:59	China	FIN
+120458	340	Kurush Wadia	M	M35-39	58	6:41:47	0:46:24		2:54:12		2:51:12	India	FIN
+	342	Geraint Roberts	M	M50-54	26	6:41:51	0:46:23		2:53:32		2:53:24	United Kingdom	FIN
+	341	Akshay Magdum	M	M25-29	37	6:41:51	0:47:19		3:20:45		2:27:59	India	FIN
+	343	Tak Wah Edward Wong	M	M50-54	27	6:42:09	0:40:32		2:47:56		3:07:29	Hong Kong	FIN
+	344	Mahbubur Rahman	M	M25-29	38	6:42:26	0:38:12		3:21:49		2:35:48	Bangladesh	FIN
+	345	Aktar Abdul Rahman	M	M45-49	44	6:42:51	0:48:45		2:56:53		2:48:43	Malaysia	FIN
+	346	Benjamin Atkinson	M	M40-44	38	6:43:15	0:31:41		2:46:42		3:17:02	United States	FIN
+	347	Adam Van Thiel	M	M35-39	59	6:44:02	0:48:33		3:29:43		2:16:12	United Kingdom	FIN
+	348	Simon Wijegooneratne	M	M40-44	39	6:44:12	0:48:19		3:22:08		2:25:31	Sri Lanka	FIN
+521943	349	Becky Somers	F	F35-39	13	6:44:44	0:48:15		3:19:34		2:30:09	United States	FIN
+	350	Hussain Azham	M	M30-34	65	6:44:44	0:46:43		3:27:46		2:23:18	Maldives	FIN
+	351	Ravi Shankar	M	M18-24	12	6:45:02	0:54:47		3:11:37		2:29:03	India	FIN
+	352	Yaqi Yang	F	F18-24	2	6:46:25	0:49:14		3:11:52		2:36:37	China	FIN
+	353	Leif Lindtner	M	M50-54	28	6:46:44	0:38:20		3:16:37		2:44:20	Norway	FIN
+	354	Shaun Farrell	M	M50-54	29	6:47:15	0:37:49		2:54:43		3:06:21	Zimbabwe	FIN
+	355	Sylvia George	F	F45-49	12	6:47:25	0:50:35		3:17:36		2:33:38	South Africa	FIN
+	356	John Conlon	M	M40-44	40	6:47:40	0:44:56		2:58:55		2:51:16	Ireland	FIN
+377127	357	Igor Majer	M	M35-39	60	6:47:41	0:41:24		2:59:14		2:59:03	Montenegro	FIN
+	358	Mubarak Alkhulaifi	M	M35-39	61	6:47:42	0:51:53		3:14:13		2:28:32	Qatar	FIN
+	359	Crispin Thorold	M	M45-49	45	6:47:53	0:39:51		3:06:13		2:52:49	United Kingdom	FIN
+	360	Ken Ong	M	M30-34	66	6:47:56	0:33:21		3:38:21		2:31:25	Singapore	FIN
+	361	Avinash Tantia	M	M40-44	41	6:47:57	0:48:08		3:07:36		2:45:01	India	FIN
+	362	Joy Leaper	F	F35-39	14	6:48:44	0:39:37		3:22:30		2:40:45	Australia	FIN
+	363	Mridul Gupta	M	M25-29	39	6:49:11	0:41:08		3:08:48		2:49:47	India	FIN
+	365	Juha Matias Finnila	M	M55-59	11	6:49:15	0:39:46		3:00:05		3:02:58	Finland	FIN
+	364	Marina Malykh	F	F30-34	11	6:49:15	0:47:40		3:32:56		2:15:41	Russia	FIN
+	366	Mark Nelson	M	M55-59	12	6:49:16	0:35:49		2:51:31		3:15:25	United Kingdom	FIN
+	367	Satoru Nogami	M	M55-59	13	6:51:13	0:47:06		2:48:11		3:08:49	Japan	FIN
+	368	Mary Cox	F	F40-44	7	6:51:14	0:52:46		3:23:46		2:26:25	United States	FIN
+	369	Faesal Almannai	M	M35-39	62	6:51:24	0:45:41		3:09:56		2:47:05	Qatar	FIN
+	370	Filippo Di Mauro	M	M60-64	2	6:51:59	0:44:16		3:23:16		2:36:26	Switzerland	FIN
+	371	Dina Aly	F	F35-39	15	6:52:12	0:44:04		3:07:06		2:43:40	Egypt	FIN
+519904	372	Ramshreyas Rao	M	M35-39	63	6:52:21	0:45:37		3:17:46		2:37:35	India	FIN
+	373	Muneera Al Hajery	F	F25-29	7	6:53:37	0:49:42		3:22:14		2:32:54	Kuwait	FIN
+	374	Chris Rowell	M	M45-49	46	6:54:01	0:42:27		3:10:09		2:55:07	United Kingdom	FIN
+	375	Pamela Williams	F	F65-69	1	6:54:10	0:44:12		3:20:27		2:41:36	Australia	FIN
+	376	Pankaj Seth	M	M40-44	42	6:54:28	0:46:50		3:35:54		2:21:10	India	FIN
+	377	Tora Mira Francisco Javier	M	M45-49	47	6:54:37	0:48:19		2:53:02		3:03:56	Spain	FIN
+	378	Kenzo Reinau	M	M40-44	43	6:54:46	0:42:01		3:02:56		3:02:58	Germany	FIN
+	379	Rick Jankowiak	M	M55-59	14	6:55:07	0:42:15		3:07:03		2:57:27	United States	FIN
+	380	Amit Prakash	M	M50-54	30	6:56:01	0:47:07		3:03:26		2:59:36	India	FIN
+	381	Shay Kastoriano	M	M45-49	48	6:56:15	0:49:49		3:11:23		2:48:50	Israel	FIN
+	382	Susan Dun	F	F50-54	7	6:57:13	0:49:42		3:16:57		2:42:09	United States	FIN
+	383	Mark David	M	M35-39	64	6:57:14	0:50:39		3:00:28		3:01:20	Philippines	FIN
+	384	Chi Hung Leung	M	M65-69	2	6:57:33	0:43:01		3:11:54		2:53:05	Hong Kong	FIN
+	385	Raphael Carlo Vallado	M	M30-34	67	6:57:38	0:47:56		3:13:20		2:49:25	Philippines	FIN
+	386	Arvind Ravikumar	M	M30-34	68	6:57:47	0:48:04		3:06:25		2:56:34	India	FIN
+	387	Akshay Raju	M	M25-29	40	6:57:58	0:47:51		2:59:33		3:05:39	India	FIN
+	388	Gisela Zurita Ventura	F	F30-34	12	6:58:39	0:47:01		3:12:38		2:49:35	Mexico	FIN
+	389	Johan Barnard	M	M60-64	3	6:58:52	0:47:08		3:03:18		3:02:10	South Africa	FIN
+	390	Aman Madan	M	M30-34	69	6:59:03	0:53:01		3:20:13		2:38:53	India	FIN
+	391	Nadira De Abrew	M	M40-44	44	6:59:17	0:44:52		2:57:32		3:06:24	Sri Lanka	FIN
+	392	Jayaprakash Pai	M	M50-54	31	6:59:20	0:54:09		3:41:51		2:11:25	India	FIN
+	393	Johnson Dan Jacob	M	M50-54	32	6:59:37	0:47:42		3:11:46		2:49:13	Singapore	FIN
+	394	Thomas Muenzel	M	M55-59	15	6:59:45	0:46:15		3:16:57		2:48:44	Germany	FIN
+	395	Akshat Saxena	M	M25-29	41	6:59:52	0:42:24		3:14:16		2:49:50	India	FIN
+	396	Shravan Devjani	M	M25-29	42	7:00:13	0:44:38		3:09:02		2:57:29	India	FIN
+	397	Ayesha Bharucha	F	F30-34	13	7:00:32	0:50:30		3:19:13		2:43:08	India	FIN
+	398	Kaori Sumi (Ishikawa)	F	F55-59	2	7:01:14	0:41:27		3:25:10		2:45:56	Japan	FIN
+521932	399	NINAD PATIL	M	M35-39	65	7:01:29	0:38:09		3:29:57		2:44:52	India	FIN
+521933	400	Aaron Moyce	M	M35-39	66	7:02:33	0:58:02		3:26:11		2:30:32	United Kingdom	FIN
+	401	Georgina Dean	F	F35-39	16	7:02:38	0:53:06		3:05:50		2:51:12	Egypt	FIN
+	402	Sashi Madushanka	M	M30-34	70	7:02:39	0:38:24		3:36:09		2:38:51	Sri Lanka	FIN
+	403	Khalid Oshman	M	M30-34	71	7:02:57	0:53:38		3:21:08		2:38:52	Sri Lanka	FIN
+	404	Jean-Michel Valet	M	M60-64	4	7:03:20	0:48:48		3:14:29		2:50:20	France	FIN
+	405	Kumar Amresh	M	M30-34	72	7:03:24	0:57:40		3:22:35		2:31:27	India	FIN
+292228	406	Chengjiang Wang	M	M35-39	67	7:04:24	0:39:45		3:33:48		2:41:02	China	FIN
+	407	Yusuf Rahman	M	M25-29	43	7:04:48	0:44:18		3:15:04		2:44:11	Sri Lanka	FIN
+	408	Kmap Kumara	M	M25-29	44	7:05:19	0:32:33		3:27:43		3:00:07	Sri Lanka	FIN
+	409	Vikram Seshasayee	M	M40-44	45	7:06:05	0:48:40		3:28:31		2:36:27	India	FIN
+	410	Hilarion Sivananthan	M	M30-34	73	7:06:50	0:53:04		3:11:32		2:52:32	United States	FIN
+	411	Parthasarathy Srinivasan	M	M40-44	46	7:07:01	0:46:49		3:07:20		3:03:34	India	FIN
+521928	412	Like Slobin	M	M35-39	68	7:07:10	0:39:41		3:18:38		3:00:25	Australia	FIN
+	413	Sumit Gupta	M	M35-39	69	7:08:13	0:43:22		3:11:49		3:03:42	India	FIN
+	414	Rosemary Chan	F	F45-49	13	7:08:24	0:47:37		3:19:26		2:47:57	China	FIN
+	415	Tuck Chun Daniel Leong	M	M45-49	49	7:08:35	0:46:25		3:11:15		3:02:25	Singapore	FIN
+	416	Fu Kun	M	M40-44	47	7:08:45	0:44:47		3:15:38		2:56:11	China	FIN
+	417	Nikhilesh Pant	M	M45-49	50	7:08:59	0:43:12		3:27:47		2:46:04	India	FIN
+	418	Angela Kim Yan Lai	F	F45-49	14	7:09:44	1:05:43		3:34:47		2:19:54	Hong Kong	FIN
+	419	Wadm Chandrakanthi	F	F45-49	15	7:10:10	0:57:11		4:06:04		1:59:22	Sri Lanka	FIN
+	420	Kelvin Phua	M	M45-49	51	7:10:14	0:53:13		3:15:46		2:55:58	Singapore	FIN
+	421	Aditya Ahuja	M	M25-29	45	7:10:49	0:52:38		3:17:41		2:52:45	India	FIN
+	422	Hiroki Takeyabu	M	M30-34	74	7:11:34	0:43:55		3:06:26		3:03:31	Japan	FIN
+	423	Paulo Junior	M	M40-44	48	7:11:56	0:46:30		3:20:11		2:47:28	Brazil	FIN
+69974	424	Swapnil Kumbharkar	M	M35-39	70	7:12:15	0:50:19		3:30:12		2:39:54	India	FIN
+414813	425	Avinash Thadani	M	M35-39	71	7:12:20	0:40:46		3:30:46		2:49:42	India	FIN
+	426	Shazharn Muhammad Zain	M	M40-44	49	7:12:47	0:47:24		3:06:11		3:11:30	Malaysia	FIN
+	427	Anju Khosla	F	F50-54	8	7:12:50	0:50:16		3:22:42		2:47:54	India	FIN
+	428	Ashay Mahajan	M	M40-44	50	7:13:15	0:49:21		3:24:30		2:46:19	India	FIN
+	429	Shivraj Tagare	M	M18-24	13	7:13:33	0:46:17		3:25:41		2:52:49	India	FIN
+	430	Aletta Joubert	F	F55-59	3	7:13:52	0:44:44		3:21:09		3:00:41	South Africa	FIN
+	431	Ed Bosanac	M	M70-74	1	7:13:53	0:43:28		3:06:42		3:17:10	United States	FIN
+	432	直樹 廣瀬	M	M45-49	52	7:14:30	0:54:02		3:08:03		2:59:04	Japan	FIN
+	433	Mako Omura	F	F45-49	16	7:14:57	0:53:50		3:23:55		2:49:36	Japan	FIN
+	434	Zaahir Howell	M	M45-49	53	7:15:27	0:41:04		3:24:42		3:02:38	South Africa	FIN
+	435	David Chua Eng Kee	M	M50-54	33	7:15:32	0:51:34		3:00:15		3:14:11	Singapore	FIN
+	436	Kimberly Sivananthan	F	F30-34	14	7:18:12	0:45:57		3:22:48		2:58:43	United States	FIN
+	437	Maanav Kapai	M	M18-24	14	7:18:39	0:48:50		3:12:55		3:07:07	India	FIN
+	438	Simba Chikona	M	M35-39	72	7:19:04	0:48:26		3:40:36		2:41:23	Zimbabwe	FIN
+	439	Shankar Kudtarkar	M	M25-29	46	7:19:21	0:48:49		3:23:17		2:58:15	India	FIN
+	440	Hassan Alsayed	M	M30-34	75	7:19:33	0:58:45		3:08:14		3:03:25	Qatar	FIN
+	441	Dinesh Laungani	M	M45-49	54	7:20:34	0:57:03		3:23:02		2:45:43	India	FIN
+	442	Sukhdev Singh	M	M45-49	55	7:20:49	1:01:47		3:29:13		2:38:16	India	FIN
+203863	443	Shivakumar Rajeshwaran	M	M35-39	73	7:21:06	0:54:36		3:35:50		2:39:29	India	FIN
+	444	Gayani Kumudu Kumari Dassanayake	F	F18-24	3	7:21:16	0:35:03		3:45:48		2:57:01	Sri Lanka	FIN
+202058	445	Kaustubh Mulye	M	M35-39	74	7:21:24	0:52:41		3:18:05		2:56:41	India	FIN
+	446	Ara Kirby	F	F30-34	15	7:21:26	0:53:37		3:28:06		2:51:43	Philippines	FIN
+	447	Balasoorian Balakrishnan	M	M40-44	51	7:21:34	0:52:24		3:12:25		3:07:35	Malaysia	FIN
+	448	Suren Abeysuriya	M	M55-59	16	7:21:37	0:40:38		3:15:03		3:16:40	Sri Lanka	FIN
+	449	Siddhesh Sawant	M	M30-34	76	7:22:01	0:51:53		3:19:08		3:04:08	India	FIN
+376489	450	Wahid Pathan	M	M35-39	75	7:22:19	0:54:35		3:19:14		2:57:58	India	FIN
+	451	Gary Dockerty	M	M50-54	34	7:23:53	0:50:27		3:20:51		3:00:12	United Kingdom	FIN
+137644	452	Atul Mavinkurve	M	M35-39	76	7:23:59	0:45:53		3:38:34		2:43:20	India	FIN
+	453	Howard Gilbert	M	M40-44	52	7:24:06	0:42:45		3:05:07		3:28:18	United Kingdom	FIN
+	454	Kevin Wimaladasa	M	M25-29	47	7:25:02	0:48:03		3:35:09		2:57:25	Sri Lanka	FIN
+	455	Mayura Shivalkar	F	F40-44	8	7:25:06	1:01:26		3:26:33		2:48:22	India	FIN
+	456	Chris Mcfall	M	M40-44	53	7:25:40	0:38:53		3:19:35		3:16:39	United Kingdom	FIN
+	457	Pranav Moghe	M	M25-29	48	7:26:31	0:51:54		3:39:15		2:47:31	India	FIN
+	458	Sr Pushpakumara	M	M25-29	49	7:27:10	0:33:06		3:44:49		3:03:41	Sri Lanka	FIN
+	459	Alida Lilly Achermann	F	F45-49	17	7:27:29	0:41:27		3:33:41		3:04:52	Switzerland	FIN
+	460	Eduard Morrison	M	M30-34	77	7:27:29	0:49:14		3:33:57		2:44:15	South Africa	FIN
+	461	Neloufer Fernando	F	F18-24	4	7:27:59	0:38:18		3:50:45		2:50:05	Sri Lanka	FIN
+	462	Otakar Krafka	M	M55-59	17	7:28:00	0:43:09		3:56:47		2:39:23	Czech Republic	FIN
+	463	Anirudha Todkar	M	M45-49	56	7:28:52	0:50:07		3:25:48		2:58:14	India	FIN
+	464	Jerome Lagarde	M	M45-49	57	7:28:55	0:49:56		3:09:10		3:23:11	France	FIN
+	465	Gaurav Aggarwal	M	M35-39	77	7:30:23	0:51:45		3:18:11		3:07:58	India	FIN
+	466	Vijay Phalke	M	M45-49	58	7:31:31	0:45:30		3:13:45		3:20:55	India	FIN
+514146	467	Frédéric Manguin	M	M35-39	78	7:32:30	0:42:58		3:25:55		3:14:40	France	FIN
+	468	Lara Fox	F	F40-44	9	7:32:51	0:42:26		3:51:07		2:48:12	South Africa	FIN
+	469	Burak Aksoy	M	M40-44	54	7:33:01	0:50:50		3:56:50		2:34:10	Turkey	FIN
+	470	Lance Williams	M	M60-64	5	7:33:06	0:44:02		3:17:24		3:21:40	Australia	FIN
+	471	Juliet Stein	F	F45-49	18	7:33:13	0:41:03		3:29:39		3:10:20	United States	FIN
+	472	Fatma Alsalem	F	F30-34	16	7:33:35	0:49:47		3:43:12		2:54:47	Kuwait	FIN
+	473	Christoph Kaeser	M	M50-54	35	7:33:51	0:36:21		3:06:52		3:40:54	Singapore	FIN
+	474	Charles Gray	M	M40-44	55	7:34:04	0:49:10		3:16:47		3:20:32	United States	FIN
+521942	475	Mukul Moholkar	M	M35-39	79	7:35:15	0:45:32		3:37:37		3:00:21	India	FIN
+521930	476	Pedro Usero	M	M45-49	59	7:35:31	0:54:19		3:21:29		3:09:03	Philippines	FIN
+	477	Ziyad Rahim	M	M40-44	56	7:35:54	0:48:47		3:28:32		3:08:02	Pakistan	FIN
+	478	Francois Jonker	M	M35-39	80	7:36:58	0:42:46		3:18:22		3:24:39	South Africa	FIN
+	479	Srikanth Desikachar	M	M45-49	60	7:37:08	0:51:09		3:28:27		3:04:42	Canada	FIN
+	480	To Phuong Pham	F	F30-34	17	7:37:26	0:51:39		3:30:28		3:06:00	Vietnam	FIN
+	481	Jonathan Revilla Selisana	M	M40-44	57	7:37:30	0:57:17		3:16:53		3:13:20	Philippines	FIN
+	482	Jason Rajasinghe	M	M25-29	50	7:37:31	0:46:17		3:35:17		3:11:21	United States	FIN
+	483	Rahul Nagar	M	M40-44	58	7:38:30	0:51:37		3:50:05		2:48:38	India	FIN
+	484	Tallal Alemadi	M	M35-39	81	7:39:54	0:58:22		3:16:52		3:04:16	Qatar	FIN
+	485	Nikhil Arora	M	M45-49	61	7:40:12	0:59:38		3:36:08		2:54:52	United States	FIN
+	486	Deb Gee	F	F30-34	18	7:40:21	0:55:55		3:44:03		2:53:37	New Zealand	FIN
+	487	Yan Kan	M	M35-39	82	7:40:23	0:49:17		3:35:59		3:00:02	China	FIN
+	488	Ali Alnajdi	M	M45-49	62	7:40:35	0:46:46		3:19:11		3:24:27	Qatar	FIN
+	489	Declan Loy	M	M45-49	63	7:41:42	0:40:54		3:26:42		3:26:34	Ireland	FIN
+	490	deepa katrodia	F	F30-34	19	7:42:22	1:08:15		3:26:59		2:59:03	India	FIN
+	491	Doaa Awad	F	F18-24	5	7:42:51	0:44:00		3:24:30		3:26:50	Egypt	FIN
+	492	Laurent Labbe	M	M55-59	18	7:43:21	0:56:36		3:12:25		3:17:43	France	FIN
+	493	Vu Duong	M	M60-64	6	7:43:37	0:52:11		3:18:59		3:17:32	Vietnam	FIN
+	494	Joseph Eng Hian Chua	M	M55-59	19	7:43:47	0:49:15		2:56:05		3:45:59	Singapore	FIN
+	495	Kumaril Patel	M	M50-54	36	7:45:28	0:48:01		3:32:52		3:09:17	India	FIN
+	496	Mariasole Ghidini	F	F35-39	17	7:45:56	0:46:51		3:30:46		3:20:00	Italy	FIN
+	497	Mona Gupta	F	F50-54	9	7:46:03	0:51:33		4:04:45		2:40:36	India	FIN
+	498	Enrique Schmilinsky	M	M50-54	37	7:46:49	0:53:13		3:30:23		3:14:13	Venezuela	FIN
+	499	Wai Chi Shirley Yam	F	F40-44	10	7:47:05	0:58:59		3:39:40		2:59:06	Hong Kong	FIN
+	500	Yukihiro Fujimura	M	M55-59	20	7:47:44	0:36:52		3:46:22		3:12:49	Japan	FIN
+	501	Meena Barot	F	F45-49	19	7:48:01	0:56:46		3:44:05		2:58:09	India	FIN
+	502	Janet Sy	F	F55-59	4	7:48:02	0:46:17		3:37:25		3:04:37	Hong Kong	FIN
+	503	Chi Wai Wu	M	M60-64	7	7:48:02	0:47:38		3:34:18		3:03:21	Hong Kong	FIN
+	504	Rhms Dissanayaka	M	M18-24	15	7:48:15	0:33:32		3:41:30		3:27:59	Sri Lanka	FIN
+	505	Donna Mcwilliams	F	F40-44	11	7:48:53	0:41:21		3:31:11		3:27:26	Australia	FIN
+	506	Dion Rumao	M	M18-24	16	7:51:55	0:44:19		3:26:46		3:32:35	India	FIN
+	507	Indra Moelans	F	F30-34	20	7:52:58	0:42:27		3:38:14		3:25:00	Belgium	FIN
+	508	N.Anil Kumar	M	M45-49	64	7:53:02	0:52:33		3:48:06		3:00:38	India	FIN
+	509	Penny Hall	F	F45-49	20	7:53:44	0:39:53		3:35:34		3:29:29	Australia	FIN
+521927	510	Ahmed Mujuthaba	M	M35-39	83	7:53:56	0:53:05		4:06:30		2:46:26	Maldives	FIN
+	511	Fai Ming Chan	M	M60-64	8	7:53:56	0:46:11		3:27:39		3:27:06	Hong Kong	FIN
+	512	Badih Moukarzel	M	M50-54	38	7:54:15	0:49:23		3:22:17		3:29:43	France	FIN
+	513	Ajinkya Taru	M	M25-29	51	7:54:46	0:52:18		3:54:58		2:59:50	India	FIN
+	514	Walter Basnight	M	M45-49	65	7:58:51	0:41:29		3:25:33		3:41:43	United States	FIN
+	515	Ramesh Swaminathan	M	M40-44	59	7:58:59	0:54:49		3:36:20		3:13:11	India	FIN
+	516	Dhiraj Dedhia	M	M50-54	39	8:02:05	0:57:27		4:09:46		2:40:17	India	FIN
+	517	Hrishiraj Ramachandran	M	M40-44	60	8:02:11	1:02:15		3:51:02		2:57:53	India	FIN
+	518	Sarika Paygude	F	F35-39	18	8:02:12	0:42:22		3:55:40		3:16:03	India	FIN
+	519	Fahad Albuenain	M	M35-39	84	8:02:31	0:45:01		3:29:26		3:34:02	Qatar	FIN
+	520	Pierre Fitter	M	M35-39	85	8:02:45	0:40:29		3:57:27		3:12:35	India	FIN
+	521	Jefferson Calinao	M	M35-39	86	8:02:58	0:52:42		3:30:42		3:25:30	Philippines	FIN
+	522	Toon Ming Chua	M	M60-64	9	8:03:19	0:55:30		3:22:44		3:31:42	Singapore	FIN
+	523	Anand Gangwal	M	M35-39	87	8:03:21	0:50:14		3:23:13		3:38:34	India	FIN
+	524	Guillermo Roca	M	M50-54	40	8:03:27	1:02:32		3:34:52		3:11:29	Philippines	FIN
+	525	Srivatsa Mahesh	M	M30-34	78	8:03:39	0:55:00		3:58:16		3:04:22	India	FIN
+	526	Robert Leighton	M	M50-54	41	8:03:42	0:44:27		3:24:51		3:41:46	United States	FIN
+521940	527	Sanjay Sinha	M	M35-39	88	8:04:07	0:53:46		3:55:48		3:05:01	India	FIN
+	528	MIRANGA HENDAWITHARANA	M	M35-39	89	8:04:16	0:34:23		3:35:55		3:36:13	Sri Lanka	FIN
+	529	Nithya Srinivasan	F	F45-49	21	8:04:49	0:50:02		3:53:00		3:09:09	India	FIN
+	530	Yuemin Peng	M	M40-44	61	8:06:34	0:54:54		3:33:15		3:27:57	China	FIN
+	531	Fathimath Iffath Mohamed	F	F35-39	19	8:07:38	0:50:40		3:49:13		3:19:01	Maldives	FIN
+	532	Vishwas Zade	M	M45-49	66	8:08:22	1:07:42		3:57:13		2:53:02	India	FIN
+79504	533	Narender Rohilla	M	M35-39	90	8:08:30	1:00:46		3:48:38		3:08:13	India	FIN
+	534	Robin Groser	M	M45-49	67	8:08:54	1:02:24		3:38:40		3:14:24	India	FIN
+	535	Tanuja Sodhi	F	F50-54	10	8:09:02	0:59:48		3:59:53		2:59:35	India	FIN
+	536	Sunari Kateni	M	M50-54	42	8:09:25	0:53:33		3:29:08		3:31:22	Singapore	FIN
+	537	Anita Groser	F	F45-49	22	8:09:47	0:45:37		3:54:10		3:19:58	India	FIN
+	538	Anuradha Chari	F	F40-44	12	8:11:21	0:48:37		4:20:48		2:54:44	India	FIN
+	539	Vu Duong	M	M25-29	52	8:11:34	0:52:05		3:48:50		3:22:02	Vietnam	FIN
+	540	Hans Bock	M	M65-69	3	8:12:03	0:46:08		3:45:04		3:28:20	Germany	FIN
+	541	Kapil Sanghi	M	M50-54	43	8:12:21	0:46:52		3:45:35		3:27:51	India	FIN
+	542	Hmks Herath	M	M25-29	53	8:14:23	0:50:02		4:06:08		3:12:45	Sri Lanka	FIN
+	543	Pallavi Dighe	F	F35-39	20	8:14:49	1:05:13		3:52:31		3:07:18	India	FIN
+	544	Saurabh Desai	M	M35-39	91	8:14:51	1:01:03		4:00:26		3:05:42	India	FIN
+	545	Hidenori Sekiguchi	M	M40-44	62	8:15:08	1:02:03		3:32:40		3:26:43	Japan	FIN
+	546	Vishal Gajarmal	M	M35-39	92	8:16:18	0:53:17		3:49:10		3:26:36	India	FIN
+94683	547	Kaustubh Shewale	M	M35-39	93	8:16:40	0:55:33		3:54:23		3:14:53	India	FIN
+	548	Sagar Sitapkar	M	M30-34	79	8:17:05	0:54:27		4:04:19		3:09:22	India	FIN
+	549	Hafiz Zainudeen	M	M30-34	80	8:17:30	0:46:15		3:58:51		3:12:04	Sri Lanka	FIN
+	550	Kevin David	M	M25-29	54	8:17:31	0:59:52		3:48:07		3:20:17	Sri Lanka	FIN
+459808	551	Santosh Sathaye	M	M35-39	94	8:17:55	0:46:00		4:02:19		3:21:46	India	FIN
+	552	Arjun Moorthy	M	M25-29	55	8:18:43	0:48:08		3:53:40		3:27:49	India	FIN
+	553	Linnet K Kwok	F	F50-54	11	8:19:27	0:47:41		3:58:08		3:21:14	United States	FIN
+	554	Elizabeth Chambers	F	F50-54	12	8:20:37	0:47:20		4:04:51		3:17:12	United States	FIN
+	555	Ayham Al-Nahhas	M	M45-49	68	8:26:35	1:02:06		3:13:24		3:59:10	Canada	FIN
+	556	Raj Jani	M	M25-29	56	8:26:50	0:47:18		3:41:41		3:49:01	India	FIN
