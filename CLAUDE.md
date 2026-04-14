@@ -58,6 +58,13 @@ Claude can help navigate and understand this triathlon result data repository wh
   - ○ `山田 太郎`
   - × `山田　太郎`（全角スペース）
 
+## 固有名詞の表記規約
+
+- **IRONMAN** は固有名詞のためすべて大文字で統一する。`race-info.json` の
+  `name` / `description` / `location` など、全フィールドで `Ironman` と書
+  かず `IRONMAN` と書く。`IRONMAN 70.3`, `IRONMAN World Championship` 等
+  も同様。
+
 ## ファイルの役割
 
 - `race-info.json` 大会情報のマスタ。カテゴリごとに `segments` 配列で競技構成を定義（例: `[{sport:"swim"}, {sport:"bike"}, {sport:"run"}]`）。TSVカラムと正規化フィールドのマッピングルール（`columns`, `meta_columns`）を含む。
