@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 import Ajv from "ajv";
 import addFormats from "ajv-formats";
 import { buildAthlete } from "./lib/build-athlete.js";
+import { normalizeWeather } from "./lib/normalize-weather.js";
 import { parseTsv } from "./lib/parse-tsv.js";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -45,7 +46,7 @@ const events = raceInfo.events.map((event) => ({
 
     return {
       date: edition.date,
-      weather,
+      weather: normalizeWeather(weather),
       categories: edition.categories.map((category) => {
         totalCategories++;
 
