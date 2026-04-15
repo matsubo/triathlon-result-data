@@ -56,17 +56,21 @@ export function buildAthlete(row, metaColumnDefs, segmentDefs) {
       case "total_time":
         athlete.total_time_seconds = parseTime(value);
         break;
-      case "gender_rank":
+      case "gender_rank": {
         if (athlete.rankings.gender === null) {
-          athlete.rankings.gender = parseInteger(value);
+          const gr = parseInteger(value);
+          athlete.rankings.gender = gr && gr > 0 ? gr : null;
         }
         break;
+      }
       case "age_category":
         athlete.age_group = parseAgeCategory(value);
         break;
-      case "age_rank":
-        athlete.rankings.age_group = parseInteger(value);
+      case "age_rank": {
+        const ar = parseInteger(value);
+        athlete.rankings.age_group = ar && ar > 0 ? ar : null;
         break;
+      }
       case "penalty":
         if (value && value.trim()) athlete.penalty = value.trim();
         break;
