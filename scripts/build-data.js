@@ -3,8 +3,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import Ajv from "ajv";
 import addFormats from "ajv-formats";
-import { buildAthlete } from "./lib/build-athlete.js";
-import { parseTsv } from "./lib/parse-tsv.js";
+import { normalizeCategory } from "./lib/normalize-category.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -57,29 +56,10 @@ const events = raceInfo.events.map((event) => ({
             join(repoRoot, category.result_tsv),
             "utf-8",
           );
-          const { headers, rows } = parseTsv(tsvContent);
-
-          // Validate that all mapped headers exist in TSV
-          const allMappedHeaders = [
-            ...category.meta_columns.map((mc) => mc.header),
-            ...category.segments.flatMap((seg) =>
-              seg.columns.map((col) => col.header),
-            ),
-          ];
-          for (const h of allMappedHeaders) {
-            if (!headers.includes(h)) {
-              warnings.push(
-                `Header mismatch in ${category.result_tsv}: column "${h}" not found in TSV headers`,
-              );
-            }
-          }
-
-          athletes = rows
-            .map((row) =>
-              buildAthlete(row, category.meta_columns, category.segments),
-            )
-            .filter((a) => a.name !== "");
-
+          const { athletes: normalized, warnings: categoryWarnings } =
+            normalizeCategory(tsvContent, category);
+          athletes = normalized;
+          warnings.push(...categoryWarnings);
           totalAthletes += athletes.length;
         } catch (err) {
           if (err.code === "ENOENT") {

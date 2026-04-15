@@ -469,8 +469,12 @@ export function parseResidence(str) {
   // Skip organization names
   if (trimmed.startsWith("学連")) return null;
 
-  // ISO 3166-1 alpha-2 passthrough (e.g. "US", "NO", "JP")
-  if (/^[A-Z]{2}$/.test(trimmed)) return trimmed;
+  // Country (case-insensitive; toLowerCase is no-op on CJK, so Japanese keys also match)
+  const lower = trimmed.toLowerCase();
+  if (COUNTRIES[lower]) return COUNTRIES[lower];
+
+  // ISO 3166-1 alpha-2 passthrough (e.g. "US", "no", "JP")
+  if (/^[a-zA-Z]{2}$/.test(trimmed)) return trimmed.toUpperCase();
 
   // ISO 3166-1 alpha-3 → alpha-2 conversion
   if (/^[A-Z]{3}$/.test(trimmed) && ISO3_TO_ISO2[trimmed]) {
@@ -482,10 +486,6 @@ export function parseResidence(str) {
 
   // City → prefecture
   if (CITY_TO_PREFECTURE[trimmed]) return CITY_TO_PREFECTURE[trimmed];
-
-  // Country (case-insensitive; toLowerCase is no-op on CJK, so Japanese keys also match)
-  const lower = trimmed.toLowerCase();
-  if (COUNTRIES[lower]) return COUNTRIES[lower];
 
   return null;
 }
