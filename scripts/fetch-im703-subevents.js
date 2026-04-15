@@ -43,7 +43,11 @@ for (const [raceId, eventUuid] of Object.entries(eventUuids)) {
 
     // Filter to IRONMAN 70.3 subevents only (exclude Aquabike, 5150, etc.)
     const im703Subevents = subevents.filter((se) => {
-      const name = (se.wtc_name || se.wtc_externaleventname || "").toLowerCase();
+      const name = (
+        se.wtc_name ||
+        se.wtc_externaleventname ||
+        ""
+      ).toLowerCase();
       return (
         name.includes("70.3") &&
         !name.includes("aquabike") &&

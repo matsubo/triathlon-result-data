@@ -5,10 +5,10 @@
  * Usage: bun run scripts/fetch-im703-event-uuids.js
  */
 
-import { chromium } from "playwright";
-import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { chromium } from "playwright";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 

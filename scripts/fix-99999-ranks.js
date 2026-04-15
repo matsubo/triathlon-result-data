@@ -8,9 +8,12 @@
 import { execSync } from "node:child_process";
 import { readFileSync, writeFileSync } from "node:fs";
 
-const files = execSync('find master -name "default.tsv" -exec grep -l "99999" {} \\;', {
-  encoding: "utf-8",
-})
+const files = execSync(
+  'find master -name "default.tsv" -exec grep -l "99999" {} \\;',
+  {
+    encoding: "utf-8",
+  },
+)
   .trim()
   .split("\n")
   .filter(Boolean);
@@ -50,4 +53,6 @@ for (const file of files) {
   }
 }
 
-console.log(`📦 Fixed ${totalFixed} files, ${totalReplacements} total replacements`);
+console.log(
+  `📦 Fixed ${totalFixed} files, ${totalReplacements} total replacements`,
+);

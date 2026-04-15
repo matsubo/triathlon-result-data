@@ -6,8 +6,8 @@
  * Usage: bun run scripts/fix-overall-rank.js
  */
 
-import { readFileSync, writeFileSync } from "node:fs";
 import { execSync } from "node:child_process";
+import { readFileSync, writeFileSync } from "node:fs";
 
 // Find all affected TSV files
 const files = execSync(
@@ -94,10 +94,7 @@ for (const file of files) {
   }
 
   // Rebuild TSV: finishers first (sorted), then non-finishers
-  const allRows = [
-    ...finishers.map((f) => f.row),
-    ...nonFinishers,
-  ];
+  const allRows = [...finishers.map((f) => f.row), ...nonFinishers];
   const newContent = `${[header, ...allRows.map((r) => r.join("\t"))].join("\n")}\n`;
 
   writeFileSync(file, newContent);

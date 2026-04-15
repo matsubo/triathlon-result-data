@@ -86,10 +86,7 @@ for (const [eventUuid, meta] of eventUuids) {
 }
 
 // Save results
-const outputPath = join(
-  __dirname,
-  `ironman-subevent-ids-${targetYear}.json`,
-);
+const outputPath = join(__dirname, `ironman-subevent-ids-${targetYear}.json`);
 writeFileSync(outputPath, `${JSON.stringify(results, null, 2)}\n`);
 console.log(
   `\n📦 Found ${Object.keys(results).length} subevents for ${targetYear}`,

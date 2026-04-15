@@ -24,7 +24,9 @@ function validateRaceInfo() {
     const errors = validate.errors
       .map((e) => `  ${e.instancePath || "(root)"} ${e.message}`)
       .join("\n");
-    throw new Error(`race-info.json does not match race-info-schema.json:\n${errors}`);
+    throw new Error(
+      `race-info.json does not match race-info-schema.json:\n${errors}`,
+    );
   }
 
   console.log("✅ race-info.json matches race-info-schema.json");
