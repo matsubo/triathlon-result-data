@@ -158,7 +158,9 @@ function validateWeatherDataFiles(schema, files) {
     console.log(
       "  2. Ensure all required fields are present and have correct data types",
     );
-    console.log("  3. Check that weatherIcon values are from the allowed list");
+    console.log(
+      "  3. Check that weatherCode/windDirectionCode values are from the allowed enums",
+    );
     console.log(
       "  4. Verify numeric ranges (humidity: 0-100, windSpeed: ≥0, etc.)",
     );
