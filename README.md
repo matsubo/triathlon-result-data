@@ -184,6 +184,18 @@ bun run build
 
 `dist/data.json` が生成され、`result-schema.json` に対して自動バリデーションが実行されます。
 
+### 個別 TSV ファイルの正規化
+
+特定の TSV ファイルだけを正規化して結果を確認したい場合は `scripts/normalize-tsv.js` を使います。
+
+```bash
+bun scripts/normalize-tsv.js master/2025/ironman_cairns_2025/default.tsv
+```
+
+- 正規化済み JSON が **stdout** に出力されます
+- 警告メッセージは **stderr** に出力されます
+- `race-info.json` に登録されているファイルのみ対応しています
+
 ### dist/data.json について
 
 `dist/data.json` は `.gitignore` に含まれており、**リポジトリには含まれていません**。
