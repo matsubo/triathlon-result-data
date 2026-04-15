@@ -1,3 +1,2 @@
 /node_modules/
 .claude/settings.local.json
-dist/data.json

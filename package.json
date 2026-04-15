@@ -11,8 +11,7 @@
     "test:weather": "bun run scripts/validate-weather-data.js",
     "test:schema": "bun run tests/test-schema-validation.js",
     "test:tsv-lint": "bun run tests/test-tsv-lint.js",
-    "build": "bun run scripts/build-data.js",
-    "check": "biome check --write",
+"check": "biome check --write",
     "format": "biome format --write",
     "lint": "biome lint",
     "prepare": "husky"

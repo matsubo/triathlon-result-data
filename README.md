@@ -10,26 +10,17 @@
 
 当初はトライアスロンだけをスコープとしていましたが、デュアスロン・アクアスロン・マラソンなど多くのスポーツでも同じユースケースがあることがわかりました。
 
-このリポジトリの使命は、**非正規化された大会リザルトデータ（TSV）を正規化し、JSON Schema + JSON データとして上位のアプリケーションへ提供すること**です。
-
-### 提供するもの
-
-アプリケーションに提供するのは **2つだけ** です:
-
-1. **JSON Schema**（`result-schema.json`）— データの契約
-2. **JSON データ**（`dist/data.json`）— 正規化された全レース・全選手データ
-
-アプリケーション側は TSV パーサーやヘッダーマッピングのロジックを持つ必要がありません。
+このリポジトリの使命は、**非正規化された大会リザルトデータ（TSV）を正規化し、JSON データとして提供すること**です。
 
 このリポジトリに入っているレースの結果を [AI TRI+](https://ai-triathlon-result.teraren.com/) のサイトで分析できるようになっています。
 
 ## アーキテクチャ
 
 ```
-入力（master/）                         出力（dist/）
+入力（master/）
   *.tsv（非正規化リザルト）──┐
-  weather-data.json ────────┤── bun run build ──→ data.json（正規化済み）
-  race-info.json（マッピング）┘                    result-schema.json（契約）
+  weather-data.json ────────┤── normalize-tsv.js ──→ JSON（stdout）
+  race-info.json（マッピング）┘
 ```
 
 ## データモデル
@@ -48,6 +39,79 @@ Event（大会）
 - **Category**: 同一大会内の種目区分（例: OD, Sprint, デュアスロン）
 - **Segments**: 競技構成を `[{sport, distance_km}]` の配列で定義。トライアスロン以外にもデュアスロン（run-bike-run）、アクアスロン（swim-run）、マラソン（run）、スイム中止大会（bike-run）に対応
 - **Athlete**: 各選手の正規化されたリザルト（順位、タイム、セグメント別データ）
+
+## 正規化データの出力
+
+大会 ID と年を指定して、その開催回の正規化済み JSON を stdout に出力します。
+
+```bash
+bun scripts/normalize-tsv.js <event_id> <year>
+```
+
+```bash
+bun scripts/normalize-tsv.js ironman_cairns 2025
+bun scripts/normalize-tsv.js sado 2024
+```
+
+- `event_id` は `race-info.json` の `events[].id` に対応します
+- 警告メッセージは **stderr** に出力されます
+
+### 正規化ルール
+
+| フィールド | 変換 |
+|-----------|------|
+| 時間 | `"2:02:41"` → `7361`（秒数） |
+| 性別 | `"男"` → `"M"`, `"女"` → `"F"` |
+| 都道府県 | `"神奈川県"` → `"JP-14"`（ISO 3166-2:JP） |
+| 国名 | `"United States"` → `"US"`（ISO 3166-1 alpha-2） |
+| 年齢区分 | `"N25-29"` → `{"min_age": 25, "max_age": 29}` |
+| 順位/ステータス | `"DNF"` → `rank: null, status: "DNF"` |
+
+### ステータス値
+
+| 値 | 意味 |
+|----|------|
+| `finished` | 完走 |
+| `DNF` | Did Not Finish（途中棄権） |
+| `DNS` | Did Not Start（未出走） |
+| `DSQ` | Disqualified（失格） |
+| `TOV` | Time Over（制限時間超過） |
+| `OPEN` | オープン参加（順位なし） |
+| `SKIP` | スイムスキップ（バイク+ランのみ参加） |
+
+### 出力 JSON の構造
+
+```json
+{
+  "event_id": "yokohama",
+  "name": "横浜トライアスロン",
+  "location": "横浜",
+  "date": "2025-05-18",
+  "weather": { "..." : "..." },
+  "categories": [{
+    "id": "yokohama",
+    "distance": "OD",
+    "segments": [
+      { "sport": "swim", "distance_km": 1.5 },
+      { "sport": "bike", "distance_km": 40 },
+      { "sport": "run", "distance_km": 10 }
+    ],
+    "athletes": [{
+      "rank": 1,
+      "status": "finished",
+      "name": "橋本 悠輝",
+      "gender": "M",
+      "residence": "JP-14",
+      "total_time_seconds": 7361,
+      "segments": [
+        { "lap_seconds": 1325, "rank": 11 },
+        { "lap_seconds": 3887, "rank": 1, "transition_seconds": 85 },
+        { "lap_seconds": 2064, "rank": 2 }
+      ]
+    }]
+  }]
+}
+```
 
 ## データの追加方法
 
@@ -77,79 +141,9 @@ TSV ファイルを以下の場所に追加してください:
 master/<year>/<event_id>/<category>.tsv
 ```
 
-ヘッダ名は元のリザルトデータをそのまま使って構いません。`race-info.json` にカラムマッピング（`columns`, `meta_columns`）を定義することで、ビルド時に正規化されます。
+ヘッダ名は元のリザルトデータをそのまま使って構いません。`race-info.json` にカラムマッピング（`columns`, `meta_columns`）を定義することで、正規化されます。
 
 リザルトを追加したい場合は Issue か Pull Request をお送りください。
-
-## アプリケーション向け：正規化データの利用
-
-`bun run build` を実行すると、TSV + race-info.json + 天気データから正規化された JSON が生成されます。
-
-```
-result-schema.json       # 出力データの JSON Schema
-dist/
-└── data.json            # 全レース・全選手の正規化データ
-```
-
-### 正規化ルール
-
-| フィールド | 変換 |
-|-----------|------|
-| 時間 | `"2:02:41"` → `7361`（秒数） |
-| 性別 | `"男"` → `"M"`, `"女"` → `"F"` |
-| 都道府県 | `"神奈川県"` → `"JP-14"`（ISO 3166-2:JP） |
-| 国名 | `"United States"` → `"US"`（ISO 3166-1 alpha-2） |
-| 年齢区分 | `"N25-29"` → `{"min_age": 25, "max_age": 29}` |
-| 順位/ステータス | `"DNF"` → `rank: null, status: "DNF"` |
-
-### ステータス値
-
-| 値 | 意味 |
-|----|------|
-| `finished` | 完走 |
-| `DNF` | Did Not Finish（途中棄権） |
-| `DNS` | Did Not Start（未出走） |
-| `DSQ` | Disqualified（失格） |
-| `TOV` | Time Over（制限時間超過） |
-| `OPEN` | オープン参加（順位なし） |
-| `SKIP` | スイムスキップ（バイク+ランのみ参加） |
-
-### data.json の構造
-
-```json
-{
-  "events": [{
-    "id": "yokohama",
-    "name": "横浜トライアスロン",
-    "editions": [{
-      "date": "2025-05-18",
-      "weather": { ... },
-      "categories": [{
-        "id": "yokohama",
-        "distance": "OD",
-        "segments": [
-          { "sport": "swim", "distance_km": 1.5 },
-          { "sport": "bike", "distance_km": 40 },
-          { "sport": "run", "distance_km": 10 }
-        ],
-        "athletes": [{
-          "rank": 1,
-          "status": "finished",
-          "name": "橋本 悠輝",
-          "gender": "M",
-          "residence": "JP-14",
-          "total_time_seconds": 7361,
-          "segments": [
-            { "lap_seconds": 1325, "rank": 11 },
-            { "lap_seconds": 3887, "rank": 1, "transition_seconds": 85 },
-            { "lap_seconds": 2064, "rank": 2 }
-          ]
-        }]
-      }]
-    }]
-  }]
-}
-```
 
 ## 開発環境のセットアップ
 
@@ -173,39 +167,6 @@ bun run lint     # lint のみ
 
 コミット時に Biome がステージされたファイルを自動で lint + format します（Husky 経由）。
 lint エラーがある場合はコミットがブロックされます。
-
-## ビルド
-
-TSV データから正規化 JSON を生成します。
-
-```bash
-bun run build
-```
-
-`dist/data.json` が生成され、`result-schema.json` に対して自動バリデーションが実行されます。
-
-### 特定大会の正規化データ出力
-
-大会 ID と年を指定して、その開催回の正規化済み JSON を stdout に出力できます。
-
-```bash
-bun scripts/normalize-tsv.js <event_id> <year>
-```
-
-```bash
-bun scripts/normalize-tsv.js ironman_cairns 2025
-bun scripts/normalize-tsv.js sado 2024
-```
-
-- `event_id` は `race-info.json` の `events[].id` に対応します
-- 警告メッセージは **stderr** に出力されます
-
-### dist/data.json について
-
-`dist/data.json` は `.gitignore` に含まれており、**リポジトリには含まれていません**。
-
-- **ローカルで使う場合**: `bun run build` を実行して生成してください。
-- **CI (GitHub Actions)**: `build-data.yml` でビルドとテストが実行されますが、`dist/data.json` のコミットは行いません。
 
 ## テストの実行
 

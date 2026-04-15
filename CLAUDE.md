@@ -44,13 +44,13 @@ Claude can help navigate and understand this triathlon result data repository wh
 汚い TSV データを正規化された JSON データとしてアプリケーションへ提供する。
 
 ```
-入力（master/）            出力（dist/）
+入力（master/）
   result.tsv ─────┐
-  weather.json ───┤──→ data.json（正規化済み全データ）
-  race-info.json ─┘    result-schema.json（JSON Schema）
+  weather.json ───┤──→ normalize-tsv.js <event_id> <year> → JSON（stdout）
+  race-info.json ─┘
 ```
 
-ビルドコマンド: `bun run build`
+出力コマンド: `bun scripts/normalize-tsv.js <event_id> <year>`
 
 ## TSVデータ規約
 
@@ -73,9 +73,8 @@ Claude can help navigate and understand this triathlon result data repository wh
 - `images/` 大会を象徴する画像。webp形式。300x200以内に収まる大きさ。
 - `master/<year>/<id>/result.tsv` 大会のリザルトデータ（入力・非正規化）
 - `master/<year>/<id>/weather-data.json` 大会の天気データ
-- `dist/data.json` 正規化済み出力データ（`bun run build` で生成）
-- `result-schema.json` 出力データの JSON Schema
-- `scripts/build-data.js` TSV→JSON 変換スクリプト
+- `scripts/normalize-tsv.js` 大会IDと年を指定して正規化済み JSON を stdout に出力する CLI
+- `scripts/lib/normalize-category.js` TSV→正規化athletesの共通ロジック
 - `scripts/lib/` 正規化モジュール群（時間、性別、居住地、年齢区分、ステータス等）
 
 ### GitHub Workflows (.github/workflows/)
@@ -170,12 +169,12 @@ with pdfplumber.open('result.pdf') as pdf:
 - 各大会の開催地を象徴する風景写真を使用
 - **プレースホルダー画像の使い回しは不可** — 必ず個別の画像を設定する
 
-### 6. ビルドと検証
+### 6. 検証と出力確認
 
 ```bash
 bunx ajv-cli validate -s race-info-schema.json -d race-info.json
 bunx ajv-cli validate -s weather-schema.json -d master/{year}/{id}/weather-data.json
-bun run build
+bun scripts/normalize-tsv.js <event_id> <year>
 ```
 
 ## distance の種別
