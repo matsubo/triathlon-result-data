@@ -29,7 +29,7 @@ if (!tsvArg) {
 
 // Resolve to a path relative to repo root for matching against race-info.json
 const absoluteTsvPath = resolve(tsvArg);
-const relativeTsvPath = absoluteTsvPath.startsWith(repoRoot + "/")
+const relativeTsvPath = absoluteTsvPath.startsWith(`${repoRoot}/`)
   ? absoluteTsvPath.slice(repoRoot.length + 1)
   : tsvArg;
 
