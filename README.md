@@ -184,17 +184,21 @@ bun run build
 
 `dist/data.json` が生成され、`result-schema.json` に対して自動バリデーションが実行されます。
 
-### 個別 TSV ファイルの正規化
+### 特定大会の正規化データ出力
 
-特定の TSV ファイルだけを正規化して結果を確認したい場合は `scripts/normalize-tsv.js` を使います。
+大会 ID と年を指定して、その開催回の正規化済み JSON を stdout に出力できます。
 
 ```bash
-bun scripts/normalize-tsv.js master/2025/ironman_cairns_2025/default.tsv
+bun scripts/normalize-tsv.js <event_id> <year>
 ```
 
-- 正規化済み JSON が **stdout** に出力されます
+```bash
+bun scripts/normalize-tsv.js ironman_cairns 2025
+bun scripts/normalize-tsv.js sado 2024
+```
+
+- `event_id` は `race-info.json` の `events[].id` に対応します
 - 警告メッセージは **stderr** に出力されます
-- `race-info.json` に登録されているファイルのみ対応しています
 
 ### dist/data.json について
 
