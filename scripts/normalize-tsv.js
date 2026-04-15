@@ -22,8 +22,12 @@ const repoRoot = join(__dirname, "..");
 
 const [eventId, yearArg] = process.argv.slice(2);
 if (!eventId || !yearArg) {
-  process.stderr.write("Usage: bun scripts/normalize-tsv.js <event_id> <year>\n");
-  process.stderr.write("  e.g. bun scripts/normalize-tsv.js ironman_cairns 2025\n");
+  process.stderr.write(
+    "Usage: bun scripts/normalize-tsv.js <event_id> <year>\n",
+  );
+  process.stderr.write(
+    "  e.g. bun scripts/normalize-tsv.js ironman_cairns 2025\n",
+  );
   process.exit(1);
 }
 const year = yearArg.trim();
@@ -34,13 +38,17 @@ const raceInfo = JSON.parse(
 
 const event = raceInfo.events.find((e) => e.id === eventId);
 if (!event) {
-  process.stderr.write(`Error: event "${eventId}" not found in race-info.json\n`);
+  process.stderr.write(
+    `Error: event "${eventId}" not found in race-info.json\n`,
+  );
   process.exit(1);
 }
 
 const edition = event.editions.find((ed) => ed.date.startsWith(year));
 if (!edition) {
-  process.stderr.write(`Error: no edition found for event "${eventId}" in year ${year}\n`);
+  process.stderr.write(
+    `Error: no edition found for event "${eventId}" in year ${year}\n`,
+  );
   process.exit(1);
 }
 
@@ -52,15 +60,14 @@ if (edition.weather_file) {
     );
   } catch (err) {
     if (err.code !== "ENOENT") throw err;
-    process.stderr.write(`Warning: weather file not found: ${edition.weather_file}\n`);
+    process.stderr.write(
+      `Warning: weather file not found: ${edition.weather_file}\n`,
+    );
   }
 }
 
 const categories = edition.categories.map((category) => {
-  const tsvContent = readFileSync(
-    join(repoRoot, category.result_tsv),
-    "utf-8",
-  );
+  const tsvContent = readFileSync(join(repoRoot, category.result_tsv), "utf-8");
   const { athletes, warnings } = normalizeCategory(tsvContent, category);
   for (const w of warnings) {
     process.stderr.write(`Warning: ${w}\n`);
