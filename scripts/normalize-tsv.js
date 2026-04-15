@@ -14,6 +14,8 @@
 import { readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import Ajv from "ajv";
+import addFormats from "ajv-formats";
 import { normalizeCategory } from "./lib/normalize-category.js";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -93,5 +95,20 @@ const output = {
   weather,
   categories,
 };
+
+// Validate against schema
+const schema = JSON.parse(
+  readFileSync(join(repoRoot, "result-schema.json"), "utf-8"),
+);
+const ajv = new Ajv({ strict: false });
+addFormats(ajv);
+const validate = ajv.compile(schema);
+if (!validate(output)) {
+  process.stderr.write("Schema validation errors:\n");
+  for (const err of validate.errors) {
+    process.stderr.write(`  ${err.instancePath}: ${err.message}\n`);
+  }
+  process.exit(1);
+}
 
 process.stdout.write(`${JSON.stringify(output)}\n`);

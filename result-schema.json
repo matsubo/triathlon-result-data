@@ -1,0 +1,168 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Race Edition Result",
+  "description": "Normalized output for a single race edition from normalize-tsv.js",
+  "type": "object",
+  "required": ["event_id", "name", "location", "date", "weather", "categories"],
+  "additionalProperties": false,
+  "properties": {
+    "event_id": { "type": "string" },
+    "name": { "type": "string" },
+    "location": { "type": "string" },
+    "date": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "weather": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "required": ["date", "sunrise", "sunset", "minTemp", "maxTemp", "hourly"],
+          "additionalProperties": false,
+          "properties": {
+            "date": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+            "sunrise": { "type": "string", "pattern": "^[0-9]{2}:[0-9]{2}$" },
+            "sunset": { "type": "string", "pattern": "^[0-9]{2}:[0-9]{2}$" },
+            "minTemp": { "type": "number" },
+            "maxTemp": { "type": "number" },
+            "hourly": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["time", "weatherCode", "temp", "humidity", "dewPoint", "pressure", "pressureChange", "windDirectionCode", "windSpeed", "visibility", "discomfortIndex"],
+                "properties": {
+                  "time": { "type": "string" },
+                  "weatherCode": {
+                    "type": "string",
+                    "enum": ["CLEAR", "PARTLY_CLOUDY", "CLOUDY", "RAIN", "SHOWERS", "HEAVY_RAIN", "THUNDER", "STORM", "FOG", "UNKNOWN"]
+                  },
+                  "temp": { "type": "number" },
+                  "humidity": { "type": "integer", "minimum": 0, "maximum": 100 },
+                  "dewPoint": { "type": "number" },
+                  "pressure": { "type": "number" },
+                  "pressureChange": { "type": "string" },
+                  "windDirectionCode": {
+                    "type": "string",
+                    "enum": ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW", "CALM", "UNKNOWN"]
+                  },
+                  "windSpeed": { "type": "number", "minimum": 0 },
+                  "visibility": {
+                    "oneOf": [
+                      { "type": "number", "minimum": 0 },
+                      { "type": "string", "enum": ["---"] }
+                    ]
+                  },
+                  "discomfortIndex": {
+                    "oneOf": [
+                      { "type": "integer", "minimum": 0, "maximum": 100 },
+                      { "type": "string", "enum": ["---"] }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "distance", "description", "segments", "athletes"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "distance": {
+            "type": "string",
+            "enum": ["LD", "MD", "OD", "SD", "SS", "DUATHLON", "AQUATHLON", "OTHER"]
+          },
+          "description": { "type": "string" },
+          "segments": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["sport"],
+              "additionalProperties": false,
+              "properties": {
+                "sport": {
+                  "type": "string",
+                  "enum": ["swim", "bike", "run"]
+                },
+                "distance_km": { "type": "number", "minimum": 0 }
+              }
+            }
+          },
+          "athletes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["rank", "status", "bib", "name", "age", "gender", "residence", "total_time_seconds", "age_group", "rankings", "segments"],
+              "additionalProperties": false,
+              "properties": {
+                "rank": { "oneOf": [{ "type": "integer", "minimum": 1 }, { "type": "null" }] },
+                "status": {
+                  "type": "string",
+                  "enum": ["finished", "DNF", "DNS", "DSQ", "TOV", "OPEN", "SKIP"]
+                },
+                "bib": { "type": "string" },
+                "name": { "type": "string", "minLength": 1 },
+                "age": { "oneOf": [{ "type": "integer", "minimum": 0 }, { "type": "null" }] },
+                "gender": { "oneOf": [{ "type": "string", "enum": ["M", "F"] }, { "type": "null" }] },
+                "residence": { "oneOf": [{ "type": "string" }, { "type": "null" }] },
+                "total_time_seconds": { "oneOf": [{ "type": "integer", "minimum": 0 }, { "type": "null" }] },
+                "age_group": {
+                  "oneOf": [
+                    {
+                      "type": "object",
+                      "required": ["min_age", "max_age"],
+                      "additionalProperties": false,
+                      "properties": {
+                        "min_age": { "type": "integer", "minimum": 0 },
+                        "max_age": { "type": "integer", "minimum": 0 }
+                      }
+                    },
+                    { "type": "null" }
+                  ]
+                },
+                "rankings": {
+                  "type": "object",
+                  "required": ["gender", "age_group"],
+                  "additionalProperties": false,
+                  "properties": {
+                    "gender": { "oneOf": [{ "type": "integer", "minimum": 1 }, { "type": "null" }] },
+                    "age_group": { "oneOf": [{ "type": "integer", "minimum": 1 }, { "type": "null" }] }
+                  }
+                },
+                "segments": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "lap_seconds": { "oneOf": [{ "type": "integer", "minimum": 0 }, { "type": "null" }] },
+                      "rank": { "oneOf": [{ "type": "integer", "minimum": 1 }, { "type": "null" }] },
+                      "transition_seconds": { "oneOf": [{ "type": "integer", "minimum": 0 }, { "type": "null" }] },
+                      "cumulative_seconds": { "oneOf": [{ "type": "integer", "minimum": 0 }, { "type": "null" }] },
+                      "cumulative_rank": { "oneOf": [{ "type": "integer", "minimum": 1 }, { "type": "null" }] },
+                      "checkpoints": {
+                        "type": "array",
+                        "items": { "oneOf": [{ "type": "integer", "minimum": 0 }, { "type": "null" }] }
+                      }
+                    }
+                  }
+                },
+                "athlete_id": { "type": "string" },
+                "penalty": { "type": "string" },
+                "guide_name": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
