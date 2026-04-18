@@ -18,10 +18,20 @@
         { "type": "null" },
         {
           "type": "object",
-          "required": ["date", "sunrise", "sunset", "minTemp", "maxTemp", "hourly"],
+          "required": [
+            "date",
+            "sunrise",
+            "sunset",
+            "minTemp",
+            "maxTemp",
+            "hourly"
+          ],
           "additionalProperties": false,
           "properties": {
-            "date": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+            "date": {
+              "type": "string",
+              "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+            },
             "sunrise": { "type": "string", "pattern": "^[0-9]{2}:[0-9]{2}$" },
             "sunset": { "type": "string", "pattern": "^[0-9]{2}:[0-9]{2}$" },
             "minTemp": { "type": "number" },
@@ -31,21 +41,67 @@
               "items": {
                 "type": "object",
                 "additionalProperties": false,
-                "required": ["time", "weatherCode", "temp", "humidity", "dewPoint", "pressure", "pressureChange", "windDirectionCode", "windSpeed", "visibility", "discomfortIndex"],
+                "required": [
+                  "time",
+                  "weatherCode",
+                  "temp",
+                  "humidity",
+                  "dewPoint",
+                  "pressure",
+                  "pressureChange",
+                  "windDirectionCode",
+                  "windSpeed",
+                  "visibility",
+                  "discomfortIndex"
+                ],
                 "properties": {
                   "time": { "type": "string" },
                   "weatherCode": {
                     "type": "string",
-                    "enum": ["CLEAR", "PARTLY_CLOUDY", "CLOUDY", "RAIN", "SHOWERS", "HEAVY_RAIN", "THUNDER", "STORM", "FOG", "UNKNOWN"]
+                    "enum": [
+                      "CLEAR",
+                      "PARTLY_CLOUDY",
+                      "CLOUDY",
+                      "RAIN",
+                      "SHOWERS",
+                      "HEAVY_RAIN",
+                      "THUNDER",
+                      "STORM",
+                      "FOG",
+                      "UNKNOWN"
+                    ]
                   },
                   "temp": { "type": "number" },
-                  "humidity": { "type": "integer", "minimum": 0, "maximum": 100 },
+                  "humidity": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 100
+                  },
                   "dewPoint": { "type": "number" },
                   "pressure": { "type": "number" },
                   "pressureChange": { "type": "string" },
                   "windDirectionCode": {
                     "type": "string",
-                    "enum": ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW", "CALM", "UNKNOWN"]
+                    "enum": [
+                      "N",
+                      "NNE",
+                      "NE",
+                      "ENE",
+                      "E",
+                      "ESE",
+                      "SE",
+                      "SSE",
+                      "S",
+                      "SSW",
+                      "SW",
+                      "WSW",
+                      "W",
+                      "WNW",
+                      "NW",
+                      "NNW",
+                      "CALM",
+                      "UNKNOWN"
+                    ]
                   },
                   "windSpeed": { "type": "number", "minimum": 0 },
                   "visibility": {
@@ -71,14 +127,30 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "name", "distance", "description", "segments", "athletes"],
+        "required": [
+          "id",
+          "name",
+          "distance",
+          "description",
+          "segments",
+          "athletes"
+        ],
         "additionalProperties": false,
         "properties": {
           "id": { "type": "string" },
           "name": { "type": "string" },
           "distance": {
             "type": "string",
-            "enum": ["LD", "MD", "OD", "SD", "SS", "DUATHLON", "AQUATHLON", "OTHER"]
+            "enum": [
+              "LD",
+              "MD",
+              "OD",
+              "SD",
+              "SS",
+              "DUATHLON",
+              "AQUATHLON",
+              "OTHER"
+            ]
           },
           "description": { "type": "string" },
           "segments": {
@@ -100,20 +172,62 @@
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["rank", "status", "bib", "name", "age", "gender", "residence", "total_time_seconds", "age_group", "rankings", "segments"],
+              "required": [
+                "rank",
+                "status",
+                "bib",
+                "name",
+                "age",
+                "gender",
+                "residence",
+                "total_time_seconds",
+                "age_group",
+                "rankings",
+                "segments"
+              ],
               "additionalProperties": false,
               "properties": {
-                "rank": { "oneOf": [{ "type": "integer", "minimum": 1 }, { "type": "null" }] },
+                "rank": {
+                  "oneOf": [
+                    { "type": "integer", "minimum": 1 },
+                    { "type": "null" }
+                  ]
+                },
                 "status": {
                   "type": "string",
-                  "enum": ["finished", "DNF", "DNS", "DSQ", "TOV", "OPEN", "SKIP"]
+                  "enum": [
+                    "finished",
+                    "DNF",
+                    "DNS",
+                    "DSQ",
+                    "TOV",
+                    "OPEN",
+                    "SKIP"
+                  ]
                 },
                 "bib": { "type": "string" },
                 "name": { "type": "string", "minLength": 1 },
-                "age": { "oneOf": [{ "type": "integer", "minimum": 0 }, { "type": "null" }] },
-                "gender": { "oneOf": [{ "type": "string", "enum": ["M", "F"] }, { "type": "null" }] },
-                "residence": { "oneOf": [{ "type": "string" }, { "type": "null" }] },
-                "total_time_seconds": { "oneOf": [{ "type": "integer", "minimum": 0 }, { "type": "null" }] },
+                "age": {
+                  "oneOf": [
+                    { "type": "integer", "minimum": 0 },
+                    { "type": "null" }
+                  ]
+                },
+                "gender": {
+                  "oneOf": [
+                    { "type": "string", "enum": ["M", "F"] },
+                    { "type": "null" }
+                  ]
+                },
+                "residence": {
+                  "oneOf": [{ "type": "string" }, { "type": "null" }]
+                },
+                "total_time_seconds": {
+                  "oneOf": [
+                    { "type": "integer", "minimum": 0 },
+                    { "type": "null" }
+                  ]
+                },
                 "age_group": {
                   "oneOf": [
                     {
@@ -133,8 +247,18 @@
                   "required": ["gender", "age_group"],
                   "additionalProperties": false,
                   "properties": {
-                    "gender": { "oneOf": [{ "type": "integer", "minimum": 1 }, { "type": "null" }] },
-                    "age_group": { "oneOf": [{ "type": "integer", "minimum": 1 }, { "type": "null" }] }
+                    "gender": {
+                      "oneOf": [
+                        { "type": "integer", "minimum": 1 },
+                        { "type": "null" }
+                      ]
+                    },
+                    "age_group": {
+                      "oneOf": [
+                        { "type": "integer", "minimum": 1 },
+                        { "type": "null" }
+                      ]
+                    }
                   }
                 },
                 "segments": {
@@ -143,14 +267,44 @@
                     "type": "object",
                     "additionalProperties": false,
                     "properties": {
-                      "lap_seconds": { "oneOf": [{ "type": "integer", "minimum": 0 }, { "type": "null" }] },
-                      "rank": { "oneOf": [{ "type": "integer", "minimum": 1 }, { "type": "null" }] },
-                      "transition_seconds": { "oneOf": [{ "type": "integer", "minimum": 0 }, { "type": "null" }] },
-                      "cumulative_seconds": { "oneOf": [{ "type": "integer", "minimum": 0 }, { "type": "null" }] },
-                      "cumulative_rank": { "oneOf": [{ "type": "integer", "minimum": 1 }, { "type": "null" }] },
+                      "lap_seconds": {
+                        "oneOf": [
+                          { "type": "integer", "minimum": 0 },
+                          { "type": "null" }
+                        ]
+                      },
+                      "rank": {
+                        "oneOf": [
+                          { "type": "integer", "minimum": 1 },
+                          { "type": "null" }
+                        ]
+                      },
+                      "transition_seconds": {
+                        "oneOf": [
+                          { "type": "integer", "minimum": 0 },
+                          { "type": "null" }
+                        ]
+                      },
+                      "cumulative_seconds": {
+                        "oneOf": [
+                          { "type": "integer", "minimum": 0 },
+                          { "type": "null" }
+                        ]
+                      },
+                      "cumulative_rank": {
+                        "oneOf": [
+                          { "type": "integer", "minimum": 1 },
+                          { "type": "null" }
+                        ]
+                      },
                       "checkpoints": {
                         "type": "array",
-                        "items": { "oneOf": [{ "type": "integer", "minimum": 0 }, { "type": "null" }] }
+                        "items": {
+                          "oneOf": [
+                            { "type": "integer", "minimum": 0 },
+                            { "type": "null" }
+                          ]
+                        }
                       }
                     }
                   }
