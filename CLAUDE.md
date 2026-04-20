@@ -97,6 +97,13 @@ The project includes automated CI/CD workflows for data validation:
   - Finds and validates all weather-data.json files in the master directory
   - Provides detailed validation results for each file
 
+- **check-duplicates.yml**: Detects duplicate race editions by comparing TSV content
+  - Triggers on changes to `race-info.json`, `master/**/*.tsv`, or the checker itself
+  - Runs `bun run check:duplicates` (scripts/check-duplicate-editions.js)
+  - Flags pairs of editions in the same year whose (name, total_time) fingerprints overlap ≥80%
+  - Allowlist genuinely distinct lookalikes in `duplicate-allowlist.json`
+  - Prevents the scenario where the same physical race is registered under two event_ids (e.g., "IRONMAN 70.3 Japan" vs "IRONMAN 70.3 Centrair Chita Peninsula Japan")
+
 These workflows ensure data integrity and consistency across the repository.
 
 ### Lint / Format

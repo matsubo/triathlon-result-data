@@ -1,0 +1,4 @@
+{
+  "$comment": "Known-OK event_id pairs whose TSV content overlaps >=80% but are legitimately separate entries (e.g. same venue listed under two series). Used by scripts/check-duplicate-editions.js. Add an entry only after manually confirming the editions are NOT duplicates.",
+  "pairs": []
+}
