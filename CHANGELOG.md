@@ -2,6 +2,13 @@
 
 All notable changes to this repository are documented here. Versions follow the `version` field in `package.json`; commits between version bumps are grouped under the version that introduced them.
 
+## 5.0.2 — 2026-04-20
+
+- Consolidate 23 IRONMAN 70.3 rename duplicates flagged by the duplicate-edition checker. For each pair where the same race had been registered under both a short (city-only) and a long (city + country/state) event_id, the longer event_id is kept and the short-form duplicate is removed from `race-info.json` with its `master/` directories deleted. Affected pairs include `im703_nice_france`/`im703_nice`, `im703_erkner_berlin_brandenburg`/`im703_erkner`, `im703_goseong_korea`/`im703_goseong`, `im703_cozumel`/`im703_cancun`, and similar across 2010–2026.
+- Allowlist 13 remaining pairs in `duplicate-allowlist.json` with per-pair review notes covering Japanese venue-name overlaps, IRONMAN Japan ↔ Minami Hokkaido, gender splits (kokuspo_shiga, im703_wc), and the `nagaragawa_aki` TSV-reference bug.
+- Add `scripts/consolidate-duplicate-events.js` so the consolidation can be replayed and audited.
+- Translate README to English and expand CHANGELOG with the full history.
+
 ## 5.0.1 — 2026-04-20
 
 - Fix OCR error in Yokohama 2025 age category codes: replaced 1314 occurrences of `N##-##` with `M##-##` across `master/2025/yokohama/default.tsv` (1102) and `master/2025/yokohama/sprint.tsv` (212). All affected entries were male (男), confirming `N` was an OCR misread of `M`.
