@@ -3,98 +3,101 @@
 [![JSON Syntax Check](https://github.com/matsubo/triathlon-result-data/actions/workflows/json-check.yml/badge.svg)](https://github.com/matsubo/triathlon-result-data/actions/workflows/json-check.yml)
 [![Validate Race Info](https://github.com/matsubo/triathlon-result-data/actions/workflows/validate-race-info.yml/badge.svg)](https://github.com/matsubo/triathlon-result-data/actions/workflows/validate-race-info.yml)
 [![Validate Weather Data](https://github.com/matsubo/triathlon-result-data/actions/workflows/validate-weather-data.yml/badge.svg)](https://github.com/matsubo/triathlon-result-data/actions/workflows/validate-weather-data.yml)
+[![Check Duplicate Editions](https://github.com/matsubo/triathlon-result-data/actions/workflows/check-duplicates.yml/badge.svg)](https://github.com/matsubo/triathlon-result-data/actions/workflows/check-duplicates.yml)
 
-## このリポジトリの目的
+## Purpose
 
-様々なスポーツの大会が開かれており、スポーツの形や種目・方法は多様化してきています。しかし、その中でも普遍的なものは**他者との競技性**です。競技性がある限り、自分や他者のパフォーマンスの分析は普遍的に価値があります。
+Competitive multi-sport events — triathlon, duathlon, aquathlon, marathon, and variants with cancelled swims — share the same universal question: *how did everyone perform?* Analyzing one's own and others' performance is valuable wherever competition exists.
 
-当初はトライアスロンだけをスコープとしていましたが、デュアスロン・アクアスロン・マラソンなど多くのスポーツでも同じユースケースがあることがわかりました。
+This repository's mission is to **take messy, per-race result TSVs and publish them as normalized JSON**, so downstream applications can treat every race uniformly regardless of the original format.
 
-このリポジトリの使命は、**非正規化された大会リザルトデータ（TSV）を正規化し、JSON データとして提供すること**です。
+Normalized data from this repository powers [AI TRI+](https://ai-triathlon-result.teraren.com/).
 
-このリポジトリに入っているレースの結果を [AI TRI+](https://ai-triathlon-result.teraren.com/) のサイトで分析できるようになっています。
-
-## アーキテクチャ
-
-```
-入力（master/）
-  *.tsv（非正規化リザルト）──┐
-  weather-data.json ────────┤── normalize-tsv.js ──→ JSON（stdout）
-  race-info.json（マッピング）┘
-```
-
-## データモデル
+## Architecture
 
 ```
-Event（大会）
-  └── Edition（開催日）
-        ├── Weather（天気）
-        └── Category（カテゴリ）
-              ├── Segments（競技構成: swim, bike, run の順序付き配列）
-              └── Athletes（選手リザルト）
+Input (master/)
+  *.tsv              (denormalized results) ─┐
+  weather-data.json  (race-day weather)     ─┤── normalize-tsv.js ──→ JSON (stdout)
+race-info.json       (column mapping / meta) ┘
 ```
 
-- **Event**: 大会そのもの（例: 横浜トライアスロン）
-- **Edition**: 年度ごとの開催（例: 2025-05-18）。天気情報を含む
-- **Category**: 同一大会内の種目区分（例: OD, Sprint, デュアスロン）
-- **Segments**: 競技構成を `[{sport, distance_km}]` の配列で定義。トライアスロン以外にもデュアスロン（run-bike-run）、アクアスロン（swim-run）、マラソン（run）、スイム中止大会（bike-run）に対応
-- **Athlete**: 各選手の正規化されたリザルト（順位、タイム、セグメント別データ）
+## Data model
 
-## 正規化データの出力
+```
+Event
+  └── Edition (one race date)
+        ├── Weather
+        └── Category (e.g. OD, Sprint, Long)
+              ├── Segments  (ordered sports: swim → bike → run, etc.)
+              └── Athletes  (per-finisher results)
+```
 
-大会 ID と年を指定して、その開催回の正規化済み JSON を stdout に出力します。
+- **Event** — a race brand (e.g. Yokohama Triathlon).
+- **Edition** — a specific running of the event (e.g. `2025-05-18`). Holds weather.
+- **Category** — a distance/class within an edition (e.g. OD, Sprint, Duathlon).
+- **Segments** — an ordered array `[{sport, distance_km}]`. Supports triathlon, duathlon (run-bike-run), aquathlon (swim-run), marathon (run), and swim-cancelled events (bike-run).
+- **Athlete** — one finisher's normalized record (rank, status, total time, per-segment splits).
+
+## Generating normalized output
+
+Given an event ID and a year, emit that edition's normalized JSON to stdout:
 
 ```bash
 bun scripts/normalize-tsv.js <event_id> <year>
 ```
 
+Examples:
+
 ```bash
 bun scripts/normalize-tsv.js ironman_cairns 2025
 bun scripts/normalize-tsv.js sado 2024
+bun scripts/normalize-tsv.js yokohama 2025
 ```
 
-- `event_id` は `race-info.json` の `events[].id` に対応します
-- 警告メッセージは **stderr** に出力されます
+- `event_id` corresponds to `events[].id` in `race-info.json`.
+- Warnings are written to **stderr**; normalized JSON goes to **stdout**.
+- Output is validated against `result-schema.json` before being emitted.
 
-### 正規化ルール
+### Normalization rules
 
-| フィールド | 変換 |
-|-----------|------|
-| 時間 | `"2:02:41"` → `7361`（秒数） |
-| 性別 | `"男"` → `"M"`, `"女"` → `"F"` |
-| 都道府県 | `"神奈川県"` → `"JP-14"`（ISO 3166-2:JP） |
-| 国名 | `"United States"` → `"US"`（ISO 3166-1 alpha-2） |
-| 年齢区分 | `"N25-29"` → `{"min_age": 25, "max_age": 29}` |
-| 順位/ステータス | `"DNF"` → `rank: null, status: "DNF"` |
+| Field | Transform |
+|-------|-----------|
+| Time | `"2:02:41"` → `7361` (seconds) |
+| Gender | `"男"` → `"M"`, `"女"` → `"F"` |
+| Prefecture | `"神奈川県"` → `"JP-14"` (ISO 3166-2:JP) |
+| Country | `"United States"` → `"US"` (ISO 3166-1 alpha-2) |
+| Age group | `"M25-29"` → `{"min_age": 25, "max_age": 29}` |
+| Rank / status | `"DNF"` → `rank: null, status: "DNF"` |
 
-### ステータス値
+### Status values
 
-| 値 | 意味 |
-|----|------|
-| `finished` | 完走 |
-| `DNF` | Did Not Finish（途中棄権） |
-| `DNS` | Did Not Start（未出走） |
-| `DSQ` | Disqualified（失格） |
-| `TOV` | Time Over（制限時間超過） |
-| `OPEN` | オープン参加（順位なし） |
-| `SKIP` | スイムスキップ（バイク+ランのみ参加） |
+| Value | Meaning |
+|-------|---------|
+| `finished` | Completed the course. |
+| `DNF` | Did Not Finish (withdrew mid-race). |
+| `DNS` | Did Not Start. |
+| `DSQ` | Disqualified. |
+| `TOV` | Time Over the cutoff. |
+| `OPEN` | Open-category entry (no ranking). |
+| `SKIP` | Skipped the swim segment (bike + run only). |
 
-### 出力 JSON の構造
+### Output shape
 
 ```json
 {
   "event_id": "yokohama",
-  "name": "横浜トライアスロン",
-  "location": "横浜",
+  "name": "Yokohama Triathlon",
+  "location": "Yokohama",
   "date": "2025-05-18",
-  "weather": { "..." : "..." },
+  "weather": { "...": "..." },
   "categories": [{
     "id": "yokohama",
     "distance": "OD",
     "segments": [
       { "sport": "swim", "distance_km": 1.5 },
       { "sport": "bike", "distance_km": 40 },
-      { "sport": "run", "distance_km": 10 }
+      { "sport": "run",  "distance_km": 10 }
     ],
     "athletes": [{
       "rank": 1,
@@ -105,7 +108,7 @@ bun scripts/normalize-tsv.js sado 2024
       "total_time_seconds": 7361,
       "segments": [
         { "lap_seconds": 1325, "rank": 11 },
-        { "lap_seconds": 3887, "rank": 1, "transition_seconds": 85 },
+        { "lap_seconds": 3887, "rank": 1,  "transition_seconds": 85 },
         { "lap_seconds": 2064, "rank": 2 }
       ]
     }]
@@ -113,78 +116,139 @@ bun scripts/normalize-tsv.js sado 2024
 }
 ```
 
-## データの追加方法
+## Distance classifications
 
-### 大会マスタの追加
+| Value | Total distance | Description |
+|-------|----------------|-------------|
+| `LD` | ≥150 km | Long Distance (swim ≥3 km, bike ≥120 km, marathon-length run) |
+| `MD` | 60–150 km | Middle Distance (between OD and LD; includes 102 km and ~90 km formats like KIN) |
+| `OD` | ~51.5 km | Olympic Distance (swim 1.5 km, bike 40 km, run 10 km) |
+| `SD` | ~25.75 km | Sprint Distance (swim 0.75 km, bike 20 km, run 5 km) |
+| `SS` | <SD | Super Sprint |
+| `DUATHLON` | — | Run-Bike-Run |
+| `AQUATHLON` | — | Swim-Run |
+| `OTHER` | — | Time trials, relays, and other formats |
 
-`race-info.json` を編集してください。レース、開催日、カテゴリのツリー構造になっています。
+## Adding data
 
-### 大会画像の追加
+### Add an event
 
-`images/` ディレクトリに横400px, 縦300px程度の大会を象徴する画像を保存してください。フォーマットは webp です。
+Edit `race-info.json`. The structure is a tree of events → editions → categories. Each category declares its `segments` (ordered sports) and maps TSV headers to normalized fields via `columns` and `meta_columns`.
 
-### 天気情報の追加
+Validate the result:
 
-レース日・場所の天気情報を JSON 形式で用意してください。
-
+```bash
+bunx ajv-cli validate -s race-info-schema.json -d race-info.json
 ```
-master/<year>/<event_id>/weather-data.json
+
+### Add a race image
+
+Store a WebP image symbolic of the venue at `images/<event_id>.webp`, roughly 400×300 px (≤300×200 is also fine). **Placeholder re-use is not allowed** — every event needs its own image.
+
+### Add weather data
+
+Per edition, at `master/<year>/<event_id>/weather-data.json`, following `weather-schema.json`. Include 3-hourly entries (03, 06, 09, 12, 15, 18, 21, 24). Use JMA's past weather records from the nearest AMeDAS station.
+
+Validate:
+
+```bash
+bunx ajv-cli validate -s weather-schema.json -d master/<year>/<event_id>/weather-data.json
 ```
 
-天気データは `weather-schema.json` で定義された JSON Schema に従って作成してください。過去の天気は [tenki.jp](https://tenki.jp/past/2025/04/weather/) を参考に取得できます。
+### Add results
 
-### リザルトの追加
-
-TSV ファイルを以下の場所に追加してください:
+Drop TSV files under:
 
 ```
 master/<year>/<event_id>/<category>.tsv
 ```
 
-ヘッダ名は元のリザルトデータをそのまま使って構いません。`race-info.json` にカラムマッピング（`columns`, `meta_columns`）を定義することで、正規化されます。
+Keep the original column headers — the repository normalizes them through the `columns` / `meta_columns` mapping in `race-info.json`, so you do not need to rename anything by hand.
 
-リザルトを追加したい場合は Issue か Pull Request をお送りください。
+**TSV conventions:**
+- Separate family name and given name with a **half-width space** (`山田 太郎`, not `山田　太郎`).
+- Use `DNF` / `DNS` / `DSQ` / `TOV` / `OPEN` / `SKIP` for non-finisher rows.
 
-## 開発環境のセットアップ
+Contributions are welcome via Issue or Pull Request.
+
+### Proper nouns
+
+- **IRONMAN** is a proper noun and is always written in all capitals (`IRONMAN`, `IRONMAN 70.3`, `IRONMAN World Championship`). Do not write it as `Ironman`.
+
+## Development setup
 
 ```bash
 bun install
 ```
 
-`bun install` を実行すると、Husky による Git pre-commit hook が自動的にセットアップされます。
+`bun install` sets up the Husky pre-commit hook automatically.
 
-## Lint / Format
+### Lint and format
 
-[Biome](https://biomejs.dev/) を使って JSON・JS ファイルの lint とフォーマットを行います。
-
-```bash
-bun run check    # lint + format を一括実行・自動修正
-bun run format   # フォーマットのみ
-bun run lint     # lint のみ
-```
-
-### Pre-commit hook
-
-コミット時に Biome がステージされたファイルを自動で lint + format します（Husky 経由）。
-lint エラーがある場合はコミットがブロックされます。
-
-## テストの実行
-
-JSON ファイルの整合性を確認するテストを実行できます。
+[Biome](https://biomejs.dev/) handles lint + format for JSON and JS files.
 
 ```bash
-bun run test
+bun run check    # lint + format, auto-fix
+bun run format   # format only
+bun run lint     # lint only
 ```
 
-GitHub Actions でも同じテストが自動的に実行され、JSON の構文エラーがないか確認されます。
+The pre-commit hook runs Biome on staged files; lint errors block the commit.
 
-`race-info.json` に記載された画像やリザルト、天気データのファイルが存在するかどうかも併せてチェックしています。
+### Tests
 
-### 天気データの検証
+```bash
+bun run test             # runs all checks below
+bun run test:json        # JSON syntax validity
+bun run test:schema      # race-info.json ↔ race-info-schema.json
+bun run test:weather     # validate every weather-data.json
+bun run test:normalizers # unit tests for normalizer modules
+bun run test:tsv-lint    # TSV conventions (e.g. no full-width spaces)
+bun run check:duplicates # detect duplicate race editions
+```
 
-天気データ（`master/*/*/weather-data.json`）は、`weather-schema.json` で定義された JSON Schema に基づいて自動検証されます。GitHub Actions の「Validate Weather Data」ワークフローが天気データファイルやスキーマファイルが変更されるたびに実行され、データの整合性を確認します。
+The GitHub Actions workflows run the same checks:
 
-## ライセンス / License
+- **json-check** — JSON syntax validity.
+- **validate-race-info** — `race-info.json` against its schema.
+- **validate-weather-data** — every `weather-data.json` against `weather-schema.json`.
+- **check-duplicates** — flag pairs of editions whose `(name, total_time)` fingerprints overlap ≥80 % (allowlist genuinely distinct lookalikes in `duplicate-allowlist.json`).
 
-このリポジトリに含まれるデータおよびスクリプトは、すべて [Creative Commons 表示-改変禁止 4.0 国際 (CC BY-ND 4.0)](https://creativecommons.org/licenses/by-nd/4.0/deed.ja) の下で公開されています。
-利用する際は、出所の明記をお願いします。データやコードを改変したものの配布は許可されていません。
+## Importing new race data
+
+### From the JTU results system
+
+JTU result pages load dynamically, so Playwright is required. URL patterns:
+
+- Program list: `https://www.jtu.or.jp/result_program/?event_id={ID}`
+- Individual result: `https://www.jtu.or.jp/result/?event_id={ID}&program_id={ID}_{N}`
+
+Rough year ranges for `event_id`:
+
+| Year | Range |
+|------|-------|
+| 2022 | 124–169 |
+| 2023 | 172–232 |
+| 2024 | 239–310 |
+| 2025 | 309–374 |
+
+Scrape `table.result_table` from each program page and write TSV to `master/<year>/<event_id>/`. Filter out non-main-age-group categories (kids, junior, relay, para, elementary, middle-school, aquathlon, duathlon, beginner, challenge).
+
+### From PDFs
+
+Non-JTU races (Kisarazu, Miyazaki Seagaia, etc.) often publish PDF results. Extract with `pdfplumber`:
+
+```python
+import pdfplumber
+with pdfplumber.open("result.pdf") as pdf:
+    for page in pdf.pages:
+        table = page.extract_table()
+```
+
+## Changelog
+
+See [CHANGELOG.md](./CHANGELOG.md) for the full history.
+
+## License
+
+All data and scripts in this repository are released under [Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)](https://creativecommons.org/licenses/by-nd/4.0/). Please credit the source when using it. Distribution of modified data or code is not permitted.
