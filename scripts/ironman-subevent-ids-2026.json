@@ -1,9 +1,23 @@
 {
+  "ironman_south_africa_2025_2026": {
+    "event_uuid": "60accc34-83fe-e111-aa75-005056956277",
+    "subevent_uuid": "89d3cdad-317c-471e-9325-32cf4bce3fde",
+    "year": 2026,
+    "name": "2026 IRONMAN South Africa",
+    "date": "2026-04-19T00:00:00Z"
+  },
   "ironman_taiwan_2025_2026": {
     "event_uuid": "8b4e50b2-04b2-e411-9400-005056951bf1",
     "subevent_uuid": "864fb423-8283-471e-bb2d-b032050f853a",
     "year": 2026,
     "name": "2026 IRONMAN Penghu",
     "date": "2026-04-12T00:00:00Z"
+  },
+  "ironman_texas_2025_2026": {
+    "event_uuid": "d998aa20-f278-e111-b16a-005056956277",
+    "subevent_uuid": "31e73a5b-a79d-4847-9083-8dd15cc242b3",
+    "year": 2026,
+    "name": "2026 IRONMAN Texas",
+    "date": "2026-04-18T00:00:00Z"
   }
 }
