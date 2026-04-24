@@ -2,6 +2,13 @@
 
 All notable changes to this repository are documented here. Versions follow the `version` field in `package.json`; commits between version bumps are grouped under the version that introduced them.
 
+## 5.0.3 — 2026-04-25
+
+- Mark Miyakojima 2016/2018/2019 non-finishers as `TOV` (PR #33). Rows past the official finisher count had been assigned numeric `総合順位` values with partial run-split data in the `ﾗﾝﾗｯﾌﾟ` column — causing the last ~130 ranks each year to look like impossibly fast runs (≈4:20/km). Fix: when `総合順位` is numeric but either `備考` contains `リタイア`/`タイムアウト`/`棄権` or `ランF` is blank while `ﾗﾝﾗｯﾌﾟ` has a value, replace rank with `TOV` and blank `総合記録` and `ﾗﾝﾗｯﾌﾟ`. Partial splits are preserved. Resulting numeric-rank counts now match the official PDFs: 2018=1270, 2019=1205.
+- Combine halved swim columns for Miyakojima 2024 and 2025 (PR #32). Both TSVs stored the swim as two halves (`スイムLAP` + `スイムF`) but the segment mapping treated `スイムLAP` as the whole swim. Winner swim times now match the official PDFs: 2024 寺澤 光介 42:31 (was 20:22), 2025 古谷 純平 35:11 (was 17:06). All pre-2025 editions audited against official seiseki PDFs.
+- Re-import 2023 Miyakojima results from the official 第37回 PDF (#31). Previous TSV had `スイムLAP` storing only the first half of the swim, making `総合記録` about 22 minutes short (winner 寺澤 光介 was recorded as 5:41:58 instead of 6:04:47).
+- Fix 2026 Miyakojima run distance: run is a full marathon (42.195 km) for the 40th anniversary, not 35 km.
+
 ## 5.0.2 — 2026-04-20
 
 - Consolidate 23 IRONMAN 70.3 rename duplicates flagged by the duplicate-edition checker. For each pair where the same race had been registered under both a short (city-only) and a long (city + country/state) event_id, the longer event_id is kept and the short-form duplicate is removed from `race-info.json` with its `master/` directories deleted. Affected pairs include `im703_nice_france`/`im703_nice`, `im703_erkner_berlin_brandenburg`/`im703_erkner`, `im703_goseong_korea`/`im703_goseong`, `im703_cozumel`/`im703_cancun`, and similar across 2010–2026.
