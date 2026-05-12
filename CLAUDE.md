@@ -70,7 +70,7 @@ Claude can help navigate and understand this triathlon result data repository wh
 - `race-info.json` 大会情報のマスタ。カテゴリごとに `segments` 配列で競技構成を定義（例: `[{sport:"swim"}, {sport:"bike"}, {sport:"run"}]`）。TSVカラムと正規化フィールドのマッピングルール（`columns`, `meta_columns`）を含む。
 - `race-info-schema.json` race-info.json の JSON Schema（Single Source of Truth）
 - `schema.ts` TypeScript 型定義（race-info-schema.json から派生）
-- `images/` 大会を象徴する画像。webp形式。300x200以内に収まる大きさ。
+- `images/` 大会を象徴する画像。webp形式。600x400以内に収まる大きさ。
 - `master/<year>/<id>/result.tsv` 大会のリザルトデータ（入力・非正規化）
 - `master/<year>/<id>/weather-data.json` 大会の天気データ
 - `scripts/normalize-tsv.js` 大会IDと年を指定して正規化済み JSON を stdout に出力する CLI
@@ -172,7 +172,7 @@ with pdfplumber.open('result.pdf') as pdf:
 
 ### 5. 大会画像
 
-- webp形式、300x200px以内
+- webp形式、600x400px以内
 - 各大会の開催地を象徴する風景写真を使用
 - **プレースホルダー画像の使い回しは不可** — 必ず個別の画像を設定する
 
