@@ -22,8 +22,8 @@
   "license": "ISC",
   "packageManager": "bun@1.1.38",
   "devDependencies": {
-    "@biomejs/biome": "^2.4.9",
-    "ajv": "^8.17.1",
+    "@biomejs/biome": "^2.4.15",
+    "ajv": "^8.20.0",
     "ajv-formats": "^2.1.1",
     "husky": "^9.1.7"
   }
