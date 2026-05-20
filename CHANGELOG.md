@@ -2,6 +2,40 @@
 
 All notable changes to this repository are documented here. Versions follow the `version` field in `package.json`; commits between version bumps are grouped under the version that introduced them.
 
+## 5.1.0 — 2026-05-20
+
+### Added (new races)
+- IRONMAN 70.3 Valencia 2026 (2395 athletes), Brasilia 2026 (1558), Western Sydney 2026 (1686), Da Nang/Vietnam 2026 (1377), inaugural full-distance IRONMAN Vietnam 2026 (835).
+- IRONMAN Vietnam and IRONMAN 70.3 Vietnam merged into a single `ironman_vietnam` event; the 2026 edition holds both 70.3 and Full Distance categories.
+- Niijima Triathlon 2026 (第35回, 226 athletes); Yokohama WTCS Age Group 2026 (OD 1246 + SD 290 athletes); weather data for both.
+
+### Added (data backfill)
+- Weather data for 265 previously missing domestic editions across 44 events (kujukuri, nakajima, niji_matsubara, itako, harunako, kawazu, oigawa, kaike, baramon, irago, basho, shichigahama, miyajima, nagasaki_saikai, kurashiki, ako, murakami, ainan, gamagori, miyazaki_seagaia, showa_kinen, nagaragawa_kokusai, teganuma, ishigakijima, omihachiman, utsukushima_aizu, nojiriko, kamigoto, greenpark_kasai, sainokuni, ako_tri, iyoshi, kisosangawa, watarase, hiwasa, takamatsu, sado, lake_hamana, tokunoshima, suzu, hokkaido, osakikamijima, izuoshima, nanki_shirahama).
+
+### Changed (visual / metadata)
+- Race image spec raised from 300×200 to 600×400 webp; all 424 race images re-sourced from Wikimedia Commons under CC / Public Domain licenses with provenance recorded in `docs/image-sources.tsv`. Replaced an inappropriate Vietnam War photo with Da Nang Dragon Bridge.
+
+### Fixed (distance metadata audit)
+- Cross-repo time-vs-distance audit flagged 196 editions where top-finisher speeds were physically implausible. Resolved 65+ clearly broken entries:
+  - **gamagori sub-categories (2016–2019)**: sprint variants had OD distances (1.5/40/10); corrected to SD (0.75/20/5); supersprint to SS (0.375/10/2.5); citizen reclassified to SS.
+  - **osaka_asia_cup (2023/2024)**: registered as OD; actually Sprint.
+  - **sado**: championship/sado_b (2016–2023) changed from OD to MD (2/108/21.1); sado_atype_elite to LD (3.8/190/42.195).
+  - **kaike (2014–2019)**: changed from OD to LD (3/140/42.195).
+  - **tokunoshima**: corrected to MD (2/75/20); 2014/2015/2019/2024 swim shortened due to weather.
+  - **Kisarazu 2018 OD and Sprint**: heat-shortened (OD 40→27 km bike, 10→5 km run; Sprint 20→13 km bike, 5→2.5 km run).
+  - Other heat/weather/cancellation corrections: niji_matsubara 2012, showa_kinen 2016–2018, shichigahama_standard 2022/2025, kyoto_tanba 2022, kurashiki 2019, itako 2020 (+ COVID postponement), numadu 2023, murakami 2018, teganuma 2023, kawazu 2024 (swim cancelled), miyajima 2023, kamigoto 2024, hokkaido_typeb 2024, nagaragawa_102 (2023–2025), biwako 2024 (swim cancelled, duathlon), suwako 2024 (shortened), uminomori_short 2025 (swim shortened).
+
+### Fixed (incorrect dates)
+- teganuma 2023: 06-18 → 08-20
+- itako 2020: 05-24 → 10-04 (COVID postponement)
+- kurashiki 2019: 05-26 → 09-08
+- iyoshi 2024: 10-06 → 08-04
+- Weather files for the above regenerated for correct dates.
+
+### Tooling / hygiene
+- Added `scripts/check-duplicate-editions.js` (CI workflow added in 5.0.x; clean across 2640 editions in 5.1.0).
+- Distance anomaly scanner output reduced from 196 to 131 (remaining are mostly legitimate slow age-group IRONMAN top times or mountainous courses).
+
 ## 5.0.3 — 2026-04-25
 
 - Mark Miyakojima 2016/2018/2019 non-finishers as `TOV` (PR #33). Rows past the official finisher count had been assigned numeric `総合順位` values with partial run-split data in the `ﾗﾝﾗｯﾌﾟ` column — causing the last ~130 ranks each year to look like impossibly fast runs (≈4:20/km). Fix: when `総合順位` is numeric but either `備考` contains `リタイア`/`タイムアウト`/`棄権` or `ランF` is blank while `ﾗﾝﾗｯﾌﾟ` has a value, replace rank with `TOV` and blank `総合記録` and `ﾗﾝﾗｯﾌﾟ`. Partial splits are preserved. Resulting numeric-rank counts now match the official PDFs: 2018=1270, 2019=1205.
