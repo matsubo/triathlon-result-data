@@ -189,12 +189,56 @@ function testRankUniqueness() {
   );
 }
 
+function testIronmanRequiredColumns() {
+  const masterDir = resolve(__dirname, "..", "master");
+  const tsvFiles = getAllTsvFiles(masterDir);
+  const errors = [];
+
+  // ContactId is a hard requirement for IRONMAN imports (see commit
+  // cd81f8e). Country and Status round out the canonical 14-column
+  // layout — see master/2026/im703_valencia_2026/default.tsv for the
+  // reference:
+  //   ContactId | Overall_Rank | Name | Gender | Division | Div_Rank |
+  //   Total_Time | Swim | T1 | Bike | T2 | Run | Country | Status
+  const REQUIRED = ["ContactId", "Country", "Status"];
+
+  for (const filePath of tsvFiles) {
+    // Match master/<year>/(im703_*|ironman_*)/*.tsv
+    const rel = relPath(filePath);
+    if (!/^master\/\d+\/(im703|ironman)_[^/]+\//.test(rel)) continue;
+
+    const lines = readFileSync(filePath, "utf-8").split("\n");
+    if (lines.length < 2) continue;
+    const headerCells = lines[0].split("\t");
+    const missing = REQUIRED.filter((c) => !headerCells.includes(c));
+    if (missing.length > 0) {
+      errors.push(`${rel} — missing: ${missing.join(", ")}`);
+    }
+  }
+
+  if (errors.length > 0) {
+    throw new Error(
+      `IRONMAN / IRONMAN 70.3 TSVs missing required columns:\n${errors.join(
+        "\n",
+      )}\nIRONMAN TSVs must include ContactId, Country, and Status. Re-fetch from the CoachCox JSON API (see master/2026/im703_valencia_2026/default.tsv for the 14-column reference).`,
+    );
+  }
+
+  const ironmanFiles = tsvFiles.filter((p) =>
+    /^master\/\d+\/(im703|ironman)_[^/]+\//.test(relPath(p)),
+  );
+  console.log(
+    `✅ All ${ironmanFiles.length} IRONMAN/im703 TSVs include ContactId/Country/Status`,
+  );
+}
+
 try {
   console.log("🧪 Running TSV lint tests...");
   testNoFullWidthSpaces();
   testNoRepeatedHeaders();
   testNoRelaySections();
   testRankUniqueness();
+  testIronmanRequiredColumns();
   console.log("🎉 All TSV lint tests passed!");
 } catch (error) {
   console.error("❌ Test failed:", error.message);
