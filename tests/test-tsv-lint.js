@@ -232,6 +232,61 @@ function testIronmanRequiredColumns() {
   );
 }
 
+function testMetaColumnsCoverIronmanFields() {
+  // Ensures that whenever an IRONMAN/im703 TSV has ContactId, Country, or
+  // Status columns, the matching race-info.json category's meta_columns
+  // also references them. Without this, the normalizer silently drops
+  // those fields (e.g. residence becomes null for every athlete).
+  const repoRoot = resolve(__dirname, "..");
+  const data = JSON.parse(
+    readFileSync(join(repoRoot, "race-info.json"), "utf-8"),
+  );
+  const REQUIRED = ["ContactId", "Country", "Status"];
+  const errors = [];
+
+  for (const event of data.events || []) {
+    if (
+      !event.id.startsWith("im703_") &&
+      !event.id.startsWith("ironman_")
+    ) {
+      continue;
+    }
+    for (const edition of event.editions || []) {
+      for (const cat of edition.categories || []) {
+        const tsv = cat.result_tsv;
+        if (!tsv) continue;
+        const tsvPath = join(repoRoot, tsv);
+        let header;
+        try {
+          header = readFileSync(tsvPath, "utf-8").split("\n")[0];
+        } catch {
+          continue;
+        }
+        const headers = header.split("\t");
+        const metaHeaders = (cat.meta_columns || []).map((c) => c.header);
+        const missing = REQUIRED.filter(
+          (col) => headers.includes(col) && !metaHeaders.includes(col),
+        );
+        if (missing.length > 0) {
+          errors.push(
+            `${cat.id} (${tsv}) — TSV has [${missing.join(", ")}] but meta_columns does not. Add corresponding entries (ContactId→athlete_id, Country→residence, Status→status).`,
+          );
+        }
+      }
+    }
+  }
+
+  if (errors.length > 0) {
+    throw new Error(
+      `IRONMAN race-info.json meta_columns mismatch:\n${errors.join("\n")}`,
+    );
+  }
+
+  console.log(
+    `✅ All IRONMAN meta_columns cover the TSV's ContactId/Country/Status`,
+  );
+}
+
 try {
   console.log("🧪 Running TSV lint tests...");
   testNoFullWidthSpaces();
@@ -239,6 +294,7 @@ try {
   testNoRelaySections();
   testRankUniqueness();
   testIronmanRequiredColumns();
+  testMetaColumnsCoverIronmanFields();
   console.log("🎉 All TSV lint tests passed!");
 } catch (error) {
   console.error("❌ Test failed:", error.message);
