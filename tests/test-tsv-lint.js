@@ -245,10 +245,7 @@ function testMetaColumnsCoverIronmanFields() {
   const errors = [];
 
   for (const event of data.events || []) {
-    if (
-      !event.id.startsWith("im703_") &&
-      !event.id.startsWith("ironman_")
-    ) {
+    if (!event.id.startsWith("im703_") && !event.id.startsWith("ironman_")) {
       continue;
     }
     for (const edition of event.editions || []) {

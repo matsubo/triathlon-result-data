@@ -10,7 +10,14 @@
       "description": "Array of race events",
       "items": {
         "type": "object",
-        "required": ["id", "name", "location_parts", "image", "source", "editions"],
+        "required": [
+          "id",
+          "name",
+          "location_parts",
+          "image",
+          "source",
+          "editions"
+        ],
         "properties": {
           "id": {
             "type": "string",
