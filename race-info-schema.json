@@ -9,225 +9,257 @@
       "type": "array",
       "description": "Array of race events",
       "items": {
-        "type": "object",
-        "required": [
-          "id",
-          "name",
-          "location_parts",
-          "image",
-          "source",
-          "editions"
-        ],
-        "properties": {
-          "id": {
-            "type": "string",
-            "description": "Unique identifier for the event"
-          },
-          "name": {
-            "type": "string",
-            "description": "Name of the event in Japanese"
-          },
-          "location": {
-            "type": "string",
-            "deprecated": true,
-            "description": "DEPRECATED — kept for backward compatibility. Use location_parts instead. Will be removed in a future major version."
-          },
-          "location_parts": {
-            "type": "object",
-            "description": "Structured location data. Required for all events.",
-            "additionalProperties": false,
-            "required": ["country"],
-            "properties": {
-              "country": {
-                "type": "string",
-                "pattern": "^[A-Z]{2}$",
-                "description": "ISO 3166-1 alpha-2 country code (e.g. JP, US, ES)"
-              },
-              "prefecture": {
-                "type": "string",
-                "description": "Japanese prefecture (都道府県) for country=JP, e.g. 千葉県"
-              },
-              "region": {
-                "type": "string",
-                "description": "Sub-national region for non-Japan countries (state, province, etc.), e.g. Texas, Catalonia"
-              },
-              "city": {
-                "type": "string",
-                "description": "City / municipality, e.g. 木更津市, Valencia, The Woodlands"
-              },
-              "venue": {
-                "type": "string",
-                "description": "Optional venue or sub-area detail, e.g. 中の島大橋付近, 山下公園周辺特設会場"
-              }
+        "$ref": "#/definitions/RaceEvent"
+      }
+    }
+  },
+  "definitions": {
+    "DistanceType": {
+      "type": "string",
+      "enum": [
+        "LD",
+        "MD",
+        "OD",
+        "SD",
+        "SS",
+        "DUATHLON",
+        "AQUATHLON",
+        "MARATHON",
+        "OTHER"
+      ],
+      "description": "Race distance/type classification"
+    },
+    "Sport": {
+      "type": "string",
+      "enum": ["swim", "bike", "run", "trail_running"],
+      "description": "Type of sport segment"
+    },
+    "SegmentColumnRole": {
+      "type": "string",
+      "enum": [
+        "lap",
+        "checkpoint",
+        "rank",
+        "transition",
+        "cumulative_time",
+        "cumulative_rank"
+      ],
+      "description": "Semantic role of this column within the segment"
+    },
+    "MetaColumnRole": {
+      "type": "string",
+      "enum": [
+        "overall_rank",
+        "bib",
+        "name",
+        "age",
+        "gender",
+        "residence",
+        "total_time",
+        "gender_rank",
+        "age_category",
+        "age_rank",
+        "penalty",
+        "status",
+        "guide_name",
+        "citizen_rank",
+        "citizen_category",
+        "athlete_id",
+        "championship_rank",
+        "note"
+      ],
+      "description": "Semantic role of this metadata column"
+    },
+    "SegmentColumn": {
+      "type": "object",
+      "required": ["header", "role"],
+      "properties": {
+        "header": {
+          "type": "string",
+          "description": "TSV column header name"
+        },
+        "role": {
+          "$ref": "#/definitions/SegmentColumnRole"
+        }
+      }
+    },
+    "MetaColumn": {
+      "type": "object",
+      "required": ["header", "role"],
+      "properties": {
+        "header": {
+          "type": "string",
+          "description": "TSV column header name"
+        },
+        "role": {
+          "$ref": "#/definitions/MetaColumnRole"
+        }
+      }
+    },
+    "Segment": {
+      "type": "object",
+      "required": ["sport", "distance", "columns"],
+      "properties": {
+        "sport": {
+          "$ref": "#/definitions/Sport"
+        },
+        "distance": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Distance in kilometers"
+        },
+        "columns": {
+          "type": "array",
+          "description": "TSV column names belonging to this segment, in order. Maps denormalized TSV columns (lap times, split times, intermediate checkpoints) to their parent segment.",
+          "minItems": 0,
+          "items": {
+            "$ref": "#/definitions/SegmentColumn"
+          }
+        }
+      }
+    },
+    "Category": {
+      "type": "object",
+      "required": [
+        "id",
+        "result_tsv",
+        "name",
+        "distance",
+        "segments",
+        "description",
+        "meta_columns"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the category"
+        },
+        "result_tsv": {
+          "type": "string",
+          "pattern": "^master/[0-9]{4}/[^/]+/[^/]+\\.tsv$",
+          "description": "Path to the TSV result file"
+        },
+        "name": {
+          "type": "string",
+          "description": "Name of the race category in Japanese"
+        },
+        "distance": {
+          "$ref": "#/definitions/DistanceType"
+        },
+        "segments": {
+          "type": "array",
+          "description": "Ordered array of sport segments defining the race format",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/Segment"
+          }
+        },
+        "description": {
+          "type": "string",
+          "description": "Detailed description of the race category in Japanese"
+        },
+        "meta_columns": {
+          "type": "array",
+          "description": "TSV columns for participant metadata, rankings, and status that are not part of any sport segment.",
+          "items": {
+            "$ref": "#/definitions/MetaColumn"
+          }
+        }
+      }
+    },
+    "Edition": {
+      "type": "object",
+      "required": ["date", "categories"],
+      "properties": {
+        "date": {
+          "type": "string",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+          "description": "Date of the event in YYYY-MM-DD format"
+        },
+        "weather_file": {
+          "type": "string",
+          "pattern": "^master/[0-9]{4}/[^/]+/weather-data\\.json$",
+          "description": "Path to the weather data file"
+        },
+        "categories": {
+          "type": "array",
+          "description": "Array of race categories within this edition",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/Category"
+          }
+        }
+      }
+    },
+    "RaceEvent": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "location_parts",
+        "image",
+        "source",
+        "editions"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the event"
+        },
+        "name": {
+          "type": "string",
+          "description": "Name of the event in Japanese"
+        },
+        "location": {
+          "type": "string",
+          "deprecated": true,
+          "description": "DEPRECATED — kept for backward compatibility. Use location_parts instead. Will be removed in a future major version."
+        },
+        "location_parts": {
+          "type": "object",
+          "description": "Structured location data. Required for all events.",
+          "additionalProperties": false,
+          "required": ["country"],
+          "properties": {
+            "country": {
+              "type": "string",
+              "pattern": "^[A-Z]{2}$",
+              "description": "ISO 3166-1 alpha-2 country code (e.g. JP, US, ES)"
+            },
+            "prefecture": {
+              "type": "string",
+              "description": "Japanese prefecture (都道府県) for country=JP, e.g. 千葉県"
+            },
+            "region": {
+              "type": "string",
+              "description": "Sub-national region for non-Japan countries (state, province, etc.), e.g. Texas, Catalonia"
+            },
+            "city": {
+              "type": "string",
+              "description": "City / municipality, e.g. 木更津市, Valencia, The Woodlands"
+            },
+            "venue": {
+              "type": "string",
+              "description": "Optional venue or sub-area detail, e.g. 中の島大橋付近, 山下公園周辺特設会場"
             }
-          },
-          "image": {
-            "type": "string",
-            "pattern": "^images/.*\\.webp$",
-            "description": "Path to the event image file"
-          },
-          "source": {
-            "type": "string",
-            "pattern": "^https?://",
-            "description": "Official website URL of the event"
-          },
-          "editions": {
-            "type": "array",
-            "description": "Array of event editions (yearly occurrences)",
-            "minItems": 1,
-            "items": {
-              "type": "object",
-              "required": ["date", "categories"],
-              "properties": {
-                "date": {
-                  "type": "string",
-                  "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
-                  "description": "Date of the event in YYYY-MM-DD format"
-                },
-                "weather_file": {
-                  "type": "string",
-                  "pattern": "^master/[0-9]{4}/[^/]+/weather-data\\.json$",
-                  "description": "Path to the weather data file"
-                },
-                "categories": {
-                  "type": "array",
-                  "description": "Array of race categories within this edition",
-                  "minItems": 1,
-                  "items": {
-                    "type": "object",
-                    "required": [
-                      "id",
-                      "result_tsv",
-                      "name",
-                      "distance",
-                      "segments",
-                      "description",
-                      "meta_columns"
-                    ],
-                    "properties": {
-                      "id": {
-                        "type": "string",
-                        "description": "Unique identifier for the category"
-                      },
-                      "result_tsv": {
-                        "type": "string",
-                        "pattern": "^master/[0-9]{4}/[^/]+/[^/]+\\.tsv$",
-                        "description": "Path to the TSV result file"
-                      },
-                      "name": {
-                        "type": "string",
-                        "description": "Name of the race category in Japanese"
-                      },
-                      "distance": {
-                        "type": "string",
-                        "enum": [
-                          "LD",
-                          "MD",
-                          "OD",
-                          "SD",
-                          "SS",
-                          "DUATHLON",
-                          "AQUATHLON",
-                          "MARATHON",
-                          "OTHER"
-                        ],
-                        "description": "Race distance/type classification"
-                      },
-                      "segments": {
-                        "type": "array",
-                        "description": "Ordered array of sport segments defining the race format",
-                        "minItems": 1,
-                        "items": {
-                          "type": "object",
-                          "required": ["sport", "distance", "columns"],
-                          "properties": {
-                            "sport": {
-                              "type": "string",
-                              "enum": ["swim", "bike", "run", "trail_running"],
-                              "description": "Type of sport segment"
-                            },
-                            "distance": {
-                              "type": "number",
-                              "minimum": 0,
-                              "description": "Distance in kilometers"
-                            },
-                            "columns": {
-                              "type": "array",
-                              "description": "TSV column names belonging to this segment, in order. Maps denormalized TSV columns (lap times, split times, intermediate checkpoints) to their parent segment.",
-                              "minItems": 0,
-                              "items": {
-                                "type": "object",
-                                "required": ["header", "role"],
-                                "properties": {
-                                  "header": {
-                                    "type": "string",
-                                    "description": "TSV column header name"
-                                  },
-                                  "role": {
-                                    "type": "string",
-                                    "enum": [
-                                      "lap",
-                                      "checkpoint",
-                                      "rank",
-                                      "transition",
-                                      "cumulative_time",
-                                      "cumulative_rank"
-                                    ],
-                                    "description": "Semantic role of this column within the segment"
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      },
-                      "description": {
-                        "type": "string",
-                        "description": "Detailed description of the race category in Japanese"
-                      },
-                      "meta_columns": {
-                        "type": "array",
-                        "description": "TSV columns for participant metadata, rankings, and status that are not part of any sport segment.",
-                        "items": {
-                          "type": "object",
-                          "required": ["header", "role"],
-                          "properties": {
-                            "header": {
-                              "type": "string",
-                              "description": "TSV column header name"
-                            },
-                            "role": {
-                              "type": "string",
-                              "enum": [
-                                "overall_rank",
-                                "bib",
-                                "name",
-                                "age",
-                                "gender",
-                                "residence",
-                                "total_time",
-                                "gender_rank",
-                                "age_category",
-                                "age_rank",
-                                "penalty",
-                                "status",
-                                "guide_name",
-                                "citizen_rank",
-                                "citizen_category",
-                                "athlete_id",
-                                "championship_rank",
-                                "note"
-                              ],
-                              "description": "Semantic role of this metadata column"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
+          }
+        },
+        "image": {
+          "type": "string",
+          "pattern": "^images/.*\\.webp$",
+          "description": "Path to the event image file"
+        },
+        "source": {
+          "type": "string",
+          "pattern": "^https?://",
+          "description": "Official website URL of the event"
+        },
+        "editions": {
+          "type": "array",
+          "description": "Array of event editions (yearly occurrences)",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/Edition"
           }
         }
       }

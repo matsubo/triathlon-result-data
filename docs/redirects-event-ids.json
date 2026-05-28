@@ -1,0 +1,446 @@
+[
+  {
+    "from": "/archive/ironman_south_africa_2025",
+    "to": "/archive/ironman_south_africa"
+  },
+  {
+    "from": "/archive/ironman_taiwan_2025",
+    "to": "/archive/ironman_taiwan"
+  },
+  {
+    "from": "/archive/ironman_texas_2025",
+    "to": "/archive/ironman_texas"
+  },
+  {
+    "from": "/archive/ironman_australia_2025",
+    "to": "/archive/ironman_australia"
+  },
+  {
+    "from": "/archive/ironman_austria_2025",
+    "to": "/archive/ironman_austria"
+  },
+  {
+    "from": "/archive/ironman_lanzarote_2025",
+    "to": "/archive/ironman_lanzarote"
+  },
+  {
+    "from": "/archive/ironman_brazil_2025",
+    "to": "/archive/ironman_brazil"
+  },
+  {
+    "from": "/archive/ironman_cairns_2025",
+    "to": "/archive/ironman_cairns"
+  },
+  {
+    "from": "/archive/ironman_frankfurt_2025",
+    "to": "/archive/ironman_frankfurt"
+  },
+  {
+    "from": "/archive/ironman_france_2025",
+    "to": "/archive/ironman_france"
+  },
+  {
+    "from": "/archive/ironman_hamburg_2025",
+    "to": "/archive/ironman_hamburg"
+  },
+  {
+    "from": "/archive/ironman_les_sables_2025",
+    "to": "/archive/ironman_les_sables"
+  },
+  {
+    "from": "/archive/ironman_vitoria_2025",
+    "to": "/archive/ironman_vitoria"
+  },
+  {
+    "from": "/archive/ironman_leeds_2025",
+    "to": "/archive/ironman_leeds"
+  },
+  {
+    "from": "/archive/ironman_sweden_2025",
+    "to": "/archive/ironman_sweden"
+  },
+  {
+    "from": "/archive/ironman_copenhagen_2025",
+    "to": "/archive/ironman_copenhagen"
+  },
+  {
+    "from": "/archive/ironman_tallinn_2025",
+    "to": "/archive/ironman_tallinn"
+  },
+  {
+    "from": "/archive/ironman_switzerland_2025",
+    "to": "/archive/ironman_switzerland"
+  },
+  {
+    "from": "/archive/ironman_wisconsin_2025",
+    "to": "/archive/ironman_wisconsin"
+  },
+  {
+    "from": "/archive/ironman_italy_2025",
+    "to": "/archive/ironman_italy"
+  },
+  {
+    "from": "/archive/ironman_maryland_2025",
+    "to": "/archive/ironman_maryland"
+  },
+  {
+    "from": "/archive/ironman_wales_2025",
+    "to": "/archive/ironman_wales"
+  },
+  {
+    "from": "/archive/ironman_chattanooga_2025",
+    "to": "/archive/ironman_chattanooga"
+  },
+  {
+    "from": "/archive/ironman_gurye_2025",
+    "to": "/archive/ironman_gurye"
+  },
+  {
+    "from": "/archive/ironman_barcelona_2025",
+    "to": "/archive/ironman_barcelona"
+  },
+  {
+    "from": "/archive/ironman_malaysia_2025",
+    "to": "/archive/ironman_malaysia"
+  },
+  {
+    "from": "/archive/ironman_portugal_2025",
+    "to": "/archive/ironman_portugal"
+  },
+  {
+    "from": "/archive/ironman_california_2025",
+    "to": "/archive/ironman_california"
+  },
+  {
+    "from": "/archive/ironman_florida_2025",
+    "to": "/archive/ironman_florida"
+  },
+  {
+    "from": "/archive/ironman_arizona_2025",
+    "to": "/archive/ironman_arizona"
+  },
+  {
+    "from": "/archive/im703_oman_2025",
+    "to": "/archive/im703_oman"
+  },
+  {
+    "from": "/archive/im703_puerto_princesa_2025",
+    "to": "/archive/im703_puerto_princesa"
+  },
+  {
+    "from": "/archive/im703_mallorca_2025",
+    "to": "/archive/im703_mallorca"
+  },
+  {
+    "from": "/archive/im703_valencia_2025",
+    "to": "/archive/im703_valencia"
+  },
+  {
+    "from": "/archive/im703_venice_2025",
+    "to": "/archive/im703_venice"
+  },
+  {
+    "from": "/archive/im703_port_macquarie_2025",
+    "to": "/archive/im703_port_macquarie"
+  },
+  {
+    "from": "/archive/im703_gulf_coast_2025",
+    "to": "/archive/im703_gulf_coast"
+  },
+  {
+    "from": "/archive/im703_st_george_2025",
+    "to": "/archive/im703_st_george"
+  },
+  {
+    "from": "/archive/im703_hawaii_2025",
+    "to": "/archive/im703_hawaii"
+  },
+  {
+    "from": "/archive/im703_desaru_2025",
+    "to": "/archive/im703_desaru"
+  },
+  {
+    "from": "/archive/im703_shanghai_2025",
+    "to": "/archive/im703_shanghai"
+  },
+  {
+    "from": "/archive/im703_kraichgau_2025",
+    "to": "/archive/im703_kraichgau"
+  },
+  {
+    "from": "/archive/im703_aix_2025",
+    "to": "/archive/im703_aix"
+  },
+  {
+    "from": "/archive/im703_chattanooga_2025",
+    "to": "/archive/im703_chattanooga"
+  },
+  {
+    "from": "/archive/im703_tours_2025",
+    "to": "/archive/im703_tours"
+  },
+  {
+    "from": "/archive/im703_switzerland_2025",
+    "to": "/archive/im703_switzerland"
+  },
+  {
+    "from": "/archive/im703_cairns_2025",
+    "to": "/archive/im703_cairns"
+  },
+  {
+    "from": "/archive/im703_goseong_2025",
+    "to": "/archive/im703_goseong"
+  },
+  {
+    "from": "/archive/im703_subic_2025",
+    "to": "/archive/im703_subic"
+  },
+  {
+    "from": "/archive/im703_warsaw_2025",
+    "to": "/archive/im703_warsaw"
+  },
+  {
+    "from": "/archive/im703_des_moines_2025",
+    "to": "/archive/im703_des_moines"
+  },
+  {
+    "from": "/archive/im703_eagleman_2025",
+    "to": "/archive/im703_eagleman"
+  },
+  {
+    "from": "/archive/im703_western_mass_2025",
+    "to": "/archive/im703_western_mass"
+  },
+  {
+    "from": "/archive/im703_bolton_2025",
+    "to": "/archive/im703_bolton"
+  },
+  {
+    "from": "/archive/im703_happy_valley_2025",
+    "to": "/archive/im703_happy_valley"
+  },
+  {
+    "from": "/archive/im703_elsinore_2025",
+    "to": "/archive/im703_elsinore"
+  },
+  {
+    "from": "/archive/im703_boulder_2025",
+    "to": "/archive/im703_boulder"
+  },
+  {
+    "from": "/archive/im703_coeur_dalene_2025",
+    "to": "/archive/im703_coeur_dalene"
+  },
+  {
+    "from": "/archive/im703_mont_tremblant_2025",
+    "to": "/archive/im703_mont_tremblant"
+  },
+  {
+    "from": "/archive/im703_rockford_2025",
+    "to": "/archive/im703_rockford"
+  },
+  {
+    "from": "/archive/im703_westfriesland_2025",
+    "to": "/archive/im703_westfriesland"
+  },
+  {
+    "from": "/archive/im703_nice_2025",
+    "to": "/archive/im703_nice"
+  },
+  {
+    "from": "/archive/im703_muskoka_2025",
+    "to": "/archive/im703_muskoka"
+  },
+  {
+    "from": "/archive/im703_jonkoping_2025",
+    "to": "/archive/im703_jonkoping"
+  },
+  {
+    "from": "/archive/im703_luxembourg_2025",
+    "to": "/archive/im703_luxembourg"
+  },
+  {
+    "from": "/archive/im703_muncie_2025",
+    "to": "/archive/im703_muncie"
+  },
+  {
+    "from": "/archive/im703_musselman_2025",
+    "to": "/archive/im703_musselman"
+  },
+  {
+    "from": "/archive/im703_swansea_2025",
+    "to": "/archive/im703_swansea"
+  },
+  {
+    "from": "/archive/im703_boise_2025",
+    "to": "/archive/im703_boise"
+  },
+  {
+    "from": "/archive/im703_ohio_2025",
+    "to": "/archive/im703_ohio"
+  },
+  {
+    "from": "/archive/im703_oregon_2025",
+    "to": "/archive/im703_oregon"
+  },
+  {
+    "from": "/archive/im703_calgary_2025",
+    "to": "/archive/im703_calgary"
+  },
+  {
+    "from": "/archive/im703_maine_2025",
+    "to": "/archive/im703_maine"
+  },
+  {
+    "from": "/archive/im703_lapu_lapu_2025",
+    "to": "/archive/im703_lapu_lapu"
+  },
+  {
+    "from": "/archive/im703_krakow_2025",
+    "to": "/archive/im703_krakow"
+  },
+  {
+    "from": "/archive/im703_hradec_2025",
+    "to": "/archive/im703_hradec"
+  },
+  {
+    "from": "/archive/im703_louisville_2025",
+    "to": "/archive/im703_louisville"
+  },
+  {
+    "from": "/archive/im703_vichy_2025",
+    "to": "/archive/im703_vichy"
+  },
+  {
+    "from": "/archive/im703_tallinn_2025",
+    "to": "/archive/im703_tallinn"
+  },
+  {
+    "from": "/archive/im703_zell_am_see_2025",
+    "to": "/archive/im703_zell_am_see"
+  },
+  {
+    "from": "/archive/im703_duisburg_2025",
+    "to": "/archive/im703_duisburg"
+  },
+  {
+    "from": "/archive/im703_knokke_2025",
+    "to": "/archive/im703_knokke"
+  },
+  {
+    "from": "/archive/im703_poznan_2025",
+    "to": "/archive/im703_poznan"
+  },
+  {
+    "from": "/archive/im703_santa_cruz_2025",
+    "to": "/archive/im703_santa_cruz"
+  },
+  {
+    "from": "/archive/im703_wisconsin_2025",
+    "to": "/archive/im703_wisconsin"
+  },
+  {
+    "from": "/archive/im703_erkner_2025",
+    "to": "/archive/im703_erkner"
+  },
+  {
+    "from": "/archive/im703_michigan_2025",
+    "to": "/archive/im703_michigan"
+  },
+  {
+    "from": "/archive/im703_weymouth_2025",
+    "to": "/archive/im703_weymouth"
+  },
+  {
+    "from": "/archive/im703_new_york_2025",
+    "to": "/archive/im703_new_york"
+  },
+  {
+    "from": "/archive/im703_emilia_romagna_2025",
+    "to": "/archive/im703_emilia_romagna"
+  },
+  {
+    "from": "/archive/im703_belgrade_2025",
+    "to": "/archive/im703_belgrade"
+  },
+  {
+    "from": "/archive/im703_cozumel_2025",
+    "to": "/archive/im703_cozumel"
+  },
+  {
+    "from": "/archive/im703_washington_2025",
+    "to": "/archive/im703_washington"
+  },
+  {
+    "from": "/archive/im703_augusta_2025",
+    "to": "/archive/im703_augusta"
+  },
+  {
+    "from": "/archive/im703_waco_2025",
+    "to": "/archive/im703_waco"
+  },
+  {
+    "from": "/archive/im703_portugal_2025",
+    "to": "/archive/im703_portugal"
+  },
+  {
+    "from": "/archive/im703_porec_2025",
+    "to": "/archive/im703_porec"
+  },
+  {
+    "from": "/archive/im703_marathon_2025",
+    "to": "/archive/im703_marathon"
+  },
+  {
+    "from": "/archive/im703_salalah_2025",
+    "to": "/archive/im703_salalah"
+  },
+  {
+    "from": "/archive/im703_north_carolina_2025",
+    "to": "/archive/im703_north_carolina"
+  },
+  {
+    "from": "/archive/im703_turkey_2025",
+    "to": "/archive/im703_turkey"
+  },
+  {
+    "from": "/archive/im703_langkawi_2025",
+    "to": "/archive/im703_langkawi"
+  },
+  {
+    "from": "/archive/im703_kenting_2025",
+    "to": "/archive/im703_kenting"
+  },
+  {
+    "from": "/archive/im703_melbourne_2025",
+    "to": "/archive/im703_melbourne"
+  },
+  {
+    "from": "/archive/im703_goa_2025",
+    "to": "/archive/im703_goa"
+  },
+  {
+    "from": "/archive/im703_phu_quoc_2025",
+    "to": "/archive/im703_phu_quoc"
+  },
+  {
+    "from": "/archive/im703_indian_wells_2025",
+    "to": "/archive/im703_indian_wells"
+  },
+  {
+    "from": "/archive/im703_florida_2025",
+    "to": "/archive/im703_florida"
+  },
+  {
+    "from": "/archive/im703_wc_women_2025",
+    "to": "/archive/im703_wc_women"
+  },
+  {
+    "from": "/archive/im703_wc_men_2025",
+    "to": "/archive/im703_wc_men"
+  },
+  {
+    "from": "/archive/im703_texas_2025",
+    "to": "/archive/im703_texas"
+  }
+]

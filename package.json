@@ -5,13 +5,16 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "bun run test:json && bun run test:schema && bun run test:weather && bun run test:normalizers && bun run test:tsv-lint",
+    "test": "bun test && bun run test:typecheck",
     "check:duplicates": "bun run scripts/check-duplicate-editions.js",
-    "test:normalizers": "bun run tests/test-normalizers.js",
-    "test:json": "bun run tests/test_json_validity.js",
-    "test:weather": "bun run scripts/validate-weather-data.js",
-    "test:schema": "bun run tests/test-schema-validation.js",
-    "test:tsv-lint": "bun run tests/test-tsv-lint.js",
+    "test:normalizers": "bun test tests/normalizers.test.ts",
+    "test:json": "bun test tests/json-validity.test.ts",
+    "test:weather": "bun test tests/weather-validation.test.ts",
+    "test:schema": "bun test tests/schema-validation.test.ts",
+    "test:tsv-lint": "bun test tests/tsv-lint.test.ts",
+    "test:images": "bun test tests/images.test.ts",
+    "build:schema": "bun run scripts/build-schema.js",
+    "test:typecheck": "tsc --noEmit",
     "check": "biome check --write",
     "format": "biome format --write",
     "lint": "biome lint",
@@ -23,8 +26,11 @@
   "packageManager": "bun@1.1.38",
   "devDependencies": {
     "@biomejs/biome": "^2.4.15",
+    "@types/bun": "^1.1.2",
     "ajv": "^8.20.0",
     "ajv-formats": "^2.1.1",
-    "husky": "^9.1.7"
+    "husky": "^9.1.7",
+    "json-schema-to-typescript": "^14.0.1",
+    "typescript": "^5.4.5"
   }
 }

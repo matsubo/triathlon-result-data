@@ -135,10 +135,11 @@ bun scripts/normalize-tsv.js yokohama 2025
 
 Edit `race-info.json`. The structure is a tree of events → editions → categories. Each category declares its `segments` (ordered sports) and maps TSV headers to normalized fields via `columns` and `meta_columns`.
 
-Validate the result:
+Validate and regenerate TypeScript types:
 
 ```bash
 bunx ajv-cli validate -s race-info-schema.json -d race-info.json
+bun run build:schema
 ```
 
 ### Add a race image
@@ -197,13 +198,17 @@ The pre-commit hook runs Biome on staged files; lint errors block the commit.
 
 ### Tests
 
+Tests are powered by [bun test](https://bun.sh/docs/cli/test) and TypeScript.
+
 ```bash
-bun run test             # runs all checks below
-bun run test:json        # JSON syntax validity
+bun run test             # runs all tests (bun test) and TypeScript typecheck
+bun run test:json        # JSON syntax validity and path references
 bun run test:schema      # race-info.json ↔ race-info-schema.json
 bun run test:weather     # validate every weather-data.json
 bun run test:normalizers # unit tests for normalizer modules
 bun run test:tsv-lint    # TSV conventions (e.g. no full-width spaces)
+bun run test:images      # verify image references and detect orphaned images
+bun run test:typecheck   # run static type check (tsc --noEmit)
 bun run check:duplicates # detect duplicate race editions
 ```
 
