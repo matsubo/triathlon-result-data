@@ -1,0 +1,1339 @@
+ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	Run	Country	Status
+	1	Sam Laidlow	M	MPRO	1	8:03:40	0:46:25	0:01:51	4:27:52	0:03:18	2:44:14	France	
+	2	Patrick Lange	M	MPRO	2	8:12:29	0:47:33	0:02:10	4:45:03	0:04:00	2:33:43	Germany	
+	3	Jordi Montraveta Moya	M	MPRO	3	8:16:16	0:52:19	0:02:16	4:38:50	0:03:35	2:39:17	Spain	
+	4	Damien Le Mesnager	M	MPRO	4	8:18:36	0:51:22	0:02:00	4:33:03	0:03:22	2:48:49	France	
+	5	Michiel Stockman	M	MPRO	5	8:24:06	0:51:47	0:02:18	4:39:26	0:03:42	2:46:53	Belgium	
+	6	Jon Saeveras Breivold	M	MPRO	6	8:36:33	0:54:02	0:02:20	4:36:52	0:03:42	2:59:37	Norway	
+	7	Joren Thys	M	MPRO	7	8:38:05	0:52:38	0:02:58	4:45:55	0:03:57	2:52:37	Belgium	
+	8	Pierre Ruffaut	M	MPRO	8	8:45:19	0:53:52	0:02:17	4:47:40	0:03:47	2:57:42	France	
+	9	Christian Störzer	M	M45-49	1	8:47:48	0:54:01	0:03:18	4:53:44	0:01:07	2:55:38	Germany	
+	10	Timmo Jeret	M	MPRO	9	8:49:37	0:54:00	0:02:36	4:55:19	0:04:06	2:53:36	Estonia	
+	11	Leon Chevalier	M	MPRO	10	8:59:31	0:50:45	0:02:05	4:38:34	0:03:22	3:24:45	France	
+	12	Staf Vanhauwaert	M	M18-24	1	9:02:13	0:51:31	0:03:48	4:54:28	0:04:10	3:08:16	Belgium	
+	13	Vincent Größer	M	MPRO	11	9:03:15	0:52:16	0:02:32	4:53:16	0:03:46	3:11:26	Germany	
+	14	Kristian Grue	M	MPRO	12	9:05:09	0:51:08	0:02:05	5:06:26	0:04:08	3:01:22	Norway	
+	15	Tim Gošnjak	M	MPRO	13	9:05:29	0:55:03	0:03:32	4:58:56	0:04:45	3:03:14	Slovenia	
+	16	Timo Schaffeld	M	MPRO	14	9:08:52	0:51:43	0:01:52	5:02:03	0:03:34	3:09:40	Germany	
+	17	Marin Lerche	M	M25-29	1	9:10:32	0:53:51	0:03:15	5:00:13	0:04:45	3:08:29	France	
+	18	Lucy Charles-Barclay	F	FPRO	1	9:15:39	0:47:02	0:02:13	5:21:05	0:04:07	3:01:13	United Kingdom	
+	19	Daniel Bluff	M	M30-34	1	9:16:26	0:56:14	0:02:30	5:11:53	0:01:04	3:04:44	United Kingdom	
+	20	Brent Van Duren	M	M30-34	2	9:20:37	1:00:33	0:02:58	5:00:42	0:04:49	3:11:36	Belgium	
+	21	Adriaan Keurhorst	M	M25-29	2	9:21:21	0:57:33	0:03:44	4:56:35	0:04:02	3:19:26	Netherlands	
+	22	Joona Ruuhonen	M	M25-29	3	9:21:41	0:57:28	0:03:32	5:08:24	0:04:08	3:08:08	Finland	
+	23	Jurgen Cop	M	M30-34	3	9:23:51	0:53:20	0:02:56	5:12:05	0:06:15	3:09:14	Belgium	
+	24	Przemyslaw Gaj	M	M25-29	4	9:26:07	0:55:47	0:02:59	5:25:42	0:05:05	2:56:34	Poland	
+	25	Niklas Hornshøj	M	M30-34	4	9:26:28	0:52:43	0:02:43	5:05:52	0:04:41	3:20:29	Denmark	
+	26	David Simon	M	M35-39	1	9:27:03	1:06:47	0:04:43	5:11:04	0:03:58	3:00:31	Germany	
+	27	Elliot Bach	M	MPRO	15	9:28:05	0:49:55	0:02:15	4:57:05	0:04:24	3:34:26	United States	
+	28	Tom Guillamin	M	M18-24	2	9:28:16	0:47:55	0:02:47	5:13:01	0:06:20	3:18:13	France	
+	29	Rinel Pius	M	MPRO	16	9:29:16	0:47:35	0:02:57	5:35:19	0:04:11	2:59:15	Estonia	
+	30	Johnny Mcbeth	M	M30-34	5	9:31:01	0:59:34	0:03:23	5:19:43	0:04:52	3:03:29	United Kingdom	
+	31	Davide Viale	M	M35-39	2	9:31:10	1:04:19	0:03:48	5:16:12	0:04:14	3:02:37	Italy	
+	32	Dan Elliot	M	MPRO	17	9:33:57	0:53:55	0:02:36	5:08:43	0:04:20	3:24:22	United Kingdom	
+	33	Matthew Kinkaid	M	M30-34	6	9:34:52	0:52:29	0:03:11	5:16:30	0:05:11	3:17:31	Ireland	
+	34	Hugo Berthias	M	M18-24	3	9:36:03	1:05:16	0:03:28	5:15:35	0:04:33	3:07:12	France	
+	35	Jeffrey Heymans	M	M30-34	7	9:37:16	0:57:50	0:03:23	5:22:06	0:03:32	3:10:24	Belgium	
+	36	Damián Martínez Baz	M	MPRO	18	9:39:04	0:52:06	0:02:16	5:32:47	0:04:55	3:07:00	Spain	
+	37	Mathias Rasmussen	M	M35-39	3	9:41:04	1:00:45	0:03:15	5:22:16	0:05:07	3:09:42	Denmark	
+	38	Koen Van Den Bosch	M	M35-39	4	9:41:14	0:56:39	0:03:14	5:29:40	0:04:29	3:07:11	Netherlands	
+	39	Nina Derron	F	FPRO	2	9:42:02	0:54:43	0:02:09	5:23:49	0:03:24	3:17:57	Switzerland	
+	40	Jordan Rabely	M	M35-39	5	9:43:18	0:55:41	0:04:31	5:12:57	0:04:21	3:25:48	France	
+	41	Gwendal Devenat Delile	M	M25-29	5	9:44:04	0:53:53	0:02:59	5:23:40	0:04:26	3:19:06	France	
+	42	Arto Sorvoja	M	M45-49	2	9:44:06	1:02:58	0:04:11	5:06:17	0:05:15	3:25:25	Finland	
+	43	François-Xavier Chevallier	M	M40-44	1	9:44:38	1:02:54	0:03:14	5:20:10	0:06:20	3:12:00	France	
+	44	Victor Osokin	M	M45-49	3	9:45:56	1:01:46	0:05:28	5:27:19	0:06:22	3:05:02	Germany	
+	45	Pawel Mitrus	M	M30-34	8	9:46:30	0:55:46	0:03:11	5:18:30	0:04:01	3:25:02	Poland	
+	46	Adrian Dorta Avila	M	M35-39	6	9:47:30	0:59:24	0:03:09	5:23:02	0:06:01	3:15:55	Spain	
+	47	Nikita Paskiewiez	F	FPRO	3	9:47:36	0:59:25	0:03:15	5:34:18	0:03:37	3:07:00	France	
+	48	Eloy Benito González Mariscal	M	M45-49	4	9:48:30	1:08:51	0:03:36	5:21:34	0:01:08	3:13:21	Spain	
+	49	Geert Lauryssen	M	M40-44	2	9:48:43	0:58:05	0:03:59	5:18:05	0:05:17	3:23:16	Belgium	
+	50	Jesus Jaro Molina	M	M30-34	9	9:50:15	1:00:05	0:03:30	5:26:04	0:01:25	3:19:11	Spain	
+	51	Nick Balls	M	M30-34	10	9:51:07	1:01:34	0:05:25	5:31:52	0:05:23	3:06:54	United Kingdom	
+	52	Myles Hall	M	M35-39	7	9:51:51	1:03:25	0:04:07	5:32:03	0:04:39	3:07:38	United Kingdom	
+	53	Rebecca Anderbury	F	FPRO	4	9:52:18	0:57:46	0:02:42	5:21:13	0:05:33	3:25:04	United Kingdom	
+	54	Augustin Marot	M	M25-29	6	9:54:06	0:59:07	0:03:26	5:48:08	0:04:13	2:59:12	Belgium	
+	55	Sebastien Sahyoun	M	M40-44	3	9:54:28	0:56:59	0:08:19	5:30:06	0:06:29	3:12:34	Morocco	
+	56	Juan Francisco Monserrat De Leon	M	M50-54	1	9:54:34	0:59:32	0:02:55	5:30:17	0:04:43	3:17:07	Spain	
+	57	Casper Jensen	M	M30-34	11	9:54:37	1:00:43	0:04:35	5:35:20	0:06:23	3:07:36	Denmark	
+	58	Victor Manuel González Gómez	M	M40-44	4	9:56:21	0:50:01	0:03:44	5:37:04	0:06:23	3:19:10	Spain	
+	59	Marit Lindemann	F	FPRO	5	9:56:52	1:04:41	0:02:42	5:34:57	0:04:39	3:09:52	Germany	
+	60	Danny Van Rompaey	M	M50-54	2	9:59:00	0:53:27	0:03:55	5:34:16	0:05:24	3:21:58	Belgium	
+	61	Jorge Madera	M	M35-39	8	10:00:21	0:56:56	0:03:29	5:36:31	0:01:14	3:22:12	Spain	
+	62	Anthony Beyne	M	M45-49	5	10:00:52	0:57:08	0:04:24	5:26:48	0:04:59	3:27:32	France	
+	63	Filipe Estafero Henriques	M	M35-39	9	10:00:57	1:06:30	0:03:26	5:26:31	0:05:25	3:19:05	Portugal	
+	64	Benedikt Feuerecker	M	M40-44	5	10:02:02	1:02:37	0:03:39	5:26:23	0:04:15	3:25:09	Germany	
+	65	Sergii Malchyk	M	M40-44	6	10:04:16	1:03:01	0:04:41	5:21:17	0:04:30	3:30:47	Ukraine	
+	66	Daniel Jensen	M	M18-24	4	10:06:05	0:59:23	0:03:55	5:36:16	0:05:01	3:21:30	Denmark	
+	67	Tara Rooney	F	FPRO	6	10:07:42	0:59:13	0:02:55	5:46:05	0:04:39	3:14:50	United States	
+	68	Theo Charre	M	M30-34	12	10:07:51	0:50:06	0:03:25	5:19:15	0:05:13	3:49:52	France	
+	69	Reinhard Marl	M	M40-44	7	10:08:24	1:02:24	0:04:28	5:26:06	0:06:24	3:29:03	Austria	
+	70	Matthew Alderson	M	M40-44	8	10:08:41	1:00:09	0:03:56	5:53:35	0:05:48	3:05:14	United Kingdom	
+	71	Kevin Andersen	M	M25-29	7	10:09:05	1:00:39	0:03:20	5:34:07	0:05:34	3:25:25	Denmark	
+	72	Alain Schutjes	M	M50-54	3	10:10:45	0:59:20	0:04:47	5:37:26	0:07:24	3:21:48	Belgium	
+	73	Simon Morel	M	M30-34	13	10:11:21	0:59:15	0:03:43	5:52:08	0:04:30	3:11:46	France	
+	74	Alessandro Tomaiuolo	M	M50-54	4	10:12:11	0:59:37	0:02:53	5:27:24	0:04:40	3:37:37	Italy	
+	75	Logan Siebert	M	M30-34	14	10:12:13	0:54:39	0:04:23	5:36:00	0:07:23	3:29:48	Belgium	
+	76	Pierre Baritaud	M	M35-39	10	10:13:31	1:12:17	0:05:22	5:26:06	0:05:17	3:24:27	France	
+	77	Francesco Bartolini	M	M30-34	15	10:14:13	1:09:20	0:03:51	5:12:31	0:01:13	3:47:18	Italy	
+	78	Aleksey Bannikov	M	M40-44	9	10:14:15	0:54:13	0:03:06	5:47:52	0:06:00	3:23:04	Cyprus	
+	79	Twain De Hondt	M	M30-34	16	10:14:32	1:07:17	0:06:19	5:48:33	0:01:20	3:11:03	Belgium	
+	80	Courtney Wevers	F	FPRO	7	10:15:22	0:59:00	0:02:34	5:46:04	0:05:07	3:22:37	Australia	
+	81	Louvel Remi	M	M35-39	11	10:16:39	0:56:43	0:03:36	5:22:03	0:06:07	3:48:09	France	
+	82	Ricardo Carvalho	M	M40-44	10	10:17:04	1:00:24	0:03:32	5:46:01	0:01:18	3:25:49	Portugal	
+	83	Régis Bonnans	M	M45-49	6	10:17:28	1:10:50	0:04:01	5:41:44	0:04:39	3:16:14	France	
+	84	Stephen Magrath	M	M40-44	11	10:17:30	1:01:34	0:03:44	5:23:24	0:06:26	3:42:22	United Kingdom	
+	85	Miguel Arbelo-Navarro	M	M45-49	7	10:17:39	0:57:55	0:03:49	5:44:48	0:04:34	3:26:33	Spain	
+	86	Andrea Masciarelli	M	M40-44	12	10:18:15	1:06:43	0:04:32	5:17:34	0:04:42	3:44:44	Italy	
+	87	Ronald Hotter	M	M45-49	8	10:18:24	0:56:28	0:03:51	5:43:12	0:04:34	3:30:20	Austria	
+	88	Luis Vega	M	M45-49	9	10:18:41	1:00:38	0:03:19	5:45:01	0:04:59	3:24:45	Spain	
+	89	Joe Gough	M	M25-29	8	10:18:50	0:58:48	0:04:43	5:52:06	0:06:30	3:16:44	United Kingdom	
+	90	Morena Stevens	F	FPRO	8	10:19:05	0:59:26	0:02:10	5:50:53	0:04:17	3:22:19	Netherlands	
+	91	Christian Piri	M	M40-44	13	10:19:19	1:00:25	0:03:39	5:49:04	0:06:13	3:19:59	Germany	
+	92	Peter Johan Dillo	M	M55-59	1	10:19:21	0:54:18	0:03:41	5:45:40	0:05:49	3:29:52	Netherlands	
+	93	Maxim Dinman	M	M35-39	12	10:19:26	1:03:49	0:03:51	5:45:49	0:03:23	3:22:35	Israel	
+	94	Benoit Myaux	M	M45-49	10	10:19:58	0:53:10	0:02:48	5:40:19	0:06:45	3:36:56	Belgium	
+	95	Jost Joller	M	M35-39	13	10:20:46	0:58:03	0:03:07	5:41:39	0:05:25	3:32:32	Switzerland	
+	96	ISAAC HERNANDEZ LOPEZ	M	M45-49	11	10:20:56	1:02:56	0:03:46	5:44:26	0:05:03	3:24:45	Spain	
+	97	Ruben Ortiz	M	M45-49	12	10:21:07	1:05:47	0:04:41	5:41:39	0:07:17	3:21:43	Spain	
+	98	IÑIGO MUÑOA	M	M30-34	17	10:21:57	1:01:42	0:03:55	5:47:14	0:04:53	3:24:12	Spain	
+	99	Daan Berghs	M	M30-34	18	10:22:04	0:55:32	0:04:28	5:48:43	0:01:17	3:32:04	Belgium	
+	100	Alexander Rieckmann	M	M18-24	5	10:22:17	1:11:36	0:04:25	5:39:39	0:01:09	3:25:28	Germany	
+	101	Gonzalo Echarri González	M	M25-29	9	10:22:20	1:02:52	0:04:04	5:46:41	0:04:19	3:24:24	Spain	
+	102	Gianluca Fruci	M	M30-34	19	10:22:22	0:53:11	0:03:17	5:29:11	0:05:44	3:50:58	Italy	
+	103	Nick Marquardt	M	M25-29	10	10:22:51	1:04:15	0:03:26	5:32:52	0:07:53	3:34:27	Germany	
+	104	Tony Cullen	M	M50-54	5	10:23:19	0:59:37	0:02:44	5:27:32	0:05:09	3:48:17	United Kingdom	
+	105	Davide Petta	M	M30-34	20	10:23:27	1:05:13	0:04:49	5:26:03	0:05:57	3:41:24	Italy	
+	106	Clément Meycelle	M	M30-34	21	10:23:46	0:58:51	0:03:37	5:30:57	0:05:48	3:44:33	France	
+	107	Alexandre Mathieu	M	M30-34	22	10:23:51	1:11:01	0:05:48	5:30:23	0:04:56	3:31:43	France	
+	108	Norbert Kocsis	M	M40-44	14	10:24:32	1:03:16	0:05:25	5:43:01	0:05:07	3:27:43	Hungary	
+	109	Gabin Sage	M	M18-24	6	10:24:39	0:50:01	0:02:57	5:26:04	0:05:00	4:00:36	France	
+	110	Simon Liddle	M	M35-39	14	10:24:54	0:53:02	0:03:41	6:00:47	0:01:16	3:26:09	United Kingdom	
+	111	David Soen	M	M50-54	6	10:27:59	1:04:41	0:05:41	5:37:48	0:05:39	3:34:10	Belgium	
+	112	Juan José Foulquié Padilla	M	M40-44	15	10:28:34	1:11:59	0:03:54	5:44:53	0:05:03	3:22:45	Spain	
+	113	Guido Kwakkel	M	M45-49	13	10:28:45	0:57:31	0:03:29	5:49:19	0:06:05	3:32:22	Netherlands	
+	114	Yann Payen	M	M50-54	7	10:29:58	1:11:05	0:06:07	5:45:39	0:05:23	3:21:44	Monaco	
+	115	Sergio Villamisar Varela	M	M40-44	16	10:30:07	1:03:51	0:03:24	5:47:29	0:05:31	3:29:53	Spain	
+	116	Asjer Smit	M	M30-34	23	10:30:18	1:11:17	0:05:48	5:41:36	0:01:18	3:30:19	Netherlands	
+	117	Francisco Jose Gomez Cerezo	M	M40-44	17	10:30:18	0:57:01	0:03:42	5:55:06	0:08:34	3:25:54	Spain	
+	118	Damian O'Hagan	M	M40-44	18	10:30:47	1:04:43	0:04:54	5:41:50	0:07:29	3:31:52	Ireland	
+	119	Molly Savill	F	FPRO	9	10:31:49	0:50:59	0:03:24	5:52:15	0:05:47	3:39:24	United Kingdom	
+	120	Lorenzo Mariotti	M	M30-34	24	10:32:31	1:03:23	0:05:28	5:56:51	0:07:09	3:19:41	Italy	
+	121	Arno Diels	M	M30-34	25	10:32:40	1:05:05	0:03:38	5:36:12	0:06:59	3:40:46	Belgium	
+	122	Gunnar Streblow	M	M40-44	19	10:34:04	1:04:33	0:03:19	5:23:29	0:06:26	3:56:17	Germany	
+	123	André Weber	M	M50-54	8	10:35:17	1:10:18	0:04:29	5:45:21	0:07:32	3:27:37	Switzerland	
+	124	Moises Gutiérrez Gonzalez	M	M50-54	9	10:35:37	1:04:15	0:04:24	5:36:07	0:06:20	3:44:31	Spain	
+	125	Angela Naeth	F	FPRO	10	10:36:31	1:01:06	0:02:46	5:35:45	0:06:12	3:50:42	Canada	
+	126	Stijn Van Den Wijngaert	M	M35-39	15	10:36:35	1:11:07	0:07:19	5:42:29	0:05:26	3:30:14	Belgium	
+	127	Martin Sägesser	M	M45-49	14	10:36:48	1:10:29	0:05:42	5:41:11	0:04:49	3:34:37	Switzerland	
+	128	Rossano Rinaldi	M	M50-54	10	10:37:04	0:59:11	0:04:10	5:57:13	0:01:11	3:35:18	Italy	
+	129	Maxime Gaymard	M	M25-29	11	10:37:32	1:19:42	0:05:52	5:55:57	0:01:35	3:14:27	France	
+	130	Nathan Turner	M	M25-29	12	10:37:51	1:02:34	0:05:20	6:02:30	0:05:43	3:21:44	United Kingdom	
+	131	Giulio Mattiello	M	M35-39	16	10:39:21	0:57:03	0:03:30	6:10:15	0:05:23	3:23:10	Italy	
+	132	Daniel Paulsen	M	M25-29	13	10:39:51	0:58:25	0:05:23	5:33:24	0:01:20	4:01:19	Denmark	
+	133	Darren Dalton	M	M45-49	15	10:40:52	1:11:35	0:07:41	5:46:50	0:08:30	3:26:16	United Kingdom	
+	134	Raymond Russell Tuitel	M	M35-39	17	10:41:20	1:09:59	0:03:41	5:55:28	0:05:41	3:26:30	Netherlands	
+	135	Carl Palm-Henriksen	M	M25-29	14	10:41:20	0:57:41	0:03:49	5:57:25	0:06:41	3:35:45	Denmark	
+	136	Owen Martin	M	M50-54	11	10:41:24	1:11:00	0:06:17	5:40:49	0:07:35	3:35:42	Ireland	
+	137	Nazario Aguiar García	M	M35-39	18	10:41:37	1:02:14	0:02:49	5:58:26	0:05:30	3:32:38	Spain	
+	138	Javier Majadas De La Cruz	M	M25-29	15	10:42:10	1:19:40	0:06:11	5:50:18	0:08:27	3:17:34	Spain	
+	139	Sebastian Greasley	M	M25-29	16	10:42:32	0:58:11	0:04:18	5:53:10	0:04:57	3:41:55	United Kingdom	
+	140	Fran Parage	F	M45-49	16	10:42:57	0:56:52	0:05:15	5:28:19	0:05:08	4:07:22	France	
+	141	Andreas Kocsis	M	M45-49	17	10:43:35	1:04:52	0:04:54	5:52:39	0:06:05	3:35:05	Austria	
+	142	Jose Fernandez Maestre	M	M35-39	19	10:43:57	1:13:40	0:04:17	5:54:33	0:05:00	3:26:27	Spain	
+	143	James Peters	M	M40-44	20	10:44:31	1:12:38	0:04:55	5:52:56	0:07:05	3:26:55	United Kingdom	
+	144	Sam Piggott	M	M35-39	20	10:46:33	1:05:51	0:03:43	5:38:48	0:08:31	3:49:42	United Kingdom	
+	145	Sotirios Dedes	M	M50-54	12	10:47:18	1:06:29	0:03:25	5:47:38	0:05:26	3:44:20	Greece	
+	146	Markus Fischer	M	M40-44	21	10:47:29	1:07:12	0:04:11	5:54:54	0:04:04	3:37:07	Germany	
+	147	Roberto Anta Alvarez	M	M40-44	22	10:47:42	1:04:54	0:04:51	5:42:46	0:06:22	3:48:48	Spain	
+	148	Alexander Milne	M	M25-29	17	10:48:34	0:53:31	0:03:25	5:38:44	0:09:40	4:03:15	United Kingdom	
+	149	Alejandro Sosa Mendoza	M	M25-29	18	10:48:37	0:58:41	0:04:04	5:56:06	0:06:29	3:43:17	Spain	
+	150	Dimitri Gelders	M	M50-54	13	10:49:00	1:02:58	0:03:37	6:02:36	0:06:36	3:33:14	Belgium	
+	151	Lorna Tate	F	F30-34	1	10:50:15	1:01:31	0:03:40	6:12:28	0:04:15	3:28:21	Ireland	
+	152	Sophia Trenz	F	F25-29	1	10:50:26	1:05:47	0:03:11	6:02:18	0:03:20	3:35:50	Germany	
+	153	Nicolas Cauberghs	M	M40-44	23	10:50:37	1:05:08	0:03:32	5:56:05	0:04:55	3:40:56	France	
+	154	Fabien MOUTON	M	M30-34	26	10:50:45	1:08:10	0:03:25	5:50:51	0:05:30	3:42:50	France	
+	155	Florian Weiss	M	M50-54	14	10:50:50	1:03:18	0:04:06	6:05:00	0:07:46	3:30:40	Germany	
+	156	Evgenia Boulmeti	F	F40-44	1	10:51:18	1:01:52	0:03:09	5:54:42	0:04:56	3:46:39	Greece	
+	157	Roger Rueegg	M	M45-49	18	10:51:51	1:07:00	0:04:57	5:39:01	0:01:18	3:59:35	Switzerland	
+	158	Gareth Teuten	M	M35-39	21	10:52:18	1:16:39	0:06:43	5:54:58	0:01:42	3:32:16	United Kingdom	
+	159	Roger Pages Bargallo	M	M45-49	19	10:52:45	1:06:36	0:07:38	5:49:17	0:07:38	3:41:36	Spain	
+	160	Yannick Noah Reitz	M	M25-29	19	10:52:47	0:56:45	0:03:58	5:21:41	0:05:41	4:24:42	Germany	
+	161	Federico Ricci	M	M35-39	22	10:53:22	1:07:40	0:04:06	6:03:03	0:04:55	3:33:37	Italy	
+	162	Rayco Calvo Rodriguez	M	M40-44	24	10:53:33	1:06:51	0:04:49	6:07:59	0:05:08	3:28:46	Spain	
+	163	Dirk Janz	M	M55-59	2	10:54:01	1:03:05	0:03:20	5:58:32	0:01:23	3:47:40	Germany	
+	164	Marco Guarino	M	M45-49	20	10:54:09	0:58:19	0:03:26	5:36:07	0:01:08	4:15:09	Switzerland	
+	165	Daniel Soriano Gómez	M	M40-44	25	10:54:12	0:59:37	0:05:36	6:08:54	0:07:22	3:32:43	Spain	
+	166	Gert Lenaerts	M	M45-49	21	10:54:28	0:59:25	0:06:55	6:17:44	0:01:23	3:29:01	Belgium	
+	167	Marc Molina Roig	M	M40-44	26	10:54:56	0:59:01	0:05:39	5:49:15	0:07:57	3:53:03	Spain	
+	168	Chloe Legrix De La Salle	F	F30-34	2	10:56:42	1:03:43	0:04:10	6:11:09	0:03:21	3:34:19	France	
+	169	Alvaro Calvo	M	M40-44	27	10:56:47	0:56:57	0:03:46	6:05:07	0:06:00	3:44:57	Spain	
+	170	James Stewart	M	M40-44	28	10:57:19	1:12:27	0:03:50	5:45:06	0:01:13	3:54:44	United Kingdom	
+	171	Omar Di Felice	M	M45-49	22	10:57:22	1:16:08	0:09:47	5:57:37	0:08:52	3:24:57	Italy	
+	172	Philipp Sand	M	M40-44	29	10:57:48	0:58:53	0:04:05	6:09:40	0:01:24	3:43:46	Germany	
+	173	Unai Ibeas blanco	M	M45-49	23	10:58:02	1:11:58	0:05:19	5:49:47	0:06:12	3:44:46	Spain	
+	174	Oliver Davies	M	M25-29	20	10:58:18	1:01:53	0:04:35	6:05:47	0:06:30	3:39:33	United Kingdom	
+	175	Enrico Tommasi	M	M30-34	27	10:58:29	1:01:16	0:05:46	6:09:34	0:06:09	3:35:45	Italy	
+	176	Enrique Arana	M	M35-39	23	10:58:55	1:08:22	0:03:28	5:38:45	0:05:38	4:02:42	Spain	
+	177	Pim Spijkerman	M	M35-39	24	10:59:00	1:04:10	0:07:04	6:02:37	0:07:57	3:37:13	Netherlands	
+	178	Jude Harkin	M	M25-29	21	10:59:14	0:58:03	0:04:46	5:57:36	0:06:24	3:52:25	Ireland	
+	179	Quentin Duquenne	M	M45-49	24	10:59:46	0:55:45	0:05:07	6:01:27	0:06:03	3:51:25	France	
+	180	Bjarne Husted	M	M45-49	25	11:00:05	1:02:40	0:06:34	5:52:29	0:08:08	3:50:14	Denmark	
+	181	Ricard Balague Cava	M	M45-49	26	11:00:52	1:02:27	0:05:07	5:47:48	0:06:07	3:59:23	Spain	
+	182	Alun Hanford	M	M40-44	30	11:01:18	1:00:24	0:02:54	6:15:19	0:07:22	3:35:18	United Kingdom	
+	183	Larissa Vogt	F	F30-34	3	11:01:52	1:03:01	0:04:35	6:03:58	0:06:38	3:43:41	Switzerland	
+	184	Arnaud Bouvier	M	M60-64	1	11:02:47	1:06:38	0:03:38	6:06:39	0:07:03	3:38:49	France	
+	185	Raúl Ciudad Fernández	M	M45-49	27	11:03:27	1:07:55	0:07:23	6:11:37	0:02:05	3:34:26	Spain	
+	186	Chris Wild	M	M55-59	3	11:03:30	1:03:53	0:04:02	5:59:42	0:05:02	3:50:52	United Kingdom	
+	187	Arturo Menéndez Murias	M	M35-39	25	11:04:10	1:14:47	0:05:21	6:16:19	0:04:39	3:23:03	Spain	
+	188	Vicente Roig Riera	M	M45-49	28	11:04:26	1:04:14	0:05:22	5:42:29	0:06:08	4:06:13	Spain	
+	189	Carlos Garcia Rufo	M	M30-34	28	11:05:07	0:57:18	0:04:13	5:38:55	0:01:27	4:23:14	Spain	
+	190	Alexandra Vano	F	F35-39	1	11:05:23	1:03:12	0:04:58	6:09:23	0:05:13	3:42:36	France	
+	191	Dirk Müller	M	M55-59	4	11:05:51	1:01:41	0:04:25	6:20:22	0:01:23	3:37:58	Germany	
+	192	Manlio Falavigna	M	M50-54	15	11:06:00	1:08:26	0:06:31	5:54:24	0:08:06	3:48:32	Brazil	
+	193	Giorgos Mitropapas	M	M55-59	5	11:06:42	1:00:45	0:06:10	6:14:01	0:01:19	3:44:27	Greece	
+	194	Felix Metje	M	M35-39	26	11:07:04	1:03:35	0:04:12	5:55:55	0:06:41	3:56:41	Germany	
+	195	Toinette Del Castello	F	F40-44	2	11:07:11	1:03:50	0:03:35	6:19:46	0:05:43	3:34:17	South Africa	
+	196	Cosme Pon Palma	M	M45-49	29	11:07:16	0:58:45	0:04:10	6:19:47	0:01:28	3:43:07	Spain	
+	197	ALEXANDRE ARNOUX	M	M50-54	16	11:08:02	1:04:05	0:04:01	6:01:44	0:06:53	3:51:18	France	
+	198	Gregory Narmont	M	M40-44	31	11:08:26	1:08:42	0:05:11	6:00:30	0:06:26	3:47:38	Switzerland	
+	199	Douglas Rocha	M	M45-49	30	11:08:29	1:05:19	0:03:15	6:16:45	0:01:31	3:41:38	Brazil	
+	200	Alessio Leo	M	M45-49	31	11:08:57	1:07:27	0:03:38	6:01:26	0:07:07	3:49:19	Kiribati	
+	201	Martin Chalupa	M	M45-49	32	11:09:32	1:13:47	0:05:25	5:55:33	0:04:53	3:49:54	Czechia	
+	202	Kilian Ley	M	M25-29	22	11:10:37	1:06:02	0:05:29	5:58:11	0:06:19	3:54:35	Belgium	
+	203	Adil Gourari	M	M45-49	33	11:10:46	1:09:03	0:07:13	6:23:12	0:06:15	3:25:04	Morocco	
+	204	Massimo Tiveron	M	M45-49	34	11:10:58	1:05:40	0:05:16	6:12:48	0:04:45	3:42:28	Italy	
+	205	Martin Loughran	M	M30-34	29	11:11:20	1:08:09	0:07:28	6:13:28	0:01:27	3:40:48	Ireland	
+	206	Dee Allen	F	FPRO	11	11:11:30	1:01:20	0:03:14	6:11:11	0:06:41	3:49:04	United Kingdom	
+	207	Olaf Krüger	M	M55-59	6	11:12:16	1:03:15	0:03:36	6:04:06	0:05:31	3:55:48	Germany	
+	208	Maicol Petta	M	M25-29	23	11:12:31	1:08:09	0:03:37	5:37:07	0:07:17	4:16:20	Italy	
+	209	Peter Šimún	M	M45-49	35	11:13:09	1:08:12	0:06:10	6:12:37	0:01:23	3:44:47	Slovakia	
+	210	Paul Timms	M	M45-49	36	11:13:32	1:07:25	0:04:15	6:00:23	0:01:16	4:00:13	United Kingdom	
+	211	Nathan Hampton	M	M25-29	24	11:14:11	1:07:16	0:07:27	6:10:51	0:07:59	3:40:39	United Kingdom	
+	212	Ryhor Zhurauliou	M	M45-49	37	11:14:26	1:05:29	0:04:45	6:07:43	0:04:30	3:52:00	Poland	
+	213	Benno Adelhardt	M	M50-54	17	11:14:29	1:08:43	0:05:59	6:06:04	0:06:58	3:46:44	Germany	
+	214	Estée Chiara Larivière	F	F30-34	4	11:14:45	1:03:10	0:03:29	6:16:35	0:05:56	3:45:35	United Kingdom	
+	215	Andy Pointon	M	M45-49	38	11:16:10	1:03:55	0:04:55	6:07:25	0:05:49	3:54:07	United Kingdom	
+	216	Samuel Rodríguez Caraballo	M	M35-39	27	11:17:28	1:16:14	0:05:08	5:42:43	0:06:12	4:07:11	Spain	
+	217	Don Lapierre	M	M50-54	18	11:17:29	1:08:09	0:08:18	5:58:40	0:06:53	3:55:29	Ireland	
+	218	Olivier Jean	M	M50-54	19	11:18:46	1:05:47	0:05:07	6:22:18	0:04:45	3:40:49	France	
+	219	Jozsef Arnoth	M	M50-54	20	11:18:57	1:07:26	0:06:21	5:59:52	0:07:20	3:57:58	Hungary	
+	220	Simon Rowley	M	M40-44	32	11:19:13	1:07:46	0:06:45	6:17:37	0:07:05	3:40:00	United Kingdom	
+	221	Manu Bermudez Abella	M	M50-54	21	11:19:15	1:04:37	0:07:17	6:16:30	0:07:00	3:43:51	Spain	
+	222	Jose Vicente Vizcaino Sicilia	M	M35-39	28	11:19:36	1:02:04	0:06:43	6:17:13	0:01:20	3:52:17	Spain	
+	223	Juan Antonio Alarcon Rodriguez	M	M35-39	29	11:19:38	0:53:26	0:05:04	6:18:51	0:06:01	3:56:16	Spain	
+	224	David Exposito Muñoz	M	M55-59	7	11:20:15	1:12:45	0:04:58	6:10:10	0:01:26	3:50:57	Spain	
+	225	Alma Quintana Roman	F	F35-39	2	11:20:33	1:06:07	0:04:23	6:28:51	0:04:39	3:36:33	Spain	
+	226	Jerre Van Der Poll	M	M30-34	30	11:20:38	1:02:29	0:03:37	6:26:13	0:07:28	3:40:51	Netherlands	
+	227	Pedro Gaspar	M	M45-49	39	11:20:41	1:01:27	0:05:27	6:21:49	0:07:01	3:44:58	Portugal	
+	228	Marie Hielscher	F	F40-44	3	11:20:49	0:59:26	0:04:24	6:40:59	0:04:39	3:31:22	Germany	
+	229	Jonas Hagh Kjærgaard	M	M25-29	25	11:22:35	1:14:34	0:07:49	6:14:32	0:09:44	3:35:55	Denmark	
+	230	Ben Mitchell	M	M25-29	26	11:22:44	1:05:44	0:06:03	6:18:50	0:06:37	3:45:31	United Kingdom	
+	231	Tatjana Fiedler	F	F40-44	4	11:22:51	1:11:38	0:04:52	6:11:54	0:06:16	3:48:11	Austria	
+	232	Eduardo Gonzalez	M	M45-49	40	11:23:38	0:55:14	0:04:21	6:27:21	0:09:43	3:46:59	Brazil	
+	233	Nicola Liera	M	M60-64	2	11:24:00	1:18:21	0:05:24	6:06:30	0:07:42	3:46:03	Italy	
+	234	Kenny Neison	M	M55-59	8	11:24:04	1:28:03	0:07:25	5:58:21	0:06:52	3:43:23	United Kingdom	
+	235	Fabrice Paumier	M	M50-54	22	11:24:08	1:05:11	0:05:22	6:06:46	0:05:27	4:01:22	France	
+	236	Gerován Abreu	M	M40-44	33	11:24:24	1:05:32	0:05:07	6:07:01	0:01:21	4:05:23	Spain	
+	237	Manuel Aguilar Barrera	M	M25-29	27	11:24:36	0:59:20	0:04:23	6:18:10	0:04:47	3:57:55	Spain	
+	238	Stephen Daniel Grehan Pastor	M	M45-49	41	11:24:51	0:59:03	0:05:02	6:34:03	0:05:10	3:41:32	Spain	
+	239	Carlos Manuel Sánchez Neves	M	M35-39	30	11:24:56	1:05:31	0:09:10	6:08:11	0:01:26	4:00:38	Spain	
+	240	Nicola Hickey-Crowe	F	F40-44	5	11:25:30	1:15:33	0:05:04	6:30:44	0:04:45	3:29:24	Ireland	
+	241	José Vicente García	M	M35-39	31	11:25:32	1:16:27	0:12:22	6:21:08	0:09:22	3:26:14	Spain	
+	242	Pierre Guillaume	M	M60-64	3	11:26:09	1:16:48	0:05:06	6:06:20	0:07:33	3:50:22	France	
+	243	Billy Shepherd	M	M35-39	32	11:26:20	1:14:16	0:09:39	6:10:57	0:09:12	3:42:16	United Kingdom	
+	244	Wim Van Linden	M	M45-49	42	11:26:40	0:59:14	0:03:35	6:07:59	0:01:09	4:14:42	Belgium	
+	245	Lukas Jufer	M	M50-54	23	11:26:55	1:09:47	0:05:05	6:16:29	0:08:06	3:47:27	Switzerland	
+	246	Bogdan Adrian Pastrav	M	M40-44	34	11:27:05	1:14:18	0:07:47	6:32:25	0:08:52	3:23:42	Romania	
+	247	Thomas Becaud	M	M35-39	33	11:27:40	1:03:08	0:04:40	6:20:13	0:05:49	3:53:50	France	
+	248	Sebastian Michels	M	M50-54	24	11:28:25	1:08:54	0:05:46	6:25:32	0:08:24	3:39:49	Austria	
+	249	Frederico Sáragga	M	M18-24	7	11:28:31	1:03:31	0:04:25	6:25:05	0:07:15	3:48:15	Portugal	
+	250	Victor Souto	M	M45-49	43	11:28:48	1:08:15	0:04:07	6:15:46	0:01:15	3:59:25	Spain	
+	251	Nacho Nieto Sanchez	M	M40-44	35	11:29:01	1:04:05	0:05:47	6:18:09	0:01:24	3:59:36	Spain	
+	252	Steve Clift	M	M50-54	25	11:29:29	1:09:19	0:05:08	6:04:23	0:01:26	4:09:13	United Kingdom	
+	253	Alejandra Gomez-Ulla	F	F40-44	6	11:29:41	1:04:25	0:04:55	6:33:05	0:06:23	3:40:52	Spain	
+	254	David Soler Grima	M	M50-54	26	11:29:44	1:10:14	0:05:17	6:04:54	0:01:47	4:07:31	Spain	
+	255	Manel Alvarez López	M	M45-49	44	11:29:58	1:04:29	0:05:46	6:35:38	0:05:47	3:38:18	Spain	
+	256	Iris Van Der Staak	F	F35-39	3	11:30:14	1:03:15	0:02:53	6:10:59	0:04:11	4:08:57	Netherlands	
+	257	Pascal Zimmermann	M	M55-59	9	11:31:06	1:01:05	0:03:50	6:24:24	0:06:23	3:55:26	Switzerland	
+	258	Pedro Echevarria	M	M45-49	45	11:31:44	1:07:03	0:04:15	5:56:10	0:05:49	4:18:27	Spain	
+	259	Ruud Roemersma	M	M40-44	36	11:31:52	1:15:32	0:08:46	6:16:11	0:08:14	3:43:09	Netherlands	
+	260	Arnaud Chevallier	M	M50-54	27	11:32:12	1:14:56	0:05:52	6:26:20	0:06:41	3:38:22	France	
+	261	Aart Goede	M	M25-29	28	11:32:33	0:59:28	0:03:22	6:18:04	0:06:15	4:05:24	Netherlands	
+	262	PABLO ROJO FRESNEDA	M	M30-34	31	11:32:41	1:08:59	0:05:46	6:30:43	0:05:40	3:41:33	Spain	
+	263	Neil Rubotham	M	M40-44	37	11:32:43	0:58:34	0:04:00	6:14:45	0:09:47	4:05:38	Ireland	
+	264	Ken Donohoe	M	M40-44	38	11:33:20	1:16:35	0:08:08	6:14:39	0:08:04	3:45:55	Ireland	
+	265	Rodrigo Garcia Delgado	M	M30-34	32	11:34:40	1:06:18	0:09:24	6:04:28	0:08:42	4:05:48	Spain	
+	266	Konstantinos Kostimpas	M	M50-54	28	11:35:09	1:02:23	0:07:02	6:31:02	0:06:38	3:48:04	Greece	
+	267	Kenneth Mckenzie	M	M50-54	29	11:35:14	1:06:16	0:04:47	6:12:39	0:01:38	4:09:53	United Kingdom	
+	268	Maxime Bocquet	M	M35-39	34	11:35:22	1:10:10	0:05:54	6:29:00	0:04:30	3:45:48	France	
+	269	Michael Zantelid	M	M50-54	30	11:36:08	1:06:54	0:05:57	6:08:24	0:06:08	4:08:44	Sweden	
+	270	Ian Wilson	M	M45-49	46	11:36:10	1:01:28	0:02:55	5:53:00	0:07:03	4:31:44	United Kingdom	
+	271	David Eichler	M	M35-39	35	11:36:31	1:06:28	0:04:33	5:53:52	0:07:55	4:23:43	France	
+	272	Alberto Rando Romero	M	M45-49	47	11:36:32	1:10:40	0:06:11	6:29:24	0:06:17	3:44:00	Spain	
+	273	Dan Buckley	M	M35-39	36	11:37:18	1:08:13	0:06:10	6:15:56	0:07:32	3:59:27	Ireland	
+	274	Gerardo De Armas Gonzalez	M	M50-54	31	11:38:05	1:12:22	0:05:06	6:37:28	0:05:52	3:37:18	Spain	
+	275	Carlos Alberto Meana Martinez	M	M45-49	48	11:38:05	0:53:27	0:04:43	6:06:52	0:01:19	4:31:44	Spain	
+	276	Jonathan Vassallo	M	M45-49	49	11:38:36	1:09:55	0:06:49	6:31:00	0:07:56	3:42:57	Malta	
+	277	Jan Ginovsky	M	M25-29	29	11:38:36	0:59:01	0:04:15	6:05:01	0:05:10	4:25:09	Slovakia	
+	278	Laurentiu Vladan	M	M45-49	50	11:38:37	1:14:09	0:05:24	6:23:46	0:05:50	3:49:29	Romania	
+	279	Paul Thomas	M	M55-59	10	11:38:44	1:04:32	0:05:13	6:38:37	0:06:58	3:43:25	United Kingdom	
+	280	David Garcia Llama	M	M45-49	51	11:38:45	1:11:47	0:05:26	6:36:51	0:08:05	3:36:36	Spain	
+	281	Beate Van Loo-Born	F	F45-49	1	11:39:13	1:17:37	0:06:21	6:16:47	0:07:17	3:51:10	Switzerland	
+	282	Knud Schneider	M	M55-59	11	11:39:27	1:08:59	0:06:30	6:12:04	0:10:14	4:01:41	Germany	
+	283	Glyn Tallon	M	M50-54	32	11:39:27	1:11:01	0:11:27	6:11:00	0:07:28	3:58:31	Ireland	
+	284	Nikola Perovic	M	M35-39	37	11:39:29	1:02:29	0:05:28	6:30:39	0:05:51	3:55:03	Serbia	
+	285	Lasse Hvistendal	M	M45-49	52	11:39:36	1:09:49	0:05:09	6:17:26	0:06:52	4:00:20	Denmark	
+	286	Roberto Lopez Ceca	M	M45-49	53	11:39:58	1:10:41	0:05:05	6:16:45	0:07:37	3:59:52	Spain	
+	287	JUAN CARLOS JIMENEZ  ESTEFA	M	M55-59	12	11:40:10	1:06:31	0:05:59	6:25:13	0:05:33	3:56:54	Spain	
+	288	Moises Hdez Ramirez	M	M50-54	33	11:40:35	1:05:55	0:03:04	6:26:51	0:07:05	3:57:40	Spain	
+	289	JAVIER TAVIO LUZARDO	M	M25-29	30	11:40:40	1:01:34	0:04:47	6:39:03	0:06:46	3:48:30	Spain	
+	290	Christian Bodach	M	M45-49	54	11:40:57	1:00:08	0:07:21	6:38:08	0:10:13	3:45:07	Germany	
+	291	Jed Leaver	M	M30-34	33	11:41:07	1:04:48	0:03:57	6:17:14	0:06:53	4:08:16	United Kingdom	
+	292	Lars Diepenhorst	M	M18-24	8	11:41:08	1:05:50	0:04:56	5:47:10	0:06:02	4:37:10	Netherlands	
+	293	Stuart Hadley	M	M50-54	34	11:41:09	1:09:25	0:06:57	6:44:24	0:09:10	3:31:14	United Kingdom	
+	294	Roberto Muò	M	M50-54	35	11:41:16	1:02:40	0:06:24	6:41:20	0:08:29	3:42:23	Italy	
+	295	Daniele Fabrizio	M	M35-39	38	11:41:27	1:05:48	0:04:36	6:39:07	0:06:17	3:45:38	Italy	
+	296	Juan Pablo Coronado Delgado	M	M30-34	34	11:41:47	1:09:45	0:09:38	6:38:53	0:06:48	3:36:43	Colombia	
+	297	Axier Iturriza Aizpurua	M	M35-39	39	11:42:04	1:06:31	0:04:53	6:32:08	0:05:34	3:52:58	Spain	
+	298	Håvard Svastuen	M	M25-29	31	11:42:06	1:15:26	0:08:14	6:20:16	0:08:19	3:49:50	Norway	
+	299	Álvaro Pedraz Prieto	M	M35-39	40	11:42:28	1:07:34	0:06:27	6:57:05	0:05:35	3:25:48	Spain	
+	300	Andréas Courtial	M	M35-39	41	11:42:29	1:00:10	0:05:13	6:30:22	0:01:23	4:05:21	France	
+	301	Pablo Galera Navarro	M	M30-34	35	11:43:02	1:16:03	0:08:51	6:48:34	0:08:24	3:21:10	Spain	
+	302	Henrik Christensen	M	M50-54	36	11:43:17	1:12:51	0:03:40	6:06:45	0:05:16	4:14:45	Denmark	
+	303	Stuart Greening	M	M35-39	42	11:43:47	1:04:10	0:08:17	6:27:56	0:08:25	3:54:58	United Kingdom	
+	304	Nicolas Vega	M	M25-29	32	11:43:59	1:08:31	0:04:26	6:21:17	0:06:44	4:03:01	France	
+	305	Allan De Wispelaere	M	M50-54	37	11:44:09	1:06:23	0:04:55	6:07:43	0:06:12	4:18:56	Belgium	
+	306	Paul Grabowski	M	M50-54	38	11:44:15	1:09:40	0:05:55	6:15:43	0:06:38	4:06:19	United Kingdom	
+	307	Iñigo Dalmau Sanchez	M	M25-29	33	11:44:31	1:03:25	0:08:11	6:35:02	0:07:19	3:50:34	Spain	
+	308	Tomas Petr	M	M55-59	13	11:44:36	0:55:42	0:04:51	6:13:20	0:01:37	4:29:07	Czechia	
+	309	David Abrio Gómez	M	M40-44	39	11:45:01	1:18:03	0:07:32	6:31:43	0:08:07	3:39:37	Spain	
+	310	Liliána Szávai	F	F30-34	5	11:45:06	1:00:49	0:03:21	6:38:38	0:05:37	3:56:42	Hungary	
+	311	Denis Sabba	M	M50-54	39	11:45:14	1:13:49	0:05:54	6:33:46	0:05:57	3:45:48	Italy	
+	312	Carl Wright	M	M45-49	55	11:45:14	1:10:37	0:06:09	6:13:03	0:05:50	4:09:35	United Kingdom	
+	313	Radoslaw Andrzejewski	M	M30-34	36	11:45:38	1:10:48	0:04:14	6:22:36	0:04:29	4:03:31	Poland	
+	314	Philippe Simon	M	M55-59	14	11:46:02	1:18:31	0:05:46	6:13:04	0:06:41	4:02:00	France	
+	315	Annick De Pooter	F	F45-49	2	11:46:08	1:01:45	0:05:26	6:22:51	0:01:17	4:14:49	Belgium	
+	316	Francesca Ravazzolo	F	F35-39	4	11:46:42	1:07:26	0:03:43	6:25:04	0:04:51	4:05:37	Italy	
+	317	Giuseppe Pastore	M	M30-34	37	11:47:07	1:15:19	0:07:00	6:33:27	0:07:46	3:43:36	Italy	
+	318	Carl-Emil Hartmann	M	M18-24	9	11:47:38	1:02:28	0:04:29	6:28:06	0:06:12	4:06:22	Denmark	
+	319	Jakob Bulcaen	M	M18-24	10	11:48:09	1:04:04	0:04:54	6:07:31	0:06:57	4:24:43	Belgium	
+	320	Jose Luis González Rodríguez	M	M45-49	56	11:49:25	1:03:17	0:06:04	6:38:33	0:07:15	3:54:15	Spain	
+	321	Annick Boehler	F	F30-34	6	11:50:14	1:06:45	0:04:02	6:12:34	0:04:17	4:22:36	Germany	
+	322	Richard Tuitel	M	M40-44	40	11:50:29	1:16:18	0:06:53	6:41:25	0:06:24	3:39:29	Netherlands	
+	323	Markus Engler	M	M50-54	40	11:50:42	1:14:54	0:07:30	6:19:09	0:08:09	4:01:00	Switzerland	
+	324	Jacobo Rein	M	M30-34	38	11:50:42	1:02:19	0:04:49	7:03:23	0:06:58	3:33:13	Spain	
+	325	Santi Calderon	M	M50-54	41	11:50:51	1:11:28	0:04:41	6:37:37	0:06:54	3:50:11	Luxembourg	
+	326	Francesco De Cillis	M	M40-44	41	11:50:53	1:02:05	0:06:20	6:31:00	0:05:56	4:05:33	Italy	
+	327	Jack Whitelegg	M	M50-54	42	11:51:17	1:08:32	0:05:05	6:27:14	0:06:02	4:04:23	United Kingdom	
+	328	Paul Berry	M	M55-59	15	11:52:07	1:07:34	0:04:58	6:42:08	0:07:46	3:49:41	United Kingdom	
+	329	Benoit Buffet	M	M50-54	43	11:52:17	1:02:29	0:05:56	6:27:02	0:06:44	4:10:06	France	
+	330	Sean Haddock	M	M45-49	57	11:52:28	1:16:36	0:10:57	6:13:20	0:08:13	4:03:22	United Kingdom	
+	331	Mario Karcher	M	M60-64	4	11:52:53	1:10:52	0:05:12	6:29:55	0:06:38	4:00:17	Germany	
+	332	Ludolf Reijntjes	M	M60-64	5	11:52:56	1:11:39	0:06:12	6:34:24	0:06:11	3:54:31	Netherlands	
+	333	Ian McCrae	M	M40-44	42	11:54:41	1:01:57	0:04:17	6:20:49	0:06:01	4:21:37	United Kingdom	
+	334	Irina Roppelt	F	F40-44	7	11:54:50	1:21:12	0:06:04	6:20:15	0:06:31	4:00:47	Germany	
+	335	Sacha Rosenthal	M	M55-59	16	11:54:56	1:12:01	0:06:28	6:34:27	0:08:25	3:53:35	France	
+	336	Jorge Rey	M	M45-49	58	11:55:23	1:07:41	0:07:29	6:37:21	0:08:47	3:54:04	Spain	
+	337	Joerg Arpke	M	M55-59	17	11:55:29	1:02:02	0:03:53	6:27:11	0:07:58	4:14:25	Switzerland	
+	338	Mathieu Raillard	M	M40-44	43	11:55:30	1:04:51	0:06:01	6:40:51	0:07:14	3:56:34	France	
+	339	Michael König	M	M40-44	44	11:55:59	1:23:19	0:08:00	6:25:00	0:05:45	3:53:56	Austria	
+	340	Luis Manuel Díaz García	M	M40-44	45	11:56:14	1:03:12	0:04:54	6:27:15	0:06:49	4:14:04	Spain	
+	341	Matthew Pemberton	M	M50-54	44	11:56:37	1:03:28	0:07:20	6:23:35	0:09:14	4:13:00	United Kingdom	
+	342	Martin Krogh	M	M25-29	34	11:56:40	1:11:00	0:06:52	6:32:25	0:07:28	3:58:55	Denmark	
+	343	Alexander Loudon	M	M35-39	43	11:57:25	1:08:15	0:06:22	6:20:12	0:06:56	4:15:41	United Kingdom	
+	344	Ronny Kynes	M	M40-44	46	11:57:58	1:19:37	0:05:57	6:37:56	0:05:22	3:49:06	United Kingdom	
+	345	Laurens Van Dyck	M	M30-34	39	11:57:58	1:05:38	0:05:15	6:26:24	0:07:22	4:13:19	Belgium	
+	346	Hieronim Czarnecki	M	M30-34	40	11:59:10	1:05:41	0:04:38	6:21:32	0:07:45	4:19:34	Poland	
+	347	Diogo Cymbron	M	M50-54	45	11:59:22	1:15:20	0:04:06	6:22:42	0:07:23	4:09:51	Portugal	
+	348	Rasmus Michelsen	M	M30-34	41	11:59:39	1:08:49	0:04:16	6:29:31	0:04:49	4:12:14	Denmark	
+	349	Claus Schwenold	M	M40-44	47	11:59:51	1:18:26	0:12:14	6:15:47	0:07:16	4:06:09	Germany	
+	350	Edgar Arellano	M	M50-54	46	11:59:57	1:06:59	0:04:09	6:35:19	0:06:47	4:06:43	Mexico	
+	351	Ronan Murtagh	M	M40-44	48	12:00:15	1:15:01	0:06:42	6:23:50	0:12:51	4:01:50	Ireland	
+	352	Rafael Ballesteros Canelo	M	M50-54	47	12:00:19	1:06:30	0:03:43	6:48:29	0:05:44	3:55:52	Spain	
+	353	Alexis Callero Hernandez	M	M45-49	59	12:00:53	1:10:18	0:06:28	6:30:09	0:08:33	4:05:25	Spain	
+	354	Carlos Antonio Calzadilla González	M	M35-39	44	12:00:59	1:05:09	0:03:52	6:37:14	0:08:08	4:06:38	Spain	
+	355	Jamie Dickerson	M	M35-39	45	12:01:05	1:17:57	0:06:08	6:31:23	0:08:32	3:57:05	United Kingdom	
+	356	ANTONIO MORANT ARILLA	M	M45-49	60	12:01:12	1:10:30	0:08:23	6:33:49	0:09:21	3:59:09	Spain	
+	357	Kevin Grezes	M	M40-44	49	12:01:13	1:09:49	0:06:46	6:30:42	0:07:57	4:05:59	France	
+	358	David Ritscher	M	M40-44	50	12:01:14	1:04:48	0:04:35	6:56:54	0:07:23	3:47:34	Germany	
+	359	Patricia Agustín	F	F25-29	2	12:01:30	1:04:27	0:04:00	6:55:49	0:05:22	3:51:52	Spain	
+	360	Alberto Grovas Fieital	M	M45-49	61	12:01:34	1:13:39	0:06:44	6:38:52	0:08:34	3:53:44	Spain	
+	361	Andrea Pancani	M	M40-44	51	12:01:43	1:01:53	0:07:11	6:20:30	0:01:31	4:30:38	Italy	
+	362	Daniel Barraclough	M	M30-34	42	12:01:52	0:52:14	0:03:43	6:08:25	0:10:57	4:46:32	United Kingdom	
+	363	Ignacio Susinos Sancho	M	M45-49	62	12:01:53	1:05:07	0:07:41	6:19:21	0:13:46	4:15:57	Spain	
+	364	Thomas Beirnaert	M	M45-49	63	12:02:00	1:17:19	0:05:59	6:46:32	0:07:33	3:44:38	Belgium	
+	365	Matheus Rippel	M	M30-34	43	12:02:04	1:03:17	0:06:25	6:39:33	0:08:31	4:04:17	Brazil	
+	366	MOUTON THIERRY	M	M50-54	48	12:02:29	1:02:45	0:05:30	6:12:45	0:05:32	4:35:56	France	
+	367	HENRY MARCELO VEGA  BARRIGA	M	M45-49	64	12:02:47	1:12:35	0:08:34	6:25:12	0:08:53	4:07:34	Ecuador	
+	368	David Vaz Villamarin	M	M45-49	65	12:02:52	1:15:56	0:09:27	6:17:14	0:13:31	4:06:44	Spain	
+	369	Sven Maier	M	M50-54	49	12:02:59	1:07:05	0:05:38	6:12:53	0:06:04	4:31:19	Switzerland	
+	370	Niels Hoogveld	M	M45-49	66	12:03:40	1:00:06	0:08:34	6:38:56	0:06:52	4:09:12	Netherlands	
+	371	Brian Maher	M	M35-39	46	12:05:12	1:05:13	0:05:56	6:35:28	0:05:57	4:12:38	Ireland	
+	372	Ander Mattin De La Peña Alday	M	M40-44	52	12:05:30	1:10:55	0:05:59	6:57:17	0:06:31	3:44:48	Spain	
+	373	Claire Cook	F	F45-49	3	12:05:31	1:15:39	0:05:16	6:44:07	0:07:16	3:53:13	United Kingdom	
+	374	Sergey Irodov	M	M35-39	47	12:05:34	1:14:45	0:03:17	6:18:03	0:04:19	4:25:10	Cyprus	
+	375	Dave Helfensteyn	M	M45-49	67	12:06:00	1:00:36	0:04:40	6:00:32	0:07:00	4:53:12	Belgium	
+	376	Mark Daly	M	M45-49	68	12:06:11	1:13:37	0:04:52	6:45:06	0:08:25	3:54:11	Ireland	
+	377	Oliver Lengen	M	M40-44	53	12:06:20	1:07:06	0:04:38	6:33:23	0:05:59	4:15:13	Switzerland	
+	378	Alfonso Monclus	M	M50-54	50	12:06:30	1:14:25	0:08:55	6:43:43	0:06:44	3:52:44	Spain	
+	379	Remo Meierhofer	M	M45-49	69	12:06:32	1:01:14	0:06:38	6:39:07	0:07:40	4:11:53	Switzerland	
+	380	Kjartan Elias	M	M35-39	48	12:06:43	1:10:48	0:06:22	6:56:58	0:06:26	3:46:08	Norway	
+	381	Hank Mees	M	M55-59	18	12:07:13	1:15:08	0:05:27	6:13:00	0:06:25	4:27:13	Belgium	
+	382	Stuart Helm	M	M35-39	49	12:07:21	1:14:53	0:09:49	6:52:03	0:09:10	3:41:25	United Kingdom	
+	383	José Manuel Martínez Amador	M	M40-44	54	12:07:33	1:15:30	0:05:28	6:22:37	0:07:21	4:16:37	Spain	
+	384	Marc Cadena	M	M45-49	70	12:07:41	1:05:52	0:05:48	6:27:30	0:08:20	4:20:11	Spain	
+	385	Tessa Bergsma	F	F25-29	3	12:08:12	1:14:11	0:06:10	6:41:52	0:08:30	3:57:30	Netherlands	
+	386	Gary Richards	M	M40-44	55	12:08:22	1:04:57	0:05:03	6:32:22	0:08:10	4:17:50	United Kingdom	
+	387	Juanmi Morales	M	M30-34	44	12:08:34	1:07:49	0:05:43	6:52:08	0:08:37	3:54:17	Spain	
+	388	Meinhard Vintler	M	M45-49	71	12:08:56	1:05:54	0:09:11	6:37:17	0:10:24	4:06:10	Austria	
+	389	Pol Montaner Minguet	M	M25-29	35	12:09:27	1:03:56	0:07:47	6:40:35	0:09:53	4:07:16	Spain	
+	390	Andrea Danelli	M	M45-49	72	12:09:46	1:10:33	0:04:58	6:57:02	0:07:36	3:49:37	Italy	
+	391	Alejandro Morales Gil	M	M50-54	51	12:10:15	1:08:12	0:06:49	6:40:01	0:08:58	4:06:16	Spain	
+	392	Candice Berman	F	F30-34	7	12:10:45	1:20:55	0:05:21	6:47:18	0:07:31	3:49:39	South Africa	
+	393	-Redacted-	M	M50-54	52	12:10:57	1:05:14	0:05:35	6:34:52	0:05:52	4:19:25	-Redacted-	
+	394	Fabian Kochli	M	M35-39	50	12:11:25	1:20:12	0:06:52	6:44:35	0:10:06	3:49:41	Switzerland	
+	395	Andrea Guidetti	M	M40-44	56	12:11:27	1:02:03	0:03:45	6:49:28	0:06:08	4:10:03	Italy	
+	396	Carlos Fernández Jimenez	M	M25-29	36	12:11:36	1:17:08	0:10:30	6:50:52	0:10:46	3:42:20	Spain	
+	397	Michael Nyholm	M	M55-59	19	12:12:41	1:10:48	0:06:43	6:25:53	0:07:03	4:22:14	Denmark	
+	398	Thomas Manzi	M	M30-34	45	12:12:54	1:03:23	0:08:50	6:36:14	0:08:06	4:16:22	Italy	
+	399	Tom Scherpenhuizen	M	M35-39	51	12:13:39	1:14:05	0:12:05	6:42:19	0:08:27	3:56:43	Netherlands	
+	400	Eduardo Cabello Acevedo	M	M30-34	46	12:14:06	1:07:07	0:03:23	6:24:17	0:07:47	4:31:32	Spain	
+	401	Manuel González Santos	M	M40-44	57	12:14:43	1:00:42	0:07:20	6:31:01	0:06:34	4:29:06	Spain	
+	402	Brendon Parry	M	M40-44	58	12:15:10	1:02:34	0:03:49	6:06:39	0:05:29	4:56:39	United Kingdom	
+	403	Brian Hetherington	M	M45-49	73	12:15:32	1:13:57	0:07:35	6:22:26	0:08:29	4:23:05	United States	
+	404	Peter Borst	M	M45-49	74	12:15:41	1:08:16	0:06:13	6:25:30	0:06:51	4:28:51	Netherlands	
+	405	Daniel Guerra Luis	M	M30-34	47	12:16:10	0:59:13	0:03:20	7:01:57	0:07:30	4:04:10	Spain	
+	406	Yevheniia Ovcharenko	F	F40-44	8	12:16:22	1:14:03	0:05:00	7:03:49	0:10:34	3:42:56	Ukraine	
+	407	Billy Conlin	M	M55-59	20	12:16:39	1:08:05	0:08:00	6:46:30	0:10:10	4:03:54	United Kingdom	
+	408	Thomas Nares	M	M35-39	52	12:16:51	1:15:00	0:05:22	6:19:23	0:08:46	4:28:20	France	
+	409	Ramon Alcala Barbera	M	M40-44	59	12:17:23	1:15:36	0:03:38	6:45:10	0:06:39	4:06:19	Spain	
+	410	Ivan Perez	M	M30-34	48	12:17:39	1:06:06	0:05:01	6:45:04	0:05:39	4:15:49	Spain	
+	411	arlindo Tavares	M	M55-59	21	12:17:51	1:00:22	0:03:25	6:52:02	0:07:10	4:14:51	Portugal	
+	412	Chris Dennington	M	M35-39	53	12:18:43	1:10:00	0:12:30	6:40:42	0:09:19	4:06:12	United Kingdom	
+	413	Paul Gibson	M	M50-54	53	12:19:06	1:17:35	0:09:54	6:29:55	0:09:44	4:11:58	United Kingdom	
+	414	Joël Arnosti	M	M30-34	49	12:19:33	1:09:13	0:07:08	6:24:44	0:11:01	4:27:27	Switzerland	
+	415	Ines Sandbote	F	F50-54	1	12:19:40	1:04:54	0:04:41	6:54:08	0:08:20	4:07:38	Germany	
+	416	David Allemann	M	M40-44	60	12:19:43	1:05:18	0:05:49	6:30:10	0:10:59	4:27:28	Switzerland	
+	417	Barbora Šimková	F	F30-34	8	12:19:49	1:08:24	0:04:28	6:32:46	0:06:22	4:27:49	Czechia	
+	418	Darren Roche	M	M50-54	54	12:20:13	1:06:53	0:05:34	6:36:28	0:08:39	4:22:40	United Kingdom	
+	419	Lewis White	M	M35-39	54	12:20:44	1:07:23	0:08:21	6:55:52	0:07:18	4:01:50	United Kingdom	
+	420	Nieves Gemio Rodríguez	F	F35-39	5	12:20:56	1:12:30	0:03:24	6:54:08	0:05:21	4:05:32	Spain	
+	421	Gabriele Sonzogni	M	M50-54	55	12:21:04	1:17:37	0:07:08	6:30:57	0:08:57	4:16:26	Italy	
+	422	Kris Bevers	M	M55-59	22	12:21:55	1:14:25	0:05:14	6:52:48	0:08:34	4:00:55	Belgium	
+	423	Christoph Menk	M	M40-44	61	12:22:09	0:50:08	0:08:17	6:02:29	0:01:39	5:19:36	Germany	
+	424	Arguin Doramas García Bravo	M	M25-29	37	12:22:24	1:12:05	0:07:18	6:46:00	0:07:12	4:09:50	Spain	
+	425	Wilhelm Schweiger	M	M65-69	1	12:22:31	1:09:59	0:04:50	6:38:52	0:07:57	4:20:53	Germany	
+	426	Samir Moussadyk	M	M45-49	75	12:22:34	1:04:48	0:04:38	6:43:28	0:08:37	4:21:02	Morocco	
+	427	David Carney	M	M40-44	62	12:22:42	1:18:49	0:07:34	6:59:53	0:08:36	3:47:51	Ireland	
+	428	Mathieu Brument	M	M40-44	63	12:22:52	1:11:50	0:06:02	6:17:03	0:06:18	4:41:38	France	
+	429	Cian Daniel Jones	M	M18-24	11	12:23:00	1:12:11	0:06:38	6:13:31	0:08:12	4:42:28	United Kingdom	
+	430	Danilo Martini	M	M30-34	50	12:23:14	1:04:16	0:11:07	6:58:19	0:12:44	3:56:48	Italy	
+	431	Stuart Thompson	M	M30-34	51	12:23:17	1:15:42	0:08:34	6:33:32	0:09:07	4:16:21	Ireland	
+	432	Juan José Ruiz Acevedo	M	M45-49	76	12:23:20	1:05:46	0:08:41	6:42:21	0:09:54	4:16:37	Spain	
+	433	Joachim Prinz	M	M55-59	23	12:23:41	1:16:19	0:07:18	6:53:46	0:07:47	3:58:31	Germany	
+	434	Maria Paula Moreno	F	F35-39	6	12:23:53	1:11:03	0:05:55	6:58:53	0:11:53	3:56:09	Colombia	
+	435	Alejandro Caraballo Garcia	M	M30-34	52	12:24:01	1:04:36	0:03:43	6:13:06	0:06:51	4:55:44	Spain	
+	436	Sébastien LEMARCHAND	M	M50-54	56	12:24:02	1:08:19	0:07:08	6:25:57	0:06:34	4:36:03	France	
+	437	John Crossland	M	M50-54	57	12:24:18	1:10:09	0:08:08	6:07:46	0:09:18	4:48:57	United Kingdom	
+	438	Juan Carlos Callejas	M	M55-59	24	12:24:22	1:13:49	0:06:05	7:13:35	0:11:33	3:39:20	Spain	
+	439	Christoph Havixbeck	M	M40-44	64	12:24:26	1:00:28	0:03:00	5:51:31	0:06:36	5:22:50	Germany	
+	440	Ashley Lowe	M	M35-39	55	12:24:29	1:24:25	0:06:19	6:35:40	0:08:11	4:09:53	United Kingdom	
+	441	Matthieu Fosse	M	M50-54	58	12:24:41	1:12:06	0:08:10	6:29:10	0:07:01	4:28:15	France	
+	442	Roger Jorda Garcia	M	M40-44	65	12:24:52	1:14:01	0:08:02	6:54:22	0:07:16	4:01:12	Spain	
+	443	Oscar Gomez Gomez	M	M45-49	77	12:25:12	1:10:39	0:06:27	6:55:41	0:06:30	4:05:56	Spain	
+	444	Gabriel Carrari	M	M40-44	66	12:25:24	1:10:09	0:05:37	6:53:14	0:07:40	4:08:44	Argentina	
+	445	Fiorenzo Lamura	M	M45-49	78	12:25:49	1:19:13	0:05:33	6:40:40	0:09:03	4:11:19	Italy	
+	446	Niklas Snefuglli Hansen	M	M18-24	12	12:26:16	1:25:46	0:09:18	6:52:11	0:07:05	3:51:56	Norway	
+	447	Rudi Van Aelst	M	M60-64	6	12:26:23	1:07:06	0:05:40	6:55:08	0:07:38	4:10:51	Belgium	
+	448	Hannah Pepler	F	F30-34	9	12:26:23	1:09:59	0:05:04	7:13:01	0:05:08	3:53:11	United Kingdom	
+	449	Albert Oliveras Llunell	M	M45-49	79	12:26:51	1:06:20	0:07:23	6:39:15	0:09:21	4:24:32	Spain	
+	450	Gavin Milroy	M	M60-64	7	12:26:52	1:10:46	0:06:22	7:13:16	0:06:41	3:49:46	United Kingdom	
+	451	Thomas Bachmann	M	M40-44	67	12:26:52	1:18:28	0:10:06	6:36:46	0:06:05	4:15:28	Germany	
+	452	Sara Owczarczak-Garstecka	F	F35-39	7	12:27:36	1:04:50	0:05:37	6:51:12	0:06:46	4:19:11	Poland	
+	453	Ross Crombie	M	M50-54	59	12:28:02	1:14:53	0:09:56	7:01:51	0:12:36	3:48:47	United Kingdom	
+	454	Andy Lakeland	M	M55-59	25	12:28:17	1:16:41	0:07:32	6:58:08	0:08:24	3:57:32	United Kingdom	
+	455	Dmytro Teslenko	M	M40-44	68	12:28:45	1:34:31	0:08:06	6:51:08	0:08:23	3:46:37	Ukraine	
+	456	Brandon Saavedra	M	M30-34	53	12:28:52	1:19:16	0:06:52	6:24:56	0:05:08	4:32:39	Spain	
+	457	Gary Stone	M	M40-44	69	12:29:08	1:10:39	0:05:56	6:16:13	0:11:02	4:45:18	United Kingdom	
+	458	Ricardo Nagen	M	M30-34	54	12:29:37	1:05:53	0:08:58	7:16:42	0:12:37	3:45:27	United States	
+	459	EMILIO SANCHEZ TREBINO	M	M40-44	70	12:29:38	1:09:38	0:06:52	6:52:58	0:09:46	4:10:25	Argentina	
+	460	André Kather	M	M40-44	71	12:29:45	1:18:03	0:04:21	6:29:57	0:05:53	4:31:32	Germany	
+	461	Philip Wrobel	M	M25-29	38	12:30:27	1:15:06	0:10:07	6:36:00	0:10:23	4:18:52	Germany	
+	462	Sébastien Chanteau	M	M45-49	80	12:30:43	1:18:54	0:12:11	6:42:09	0:10:23	4:07:06	France	
+	463	George Allen	M	M30-34	55	12:31:15	0:58:22	0:05:10	6:43:41	0:08:41	4:35:21	United Kingdom	
+	464	Jamie Burridge	M	M45-49	81	12:31:36	1:09:52	0:07:46	6:59:05	0:10:11	4:04:42	United Kingdom	
+	465	Federico Terzoni	M	M50-54	60	12:31:41	1:21:59	0:07:38	6:37:15	0:07:57	4:16:51	Italy	
+	466	Johan Pauwels	M	M55-59	26	12:32:27	1:04:45	0:05:00	6:08:40	0:08:19	5:05:43	Belgium	
+	467	Alison Buckley	F	M55-59	27	12:32:59	1:12:42	0:06:08	6:37:24	0:11:31	4:25:14	United Kingdom	
+	468	Johanna Bardill	F	F25-29	4	12:33:44	1:14:20	0:05:36	7:00:49	0:06:35	4:06:24	Switzerland	
+	469	Valeria Sesto	F	F50-54	2	12:33:46	1:12:01	0:05:41	7:21:06	0:07:04	3:47:54	Argentina	
+	470	faetani paolo	M	M45-49	82	12:34:03	1:18:02	0:06:59	7:01:08	0:07:52	4:00:01	Italy	
+	471	Sean Smith	M	M30-34	56	12:34:24	1:09:30	0:06:53	6:49:56	0:08:09	4:19:57	United Kingdom	
+	472	Casper Moesgaard Pedersen	M	M25-29	39	12:35:17	1:08:41	0:06:27	6:43:10	0:07:39	4:29:20	Denmark	
+	473	Stephen Crook	M	M55-59	28	12:35:24	1:18:53	0:05:36	6:44:31	0:11:45	4:14:40	United Kingdom	
+	474	Tomas Martinez Garcia	M	M45-49	83	12:35:57	1:14:00	0:05:38	6:44:36	0:08:13	4:23:30	Spain	
+	475	Sheila Jordan Santaella	F	F30-34	10	12:36:00	1:02:13	0:05:24	7:12:41	0:06:41	4:09:02	Spain	
+	476	Michael Mark	M	M50-54	61	12:36:18	1:11:52	0:05:38	6:07:59	0:10:30	5:00:19	Denmark	
+	477	Nazarii Medukha	M	M30-34	57	12:36:37	1:06:25	0:06:03	7:03:50	0:11:41	4:08:38	Ukraine	
+	478	Demi Duivenvoorden	F	F30-34	11	12:36:57	1:12:47	0:07:43	6:42:55	0:11:15	4:22:17	Netherlands	
+	479	Jaime De Las Heras Sanchez	M	M40-44	72	12:37:48	1:20:40	0:08:28	7:18:48	0:07:13	3:42:38	Spain	
+	480	Tommaso Gandini	M	M35-39	56	12:38:08	1:13:18	0:06:49	6:35:41	0:07:02	4:35:18	Italy	
+	481	Rico Romagnoli	M	M65-69	2	12:38:10	1:16:13	0:08:23	6:55:58	0:06:57	4:10:40	Switzerland	
+	482	Oliver Klaus	M	M50-54	62	12:38:50	1:04:26	0:03:21	6:13:41	0:04:11	5:13:11	Switzerland	
+	483	Hector Martín Luzardo	M	M25-29	40	12:38:53	1:09:59	0:07:11	6:52:39	0:07:25	4:21:39	Spain	
+	484	Jeroen De Puydt	M	M35-39	57	12:39:19	1:13:28	0:07:28	6:40:05	0:07:45	4:30:33	Belgium	
+	485	Fabio Del Signore	M	M40-44	73	12:39:21	1:16:08	0:17:58	7:04:28	0:12:39	3:48:07	Italy	
+	486	Marta Campmany San Martin	F	F25-29	5	12:39:25	1:09:32	0:06:19	7:22:52	0:07:14	3:53:28	Spain	
+	487	Steven Baggott	M	M45-49	84	12:39:25	1:19:53	0:04:52	6:29:38	0:08:23	4:36:40	United Kingdom	
+	488	Olivier Guri	M	M60-64	8	12:39:49	1:21:14	0:06:12	6:16:13	0:08:54	4:47:17	France	
+	489	Uwe Moeller	M	M60-64	9	12:39:51	1:07:47	0:05:24	6:50:51	0:07:33	4:28:15	Germany	
+	490	Mark Rabaiotti	M	M40-44	74	12:40:30	1:01:33	0:03:17	5:28:27	0:01:11	6:06:02	United Kingdom	
+	491	Jason Kasprzak	M	M50-54	63	12:40:32	1:10:25	0:04:55	6:57:00	0:07:13	4:20:59	United States	
+	492	Andy Hayes	M	M45-49	85	12:40:33	1:09:39	0:05:21	6:26:14	0:08:44	4:50:36	Ireland	
+	493	Cameron Taylor	M	M18-24	13	12:40:47	1:14:24	0:06:38	7:19:07	0:07:59	3:52:38	United Kingdom	
+	494	Udo Voss	M	M50-54	64	12:40:49	0:56:25	0:04:05	6:32:31	0:06:54	5:00:55	Germany	
+	495	Timur Iglikov	M	M35-39	58	12:40:54	1:11:48	0:14:11	6:50:15	0:11:42	4:12:57	Kazakhstan	
+	496	Daniyar Aktayev	M	M35-39	59	12:40:58	1:15:19	0:11:00	6:50:05	0:11:39	4:12:55	Kazakhstan	
+	497	Jimmy Mccann	M	M40-44	75	12:41:01	1:07:21	0:06:45	6:45:29	0:05:48	4:35:38	United Kingdom	
+	498	Francisco Ramón Alonso Calderín	M	M45-49	86	12:41:15	1:16:12	0:06:17	6:54:52	0:10:09	4:13:44	Spain	
+	499	Stefano Capovilla	M	M35-39	60	12:41:16	0:55:14	0:09:10	6:23:34	0:01:52	5:11:26	Italy	
+	500	Matthew Connelly	M	M45-49	87	12:41:48	1:24:17	0:10:48	6:51:37	0:11:46	4:03:19	United Kingdom	
+	501	Eddie Butt	M	M45-49	88	12:41:51	1:14:13	0:05:17	6:43:31	0:08:20	4:30:30	Ireland	
+	502	Jorge Vega Garcia	M	M40-44	76	12:42:15	1:04:33	0:04:48	6:45:29	0:07:35	4:39:50	Spain	
+	503	Jesus Aureo Martinez Rubio	M	M65-69	3	12:42:27	1:21:30	0:08:42	6:54:04	0:09:59	4:08:13	Spain	
+	504	Oscar Pastor Iglesias	M	M45-49	89	12:42:31	1:05:53	0:05:46	7:05:52	0:05:13	4:19:47	Spain	
+	505	Matt Price	M	M40-44	77	12:43:01	1:09:14	0:07:03	7:09:54	0:05:05	4:11:45	United Kingdom	
+	506	Simon Smith	M	M50-54	65	12:43:03	1:05:36	0:07:24	6:24:46	0:06:42	4:58:36	United Kingdom	
+	507	Fabio Zancan	M	M40-44	78	12:43:27	1:02:42	0:05:20	6:40:11	0:05:45	4:49:29	Italy	
+	508	Lars Ronning	M	M60-64	10	12:43:40	1:23:08	0:10:04	6:47:51	0:11:26	4:11:12	Denmark	
+	509	Brian Mont-Roig Carme	M	M40-44	79	12:44:29	0:52:24	0:04:24	6:37:18	0:09:28	5:00:55	Spain	
+	510	John Byrne	M	M45-49	90	12:44:37	1:14:32	0:05:23	6:47:01	0:08:20	4:29:20	Ireland	
+	511	Giada Cananzi	F	F30-34	12	12:45:14	1:06:33	0:05:41	7:10:44	0:07:14	4:15:02	Italy	
+	512	Hacene Mokdad	M	M40-44	80	12:45:37	1:07:30	0:05:22	7:10:12	0:09:51	4:12:41	France	
+	513	Graham Wilcock	M	M55-59	29	12:45:48	1:16:39	0:05:24	7:03:08	0:09:03	4:11:33	United Kingdom	
+	514	Henry Ashby	M	M18-24	14	12:46:01	1:10:27	0:09:26	6:59:32	0:11:09	4:15:27	United Kingdom	
+	515	Jose Ignacio Gallego	M	M40-44	81	12:46:16	1:11:51	0:08:21	7:04:26	0:10:55	4:10:43	Spain	
+	516	Ramses Delgado Lopez	M	M45-49	91	12:46:22	1:14:49	0:05:58	6:51:21	0:09:46	4:24:28	Spain	
+	517	Vincenzo D'Apolito	M	M40-44	82	12:46:35	1:11:57	0:05:14	7:01:13	0:07:28	4:20:43	Italy	
+	518	Jamie McGrory	M	M45-49	92	12:46:35	1:30:49	0:05:58	7:15:18	0:08:17	3:46:13	United Kingdom	
+	519	Kieren Horgan	M	M30-34	58	12:46:37	1:11:07	0:08:10	7:09:31	0:10:24	4:07:26	United Kingdom	
+	520	Kellie Branagan	F	F30-34	13	12:46:43	1:13:11	0:04:55	6:45:18	0:08:10	4:35:09	United Kingdom	
+	521	David Geddis	M	M45-49	93	12:46:44	1:16:13	0:07:05	6:35:38	0:08:05	4:39:44	United Kingdom	
+	522	Davy Park	M	M50-54	66	12:46:50	1:07:25	0:07:10	7:04:15	0:09:01	4:18:58	United Kingdom	
+	523	Paul Sellars	M	M55-59	30	12:46:57	1:05:06	0:04:02	6:29:26	0:05:30	5:02:53	United Kingdom	
+	524	Matthew Hill	M	M35-39	61	12:47:00	1:31:20	0:17:16	6:49:02	0:12:09	3:57:13	United Kingdom	
+	525	Andy Devonald	M	M55-59	31	12:47:08	1:16:57	0:06:14	7:15:23	0:08:30	4:00:03	United Kingdom	
+	526	Francisco Jose Mora Farfán	M	M45-49	94	12:47:18	1:02:13	0:06:21	6:48:17	0:07:42	4:42:44	Spain	
+	527	Robbie Weber	M	M25-29	41	12:47:22	1:20:33	0:04:59	6:48:20	0:09:51	4:23:38	Netherlands	
+	528	Romain Christe	M	M50-54	67	12:47:36	1:02:12	0:04:14	6:08:33	0:06:23	5:26:14	Switzerland	
+	529	Sebastian Beer	M	M45-49	95	12:47:44	1:16:38	0:08:21	6:31:34	0:10:39	4:40:31	Germany	
+	530	Fran Cubero	M	M45-49	96	12:48:02	1:09:49	0:09:44	6:53:00	0:08:38	4:26:52	Spain	
+	531	Michael Holland	M	M40-44	83	12:48:28	0:58:06	0:06:10	6:39:04	0:09:04	4:56:03	Ireland	
+	532	Huw Evans	M	M35-39	62	12:49:00	1:14:33	0:09:08	7:04:36	0:15:14	4:05:29	United Kingdom	
+	533	Tommy Corfield	M	M40-44	84	12:49:00	1:14:25	0:05:46	6:31:13	0:07:23	4:50:13	United Kingdom	
+	534	Roger Montserrat Folguera	M	M25-29	42	12:49:48	0:54:25	0:05:08	7:04:37	0:12:33	4:33:05	Spain	
+	535	Nickolai Thoms	M	M45-49	97	12:49:55	1:09:16	0:08:16	7:15:56	0:10:23	4:06:04	Denmark	
+	536	Franck Herbillon	M	M60-64	11	12:50:04	1:11:37	0:05:51	6:46:18	0:06:09	4:40:09	France	
+	537	Dominik Grubišić	M	M18-24	15	12:50:23	1:02:52	0:13:02	7:09:08	0:09:47	4:15:34	Croatia	
+	538	Alvaro Calleja Palacios	M	M25-29	43	12:50:41	1:06:20	0:05:46	6:45:38	0:06:27	4:46:31	Spain	
+	539	Matteo Fusetti	M	M50-54	68	12:50:42	1:01:53	0:06:50	7:24:37	0:07:58	4:09:23	Italy	
+	540	Tony Simarro	M	M35-39	63	12:50:55	1:13:37	0:06:42	7:11:12	0:09:13	4:10:12	Spain	
+	541	Zijie Chen	M	M25-29	44	12:51:17	1:07:36	0:05:52	6:04:35	0:07:58	5:25:16	China	
+	542	Ian Saunders	M	M45-49	98	12:51:20	1:07:36	0:06:39	7:09:24	0:11:39	4:16:02	United Kingdom	
+	543	Barry Gregory	M	M45-49	99	12:51:22	1:19:22	0:07:02	6:56:30	0:11:41	4:16:47	United Kingdom	
+	544	Metka Jug	F	F55-59	1	12:51:31	1:09:46	0:05:30	7:27:04	0:05:32	4:03:39	Slovenia	
+	545	Paul Andrew Rodbourn	M	M55-59	32	12:52:14	1:17:09	0:05:58	6:59:45	0:07:49	4:21:32	United Kingdom	
+	546	Chris Flood	M	M35-39	64	12:52:26	1:13:20	0:10:24	6:51:44	0:09:29	4:27:30	United Kingdom	
+	547	Steve Berry	M	M45-49	100	12:53:21	1:08:24	0:07:59	6:58:31	0:09:02	4:29:25	United Kingdom	
+	548	Dean Skipper	M	M45-49	101	12:53:30	1:10:43	0:06:48	6:33:01	0:09:33	4:53:25	United Kingdom	
+	549	Denys Teslenko	M	M45-49	102	12:54:01	1:11:17	0:08:28	6:58:42	0:10:55	4:24:39	Ukraine	
+	550	Christian Adams	M	M50-54	69	12:54:23	1:17:36	0:10:08	6:56:43	0:09:57	4:19:59	United Kingdom	
+	551	James Kuck	M	M40-44	85	12:54:57	1:06:59	0:08:17	7:13:24	0:14:20	4:11:56	Germany	
+	552	Debbie Bowen	F	F45-49	4	12:55:28	1:02:20	0:05:13	6:48:46	0:08:30	4:50:40	United Kingdom	
+	553	Kévin Kuang	M	M30-34	59	12:55:50	1:20:07	0:10:46	7:10:44	0:07:16	4:06:57	France	
+	554	lee Symonds	M	M40-44	86	12:56:12	1:07:29	0:06:07	7:20:53	0:06:39	4:15:03	United Kingdom	
+	555	Antoine Passat	M	M55-59	33	12:57:50	1:11:46	0:06:26	7:05:16	0:09:04	4:25:19	France	
+	556	Annick Vande Kerckhove	F	F50-54	3	12:57:52	1:13:24	0:05:46	6:50:11	0:06:48	4:41:44	Belgium	
+	557	Anastasio Mitropapas	M	M45-49	103	12:57:58	1:09:34	0:07:33	7:05:07	0:07:47	4:27:58	Greece	
+	558	Jean-Marc Da Cunha	M	M60-64	12	12:58:13	1:11:39	0:09:28	6:39:57	0:10:14	4:46:54	France	
+	559	Joerg Stimmel	M	M60-64	13	12:58:24	1:16:20	0:06:10	6:20:44	0:09:13	5:05:57	Germany	
+	560	Bruno Promonet	M	M60-64	14	12:58:27	1:17:12	0:05:53	6:28:25	0:07:16	4:59:41	France	
+	561	Daniel Leon	M	M45-49	104	12:58:29	1:21:19	0:12:01	6:58:48	0:10:46	4:15:36	Venezuela	
+	562	Andreas Berndt	M	M55-59	34	12:58:37	1:13:21	0:06:42	7:01:23	0:07:47	4:29:24	Germany	
+	563	Marc Ferri Martinez	M	M25-29	45	12:58:45	0:52:28	0:05:15	6:40:32	0:08:05	5:12:26	Spain	
+	564	Koen De Laet	M	M55-59	35	12:59:20	1:15:13	0:07:14	6:45:39	0:11:34	4:39:39	Belgium	
+	565	Fabio Cazzadore	M	M55-59	36	12:59:53	1:14:00	0:12:07	6:51:41	0:14:07	4:27:58	Italy	
+	566	John Paul Devine	M	M60-64	15	13:00:09	1:28:36	0:11:57	6:56:41	0:09:13	4:13:42	Ireland	
+	567	Pablo Gaspar Cabrera Romero	M	M45-49	105	13:00:26	1:08:59	0:07:08	7:14:15	0:09:30	4:20:34	Spain	
+	568	Damian Mccrink	M	M45-49	106	13:00:37	1:16:20	0:06:07	6:50:14	0:10:59	4:36:56	Ireland	
+	569	Rami Eisawy	M	M35-39	65	13:01:20	1:36:40	0:10:11	6:41:57	0:08:24	4:24:07	Canada	
+	570	Allan Taylor	M	M45-49	107	13:01:28	1:23:31	0:05:39	7:04:35	0:05:40	4:22:04	United Kingdom	
+	571	Nico Schymanski	M	M45-49	108	13:02:26	1:08:20	0:07:00	7:11:03	0:07:09	4:28:55	Germany	
+	572	Tizian Ritter und Edler von Dawans	M	M18-24	16	13:02:49	1:14:29	0:09:14	7:01:40	0:08:25	4:29:01	Germany	
+	573	Bernal Fonseca	M	M35-39	66	13:02:53	1:13:51	0:05:53	7:38:47	0:07:56	3:56:26	Costa Rica	
+	574	David Devaney	M	M30-34	60	13:03:38	1:13:33	0:09:34	7:34:32	0:10:18	3:55:41	Ireland	
+	575	Mark Berriman	M	M40-44	87	13:03:46	0:58:21	0:06:20	7:07:32	0:11:09	4:40:24	United Kingdom	
+	576	LAETITIA LE BOUFFANT REY	F	F45-49	5	13:03:50	1:16:16	0:07:26	7:12:09	0:09:32	4:18:27	France	
+	577	Javier Sieso Cortes	M	M35-39	67	13:04:14	1:13:40	0:09:53	7:10:12	0:07:52	4:22:37	Spain	
+	578	Jose Alberto Fumado Balboa	M	M45-49	109	13:04:49	1:19:10	0:06:37	7:28:00	0:07:01	4:04:01	Spain	
+	579	Molly Widger	F	F25-29	6	13:05:05	1:02:33	0:06:14	7:16:08	0:07:55	4:32:15	United Kingdom	
+	580	Owen Ryan	M	M45-49	110	13:05:05	1:28:21	0:12:31	7:07:44	0:10:07	4:06:22	Ireland	
+	581	Christophe Beaud	M	M55-59	37	13:05:17	0:58:51	0:04:26	7:05:22	0:09:21	4:47:17	France	
+	582	Maksym Pavlov	M	M45-49	111	13:05:53	1:23:54	0:08:03	7:26:30	0:11:02	3:56:25	Ukraine	
+	583	Luca Berni	M	M40-44	88	13:06:15	1:05:39	0:07:34	6:57:02	0:09:53	4:46:07	Italy	
+	584	Gary Schofield	M	M40-44	89	13:06:24	1:12:56	0:06:03	6:58:58	0:09:26	4:39:01	United Kingdom	
+	585	Patrik Purtschert	M	M50-54	70	13:06:40	1:08:58	0:06:54	6:56:17	0:10:47	4:43:44	Switzerland	
+	586	Titouan Crouseilles	M	M18-24	17	13:06:44	1:13:57	0:10:44	6:50:53	0:14:10	4:37:01	France	
+	587	Sergio Romeral Escribano	M	M40-44	90	13:07:04	1:04:16	0:04:26	6:45:23	0:06:31	5:06:29	Spain	
+	588	Riccardo Tellini	M	M30-34	61	13:07:39	1:11:25	0:06:10	7:03:30	0:08:25	4:38:08	Italy	
+	589	Pierre-Henri Guibert	M	M45-49	112	13:07:56	1:24:09	0:08:23	7:20:22	0:09:13	4:05:49	France	
+	590	Jorge Luis Ruiz Agular	M	M35-39	68	13:08:07	1:15:59	0:05:34	7:23:29	0:11:28	4:11:37	Mexico	
+	591	Frederic Schryve	M	M45-49	113	13:08:21	1:18:27	0:10:51	6:46:28	0:10:56	4:41:39	France	
+	592	Sandro Delgado González	M	M50-54	71	13:08:36	1:07:54	0:07:38	6:57:50	0:08:44	4:46:29	Spain	
+	593	Geoffrey Dobbelaere	M	M50-54	72	13:09:01	1:07:31	0:07:56	6:22:00	0:10:35	5:21:00	Belgium	
+	594	Brendan Condon	M	M35-39	69	13:09:30	1:11:53	0:08:31	7:30:48	0:11:23	4:06:55	Ireland	
+	595	Francesco Di Maulo	M	M30-34	62	13:10:17	1:12:43	0:06:12	7:06:34	0:05:30	4:39:18	Italy	
+	596	Stephen Mills	M	M35-39	70	13:10:20	1:13:08	0:05:21	7:21:13	0:08:09	4:22:29	United Kingdom	
+	597	CHEMA LEDESMA CERRATO	M	M50-54	73	13:11:05	1:04:14	0:09:03	6:58:27	0:10:17	4:49:03	Spain	
+	598	Arne Lakeit	M	M65-69	4	13:11:07	1:18:39	0:06:29	6:46:19	0:09:46	4:49:53	Germany	
+	599	Artur Lampel	M	M35-39	71	13:11:19	1:12:24	0:06:21	6:57:05	0:05:42	4:49:48	Spain	
+	600	Dominic Carroll	M	M55-59	38	13:11:23	1:30:56	0:11:38	7:03:30	0:10:50	4:14:29	United Kingdom	
+	601	Simon Oldacre	M	M55-59	39	13:12:09	1:06:19	0:08:04	7:07:15	0:08:43	4:41:48	United Kingdom	
+	602	Ignacio Zalvide Lopez	M	M40-44	91	13:12:09	1:06:41	0:09:25	6:57:28	0:10:39	4:47:56	Spain	
+	603	Tommy Fallon	M	M30-34	63	13:12:48	1:21:36	0:09:12	7:07:31	0:12:52	4:21:38	United Kingdom	
+	604	Anthony Maguire	M	M50-54	74	13:12:50	1:19:35	0:05:48	7:10:01	0:08:56	4:28:31	Ireland	
+	605	Roberto Rojo Martínez	M	M30-34	64	13:13:06	1:12:31	0:04:22	6:46:04	0:07:16	5:02:52	Spain	
+	606	Christopher Bedford	M	M50-54	75	13:13:21	1:08:44	0:06:05	7:00:56	0:10:00	4:47:36	United Kingdom	
+	607	Pichery Arthur	M	M18-24	18	13:13:50	1:11:39	0:12:54	6:58:49	0:09:37	4:40:51	France	
+	608	Richard Lucas	M	M45-49	114	13:13:54	1:00:02	0:09:41	7:25:52	0:10:09	4:28:10	United Kingdom	
+	609	Tony Stilwell	M	M60-64	16	13:14:08	1:20:05	0:08:14	7:19:09	0:08:30	4:18:10	United Kingdom	
+	610	Eva Molla	F	F40-44	9	13:14:54	1:14:04	0:05:48	7:22:35	0:08:31	4:23:56	Spain	
+	611	CHRISTIAN PAVIGLIANITI	M	M50-54	76	13:15:22	1:26:24	0:06:39	7:14:09	0:10:39	4:17:32	Italy	
+	612	Richard Griffiths	M	M45-49	115	13:15:24	1:08:53	0:07:45	7:07:57	0:13:06	4:37:44	United Kingdom	
+	613	Andrea Camporesi	M	M45-49	116	13:15:27	1:16:28	0:09:16	6:39:38	0:07:58	5:02:07	Italy	
+	614	Julien Timmerman	M	M40-44	92	13:16:17	1:00:42	0:05:34	6:18:17	0:09:44	5:42:00	France	
+	615	Christopher Azzopardi	M	M45-49	117	13:17:31	1:19:29	0:06:47	7:06:10	0:13:14	4:31:50	Malta	
+	616	francisco castillo misas	M	M55-59	40	13:18:10	1:18:33	0:10:42	7:15:08	0:13:42	4:20:05	Spain	
+	617	Henry Logan	M	M30-34	65	13:18:30	1:12:57	0:07:50	7:14:25	0:08:04	4:35:14	United Kingdom	
+	618	Vincent Delbecque	M	M40-44	93	13:18:45	1:08:28	0:07:24	6:22:27	0:09:22	5:31:04	France	
+	619	Darren Wagg	M	M45-49	118	13:18:48	1:16:57	0:10:29	6:47:59	0:07:58	4:55:26	United Kingdom	
+	620	Marco Simone Chiumenti	M	M50-54	77	13:18:54	1:13:04	0:06:32	7:09:04	0:08:44	4:41:29	Italy	
+	621	Daniel Bojsen	M	M35-39	72	13:19:10	1:05:51	0:06:52	7:14:13	0:11:33	4:40:41	Denmark	
+	622	Justin Sanders	M	M55-59	41	13:19:58	1:17:38	0:08:19	6:41:11	0:11:35	5:01:14	Spain	
+	623	Will Gardner	M	M40-44	94	13:19:59	1:27:50	0:05:59	7:03:45	0:07:34	4:34:50	United Kingdom	
+	624	Ivica Parcina	M	M45-49	119	13:20:13	1:27:24	0:05:18	7:07:41	0:06:15	4:33:34	Croatia	
+	625	Ivan De La Cruz	M	M40-44	95	13:20:39	1:18:47	0:04:11	7:09:00	0:08:20	4:40:20	Spain	
+	626	Oliver Routledge	M	M30-34	66	13:20:54	1:09:50	0:07:11	7:26:42	0:07:42	4:29:28	United Kingdom	
+	627	Faith Dennie	F	F25-29	7	13:20:54	1:23:15	0:07:00	7:01:15	0:07:41	4:41:43	United States	
+	628	Chris Beesley	M	M40-44	96	13:21:16	1:13:32	0:07:32	6:59:38	0:10:32	4:50:02	United Kingdom	
+	629	Rachel Edwards	F	F60-64	1	13:21:23	1:18:23	0:09:50	7:01:56	0:06:51	4:44:23	United Kingdom	
+	630	Mark Cowling	M	M55-59	42	13:21:54	1:22:20	0:08:09	7:20:52	0:10:14	4:20:18	United Kingdom	
+	631	Jan Kotrbáček	M	M50-54	78	13:22:05	1:08:55	0:09:19	7:13:53	0:09:42	4:40:16	Czechia	
+	632	JESÚS ALBERTO GARCÍA GUTIÉRREZ	M	M35-39	73	13:22:29	0:58:22	0:06:40	7:12:50	0:12:02	4:52:34	Spain	
+	633	Tomas De Bolle	M	M30-34	67	13:22:33	1:22:19	0:09:33	6:41:57	0:13:42	4:55:01	Belgium	
+	634	Pierre NICOLAS	M	M45-49	120	13:22:44	1:15:56	0:11:09	7:06:10	0:21:14	4:28:15	France	
+	635	Daniel Isaac Rodríguez De Paz	M	M35-39	74	13:24:11	1:21:52	0:07:55	7:06:45	0:13:12	4:34:29	Spain	
+	636	Juan Jesús Martínez López	M	M50-54	79	13:24:17	1:14:35	0:07:23	7:15:46	0:09:25	4:37:09	Spain	
+	637	Edvin Višnevski	M	M25-29	46	13:24:30	1:06:25	0:09:18	7:19:59	0:11:21	4:37:26	Lithuania	
+	638	Carl Harrington	M	M50-54	80	13:24:43	1:22:19	0:07:34	7:13:03	0:13:11	4:28:37	United Kingdom	
+	639	Paul Schmidt	M	M35-39	75	13:25:22	1:19:37	0:06:31	6:47:22	0:06:25	5:05:27	Switzerland	
+	640	Orazio Gisabella	M	M60-64	17	13:25:32	1:10:11	0:03:44	7:04:33	0:06:28	5:00:36	Italy	
+	641	Martin Forssell	M	M50-54	81	13:25:51	1:10:37	0:06:10	7:10:37	0:08:27	4:50:00	Sweden	
+	642	Patrick Marquardt	M	M35-39	76	13:26:16	1:18:33	0:06:40	7:17:06	0:08:06	4:35:51	Germany	
+	643	Connor Jewell	M	M18-24	19	13:26:16	1:03:48	0:05:04	7:15:20	0:09:23	4:52:41	Canada	
+	644	Oleksandr Varfolomiiev	M	M50-54	82	13:26:37	1:24:41	0:05:55	7:14:24	0:09:19	4:32:17	Ukraine	
+	645	Julien Lecoyer	M	M25-29	47	13:26:42	1:20:47	0:13:52	6:22:43	0:12:24	5:16:55	Belgium	
+	646	Fidelma Lavin	F	F40-44	10	13:27:49	1:17:42	0:08:06	7:53:13	0:07:04	4:01:43	Ireland	
+	647	Susan Reimer	F	F50-54	4	13:27:53	1:23:42	0:07:57	7:20:04	0:09:10	4:27:00	Denmark	
+	648	Jeremie Fontaine	M	M40-44	97	13:28:15	1:13:14	0:09:19	7:06:25	0:09:24	4:49:53	France	
+	649	Julien Bornet	M	M40-44	98	13:28:18	1:10:35	0:07:07	6:39:50	0:11:04	5:19:42	France	
+	650	Claudio De Marchi	M	M55-59	43	13:28:20	1:08:20	0:10:29	7:16:55	0:16:08	4:36:28	Italy	
+	651	Cecile CANTERO	F	F45-49	6	13:28:26	1:18:39	0:06:53	7:14:48	0:10:47	4:37:20	France	
+	652	Nicolas Pomelli	M	M50-54	83	13:29:10	0:59:28	0:03:49	6:07:38	0:09:41	6:08:33	Switzerland	
+	653	Dirk Logghe	M	M60-64	18	13:29:31	1:12:53	0:06:17	7:07:10	0:09:57	4:53:14	Belgium	
+	654	Jose Manuel Recio Fernandez	M	M50-54	84	13:29:39	1:09:50	0:08:57	8:08:43	0:10:31	3:51:37	Spain	
+	655	Dmitry Nemkov	M	M40-44	99	13:29:48	1:18:52	0:11:36	7:19:48	0:14:07	4:25:25		
+	656	Daniel Muñoz Andrés	M	M50-54	85	13:29:48	1:14:43	0:09:28	6:56:04	0:07:46	5:01:47	Spain	
+	657	Rebecca Mckee	F	F35-39	8	13:30:08	1:15:21	0:05:01	7:32:50	0:08:01	4:28:55	United Kingdom	
+	658	Jeremy Taissidre	M	M35-39	77	13:30:08	1:11:38	0:12:47	6:52:31	0:12:47	5:00:25	France	
+	659	Alessandro Benfatto	M	M50-54	86	13:30:19	1:13:41	0:08:10	6:45:48	0:10:43	5:11:57	Switzerland	
+	660	Ben Stewart	M	M40-44	100	13:31:38	1:08:14	0:05:03	6:42:57	0:07:18	5:28:06	United Kingdom	
+	661	Stephen Dickson	M	M50-54	87	13:31:56	1:08:12	0:11:10	7:11:33	0:19:03	4:41:58	United Kingdom	
+	662	Samuel Curbelo	M	M45-49	121	13:32:02	1:12:00	0:09:05	7:07:16	0:17:16	4:46:25	Spain	
+	663	Gerardo Fernández Febles	M	M50-54	88	13:32:17	1:12:26	0:09:35	7:12:44	0:09:49	4:47:43	Spain	
+	664	PABLO MARTIN LERMA	M	M40-44	101	13:32:22	1:16:15	0:04:31	7:37:52	0:08:42	4:25:03	Spain	
+	665	Mark Pollitt	M	M45-49	122	13:32:43	1:07:55	0:07:53	6:56:19	0:12:46	5:07:50	United Kingdom	
+	666	Sophie Needham	F	F40-44	11	13:32:48	1:12:07	0:07:42	7:15:06	0:10:29	4:47:24	United Kingdom	
+	667	Ross Murphy	M	M35-39	78	13:33:05	1:19:00	0:10:27	7:34:34	0:11:23	4:17:42	Ireland	
+	668	David Metz	M	M35-39	79	13:33:09	1:21:01	0:09:45	7:54:15	0:02:20	4:05:48	Sweden	
+	669	Pablo Martin Aragon Perez	M	M45-49	123	13:34:08	1:11:51	0:09:28	7:28:41	0:11:17	4:32:51	Spain	
+	670	Fotios Vlachos	M	M40-44	102	13:34:15	1:23:40	0:06:46	6:55:01	0:10:00	4:58:48	Greece	
+	671	Heber Quesada Brisson	M	M40-44	103	13:34:39	1:15:47	0:08:06	7:23:51	0:10:54	4:36:01	Spain	
+	672	Iain Salt	M	M40-44	104	13:34:40	1:14:33	0:17:10	8:04:29	0:12:34	3:45:54	United Kingdom	
+	673	Victor Hedlund	M	M35-39	80	13:36:03	1:15:06	0:07:40	7:40:57	0:08:34	4:23:47	Sweden	
+	674	Harry Mason	M	M18-24	20	13:36:30	1:05:26	0:03:31	7:40:35	0:07:30	4:39:28	United Kingdom	
+	675	Adrian Brown	M	M40-44	105	13:36:43	1:04:51	0:07:32	7:22:44	0:11:57	4:49:40	United Kingdom	
+	676	Juan Carlos López Cortés	M	M55-59	44	13:37:09	1:25:26	0:07:57	7:09:02	0:09:19	4:45:24	Spain	
+	677	Daniel Reguera Domínguez	M	M35-39	81	13:37:18	1:10:26	0:05:19	6:21:53	0:06:13	5:53:28	Spain	
+	678	Mónica Reyes Navarro	F	F50-54	5	13:37:30	1:18:32	0:16:52	7:22:04	0:12:48	4:27:13	Spain	
+	679	ANDRE CHARRE	M	M55-59	45	13:37:39	1:07:55	0:07:55	7:11:04	0:12:04	4:58:40	France	
+	680	Olaf Dirker	M	M55-59	46	13:37:44	1:04:48	0:04:43	7:02:03	0:07:56	5:18:14	Germany	
+	681	Cristian Martinez Vicedo	M	M40-44	106	13:37:57	1:09:30	0:11:24	7:27:29	0:11:56	4:37:38	Spain	
+	682	Thierry Foulounoux	M	M70-74	1	13:38:15	1:12:59	0:06:25	7:43:11	0:09:24	4:26:17	France	
+	683	Claudine Jansen	F	F55-59	2	13:38:30	1:21:24	0:05:14	7:43:52	0:09:38	4:18:23	Netherlands	
+	684	Frédéric Violot	M	M65-69	5	13:39:26	1:31:11	0:08:43	7:04:44	0:06:46	4:48:02	France	
+	685	Andy Jordan	M	M35-39	82	13:39:30	1:28:48	0:13:36	7:22:55	0:11:30	4:22:41	Ireland	
+	686	Colm Mcgonigle	M	M35-39	83	13:39:57	1:18:27	0:07:09	7:21:10	0:08:07	4:45:05	Ireland	
+	687	Sonia Fryske	F	F30-34	14	13:40:04	1:10:23	0:04:03	7:19:53	0:07:27	4:58:18	Poland	
+	688	Uwe Forster	M	M60-64	19	13:40:34	1:25:48	0:07:19	7:09:06	0:07:15	4:51:06	Germany	
+	689	Sergi Medina Garcia	M	M40-44	107	13:40:34	1:15:19	0:09:17	7:35:40	0:07:17	4:33:01	Andorra	
+	690	Agustín Nicomedes Ruiz Garcia	M	M50-54	89	13:40:43	1:04:42	0:07:11	6:45:34	0:07:50	5:35:26	Spain	
+	691	Manuel Mira	M	M35-39	84	13:40:54	1:01:14	0:03:50	6:24:38	0:01:36	6:09:35	Portugal	
+	692	Kate Rhodes	F	F40-44	12	13:41:01	1:05:03	0:06:07	7:00:53	0:11:46	5:17:12	United Kingdom	
+	693	Barnaby Gray	M	M55-59	47	13:41:21	1:26:38	0:07:15	7:36:25	0:07:32	4:23:30	United Kingdom	
+	694	Cyrille BONIN	M	M45-49	124	13:41:48	1:10:12	0:09:59	6:43:21	0:10:29	5:27:47	France	
+	695	Kurt Schonert	M	M35-39	85	13:42:23	1:16:07	0:08:33	7:12:39	0:09:06	4:55:58	South Africa	
+	696	Daniel Wilms	M	M45-49	125	13:42:24	1:23:00	0:07:24	7:06:05	0:08:14	4:57:42	Germany	
+	697	Robert Szul	M	M40-44	108	13:42:44	1:00:03	0:09:04	7:45:16	0:11:29	4:36:53	Poland	
+	698	Martin Collantes Peña	M	M35-39	86	13:42:55	1:13:56	0:12:12	6:42:05	0:12:50	5:21:52	Spain	
+	699	Davide Meani	M	M35-39	87	13:43:02	0:59:54	0:04:58	7:17:58	0:12:24	5:07:48	Italy	
+	700	Trine Thunbo Rivold	F	F35-39	9	13:43:17	1:21:28	0:07:49	7:42:10	0:12:19	4:19:32	Denmark	
+	701	David Hall	M	M60-64	20	13:44:09	1:09:46	0:07:24	6:42:37	0:08:37	5:35:44	United Kingdom	
+	702	Xavier Dorofieff	M	M35-39	88	13:44:35	1:27:09	0:10:31	8:08:03	0:09:08	3:49:44	France	
+	704	Juan Manuel Gallego De La Calle	M	M45-49	126	13:45:06	1:00:45	0:07:09	7:14:42	0:11:02	5:11:28	Spain	
+	705	James Crowley	M	M35-39	89	13:45:09	1:14:02	0:13:42	7:09:37	0:11:08	4:56:38	Ireland	
+	706	Callum Steel	M	M30-34	68	13:45:50	1:08:16	0:06:22	7:30:01	0:09:34	4:51:37	United Kingdom	
+	707	Higuchi Koji	M	M50-54	90	13:46:00	1:15:49	0:08:38	7:19:12	0:09:10	4:53:10	Japan	
+	708	Lucinda  Da Rocha Santos Sousa	F	F55-59	3	13:46:31	1:33:52	0:07:26	7:28:02	0:08:05	4:29:07	Portugal	
+	709	Lewis Wood	M	M25-29	48	13:46:33	1:36:01	0:09:00	7:42:48	0:07:35	4:11:08	United Kingdom	
+	710	Noelia Arrocha Rodríguez	F	F30-34	15	13:46:56	1:13:54	0:05:56	7:37:25	0:11:33	4:38:08	Spain	
+	711	Marco Lang	M	M35-39	90	13:47:20	1:15:52	0:10:52	7:40:19	0:10:56	4:29:21	Austria	
+	712	Maciej Szczerba	M	M50-54	91	13:47:46	1:21:09	0:04:34	7:27:42	0:07:41	4:46:39	Poland	
+	713	Ivan Kelleher	M	M50-54	92	13:48:10	1:10:48	0:06:10	7:05:11	0:10:47	5:15:14	Ireland	
+	714	James Fletcher	M	M50-54	93	13:48:28	1:22:35	0:08:22	7:35:27	0:10:04	4:32:00	Ireland	
+	715	Carlos Alberto Urrea Contreras	M	M40-44	109	13:49:13	1:27:08	0:06:54	7:08:46	0:13:27	4:52:57	Spain	
+	716	Lee Maughan	M	M35-39	91	13:49:15	1:25:21	0:08:20	7:49:49	0:11:52	4:13:53	United Kingdom	
+	717	Rudi Goeyvaerts	M	M60-64	21	13:49:26	1:30:38	0:08:19	7:28:15	0:08:55	4:33:19	Belgium	
+	718	Steffen Neumann	M	M60-64	22	13:49:45	1:31:08	0:07:41	7:13:23	0:09:10	4:48:22	Spain	
+	719	Anna Nicole Hawkes	F	F30-34	16	13:50:50	1:15:16	0:07:00	7:55:02	0:08:21	4:25:11	United Kingdom	
+	720	Rafita Fernandez	M	M40-44	110	13:50:54	1:09:47	0:10:42	7:49:11	0:09:13	4:32:01	Spain	
+	721	Stephen Rowan	M	M35-39	92	13:50:58	1:06:40	0:04:51	6:41:15	0:07:46	5:50:26	Ireland	
+	722	Francesco Capalbo	M	M30-34	69	13:51:17	1:16:43	0:06:55	7:45:50	0:10:11	4:31:37	Italy	
+	723	Ariadne Cedres Perdomo	M	M30-34	70	13:51:35	1:18:31	0:08:51	7:26:48	0:11:36	4:45:49	Spain	
+	724	Luca Vecchia	M	M50-54	94	13:51:40	1:03:05	0:05:04	7:50:17	0:08:57	4:44:17	Italy	
+	725	Joey Marrinan	M	M45-49	127	13:51:57	1:20:40	0:13:11	7:34:34	0:16:25	4:27:06	Ireland	
+	726	Moona King	M	M60-64	23	13:52:02	1:15:53	0:06:19	7:18:03	0:08:01	5:03:47	United Kingdom	
+	727	Luc Vervekken	M	M55-59	48	13:52:16	1:23:10	0:07:15	7:31:02	0:13:00	4:37:49	Belgium	
+	728	Aida Yesterekova	F	F40-44	13	13:52:49	1:19:00	0:17:51	8:04:29	0:15:11	3:56:18	Kazakhstan	
+	729	Sarah Wagner-Arendt	F	F40-44	14	13:53:32	1:19:21	0:07:15	7:50:15	0:11:32	4:25:08	Germany	
+	730	Debbie Vanner	F	F60-64	2	13:53:33	1:09:59	0:06:59	7:33:23	0:07:30	4:55:41	United Kingdom	
+	731	Christopher Riley	M	M50-54	95	13:53:34	1:22:36	0:08:53	7:00:00	0:09:37	5:12:28	United Kingdom	
+	732	Jordi Baldrich	M	M50-54	96	13:55:05	1:18:45	0:10:54	7:42:00	0:11:00	4:32:25	Spain	
+	733	Kevin Dunbar	M	M45-49	128	13:55:05	1:22:05	0:08:20	7:47:26	0:09:40	4:27:34	United Kingdom	
+	734	Ante Vodanovic	M	M40-44	111	13:55:13	1:04:16	0:06:21	7:56:28	0:08:38	4:39:30	Croatia	
+	735	Paul Seppman	M	M50-54	97	13:55:20	0:58:35	0:06:21	6:54:59	0:10:20	5:45:05	United Kingdom	
+	736	Jean-Christophe Ferat	M	M60-64	24	13:55:39	1:18:28	0:06:50	7:02:34	0:12:33	5:15:13	France	
+	737	Phil Gray	M	M50-54	98	13:55:44	1:12:39	0:05:04	7:01:00	0:09:25	5:27:35	United Kingdom	
+	738	Olly Bullock	M	M35-39	93	13:55:44	1:23:41	0:09:55	7:34:14	0:10:54	4:37:00	United Kingdom	
+	739	Tim Wenham	M	M50-54	99	13:56:10	1:13:11	0:07:38	7:19:09	0:08:34	5:07:37	United Kingdom	
+	740	Steve Stretch	M	M60-64	25	13:56:33	1:07:43	0:04:53	7:24:22	0:07:14	5:12:22	United Kingdom	
+	741	IGNACIO BLANCO PORTA	M	M45-49	129	13:56:39	1:07:03	0:05:25	8:22:51	0:08:34	4:12:46	Spain	
+	742	Jamie Peacock	M	M50-54	100	13:56:41	1:13:40	0:06:18	7:29:02	0:08:06	4:59:34	United Kingdom	
+	743	Damian Fitzpatrick	M	M50-54	101	13:57:09	1:22:06	0:06:32	6:58:56	0:08:23	5:21:13	United Kingdom	
+	744	Bent Andersen	M	M60-64	26	13:57:10	1:02:04	0:04:52	6:10:32	0:09:45	6:29:56	Denmark	
+	745	Sara Della Libera	F	F50-54	6	13:57:32	1:26:03	0:04:45	7:31:44	0:06:01	4:48:59	Italy	
+	746	Garry Firth	M	M50-54	102	13:57:32	1:14:35	0:12:05	6:59:06	0:09:59	5:21:48	United Kingdom	
+	747	Stephen Chubb	M	M50-54	103	13:58:17	1:03:37	0:07:46	7:23:37	0:12:34	5:10:43	United Kingdom	
+	748	Stanko Brodanac	M	M50-54	104	13:58:23	1:07:54	0:05:59	6:33:38	0:09:15	6:01:37	Croatia	
+	749	Julian Sanchez Sal	M	M65-69	6	13:59:18	1:19:35	0:07:15	7:42:25	0:10:07	4:39:56	Spain	
+	750	Colyne Gorgone	F	F25-29	8	13:59:34	1:17:09	0:05:23	7:50:13	0:08:07	4:38:43	France	
+	751	Desislav Delchev	M	M40-44	112	13:59:50	1:10:25	0:12:29	7:56:34	0:13:01	4:27:23	Bulgaria	
+	752	Rolando Hutchinson	M	M50-54	105	13:59:54	1:12:41	0:09:49	7:14:24	0:13:16	5:09:43	United Kingdom	
+	753	Jonathan Martin	M	M30-34	71	14:00:09	1:37:55	0:07:58	7:16:41	0:09:04	4:48:31	Belgium	
+	754	David Odena	M	M50-54	106	14:00:38	1:15:52	0:08:40	7:33:20	0:12:23	4:50:22	Andorra	
+	755	Samuel Braganza	M	M25-29	49	14:01:28	1:20:12	0:08:58	7:50:34	0:18:21	4:23:23	Ecuador	
+	756	Derek Church	M	M45-49	130	14:01:38	1:15:48	0:08:13	7:45:14	0:12:29	4:39:55	Canada	
+	757	Christophe Aulagnier	M	M50-54	107	14:02:04	1:14:29	0:06:43	7:28:46	0:07:48	5:04:17	France	
+	758	Matthew Dawes	M	M50-54	108	14:02:40	1:12:03	0:09:38	7:45:30	0:12:16	4:43:13	United Kingdom	
+	759	Cheryl Lockett	F	F40-44	15	14:02:41	1:16:45	0:07:02	7:44:41	0:12:02	4:42:11	United Kingdom	
+	760	Elmer Abastillas	M	M50-54	109	14:02:58	1:16:45	0:08:19	7:30:05	0:12:10	4:55:40	Ireland	
+	761	Jim Edmonds	M	M45-49	131	14:03:13	1:21:08	0:05:51	7:35:19	0:05:19	4:55:35	United Kingdom	
+	762	Jonathan Rippingale	M	M40-44	113	14:03:39	1:20:22	0:09:04	7:21:41	0:14:30	4:58:02	United Kingdom	
+	763	Alfonso Ramón Relanzón	M	M50-54	110	14:04:24	1:06:28	0:13:02	7:22:31	0:13:09	5:09:14	Spain	
+	764	Sonia Doumit	F	F50-54	7	14:05:14	1:25:54	0:07:15	7:37:05	0:07:52	4:47:08	Belgium	
+	765	Diego Alvarez	M	M45-49	132	14:05:33	1:11:38	0:04:18	8:00:43	0:09:20	4:39:34	Spain	
+	766	Wayne Brennan	M	M25-29	50	14:05:35	1:20:03	0:13:54	7:47:11	0:12:34	4:31:53	Ireland	
+	767	Mark Fraser	M	M45-49	133	14:05:54	1:18:53	0:08:57	7:47:38	0:10:43	4:39:42	United Kingdom	
+	768	Barrainkua Asier	M	M60-64	27	14:06:15	1:20:17	0:09:06	7:20:09	0:10:29	5:06:15	Spain	
+	769	Donald Macleod	M	M50-54	111	14:06:35	1:21:10	0:08:02	7:39:16	0:09:50	4:48:16	United Kingdom	
+	770	Alexandre Denys	M	M55-59	49	14:06:37	1:14:12	0:06:26	8:06:19	0:11:31	4:28:09	Luxembourg	
+	771	Jan Ruff	M	M50-54	112	14:06:43	1:09:32	0:04:50	7:01:40	0:05:39	5:45:02	Germany	
+	772	Karen Driver	F	F55-59	4	14:06:46	1:03:00	0:05:43	7:57:51	0:08:47	4:51:25	United Kingdom	
+	773	Peter Meijer	M	M40-44	114	14:07:08	0:58:21	0:07:56	7:41:00	0:09:48	5:10:02	Netherlands	
+	774	Paul Davies	M	M45-49	134	14:07:24	0:59:46	0:06:50	6:53:49	0:12:06	5:54:53	United Kingdom	
+	775	Luke Sutcliffe	M	M40-44	115	14:07:44	1:24:14	0:07:01	7:43:50	0:09:43	4:42:56	United Kingdom	
+	776	Glen Rutherford	M	M55-59	50	14:07:50	1:15:24	0:08:12	7:43:57	0:10:07	4:50:11	United Kingdom	
+	777	Guillermo Hernández Alberto	M	M35-39	94	14:08:03	1:20:59	0:06:20	7:24:31	0:11:56	5:04:18	Spain	
+	778	Rob Hall	M	M50-54	113	14:08:24	1:29:49	0:09:51	7:32:26	0:12:03	4:44:15	United Kingdom	
+	779	Cedric Sylla	M	M50-54	114	14:08:42	1:15:55	0:07:50	7:01:03	0:12:20	5:31:34	France	
+	780	Dyllan Struthers	M	M50-54	115	14:09:00	1:16:23	0:07:06	7:13:37	0:10:15	5:21:40	United Kingdom	
+	781	Roberta Scabbia	F	F50-54	8	14:09:14	1:09:37	0:04:46	7:56:04	0:08:29	4:50:18	Italy	
+	782	Andrew Hartley	M	M55-59	51	14:10:10	1:22:20	0:06:22	8:09:28	0:10:00	4:22:00	United Kingdom	
+	783	Scott Ambler	M	M40-44	116	14:10:41	1:16:26	0:09:16	8:23:38	0:08:02	4:13:18	United Kingdom	
+	784	Ester López Torroja	F	F55-59	5	14:12:24	1:27:54	0:07:20	7:57:05	0:11:43	4:28:22	Spain	
+	785	Giovanni Canapini	M	M60-64	28	14:12:35	1:04:53	0:05:34	6:43:32	0:09:14	6:09:22	Italy	
+	786	Pedro Alvaro Jiménez Carbonell	M	M40-44	117	14:13:32	1:13:51	0:09:31	7:59:52	0:14:30	4:35:47	Spain	
+	787	Cristiana Katia Cannas	F	F50-54	9	14:13:32	1:15:45	0:05:49	8:00:03	0:06:45	4:45:09	Italy	
+	788	Royce Turville	M	M45-49	135	14:13:43	1:15:56	0:10:29	7:14:29	0:11:35	5:21:14	United Kingdom	
+	789	Paul Munday	M	M55-59	52	14:13:56	1:07:58	0:06:06	6:58:31	0:08:43	5:52:38	United Kingdom	
+	790	Craig O'Neill	M	M40-44	118	14:14:41	1:25:24	0:09:46	7:30:26	0:10:56	4:58:10	United Kingdom	
+	791	Esteban Arauzo Palacios	M	M60-64	29	14:14:42	1:17:30	0:07:31	7:32:41	0:08:21	5:08:39	Spain	
+	792	Fabio SALSI	M	M40-44	119	14:14:51	1:16:24	0:14:34	8:07:16	0:14:21	4:22:17	Italy	
+	793	Brendan Somers	M	M45-49	136	14:14:54	1:21:32	0:08:28	7:54:45	0:10:36	4:39:34	Ireland	
+	794	Antonio Ribeiro Alves	M	M40-44	120	14:15:10	1:15:06	0:13:08	7:30:22	0:12:41	5:03:53	Belgium	
+	795	Laura Sørensen	F	F18-24	1	14:15:12	1:11:35	0:04:20	7:10:39	0:08:12	5:40:27	Denmark	
+	796	Edward Fahy	M	M65-69	7	14:15:12	1:20:46	0:07:13	7:56:21	0:09:02	4:41:51	Ireland	
+	797	Laura Teetz	F	F40-44	16	14:15:18	1:23:18	0:10:03	7:36:58	0:10:05	4:54:55	United States	
+	798	Caroline Coghlin	F	F50-54	10	14:15:21	1:20:16	0:08:54	7:54:16	0:14:44	4:37:13	Ireland	
+	799	Jude Mifsud	M	M50-54	116	14:15:25	1:28:25	0:10:49	7:41:25	0:17:59	4:36:47	United Kingdom	
+	800	Niall Connaughton	M	M45-49	137	14:15:54	1:09:11	0:06:03	7:12:24	0:15:24	5:32:53	Ireland	
+	801	Guillermo Díaz-Toledo Álvarez	M	M30-34	72	14:16:04	1:33:47	0:17:35	8:06:08	0:17:43	4:00:50	Spain	
+	802	Sabuco François-Joseph	M	M45-49	138	14:16:43	1:11:29	0:08:55	8:09:15	0:09:24	4:37:41	France	
+	803	Derek Watson	M	M45-49	139	14:17:07	1:03:14	0:07:28	7:56:12	0:09:25	5:00:48	United Kingdom	
+	804	Neil Crust	M	M50-54	117	14:17:45	1:10:48	0:05:09	6:49:13	0:09:33	6:03:02	United Kingdom	
+	805	Ruben Garcia Roldan	M	M45-49	140	14:18:31	1:16:08	0:07:21	7:42:10	0:08:53	5:03:59	Spain	
+	806	Martin Roberts	M	M50-54	118	14:18:39	1:31:08	0:11:25	7:22:30	0:12:20	5:01:16	United Kingdom	
+	807	Amadeo Muñoz González	M	M60-64	30	14:18:40	1:18:16	0:07:27	7:49:09	0:09:42	4:54:06	Spain	
+	808	Gabriele Bongera	M	M50-54	119	14:19:09	1:22:41	0:11:01	8:05:59	0:09:46	4:29:42	Italy	
+	809	Andreas Schwarz	M	M40-44	121	14:19:41	1:08:34	0:07:55	7:33:24	0:10:02	5:19:47	Austria	
+	810	Tufan Alper	M	M35-39	95	14:19:46	1:18:10	0:09:08	8:05:45	0:09:25	4:37:18	Switzerland	
+	811	Michael Mulcahy	M	M50-54	120	14:20:00	1:16:34	0:06:02	6:29:15	0:10:27	6:17:40	Ireland	
+	812	Jon Azcue	M	M55-59	53	14:20:17	1:10:08	0:09:34	7:08:12	0:12:31	5:39:53	Spain	
+	813	Robert Gerula	M	M55-59	54	14:20:24	1:17:11	0:09:09	7:11:58	0:15:53	5:26:14	Poland	
+	814	Eduard Agikyan	M	M40-44	122	14:21:14	1:28:01	0:08:21	7:29:16	0:10:36	5:04:59	Armenia	
+	815	Ignacio Afonso Guzmán	M	M45-49	141	14:21:37	1:13:00	0:11:39	7:37:37	0:17:37	5:01:43	Spain	
+	816	Philipp Schmahl	M	M55-59	55	14:21:45	1:13:52	0:08:28	7:27:25	0:12:12	5:19:47	Switzerland	
+	817	Thierry Beltran	M	M60-64	31	14:21:55	1:09:34	0:05:06	7:08:34	0:12:01	5:46:40	France	
+	818	Paul Barton	M	M45-49	142	14:21:59	1:19:05	0:10:24	7:36:15	0:09:03	5:07:12	United Kingdom	
+	819	Aritz Gomez	M	M25-29	51	14:22:09	1:04:07	0:12:18	7:28:01	0:12:54	5:24:49	Spain	
+	820	Orhan Gündüz	M	M50-54	121	14:22:23	1:18:31	0:11:08	7:26:32	0:08:32	5:17:41	Germany	
+	821	Paolo Soldano	M	M45-49	143	14:22:57	1:22:06	0:08:46	7:54:47	0:09:19	4:48:00	Italy	
+	822	Luca Rossini	M	M40-44	123	14:23:28	0:58:14	0:09:55	7:27:34	0:12:53	5:34:51	Italy	
+	823	Alfonso Garrido Perez	M	M40-44	124	14:23:34	1:10:06	0:13:32	7:31:00	0:17:49	5:11:08	Spain	
+	824	Fran Palacios	M	M45-49	144	14:23:35	1:19:28	0:07:24	7:36:26	0:10:19	5:09:58	Spain	
+	825	Torin Scott	M	M25-29	52	14:23:40	1:08:56	0:07:48	8:20:01	0:07:13	4:39:42	Canada	
+	826	Christian Garruppo	M	M25-29	53	14:23:44	1:13:42	0:05:35	7:28:29	0:06:48	5:29:10	United States	
+	827	FEDERICO LOIACONO	M	M40-44	125	14:24:23	1:14:20	0:09:08	7:30:27	0:17:53	5:12:33	Argentina	
+	828	Stefano Anzani	M	M35-39	96	14:24:25	1:14:38	0:12:17	7:06:04	0:13:24	5:38:01	Italy	
+	829	Matteo D'Onofrio	M	M45-49	145	14:24:34	1:07:04	0:06:55	7:21:23	0:08:50	5:40:22	Italy	
+	830	Mark Duggan	M	M50-54	122	14:24:35	1:22:33	0:09:01	7:29:33	0:10:04	5:13:24	United Kingdom	
+	831	victor cisnal	M	M30-34	73	14:24:38	1:05:05	0:13:08	7:29:30	0:11:09	5:25:46	Spain	
+	832	Rene Ricken	M	M55-59	56	14:25:10	1:21:38	0:11:42	7:34:56	0:13:17	5:03:37	Germany	
+	833	David Whistler	M	M55-59	57	14:25:46	1:20:47	0:12:00	7:28:48	0:10:12	5:14:00	United Kingdom	
+	834	Edgar Rocket Schnorpfeil	M	M60-64	32	14:26:08	1:23:57	0:13:39	7:25:46	0:11:38	5:11:08	Germany	
+	835	Zara Heffernan	F	F25-29	9	14:26:10	1:24:28	0:07:40	7:54:26	0:09:58	4:49:38	United Kingdom	
+	836	James Harper	M	M35-39	97	14:27:07	1:26:38	0:07:58	8:13:35	0:07:21	4:31:36	United Kingdom	
+	837	Jose Manuel Araujo Martinez	M	M50-54	123	14:27:08	1:13:05	0:08:53	7:28:02	0:09:59	5:27:08	Spain	
+	838	David Donnelly	M	M55-59	58	14:27:11	1:14:52	0:09:19	7:42:39	0:13:50	5:06:31	Ireland	
+	839	Luca Carola	M	M45-49	146	14:27:38	1:19:21	0:09:32	7:28:00	0:11:13	5:19:32	Italy	
+	840	German Conte Perez	M	M55-59	59	14:27:40	1:03:36	0:04:57	7:25:26	0:08:32	5:45:09	Spain	
+	841	David Turton	M	M55-59	60	14:28:03	1:26:28	0:12:07	7:09:22	0:14:35	5:25:30	United Kingdom	
+	842	Stefano Signo	M	M45-49	147	14:28:13	1:22:21	0:09:55	6:49:43	0:12:25	5:53:49	Italy	
+	843	Paul Dorrell	M	M60-64	33	14:28:28	1:23:23	0:08:45	7:41:54	0:14:35	4:59:51	Ireland	
+	844	Erwan Miloux	M	M35-39	98	14:28:28	1:12:12	0:12:43	7:31:13	0:10:44	5:21:36	France	
+	845	Andrew Simpson	M	M40-44	126	14:28:35	1:13:37	0:09:55	7:40:16	0:12:49	5:11:57	United Kingdom	
+	846	Alberto Arrabal Martínez	M	M45-49	148	14:28:39	1:24:36	0:11:01	8:08:43	0:09:31	4:34:48	Spain	
+	847	Felix Schulze	M	M40-44	127	14:29:04	1:17:10	0:06:16	7:19:19	0:08:41	5:37:37	Germany	
+	848	Tyler Walker	M	M35-39	99	14:29:06	1:16:46	0:07:41	7:39:20	0:08:54	5:16:26	United Kingdom	
+	849	Matthew Hearne	M	M50-54	124	14:29:27	1:35:24	0:10:58	7:05:07	0:12:57	5:25:02	United Kingdom	
+	850	Adrián Herrera Hernández	M	M18-24	21	14:29:50	1:14:05	0:13:40	7:52:10	0:18:47	4:51:08	Spain	
+	851	Soledad Zurita Lozano	F	F30-34	17	14:30:15	0:59:52	0:05:55	7:41:55	0:11:11	5:31:21	Spain	
+	852	Ben Murphy	M	M25-29	54	14:30:30	1:13:20	0:06:22	7:36:59	0:10:09	5:23:40	United Kingdom	
+	853	Joan Pérez Sànchez	M	M45-49	149	14:30:40	1:21:53	0:10:09	8:07:45	0:09:55	4:40:58	Spain	
+	854	María Del Carmen Rosario López Galindo	F	F35-39	10	14:30:50	1:32:40	0:07:49	7:42:51	0:10:30	4:57:00	Mexico	
+	855	India Link-Jones	F	F25-29	10	14:31:37	1:13:20	0:07:31	7:57:17	0:09:38	5:03:50	United Kingdom	
+	856	Sachin Mistry	M	M25-29	55	14:31:44	1:09:15	0:08:00	7:54:08	0:09:22	5:10:59	United Kingdom	
+	857	kassandra qalmeida	F	F30-34	18	14:31:52	1:14:41	0:05:42	8:16:15	0:14:04	4:41:10	Spain	
+	858	Juan Andrés García Amago	M	M60-64	34	14:31:59	1:21:11	0:09:46	7:53:53	0:14:43	4:52:26	Spain	
+	859	Mark Rowland	M	M60-64	35	14:32:28	1:19:32	0:08:33	7:13:23	0:12:06	5:38:54	United Kingdom	
+	860	Carmelo Ruiz Sánchez	M	M60-64	36	14:32:29	1:10:41	0:09:55	8:12:19	0:12:45	4:46:48	Spain	
+	861	Heiko Stein	M	M55-59	61	14:32:40	1:05:45	0:05:21	6:52:51	0:09:24	6:19:19	Germany	
+	862	Martin Delbrügge	M	M55-59	62	14:32:56	1:19:51	0:11:14	7:09:10	0:14:35	5:38:06	Germany	
+	863	Huw Phillips	M	M50-54	125	14:33:30	1:18:00	0:08:33	7:54:47	0:09:56	5:02:14	United Kingdom	
+	864	Costin Manea	M	M30-34	74	14:33:34	1:11:57	0:09:16	7:53:28	0:12:14	5:06:38	Romania	
+	865	Søren Rosted Hansen	M	M40-44	128	14:33:42	1:13:34	0:10:33	7:43:52	0:11:15	5:14:28	Denmark	
+	866	Angie Storti	F	F50-54	11	14:33:50	1:34:34	0:07:46	7:41:36	0:08:39	5:01:16	Italy	
+	867	Soazig Taillardat	F	F50-54	12	14:33:55	1:19:37	0:13:32	7:54:22	0:18:20	4:48:04	France	
+	868	Mark Vollmer	M	M45-49	150	14:34:07	1:23:15	0:08:29	7:41:51	0:10:07	5:10:25	Germany	
+	869	Domingo Hernandez Paez	M	M70-74	2	14:34:29	1:20:33	0:11:20	7:57:50	0:10:19	4:54:27	Spain	
+	870	Leanne Osborne	F	F50-54	13	14:34:34	1:15:44	0:07:36	8:15:03	0:09:15	4:46:56	United Kingdom	
+	871	Richard Roe	M	M55-59	63	14:34:36	1:33:07	0:09:14	7:40:19	0:09:46	5:02:11	United Kingdom	
+	872	Ying Long	F	F25-29	11	14:34:42	1:25:11	0:09:04	7:26:16	0:10:27	5:23:44	China	
+	873	Víctor Sánchez Sánchez	M	M50-54	126	14:35:26	1:12:20	0:10:00	7:50:05	0:10:20	5:12:41	Spain	
+	874	Fabio Panciarola	M	M55-59	64	14:35:44	1:29:07	0:10:16	7:33:32	0:10:16	5:12:33	Italy	
+	875	Anthony Williams	M	M40-44	129	14:36:03	1:02:38	0:10:32	7:57:07	0:15:34	5:10:13	United Kingdom	
+	876	Denis Lazarov	M	M25-29	56	14:37:36	1:17:07	0:12:59	7:53:46	0:15:47	4:57:56	Czechia	
+	877	max Palfi	M	M35-39	100	14:37:55	1:05:02	0:13:13	7:47:19	0:16:52	5:15:29	Hungary	
+	878	Jason Rosier	M	M30-34	75	14:37:55	1:17:54	0:16:04	8:30:13	0:16:37	4:17:07	Netherlands	
+	879	Christoph Clases	M	M60-64	37	14:38:01	1:16:46	0:08:02	7:08:02	0:12:33	5:52:38	Switzerland	
+	880	Rajendra Kielka	M	M35-39	101	14:38:31	1:24:06	0:08:27	8:12:59	0:07:57	4:45:00	Ireland	
+	881	Alan Turnbull	M	M55-59	65	14:38:43	1:16:09	0:08:12	8:24:05	0:13:05	4:37:12	United Kingdom	
+	882	James Cole	M	M40-44	130	14:38:47	1:19:33	0:06:48	7:26:41	0:08:54	5:36:51	Ireland	
+	883	Erwin De Stercke	M	M60-64	38	14:38:52	1:11:55	0:11:20	7:58:32	0:10:20	5:06:44	Belgium	
+	884	Mark Francey	M	M40-44	131	14:39:09	1:16:39	0:11:13	7:40:19	0:12:30	5:18:28	United Kingdom	
+	885	John Gallagher	M	M45-49	151	14:40:18	1:20:04	0:08:49	7:35:02	0:13:42	5:22:41	Ireland	
+	886	DAVID ORPI FERNANDEZ	M	M50-54	127	14:41:01	1:07:12	0:09:19	8:13:32	0:10:22	5:00:37	Spain	
+	887	Robert Moreau	M	M60-64	39	14:41:03	1:21:42	0:08:18	8:01:19	0:13:26	4:56:18	France	
+	888	Samuel Roberge-Arnott	M	M25-29	57	14:41:32	1:06:39	0:07:45	8:15:00	0:08:24	5:03:44	Canada	
+	889	Miguel Madrid Lopez	M	M55-59	66	14:41:37	1:15:41	0:14:39	7:46:28	0:17:34	5:07:14	Spain	
+	890	David Tench	M	M50-54	128	14:41:46	1:11:11	0:07:14	7:04:35	0:11:03	6:07:43	United Kingdom	
+	891	Amy Rappaport	F	F65-69	1	14:41:58	1:13:27	0:10:50	8:27:36	0:15:25	4:34:40	United States	
+	892	Michal Garstecki	M	M50-54	129	14:42:28	1:29:01	0:11:10	7:46:46	0:17:59	4:57:32	Poland	
+	893	Kerri Whitelegg-Spavin	F	F50-54	14	14:42:39	1:15:05	0:09:10	8:07:29	0:10:37	5:00:17	United Kingdom	
+	894	Arunas Jonyla	M	M40-44	132	14:43:08	1:15:57	0:12:41	8:20:45	0:12:52	4:40:53	Lithuania	
+	895	Miquel Angel Gallego Royes	M	M40-44	133	14:43:10	0:56:10	0:04:43	9:01:48	0:09:58	4:30:31	Spain	
+	896	Jürgen Schäfer	M	M60-64	40	14:43:12	1:29:26	0:07:00	7:23:27	0:12:15	5:31:03	Germany	
+	897	Simone Cavallini	M	M55-59	67	14:43:32	1:24:45	0:12:33	7:59:37	0:11:38	4:54:58	Italy	
+	898	Francisco Santiago Santana	M	M45-49	152	14:45:26	1:17:29	0:06:52	7:45:39	0:09:22	5:26:05	Spain	
+	899	Vicente Sanz Romero	M	M65-69	8	14:45:48	1:18:04	0:07:25	7:37:34	0:10:18	5:32:28	Spain	
+	900	Dave Williams	M	M60-64	41	14:46:08	1:16:32	0:08:32	7:41:26	0:12:31	5:27:07	Ireland	
+	901	Luis Enrique Gomez-Rose	M	M25-29	58	14:46:23	1:11:37	0:06:30	8:00:36	0:09:03	5:18:36	Spain	
+	902	Vic Johnston	M	M50-54	130	14:46:23	1:13:44	0:16:06	7:34:46	0:24:51	5:16:57	United Kingdom	
+	903	Paula Roberts	F	F50-54	15	14:46:25	1:12:45	0:08:48	7:26:33	0:09:10	5:49:09	Ireland	
+	904	Chris Robatti	M	M40-44	134	14:46:49	1:30:13	0:16:41	7:59:45	0:15:26	4:44:43	United Kingdom	
+	905	Fabien Giraud	M	M45-49	153	14:47:02	1:16:40	0:15:19	8:00:04	0:14:41	5:00:19	France	
+	906	Nick Bennett	M	M55-59	68	14:47:32	1:08:40	0:05:59	7:54:37	0:12:09	5:26:08	United Kingdom	
+	907	Francesco Colla	M	M40-44	135	14:48:17	1:12:16	0:06:14	7:54:15			Italy	
+	908	Kenny Lonergan	M	M40-44	136	14:48:32	1:10:39	0:07:05	7:36:43	0:09:17	5:44:48	Ireland	
+	909	Talgat Moldazhanov	M	M35-39	102	14:48:42	1:26:23	0:13:55	8:05:49	0:11:44	4:50:51	Kazakhstan	
+	910	Michael Clancy	M	M60-64	42	14:48:52	1:15:36	0:06:35	7:37:25	0:14:01	5:35:15	Ireland	
+	911	Stephen Riding	M	M35-39	103	14:49:42	1:14:45	0:12:47	7:47:14	0:14:41	5:20:14	United Kingdom	
+	912	Anna Steel	F	F25-29	12	14:50:09	1:24:49	0:09:19	8:26:27	0:08:46	4:40:48	United Kingdom	
+	913	Ali Douglas	F	F40-44	17	14:50:31	1:12:02	0:04:55	8:25:18	0:08:02	5:00:13	Canada	
+	914	Lee Womersley	M	M40-44	137	14:50:49	1:02:47	0:06:21	8:26:40	0:08:59	5:06:01	United Kingdom	
+	915	Jesús Villanueva Guisado	M	M50-54	131	14:50:50	1:10:21	0:09:31	7:51:28	0:11:52	5:27:38	Spain	
+	916	Dave Dadson	M	M60-64	43	14:50:51	1:24:40	0:08:47	7:26:07	0:08:28	5:42:48	United Kingdom	
+	917	Zach Karras	M	M18-24	22	14:51:02	1:07:03	0:05:39	8:36:34	0:10:56	4:50:50	United States	
+	918	David Smith	M	M60-64	44	14:51:03	1:09:01	0:07:54	7:31:42	0:09:42	5:52:43	United Kingdom	
+	919	Marcel Bartz	M	M50-54	132	14:51:44	1:18:35	0:08:18	7:10:48	0:10:10	6:03:52	Germany	
+	920	Roberto Sulis	M	M55-59	69	14:52:34	1:16:59	0:08:28	7:43:49	0:14:15	5:29:03	Italy	
+	921	Paul D'Angelo	M	M35-39	104	14:52:40	1:28:47	0:07:10	8:22:41	0:10:42	4:43:20	Canada	
+	922	Luis Javier Carracedo Cordovilla	M	M40-44	138	14:52:56	1:14:31	0:11:36	8:01:15	0:15:25	5:10:09	Spain	
+	923	Vidin Nikolov	M	M45-49	154	14:53:11	1:10:07	0:08:30	7:48:17	0:12:36	5:33:41	Bulgaria	
+	924	Keith Richardson	M	M50-54	133	14:53:33	1:23:00	0:07:58	8:08:49	0:12:02	5:01:44	Ireland	
+	925	Santiago Lopez	M	M30-34	76	14:55:31	1:22:11	0:08:47	8:24:43	0:11:27	4:48:23	Colombia	
+	926	Sylvester Mackensen	M	M50-54	134	14:55:38	1:25:10	0:11:46	7:01:36	0:14:37	6:02:29	Germany	
+	927	Nicola Goodwin	F	F50-54	16	14:56:17	1:16:22	0:13:11	8:18:01	0:14:19	4:54:23	United Kingdom	
+	928	Charlotte Tudbury-Maider	F	F55-59	6	14:56:26	1:30:36	0:07:22	8:20:10	0:11:30	4:46:47	United Kingdom	
+	929	Charlie Collins	M	M65-69	9	14:57:11	1:19:06	0:06:46	8:04:30	0:08:51	5:17:58	United Kingdom	
+	930	Stefano Serio	M	M55-59	70	14:57:28	1:25:09	0:11:31	7:43:23	0:18:56	5:18:29	Italy	
+	931	Nathan Race	M	M45-49	155	14:58:04	1:11:39	0:09:22	8:01:30	0:11:49	5:23:44	United Kingdom	
+	932	Paul Thompson	M	M55-59	71	14:59:15	1:01:06	0:09:05	7:14:51	0:13:41	6:20:32	United Kingdom	
+	933	Craig Colborne	M	M50-54	135	14:59:22	1:40:42	0:08:45	7:32:52	0:14:25	5:22:39	United Kingdom	
+	934	Antonio Fernandez Rodriguez	M	M30-34	77	14:59:58	1:25:38	0:14:28	8:06:12	0:16:33	4:57:08	Spain	
+	935	Philip Browne	M	M50-54	136	15:00:17	1:31:26	0:08:30	8:16:07	0:14:23	4:49:51	Ireland	
+	936	Niall Mulcahy	M	M35-39	105	15:00:35	1:25:13	0:11:09	8:02:16	0:13:54	5:08:04	Ireland	
+	937	Linni TILLER	F	F65-69	2	15:01:00	1:25:22	0:09:11	7:50:26	0:13:41	5:22:20	Norway	
+	938	Mariela Sebastía	F	F30-34	19	15:01:22	1:18:42	0:07:43	8:11:48	0:12:21	5:10:48	Argentina	
+	939	Javier Diego Granado	M	M50-54	137	15:01:23	1:29:36	0:10:50	8:40:18	0:11:48	4:28:52	Spain	
+	940	Frederic Etienne	M	M60-64	45	15:01:40	1:15:49	0:05:46	7:22:26	0:10:33	6:07:06	France	
+	941	Andres Salgado	M	M18-24	23	15:02:50	1:15:30	0:09:29	8:17:01	0:11:53	5:08:57	Honduras	
+	942	Andres Salgado	M	M50-54	138	15:02:50	1:16:43	0:08:45	8:01:19	0:10:41	5:25:21	Honduras	
+	943	Toby Grieves	M	M25-29	59	15:03:30	1:21:15	0:08:47	7:47:54	0:10:22	5:35:12	United Kingdom	
+	944	Ignacio Reid	M	M50-54	139	15:03:32	1:05:38	0:06:04	7:52:08	0:11:14	5:48:29	Chile	
+	945	Robert Hodgson	M	M60-64	46	15:03:50	1:16:54	0:10:01	7:53:49	0:14:24	5:28:43	United Kingdom	
+	946	mazeyar firouzi	M	M50-54	140	15:03:53	1:20:36	0:24:54	8:33:46	0:10:50	4:33:47	Denmark	
+	947	Ulrico Zatti	M	M55-59	72	15:05:16	1:12:59	0:09:32	8:03:29	0:13:56	5:25:19	Italy	
+	948	Daniel Cashmore	M	M45-49	156	15:06:15	1:29:53	0:06:59	7:39:40	0:07:49	5:41:53	United Kingdom	
+	949	Markus Schwarzer	M	M40-44	139	15:06:36	1:33:22	0:10:59	7:49:13	0:09:48	5:23:14	Germany	
+	950	Juan Carlos Ruiz Martinez	M	M55-59	73	15:07:15	1:18:53	0:12:44	7:53:25	0:16:24	5:25:49	Spain	
+	951	Armando Alberto Alvarez Cervantes	M	M55-59	74	15:07:48	1:18:04	0:15:36	8:37:37	0:15:23	4:41:08	Mexico	
+	952	Arron Owen	M	M40-44	140	15:08:12	1:29:42	0:11:07	8:01:25	0:10:01	5:15:56	United Kingdom	
+	953	Roberto Anuar Carrillo	M	M35-39	106	15:08:21	1:37:18	0:09:21	8:16:07	0:10:23	4:55:12	Mexico	
+	954	Thomas McDougall	M	M55-59	75	15:10:41	1:09:23	0:17:19	8:14:42	0:21:41	5:07:37	United Kingdom	
+	955	Paul Gillespie	M	M45-49	157	15:10:43	1:24:25	0:11:58	8:06:30	0:07:21	5:20:29	United Kingdom	
+	956	Janet Fieker	F	F50-54	17	15:11:47	1:42:31	0:06:29	8:24:43	0:07:47	4:50:17	Germany	
+	957	Luca Franceschin	M	M50-54	141	15:13:19	1:18:08	0:07:32	8:17:37	0:11:46	5:18:16	Italy	
+	958	Maurice Inkster	M	M60-64	47	15:13:24	1:12:33	0:07:30	8:12:17	0:14:17	5:26:46	United Kingdom	
+	959	Cris Francis	M	M50-54	142	15:13:27	1:21:32	0:12:37	8:06:47	0:11:37	5:20:56	United Kingdom	
+	960	Ferran Raurich	M	M55-59	76	15:15:08	1:13:07	0:07:24	8:35:30	0:07:26	5:11:42	Spain	
+	961	Sergio Laureano Sánchez	M	M45-49	158	15:16:34	1:11:26	0:06:12	8:01:37	0:09:44	5:47:35	Spain	
+	962	John Rowe	M	M50-54	143	15:16:51	1:05:37					United Kingdom	
+	963	Carmen Kuechle	F	F50-54	18	15:16:53	1:20:34	0:10:35	8:24:11	0:13:09	5:08:24	Switzerland	
+	964	Brian Sheehan	M	M60-64	48	15:17:54	1:28:02	0:09:11	8:13:37	0:11:34	5:15:30	Ireland	
+	965	David Pike	M	M55-59	77	15:19:13	1:16:05	0:10:20	7:24:53	0:12:26	6:15:29	United Kingdom	
+	966	roman labutin	M	M55-59	78	15:19:35	1:19:12	0:06:31	7:58:49	0:13:34	5:41:29	United States	
+	967	Luis Angel Escalante Andres	M	M50-54	144	15:20:05	1:10:11	0:11:25	8:22:53	0:07:45	5:27:50	Spain	
+	968	Bart Vangeel	M	M60-64	49	15:20:36	1:15:53	0:07:59	8:19:40	0:14:56	5:22:08	Belgium	
+	969	Paul O Connell	M	M50-54	145	15:21:11	1:24:49	0:07:36	7:50:11	0:08:58	5:49:37	Ireland	
+	970	Borja Garcia Gilabert	M	M45-49	159	15:21:29	1:15:20	0:11:27	8:27:06	0:14:40	5:12:57	Spain	
+	971	Conrad John	M	M55-59	79	15:21:39	1:21:04	0:06:24	8:13:39	0:09:27	5:31:05	United Kingdom	
+	972	Stefan Hufgard	M	M45-49	160	15:22:28	1:22:47	0:08:03	7:52:33	0:02:18	5:56:46	Germany	
+	973	chris littlejohn	M	M40-44	141	15:23:53	0:59:54	0:05:22	7:56:25	0:11:16	6:10:55	United Kingdom	
+	974	Elena Vallecillo Santana	F	F55-59	7	15:24:04	1:12:24	0:08:41	8:41:36	0:08:37	5:12:46	Spain	
+	975	Xavi Sanz Garcia	M	M40-44	142	15:25:42	1:22:04	0:07:42	8:24:35	0:10:33	5:20:48	Spain	
+	976	Miriam Lo Vecchio	F	F45-49	7	15:25:45	1:16:04	0:12:45	8:52:23	0:12:45	4:51:47	Italy	
+	977	Laszlo Kameniczki	M	M30-34	78	15:25:48	1:26:28	0:11:48	8:28:42	0:15:47	5:03:03	Hungary	
+	978	Reece Moss	M	M35-39	107	15:25:56	1:32:43	0:10:28	8:04:33	0:11:54	5:26:20	United Kingdom	
+	979	Peter Joecken	M	M70-74	3	15:26:38	1:31:18	0:09:07	7:36:06	0:12:30	5:57:38	Germany	
+	980	Mª Del Prado González Sánchez	F	F55-59	8	15:27:09	1:20:16	0:08:47	7:27:37	0:08:19	6:22:11	Spain	
+	981	Keith Christie	M	M50-54	146	15:27:42	1:19:09	0:18:06	7:46:44	0:20:11	5:43:33	United Kingdom	
+	982	Ricardo Silva	M	M40-44	143	15:28:38	1:18:03	0:09:30	8:16:14	0:12:06	5:32:45	Portugal	
+	983	Karl Pickersgill-Speight	M	M45-49	161	15:29:12	1:21:07	0:08:22	8:01:01	0:13:01	5:45:42	United Kingdom	
+	984	Stephen Cameron	M	M55-59	80	15:29:33	1:43:09	0:21:27	7:55:01	0:20:38	5:09:18	United Kingdom	
+	985	Peter Nash	M	M60-64	50	15:30:41	1:15:11	0:11:07	8:03:16	0:11:01	5:50:06	United Kingdom	
+	986	Daniel Karcz	M	M35-39	108	15:30:42	1:33:09	0:15:15	8:22:11	0:17:26	5:02:40	Poland	
+	987	Angel Tomas Gatti	M	M40-44	144	15:31:03	1:17:35	0:10:40	8:39:31	0:15:09	5:08:08	Argentina	
+	988	Jürgen Stattmüller	M	M60-64	51	15:31:04	1:44:54	0:10:44	8:13:01	0:10:15	5:12:10	Germany	
+	989	Sam Race	F	F50-54	19	15:31:40	1:20:52	0:09:15	8:22:11	0:09:51	5:29:31	United Kingdom	
+	990	Uberto Bagnoli	M	M50-54	147	15:33:11	1:17:46	0:13:20	7:40:05	0:14:28	6:07:33	Italy	
+	991	David Gonzalez Cano	M	M40-44	145	15:33:41	1:20:45	0:11:10	8:02:54	0:11:47	5:47:04	Spain	
+	992	Christophe Baldeweck	M	M50-54	148	15:34:10	1:09:22	0:07:44	8:13:03	0:09:13	5:54:47	France	
+	993	Enrico Braglia	M	M55-59	81	15:34:23	1:14:55	0:05:17	6:52:53	0:09:22	7:11:56	Italy	
+	994	Ezequiel Ortiz Recalde	M	M30-34	79	15:34:50	1:24:54	0:08:20	9:07:48	0:13:50	4:39:58	Spain	
+	995	Daniel Impey	M	M35-39	109	15:34:54	1:28:04	0:17:01	8:10:33	0:19:02	5:20:14	United Kingdom	
+	996	Oleksandr Skolozhabskyy	M	M50-54	149	15:34:58	1:33:15	0:10:02	8:50:15	0:09:45	4:51:41	Estonia	
+	997	Stephan Petrasch	M	M70-74	4	15:35:00	1:22:50	0:11:29	8:18:55	0:10:49	5:30:57	Germany	
+	998	Clement Nothomb	M	M25-29	60	15:35:07	1:27:13	0:14:29	8:04:06	0:20:59	5:28:19	Belgium	
+	999	Masashi Hiraiso	M	M60-64	52	15:35:49	1:28:27	0:11:45	8:09:43	0:16:19	5:29:35	Japan	
+	1000	Михаил Пахомчик	M	M55-59	82	15:35:57	1:12:20	0:08:08	7:30:41	0:10:59	6:33:49		
+	1001	Ryan Murphy	M	M35-39	110	15:36:04	1:29:14	0:14:30	8:37:55	0:14:16	5:00:09	Ireland	
+	1002	Markus Kohler	M	M60-64	53	15:36:45	1:22:34	0:05:22	7:55:03	0:10:52	6:02:54	Germany	
+	1003	Artashes Tonoyan	M	M50-54	150	15:36:56	1:16:31	0:09:11	8:07:06	0:10:23	5:53:45	Armenia	
+	1004	Matthias Mayer	M	M50-54	151	15:37:56	1:22:36	0:10:50	7:18:45	0:11:11	6:34:34	Germany	
+	1005	Yong Zhao	M	M45-49	162	15:38:44	0:54:52	0:05:15	8:35:08	0:11:49	5:51:39	China	
+	1006	Igor Zanfanti	M	M50-54	152	15:38:54	1:03:50	0:08:44	7:30:42	0:12:51	6:42:46	Italy	
+	1007	Joe Barron	M	M25-29	61	15:39:30	1:04:06	0:13:36	9:25:52	0:15:16	4:40:40	United Kingdom	
+	1008	Andrea Colombo	M	M50-54	153	15:39:48	1:22:47	0:13:17	7:45:37	0:15:37	6:02:30	Italy	
+	1009	Aaron Bailey	M	M18-24	24	15:39:55	1:08:40	0:07:39	8:13:27	0:09:45	6:00:23	Ireland	
+	1010	Mikel Lasa Imaz	M	M60-64	54	15:40:21	1:38:00	0:11:27	8:28:27	0:14:21	5:08:06	Spain	
+	1011	Krzysztof Skiba	M	M40-44	146	15:42:05	1:20:31	0:07:10	8:33:13	0:11:49	5:29:21	Poland	
+	1012	Andrew Bell	M	M55-59	83	15:42:35	1:37:18	0:06:49	8:31:07	0:07:46	5:19:35	United Kingdom	
+	1013	Murat Taskiran	M	M55-59	84	15:43:10	1:41:00	0:13:21	7:59:24	0:01:41	5:47:43	Germany	
+	1014	Patrick Gilis	M	M55-59	85	15:43:22	1:03:38	0:13:49	8:23:21	0:10:59	5:51:35	Belgium	
+	1015	antxon gomez	M	M18-24	25	15:43:32	1:10:39	0:10:31	8:23:07	0:16:37	5:42:37	Spain	
+	1016	Neil evans	M	M55-59	86	15:44:50	1:22:30	0:08:19	8:16:19	0:08:41	5:49:02	United Kingdom	
+	1017	Jose Maria Alvarez Perez	M	M50-54	154	15:44:54	1:14:41	0:13:38	8:31:38	0:13:37	5:31:21	Spain	
+	1018	Hannah Ashby	F	F25-29	13	15:45:15	1:03:56	0:11:27	9:09:35	0:11:40	5:08:37	United Kingdom	
+	1019	Danilo Clerici	M	M55-59	87	15:45:30	1:22:40	0:08:52	8:00:15	0:20:24	5:53:19	Italy	
+	1020	Alan Barker	M	M45-49	163	15:46:22	1:26:02	0:18:13	7:18:37	0:15:10	6:28:20	United Kingdom	
+	1021	Cornelia Tschenet	F	F45-49	8	15:46:30	1:34:50	0:07:50	8:12:10	0:13:03	5:38:36	Austria	
+	1022	Graham Butler	M	M35-39	111	15:47:00	1:03:08	0:05:10	8:01:59	0:09:31	6:27:12	Ireland	
+	1023	Väinö Nyström	M	M25-29	62	15:47:29	1:35:02	0:09:58	8:57:32	0:12:31	4:52:26	Finland	
+	1024	Michael Street	M	M30-34	80	15:47:57	1:22:44	0:09:16	8:58:42	0:11:48	5:05:27	United Kingdom	
+	1025	Alexandru Lazar	M	M30-34	81	15:47:58	1:19:19	0:17:18	8:32:48	0:16:11	5:22:22	Romania	
+	1026	Pablo Jose Lopez De Felipe Ayuso	M	M55-59	88	15:48:11	1:39:15	0:08:30	8:29:45	0:09:51	5:20:50	Spain	
+	1027	Philip Argent	M	M45-49	164	15:48:28	1:27:26	0:15:35	8:22:12	0:12:17	5:30:59	United Kingdom	
+	1028	Orlando Roberto	M	M65-69	10	15:48:46	1:24:33	0:12:28	7:21:25	0:10:54	6:39:26	France	
+	1029	Richard Mann	M	M45-49	165	15:51:27	1:20:14	0:07:04	8:18:39	0:10:58	5:54:32	United Kingdom	
+	1030	Shane Walsh	M	M45-49	166	15:51:32	1:13:40	0:05:27	7:41:35	0:09:36	6:41:13	Ireland	
+	1031	Dean Harries	M	M40-44	147	15:51:42	1:21:40	0:08:55	8:09:18	0:11:43	6:00:07	United Kingdom	
+	1032	Kiattikhun Yaowarat	M	M50-54	155	15:53:39	1:10:52	0:08:33	8:52:02	0:08:00	5:34:11	Thailand	
+	1033	Michael Garrett	M	M60-64	55	15:54:09	1:26:12	0:11:47	8:03:13	0:16:10	5:56:47	United Kingdom	
+	1034	Jason Smith	M	M55-59	89	15:55:49	1:40:59	0:11:55	7:50:21	0:11:47	6:00:47	United Kingdom	
+	1035	Patrick Meade	M	M40-44	148	15:56:00	1:12:20	0:09:33	8:59:43	0:09:53	5:24:32	United States	
+	1036	Antoine Lengrand	M	M50-54	156	15:58:49	1:21:16	0:13:27	8:09:43	0:14:51	5:59:33	France	
+	1037	Ramón Arenaza	M	M55-59	90	15:59:09	1:12:07	0:10:20	8:38:25	0:17:35	5:40:41	Spain	
+	1038	Jaime Ortega Sarvisé	M	M25-29	63	15:59:16	1:43:38	0:14:06	8:32:14	0:13:24	5:15:54	Spain	
+	1039	Josep Maria Pico Gonzalez	M	M30-34	82	15:59:56	1:35:22	0:17:44	8:57:56	0:14:36	4:54:18	Spain	
+	1040	Laurent Lefevre	M	M55-59	91	16:01:42	1:32:08	0:14:23	8:31:12	0:16:37	5:27:22	France	
+	1041	Darryl Claret	M	M50-54	157	16:02:39	1:35:50	0:07:37	7:55:41	0:10:09	6:13:22	United Kingdom	
+	1042	Glynn Mortimer	M	M55-59	92	16:02:46	1:43:42	0:11:48	8:24:58	0:11:57	5:30:20	United Kingdom	
+	1043	Georgios Moukos	M	M40-44	149	16:02:55	1:04:46	0:06:50	9:08:38	0:10:24	5:32:18	Greece	
+	1044	Verónica Uribe Arce	F	F45-49	9	16:05:29	1:27:10	0:11:49	8:58:09	0:13:57	5:14:23	Spain	
+	1045	Jon Clark	M	M55-59	93	16:06:11	1:17:24	0:07:44	8:29:52	0:14:37	5:56:34	United States	
+	1046	Marzio Zanato	M	M60-64	56	16:07:13	1:15:38	0:17:08	8:19:56	0:15:05	5:59:26	Italy	
+	1047	Rhys Weeks	M	M35-39	112	16:09:28	1:14:14	0:09:54	8:47:46	0:10:28	5:47:05	United Kingdom	
+	1048	Derek Hughes	M	M55-59	94	16:09:43	1:40:11	0:07:18	8:59:27	0:09:49	5:12:58	United Kingdom	
+	1049	Tracie Mcguire	F	F55-59	9	16:11:09	1:23:35	0:05:59	8:37:54	0:11:57	5:51:44	United Kingdom	
+	1050	Massimo Messina	M	M50-54	158	16:11:18	1:29:26	0:08:59	8:39:21	0:07:08	5:46:25	Italy	
+	1051	Tom Dangerfield	M	M18-24	26	16:11:35	1:08:46	0:07:00	8:47:48	0:14:52	5:53:09	United Kingdom	
+	1052	Lyndon Wood	M	M50-54	159	16:11:38	1:13:21	0:14:14	8:36:01	0:18:04	5:49:57	United Kingdom	
+	1053	Jose Ramón Queiruga Calo	M	M45-49	167	16:11:40	1:29:08	0:10:25	9:07:05	0:11:41	5:13:21	Spain	
+	1054	Stephen Mohally	M	M45-49	168	16:12:39	1:18:28	0:08:07	7:59:15	0:17:31	6:29:17	Ireland	
+	1055	Ricardo Alarcón Terroso	M	M50-54	160	16:13:27	1:21:18	0:10:32	9:11:26	0:02:25	5:27:46	Spain	
+	1056	Pierluca Narraccio	M	M50-54	161	16:14:17	1:24:25	0:13:53	8:52:27	0:12:55	5:30:37	Italy	
+	1057	Claire Godfrey	F	F50-54	20	16:16:02	1:30:56	0:09:43	8:32:44	0:23:56	5:38:43	United Kingdom	
+	1058	Annette Ebeling	F	F55-59	10	16:16:03	1:20:50	0:14:19	8:29:58	0:11:31	5:59:25	Germany	
+	1059	Hugh Marron	M	M50-54	162	16:16:14	1:38:34	0:14:31	8:27:55	0:16:41	5:38:33	Ireland	
+	1060	Manuela Fischer	F	F50-54	21	16:16:15	1:24:54	0:05:57	8:18:36	0:11:58	6:14:49	Austria	
+	1061	Maria Margarita Tascon Gonzalez	F	F55-59	11	16:16:52	1:30:25	0:10:53	8:47:32	0:16:13	5:31:48	Spain	
+	1062	Laura Humphrey	F	F40-44	18	16:19:52	1:25:49	0:13:09	8:32:23	0:08:42	5:59:48	United Kingdom	
+	1063	Nicole Delaney	F	F45-49	10	16:19:55	1:15:52	0:12:48	8:21:02	0:13:38	6:16:34	Canada	
+	1064	Graham McEllin	M	M60-64	57	16:21:16	1:18:09	0:13:34	8:16:38	0:17:27	6:15:29	United Kingdom	
+	1065	Raymond Rowan	M	M40-44	150	16:23:17	1:22:54	0:10:50	8:37:40	0:13:23	5:58:30	Ireland	
+	1066	Rory Duffy	M	M40-44	151	16:23:30	1:19:03	0:12:42	8:53:35	0:13:57	5:44:13	United Kingdom	
+	1067	Clara Vergés Ballesteros	F	F25-29	14	16:23:31	1:25:45	0:06:05	9:17:47	0:08:37	5:25:18	Spain	
+	1068	Ian Gowler	M	M45-49	169	16:23:55	1:26:07	0:09:44	8:08:20	0:10:45	6:28:59	United Kingdom	
+	1069	Mark Fowell	M	M60-64	58	16:24:11	1:42:27	0:12:50	8:04:51	0:08:28	6:15:35	United Kingdom	
+	1070	Seth Sanders	M	M30-34	83	16:25:34	1:34:58	0:06:51	8:49:03	0:11:38	5:43:05	United States	
+	1071	Andrew Hudson	M	M50-54	163	16:26:13	1:07:19	0:11:10	7:26:33	0:17:49	7:23:23	United Kingdom	
+	1072	BARRY BROWN	M	M40-44	152	16:27:43	1:13:25	0:12:45	9:28:00	0:14:59	5:18:34	United Kingdom	
+	1073	Scott Bowler	M	M45-49	170	16:28:27	1:26:27	0:16:16	8:44:42	0:15:35	5:45:27	United Kingdom	
+	1074	Colin Mcmullan	M	M60-64	59	16:28:33	1:32:36	0:10:21	8:14:31	0:16:00	6:15:06	United Kingdom	
+	1075	Alexander Marsh	M	M18-24	27	16:29:16	1:18:25	0:15:03	9:12:39	0:18:31	5:24:37	United Kingdom	
+	1076	Salvatore Cupelli	M	M70-74	5	16:30:48	1:35:39	0:08:55	8:58:53	0:06:47	5:40:35	Belgium	
+	1077	Laurenz Sommerlad	M	M18-24	28	16:33:04	1:22:22	0:15:18	9:15:45	0:18:48	5:20:52	Germany	
+	1078	Francisco Exposito Rodriguez	F	M70-74	6	16:33:38	1:18:22	0:13:56	8:29:56	0:18:38	6:12:47	Spain	
+	1079	Luis Bollo Martinez	M	M45-49	171	16:36:19	1:11:23	0:12:08	8:37:19	0:14:55	6:20:34	Spain	
+	1080	Doris Krimm	F	F60-64	3	16:36:33	1:17:13	0:09:30	8:37:40	0:12:46	6:19:25	Spain	
+	1081	Gareth Brown	M	M35-39	113	16:38:20	1:25:04	0:11:24	8:44:32	0:15:52	6:01:28	Ireland	
+	1082	Kevin Hudson	M	M55-59	95	16:41:06	1:12:33	0:09:52	8:56:54	0:15:04	6:06:43	United Kingdom	
+	1083	Francisco Javier Viera Garcia	M	M55-59	96	16:41:15	1:18:06	0:09:39	9:35:34	0:12:31	5:25:25	Spain	
+	1084	Wesley Burke	M	M45-49	172	16:42:29	1:25:24	0:13:30	8:55:13	0:14:48	5:53:33	Ireland	
+	1085	Rob Elliott	M	M60-64	60	16:43:51	1:24:50	0:09:41	8:08:56	0:11:07	6:49:17	United Kingdom	
+	1086	Ruth Gray	F	F45-49	11	16:47:17	1:28:12	0:07:25	8:46:43	0:08:32	6:16:25	United Kingdom	
+	1087	Andrew Chapman	M	M45-49	173	16:47:53	1:33:32	0:11:22	8:31:52	0:14:13	6:16:53	United Kingdom	
+	1088	Mikhail Evstiunichev	M	M40-44	153	16:48:39	1:14:14	0:12:27	9:45:53	0:14:39	5:21:26		
+	1089	Phil Halls	M	M50-54	164	16:48:43	1:24:05	0:11:29	8:56:48	0:09:36	6:06:45	United Kingdom	
+	1090	Farukh Nassyr	M	M25-29	64	16:49:27	1:39:45	0:10:26	9:02:21	0:10:58	5:45:56	Kazakhstan	
+	1091	MONIA GRANDE	F	F50-54	22	16:51:13	1:30:51	0:10:43	9:38:18	0:11:22	5:19:58	Italy	
+	1092	Sara Tambani	F	F45-49	12	16:51:31	1:21:13	0:11:16	8:40:35	0:07:05	6:31:22	Italy	
+	1093	Les Jones	M	M65-69	11	16:52:43	1:42:13	0:08:29	8:32:28	0:09:50	6:19:43	United Kingdom	
+	1094	Lauren Chedburn	F	F40-44	19	16:53:26	1:38:55	0:07:55	8:57:25	0:08:43	6:00:28	United Kingdom	
+	1095	Timothy Lyons	M	M60-64	61	16:55:34	1:15:38	0:32:17	8:40:14	0:22:54	6:04:31	United States	
+	1096	Jenna Gotts	F	F45-49	13	16:56:38	1:28:28	0:09:47	9:13:52	0:13:53	5:50:37	United Kingdom	
+	1097	Karine RAFFEL	F	F55-59	12	16:57:00	1:32:42	0:17:24	8:34:42	0:16:04	6:16:07	France	
+	1098	Graham Jackson	M	M50-54	165	16:59:22	1:25:39	0:11:27	9:03:45	0:17:06	6:01:25	United Kingdom	
+	DNF	Benoit Bonnelle	M	M45-49	0		1:21:55	0:04:55				France	DNF
+	DNF	Stephanie Clutterbuck	F	FPRO	0		0:50:57	0:03:19	5:37:15			United Kingdom	DNF
+	DNS	Marion Sicot	F	F30-34	0							France	DNS
+	DNS	David Gibbons	M	M40-44	0							Ireland	DNS
+	DNS	Giancarlo Renzullo	M	M55-59	0							Italy	DNS
+	DNS	Emrys Halbertsma	M	M25-29	0							Netherlands	DNS
+	DNS	Jacob Grigg	M	M30-34	0							United Kingdom	DNS
+	DQ	Louise Brook-Jakisch	F	F40-44	0							Germany	DQ
+	DNS	Sebastien Jaussaud	M	M45-49	0							France	DNS
+	DNS	Ben Greetham	M	M45-49	0							United Kingdom	DNS
+	DNF	Matthew Ralphs	M	MPRO	0		0:49:54	0:02:19				South Africa	DNF
+	DNF	Victor Alexandre	M	MPRO	0		0:52:08	0:02:57				Belgium	DNF
+	DNS	Jörg Augustin	M	M50-54	0							Germany	DNS
+	DNF	Alexander Malldorf	M	M65-69	0		1:19:18	0:10:13	7:34:56	0:14:53		Germany	DNF
+	DNF	Laurence Jaffrelot	F	F50-54	0		0:55:28	0:17:40				France	DNF
+	DNS	PEDRO MONTERO LÓPEZ	M	M30-34	0							Spain	DNS
+	DNF	Robert Pritchard	M	M50-54	0		1:28:57	0:08:24				United Kingdom	DNF
+	DNS	Yonatan Rodriguez	M	M45-49	0							Spain	DNS
+	DNF	Matthew Palmer	M	MPRO	0		0:53:48	0:02:27	4:38:26	0:04:02		Denmark	DNF
+	DNF	Frank Kircher	M	M55-59	0							Spain	DNF
+	DNS	Alan Dobson	M	M50-54	0							United Kingdom	DNS
+	DNF	Neil Batsford	M	M45-49	0							United Kingdom	DNF
+	DNF	Kai Dabelstein	M	M55-59	0		1:41:37	0:12:13	8:01:11	0:17:55		Germany	DNF
+	DNF	Lee Kennedy	M	M50-54	0		1:11:44	0:14:41				United Kingdom	DNF
+	DNS	Niels Sievertsen	M	M35-39	0							Switzerland	DNS
+	DNS	Cédric Aubert	M	M40-44	0							France	DNS
+	DNF	Vrastil Miroslav	M	M75-79	0		1:30:58	0:11:02				Czechia	DNF
+	DNS	Daniel Del Toro De León	M	M50-54	0							Spain	DNS
+	DNS	Patrick Jaberg	M	M45-49	0							Switzerland	DNS
+	DNS	Nicholas Marchand	M	M18-24	0							Belgium	DNS
+	DNF	Natasha Beebe	F	F18-24	0		1:32:14	0:07:20				United Kingdom	DNF
+	DNS	Thomas Krahofer	M	M55-59	0							Austria	DNS
+	DNF	Tony Peters	M	M65-69	0		1:27:25	0:13:09	9:24:40	0:12:33		United Kingdom	DNF
+	DNF	Elkhalil M Binebine	M	M65-69	0		1:16:34	0:05:48	7:06:16	0:11:11		Morocco	DNF
+	DNF	David Dorado	M	M40-44	0		1:31:51					Spain	DNF
+	DNS	Ingo Peper	M	M45-49	0							Germany	DNS
+	DNF	Michael Müller	M	M65-69	0							Germany	DNF
+	DNF	Luk Tijsmans	M	M55-59	0		1:00:41	0:04:28	6:06:59	0:07:07		Belgium	DNF
+	DNF	Marco Pavani	M	M30-34	0		0:50:36	0:03:05	5:19:38	0:04:54		Italy	DNF
+	DNF	Josten Bert Josten	M	M40-44	0		1:04:27	0:04:14	5:57:39	0:04:55		Belgium	DNF
+	DNF	Stefania Tasca	F	F50-54	0		1:31:31	0:08:51				Italy	DNF
+	DNS	Thorsten Dussa	M	M60-64	0							Germany	DNS
+	DNS	Nicolas Lionet	M	M35-39	0							France	DNS
+	DNF	Louis Magand	M	M18-24	0		1:48:01	0:07:24	8:49:27			France	DNF
+	DNS	Claire Smith	F	F50-54	0							United Kingdom	DNS
+	DNS	Antonio Brandolisio	M	M30-34	0							Italy	DNS
+	DNF	Brian W Fogarty	M	M40-44	0		1:00:42	0:03:41	5:07:25	0:06:51		United Kingdom	DNF
+	DNS	Ben Johnson	M	M45-49	0							United Kingdom	DNS
+	DNF	Léa Charenton	F	F25-29	0		1:11:59	0:06:33	7:17:53	0:09:03		France	DNF
+	DNF	Stephen Donnelly	M	M40-44	0		0:59:28	0:04:03	6:08:26			Ireland	DNF
+	DNF	Sean Farrugia	M	M45-49	0		1:33:45	0:10:49	8:09:52	0:21:56		Malta	DNF
+	DNF	Tracey Haseldine	F	F55-59	0		1:19:00	0:07:47	8:38:05			United Kingdom	DNF
+	DNF	Jonathan Sánchez Mosquera	M	MPRO	0		0:53:39	0:02:22	5:13:53	0:04:30		Spain	DNF
+	DQ	David Jeanneau	M	M50-54	0							France	DQ
+	DNF	Niek Heldoorn	M	MPRO	0		0:46:39	0:01:51	4:45:52	0:03:27		Netherlands	DNF
+	DNF	Jack Jones	M	M25-29	0		2:09:26	0:06:12				United Kingdom	DNF
+	DNF	Rhys Van Der Helm	M	M30-34	0		1:03:09	0:04:07	5:45:24	0:07:20		United Kingdom	DNF
+	DNF	Víctor Barón Ramón	M	M75-79	0		1:42:14	0:08:25				Spain	DNF
+	DNS	Thomas Roost	M	M50-54	0							Switzerland	DNS
+	DNF	Liam Jacobs	M	M30-34	0		1:12:56	0:08:27				United Kingdom	DNF
+	DNF	Jeff Smith	M	M55-59	0		1:53:25	0:12:00	7:29:48			United Kingdom	DNF
+	DQ	Mathieu Poussin	M	M45-49	0							France	DQ
+	DNF	Ciaran Ryan	M	M25-29	0		1:15:25	0:09:52				Ireland	DNF
+	DNF	Charlie Lynch	M	M18-24	0		1:50:56	0:12:11				United States	DNF
+	DNF	Anton Borsuk	M	M30-34	0		1:10:49					Ukraine	DNF
+	DNF	Daniel Sánchez-Arévalo Benito	M	M55-59	0		1:07:37	0:06:34	10:28:35			Spain	DNF
+	DNS	Belinda Oliva Martínez	F	F40-44	0							Spain	DNS
+	DNF	Iris Tiedeken	F	F60-64	0		1:08:47	0:04:47	6:52:38	0:10:52		Germany	DNF
+	DQ	Tom Rigby	M	M40-44	0							United Kingdom	DQ
+	DNF	Yuri Okubo	F	F30-34	0		1:47:03	0:14:10				Japan	DNF
+	DNF	Mark Smith	M	M55-59	0							United Kingdom	DNF
+	DNS	Brian Power	M	M50-54	0							Ireland	DNS
+	DNF	Franz Michael Schlegel	M	M60-64	0		1:18:54	0:09:32	8:33:56	0:12:38		Germany	DNF
+	DNS	Anxo Cortés Torres	M	M25-29	0							Spain	DNS
+	DNS	Nikola Perovic	M	M35-39	0							Montenegro	DNS
+	DNF	Michele Chiaramida	M	M45-49	0		1:01:16	0:05:01	6:31:56	0:05:48		Italy	DNF
+	DNF	Steven Galens	M	M35-39	0		1:06:53	0:04:41				Belgium	DNF
+	DQ	Carlos Gomez Hernandez	M	M60-64	0							Spain	DQ
+	DQ	Caroline Lacapelle	F	F50-54	0							France	DQ
+	DQ	Liu Maodi	M	M40-44	0							China	DQ
+	DNF	Vicente Medina	M	M60-64	0		1:29:11	0:07:29	8:54:27	0:14:26		Spain	DNF
+	DNF	James Naldrett	M	M30-34	0		1:06:32	0:02:54	5:38:22	0:04:36		United Kingdom	DNF
+	DQ	Paul Fenlon	M	M40-44	0							United Kingdom	DQ
+	DNS	Anita Klinkosz	F	F35-39	0							Poland	DNS
+	DNF	Simone D'Anello	M	M35-39	0		1:16:55	0:08:00	6:56:59	0:08:39		Italy	DNF
+	DNF	Luke Edwards	M	M25-29	0		1:21:18	0:06:48	9:34:30	0:14:16		United Kingdom	DNF
+	DNF	James Da Terra	M	M60-64	0		1:38:07	0:05:33				Canada	DNF
+	DNS	Rachel Hall	F	F30-34	0							United Kingdom	DNS
+	DNS	Ronald Lehmann	M	M30-34	0							Germany	DNS
+	DNF	Richard Alford	M	M40-44	0		1:10:15	0:06:15				United Kingdom	DNF
+	DNF	James Owen	M	M40-44	0		1:09:52	0:07:41	6:34:16	0:08:54		United Kingdom	DNF
+	DNS	Ratheeshan Gunaratnam	M	M30-34	0							Switzerland	DNS
+	DNS	Aitor Carballar	M	M45-49	0							Spain	DNS
+	DNF	Alexandre Alvarez	M	MPRO	0		0:49:43	0:02:01				Spain	DNF
+	DQ	Chris Lawless	M	M50-54	0							Ireland	DQ
+	DNF	Stewart Martin	M	M55-59	0		1:11:20	0:06:41	7:34:26			United Kingdom	DNF
+	DNF	Claude Hacen	M	M55-59	0		1:21:56	0:12:05				France	DNF
+	DNF	Pedro Tomé Hernández	M	M55-59	0		1:05:40	0:05:49	6:31:44	0:09:44		Spain	DNF
+	DNF	Mónica Mezquita Vázquez	F	F35-39	0		1:14:55	0:11:05				Spain	DNF
+	DNF	Jason Steinbrunn	M	M55-59	0		1:54:00	0:11:07				United States	DNF
+	DNS	Antonio Vercher Arciniega	M	M25-29	0							Spain	DNS
+	DNF	Guillermo Sanchidrián Rivero	M	M35-39	0		0:59:42	0:04:43	7:34:11	0:06:53		Spain	DNF
+	DNF	Ludovic Roussel	M	MPRO	0		0:53:46	0:02:27	5:05:32	0:02:17		France	DNF
+	DNF	Richie Plunkett	M	M55-59	0		1:22:57	0:10:29	7:51:10			Ireland	DNF
+	DNS	Isolde Schoenfeldt	F	F60-64	0								DNS
+	DNF	Greg Hanlon	M	M45-49	0		1:12:43	0:07:23	7:18:36	0:12:34		Ireland	DNF
+	DNS	Norberto Fernández Cano	M	M18-24	0							Spain	DNS
+	DNS	Marek Tarnowski	M	M60-64	0							Poland	DNS
+	DNS	Etienne Dondin	M	M30-34	0							France	DNS
+	DNF	Gustavo Barrachina Beltran	M	M45-49	0		1:12:00	0:07:09				Spain	DNF
+	DNS	Marco Zecchinato	M	M55-59	0							Italy	DNS
+	DNS	Michael Rudolph	M	M40-44	0							Germany	DNS
+	DNF	Ikuo Nagashima	M	M70-74	0		1:19:50	0:10:49				Japan	DNF
+	DNS	Richard Delaney	M	M55-59	0							Australia	DNS
+	DNF	Diogo Allen Coelho	M	M30-34	0		1:03:14	0:03:09	5:32:10	0:06:41		Portugal	DNF
+	DNF	Allan Grütter	M	M55-59	0		1:13:01	0:08:00	7:14:28	0:09:15		Switzerland	DNF
+	DNS	Edwin Walford	M	M55-59	0							United Kingdom	DNS
+	DNF	Christophe Halleumieux	M	M50-54	0		1:05:38	0:03:08				France	DNF
+	DNS	Rafael Hinojosa Palmer	M	M35-39	0							Mexico	DNS
+	DNF	Kristijan Vrdoljak	M	M25-29	0		1:16:47	0:07:22	7:15:26	0:07:47		Croatia	DNF
+	DNF	Jonas Delrue	M	M35-39	0		0:56:44	0:03:50	5:49:51	0:08:32		Belgium	DNF
+	DNF	Rafael Jesús Caro González	M	M50-54	0		1:10:59	0:09:41	7:24:24	0:12:40		Spain	DNF
+	DNF	Peter Madgwick	M	M25-29	0		1:08:06	0:05:48	6:46:44	0:06:29		United Kingdom	DNF
+	DNF	Pär Göting	M	M50-54	0		1:10:58	0:10:32				Sweden	DNF
+	DNS	David Van Den Haute	M	M25-29	0							Belgium	DNS
+	DNS	Balazs Veres	M	M35-39	0							Hungary	DNS
+	DNF	Santiago Manuel Palmero González	M	M45-49	0							Spain	DNF
+	DNF	Philip Blake	M	M55-59	0		1:36:48	0:20:46				Ireland	DNF
+	DNS	Anton Ryeznikov	M	M40-44	0							Ukraine	DNS
+	DNF	Trpimir Vrdoljak	M	M50-54	0		1:21:52	0:08:44				Croatia	DNF
+	DNF	Suzanne Hull	F	F50-54	0		1:35:33	0:10:03	8:42:57	0:19:37	6:17:12	United Kingdom	DNF
+	DNS	Viktor Beley	M	M40-44	0							Kazakhstan	DNS
+	DNF	Joan Capdevila Gómez	M	M50-54	0		1:02:17	0:04:47	5:43:47	0:01:23		Spain	DNF
+	DNS	Eric Lorca Moreno	M	M25-29	0							Spain	DNS
+	DNS	Bartosz Rychter	M	M40-44	0							Poland	DNS
+	DNF	Davide Magliulo	M	M40-44	0		1:29:56	0:12:50	7:38:11	0:09:38	5:23:25	Italy	DNF
+	DNS	Neeltje Adriana Baldé	F	F40-44	0							Netherlands	DNS
+	DNS	Conrad Mckee	M	M50-54	0							United Kingdom	DNS
+	DNF	Reidar Skrunes	M	M60-64	0		1:10:02	0:06:26				Norway	DNF
+	DNS	Frank Bouge	M	M60-64	0							Germany	DNS
+	DNS	Katharina Cvetko	F	F35-39	0							Germany	DNS
+	DNF	Jaime Molina Miguel	M	M30-34	0		1:23:12					Spain	DNF
+	DNS	Zoë Madden	F	F35-39	0							Australia	DNS
+	DNS	Jacinto Manuel Fernández Rojas	M	M50-54	0							Spain	DNS
+	DNF	Irene Alisjahbana	F	F55-59	0		1:41:18	0:08:21				Singapore	DNF
+	DNF	Francisco José Otero López	M	M55-59	0		1:23:23	0:09:38	9:36:09	0:10:44		Spain	DNF
+	DNF	Rupinder Sidhu	F	F50-54	0		1:21:49	0:12:00				United Kingdom	DNF
+	DNS	Samuel Guerrero Moratalla	M	M30-34	0							Spain	DNS
+	DNS	Matt Dine	M	M45-49	0							United Kingdom	DNS
+	DNF	Duncan Chedburn	M	M40-44	0		0:58:59	0:03:02	5:34:40	0:07:23		United Kingdom	DNF
+	DNS	Klaus Kainrath	M	M60-64	0							Austria	DNS
+	DNF	Maxance Cothenet	M	M25-29	0		1:45:02	0:08:41	8:56:38	0:09:05		France	DNF
+	DNS	Roberto Allegro	M	M50-54	0							Italy	DNS
+	DNS	Svetlana Eliseeva	F	F40-44	0							Uzbekistan	DNS
+	DNF	Lucas Pons	M	M18-24	0		1:19:16	0:12:59				France	DNF
+	DNF	Annabel Roberts	F	F50-54	0		1:42:01	0:11:14				Jersey	DNF
+	DNS	Maxi Thomas	M	M60-64	0							United Kingdom	DNS
+	DNS	Giles Moroney	M	M55-59	0							United Kingdom	DNS
+	DNF	Emiliano Calcagni	M	M50-54	0		1:10:01	0:07:26				Italy	DNF
+	DNS	Baptiste Jarry	M	M30-34	0							France	DNS
+	DNS	Peter Gruber	M	M50-54	0							Austria	DNS
+	DNS	Julien Bernard	M	M50-54	0							France	DNS
+	DNF	Antonio Colella	M	M55-59	0		1:12:15	0:06:50	7:58:49	0:08:11		Italy	DNF
+	DNS	Cyrille Jendryka	M	M50-54	0							Poland	DNS
+	DNS	Frits Groeneveld	M	M40-44	0							Netherlands	DNS
+	DNF	Sue Turley	F	F60-64	0		1:25:19	0:09:39	9:36:03	0:15:18		United Kingdom	DNF
+	DNS	Christian Tellez Marco	M	M45-49	0							Spain	DNS
+	DNF	Knut Vyvey	M	M35-39	0		0:57:28	0:04:21	5:58:29	0:05:09		Belgium	DNF
+	DNS	Laura Drake Cole	F	F55-59	0							United States	DNS
+	DNF	Giovanni Lucas Croes	M	M55-59	0		1:17:10	0:12:48				Aruba	DNF
+	DNS	Andrea Bruhin	F	F50-54	0							Switzerland	DNS
+	DNF	Urs Derungs	M	M55-59	0		1:11:37	0:07:03	7:23:23	0:11:48		Switzerland	DNF
+	DNF	Nicola Buchs	M	M25-29	0		0:56:56	0:03:01	5:14:38	0:03:58		Switzerland	DNF
+	DNF	Francesca McDiarmid	F	F35-39	0		1:40:56	0:08:45				United Kingdom	DNF
+	DNF	Benoit Mockels	M	M50-54	0		1:07:18	0:06:07				France	DNF
+	DNS	Evert Dovermann	M	M45-49	0							Netherlands	DNS
+	DNS	Ismael Izquierdo González	M	M50-54	0							Spain	DNS
+	DNF	Martin Fitzgerald	M	M40-44	0		1:07:36	0:06:08	6:54:07			United Kingdom	DNF
+	DNF	Gerry Devaney	M	M65-69	0		1:59:36	0:19:48	8:44:09	0:10:49		Ireland	DNF
+	DNF	Massimo Giustarini	M	M55-59	0		1:30:10	0:08:45				Italy	DNF
+	DNF	Iain Marsh	M	M50-54	0							United Kingdom	DNF
+	DNF	Alison Buckley	F	F55-59	0		1:41:46	0:08:32				United Kingdom	DNF
+	DNS	Noé Despouys-Garapon	M	M30-34	0							France	DNS
+	DNF	Sergio Iván Expósito Curbelo	M	M50-54	0		1:03:20	0:07:16	7:05:53	0:09:52		Spain	DNF
+	DNS	Coco Miller	F	F18-24	0							United Kingdom	DNS
+	DNF	James Mcdiarmid	M	M60-64	0		0:55:37	0:09:49	4:08:16			United Kingdom	DNF
+	DNS	Laurent Warzée	M	M40-44	0							Belgium	DNS
+	DNF	Motoki Sakurai	M	M50-54	0		1:29:51	0:10:54				Japan	DNF
+	DNF	Michael O'Flaherty	M	M55-59	0		1:32:02	0:10:47	5:39:03			Ireland	DNF
+	DNS	Julian Phillip Becker	M	MPRO	0							Germany	DNS
+	DNF	Gary Smith	M	M40-44	0		1:19:03	0:09:30	7:30:21	2:26:46		United Kingdom	DNF
+	DNF	M Taylor	M	M50-54	0		1:41:25	0:09:00				United Kingdom	DNF
+	DNS	Simone Andrea Manelli	M	M55-59	0							Italy	DNS
+	DNS	John Johnsen	M	M65-69	0							United States	DNS
+	DNS	Ben Duff	M	M40-44	0							United Kingdom	DNS
+	DNS	Mellen Jay	F	F45-49	0							Canada	DNS
+	DNF	Veeral Patel	M	M30-34	0		1:23:47	0:14:48				United States	DNF
+	DNS	Patrik Holesa	M	M35-39	0							Slovakia	DNS
+	DNS	Leonardo Lombardero	M	M25-29	0							Spain	DNS
+	DNF	Brooke Brown	F	F45-49	0							Canada	DNF
+	DNF	Michiel Jonker	M	M70-74	0		1:12:49	0:08:27	7:46:50			Belgium	DNF
+	DNS	Matthew Hampson	M	M40-44	0							United Kingdom	DNS
+	DNF	Julia Skala	F	FPRO	0		0:59:26	0:03:25	5:31:38	0:03:58		Germany	DNF
+	DNF	Francisco Manuel Pacheco Bexiga	M	M65-69	0							Portugal	DNF
+	DNF	Rob Spencer	M	M45-49	0		1:09:32	0:07:13	6:22:36	0:08:03		United Kingdom	DNF
+	DNF	Jean-Francois Soulard	M	M60-64	0		1:31:51	0:14:28	9:50:43			France	DNF
+	DNS	Enrico Martinelli	M	M30-34	0							Italy	DNS
+	DNS	Shane McGale	M	M55-59	0							Ireland	DNS
+	DNS	Helen MacVicker	F	F55-59	0							United Kingdom	DNS
+	DNF	William Armour	M	M60-64	0		1:36:55	0:15:08	8:26:54			United Kingdom	DNF
+	DNS	Juan Pedro Lemes Duarte	M	M50-54	0							Germany	DNS
+	DNS	Mikhail Bletsko	M	M45-49	0							Netherlands	DNS
+	DNS	Angelo Hettich Salas	M	M50-54	0							Chile	DNS
+	DNS	William Leoni	M	M50-54	0							Italy	DNS
+	DNF	Jelle Vlietinck	M	M25-29	0		1:01:55	0:03:06	5:23:03	0:06:54		Belgium	DNF
+	DNS	Colm Fitzsimons	M	M40-44	0							Ireland	DNS
+	DNF	Christian Straessle	M	M60-64	0		1:20:46	0:12:11				Switzerland	DNF
+	DNS	Toni Marin Ramos	M	M40-44	0							Spain	DNS
+	DNF	Lukas Stahl	M	MPRO	0		0:53:13	0:02:50	5:14:35			Germany	DNF
+	DNF	Alejandro de la Guardia Montesdeoca	M	M35-39	0		1:05:59	0:08:29	6:48:54	0:08:59		Spain	DNF
+	DNF	Dylan Magnien	M	MPRO	0		0:47:25	0:02:29				France	DNF
+	DNF	Nicky Wilson	M	M45-49	0		1:03:31	0:04:36	5:34:10	0:04:51		United Kingdom	DNF
+	DNS	Julien Marchand	M	M18-24	0							Belgium	DNS
+	DNF	Kristian Røkke	M	M40-44	0		1:01:36	0:04:49	6:13:39	0:01:36		Norway	DNF
+	DNF	Christian Weyland	M	M45-49	0		1:05:56	0:02:58	5:24:35	0:06:30		Luxembourg	DNF
+	DNS	Gary Williams	M	M45-49	0							United Kingdom	DNS
+	DNF	Andrei Moraru	M	M35-39	0		1:44:23	0:13:57				Romania	DNF
+	DNS	Farid Nassyrov	M	M35-39	0							Kazakhstan	DNS
+	DNF	Callum Clunie	M	M30-34	0		1:18:17	0:11:03	8:50:18	0:12:10		United Kingdom	DNF
+	DNF	Carlos Flores Valero	M	M35-39	0		1:13:45	0:10:03	6:49:23	0:10:57		Spain	DNF
+	DNS	Rémi Jauzac	M	M25-29	0							France	DNS
+	DNF	Lars Lomholt	M	MPRO	0		0:54:27	0:02:39	5:16:34	0:05:49		Denmark	DNF
+	DNF	Mark Mcintosh	M	M50-54	0		1:03:33	0:04:24	6:28:50	0:10:22		United Kingdom	DNF
+	DNS	Willem Hutten	M	M25-29	0							Netherlands	DNS
+	DNS	Daniel Kunz	M	M35-39	0							Germany	DNS
+	DNF	Yann Massyn	M	M30-34	0		0:56:25	0:02:52	5:05:03	0:04:48		France	DNF
+	DNF	Patrice LELEU	M	M65-69	0		1:15:26	0:08:30	9:06:33			France	DNF
+	DNF	Fernando Marsan Oberholzer	M	M35-39	0		1:01:28	0:08:25	7:12:03	0:13:01		Honduras	DNF
+	DNS	Eusebio Noguera Pujol	M	M55-59	0							Spain	DNS
+	DNF	Arthur Horseau	M	MPRO	0		0:57:39	0:02:21				France	DNF
+	DNS	Cai Haines	M	M30-34	0							United Kingdom	DNS
