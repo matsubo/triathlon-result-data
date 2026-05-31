@@ -20,9 +20,11 @@ export function buildSegments(row, segmentDefs) {
         case "lap":
           seg.lap_seconds = parseTime(value);
           break;
-        case "rank":
-          seg.rank = parseInteger(value);
+        case "rank": {
+          const rank = parseInteger(value);
+          if (rank && rank > 0) seg.rank = rank;
           break;
+        }
         case "checkpoint":
           checkpoints.push(parseTime(value));
           break;
@@ -32,9 +34,11 @@ export function buildSegments(row, segmentDefs) {
         case "cumulative_time":
           seg.cumulative_seconds = parseTime(value);
           break;
-        case "cumulative_rank":
-          seg.cumulative_rank = parseInteger(value);
+        case "cumulative_rank": {
+          const cumRank = parseInteger(value);
+          if (cumRank && cumRank > 0) seg.cumulative_rank = cumRank;
           break;
+        }
       }
     }
 

@@ -1,36 +1,5 @@
 {
   "$comment": "Known-OK event_id pairs whose TSV content overlaps >=80% but are legitimately separate entries (e.g. same venue listed under two series). Used by scripts/check-duplicate-editions.js. Add an entry only after manually confirming the editions are NOT duplicates.",
   "$review_needed": "The pairs below are structural overlaps or data bugs flagged during the 2026-04 bulk duplicate audit. Each needs follow-up (noted inline).",
-  "pairs": [
-    {
-      "a": "nagaragawa_102",
-      "b": "nagaragawa_aki",
-      "note": "Data bug: nagaragawa_aki (autumn) references nagaragawa_102's (summer) TSV. Needs a separate result.tsv for the 秋 edition before this can be consolidated."
-    },
-    {
-      "a": "fujikawaguchiko",
-      "b": "omihachiman",
-      "note": "Data bug: fujikawaguchiko 2024 edition's TSV contains omihachiman's data (winner 岩井 悠二/滋賀県). The actual Fujikawaguchiko 2024 data is missing; edit race-info.json to drop that edition or re-scrape when available."
-    },
-    {
-      "a": "biwako",
-      "b": "omihachiman",
-      "note": "Data bug: biwako 2022 edition's TSV matches omihachiman's (same winner/time). LAKE BIWA TRIATHLON (守山市) and びわ湖in近江八幡 are distinct races — one of the 2022 TSV references is wrong."
-    },
-    {
-      "a": "kokuspo_shiga",
-      "b": "kokuspo_shiga_men",
-      "note": "Structural: 2025 国スポ is registered both as a combined event (default.tsv) and as per-gender events (_men/_women). Best to restructure kokuspo_shiga with men+women categories and delete the split events."
-    },
-    {
-      "a": "kokuspo_shiga",
-      "b": "kokuspo_shiga_women",
-      "note": "Structural: see kokuspo_shiga / kokuspo_shiga_men note."
-    },
-    {
-      "a": "im703_wc",
-      "b": "im703_wc_men",
-      "note": "Structural: 2025 70.3 WC had separate men and women races. im703_wc 2025 default.tsv currently contains only men (= im703_wc_men). Restructure im703_wc 2025 edition with men+women categories and delete im703_wc_men / im703_wc_women."
-    }
-  ]
+  "pairs": []
 }

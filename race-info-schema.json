@@ -164,6 +164,10 @@
           "items": {
             "$ref": "#/definitions/MetaColumn"
           }
+        },
+        "source_url": {
+          "type": ["string", "null"],
+          "description": "Canonical URL of the upstream data source for this category's result_tsv (e.g. the JTU result page for the specific program). Null when unknown. Used to detect data-source mismatches/contamination."
         }
       }
     },

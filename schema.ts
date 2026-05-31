@@ -165,6 +165,10 @@ export interface Category {
    * TSV columns for participant metadata, rankings, and status that are not part of any sport segment.
    */
   meta_columns: MetaColumn[];
+  /**
+   * Canonical URL of the upstream data source for this category's result_tsv (e.g. the JTU result page for the specific program). Null when unknown. Used to detect data-source mismatches/contamination.
+   */
+  source_url?: string | null;
   [k: string]: unknown;
 }
 export interface Segment {

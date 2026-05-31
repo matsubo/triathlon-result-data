@@ -214,4 +214,25 @@ describe("TSV Lint Rules", () => {
 
     expect(errors).toEqual([]);
   });
+
+  test("All filenames under master/ and images/ are ASCII", () => {
+    const errors: string[] = [];
+
+    function walk(dir: string) {
+      for (const item of readdirSync(dir)) {
+        const fullPath = join(dir, item);
+        // biome-ignore lint/suspicious/noControlCharactersInRegex: intentional ASCII range check
+        if (!/^[\x00-\x7f]+$/.test(item)) {
+          errors.push(`${fullPath.replace(`${repoRoot}/`, "")} (non-ASCII filename)`);
+        }
+        if (statSync(fullPath).isDirectory()) walk(fullPath);
+      }
+    }
+
+    for (const dir of [masterDir, join(repoRoot, "images")]) {
+      walk(dir);
+    }
+
+    expect(errors).toEqual([]);
+  });
 });

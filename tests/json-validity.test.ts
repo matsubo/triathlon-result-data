@@ -50,7 +50,7 @@ describe("JSON Validity", () => {
     }
 
     expect(errors).toEqual([]);
-  });
+  }, 30000); // scans + parses every JSON file (incl. the multi-MB race-info.json); the 5s default is too tight as the dataset grows
 
   test("All paths referenced in race-info.json exist", () => {
     const content = readFileSync(raceInfoPath, "utf-8");

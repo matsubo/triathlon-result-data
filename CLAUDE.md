@@ -58,6 +58,17 @@ Claude can help navigate and understand this triathlon result data repository wh
   - ○ `山田 太郎`
   - × `山田　太郎`（全角スペース）
 
+## ファイル名規約
+
+- **リポジトリ内の全ファイル名は ASCII 文字のみで構成する**（日本語・全角文字・
+  全角記号を使わない）。ディレクトリ名・ファイル名いずれも対象。
+  - ○ `master/2024/kyoto_tanba/standard.tsv`、`sprint_men.tsv`、`type_a.tsv`
+  - × `master/2024/kyoto_tanba/スタンダード.tsv`、`スプリント男子.tsv`
+- カテゴリ名が日本語でも、TSVファイル名は英数字とアンダースコアへ変換する
+  （例: スタンダード→`standard`、スプリント→`sprint`、スーパースプリント→
+  `supersprint`、男子/女子→`_men`/`_women`、A/B/Rタイプ→`type_a`/`type_b`/`type_r`）。
+- この規約は `tests/tsv-lint.test.ts` の「All filenames under master/ and images/ are ASCII」で静的に検査される。
+
 ## 固有名詞の表記規約
 
 - **IRONMAN** は固有名詞のためすべて大文字で統一する。`race-info.json` の
