@@ -1,0 +1,113 @@
+{
+  "date": "2014-06-08",
+  "sunrise": "04:26",
+  "sunset": "18:59",
+  "minTemp": 13.1,
+  "maxTemp": 22.6,
+  "hourly": [
+    {
+      "time": "3",
+      "weatherCode": "CLOUDY",
+      "temp": 13.4,
+      "humidity": 94,
+      "dewPoint": 12.5,
+      "pressure": 908.8,
+      "pressureChange": "-5.3",
+      "windDirectionCode": "NW",
+      "windSpeed": 1,
+      "visibility": 36.8,
+      "discomfortIndex": 56
+    },
+    {
+      "time": "6",
+      "weatherCode": "CLOUDY",
+      "temp": 13.6,
+      "humidity": 93,
+      "dewPoint": 12.5,
+      "pressure": 909.7,
+      "pressureChange": "+0.9",
+      "windDirectionCode": "W",
+      "windSpeed": 0.9,
+      "visibility": 47.8,
+      "discomfortIndex": 57
+    },
+    {
+      "time": "9",
+      "weatherCode": "CLOUDY",
+      "temp": 18.1,
+      "humidity": 72,
+      "dewPoint": 13,
+      "pressure": 910,
+      "pressureChange": "+0.3",
+      "windDirectionCode": "ESE",
+      "windSpeed": 0.9,
+      "visibility": 44.2,
+      "discomfortIndex": 64
+    },
+    {
+      "time": "12",
+      "weatherCode": "CLOUDY",
+      "temp": 20.7,
+      "humidity": 71,
+      "dewPoint": 15.3,
+      "pressure": 910,
+      "pressureChange": "0.0",
+      "windDirectionCode": "NW",
+      "windSpeed": 1.1,
+      "visibility": 40.6,
+      "discomfortIndex": 67
+    },
+    {
+      "time": "15",
+      "weatherCode": "CLOUDY",
+      "temp": 18.7,
+      "humidity": 84,
+      "dewPoint": 16,
+      "pressure": 910.3,
+      "pressureChange": "+0.3",
+      "windDirectionCode": "E",
+      "windSpeed": 1.8,
+      "visibility": 18.6,
+      "discomfortIndex": 65
+    },
+    {
+      "time": "18",
+      "weatherCode": "RAIN",
+      "temp": 17.4,
+      "humidity": 88,
+      "dewPoint": 15.4,
+      "pressure": 911.6,
+      "pressureChange": "+1.3",
+      "windDirectionCode": "WNW",
+      "windSpeed": 0.9,
+      "visibility": 8.36,
+      "discomfortIndex": 63
+    },
+    {
+      "time": "21",
+      "weatherCode": "SHOWERS",
+      "temp": 16.9,
+      "humidity": 89,
+      "dewPoint": 15.1,
+      "pressure": 913.3,
+      "pressureChange": "+1.7",
+      "windDirectionCode": "NE",
+      "windSpeed": 1.2,
+      "visibility": 7.58,
+      "discomfortIndex": 62
+    },
+    {
+      "time": "24",
+      "weatherCode": "CLOUDY",
+      "temp": 15.2,
+      "humidity": 94,
+      "dewPoint": 14.3,
+      "pressure": 914.1,
+      "pressureChange": "+0.8",
+      "windDirectionCode": "SSE",
+      "windSpeed": 0.5,
+      "visibility": 5.26,
+      "discomfortIndex": 59
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "date": "2016-06-12",
+  "sunrise": "04:26",
+  "sunset": "19:01",
+  "minTemp": 12.1,
+  "maxTemp": 24.6,
+  "hourly": [
+    {
+      "time": "3",
+      "weatherCode": "CLOUDY",
+      "temp": 13,
+      "humidity": 84,
+      "dewPoint": 10.4,
+      "pressure": 918,
+      "pressureChange": "+6.5",
+      "windDirectionCode": "W",
+      "windSpeed": 0.8,
+      "visibility": 20,
+      "discomfortIndex": 56
+    },
+    {
+      "time": "6",
+      "weatherCode": "CLEAR",
+      "temp": 14.6,
+      "humidity": 76,
+      "dewPoint": 10.4,
+      "pressure": 918,
+      "pressureChange": "0.0",
+      "windDirectionCode": "NNW",
+      "windSpeed": 1.4,
+      "visibility": 20,
+      "discomfortIndex": 58
+    },
+    {
+      "time": "9",
+      "weatherCode": "CLOUDY",
+      "temp": 21.2,
+      "humidity": 43,
+      "dewPoint": 8.1,
+      "pressure": 917,
+      "pressureChange": "-1.0",
+      "windDirectionCode": "N",
+      "windSpeed": 0.9,
+      "visibility": 20,
+      "discomfortIndex": 66
+    },
+    {
+      "time": "12",
+      "weatherCode": "CLEAR",
+      "temp": 24.6,
+      "humidity": 41,
+      "dewPoint": 10.5,
+      "pressure": 916.2,
+      "pressureChange": "-0.8",
+      "windDirectionCode": "SE",
+      "windSpeed": 4,
+      "visibility": 20,
+      "discomfortIndex": 70
+    },
+    {
+      "time": "15",
+      "weatherCode": "CLOUDY",
+      "temp": 22.2,
+      "humidity": 64,
+      "dewPoint": 15.1,
+      "pressure": 915,
+      "pressureChange": "-1.2",
+      "windDirectionCode": "SE",
+      "windSpeed": 3.7,
+      "visibility": 20,
+      "discomfortIndex": 69
+    },
+    {
+      "time": "18",
+      "weatherCode": "CLOUDY",
+      "temp": 19.3,
+      "humidity": 77,
+      "dewPoint": 15.2,
+      "pressure": 914.5,
+      "pressureChange": "-0.5",
+      "windDirectionCode": "SSE",
+      "windSpeed": 2.8,
+      "visibility": 20,
+      "discomfortIndex": 66
+    },
+    {
+      "time": "21",
+      "weatherCode": "RAIN",
+      "temp": 17.6,
+      "humidity": 81,
+      "dewPoint": 14.3,
+      "pressure": 914.5,
+      "pressureChange": "0.0",
+      "windDirectionCode": "SE",
+      "windSpeed": 3.2,
+      "visibility": 17.9,
+      "discomfortIndex": 63
+    },
+    {
+      "time": "24",
+      "weatherCode": "RAIN",
+      "temp": 15.6,
+      "humidity": 98,
+      "dewPoint": 15.3,
+      "pressure": 911.5,
+      "pressureChange": "-3.0",
+      "windDirectionCode": "SSE",
+      "windSpeed": 1,
+      "visibility": 6.12,
+      "discomfortIndex": 60
+    }
+  ]
+}

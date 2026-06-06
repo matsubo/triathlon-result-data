@@ -1,0 +1,113 @@
+{
+  "date": "2006-06-11",
+  "sunrise": "04:26",
+  "sunset": "19:01",
+  "minTemp": 12.5,
+  "maxTemp": 15,
+  "hourly": [
+    {
+      "time": "3",
+      "weatherCode": "SHOWERS",
+      "temp": 14.4,
+      "humidity": 79,
+      "dewPoint": 10.8,
+      "pressure": 913.2,
+      "pressureChange": "-1.5",
+      "windDirectionCode": "N",
+      "windSpeed": 1.9,
+      "visibility": 22,
+      "discomfortIndex": 58
+    },
+    {
+      "time": "6",
+      "weatherCode": "RAIN",
+      "temp": 12.5,
+      "humidity": 88,
+      "dewPoint": 10.6,
+      "pressure": 913.8,
+      "pressureChange": "+0.6",
+      "windDirectionCode": "SSE",
+      "windSpeed": 0.8,
+      "visibility": 13.4,
+      "discomfortIndex": 55
+    },
+    {
+      "time": "9",
+      "weatherCode": "RAIN",
+      "temp": 12.9,
+      "humidity": 89,
+      "dewPoint": 11.1,
+      "pressure": 914,
+      "pressureChange": "+0.2",
+      "windDirectionCode": "SSE",
+      "windSpeed": 2.7,
+      "visibility": 9.13,
+      "discomfortIndex": 55
+    },
+    {
+      "time": "12",
+      "weatherCode": "RAIN",
+      "temp": 12.7,
+      "humidity": 90,
+      "dewPoint": 11.1,
+      "pressure": 913.3,
+      "pressureChange": "-0.7",
+      "windDirectionCode": "SE",
+      "windSpeed": 3,
+      "visibility": 5.96,
+      "discomfortIndex": 55
+    },
+    {
+      "time": "15",
+      "weatherCode": "SHOWERS",
+      "temp": 14.2,
+      "humidity": 89,
+      "dewPoint": 12.4,
+      "pressure": 913.1,
+      "pressureChange": "-0.2",
+      "windDirectionCode": "ESE",
+      "windSpeed": 2.1,
+      "visibility": 8.37,
+      "discomfortIndex": 58
+    },
+    {
+      "time": "18",
+      "weatherCode": "RAIN",
+      "temp": 14,
+      "humidity": 91,
+      "dewPoint": 12.6,
+      "pressure": 912.6,
+      "pressureChange": "-0.5",
+      "windDirectionCode": "SE",
+      "windSpeed": 2.1,
+      "visibility": 9.34,
+      "discomfortIndex": 57
+    },
+    {
+      "time": "21",
+      "weatherCode": "UNKNOWN",
+      "temp": 14,
+      "humidity": 92,
+      "dewPoint": 12.7,
+      "pressure": 914.1,
+      "pressureChange": "+1.5",
+      "windDirectionCode": "S",
+      "windSpeed": 0.9,
+      "visibility": 8.46,
+      "discomfortIndex": 57
+    },
+    {
+      "time": "24",
+      "weatherCode": "UNKNOWN",
+      "temp": 13.5,
+      "humidity": 93,
+      "dewPoint": 12.4,
+      "pressure": 914.7,
+      "pressureChange": "+0.6",
+      "windDirectionCode": "NW",
+      "windSpeed": 0.9,
+      "visibility": 5.53,
+      "discomfortIndex": 56
+    }
+  ]
+}
