@@ -24,6 +24,7 @@ export function buildAthlete(row, metaColumnDefs, segmentDefs) {
     residence: null,
     total_time_seconds: null,
     age_group: null,
+    age_category_raw: null,
     rankings: { gender: null, age_group: null },
     segments: [],
   };
@@ -65,6 +66,7 @@ export function buildAthlete(row, metaColumnDefs, segmentDefs) {
       }
       case "age_category":
         athlete.age_group = parseAgeCategory(value);
+        athlete.age_category_raw = (value || "").trim() || null;
         break;
       case "age_rank": {
         const ar = parseInteger(value);
