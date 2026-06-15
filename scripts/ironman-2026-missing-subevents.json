@@ -1,0 +1,47 @@
+{
+  "im703_hawaii": {
+    "subevent_uuid": "48c22436-2d66-4967-9ddb-544922637b96",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Hawaii"
+  },
+  "im703_kraichgau": {
+    "subevent_uuid": "8abbf5d3-4be5-42a4-b40d-c2b126f9ad4d",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Kraichgau"
+  },
+  "ironman_brazil": {
+    "subevent_uuid": "63552a0f-493d-4627-841d-5715d5ba77f8",
+    "year": 2026,
+    "name": "2026 IRONMAN Brazil"
+  },
+  "im703_bolton": {
+    "subevent_uuid": "f9602ecf-26c0-419d-a50a-559b87c822f9",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Bolton"
+  },
+  "im703_western_mass": {
+    "subevent_uuid": "d71d387f-d08e-435f-8a2c-5b5beb3d560a",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Western Massachusetts"
+  },
+  "im703_switzerland": {
+    "subevent_uuid": "58a2f801-be0d-4a8d-9310-7eb90c565491",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Switzerland"
+  },
+  "im703_warsaw": {
+    "subevent_uuid": "8c4bf5be-c4b9-450f-8f4a-17a2bd78f984",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Warsaw"
+  },
+  "ironman_hamburg": {
+    "subevent_uuid": "be0a788d-bcd7-4710-a756-fb096a5e1591",
+    "year": 2026,
+    "name": "2026 IRONMAN Hamburg"
+  },
+  "im703_goseong_korea": {
+    "subevent_uuid": "f0ac4ace-2dab-4adb-8f11-bc945fa39c22",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Goseong"
+  }
+}
