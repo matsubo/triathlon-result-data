@@ -2,7 +2,7 @@
 // Reads /tmp/im-uuids.json (event_uuid -> race_base). Writes /tmp/im-2026-scan.json.
 import { readFileSync, writeFileSync } from "node:fs";
 
-const TODAY = "2026-06-22";
+const TODAY = "2026-06-28";
 const uuids = JSON.parse(readFileSync("/tmp/im-uuids.json", "utf8"));
 const entries = Object.entries(uuids);
 const out = [];

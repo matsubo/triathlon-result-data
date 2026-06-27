@@ -1,0 +1,6 @@
+{
+  "im703_coeur_dalene": {"event_uuid":"eca2b3cf-881e-e511-9403-005056951bf1","subevent_uuid":"8f4b2443-a42a-4558-a764-f10836db903f","year":2026,"name":"2026 IRONMAN 70.3 Coeur d'Alene"},
+  "im703_mont_tremblant": {"event_uuid":"5397aa20-f278-e111-b16a-005056956277","subevent_uuid":"cb04ab88-ebfb-4935-ab7b-809702657d87","year":2026,"name":"2026 IRONMAN 70.3 Mont Tremblant"},
+  "im703_elsinore": {"event_uuid":"fec9c75b-55a5-e311-b5f4-005056956277","subevent_uuid":"2ce01da8-6287-4c20-9fe3-0840833e775b","year":2026,"name":"2026 IRONMAN 70.3 Elsinore"},
+  "im703_westfriesland": {"event_uuid":"67d2b761-0eae-e911-a981-000d3a36478d","subevent_uuid":"bdb39d6d-3dcb-4c7e-b4d0-bad1efbfbbcf","year":2026,"name":"2026 IRONMAN 70.3 Westfriesland"}
+}
