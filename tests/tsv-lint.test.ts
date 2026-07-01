@@ -215,6 +215,49 @@ describe("TSV Lint Rules", () => {
     expect(errors).toEqual([]);
   });
 
+  test("Japanese 氏名 values contain a half-width space between family and given name", () => {
+    const errors: string[] = [];
+    const allowlist: string[] = JSON.parse(
+      readFileSync(join(repoRoot, "name-space-allowlist.json"), "utf-8"),
+    ).names;
+    const allowSet = new Set(allowlist);
+
+    // Team names, placeholders, and joke entries carry digits/brackets/nakaguro
+    // and are never split into family/given name.
+    const NON_NAME_PATTERN = /[0-90-9０-９・･()（）+＋@＠=＝*？?！!]/;
+    const JAPANESE_SCRIPT = /[一-鿿぀-ゟ゠-ヿ]/;
+
+    for (const filePath of tsvFiles) {
+      const lines = readFileSync(filePath, "utf-8").split("\n");
+      if (lines.length < 2) continue;
+      const headerCells = lines[0].split("\t");
+      const nameIdx = headerCells.indexOf("氏名");
+      if (nameIdx === -1) continue;
+      const ageIdx = headerCells.indexOf("年齢");
+
+      for (let i = 1; i < lines.length; i++) {
+        const line = lines[i];
+        if (!line.trim()) continue;
+        const cells = line.split("\t");
+        const name = cells[nameIdx];
+        if (!name || !name.trim()) continue;
+        if (name.includes(" ")) continue; // already spaced
+        if (name.length < 2) continue; // single character/token, nothing to split
+        if (!JAPANESE_SCRIPT.test(name)) continue; // non-Japanese-script, out of scope
+        if (NON_NAME_PATTERN.test(name)) continue; // team/placeholder entry
+        // blank age is this repo's convention for team/nickname sign-ins (e.g. hiwasa)
+        if (ageIdx !== -1 && cells[ageIdx] !== undefined && cells[ageIdx].trim() === "") {
+          continue;
+        }
+        if (allowSet.has(name)) continue;
+
+        errors.push(`${relPath(filePath)}:${i + 1} (${name})`);
+      }
+    }
+
+    expect(errors).toEqual([]);
+  });
+
   test("All filenames under master/ and images/ are ASCII", () => {
     const errors: string[] = [];
 

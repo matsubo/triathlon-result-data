@@ -167,7 +167,7 @@ master/<year>/<event_id>/<category>.tsv
 Keep the original column headers — the repository normalizes them through the `columns` / `meta_columns` mapping in `race-info.json`, so you do not need to rename anything by hand.
 
 **TSV conventions:**
-- Separate family name and given name with a **half-width space** (`山田 太郎`, not `山田　太郎`).
+- Separate family name and given name with a **half-width space** (`山田 太郎`, not `山田　太郎`, not `山田太郎` with no space at all). Without the space, the same person can't be matched across races. `tests/tsv-lint.test.ts` enforces this automatically; legitimate exceptions (foreign names that don't split into two tokens, nicknames, single-token sign-ins) go in `name-space-allowlist.json`. Team/nickname rows with a blank age field, or values containing digits/parentheses/nakaguro, are treated as non-personal and skipped by the check.
 - Use `DNF` / `DNS` / `DSQ` / `TOV` / `OPEN` / `SKIP` for non-finisher rows.
 
 Contributions are welcome via Issue or Pull Request.

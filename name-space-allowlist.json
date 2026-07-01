@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Exceptions to the '氏名 must contain a half-width space between family and given name' lint rule. Each entry is a name string that is legitimately a single token: a foreign name whose family/given boundary can't be split into exactly two parts, a mononym/nickname entry, or a known data-corruption artifact.",
+  "names": [
+    "ダイヤー",
+    "フエルドマン",
+    "ワンオギョン",
+    "ファンデルフリート",
+    "ロバートフィリップス",
+    "バユプラウィラサリム",
+    "ひらめ。",
+    "林諄□"
+  ]
+}

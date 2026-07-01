@@ -57,6 +57,15 @@ Claude can help navigate and understand this triathlon result data repository wh
 - **氏名の区切り**: 姓と名の間は **半角スペース** を使用する（全角スペース不可）
   - ○ `山田 太郎`
   - × `山田　太郎`（全角スペース）
+  - × `山田太郎`（スペースなし） — 大会をまたいだ同一人物の名寄せができなくなるため禁止
+  - この規約は `tests/tsv-lint.test.ts` の「Japanese 氏名 values contain a half-width
+    space between family and given name」で静的に検査される。チーム名・ニックネーム
+    登録（年齢欄が空、または数字・括弧・中黒を含む値）や1文字のみの登録は対象外。
+    姓名境界が2分割できない外国人名やニックネーム等、正当な例外は
+    `name-space-allowlist.json` に追記する。
+  - 新規TSV取り込み時、氏名にスペースがない行を見つけたら他TSVファイルの同名
+    参加者（同一人物が複数大会に出ていることが多い）から姓名境界を推定するか、
+    Python の `namedivider-python`（GBDTモデル）で分割を推定する。
 
 ## ファイル名規約
 
