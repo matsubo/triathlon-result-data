@@ -1,0 +1,32 @@
+{
+  "ironman_philippines": {
+    "subevent_uuid": "496ef6de-1496-4f6a-859a-673177decaa4",
+    "year": 2026,
+    "name": "2026 IRONMAN Philippines"
+  },
+  "im703_durban": {
+    "subevent_uuid": "acea2f39-e472-40d2-8c51-0759a4a90ae9",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Durban"
+  },
+  "im703_victoria": {
+    "subevent_uuid": "cfc722ea-248c-4a5c-9b9e-cf2a027a7ea0",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Victoria"
+  },
+  "im703_subic_bay": {
+    "subevent_uuid": "1da5c1dc-48da-4e8d-9865-9c068ca0643c",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Subic Bay"
+  },
+  "im703_rockford": {
+    "subevent_uuid": "0669b88d-ea67-45c5-8240-bf8bf2cfefdc",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Rockford"
+  },
+  "im703_happy_valley": {
+    "subevent_uuid": "fc1038ad-0a54-470f-b468-6108f91cd03c",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Pennsylvania Happy Valley"
+  }
+}
