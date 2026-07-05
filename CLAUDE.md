@@ -66,6 +66,10 @@ Claude can help navigate and understand this triathlon result data repository wh
   - 新規TSV取り込み時、氏名にスペースがない行を見つけたら他TSVファイルの同名
     参加者（同一人物が複数大会に出ていることが多い）から姓名境界を推定するか、
     Python の `namedivider-python`（GBDTモデル）で分割を推定する。
+  - 連続する半角スペース（`佐藤  桂`のような二重スペース）も禁止。原本
+    （JTU等）に由来する表記ゆれとして紛れ込むことがあるため、取り込み時に
+    正規化する。`tests/tsv-lint.test.ts`の「氏名 values do not contain
+    consecutive half-width spaces」で静的に検査される。
 
 ## ファイル名規約
 

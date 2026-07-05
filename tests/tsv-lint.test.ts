@@ -215,6 +215,31 @@ describe("TSV Lint Rules", () => {
     expect(errors).toEqual([]);
   });
 
+  test("氏名 values do not contain consecutive half-width spaces", () => {
+    const errors: string[] = [];
+
+    for (const filePath of tsvFiles) {
+      const lines = readFileSync(filePath, "utf-8").split("\n");
+      if (lines.length < 2) continue;
+      const headerCells = lines[0].split("\t");
+      const nameIdx = headerCells.indexOf("氏名");
+      if (nameIdx === -1) continue;
+
+      for (let i = 1; i < lines.length; i++) {
+        const line = lines[i];
+        if (!line.trim()) continue;
+        const cells = line.split("\t");
+        const name = cells[nameIdx];
+        if (!name) continue;
+        if (/ {2,}/.test(name)) {
+          errors.push(`${relPath(filePath)}:${i + 1} (${name})`);
+        }
+      }
+    }
+
+    expect(errors).toEqual([]);
+  });
+
   test("Japanese 氏名 values contain a half-width space between family and given name", () => {
     const errors: string[] = [];
     const allowlist: string[] = JSON.parse(
