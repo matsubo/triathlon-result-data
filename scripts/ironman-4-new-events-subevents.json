@@ -1,0 +1,22 @@
+{
+  "im703_omaha": {
+    "subevent_uuid": "a5025858-f652-44aa-b109-e36f3a6c3b8f",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Omaha"
+  },
+  "im703_alghero": {
+    "subevent_uuid": "812bab5c-40a5-4c0e-8e9b-933902ce7035",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Alghero"
+  },
+  "im703_buenos_aires": {
+    "subevent_uuid": "9a9f4c7d-d3a3-44ef-98b1-40338bdfa385",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Buenos Aires Palermo"
+  },
+  "ironman_tours_metropole_loire_valley": {
+    "subevent_uuid": "8cefb85b-a803-48be-af51-e0285a8dd11c",
+    "year": 2026,
+    "name": "2026 IRONMAN Tours Metropole - Loire Valley"
+  }
+}
