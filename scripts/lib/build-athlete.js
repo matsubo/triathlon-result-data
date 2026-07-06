@@ -65,12 +65,16 @@ export function buildAthlete(row, metaColumnDefs, segmentDefs) {
         break;
       }
       case "age_category":
-        athlete.age_group = parseAgeCategory(value);
-        athlete.age_category_raw = (value || "").trim() || null;
+        if (athlete.age_category_raw === null) {
+          athlete.age_group = parseAgeCategory(value);
+          athlete.age_category_raw = (value || "").trim() || null;
+        }
         break;
       case "age_rank": {
-        const ar = parseInteger(value);
-        athlete.rankings.age_group = ar && ar > 0 ? ar : null;
+        if (athlete.rankings.age_group === null) {
+          const ar = parseInteger(value);
+          athlete.rankings.age_group = ar && ar > 0 ? ar : null;
+        }
         break;
       }
       case "penalty":
