@@ -17,8 +17,16 @@ describe("normalizer functions", () => {
     test("null", () => expect(parseTime(null as any)).toBeNull());
     test("undefined", () => expect(parseTime(undefined as any)).toBeNull());
     test("invalid", () => expect(parseTime("abc")).toBeNull());
-    test("two-part", () => expect(parseTime("19:49")).toBeNull());
+    test("two-part is MM:SS", () => expect(parseTime("19:49")).toBe(1189));
+    test("two-part fractional (hiwasa)", () =>
+      expect(parseTime("25:55.68")).toBe(1556));
+    test("three-part fractional", () =>
+      expect(parseTime("2:31:01.10")).toBe(9061));
+    test("trailing penalty flag (iseshima)", () =>
+      expect(parseTime("2:39:42 P")).toBe(9582));
     test("bad minutes", () => expect(parseTime("1:99:00")).toBeNull());
+    test("bad seconds two-part", () => expect(parseTime("19:99")).toBeNull());
+    test("not a leading time", () => expect(parseTime("P 2:39:42")).toBeNull());
   });
 
   describe("parseRankAndStatus", () => {
@@ -30,6 +38,18 @@ describe("normalizer functions", () => {
     test("TOV", () => expect(parseRankAndStatus("TOV")).toEqual({ rank: null, status: "TOV" }));
     test("OPEN", () => expect(parseRankAndStatus("OPEN")).toEqual({ rank: null, status: "OPEN" }));
     test("SKIP", () => expect(parseRankAndStatus("SKIP")).toEqual({ rank: null, status: "SKIP" }));
+    test("SKP (kujukuri/iseshima abbreviation)", () =>
+      expect(parseRankAndStatus("SKP")).toEqual({ rank: null, status: "SKIP" }));
+    test("NOF is a DNF (laps but no official finish)", () =>
+      expect(parseRankAndStatus("NOF")).toEqual({ rank: null, status: "DNF" }));
+    test("参考記録 is an unranked participant", () =>
+      expect(parseRankAndStatus("参考記録")).toEqual({ rank: null, status: "OPEN" }));
+    test("DQ maps to DSQ", () =>
+      expect(parseRankAndStatus("DQ")).toEqual({ rank: null, status: "DSQ" }));
+    test("NC (not classified) is unranked", () =>
+      expect(parseRankAndStatus("NC")).toEqual({ rank: null, status: "OPEN" }));
+    test("LAP (lapped out) is a DNF", () =>
+      expect(parseRankAndStatus("LAP")).toEqual({ rank: null, status: "DNF" }));
     test("empty", () => expect(parseRankAndStatus("")).toEqual({ rank: null, status: "DNS" }));
     test("null", () => expect(parseRankAndStatus(null as any)).toEqual({ rank: null, status: "DNS" }));
   });

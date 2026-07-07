@@ -2,9 +2,19 @@ const STATUS_MAP = {
   DNF: "DNF",
   DNS: "DNS",
   DSQ: "DSQ",
+  DQ: "DSQ",
   TOV: "TOV",
   OPEN: "OPEN",
   SKIP: "SKIP",
+  SKP: "SKIP",
+  // "Not Official Finisher": has lap times but no official finish.
+  NOF: "DNF",
+  // Lapped out — pulled from the course after being overtaken by a lap.
+  LAP: "DNF",
+  // "Not Classified" (IRONMAN) — finished but outside the classification.
+  NC: "OPEN",
+  // Unranked reference participation (e.g. course change, out of ranking).
+  参考記録: "OPEN",
 };
 
 /**

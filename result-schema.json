@@ -182,6 +182,7 @@
                 "residence",
                 "total_time_seconds",
                 "age_group",
+                "age_category_raw",
                 "rankings",
                 "segments"
               ],
@@ -239,6 +240,12 @@
                         "max_age": { "type": "integer", "minimum": 0 }
                       }
                     },
+                    { "type": "null" }
+                  ]
+                },
+                "age_category_raw": {
+                  "oneOf": [
+                    { "type": "string", "minLength": 1 },
                     { "type": "null" }
                   ]
                 },
