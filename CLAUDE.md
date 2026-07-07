@@ -205,8 +205,19 @@ with pdfplumber.open('result.pdf') as pdf:
 ```bash
 bunx ajv-cli validate -s race-info-schema.json -d race-info.json
 bunx ajv-cli validate -s weather-schema.json -d master/{year}/{id}/weather-data.json
-bun scripts/normalize-tsv.js <event_id> <year>
+bun scripts/normalize-tsv.js <event_id> <year>   # result-schema.json 検証込み
+bun run test:tsv-lint       # 静的規約（氏名スペース・時間形式・順位列・列数整合）
+bun run check:duplicates    # 重複エディション検出
+bun run check:integrity     # 正規化後の欠損検査（integrity-baseline.json との回帰比較）
 ```
+
+新規取り込みは `check:integrity` で **欠損ゼロ** が原則。ソース自体に
+データが無い場合のみ、コミットメッセージに明記した上で
+`bun run scripts/check-integrity.js --update` で baseline に記録する。
+既知のデータ品質問題は `tsv-lint-known-issues.json`（静的レベル）と
+`integrity-baseline.json`（正規化レベル）に集約されており、いずれも
+「将来元ソースから再取り込みして減らす」ための to-fix リスト。増やす
+方向の変更は原則禁止。
 
 ## distance の種別
 

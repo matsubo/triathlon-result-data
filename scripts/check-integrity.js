@@ -50,7 +50,12 @@ for (const event of raceInfo.events) {
         tsvContent = readFileSync(join(repoRoot, category.result_tsv), "utf-8");
       } catch {
         details.push(`${key}: MISSING TSV ${category.result_tsv}`);
-        results[key] = { warnings: 1, missingLaps: 0, missingTotal: 0, athletes: 0 };
+        results[key] = {
+          warnings: 1,
+          missingLaps: 0,
+          missingTotal: 0,
+          athletes: 0,
+        };
         continue;
       }
 
@@ -59,9 +64,7 @@ for (const event of raceInfo.events) {
       // Only segments that actually map a lap column can be expected to
       // have lap data — many historical sources publish no splits at all.
       const lapSegmentIdxs = category.segments
-        .map((seg, i) =>
-          seg.columns.some((c) => c.role === "lap") ? i : -1,
-        )
+        .map((seg, i) => (seg.columns.some((c) => c.role === "lap") ? i : -1))
         .filter((i) => i !== -1);
 
       let missingLaps = 0;
@@ -85,7 +88,9 @@ for (const event of raceInfo.events) {
         details.push(`${key}: ${w}`);
       }
       if (verbose && missingTotal > 0) {
-        details.push(`${key}: ${missingTotal} finished athletes with no total time`);
+        details.push(
+          `${key}: ${missingTotal} finished athletes with no total time`,
+        );
       }
 
       results[key] = {
@@ -120,7 +125,9 @@ if (details.length > 0) {
   const shown = verbose ? details : details.slice(0, 40);
   for (const d of shown) console.log(`  ${d}`);
   if (!verbose && details.length > shown.length) {
-    console.log(`  ... and ${details.length - shown.length} more (use --verbose)`);
+    console.log(
+      `  ... and ${details.length - shown.length} more (use --verbose)`,
+    );
   }
 }
 
