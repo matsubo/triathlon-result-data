@@ -215,6 +215,33 @@ describe("TSV Lint Rules", () => {
     expect(errors).toEqual([]);
   });
 
+  test("氏名 values do not contain full-width Latin letters", () => {
+    // Alphabet names must use half-width ASCII (Ｔｏｍ → Tom) so the same
+    // athlete matches across races regardless of the source's encoding style.
+    const FW_LATIN = /[Ａ-Ｚａ-ｚ]/;
+    const errors: string[] = [];
+
+    for (const filePath of tsvFiles) {
+      const lines = readFileSync(filePath, "utf-8").split("\n");
+      if (lines.length < 2) continue;
+      const headerCells = lines[0].split("\t").map((h) => h.trim());
+      const nameIdx = headerCells.findIndex((h) =>
+        ["氏名", "氏 名", "Name"].includes(h),
+      );
+      if (nameIdx === -1) continue;
+
+      for (let i = 1; i < lines.length; i++) {
+        if (!lines[i].trim()) continue;
+        const name = lines[i].split("\t")[nameIdx];
+        if (name && FW_LATIN.test(name)) {
+          errors.push(`${relPath(filePath)}:${i + 1} (${name})`);
+        }
+      }
+    }
+
+    expect(errors).toEqual([]);
+  });
+
   test("氏名 values do not contain consecutive half-width spaces", () => {
     const errors: string[] = [];
 

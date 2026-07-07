@@ -70,6 +70,10 @@ Claude can help navigate and understand this triathlon result data repository wh
     （JTU等）に由来する表記ゆれとして紛れ込むことがあるため、取り込み時に
     正規化する。`tests/tsv-lint.test.ts`の「氏名 values do not contain
     consecutive half-width spaces」で静的に検査される。
+- **アルファベット氏名は半角に統一**: 全角英字（`Ｔｏｍ Ｓｍｉｔｈ`）は半角
+  （`Tom Smith`）へ変換して取り込む。全角のままだと同一人物の大会横断
+  名寄せができない。`tests/tsv-lint.test.ts`の「氏名 values do not contain
+  full-width Latin letters」で静的に検査される。
 
 ## ファイル名規約
 
