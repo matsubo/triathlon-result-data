@@ -283,6 +283,119 @@ describe("TSV Lint Rules", () => {
     expect(errors).toEqual([]);
   });
 
+  const knownIssues = JSON.parse(
+    readFileSync(join(repoRoot, "tsv-lint-known-issues.json"), "utf-8"),
+  );
+
+  // Time-like value: H:MM:SS / MM:SS with optional fractional seconds and an
+  // optional trailing flag token (e.g. "2:39:42 P"), or a placeholder/status.
+  const TIME_VALUE = /^\d{1,3}:\d{2}(:\d{2})?(\.\d+)?(\s+\S+)?$/;
+  const NON_VALUE =
+    /^(-+|\*+|--:--:--|DNF|DNS|DSQ|DQ|TOV|OPEN|SKIP|SKP|NOF|NC|FIN|LAP|参考記録)$/;
+
+  function collectViolations(
+    headerMatches: (h: string) => boolean,
+    valueOk: (v: string) => boolean,
+    knownKey: string,
+  ): string[] {
+    const known: Record<string, number> = knownIssues[knownKey] || {};
+    const errors: string[] = [];
+
+    for (const filePath of tsvFiles) {
+      const rel = relPath(filePath);
+      const lines = readFileSync(filePath, "utf-8").split("\n");
+      if (lines.length < 2) continue;
+      const headers = lines[0].split("\t").map((h) => h.trim());
+      const idxs = headers
+        .map((h, i) => (headerMatches(h) ? i : -1))
+        .filter((i) => i !== -1);
+      if (idxs.length === 0) continue;
+
+      const fileErrors: string[] = [];
+      for (let ln = 1; ln < lines.length; ln++) {
+        if (!lines[ln].trim()) continue;
+        const cells = lines[ln].split("\t");
+        for (const i of idxs) {
+          const v = (cells[i] || "").trim();
+          if (v && !valueOk(v)) {
+            fileErrors.push(`${rel}:${ln + 1} ${headers[i]}=${v}`);
+          }
+        }
+      }
+      const allowed = known[rel] || 0;
+      if (fileErrors.length > allowed) {
+        errors.push(
+          `${rel}: ${fileErrors.length} violations (allowed ${allowed}), e.g. ${fileErrors.slice(0, 3).join("; ")}`,
+        );
+      }
+    }
+    return errors;
+  }
+
+  test("Time columns contain parseable times", () => {
+    // ラップ/記録/スプリット columns and IRONMAN's Swim/Bike/Run/T1/T2/Total_Time;
+    // headers naming a rank (順/順位) are excluded — those are covered below.
+    const isTimeHeader = (h: string) =>
+      !/順/.test(h) &&
+      (/(ラップ|ﾗｯﾌﾟ|記録|ｽﾌﾟﾘｯﾄ|スプリット|タイム)/.test(h) ||
+        /^(Swim|Bike|Run|T1|T2|Total_Time|LAP\d+)$/.test(h));
+    const errors = collectViolations(
+      isTimeHeader,
+      (v) => TIME_VALUE.test(v) || NON_VALUE.test(v),
+      "time_format",
+    );
+    expect(errors).toEqual([]);
+  });
+
+  test("Rank columns contain integers or status tokens", () => {
+    // Segment/gender/age rank columns; overall-rank columns legitimately mix
+    // integers with status strings, which NON_VALUE covers.
+    const isRankHeader = (h: string) => /(順$|順位$|_Rank$)/.test(h);
+    const errors = collectViolations(
+      isRankHeader,
+      (v) => /^\d+$/.test(v) || NON_VALUE.test(v),
+      "rank_numeric",
+    );
+    expect(errors).toEqual([]);
+  });
+
+  test("No data beyond the header's column count", () => {
+    // A data row wider than the header means a column was dropped from the
+    // header or inserted mid-row during import — every downstream mapping
+    // silently reads shifted values.
+    const known: Record<string, number> = knownIssues.extra_columns || {};
+    const errors: string[] = [];
+
+    for (const filePath of tsvFiles) {
+      const rel = relPath(filePath);
+      const lines = readFileSync(filePath, "utf-8").split("\n");
+      if (lines.length < 2) continue;
+      const nCols = lines[0].split("\t").length;
+
+      let count = 0;
+      let example = "";
+      for (let ln = 1; ln < lines.length; ln++) {
+        if (!lines[ln].trim()) continue;
+        const cells = lines[ln].split("\t");
+        if (
+          cells.length > nCols &&
+          cells.slice(nCols).some((c) => c.trim() !== "")
+        ) {
+          count++;
+          if (!example) example = `line ${ln + 1}`;
+        }
+      }
+      const allowed = known[rel] || 0;
+      if (count > allowed) {
+        errors.push(
+          `${rel}: ${count} rows wider than the ${nCols}-column header (allowed ${allowed}), first at ${example}`,
+        );
+      }
+    }
+
+    expect(errors).toEqual([]);
+  });
+
   test("All filenames under master/ and images/ are ASCII", () => {
     const errors: string[] = [];
 

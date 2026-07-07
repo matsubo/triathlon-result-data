@@ -7,6 +7,7 @@
   "scripts": {
     "test": "bun test --timeout 120000 && bun run test:typecheck",
     "check:duplicates": "bun run scripts/check-duplicate-editions.js",
+    "check:integrity": "bun run scripts/check-integrity.js",
     "test:normalizers": "bun test tests/normalizers.test.ts",
     "test:json": "bun test --timeout 120000 tests/json-validity.test.ts",
     "test:weather": "bun test tests/weather-validation.test.ts",

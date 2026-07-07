@@ -1,0 +1,6687 @@
+{
+  "im703_michigan/2025/im703_michigan_2025": {
+    "warnings": 0,
+    "missingLaps": 19,
+    "missingTotal": 0
+  },
+  "sado/2024/sado": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "sado/2024/sado_b": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "sado/2016/sado_ld": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "miyakojima/2024/miyakojima": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "yokohama/2024/yokohama": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "yokohama/2023/yokohama": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "yokohama/2015/yokohama": {
+    "warnings": 0,
+    "missingLaps": 39,
+    "missingTotal": 0
+  },
+  "niijima/2024/niijima": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "niijima/2022/niijima": {
+    "warnings": 0,
+    "missingLaps": 16,
+    "missingTotal": 0
+  },
+  "sainokuni/2017/sainokuni_a": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "sainokuni/2017/sainokuni_b": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "sainokuni/2017/sainokuni_c": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "sainokuni/2019/sainokuni_b": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "fukuyama/2023/fukuyama": {
+    "warnings": 0,
+    "missingLaps": 25,
+    "missingTotal": 0
+  },
+  "gamagori/2026/gamagori": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "gamagori/2023/gamagori": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "gamagori/2019/gamagori_co": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "gamagori/2018/gamagori_sp": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "banpaku/2026/banpaku_challenge_a": {
+    "warnings": 0,
+    "missingLaps": 37,
+    "missingTotal": 0
+  },
+  "banpaku/2026/banpaku_challenge_b": {
+    "warnings": 0,
+    "missingLaps": 13,
+    "missingTotal": 0
+  },
+  "suwako/2024/suwako": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "takamatsu/2023/takamatsu": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "teganuma/2025/teganuma": {
+    "warnings": 0,
+    "missingLaps": 157,
+    "missingTotal": 0
+  },
+  "hiwasa/2023/hiwasa": {
+    "warnings": 0,
+    "missingLaps": 12,
+    "missingTotal": 0
+  },
+  "hiwasa/2019/hiwasa": {
+    "warnings": 0,
+    "missingLaps": 114,
+    "missingTotal": 0
+  },
+  "hiwasa/2018/hiwasa": {
+    "warnings": 0,
+    "missingLaps": 25,
+    "missingTotal": 0
+  },
+  "hiwasa/2017/hiwasa": {
+    "warnings": 0,
+    "missingLaps": 18,
+    "missingTotal": 0
+  },
+  "hiwasa/2016/hiwasa": {
+    "warnings": 0,
+    "missingLaps": 9,
+    "missingTotal": 0
+  },
+  "hiwasa/2015/hiwasa": {
+    "warnings": 0,
+    "missingLaps": 13,
+    "missingTotal": 0
+  },
+  "hiwasa/2014/hiwasa": {
+    "warnings": 0,
+    "missingLaps": 41,
+    "missingTotal": 0
+  },
+  "itako/2022/itako": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "itako/2012/itako": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "itako/2012/itako_sprint": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "tokunoshima/2025/tokunoshima": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "tokunoshima/2019/tokunoshima": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "tokunoshima/2018/tokunoshima": {
+    "warnings": 0,
+    "missingLaps": 346,
+    "missingTotal": 0
+  },
+  "tokunoshima/2017/tokunoshima": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "fujikawaguchiko/2025/fujikawaguchiko": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "fujikawaguchiko/2024/fujikawaguchiko": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "fujikawaguchiko/2023/fujikawaguchiko": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "irago/2023/irago_b": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "murakami/2019/murakami": {
+    "warnings": 0,
+    "missingLaps": 327,
+    "missingTotal": 117
+  },
+  "murakami/2018/murakami": {
+    "warnings": 0,
+    "missingLaps": 542,
+    "missingTotal": 182
+  },
+  "murakami/2017/murakami": {
+    "warnings": 0,
+    "missingLaps": 361,
+    "missingTotal": 125
+  },
+  "murakami/2016/murakami": {
+    "warnings": 0,
+    "missingLaps": 343,
+    "missingTotal": 116
+  },
+  "kawasakiko/2023/kawasakiko_sprint": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_world_championship_kona/2023/ironman_world_championship_kona_2023": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_world_championship_kona/2022/ironman_world_championship_kona_thu_2022": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_world_championship_kona/2009/ironman_world_championship_kona_2009": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_world_championship_kona/2008/ironman_world_championship_kona_2008": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_world_championship_kona/2003/ironman_world_championship_kona_2003": {
+    "warnings": 0,
+    "missingLaps": 16,
+    "missingTotal": 0
+  },
+  "nanki_shirahama/2014/nanki_shirahama": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "miyazaki_seagaia/2024/miyazaki_seagaia": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "miyazaki_seagaia/2023/miyazaki_seagaia": {
+    "warnings": 0,
+    "missingLaps": 88,
+    "missingTotal": 25
+  },
+  "shichigahama/2026/shichigahama_standard": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "shichigahama/2026/shichigahama_middle": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "shichigahama/2026/shichigahama_sprint": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "shichigahama/2025/shichigahama_standard": {
+    "warnings": 0,
+    "missingLaps": 22,
+    "missingTotal": 0
+  },
+  "shichigahama/2025/shichigahama_middle": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "shichigahama/2025/shichigahama_sprint": {
+    "warnings": 0,
+    "missingLaps": 11,
+    "missingTotal": 0
+  },
+  "shichigahama/2024/shichigahama_standard": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "shichigahama/2024/shichigahama_middle": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "utsukushima_aizu/2024/utsukushima_aizu": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "komatsu_tetsujin/2014/komatsu_tetsujin": {
+    "warnings": 0,
+    "missingLaps": 0,
+    "missingTotal": 1
+  },
+  "komatsu_tetsujin/2018/komatsu_tetsujin_long": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "nagasaki_saikai/2019/nagasaki_saikai": {
+    "warnings": 0,
+    "missingLaps": 168,
+    "missingTotal": 56
+  },
+  "nagasaki_saikai/2018/nagasaki_saikai": {
+    "warnings": 0,
+    "missingLaps": 150,
+    "missingTotal": 50
+  },
+  "nagasaki_saikai/2017/nagasaki_saikai": {
+    "warnings": 0,
+    "missingLaps": 405,
+    "missingTotal": 67
+  },
+  "nagasaki_saikai/2016/nagasaki_saikai": {
+    "warnings": 0,
+    "missingLaps": 186,
+    "missingTotal": 62
+  },
+  "nagasaki_saikai/2015/nagasaki_saikai": {
+    "warnings": 0,
+    "missingLaps": 106,
+    "missingTotal": 53
+  },
+  "nagasaki_saikai/2014/nagasaki_saikai": {
+    "warnings": 0,
+    "missingLaps": 30,
+    "missingTotal": 15
+  },
+  "osakikamijima/2016/osakikamijima": {
+    "warnings": 0,
+    "missingLaps": 0,
+    "missingTotal": 1
+  },
+  "ako_tri/2025/ako_tri_od_2025": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ako_tri/2015/ako_tri_sd_2015": {
+    "warnings": 0,
+    "missingLaps": 12,
+    "missingTotal": 4
+  },
+  "ako_tri/2015/ako_tri_od_2015": {
+    "warnings": 0,
+    "missingLaps": 24,
+    "missingTotal": 8
+  },
+  "nakajima/2017/nakajima": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "hokkaido/2018/hokkaido_ld": {
+    "warnings": 0,
+    "missingLaps": 12,
+    "missingTotal": 0
+  },
+  "kujukuri/2025/kujukuri_md": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "kujukuri/2025/kujukuri_sd": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "kujukuri/2024/kujukuri_md": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "kujukuri/2024/kujukuri_od": {
+    "warnings": 0,
+    "missingLaps": 13,
+    "missingTotal": 0
+  },
+  "kujukuri/2023/kujukuri_md": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "kujukuri/2023/kujukuri_od": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "kujukuri/2022/kujukuri_md": {
+    "warnings": 0,
+    "missingLaps": 428,
+    "missingTotal": 0
+  },
+  "kujukuri/2022/kujukuri_od": {
+    "warnings": 0,
+    "missingLaps": 41,
+    "missingTotal": 0
+  },
+  "kujukuri/2021/kujukuri_md": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "kujukuri/2021/kujukuri_od": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "kujukuri/2019/kujukuri_md": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "kujukuri/2019/kujukuri_od": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "kujukuri/2014/kujukuri_od": {
+    "warnings": 0,
+    "missingLaps": 9,
+    "missingTotal": 0
+  },
+  "lake_hamana/2023/lake_hamana": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "lake_hamana/2022/lake_hamana": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "kisosangawa/2022/kisosangawa": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "kisosangawa/2014/kisosangawa": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "izuoshima/2024/izuoshima": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "izuoshima/2018/izuoshima": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "izuoshima/2015/izuoshima": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ako/2017/ako_sd_2017": {
+    "warnings": 0,
+    "missingLaps": 107,
+    "missingTotal": 107
+  },
+  "ako/2017/ako_od_2017": {
+    "warnings": 0,
+    "missingLaps": 108,
+    "missingTotal": 108
+  },
+  "ironman_south_africa/2025/ironman_south_africa_2025": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_south_africa/2021/ironman_south_africa_2021": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_south_africa/2013/ironman_south_africa_2013": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_south_africa/2011/ironman_south_africa_2011": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_south_africa/2010/ironman_south_africa_2010": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "ironman_south_africa/2009/ironman_south_africa_2009": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 2
+  },
+  "ironman_south_africa/2008/ironman_south_africa_2008": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "ironman_south_africa/2007/ironman_south_africa_2007": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "ironman_texas/2026/ironman_texas_2026": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_texas/2025/ironman_texas_2025": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_texas/2024/ironman_texas_2024": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_texas/2023/ironman_texas_2023": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_texas/2022/ironman_texas_2022": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "ironman_texas/2018/ironman_texas_2018": {
+    "warnings": 0,
+    "missingLaps": 9,
+    "missingTotal": 0
+  },
+  "ironman_texas/2015/ironman_texas_2015": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_texas/2014/ironman_texas_2014": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_texas/2013/ironman_texas_2013": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_texas/2011/ironman_texas_2011": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "ironman_australia/2025/ironman_australia_2025": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_australia/2019/ironman_australia_2019": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_australia/2013/ironman_australia_2013": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_australia/2012/ironman_australia_2012": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_australia/2011/ironman_australia_2011": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "ironman_australia/2010/ironman_australia_2010": {
+    "warnings": 0,
+    "missingLaps": 41,
+    "missingTotal": 0
+  },
+  "ironman_australia/2009/ironman_australia_2009": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_australia/2006/ironman_australia_2006": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_australia/2005/ironman_australia_2005": {
+    "warnings": 0,
+    "missingLaps": 312,
+    "missingTotal": 0
+  },
+  "ironman_austria/2024/ironman_austria_2024": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_austria/2023/ironman_austria_2023": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_austria/2022/ironman_austria_2022": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_austria/2021/ironman_austria_2021": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_austria/2017/ironman_austria_2017": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_austria/2016/ironman_austria_2016": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_austria/2015/ironman_austria_2015": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
+  "ironman_austria/2014/ironman_austria_2014": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "ironman_austria/2013/ironman_austria_2013": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
+  "ironman_austria/2012/ironman_austria_2012": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "ironman_austria/2011/ironman_austria_2011": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_austria/2010/ironman_austria_2010": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
+  "ironman_austria/2009/ironman_austria_2009": {
+    "warnings": 0,
+    "missingLaps": 33,
+    "missingTotal": 0
+  },
+  "ironman_austria/2008/ironman_austria_2008": {
+    "warnings": 0,
+    "missingLaps": 23,
+    "missingTotal": 0
+  },
+  "ironman_austria/2007/ironman_austria_2007": {
+    "warnings": 0,
+    "missingLaps": 16,
+    "missingTotal": 0
+  },
+  "ironman_austria/2006/ironman_austria_2006": {
+    "warnings": 0,
+    "missingLaps": 9,
+    "missingTotal": 0
+  },
+  "ironman_austria/2005/ironman_austria_2005": {
+    "warnings": 0,
+    "missingLaps": 18,
+    "missingTotal": 0
+  },
+  "ironman_lanzarote/2026/ironman_lanzarote_2026": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_lanzarote/2024/ironman_lanzarote_2024": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_lanzarote/2023/ironman_lanzarote_2023": {
+    "warnings": 0,
+    "missingLaps": 9,
+    "missingTotal": 0
+  },
+  "ironman_lanzarote/2010/ironman_lanzarote_2010": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_lanzarote/2009/ironman_lanzarote_2009": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_lanzarote/2008/ironman_lanzarote_2008": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_brazil/2026/ironman_brazil_2026": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_brazil/2025/ironman_brazil_2025": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_brazil/2024/ironman_brazil_2024": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_brazil/2023/ironman_brazil_2023": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "ironman_brazil/2022/ironman_brazil_2022": {
+    "warnings": 0,
+    "missingLaps": 30,
+    "missingTotal": 0
+  },
+  "ironman_brazil/2019/ironman_brazil_2019": {
+    "warnings": 0,
+    "missingLaps": 22,
+    "missingTotal": 0
+  },
+  "ironman_brazil/2018/ironman_brazil_2018": {
+    "warnings": 0,
+    "missingLaps": 42,
+    "missingTotal": 0
+  },
+  "ironman_brazil/2017/ironman_brazil_2017": {
+    "warnings": 0,
+    "missingLaps": 35,
+    "missingTotal": 0
+  },
+  "ironman_brazil/2016/ironman_brazil_2016": {
+    "warnings": 0,
+    "missingLaps": 19,
+    "missingTotal": 0
+  },
+  "ironman_brazil/2015/ironman_brazil_2015": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
+  "ironman_brazil/2014/ironman_brazil_2014": {
+    "warnings": 0,
+    "missingLaps": 12,
+    "missingTotal": 0
+  },
+  "ironman_brazil/2013/ironman_brazil_2013": {
+    "warnings": 0,
+    "missingLaps": 771,
+    "missingTotal": 0
+  },
+  "ironman_brazil/2012/ironman_brazil_2012": {
+    "warnings": 0,
+    "missingLaps": 134,
+    "missingTotal": 0
+  },
+  "ironman_brazil/2011/ironman_brazil_2011": {
+    "warnings": 0,
+    "missingLaps": 2807,
+    "missingTotal": 0
+  },
+  "ironman_brazil/2010/ironman_brazil_2010": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
+  "ironman_brazil/2009/ironman_brazil_2009": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_brazil/2008/ironman_brazil_2008": {
+    "warnings": 0,
+    "missingLaps": 50,
+    "missingTotal": 0
+  },
+  "ironman_brazil/2007/ironman_brazil_2007": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "ironman_cairns/2019/ironman_cairns_2019": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_cairns/2016/ironman_cairns_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_cairns/2015/ironman_cairns_2015": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_cairns/2013/ironman_cairns_2013": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "ironman_cairns/2012/ironman_cairns_2012": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_canada/2022/ironman_canada_2022": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_canada/2018/ironman_canada_2018": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_canada/2017/ironman_canada_2017": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_canada/2015/ironman_canada_2015": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_canada/2014/ironman_canada_2014": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_canada/2013/ironman_canada_2013": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_coeur_dalene/2016/ironman_coeur_dalene_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_coeur_dalene/2015/ironman_coeur_dalene_2015": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_coeur_dalene/2014/ironman_coeur_dalene_2014": {
+    "warnings": 0,
+    "missingLaps": 14,
+    "missingTotal": 0
+  },
+  "ironman_coeur_dalene/2013/ironman_coeur_dalene_2013": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "ironman_coeur_dalene/2012/ironman_coeur_dalene_2012": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "ironman_coeur_dalene/2011/ironman_coeur_dalene_2011": {
+    "warnings": 0,
+    "missingLaps": 20,
+    "missingTotal": 0
+  },
+  "ironman_coeur_dalene/2010/ironman_coeur_dalene_2010": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "ironman_coeur_dalene/2008/ironman_coeur_dalene_2008": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_coeur_dalene/2007/ironman_coeur_dalene_2007": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "ironman_coeur_dalene/2003/ironman_coeur_dalene_2003": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_cozumel/2025/ironman_cozumel_2025": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_cozumel/2023/ironman_cozumel_2023": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_cozumel/2022/ironman_cozumel_2022": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "ironman_cozumel/2021/ironman_cozumel_2021": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "ironman_cozumel/2017/ironman_cozumel_2017": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_cozumel/2016/ironman_cozumel_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_cozumel/2015/ironman_cozumel_2015": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "ironman_cozumel/2014/ironman_cozumel_2014": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "ironman_cozumel/2013/ironman_cozumel_2013": {
+    "warnings": 0,
+    "missingLaps": 254,
+    "missingTotal": 1
+  },
+  "ironman_cozumel/2012/ironman_cozumel_2012": {
+    "warnings": 0,
+    "missingLaps": 56,
+    "missingTotal": 1
+  },
+  "ironman_cozumel/2011/ironman_cozumel_2011": {
+    "warnings": 0,
+    "missingLaps": 12,
+    "missingTotal": 0
+  },
+  "ironman_cozumel/2010/ironman_cozumel_2010": {
+    "warnings": 0,
+    "missingLaps": 43,
+    "missingTotal": 0
+  },
+  "ironman_cozumel/2009/ironman_cozumel_2009": {
+    "warnings": 0,
+    "missingLaps": 26,
+    "missingTotal": 0
+  },
+  "ironman_lake_placid/2025/ironman_lake_placid_2025": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_lake_placid/2024/ironman_lake_placid_2024": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_lake_placid/2022/ironman_lake_placid_2022": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_lake_placid/2019/ironman_lake_placid_2019": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_lake_placid/2018/ironman_lake_placid_2018": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_lake_placid/2017/ironman_lake_placid_2017": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_lake_placid/2016/ironman_lake_placid_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_lake_placid/2015/ironman_lake_placid_2015": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_lake_placid/2014/ironman_lake_placid_2014": {
+    "warnings": 0,
+    "missingLaps": 665,
+    "missingTotal": 0
+  },
+  "ironman_lake_placid/2013/ironman_lake_placid_2013": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_lake_placid/2011/ironman_lake_placid_2011": {
+    "warnings": 0,
+    "missingLaps": 36,
+    "missingTotal": 0
+  },
+  "ironman_lake_placid/2010/ironman_lake_placid_2010": {
+    "warnings": 0,
+    "missingLaps": 40,
+    "missingTotal": 0
+  },
+  "ironman_lake_placid/2009/ironman_lake_placid_2009": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "ironman_lake_placid/2008/ironman_lake_placid_2008": {
+    "warnings": 0,
+    "missingLaps": 21,
+    "missingTotal": 0
+  },
+  "ironman_lake_placid/2007/ironman_lake_placid_2007": {
+    "warnings": 0,
+    "missingLaps": 13,
+    "missingTotal": 0
+  },
+  "ironman_lake_placid/2006/ironman_lake_placid_2006": {
+    "warnings": 0,
+    "missingLaps": 17,
+    "missingTotal": 0
+  },
+  "ironman_lake_placid/2003/ironman_lake_placid_2003": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "ironman_lake_placid/2002/ironman_lake_placid_2002": {
+    "warnings": 0,
+    "missingLaps": 18,
+    "missingTotal": 0
+  },
+  "ironman_louisville/2019/ironman_louisville_2019": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_louisville/2018/ironman_louisville_2018": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_louisville/2017/ironman_louisville_2017": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_louisville/2016/ironman_louisville_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_louisville/2015/ironman_louisville_2015": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_louisville/2014/ironman_louisville_2014": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "ironman_louisville/2013/ironman_louisville_2013": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
+  "ironman_louisville/2012/ironman_louisville_2012": {
+    "warnings": 0,
+    "missingLaps": 13,
+    "missingTotal": 1
+  },
+  "ironman_louisville/2010/ironman_louisville_2010": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "ironman_louisville/2009/ironman_louisville_2009": {
+    "warnings": 0,
+    "missingLaps": 22,
+    "missingTotal": 0
+  },
+  "ironman_louisville/2008/ironman_louisville_2008": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "ironman_louisville/2007/ironman_louisville_2007": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
+  "ironman_melbourne/2014/ironman_melbourne_2014": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "ironman_melbourne/2013/ironman_melbourne_2013": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_mont_tremblant/2022/ironman_mont_tremblant_2022": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_mont_tremblant/2019/ironman_mont_tremblant_2019": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_mont_tremblant/2018/ironman_mont_tremblant_2018": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_mont_tremblant/2014/ironman_mont_tremblant_2014": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_mont_tremblant/2013/ironman_mont_tremblant_2013": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_new_zealand/2024/ironman_new_zealand_2024": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_new_zealand/2020/ironman_new_zealand_2020": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_new_zealand/2017/ironman_new_zealand_2017": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_new_zealand/2016/ironman_new_zealand_2016": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_new_zealand/2015/ironman_new_zealand_2015": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_new_zealand/2014/ironman_new_zealand_2014": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_new_zealand/2012/ironman_new_zealand_2012": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_new_zealand/2011/ironman_new_zealand_2011": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "ironman_new_zealand/2006/ironman_new_zealand_2006": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
+  "ironman_new_zealand/2005/ironman_new_zealand_2005": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "ironman_new_zealand/2004/ironman_new_zealand_2004": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "ironman_new_zealand/2003/ironman_new_zealand_2003": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_regensburg/2012/ironman_regensburg_2012": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_regensburg/2011/ironman_regensburg_2011": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_st_george/2010/ironman_st_george_2010": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "ironman_uk/2023/ironman_uk_2023": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_uk/2022/ironman_uk_2022": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "ironman_uk/2021/ironman_uk_2021": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_uk/2019/ironman_uk_2019": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_uk/2018/ironman_uk_2018": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_uk/2017/ironman_uk_2017": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_uk/2015/ironman_uk_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_uk/2014/ironman_uk_2014": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_uk/2013/ironman_uk_2013": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_uk/2012/ironman_uk_2012": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_uk/2011/ironman_uk_2011": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "ironman_uk/2010/ironman_uk_2010": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "ironman_uk/2009/ironman_uk_2009": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "ironman_uk/2008/ironman_uk_2008": {
+    "warnings": 0,
+    "missingLaps": 29,
+    "missingTotal": 0
+  },
+  "ironman_uk/2007/ironman_uk_2007": {
+    "warnings": 0,
+    "missingLaps": 11,
+    "missingTotal": 0
+  },
+  "ironman_western_australia/2024/ironman_western_australia_2024": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_western_australia/2023/ironman_western_australia_2023": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_western_australia/2019/ironman_western_australia_2019": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_western_australia/2017/ironman_western_australia_2017": {
+    "warnings": 0,
+    "missingLaps": 1194,
+    "missingTotal": 0
+  },
+  "ironman_western_australia/2014/ironman_western_australia_2014": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_western_australia/2013/ironman_western_australia_2013": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "ironman_western_australia/2012/ironman_western_australia_2012": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_western_australia/2010/ironman_western_australia_2010": {
+    "warnings": 0,
+    "missingLaps": 178,
+    "missingTotal": 173
+  },
+  "ironman_western_australia/2009/ironman_western_australia_2009": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_western_australia/2008/ironman_western_australia_2008": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_western_australia/2007/ironman_western_australia_2007": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_western_australia/2006/ironman_western_australia_2006": {
+    "warnings": 0,
+    "missingLaps": 11,
+    "missingTotal": 0
+  },
+  "ironman_western_australia/2005/ironman_western_australia_2005": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_western_australia/2004/ironman_western_australia_2004": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_los_cabos/2015/ironman_los_cabos_2015": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_los_cabos/2014/ironman_los_cabos_2014": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_los_cabos/2013/ironman_los_cabos_2013": {
+    "warnings": 0,
+    "missingLaps": 9,
+    "missingTotal": 3
+  },
+  "ironman_japan/2025/ironman_japan_2025": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_japan/2014/ironman_japan_2014": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_japan/2013/ironman_japan_2013": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_japan/2009/ironman_japan_2009": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_japan/2008/ironman_japan_2008": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_japan/2007/ironman_japan_2007": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_japan/2006/ironman_japan_2006": {
+    "warnings": 0,
+    "missingLaps": 505,
+    "missingTotal": 0
+  },
+  "ironman_lake_tahoe/2013/ironman_lake_tahoe_2013": {
+    "warnings": 0,
+    "missingLaps": 12,
+    "missingTotal": 0
+  },
+  "ironman_boulder/2017/ironman_boulder_2017": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 2
+  },
+  "ironman_boulder/2014/ironman_boulder_2014": {
+    "warnings": 0,
+    "missingLaps": 54,
+    "missingTotal": 36
+  },
+  "ironman_mallorca/2014/ironman_mallorca_2014": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "ironman_fortaleza/2016/ironman_fortaleza_2016": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
+  "ironman_fortaleza/2015/ironman_fortaleza_2015": {
+    "warnings": 0,
+    "missingLaps": 14,
+    "missingTotal": 0
+  },
+  "ironman_maastricht_limburg/2022/ironman_maastricht_limburg_2022": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_maastricht_limburg/2016/ironman_maastricht_limburg_2016": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_maastricht_limburg/2015/ironman_maastricht_limburg_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_vichy/2023/ironman_vichy_2023": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_vichy/2022/ironman_vichy_2022": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_vichy/2019/ironman_vichy_2019": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_vichy/2018/ironman_vichy_2018": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "ironman_vichy/2015/ironman_vichy_2015": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_weymouth/2015/ironman_weymouth_2015": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_weymouth/2014/ironman_weymouth_2014": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "ironman_santa_rosa/2018/ironman_santa_rosa_2018": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "ironman_santa_rosa/2017/ironman_santa_rosa_2017": {
+    "warnings": 0,
+    "missingLaps": 17,
+    "missingTotal": 0
+  },
+  "ironman_north_carolina/2016/ironman_north_carolina_2016": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "ironman_philippines/2024/ironman_philippines_2024": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "ironman_ireland/2023/ironman_ireland_2023": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_ireland/2022/ironman_ireland_2022": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_tulsa/2022/ironman_tulsa_2022": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_china/2010/ironman_china_2010": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_china/2009/ironman_china_2009": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_kazakhstan/2022/ironman_kazakhstan_2022": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_indiana/2021/ironman_indiana_2021": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_finland/2022/ironman_finland_2022": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_finland/2021/ironman_finland_2021": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_gdynia/2023/ironman_gdynia_2023": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_gdynia/2022/ironman_gdynia_2022": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_gdynia/2021/ironman_gdynia_2021": {
+    "warnings": 0,
+    "missingLaps": 9,
+    "missingTotal": 0
+  },
+  "ironman_world_championship_st_george/2022/ironman_world_championship_st_george_2021": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "ironman_des_moines/2022/ironman_des_moines_2022": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_israel/2022/ironman_israel_2022": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_ottawa/2025/ironman_ottawa_2025": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_frankfurt/2026/ironman_frankfurt_2026": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_frankfurt/2025/ironman_frankfurt_2025": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_frankfurt/2024/ironman_frankfurt_2024": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_frankfurt/2023/ironman_frankfurt_2023": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "ironman_frankfurt/2022/ironman_frankfurt_2022": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_frankfurt/2021/ironman_frankfurt_2021": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_frankfurt/2019/ironman_frankfurt_2019": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_frankfurt/2015/ironman_frankfurt_2015": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_frankfurt/2014/ironman_frankfurt_2014": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_frankfurt/2013/ironman_frankfurt_2013": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_frankfurt/2012/ironman_frankfurt_2012": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_frankfurt/2011/ironman_frankfurt_2011": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_frankfurt/2010/ironman_frankfurt_2010": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "ironman_frankfurt/2009/ironman_frankfurt_2009": {
+    "warnings": 0,
+    "missingLaps": 9,
+    "missingTotal": 0
+  },
+  "ironman_frankfurt/2008/ironman_frankfurt_2008": {
+    "warnings": 0,
+    "missingLaps": 64,
+    "missingTotal": 0
+  },
+  "ironman_frankfurt/2007/ironman_frankfurt_2007": {
+    "warnings": 0,
+    "missingLaps": 74,
+    "missingTotal": 0
+  },
+  "ironman_frankfurt/2006/ironman_frankfurt_2006": {
+    "warnings": 0,
+    "missingLaps": 1111,
+    "missingTotal": 0
+  },
+  "ironman_frankfurt/2005/ironman_frankfurt_2005": {
+    "warnings": 0,
+    "missingLaps": 182,
+    "missingTotal": 0
+  },
+  "ironman_frankfurt/2003/ironman_frankfurt_2003": {
+    "warnings": 0,
+    "missingLaps": 131,
+    "missingTotal": 0
+  },
+  "ironman_france/2024/ironman_france_2024": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "ironman_france/2023/ironman_france_2023": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_france/2022/ironman_france_2022": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_france/2021/ironman_france_2021": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_france/2019/ironman_france_2019": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "ironman_france/2018/ironman_france_2018": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "ironman_france/2017/ironman_france_2017": {
+    "warnings": 0,
+    "missingLaps": 20,
+    "missingTotal": 0
+  },
+  "ironman_france/2015/ironman_france_2015": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "ironman_france/2014/ironman_france_2014": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "ironman_france/2013/ironman_france_2013": {
+    "warnings": 0,
+    "missingLaps": 69,
+    "missingTotal": 0
+  },
+  "ironman_france/2012/ironman_france_2012": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "ironman_france/2011/ironman_france_2011": {
+    "warnings": 0,
+    "missingLaps": 289,
+    "missingTotal": 0
+  },
+  "ironman_france/2010/ironman_france_2010": {
+    "warnings": 0,
+    "missingLaps": 17,
+    "missingTotal": 0
+  },
+  "ironman_france/2009/ironman_france_2009": {
+    "warnings": 0,
+    "missingLaps": 179,
+    "missingTotal": 0
+  },
+  "ironman_france/2008/ironman_france_2008": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "ironman_france/2007/ironman_france_2007": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_france/2006/ironman_france_2006": {
+    "warnings": 0,
+    "missingLaps": 20,
+    "missingTotal": 0
+  },
+  "ironman_france/2005/ironman_france_2005": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "ironman_hamburg/2024/ironman_hamburg_2024": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_hamburg/2023/ironman_hamburg_2023": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_hamburg/2022/ironman_hamburg_2022": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_hamburg/2021/ironman_hamburg_2021": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_hamburg/2019/ironman_hamburg_2019": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_hamburg/2018/ironman_hamburg_2018": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_hamburg/2017/ironman_hamburg_2017": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_vitoria/2025/ironman_vitoria_2025": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_vitoria/2024/ironman_vitoria_2024": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_vitoria/2023/ironman_vitoria_2023": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "ironman_vitoria/2019/ironman_vitoria_2019": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "ironman_leeds/2025/ironman_leeds_2025": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_sweden/2024/ironman_sweden_2024": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_sweden/2023/ironman_sweden_2023": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_sweden/2022/ironman_sweden_2022": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_sweden/2019/ironman_sweden_2019": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_sweden/2018/ironman_sweden_2018": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "ironman_sweden/2017/ironman_sweden_2017": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_sweden/2016/ironman_sweden_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_sweden/2014/ironman_sweden_2014": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_sweden/2013/ironman_sweden_2013": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_sweden/2012/ironman_sweden_2012": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "ironman_copenhagen/2024/ironman_copenhagen_2024": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_copenhagen/2023/ironman_copenhagen_2023": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_copenhagen/2022/ironman_copenhagen_2022": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_copenhagen/2021/ironman_copenhagen_2021": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "ironman_copenhagen/2019/ironman_copenhagen_2019": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_copenhagen/2018/ironman_copenhagen_2018": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "ironman_copenhagen/2017/ironman_copenhagen_2017": {
+    "warnings": 0,
+    "missingLaps": 12,
+    "missingTotal": 0
+  },
+  "ironman_copenhagen/2015/ironman_copenhagen_2015": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_copenhagen/2014/ironman_copenhagen_2014": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "ironman_copenhagen/2013/ironman_copenhagen_2013": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
+  "ironman_copenhagen/2012/ironman_copenhagen_2012": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "ironman_copenhagen/2011/ironman_copenhagen_2011": {
+    "warnings": 0,
+    "missingLaps": 14,
+    "missingTotal": 0
+  },
+  "ironman_copenhagen/2010/ironman_copenhagen_2010": {
+    "warnings": 0,
+    "missingLaps": 16,
+    "missingTotal": 0
+  },
+  "ironman_tallinn/2025/ironman_tallinn_2025": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_tallinn/2022/ironman_tallinn_2022": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_tallinn/2020/ironman_tallinn_2020": {
+    "warnings": 0,
+    "missingLaps": 71,
+    "missingTotal": 0
+  },
+  "ironman_tallinn/2019/ironman_tallinn_2019": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_tallinn/2018/ironman_tallinn_2018": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "ironman_switzerland/2025/ironman_switzerland_2025": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_switzerland/2022/ironman_switzerland_2022": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_switzerland/2021/ironman_switzerland_2021": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "ironman_switzerland/2018/ironman_switzerland_2018": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_switzerland/2016/ironman_switzerland_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_switzerland/2015/ironman_switzerland_2015": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "ironman_switzerland/2014/ironman_switzerland_2014": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_switzerland/2013/ironman_switzerland_2013": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 1
+  },
+  "ironman_switzerland/2011/ironman_switzerland_2011": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "ironman_switzerland/2010/ironman_switzerland_2010": {
+    "warnings": 0,
+    "missingLaps": 61,
+    "missingTotal": 0
+  },
+  "ironman_switzerland/2009/ironman_switzerland_2009": {
+    "warnings": 0,
+    "missingLaps": 41,
+    "missingTotal": 0
+  },
+  "ironman_switzerland/2008/ironman_switzerland_2008": {
+    "warnings": 0,
+    "missingLaps": 60,
+    "missingTotal": 0
+  },
+  "ironman_switzerland/2007/ironman_switzerland_2007": {
+    "warnings": 0,
+    "missingLaps": 12,
+    "missingTotal": 0
+  },
+  "ironman_switzerland/2006/ironman_switzerland_2006": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_switzerland/2005/ironman_switzerland_2005": {
+    "warnings": 0,
+    "missingLaps": 223,
+    "missingTotal": 0
+  },
+  "ironman_wisconsin/2024/ironman_wisconsin_2024": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_wisconsin/2022/ironman_wisconsin_2022": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_wisconsin/2021/ironman_wisconsin_2021": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_wisconsin/2018/ironman_wisconsin_2018": {
+    "warnings": 0,
+    "missingLaps": 24,
+    "missingTotal": 0
+  },
+  "ironman_wisconsin/2017/ironman_wisconsin_2017": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_wisconsin/2016/ironman_wisconsin_2016": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "ironman_wisconsin/2015/ironman_wisconsin_2015": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "ironman_wisconsin/2014/ironman_wisconsin_2014": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_wisconsin/2013/ironman_wisconsin_2013": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
+  "ironman_wisconsin/2012/ironman_wisconsin_2012": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "ironman_wisconsin/2011/ironman_wisconsin_2011": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_wisconsin/2006/ironman_wisconsin_2006": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_wisconsin/2003/ironman_wisconsin_2003": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_italy/2024/ironman_italy_2024": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_italy/2023/ironman_italy_2023": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_italy/2022/ironman_italy_2022": {
+    "warnings": 0,
+    "missingLaps": 24,
+    "missingTotal": 0
+  },
+  "ironman_italy/2021/ironman_italy_2021": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_italy/2019/ironman_italy_2019": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "ironman_italy/2018/ironman_italy_2018": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "ironman_italy/2017/ironman_italy_2017": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_maryland/2025/ironman_maryland_2025": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_maryland/2024/ironman_maryland_2024": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_maryland/2019/ironman_maryland_2019": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_maryland/2018/ironman_maryland_2018": {
+    "warnings": 0,
+    "missingLaps": 18,
+    "missingTotal": 0
+  },
+  "ironman_maryland/2017/ironman_maryland_2017": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_wales/2025/ironman_wales_2025": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_wales/2024/ironman_wales_2024": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_wales/2023/ironman_wales_2023": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_wales/2022/ironman_wales_2022": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "ironman_wales/2019/ironman_wales_2019": {
+    "warnings": 0,
+    "missingLaps": 11,
+    "missingTotal": 0
+  },
+  "ironman_wales/2017/ironman_wales_2017": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "ironman_wales/2016/ironman_wales_2016": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_wales/2015/ironman_wales_2015": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_wales/2014/ironman_wales_2014": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_wales/2011/ironman_wales_2011": {
+    "warnings": 0,
+    "missingLaps": 11,
+    "missingTotal": 0
+  },
+  "ironman_chattanooga/2025/ironman_chattanooga_2025": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_chattanooga/2021/ironman_chattanooga_2021": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_chattanooga/2014/ironman_chattanooga_2014": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_gurye/2025/ironman_gurye_2025": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_gurye/2023/ironman_gurye_2023": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_barcelona/2025/ironman_barcelona_2025": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_barcelona/2024/ironman_barcelona_2024": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_barcelona/2023/ironman_barcelona_2023": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_barcelona/2022/ironman_barcelona_2022": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_barcelona/2019/ironman_barcelona_2019": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_barcelona/2018/ironman_barcelona_2018": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_barcelona/2017/ironman_barcelona_2017": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_barcelona/2016/ironman_barcelona_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_barcelona/2015/ironman_barcelona_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_barcelona/2014/ironman_barcelona_2014": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_malaysia/2025/ironman_malaysia_2025": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "ironman_malaysia/2016/ironman_malaysia_2016": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_malaysia/2007/ironman_malaysia_2007": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_malaysia/2006/ironman_malaysia_2006": {
+    "warnings": 0,
+    "missingLaps": 55,
+    "missingTotal": 0
+  },
+  "ironman_portugal/2024/ironman_portugal_2024": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_portugal/2023/ironman_portugal_2023": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_portugal/2021/ironman_portugal_2021": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "ironman_california/2025/ironman_california_2025": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "ironman_california/2024/ironman_california_2024": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_california/2023/ironman_california_2023": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "ironman_florida/2025/ironman_florida_2025": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_florida/2023/ironman_florida_2023": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_florida/2021/ironman_florida_2021": {
+    "warnings": 0,
+    "missingLaps": 17,
+    "missingTotal": 0
+  },
+  "ironman_florida/2015/ironman_florida_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_florida/2013/ironman_florida_2013": {
+    "warnings": 0,
+    "missingLaps": 16,
+    "missingTotal": 0
+  },
+  "ironman_florida/2012/ironman_florida_2012": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
+  "ironman_florida/2002/ironman_florida_2002": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_arizona/2023/ironman_arizona_2023": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "ironman_arizona/2022/ironman_arizona_2022": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_arizona/2018/ironman_arizona_2018": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_arizona/2017/ironman_arizona_2017": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_arizona/2015/ironman_arizona_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_arizona/2013/ironman_arizona_2013": {
+    "warnings": 0,
+    "missingLaps": 9,
+    "missingTotal": 0
+  },
+  "ironman_arizona/2012/ironman_arizona_2012": {
+    "warnings": 0,
+    "missingLaps": 13,
+    "missingTotal": 0
+  },
+  "ironman_arizona/2011/ironman_arizona_2011": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_arizona/2007/ironman_arizona_2007": {
+    "warnings": 0,
+    "missingLaps": 12,
+    "missingTotal": 0
+  },
+  "ironman_arizona/2006/ironman_arizona_2006": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_arizona/2005/ironman_arizona_2005": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_oman/2022/im703_oman_2022": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_puerto_princesa/2025/im703_puerto_princesa_2025": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_mallorca/2012/im703_mallorca_2012": {
+    "warnings": 0,
+    "missingLaps": 20,
+    "missingTotal": 0
+  },
+  "im703_mallorca/2013/im703_mallorca_2013": {
+    "warnings": 0,
+    "missingLaps": 15,
+    "missingTotal": 0
+  },
+  "im703_mallorca/2014/im703_mallorca_2014": {
+    "warnings": 0,
+    "missingLaps": 11,
+    "missingTotal": 0
+  },
+  "im703_mallorca/2015/im703_mallorca_2015": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_mallorca/2016/im703_mallorca_2016": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_mallorca/2017/im703_mallorca_2017": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_mallorca/2018/im703_mallorca_2018": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_mallorca/2022/im703_mallorca_2022": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_mallorca/2023/im703_mallorca_2023": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_mallorca/2024/im703_mallorca_2024": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_mallorca/2025/im703_mallorca_2025": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_mallorca/2026/im703_mallorca_2026": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_brasilia/2026/im703_brasilia_2026": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_valencia/2025/im703_valencia_2025": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_valencia/2024/im703_valencia_2024": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_venice/2024/im703_venice_2024": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_venice/2023/im703_venice_2023": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_port_macquarie/2024/im703_port_macquarie_2024": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_port_macquarie/2019/im703_port_macquarie_2019": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_port_macquarie/2016/im703_port_macquarie_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_port_macquarie/2015/im703_port_macquarie_2015": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_port_macquarie/2012/im703_port_macquarie_2012": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_port_macquarie/2011/im703_port_macquarie_2011": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_gulf_coast/2017/im703_gulf_coast_2017": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_gulf_coast/2018/im703_gulf_coast_2018": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_gulf_coast/2022/im703_gulf_coast_2022": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_gulf_coast/2024/im703_gulf_coast_2024": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_st_george/2017/im703_st_george_2017": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_st_george/2014/im703_st_george_2014": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_hawaii/2023/im703_hawaii_2023": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_hawaii/2019/im703_hawaii_2019": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_hawaii/2013/im703_hawaii_2013": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_hawaii/2012/im703_hawaii_2012": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_shanghai/2026/im703_shanghai_2026": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_shanghai/2025/im703_shanghai_2025": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_shanghai/2018/im703_shanghai_2018": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
+  "im703_kraichgau/2026/im703_kraichgau_2026": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_kraichgau/2025/im703_kraichgau_2025": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_kraichgau/2024/im703_kraichgau_2024": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_kraichgau/2023/im703_kraichgau_2023": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_kraichgau/2018/im703_kraichgau_2018": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_aix/2025/im703_aix_2025": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_aix/2024/im703_aix_2024": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_aix/2023/im703_aix_2023": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_aix/2022/im703_aix_2022": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_aix/2021/im703_aix_2021": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_aix/2019/im703_aix_2019": {
+    "warnings": 0,
+    "missingLaps": 13,
+    "missingTotal": 0
+  },
+  "im703_aix/2018/im703_aix_2018": {
+    "warnings": 0,
+    "missingLaps": 9,
+    "missingTotal": 0
+  },
+  "im703_aix/2015/im703_aix_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_aix/2014/im703_aix_2014": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_aix/2013/im703_aix_2013": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_aix/2011/im703_aix_2011": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_chattanooga/2015/im703_chattanooga_2015": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_chattanooga/2016/im703_chattanooga_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_chattanooga/2019/im703_chattanooga_2019": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_chattanooga/2021/im703_chattanooga_2021": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_chattanooga/2022/im703_chattanooga_2022": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_chattanooga/2024/im703_chattanooga_2024": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_chattanooga/2026/im703_chattanooga_2026": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_switzerland/2026/im703_switzerland_2026": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_switzerland/2024/im703_switzerland_2024": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_switzerland/2021/im703_switzerland_2021": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_switzerland/2019/im703_switzerland_2019": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_switzerland/2018/im703_switzerland_2018": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_switzerland/2017/im703_switzerland_2017": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_switzerland/2015/im703_switzerland_2015": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_switzerland/2014/im703_switzerland_2014": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_switzerland/2012/im703_switzerland_2012": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_switzerland/2011/im703_switzerland_2011": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_cairns/2025/im703_cairns_2025": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_cairns/2019/im703_cairns_2019": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_cairns/2016/im703_cairns_2016": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_cairns/2015/im703_cairns_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_cairns/2014/im703_cairns_2014": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_cairns/2013/im703_cairns_2013": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_cairns/2012/im703_cairns_2012": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_warsaw/2026/im703_warsaw_2026": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_warsaw/2025/im703_warsaw_2025": {
+    "warnings": 0,
+    "missingLaps": 513,
+    "missingTotal": 0
+  },
+  "im703_warsaw/2024/im703_warsaw_2024": {
+    "warnings": 0,
+    "missingLaps": 12,
+    "missingTotal": 0
+  },
+  "im703_warsaw/2023/im703_warsaw_2023": {
+    "warnings": 0,
+    "missingLaps": 43,
+    "missingTotal": 0
+  },
+  "im703_warsaw/2022/im703_warsaw_2022": {
+    "warnings": 0,
+    "missingLaps": 24,
+    "missingTotal": 0
+  },
+  "im703_warsaw/2021/im703_warsaw_2021": {
+    "warnings": 0,
+    "missingLaps": 15,
+    "missingTotal": 0
+  },
+  "im703_des_moines/2024/im703_des_moines_2024": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_des_moines/2021/im703_des_moines_2021": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_eagleman/2026/im703_eagleman_2026": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_eagleman/2019/im703_eagleman_2019": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_eagleman/2018/im703_eagleman_2018": {
+    "warnings": 0,
+    "missingLaps": 9,
+    "missingTotal": 0
+  },
+  "im703_eagleman/2016/im703_eagleman_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_eagleman/2013/im703_eagleman_2013": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_eagleman/2011/im703_eagleman_2011": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_eagleman/2009/im703_eagleman_2009": {
+    "warnings": 0,
+    "missingLaps": 26,
+    "missingTotal": 0
+  },
+  "im703_eagleman/2008/im703_eagleman_2008": {
+    "warnings": 0,
+    "missingLaps": 175,
+    "missingTotal": 0
+  },
+  "im703_eagleman/2007/im703_eagleman_2007": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_eagleman/2006/im703_eagleman_2006": {
+    "warnings": 0,
+    "missingLaps": 41,
+    "missingTotal": 0
+  },
+  "im703_western_mass/2023/im703_western_mass_2023": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_bolton/2026/im703_bolton_2026": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_bolton/2025/im703_bolton_2025": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_bolton/2024/im703_bolton_2024": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_happy_valley/2026/im703_happy_valley_2026": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_happy_valley/2023/im703_happy_valley_2023": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_elsinore/2026/im703_elsinore_2026": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_elsinore/2025/im703_elsinore_2025": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_elsinore/2024/im703_elsinore_2024": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_elsinore/2023/im703_elsinore_2023": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_elsinore/2022/im703_elsinore_2022": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_elsinore/2021/im703_elsinore_2021": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_elsinore/2019/im703_elsinore_2019": {
+    "warnings": 0,
+    "missingLaps": 9,
+    "missingTotal": 0
+  },
+  "im703_elsinore/2018/im703_elsinore_2018": {
+    "warnings": 0,
+    "missingLaps": 11,
+    "missingTotal": 0
+  },
+  "im703_elsinore/2017/im703_elsinore_2017": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_elsinore/2016/im703_elsinore_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_elsinore/2015/im703_elsinore_2015": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_boulder/2022/im703_boulder_2022": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_boulder/2019/im703_boulder_2019": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_boulder/2018/im703_boulder_2018": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_boulder/2017/im703_boulder_2017": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_boulder/2016/im703_boulder_2016": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_boulder/2015/im703_boulder_2015": {
+    "warnings": 0,
+    "missingLaps": 9,
+    "missingTotal": 0
+  },
+  "im703_boulder/2013/im703_boulder_2013": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_boulder/2012/im703_boulder_2012": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_boulder/2011/im703_boulder_2011": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_boulder/2010/im703_boulder_2010": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_coeur_dalene/2024/im703_coeur_dalene_2024": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_coeur_dalene/2022/im703_coeur_dalene_2022": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_coeur_dalene/2018/im703_coeur_dalene_2018": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_coeur_dalene/2016/im703_coeur_dalene_2016": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_mont_tremblant/2022/im703_mont_tremblant_2022": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_mont_tremblant/2019/im703_mont_tremblant_2019": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_mont_tremblant/2018/im703_mont_tremblant_2018": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_mont_tremblant/2017/im703_mont_tremblant_2017": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_mont_tremblant/2015/im703_mont_tremblant_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_mont_tremblant/2012/im703_mont_tremblant_2012": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_rockford/2026/im703_rockford_2026": {
+    "warnings": 0,
+    "missingLaps": 12,
+    "missingTotal": 0
+  },
+  "im703_westfriesland/2026/im703_westfriesland_2026": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_westfriesland/2025/im703_westfriesland_2025": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_westfriesland/2024/im703_westfriesland_2024": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_westfriesland/2023/im703_westfriesland_2023": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_muskoka/2025/im703_muskoka_2025": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_muskoka/2024/im703_muskoka_2024": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_muskoka/2023/im703_muskoka_2023": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_muskoka/2022/im703_muskoka_2022": {
+    "warnings": 0,
+    "missingLaps": 9,
+    "missingTotal": 0
+  },
+  "im703_muskoka/2019/im703_muskoka_2019": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_muskoka/2018/im703_muskoka_2018": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_muskoka/2017/im703_muskoka_2017": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_muskoka/2016/im703_muskoka_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_muskoka/2015/im703_muskoka_2015": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_muskoka/2014/im703_muskoka_2014": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_muskoka/2012/im703_muskoka_2012": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_muskoka/2011/im703_muskoka_2011": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_jonkoping/2025/im703_jonkoping_2025": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_jonkoping/2024/im703_jonkoping_2024": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_jonkoping/2023/im703_jonkoping_2023": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_jonkoping/2021/im703_jonkoping_2021": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_jonkoping/2019/im703_jonkoping_2019": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_jonkoping/2018/im703_jonkoping_2018": {
+    "warnings": 0,
+    "missingLaps": 9,
+    "missingTotal": 0
+  },
+  "im703_jonkoping/2016/im703_jonkoping_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_muncie/2022/im703_muncie_2022": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_muncie/2016/im703_muncie_2016": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_muncie/2015/im703_muncie_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_muncie/2013/im703_muncie_2013": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_muncie/2012/im703_muncie_2012": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_musselman/2022/im703_musselman_2022": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_swansea/2025/im703_swansea_2025": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_swansea/2024/im703_swansea_2024": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_swansea/2023/im703_swansea_2023": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_swansea/2022/im703_swansea_2022": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_boise/2025/im703_boise_2025": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_boise/2013/im703_boise_2013": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_boise/2012/im703_boise_2012": {
+    "warnings": 0,
+    "missingLaps": 753,
+    "missingTotal": 0
+  },
+  "im703_boise/2011/im703_boise_2011": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_boise/2010/im703_boise_2010": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_boise/2009/im703_boise_2009": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_boise/2008/im703_boise_2008": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_ohio/2023/im703_ohio_2023": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_ohio/2022/im703_ohio_2022": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_ohio/2021/im703_ohio_2021": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_ohio/2019/im703_ohio_2019": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_ohio/2017/im703_ohio_2017": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_oregon/2025/im703_oregon_2025": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_oregon/2024/im703_oregon_2024": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_oregon/2022/im703_oregon_2022": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_oregon/2021/im703_oregon_2021": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_calgary/2025/im703_calgary_2025": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_calgary/2024/im703_calgary_2024": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_calgary/2019/im703_calgary_2019": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_calgary/2017/im703_calgary_2017": {
+    "warnings": 0,
+    "missingLaps": 19,
+    "missingTotal": 0
+  },
+  "im703_calgary/2016/im703_calgary_2016": {
+    "warnings": 0,
+    "missingLaps": 73,
+    "missingTotal": 0
+  },
+  "im703_calgary/2015/im703_calgary_2015": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_calgary/2014/im703_calgary_2014": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_calgary/2012/im703_calgary_2012": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_calgary/2010/im703_calgary_2010": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_calgary/2009/im703_calgary_2009": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_maine/2025/im703_maine_2025": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_maine/2022/im703_maine_2022": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_maine/2019/im703_maine_2019": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_maine/2017/im703_maine_2017": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_lapu_lapu/2024/im703_lapu_lapu_2024": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_krakow/2025/im703_krakow_2025": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_vichy/2025/im703_vichy_2025": {
+    "warnings": 0,
+    "missingLaps": 11,
+    "missingTotal": 0
+  },
+  "im703_vichy/2024/im703_vichy_2024": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_vichy/2023/im703_vichy_2023": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_vichy/2022/im703_vichy_2022": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_vichy/2021/im703_vichy_2021": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_vichy/2019/im703_vichy_2019": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_vichy/2018/im703_vichy_2018": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_vichy/2017/im703_vichy_2017": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_vichy/2015/im703_vichy_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_tallinn/2025/im703_tallinn_2025": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_tallinn/2022/im703_tallinn_2022": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_tallinn/2021/im703_tallinn_2021": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_tallinn/2020/im703_tallinn_2020": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_zell_am_see/2024/im703_zell_am_see_2024": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_zell_am_see/2023/im703_zell_am_see_2023": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_zell_am_see/2022/im703_zell_am_see_2022": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_zell_am_see/2021/im703_zell_am_see_2021": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_zell_am_see/2019/im703_zell_am_see_2019": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_zell_am_see/2018/im703_zell_am_see_2018": {
+    "warnings": 0,
+    "missingLaps": 51,
+    "missingTotal": 0
+  },
+  "im703_zell_am_see/2016/im703_zell_am_see_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_zell_am_see/2012/im703_zell_am_see_2012": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_duisburg/2024/im703_duisburg_2024": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_duisburg/2022/im703_duisburg_2022": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_duisburg/2021/im703_duisburg_2021": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_poznan/2025/im703_poznan_2025": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_poznan/2024/im703_poznan_2024": {
+    "warnings": 0,
+    "missingLaps": 24,
+    "missingTotal": 0
+  },
+  "im703_poznan/2023/im703_poznan_2023": {
+    "warnings": 0,
+    "missingLaps": 25,
+    "missingTotal": 0
+  },
+  "im703_poznan/2022/im703_poznan_2022": {
+    "warnings": 0,
+    "missingLaps": 26,
+    "missingTotal": 0
+  },
+  "im703_santa_cruz/2024/im703_santa_cruz_2024": {
+    "warnings": 0,
+    "missingLaps": 16,
+    "missingTotal": 0
+  },
+  "im703_santa_cruz/2023/im703_santa_cruz_2023": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
+  "im703_santa_cruz/2022/im703_santa_cruz_2022": {
+    "warnings": 0,
+    "missingLaps": 22,
+    "missingTotal": 0
+  },
+  "im703_santa_cruz/2021/im703_santa_cruz_2021": {
+    "warnings": 0,
+    "missingLaps": 9,
+    "missingTotal": 0
+  },
+  "im703_santa_cruz/2018/im703_santa_cruz_2018": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_santa_cruz/2017/im703_santa_cruz_2017": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_santa_cruz/2016/im703_santa_cruz_2016": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_wisconsin/2024/im703_wisconsin_2024": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_wisconsin/2021/im703_wisconsin_2021": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_wisconsin/2019/im703_wisconsin_2019": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_wisconsin/2018/im703_wisconsin_2018": {
+    "warnings": 0,
+    "missingLaps": 29,
+    "missingTotal": 0
+  },
+  "im703_weymouth/2024/im703_weymouth_2024": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_weymouth/2023/im703_weymouth_2023": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_weymouth/2022/im703_weymouth_2022": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_weymouth/2021/im703_weymouth_2021": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_weymouth/2019/im703_weymouth_2019": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_weymouth/2018/im703_weymouth_2018": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_weymouth/2017/im703_weymouth_2017": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_new_york/2025/im703_new_york_2025": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_new_york/2024/im703_new_york_2024": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
+  "im703_new_york/2023/im703_new_york_2023": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_belgrade/2024/im703_belgrade_2024": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_cozumel/2025/im703_cozumel_2025": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_cozumel/2024/im703_cozumel_2024": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_cozumel/2022/im703_cozumel_2022": {
+    "warnings": 0,
+    "missingLaps": 14,
+    "missingTotal": 2
+  },
+  "im703_cozumel/2021/im703_cozumel_2021": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_cozumel/2020/im703_cozumel_2020": {
+    "warnings": 0,
+    "missingLaps": 0,
+    "missingTotal": 1
+  },
+  "im703_cozumel/2018/im703_cozumel_2018": {
+    "warnings": 0,
+    "missingLaps": 13,
+    "missingTotal": 1
+  },
+  "im703_cozumel/2017/im703_cozumel_2017": {
+    "warnings": 0,
+    "missingLaps": 12,
+    "missingTotal": 1
+  },
+  "im703_cozumel/2016/im703_cozumel_2016": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_cozumel/2015/im703_cozumel_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 1
+  },
+  "im703_cozumel/2014/im703_cozumel_2014": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 1
+  },
+  "im703_cozumel/2013/im703_cozumel_2013": {
+    "warnings": 0,
+    "missingLaps": 23,
+    "missingTotal": 1
+  },
+  "im703_cozumel/2012/im703_cozumel_2012": {
+    "warnings": 0,
+    "missingLaps": 18,
+    "missingTotal": 0
+  },
+  "im703_cozumel/2011/im703_cozumel_2011": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_cozumel/2010/im703_cozumel_2010": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_augusta/2025/im703_augusta_2025": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_augusta/2023/im703_augusta_2023": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_augusta/2021/im703_augusta_2021": {
+    "warnings": 0,
+    "missingLaps": 20,
+    "missingTotal": 0
+  },
+  "im703_augusta/2019/im703_augusta_2019": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_augusta/2018/im703_augusta_2018": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_augusta/2017/im703_augusta_2017": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_augusta/2016/im703_augusta_2016": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_augusta/2015/im703_augusta_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_augusta/2014/im703_augusta_2014": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_augusta/2013/im703_augusta_2013": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_augusta/2012/im703_augusta_2012": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_augusta/2009/im703_augusta_2009": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_waco/2023/im703_waco_2023": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_porec/2025/im703_porec_2025": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_porec/2024/im703_porec_2024": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_porec/2023/im703_porec_2023": {
+    "warnings": 0,
+    "missingLaps": 13,
+    "missingTotal": 0
+  },
+  "im703_marathon/2024/im703_marathon_2024": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_north_carolina/2023/im703_north_carolina_2023": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_north_carolina/2021/im703_north_carolina_2021": {
+    "warnings": 0,
+    "missingLaps": 26,
+    "missingTotal": 0
+  },
+  "im703_turkey/2025/im703_turkey_2025": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_turkey/2022/im703_turkey_2022": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_turkey/2021/im703_turkey_2021": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_turkey/2020/im703_turkey_2020": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_turkey/2019/im703_turkey_2019": {
+    "warnings": 0,
+    "missingLaps": 14,
+    "missingTotal": 0
+  },
+  "im703_turkey/2018/im703_turkey_2018": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_turkey/2017/im703_turkey_2017": {
+    "warnings": 0,
+    "missingLaps": 14,
+    "missingTotal": 0
+  },
+  "im703_turkey/2016/im703_turkey_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_langkawi/2024/im703_langkawi_2024": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_langkawi/2019/im703_langkawi_2019": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_langkawi/2017/im703_langkawi_2017": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_kenting/2025/im703_kenting_2025": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_kenting/2024/im703_kenting_2024": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_kenting/2023/im703_kenting_2023": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_goa/2024/im703_goa_2024": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 1
+  },
+  "im703_phu_quoc/2023/im703_phu_quoc_2023": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_indian_wells/2024/im703_indian_wells_2024": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_indian_wells/2022/im703_indian_wells_2022": {
+    "warnings": 0,
+    "missingLaps": 144,
+    "missingTotal": 0
+  },
+  "im703_indian_wells/2021/im703_indian_wells_2021": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_indian_wells/2018/im703_indian_wells_2018": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_florida/2025/im703_florida_2025": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_florida/2024/im703_florida_2024": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_florida/2022/im703_florida_2022": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_florida/2019/im703_florida_2019": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_florida/2018/im703_florida_2018": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_florida/2017/im703_florida_2017": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_florida/2016/im703_florida_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_florida/2015/im703_florida_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_florida/2013/im703_florida_2013": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_florida/2011/im703_florida_2011": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_florida/2010/im703_florida_2010": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_florida/2007/im703_florida_2007": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_florida/2006/im703_florida_2006": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_florida/2005/im703_florida_2005": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_florida/2004/im703_florida_2004": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_wc_women/2025/im703_wc_women_2025": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_wc_women/2022/im703_wc_women_2022": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_wc_women/2019/im703_wc_women_2019": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_wc_men/2023/im703_wc_men_2023": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_wc_men/2022/im703_wc_men_2022": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_wc_men/2018/im703_wc_men_2018": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_wc_men/2017/im703_wc_men_2017": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_texas/2022/im703_texas_2022": {
+    "warnings": 0,
+    "missingLaps": 16,
+    "missingTotal": 0
+  },
+  "im703_texas/2021/im703_texas_2021": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_texas/2018/im703_texas_2018": {
+    "warnings": 0,
+    "missingLaps": 24,
+    "missingTotal": 0
+  },
+  "im703_texas/2016/im703_texas_2016": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_texas/2015/im703_texas_2015": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_texas/2014/im703_texas_2014": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_texas/2013/im703_texas_2013": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_texas/2012/im703_texas_2012": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_texas/2011/im703_texas_2011": {
+    "warnings": 0,
+    "missingLaps": 14,
+    "missingTotal": 0
+  },
+  "im703_texas/2010/im703_texas_2010": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_uk/2017/im703_uk_2017": {
+    "warnings": 0,
+    "missingLaps": 82,
+    "missingTotal": 60
+  },
+  "im703_uk/2016/im703_uk_2016": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_uk/2013/im703_uk_2013": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_uk/2011/im703_uk_2011": {
+    "warnings": 0,
+    "missingLaps": 11,
+    "missingTotal": 0
+  },
+  "im703_uk/2010/im703_uk_2010": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_uk/2009/im703_uk_2009": {
+    "warnings": 0,
+    "missingLaps": 9,
+    "missingTotal": 0
+  },
+  "im703_uk/2008/im703_uk_2008": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_uk/2007/im703_uk_2007": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_uk/2006/im703_uk_2006": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_staffordshire/2022/im703_staffordshire_2022": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_staffordshire/2019/im703_staffordshire_2019": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_staffordshire/2016/im703_staffordshire_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_dublin/2017/im703_dublin_2017": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_dublin/2016/im703_dublin_2016": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_dublin/2015/im703_dublin_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_wc/2016/im703_wc_2016": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_wc/2013/im703_wc_2013": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_wc/2011/im703_wc_2011": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_wc/2009/im703_wc_2009": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_wc/2006/im703_wc_2006": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_hefei/2016/im703_hefei_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_xiamen/2019/im703_xiamen_2019": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_xiamen/2016/im703_xiamen_2016": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_liuzhou/2017/im703_liuzhou_2017": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_pucon/2024/im703_pucon_2024": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_pucon/2023/im703_pucon_2023": {
+    "warnings": 0,
+    "missingLaps": 33,
+    "missingTotal": 0
+  },
+  "im703_pucon/2022/im703_pucon_2022": {
+    "warnings": 0,
+    "missingLaps": 12,
+    "missingTotal": 0
+  },
+  "im703_pucon/2019/im703_pucon_2019": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_pucon/2018/im703_pucon_2018": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_pucon/2017/im703_pucon_2017": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_pucon/2016/im703_pucon_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_pucon/2015/im703_pucon_2015": {
+    "warnings": 0,
+    "missingLaps": 28,
+    "missingTotal": 0
+  },
+  "im703_pucon/2014/im703_pucon_2014": {
+    "warnings": 0,
+    "missingLaps": 61,
+    "missingTotal": 0
+  },
+  "im703_dubai/2019/im703_dubai_2019": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_dubai/2018/im703_dubai_2018": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_dubai/2017/im703_dubai_2017": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_dubai/2016/im703_dubai_2016": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_geelong/2026/im703_geelong_2026": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_geelong/2020/im703_geelong_2020": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_geelong/2018/im703_geelong_2018": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_geelong/2017/im703_geelong_2017": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_geelong/2015/im703_geelong_2015": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_geelong/2014/im703_geelong_2014": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_new_zealand/2026/im703_new_zealand_2026": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_new_zealand/2020/im703_new_zealand_2020": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_new_zealand/2018/im703_new_zealand_2018": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_puerto_rico/2024/im703_puerto_rico_2024": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_puerto_rico/2022/im703_puerto_rico_2022": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_puerto_rico/2019/im703_puerto_rico_2019": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_puerto_rico/2015/im703_puerto_rico_2015": {
+    "warnings": 0,
+    "missingLaps": 11,
+    "missingTotal": 0
+  },
+  "im703_puerto_rico/2013/im703_puerto_rico_2013": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_puerto_rico/2012/im703_puerto_rico_2012": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_campeche/2025/im703_campeche_2025": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_campeche/2018/im703_campeche_2018": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_campeche/2017/im703_campeche_2017": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_davao_philippines/2019/im703_davao_philippines_2019": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_davao_philippines/2018/im703_davao_philippines_2018": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_punta_del_este/2026/im703_punta_del_este_2026": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_punta_del_este/2025/im703_punta_del_este_2025": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_punta_del_este/2024/im703_punta_del_este_2024": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_punta_del_este/2019/im703_punta_del_este_2019": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_punta_del_este/2017/im703_punta_del_este_2017": {
+    "warnings": 0,
+    "missingLaps": 25,
+    "missingTotal": 0
+  },
+  "im703_punta_del_este/2016/im703_punta_del_este_2016": {
+    "warnings": 0,
+    "missingLaps": 27,
+    "missingTotal": 0
+  },
+  "im703_punta_del_este/2015/im703_punta_del_este_2015": {
+    "warnings": 0,
+    "missingLaps": 65,
+    "missingTotal": 0
+  },
+  "im703_peru/2026/im703_peru_2026": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_peru/2025/im703_peru_2025": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_peru/2023/im703_peru_2023": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_peru/2019/im703_peru_2019": {
+    "warnings": 0,
+    "missingLaps": 12,
+    "missingTotal": 0
+  },
+  "im703_peru/2018/im703_peru_2018": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_peru/2017/im703_peru_2017": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_greece/2019/im703_greece_2019": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_marbella/2024/im703_marbella_2024": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_marbella/2023/im703_marbella_2023": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_marbella/2022/im703_marbella_2022": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_marbella/2021/im703_marbella_2021": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_marbella/2019/im703_marbella_2019": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_marbella/2018/im703_marbella_2018": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_florianopolis/2025/im703_florianopolis_2025": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_florianopolis/2024/im703_florianopolis_2024": {
+    "warnings": 0,
+    "missingLaps": 28,
+    "missingTotal": 0
+  },
+  "im703_florianopolis/2022/im703_florianopolis_2022": {
+    "warnings": 0,
+    "missingLaps": 13,
+    "missingTotal": 0
+  },
+  "im703_florianopolis/2019/im703_florianopolis_2019": {
+    "warnings": 0,
+    "missingLaps": 44,
+    "missingTotal": 0
+  },
+  "im703_florianopolis/2018/im703_florianopolis_2018": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
+  "im703_busselton/2021/im703_busselton_2021": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_busselton/2018/im703_busselton_2018": {
+    "warnings": 0,
+    "missingLaps": 12,
+    "missingTotal": 0
+  },
+  "im703_busselton/2016/im703_busselton_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_busselton/2012/im703_busselton_2012": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "ironman_vietnam/2026/im703_vietnam_2026": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_vietnam/2023/im703_vietnam_2023": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "ironman_vietnam/2019/im703_vietnam_2019": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_monterrey/2026/im703_monterrey_2026": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_monterrey/2024/im703_monterrey_2024": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_monterrey/2022/im703_monterrey_2022": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_monterrey/2019/im703_monterrey_2019": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_monterrey/2018/im703_monterrey_2018": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_monterrey/2017/im703_monterrey_2017": {
+    "warnings": 0,
+    "missingLaps": 13,
+    "missingTotal": 0
+  },
+  "im703_monterrey/2016/im703_monterrey_2016": {
+    "warnings": 0,
+    "missingLaps": 12,
+    "missingTotal": 0
+  },
+  "im703_monterrey/2015/im703_monterrey_2015": {
+    "warnings": 0,
+    "missingLaps": 11,
+    "missingTotal": 0
+  },
+  "im703_monterrey/2014/im703_monterrey_2014": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_barcelona/2022/im703_barcelona_2022": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_barcelona/2021/im703_barcelona_2021": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_barcelona/2019/im703_barcelona_2019": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_barcelona/2018/im703_barcelona_2018": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_barcelona/2017/im703_barcelona_2017": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_barcelona/2015/im703_barcelona_2015": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_barcelona/2014/im703_barcelona_2014": {
+    "warnings": 0,
+    "missingLaps": 16,
+    "missingTotal": 0
+  },
+  "im703_goseong_korea/2019/im703_goseong_korea_2019": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_st_polten/2019/im703_st_polten_2019": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_st_polten/2018/im703_st_polten_2018": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_st_polten/2014/im703_st_polten_2014": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_st_polten/2013/im703_st_polten_2013": {
+    "warnings": 0,
+    "missingLaps": 1684,
+    "missingTotal": 0
+  },
+  "im703_st_polten/2011/im703_st_polten_2011": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_st_polten/2010/im703_st_polten_2010": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_st_polten/2009/im703_st_polten_2009": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_st_polten/2007/im703_st_polten_2007": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_durban/2016/im703_durban_2016": {
+    "warnings": 0,
+    "missingLaps": 2323,
+    "missingTotal": 0
+  },
+  "im703_durban/2015/im703_durban_2015": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_victoria/2024/im703_victoria_2024": {
+    "warnings": 0,
+    "missingLaps": 16,
+    "missingTotal": 0
+  },
+  "im703_victoria/2023/im703_victoria_2023": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_victoria/2022/im703_victoria_2022": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_victoria/2019/im703_victoria_2019": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_victoria/2018/im703_victoria_2018": {
+    "warnings": 0,
+    "missingLaps": 9,
+    "missingTotal": 0
+  },
+  "im703_victoria/2017/im703_victoria_2017": {
+    "warnings": 0,
+    "missingLaps": 12,
+    "missingTotal": 0
+  },
+  "im703_victoria/2016/im703_victoria_2016": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_victoria/2015/im703_victoria_2015": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
+  "im703_victoria/2014/im703_victoria_2014": {
+    "warnings": 0,
+    "missingLaps": 14,
+    "missingTotal": 0
+  },
+  "im703_subic_bay_philippines/2019/im703_subic_bay_philippines_2019": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_centrair_chita_peninsula_japan/2019/im703_centrair_chita_peninsula_japan_2019": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_centrair_chita_peninsula_japan/2018/im703_centrair_chita_peninsula_japan_2018": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_centrair_chita_peninsula_japan/2016/im703_centrair_chita_peninsula_japan_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_centrair_chita_peninsula_japan/2015/im703_centrair_chita_peninsula_japan_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_centrair_chita_peninsula_japan/2014/im703_centrair_chita_peninsula_japan_2014": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_centrair_chita_peninsula_japan/2013/im703_centrair_chita_peninsula_japan_2013": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_centrair_chita_peninsula_japan/2012/im703_centrair_chita_peninsula_japan_2012": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_centrair_chita_peninsula_japan/2010/im703_centrair_chita_peninsula_japan_2010": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_otepaa/2019/im703_otepaa_2019": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_otepaa/2018/im703_otepaa_2018": {
+    "warnings": 0,
+    "missingLaps": 1008,
+    "missingTotal": 0
+  },
+  "im703_otepaa/2017/im703_otepaa_2017": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_otepaa/2016/im703_otepaa_2016": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_luxembourg_region_moselle/2025/im703_luxembourg_region_moselle_2025": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_luxembourg_region_moselle/2024/im703_luxembourg_region_moselle_2024": {
+    "warnings": 0,
+    "missingLaps": 17,
+    "missingTotal": 0
+  },
+  "im703_luxembourg_region_moselle/2022/im703_luxembourg_region_moselle_2022": {
+    "warnings": 0,
+    "missingLaps": 9,
+    "missingTotal": 0
+  },
+  "im703_luxembourg_region_moselle/2019/im703_luxembourg_region_moselle_2019": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_luxembourg_region_moselle/2017/im703_luxembourg_region_moselle_2017": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_luxembourg_region_moselle/2015/im703_luxembourg_region_moselle_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_luxembourg_region_moselle/2014/im703_luxembourg_region_moselle_2014": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_luxembourg_region_moselle/2013/im703_luxembourg_region_moselle_2013": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_costa_rica/2019/im703_costa_rica_2019": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_costa_rica/2018/im703_costa_rica_2018": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_costa_rica/2017/im703_costa_rica_2017": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_finland/2022/im703_finland_2022": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_finland/2021/im703_finland_2021": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_finland/2019/im703_finland_2019": {
+    "warnings": 0,
+    "missingLaps": 18,
+    "missingTotal": 0
+  },
+  "im703_finland/2018/im703_finland_2018": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_haugesund/2019/im703_haugesund_2019": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_haugesund/2017/im703_haugesund_2017": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_haugesund/2015/im703_haugesund_2015": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_haugesund/2014/im703_haugesund_2014": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_haugesund/2013/im703_haugesund_2013": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_haugesund/2012/im703_haugesund_2012": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_steelhead/2019/im703_steelhead_2019": {
+    "warnings": 0,
+    "missingLaps": 13,
+    "missingTotal": 0
+  },
+  "im703_steelhead/2018/im703_steelhead_2018": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_steelhead/2017/im703_steelhead_2017": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_steelhead/2015/im703_steelhead_2015": {
+    "warnings": 0,
+    "missingLaps": 19,
+    "missingTotal": 0
+  },
+  "im703_steelhead/2014/im703_steelhead_2014": {
+    "warnings": 0,
+    "missingLaps": 11,
+    "missingTotal": 0
+  },
+  "im703_steelhead/2013/im703_steelhead_2013": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_steelhead/2012/im703_steelhead_2012": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_steelhead/2011/im703_steelhead_2011": {
+    "warnings": 0,
+    "missingLaps": 1654,
+    "missingTotal": 0
+  },
+  "im703_steelhead/2010/im703_steelhead_2010": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_steelhead/2009/im703_steelhead_2009": {
+    "warnings": 0,
+    "missingLaps": 9,
+    "missingTotal": 0
+  },
+  "im703_buffalo_springs_lake/2018/im703_buffalo_springs_lake_2018": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_buffalo_springs_lake/2017/im703_buffalo_springs_lake_2017": {
+    "warnings": 0,
+    "missingLaps": 14,
+    "missingTotal": 0
+  },
+  "im703_buffalo_springs_lake/2014/im703_buffalo_springs_lake_2014": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_buffalo_springs_lake/2013/im703_buffalo_springs_lake_2013": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_buffalo_springs_lake/2012/im703_buffalo_springs_lake_2012": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_buffalo_springs_lake/2011/im703_buffalo_springs_lake_2011": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_buffalo_springs_lake/2010/im703_buffalo_springs_lake_2010": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_buffalo_springs_lake/2008/im703_buffalo_springs_lake_2008": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_buffalo_springs_lake/2007/im703_buffalo_springs_lake_2007": {
+    "warnings": 0,
+    "missingLaps": 41,
+    "missingTotal": 0
+  },
+  "im703_buffalo_springs_lake/2006/im703_buffalo_springs_lake_2006": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_ecuador/2025/im703_ecuador_2025": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_ecuador/2024/im703_ecuador_2024": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_ecuador/2019/im703_ecuador_2019": {
+    "warnings": 0,
+    "missingLaps": 12,
+    "missingTotal": 0
+  },
+  "im703_ecuador/2018/im703_ecuador_2018": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_ecuador/2017/im703_ecuador_2017": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_astana/2022/im703_astana_2022": {
+    "warnings": 0,
+    "missingLaps": 11,
+    "missingTotal": 0
+  },
+  "im703_astana/2018/im703_astana_2018": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_santa_rosa/2019/im703_santa_rosa_2019": {
+    "warnings": 0,
+    "missingLaps": 41,
+    "missingTotal": 0
+  },
+  "im703_santa_rosa/2018/im703_santa_rosa_2018": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_santa_rosa/2015/im703_santa_rosa_2015": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_santa_rosa/2014/im703_santa_rosa_2014": {
+    "warnings": 0,
+    "missingLaps": 9,
+    "missingTotal": 0
+  },
+  "im703_canada/2019/im703_canada_2019": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_canada/2017/im703_canada_2017": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_canada/2016/im703_canada_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_gdynia/2024/im703_gdynia_2024": {
+    "warnings": 0,
+    "missingLaps": 63,
+    "missingTotal": 0
+  },
+  "im703_gdynia/2022/im703_gdynia_2022": {
+    "warnings": 0,
+    "missingLaps": 17,
+    "missingTotal": 0
+  },
+  "im703_gdynia/2021/im703_gdynia_2021": {
+    "warnings": 0,
+    "missingLaps": 13,
+    "missingTotal": 0
+  },
+  "im703_gdynia/2020/im703_gdynia_2020": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_gdynia/2019/im703_gdynia_2019": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_gdynia/2017/im703_gdynia_2017": {
+    "warnings": 0,
+    "missingLaps": 16,
+    "missingTotal": 0
+  },
+  "im703_gdynia/2016/im703_gdynia_2016": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_gdynia/2015/im703_gdynia_2015": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
+  "im703_philippines/2017/im703_philippines_2017": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_philippines/2016/im703_philippines_2016": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_philippines/2015/im703_philippines_2015": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_philippines/2014/im703_philippines_2014": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_philippines/2013/im703_philippines_2013": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_philippines/2010/im703_philippines_2010": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_dun_laoghaire/2019/im703_dun_laoghaire_2019": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_dun_laoghaire/2018/im703_dun_laoghaire_2018": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_bintan/2019/im703_bintan_2019": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_bintan/2016/im703_bintan_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_bintan/2015/im703_bintan_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_ruegen/2018/im703_ruegen_2018": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_ruegen/2017/im703_ruegen_2017": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_ruegen/2016/im703_ruegen_2016": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_ruegen/2015/im703_ruegen_2015": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_sunshine_coast/2020/im703_sunshine_coast_2020": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_sunshine_coast/2018/im703_sunshine_coast_2018": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_sunshine_coast/2017/im703_sunshine_coast_2017": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_sunshine_coast/2015/im703_sunshine_coast_2015": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_sunshine_coast/2014/im703_sunshine_coast_2014": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_sunshine_coast/2013/im703_sunshine_coast_2013": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_atlantic_city/2021/im703_atlantic_city_2021": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_atlantic_city/2016/im703_atlantic_city_2016": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_superfrog/2018/im703_superfrog_2018": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_superfrog/2016/im703_superfrog_2016": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_superfrog/2015/im703_superfrog_2015": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_slovenian_istria/2019/im703_slovenian_istria_2019": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_slovenian_istria/2018/im703_slovenian_istria_2018": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_rio_de_janeiro/2025/im703_rio_de_janeiro_2025": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_rio_de_janeiro/2024/im703_rio_de_janeiro_2024": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_rio_de_janeiro/2022/im703_rio_de_janeiro_2022": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_rio_de_janeiro/2019/im703_rio_de_janeiro_2019": {
+    "warnings": 0,
+    "missingLaps": 37,
+    "missingTotal": 0
+  },
+  "im703_rio_de_janeiro/2018/im703_rio_de_janeiro_2018": {
+    "warnings": 0,
+    "missingLaps": 44,
+    "missingTotal": 0
+  },
+  "im703_rio_de_janeiro/2017/im703_rio_de_janeiro_2017": {
+    "warnings": 0,
+    "missingLaps": 38,
+    "missingTotal": 0
+  },
+  "im703_rio_de_janeiro/2016/im703_rio_de_janeiro_2016": {
+    "warnings": 0,
+    "missingLaps": 22,
+    "missingTotal": 0
+  },
+  "im703_rio_de_janeiro/2015/im703_rio_de_janeiro_2015": {
+    "warnings": 0,
+    "missingLaps": 16,
+    "missingTotal": 0
+  },
+  "im703_lanzarote/2023/im703_lanzarote_2023": {
+    "warnings": 0,
+    "missingLaps": 13,
+    "missingTotal": 0
+  },
+  "im703_lanzarote/2022/im703_lanzarote_2022": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_lanzarote/2021/im703_lanzarote_2021": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_lanzarote/2012/im703_lanzarote_2012": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_new_orleans/2018/im703_new_orleans_2018": {
+    "warnings": 0,
+    "missingLaps": 69,
+    "missingTotal": 0
+  },
+  "im703_new_orleans/2016/im703_new_orleans_2016": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_new_orleans/2013/im703_new_orleans_2013": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_new_orleans/2011/im703_new_orleans_2011": {
+    "warnings": 0,
+    "missingLaps": 1753,
+    "missingTotal": 0
+  },
+  "im703_new_orleans/2010/im703_new_orleans_2010": {
+    "warnings": 0,
+    "missingLaps": 24,
+    "missingTotal": 0
+  },
+  "im703_new_orleans/2009/im703_new_orleans_2009": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_arizona/2022/im703_arizona_2022": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_arizona/2017/im703_arizona_2017": {
+    "warnings": 0,
+    "missingLaps": 16,
+    "missingTotal": 0
+  },
+  "im703_arizona/2016/im703_arizona_2016": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_coquimbo/2019/im703_coquimbo_2019": {
+    "warnings": 0,
+    "missingLaps": 35,
+    "missingTotal": 0
+  },
+  "im703_coquimbo/2018/im703_coquimbo_2018": {
+    "warnings": 0,
+    "missingLaps": 39,
+    "missingTotal": 0
+  },
+  "im703_marrakech/2019/im703_marrakech_2019": {
+    "warnings": 0,
+    "missingLaps": 16,
+    "missingTotal": 0
+  },
+  "im703_south_american_championship/2016/im703_south_american_championship_2016": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_los_cabos/2022/im703_los_cabos_2022": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_los_cabos/2019/im703_los_cabos_2019": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_los_cabos/2018/im703_los_cabos_2018": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_los_cabos/2017/im703_los_cabos_2017": {
+    "warnings": 0,
+    "missingLaps": 11,
+    "missingTotal": 0
+  },
+  "im703_los_cabos/2015/im703_los_cabos_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_western_sydney/2018/im703_western_sydney_2018": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_western_sydney/2014/im703_western_sydney_2014": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_fortaleza/2024/im703_fortaleza_2024": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
+  "im703_fortaleza/2023/im703_fortaleza_2023": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
+  "im703_fortaleza/2022/im703_fortaleza_2022": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_fortaleza/2019/im703_fortaleza_2019": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_fortaleza/2018/im703_fortaleza_2018": {
+    "warnings": 0,
+    "missingLaps": 20,
+    "missingTotal": 0
+  },
+  "im703_fortaleza/2017/im703_fortaleza_2017": {
+    "warnings": 0,
+    "missingLaps": 27,
+    "missingTotal": 0
+  },
+  "im703_western_australia/2024/im703_western_australia_2024": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_western_australia/2023/im703_western_australia_2023": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_western_australia/2017/im703_western_australia_2017": {
+    "warnings": 0,
+    "missingLaps": 685,
+    "missingTotal": 0
+  },
+  "im703_cartagena/2025/im703_cartagena_2025": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_cartagena/2024/im703_cartagena_2024": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
+  "im703_cartagena/2023/im703_cartagena_2023": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_cartagena/2022/im703_cartagena_2022": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_cartagena/2021/im703_cartagena_2021": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_cartagena/2018/im703_cartagena_2018": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_cartagena/2017/im703_cartagena_2017": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_cartagena/2016/im703_cartagena_2016": {
+    "warnings": 0,
+    "missingLaps": 11,
+    "missingTotal": 0
+  },
+  "im703_taupo/2023/im703_taupo_2023": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_taupo/2017/im703_taupo_2017": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_taupo/2015/im703_taupo_2015": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_italy_emilia_romagna/2024/im703_italy_emilia_romagna_2024": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_italy_emilia_romagna/2023/im703_italy_emilia_romagna_2023": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_italy_emilia_romagna/2022/im703_italy_emilia_romagna_2022": {
+    "warnings": 0,
+    "missingLaps": 67,
+    "missingTotal": 0
+  },
+  "im703_italy_emilia_romagna/2019/im703_italy_emilia_romagna_2019": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_italy_emilia_romagna/2018/im703_italy_emilia_romagna_2018": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_italy_emilia_romagna/2017/im703_italy_emilia_romagna_2017": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_italy_emilia_romagna/2016/im703_italy_emilia_romagna_2016": {
+    "warnings": 0,
+    "missingLaps": 1193,
+    "missingTotal": 0
+  },
+  "im703_italy_emilia_romagna/2015/im703_italy_emilia_romagna_2015": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_italy_emilia_romagna/2014/im703_italy_emilia_romagna_2014": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_italy_emilia_romagna/2013/im703_italy_emilia_romagna_2013": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
+  "im703_italy_emilia_romagna/2012/im703_italy_emilia_romagna_2012": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_sao_paulo/2025/im703_sao_paulo_2025": {
+    "warnings": 0,
+    "missingLaps": 19,
+    "missingTotal": 0
+  },
+  "im703_sao_paulo/2024/im703_sao_paulo_2024": {
+    "warnings": 0,
+    "missingLaps": 30,
+    "missingTotal": 0
+  },
+  "im703_sao_paulo/2023/im703_sao_paulo_2023": {
+    "warnings": 0,
+    "missingLaps": 367,
+    "missingTotal": 0
+  },
+  "im703_sao_paulo/2022/im703_sao_paulo_2022": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
+  "im703_sao_paulo/2019/im703_sao_paulo_2019": {
+    "warnings": 0,
+    "missingLaps": 74,
+    "missingTotal": 0
+  },
+  "im703_desaru_coast/2025/im703_desaru_coast_2025": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_desaru_coast/2024/im703_desaru_coast_2024": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_panama/2026/im703_panama_2026": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_panama/2024/im703_panama_2024": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_panama/2023/im703_panama_2023": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_panama/2016/im703_panama_2016": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_panama/2014/im703_panama_2014": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_nice_france/2023/im703_nice_france_2023": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_nice_france/2021/im703_nice_france_2021": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_nice_france/2018/im703_nice_france_2018": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_california/2026/im703_california_2026": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_california/2013/im703_california_2013": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_california/2012/im703_california_2012": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_california/2011/im703_california_2011": {
+    "warnings": 0,
+    "missingLaps": 12,
+    "missingTotal": 0
+  },
+  "im703_california/2010/im703_california_2010": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_california/2009/im703_california_2009": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_california/2008/im703_california_2008": {
+    "warnings": 0,
+    "missingLaps": 18,
+    "missingTotal": 0
+  },
+  "im703_california/2007/im703_california_2007": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_california/2005/im703_california_2005": {
+    "warnings": 0,
+    "missingLaps": 12,
+    "missingTotal": 0
+  },
+  "im703_brazil/2025/im703_brazil_2025": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_brazil/2015/im703_brazil_2015": {
+    "warnings": 0,
+    "missingLaps": 96,
+    "missingTotal": 0
+  },
+  "im703_brazil/2014/im703_brazil_2014": {
+    "warnings": 0,
+    "missingLaps": 450,
+    "missingTotal": 0
+  },
+  "im703_brazil/2013/im703_brazil_2013": {
+    "warnings": 0,
+    "missingLaps": 31,
+    "missingTotal": 0
+  },
+  "im703_lake_stevens/2015/im703_lake_stevens_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_lake_stevens/2014/im703_lake_stevens_2014": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_lake_stevens/2013/im703_lake_stevens_2013": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_lake_stevens/2011/im703_lake_stevens_2011": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_lake_stevens/2009/im703_lake_stevens_2009": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_lake_stevens/2006/im703_lake_stevens_2006": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_st_croix/2015/im703_st_croix_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_st_croix/2014/im703_st_croix_2014": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_st_croix/2012/im703_st_croix_2012": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_st_croix/2010/im703_st_croix_2010": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_st_croix/2009/im703_st_croix_2009": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_st_croix/2008/im703_st_croix_2008": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_st_croix/2007/im703_st_croix_2007": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_st_croix/2006/im703_st_croix_2006": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_kansas/2011/im703_kansas_2011": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_kansas/2010/im703_kansas_2010": {
+    "warnings": 0,
+    "missingLaps": 16,
+    "missingTotal": 0
+  },
+  "im703_kansas/2009/im703_kansas_2009": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_kansas/2008/im703_kansas_2008": {
+    "warnings": 0,
+    "missingLaps": 58,
+    "missingTotal": 0
+  },
+  "im703_rhode_island/2012/im703_rhode_island_2012": {
+    "warnings": 0,
+    "missingLaps": 17,
+    "missingTotal": 0
+  },
+  "im703_rhode_island/2011/im703_rhode_island_2011": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_rhode_island/2010/im703_rhode_island_2010": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_rhode_island/2009/im703_rhode_island_2009": {
+    "warnings": 0,
+    "missingLaps": 22,
+    "missingTotal": 0
+  },
+  "im703_rhode_island/2008/im703_rhode_island_2008": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_asia_pacific/2011/im703_asia_pacific_2011": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_asia_pacific/2010/im703_asia_pacific_2010": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_branson/2012/im703_branson_2012": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_branson/2010/im703_branson_2010": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_miami/2017/im703_miami_2017": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_miami/2016/im703_miami_2016": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_miami/2015/im703_miami_2015": {
+    "warnings": 0,
+    "missingLaps": 20,
+    "missingTotal": 0
+  },
+  "im703_miami/2014/im703_miami_2014": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_miami/2012/im703_miami_2012": {
+    "warnings": 0,
+    "missingLaps": 16,
+    "missingTotal": 0
+  },
+  "im703_miami/2011/im703_miami_2011": {
+    "warnings": 0,
+    "missingLaps": 23,
+    "missingTotal": 0
+  },
+  "im703_miami/2010/im703_miami_2010": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_mooseman/2011/im703_mooseman_2011": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_racine/2017/im703_racine_2017": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_racine/2016/im703_racine_2016": {
+    "warnings": 0,
+    "missingLaps": 960,
+    "missingTotal": 0
+  },
+  "im703_racine/2014/im703_racine_2014": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_racine/2013/im703_racine_2013": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_racine/2012/im703_racine_2012": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_racine/2010/im703_racine_2010": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_singapore/2012/im703_singapore_2012": {
+    "warnings": 0,
+    "missingLaps": 17,
+    "missingTotal": 0
+  },
+  "im703_singapore/2011/im703_singapore_2011": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_singapore/2010/im703_singapore_2010": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_timberman/2016/im703_timberman_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_timberman/2015/im703_timberman_2015": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_timberman/2014/im703_timberman_2014": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_timberman/2013/im703_timberman_2013": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_timberman/2012/im703_timberman_2012": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_timberman/2010/im703_timberman_2010": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_canberra/2012/im703_canberra_2012": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_canberra/2011/im703_canberra_2011": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_european_championship/2014/im703_european_championship_2014": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_european_championship/2012/im703_european_championship_2012": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_european_championship/2011/im703_european_championship_2011": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_shepparton/2012/im703_shepparton_2012": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_shepparton/2011/im703_shepparton_2011": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_syracuse/2018/im703_syracuse_2018": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_syracuse/2017/im703_syracuse_2017": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_syracuse/2015/im703_syracuse_2015": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_syracuse/2013/im703_syracuse_2013": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_syracuse/2012/im703_syracuse_2012": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_syracuse/2011/im703_syracuse_2011": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_yeppoon/2013/im703_yeppoon_2013": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_yeppoon/2012/im703_yeppoon_2012": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_yeppoon/2011/im703_yeppoon_2011": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_austin/2016/im703_austin_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_austin/2015/im703_austin_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_austin/2014/im703_austin_2014": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_austin/2012/im703_austin_2012": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_laguna_phuket/2012/im703_laguna_phuket_2012": {
+    "warnings": 0,
+    "missingLaps": 17,
+    "missingTotal": 0
+  },
+  "im703_pocono_mountains/2012/im703_pocono_mountains_2012": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_sri_lanka/2012/im703_sri_lanka_2012": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_auckland/2013/im703_auckland_2013": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_berlin/2013/im703_berlin_2013": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_mandurah/2015/im703_mandurah_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_raleigh/2018/im703_raleigh_2018": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_raleigh/2016/im703_raleigh_2016": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_raleigh/2015/im703_raleigh_2015": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_raleigh/2014/im703_raleigh_2014": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_raleigh/2013/im703_raleigh_2013": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_aarhus/2015/im703_aarhus_2015": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_aarhus/2014/im703_aarhus_2014": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_ballarat/2016/im703_ballarat_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_ballarat/2015/im703_ballarat_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_budapest/2016/im703_budapest_2016": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_budapest/2015/im703_budapest_2015": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_budapest/2014/im703_budapest_2014": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_foz_do_iguacu/2014/im703_foz_do_iguacu_2014": {
+    "warnings": 0,
+    "missingLaps": 46,
+    "missingTotal": 0
+  },
+  "im703_korea/2014/im703_korea_2014": {
+    "warnings": 0,
+    "missingLaps": 462,
+    "missingTotal": 0
+  },
+  "im703_lake_tahoe/2015/im703_lake_tahoe_2015": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_princeton/2014/im703_princeton_2014": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_putrajaya/2015/im703_putrajaya_2015": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_putrajaya/2014/im703_putrajaya_2014": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_silverman/2014/im703_silverman_2014": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_bahrain/2024/im703_bahrain_2024": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_bahrain/2022/im703_bahrain_2022": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_bahrain/2016/im703_bahrain_2016": {
+    "warnings": 0,
+    "missingLaps": 9,
+    "missingTotal": 0
+  },
+  "im703_bahrain/2015/im703_bahrain_2015": {
+    "warnings": 0,
+    "missingLaps": 683,
+    "missingTotal": 0
+  },
+  "im703_gurye_korea/2015/im703_gurye_korea_2015": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_paraguay/2016/im703_paraguay_2016": {
+    "warnings": 0,
+    "missingLaps": 20,
+    "missingTotal": 0
+  },
+  "im703_paraguay/2015/im703_paraguay_2015": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_pula/2017/im703_pula_2017": {
+    "warnings": 0,
+    "missingLaps": 1029,
+    "missingTotal": 0
+  },
+  "im703_pula/2015/im703_pula_2015": {
+    "warnings": 0,
+    "missingLaps": 1438,
+    "missingTotal": 0
+  },
+  "im703_busan/2016/im703_busan_2016": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_palmas/2017/im703_palmas_2017": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_palmas/2016/im703_palmas_2016": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_thailand/2016/im703_thailand_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_alagoas/2017/im703_alagoas_2017": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_edinburgh/2017/im703_edinburgh_2017": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_jeju/2018/im703_jeju_2018": {
+    "warnings": 0,
+    "missingLaps": 86,
+    "missingTotal": 0
+  },
+  "im703_sardegna/2022/im703_sardegna_2022": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_sardegna/2021/im703_sardegna_2021": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_graz/2021/im703_graz_2021": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_taitung/2019/im703_taitung_2019": {
+    "warnings": 0,
+    "missingLaps": 11,
+    "missingTotal": 0
+  },
+  "im703_taitung/2018/im703_taitung_2018": {
+    "warnings": 0,
+    "missingLaps": 26,
+    "missingTotal": 0
+  },
+  "im703_taitung/2017/im703_taitung_2017": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_portugal_cascais/2024/im703_portugal_cascais_2024": {
+    "warnings": 0,
+    "missingLaps": 9,
+    "missingTotal": 0
+  },
+  "im703_portugal_cascais/2023/im703_portugal_cascais_2023": {
+    "warnings": 0,
+    "missingLaps": 15,
+    "missingTotal": 0
+  },
+  "im703_portugal_cascais/2022/im703_portugal_cascais_2022": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_portugal_cascais/2019/im703_portugal_cascais_2019": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_portugal_cascais/2018/im703_portugal_cascais_2018": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_virginias_blue_ridge/2019/im703_virginias_blue_ridge_2019": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_st_petersburg/2021/im703_st_petersburg_2021": {
+    "warnings": 0,
+    "missingLaps": 11,
+    "missingTotal": 0
+  },
+  "im703_ireland/2023/im703_ireland_2023": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_ireland/2022/im703_ireland_2022": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_acapulco/2023/im703_acapulco_2023": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 1
+  },
+  "im703_acapulco/2022/im703_acapulco_2022": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 3
+  },
+  "im703_acapulco/2021/im703_acapulco_2021": {
+    "warnings": 0,
+    "missingLaps": 0,
+    "missingTotal": 2
+  },
+  "im703_mossel_bay/2025/im703_mossel_bay_2025": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_mossel_bay/2023/im703_mossel_bay_2023": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_mossel_bay/2022/im703_mossel_bay_2022": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_rwanda/2023/im703_rwanda_2023": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_sandnes/2023/im703_sandnes_2023": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_sandnes/2022/im703_sandnes_2022": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_tangier/2024/im703_tangier_2024": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_tangier/2023/im703_tangier_2023": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_tangier/2022/im703_tangier_2022": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_tiberias/2022/im703_tiberias_2022": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_tiberias/2021/im703_tiberias_2021": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_nelson_mandela_bay/2024/im703_nelson_mandela_bay_2024": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_subic_bay/2026/im703_subic_bay_2026": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_subic_bay/2024/im703_subic_bay_2024": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_subic_bay/2023/im703_subic_bay_2023": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_erkner_berlin_brandenburg/2025/im703_erkner_berlin_brandenburg_2025": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_erkner_berlin_brandenburg/2024/im703_erkner_berlin_brandenburg_2024": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_erkner_berlin_brandenburg/2022/im703_erkner_berlin_brandenburg_2022": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_knokke_heist/2025/im703_knokke_heist_2025": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_knokke_heist/2023/im703_knokke_heist_2023": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_les_sables_dolonne_vendee/2024/im703_les_sables_dolonne_vendee_2024": {
+    "warnings": 0,
+    "missingLaps": 6,
+    "missingTotal": 0
+  },
+  "im703_les_sables_dolonne_vendee/2023/im703_les_sables_dolonne_vendee_2023": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_les_sables_dolonne_vendee/2022/im703_les_sables_dolonne_vendee_2022": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_les_sables_dolonne_vendee/2021/im703_les_sables_dolonne_vendee_2021": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "im703_les_sables_dolonne_vendee/2019/im703_les_sables_dolonne_vendee_2019": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_hradec_kralove/2025/im703_hradec_kralove_2025": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_hradec_kralove/2024/im703_hradec_kralove_2024": {
+    "warnings": 0,
+    "missingLaps": 27,
+    "missingTotal": 0
+  },
+  "im703_cap_cana/2024/im703_cap_cana_2024": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_cap_cana/2026/im703_cap_cana_2026": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_riviera_nayarit/2024/im703_riviera_nayarit_2024": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_valdivia/2025/im703_valdivia_2025": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_valdivia/2024/im703_valdivia_2024": {
+    "warnings": 0,
+    "missingLaps": 8,
+    "missingTotal": 0
+  },
+  "im703_aracaju_sergipe/2025/im703_aracaju_sergipe_2025": {
+    "warnings": 0,
+    "missingLaps": 16,
+    "missingTotal": 0
+  },
+  "im703_san_andres/2025/im703_san_andres_2025": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_encarnacion/2025/im703_encarnacion_2025": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_san_salvador/2026/im703_san_salvador_2026": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "ironman_jacksonville/2026/ironman_jacksonville_2026": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_puerto_varas/2026/im703_puerto_varas_2026": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
+  "iseshima/2024/iseshima": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "iseshima/2018/iseshima": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "minato_sakata/2017/minato_sakata": {
+    "warnings": 0,
+    "missingLaps": 0,
+    "missingTotal": 8
+  },
+  "fujihill/2014/fujihill": {
+    "warnings": 0,
+    "missingLaps": 5768,
+    "missingTotal": 0
+  },
+  "fujihill/2015/fujihill": {
+    "warnings": 0,
+    "missingLaps": 14,
+    "missingTotal": 0
+  },
+  "fujihill/2016/fujihill": {
+    "warnings": 0,
+    "missingLaps": 8139,
+    "missingTotal": 0
+  },
+  "fujihill/2017/fujihill": {
+    "warnings": 0,
+    "missingLaps": 15120,
+    "missingTotal": 0
+  },
+  "fujihill/2018/fujihill": {
+    "warnings": 0,
+    "missingLaps": 12585,
+    "missingTotal": 0
+  },
+  "fujihill/2019/fujihill": {
+    "warnings": 0,
+    "missingLaps": 8694,
+    "missingTotal": 4
+  },
+  "fujihill/2021/fujihill": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "fujihill/2022/fujihill": {
+    "warnings": 0,
+    "missingLaps": 5613,
+    "missingTotal": 0
+  },
+  "fujihill/2023/fujihill": {
+    "warnings": 0,
+    "missingLaps": 5517,
+    "missingTotal": 0
+  },
+  "fujihill/2024/fujihill": {
+    "warnings": 0,
+    "missingLaps": 20,
+    "missingTotal": 0
+  },
+  "fujihill/2025/fujihill": {
+    "warnings": 0,
+    "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "fujihill/2026/fujihill": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 1
+  },
+  "im703_omaha/2026/im703_omaha_2026": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_buenos_aires/2025/im703_buenos_aires_2025": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  }
+}
