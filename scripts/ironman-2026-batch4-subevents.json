@@ -1,0 +1,22 @@
+{
+  "im703_oman": {
+    "subevent_uuid": "ad5cbf94-3076-4f2c-b995-b17d0641fd98",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Muscat"
+  },
+  "ironman_switzerland": {
+    "subevent_uuid": "3b3bd0bd-a1ce-4c96-85e6-cf6eff6cf31f",
+    "year": 2026,
+    "name": "2026 IRONMAN Switzerland Thun"
+  },
+  "im703_muskoka": {
+    "subevent_uuid": "f01ab6c9-a1a7-44bc-b313-029ace77a139",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Muskoka"
+  },
+  "im703_jonkoping": {
+    "subevent_uuid": "da7228d6-ff6b-436d-a388-2e87cf9f9d37",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Jönköping"
+  }
+}
