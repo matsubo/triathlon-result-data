@@ -1,0 +1,113 @@
+{
+  "date": "2026-07-12",
+  "sunrise": "04:30",
+  "sunset": "18:56",
+  "minTemp": 24.0,
+  "maxTemp": 27.6,
+  "hourly": [
+    {
+      "time": "3",
+      "weatherCode": "CLOUDY",
+      "temp": 24.7,
+      "humidity": 90,
+      "dewPoint": 23.0,
+      "pressure": 1012.5,
+      "pressureChange": "-0.9",
+      "windDirectionCode": "SSW",
+      "windSpeed": 3.9,
+      "visibility": 20,
+      "discomfortIndex": 75
+    },
+    {
+      "time": "6",
+      "weatherCode": "CLOUDY",
+      "temp": 24.7,
+      "humidity": 91,
+      "dewPoint": 23.1,
+      "pressure": 1012.5,
+      "pressureChange": "+0.0",
+      "windDirectionCode": "SSW",
+      "windSpeed": 4.3,
+      "visibility": 20,
+      "discomfortIndex": 76
+    },
+    {
+      "time": "9",
+      "weatherCode": "SHOWERS",
+      "temp": 25.9,
+      "humidity": 88,
+      "dewPoint": 23.8,
+      "pressure": 1013.0,
+      "pressureChange": "+0.5",
+      "windDirectionCode": "SW",
+      "windSpeed": 4,
+      "visibility": 20,
+      "discomfortIndex": 77
+    },
+    {
+      "time": "12",
+      "weatherCode": "CLOUDY",
+      "temp": 27.1,
+      "humidity": 82,
+      "dewPoint": 23.8,
+      "pressure": 1012.0,
+      "pressureChange": "-1.0",
+      "windDirectionCode": "SW",
+      "windSpeed": 2.5,
+      "visibility": 20,
+      "discomfortIndex": 79
+    },
+    {
+      "time": "15",
+      "weatherCode": "SHOWERS",
+      "temp": 26.0,
+      "humidity": 88,
+      "dewPoint": 23.9,
+      "pressure": 1010.5,
+      "pressureChange": "-1.5",
+      "windDirectionCode": "SW",
+      "windSpeed": 3.3,
+      "visibility": 20,
+      "discomfortIndex": 77
+    },
+    {
+      "time": "18",
+      "weatherCode": "SHOWERS",
+      "temp": 24.9,
+      "humidity": 92,
+      "dewPoint": 23.5,
+      "pressure": 1010.3,
+      "pressureChange": "-0.2",
+      "windDirectionCode": "SW",
+      "windSpeed": 3.3,
+      "visibility": 19.5,
+      "discomfortIndex": 76
+    },
+    {
+      "time": "21",
+      "weatherCode": "SHOWERS",
+      "temp": 24.5,
+      "humidity": 93,
+      "dewPoint": 23.3,
+      "pressure": 1009.3,
+      "pressureChange": "-1.0",
+      "windDirectionCode": "SW",
+      "windSpeed": 4.4,
+      "visibility": 18.4,
+      "discomfortIndex": 75
+    },
+    {
+      "time": "24",
+      "weatherCode": "RAIN",
+      "temp": 24.1,
+      "humidity": 97,
+      "dewPoint": 23.6,
+      "pressure": 1007.7,
+      "pressureChange": "-1.6",
+      "windDirectionCode": "SW",
+      "windSpeed": 5.4,
+      "visibility": 9.6,
+      "discomfortIndex": 75
+    }
+  ]
+}

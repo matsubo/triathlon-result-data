@@ -1,0 +1,12 @@
+{
+  "im703_muncie": {
+    "subevent_uuid": "9c24a169-4dfc-4c91-8727-11f272ef248c",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Muncie"
+  },
+  "im703_swansea": {
+    "subevent_uuid": "ec84135c-bae0-4567-be8f-d3582f16e43b",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Swansea"
+  }
+}
