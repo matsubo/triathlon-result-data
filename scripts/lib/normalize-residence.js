@@ -203,6 +203,16 @@ const ISO3_TO_ISO2 = {
   ABW: "AW",
   SPM: "PM",
   JEY: "JE",
+  MKD: "MK",
+  GGY: "GG",
+  IMN: "IM",
+  VIR: "VI",
+  NCL: "NC",
+  COK: "CK",
+  GUF: "GF",
+  WLF: "WF",
+  UMI: "UM",
+  ATA: "AQ",
 };
 
 // ISO 3166-2:JP prefectures
