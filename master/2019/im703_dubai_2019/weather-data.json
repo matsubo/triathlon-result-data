@@ -1,0 +1,113 @@
+{
+  "date": "2019-02-01",
+  "sunrise": "07:01",
+  "sunset": "18:03",
+  "minTemp": 14.6,
+  "maxTemp": 26.1,
+  "hourly": [
+    {
+      "time": "3",
+      "weatherCode": "CLEAR",
+      "temp": 15.5,
+      "humidity": 96,
+      "dewPoint": 14.8,
+      "pressure": 1017.0,
+      "pressureChange": "",
+      "windDirectionCode": "S",
+      "windSpeed": 3.4,
+      "visibility": "---",
+      "discomfortIndex": 60
+    },
+    {
+      "time": "6",
+      "weatherCode": "CLEAR",
+      "temp": 14.9,
+      "humidity": 97,
+      "dewPoint": 14.4,
+      "pressure": 1017.1,
+      "pressureChange": "+0.1",
+      "windDirectionCode": "S",
+      "windSpeed": 3.5,
+      "visibility": "---",
+      "discomfortIndex": 59
+    },
+    {
+      "time": "9",
+      "weatherCode": "CLEAR",
+      "temp": 18.0,
+      "humidity": 85,
+      "dewPoint": 15.4,
+      "pressure": 1019.0,
+      "pressureChange": "+1.9",
+      "windDirectionCode": "S",
+      "windSpeed": 3.4,
+      "visibility": "---",
+      "discomfortIndex": 64
+    },
+    {
+      "time": "12",
+      "weatherCode": "CLEAR",
+      "temp": 24.3,
+      "humidity": 54,
+      "dewPoint": 14.5,
+      "pressure": 1017.9,
+      "pressureChange": "-1.1",
+      "windDirectionCode": "WSW",
+      "windSpeed": 2.4,
+      "visibility": "---",
+      "discomfortIndex": 71
+    },
+    {
+      "time": "15",
+      "weatherCode": "CLEAR",
+      "temp": 25.7,
+      "humidity": 44,
+      "dewPoint": 12.6,
+      "pressure": 1015.5,
+      "pressureChange": "-2.4",
+      "windDirectionCode": "WNW",
+      "windSpeed": 4.3,
+      "visibility": "---",
+      "discomfortIndex": 72
+    },
+    {
+      "time": "18",
+      "weatherCode": "CLEAR",
+      "temp": 22.2,
+      "humidity": 69,
+      "dewPoint": 16.3,
+      "pressure": 1015.5,
+      "pressureChange": "+0.0",
+      "windDirectionCode": "W",
+      "windSpeed": 5.1,
+      "visibility": "---",
+      "discomfortIndex": 70
+    },
+    {
+      "time": "21",
+      "weatherCode": "CLEAR",
+      "temp": 20.0,
+      "humidity": 87,
+      "dewPoint": 17.8,
+      "pressure": 1017.0,
+      "pressureChange": "+1.5",
+      "windDirectionCode": "WSW",
+      "windSpeed": 3.0,
+      "visibility": "---",
+      "discomfortIndex": 67
+    },
+    {
+      "time": "24",
+      "weatherCode": "CLEAR",
+      "temp": 17.5,
+      "humidity": 96,
+      "dewPoint": 16.8,
+      "pressure": 1017.0,
+      "pressureChange": "+0.0",
+      "windDirectionCode": "SSW",
+      "windSpeed": 2.0,
+      "visibility": "---",
+      "discomfortIndex": 63
+    }
+  ]
+}

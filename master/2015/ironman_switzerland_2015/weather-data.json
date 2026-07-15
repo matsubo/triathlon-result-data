@@ -1,0 +1,113 @@
+{
+  "date": "2015-07-19",
+  "sunrise": "05:54",
+  "sunset": "21:16",
+  "minTemp": 15.8,
+  "maxTemp": 28.4,
+  "hourly": [
+    {
+      "time": "3",
+      "weatherCode": "PARTLY_CLOUDY",
+      "temp": 17.1,
+      "humidity": 92,
+      "dewPoint": 15.7,
+      "pressure": 1014.7,
+      "pressureChange": "",
+      "windDirectionCode": "SSE",
+      "windSpeed": 1.6,
+      "visibility": "---",
+      "discomfortIndex": 63
+    },
+    {
+      "time": "6",
+      "weatherCode": "CLOUDY",
+      "temp": 15.8,
+      "humidity": 91,
+      "dewPoint": 14.4,
+      "pressure": 1013.9,
+      "pressureChange": "-0.8",
+      "windDirectionCode": "S",
+      "windSpeed": 1.7,
+      "visibility": "---",
+      "discomfortIndex": 60
+    },
+    {
+      "time": "9",
+      "weatherCode": "PARTLY_CLOUDY",
+      "temp": 22.8,
+      "humidity": 71,
+      "dewPoint": 17.2,
+      "pressure": 1015.0,
+      "pressureChange": "+1.1",
+      "windDirectionCode": "SSE",
+      "windSpeed": 1.4,
+      "visibility": "---",
+      "discomfortIndex": 71
+    },
+    {
+      "time": "12",
+      "weatherCode": "PARTLY_CLOUDY",
+      "temp": 27.2,
+      "humidity": 48,
+      "dewPoint": 15.1,
+      "pressure": 1014.0,
+      "pressureChange": "-1.0",
+      "windDirectionCode": "W",
+      "windSpeed": 1.5,
+      "visibility": "---",
+      "discomfortIndex": 74
+    },
+    {
+      "time": "15",
+      "weatherCode": "RAIN",
+      "temp": 28.2,
+      "humidity": 45,
+      "dewPoint": 15.2,
+      "pressure": 1013.9,
+      "pressureChange": "-0.1",
+      "windDirectionCode": "NW",
+      "windSpeed": 2.2,
+      "visibility": "---",
+      "discomfortIndex": 75
+    },
+    {
+      "time": "18",
+      "weatherCode": "RAIN",
+      "temp": 24.6,
+      "humidity": 65,
+      "dewPoint": 17.7,
+      "pressure": 1013.5,
+      "pressureChange": "-0.4",
+      "windDirectionCode": "WNW",
+      "windSpeed": 2.1,
+      "visibility": "---",
+      "discomfortIndex": 73
+    },
+    {
+      "time": "21",
+      "weatherCode": "PARTLY_CLOUDY",
+      "temp": 22.7,
+      "humidity": 75,
+      "dewPoint": 18.1,
+      "pressure": 1015.3,
+      "pressureChange": "+1.8",
+      "windDirectionCode": "SSW",
+      "windSpeed": 0.9,
+      "visibility": "---",
+      "discomfortIndex": 71
+    },
+    {
+      "time": "24",
+      "weatherCode": "PARTLY_CLOUDY",
+      "temp": 21.4,
+      "humidity": 73,
+      "dewPoint": 16.3,
+      "pressure": 1016.2,
+      "pressureChange": "+0.9",
+      "windDirectionCode": "WSW",
+      "windSpeed": 1.2,
+      "visibility": "---",
+      "discomfortIndex": 69
+    }
+  ]
+}
