@@ -3309,6 +3309,11 @@
     "missingLaps": 4,
     "missingTotal": 0
   },
+  "im703_musselman/2026/im703_musselman_2026": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
   "im703_musselman/2022/im703_musselman_2022": {
     "warnings": 0,
     "missingLaps": 5,
@@ -4859,6 +4864,11 @@
     "missingLaps": 6,
     "missingTotal": 0
   },
+  "im703_luxembourg_region_moselle/2026/im703_luxembourg_region_moselle_2026": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
   "im703_luxembourg_region_moselle/2025/im703_luxembourg_region_moselle_2025": {
     "warnings": 0,
     "missingLaps": 4,
@@ -5130,6 +5140,11 @@
     "missingTotal": 0
   },
   "im703_canada/2016/im703_canada_2016": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_gdynia/2026/im703_gdynia_2026": {
     "warnings": 0,
     "missingLaps": 1,
     "missingTotal": 0

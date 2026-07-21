@@ -1,0 +1,56 @@
+{
+  "im703_luxembourg_region_moselle": {
+    "subevent_uuid": "4a2ee31f-6dbe-427b-af1f-27692f166951",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Luxembourg",
+    "event_uuid": "39ac281d-1ed9-e211-af98-005056956277"
+  },
+  "im703_musselman": {
+    "subevent_uuid": "dd4f1642-0452-488c-a350-a79e175b7bef",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Musselman",
+    "event_uuid": "f8b84893-cabe-e911-a980-000d3a3749bc"
+  },
+  "ironman_vitoria": {
+    "subevent_uuid": "96a2ed72-934a-4942-b8e8-d483e286e1c1",
+    "year": 2026,
+    "name": "2026 IRONMAN Vitoria-Gasteiz",
+    "event_uuid": "47f47b8c-71ba-e811-a967-000d3a37468c"
+  },
+  "im703_ohio": {
+    "subevent_uuid": "21e554f9-882f-4a71-ba65-669ec0410d74",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Ohio",
+    "event_uuid": "0c4e3cef-3477-e511-9409-005056951bf1"
+  },
+  "im703_oregon": {
+    "subevent_uuid": "a7f8d2d5-fbef-4bf7-b4af-25999b9cf950",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Oregon",
+    "event_uuid": "a2bd7104-f82f-42f2-8943-1265d315a160"
+  },
+  "ironman_lake_placid": {
+    "subevent_uuid": "a20c39b2-2f1b-40dc-ae85-3e2f41e5ab07",
+    "year": 2026,
+    "name": "2026 IRONMAN Lake Placid",
+    "event_uuid": "c398aa20-f278-e111-b16a-005056956277"
+  },
+  "im703_ecuador": {
+    "subevent_uuid": "ac795fa2-8b74-486a-8a3f-32ec648ad5e1",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Ecuador",
+    "event_uuid": "f53b55a5-16b2-e411-9400-005056951bf1"
+  },
+  "im703_gdynia": {
+    "subevent_uuid": "fd99e3d3-a307-491a-8c07-1454074de3e1",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Gdynia",
+    "event_uuid": "e1339090-3e7a-e411-93fc-005056951bf1"
+  },
+  "im703_les_sables_dolonne_vendee": {
+    "subevent_uuid": "5552214b-c1f5-4a02-a4c1-7032d66bc903",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Les Sables d'Olonne - Vend\u00e9e",
+    "event_uuid": "aa97b7b2-e4b1-e811-a96c-000d3a364086"
+  }
+}
