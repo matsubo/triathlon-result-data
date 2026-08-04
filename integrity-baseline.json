@@ -3419,6 +3419,11 @@
     "missingLaps": 4,
     "missingTotal": 0
   },
+  "im703_calgary/2026/im703_calgary_2026": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
   "im703_calgary/2025/im703_calgary_2025": {
     "warnings": 0,
     "missingLaps": 4,
@@ -3469,6 +3474,11 @@
     "missingLaps": 1,
     "missingTotal": 0
   },
+  "im703_maine/2026/im703_maine_2026": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
   "im703_maine/2025/im703_maine_2025": {
     "warnings": 0,
     "missingLaps": 8,
@@ -3492,6 +3502,11 @@
   "im703_lapu_lapu/2024/im703_lapu_lapu_2024": {
     "warnings": 0,
     "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "im703_krakow/2026/im703_krakow_2026": {
+    "warnings": 0,
+    "missingLaps": 3,
     "missingTotal": 0
   },
   "im703_krakow/2025/im703_krakow_2025": {
@@ -5667,6 +5682,11 @@
   "im703_sao_paulo/2019/im703_sao_paulo_2019": {
     "warnings": 0,
     "missingLaps": 74,
+    "missingTotal": 0
+  },
+  "im703_desaru_coast/2026/im703_desaru_coast_2026": {
+    "warnings": 0,
+    "missingLaps": 1,
     "missingTotal": 0
   },
   "im703_desaru_coast/2025/im703_desaru_coast_2025": {
