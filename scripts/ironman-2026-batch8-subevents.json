@@ -1,0 +1,37 @@
+{
+  "ironman_leeds": {
+    "subevent_uuid": "277ae1e3-2400-4862-9fa0-96f0faf17ede",
+    "year": 2026,
+    "name": "2026 IRONMAN Leeds"
+  },
+  "ironman_copenhagen": {
+    "subevent_uuid": "f02e7dca-4e7f-4fc4-a750-6670e8eddc08",
+    "year": 2026,
+    "name": "2026 IRONMAN Copenhagen"
+  },
+  "im703_duisburg": {
+    "subevent_uuid": "b61f8e76-3434-4b88-933c-73b8ea7454a8",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Duisburg"
+  },
+  "im703_rio_de_janeiro": {
+    "subevent_uuid": "0b6fe41e-b0cf-4746-b947-10ef5ed969f0",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Rio de Janeiro"
+  },
+  "im703_hradec_kralove": {
+    "subevent_uuid": "606dae50-dab9-4036-a694-a2dfa3754217",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Hradec Kralove"
+  },
+  "im703_venice": {
+    "subevent_uuid": "67f45085-43ba-4032-a80d-4d9605eb4466",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Venice-Jesolo"
+  },
+  "ironman_sweden": {
+    "subevent_uuid": "59f3b68c-c706-4a5c-b028-3ed9389d5422",
+    "year": 2026,
+    "name": "2026 IRONMAN Sweden"
+  }
+}

@@ -1934,6 +1934,11 @@
     "missingLaps": 7,
     "missingTotal": 0
   },
+  "ironman_copenhagen/2026/ironman_copenhagen_2026": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
   "ironman_copenhagen/2024/ironman_copenhagen_2024": {
     "warnings": 0,
     "missingLaps": 4,
@@ -5344,6 +5349,11 @@
     "missingLaps": 1,
     "missingTotal": 0
   },
+  "im703_rio_de_janeiro/2026/im703_rio_de_janeiro_2026": {
+    "warnings": 0,
+    "missingLaps": 37,
+    "missingTotal": 0
+  },
   "im703_rio_de_janeiro/2025/im703_rio_de_janeiro_2025": {
     "warnings": 0,
     "missingLaps": 1,
@@ -6815,6 +6825,11 @@
     "missingTotal": 0
   },
   "im703_barranquilla/2026/im703_barranquilla_2026": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "utsukushima_iwaki/2026/utsukushima_iwaki": {
     "warnings": 0,
     "missingLaps": 1,
     "missingTotal": 0
