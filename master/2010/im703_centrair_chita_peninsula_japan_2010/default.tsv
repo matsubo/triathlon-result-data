@@ -50,7 +50,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 137289	DNS	Mieko Makimoto	F	F55-59	0							Japan	DNS
 225648	DNF	Mitsuo Morimoto	M	M45-49	0		0:57:51	0:06:20				Japan	DNF
 378807	DNS	Tim Jones	M	M35-39	0							United Kingdom	DNS
-137111	DNS	Vanessa Colless	F	F35-39	0							Japan	DNS
+137111	DNS	Vanessa Colless	F	F35-39	0							Australia	DNS
 796644	DNF	Masaru Nakamura	M	M40-44	0		0:56:58	0:06:47	4:18:44	0:07:18		Japan	DNF
 430111	DNS	Takeo Kubo	M	M45-49	0							Japan	DNS
 796791	DNS	Keiko Kimura	F	F40-44	0							Japan	DNS
@@ -189,7 +189,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 796813	46	Akira Tanaka	M	M35-39	10	5:05:17	0:34:28	0:01:56	2:44:06	0:01:19	1:43:28	Japan	FIN
 190361	47	Masaki Mori	M	M40-44	5	5:06:11	0:41:21	0:02:34	2:44:22	0:01:25	1:36:29	Japan	FIN
 796416	48	Taku Toda	M	M30-34	7	5:06:26	0:31:27	0:01:42	2:51:38	0:01:34	1:40:05	Japan	FIN
-89049	49	Bevan Colless	M	M35-39	11	5:06:30	0:32:50	0:02:23	2:47:38	0:01:28	1:42:11	Japan	FIN
+89049	49	Bevan Colless	M	M35-39	11	5:06:30	0:32:50	0:02:23	2:47:38	0:01:28	1:42:11	Australia	FIN
 687564	50	ãˆã„ã„ã¡ ã¾ã¤ã	M	M35-39	12	5:06:46	0:35:07	0:01:50	2:46:25	0:01:15	1:42:09	Japan	FIN
 796485	51	Tomoya Tsuruta	M	M30-34	8	5:06:53	0:35:23	0:02:10	2:49:07	0:01:08	1:39:05	Japan	FIN
 136940	52	Takehisa Suzuki	M	M45-49	4	5:07:26	0:35:08	0:02:15	2:46:50	0:01:41	1:41:32	Japan	FIN
