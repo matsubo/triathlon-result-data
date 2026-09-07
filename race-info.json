@@ -759,7 +759,7 @@
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 4,
+                  "distance": 2,
                   "columns": [
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
@@ -869,7 +869,7 @@
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.35,
+                  "distance": 1,
                   "columns": [
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
