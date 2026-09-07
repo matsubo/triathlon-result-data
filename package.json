@@ -24,7 +24,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "bun@1.1.38",
+  "packageManager": "bun@1.4.0",
   "devDependencies": {
     "@biomejs/biome": "^2.4.15",
     "@types/bun": "^1.1.2",
