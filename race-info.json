@@ -1,6 +1,103 @@
 {
   "events": [
     {
+      "id": "im703_baku",
+      "name": "IRONMAN 70.3 Baku",
+      "location": "Baku, Azerbaijan",
+      "location_parts": {
+        "country": "AZ",
+        "city": "Baku"
+      },
+      "image": "images/im703_baku.webp",
+      "source": "https://www.ironman.com/races/im703-baku",
+      "editions": [
+        {
+          "date": "2026-09-05",
+          "weather_file": "master/2026/im703_baku_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_baku_2026",
+              "result_tsv": "master/2026/im703_baku_2026/default.tsv",
+              "name": "70.3",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Baku",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "nagaragawa_duathlon",
       "name": "CalfMan Signature 長良川デュアスロン",
       "location": "岐阜県海津市 木曽三川公園",
@@ -649,6 +746,232 @@
       "image": "images/sado.webp",
       "source": "https://www.scsf.jp/triathlon/",
       "editions": [
+        {
+          "date": "2026-09-06",
+          "weather_file": "master/2026/sado/weather-data.json",
+          "categories": [
+            {
+              "id": "sado",
+              "result_tsv": "master/2026/sado/default.tsv",
+              "name": "国際Aタイプ（ロングディスタンス）",
+              "distance": "LD",
+              "description": "2026年佐渡国際トライアスロン大会 Aタイプ（ロングディスタンス）。新潟県佐渡島を一周するコースで開催。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 4,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "T1",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 190,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.2,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4602"
+            },
+            {
+              "id": "sado_b",
+              "result_tsv": "master/2026/sado/b.tsv",
+              "name": "国際Bタイプ（ミドルディスタンス）",
+              "distance": "MD",
+              "description": "2026年佐渡国際トライアスロン大会 Bタイプ（ミドルディスタンス）。新潟県佐渡島で開催。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.35,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "T1",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 108,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4599"
+            }
+          ]
+        },
         {
           "date": "2025-09-07",
           "weather_file": "master/2025/sado/weather-data.json",
@@ -42582,6 +42905,208 @@
       "source": "https://mtfuji-tri.jp/",
       "editions": [
         {
+          "date": "2026-09-06",
+          "weather_file": "master/2026/fujikawaguchiko/weather-data.json",
+          "categories": [
+            {
+              "id": "fujikawaguchiko",
+              "result_tsv": "master/2026/fujikawaguchiko/default.tsv",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "description": "2026年Mt.富士トライアスロン富士河口湖 オリンピックディスタンス。山梨県富士河口湖町の河口湖を舞台に、スイム1.5km、バイク41km、ラン10kmで開催。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "スイムラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "S順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 41,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "都道府県",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "区分順位",
+                  "role": "age_rank"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4594"
+            },
+            {
+              "id": "fujikawaguchiko_halfswim",
+              "result_tsv": "master/2026/fujikawaguchiko/halfswim.tsv",
+              "name": "個人ハーフスイム",
+              "distance": "OD",
+              "description": "2026年Mt.富士トライアスロン富士河口湖 個人ハーフスイム。スイムのみ半分の0.75kmに短縮し、バイク41km・ラン10kmはオリンピックディスタンスと同一コースで開催。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 0.75,
+                  "columns": [
+                    {
+                      "header": "スイムラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "S順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 41,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "都道府県",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4595"
+            }
+          ]
+        },
+        {
           "date": "2025-09-07",
           "weather_file": "master/2025/fujikawaguchiko/weather-data.json",
           "categories": [
@@ -43499,6 +44024,342 @@
       "image": "images/irago.webp",
       "source": "https://www.irago-triathlon.jp/",
       "editions": [
+        {
+          "date": "2026-09-06",
+          "weather_file": "master/2026/irago/weather-data.json",
+          "categories": [
+            {
+              "id": "irago_a",
+              "result_tsv": "master/2026/irago/a.tsv",
+              "name": "Aタイプ（ミドル）",
+              "distance": "MD",
+              "description": "2026年第40回トライアスロン伊良湖大会 Aタイプ（ミドルディスタンス）。愛知県田原市伊良湖で開催。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 2.25,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 74.7,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 18,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "登録地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "PNLT",
+                  "role": "penalty"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4596"
+            },
+            {
+              "id": "irago_b",
+              "result_tsv": "master/2026/irago/b.tsv",
+              "name": "Bタイプ（スタンダード）",
+              "distance": "OD",
+              "description": "2026年第40回トライアスロン伊良湖大会 Bタイプ（スタンダードディスタンス）。愛知県田原市伊良湖で開催。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 44.4,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "PNLT",
+                  "role": "penalty"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4597"
+            },
+            {
+              "id": "irago_c",
+              "result_tsv": "master/2026/irago/c.tsv",
+              "name": "Cタイプ（スプリント）",
+              "distance": "SD",
+              "description": "2026年第40回トライアスロン伊良湖大会 Cタイプ（スプリントディスタンス）。愛知県田原市伊良湖で開催。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 0.75,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 14.1,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 4,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "PNLT",
+                  "role": "penalty"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4598"
+            }
+          ]
+        },
         {
           "date": "2025-09-14",
           "weather_file": "master/2025/irago/weather-data.json",
@@ -47025,6 +47886,224 @@
       "image": "images/yamagata_zao.webp",
       "source": "https://www.yamagatatri.com/zao",
       "editions": [
+        {
+          "date": "2026-08-29",
+          "weather_file": "master/2026/yamagata_zao/weather-data.json",
+          "categories": [
+            {
+              "id": "yamagata_zao",
+              "result_tsv": "master/2026/yamagata_zao/default.tsv",
+              "name": "スタンダードディスタンス",
+              "distance": "OD",
+              "description": "2026年おもてなし山形トライアスロンin ZAO。山形市蔵王温泉を舞台に、スイム1.5km、バイク40km、ラン10kmのスタンダードディスタンスで開催。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "スイムラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "S順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ミニラン",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "都道府県",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "区分順位",
+                  "role": "age_rank"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4588"
+            },
+            {
+              "id": "yamagata_zao_sprint",
+              "result_tsv": "master/2026/yamagata_zao/sprint.tsv",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "description": "2026年おもてなし山形トライアスロンin ZAO スプリントディスタンス。山形市蔵王温泉を舞台に、スイム750m、バイク20km、ラン5kmで開催。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 0.75,
+                  "columns": [
+                    {
+                      "header": "スイムラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "S順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ミニラン",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 5,
+                  "columns": [
+                    {
+                      "header": "ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "都道府県",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "区分順位",
+                  "role": "age_rank"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4589"
+            }
+          ]
+        },
         {
           "date": "2025-09-20",
           "weather_file": "master/2025/yamagata_zao/weather-data.json",
@@ -113392,6 +114471,90 @@
       "source": "https://www.coachcox.co.uk/imstats/series/52/",
       "editions": [
         {
+          "date": "2026-08-23",
+          "weather_file": "master/2026/ironman_vichy_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "ironman_vichy_2026",
+              "result_tsv": "master/2026/ironman_vichy_2026/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2026 IRONMAN Vichy",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
+        {
           "date": "2023-08-20",
           "weather_file": "master/2023/ironman_vichy_2023/weather-data.json",
           "categories": [
@@ -125733,6 +126896,90 @@
       "image": "images/ironman_tallinn.webp",
       "source": "https://www.coachcox.co.uk/imstats/race/2452/results/",
       "editions": [
+        {
+          "date": "2026-08-22",
+          "weather_file": "master/2026/ironman_tallinn_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "ironman_tallinn_2026",
+              "result_tsv": "master/2026/ironman_tallinn_2026/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2026 IRONMAN Tallinn",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-08-23",
           "weather_file": "master/2025/ironman_tallinn_2025/weather-data.json",
@@ -142862,104 +144109,6 @@
       ]
     },
     {
-      "id": "im703_brasilia",
-      "name": "IRONMAN 70.3 Brasilia",
-      "location": "Brasilia, Brazil",
-      "location_parts": {
-        "country": "BR",
-        "region": "Distrito Federal",
-        "city": "Brasilia"
-      },
-      "image": "images/im703_brasilia.webp",
-      "source": "https://www.coachcox.co.uk/imstats/race/2697/results/",
-      "editions": [
-        {
-          "date": "2026-04-26",
-          "weather_file": "master/2026/im703_brasilia_2026/weather-data.json",
-          "categories": [
-            {
-              "id": "im703_brasilia_2026",
-              "result_tsv": "master/2026/im703_brasilia_2026/default.tsv",
-              "name": "70.3",
-              "distance": "MD",
-              "description": "2026 IRONMAN 70.3 Brasilia",
-              "segments": [
-                {
-                  "sport": "swim",
-                  "distance": 1.9,
-                  "columns": [
-                    {
-                      "header": "Swim",
-                      "role": "lap"
-                    }
-                  ]
-                },
-                {
-                  "sport": "bike",
-                  "distance": 90,
-                  "columns": [
-                    {
-                      "header": "Bike",
-                      "role": "lap"
-                    }
-                  ]
-                },
-                {
-                  "sport": "run",
-                  "distance": 21.0975,
-                  "columns": [
-                    {
-                      "header": "Run",
-                      "role": "lap"
-                    }
-                  ]
-                }
-              ],
-              "meta_columns": [
-                {
-                  "header": "ContactId",
-                  "role": "athlete_id"
-                },
-                {
-                  "header": "Overall_Rank",
-                  "role": "overall_rank"
-                },
-                {
-                  "header": "Name",
-                  "role": "name"
-                },
-                {
-                  "header": "Gender",
-                  "role": "gender"
-                },
-                {
-                  "header": "Division",
-                  "role": "age_category"
-                },
-                {
-                  "header": "Div_Rank",
-                  "role": "age_rank"
-                },
-                {
-                  "header": "Total_Time",
-                  "role": "total_time"
-                },
-                {
-                  "header": "Country",
-                  "role": "residence"
-                },
-                {
-                  "header": "Status",
-                  "role": "status"
-                }
-              ],
-              "source_url": null
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "im703_valencia",
       "name": "IRONMAN 70.3 Valencia",
       "location": "Valencia, Spain",
@@ -149588,6 +150737,90 @@
       "image": "images/im703_aix.webp",
       "source": "https://www.coachcox.co.uk/imstats/race/2422/results/",
       "editions": [
+        {
+          "date": "2026-05-17",
+          "weather_file": "master/2026/im703_aix_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_aix_2026",
+              "result_tsv": "master/2026/im703_aix_2026/default.tsv",
+              "name": "70.3",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Aix-en-Provence",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.0975,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-05-18",
           "weather_file": "master/2025/im703_aix_2025/weather-data.json",
@@ -171446,6 +172679,90 @@
       "source": "https://www.coachcox.co.uk/imstats/race/2599/results/",
       "editions": [
         {
+          "date": "2026-08-09",
+          "weather_file": "master/2026/im703_lapu_lapu_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_lapu_lapu_2026",
+              "result_tsv": "master/2026/im703_lapu_lapu_2026/default.tsv",
+              "name": "Half Distance",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Lapu-Lapu",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
+        {
           "date": "2025-08-10",
           "weather_file": "master/2025/im703_lapu_lapu_2025/weather-data.json",
           "categories": [
@@ -171988,6 +173305,90 @@
       "image": "images/im703_vichy.webp",
       "source": "https://www.coachcox.co.uk/imstats/race/2643/results/",
       "editions": [
+        {
+          "date": "2026-08-23",
+          "weather_file": "master/2026/im703_vichy_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_vichy_2026",
+              "result_tsv": "master/2026/im703_vichy_2026/default.tsv",
+              "name": "Half Distance",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Vichy",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-08-24",
           "weather_file": "master/2025/im703_vichy_2025/weather-data.json",
@@ -172832,6 +174233,90 @@
       "source": "https://www.coachcox.co.uk/imstats/race/2640/results/",
       "editions": [
         {
+          "date": "2026-08-23",
+          "weather_file": "master/2026/im703_tallinn_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_tallinn_2026",
+              "result_tsv": "master/2026/im703_tallinn_2026/default.tsv",
+              "name": "Half Distance",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Tallinn",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
+        {
           "date": "2025-08-24",
           "weather_file": "master/2025/im703_tallinn_2025/weather-data.json",
           "categories": [
@@ -173348,6 +174833,90 @@
       "image": "images/im703_zell_am_see.webp",
       "source": "https://www.coachcox.co.uk/imstats/race/2650/results/",
       "editions": [
+        {
+          "date": "2026-08-30",
+          "weather_file": "master/2026/im703_zell_am_see_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_zell_am_see_2026",
+              "result_tsv": "master/2026/im703_zell_am_see_2026/default.tsv",
+              "name": "Half Distance",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Zell am See-Kaprun",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-08-31",
           "weather_file": "master/2025/im703_zell_am_see_2025/weather-data.json",
@@ -174967,6 +176536,90 @@
       "image": "images/im703_poznan.webp",
       "source": "https://www.coachcox.co.uk/imstats/race/2632/results/",
       "editions": [
+        {
+          "date": "2026-08-30",
+          "weather_file": "master/2026/im703_poznan_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_poznan_2026",
+              "result_tsv": "master/2026/im703_poznan_2026/default.tsv",
+              "name": "Half Distance",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Poznan",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-09-07",
           "weather_file": "master/2025/im703_poznan_2025/weather-data.json",
@@ -181624,6 +183277,90 @@
       "image": "images/im703_marathon.webp",
       "source": "https://www.coachcox.co.uk/imstats/race/2608/results/",
       "editions": [
+        {
+          "date": "2019-04-14",
+          "weather_file": "master/2019/im703_marathon_2019/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_marathon_2019",
+              "result_tsv": "master/2019/im703_marathon_2019/default.tsv",
+              "name": "70.3",
+              "distance": "MD",
+              "description": "2019 IRONMAN 70.3 Greece",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90.1,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.0975,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-10-26",
           "weather_file": "master/2025/im703_marathon_2025/weather-data.json",
@@ -201672,102 +203409,6 @@
               "name": "70.3",
               "distance": "MD",
               "description": "2017 IRONMAN 70.3 Peru",
-              "segments": [
-                {
-                  "sport": "swim",
-                  "distance": 1.9,
-                  "columns": [
-                    {
-                      "header": "Swim",
-                      "role": "lap"
-                    }
-                  ]
-                },
-                {
-                  "sport": "bike",
-                  "distance": 90.1,
-                  "columns": [
-                    {
-                      "header": "Bike",
-                      "role": "lap"
-                    }
-                  ]
-                },
-                {
-                  "sport": "run",
-                  "distance": 21.0975,
-                  "columns": [
-                    {
-                      "header": "Run",
-                      "role": "lap"
-                    }
-                  ]
-                }
-              ],
-              "meta_columns": [
-                {
-                  "header": "ContactId",
-                  "role": "athlete_id"
-                },
-                {
-                  "header": "Overall_Rank",
-                  "role": "overall_rank"
-                },
-                {
-                  "header": "Name",
-                  "role": "name"
-                },
-                {
-                  "header": "Gender",
-                  "role": "gender"
-                },
-                {
-                  "header": "Division",
-                  "role": "age_category"
-                },
-                {
-                  "header": "Div_Rank",
-                  "role": "age_rank"
-                },
-                {
-                  "header": "Total_Time",
-                  "role": "total_time"
-                },
-                {
-                  "header": "Country",
-                  "role": "residence"
-                },
-                {
-                  "header": "Status",
-                  "role": "status"
-                }
-              ],
-              "source_url": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "im703_greece",
-      "name": "IRONMAN 70.3 Greece",
-      "location": "Greece",
-      "location_parts": {
-        "country": "GR"
-      },
-      "image": "images/im703_greece.webp",
-      "source": "https://www.coachcox.co.uk/imstats/series/90/",
-      "editions": [
-        {
-          "date": "2019-04-14",
-          "weather_file": "master/2019/im703_greece_2019/weather-data.json",
-          "categories": [
-            {
-              "id": "im703_greece_2019",
-              "result_tsv": "master/2019/im703_greece_2019/default.tsv",
-              "name": "70.3",
-              "distance": "MD",
-              "description": "2019 IRONMAN 70.3 Greece",
               "segments": [
                 {
                   "sport": "swim",
@@ -235796,6 +237437,90 @@
       "source": "https://www.coachcox.co.uk/imstats/series/197/",
       "editions": [
         {
+          "date": "2026-04-26",
+          "weather_file": "master/2026/im703_brazil_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_brazil_2026",
+              "result_tsv": "master/2026/im703_brazil_2026/default.tsv",
+              "name": "70.3",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Brasilia",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.0975,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
+        {
           "date": "2025-04-13",
           "weather_file": "master/2025/im703_brazil_2025/weather-data.json",
           "categories": [
@@ -255505,6 +257230,90 @@
       "source": "https://www.coachcox.co.uk/imstats/series/373/",
       "editions": [
         {
+          "date": "2026-09-06",
+          "weather_file": "master/2026/im703_knokke_heist_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_knokke_heist_2026",
+              "result_tsv": "master/2026/im703_knokke_heist_2026/default.tsv",
+              "name": "70.3",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Knokke-Heist",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90.1,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.0975,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
+        {
           "date": "2025-09-07",
           "weather_file": "master/2025/im703_knokke_heist_2025/weather-data.json",
           "categories": [
@@ -258410,104 +260219,6 @@
                 {
                   "sport": "run",
                   "distance": 42.195,
-                  "columns": [
-                    {
-                      "header": "Run",
-                      "role": "lap"
-                    }
-                  ]
-                }
-              ],
-              "meta_columns": [
-                {
-                  "header": "ContactId",
-                  "role": "athlete_id"
-                },
-                {
-                  "header": "Overall_Rank",
-                  "role": "overall_rank"
-                },
-                {
-                  "header": "Name",
-                  "role": "name"
-                },
-                {
-                  "header": "Gender",
-                  "role": "gender"
-                },
-                {
-                  "header": "Division",
-                  "role": "age_category"
-                },
-                {
-                  "header": "Div_Rank",
-                  "role": "age_rank"
-                },
-                {
-                  "header": "Total_Time",
-                  "role": "total_time"
-                },
-                {
-                  "header": "Country",
-                  "role": "residence"
-                },
-                {
-                  "header": "Status",
-                  "role": "status"
-                }
-              ],
-              "source_url": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "im703_aix_en_provence",
-      "name": "IRONMAN 70.3 Aix-en-Provence",
-      "location": "Aix-en-Provence, France",
-      "location_parts": {
-        "country": "FR",
-        "region": "Provence-Alpes-Cote d'Azur",
-        "city": "Aix-en-Provence"
-      },
-      "image": "images/im703_aix_en_provence.webp",
-      "source": "https://www.coachcox.co.uk/imstats/race/2705/results/",
-      "editions": [
-        {
-          "date": "2026-05-17",
-          "weather_file": "master/2026/im703_aix_en_provence_2026/weather-data.json",
-          "categories": [
-            {
-              "id": "im703_aix_en_provence_2026",
-              "result_tsv": "master/2026/im703_aix_en_provence_2026/default.tsv",
-              "name": "70.3",
-              "distance": "MD",
-              "description": "2026 IRONMAN 70.3 Aix-en-Provence",
-              "segments": [
-                {
-                  "sport": "swim",
-                  "distance": 1.9,
-                  "columns": [
-                    {
-                      "header": "Swim",
-                      "role": "lap"
-                    }
-                  ]
-                },
-                {
-                  "sport": "bike",
-                  "distance": 90,
-                  "columns": [
-                    {
-                      "header": "Bike",
-                      "role": "lap"
-                    }
-                  ]
-                },
-                {
-                  "sport": "run",
-                  "distance": 21.0975,
                   "columns": [
                     {
                       "header": "Run",

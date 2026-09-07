@@ -1,0 +1,22 @@
+{
+  "im703_zell_am_see": {
+    "subevent_uuid": "f40d667a-c78e-4da8-bfeb-a2041c951226",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Zell am See-Kaprun"
+  },
+  "im703_poznan": {
+    "subevent_uuid": "92f91ff5-f329-4355-8075-f76cdee57f99",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Poznan"
+  },
+  "im703_knokke_heist": {
+    "subevent_uuid": "0ee326bd-a4a9-4e1c-829c-2dcaae9af03f",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Knokke-Heist"
+  },
+  "im703_baku": {
+    "subevent_uuid": "fc03a835-b0f1-4b46-a1d0-2bc44065993d",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Baku"
+  }
+}

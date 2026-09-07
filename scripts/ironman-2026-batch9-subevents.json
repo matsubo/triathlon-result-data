@@ -1,0 +1,37 @@
+{
+  "im703_lapu_lapu": {
+    "subevent_uuid": "e39996ac-51ef-453d-9e9b-e77e9686b2c6",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Lapu-Lapu"
+  },
+  "im703_brasilia": {
+    "subevent_uuid": "17785981-d268-467d-b88f-8535859e80c9",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Brasilia"
+  },
+  "im703_greece": {
+    "subevent_uuid": "64898c01-9906-40e8-8489-3292efe293f5",
+    "year": 2025,
+    "name": "2025 IRONMAN 70.3 Greece"
+  },
+  "im703_vichy": {
+    "subevent_uuid": "bb6009b9-8030-4f4b-84e5-c03be65c6f7c",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Vichy"
+  },
+  "ironman_vichy": {
+    "subevent_uuid": "c087c96c-783f-4142-bc21-52d4cfc31532",
+    "year": 2026,
+    "name": "2026 IRONMAN Vichy"
+  },
+  "ironman_tallinn": {
+    "subevent_uuid": "48b74ff4-543a-4a3d-b1e5-937a91902e9b",
+    "year": 2026,
+    "name": "2026 IRONMAN Tallinn"
+  },
+  "im703_tallinn": {
+    "subevent_uuid": "ad933b6a-be02-4568-9a6e-fc0d86a3e6b3",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Tallinn"
+  }
+}

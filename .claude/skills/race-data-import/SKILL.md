@@ -57,13 +57,14 @@ for p in d.get('query',{}).get('pages',{}).values():
 
 # Step 2: Download and convert to webp (use magick, NOT ffmpeg — ffmpeg lacks webp encoder)
 curl -s -L -H "User-Agent: Mozilla/5.0" "DIRECT_URL" -o /tmp/src.jpg
-magick /tmp/src.jpg -resize 300x200\> images/EVENT_ID.webp
+magick /tmp/src.jpg -resize 600x400^ -gravity center -extent 600x400 -quality 82 images/EVENT_ID.webp
 ```
 
 **Key rules:**
 - Use **direct** upload.wikimedia.org URLs (e.g. `/wikipedia/commons/a/ab/File.jpg`), NOT thumbnail paths (`/thumb/...`)
 - Use `magick` (ImageMagick 7) for conversion — `ffmpeg` does not support webp output on this system
-- Max size: 300×200px (`-resize 300x200\>` preserves aspect ratio)
+- Size: 600×400px — what every image in `images/` actually is, and the limit CLAUDE.md states.
+  `-resize 600x400^ -gravity center -extent 600x400` fills and centre-crops to exactly that.
 - Format: webp only
 
 ### Searching for images when category is unknown

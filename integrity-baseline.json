@@ -1,4 +1,9 @@
 {
+  "im703_baku/2026/im703_baku_2026": {
+    "warnings": 0,
+    "missingLaps": 19,
+    "missingTotal": 0
+  },
   "im703_michigan/2025/im703_michigan_2025": {
     "warnings": 0,
     "missingLaps": 19,
@@ -182,6 +187,11 @@
   "tokunoshima/2017/tokunoshima": {
     "warnings": 0,
     "missingLaps": 2,
+    "missingTotal": 0
+  },
+  "fujikawaguchiko/2026/fujikawaguchiko": {
+    "warnings": 0,
+    "missingLaps": 6,
     "missingTotal": 0
   },
   "fujikawaguchiko/2025/fujikawaguchiko": {
@@ -2569,11 +2579,6 @@
     "missingLaps": 1,
     "missingTotal": 0
   },
-  "im703_brasilia/2026/im703_brasilia_2026": {
-    "warnings": 0,
-    "missingLaps": 5,
-    "missingTotal": 0
-  },
   "im703_valencia/2025/im703_valencia_2025": {
     "warnings": 0,
     "missingLaps": 3,
@@ -3504,6 +3509,11 @@
     "missingLaps": 2,
     "missingTotal": 0
   },
+  "im703_lapu_lapu/2026/im703_lapu_lapu_2026": {
+    "warnings": 0,
+    "missingLaps": 1,
+    "missingTotal": 0
+  },
   "im703_lapu_lapu/2024/im703_lapu_lapu_2024": {
     "warnings": 0,
     "missingLaps": 2,
@@ -3917,6 +3927,11 @@
   "im703_porec/2023/im703_porec_2023": {
     "warnings": 0,
     "missingLaps": 13,
+    "missingTotal": 0
+  },
+  "im703_marathon/2019/im703_marathon_2019": {
+    "warnings": 0,
+    "missingLaps": 4,
     "missingTotal": 0
   },
   "im703_marathon/2024/im703_marathon_2024": {
@@ -4542,11 +4557,6 @@
   "im703_peru/2017/im703_peru_2017": {
     "warnings": 0,
     "missingLaps": 5,
-    "missingTotal": 0
-  },
-  "im703_greece/2019/im703_greece_2019": {
-    "warnings": 0,
-    "missingLaps": 4,
     "missingTotal": 0
   },
   "im703_marbella/2024/im703_marbella_2024": {
@@ -5797,6 +5807,11 @@
   "im703_california/2025/im703_california_2025": {
     "warnings": 0,
     "missingLaps": 1,
+    "missingTotal": 0
+  },
+  "im703_brazil/2026/im703_brazil_2026": {
+    "warnings": 0,
+    "missingLaps": 5,
     "missingTotal": 0
   },
   "im703_brazil/2025/im703_brazil_2025": {
