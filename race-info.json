@@ -107017,11 +107017,11 @@
               "result_tsv": "master/2012/ironman_new_zealand_2012/default.tsv",
               "name": "Full Distance",
               "distance": "LD",
-              "description": "2012 IRONMAN New Zealand",
+              "description": "2012 IRONMAN New Zealand. Postponed a day to 4 March and shortened to half distance (1.9 km swim / 90 km bike / 21.1 km run) because of an unprecedented severe-weather forecast; results are not comparable with full-distance years.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 3.8,
+                  "distance": 1.9,
                   "columns": [
                     {
                       "header": "Swim",
@@ -107031,7 +107031,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 180.2,
+                  "distance": 90,
                   "columns": [
                     {
                       "header": "Bike",
@@ -107041,7 +107041,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 42.195,
+                  "distance": 21.1,
                   "columns": [
                     {
                       "header": "Run",
