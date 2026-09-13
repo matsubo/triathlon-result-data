@@ -90,7 +90,14 @@ function resultToTsvRow(r) {
   const bike = formatTime(r.wtc_biketime);
   const t2 = formatTime(r.wtc_transition2time);
   const run = formatTime(r.wtc_runtime);
-  const country = r.wtc_ContactId?.address1_country || "";
+  // Prefer the controlled "country representing" value: it is a clean country
+  // name (e.g. "United States"), which parseResidence resolves to ISO2. The
+  // contact's address1_country is athlete-entered free text that mixes ISO2,
+  // ISO3 and casing ("US"/"USA"/"deu"/"are"), and ~25% of it fails to parse.
+  const country =
+    r._wtc_countryrepresentingid_value_formatted ||
+    r.wtc_ContactId?.address1_country ||
+    "";
 
   // Determine status
   let status = "";
