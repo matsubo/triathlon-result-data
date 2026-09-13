@@ -14,7 +14,7 @@ added permanent quality gates to this repo:
   extra-columns) with `tsv-lint-known-issues.json` pinning pre-existing
   violations per file. Both registries are shrink-only to-fix lists.
 - The post-import acceptance check is AGGREGATE stats, never sample rows —
-  procedure lives in .claude/skills/race-data-import/SKILL.md §4.
+  procedure lives in [validation-pipeline](validation-pipeline.md).
 
 Fixed during the audit (details in commits 7b0ea4a..52015c4): IRONMAN
 99999-placeholder + ignored Status column (~586k athletes misclassified

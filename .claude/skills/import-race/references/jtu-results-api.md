@@ -9,4 +9,30 @@ Use the **backing JSON API** instead — it is deterministic (keyed by result_ta
 - Result tables for a program: `https://results.jtu.or.jp/api/programs/{program_id}/result_tables` → `res.body[].result_table_id`
 - Rows: `https://results.jtu.or.jp/api/results?cond[result_table_id]=N` → `res.body.result_cols[]` (result_col_order, result_col_caption — may contain `\n`, strip it) + `res.body.result_list[]` (each row has `col_1`..`col_N`; null = empty)
 
-URL-encode the brackets (`cond%5Bevent_id%5D`). Header = captions sorted by result_col_order; convert U+3000→half-width space only in the 氏名 column. See `sport-enum-schema-gap` for the segment-sport mapping caveat. When importing JTU editions, prefer this API and verify row counts; if a new edition's TSV is byte-identical to another event's, that's carousel contamination — fetch the correct table_id.
+URL-encode the brackets (`cond%5Bevent_id%5D`). Header = captions sorted by result_col_order; convert U+3000→half-width space only in the 氏名 column. When importing JTU editions, prefer this API and verify row counts; if a new edition's TSV is byte-identical to another event's, that's carousel contamination — fetch the correct table_id.
+
+## Building the TSV from the API response
+
+```bash
+# 1. Event + program list (program_name tells you what to exclude: リレー/パラ/キッズ)
+curl -s -g "https://results.jtu.or.jp/api/events/search?cond[event_id]=NNN"
+
+# 2. Result tables for a program
+curl -s -g "https://results.jtu.or.jp/api/programs/NNN_1/result_tables"
+
+# 3. Rows (col_1..col_N map 1:1 to result_cols captions, null = empty cell)
+curl -s -g "https://results.jtu.or.jp/api/results?cond[result_table_id]=NNNN"
+```
+
+NOTE: quote or `-g` the URL — `[]` in an unquoted URL breaks curl globbing.
+
+- Header = `result_cols[].result_col_caption`, sorted by `result_col_order`, with embedded
+  `\n` stripped.
+- Some events use full-width spaces in 氏名 — convert to half-width (`名前　太郎` →
+  `名前 太郎`). Only in the 氏名 column.
+- Some columns are **constant division tags** (種別="エイジ"), not age brackets — map them
+  to role `note`, never to a second `age_category`. A duplicate role mapping silently
+  clobbers the real value.
+- Filter out non-age-group programs per CLAUDE.md (キッズ / ジュニア / リレー / パラ /
+  小学 / 中学 / アクアスロン / デュアスロン / ビギナー / チャレンジ) — and check for a
+  division column *within* a table, not just per-program filtering.
