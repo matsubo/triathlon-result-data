@@ -80,7 +80,12 @@ async function fetchResults(subeventUuid) {
 function resultToTsvRow(r) {
   const contactId = r.wtc_ContactId?.contactid || "";
   const overallRank = r.wtc_finishrankoverall || "";
-  const name = r.wtc_ContactId?.fullname || r.athlete || "";
+  // Collapse runs of whitespace: the source occasionally carries doubled spaces
+  // ("Rodrigo Cañete  Galeano"), which CLAUDE.md requires normalising at import
+  // time so the same person matches across races.
+  const name = (r.wtc_ContactId?.fullname || r.athlete || "")
+    .replace(/\s+/g, " ")
+    .trim();
   const gender = formatGender(r.wtc_ContactId?.gendercode);
   const division = r.wtc_AgeGroupId?.wtc_agegroupname || "";
   const divRank = r.wtc_finishrankgroup || "";

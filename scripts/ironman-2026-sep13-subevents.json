@@ -1,0 +1,32 @@
+{
+  "im703_wisconsin": {
+    "subevent_uuid": "251f9699-d503-41d8-986a-b102eeeabd7e",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Wisconsin",
+    "event_uuid": "adaedbb8-6095-e611-9410-005056951bf1"
+  },
+  "im703_wc_men": {
+    "subevent_uuid": "b753115b-701a-420d-8e61-b6c642333303",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 World Championship - Men",
+    "event_uuid": "9798aa20-f278-e111-b16a-005056956277"
+  },
+  "im703_erkner_berlin_brandenburg": {
+    "subevent_uuid": "e61671be-7653-4870-85dc-e4038a3b1a80",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Erkner",
+    "event_uuid": "25bc1a07-6985-434a-86ab-f7c867230491"
+  },
+  "im703_sunshine_coast": {
+    "subevent_uuid": "7474c92d-8566-4dde-9890-961bed24eb7d",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Sunshine Coast",
+    "event_uuid": "be8a13c2-88a0-e211-870b-005056956277"
+  },
+  "ironman_japan": {
+    "subevent_uuid": "389379d7-4d81-45fc-a8f7-ddf825780d2c",
+    "year": 2026,
+    "name": "2026 IRONMAN Japan South Hokkaido",
+    "event_uuid": "4cdb1049-4f27-4e32-b49d-4fc9ca73c2fb"
+  }
+}

@@ -111868,6 +111868,90 @@
       "source": "https://www.coachcox.co.uk/imstats/series/32/",
       "editions": [
         {
+          "date": "2026-09-13",
+          "weather_file": "master/2026/ironman_japan_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "ironman_japan_2026",
+              "result_tsv": "master/2026/ironman_japan_2026/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2026 IRONMAN Japan South Hokkaido。北海道木古内町。スイムは津軽海峡、バイクは函館・江差自動車道、ランは木古内町内。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
+        {
           "date": "2025-09-14",
           "weather_file": "master/2025/ironman_japan_2025/weather-data.json",
           "categories": [
@@ -177825,6 +177909,90 @@
       "source": "https://www.coachcox.co.uk/imstats/race/2649/results/",
       "editions": [
         {
+          "date": "2026-09-12",
+          "weather_file": "master/2026/im703_wisconsin_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_wisconsin_2026",
+              "result_tsv": "master/2026/im703_wisconsin_2026/default.tsv",
+              "name": "Half Distance",
+              "distance": "MD",
+              "description": "IRONMAN 70.3 Wisconsin 2026. Madison, Wisconsin, USA.",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
+        {
           "date": "2025-09-06",
           "weather_file": "master/2025/im703_wisconsin_2025/weather-data.json",
           "categories": [
@@ -190559,6 +190727,90 @@
       "image": "images/im703_wc_men.webp",
       "source": "https://www.coachcox.co.uk/imstats/race/2662/results/",
       "editions": [
+        {
+          "date": "2026-09-13",
+          "weather_file": "master/2026/im703_wc_men_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_wc_men_2026",
+              "result_tsv": "master/2026/im703_wc_men_2026/default.tsv",
+              "name": "Half Distance",
+              "distance": "MD",
+              "description": "IRONMAN 70.3 World Championship (Men) 2026. Nice, France. スイム1.9km（ベ・デ・ザンジュ湾）、バイク90km、ラン21.1km。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-11-09",
           "weather_file": "master/2025/im703_wc_men_2025/weather-data.json",
@@ -222895,6 +223147,90 @@
       "image": "images/im703_sunshine_coast.webp",
       "source": "https://www.coachcox.co.uk/imstats/series/148/",
       "editions": [
+        {
+          "date": "2026-09-13",
+          "weather_file": "master/2026/im703_sunshine_coast_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_sunshine_coast_2026",
+              "result_tsv": "master/2026/im703_sunshine_coast_2026/default.tsv",
+              "name": "70.3",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Sunshine Coast",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90.1,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.0975,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-09-14",
           "weather_file": "master/2025/im703_sunshine_coast_2025/weather-data.json",
@@ -256965,6 +257301,90 @@
       "image": "images/im703_erkner_berlin_brandenburg.webp",
       "source": "https://www.coachcox.co.uk/imstats/series/372/",
       "editions": [
+        {
+          "date": "2026-09-13",
+          "weather_file": "master/2026/im703_erkner_berlin_brandenburg_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_erkner_berlin_brandenburg_2026",
+              "result_tsv": "master/2026/im703_erkner_berlin_brandenburg_2026/default.tsv",
+              "name": "70.3",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Erkner Berlin-Brandenburg",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90.1,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.0975,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-09-14",
           "weather_file": "master/2025/im703_erkner_berlin_brandenburg_2025/weather-data.json",

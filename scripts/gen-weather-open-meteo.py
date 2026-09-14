@@ -19,6 +19,7 @@ to every date, which silently shifts data by an hour across a DST boundary.
 """
 import argparse
 import json
+import urllib.error
 import urllib.request
 from datetime import date as date_cls
 from datetime import datetime, timedelta
@@ -65,7 +66,15 @@ def fetch(lat, lon, start, end):
     )
     last = None
     for base in ENDPOINTS:
-        data = get_json(base + query)
+        # The reanalysis archive caps end_date at yesterday and answers 400 for
+        # anything later. Since the window is widened by a day, a race held
+        # yesterday asks for today and gets rejected — so an HTTP error has to
+        # fall through to the next endpoint rather than abort the loop.
+        try:
+            data = get_json(base + query)
+        except urllib.error.HTTPError as err:
+            last = f"{base} (HTTP {err.code})"
+            continue
         temps = data.get("hourly", {}).get("temperature_2m") or []
         if any(t is not None for t in temps):
             return data, base
