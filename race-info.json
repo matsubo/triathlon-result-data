@@ -65711,6 +65711,112 @@
               "source_url": "https://www.dropbox.com/scl/fi/mex2uf8lax7pqeioel5wz/2026.pdf?rlkey=u986ilx3ywzegym7etlhqlbiv&dl=0"
             },
             {
+              "id": "komatsu_tetsujin_long",
+              "result_tsv": "master/2026/komatsu_tetsujin/long.tsv",
+              "name": "ロングの部",
+              "distance": "DUATHLON",
+              "description": "2026年小松鉄人レースロングの部。第44回大会。ラン6km、バイク44.1km、ラン18.9kmのデュアスロン。",
+              "segments": [
+                {
+                  "sport": "run",
+                  "distance": 6.0,
+                  "columns": [
+                    {
+                      "header": "1ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "1R順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 44.1,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 18.9,
+                  "columns": [
+                    {
+                      "header": "2ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "2R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齢別順",
+                  "role": "age_rank"
+                }
+              ],
+              "source_url": "https://www.dropbox.com/scl/fi/8r0tsr52mll4q36vnv634/2026.pdf?rlkey=xqj70b62qgka26n63itwzgtxu&dl=0"
+            },
+            {
               "id": "komatsu_tetsujin_short",
               "result_tsv": "master/2026/komatsu_tetsujin/short.tsv",
               "name": "ショートの部",
