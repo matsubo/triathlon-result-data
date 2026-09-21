@@ -106,6 +106,73 @@ describe("normalizer functions", () => {
     test("富山市", () => expect(parseResidence("富山市")).toBe("JP-16"));
     test("山口市", () => expect(parseResidence("山口市")).toBe("JP-35"));
     test("大韓民国", () => expect(parseResidence("大韓民国")).toBe("KR"));
+
+    // Municipalities outside 石川県, from the generated national table
+    test("倉敷市", () => expect(parseResidence("倉敷市")).toBe("JP-33"));
+    test("佐渡市", () => expect(parseResidence("佐渡市")).toBe("JP-15"));
+    test("大阪市", () => expect(parseResidence("大阪市")).toBe("JP-27"));
+    test("さいたま市", () => expect(parseResidence("さいたま市")).toBe("JP-11"));
+    test("天城町", () => expect(parseResidence("天城町")).toBe("JP-46"));
+    test("千代田区", () => expect(parseResidence("千代田区")).toBe("JP-13"));
+    // names shared by several prefectures stay unresolved rather than guess
+    test("府中市 (東京/広島)", () => expect(parseResidence("府中市")).toBeNull());
+    test("伊達市 (北海道/福島)", () => expect(parseResidence("伊達市")).toBeNull());
+    test("中央区 (many)", () => expect(parseResidence("中央区")).toBeNull());
+
+    // Prefecture written without its 都/府/県 suffix
+    test("東京", () => expect(parseResidence("東京")).toBe("JP-13"));
+    test("神奈川", () => expect(parseResidence("神奈川")).toBe("JP-14"));
+    test("大阪", () => expect(parseResidence("大阪")).toBe("JP-27"));
+    test("愛知", () => expect(parseResidence("愛知")).toBe("JP-23"));
+
+    // Prefecture followed by anything — address, or the JTU 登録地 federation
+    test("神奈川県横浜市", () => expect(parseResidence("神奈川県横浜市")).toBe("JP-14"));
+    test("香川県高松市", () => expect(parseResidence("香川県高松市")).toBe("JP-37"));
+    test("東京都トライアスロン連合", () =>
+      expect(parseResidence("東京都トライアスロン連合")).toBe("JP-13"));
+    test("北海道トライアスロン連合", () =>
+      expect(parseResidence("北海道トライアスロン連合")).toBe("JP-01"));
+    // …but a school is an affiliation, not a place of residence
+    test("北海道大学", () => expect(parseResidence("北海道大学")).toBeNull());
+    test("九州大学", () => expect(parseResidence("九州大学")).toBeNull());
+
+    // ISO 3166-1 alpha-3 regardless of case
+    test("aus", () => expect(parseResidence("aus")).toBe("AU"));
+    test("deu", () => expect(parseResidence("deu")).toBe("DE"));
+    test("gbr", () => expect(parseResidence("gbr")).toBe("GB"));
+    test("Jpn", () => expect(parseResidence("Jpn")).toBe("JP"));
+
+    // Country names as the sources actually spell them
+    test("Argentinia (sic)", () => expect(parseResidence("Argentinia")).toBe("AR"));
+    test("Deutschland", () => expect(parseResidence("Deutschland")).toBe("DE"));
+    test("Schweiz", () => expect(parseResidence("Schweiz")).toBe("CH"));
+    test("Russian Federation", () =>
+      expect(parseResidence("Russian Federation")).toBe("RU"));
+    test("Czechia", () => expect(parseResidence("Czechia")).toBe("CZ"));
+    test("UNITED STATE", () => expect(parseResidence("UNITED STATE")).toBe("US"));
+    test("ホンコンチャイナ", () => expect(parseResidence("ホンコンチャイナ")).toBe("HK"));
+
+    // Full-width input is folded before lookup
+    test("ＵＳＡ", () => expect(parseResidence("ＵＳＡ")).toBe("US"));
+
+    // alpha-3 codes that were missing from the table
+    test("BLM", () => expect(parseResidence("BLM")).toBe("BL"));
+    test("CYM", () => expect(parseResidence("CYM")).toBe("KY"));
+    test("COD", () => expect(parseResidence("COD")).toBe("CD"));
+    // IOC / colloquial three-letter codes
+    test("GER (IOC)", () => expect(parseResidence("GER")).toBe("DE"));
+    test("SUI (IOC)", () => expect(parseResidence("SUI")).toBe("CH"));
+    test("SCO", () => expect(parseResidence("SCO")).toBe("GB"));
+
+    // A trailing parenthetical qualifier is dropped and the rest re-parsed
+    test("GBR (Great Britain)", () =>
+      expect(parseResidence("GBR (Great Britain)")).toBe("GB"));
+    test("東京(神奈川)", () => expect(parseResidence("東京(神奈川)")).toBe("JP-13"));
+
+    // Euro-plate single letters are deliberately left unresolved
+    test("F (euro plate)", () => expect(parseResidence("F")).toBeNull());
+    // as is a country name that could be either Virgin Islands
+    test("Virgin Islands", () => expect(parseResidence("Virgin Islands")).toBeNull());
   });
 
   describe("parseAgeCategory", () => {
