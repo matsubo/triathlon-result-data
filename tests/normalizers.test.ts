@@ -87,6 +87,25 @@ describe("normalizer functions", () => {
     test("男 (leak)", () => expect(parseResidence("男")).toBeNull());
     test("time (leak)", () => expect(parseResidence("3:02:41")).toBeNull());
     test("学連", () => expect(parseResidence("学連(埼玉)")).toBeNull());
+
+    // 小松鉄人レース records Ishikawa residents by municipality and everyone
+    // else by prefecture, so every Ishikawa 市/郡 has to resolve on its own.
+    test("金沢市", () => expect(parseResidence("金沢市")).toBe("JP-17"));
+    test("小松市", () => expect(parseResidence("小松市")).toBe("JP-17"));
+    test("野々市市", () => expect(parseResidence("野々市市")).toBe("JP-17"));
+    test("かほく市", () => expect(parseResidence("かほく市")).toBe("JP-17"));
+    test("河北郡", () => expect(parseResidence("河北郡")).toBe("JP-17"));
+    test("羽咋郡", () => expect(parseResidence("羽咋郡")).toBe("JP-17"));
+    test("鳳珠郡", () => expect(parseResidence("鳳珠郡")).toBe("JP-17"));
+    test("鹿島郡", () => expect(parseResidence("鹿島郡")).toBe("JP-17"));
+    test("能美郡", () => expect(parseResidence("能美郡")).toBe("JP-17"));
+    test("津幡町", () => expect(parseResidence("津幡町")).toBe("JP-17"));
+    // municipality followed by a neighbourhood name
+    test("金沢市新保", () => expect(parseResidence("金沢市新保")).toBe("JP-17"));
+    // a municipality column is not a licence to assume the host prefecture
+    test("富山市", () => expect(parseResidence("富山市")).toBe("JP-16"));
+    test("山口市", () => expect(parseResidence("山口市")).toBe("JP-35"));
+    test("大韓民国", () => expect(parseResidence("大韓民国")).toBe("KR"));
   });
 
   describe("parseAgeCategory", () => {

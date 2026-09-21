@@ -266,12 +266,52 @@ const PREFECTURES = {
   沖縄県: "JP-47",
 };
 
-// Cities/regions → prefecture mapping
-const CITY_TO_PREFECTURE = {
+// Municipality (市/郡/町) → prefecture.
+//
+// Some events record residents of the host prefecture by municipality and
+// everyone else by prefecture name — 小松鉄人レース does exactly this, so a bare
+// 「小松市」 has to resolve to 石川県 on its own. The host prefecture is never
+// assumed for an unrecognised municipality: the same column also carries
+// 富山市 and 山口市, which belong elsewhere.
+const MUNICIPALITY_TO_PREFECTURE = {
+  // 石川県 — every 市 and 郡, plus the towns those 郡 contain
+  金沢市: "JP-17",
+  七尾市: "JP-17",
+  小松市: "JP-17",
+  輪島市: "JP-17",
+  珠洲市: "JP-17",
+  加賀市: "JP-17",
+  羽咋市: "JP-17",
+  かほく市: "JP-17",
+  白山市: "JP-17",
+  能美市: "JP-17",
+  野々市市: "JP-17",
+  能美郡: "JP-17",
+  河北郡: "JP-17",
+  羽咋郡: "JP-17",
+  鹿島郡: "JP-17",
+  鳳珠郡: "JP-17",
+  川北町: "JP-17",
+  津幡町: "JP-17",
+  内灘町: "JP-17",
+  志賀町: "JP-17",
+  宝達志水町: "JP-17",
+  中能登町: "JP-17",
+  穴水町: "JP-17",
+  能登町: "JP-17",
+  // municipalities outside 石川県 that appear in the same column
+  富山市: "JP-16",
+  山口市: "JP-35",
+  // 沖縄県
   宮古島市: "JP-47",
   石垣市: "JP-47",
   那覇市: "JP-47",
 };
+
+// Longest key first, so 「野々市市」 is matched before any shorter prefix.
+const MUNICIPALITY_PREFIXES = Object.entries(MUNICIPALITY_TO_PREFECTURE).sort(
+  (a, b) => b[0].length - a[0].length,
+);
 
 // ISO 3166-1 alpha-2 country mapping (case-insensitive)
 const COUNTRIES = {
@@ -430,6 +470,7 @@ const COUNTRIES = {
   anguilla: "AI",
   andorra: "AD",
   韓国: "KR",
+  大韓民国: "KR",
   台湾: "TW",
   中国: "CN",
   ドイツ: "DE",
@@ -494,8 +535,14 @@ export function parseResidence(str) {
   // Japanese prefecture
   if (PREFECTURES[trimmed]) return PREFECTURES[trimmed];
 
-  // City → prefecture
-  if (CITY_TO_PREFECTURE[trimmed]) return CITY_TO_PREFECTURE[trimmed];
+  // Municipality → prefecture
+  if (MUNICIPALITY_TO_PREFECTURE[trimmed])
+    return MUNICIPALITY_TO_PREFECTURE[trimmed];
+
+  // Municipality followed by a neighbourhood ("金沢市新保")
+  for (const [name, code] of MUNICIPALITY_PREFIXES) {
+    if (trimmed.startsWith(name)) return code;
+  }
 
   return null;
 }
