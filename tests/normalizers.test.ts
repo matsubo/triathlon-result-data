@@ -169,9 +169,28 @@ describe("normalizer functions", () => {
       expect(parseResidence("GBR (Great Britain)")).toBe("GB"));
     test("東京(神奈川)", () => expect(parseResidence("東京(神奈川)")).toBe("JP-13"));
 
-    // Euro-plate single letters are deliberately left unresolved
-    test("F (euro plate)", () => expect(parseResidence("F")).toBeNull());
-    // as is a country name that could be either Virgin Islands
+    // International vehicle registration codes, as IRONMAN Switzerland writes
+    // its Country column
+    test("A (euro plate)", () => expect(parseResidence("A")).toBe("AT"));
+    test("B (euro plate)", () => expect(parseResidence("B")).toBe("BE"));
+    test("D (euro plate)", () => expect(parseResidence("D")).toBe("DE"));
+    test("E (euro plate)", () => expect(parseResidence("E")).toBe("ES"));
+    test("F (euro plate)", () => expect(parseResidence("F")).toBe("FR"));
+    test("H (euro plate)", () => expect(parseResidence("H")).toBe("HU"));
+    test("I (euro plate)", () => expect(parseResidence("I")).toBe("IT"));
+    test("J (euro plate)", () => expect(parseResidence("J")).toBe("JP"));
+    test("L (euro plate)", () => expect(parseResidence("L")).toBe("LU"));
+    test("N (euro plate)", () => expect(parseResidence("N")).toBe("NO"));
+    test("P (euro plate)", () => expect(parseResidence("P")).toBe("PT"));
+    test("R (euro plate)", () => expect(parseResidence("R")).toBe("RO"));
+    test("S (euro plate)", () => expect(parseResidence("S")).toBe("SE"));
+    // M is Malta's plate but also the male gender token — left unmapped so a
+    // gender column leaking into 居住地 can never be read as a country
+    test("M is not Malta", () => expect(parseResidence("M")).toBeNull());
+    test("W is not a country", () => expect(parseResidence("W")).toBeNull());
+    // lowercase single letters are noise, not plates
+    test("lowercase d", () => expect(parseResidence("d")).toBeNull());
+    // a country name that could be either Virgin Islands stays unresolved
     test("Virgin Islands", () => expect(parseResidence("Virgin Islands")).toBeNull());
   });
 

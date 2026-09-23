@@ -317,6 +317,36 @@ const MAX_MUNICIPALITY_LENGTH = Math.max(
 // by the prefecture-prefix rule ("北海道大学").
 const SCHOOL = /(大学|大學|学院|学園|高校|高等学校|中学)/;
 
+// International vehicle registration codes ("euro plates"). IRONMAN
+// Switzerland writes its Country column this way — D/F/E/I/B/A/S/N/L/H/P/R,
+// 2,151 rows across 2007-2014.
+//
+// The obvious hazard is that a single letter is also a gender token, so a
+// shifted column would silently become a country. The data says that is not
+// what these are: in the 405 rows whose Country is "F", the gender column
+// reads "M" 380 times and "F" 25 times — a normal French field, not a leak.
+// "R" is confirmed the same way (its one row is Tiberiu Muntean, Romanian).
+//
+// Two are withheld on purpose. "M" is Malta's plate *and* the male token, the
+// one collision that could not be told apart if it ever did leak; and "T"
+// (Thailand) appears once, on a row whose name is the single character "g".
+// Matching is uppercase-only — a lone lowercase letter is noise, not a plate.
+const VEHICLE_CODES = {
+  A: "AT",
+  B: "BE",
+  D: "DE",
+  E: "ES",
+  F: "FR",
+  H: "HU",
+  I: "IT",
+  J: "JP",
+  L: "LU",
+  N: "NO",
+  P: "PT",
+  R: "RO",
+  S: "SE",
+};
+
 // Placeholders, in the spellings the sources use.
 const NON_VALUES = new Set([
   "unknown",
@@ -684,6 +714,10 @@ export function parseResidence(str) {
     const code = ISO3_TO_ISO2[trimmed.toUpperCase()];
     if (code) return code;
   }
+
+  // International vehicle registration code (single uppercase letter)
+  if (/^[A-Z]$/.test(trimmed) && VEHICLE_CODES[trimmed])
+    return VEHICLE_CODES[trimmed];
 
   // Japanese prefecture, with or without its 都/府/県 suffix
   if (PREFECTURES[trimmed]) return PREFECTURES[trimmed];
