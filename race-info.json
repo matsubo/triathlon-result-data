@@ -79514,10 +79514,10 @@
         "city": "山武郡九十九里町"
       },
       "image": "images/kujukuri.webp",
-      "source": "https://www.kujukuri-tri.jp/",
+      "source": "https://www.99t.jp/",
       "editions": [
         {
-          "date": "2025-09-07",
+          "date": "2025-09-27",
           "weather_file": "master/2025/kujukuri/weather-data.json",
           "categories": [
             {
@@ -79529,7 +79529,7 @@
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 2,
+                  "distance": 1.9,
                   "columns": [
                     {
                       "header": "スイムラップ",
@@ -79547,7 +79547,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 80,
+                  "distance": 90.1,
                   "columns": [
                     {
                       "header": "バイクラップ",
@@ -79573,217 +79573,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 20,
-                  "columns": [
-                    {
-                      "header": "ランラップ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "R順",
-                      "role": "rank"
-                    }
-                  ]
-                }
-              ],
-              "meta_columns": [
-                {
-                  "header": "総合順位",
-                  "role": "overall_rank"
-                },
-                {
-                  "header": "No.",
-                  "role": "bib"
-                },
-                {
-                  "header": "氏名",
-                  "role": "name"
-                },
-                {
-                  "header": "年齢",
-                  "role": "age"
-                },
-                {
-                  "header": "性別",
-                  "role": "gender"
-                },
-                {
-                  "header": "総合記録",
-                  "role": "total_time"
-                },
-                {
-                  "header": "年代区分",
-                  "role": "age_category"
-                },
-                {
-                  "header": "年代順位",
-                  "role": "age_rank"
-                }
-              ],
-              "source_url": null
-            },
-            {
-              "id": "kujukuri_sd",
-              "result_tsv": "master/2025/kujukuri/sd.tsv",
-              "name": "スプリントディスタンス",
-              "distance": "SD",
-              "description": "2025年 スプリントディスタンス",
-              "segments": [
-                {
-                  "sport": "swim",
-                  "distance": 0.75,
-                  "columns": [
-                    {
-                      "header": "スイムラップ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "S順",
-                      "role": "rank"
-                    },
-                    {
-                      "header": "T1ラップ",
-                      "role": "transition"
-                    }
-                  ]
-                },
-                {
-                  "sport": "bike",
-                  "distance": 20,
-                  "columns": [
-                    {
-                      "header": "バイクラップ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "B順",
-                      "role": "rank"
-                    },
-                    {
-                      "header": "スプリット",
-                      "role": "cumulative_time"
-                    },
-                    {
-                      "header": "通過",
-                      "role": "cumulative_rank"
-                    },
-                    {
-                      "header": "T2ラップ",
-                      "role": "transition"
-                    }
-                  ]
-                },
-                {
-                  "sport": "run",
-                  "distance": 5,
-                  "columns": [
-                    {
-                      "header": "ランラップ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "R順",
-                      "role": "rank"
-                    }
-                  ]
-                }
-              ],
-              "meta_columns": [
-                {
-                  "header": "総合順位",
-                  "role": "overall_rank"
-                },
-                {
-                  "header": "No.",
-                  "role": "bib"
-                },
-                {
-                  "header": "氏名",
-                  "role": "name"
-                },
-                {
-                  "header": "年齢",
-                  "role": "age"
-                },
-                {
-                  "header": "性別",
-                  "role": "gender"
-                },
-                {
-                  "header": "総合記録",
-                  "role": "total_time"
-                },
-                {
-                  "header": "年代区分",
-                  "role": "age_category"
-                },
-                {
-                  "header": "年代順位",
-                  "role": "age_rank"
-                }
-              ],
-              "source_url": null
-            }
-          ]
-        },
-        {
-          "date": "2024-09-08",
-          "weather_file": "master/2024/kujukuri/weather-data.json",
-          "categories": [
-            {
-              "id": "kujukuri_md",
-              "result_tsv": "master/2024/kujukuri/md.tsv",
-              "name": "ミドルディスタンス",
-              "distance": "MD",
-              "description": "2024年 ミドルディスタンス",
-              "segments": [
-                {
-                  "sport": "swim",
-                  "distance": 2,
-                  "columns": [
-                    {
-                      "header": "スイムラップ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "S順",
-                      "role": "rank"
-                    },
-                    {
-                      "header": "T1ラップ",
-                      "role": "transition"
-                    }
-                  ]
-                },
-                {
-                  "sport": "bike",
-                  "distance": 80,
-                  "columns": [
-                    {
-                      "header": "バイクラップ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "B順",
-                      "role": "rank"
-                    },
-                    {
-                      "header": "スプリット",
-                      "role": "cumulative_time"
-                    },
-                    {
-                      "header": "通過",
-                      "role": "cumulative_rank"
-                    },
-                    {
-                      "header": "T2ラップ",
-                      "role": "transition"
-                    }
-                  ]
-                },
-                {
-                  "sport": "run",
-                  "distance": 20,
+                  "distance": 21.1,
                   "columns": [
                     {
                       "header": "ランラップ",
@@ -79834,10 +79624,10 @@
             },
             {
               "id": "kujukuri_od",
-              "result_tsv": "master/2024/kujukuri/od.tsv",
-              "name": "オリンピックディスタンス",
+              "result_tsv": "master/2025/kujukuri/od.tsv",
+              "name": "スタンダードディスタンス",
               "distance": "OD",
-              "description": "2024年 オリンピックディスタンス",
+              "description": "2025年 スタンダードディスタンス",
               "segments": [
                 {
                   "sport": "swim",
@@ -79937,19 +79727,19 @@
           ]
         },
         {
-          "date": "2023-09-10",
-          "weather_file": "master/2023/kujukuri/weather-data.json",
+          "date": "2024-10-06",
+          "weather_file": "master/2024/kujukuri/weather-data.json",
           "categories": [
             {
               "id": "kujukuri_md",
-              "result_tsv": "master/2023/kujukuri/md.tsv",
+              "result_tsv": "master/2024/kujukuri/md.tsv",
               "name": "ミドルディスタンス",
               "distance": "MD",
-              "description": "2023年 ミドルディスタンス",
+              "description": "2024年 ミドルディスタンス。大会後の主催者発表では、潮流の影響でスイムの実測距離は1.97kmだった",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 2,
+                  "distance": 1.9,
                   "columns": [
                     {
                       "header": "スイムラップ",
@@ -79967,7 +79757,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 80,
+                  "distance": 90.1,
                   "columns": [
                     {
                       "header": "バイクラップ",
@@ -79993,7 +79783,217 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 20,
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "年代区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年代順位",
+                  "role": "age_rank"
+                }
+              ],
+              "source_url": null
+            },
+            {
+              "id": "kujukuri_od",
+              "result_tsv": "master/2024/kujukuri/od.tsv",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "description": "2024年 オリンピックディスタンス。大会後の主催者発表では、潮流の影響でスイムの実測距離は1.62kmだった",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "スイムラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "S順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "T1ラップ",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    },
+                    {
+                      "header": "T2ラップ",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "年代区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年代順位",
+                  "role": "age_rank"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
+        {
+          "date": "2023-10-08",
+          "weather_file": "master/2023/kujukuri/weather-data.json",
+          "categories": [
+            {
+              "id": "kujukuri_md",
+              "result_tsv": "master/2023/kujukuri/md.tsv",
+              "name": "ミドルディスタンス",
+              "distance": "MD",
+              "description": "2023年 ミドルディスタンス",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "スイムラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "S順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "T1ラップ",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 91.1,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    },
+                    {
+                      "header": "T2ラップ",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
                   "columns": [
                     {
                       "header": "ランラップ",
@@ -80147,7 +80147,7 @@
           ]
         },
         {
-          "date": "2022-09-11",
+          "date": "2022-09-18",
           "weather_file": "master/2022/kujukuri/weather-data.json",
           "categories": [
             {
@@ -80155,11 +80155,11 @@
               "result_tsv": "master/2022/kujukuri/md.tsv",
               "name": "ミドルディスタンス",
               "distance": "MD",
-              "description": "2022年 ミドルディスタンス",
+              "description": "2022年 ミドルディスタンス。台風14号接近のため13:20に雷雨で競技中止となり、それ以降のフィニッシュはNOF/DNF扱い",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 2,
+                  "distance": 1.9,
                   "columns": [
                     {
                       "header": "スイムラップ",
@@ -80177,7 +80177,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 80,
+                  "distance": 91.1,
                   "columns": [
                     {
                       "header": "バイクラップ",
@@ -80203,7 +80203,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 20,
+                  "distance": 21.1,
                   "columns": [
                     {
                       "header": "ランラップ",
@@ -80257,7 +80257,7 @@
               "result_tsv": "master/2022/kujukuri/od.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
-              "description": "2022年 オリンピックディスタンス",
+              "description": "2022年 オリンピックディスタンス。台風14号接近のため13:20に雷雨で競技中止となり、それ以降のフィニッシュはNOF/DNF扱い",
               "segments": [
                 {
                   "sport": "swim",
@@ -80357,7 +80357,7 @@
           ]
         },
         {
-          "date": "2021-09-12",
+          "date": "2021-10-31",
           "weather_file": "master/2021/kujukuri/weather-data.json",
           "categories": [
             {
@@ -80365,11 +80365,11 @@
               "result_tsv": "master/2021/kujukuri/md.tsv",
               "name": "ミドルディスタンス",
               "distance": "MD",
-              "description": "2021年 ミドルディスタンス",
+              "description": "2021年 ミドルディスタンス。新型コロナの影響で10月3日から延期して開催",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 2,
+                  "distance": 1.9,
                   "columns": [
                     {
                       "header": "スイムラップ",
@@ -80387,7 +80387,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 80,
+                  "distance": 91,
                   "columns": [
                     {
                       "header": "バイクラップ",
@@ -80413,7 +80413,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 20,
+                  "distance": 21,
                   "columns": [
                     {
                       "header": "ランラップ",
@@ -80467,7 +80467,7 @@
               "result_tsv": "master/2021/kujukuri/od.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
-              "description": "2021年 オリンピックディスタンス",
+              "description": "2021年 オリンピックディスタンス。新型コロナの影響で10月3日から延期して開催",
               "segments": [
                 {
                   "sport": "swim",
@@ -80567,7 +80567,7 @@
           ]
         },
         {
-          "date": "2019-09-08",
+          "date": "2019-09-22",
           "weather_file": "master/2019/kujukuri/weather-data.json",
           "categories": [
             {
@@ -80579,7 +80579,7 @@
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 2,
+                  "distance": 1.9,
                   "columns": [
                     {
                       "header": "スイムラップ",
@@ -80597,7 +80597,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 80,
+                  "distance": 90.1,
                   "columns": [
                     {
                       "header": "バイクラップ",
@@ -80623,7 +80623,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 20,
+                  "distance": 21.1,
                   "columns": [
                     {
                       "header": "ランラップ",
@@ -80777,7 +80777,7 @@
           ]
         },
         {
-          "date": "2018-09-09",
+          "date": "2018-09-16",
           "weather_file": "master/2018/kujukuri/weather-data.json",
           "categories": [
             {
@@ -80789,7 +80789,7 @@
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 2,
+                  "distance": 1.9,
                   "columns": [
                     {
                       "header": "スイムラップ",
@@ -80803,7 +80803,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 80,
+                  "distance": 90.1,
                   "columns": [
                     {
                       "header": "バイクラップ",
@@ -80825,7 +80825,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 20,
+                  "distance": 21.1,
                   "columns": [
                     {
                       "header": "ランラップ",
@@ -80971,7 +80971,7 @@
           ]
         },
         {
-          "date": "2017-09-03",
+          "date": "2017-09-16",
           "weather_file": "master/2017/kujukuri/weather-data.json",
           "categories": [
             {
@@ -81071,7 +81071,7 @@
           ]
         },
         {
-          "date": "2016-09-04",
+          "date": "2016-09-24",
           "weather_file": "master/2016/kujukuri/weather-data.json",
           "categories": [
             {
@@ -81171,7 +81171,7 @@
           ]
         },
         {
-          "date": "2015-09-06",
+          "date": "2015-09-26",
           "weather_file": "master/2015/kujukuri/weather-data.json",
           "categories": [
             {
@@ -81271,7 +81271,7 @@
           ]
         },
         {
-          "date": "2014-09-07",
+          "date": "2014-09-20",
           "weather_file": "master/2014/kujukuri/weather-data.json",
           "categories": [
             {
@@ -81371,7 +81371,7 @@
           ]
         },
         {
-          "date": "2020-09-13",
+          "date": "2020-10-11",
           "weather_file": "master/2020/kujukuri/weather-data.json",
           "categories": [
             {
@@ -81379,11 +81379,11 @@
               "result_tsv": "master/2020/kujukuri/duathlon.tsv",
               "name": "デュアスロン",
               "distance": "DUATHLON",
-              "description": "2020年 デュアスロン",
+              "description": "2020年 デュアスロン。台風14号の影響でトライアスロンからデュアスロン（ラン1.5km・バイク40km・ラン10km）に変更して開催",
               "segments": [
                 {
                   "sport": "run",
-                  "distance": 5,
+                  "distance": 1.5,
                   "columns": [
                     {
                       "header": "ラン1ラップ",
