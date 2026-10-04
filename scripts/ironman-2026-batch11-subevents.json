@@ -1,0 +1,72 @@
+{
+  "ironman_wisconsin": {
+    "subevent_uuid": "1226621d-a297-4b14-aa34-f08811a460f3",
+    "year": 2026,
+    "name": "2026 IRONMAN Wisconsin"
+  },
+  "im703_santa_cruz": {
+    "subevent_uuid": "fac8db48-5526-4b45-9709-d73e864b6278",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Santa Cruz"
+  },
+  "ironman_wales": {
+    "subevent_uuid": "c116f798-7f84-4d9c-a513-2603642b90ce",
+    "year": 2026,
+    "name": "2026 IRONMAN Wales"
+  },
+  "im703_belgrade": {
+    "subevent_uuid": "ff9f63b6-57ad-4cbb-8fe4-578aabcba1a6",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Belgrade"
+  },
+  "ironman_maryland": {
+    "subevent_uuid": "46e754db-2cb0-4a75-b9ad-2b9d0140a90e",
+    "year": 2026,
+    "name": "2026 IRONMAN Maryland"
+  },
+  "ironman_italy": {
+    "subevent_uuid": "29e186db-f6bc-4393-93cd-992737521f2a",
+    "year": 2026,
+    "name": "2026 IRONMAN Italy Emilia Romagna"
+  },
+  "im703_italy_emilia_romagna": {
+    "subevent_uuid": "54d56e50-9c53-48bc-a317-86313efe3938",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Italy Emilia Romagna"
+  },
+  "im703_sao_paulo": {
+    "subevent_uuid": "3bc09d29-8131-4efa-af79-8257b58114a3",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Sao Paulo"
+  },
+  "im703_weymouth": {
+    "subevent_uuid": "57843283-6d31-4682-8630-88ed38ebd1f0",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Weymouth"
+  },
+  "im703_washington_tri_cities": {
+    "subevent_uuid": "ca676747-0220-4761-9043-5cc6525b354a",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Washington Tri-Cities"
+  },
+  "im703_michigan": {
+    "subevent_uuid": "4d9e4392-ca94-4e7e-b47f-1c929b257a9e",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Michigan"
+  },
+  "im703_cozumel": {
+    "subevent_uuid": "f77ac398-ef29-4c13-8fd5-06bd4cd1151b",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Cozumel"
+  },
+  "im703_augusta": {
+    "subevent_uuid": "9ef62436-f5df-455c-b97b-e96fe5afe36c",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Augusta"
+  },
+  "ironman_chattanooga": {
+    "subevent_uuid": "002a44d9-34a7-4f44-bb46-dc254e3fcee9",
+    "year": 2026,
+    "name": "2026 IRONMAN Chattanooga"
+  }
+}

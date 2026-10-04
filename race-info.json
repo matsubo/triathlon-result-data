@@ -649,6 +649,90 @@
       "source": "https://www.coachcox.co.uk/imstats/race/2620/results/",
       "editions": [
         {
+          "date": "2026-09-20",
+          "weather_file": "master/2026/im703_michigan_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_michigan_2026",
+              "result_tsv": "master/2026/im703_michigan_2026/default.tsv",
+              "name": "70.3 Triathlon",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Michigan",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.0975,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": "https://www.coachcox.co.uk/wp-json/imstats/v1.90/race/results/2620"
+            }
+          ]
+        },
+        {
           "date": "2025-09-14",
           "weather_file": "master/2025/im703_michigan_2025/weather-data.json",
           "categories": [
@@ -65621,7 +65705,7 @@
                 },
                 {
                   "sport": "trail_running",
-                  "distance": 9.0,
+                  "distance": 9,
                   "columns": [
                     {
                       "header": "登山",
@@ -65719,7 +65803,7 @@
               "segments": [
                 {
                   "sport": "run",
-                  "distance": 6.0,
+                  "distance": 6,
                   "columns": [
                     {
                       "header": "1ランラップ",
@@ -65825,7 +65909,7 @@
               "segments": [
                 {
                   "sport": "run",
-                  "distance": 6.0,
+                  "distance": 6,
                   "columns": [
                     {
                       "header": "1ランラップ",
@@ -129856,6 +129940,90 @@
       "source": "https://www.coachcox.co.uk/imstats/race/2454/results/",
       "editions": [
         {
+          "date": "2026-09-13",
+          "weather_file": "master/2026/ironman_wisconsin_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "ironman_wisconsin_2026",
+              "result_tsv": "master/2026/ironman_wisconsin_2026/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2026 IRONMAN Wisconsin",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
+        {
           "date": "2025-09-07",
           "weather_file": "master/2025/ironman_wisconsin_2025/weather-data.json",
           "categories": [
@@ -131801,6 +131969,90 @@
       "source": "https://www.coachcox.co.uk/imstats/race/2456/results/",
       "editions": [
         {
+          "date": "2026-09-19",
+          "weather_file": "master/2026/ironman_italy_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "ironman_italy_2026",
+              "result_tsv": "master/2026/ironman_italy_2026/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2026 IRONMAN Italy Emilia Romagna",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
+        {
           "date": "2025-09-20",
           "weather_file": "master/2025/ironman_italy_2025/weather-data.json",
           "categories": [
@@ -132484,6 +132736,90 @@
       "image": "images/ironman_maryland.webp",
       "source": "https://www.coachcox.co.uk/imstats/race/2457/results/",
       "editions": [
+        {
+          "date": "2026-09-19",
+          "weather_file": "master/2026/ironman_maryland_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "ironman_maryland_2026",
+              "result_tsv": "master/2026/ironman_maryland_2026/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2026 IRONMAN Maryland",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-09-20",
           "weather_file": "master/2025/ironman_maryland_2025/weather-data.json",
@@ -133411,6 +133747,90 @@
       "image": "images/ironman_wales.webp",
       "source": "https://www.coachcox.co.uk/imstats/race/2458/results/",
       "editions": [
+        {
+          "date": "2026-09-13",
+          "weather_file": "master/2026/ironman_wales_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "ironman_wales_2026",
+              "result_tsv": "master/2026/ironman_wales_2026/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2026 IRONMAN Wales",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-09-21",
           "weather_file": "master/2025/ironman_wales_2025/weather-data.json",
@@ -134516,6 +134936,90 @@
       "image": "images/ironman_chattanooga.webp",
       "source": "https://www.coachcox.co.uk/imstats/race/2459/results/",
       "editions": [
+        {
+          "date": "2026-09-27",
+          "weather_file": "master/2026/ironman_chattanooga_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "ironman_chattanooga_2026",
+              "result_tsv": "master/2026/ironman_chattanooga_2026/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2026 IRONMAN Chattanooga",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-09-28",
           "weather_file": "master/2025/ironman_chattanooga_2025/weather-data.json",
@@ -177385,6 +177889,90 @@
       "source": "https://www.coachcox.co.uk/imstats/race/2636/results/",
       "editions": [
         {
+          "date": "2026-09-13",
+          "weather_file": "master/2026/im703_santa_cruz_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_santa_cruz_2026",
+              "result_tsv": "master/2026/im703_santa_cruz_2026/default.tsv",
+              "name": "Half Distance",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Santa Cruz",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
+        {
           "date": "2025-09-07",
           "weather_file": "master/2025/im703_santa_cruz_2025/weather-data.json",
           "categories": [
@@ -179009,6 +179597,90 @@
       "source": "https://www.coachcox.co.uk/imstats/race/2648/results/",
       "editions": [
         {
+          "date": "2026-09-20",
+          "weather_file": "master/2026/im703_weymouth_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_weymouth_2026",
+              "result_tsv": "master/2026/im703_weymouth_2026/default.tsv",
+              "name": "70.3",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Weymouth",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
+        {
           "date": "2025-09-14",
           "weather_file": "master/2025/im703_weymouth_2025/weather-data.json",
           "categories": [
@@ -180023,6 +180695,90 @@
       "source": "https://www.coachcox.co.uk/imstats/race/2651/results/",
       "editions": [
         {
+          "date": "2026-09-13",
+          "weather_file": "master/2026/im703_belgrade_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_belgrade_2026",
+              "result_tsv": "master/2026/im703_belgrade_2026/default.tsv",
+              "name": "Half Distance",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Belgrade",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
+        {
           "date": "2025-09-21",
           "weather_file": "master/2025/im703_belgrade_2025/weather-data.json",
           "categories": [
@@ -180204,6 +180960,90 @@
       "image": "images/im703_cozumel.webp",
       "source": "https://www.coachcox.co.uk/imstats/race/2598/results/",
       "editions": [
+        {
+          "date": "2026-09-20",
+          "weather_file": "master/2026/im703_cozumel_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_cozumel_2026",
+              "result_tsv": "master/2026/im703_cozumel_2026/default.tsv",
+              "name": "Half Distance",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Cozumel",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-09-21",
           "weather_file": "master/2025/im703_cozumel_2025/weather-data.json",
@@ -181562,6 +182402,90 @@
       "image": "images/im703_augusta.webp",
       "source": "https://www.coachcox.co.uk/imstats/race/2593/results/",
       "editions": [
+        {
+          "date": "2026-09-27",
+          "weather_file": "master/2026/im703_augusta_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_augusta_2026",
+              "result_tsv": "master/2026/im703_augusta_2026/default.tsv",
+              "name": "Half Distance",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Augusta",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-09-28",
           "weather_file": "master/2025/im703_augusta_2025/weather-data.json",
@@ -234083,6 +235007,90 @@
       "source": "https://www.coachcox.co.uk/imstats/series/186/",
       "editions": [
         {
+          "date": "2026-09-20",
+          "weather_file": "master/2026/im703_italy_emilia_romagna_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_italy_emilia_romagna_2026",
+              "result_tsv": "master/2026/im703_italy_emilia_romagna_2026/default.tsv",
+              "name": "70.3",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Italy Emilia Romagna",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90.1,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.0975,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
+        {
           "date": "2025-09-21",
           "weather_file": "master/2025/im703_italy_emilia_romagna_2025/weather-data.json",
           "categories": [
@@ -235180,6 +236188,90 @@
       "image": "images/im703_sao_paulo.webp",
       "source": "https://www.coachcox.co.uk/imstats/series/187/",
       "editions": [
+        {
+          "date": "2026-09-20",
+          "weather_file": "master/2026/im703_sao_paulo_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_sao_paulo_2026",
+              "result_tsv": "master/2026/im703_sao_paulo_2026/default.tsv",
+              "name": "70.3",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Sao Paulo",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90.1,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.0975,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-09-21",
           "weather_file": "master/2025/im703_sao_paulo_2025/weather-data.json",
@@ -259278,6 +260370,90 @@
       "image": "images/im703_washington_tri_cities.webp",
       "source": "https://www.coachcox.co.uk/imstats/series/388/",
       "editions": [
+        {
+          "date": "2026-09-20",
+          "weather_file": "master/2026/im703_washington_tri_cities_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_washington_tri_cities_2026",
+              "result_tsv": "master/2026/im703_washington_tri_cities_2026/default.tsv",
+              "name": "70.3",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Washington Tri-Cities",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90.1,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.0975,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-09-21",
           "weather_file": "master/2025/im703_washington_tri_cities_2025/weather-data.json",

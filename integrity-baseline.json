@@ -4,6 +4,11 @@
     "missingLaps": 19,
     "missingTotal": 0
   },
+  "im703_michigan/2026/im703_michigan_2026": {
+    "warnings": 0,
+    "missingLaps": 10,
+    "missingTotal": 0
+  },
   "im703_michigan/2025/im703_michigan_2025": {
     "warnings": 0,
     "missingLaps": 19,
@@ -2244,6 +2249,11 @@
     "missingLaps": 4,
     "missingTotal": 0
   },
+  "ironman_wales/2026/ironman_wales_2026": {
+    "warnings": 0,
+    "missingLaps": 2,
+    "missingTotal": 0
+  },
   "ironman_wales/2025/ironman_wales_2025": {
     "warnings": 0,
     "missingLaps": 1,
@@ -2292,6 +2302,11 @@
   "ironman_wales/2011/ironman_wales_2011": {
     "warnings": 0,
     "missingLaps": 11,
+    "missingTotal": 0
+  },
+  "ironman_chattanooga/2026/ironman_chattanooga_2026": {
+    "warnings": 0,
+    "missingLaps": 1,
     "missingTotal": 0
   },
   "ironman_chattanooga/2025/ironman_chattanooga_2025": {
@@ -3779,7 +3794,17 @@
     "missingLaps": 1,
     "missingTotal": 0
   },
+  "im703_belgrade/2026/im703_belgrade_2026": {
+    "warnings": 0,
+    "missingLaps": 4,
+    "missingTotal": 0
+  },
   "im703_belgrade/2024/im703_belgrade_2024": {
+    "warnings": 0,
+    "missingLaps": 7,
+    "missingTotal": 0
+  },
+  "im703_cozumel/2026/im703_cozumel_2026": {
     "warnings": 0,
     "missingLaps": 7,
     "missingTotal": 0
@@ -5682,6 +5707,11 @@
   "im703_italy_emilia_romagna/2012/im703_italy_emilia_romagna_2012": {
     "warnings": 0,
     "missingLaps": 3,
+    "missingTotal": 0
+  },
+  "im703_sao_paulo/2026/im703_sao_paulo_2026": {
+    "warnings": 0,
+    "missingLaps": 5,
     "missingTotal": 0
   },
   "im703_sao_paulo/2025/im703_sao_paulo_2025": {

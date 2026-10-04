@@ -54,7 +54,8 @@ function findEditionTsvPath(event, year) {
 }
 
 function formatTime(seconds) {
-  if (seconds == null || seconds === 0) return "";
+  // A negative duration is a source-side error (seen on 70.3 Belgrade 2026 T1/T2).
+  if (seconds == null || seconds <= 0) return "";
   const h = Math.floor(seconds / 3600);
   const m = Math.floor((seconds % 3600) / 60);
   const s = seconds % 60;

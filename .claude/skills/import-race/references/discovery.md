@@ -195,3 +195,70 @@ Discovery recipe used by `/import-race` (see also [jtu-results-api](jtu-results-
 - **The data settles it, and the check is worth reusing:** join the residence column against the *gender* column of the same row. Of the 405 rows whose Country is `F`, the gender cell reads **`M` 380 times and `F` 25 times** — a normal French field, not a leak. `R` is confirmed independently: its single row is **Tiberiu Muntean**, a Romanian name. When a coding scheme looks ambiguous, another column in the same row usually disambiguates it.
 - **Two letters are withheld on purpose.** `M` is Malta's plate *and* the male token — the one collision that could not be told apart if a column ever did shift, so it stays null. `T` (Thailand) appears once, on a row whose 氏名 is the single character `g`; mapping a code to satisfy one corrupt row buys nothing. Matching is **uppercase-only**, so a lone lowercase letter stays noise.
 - Residual after this: **64,168 (1.8 %)** — 59,365 placeholders and ~2,545 affiliations (both correctly null), a foreign long tail of ~1,500 (`Netherlands Antilles`, `Tanzania, United Republic of`, truncated strings like `d Kingdom`) and a Japanese long tail of ~717 (pre-merger town names, club strings). The genuine residue is now ~2,200 rows, 0.06 %.
+
+**2026-10-04 — 九十九里トライアスロン (99T, `kujukuri`) 2026: not importable yet; every committed edition had a wrong date (now fixed).**
+- **Source:** the old domain `kujukuri-tri.jp` (the event's `source` field) **no longer resolves**. The live site is `https://www.99t.jp/`. Results are PDFs at `https://www.99t.jp/result/pdf/<year>_99T_RESULT_<SD|MD>_AGE_GROUP_<M|F>.pdf`, listed on `/result/`. 99T is **not** in the JTU results API: ids 427–435 cover 2026-09-27..10-04 and none of them is 99T. Organiser: 株式会社アスロニア.
+- **2026 edition:** raced **2026-10-03 (Sat)**, venue 一宮海岸周辺. Per the 10-03 news post, the MD run was **shortened by 1 km** (course flooding), so 21.1 → 20.1 km; water 22 °C, wetsuit optional. Official distances: MD **1.9 / 90.1 / 21.1** (113.1 km) and スタンダード **1.5 / 40 / 10**. On 2026-10-04 the `2026_99T_RESULT_*` PDFs all returned 404 and `/result/` listed nothing for 2026. Historically the results appear the day after the race (2025: raced 09-27, "リザルトを公開しました" 09-28). Re-probe the 4 AG PDFs next run.
+- **PDF format (2025):** half-width-kana name on the row line, **kanji name on the following line**, header `総合順位 No. 氏名 総合記録 スイムラップ S順 T1ラップ T1順 バイクラップ B順 ｽﾌﾟﾘｯﾄ 通過 T2ラップ T2順 ランラップ R順 年代区分 年代順位 年齢 年齢順位`; the first header line carries the race date (`2025年9月27日`). The committed 2025 TSVs kept only the kana name. Skip リレー / チームチャレンジ / 10Kラン / チャレンジ / パラ.
+- **PRE-EXISTING DATA BUG, FIXED on this run (user decision): all 12 committed `kujukuri` edition dates were wrong.** They looked like placeholder "early-September Sunday" dates. The real dates, from each year's PDF header:
+
+  | year | repo date | actual date |
+  |---|---|---|
+  | 2014 | 09-07 | 09-20 |
+  | 2015 | 09-06 | 09-26 |
+  | 2016 | 09-04 | 09-24 |
+  | 2017 | 09-03 | 09-16 |
+  | 2018 | 09-09 | 09-16 |
+  | 2019 | 09-08 | 09-22 |
+  | 2020 | 09-13 | 10-11 |
+  | 2021 | 09-12 | 10-31 |
+  | 2022 | 09-11 | 09-18 |
+  | 2023 | 09-10 | 10-08 |
+  | 2024 | 09-08 | 10-06 |
+  | 2025 | 09-07 | 09-27 |
+
+  Every `weather-data.json` for the event had been generated for the wrong day. Two more problems in the same event:
+  - The 2025 short category was labelled スプリントディスタンス with 0.75 / 20 / 5, but the source PDF says **ｽﾀﾝﾀﾞｰﾄﾞﾃﾞｨｽﾀﾝｽ** (51.5 km; winner 2:09:43). In 99T usage "SD" means Standard, not Sprint.
+  - The MD segments were recorded as 2 / 80 / 20 in every year, and the 2020 duathlon's first run as 5 km.
+- **What the fix changed:**
+  - **Dates:** all 12 editions now carry the table's actual dates.
+  - **2025 category:** `kujukuri_sd` was renamed to `kujukuri_od` (スタンダードディスタンス, OD, 1.5 / 40 / 10). The TSV was renamed `sd.tsv` → `od.tsv`, and the `integrity-baseline.json` key was renamed in place.
+  - **MD distances per year:** 2018, 2019, 2024 and 2025 are **1.9 / 90.1 / 21.1**; 2021 is **1.9 / 91 / 21**; 2022 and 2023 are **1.9 / 91.1 / 21.1**. The 2022 and 2023 figures follow `race_info`; the course page said 91 / 21.
+  - **2020 duathlon:** 1.5 / 40 / 10, changed from triathlon because of Typhoon 14.
+  - **Descriptions** now note: the 2021 COVID postponement (from 10-03); the 2022 Typhoon-14 stop at 13:20, after which later finishers are NOF/DNF; and the 2024 measured swim lengths (OD 1.62 km, MD 1.97 km) from the organiser's 10-11 apology.
+  - **Source URL:** the event `source` is now `https://www.99t.jp/`.
+  - Every distance was verified from 99t.jp pages or Wayback captures. The 99t.jp domain has been official since 2014, and kujukuri-tri.jp has no captures at all.
+- **Weather station = JMA 千葉 `45 / 47682`.** Established by regenerating the old wrong date 2025-09-07: the hourly temperatures matched the committed file exactly, whereas 銚子 47648 and 勝浦 47674 did not.
+  - All 12 files were regenerated with `gen-weather-jma.py` for the correct dates, at 九十九里町 coordinates (35.5328, 140.4478).
+  - **For 2026 onwards use 一宮海岸 coordinates**, because the venue moved there.
+- **`gen-weather-jma.py` gap: a JMA `×` (missing) humidity cell becomes `humidity: 0, dewPoint: null`.** That output fails the schema on `dewPoint`, and the `humidity: 0` is silently wrong. Seen on 2022-09-18 24:00 at 千葉 (Typhoon Nanmadol).
+  - The two cells were hand-filled from the 23:00 observation at the same station (100 %, 26.4 °C), and DI was recomputed to 80.
+  - The generator itself is not changed. If this recurs, make it raise on a missing humidity cell instead of defaulting to 0.
+- **Lesson:** do not copy a sibling edition's `date` or distances when adding a year. Read them from the result document itself (the PDF header line has the date). A date mismatch is invisible to every gate: `check:integrity`, `check:duplicates` and tsv-lint are all date-agnostic.
+
+**2026-10-04 sweep (previous IRONMAN sweep 2026-09-14):**
+- **IRONMAN:** 168/168 event pages fetched, 0 failures, 0 redirects. In the 2026-09-12..10-04 window there were 21 subevents: 6 already imported, **14 imported this run**, and 1 aquathlon side event skipped (`Washington Tri-Cities Current to Kicks` 2026-09-18, uuid `a7d2ca80-6774-4c54-8d66-31342f1bbe01`, same pattern as Oregon). All 14 imported editions went onto existing events through `scripts/add-ironman-2026-batch11-editions.mjs` and `scripts/ironman-2026-batch11-subevents.json`, 27,909 rows in total:
+  - full distance: ironman_wisconsin, ironman_wales, ironman_maryland, ironman_italy, ironman_chattanooga
+  - 70.3: im703_santa_cruz, im703_belgrade, im703_italy_emilia_romagna, im703_sao_paulo, im703_weymouth, im703_washington_tri_cities, im703_michigan, im703_cozumel, im703_augusta
+  - Four of the 09-13 races (Wisconsin, Santa Cruz, Wales, Belgrade) were missed by the 09-14 run: their subevents appeared later. This is another instance of the "subevents appear up to 2 days later" lesson.
+- **Racing on 2026-10-04 with results not posted yet; re-sweep these next run:** im-barcelona → `ironman_barcelona`, im-gurye → `ironman_gurye`, im703-buenos-aires → `im703_buenos_aires`, im703-waco → `im703_waco`. Upcoming: 70.3 Encarnación 10-11, IRONMAN WC Kona 10-10, 70.3 New York 10-24.
+- **Weymouth 2025 was bike-run only** (swim cancelled), so cloning its latest edition would have dropped the 2026 swim. The 2026 edition uses the standard 70.3 template instead. **When cloning a latest edition, check that it was not a modified-course year.**
+- **Two new source-side defects:**
+  - **70.3 Belgrade 2026:** one finisher has **negative T1/T2 seconds**, and `formatTime` rendered them as `-468:-47:-40`, which tsv-lint rejects. The two cells were blanked, and `fetch-ironman-results.js` now treats `seconds <= 0` as missing.
+  - **70.3 Cozumel 2026:** one ContactId appears twice with **different divisions** (M55-59 at 6:08:38 with no splits, M35-39 at 6:25:14 complete). Left as source.
+- Source-side blank splits on finishers were baselined with `check-integrity.js --update`: michigan 10, cozumel 7, sao_paulo 5, belgrade 4, wales 2, chattanooga 1. Each was verified against the raw `api/results` row.
+- **New controlled country names with no mapping** were added to `normalize-residence.js`: North Macedonia, State of Palestine, Saint Kitts & Nevis, Burkina Faso, Palau, Kiribati. Still unmapped across 2026 IRONMAN TSVs, all small:
+  - Bhutan, Sint Maarten, Gambia, Marshall Islands, Western Sahara, Cabo Verde, Tanzania, Falkland Islands, Solomon Islands, Saint Vincent and the Grenadines, DR Congo, Turks and Caicos Islands
+  - ISO numeric codes (`276`, `702`, `826`, `616`, `752`)
+  - `Virgin Islands` (deliberately left unmapped)
+- **JTU:** the new ceiling is **435**; 436–450 are empty. **The user selected none of the JTU candidates on this run.** Ask again before importing any of them:
+  - 425 国スポ青森 (deferred a third time)
+  - 427 加西
+  - 428 日本スプリント選手権 宮崎 (elite)
+  - 429 横浜八景島
+  - 430 村上
+  - 432 日本デュアスロン選手権 (elite)
+  - 434 大潟村デュアスロン
+  - 435 川崎港
+  - Skipped as out of scope: 431 日本学生選手権, 433 ジュニアデュアスロン.
+- Observed, not fixed: ironman_wisconsin, ironman_wales, ironman_maryland, ironman_italy, ironman_chattanooga, ironman_barcelona and ironman_gurye each carry a 2024 edition dated **2024-01-01**, a placeholder date like the kujukuri case.
