@@ -285,3 +285,18 @@ Discovery recipe used by `/import-race` (see also [jtu-results-api](jtu-results-
   - 国スポ青森 used **青森 `31 / 47575`**.
   - Buenos Aires used Open-Meteo at **-34.5755 / -58.4040**. That point reproduces the 2025 hourly temperatures exactly.
 - **Host setup:** `bun run test` failed with `Cannot find package 'ajv'` on a fresh checkout. Run `bun install --frozen-lockfile` first. `bun run build:schema` reformats `schema.ts` (multi-line unions collapse); this is formatting-only churn, so revert it unless the schema actually changed.
+
+**2026-10-05 (2) — 九十九里トライアスロン (99T, `kujukuri`) 2026 imported, with KANJI 氏名 (user directive).**
+- **Source PDFs:** `2026_99T_RESULT_{MD,SD}_AGE_GROUP_{M,F}.pdf` on `https://www.99t.jp/result/`. The SD female file is published as **`…_SD_AGE_GROUP_F_1005.pdf`**, a corrected re-upload with a date suffix, so take file names from the `/result/` listing instead of guessing the pattern. Skipped: リレー, RELAY_OPEN, TEAME (チーム), 10K_RUN, challenge, and T1_GRAND-PRIX.
+- **The repeatable builder is now `scripts/import-kujukuri-99t.py`** (`uv run --with pdfplumber python …`; this host's python has no pdfplumber and no venv). Its decisions:
+  - **氏名 holds the kanji line**, and the kana goes into **フリガナ** (role `note`). The committed 2014–2025 files hold only kana. User directive: kanji, not katakana.
+  - **Where the kanji line sits differs by file.** In the F files it is its own table row. In the M files it is a second line inside the same row, but pdfplumber's cell bbox for 氏名 covers only the kana line, so `extract()` silently drops the kanji. Read words from the column's x-range across the **row** bbox. The first attempt produced 669/669 male athletes with no kanji.
+  - **Column layouts differ between the M and F files of one distance.** In F, 年齢 follows 氏名. In M, 年齢 / 年齢順位 trail 年代順位, with None/blank padding cells that change by page (21 vs 23 columns on the last page). Read the tail as "non-empty values in order".
+  - **The source ranks each gender separately.** As in the committed 2025 file, 総合順位 is recomputed across genders by time. The source rank goes into **男女別順位** (`gender_rank`), which 2025 did not keep.
+- **Reconciliation was clean:** swim + T1 + bike + T2 + run equals 総合記録 for every finisher with complete splits, スプリット equals swim + T1 + bike, and recomputed ranks have 0 time-ordering violations.
+- **Source-side blank splits, baselined:** MD has 6 finishers with no T1/bike/T2, and OD has 8 (one also has no run). The PDF prints `0` in their rank columns, a timing-mat failure.
+- **One SD-F DNF (bib 8118) has an empty 氏名 in the source.** The normaliser drops the row.
+- Foreign athletes' "kanji" line is the romanised or half-width-kana name: `Ｒｏｃｈａｒｄ Ｅｗａｎ` (full-width, folded to half-width), `ｶﾃｨｵ ﾀｲﾛﾝ`. These are kept as published.
+- **Weather: 千葉 `45 / 47682` at 一宮海岸 (35.372, 140.398)**, per the 10-04 note.
+- Counts: MD 711 rows (564 finishers), OD 859 (694).
+- **Open, needs a user decision:** backfill kanji into 2014–2025. Their PDFs are all still listed on `/result/`. A bib-join (matching No. + kana) can swap in the kanji 氏名 and keep everything else untouched.
