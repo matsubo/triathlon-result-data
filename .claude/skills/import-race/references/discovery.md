@@ -263,3 +263,25 @@ Discovery recipe used by `/import-race` (see also [jtu-results-api](jtu-results-
   - 435 川崎港
   - Skipped as out of scope: 431 日本学生選手権, 433 ジュニアデュアスロン.
 - Observed, not fixed: ironman_wisconsin, ironman_wales, ironman_maryland, ironman_italy, ironman_chattanooga, ironman_barcelona and ironman_gurye each carry a 2024 edition dated **2024-01-01**, a placeholder date like the kujukuri case.
+
+**2026-10-05 run (previous run 2026-10-04, committed):**
+- **Imported, JTU (7 categories, 1,825 rows):** `kokuspo_aomori` (NEW event, 2026-09-13; 成年男子 91 + 成年女子 81), `greenpark_kasai` 2026-09-27 (383), `yokohama_hakkeijima` 2026-09-27 (484), `murakami` 2026-09-27 (521), `kawasakiko` 2026-10-04 (一般 OD 190 + スプリント 75). Script: `scripts/add-jtu-2026-kasai-hakkeijima-murakami-kawasaki-kokuspo.mjs`. `check:integrity` added zero missing laps or totals for all seven.
+- **Imported, IRONMAN:** `im703_buenos_aires` 2026-10-04 (1212 rows; 2025 had 1112), through `scripts/add-ironman-2026-batch12-editions.mjs`. The rank probe was clean: 1034 ranked finishers, 1034 unique ranks, 0 ordering violations. 11 finishers have blank Swim / Bike / Run splits (14 laps in total). These were verified as `None` / `0` in the raw `api/results` row and baselined with `--update`.
+- **Still not posted on 10-05:** `ironman_gurye` and `im703_waco` (both raced 10-04). Re-sweep these next run.
+- **JTU 425 国スポ captions → JTU headers:** null-caption slug and YOB dropped; Pos→総合順位, StartNumber→No., Name→氏名, Affiliation→所属 (`residence`, a prefecture name), Time→総合記録, Swim/Bike/Run→スイムラップ/バイクラップ/ランラップ, T1/T2 kept. The tables are per-gender with no gender column, so a constant **性別** column (男 / 女) is synthesised from the program. Without it every athlete normalises to `gender: null`, which is the state `kokuspo_shiga` 2025 is still in.
+- **New captions and their mappings:**
+  - 加西: 加算分 → `penalty` (2024 used 加算秒), TRIJ登録地 → `residence` (2024 used JTU登録地).
+  - 村上: SWIM / バイク / ラン → `lap`.
+  - 八景島: 区分 / 区分順位 → `age_category` / `age_rank`. No T1 column this year.
+  - 川崎港: 都道府県 → `residence`; **川崎市 / 川崎市順位 → `citizen_category` / `citizen_rank`**, the host-city resident division (2025's sprint TSV carried these cells without headers).
+- **Exclusions on this run:**
+  - Per the 2025 precedent: 435 キッズ / スーパースプリント / パラ / リレー, and 429 S500 / S250 and side events.
+  - By user choice: 428 日本スプリント選手権 宮崎 (elite), 432 日本デュアスロン選手権 (elite), and 434 大潟村デュアスロン (20 rows; would be a new event).
+- **The full 2025–2026 JTU id range (290–435) was re-diffed by date and name against race-info.json.** The only gaps were the ids listed above, so no older 2025 edition is missing. 436–470 are empty, and the ceiling is still **435**.
+- **Weather stations, found by regenerating the prior edition and diffing:**
+  - **加西 = 神戸 `63 / 47770`.** The 2024 file matches it 8/8 on temperature and humidity, while 姫路 matches 0/8. It is far from the venue, but it is the established convention.
+  - **No JMA station reproduces the 2025 files for `yokohama_hakkeijima`, `murakami` or `kawasakiko`.** Their values are round (temps x.0 / x.5, 24時 humidity exactly 50), and hakkeijima and murakami share identical sunrise/sunset (05:36 / 17:39) despite being 3° apart in latitude. Those three 2025 files look fabricated; they are flagged here, not regenerated.
+  - 2026 used the nearest 官署: **横浜 `46 / 47670`** for 八景島 and 川崎港, and **新潟 `54 / 47604`** for 村上.
+  - 国スポ青森 used **青森 `31 / 47575`**.
+  - Buenos Aires used Open-Meteo at **-34.5755 / -58.4040**. That point reproduces the 2025 hourly temperatures exactly.
+- **Host setup:** `bun run test` failed with `Cannot find package 'ajv'` on a fresh checkout. Run `bun install --frozen-lockfile` first. `bun run build:schema` reformats `schema.ts` (multi-line unions collapse); this is formatting-only churn, so revert it unless the schema actually changed.

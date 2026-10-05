@@ -47184,6 +47184,122 @@
       "source": "https://murakami-triathlon.com/",
       "editions": [
         {
+          "date": "2026-09-27",
+          "weather_file": "master/2026/murakami/weather-data.json",
+          "categories": [
+            {
+              "id": "murakami",
+              "result_tsv": "master/2026/murakami/default.tsv",
+              "name": "スタンダードディスタンス",
+              "distance": "OD",
+              "description": "2026年村上・笹川流れ国際トライアスロン大会。新潟県村上市の美しい笹川流れと瀬波温泉海岸を舞台に、スイム1.5km、バイク40km、ラン10kmのスタンダードディスタンスで開催。豊かな自然と趣のある町並み、美味しい鮭料理で有名な村上市の魅力を存分に味わえる大会です。NTTトライアスロンエイジグループ・ナショナルチャンピオンシップシリーズ対象大会。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "SWIM",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "T1",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "バイク",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ラン",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齢別順",
+                  "role": "age_rank"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4647"
+            }
+          ]
+        },
+        {
           "date": "2025-09-28",
           "weather_file": "master/2025/murakami/weather-data.json",
           "categories": [
@@ -48413,6 +48529,106 @@
       "source": "https://sea.tri.yokohama/",
       "editions": [
         {
+          "date": "2026-09-27",
+          "weather_file": "master/2026/yokohama_hakkeijima/weather-data.json",
+          "categories": [
+            {
+              "id": "yokohama_hakkeijima",
+              "result_tsv": "master/2026/yokohama_hakkeijima/default.tsv",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "description": "2026年横浜八景島トライアスロンフェスティバル。神奈川県横浜市の八景島を舞台に、スイム750m、バイク20km、ラン5kmのスプリントディスタンスで開催。海と島の美しい景観を楽しみながら競う都市型トライアスロン大会です。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 0.75,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 5,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "区分順位",
+                  "role": "age_rank"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4649"
+            }
+          ]
+        },
+        {
           "date": "2025-09-28",
           "weather_file": "master/2025/yokohama_hakkeijima/weather-data.json",
           "categories": [
@@ -49106,6 +49322,240 @@
       "image": "images/kawasakiko.webp",
       "source": "https://www.kn-tu.or.jp/",
       "editions": [
+        {
+          "date": "2026-10-04",
+          "weather_file": "master/2026/kawasakiko/weather-data.json",
+          "categories": [
+            {
+              "id": "kawasakiko",
+              "result_tsv": "master/2026/kawasakiko/default.tsv",
+              "name": "スタンダードディスタンス",
+              "distance": "OD",
+              "description": "2026年第19回川崎港トライアスロンin東扇島。神奈川県川崎市の東扇島を舞台に、スイム1.5km、バイク40km、ラン10kmのスタンダードディスタンスで開催。工業港の独特な景観の中で行われる都市型トライアスロン大会です。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "都道府県",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "川崎市",
+                  "role": "citizen_category"
+                },
+                {
+                  "header": "川崎市順位",
+                  "role": "citizen_rank"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4693"
+            },
+            {
+              "id": "kawasakiko_sprint",
+              "result_tsv": "master/2026/kawasakiko/sprint.tsv",
+              "name": "スプリントディスタンス",
+              "distance": "SD",
+              "description": "2026年第19回川崎港トライアスロンin東扇島 スプリントディスタンス。神奈川県川崎市の東扇島を舞台に、スイム750m、バイク20km、ラン5kmで開催。初心者でも参加しやすい距離設定の都市型トライアスロン大会です。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 0.75,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 5,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "都道府県",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "川崎市",
+                  "role": "citizen_category"
+                },
+                {
+                  "header": "川崎市順位",
+                  "role": "citizen_rank"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4684"
+            }
+          ]
+        },
         {
           "date": "2025-10-05",
           "weather_file": "master/2025/kawasakiko/weather-data.json",
@@ -59898,6 +60348,174 @@
       ]
     },
     {
+      "id": "kokuspo_aomori",
+      "name": "青の煌めきあおもり国民スポーツ大会",
+      "location": "青森県青森市",
+      "location_parts": {
+        "country": "JP",
+        "prefecture": "青森県",
+        "city": "青森市"
+      },
+      "image": "images/kokuspo_aomori.webp",
+      "source": "https://www.jtu.or.jp/",
+      "editions": [
+        {
+          "date": "2026-09-13",
+          "weather_file": "master/2026/kokuspo_aomori/weather-data.json",
+          "categories": [
+            {
+              "id": "kokuspo_aomori_men",
+              "result_tsv": "master/2026/kokuspo_aomori/men.tsv",
+              "name": "成年男子",
+              "distance": "OD",
+              "description": "2026年青の煌めきあおもり国スポ トライアスロン成年男子。青森市特設トライアスロン会場を舞台に開催。スイム1.5km、バイク40km、ラン10km。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "スイムラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T1",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T2",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ランラップ",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "所属",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4627"
+            },
+            {
+              "id": "kokuspo_aomori_women",
+              "result_tsv": "master/2026/kokuspo_aomori/women.tsv",
+              "name": "成年女子",
+              "distance": "OD",
+              "description": "2026年青の煌めきあおもり国スポ トライアスロン成年女子。青森市特設トライアスロン会場を舞台に開催。スイム1.5km、バイク40km、ラン10km。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "スイムラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T1",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T2",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ランラップ",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "所属",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4609"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "kokuspo_shiga",
       "name": "わたSHIGA輝く国民スポーツ大会",
       "location": "滋賀県近江八幡市",
@@ -62376,6 +62994,126 @@
       "image": "images/greenpark_kasai.webp",
       "source": "https://www.jtu.or.jp/event/",
       "editions": [
+        {
+          "date": "2026-09-27",
+          "weather_file": "master/2026/greenpark_kasai/weather-data.json",
+          "categories": [
+            {
+              "id": "greenpark_kasai",
+              "result_tsv": "master/2026/greenpark_kasai/default.tsv",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "description": "2026年第14回グリーンパークトライアスロンin加西。兵庫県加西市で開催。スイム1.5km、バイク40km、ラン10km。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "スイム",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "T1",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "バイク",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "T2",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ラン",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "加算分",
+                  "role": "penalty"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "区分順位",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "TRIJ登録地",
+                  "role": "residence"
+                },
+                {
+                  "header": "選手権順",
+                  "role": "championship_rank"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4644"
+            }
+          ]
+        },
         {
           "date": "2024-09-29",
           "weather_file": "master/2024/greenpark_kasai/weather-data.json",
@@ -266627,6 +267365,90 @@
       "image": "images/im703_buenos_aires.webp",
       "source": "https://labs-v2.competitor.com/results/event/e7996dac-cd28-45e0-8ba2-73b711571958",
       "editions": [
+        {
+          "date": "2026-10-04",
+          "weather_file": "master/2026/im703_buenos_aires_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_buenos_aires_2026",
+              "result_tsv": "master/2026/im703_buenos_aires_2026/default.tsv",
+              "name": "70.3",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Buenos Aires",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90.1,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.0975,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-11-02",
           "weather_file": "master/2025/im703_buenos_aires_2025/weather-data.json",
