@@ -167,5 +167,10 @@
     "master/2025/kawasakiko/sprint.tsv": 9,
     "master/2025/tokunoshima/default.tsv": 66,
     "master/2026/ishigakijima/default.tsv": 2
+  },
+  "age_category_label": {
+    "master/2015/nagaragawa_kokusai/result.tsv": 1,
+    "master/2024/sado/b.tsv": 17,
+    "master/2024/sado/default.tsv": 7
   }
 }

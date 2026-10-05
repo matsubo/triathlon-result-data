@@ -300,3 +300,24 @@ Discovery recipe used by `/import-race` (see also [jtu-results-api](jtu-results-
 - **Weather: 千葉 `45 / 47682` at 一宮海岸 (35.372, 140.398)**, per the 10-04 note.
 - Counts: MD 711 rows (564 finishers), OD 859 (694).
 - **Open, needs a user decision:** backfill kanji into 2014–2025. Their PDFs are all still listed on `/result/`. A bib-join (matching No. + kana) can swap in the kanji 氏名 and keep everything else untouched.
+
+**2026-10-05 (3) — 年齢区分 notation is now canonical repo-wide (user request, prompted by 99T's 男子25-29歳).**
+- **Rule:** in any `role: "age_category"` column, a value carrying a Japanese gender word is written as `M25-29` / `F0-24` (24歳以下) / `M65+` (65歳以上) / `M30-39` (30歳代). This is the IRONMAN-style label that ai-tri's `formatAgeGroupLabel` produces, and ai-tri shows the raw value (`age_group_label`) as-is, so mixed notations rendered the same bracket differently.
+  - Checked by tsv-lint "年齢区分 values use the canonical M/F label…".
+  - Fixed by `scripts/fix-age-category-labels.js`, which is idempotent: **run it after every import.**
+  - Division labels that are not brackets go in `age-category-allowlist.json` (一般男子, 高校生女子, 大学男子N年, 1970年代男子 birth decades, 川崎市民の部 divisions, …).
+- **Scale:** 180,300 cells rewritten in 439 files. Every rewrite parses to the same bracket as before. A rewrite is refused when the row's age contradicts the bracket by more than a year (16 cells), so OCR-corrupted labels stay visibly corrupt.
+- **Parser fixes that came with it** (`normalize-age-category.js`). These change the normalised `age_group` for the affected rows:
+  - **未満** used to read as the n-decade: `30未満` became 30–39 and is now 0–29.
+  - **以上 / +** used to collapse to one decade: `60代以上` and `M70+` became 60–69 / 70–79 and are now 60+ / 70+. `F45+` and `F36+` used to parse to null.
+  - These used to parse to null: `24以下`, `24際以下`, `男子～24才`, and `男子40才～44才` / `40歳〜49歳`.
+  - **Birth decades** (`1970年代男子`) used to yield {19, 70} and are now null.
+  - **Glued ranks** (`1030歳～39歳女子`) now return null instead of nonsense, via a 0–99 plausibility guard.
+- **Source defects fixed by rule, each verified:**
+  - **倉敷 2014–2016:** the female 男女順位 was glued onto 年齢区分 (`130代女子` = rank 1 + `30代女子`, with the 男女順位 cell empty). The prefixes run exactly 1..n in file order in all three files, so they were moved back into 男女順位.
+  - **潮来 2014:** `男子29歳以` / `男子60歳以` are truncated. The file's other buckets are 30–59, so these are 以下 / 以上.
+  - **京都丹波 2022–2024:** `U39男子` means the **30–39 decade**, not under-39 (ages 30–39 in every row), with U29 as the bottom bucket and `O80男子` as 80+. The generic parser reads `U39` as 0–39, so these files were mapped explicitly. No other file uses a U-ladder; elsewhere U20 / U18 / U23 really are youth caps.
+- **Left as known issues** (`tsv-lint-known-issues.json` → `age_category_label`):
+  - **佐渡 2024 default/b:** OCR-garbled labels (`46 44男子`, `65-60男子`, `2歳以下男子`, `プロ フ4男子`, `$ 39男子`).
+  - **長良川国際 2015:** one `45-49歳男子` on a 39-year-old.
+  - Many other 佐渡 2024 labels are OCR-wide but age-consistent (`20-54男子` → `M20-54`). They were canonicalised faithfully and **still need a re-import from the source PDF.**

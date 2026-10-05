@@ -9,7 +9,11 @@ column-boundary bug that silently dropped lap data for 348/567 athletes. Run the
 checks and require zeros:
 
 ```bash
-# Structural lint (time-format, rank-numeric, extra-columns, name-space rules)
+# Canonical 年齢区分 labels (男子25-29歳 → M25-29); idempotent, run before linting
+bun run scripts/fix-age-category-labels.js
+
+# Structural lint (time-format, rank-numeric, extra-columns, name-space and
+# 年齢区分-notation rules)
 bun run test:tsv-lint
 
 # Normalize-level integrity: fails on ANY regression vs integrity-baseline.json;

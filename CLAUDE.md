@@ -74,6 +74,16 @@ Claude can help navigate and understand this triathlon result data repository wh
   （`Tom Smith`）へ変換して取り込む。全角のままだと同一人物の大会横断
   名寄せができない。`tests/tsv-lint.test.ts`の「氏名 values do not contain
   full-width Latin letters」で静的に検査される。
+- **年齢区分は性別を M/F の接頭辞で表記する**: `role: "age_category"` の列で
+  性別語（男子/女子/男/女）を含む値は、`M25-29`（男子25-29歳）、`F0-24`
+  （女子24歳以下）、`M65+`（男子65歳以上）、`M30-39`（30歳代男子）の形に
+  統一する。大会ごとに表記が違うと、同じ区分がアプリ上で別々に表示される
+  ため。取り込み後に `bun run scripts/fix-age-category-labels.js` を実行す
+  れば自動で変換される（冪等）。年齢と矛盾する区分は破損とみなして変換し
+  ない。`tests/tsv-lint.test.ts` の「年齢区分 values use the canonical M/F
+  label…」で静的に検査される。年齢区分ではない部門名（`一般男子`、
+  `高校生女子`、`1970年代男子` 等）は `age-category-allowlist.json` に追記
+  する。
 
 ## ファイル名規約
 

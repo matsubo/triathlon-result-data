@@ -26,6 +26,10 @@ The PDFs rank each gender separately; one TSV per distance holds both, so (as
 in the committed 2025 files) 総合順位 is recomputed across genders by finish
 time, and the source's per-gender rank is kept in 男女別順位. Segment ranks
 (S順 / B順 / …) stay per-gender, as published.
+
+年代区分 is written as published (男子25-29歳); run
+`bun run scripts/fix-age-category-labels.js` afterwards to canonicalise it
+(M25-29), which tsv-lint enforces.
 """
 import argparse
 import re

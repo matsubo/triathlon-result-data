@@ -423,6 +423,59 @@ describe("TSV Lint Rules", () => {
     expect(errors).toEqual([]);
   });
 
+  test("年齢区分 values use the canonical M/F label instead of a Japanese gender word", () => {
+    // 男子25-29歳 / 25-29男子 / 30歳代男子 must be written M25-29 / M30-39
+    // (F for 女子; F0-24 for 24歳以下; M65+ for 65歳以上) so the same bracket
+    // renders identically across events. Fix with
+    // `bun run scripts/fix-age-category-labels.js`. Division labels that are
+    // not age brackets (一般男子, 高校生女子, …) go in age-category-allowlist.json;
+    // unfixable source defects are counted in tsv-lint-known-issues.json.
+    const raceInfo = JSON.parse(readFileSync(join(repoRoot, "race-info.json"), "utf-8"));
+    const allow = new Set<string>(
+      JSON.parse(readFileSync(join(repoRoot, "age-category-allowlist.json"), "utf-8")),
+    );
+    const known: Record<string, number> = knownIssues.age_category_label || {};
+
+    const targets = new Map<string, Set<string>>();
+    for (const event of raceInfo.events || [])
+      for (const edition of event.editions || [])
+        for (const cat of edition.categories || [])
+          for (const m of cat.meta_columns || [])
+            if (m.role === "age_category") {
+              if (!targets.has(cat.result_tsv)) targets.set(cat.result_tsv, new Set());
+              targets.get(cat.result_tsv)?.add(m.header);
+            }
+
+    const errors: string[] = [];
+    for (const [tsv, headers] of targets) {
+      let lines: string[];
+      try {
+        lines = readFileSync(join(repoRoot, tsv), "utf-8").split("\n");
+      } catch {
+        continue;
+      }
+      const head = lines[0].split("\t");
+      const idxs = head.map((h, i) => (headers.has(h) ? i : -1)).filter((i) => i !== -1);
+      const fileErrors: string[] = [];
+      for (let ln = 1; ln < lines.length; ln++) {
+        if (!lines[ln].trim()) continue;
+        const cells = lines[ln].split("\t");
+        for (const i of idxs) {
+          const v = (cells[i] || "").trim();
+          if (/[男女]/.test(v) && !allow.has(v)) fileErrors.push(`${tsv}:${ln + 1} ${head[i]}=${v}`);
+        }
+      }
+      const allowed = known[tsv] || 0;
+      if (fileErrors.length > allowed) {
+        errors.push(
+          `${tsv}: ${fileErrors.length} violations (allowed ${allowed}), e.g. ${fileErrors.slice(0, 3).join("; ")}`,
+        );
+      }
+    }
+
+    expect(errors).toEqual([]);
+  });
+
   test("All filenames under master/ and images/ are ASCII", () => {
     const errors: string[] = [];
 

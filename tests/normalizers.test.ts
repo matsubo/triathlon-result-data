@@ -1,4 +1,5 @@
 import { describe, test, expect } from "bun:test";
+import { canonicalAgeCategory } from "../scripts/lib/canonical-age-category.js";
 import { parseAgeCategory } from "../scripts/lib/normalize-age-category.js";
 import { parseGender } from "../scripts/lib/normalize-gender.js";
 import { parseResidence } from "../scripts/lib/normalize-residence.js";
@@ -224,6 +225,37 @@ describe("normalizer functions", () => {
     test("PC/ID", () => expect(parseAgeCategory("PC/ID")).toBeNull());
     test("empty", () => expect(parseAgeCategory("")).toBeNull());
     test("null", () => expect(parseAgeCategory(null as any)).toBeNull());
+    // 未満 is strictly below n; it used to read as the n-decade
+    test("30歳未満男子", () => expect(parseAgeCategory("30歳未満男子")).toEqual({ min_age: 0, max_age: 29 }));
+    test("24以下男子", () => expect(parseAgeCategory("24以下男子")).toEqual({ min_age: 0, max_age: 24 }));
+    test("男子～24才", () => expect(parseAgeCategory("男子～24才")).toEqual({ min_age: 0, max_age: 24 }));
+    test("男子40才～44才", () => expect(parseAgeCategory("男子40才～44才")).toEqual({ min_age: 40, max_age: 44 }));
+    test("40歳〜49歳男子", () => expect(parseAgeCategory("40歳〜49歳男子")).toEqual({ min_age: 40, max_age: 49 }));
+    // open-ended brackets used to collapse to a single decade
+    test("70代以上男子", () => expect(parseAgeCategory("70代以上男子")).toEqual({ min_age: 70, max_age: 99 }));
+    test("M70+", () => expect(parseAgeCategory("M70+")).toEqual({ min_age: 70, max_age: 99 }));
+    test("F45+", () => expect(parseAgeCategory("F45+")).toEqual({ min_age: 45, max_age: 99 }));
+    test("60-  男子", () => expect(parseAgeCategory("60-  男子")).toEqual({ min_age: 60, max_age: 99 }));
+    test("10.20代男子", () => expect(parseAgeCategory("10.20代男子")).toEqual({ min_age: 10, max_age: 29 }));
+    // birth decades and ranks glued onto a label are not age brackets
+    test("1970年代男子", () => expect(parseAgeCategory("1970年代男子")).toBeNull());
+    test("1030歳～39歳女子", () => expect(parseAgeCategory("1030歳～39歳女子")).toBeNull());
+  });
+
+  describe("canonicalAgeCategory", () => {
+    test("男子25-29歳", () => expect(canonicalAgeCategory("男子25-29歳")).toBe("M25-29"));
+    test("30-34女子", () => expect(canonicalAgeCategory("30-34女子")).toBe("F30-34"));
+    test("30歳代男子", () => expect(canonicalAgeCategory("30歳代男子")).toBe("M30-39"));
+    test("女子24歳以下", () => expect(canonicalAgeCategory("女子24歳以下")).toBe("F0-24"));
+    test("男子65歳以上", () => expect(canonicalAgeCategory("男子65歳以上")).toBe("M65+"));
+    test("canonical labels round-trip", () =>
+      expect(["M25-29", "F0-24", "M65+"].map((l) => parseAgeCategory(l))).toEqual([
+        { min_age: 25, max_age: 29 },
+        { min_age: 0, max_age: 24 },
+        { min_age: 65, max_age: 99 },
+      ]));
+    test("division label has no canonical form", () => expect(canonicalAgeCategory("一般男子")).toBeNull());
+    test("label without a gender word is out of scope", () => expect(canonicalAgeCategory("30-34")).toBeNull());
   });
 
   describe("parseInteger", () => {

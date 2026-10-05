@@ -1,12 +1,23 @@
 /**
  * Parse age category string into {min_age, max_age} or null.
  * Handles 30+ format variations from race results.
+ * Brackets outside 0–99 are rejected: they come from a rank glued onto the
+ * label during extraction (e.g. "1030歳～39歳女子" = rank 10 + "30歳～39歳女子").
  * @param {string|null|undefined} str
  * @returns {{ min_age: number, max_age: number }|null}
  */
 export function parseAgeCategory(str) {
+  const bracket = parseBracket(str);
+  if (!bracket || bracket.min_age < 0 || bracket.max_age > 99) return null;
+  return bracket;
+}
+
+function parseBracket(str) {
   if (!str || typeof str !== "string") return null;
-  let s = str.trim().replace(/～/g, "-").replace(/\s+/g, "-");
+  let s = str
+    .trim()
+    .replace(/[～〜]/g, "-")
+    .replace(/\s+/g, "-");
   if (s === "") return null;
 
   // Non-age categories → null
@@ -38,26 +49,44 @@ export function parseAgeCategory(str) {
     return { min_age: 0, max_age: Number.parseInt(uMatch[1], 10) };
   }
 
-  // "19才以下女子" or "29歳以下男子"
-  const underMatch = s.match(/(\d+)[歳才]以下/);
+  // "19才以下女子", "29歳以下男子", "24以下男子", "24際以下" (typo), "24～以下"
+  const underMatch = s.match(/(\d+)[歳才際]?-?以下/);
   if (underMatch) {
     return { min_age: 0, max_age: Number.parseInt(underMatch[1], 10) };
   }
 
-  // "-19M", "-19F", "-19男子", "N-19", "F-19", "M-19"
-  const dashUnderMatch = s.match(/^[MFNWmfnw]?-(\d+)/);
+  // "30歳未満男子", "男子25才未満", "30未満女子" — strictly below n
+  const belowMatch = s.match(/(\d+)[歳才]?未満/);
+  if (belowMatch) {
+    return { min_age: 0, max_age: Number.parseInt(belowMatch[1], 10) - 1 };
+  }
+
+  // "-19M", "-19F", "-19男子", "N-19", "F-19", "M-19", "男子～24才"
+  const dashUnderMatch = s.match(/^(?:[MFNWmfnw]|男子|女子)?-(\d+)/);
   if (dashUnderMatch) {
     return { min_age: 0, max_age: Number.parseInt(dashUnderMatch[1], 10) };
   }
 
-  // "70以上男子", "70歳以上男子", "N80-"
-  const overMatch = s.match(/(\d+)[歳]?以上/);
+  // "70以上男子", "70歳以上男子", "70代以上男子", "N80-", "M70+", "F70&+", "M70 y +"
+  const overMatch = s.match(/(\d+)[歳才代]?以上/);
   if (overMatch) {
     return { min_age: Number.parseInt(overMatch[1], 10), max_age: 99 };
+  }
+  const plusMatch = s.match(/^[MFNWmfnw]?(\d+)[-y&]*\+/);
+  if (plusMatch) {
+    return { min_age: Number.parseInt(plusMatch[1], 10), max_age: 99 };
   }
   const dashOverMatch = s.match(/^[MFNWmfnw]?(\d+)-$/);
   if (dashOverMatch) {
     return { min_age: Number.parseInt(dashOverMatch[1], 10), max_age: 99 };
+  }
+  // "60-  男子" (open-ended bracket followed by the gender word)
+  const dashOverGenderMatch = s.match(/^(\d+)-+[男女]/);
+  if (dashOverGenderMatch) {
+    return {
+      min_age: Number.parseInt(dashOverGenderMatch[1], 10),
+      max_age: 99,
+    };
   }
 
   // "80---M" (spaces already replaced with -)
@@ -67,6 +96,18 @@ export function parseAgeCategory(str) {
     if (base % 10 === 0) return { min_age: base, max_age: base + 9 };
   }
 
+  // "1970年代男子" is a birth decade, not an age bracket.
+  if (/\d{4}年代/.test(s)) return null;
+
+  // "10.20代男子" / "10・20代" spans two decades
+  const twoDecadeMatch = s.match(/(\d+)[.・](\d+)[歳]?代/);
+  if (twoDecadeMatch) {
+    return {
+      min_age: Number.parseInt(twoDecadeMatch[1], 10),
+      max_age: Number.parseInt(twoDecadeMatch[2], 10) + 9,
+    };
+  }
+
   // "50歳代男子" or "50代男子" or "10代男子"
   const decadeMatch = s.match(/(\d+)[歳]?代/);
   if (decadeMatch) {
@@ -74,8 +115,8 @@ export function parseAgeCategory(str) {
     return { min_age: base, max_age: base + 9 };
   }
 
-  // Range with hyphen: "50-54歳", "M50-54", "2529男子" (missing hyphen)
-  const rangeMatch = s.match(/(\d+)-(\d+)/);
+  // Range with hyphen: "50-54歳", "M50-54", "男子40才～44才", "20歳～29歳男子"
+  const rangeMatch = s.match(/(\d+)[歳才]?-(\d+)/);
   if (rangeMatch) {
     let min = Number.parseInt(rangeMatch[1], 10);
     let max = Number.parseInt(rangeMatch[2], 10);
