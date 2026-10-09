@@ -3,10 +3,16 @@
 
     uv run --with pdfplumber python scripts/import-kujukuri-99t.py --year 2026 \
         --md-m 2026_99T_RESULT_MD_AGE_GROUP_M.pdf --md-f 2026_99T_RESULT_MD_AGE_GROUP_F.pdf \
-        --od-m 2026_99T_RESULT_SD_AGE_GROUP_M.pdf --od-f 2026_99T_RESULT_SD_AGE_GROUP_F_1005.pdf
+        --od-m 2026_99T_RESULT_SD_AGE_GROUP_M.pdf --od-f 2026_99T_RESULT_SD_AGE_GROUP_F_1006.pdf
 
 Arguments are PDF file names under https://www.99t.jp/result/pdf/ (downloaded
 into --cache). In 99T usage "SD" is the スタンダード (OD) course.
+
+2026 SD F was published three times (base, _1005, _1006). _1006 is the
+organiser's latest: it corrects bib 9049 (age 24 -> 27, 24歳以下 -> 25-29歳,
+with 年代順位 renumbered) and restores 年齢順位, but prints 年齢 only for
+finishers. The committed master/2026/kujukuri/od.tsv therefore equals a
+_1006 build except that the 25 non-finishing women keep their 年齢 from _1005.
 
 Every athlete appears with a half-width kana 氏名 and, on the next line, the
 kanji 氏名. The TSV 氏名 column carries the KANJI name (cross-event matching
@@ -16,11 +22,12 @@ same row's 氏名 area (M layout, which pdfplumber's extract() collapses to the
 first line), so names are always read from the words inside the row's 氏名
 x-range.
 
-Column layouts differ between the two files of one distance:
-  - F: 総合順位 No. 氏名 年齢 総合記録 ... 年代区分 年代順位
-  - M: 総合順位 No. 氏名 総合記録 ... 年代区分 年代順位 年齢 年齢順位, with
-       blank / None padding cells in the 年齢 tail that vary by page, so the
-       tail is read as "non-empty values in order".
+Column layouts differ between files (detected per page from the header):
+  - 年齢 after 氏名: 総合順位 No. 氏名 年齢 総合記録 ... 年代区分 年代順位
+    (MD F; SD F _1005)
+  - 年齢 at the tail: 総合順位 No. 氏名 総合記録 ... 年代区分 年代順位 年齢 年齢順位
+    (MD M, SD M, SD F _1006), with blank / None padding cells in the tail that
+    vary by page, so the tail is read as "non-empty values in order".
 
 The PDFs rank each gender separately; one TSV per distance holds both, so (as
 in the committed 2025 files) 総合順位 is recomputed across genders by finish
@@ -150,7 +157,11 @@ def build(files, gender_of, year, out_path):
         gender = gender_of[name]
         for a in athletes:
             if a["kanji"] is None:
-                raise SystemExit(f"{name}: no kanji line for {a['No.']} {a['kana']}")
+                # A row the organiser published with no name at all (SD F _1006,
+                # DNF 8118) has neither line; a kana name without kanji is a parse bug.
+                if a["kana"]:
+                    raise SystemExit(f"{name}: no kanji line for {a['No.']} {a['kana']}")
+                a["kanji"] = ""
             row = [
                 a["総合順位"], a["No."], clean_name(a["kanji"]), a["kana"], a["年齢"], gender,
                 a["総合記録"], a["スイムラップ"], a["S順"], a["T1ラップ"], a["T1順"],
