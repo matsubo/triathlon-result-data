@@ -1,8 +1,8 @@
-# Claude AI Assistant
+# AI Coding Agent Guide
 
 ## Overview
 
-Claude is an AI assistant created by Anthropic that can help with a wide variety of tasks including code analysis, data processing, documentation, and project management.
+This file is the shared instruction set for AI coding agents working in this repository (Claude Code reads it through the `CLAUDE.md` symlink; Codex and other agents read `AGENTS.md` directly). Agents can help with a wide variety of tasks including code analysis, data processing, documentation, and project management.
 
 ## Capabilities in This Project
 
@@ -31,7 +31,7 @@ Claude is an AI assistant created by Anthropic that can help with a wide variety
 
 ## Project Structure Understanding
 
-Claude can help navigate and understand this triathlon result data repository which contains:
+Agents can help navigate and understand this triathlon result data repository which contains:
 
 - **Race Results**: TSV files with participant times and rankings
 - **Weather Data**: JSON files with race day weather conditions
