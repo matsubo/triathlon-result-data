@@ -136901,6 +136901,90 @@
       "source": "https://www.coachcox.co.uk/imstats/race/2460/results/",
       "editions": [
         {
+          "date": "2026-10-04",
+          "weather_file": "master/2026/ironman_gurye_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "ironman_gurye_2026",
+              "result_tsv": "master/2026/ironman_gurye_2026/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2026 IRONMAN Gurye Korea",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
+        {
           "date": "2025-09-28",
           "weather_file": "master/2025/ironman_gurye_2025/weather-data.json",
           "categories": [
@@ -184724,6 +184808,80 @@
       "image": "images/im703_waco.webp",
       "source": "https://www.coachcox.co.uk/imstats/race/2644/results/",
       "editions": [
+        {
+          "date": "2026-10-04",
+          "weather_file": "master/2026/im703_waco_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_waco_2026",
+              "result_tsv": "master/2026/im703_waco_2026/default.tsv",
+              "name": "Half Distance",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Waco. Swim was cancelled due to conditions; race held as bike+run only.",
+              "segments": [
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-10-05",
           "weather_file": "master/2025/im703_waco_2025/weather-data.json",
