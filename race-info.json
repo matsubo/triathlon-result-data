@@ -50557,6 +50557,216 @@
       "source": "https://chiba-tra.jp/",
       "editions": [
         {
+          "date": "2026-10-11",
+          "weather_file": "master/2026/chibacity/weather-data.json",
+          "categories": [
+            {
+              "id": "chibacity",
+              "result_tsv": "master/2026/chibacity/default.tsv",
+              "name": "スタンダード",
+              "distance": "OD",
+              "description": "2026年千葉シティトライアスロン大会。千葉県千葉市の稲毛海浜公園を舞台に、スイム1.5km、バイク40km、ラン10kmのスタンダードディスタンスで開催。都市近郊の海岸を活用した、アクセスの良い大会です。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "スイムラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "S順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "T1",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "区分順位",
+                  "role": "age_rank"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4713"
+            },
+            {
+              "id": "chibacity_sprint",
+              "result_tsv": "master/2026/chibacity/sprint.tsv",
+              "name": "スプリント",
+              "distance": "SD",
+              "description": "2026年千葉シティトライアスロン大会 スプリント。千葉県千葉市の稲毛海浜公園を舞台に、スイム750m、バイク20km、ラン5kmのスプリントディスタンスで開催。初心者でも参加しやすい距離設定の大会です。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 0.75,
+                  "columns": [
+                    {
+                      "header": "スイムラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "S順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "T1",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 5,
+                  "columns": [
+                    {
+                      "header": "ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "区分順位",
+                  "role": "age_rank"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4721"
+            }
+          ]
+        },
+        {
           "date": "2025-10-13",
           "weather_file": "master/2025/chibacity/weather-data.json",
           "categories": [
@@ -60266,6 +60476,182 @@
       ]
     },
     {
+      "id": "sprint_championship_miyazaki",
+      "name": "日本スプリントトライアスロン選手権（宮崎）",
+      "location": "宮崎県宮崎市",
+      "location_parts": {
+        "country": "JP",
+        "prefecture": "宮崎県",
+        "city": "宮崎市"
+      },
+      "image": "images/sprint_championship_miyazaki.webp",
+      "source": "https://www.jtu.or.jp/championship-series/sprint/",
+      "editions": [
+        {
+          "date": "2026-09-27",
+          "weather_file": "master/2026/sprint_championship_miyazaki/weather-data.json",
+          "categories": [
+            {
+              "id": "sprint_championship_miyazaki_men",
+              "result_tsv": "master/2026/sprint_championship_miyazaki/men.tsv",
+              "name": "エリート男子",
+              "distance": "SD",
+              "description": "2026年第17回日本スプリントトライアスロン選手権（宮崎） エリート男子。みやざき臨海公園特設会場で開催。スイム0.75km、バイク20km、ラン5km。ドラフティング許可レース。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 0.75,
+                  "columns": [
+                    {
+                      "header": "スイムラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T1",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T2",
+                      "role": "transition"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 5,
+                  "columns": [
+                    {
+                      "header": "ランラップ",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "所属",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4642"
+            },
+            {
+              "id": "sprint_championship_miyazaki_women",
+              "result_tsv": "master/2026/sprint_championship_miyazaki/women.tsv",
+              "name": "エリート女子",
+              "distance": "SD",
+              "description": "2026年第17回日本スプリントトライアスロン選手権（宮崎） エリート女子。みやざき臨海公園特設会場で開催。スイム0.75km、バイク20km、ラン5km。ドラフティング許可レース。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 0.75,
+                  "columns": [
+                    {
+                      "header": "スイムラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T1",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "T2",
+                      "role": "transition"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 5,
+                  "columns": [
+                    {
+                      "header": "ランラップ",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "所属",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4643"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "sprint_championship_aomori",
       "name": "日本スプリントトライアスロン選手権",
       "location": "青森県青森市",
@@ -62544,6 +62930,224 @@
       "image": "images/kasumigaura.webp",
       "source": "https://www.jtu.or.jp/event/",
       "editions": [
+        {
+          "date": "2026-10-11",
+          "weather_file": "master/2026/kasumigaura/weather-data.json",
+          "categories": [
+            {
+              "id": "kasumigaura_middle",
+              "result_tsv": "master/2026/kasumigaura/middle.tsv",
+              "name": "ミドルディスタンス",
+              "distance": "MD",
+              "description": "2026年第6回霞ヶ浦国際トライアスロンフェスタ ミドルの部（K100）。茨城県土浦市のリンリンポート土浦周辺特設コース（スイム：土浦新港内、バイク：つくば霞ヶ浦りんりんロード、ラン：会場周辺・J:COMスタジアム土浦）で開催。スイム2.0km、バイク78km、ラン20km。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 2,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 78,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4722"
+            },
+            {
+              "id": "kasumigaura_standard",
+              "result_tsv": "master/2026/kasumigaura/standard.tsv",
+              "name": "スタンダードディスタンス",
+              "distance": "OD",
+              "description": "2026年第6回霞ヶ浦国際トライアスロンフェスタ スタンダードの部。茨城県土浦市のリンリンポート土浦周辺特設コース（スイム：土浦新港内、バイク：つくば霞ヶ浦りんりんロード、ラン：会場周辺・J:COMスタジアム土浦）で開催。スイム1.5km、バイク40km、ラン10km。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4724"
+            }
+          ]
+        },
         {
           "date": "2024-09-15",
           "weather_file": "master/2024/kasumigaura/weather-data.json",
