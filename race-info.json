@@ -1,6 +1,104 @@
 {
   "events": [
     {
+      "id": "im703_versailles",
+      "name": "IRONMAN 70.3 Versailles",
+      "location": "Versailles, France",
+      "location_parts": {
+        "country": "FR",
+        "region": "Île-de-France",
+        "city": "Versailles"
+      },
+      "image": "images/im703_versailles.webp",
+      "source": "https://www.ironman.com/races/im703-versailles",
+      "editions": [
+        {
+          "date": "2026-10-11",
+          "weather_file": "master/2026/im703_versailles_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_versailles_2026",
+              "result_tsv": "master/2026/im703_versailles_2026/default.tsv",
+              "name": "70.3",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Versailles. Inaugural edition, postponed from 2026-07-12 because of a heatwave; swim held in the Grand Canal of the Château de Versailles.",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90.1,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.0975,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "im703_baku",
       "name": "IRONMAN 70.3 Baku",
       "location": "Baku, Azerbaijan",
@@ -51734,6 +51832,90 @@
       "image": "images/kona.webp",
       "source": "https://www.ironman.com/races/im-world-championship-kona",
       "editions": [
+        {
+          "date": "2026-10-10",
+          "weather_file": "master/2026/ironman_world_championship_kona_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "ironman_world_championship_kona_2026",
+              "result_tsv": "master/2026/ironman_world_championship_kona_2026/default.tsv",
+              "name": "IRONMAN DISTANCE",
+              "distance": "LD",
+              "description": "2026年IRONMAN World Championship。2019年以来初めて男女同日開催となったコナでの世界選手権。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-10-11",
           "weather_file": "master/2025/ironman_world_championship_kona/weather-data.json",
@@ -263456,6 +263638,90 @@
       "image": "images/im703_encarnacion.webp",
       "source": "https://www.coachcox.co.uk/imstats/series/399/",
       "editions": [
+        {
+          "date": "2026-10-11",
+          "weather_file": "master/2026/im703_encarnacion_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_encarnacion_2026",
+              "result_tsv": "master/2026/im703_encarnacion_2026/default.tsv",
+              "name": "70.3",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Encarnacion",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90.1,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.0975,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-09-28",
           "weather_file": "master/2025/im703_encarnacion_2025/weather-data.json",

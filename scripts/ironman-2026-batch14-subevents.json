@@ -1,0 +1,17 @@
+{
+  "ironman_world_championship_kona": {
+    "subevent_uuid": "d168bf62-9088-4d48-b46a-9c6f968f24da",
+    "year": 2026,
+    "name": "2026 IRONMAN World Championship"
+  },
+  "im703_encarnacion": {
+    "subevent_uuid": "0c5f8a68-a310-420b-89c2-3db630f48090",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Encarnacion"
+  },
+  "im703_versailles": {
+    "subevent_uuid": "dacb0799-d6f4-46af-9285-8550945b48f3",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Versailles"
+  }
+}
