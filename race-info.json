@@ -16931,6 +16931,130 @@
       "source": "https://www.nagaragawa-middle.jp/",
       "editions": [
         {
+          "date": "2026-10-18",
+          "weather_file": "master/2026/nagaragawa_aki/weather-data.json",
+          "categories": [
+            {
+              "id": "nagaragawa_aki",
+              "result_tsv": "master/2026/nagaragawa_aki/default.tsv",
+              "name": "ミドルディスタンス102",
+              "distance": "MD",
+              "description": "2026年第5回長良川ミドルトライアスロン102秋。岐阜県海津市の国営木曽三川公園を舞台に、スイム2km、バイク80km、ラン20kmの総距離102kmに挑戦。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 2,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "T1",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 80,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    },
+                    {
+                      "header": "T2",
+                      "role": "transition"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "所属／登録",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齢別順",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "JTU番号",
+                  "role": "note"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4761"
+            }
+          ]
+        },
+        {
           "date": "2025-10-05",
           "weather_file": "master/2025/nagaragawa_102/weather-data.json",
           "categories": [
@@ -42957,6 +43081,110 @@
       "source": "https://www.mspo.jp/uminomorisptri/",
       "editions": [
         {
+          "date": "2026-10-17",
+          "weather_file": "master/2026/uminomorisptri/weather-data.json",
+          "categories": [
+            {
+              "id": "uminomorisptri",
+              "result_tsv": "master/2026/uminomorisptri/default.tsv",
+              "name": "スプリント・一般",
+              "distance": "SD",
+              "description": "2026年東京・海の森スプリントトライアスロン スプリント・一般。東京都江東区の海の森水上競技場で、スイム0.75km、バイク20km、ラン5kmのスプリントディスタンスで開催。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 0.75,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 20,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 5,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4744"
+            }
+          ]
+        },
+        {
           "date": "2025-08-31",
           "weather_file": "master/2025/uminomorisptri/weather-data.json",
           "categories": [
@@ -43747,6 +43975,118 @@
       "image": "images/imabari_hakata.webp",
       "source": "https://imabari-triathlon.com/",
       "editions": [
+        {
+          "date": "2026-10-18",
+          "weather_file": "master/2026/imabari_hakata/weather-data.json",
+          "categories": [
+            {
+              "id": "imabari_hakata",
+              "result_tsv": "master/2026/imabari_hakata/default.tsv",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "description": "2026年瀬戸内しまなみ海道 今治伯方島トライアスロン。愛媛県今治市の伯方Ｓ・Ｃパークを舞台に、スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンスで開催。美しい海と島々を望む絶景の中で行われる大会です。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "ｽｲﾑﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 40,
+                  "columns": [
+                    {
+                      "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｂ順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "ｽﾌﾟﾘｯﾄ",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 10,
+                  "columns": [
+                    {
+                      "header": "ﾗﾝﾗｯﾌﾟ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｒ順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "ﾍﾟﾅﾙﾃｨ",
+                  "role": "penalty"
+                },
+                {
+                  "header": "男女別順",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年齢区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年齡別順",
+                  "role": "age_rank"
+                }
+              ],
+              "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4759"
+            }
+          ]
+        },
         {
           "date": "2025-09-14",
           "weather_file": "master/2025/imabari_hakata/weather-data.json",
@@ -140158,6 +140498,90 @@
       "source": "https://www.coachcox.co.uk/imstats/race/2463/results/",
       "editions": [
         {
+          "date": "2026-10-17",
+          "weather_file": "master/2026/ironman_portugal_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "ironman_portugal_2026",
+              "result_tsv": "master/2026/ironman_portugal_2026/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "2026 IRONMAN Portugal-Cascais",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
+        {
           "date": "2025-10-18",
           "weather_file": "master/2025/ironman_portugal_2025/weather-data.json",
           "categories": [
@@ -187213,6 +187637,90 @@
       "image": "images/im703_north_carolina.webp",
       "source": "https://www.coachcox.co.uk/imstats/race/2626/results/",
       "editions": [
+        {
+          "date": "2026-10-17",
+          "weather_file": "master/2026/im703_north_carolina_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_north_carolina_2026",
+              "result_tsv": "master/2026/im703_north_carolina_2026/default.tsv",
+              "name": "Half Distance",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 North Carolina",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-10-25",
           "weather_file": "master/2025/im703_north_carolina_2025/weather-data.json",
@@ -256660,6 +257168,90 @@
       "image": "images/im703_portugal_cascais.webp",
       "source": "https://www.coachcox.co.uk/imstats/series/281/",
       "editions": [
+        {
+          "date": "2026-10-17",
+          "weather_file": "master/2026/im703_portugal_cascais_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_portugal_cascais_2026",
+              "result_tsv": "master/2026/im703_portugal_cascais_2026/default.tsv",
+              "name": "70.3",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Portugal-Cascais",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90.1,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.0975,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-10-18",
           "weather_file": "master/2025/im703_portugal_cascais_2025/weather-data.json",

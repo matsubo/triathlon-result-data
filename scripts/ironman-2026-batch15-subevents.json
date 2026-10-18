@@ -1,0 +1,17 @@
+{
+  "im703_north_carolina": {
+    "subevent_uuid": "151a488f-08ca-4b08-a63a-c9272aab277e",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 North Carolina"
+  },
+  "im703_portugal_cascais": {
+    "subevent_uuid": "d2d69985-cef9-45e2-af7e-fca78c04f26b",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Portugal-Cascais"
+  },
+  "ironman_portugal": {
+    "subevent_uuid": "54ee90cf-27dc-4a8a-8ee9-f9e83957b758",
+    "year": 2026,
+    "name": "2026 IRONMAN Portugal-Cascais"
+  }
+}

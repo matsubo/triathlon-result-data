@@ -359,7 +359,7 @@ Discovery recipe used by `/import-race` (see also [jtu-results-api](jtu-results-
 - **Upcoming:** 70.3 New York 10-24.
 
 **2026-10-19 sweep (previous run 2026-10-13, committed as `90b3c61b`; local == `origin/main`):**
-- **Nothing imported on this run.** The user selected none of the candidates below at the confirmation step. They are listed with their ids so the next run can import them directly; ask again before importing.
+- **Outcome:** nothing was selected at the confirmation step. Later the same day the user asked for everything except the super sprint championship, so six editions were imported (see "2026-10-19 (2)" below). **441 stays excluded by user choice; ask before importing it.**
 - **IRONMAN:** 169/169 pages fetched with 0 failures; 1554 unique subevents (10-13 had 1551). All three new subevents raced on 2026-10-17 and already carry full age-group fields:
 
   | target event | subevent uuid | rows / finishers | 2025 rows | notes |
@@ -375,3 +375,23 @@ Discovery recipe used by `/import-race` (see also [jtu-results-api](jtu-results-
   - **442 東京・海の森スプリント → `uminomorisptri` 2026-10-17:** take `442_1` スプリント・一般 (table 4744, 120 rows; 2025 had 184), the only category in the 2025 edition. スーパースプリント・一般 (`442_5`, table 4748, 39 rows, no 年齢区分 column) was not imported in 2025 either.
   - **441 日本スーパースプリント選手権 (Tokyo, 2026-10-17):** would be a NEW event. Finals only: `441_1` elite men (table 4742) and `441_2` elite women (table 4743), 30 rows each; skip the semifinals 441_3–441_7. The captions are English with an empty first caption (`|Pos|StartNum|Name|Affiliation|YOB|Time|Swim|T1|Bike|T2|Run`); map them as for 国スポ 425 / 宮崎 428, and add a constant 性別 column per table.
 - **Upcoming:** 70.3 New York 10-24.
+
+**2026-10-19 (2) — six of the seven candidates imported (user: スーパースプリント以外):**
+- **IRONMAN** via `scripts/add-ironman-2026-batch15-editions.mjs` and `scripts/ironman-2026-batch15-subevents.json`; each edition cloned its 2025 mapping (all three 2025 editions had the standard course):
+  - `im703_north_carolina` 2026-10-17: 2647 rows. The two duplicate overall ranks (1067, 1189) are genuine time ties.
+  - `im703_portugal_cascais` 2026-10-17: 2202 rows. One duplicate rank (845), also a tie.
+  - `ironman_portugal` 2026-10-17: 2219 rows.
+  - Rank probe with 99999 excluded: 0 ordering violations.
+  - Blank bike / T2 (and one T1) on 5 finishers are `0` in the raw `api/results` row: Cascais 70.3 has Fenne van Zon and Pedro Roquim, and IRONMAN Portugal has Benoît Lepage, Saar Kerlik and Lewis Everett. These were baselined with `--update` (missingLaps 2 and 3).
+  - Source-side duplicate ContactIds (one contact under two divisions) appear in all three, as in Cozumel/Kona/Versailles. They were left as published.
+- **JTU** via `scripts/add-jtu-2026-nagaragawa-aki-imabari-uminomori.mjs`, which uses the API with captions kept verbatim:
+  - `nagaragawa_aki` (440_1, 374 rows): this is the first edition stored under the event-id directory `master/2026/nagaragawa_aki/`, because 2024–2025 used `nagaragawa_102/`. The new caption **JTU番号 → `note`**.
+  - `imabari_hakata` (443_1, 479 rows): the race moved from mid-September to 10-18. New captions: **ﾍﾟﾅﾙﾃｨ → `penalty`** and **男女別順** (one column instead of 男子順位 / 女子順位) **→ `gender_rank`**.
+  - `uminomorisptri` (442_1, 120 rows): the race moved from 08-31 to 10-17. There are no T1 / T2 / ペナルティ columns this year (2025 had them).
+  - The API names had no full-width or space problems. Non-finishers carry DNS / DNF / SKIP / DSQ in 総合順位 with an empty 総合記録, the same shape as 2025.
+  - `fix-age-category-labels.js` rewrote 599 cells in 2 files.
+- **Weather, chosen by regenerating the prior edition and diffing:**
+  - `nagaragawa_aki` = **岐阜 `52 / 47632`**: it reproduces the 2025 file 8/8, while 名古屋 does not.
+  - The committed 2025 `imabari_hakata` and `uminomorisptri` files **match no station**: imabari was tried against 松山, 広島, 高松, 多度津 and 呉, uminomori against 東京, 横浜 and 千葉. Both have integer wind speeds, the same fabricated signature as the 2025 chibacity / 八景島 / 村上 / 川崎港 files. They were flagged, not regenerated.
+  - 2026 uses **松山 `73 / 47887`** for 伯方島 (34.2299 / 133.0981) and **東京 `44 / 47662`** for 海の森 (35.5953 / 139.8079).
+  - The IRONMAN points reproduce 2025 exactly: Wilmington **34.2104 / -77.8868** and Cascais **38.6979 / -9.4215**, the latter shared by the 70.3 and the full-distance race.

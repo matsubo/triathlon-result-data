@@ -2414,6 +2414,11 @@
     "missingLaps": 55,
     "missingTotal": 0
   },
+  "ironman_portugal/2026/ironman_portugal_2026": {
+    "warnings": 0,
+    "missingLaps": 3,
+    "missingTotal": 0
+  },
   "ironman_portugal/2024/ironman_portugal_2024": {
     "warnings": 0,
     "missingLaps": 2,
@@ -6462,6 +6467,11 @@
   "im703_taitung/2017/im703_taitung_2017": {
     "warnings": 0,
     "missingLaps": 5,
+    "missingTotal": 0
+  },
+  "im703_portugal_cascais/2026/im703_portugal_cascais_2026": {
+    "warnings": 0,
+    "missingLaps": 2,
     "missingTotal": 0
   },
   "im703_portugal_cascais/2024/im703_portugal_cascais_2024": {
