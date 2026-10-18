@@ -357,3 +357,21 @@ Discovery recipe used by `/import-race` (see also [jtu-results-api](jtu-results-
 - **Weather (Open-Meteo):** Encarnación is at **-27.3306 / -55.8667** (Playa San José). Regenerating 2025-09-28 at that point reproduces the committed 2025 file 8/8, because the ERA5 grid is coarse and nearby points all match. Kona used **19.6400 / -155.9969** (Kailua pier). The committed 2025 Kona file does not match: it has round values (26 / 27.5 / 29) where Open-Meteo at that point gives 23.0–27.2 for 2025-10-11. That is the same fabricated signature as the 2025 JTU files, so it was flagged, not regenerated. Versailles used **48.8049 / 2.1204**.
 - **JTU:** the ceiling is still **438**; 439–480 are empty. 432, 434 and 438 remain excluded per the earlier user decisions.
 - **Upcoming:** 70.3 New York 10-24.
+
+**2026-10-19 sweep (previous run 2026-10-13, committed as `90b3c61b`; local == `origin/main`):**
+- **Nothing imported on this run.** The user selected none of the candidates below at the confirmation step. They are listed with their ids so the next run can import them directly; ask again before importing.
+- **IRONMAN:** 169/169 pages fetched with 0 failures; 1554 unique subevents (10-13 had 1551). All three new subevents raced on 2026-10-17 and already carry full age-group fields:
+
+  | target event | subevent uuid | rows / finishers | 2025 rows | notes |
+  |---|---|---|---|---|
+  | `im703_north_carolina` | `151a488f-08ca-4b08-a63a-c9272aab277e` | 2647 / 2288 | 2658 | 25 divisions, no PRO |
+  | `im703_portugal_cascais` | `d2d69985-cef9-45e2-af7e-fca78c04f26b` | 2202 / 2046 | 2507 | 16 PRO |
+  | `ironman_portugal` | `54ee90cf-27dc-4a8a-8ee9-f9e83957b758` | 2219 / 1981 | 1607 | full distance |
+
+  Every finisher in all three has a swim split, so no swim was cancelled. Slug → event: `im703-north-carolina`, `im703-cascais`, `im-cascais`.
+- **JTU:** the new ceiling is **443**. 439 returns no event, and 444–480 are empty. Candidates, with the table chosen per the 2025 precedent:
+  - **440 長良川ミドル102秋 → `nagaragawa_aki` 2026-10-18:** take `440_1` ミドルディスタンス102 only (table 4761, 374 rows; 2025 had 403). Leave out the aquabike and aquathlon programs 440_2–440_5. Captions: `総合順位|No.|氏名|年齢|性別|所属／登録|総合記録|ｽｲﾑﾗｯﾌﾟ|Ｓ順|T1|ﾊﾞｲｸﾗｯﾌﾟ|Ｂ順|ｽﾌﾟﾘｯﾄ|通過|T2|ﾗﾝﾗｯﾌﾟ|Ｒ順|男子順位|女子順位|年齢区分|年齢別順|JTU番号`.
+  - **443 今治伯方島 → `imabari_hakata` 2026-10-18:** take `443_1` スタンダード (table 4759, 479 rows; 2025 had 478). Leave out the リレー. Captions include `ﾍﾟﾅﾙﾃｨ` and `男女別順`.
+  - **442 東京・海の森スプリント → `uminomorisptri` 2026-10-17:** take `442_1` スプリント・一般 (table 4744, 120 rows; 2025 had 184), the only category in the 2025 edition. スーパースプリント・一般 (`442_5`, table 4748, 39 rows, no 年齢区分 column) was not imported in 2025 either.
+  - **441 日本スーパースプリント選手権 (Tokyo, 2026-10-17):** would be a NEW event. Finals only: `441_1` elite men (table 4742) and `441_2` elite women (table 4743), 30 rows each; skip the semifinals 441_3–441_7. The captions are English with an empty first caption (`|Pos|StartNum|Name|Affiliation|YOB|Time|Swim|T1|Bike|T2|Run`); map them as for 国スポ 425 / 宮崎 428, and add a constant 性別 column per table.
+- **Upcoming:** 70.3 New York 10-24.
