@@ -92667,6 +92667,90 @@
       "source": "https://www.coachcox.co.uk/imstats/race/2187/results/",
       "editions": [
         {
+          "date": "2026-10-18",
+          "weather_file": "master/2026/ironman_australia_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "ironman_australia_2026",
+              "result_tsv": "master/2026/ironman_australia_2026/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "IRONMAN Australia 2026. Port Macquarie, Australia.",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
+        {
           "date": "2025-05-04",
           "weather_file": "master/2025/ironman_australia_2025/weather-data.json",
           "categories": [
@@ -141015,6 +141099,90 @@
       "source": "https://www.coachcox.co.uk/imstats/race/2464/results/",
       "editions": [
         {
+          "date": "2026-10-18",
+          "weather_file": "master/2026/ironman_california_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "ironman_california_2026",
+              "result_tsv": "master/2026/ironman_california_2026/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "IRONMAN California 2026. Sacramento, California, USA.",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
+        {
           "date": "2025-10-19",
           "weather_file": "master/2025/ironman_california_2025/weather-data.json",
           "categories": [
@@ -148078,6 +148246,90 @@
       "image": "images/im703_port_macquarie.webp",
       "source": "https://www.coachcox.co.uk/imstats/race/2417/results/",
       "editions": [
+        {
+          "date": "2026-10-18",
+          "weather_file": "master/2026/im703_port_macquarie_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_port_macquarie_2026",
+              "result_tsv": "master/2026/im703_port_macquarie_2026/default.tsv",
+              "name": "Half Distance",
+              "distance": "MD",
+              "description": "IRONMAN 70.3 Port Macquarie 2026. Port Macquarie, Australia.",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-05-04",
           "weather_file": "master/2025/im703_port_macquarie_2025/weather-data.json",
@@ -208018,6 +208270,90 @@
       "image": "images/im703_florianopolis.webp",
       "source": "https://www.coachcox.co.uk/imstats/series/93/",
       "editions": [
+        {
+          "date": "2026-10-18",
+          "weather_file": "master/2026/im703_florianopolis_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_florianopolis_2026",
+              "result_tsv": "master/2026/im703_florianopolis_2026/default.tsv",
+              "name": "70.3",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Florianopolis",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90.1,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.0975,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-10-26",
           "weather_file": "master/2025/im703_florianopolis_2025/weather-data.json",
