@@ -395,3 +395,31 @@ Discovery recipe used by `/import-race` (see also [jtu-results-api](jtu-results-
   - The committed 2025 `imabari_hakata` and `uminomorisptri` files **match no station**: imabari was tried against 松山, 広島, 高松, 多度津 and 呉, uminomori against 東京, 横浜 and 千葉. Both have integer wind speeds, the same fabricated signature as the 2025 chibacity / 八景島 / 村上 / 川崎港 files. They were flagged, not regenerated.
   - 2026 uses **松山 `73 / 47887`** for 伯方島 (34.2299 / 133.0981) and **東京 `44 / 47662`** for 海の森 (35.5953 / 139.8079).
   - The IRONMAN points reproduce 2025 exactly: Wilmington **34.2104 / -77.8868** and Cascais **38.6979 / -9.4215**, the latter shared by the 70.3 and the full-distance race.
+
+**2026-10-22 sweep (previous run 2026-10-19, committed as `3d2988c8`; local == `origin/main` after `git fetch`):**
+- **Outcome:** nothing was selected at the first confirmation prompt. The user then made the workflow autonomous: the skill imports, commits and pushes without asking, and the Orca automation "triathlon race discovery" runs the full skill daily at 04:30 instead of a weekly read-only `claude -p` discovery. All four candidates below were imported in the same session (see "2026-10-22 (2)").
+- **IRONMAN:** 169/169 pages fetched with 0 failures and 0 redirects; 1559 unique subevents (10-19 had 1554). The 2025-01-01..2026-10-22 re-diff by date found only the two known Currents-to-Kicks aquathlons (Oregon 07-17, Washington Tri-Cities 09-18). All five new subevents raced **2026-10-18**, which the 10-19 sweep did not see yet — the late-materialisation pattern from the 09-14 note again:
+
+  | target event | subevent uuid | rows / finishers (10-22) | 2025 rows | notes |
+  |---|---|---|---|---|
+  | `ironman_australia` | `e4eb745e-0f82-441d-a5e6-a5dc50053946` | 1421 / 1235 | 1028 | moved from early May to October; no PRO |
+  | `ironman_california` | `0122afc0-ade5-44d5-991e-86f0fd4dec30` | 2824 / 2614 | 2502 | no PRO |
+  | `im703_florianopolis` | `8441a611-e0a4-4f23-ad2a-731afcf87d17` | 1765 / 1468 | 1712 | 15 PRO |
+  | `im703_port_macquarie` | `58f1069d-8df9-4d2c-a10e-9033da2dc0b6` | 1467 / 1240 | 1394 | moved from early May to October; 34 PRO |
+
+  Slug → event: `im-australia`, `im-california`, `im703-florianopolis`, `im703-port-macquarie`. Rows with a swim split: 1289 / 2742 / 1487 / 1274 (84–97%). That is more than the finisher count in every race, so no swim was cancelled; confirm per-finisher swim coverage on the TSV at import. Every 2025 sibling carries a `weather_file`.
+  - **Skip `2026 Aquabike 70.3 Port Macquarie`** (`d0768c5f-8201-4eb9-a3de-5c99fa8b581a`): a swim-bike side event listed under the same event uuid, out of scope like the JTU aquabike programs.
+- **JTU:** the ceiling is still **443**; 444–485 are empty. **439 now returns an event** (on 10-19 it returned none): 日本学生スプリントトライアスロン選手権 (2026-10-18, 渡良瀬遊水地), programs 439_1–439_8 (スプリント選手権/オープン, チームTT). Excluded by the 学生/大学 filter. 441 stays excluded by user choice.
+- **Upcoming:** 70.3 New York 10-24.
+
+**2026-10-22 (2) — the four 2026-10-18 IRONMAN editions imported** via `scripts/add-ironman-2026-batch16-editions.mjs` and `scripts/ironman-2026-batch16-subevents.json`:
+- **Swim-cancellation in the template edition — new trap.** The latest editions of `ironman_australia` and `im703_port_macquarie` (both 2025-05-04) were swim-cancelled and modelled bike-run. Blindly cloning "latest edition" (the batch15 approach) would have dropped the swim from 2026, when every 2026 finisher has a swim split. The batch16 script restores the swim segment (3.8 / 1.9 km, taken from their 2023–2024 editions), and it exits if a template lacks swim and no distance is given. **When you clone a mapping, check the template's description for "Swim was cancelled".**
+- Rank probe, with 99999 excluded: 0 ordering violations. The only duplicate rank is Port Macquarie #223, a genuine 5:21:31 tie. No full-width characters or double spaces in names, and no blank Country.
+- Source-side missing splits, baselined with `--update` after confirming a `0` in the raw `api/results` row:
+  - Florianópolis: Polyana Silva has bike `0`. Eva Prendergast is ranked 99999 with all splits `0` and a 6:31:51 total.
+  - Port Macquarie: Alasdair Cameron and Kathy Cornish have bike `0`.
+- **Weather (Open-Meteo), with points that regenerate the 2025 hourly temperature and humidity 8/8:**
+  - Port Macquarie **-31.4310 / 152.9090**, shared by both races.
+  - Sacramento **38.5816 / -121.4944**.
+  - Florianópolis city centre **-27.5954 / -48.5480**; Jurerê scored 0/8.
+  - The committed 2025 Florianópolis min/max differ from the regenerated values by about 0.6–1.0 °C, though the hourly values match.

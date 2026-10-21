@@ -1,22 +1,46 @@
 ---
 name: import-race
-description: Use when importing triathlon race data into this repository — sweeping IRONMAN/JTU for editions not yet imported, filling the gap since the last import run, or hand-adding a single event, edition, result TSV, weather file, or event image. Accepts an optional scope argument, "ironman" or "jtu" to restrict the source and/or a 4-digit year to restrict the year.
+description: Use when importing triathlon race data into this repository — sweeping IRONMAN/JTU for editions not yet imported, filling the gap since the last import run, or hand-adding a single event, edition, result TSV, weather file, or event image. Runs end to end without asking — imports, validates, commits and pushes to origin/main. Accepts an optional scope argument, "ironman" or "jtu" to restrict the source and/or a 4-digit year to restrict the year.
 ---
 
 # Import race data
 
-Everything that turns a dirty external result source into a committed, validated edition in
-this repository. Two ways in:
+Everything that turns a dirty external result source into a committed, validated, pushed
+edition in this repository. Two ways in:
 
 - **Sweep mode** — "import missing editions", "check for new results", or an invocation
   with a scope argument. Start at step 1.
-- **Single-edition mode** — a specific event / edition / TSV / image was named. Skip to
-  step 4, then always finish with steps 5-7.
+- **Single-edition mode** — a specific event / edition / TSV / image was named. Run step 1's
+  sync, skip to step 4, then always finish with steps 5-8.
 
 **Scope** — from the invocation arguments, if any: `$ARGUMENTS`
 - No arguments → check **both** IRONMAN and JTU, for the current and previous year.
 - `ironman` / `jtu` → restrict to that one source.
 - A 4-digit year → restrict to that year.
+
+## Autonomy
+
+Run the whole procedure — discover, import, validate, commit, push — **without asking the
+user for confirmation**. A routine addition needs no approval: a new edition of an existing
+event, or a new event of a kind the repository already carries (age-group triathlon, 国スポ,
+日本選手権), that passes every gate in step 5.
+
+Stop and ask only for decisions the repository cannot answer. Import every routine candidate
+first, then ask about these (or list them in the report):
+- A candidate that `references/discovery.md` records as **excluded or deferred by user
+  choice** (e.g. JTU 441 日本スーパースプリント選手権).
+- A kind of event the repository has no precedent for, including standalone aquathlon /
+  duathlon events (see their policy files).
+- Rewriting already-committed data: re-fetching a committed edition, merging duplicate
+  event ids, regenerating committed weather files.
+
+In an unattended run, such as the daily Orca automation "triathlon race discovery", never
+ask. Leave those candidates out, list them in the report, and record them as pending in
+`references/discovery.md`.
+
+Do not ask about a candidate that fails a quality check — for example PRO-only partial
+results, or JMA weather not yet published. Skip it, record it as deferred in
+`references/discovery.md` with its uuid / table ids and the reason, and pick it up next run.
 
 ## Mandatory checklist (every import, both modes)
 
@@ -61,10 +85,13 @@ this workflow needs is in the repository.
 
 ## Procedure
 
-1. **Inventory what already exists.** Read `race-info.json` and build the set of
+1. **Sync, then inventory.** Run `git fetch` and `git pull --ff-only` first, because another
+   session may already have imported the same races (see the 2026-10-09 note in
+   `references/discovery.md`). Then read `race-info.json` and build the set of
    `(event, date)` editions already imported. Editions key off `edition.date`, not a
-   `year` field. Do not re-import these. Also check `git status` — a previous run may have
-   left an unreviewed batch staged; build on top of it rather than duplicating it.
+   `year` field. Do not re-import these. Leftover uncommitted import files mean an earlier
+   run was interrupted: finish and include them. Leave unrelated untracked or modified
+   files alone.
 
 2. **Discover candidates from each in-scope source** (full recipes in
    `references/discovery.md`):
@@ -90,7 +117,8 @@ this workflow needs is in the repository.
      the PRO field. Compare the athlete count and age-group breadth against the prior
      year before importing.
 
-   **Show me this list and confirm before importing.**
+   Proceed straight to step 4 with every routine candidate; see **Autonomy** above for the
+   few cases that still need the user.
 
 4. **Import each edition**, delegating to the existing agents:
    - `race-result-scraper` → fetch the result table → `master/<year>/<id>/result.tsv`
@@ -119,12 +147,28 @@ this workflow needs is in the repository.
    Never accept an import on the strength of a few eyeballed rows — the audit is
    aggregate statistics, and a nonzero metric must either be fixed or explained in the
    commit message and recorded with `bun run scripts/check-integrity.js --update`.
+   If an edition cannot be made to pass, remove its files and its `race-info.json` entry,
+   record it as deferred, and commit the rest.
 
-6. **Report** what was imported (events, editions, athlete counts) and what was skipped
-   (and why). **Do not commit or push** — leave the changes staged for review.
-
-7. **Record what this run learned** by appending a dated section to
+6. **Record what this run learned** by appending a dated section to
    `references/discovery.md`: the new source ceiling, any new column captions and how they
    were mapped, traps hit, and candidates deliberately deferred (with their uuids, so the
    next run does not re-discover them). This file is the memory of the workflow — keeping
    it current in the repository is what makes the import reproducible on any host.
+   A sweep that found nothing and learned nothing needs no entry. This matters for the daily
+   unattended run: an empty entry every day would bury the real ones.
+
+7. **Commit and push to `origin/main`.**
+   - Stage only the paths this run created or changed: `git add <paths>`, never
+     `git add -A`.
+   - Commit the data as `feat: import <races> <date> (<N>)`, following `git log`. The body
+     carries the per-edition athlete counts and any baselined integrity gaps. Commit the
+     `discovery.md` section separately as `docs(import-race): record the <date> sweep`.
+   - Run `git push origin HEAD:main`. If it is rejected, run `git fetch origin` and
+     `git rebase origin/main`. Drop any edition that upstream already imported, re-run
+     `bun run test`, `check:duplicates` and `check:integrity`, then push again. Never
+     force-push or bypass hooks (`--no-verify`).
+
+8. **Report** the pushed commit hashes, what was imported (events, editions, athlete
+   counts), what was skipped or deferred and why, and any decisions left for the user.
+
