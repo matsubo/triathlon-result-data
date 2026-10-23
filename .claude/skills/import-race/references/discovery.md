@@ -423,3 +423,11 @@ Discovery recipe used by `/import-race` (see also [jtu-results-api](jtu-results-
   - Sacramento **38.5816 / -121.4944**.
   - Florianópolis city centre **-27.5954 / -48.5480**; Jurerê scored 0/8.
   - The committed 2025 Florianópolis min/max differ from the regenerated values by about 0.6–1.0 °C, though the hourly values match.
+
+**2026-10-24 sweep (unattended daily run; previous run 2026-10-22, committed as `f323d524` / `b558d27e`; local == `origin/main` after `git fetch`):**
+- **IRONMAN:** 169/169 pages fetched with 0 failures and 0 redirects; 1560 unique subevents (10-22 had 1559). The one new subevent is **2026 IRONMAN 70.3 Porec** (`ace7b6b3-6719-4888-9997-bea0cc93e123`, slug `im703-croatia` → `im703_porec`), raced **2026-10-18**. It was absent from the 10-22 sweep four days after the race, which is later than the "up to ~2 days" pattern in the 09-14 note. Keep re-sweeping a weekend for about a week, not two days. The 2025-01-01..2026-10-24 re-diff by date found nothing else missing except the two known Currents-to-Kicks aquathlons.
+- **Imported** via `scripts/add-ironman-2026-batch17-editions.mjs` and `scripts/ironman-2026-batch17-subevents.json`, cloning the standard-course 2025 mapping: `im703_porec` 2026-10-18 has 1814 rows and 1516 ranked finishers (2025: 1541 / 1293), with 24 divisions and no PRO division. The swim was held: 1516 of 1518 finishers have a swim split. Rank probe with 99999 excluded: 0 duplicate ranks, 0 ordering violations. Names are clean, and no Country cell is blank (4 `Unknown`).
+- Source-side missing splits, confirmed as `0` in the raw `api/results` row and baselined with `--update` (missingLaps 12): Vojtech Kupka and Jarne Van Hecke have only a run rank and a total. Andrea Chinnow and Alessandro Lombardo have bike / T2 / run `0`. Eni Herak has T1 / bike / T2 / run `0`.
+- **Weather (Open-Meteo):** Poreč **45.2269 / 13.5947** regenerates the 2025 hourly temperature and humidity 8/8.
+- **JTU:** the ceiling is still **443**; 444–490 are empty, and the program counts for 436–443 are unchanged. 441 日本スーパースプリント選手権 stays excluded by user choice and is pending a user decision.
+- **Upcoming:** 70.3 New York 10-24 (not raced at sweep time).
