@@ -3,6 +3,7 @@ import { dirname, join, resolve } from "node:path";
 import { describe, test, expect } from "bun:test";
 import { openLedger, type Findings } from "../scripts/lib/known-issue-ledger.js";
 import { loadExceptions } from "../scripts/lib/exceptions.js";
+import { canonicalAgeCategory, classifyAgeCategory } from "../scripts/lib/normalize-age-category.js";
 
 const repoRoot = resolve(import.meta.dirname, "..");
 const masterDir = join(repoRoot, "master");
@@ -447,7 +448,12 @@ describe("TSV Lint Rules", () => {
         const cells = lines[ln].split("\t");
         for (const i of idxs) {
           const v = (cells[i] || "").trim();
-          if (/[男女]/.test(v) && !allow.has(v)) fileErrors.push(`${tsv}:${ln + 1} ${head[i]}=${v}`);
+          if (allow.has(v)) continue;
+          const kind = classifyAgeCategory(v);
+          if (kind === "fixable")
+            fileErrors.push(`${tsv}:${ln + 1} ${head[i]}=${v} (fixable → ${canonicalAgeCategory(v)})`);
+          else if (kind === "no-canonical-form")
+            fileErrors.push(`${tsv}:${ln + 1} ${head[i]}=${v} (no canonical form)`);
         }
       }
       findings[tsv] = { count: fileErrors.length, example: fileErrors.slice(0, 3).join("; ") };
