@@ -117,32 +117,20 @@ Agents can help navigate and understand this triathlon result data repository wh
 
 ### GitHub Workflows (.github/workflows/)
 
-The project includes automated CI/CD workflows for data validation:
+One workflow, **ci.yml** (`CI`), runs on every push to `main`, every pull request,
+and on manual dispatch. It has no path filters, so every change runs every check.
+It sets up Bun, runs `bun install`, then:
 
-- **json-check.yml**: Runs JSON syntax validation using pytest
-  - Triggers on changes to JSON files, tests, workflows, or README
-  - Uses Python 3.x and pytest for validation
-  - Ensures all JSON files have valid syntax
+1. `bun run test` — every `tests/*.test.ts` (JSON syntax and path references,
+   race-info.json and weather-data.json against their JSON Schemas, TSV lint,
+   image references, normalizer unit tests) followed by `tsc --noEmit`
+2. `bun run check:integrity` — normalizes every Edition and compares
+   missing-value counts against `integrity-baseline.json`
+3. `bun run check:duplicates` — flags pairs of Editions in the same year whose
+   (name, total_time) fingerprints overlap ≥80%; allowlist genuinely distinct
+   lookalikes in `duplicate-allowlist.json`
 
-- **validate-race-info.yml**: Validates race information data
-  - Triggers on changes to `race-info.json` or `race-info-schema.json`
-  - Uses Node.js 22 and ajv-cli for JSON Schema validation
-  - Validates race-info.json against its schema
-
-- **validate-weather-data.yml**: Validates weather data files
-  - Triggers on changes to weather-data.json files or weather-schema.json
-  - Uses Node.js 22 and ajv-cli for JSON Schema validation
-  - Finds and validates all weather-data.json files in the master directory
-  - Provides detailed validation results for each file
-
-- **check-duplicates.yml**: Detects duplicate race editions by comparing TSV content
-  - Triggers on changes to `race-info.json`, `master/**/*.tsv`, or the checker itself
-  - Runs `bun run check:duplicates` (scripts/check-duplicate-editions.js)
-  - Flags pairs of editions in the same year whose (name, total_time) fingerprints overlap ≥80%
-  - Allowlist genuinely distinct lookalikes in `duplicate-allowlist.json`
-  - Prevents the scenario where the same physical race is registered under two event_ids (e.g., "IRONMAN 70.3 Japan" vs "IRONMAN 70.3 Centrair Chita Peninsula Japan")
-
-These workflows ensure data integrity and consistency across the repository.
+Running these three commands locally reproduces CI exactly.
 
 ### Lint / Format
 
@@ -217,8 +205,8 @@ with pdfplumber.open('result.pdf') as pdf:
 ### 6. 検証と出力確認
 
 ```bash
-bunx ajv-cli validate -s race-info-schema.json -d race-info.json
-bunx ajv-cli validate -s weather-schema.json -d master/{year}/{id}/weather-data.json
+bun run test:schema         # race-info.json ↔ race-info-schema.json
+bun run test:weather        # 全 weather-data.json ↔ weather-schema.json
 bun scripts/normalize-tsv.js <event_id> <year>   # result-schema.json 検証込み
 bun run test:tsv-lint       # 静的規約（氏名スペース・時間形式・順位列・列数整合）
 bun run check:duplicates    # 重複エディション検出

@@ -1,9 +1,6 @@
 # Multi-Sport Race Result Data
 
-[![JSON Syntax Check](https://github.com/matsubo/triathlon-result-data/actions/workflows/json-check.yml/badge.svg)](https://github.com/matsubo/triathlon-result-data/actions/workflows/json-check.yml)
-[![Validate Race Info](https://github.com/matsubo/triathlon-result-data/actions/workflows/validate-race-info.yml/badge.svg)](https://github.com/matsubo/triathlon-result-data/actions/workflows/validate-race-info.yml)
-[![Validate Weather Data](https://github.com/matsubo/triathlon-result-data/actions/workflows/validate-weather-data.yml/badge.svg)](https://github.com/matsubo/triathlon-result-data/actions/workflows/validate-weather-data.yml)
-[![Check Duplicate Editions](https://github.com/matsubo/triathlon-result-data/actions/workflows/check-duplicates.yml/badge.svg)](https://github.com/matsubo/triathlon-result-data/actions/workflows/check-duplicates.yml)
+[![CI](https://github.com/matsubo/triathlon-result-data/actions/workflows/ci.yml/badge.svg)](https://github.com/matsubo/triathlon-result-data/actions/workflows/ci.yml)
 
 ## Purpose
 
@@ -212,12 +209,11 @@ bun run test:typecheck   # run static type check (tsc --noEmit)
 bun run check:duplicates # detect duplicate race editions
 ```
 
-The GitHub Actions workflows run the same checks:
+A single GitHub Actions workflow, **CI** (`.github/workflows/ci.yml`), runs on every push to `main` and every pull request:
 
-- **json-check** — JSON syntax validity.
-- **validate-race-info** — `race-info.json` against its schema.
-- **validate-weather-data** — every `weather-data.json` against `weather-schema.json`.
-- **check-duplicates** — flag pairs of editions whose `(name, total_time)` fingerprints overlap ≥80 % (allowlist genuinely distinct lookalikes in `duplicate-allowlist.json`).
+- `bun run test` — all of the tests above plus the typecheck.
+- `bun run check:integrity` — normalize every edition and compare missing-value counts against `integrity-baseline.json`.
+- `bun run check:duplicates` — flag pairs of editions whose `(name, total_time)` fingerprints overlap ≥80 % (allowlist genuinely distinct lookalikes in `duplicate-allowlist.json`).
 
 ## Importing new race data
 
