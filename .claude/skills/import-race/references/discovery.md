@@ -431,3 +431,20 @@ Discovery recipe used by `/import-race` (see also [jtu-results-api](jtu-results-
 - **Weather (Open-Meteo):** Poreč **45.2269 / 13.5947** regenerates the 2025 hourly temperature and humidity 8/8.
 - **JTU:** the ceiling is still **443**; 444–490 are empty, and the program counts for 436–443 are unchanged. 441 日本スーパースプリント選手権 stays excluded by user choice and is pending a user decision.
 - **Upcoming:** 70.3 New York 10-24 (not raced at sweep time).
+
+**2026-10-27 sweep (unattended daily run; previous run 2026-10-24, committed as `f7955c1a` / `562a4c11`; local == `origin/main` after `git fetch`):**
+- **IRONMAN:** 169/169 pages fetched with 0 failures and 0 redirects; 1564 unique subevents (10-24 had 1560). The 2025-01-01..2026-10-27 re-diff by date found exactly the four 10-24/25 races below, plus the known alias pairs and the two Currents-to-Kicks aquathlons. All four already carried complete fields three days after the race: overall ranks contiguous 1..N, slowest finisher near the 8:30 cutoff, every ranked finisher with a swim split.
+
+  | target event | slug | subevent uuid | date | rows / ranked (2025 rows) |
+  |---|---|---|---|---|
+  | `im703_salalah` | `im703-dhofar` | `100cc5bf-7778-44f6-8740-07a86c71c781` | 10-24 | 380 / 231 (254) |
+  | `im703_new_york` | `im703-new-york` | `c1a7ef77-dfd8-4cd7-a2dd-b22ab9e9d776` | 10-24 | 896 / 866 (2344) |
+  | `im703_marathon` | `im703-greece` | `92bde9d4-4df9-4ca3-a116-3d49e0ceef43` | 10-25 | 1285 / 996 (810) |
+  | `im703_agadir` | `im703-agadir` | `1929cc35-e4fd-4a2c-8991-c1cdb7036b2a` | 10-25 | 1062 / 821 (523) |
+
+  Imported via `scripts/add-ironman-2026-batch18-editions.mjs` (per-entry dates, unlike batch17's single `DATE`) and `scripts/ironman-2026-batch18-subevents.json`. Rank probe with 99999 excluded: 0 duplicate ranks, 0 ordering violations; names clean; no blank Country; no blank splits on ranked finishers, so nothing was baselined.
+- **New York's smaller field is genuine, not a partial upload:** the race moved from 09-20 to 10-24 (2026 venue Jones Beach per ironman.com), and the 896 rows have only 28 non-finishers with ranks contiguous to 866. The "Salalah" race is now branded **IRONMAN 70.3 Dhofar** (ironman.com still gives `addressLocality: Salalah`).
+- **`im703_marathon` is Costa Navarino, not Marathon.** Labs-v2 names both the 2025 and 2026 subevents "IRONMAN 70.3 Costa Navarino, Peloponnese, Greece", and ironman.com gives `addressLocality: Peloponnese`; only the event name / `location` and the 2025 description say Marathon. The 2026 description names Costa Navarino. Renaming the event is rewriting committed data — a user decision, not done here.
+- **Weather (Open-Meteo):** Salalah **17.0151 / 54.0924** and Agadir **30.4202 / -9.5982** regenerate 2025 8/8. The 2025 New York file reproduces 8/8 only at **Manhattan 40.7128 / -74.0060**, not at Jones Beach (0/8); 2026 follows that convention (as with 加西/神戸). The 2025 `im703_marathon` file matches neither venue (Marathon 3/8, its sunrise fits Attica); 2026 uses Costa Navarino **36.9926 / 21.6563**, so that series is inconsistent.
+- **Morocco returned to GMT on 2026-09-20** (UTC+1 since 2018 repealed). The host's tzdata already has it, so Agadir 2026 sunrise is 06:47 against 07:48 in 2025 — correct, not a generator bug.
+- **JTU:** the ceiling is still **443**; 444–499 are empty. 441 日本スーパースプリント選手権 stays excluded by user choice and is pending a user decision.
