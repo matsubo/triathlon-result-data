@@ -120,18 +120,30 @@ this workflow needs is in the repository.
    Proceed straight to step 4 with every routine candidate; see **Autonomy** above for the
    few cases that still need the user.
 
-4. **Import each edition**, delegating to the existing agents:
-   - `race-result-scraper` → fetch the result table → `master/<year>/<id>/result.tsv`
-     (half-width space between surname and given name; main age-group categories only —
-     and check for a division column *within* a table, not just per-program filtering).
-     Verify column alignment per `references/tsv-column-alignment.md`.
-   - `race-info-updater` → add the event/edition to `race-info.json` with correct
-     `segments` / `columns` / `meta_columns` mapping, built from the **actual** column
-     captions for that edition (they vary year to year).
-   - `weather-data-generator` → create `master/<year>/<id>/weather-data.json`
-     (see `references/weather-data-policy.md`).
-   - New events only: add a unique `.webp` image (≤600×400) per
-     `references/image-policy.md` — never reuse a placeholder.
+4. **Import the editions with the Import module** — write an import plan, never an
+   add-*/import-* script:
+   - New events only, first: add a unique `.webp` image (≤600×400) per
+     `references/image-policy.md` — never reuse a placeholder. The plan refuses a new
+     Event whose image is missing or already used.
+   - Write one plan JSON **outside the repository** (e.g. `/tmp/import-plan.json`; plan
+     files are not committed) covering every routine candidate of the run. Schema:
+     `scripts/lib/import-plan-schema.json`. IRONMAN: `"ironman": "<subevent uuid>"`
+     (see `references/ironman-results-api.md`); JTU: one `jtu[]` entry per program, with
+     `distance` and `description` (see `references/jtu-results-api.md`); a TSV built by
+     hand (PDF, CSV): `prepared[]` with its `meta_columns` / `segments` mapping. New
+     events go in `events[]`. Give `segments` whenever the course differs from the
+     standard one; a cancelled leg is expressed only by omitting it from `segments`.
+   - Run `bun scripts/import.js /tmp/import-plan.json --dry-run` and read the JSON
+     report: every edition `imported` (or `already-imported`), and no `warnings` you
+     can't explain. A `skipped` edition carries its `reason` (PRO-only results, a
+     non-empty column of an omitted Segment, an unknown JTU caption, contamination…):
+     fix the plan, or leave the edition out and record it as deferred.
+   - Run it again without `--dry-run`. Exit 0 = all imported, 2 = some skipped (the
+     others are written), 1 = plan invalid (nothing written).
+   - Then `bun run scripts/fix-age-category-labels.js`, and fix any 氏名 the module
+     can't (a missing family/given space, per `references/name-space-fix-methodology.md`).
+   - `weather-data-generator` → create the `master/<year>/<id>/weather-data.json` the
+     import referenced (see `references/weather-data-policy.md`).
 
 5. **Validate and audit** — full commands and the aggregate-audit rationale in
    `references/validation-pipeline.md`:
