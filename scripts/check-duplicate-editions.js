@@ -17,6 +17,7 @@
 import { readFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { loadExceptions } from "./lib/exceptions.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const repoRoot = resolve(__dirname, "..");
@@ -28,9 +29,7 @@ const raceInfo = JSON.parse(
 );
 
 const allowlist = new Set(
-  JSON.parse(
-    readFileSync(resolve(repoRoot, "duplicate-allowlist.json"), "utf-8"),
-  ).pairs.map(({ a, b }) => pairKey(a, b)),
+  loadExceptions("duplicate_edition").map(({ a, b }) => pairKey(a, b)),
 );
 
 function pairKey(a, b) {
@@ -149,7 +148,7 @@ for (const d of unexpected) {
   console.error(`    B: ${d.b.tsv}`);
 }
 console.error(
-  "\nIf these are genuinely distinct races, add the pair to duplicate-allowlist.json.",
+  '\nIf these are genuinely distinct races, add the pair as an Exception to the "entries" of duplicate-allowlist.json.',
 );
 console.error(
   "Otherwise, consolidate under one event_id and remove the duplicate entries from race-info.json + master/.",

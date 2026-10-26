@@ -2,6 +2,7 @@ import { readdirSync, readFileSync, statSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { describe, test, expect } from "bun:test";
 import { openLedger, type Findings } from "../scripts/lib/known-issue-ledger.js";
+import { loadExceptions } from "../scripts/lib/exceptions.js";
 
 const repoRoot = resolve(import.meta.dirname, "..");
 const masterDir = join(repoRoot, "master");
@@ -270,10 +271,7 @@ describe("TSV Lint Rules", () => {
 
   test("Japanese 氏名 values contain a half-width space between family and given name", () => {
     const errors: string[] = [];
-    const allowlist: string[] = JSON.parse(
-      readFileSync(join(repoRoot, "name-space-allowlist.json"), "utf-8"),
-    ).names;
-    const allowSet = new Set(allowlist);
+    const allowSet = new Set(loadExceptions("name_space"));
 
     // Team names, placeholders, and joke entries carry digits/brackets/nakaguro
     // and are never split into family/given name.
@@ -421,9 +419,7 @@ describe("TSV Lint Rules", () => {
     // not age brackets (一般男子, 高校生女子, …) go in age-category-allowlist.json;
     // unfixable source defects are counted in tsv-lint-known-issues.json.
     const raceInfo = JSON.parse(readFileSync(join(repoRoot, "race-info.json"), "utf-8"));
-    const allow = new Set<string>(
-      JSON.parse(readFileSync(join(repoRoot, "age-category-allowlist.json"), "utf-8")),
-    );
+    const allow = new Set(loadExceptions("age_category"));
     const findings: Findings = {};
 
     const targets = new Map<string, Set<string>>();
