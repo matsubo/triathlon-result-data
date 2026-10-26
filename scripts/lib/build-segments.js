@@ -1,5 +1,5 @@
+import { parseRank } from "./normalize-status.js";
 import { parseTime } from "./normalize-time.js";
-import { parseInteger } from "./parse-integer.js";
 
 /**
  * Build normalized segment data for one athlete row.
@@ -21,8 +21,8 @@ export function buildSegments(row, segmentDefs) {
           seg.lap_seconds = parseTime(value);
           break;
         case "rank": {
-          const rank = parseInteger(value);
-          if (rank && rank > 0) seg.rank = rank;
+          const rank = parseRank(value);
+          if (rank !== null) seg.rank = rank;
           break;
         }
         case "checkpoint":
@@ -35,8 +35,8 @@ export function buildSegments(row, segmentDefs) {
           seg.cumulative_seconds = parseTime(value);
           break;
         case "cumulative_rank": {
-          const cumRank = parseInteger(value);
-          if (cumRank && cumRank > 0) seg.cumulative_rank = cumRank;
+          const cumRank = parseRank(value);
+          if (cumRank !== null) seg.cumulative_rank = cumRank;
           break;
         }
       }

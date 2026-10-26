@@ -3,9 +3,8 @@ import { canonicalAgeCategory } from "../scripts/lib/canonical-age-category.js";
 import { parseAgeCategory } from "../scripts/lib/normalize-age-category.js";
 import { parseGender } from "../scripts/lib/normalize-gender.js";
 import { parseResidence } from "../scripts/lib/normalize-residence.js";
-import { parseRankAndStatus } from "../scripts/lib/normalize-status.js";
+import { isStatusToken, parseRank, resolveStatus } from "../scripts/lib/normalize-status.js";
 import { parseTime } from "../scripts/lib/normalize-time.js";
-import { parseInteger } from "../scripts/lib/parse-integer.js";
 
 describe("normalizer functions", () => {
   describe("parseTime", () => {
@@ -30,29 +29,89 @@ describe("normalizer functions", () => {
     test("not a leading time", () => expect(parseTime("P 2:39:42")).toBeNull());
   });
 
-  describe("parseRankAndStatus", () => {
-    test("numeric", () => expect(parseRankAndStatus("1")).toEqual({ rank: 1, status: "finished" }));
-    test("large", () => expect(parseRankAndStatus("1234")).toEqual({ rank: 1234, status: "finished" }));
-    test("DNF", () => expect(parseRankAndStatus("DNF")).toEqual({ rank: null, status: "DNF" }));
-    test("DNS", () => expect(parseRankAndStatus("DNS")).toEqual({ rank: null, status: "DNS" }));
-    test("DSQ", () => expect(parseRankAndStatus("DSQ")).toEqual({ rank: null, status: "DSQ" }));
-    test("TOV", () => expect(parseRankAndStatus("TOV")).toEqual({ rank: null, status: "TOV" }));
-    test("OPEN", () => expect(parseRankAndStatus("OPEN")).toEqual({ rank: null, status: "OPEN" }));
-    test("SKIP", () => expect(parseRankAndStatus("SKIP")).toEqual({ rank: null, status: "SKIP" }));
+  describe("resolveStatus", () => {
+    const fromRank = (rankCell: string | null) => resolveStatus({ rankCell });
+    test("numeric", () => expect(fromRank("1")).toEqual({ rank: 1, status: "finished" }));
+    test("large", () => expect(fromRank("1234")).toEqual({ rank: 1234, status: "finished" }));
+    test("comma", () => expect(fromRank("1,234")).toEqual({ rank: 1234, status: "finished" }));
+    test("DNF", () => expect(fromRank("DNF")).toEqual({ rank: null, status: "DNF" }));
+    test("DNS", () => expect(fromRank("DNS")).toEqual({ rank: null, status: "DNS" }));
+    test("DSQ", () => expect(fromRank("DSQ")).toEqual({ rank: null, status: "DSQ" }));
+    test("TOV", () => expect(fromRank("TOV")).toEqual({ rank: null, status: "TOV" }));
+    test("OPEN", () => expect(fromRank("OPEN")).toEqual({ rank: null, status: "OPEN" }));
+    test("SKIP", () => expect(fromRank("SKIP")).toEqual({ rank: null, status: "SKIP" }));
     test("SKP (kujukuri/iseshima abbreviation)", () =>
-      expect(parseRankAndStatus("SKP")).toEqual({ rank: null, status: "SKIP" }));
+      expect(fromRank("SKP")).toEqual({ rank: null, status: "SKIP" }));
     test("NOF is a DNF (laps but no official finish)", () =>
-      expect(parseRankAndStatus("NOF")).toEqual({ rank: null, status: "DNF" }));
+      expect(fromRank("NOF")).toEqual({ rank: null, status: "DNF" }));
     test("参考記録 is an unranked participant", () =>
-      expect(parseRankAndStatus("参考記録")).toEqual({ rank: null, status: "OPEN" }));
-    test("DQ maps to DSQ", () =>
-      expect(parseRankAndStatus("DQ")).toEqual({ rank: null, status: "DSQ" }));
+      expect(fromRank("参考記録")).toEqual({ rank: null, status: "OPEN" }));
+    test("DQ maps to DSQ", () => expect(fromRank("DQ")).toEqual({ rank: null, status: "DSQ" }));
     test("NC (not classified) is unranked", () =>
-      expect(parseRankAndStatus("NC")).toEqual({ rank: null, status: "OPEN" }));
+      expect(fromRank("NC")).toEqual({ rank: null, status: "OPEN" }));
     test("LAP (lapped out) is a DNF", () =>
-      expect(parseRankAndStatus("LAP")).toEqual({ rank: null, status: "DNF" }));
-    test("empty", () => expect(parseRankAndStatus("")).toEqual({ rank: null, status: "DNS" }));
-    test("null", () => expect(parseRankAndStatus(null as any)).toEqual({ rank: null, status: "DNS" }));
+      expect(fromRank("LAP")).toEqual({ rank: null, status: "DNF" }));
+    test("tokens are trimmed", () => expect(fromRank(" DNF ")).toEqual({ rank: null, status: "DNF" }));
+    test("zero is no rank", () => expect(fromRank("0")).toEqual({ rank: null, status: "DNS" }));
+    test("empty", () => expect(fromRank("")).toEqual({ rank: null, status: "DNS" }));
+    test("null", () => expect(fromRank(null)).toEqual({ rank: null, status: "DNS" }));
+    test("no rank column", () => expect(resolveStatus({})).toEqual({ rank: null, status: "DNS" }));
+
+    // IRONMAN writes 99999 for every Athlete outside the official ranking.
+    test("placeholder rank with a total time is an unranked finisher", () =>
+      expect(resolveStatus({ rankCell: "99999", hasTotalTime: true })).toEqual({ rank: null, status: "OPEN" }));
+    test("placeholder rank without a total time is DNS", () =>
+      expect(resolveStatus({ rankCell: "99999", hasTotalTime: false })).toEqual({ rank: null, status: "DNS" }));
+    test("status cell wins over the placeholder rank", () =>
+      expect(resolveStatus({ rankCell: "99999", statusCells: ["DNF"], hasTotalTime: true })).toEqual({
+        rank: null,
+        status: "DNF",
+      }));
+    test("FIN keeps the placeholder rule", () =>
+      expect(resolveStatus({ rankCell: "99999", statusCells: ["FIN"], hasTotalTime: true })).toEqual({
+        rank: null,
+        status: "OPEN",
+      }));
+
+    test("status cell override unranks a numeric rank", () =>
+      expect(resolveStatus({ rankCell: "12", statusCells: ["DQ"], hasTotalTime: true })).toEqual({
+        rank: null,
+        status: "DSQ",
+      }));
+    test("status cell NC is an unranked finisher", () =>
+      expect(resolveStatus({ rankCell: "12", statusCells: ["NC"] })).toEqual({ rank: null, status: "OPEN" }));
+    test("status cells are case-insensitive", () =>
+      expect(resolveStatus({ rankCell: "", statusCells: ["dnf"] })).toEqual({ rank: null, status: "DNF" }));
+    test("FIN confirms the rank cell", () =>
+      expect(resolveStatus({ rankCell: "3", statusCells: ["FIN"] })).toEqual({ rank: 3, status: "finished" }));
+    test("a later FIN clears an earlier override", () =>
+      expect(resolveStatus({ rankCell: "3", statusCells: ["DNF", "FIN"] })).toEqual({ rank: 3, status: "finished" }));
+    test("a status cell that says nothing keeps the earlier override", () =>
+      expect(resolveStatus({ rankCell: "3", statusCells: ["DNF", "バイク リタイア"] })).toEqual({
+        rank: null,
+        status: "DNF",
+      }));
+    test("SKIP in a status cell does not unrank", () =>
+      expect(resolveStatus({ rankCell: "3", statusCells: ["SKIP"] })).toEqual({ rank: 3, status: "finished" }));
+  });
+
+  describe("parseRank", () => {
+    test("simple", () => expect(parseRank("42")).toBe(42));
+    test("comma", () => expect(parseRank("1,234")).toBe(1234));
+    test("placeholder is outside the ranking", () => expect(parseRank("99999")).toBeNull());
+    test("zero", () => expect(parseRank("0")).toBeNull());
+    test("empty", () => expect(parseRank("")).toBeNull());
+    test("null", () => expect(parseRank(null)).toBeNull());
+    test("text", () => expect(parseRank("DNS")).toBeNull());
+  });
+
+  describe("isStatusToken", () => {
+    test("known token", () => expect(isStatusToken("DQ")).toBe(true));
+    test("trimmed", () => expect(isStatusToken(" SKP ")).toBe(true));
+    test("a rank is not a token", () => expect(isStatusToken("12")).toBe(false));
+    test("FIN only belongs in status cells", () => expect(isStatusToken("FIN")).toBe(false));
+    test("unknown token", () => expect(isStatusToken("DNQ *2")).toBe(false));
+    test("inherited object keys are not tokens", () => expect(isStatusToken("constructor")).toBe(false));
   });
 
   describe("parseGender", () => {
@@ -258,11 +317,4 @@ describe("normalizer functions", () => {
     test("label without a gender word is out of scope", () => expect(canonicalAgeCategory("30-34")).toBeNull());
   });
 
-  describe("parseInteger", () => {
-    test("simple", () => expect(parseInteger("42")).toBe(42));
-    test("comma", () => expect(parseInteger("1,234")).toBe(1234));
-    test("empty", () => expect(parseInteger("")).toBeNull());
-    test("null", () => expect(parseInteger(null as any)).toBeNull());
-    test("text", () => expect(parseInteger("abc")).toBeNull());
-  });
 });
