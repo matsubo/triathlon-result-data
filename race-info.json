@@ -52508,7 +52508,8 @@
           ]
         },
         {
-          "date": "2022-01-01",
+          "date": "2022-10-08",
+          "weather_file": "master/2022/ironman_world_championship_kona_sat_2022/weather-data.json",
           "categories": [
             {
               "id": "ironman_world_championship_kona_sat_2022",
@@ -52591,7 +52592,8 @@
           ]
         },
         {
-          "date": "2022-01-01",
+          "date": "2022-10-06",
+          "weather_file": "master/2022/ironman_world_championship_kona_thu_2022/weather-data.json",
           "categories": [
             {
               "id": "ironman_world_championship_kona_thu_2022",
