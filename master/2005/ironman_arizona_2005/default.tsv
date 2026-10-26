@@ -490,7 +490,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 32361	24	Patrick Evoe	M	M25-29	2	9:34:54	1:03:31	0:03:16	5:12:05	0:01:12	3:14:50	United States	FIN
 111852	25	Stephan Schwarze	M	M35-39	2	9:35:47	1:02:19	0:03:27	5:07:46	0:01:58	3:20:17	United States	FIN
 438889	26	Kevin Kenny	M	M30-34	5	9:35:58	0:58:36	0:03:56	5:08:33	0:01:54	3:22:59	United States	FIN
-593054	27	Lance  Muzslay	M	MPRO	17	9:36:17	0:52:54	0:03:09	5:18:49	0:04:22	3:17:03	United States	FIN
+593054	27	Lance Muzslay	M	MPRO	17	9:36:17	0:52:54	0:03:09	5:18:49	0:04:22	3:17:03	United States	FIN
 592948	28	Jeff Krar	M	MPRO	18	9:36:39	0:55:24	0:02:56	5:16:24	0:02:15	3:19:40	Canada	FIN
 448008	29	Zach Ruble	M	M18-24	1	9:37:00	0:54:06	0:04:00	5:20:26	0:01:59	3:16:29	United States	FIN
 593308	30	Konrad Von Allmen	M	MPRO	19	9:37:40	1:03:58	0:02:36	5:25:40	0:01:40	3:03:46	Switzerland	FIN
@@ -1050,7 +1050,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 295423	584	Joseph Wilson	M	M45-49	51	12:18:04	1:15:13	0:06:41	5:58:39	0:04:01	4:53:30	United States	FIN
 198023	585	Paul Franks	M	M30-34	117	12:18:11	1:08:28	0:04:17	6:12:10	0:03:41	4:49:35	United States	FIN
 153629	586	Tom Derr	M	M35-39	144	12:18:14	1:09:23	0:04:34	5:43:39	0:02:32	5:18:06	United States	FIN
-58225	587	Eric Winn  Sr.	M	M50-54	11	12:18:14	1:07:11	0:07:22	6:32:45	0:05:38	4:25:18	United States	FIN
+58225	587	Eric Winn Sr.	M	M50-54	11	12:18:14	1:07:11	0:07:22	6:32:45	0:05:38	4:25:18	United States	FIN
 26139	588	Cathy Tibbetts	F	F50-54	1	12:18:52	1:15:34	0:10:11	6:25:12	0:05:52	4:22:03	United States	FIN
 159167	589	Mac Cummins	M	M30-34	118	12:18:58	1:13:51	0:08:06	6:18:01	0:06:28	4:32:32	United States	FIN
 578272	590	David Light	M	M35-39	145	12:18:58	1:03:18	0:09:43	6:18:55	0:06:48	4:40:14	United States	FIN

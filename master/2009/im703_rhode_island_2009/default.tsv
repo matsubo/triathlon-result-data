@@ -343,7 +343,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 126177	DNS	Eve Campeau	F	F40-44	0							United States	DNS
 802635	DNS	Shellie Silvia	F	F30-34	0							United States	DNS
 802731	DNF	Tom Sheridan	M	M18-24	0		0:40:59	0:05:03				United States	DNF
-114862	DNS	Eduardo Segovia  Sanchez	M	M40-44	0							Mexico	DNS
+114862	DNS	Eduardo Segovia Sanchez	M	M40-44	0							Mexico	DNS
 437054	DNS	Jared Gell	M	M25-29	0							United States	DNS
 590350	DNF	Matt Hoffman	M	M30-34	0		0:40:25	0:02:20	3:15:06			United States	DNF
 31762	DNS	Vinu Malik	M	M40-44	0							United States	DNS
@@ -1702,7 +1702,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 507808	1291	Steven Halpern	M	M40-44	174	7:44:30	1:04:33	0:07:29	3:32:26	0:03:48	2:56:14	United States	FIN
 159842	1292	Michael Mathers	M	M60-64	17	7:44:34	0:37:48	0:09:08	3:33:27	0:12:52	3:11:19	United States	FIN
 536699	1293	Jodeen Brown	F	F40-44	48	7:44:39	0:38:10	0:03:29	3:47:10	0:04:19	3:11:31	United States	FIN
-546677	1294	Robert Coogan  Jr	M	M45-49	124	7:46:47	0:36:48	0:06:47	3:50:17	0:04:51	3:08:04	United States	FIN
+546677	1294	Robert Coogan Jr	M	M45-49	124	7:46:47	0:36:48	0:06:47	3:50:17	0:04:51	3:08:04	United States	FIN
 75667	1295	Evan Marks	M	M50-54	52	7:50:40	0:34:51	1:05:25	3:21:39	0:06:51	2:41:54	United States	FIN
 59240	1296	Benedict Kuehne	M	M55-59	26	7:51:02	0:47:12	0:06:31	3:51:59	0:07:48	2:57:32	United States	FIN
 99044	1297	John Fernandes	M	M45-49	125	8:03:43	0:46:33	0:08:19	3:42:40	0:05:33	3:20:38	United States	FIN

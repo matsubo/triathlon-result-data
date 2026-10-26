@@ -193,7 +193,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 992153	23	Richardson Pericles Sousa Da Silva	M	M18-24	2	4:31:33	0:25:24	0:01:49	2:30:11	0:01:19	1:32:50	Brazil	FIN
 950580	24	Rafael Cabral Ribeiro Da Silva	M	M40-44	5	4:32:00	0:29:56	0:02:03	2:28:06	0:01:25	1:30:29	Brazil	FIN
 975911	25	Jose Otavio Ribeiro Cruz Fiho	M	M45-49	4	4:32:01	0:30:27	0:02:28	2:23:37	0:02:19	1:33:10	Brazil	FIN
-975102	26	Gerald Alex  Ferreira De Sá	M	M35-39	9	4:33:00	0:30:33	0:02:53	2:29:57	0:01:15	1:28:22	Brazil	FIN
+975102	26	Gerald Alex Ferreira De Sá	M	M35-39	9	4:33:00	0:30:33	0:02:53	2:29:57	0:01:15	1:28:22	Brazil	FIN
 949013	27	Patricia Mendes Franco	F	F35-39	1	4:33:35	0:29:04	0:02:08	2:28:20	0:01:26	1:32:37	Brazil	FIN
 949008	28	Gabriel De Moraes Pinheiro	M	M30-34	5	4:35:36	0:30:37	0:02:57	2:27:27	0:01:16	1:33:19	Brazil	FIN
 975080	29	Eduardo De Alencar Araripe Diniz	M	M25-29	3	4:35:40	0:28:51	0:02:17	2:28:48	0:02:12	1:33:31	Brazil	FIN
@@ -720,7 +720,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 992473	550	Roberto Carlos Pereira	M	M40-44	111	6:23:24	0:39:00	0:02:45	3:38:22	0:03:16	2:00:01	Brazil	FIN
 992474	551	Karine Conrado Bezerra	F	F35-39	21	6:23:47	0:41:33	0:05:43	3:17:51	0:03:15	2:15:24	Brazil	FIN
 992475	552	Jorge Henrique De Oliveira	M	M30-34	76	6:24:24	0:36:44	0:04:05	3:24:34	0:03:40	2:15:21	Brazil	FIN
-992476	553	Jaime Luis  Bezerra Araujo	M	M45-49	62	6:24:36	0:43:05	0:05:02	2:57:03	0:04:06	2:35:21	Brazil	FIN
+992476	553	Jaime Luis Bezerra Araujo	M	M45-49	62	6:24:36	0:43:05	0:05:02	2:57:03	0:04:06	2:35:21	Brazil	FIN
 992477	554	Francisco Marcio Da Silva Vieira	M	M40-44	112	6:24:39	0:46:04	0:05:49	3:14:11	0:03:26	2:15:10	Brazil	FIN
 992478	555	Leonardo Coelho Ramalho Teixeira	M	M25-29	34	6:24:43	0:41:11	0:05:32	3:16:27	0:03:34	2:18:00	Brazil	FIN
 992479	556	Roberto Moreira Feliciano Junior	M	M40-44	113	6:24:45	0:36:53	0:03:45	2:58:51	0:05:55	2:39:21	Brazil	FIN
@@ -921,7 +921,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 992632	751	Adriana Fernandes Pereira	F	F35-39	25	7:38:49	0:48:54	0:06:33	4:09:45	0:03:49	2:29:49	Brazil	FIN
 974671	752	Marcelo Chagas	M	M50-54	40	7:40:12	0:46:49	0:05:37	3:34:16	0:04:18	3:09:12	Brazil	FIN
 992633	753	Renata Vale Cavalcante	F	F35-39	26	7:40:45	0:53:41	0:04:20	3:44:19	0:04:59	2:53:24	Brazil	FIN
-992634	754	Ariosto Bezerra  Vale	M	M55-59	21	7:41:54	0:56:22	0:04:03	3:52:10	0:05:59	2:43:20	Brazil	FIN
+992634	754	Ariosto Bezerra Vale	M	M55-59	21	7:41:54	0:56:22	0:04:03	3:52:10	0:05:59	2:43:20	Brazil	FIN
 992635	755	Fernando Hugo Benevides Peixoto Filho	M	M45-49	82	7:42:35	0:44:29	0:04:40	3:43:10	0:08:04	3:02:13	Brazil	FIN
 992636	756	Maarten Frowein	M	M50-54	41	7:42:42	0:42:51	0:10:47	3:38:07	0:09:50	3:01:07	Netherlands	FIN
 992637	757	Juliana Fernandes Pereira	F	F35-39	27	7:43:43	0:48:44	0:06:34	4:03:02	0:05:04	2:40:18	Brazil	FIN

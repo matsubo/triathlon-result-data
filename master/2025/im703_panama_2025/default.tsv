@@ -172,7 +172,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 490980	101	Jorge Centurion	M	M45-49	13	4:59:46	0:23:55	0:04:44	2:41:41	0:03:05	1:46:21	Peru	FIN
 1052938	102	Cindy Cortes	F	F30-34	2	4:59:47	0:23:30	0:04:15	2:41:04	0:02:56	1:48:03	Costa Rica	FIN
 1226375	103	Luis Fernando Sánchez Torres	M	M30-34	18	4:59:54	0:22:00	0:04:09	2:47:24	0:03:12	1:43:10	Costa Rica	FIN
-432898	104	Rodrigo Cañete  Galeano	M	M40-44	21	4:59:55	0:23:43	0:05:59	2:44:14	0:03:32	1:42:27	Paraguay	FIN
+432898	104	Rodrigo Cañete Galeano	M	M40-44	21	4:59:55	0:23:43	0:05:59	2:44:14	0:03:32	1:42:27	Paraguay	FIN
 1174986	105	Juan Sabbagh	M	M30-34	19	4:59:58	0:24:43	0:05:13	2:43:12	0:03:45	1:43:06	Colombia	FIN
 145657	106	Jose Julian Piedrahita Molina	M	M45-49	14	5:00:02	0:27:01	0:04:23	2:44:55	0:03:33	1:40:09	Colombia	FIN
 1183277	107	Guilherme Trombini	M	M25-29	15	5:00:06	0:23:37	0:04:34	2:37:35	0:03:29	1:50:50	Brazil	FIN
@@ -913,7 +913,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 959946	842	Luis Meneses	M	M45-49	115	6:50:28	0:32:18	0:07:26	3:25:53	0:07:14	2:37:37	Peru	FIN
 959936	843	Anthony Leveau Ramirez	M	M40-44	128	6:51:17	0:26:04	0:06:08	3:31:35	0:05:46	2:41:43	Peru	FIN
 999160	844	Adriano Montenegro	M	M35-39	145	6:51:20	0:25:50	0:06:24	3:34:12	0:07:07	2:37:47	Ecuador	FIN
-960179	845	Augusto Yupanqui  Baca	M	M55-59	27	6:51:25	0:29:26	0:06:49	3:41:19	0:07:06	2:26:45	Peru	FIN
+960179	845	Augusto Yupanqui Baca	M	M55-59	27	6:51:25	0:29:26	0:06:49	3:41:19	0:07:06	2:26:45	Peru	FIN
 1226550	846	Maria Moreau	F	F40-44	46	6:51:48	0:25:27	0:09:19	3:35:21	0:07:08	2:34:33	Venezuela	FIN
 1226551	847	Luz Angélica Martínez Ruíz	F	F40-44	47	6:52:02	0:25:48	0:08:44	3:45:04	0:11:36	2:20:50	Colombia	FIN
 1186331	848	Frank Jhonatan Becerra González	M	M35-39	146	6:52:43	0:29:16	0:06:47	3:38:18	0:06:41	2:31:42	Venezuela	FIN

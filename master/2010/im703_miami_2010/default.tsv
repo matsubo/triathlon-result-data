@@ -257,7 +257,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 793364	DNS	Jennifer Dimmett	F	F40-44	0							United States	DNS
 794144	DNS	John Petricola	M	M40-44	0							United States	DNS
 83179	DNF	Sergio Ricardo Borejo	M	M40-44	0		0:41:38	0:05:48	3:52:55	0:06:10		Brazil	DNF
-793619	DNS	Alfonso Barra  Jr.	M	M35-39	0							Mexico	DNS
+793619	DNS	Alfonso Barra Jr.	M	M35-39	0							Mexico	DNS
 759363	DNS	Jacqueline Gordon	F	F35-39	0							United States	DNS
 82796	DNF	Jay Williams	M	M55-59	0		1:08:07	0:03:36	2:49:32	0:08:51		United States	DNF
 374679	DNS	Richard Whittaker	M	M40-44	0							United States	DNS
@@ -510,7 +510,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 793558	DNS	Liliana Garcia	F	F50-54	0							Argentina	DNS
 99209	DNS	Richard Phillips	M	M40-44	0							United States	DNS
 793712	DNS	Cristiane Silva	F	F30-34	0							Brazil	DNS
-794078	DNS	Jos  Eduardo De Montes	M	M30-34	0							Switzerland	DNS
+794078	DNS	Jos Eduardo De Montes	M	M30-34	0							Switzerland	DNS
 711628	DNS	Christopher Sellars	M	M35-39	0							United States	DNS
 716679	DNS	Alcibiades Lopez	M	M45-49	0							Dominican Republic 	DNS
 793713	DNS	Richard Shea	M	M40-44	0							United States	DNS
@@ -1719,7 +1719,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 517440	597	Scott Friedel	M	M35-39	146	5:53:43	0:39:59	0:04:14	2:32:55	0:05:52	2:30:43	United States	FIN
 508208	598	Garrett Bain	M	M25-29	31	5:53:49	0:47:28	0:04:27	2:35:05	0:02:09	2:24:40	United States	FIN
 78775	599	Oscar Ortiz	M	M40-44	116	5:53:57	0:52:27	0:04:21	2:36:39	0:01:50	2:18:40	United States	FIN
-83729	600	Ana Silvia  Davini Paller	F	F45-49	7	5:54:00	0:45:46	0:03:32	2:46:41	0:02:59	2:15:02	Brazil	FIN
+83729	600	Ana Silvia Davini Paller	F	F45-49	7	5:54:00	0:45:46	0:03:32	2:46:41	0:02:59	2:15:02	Brazil	FIN
 336318	601	Ben Baumgartner	M	M30-34	90	5:54:04	0:41:47	0:03:38	2:40:23	0:02:03	2:26:13	United States	FIN
 541515	602	Dan Ruiz	M	M35-39	147	5:54:07	0:49:39	0:03:43	2:31:30	0:02:14	2:27:01	United States	FIN
 546965	603	Frank Cauce	M	M45-49	67	5:54:11	0:53:47	0:04:13	2:39:31	0:02:37	2:14:03	United States	FIN
@@ -2471,7 +2471,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 762828	1349	Ignacio Borja	M	M40-44	273	6:54:04	1:04:47	0:04:53	3:06:48	0:04:52	2:32:44	Colombia	FIN
 794060	1350	Ren Carrera	M	M40-44	274	6:54:06	0:53:29	0:08:21	3:13:37	0:03:20	2:35:19	Mexico	FIN
 793680	1351	Nicolas Ivanovich	M	M35-39	279	6:54:11	0:50:39	0:06:50	3:03:36	0:04:44	2:48:22	United States	FIN
-794019	1352	Andr  Luiz Uch A	M	M35-39	280	6:54:11	0:44:41	0:05:41	3:01:06	0:02:36	3:00:07	Brazil	FIN
+794019	1352	Andr Luiz Uch A	M	M35-39	280	6:54:11	0:44:41	0:05:41	3:01:06	0:02:36	3:00:07	Brazil	FIN
 772555	1353	Travis Huff	M	M35-39	281	6:54:20	1:08:03	0:06:00	3:15:08	0:02:20	2:22:49	United States	FIN
 106593	1354	Jeff Waddle	M	M50-54	71	6:54:30	0:47:26	0:03:31	2:45:45	0:01:46	3:16:02	United States	FIN
 777984	1355	Rick Crespo	M	M45-49	167	6:54:32	0:53:51	0:06:02	3:17:22	0:02:34	2:34:43	United States	FIN

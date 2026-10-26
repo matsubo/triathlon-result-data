@@ -38,7 +38,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 883073	DNS	John Josey	M	M45-49								Canada	DNS
 1020275	DNS	Andres Ramos Jr	M	M30-34								United States	DNS
 882811	DNF	Robert Lopez	M	M50-54								United States	DNF
-1020276	DNS	William De Jesus Hincapie  Sanchez	M	M60-64								Honduras	DNS
+1020276	DNS	William De Jesus Hincapie Sanchez	M	M60-64								Honduras	DNS
 858132	DNS	Yorlliry Moreno	M	MPRO								Venezuela	DNS
 924595	DNS	Pablo Jimenez	M	M40-44								Colombia	DNS
 940788	DNF	David Tabernacle	M	M50-54			1:34:02	0:21:44				Australia	DNF
@@ -242,7 +242,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 1020236	DNS	Chip 3 Test	M	M30-34								Mexico	DNS
 970768	DNS	Rodriguez Magny Vincent	M	M30-34								France	DNS
 1020237	DNS	Connor Doherty	M	M35-39								United States	DNS
-107263	DNS	Deycy Lidiana Nunez  Feris	F	F45-49								Paraguay	DNS
+107263	DNS	Deycy Lidiana Nunez Feris	F	F45-49								Paraguay	DNS
 931971	DNS	Rodion Shumilov	M	M40-44								Unknown	DNS
 181135	DNS	Daniel Bartelle	M	M45-49								Brazil	DNS
 107760	DNS	Fernando J Vázquez C	M	M60-64								Mexico	DNS

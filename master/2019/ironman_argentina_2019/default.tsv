@@ -432,7 +432,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 106078	239	Pablo Testa	M	M50-54	26	11:11:58	0:52:01	0:06:27	5:55:00	0:05:44	4:12:46	Panama	FIN
 147052	240	Cesar RubÃ©n Dario Gonzalez	M	M40-44	65	11:11:59	0:56:31	0:07:08	5:31:07	0:06:46	4:30:27	Argentina	FIN
 84743	241	Sergio Aguado Berenguer	M	M40-44	66	11:12:04	0:57:10	0:03:51	6:04:36	0:03:06	4:03:20	Spain	FIN
-628484	242	Mariano Burghi  Lerga	M	M35-39	55	11:12:13	1:00:50	0:08:39	6:17:49	0:04:07	3:40:47	Argentina	FIN
+628484	242	Mariano Burghi Lerga	M	M35-39	55	11:12:13	1:00:50	0:08:39	6:17:49	0:04:07	3:40:47	Argentina	FIN
 453340	243	Dino Dinelli	M	M40-44	67	11:13:18	0:59:38	0:04:53	6:17:23	0:02:36	3:48:48	Argentina	FIN
 273101	244	Christian Freuling	M	M25-29	7	11:15:34	1:08:40	0:05:18	5:59:23	0:04:19	3:57:54	United Kingdom	FIN
 147009	245	Ricardo Javier Farina	M	M55-59	6	11:15:43	0:55:13	0:05:14	6:08:31	0:02:08	4:04:37	Argentina	FIN
@@ -460,7 +460,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 140585	267	Hernan Rivas	M	M50-54	32	11:25:29	0:56:41	0:05:13	6:10:15	0:02:56	4:10:24	Argentina	FIN
 147055	268	Diego Andres Fernandez	M	M45-49	47	11:25:50	1:02:03	0:06:31	6:19:04	0:03:15	3:54:57	Argentina	FIN
 34211	269	Alejandro Cosentino	M	M55-59	7	11:25:52	1:04:27	0:06:10	6:22:53	0:03:46	3:48:35	Argentina	FIN
-147657	270	Martin Ignacio Carmona  BrescÃ³	M	M30-34	27	11:26:10	1:07:08	0:04:45	6:27:54	0:03:30	3:42:53	Argentina	FIN
+147657	270	Martin Ignacio Carmona BrescÃ³	M	M30-34	27	11:26:10	1:07:08	0:04:45	6:27:54	0:03:30	3:42:53	Argentina	FIN
 314889	271	Oleg Puzanov	M	M35-39	60	11:26:19	1:03:09	0:07:00	6:11:05	0:06:55	3:58:10	Ukraine	FIN
 145669	272	Giovanny Sebastian Quispe Cevallos	M	M30-34	28	11:27:04	1:13:50	0:08:16	6:04:58	0:03:35	3:56:24	Ecuador	FIN
 107460	273	Carlos Ruiz	M	M45-49	48	11:27:05	0:48:32	0:07:47	5:49:57	0:03:46	4:37:02	Spain	FIN
@@ -590,7 +590,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 147059	397	Martinez Rocio	F	F30-34	9	12:26:21	1:00:41	0:06:11	6:48:46	0:03:31	4:27:12	Argentina	FIN
 830007	398	Melanie Friscourt	F	F35-39	8	12:26:43	1:04:59	0:06:35	7:00:28	0:03:09	4:11:31	France	FIN
 692260	399	Daniel Charri	M	M35-39	72	12:27:01	1:00:50	0:08:30	6:32:51	0:04:59	4:39:51	Argentina	FIN
-83632	400	Claudia  Elena Paez	F	F55-59	1	12:28:26	1:11:42	0:05:44	6:48:41	0:06:00	4:16:19	Argentina	FIN
+83632	400	Claudia Elena Paez	F	F55-59	1	12:28:26	1:11:42	0:05:44	6:48:41	0:06:00	4:16:19	Argentina	FIN
 145650	401	Carlos Federico Ruiz Lopez	M	M35-39	73	12:29:15	1:06:08	0:11:03	6:47:29	0:06:58	4:17:37	Colombia	FIN
 33297	402	Sabrina Spanguero	F	F40-44	10	12:29:43	1:02:26	0:05:49	7:11:21	0:03:22	4:06:45	Argentina	FIN
 147175	403	Hernan Diego Cencic	M	M45-49	78	12:29:58	1:07:29	0:10:27	6:16:36	0:05:36	4:49:52	Argentina	FIN
@@ -647,7 +647,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 147093	454	Gustavo D Fernandez	M	M50-54	54	13:01:06	1:08:55	0:07:16	6:50:30	0:05:31	4:48:54	Argentina	FIN
 503938	455	Manuel Antonio Alvarado Carvajal	M	M35-39	85	13:01:17	1:18:08	0:11:00	6:22:22	0:07:44	5:02:03	Costa Rica	FIN
 335789	456	Johannes Schumacher	M	M65-69	2	13:02:36	1:07:32	0:06:37	7:02:48	0:02:30	4:43:10	Germany	FIN
-188959	457	Margareth E Sanchez  V	F	F50-54	2	13:03:46	1:09:39	0:12:00	7:15:35	0:05:49	4:20:44	United States	FIN
+188959	457	Margareth E Sanchez V	F	F50-54	2	13:03:46	1:09:39	0:12:00	7:15:35	0:05:49	4:20:44	United States	FIN
 140836	458	Gabriela Obregon	F	F50-54	3	13:06:27	1:11:37	0:08:27	7:01:48	0:05:40	4:38:55	Argentina	FIN
 830014	459	Daniel Nielsen	M	M25-29	14	13:07:21	1:13:23	0:09:52	7:05:13	0:04:37	4:34:16	United Kingdom	FIN
 628595	460	Cabrera Ramiro Fede Cabrera	M	M35-39	86	13:07:37	0:49:47	0:06:46	6:31:17	0:07:38	5:32:11	Argentina	FIN

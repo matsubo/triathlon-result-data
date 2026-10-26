@@ -5,7 +5,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 971576	DNF	Juan Manuel Estrada Martinez	M	M30-34			0:53:45				1:34:57	Mexico	DNF
 971577	DNS	Villagrana Narvaez Arlette Fernanda	F	F18-24								Mexico	DNS
 971578	DNS	Santiago Vacas Castañeda	M	M45-49								Mexico	DNS
-971579	DNF	Gonzalez  Y Medrano Fernando Antonio	M	M75-79			1:14:51	0:05:06				Mexico	DNF
+971579	DNF	Gonzalez Y Medrano Fernando Antonio	M	M75-79			1:14:51	0:05:06				Mexico	DNF
 971580	DNS	Daniel Osvaldo Rodriguez Diaz	M	M30-34								Mexico	DNS
 926732	DNF	Ana Maria Ybarra Corcuera	F	F35-39			0:39:52	0:02:49				Mexico	DNF
 971581	DNF	Gerardo Cagigas	M	M55-59			1:06:53	0:06:33				Mexico	DNF
@@ -187,7 +187,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 971052	51	Jose Canela	M	M30-34	14	3:01:08	0:34:54	0:02:13	1:34:53	0:02:14	0:46:55	United States	FIN
 971053	52	Xavier Gallardo	M	M35-39	11	3:01:43	0:33:53	0:02:30	1:32:39	0:02:23	0:50:18	Mexico	FIN
 838845	53	Juan Carlos Colin Fiche	M	M45-49	4	3:01:52	0:35:34	0:02:48	1:38:44	0:02:56	0:41:51	Mexico	FIN
-971054	54	Erik  Jhordan Rey	M	M25-29	7	3:02:14	0:39:34	0:02:18	1:34:39	0:01:42	0:44:01	Mexico	FIN
+971054	54	Erik Jhordan Rey	M	M25-29	7	3:02:14	0:39:34	0:02:18	1:34:39	0:01:42	0:44:01	Mexico	FIN
 971055	55	Jorge Luis González Aragon	M	M40-44	8	3:02:27	0:34:37	0:02:17	1:37:40	0:02:23	0:45:30	Mexico	FIN
 857191	56	José Manuel Guerra Rivas	M	M25-29	8	3:02:31	0:35:16	0:03:46	1:31:21	0:01:41	0:50:27	Mexico	FIN
 959651	57	Rafael Pulido	M	M30-34	15	3:02:34	0:36:07	0:02:33	1:32:34	0:02:12	0:49:09	Colombia	FIN
@@ -930,7 +930,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 970954	794	Soto Romero Alfredo	M	M40-44	121	4:30:10	0:52:52	0:03:21	2:08:28	0:03:49	1:21:40	Mexico	FIN
 971524	795	Juan Antonio Cordoba Jaime	M	M35-39	104	4:30:16	0:56:13	0:04:55	2:11:02	0:03:35	1:14:31	Mexico	FIN
 619727	796	Jose Miguel Padilla	M	M45-49	93	4:30:20	0:51:32	0:05:30	2:07:39	0:05:36	1:20:03	Mexico	FIN
-971525	797	Edgardo Sevilla  Jurado	M	M45-49	94	4:30:57	0:52:18	0:03:47	2:13:43	0:03:48	1:17:22	Mexico	FIN
+971525	797	Edgardo Sevilla Jurado	M	M45-49	94	4:30:57	0:52:18	0:03:47	2:13:43	0:03:48	1:17:22	Mexico	FIN
 971526	798	Gerardo Lozano	M	M50-54	65	4:31:07	0:51:15	0:04:23	2:12:30	0:05:15	1:17:44	Mexico	FIN
 971527	799	Jesús Alejandro Portillo Salinas	M	M40-44	122	4:31:08	1:05:23	0:04:36	2:06:49	0:04:22	1:09:58	Mexico	FIN
 971528	800	Juan Manuel Martínez Carpintero	M	M55-59	30	4:32:41	0:59:48	0:04:53	2:13:34	0:03:31	1:10:56	Mexico	FIN

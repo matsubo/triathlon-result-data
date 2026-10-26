@@ -151,7 +151,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 	38	Robbie Andrews	M	M35-39	6	9:44:25	1:02:45		5:15:06		3:26:34	Australia	FIN
 	39	Charlotte Paul	F	FPRO	2	9:47:28	1:01:28		5:35:23		3:10:37	Australia	FIN
 	40	Andrew Foggin	M	M35-39	7	9:47:46	1:05:34		5:03:06		3:39:06	Australia	FIN
-	41	Clive  Allen Chowles	M	MPRO	22	9:47:57	0:58:53		5:04:15		3:44:49	South Africa	FIN
+	41	Clive Allen Chowles	M	MPRO	22	9:47:57	0:58:53		5:04:15		3:44:49	South Africa	FIN
 	42	Ben Cureton	M	M18-24	2	9:48:41	1:03:01		5:06:32		3:39:08	Australia	FIN
 	43	Tony Mcclement	M	M25-29	4	9:50:49	0:58:45		5:24:29		3:27:35	Australia	FIN
 	44	Darren Milligan	M	M25-29	5	9:52:58	1:06:40		5:15:44		3:30:34	Australia	FIN
@@ -196,7 +196,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 	83	Jon Esslemont	M	M35-39	18	10:27:51	1:10:47		5:33:33		3:43:31	Australia	FIN
 	84	Alan Kuipers-Chan	M	M35-39	19	10:28:45	1:05:33		5:12:34		4:10:38	Australia	FIN
 	85	Michael Stevenson	M	M30-34	15	10:29:58	1:05:22		5:26:05		3:58:31	Australia	FIN
-	86	Jorge  Juan Mendoza	M	M30-34	16	10:30:35	1:13:28		5:46:07		3:31:00	Spain	FIN
+	86	Jorge Juan Mendoza	M	M30-34	16	10:30:35	1:13:28		5:46:07		3:31:00	Spain	FIN
 	87	Rod Grace	M	M40-44	4	10:31:15	1:06:43		5:22:38		4:01:54	Australia	FIN
 	88	Tim Brettig	M	M18-24	4	10:31:55	1:03:05		5:09:57		4:18:53	Australia	FIN
 	89	Jim Sunners	M	M40-44	5	10:32:13	1:05:47		5:02:26		4:24:00	Canada	FIN
@@ -662,7 +662,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 	549	Ross Denford	M	M55-59	16	15:36:36	1:39:04		7:02:37		6:54:55	Australia	FIN
 	550	Grace Fong	F	F50-54	8	15:37:02	1:26:42		8:03:53		6:06:27	Hong Kong	FIN
 	551	Silvio Wirth	M	M55-59	17	15:37:04	2:02:33		7:26:34		6:07:57	Australia	FIN
-	552	Chang  Jae Yeo	M	M30-34	93	15:38:09	2:01:07		7:47:19		5:49:43	South KOREA	FIN
+	552	Chang Jae Yeo	M	M30-34	93	15:38:09	2:01:07		7:47:19		5:49:43	South KOREA	FIN
 	553	Dave Lowery	M	M45-49	58	15:39:37	1:28:00		6:51:41		7:19:56	Canada	FIN
 	554	Jacinta Sheridan	F	F40-44	16	15:40:33	1:56:56		7:18:33		6:25:04	Canada	FIN
 	555	Sheila Boyd	F	F40-44	17	15:40:34	1:31:05		8:03:42		6:05:47	Canada	FIN
@@ -696,6 +696,6 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 	583	Luke Miller	M	M30-34	94	16:26:01	1:57:11		8:30:55		5:57:55	Australia	FIN
 	584	Peter Le Breton	M	M60-64	2	16:30:54	1:53:28		8:00:40		6:36:46	Australia	FIN
 	585	Ildoo Kim	M	M60-64	3	16:32:53	2:01:18		7:47:13		6:44:22	South KOREA	FIN
-	586	Hak  Soon Jang	M	M40-44	90	16:33:19	1:57:38		7:48:45		6:46:56	South KOREA	FIN
+	586	Hak Soon Jang	M	M40-44	90	16:33:19	1:57:38		7:48:45		6:46:56	South KOREA	FIN
 	587	Syed Shah	M	M30-34	95	16:43:25	1:47:49		7:19:48		7:35:48	United Kingdom	FIN
 	588	Simon Head	M	M40-44	91	16:58:39	1:19:04		8:20:49		7:18:46	Australia	FIN

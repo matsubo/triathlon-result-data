@@ -375,7 +375,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 910763	94	Francisco Xavier	M	M35-39	22	4:38:34	0:37:03	0:03:47	2:21:00	0:02:08	1:34:36	Mexico	FIN
 551070	95	Daniel Villarreal Dugay	M	M35-39	23	4:38:54	0:33:35	0:02:39	2:24:26	0:03:02	1:35:12	Mexico	FIN
 628777	96	Ronald Betancourt Leon	M	M45-49	9	4:38:56	0:34:26	0:03:29	2:19:26	0:02:16	1:39:18	Venezuela	FIN
-863717	97	Gustavo Poblete  Salazar	M	M60-64	1	4:39:00	0:33:01	0:05:03	2:24:28	0:02:23	1:34:05	Mexico	FIN
+863717	97	Gustavo Poblete Salazar	M	M60-64	1	4:39:00	0:33:01	0:05:03	2:24:28	0:02:23	1:34:05	Mexico	FIN
 1143657	98	Ricardo Rivero Curbelo	M	M50-54	5	4:39:01	0:29:31	0:04:09	2:14:01	0:02:28	1:48:52	Mexico	FIN
 971070	99	Eduardo De La Torre Vilchis	M	M30-34	17	4:39:10	0:36:34	0:04:01	2:21:31	0:02:27	1:34:37	Mexico	FIN
 1293905	100	Mauricio Colorado Tamez	M	M25-29	15	4:39:11	0:34:10	0:03:57	2:23:15	0:03:23	1:34:27	Mexico	FIN
@@ -725,7 +725,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 1293985	444	Leonardo Fernandez	M	M25-29	64	5:19:03	0:45:42	0:04:49	2:32:55	0:03:34	1:52:03	Italy	FIN
 1288205	445	Jose Centeno	M	M18-24	63	5:19:19	0:44:38	0:04:06	2:45:07	0:05:19	1:40:09	Mexico	FIN
 78282	446	Robert Dolan	M	M40-44	38	5:19:22	0:42:17	0:02:05	2:36:26	0:03:31	1:55:03	Mexico	FIN
-1254682	447	Carlos  Alberto Navarro Cabrera	M	M25-29	65	5:19:31	0:37:46	0:04:20	2:36:27	0:02:45	1:58:12	Mexico	FIN
+1254682	447	Carlos Alberto Navarro Cabrera	M	M25-29	65	5:19:31	0:37:46	0:04:20	2:36:27	0:02:45	1:58:12	Mexico	FIN
 1293986	448	Juan David Ochoa Gamboa	M	M45-49	42	5:19:38	0:48:32	0:07:24	2:32:20	0:07:08	1:44:14	Mexico	FIN
 1181355	449	Diego Gonzalez Moncada	M	M18-24	64	5:19:45	0:40:49	0:03:14	2:41:36	0:02:28	1:51:38	Mexico	FIN
 1264888	450	Rene Enriquez	M	M40-44	39	5:19:46	0:38:08	0:04:36	2:32:46	0:04:14	2:00:02	Mexico	FIN
@@ -1180,7 +1180,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 1294171	899	Arianne Ferrer	F	F30-34	31	5:55:39	0:52:48	0:06:18	2:54:38	0:03:44	1:58:12	Mexico	FIN
 363568	900	Artabán Urdiales	M	M40-44	94	5:55:50	0:41:04	0:07:05	2:54:28	0:06:08	2:07:05	Mexico	FIN
 960727	901	Fernando Sanchez	M	M45-49	76	5:55:51	0:44:19	0:05:05	2:44:46	0:03:25	2:18:16	Ecuador	FIN
-1264703	902	Brenda Guadalupe Zarate  Garcia	F	F25-29	30	5:56:21	0:40:45	0:05:45	2:57:34	0:04:51	2:07:26	Mexico	FIN
+1264703	902	Brenda Guadalupe Zarate Garcia	F	F25-29	30	5:56:21	0:40:45	0:05:45	2:57:34	0:04:51	2:07:26	Mexico	FIN
 1287568	903	Moises Avecilla	M	M45-49	77	5:56:22	0:48:05	0:07:18	2:38:08	0:05:44	2:17:06	Monaco	FIN
 1294172	904	Ulises Valtierra	M	M25-29	116	5:56:42	0:34:32	0:06:32	3:06:42	0:04:01	2:04:56	Mexico	FIN
 1294173	905	Michael Estwanick	M	M30-34	122	5:56:48	0:44:49	0:05:56	2:49:49	0:04:32	2:11:42	United States	FIN
@@ -1346,7 +1346,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 1294263	1065	Diego Mayagoitia	M	M35-39	162	6:10:41	0:51:18	0:07:21	3:06:30	0:07:27	1:58:04	Mexico	FIN
 1294264	1066	Victor Barrety	M	M35-39	163	6:10:43	0:59:42	0:06:29	2:49:40	0:05:12	2:09:41	Mexico	FIN
 1294265	1067	Christopher Cabello Sánchez	M	M18-24	134	6:10:50	0:40:09	0:10:05	2:50:46	0:05:13	2:24:36	Mexico	FIN
-1294266	1068	Miguel  A Ojeda Méndez	M	M60-64	10	6:10:50	0:44:22	0:05:58	2:51:42	0:04:12	2:24:36	Puerto Rico	FIN
+1294266	1068	Miguel A Ojeda Méndez	M	M60-64	10	6:10:50	0:44:22	0:05:58	2:51:42	0:04:12	2:24:36	Puerto Rico	FIN
 1294267	1069	Michael Savchuk	M	M30-34	135	6:10:51	0:54:10	0:05:24	3:04:54	0:02:38	2:03:46	United States	FIN
 1294268	1070	Yensunni Martinez	F	M40-44	108	6:10:53	0:42:36	0:05:43	3:04:41	0:04:40	2:13:13	Mexico	FIN
 1294269	1071	Ovidio González Martienz	M	M50-54	58	6:10:58	0:49:49	0:04:46	2:51:35	0:03:00	2:21:49	Mexico	FIN
