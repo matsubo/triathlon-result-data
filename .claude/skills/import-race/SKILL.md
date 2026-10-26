@@ -136,8 +136,8 @@ this workflow needs is in the repository.
 5. **Validate and audit** — full commands and the aggregate-audit rationale in
    `references/validation-pipeline.md`:
    ```bash
-   bunx ajv-cli validate -s race-info-schema.json -d race-info.json
-   bunx ajv-cli validate -s weather-schema.json -d master/<year>/<id>/weather-data.json
+   bun run test:schema       # race-info.json ↔ race-info-schema.json
+   bun run test:weather      # every weather-data.json ↔ weather-schema.json
    bun scripts/normalize-tsv.js <event_id> <year>
    bun run build:schema
    bun run test              # NOT bare `bun test` — the package script also runs tsc --noEmit

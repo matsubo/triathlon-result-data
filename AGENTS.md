@@ -187,7 +187,7 @@ with pdfplumber.open('result.pdf') as pdf:
 - 既存大会に年度を追加: `editions` 配列に新しいエントリを追加
 - 新規大会: `events` 配列に新しいイベントを追加
 - TSVヘッダーを確認し、`segments.columns` と `meta_columns` のマッピングを正確に設定
-- バリデーション: `bunx ajv-cli validate -s race-info-schema.json -d race-info.json`
+- バリデーション: `bun run test:schema`
 
 ### 4. 天気データの生成
 

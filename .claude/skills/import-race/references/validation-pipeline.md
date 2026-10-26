@@ -51,10 +51,10 @@ Run the full pipeline after any data change:
 
 ```bash
 # 1. Validate race-info.json schema
-bunx ajv-cli validate -s race-info-schema.json -d race-info.json
+bun run test:schema
 
-# 2. Validate any new weather files
-bunx ajv-cli validate -s weather-schema.json -d master/YEAR/ID/weather-data.json
+# 2. Validate weather files (every weather-data.json)
+bun run test:weather
 
 # 3. Regenerate the derived TS schema
 bun run build:schema

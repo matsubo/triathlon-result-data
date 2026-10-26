@@ -135,7 +135,7 @@ Edit `race-info.json`. The structure is a tree of events → editions → catego
 Validate and regenerate TypeScript types:
 
 ```bash
-bunx ajv-cli validate -s race-info-schema.json -d race-info.json
+bun run test:schema
 bun run build:schema
 ```
 
@@ -150,7 +150,7 @@ Per edition, at `master/<year>/<event_id>/weather-data.json`, following `weather
 Validate:
 
 ```bash
-bunx ajv-cli validate -s weather-schema.json -d master/<year>/<event_id>/weather-data.json
+bun run test:weather
 ```
 
 ### Add results
