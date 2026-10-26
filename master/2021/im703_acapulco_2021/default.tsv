@@ -89,7 +89,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 313972	DSQ	Almudena Arrechea	F	F35-39								Mexico	DQ
 864222	DNF	Juan Luis Jacinto	M	M40-44			0:45:35	0:08:59	3:12:55			United States	DNF
 864223	DNS	Jean Chapiro	F	F18-24								United States	DNS
-864224	DNS	Ana Paula Ramírez	martínez	F	F25-29								Mexico	DNS
+864224	DNS	Ana Paula Ramírez martínez	F	F25-29								Mexico	DNS
 864225	DNF	Miguel Fernández	M	M40-44			0:43:05	0:03:36	3:20:22	0:04:17		Mexico	DNF
 864226	DNS	Roberto Rodriguez	M	M30-34								United States	DNS
 864227	DNS	Craig Trillberg	M	M55-59								Canada	DNS
@@ -255,7 +255,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 305752	48	Luis Daniel Piz Hernandez	M	M35-39	10	4:49:38	0:32:08	0:02:15	2:31:55	0:01:46	1:41:35	Mexico	FIN
 838320	49	Jose De La Roca	M	M40-44	12	4:49:41	0:31:36	0:03:02	2:39:42	0:02:41	1:32:39	Guatemala	FIN
 863570	50	Gonzalo Andrés Araya Kopaitic	M	M35-39	11	4:49:50	0:31:45	0:03:05	2:25:04	0:04:18	1:45:38	Chile	FIN
-863571	51	Miguel Angel García	ramos	M	M25-29	7	4:50:07	0:25:44	0:03:08	2:36:30	0:03:06	1:41:38	Mexico	FIN
+863571	51	Miguel Angel García ramos	M	M25-29	7	4:50:07	0:25:44	0:03:08	2:36:30	0:03:06	1:41:38	Mexico	FIN
 193228	52	Rodrigo Aviles	M	M35-39	12	4:50:32	0:34:17	0:04:18	2:33:23	0:03:52	1:34:42	Mexico	FIN
 863572	53	Juventino Marquez	M	M35-39	13	4:50:35	0:29:19	0:02:01	2:37:48	0:02:04	1:39:23	Mexico	FIN
 863573	54	Omar Garcia	M	M45-49	3	4:50:40	0:29:33	0:03:30	2:34:24	0:03:06	1:40:08	Mexico	FIN
@@ -1091,7 +1091,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 864110	884	Leticia Duarte Gutiérrez	F	F55-59	8	8:10:35	0:34:37	0:07:59	4:23:22	0:07:26	2:57:11	Mexico	FIN
 864111	885	David Armando De La Torre Fernández	M	M45-49	106	8:16:14	0:43:07	0:06:26	4:25:39	0:06:35	2:54:26	Mexico	FIN
 864112	886	Calo Rodriguez	M	M45-49	107	8:23:43	0:44:22	0:10:45	3:58:29	0:14:07	3:16:01	Colombia	FIN
-864113	887	Alejandro Alvarez	bernal	M	M40-44	143	8:25:11	0:47:20	0:05:33	3:57:08	0:05:47	3:29:22	Mexico	FIN
+864113	887	Alejandro Alvarez bernal	M	M40-44	143	8:25:11	0:47:20	0:05:33	3:57:08	0:05:47	3:29:22	Mexico	FIN
 864114	888	Mauricio Lomelí Correa	M	M25-29	68	8:25:17	0:35:43	0:02:17	4:06:26	0:06:59	3:33:52	Mexico	FIN
 864115	889	Brian Bronson	M	M25-29	69	8:26:18	0:57:40	0:04:14	4:27:05	0:04:50	2:52:29	United States	FIN
 33631	890	Fernando Zamora	M	M75-79	1	8:27:03	0:46:49	0:09:31	3:43:53	0:07:27	3:39:23	Costa Rica	FIN

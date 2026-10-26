@@ -329,7 +329,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 1016477	75	Victor Romero	M	M30-34	14	5:02:31	0:32:05	0:02:39	2:30:54	0:03:10	1:53:42	Mexico	FIN
 971680	76	Jose Palomo Miranda	M	M40-44	12	5:03:04	0:33:54	0:03:08	2:41:21	0:02:28	1:42:13	Mexico	FIN
 879924	77	Jonathan Garcia	M	M40-44	13	5:03:39	0:38:47	0:02:53	2:47:58	0:02:19	1:31:42	Mexico	FIN
-344797	78	Angel Lara	garcia	M	M45-49	4	5:04:43	0:30:46	0:02:06	2:42:59	0:02:37	1:46:16	Mexico	FIN
+344797	78	Angel Lara garcia	M	M45-49	4	5:04:43	0:30:46	0:02:06	2:42:59	0:02:37	1:46:16	Mexico	FIN
 880028	79	Daniel Gomez	M	M35-39	14	5:04:51	0:35:09	0:03:59	2:50:43	0:03:01	1:31:59	Mexico	FIN
 961559	80	Juan Perez Romero	M	M40-44	14	5:04:51	0:36:38	0:03:46	2:38:06	0:02:21	1:43:59	Mexico	FIN
 1016478	81	Willian Andres Arias Amortegui	M	M35-39	15	5:04:57	0:36:32	0:02:38	2:48:38	0:02:54	1:34:16	Colombia	FIN
@@ -713,7 +713,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 172442	459	Sergio Martinez	M	M40-44	90	6:10:33	0:34:26	0:04:55	3:01:34	0:03:54	2:25:45	Mexico	FIN
 363592	460	Andrea Franyuti Perez	F	F25-29	16	6:10:37	0:43:24	0:04:44	3:14:47	0:03:39	2:04:03	Mexico	FIN
 1016613	461	Bernardo Ceñal Ruiz	M	M30-34	66	6:10:40	0:37:15	0:11:30	3:16:58	0:04:42	2:00:14	Mexico	FIN
-1016614	462	Lorenzo Castellanos	gomez	M	M50-54	36	6:10:50	0:36:26	0:05:11	2:54:59	0:03:58	2:30:18	Mexico	FIN
+1016614	462	Lorenzo Castellanos gomez	M	M50-54	36	6:10:50	0:36:26	0:05:11	2:54:59	0:03:58	2:30:18	Mexico	FIN
 977656	463	Lariza Alba	F	F35-39	13	6:11:03	0:41:55	0:04:41	3:11:03	0:03:46	2:09:38	Mexico	FIN
 1016420	464	Jean Pierre Jouanen Fernandez	M	M35-39	79	6:11:09	0:42:52	0:05:45	2:59:40	0:03:53	2:18:58	Mexico	FIN
 977738	465	Carlos Espino	M	M40-44	91	6:11:16	0:53:46	0:06:13	2:56:59	0:03:43	2:10:34	Mexico	FIN
@@ -1042,7 +1042,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 1016761	788	Aldo Hernandez Reyes	M	M45-49	85	7:28:13	0:41:12	0:06:56	3:20:19	0:08:33	3:11:13	Mexico	FIN
 1016762	789	Andres Martinez Salinas	M	M30-34	99	7:28:36	0:47:02	0:11:11	3:28:40	0:08:40	2:53:03	Mexico	FIN
 1016763	790	Diego Plaza	M	M35-39	128	7:29:42	0:43:34	0:06:57	3:45:03	0:06:45	2:47:23	Mexico	FIN
-1004964	791	Angeles Xochipilli Rivera	morales	F	F45-49	23	7:29:44	0:39:40	0:04:05	3:40:51	0:04:49	3:00:20	Mexico	FIN
+1004964	791	Angeles Xochipilli Rivera morales	F	F45-49	23	7:29:44	0:39:40	0:04:05	3:40:51	0:04:49	3:00:20	Mexico	FIN
 1016764	792	Fernando Javier Hernandez Ortiz	M	M40-44	147	7:31:21	0:57:22	0:09:58	3:26:38	0:05:56	2:51:26	Mexico	FIN
 453974	793	Rogelio Altamirano	M	M40-44	148	7:31:30	0:40:36	0:10:43	3:23:36	0:09:27	3:07:08	Mexico	FIN
 1016765	794	Daniel Jimenez	M	M25-29	74	7:32:00	1:02:48	0:05:43	3:32:50	0:05:58	2:44:41	Mexico	FIN
