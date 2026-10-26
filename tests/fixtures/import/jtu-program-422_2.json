@@ -1,0 +1,16 @@
+{
+  "res": {
+    "code": 2001,
+    "message": "1data fetched.",
+    "body": [
+      {
+        "result_table_id": 4597,
+        "program_id": "422_2",
+        "result_table_order": 1,
+        "result_table_caption": null,
+        "result_table_datasize": 56992,
+        "result_table_has_sub": 0
+      }
+    ]
+  }
+}
