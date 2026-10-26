@@ -663,7 +663,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 879808	123	Morten Halkjær	M	M45-49	7	9:08:05	0:53:52	0:04:29	4:40:19	0:02:58	3:26:27	Denmark	FIN
 879809	124	Mauricio Borges Cunha	M	M45-49	8	9:08:40	0:54:13	0:03:33	4:41:39	0:03:06	3:26:08	United States	FIN
 879810	125	Miguel Sanches	M	M35-39	28	9:09:17	0:48:03	0:02:59	4:43:00	0:02:26	3:32:49	Brazil	FIN
-879811	126	Jose Otavio Ribeiro  Cruz Filho	M	M45-49	9	9:09:34	0:56:07	0:04:36	4:39:49	0:03:52	3:25:11	Brazil	FIN
+879811	126	Jose Otavio Ribeiro Cruz Filho	M	M45-49	9	9:09:34	0:56:07	0:04:36	4:39:49	0:03:52	3:25:11	Brazil	FIN
 879812	127	Elisabetta Curridori	F	FPRO	11	9:09:52	0:48:21	0:03:52	4:48:10	0:02:27	3:27:02	Italy	FIN
 28984	128	Ralf Preissl	M	M45-49	10	9:09:55	0:46:37	0:03:11	4:39:29	0:02:08	3:38:30	Germany	FIN
 838320	129	Jose De La Roca	M	M40-44	22	9:10:11	0:54:10	0:03:53	4:54:26	0:02:33	3:15:10	Guatemala	FIN
@@ -1145,7 +1145,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 482172	605	Jennifer Mcnamara	F	F35-39	18	10:53:44	0:56:10	0:07:13	5:37:56	0:06:06	4:06:19	United States	FIN
 232323	606	Nicolas Vallejos	M	M45-49	76	10:53:44	0:53:57	0:06:30	5:06:42	0:05:21	4:41:14	United States	FIN
 880039	607	Ignacio Carnevale	M	M18-24	9	10:53:47	0:52:09	0:04:19	5:29:34	0:05:29	4:22:16	Costa Rica	FIN
-857395	608	Erick  Rodrigo Spiegeler Herrera	M	M35-39	114	10:53:53	0:55:02	0:07:14	5:54:20	0:06:35	3:50:42	Guatemala	FIN
+857395	608	Erick Rodrigo Spiegeler Herrera	M	M35-39	114	10:53:53	0:55:02	0:07:14	5:54:20	0:06:35	3:50:42	Guatemala	FIN
 880040	609	Tatiana Figueira	F	F30-34	11	10:53:56	0:55:44	0:05:04	5:26:56	0:03:37	4:22:35	Brazil	FIN
 40933	610	Greg Plumb	M	M30-34	81	10:53:59	0:59:52	0:06:09	5:31:14	0:04:42	4:12:01	United States	FIN
 832003	611	Francisco Fuentes	M	M25-29	32	10:54:01	0:53:51	0:06:22	6:00:32	0:04:53	3:48:23	Mexico	FIN
@@ -2372,7 +2372,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 565681	1832	Javier Alejandro Aguilar Diaz	M	M30-34	182	14:10:02	1:00:15	0:06:14	6:23:14	0:09:36	6:30:43	Mexico	FIN
 551091	1833	Adrián Lerma	M	M30-34	183	14:10:27	0:57:40	0:11:15	6:20:20	0:13:14	6:27:58	Mexico	FIN
 551230	1834	Marco Perez De Acha	M	M50-54	180	14:10:32	1:02:39	0:11:35	7:14:33	0:11:00	5:30:45	Mexico	FIN
-603823	1835	Javier Ortiz  Mojica	M	M50-54	181	14:10:56	1:08:29	0:09:21	6:04:44	0:09:12	6:39:10	Puerto Rico	FIN
+603823	1835	Javier Ortiz Mojica	M	M50-54	181	14:10:56	1:08:29	0:09:21	6:04:44	0:09:12	6:39:10	Puerto Rico	FIN
 51793	1836	Annie Rivera	F	F50-54	53	14:11:08	1:02:27	0:05:58	7:22:01	0:06:13	5:34:28	United States	FIN
 504054	1837	Margarita Calderón-Loya	F	F50-54	54	14:11:15	1:00:19	0:09:17	7:05:59	0:08:19	5:47:22	Mexico	FIN
 880670	1838	Arman Avagyan	M	M18-24	28	14:12:06	1:04:09	0:06:39	7:17:10	0:19:20	5:24:47	Canada	FIN

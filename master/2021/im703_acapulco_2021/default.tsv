@@ -89,7 +89,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 313972	DSQ	Almudena Arrechea	F	F35-39								Mexico	DQ
 864222	DNF	Juan Luis Jacinto	M	M40-44			0:45:35	0:08:59	3:12:55			United States	DNF
 864223	DNS	Jean Chapiro	F	F18-24								United States	DNS
-864224	DNS	Ana Paula Ramírez	martínez	F	F25-29								Mexico	DNS
+864224	DNS	Ana Paula Ramírez martínez	F	F25-29								Mexico	DNS
 864225	DNF	Miguel Fernández	M	M40-44			0:43:05	0:03:36	3:20:22	0:04:17		Mexico	DNF
 864226	DNS	Roberto Rodriguez	M	M30-34								United States	DNS
 864227	DNS	Craig Trillberg	M	M55-59								Canada	DNS
@@ -255,7 +255,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 305752	48	Luis Daniel Piz Hernandez	M	M35-39	10	4:49:38	0:32:08	0:02:15	2:31:55	0:01:46	1:41:35	Mexico	FIN
 838320	49	Jose De La Roca	M	M40-44	12	4:49:41	0:31:36	0:03:02	2:39:42	0:02:41	1:32:39	Guatemala	FIN
 863570	50	Gonzalo Andrés Araya Kopaitic	M	M35-39	11	4:49:50	0:31:45	0:03:05	2:25:04	0:04:18	1:45:38	Chile	FIN
-863571	51	Miguel Angel García 	ramos	M	M25-29	7	4:50:07	0:25:44	0:03:08	2:36:30	0:03:06	1:41:38	Mexico	FIN
+863571	51	Miguel Angel García ramos	M	M25-29	7	4:50:07	0:25:44	0:03:08	2:36:30	0:03:06	1:41:38	Mexico	FIN
 193228	52	Rodrigo Aviles	M	M35-39	12	4:50:32	0:34:17	0:04:18	2:33:23	0:03:52	1:34:42	Mexico	FIN
 863572	53	Juventino Marquez	M	M35-39	13	4:50:35	0:29:19	0:02:01	2:37:48	0:02:04	1:39:23	Mexico	FIN
 863573	54	Omar Garcia	M	M45-49	3	4:50:40	0:29:33	0:03:30	2:34:24	0:03:06	1:40:08	Mexico	FIN
@@ -482,7 +482,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 863708	275	Miriam Paloma Gonzalez Navarro	F	F18-24	12	5:31:51	0:30:12	0:02:06	2:46:41	0:02:14	2:10:37	Mexico	FIN
 863709	276	Jose Ricardo Gonzalez	M	M60-64	3	5:32:09	0:28:16	0:03:49	2:40:15	0:03:40	2:16:09	Mexico	FIN
 863710	277	Raul Guillen Rojas	M	M35-39	46	5:32:12	0:33:26	0:03:39	2:52:21	0:03:50	1:58:55	Mexico	FIN
-863711	278	Alexis Van Scoit  Rodriguez	M	M35-39	47	5:32:14	0:38:50	0:03:46	2:40:03	0:04:28	2:05:07	Mexico	FIN
+863711	278	Alexis Van Scoit Rodriguez	M	M35-39	47	5:32:14	0:38:50	0:03:46	2:40:03	0:04:28	2:05:07	Mexico	FIN
 259154	279	Raul Buritica	M	M45-49	15	5:32:26	0:42:40	0:04:15	2:46:03	0:05:01	1:54:27	Colombia	FIN
 863712	280	Nelson Oveimar Diaz	M	M45-49	16	5:32:49	0:40:28	0:03:29	2:44:15	0:03:36	2:01:01	Colombia	FIN
 863713	281	Enrique Vazquez	M	M50-54	11	5:33:22	0:35:57	0:04:35	2:38:05	0:03:59	2:10:46	Mexico	FIN
@@ -567,7 +567,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 306046	360	Nicolas Silva	M	M40-44	63	5:44:41	0:45:35	0:04:18	2:44:33	0:04:42	2:05:32	Colombia	FIN
 863763	361	Herminio Quintero Cardenas	M	M35-39	61	5:44:55	0:36:30	0:05:30	2:51:33	0:04:01	2:07:21	Mexico	FIN
 858255	362	Jay Correa	M	M55-59	6	5:45:04	0:43:38	0:02:54	3:08:24	0:03:40	1:46:28	Brazil	FIN
-863764	363	Gerardo Casanova  Morales	M	M45-49	29	5:45:15	0:34:23	0:04:11	3:06:54	0:04:58	1:54:49	Mexico	FIN
+863764	363	Gerardo Casanova Morales	M	M45-49	29	5:45:15	0:34:23	0:04:11	3:06:54	0:04:58	1:54:49	Mexico	FIN
 863765	364	Maria Cordero Pena	F	F25-29	8	5:45:22	0:34:55	0:03:08	3:03:31	0:02:58	2:00:50	Mexico	FIN
 863766	365	Jose Pablo Torres Mendoza	M	M18-24	31	5:45:28	0:35:34	0:03:26	2:41:55	0:04:03	2:20:29	Mexico	FIN
 857352	366	Jesus Rivera	M	M40-44	64	5:45:36	0:42:35	0:03:17	2:45:35	0:04:24	2:09:45	Mexico	FIN
@@ -735,7 +735,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 839056	528	Jean Pierre Robert	M	M60-64	6	6:10:43	0:37:40	0:06:29	3:03:50	0:04:53	2:17:51	Mexico	FIN
 846739	529	Jose Pokorny	M	M55-59	10	6:10:45	0:39:36	0:03:13	2:51:05	0:04:38	2:32:14	Guatemala	FIN
 565892	530	Israel Rodríguez	M	M35-39	85	6:10:55	0:35:40	0:03:05	3:04:39	0:04:51	2:22:39	Mexico	FIN
-363598	531	Mauro Mireles  Gutierrez	M	M60-64	7	6:10:57	0:40:56	0:04:18	3:05:25	0:03:38	2:16:40	Mexico	FIN
+363598	531	Mauro Mireles Gutierrez	M	M60-64	7	6:10:57	0:40:56	0:04:18	3:05:25	0:03:38	2:16:40	Mexico	FIN
 863868	532	Bernadette Sidney	F	F55-59	2	6:11:04	0:33:18	0:05:01	3:11:32	0:05:15	2:15:59	United States	FIN
 863869	533	Fabian Stroeber	M	M30-34	68	6:11:05	0:32:15	0:03:41	3:00:41	0:05:25	2:29:04	Germany	FIN
 670756	534	Jose Armenta	M	M50-54	35	6:11:08	0:47:05	0:03:18	2:55:33	0:04:24	2:20:49	Mexico	FIN
@@ -1091,7 +1091,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 864110	884	Leticia Duarte Gutiérrez	F	F55-59	8	8:10:35	0:34:37	0:07:59	4:23:22	0:07:26	2:57:11	Mexico	FIN
 864111	885	David Armando De La Torre Fernández	M	M45-49	106	8:16:14	0:43:07	0:06:26	4:25:39	0:06:35	2:54:26	Mexico	FIN
 864112	886	Calo Rodriguez	M	M45-49	107	8:23:43	0:44:22	0:10:45	3:58:29	0:14:07	3:16:01	Colombia	FIN
-864113	887	Alejandro Alvarez	bernal	M	M40-44	143	8:25:11	0:47:20	0:05:33	3:57:08	0:05:47	3:29:22	Mexico	FIN
+864113	887	Alejandro Alvarez bernal	M	M40-44	143	8:25:11	0:47:20	0:05:33	3:57:08	0:05:47	3:29:22	Mexico	FIN
 864114	888	Mauricio Lomelí Correa	M	M25-29	68	8:25:17	0:35:43	0:02:17	4:06:26	0:06:59	3:33:52	Mexico	FIN
 864115	889	Brian Bronson	M	M25-29	69	8:26:18	0:57:40	0:04:14	4:27:05	0:04:50	2:52:29	United States	FIN
 33631	890	Fernando Zamora	M	M75-79	1	8:27:03	0:46:49	0:09:31	3:43:53	0:07:27	3:39:23	Costa Rica	FIN

@@ -29745,6 +29745,10 @@
                     {
                       "header": "スプリット",
                       "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
                     }
                   ]
                 },
@@ -53478,7 +53482,8 @@
           ]
         },
         {
-          "date": "2022-01-01",
+          "date": "2022-10-08",
+          "weather_file": "master/2022/ironman_world_championship_kona_sat_2022/weather-data.json",
           "categories": [
             {
               "id": "ironman_world_championship_kona_sat_2022",
@@ -53565,7 +53570,8 @@
           ]
         },
         {
-          "date": "2022-01-01",
+          "date": "2022-10-06",
+          "weather_file": "master/2022/ironman_world_championship_kona_thu_2022/weather-data.json",
           "categories": [
             {
               "id": "ironman_world_championship_kona_thu_2022",
@@ -147714,14 +147720,14 @@
         },
         {
           "date": "2008-11-23",
-          "weather_file": "master/2008/ironman_arizona_2008/weather-data.json",
+          "weather_file": "master/2008/ironman_arizona_nov_2008/weather-data.json",
           "categories": [
             {
-              "id": "ironman_arizona_2008",
-              "result_tsv": "master/2008/ironman_arizona_2008/default.tsv",
+              "id": "ironman_arizona_nov_2008",
+              "result_tsv": "master/2008/ironman_arizona_nov_2008/default.tsv",
               "name": "Full Distance",
               "distance": "LD",
-              "description": "2008 IRONMAN arizona",
+              "description": "2008 IRONMAN Arizona November",
               "segments": [
                 {
                   "sport": "swim",
@@ -205634,90 +205640,6 @@
           ]
         },
         {
-          "date": "2022-01-09",
-          "weather_file": "master/2022/im703_pucon_2022/weather-data.json",
-          "categories": [
-            {
-              "id": "im703_pucon_2022",
-              "result_tsv": "master/2022/im703_pucon_2022/default.tsv",
-              "name": "70.3",
-              "distance": "MD",
-              "description": "2022 IRONMAN 70.3 Pucon",
-              "segments": [
-                {
-                  "sport": "swim",
-                  "distance": 1.9,
-                  "columns": [
-                    {
-                      "header": "Swim",
-                      "role": "lap"
-                    }
-                  ]
-                },
-                {
-                  "sport": "bike",
-                  "distance": 90.1,
-                  "columns": [
-                    {
-                      "header": "Bike",
-                      "role": "lap"
-                    }
-                  ]
-                },
-                {
-                  "sport": "run",
-                  "distance": 21.0975,
-                  "columns": [
-                    {
-                      "header": "Run",
-                      "role": "lap"
-                    }
-                  ]
-                }
-              ],
-              "meta_columns": [
-                {
-                  "header": "ContactId",
-                  "role": "athlete_id"
-                },
-                {
-                  "header": "Overall_Rank",
-                  "role": "overall_rank"
-                },
-                {
-                  "header": "Name",
-                  "role": "name"
-                },
-                {
-                  "header": "Gender",
-                  "role": "gender"
-                },
-                {
-                  "header": "Division",
-                  "role": "age_category"
-                },
-                {
-                  "header": "Div_Rank",
-                  "role": "age_rank"
-                },
-                {
-                  "header": "Total_Time",
-                  "role": "total_time"
-                },
-                {
-                  "header": "Country",
-                  "role": "residence"
-                },
-                {
-                  "header": "Status",
-                  "role": "status"
-                }
-              ],
-              "source_url": null
-            }
-          ]
-        },
-        {
           "date": "2019-01-13",
           "weather_file": "master/2019/im703_pucon_2019/weather-data.json",
           "categories": [
@@ -209502,90 +209424,6 @@
               "name": "70.3",
               "distance": "MD",
               "description": "2023 IRONMAN 70.3 Puerto Rico",
-              "segments": [
-                {
-                  "sport": "swim",
-                  "distance": 1.9,
-                  "columns": [
-                    {
-                      "header": "Swim",
-                      "role": "lap"
-                    }
-                  ]
-                },
-                {
-                  "sport": "bike",
-                  "distance": 90.1,
-                  "columns": [
-                    {
-                      "header": "Bike",
-                      "role": "lap"
-                    }
-                  ]
-                },
-                {
-                  "sport": "run",
-                  "distance": 21.0975,
-                  "columns": [
-                    {
-                      "header": "Run",
-                      "role": "lap"
-                    }
-                  ]
-                }
-              ],
-              "meta_columns": [
-                {
-                  "header": "ContactId",
-                  "role": "athlete_id"
-                },
-                {
-                  "header": "Overall_Rank",
-                  "role": "overall_rank"
-                },
-                {
-                  "header": "Name",
-                  "role": "name"
-                },
-                {
-                  "header": "Gender",
-                  "role": "gender"
-                },
-                {
-                  "header": "Division",
-                  "role": "age_category"
-                },
-                {
-                  "header": "Div_Rank",
-                  "role": "age_rank"
-                },
-                {
-                  "header": "Total_Time",
-                  "role": "total_time"
-                },
-                {
-                  "header": "Country",
-                  "role": "residence"
-                },
-                {
-                  "header": "Status",
-                  "role": "status"
-                }
-              ],
-              "source_url": null
-            }
-          ]
-        },
-        {
-          "date": "2022-03-20",
-          "weather_file": "master/2022/im703_puerto_rico_2022/weather-data.json",
-          "categories": [
-            {
-              "id": "im703_puerto_rico_2022",
-              "result_tsv": "master/2022/im703_puerto_rico_2022/default.tsv",
-              "name": "70.3",
-              "distance": "MD",
-              "description": "2022 IRONMAN 70.3 Puerto Rico",
               "segments": [
                 {
                   "sport": "swim",

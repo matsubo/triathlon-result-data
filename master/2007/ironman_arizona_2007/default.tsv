@@ -832,7 +832,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 345429	230	Kelly Molaski	F	F45-49	1	11:07:01	1:00:04	0:04:17	5:46:40	0:03:05	4:12:55	United States	FIN
 102245	231	Ben Bennett	M	M25-29	22	11:07:37	1:08:54	0:06:47	5:19:46	0:05:16	4:26:54	United States	FIN
 345511	232	David Quelch	M	M40-44	44	11:07:42	1:08:23	0:06:18	5:27:56	0:04:00	4:21:05	United States	FIN
-345521	233	Richard Feuille  Jr.	M	M55-59	1	11:08:17	1:09:00	0:07:10	5:46:08	0:03:22	4:02:37	United States	FIN
+345521	233	Richard Feuille Jr.	M	M55-59	1	11:08:17	1:09:00	0:07:10	5:46:08	0:03:22	4:02:37	United States	FIN
 96245	234	Takashi Takada	M	M35-39	56	11:08:21	1:09:12	0:04:47	5:49:18	0:03:11	4:01:53	United States	FIN
 110672	235	Tom O'neill	M	M50-54	7	11:08:29	1:00:20	0:04:16	5:36:25	0:03:45	4:23:43	United States	FIN
 154073	236	Jeanette Mucha	F	F35-39	6	11:08:31	1:02:08	0:05:16	5:55:16	0:03:28	4:02:23	United States	FIN
@@ -860,7 +860,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 78163	258	Ric Meister	M	M40-44	49	11:13:51	1:05:16	0:05:14	5:38:47	0:02:54	4:21:40	United States	FIN
 345578	259	Mark Hassell	M	M45-49	23	11:14:34	1:02:17	0:05:51	5:36:47	0:03:47	4:25:52	United States	FIN
 159385	260	Rachel Chambers	F	F30-34	6	11:14:44	1:13:03	0:03:28	6:05:53	0:02:04	3:50:16	United States	FIN
-345306	261	Carlos Hernandez  Jr.	M	M35-39	60	11:14:46	1:16:54	0:04:17	5:54:42	0:05:51	3:53:02	United States	FIN
+345306	261	Carlos Hernandez Jr.	M	M35-39	60	11:14:46	1:16:54	0:04:17	5:54:42	0:05:51	3:53:02	United States	FIN
 60011	262	Erik Marter	M	M40-44	50	11:14:47	1:04:09	0:05:16	5:41:55	0:03:30	4:19:57	United States	FIN
 345638	263	David Pollard	M	M35-39	61	11:14:54	1:12:31	0:04:57	5:35:45	0:02:39	4:19:02	United States	FIN
 	264	Josh Nordell	M	M25-29	24	11:15:08	1:03:20	0:05:14	5:57:03	0:04:16	4:05:15	United States	FIN
@@ -1216,7 +1216,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 345161	614	Kim Duke	F	F35-39	16	12:19:50	1:22:56	0:08:34	6:25:24	0:03:55	4:19:01	United States	FIN
 169467	615	Robert Newman	M	M40-44	120	12:19:58	1:26:39	0:09:42	6:28:49	0:04:21	4:10:27	United States	FIN
 159190	616	Michael Leonard	M	M45-49	56	12:19:58	1:05:45	0:08:57	5:28:19	0:03:32	5:33:25	United States	FIN
-93022	617	Wayne Patterson  Iii	M	M50-54	20	12:20:04	1:14:45	0:08:38	5:55:04	0:05:57	4:55:40	United States	FIN
+93022	617	Wayne Patterson Iii	M	M50-54	20	12:20:04	1:14:45	0:08:38	5:55:04	0:05:57	4:55:40	United States	FIN
 118577	618	Cullen Talley	M	M35-39	154	12:20:08	1:01:56	0:05:55	6:05:32	0:06:39	5:00:06	United States	FIN
 31934	619	Sean Cleary	M	M45-49	57	12:20:32	1:10:10	0:04:42	6:51:06	0:08:45	4:05:49	United States	FIN
 81241	620	Bryan Woodruff	M	M35-39	155	12:20:42	1:06:18	0:05:15	6:09:33	0:02:52	4:56:44	United States	FIN
@@ -1589,7 +1589,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 345513	987	Christian Fitzpatrick	M	M30-34	154	13:14:38	1:21:23	0:07:10	6:28:49	0:05:39	5:11:37	United States	FIN
 235900	988	Kevin Robson	M	M40-44	186	13:14:42	1:26:42	0:06:27	6:23:04	0:06:51	5:11:38	United States	FIN
 97084	989	Brandon Mckay	M	M25-29	72	13:14:45	1:25:19	0:08:24	6:28:27	0:13:49	4:58:46	United States	FIN
-156346	990	Richard Lindstrom  Jr	M	M35-39	232	13:14:47	1:07:38	0:07:43	6:32:34	0:06:09	5:20:43	United States	FIN
+156346	990	Richard Lindstrom Jr	M	M35-39	232	13:14:47	1:07:38	0:07:43	6:32:34	0:06:09	5:20:43	United States	FIN
 346011	991	Jeff Gainok	M	M30-34	155	13:14:49	1:11:47	0:07:05	5:47:10	0:09:19	5:59:28	United States	FIN
 284823	992	Randy Barrett	M	M35-39	233	13:14:51	1:21:29	0:09:34	6:28:09	0:05:34	5:10:05	United States	FIN
 324471	993	Robert Patton	M	M40-44	187	13:14:52	1:13:22	0:06:35	6:45:11	0:07:10	5:02:34	United States	FIN
@@ -1966,7 +1966,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 160327	1364	Luis Valles	M	M40-44	243	14:25:58	1:20:30	0:13:27	6:51:20	0:08:21	5:52:20	United States	FIN
 345606	1365	Anthony Lang	M	M35-39	309	14:26:11	1:26:03	0:06:11	6:24:29	0:04:48	6:24:40	United States	FIN
 115676	1366	Hunter Jewett	M	M35-39	310	14:26:16	1:10:31	0:08:19	6:21:02	0:09:42	6:36:42	United States	FIN
-345100	1367	Charles Reidelbach  Jr.	M	M40-44	244	14:26:20	1:21:30	0:10:22	7:12:44	0:12:19	5:29:25	United States	FIN
+345100	1367	Charles Reidelbach Jr.	M	M40-44	244	14:26:20	1:21:30	0:10:22	7:12:44	0:12:19	5:29:25	United States	FIN
 102851	1368	Bill Egan	M	M45-49	139	14:26:21	1:13:35	0:06:06	5:56:29	0:13:43	6:56:28	United States	FIN
 345027	1369	Rodney Killebrew	M	M55-59	28	14:26:48	1:29:00	0:09:37	7:14:15	0:11:15	5:22:41	United States	FIN
 345423	1370	Charles Duggan	M	M35-39	311	14:26:58	1:19:00	0:07:05	7:40:39	0:06:52	5:13:22	United States	FIN
@@ -2028,7 +2028,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 345584	1426	Jason Schraub	M	M25-29	105	14:36:41	1:20:43	0:08:53	6:54:26	0:08:24	6:04:15	United States	FIN
 345215	1427	Mike Sullivan	M	M60-64	7	14:36:45	1:16:11	0:09:50	6:58:16	0:09:14	6:03:14	United States	FIN
 129032	1428	Guillermo Castaneda	M	M55-59	30	14:37:14	1:18:22	0:09:55	7:15:18	0:06:18	5:47:21	Mexico	FIN
-345440	1429	Francis Mayer  Ii	M	M40-44	255	14:37:36	1:09:41	0:10:29	6:56:36	0:08:16	6:12:34	United States	FIN
+345440	1429	Francis Mayer Ii	M	M40-44	255	14:37:36	1:09:41	0:10:29	6:56:36	0:08:16	6:12:34	United States	FIN
 60061	1430	Jamie Legere	F	F40-44	43	14:38:33	1:41:39	0:08:03	7:42:25	0:13:42	4:52:44	United States	FIN
 344917	1431	Marc Jette	M	M30-34	203	14:38:58	1:14:11	0:20:20	7:24:23	0:05:43	5:34:21	United States	FIN
 128948	1432	Jorge Minera	M	M30-34	204	14:39:07	1:16:35	0:12:21	8:02:26	0:10:22	4:57:23	United States	FIN
@@ -2416,7 +2416,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 345119	1814	Mark Klausner	M	M35-39	393	16:32:34	1:26:17	0:12:14	8:26:33	0:10:17	6:17:13	United States	FIN
 156101	1815	Nancy Egan	F	F45-49	30	16:33:29	2:11:27	0:08:01	7:56:28	0:05:01	6:12:32	United States	FIN
 345550	1816	Melinda Leong	F	F30-34	77	16:33:38	1:32:18	0:07:14	7:53:38	0:07:01	6:53:27	United States	FIN
-57560	1817	Alton Hall  Jr.	M	M40-44	303	16:34:00	1:26:38	0:12:36	7:34:49	0:10:15	7:09:42	United States	FIN
+57560	1817	Alton Hall Jr.	M	M40-44	303	16:34:00	1:26:38	0:12:36	7:34:49	0:10:15	7:09:42	United States	FIN
 345184	1818	Dominick Conte	M	M30-34	240	16:34:18	1:27:30	0:07:02	7:34:48	0:07:05	7:17:53	United States	FIN
 345421	1819	Renee Osterdock	F	F35-39	81	16:35:13	1:24:17	0:09:07	7:42:28	0:05:38	7:13:43	United States	FIN
 112698	1820	Holly Stap	F	F25-29	39	16:35:15	1:27:26	0:09:26	7:49:42	0:15:15	6:53:26	United States	FIN

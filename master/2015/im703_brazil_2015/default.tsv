@@ -7,7 +7,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 84252	DNS	David Klabin	M	M30-34	0							Brazil	DNS
 34285	DNF	Dalton Cabral	M	M40-44	0			0:37:11	2:33:19	0:04:33		Brazil	DNF
 87979	DNF	Jose Antunes	M	MPRO	0		0:29:39	0:02:26	2:48:56	0:51:02		Brazil	DNF
-158555	DNF	Licio Eduardo  Oliveira	M	M35-39	0		0:45:29	0:04:54	2:15:45	0:50:59		Brazil	DNF
+158555	DNF	Licio Eduardo Oliveira	M	M35-39	0		0:45:29	0:04:54	2:15:45	0:50:59		Brazil	DNF
 291318	DNS	Juana Abdalla	F	F30-34	0							Brazil	DNS
 721771	DNS	JoÃ£o Pereira Oliveira	M	M45-49	0							Brazil	DNS
 721772	DNS	Evando Limongi De Resende Resende	M	M40-44	0							Brazil	DNS
@@ -39,7 +39,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 158569	DNS	Parahyba Neto	M	M35-39	0							Brazil	DNS
 46766	DNF	Fabio Passos	M	M40-44	0		0:30:25	0:02:54	2:30:32	0:03:24		Brazil	DNF
 721778	DNS	Eugenio Silveira	M	M55-59	0							Brazil	DNS
-721779	DNF	Thiago Paulino  Andrade Ferreira	M	M30-34	0		0:35:16	0:09:47	2:50:16	0:05:02		Brazil	DNF
+721779	DNF	Thiago Paulino Andrade Ferreira	M	M30-34	0		0:35:16	0:09:47	2:50:16	0:05:02		Brazil	DNF
 292021	DNS	Rafael Castelo Branco	M	M30-34	0							Brazil	DNS
 278609	DNS	Jorge Watanabe	M	M45-49	0							Brazil	DNS
 264014	DNS	Laila Romano	F	F30-34	0							Brazil	DNS
@@ -66,7 +66,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 31972	DNS	Thomas Vonach	M	M40-44	0							Brazil	DNS
 258479	DNF	Andre Nascimento	M	M40-44	0		0:35:30	0:04:07	2:25:26	0:03:20		Brazil	DNF
 721745	DNS	Joao Baptista Neto	M	M40-44	0							Brazil	DNS
-83757	DNS	Jose Luis  Campos	M	M45-49	0							Brazil	DNS
+83757	DNS	Jose Luis Campos	M	M45-49	0							Brazil	DNS
 33619	DNS	Mauricio De Medeiros	M	M50-54	0							Brazil	DNS
 86514	DNS	Thelma Pereira	F	F40-44	0							Brazil	DNS
 453332	DNS	Moacir Quintiliano Junior	M	M35-39	0							Brazil	DNS
@@ -127,7 +127,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 88086	DNS	Fabio Brandao	M	M35-39	0							Brazil	DNS
 42651	DNS	Karol DÅ¾alaj	M	MPRO	0							Slovakia	DNS
 116015	DNS	Jorge Carrasco Contreras	M	M30-34	0							Chile	DNS
-721766	DNS	Marco Fabio  Castro	M	M25-29	0							Brazil	DNS
+721766	DNS	Marco Fabio Castro	M	M25-29	0							Brazil	DNS
 44883	DNS	Jonathan Shearon	M	MPRO	0							United States	DNS
 506125	DNS	Sarine Chateau	F	F35-39	0							Brazil	DNS
 474917	DNS	Thomas Bittar	M	M40-44	0							Brazil	DNS
@@ -160,7 +160,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 83803	DNS	Rogerio Nogueira	M	M35-39	0							Brazil	DNS
 84277	DNS	Christiano Moreira	M	M40-44	0							Brazil	DNS
 62439	DNS	Themis MendonÃ§a BrandÃ£o Vilela	F	F55-59	0							Brazil	DNS
-140880	DNF	Edison Jose De Araujo Junior  Araujo	M	M35-39	0		0:56:06	0:04:07				Brazil	DNF
+140880	DNF	Edison Jose De Araujo Junior Araujo	M	M35-39	0		0:56:06	0:04:07				Brazil	DNF
 80585	1	Tim Don	M	MPRO	1	3:41:47	0:24:25	0:01:37	2:01:15	0:01:10	1:13:20	United Kingdom	FIN
 78967	2	Tim Odonnell	M	MPRO	2	3:42:40	0:24:20	0:01:36	1:59:03	0:01:21	1:16:20	United States	FIN
 23792	3	Tyler Butterfield	M	MPRO	3	3:45:48	0:25:28	0:01:45	1:59:54	0:01:33	1:17:08	Bermuda	FIN
@@ -341,7 +341,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 721604	178	Mateus Souza De Alcantara	M	M18-24	7	4:53:41	0:36:40	0:04:39	2:27:00	0:03:01	1:42:21	Brazil	FIN
 426415	179	FlÃ¡vio Rocha	M	M40-44	19	4:53:44	0:32:38	0:04:06	2:30:07	0:01:57	1:44:56	Brazil	FIN
 487468	180	Luiz Augusto Vergueiro	M	M35-39	41	4:53:53		0:35:44	2:30:07	0:02:10	1:45:52	Brazil	FIN
-158278	181	Luiz Carlos  Thomazette	M	M30-34	37	4:54:02	0:34:41	0:04:19	2:28:23	0:02:26	1:44:13	Brazil	FIN
+158278	181	Luiz Carlos Thomazette	M	M30-34	37	4:54:02	0:34:41	0:04:19	2:28:23	0:02:26	1:44:13	Brazil	FIN
 84312	182	Mauricio Lisboa Henry	M	M30-34	38	4:54:08	0:33:06	0:04:19	2:25:30	0:02:57	1:48:16	Brazil	FIN
 426499	183	Alexandre Alaor Gomes	M	M40-44	20	4:54:10	0:34:56	0:05:34	2:29:24	0:02:45	1:41:31	Brazil	FIN
 88118	184	Jacques Marcel Abramovitch	M	M40-44	21	4:54:18	0:29:59	0:03:40	2:35:05	0:02:25	1:43:09	Brazil	FIN
@@ -444,7 +444,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 453039	281	DANIEL BURGER	M	M35-39	56	5:05:31	0:31:30	0:04:12	2:35:56	0:02:42	1:51:11	Brazil	FIN
 263450	282	Eduardo Vianna	M	M30-34	66	5:05:43	0:35:13	0:04:02	2:34:04	0:03:12	1:49:12	Brazil	FIN
 671578	283	MarÃ­lla Rafaela Fregonesi	F	F30-34	7	5:05:48	0:42:40	0:03:40	2:28:36	0:02:00	1:48:52	Brazil	FIN
-40571	284	Euler Teixeira  Filho	M	M50-54	8	5:05:49	0:38:10	0:03:58	2:21:26	0:02:28	1:59:47	Brazil	FIN
+40571	284	Euler Teixeira Filho	M	M50-54	8	5:05:49	0:38:10	0:03:58	2:21:26	0:02:28	1:59:47	Brazil	FIN
 33983	285	Francisco Carvalho Junior	M	M50-54	9	5:05:55	0:35:37	0:03:18	2:26:17	0:02:52	1:57:51	Brazil	FIN
 638530	286	Illen Luna	M	M30-34	67	5:06:14	0:35:56	0:04:29	2:31:07	0:02:17	1:52:25	Brazil	FIN
 80056	287	Wilson Eloy Pimenta Junior	M	M45-49	15	5:06:16	0:37:42	0:05:11	2:24:55	0:02:53	1:55:35	Brazil	FIN
@@ -574,7 +574,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 83251	411	Emanuel Muniz	M	M35-39	78	5:21:16	0:36:54	0:05:04	2:35:11	0:03:35	2:00:32	Brazil	FIN
 83722	412	Marcelo Gomes	M	M35-39	79	5:21:22	0:31:36	0:03:14	2:29:27	0:02:47	2:14:18	Brazil	FIN
 691795	413	Luciano Batista	M	M35-39	80	5:21:24	0:46:42	0:04:49	2:31:28	0:02:25	1:56:00	Brazil	FIN
-721630	414	Pedro Henrique  Pedretti Mendes	M	M18-24	11	5:21:38	0:30:53	0:02:45	2:39:27	0:02:28	2:06:05	Brazil	FIN
+721630	414	Pedro Henrique Pedretti Mendes	M	M18-24	11	5:21:38	0:30:53	0:02:45	2:39:27	0:02:28	2:06:05	Brazil	FIN
 474493	415	Rodrigo Junger	M	M30-34	104	5:21:41	0:46:24	0:05:12	2:33:42	0:02:20	1:54:03	Brazil	FIN
 487489	416	Andreas Yamagata	M	M35-39	81	5:22:13	0:30:44	0:04:00	2:36:34	0:03:14	2:07:41	Brazil	FIN
 661304	417	Edimar Dall Agnol De Lima	M	M35-39	82	5:22:15	0:47:23	0:04:22	2:28:51	0:02:47	1:58:52	Brazil	FIN
@@ -698,7 +698,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 24507	535	Roberto Sena	M	M60-64	2	5:35:12	0:42:39	0:06:16	2:44:00	0:05:50	1:56:27	Brazil	FIN
 33854	536	Eduardo Riscado Pombo	M	M35-39	110	5:35:13	0:45:51	0:05:09	2:44:03	0:02:26	1:57:44	Brazil	FIN
 291659	537	Nathalia Pereira Amorim	F	F25-29	10	5:35:22	0:35:24	0:04:13	2:48:59	0:03:01	2:03:45	Brazil	FIN
-83729	538	Ana Silvia  Davini Paller	F	F50-54	1	5:35:28	0:36:53	0:05:42	2:43:50	0:04:18	2:04:45	Brazil	FIN
+83729	538	Ana Silvia Davini Paller	F	F50-54	1	5:35:28	0:36:53	0:05:42	2:43:50	0:04:18	2:04:45	Brazil	FIN
 487675	539	Leandro Oliveira	M	M35-39	111	5:35:30	0:47:34	0:07:48	2:48:19	0:04:14	1:47:35	Brazil	FIN
 487606	540	Juliano Pimentel De Araujo	M	M30-34	133	5:35:31	0:39:07	0:03:58	2:39:30	0:03:06	2:09:50	Brazil	FIN
 721647	541	Samuel Lessa	M	M35-39	112	5:35:33	0:42:23	0:06:41	2:44:50	0:06:05	1:55:34	Brazil	FIN
@@ -712,7 +712,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 201580	549	Giovanni Zem	M	M40-44	81	5:36:09	0:52:18	0:05:55	2:49:01	0:04:17	1:44:38	Brazil	FIN
 258636	550	Nelson Silva Lopes	M	M35-39	114	5:36:11	0:36:19	0:05:26	2:43:49	0:04:13	2:06:24	Brazil	FIN
 83404	551	Danton Correa	M	M40-44	82	5:36:12	0:41:12	0:04:32	2:42:19	0:03:05	2:05:04	Brazil	FIN
-551659	552	Juliano Hilario  Foss	M	M30-34	137	5:36:12	0:44:12	0:04:25	2:44:55	0:03:10	1:59:30	Brazil	FIN
+551659	552	Juliano Hilario Foss	M	M30-34	137	5:36:12	0:44:12	0:04:25	2:44:55	0:03:10	1:59:30	Brazil	FIN
 721648	553	Marcos Borges	M	M35-39	115	5:36:15	0:32:25	0:04:14	2:37:53	0:02:49	2:18:54	Brazil	FIN
 35328	554	Cristiano Goncalves	M	M35-39	116	5:36:19	0:36:46	0:04:58	2:54:07	0:03:47	1:56:41	Brazil	FIN
 426530	555	Jose Francisco Ramos Zanca	M	M45-49	38	5:36:37	0:45:15	0:04:54	2:43:08	0:03:23	1:59:57	Brazil	FIN
@@ -765,7 +765,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 710749	602	rogerio borati	M	M40-44	93	5:41:50	0:45:23	0:06:34	2:47:41	0:04:06	1:58:06	Brazil	FIN
 140530	603	Paula Ponte Moreira	F	F18-24	1	5:41:51	0:36:55	0:03:48	2:54:21	0:03:39	2:03:08	Brazil	FIN
 256630	604	Frederico Rezende	M	M35-39	127	5:41:51	0:40:02	0:07:43	2:42:09	0:05:10	2:06:47	Brazil	FIN
-721657	605	Mirela Janice  Eidt	F	F45-49	2	5:42:03	0:34:17	0:04:16	2:47:59	0:04:36	2:10:55	Brazil	FIN
+721657	605	Mirela Janice Eidt	F	F45-49	2	5:42:03	0:34:17	0:04:16	2:47:59	0:04:36	2:10:55	Brazil	FIN
 547852	606	Aimbere Giannaccini	M	M45-49	41	5:42:09	0:39:49	0:09:06	2:48:33	0:05:52	1:58:49	Brazil	FIN
 721658	607	Karlos Wellington Queiroz Kaka	M	M35-39	128	5:42:13	0:44:16	0:08:15	2:45:34	0:08:06	1:56:02	Brazil	FIN
 140890	608	Ruben Lettera	M	M55-59	13	5:42:18	0:37:56	0:05:56	2:37:50	0:06:06	2:14:30	Argentina	FIN
@@ -815,7 +815,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 140535	652	Fabio Sa	M	M40-44	100	5:47:32	0:33:18	0:03:33	2:45:41	0:04:51	2:20:09	Brazil	FIN
 146024	653	Javier Hidalgo	M	M45-49	46	5:47:40	0:49:44	0:06:40		3:54:14	1:53:26	Ecuador	FIN
 721667	654	Gustavo Steinmuller	M	M35-39	141	5:47:43		0:46:16	2:52:10	0:07:11	2:02:06	Brazil	FIN
-721668	655	Felipe Da Silva  Martins	M	M30-34	157	5:47:44	0:42:01	0:07:46	2:53:03	0:03:30	2:01:24	Brazil	FIN
+721668	655	Felipe Da Silva Martins	M	M30-34	157	5:47:44	0:42:01	0:07:46	2:53:03	0:03:30	2:01:24	Brazil	FIN
 506182	656	Antonio Felippe Martoneto	M	M30-34	158	5:47:48	0:50:58	0:05:27	2:40:49	0:02:18	2:08:16	Brazil	FIN
 147037	657	Adilson Scapim	M	M40-44	101	5:47:50	0:36:45	0:05:36	2:51:21	0:03:44	2:10:24	Brazil	FIN
 65161	658	Ticiane Silva Amancio	F	F30-34	18	5:48:01	0:33:44	0:07:04	2:53:31	0:05:43	2:07:59	Brazil	FIN
@@ -886,7 +886,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 278818	723	Patrick Dottori Leao	M	M30-34	168	5:55:28	0:43:02	0:06:17	2:37:57	0:04:53	2:23:19	Brazil	FIN
 332966	724	Thomaz Almeida	M	M25-29	69	5:55:28	0:42:38	0:04:21	2:40:41	0:04:49	2:22:59	Brazil	FIN
 263727	725	Daniel Britto	M	M25-29	70	5:55:30	0:42:14	0:05:53	2:59:53	0:05:38	2:01:52	Brazil	FIN
-721683	726	Luiz Paulo  Montanha	M	M35-39	160	5:55:36	0:44:14	0:05:01	2:59:07	0:04:32	2:02:42	Brazil	FIN
+721683	726	Luiz Paulo Montanha	M	M35-39	160	5:55:36	0:44:14	0:05:01	2:59:07	0:04:32	2:02:42	Brazil	FIN
 263595	727	Marcel Antonialli	M	M40-44	113	5:55:39	0:43:02	0:06:15	2:58:52	0:04:33	2:02:57	Brazil	FIN
 119746	728	Felipe Leite	M	M35-39	161	5:55:39	0:39:55	0:08:32	2:50:10	0:07:17	2:09:45	Brazil	FIN
 506035	729	Michel Gottlieb	M	M30-34	169	5:55:39	0:45:01	0:05:49	2:47:02	0:03:40	2:14:07	Brazil	FIN
@@ -898,7 +898,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 474783	735	Gustavo Marzagao	M	M35-39	163	5:56:58	0:39:32	0:06:46	2:40:09	0:05:54	2:24:37	Brazil	FIN
 216550	736	Vauban Cunha Pereira Pinto Cunha	M	M45-49	52	5:57:03	0:39:24	0:06:31	2:45:25	0:04:30	2:21:13	Brazil	FIN
 84005	737	Armando Leite	M	M35-39	164	5:57:08	0:47:01	0:05:49	2:55:08	0:03:02	2:06:08	Brazil	FIN
-721685	738	Luciana Ferreira  Paranhos	F	F40-44	9	5:57:24	0:41:24	0:05:31	2:56:00	0:03:02	2:11:27	Brazil	FIN
+721685	738	Luciana Ferreira Paranhos	F	F40-44	9	5:57:24	0:41:24	0:05:31	2:56:00	0:03:02	2:11:27	Brazil	FIN
 263619	739	Eduardo Oliveira	M	M30-34	170	5:57:29	0:45:08	0:04:57	2:48:25	0:03:35	2:15:24	Brazil	FIN
 88692	740	Enrico Geiger	M	M40-44	114	5:57:31	0:47:29	0:04:51	2:45:31	0:03:34	2:16:06	Brazil	FIN
 258766	741	Gustavo Vilella	M	M40-44	115	5:57:37	0:48:40	0:07:36	2:41:52	0:09:22	2:10:07	Brazil	FIN

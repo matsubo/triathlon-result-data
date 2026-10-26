@@ -921,7 +921,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 951638	693	Mariano Dobranki	M	M40-44	152	5:55:09	0:39:39	0:07:57	2:47:48	0:03:18	2:16:26	Argentina	FIN
 954281	694	Pau Barceló	M	M40-44	153	5:55:10	0:38:18	0:09:32	2:51:11	0:04:36	2:11:32	Chile	FIN
 952131	695	Alvaro Rojas Luca	M	M40-44	154	5:55:19	0:37:20	0:07:32	2:38:19	0:03:44	2:28:25	Chile	FIN
-324825	696	Nicolas Peñafiel  Grandela	M	M35-39	126	5:55:28	0:49:54	0:07:08	3:00:08	0:05:22	1:52:56	Chile	FIN
+324825	696	Nicolas Peñafiel Grandela	M	M35-39	126	5:55:28	0:49:54	0:07:08	3:00:08	0:05:22	1:52:56	Chile	FIN
 948415	697	Yamila Crisafi	F	F45-49	8	5:55:33	0:35:50	0:07:24	3:01:14	0:03:38	2:07:26	Argentina	FIN
 951826	698	Alejandro Siebert Maldonado	M	M30-34	94	5:55:40	0:46:53	0:07:30	3:04:35	0:03:06	1:53:35	Chile	FIN
 954282	699	Sofía Arancibia	F	F25-29	7	5:55:50	0:41:45	0:07:37	3:01:25	0:03:38	2:01:25	Chile	FIN
@@ -1476,7 +1476,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 954666	1248	Jose Miguel Aravena	M	M25-29	66	6:41:52			2:52:58	0:03:31	2:55:13	Chile	FIN
 476965	1249	Jose Luis Alvarez	M	M60-64	26	6:41:53	0:41:25	0:09:20	3:05:12	0:05:03	2:40:54	Chile	FIN
 948070	1250	Carlos Fernandez	M	M35-39	211	6:41:53	0:50:59	0:13:05	3:20:57	0:07:19	2:09:33	Chile	FIN
-240547	1251	Cristian Misleh  Maluje	M	M55-59	44	6:41:59	0:45:15	0:09:55	2:52:14	0:05:50	2:48:45	Chile	FIN
+240547	1251	Cristian Misleh Maluje	M	M55-59	44	6:41:59	0:45:15	0:09:55	2:52:14	0:05:50	2:48:45	Chile	FIN
 954667	1252	Thomas Maremaa	M	M30-34	157	6:42:04	0:43:50	0:10:28	3:09:20	0:05:05	2:33:22	United States	FIN
 954668	1253	Guillermo Aguayo Pantoja	M	M55-59	45	6:42:05	0:41:05	0:08:14	3:19:44	0:03:11	2:29:51	Chile	FIN
 954669	1254	Francisco Errazuriz	M	M50-54	109	6:42:05	0:41:49	0:08:36	3:15:19	0:05:21	2:31:00	Chile	FIN

@@ -1,7 +1,7 @@
 ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	Run	Country	Status
 566feb72-056f-41bf-b773-2dc7a08405a4	1	Yannick Matejicek	M	M25-29	1	7:28:27			4:28:59	0:03:15	2:56:13	FR	
 1dcebf05-386b-f011-bec3-000d3a5b50ba	2	Vanrisch McLean	M	M35-39	1	7:39:50			4:34:29	0:04:38	3:00:42		
-2660d477-ea39-42e1-b2cf-a75dcc7b6755	3	Jorge  Borderias Abel Olivar	M	M40-44	1	7:45:11			4:35:08	0:04:56	3:05:07	ES	
+2660d477-ea39-42e1-b2cf-a75dcc7b6755	3	Jorge Borderias Abel Olivar	M	M40-44	1	7:45:11			4:35:08	0:04:56	3:05:07	ES	
 51c51d95-b660-ef11-bfe3-6045bd0953ac	4	Wouter Gryp	M	M30-34	1	7:46:28			4:40:42	0:05:17	3:00:30	BE	
 238b401b-fab5-4dc4-8923-1e9816436e49	5	Filipe Estafero Henriques	M	M30-34	2	7:47:33			4:45:25	0:03:50	2:58:19	PT	
 5639c76c-2e3e-4dc3-9887-ae8e501ca73b	6	David Mercado Mendes	M	M30-34	3	7:47:54			4:43:28	0:03:25	3:01:01	ES	
@@ -224,7 +224,7 @@ ccf4f2c9-7850-4d06-a166-9b19d041e7df	222	Jacob Sanchez Pareja	M	M18-24	3	9:54:51
 18744fbc-47b2-4a57-b927-6e97a0239da3	223	Roberto Lopez Sobrado	M	M45-49	40	9:55:16			5:41:21	0:04:39	4:09:16	ES	
 a1f7a0da-d82e-44c2-9341-5cbb5a9a4105	224	Simon Thiebaut	M	M30-34	41	9:55:16			5:32:24	0:08:10	4:14:42		
 33349764-f90f-420e-bdc0-40b1b7403c24	225	Pedro Aragón Santiago	M	M30-34	42	9:55:18			5:42:45	0:05:58	4:06:36	ES	
-b2643da0-0524-4e49-bf3d-8d39ec627b09	226	Alberto San Anton  Badiaga	M	M45-49	41	9:55:22			5:24:22	0:06:16	4:24:44	ES	
+b2643da0-0524-4e49-bf3d-8d39ec627b09	226	Alberto San Anton Badiaga	M	M45-49	41	9:55:22			5:24:22	0:06:16	4:24:44	ES	
 4eefcf35-d91c-40b8-9213-b4a3f8a8d939	227	Sergio Santos Gomez	M	M35-39	34	9:55:25			5:42:22	0:06:10	4:06:53	ES	
 e57b68d7-46bc-4091-9d50-ed89915561ae	228	Rosario Dario Conoscenti	M	M40-44	45	9:55:30			5:41:45	0:07:39	4:06:05	IT	
 f47aef3c-2cc3-4fe8-8f3b-f3c66b17bea8	229	Juan Javier Gomez Garcia	M	M40-44	46	9:55:40			5:37:17	0:09:03	4:09:21	ES	

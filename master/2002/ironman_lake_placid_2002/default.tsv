@@ -706,7 +706,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 	281	Scott Trainer	M	M40-44	42	11:05:39	1:02:58	0:08:22	5:40:33	0:06:13	4:07:33	United States	FIN
 	282	Michael V. Conrad	M	M30-34	74	11:05:46	1:06:06	0:07:32	5:52:27	0:05:36	3:54:05	United States	FIN
 	283	Stuart L. Trager	M	M40-44	43	11:05:49	1:03:25	0:08:45	5:59:02	0:02:01	3:52:36	United States	FIN
-	284	T.  Dale Jackson	M	M40-44	44	11:06:01	1:01:37	0:06:24	5:44:53	0:03:42	4:09:25	United States	FIN
+	284	T. Dale Jackson	M	M40-44	44	11:06:01	1:01:37	0:06:24	5:44:53	0:03:42	4:09:25	United States	FIN
 	285	John Knapp	M	M40-44	45	11:06:10	1:10:15	0:05:08	5:27:17	0:01:35	4:21:55	United Kingdom	FIN
 	286	Jeffrey Buran	M	M40-44	46	11:06:47	1:05:25	0:05:09	5:38:35	0:03:18	4:14:20	United States	FIN
 	287	Paolina Allan-Petsinis	F	F30-34	7	11:07:19	1:04:58	0:04:01	8:03:56	0:10:46		Canada	FIN
@@ -1736,7 +1736,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 	1311	Alfred Tennant	M	M35-39	247	14:32:52	1:28:52	0:09:02	7:46:51	0:05:51	5:02:16	United States	FIN
 	1312	William Mike Brennan	M	M40-44	215	14:32:52	1:07:44	0:11:45	6:17:15	0:08:55	6:47:13	United States	FIN
 	1313	Steven Lackey	M	M30-34	272	14:33:16	1:13:24	0:12:22	7:24:54	0:12:45	5:29:51	United States	FIN
-	1314	Robert  (Bobby) Spath	M	M30-34	273	14:33:27	1:16:39	0:11:47	6:26:07	0:11:49	6:27:05	United States	FIN
+	1314	Robert (Bobby) Spath	M	M30-34	273	14:33:27	1:16:39	0:11:47	6:26:07	0:11:49	6:27:05	United States	FIN
 	1315	Karuna Govind	F	F30-34	74	14:33:35	1:22:53	0:10:32	8:06:55	0:04:22	4:48:53	Canada	FIN
 	1316	John Torry	M	M30-34	274	14:33:37	1:14:25	0:06:58	5:53:39	0:07:20	7:11:15	United States	FIN
 	1317	Denis R. Morel	M	M40-44	216	14:33:40	1:32:06	0:12:33	7:12:19	0:10:28	5:26:14	Canada	FIN
@@ -1747,7 +1747,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 	1322	Ken White	M	M40-44	219	14:36:26	1:18:05	0:07:28	5:30:57	0:06:42	7:33:14	United States	FIN
 	1323	Patricia Mcmanus	F	F40-44	34	14:36:29	1:06:07	0:11:36	7:31:31	0:09:34	5:37:41	United States	FIN
 	1324	Kara E. Klaasesz	F	F30-34	75	14:36:33	1:04:56	0:27:00	6:59:57	0:09:07	5:55:33	United States	FIN
-	1325	Kathie  (Kathleen) Key	F	F55-59	3	14:36:36	1:13:49	0:11:06	7:19:54	0:10:42	5:41:05	Canada	FIN
+	1325	Kathie (Kathleen) Key	F	F55-59	3	14:36:36	1:13:49	0:11:06	7:19:54	0:10:42	5:41:05	Canada	FIN
 	1326	Ken Partel	M	M50-54	64	14:36:37	1:21:30	0:08:42	6:56:42	0:07:34	6:02:09	United States	FIN
 	1327	Jodi Wilcox	F	F30-34	76	14:37:21	1:31:34	0:12:39	7:25:57	0:12:23	5:14:48	United States	FIN
 	1328	Keir Curtis	M	M30-34	275	14:37:26	1:21:17	0:07:41	6:42:40	0:07:42	6:18:06	United States	FIN
@@ -2016,7 +2016,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 	1591	Janice Biederman	F	F50-54	8	16:31:54	1:28:30	0:09:04	8:16:44	0:08:24	6:29:12	United States	FIN
 	1592	William G. Ivie	M	M45-49	126	16:32:00	1:31:03	0:09:36	6:35:23	0:13:51	8:02:07	United States	FIN
 	1593	Robert Byard	M	M55-59	27	16:32:04	1:34:43	0:09:59	8:34:39	0:10:02	6:02:41	United States	FIN
-	1594	Robert Radecki   Jr.	M	M35-39	291	16:32:12	1:00:30	1:11:59	8:07:58	0:10:20	6:01:25	United States	FIN
+	1594	Robert Radecki Jr.	M	M35-39	291	16:32:12	1:00:30	1:11:59	8:07:58	0:10:20	6:01:25	United States	FIN
 	1595	Gene Baron	M	M50-54	84	16:32:18	1:33:13	0:10:41	8:29:57	0:08:20	6:10:07	United States	FIN
 	1596	James Angle	M	M40-44	261	16:33:10	2:14:35	0:08:33	7:57:27	0:10:42	6:01:53	United States	FIN
 	1597	Sara Schaeffer Alsop	F	F25-29	56	16:33:17	1:20:44	0:13:23	8:21:46	0:16:07	6:21:17	United States	FIN

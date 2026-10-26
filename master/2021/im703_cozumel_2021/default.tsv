@@ -12,7 +12,7 @@ b5c208bb-edcb-419e-a3e3-f7d016319982	10	Marina Saucedo	F	F30-34	1	4:56:58	0:31:5
 b45c0dec-e7e4-4da8-bcc1-20dc1ba546bf	11	Jose Laserna	M	M45-49	8	4:58:05	0:42:04	0:02:49	2:27:58	0:01:41	1:43:34	US	
 f3f5904b-edaf-442b-95f2-a0dfcba2845f	12	Sebastian Sanchez	M	M45-49	9	4:58:32	0:36:27	0:03:46	2:33:00	0:02:46	1:42:33	pan	
 cc53ccf7-e12c-41a5-a001-4a15b237e8f0	13	Daniela Araujo	F	F35-39	1	4:59:35	0:34:41	0:02:48	2:37:46	0:01:51	1:42:28	PA	
-61750e79-64cf-4ffd-8aa2-50c3d83d284d	14	Gustavo Poblete  Salazar	M	M55-59	1	4:59:56	0:34:03	0:03:31	2:27:34	0:02:38	1:52:10	MX	
+61750e79-64cf-4ffd-8aa2-50c3d83d284d	14	Gustavo Poblete Salazar	M	M55-59	1	4:59:56	0:34:03	0:03:31	2:27:34	0:02:38	1:52:10	MX	
 85ce3ffb-6bfa-4432-b2fe-a13d96ac17ab	15	Guilherme Carvalho	M	M50-54	2	5:00:38	0:32:05	0:04:16	2:31:28	0:02:53	1:49:57	BR	
 3b0b864e-29b6-40de-a368-75d1a3901e9b	16	Carolina Ladino Grisales	F	F25-29	2	5:02:08	0:30:50	0:02:31	2:41:41	0:02:30	1:44:36	CO	
 a15d6cdd-dc99-41f3-84d7-6de51eb1725b	17	Bobby Lee	F	F30-34	2	5:02:47	0:28:32	0:03:22	2:36:36	0:02:52	1:51:25	US	
@@ -479,7 +479,7 @@ ffe45214-b19d-4c99-8b24-c10b4460df0a	475	Maria Eugenia Añez Marcano	F	F45-49	28
 2943bd05-9e0a-4704-83ed-342c82cc08e6	478	Marianita Susunaga	F	F30-34	59	6:20:53	0:58:43	0:05:35	3:02:03	0:03:00	2:11:31	MX	
 33a4c5d7-59a3-400c-b0c7-04efa47adf56	479	Maria Jose Casillas	F	F18-24	21	6:21:03	0:36:49	0:03:54	2:53:59	0:02:59	2:43:21	MX	
 60a2d505-04bb-487c-b2ac-21c7da23deca	480	Rossana Cárdenas Llergos	F	F40-44	51	6:21:05	0:48:07	0:06:02	3:09:31	0:06:26	2:10:58	MEX	
-f0c51c75-10d2-4bf1-896d-35d7dab5ee22	481	Carlos  Alberto Cardenas Martinez	M	M45-49	122	6:21:08	0:42:25	0:04:25	2:48:53	0:04:54	2:40:30	MX	
+f0c51c75-10d2-4bf1-896d-35d7dab5ee22	481	Carlos Alberto Cardenas Martinez	M	M45-49	122	6:21:08	0:42:25	0:04:25	2:48:53	0:04:54	2:40:30	MX	
 10b7f2c5-ab45-4ebb-983d-6786752a3b5a	482	Karla Sanchez Aldana	F	F35-39	61	6:21:19	0:47:58	0:05:44	2:58:26	0:04:36	2:24:35	MX	
 81b52eab-efb1-44c3-8f92-c33018ddacfd	483	Carolina Jolan Von Szalay Barragan	F	F40-44	52	6:21:25	0:36:46	0:05:55	3:06:22	0:06:49	2:25:33	MEX	
 9c839546-fd0c-4daa-93ae-176c47caec8c	484	Angelica Dominguez	F	F45-49	29	6:21:29	1:00:32	0:05:03	2:57:02	0:03:14	2:15:39	mex	
@@ -704,7 +704,7 @@ fcfb6441-430b-4256-81e9-5e9155c54058	700	Luis Torres	M	M50-54	70	6:44:33	0:41:25
 887fff0e-83df-426e-a19a-e6fdc6e3b90f	703	Carolina Baltazar	F	F25-29	81	6:44:44	0:49:47	0:05:41	3:28:45	0:02:59	2:17:32	usa	
 ccaf0a9e-fa1c-4c08-9a6c-f696e8c1a17a	704	Samariz Perez Jaen	F	F25-29	82	6:45:01	0:53:42	0:04:46	3:14:24	0:05:58	2:26:11	CR	
 861b781b-344e-43e9-b55d-fde58245590f	705	Deisy Restrepo	F	F35-39	92	6:45:03	0:54:43	0:05:46	3:13:34	0:03:25	2:27:35	US	
-f7642c3b-08a0-4206-8f71-be73edff7e5b	706	Ramón Torrelemus  Oranday	M	M45-49	155	6:45:05	0:52:51	0:07:20	2:49:14	0:05:55	2:49:45	MX	
+f7642c3b-08a0-4206-8f71-be73edff7e5b	706	Ramón Torrelemus Oranday	M	M45-49	155	6:45:05	0:52:51	0:07:20	2:49:14	0:05:55	2:49:45	MX	
 3112d1ff-824d-4ddf-9dab-c2582665444e	707	Montserrat Echeverría Flores	F	F35-39	93	6:45:12	0:47:18	0:07:25	3:18:35	0:06:57	2:24:56	MX	
 33effef4-3f7c-49bf-a3f0-d8a8d723ebb2	708	Adriana Diez De Sollano	F	F25-29	83	6:45:14	0:53:29	0:06:07	3:09:51	0:05:18	2:30:29	MX	
 70ee7598-9aa5-44b3-ae14-83ddda0c5e8e	709	Oscar Martinez Corona	M	M45-49	156	6:45:19	0:44:42	0:06:08	3:00:54	0:08:07	2:45:28	MX	
@@ -905,7 +905,7 @@ eb94772c-4fcf-4eb2-9f8a-60afb1a43c83	903	Beatriz Bautista León	F	F35-39	118	7:0
 d381472a-1dca-47d9-827c-11e630f0133e	904	Lorena Lavayen	F	F40-44	107	7:10:49	1:00:35	0:13:36	3:10:50	0:10:06	2:35:43	ESP	
 ee5f30af-803f-43e3-b34a-15bba1c8ef08	905	Tania Alejandra Tellez Mallen	F	F30-34	117	7:10:59	0:51:55	0:06:15	3:19:41	0:06:13	2:46:56	MX	
 293a17da-0374-4c23-979e-94bb6a631e1e	906	Maria Jose Cerna Campos	F	F18-24	34	7:11:15	0:48:47	0:03:42	3:30:51	0:02:54	2:45:00	mex	
-e7252f37-f82f-4f8b-ad4b-61c9f2dfa066	907	Edgardo Sevilla  Jurado	M	M45-49	185	7:11:18	1:01:13	0:05:21	3:15:35	0:04:01	2:45:07	MX	
+e7252f37-f82f-4f8b-ad4b-61c9f2dfa066	907	Edgardo Sevilla Jurado	M	M45-49	185	7:11:18	1:01:13	0:05:21	3:15:35	0:04:01	2:45:07	MX	
 570c0a65-f7fe-41de-ba2c-a2e53ed8a1f2	908	Craig Clow	M	M65-69	4	7:11:23	0:48:43	0:05:57	3:13:28	0:06:12	2:57:03	CA	
 7f61c481-5012-4cd3-a414-7a4c08e73cc0	909	Alejandro Trujillo	M	M50-54	102	7:11:24	0:46:28	0:05:53	3:27:05	0:05:05	2:46:52	MX	
 316d1f3f-75ab-47ff-9ab8-3714229c3302	910	Galdino Palafox	M	M50-54	103	7:11:38	0:43:49	0:07:37	2:40:49	0:06:34	3:32:48	MX	
@@ -1005,7 +1005,7 @@ b5969a46-746e-4dbf-b9e4-c62be44a1069	1002	Carlos Tut	M	M60-64	15	7:28:18	0:57:15
 dd496568-0d2f-4920-a67c-68d425d95043	1004	Fernando Emilio Alvarez Fuentes	M	M45-49	197	7:29:03	0:41:00	0:06:51	3:03:57	0:11:34	3:25:41	MX	
 976b6251-be90-43de-b3db-e88c2ebd7a91	1005	Bert Whetten	M	M50-54	118	7:29:27	0:36:41	0:05:58	3:29:36	0:05:51	3:11:21	US	
 f552d21d-3761-4267-8069-ee11a6bd77ec	1006	Maria Gonzalez	F	F60-64	6	7:29:32	0:51:14	0:05:10	3:14:13	0:08:20	3:10:35	US	
-eded783d-0dfa-43e2-89db-4b3bfac67cbd	1007	Alejandra Pedraza  Alcaraz	F	F35-39	126	7:29:32	1:06:24	0:07:10	3:44:39	0:06:04	2:25:16	MX	
+eded783d-0dfa-43e2-89db-4b3bfac67cbd	1007	Alejandra Pedraza Alcaraz	F	F35-39	126	7:29:32	1:06:24	0:07:10	3:44:39	0:06:04	2:25:16	MX	
 28d651a5-07dc-4901-be64-49657c0d7a6e	1008	Maria Del Rocío Mendoza Martínez	F	F40-44	117	7:29:50	0:49:01	0:06:43	3:24:45	0:08:39	3:00:42	MX	
 ebe4c143-87ec-4054-855f-d8c3e65801f5	1009	Nicola Veggo	M	M50-54	119	7:30:34	0:49:46	0:10:39	3:39:04	0:06:56	2:44:09	IT	
 03fcb7c2-7b16-413b-893f-c44f063ed8a4	1010	Mirna T. Lavoi	F	F35-39	127	7:30:45	0:58:11	0:06:20	3:18:41	0:04:23	3:03:10	CHL	
@@ -1098,7 +1098,7 @@ dd4a8930-687a-4c1c-94c5-7a5583bc3574	1096	Faridi Zuniga	F	F30-34	137	7:56:41	1:0
 79039615-ae30-494e-9ea9-d43525bbe9ab	1097	María Guadalupe Alejandre García	F	F45-49	64	7:56:42	0:59:56	0:11:07	4:05:08	0:15:24	2:25:07	MX	
 ed741c4c-201a-4282-a695-3e1afbc568a3	1098	Hortencia Hernandez	F	F50-54	42	7:56:59	1:05:33	0:05:35	3:13:08	0:06:27	3:26:16	MX	
 7aac194d-a6b2-4d94-8583-fb1962fd33e5	1099	Roxana Saldaña Vázquez	F	F40-44	123	7:57:01	0:45:11	0:13:30	3:56:39	0:13:45	2:47:55	MX	
-e34af6db-4159-44ed-895b-97789f90388e	1100	Fernando Antonio Gonzalez  Y Medrano	M	M70-74	2	7:57:12	0:59:13	0:11:21	3:29:49	0:07:27	3:09:21	MX	
+e34af6db-4159-44ed-895b-97789f90388e	1100	Fernando Antonio Gonzalez Y Medrano	M	M70-74	2	7:57:12	0:59:13	0:11:21	3:29:49	0:07:27	3:09:21	MX	
 17999874-316b-4afa-b947-5d8b51ad2a1a	1101	Monica Martinez Anaya	F	F50-54	43	7:57:38	0:48:58	0:10:03	3:13:16	0:00:32	3:44:49	MX	
 84955ab6-3e7a-4b87-b3c3-a70899da56e5	1102	Oscar Callado	M	M50-54	138	7:57:42	0:58:16	0:10:36	3:18:37	0:12:11	3:18:02	CO	
 41f554d4-5ef5-4c9e-96fe-a140c2102087	1103	Rafael Alva	M	M55-59	54	7:59:02	0:57:20	0:10:03	3:22:21	0:11:36	3:17:42	MX	
@@ -1443,7 +1443,7 @@ a04a2eb2-7730-413d-a5ff-aed29dbc4cee		Luis Valverde	M	M45-49								EC	DNS
 5a596fcb-d788-4f8e-ac8b-713c18090571		Peter Ravey	M	M65-69								US	DNS
 341cebed-ed7b-4dd3-a6d8-5190f0a5b5b0		Gonzalo Alanis Figueroa	M	M55-59			0:46:38	0:04:19	2:34:09	0:06:53		MX	DNF
 6fb60830-a72b-4cbd-b8c1-e945a95e3d54		Hicham Benabess	M	M50-54								US	DNS
-10ea55bf-1cab-4702-a8a5-16ecd037b372		Fernando Flores  Rivera	M	M60-64								MX	DNS
+10ea55bf-1cab-4702-a8a5-16ecd037b372		Fernando Flores Rivera	M	M60-64								MX	DNS
 8b7d530e-7968-4046-95b2-d4231c4733e2		Zulma Daliana Cima Martínez	F	F30-34								MX	DNS
 67cfb081-255c-47b8-b23a-fd35a562d09a		JOSE ALBERTO GAYTAN BARRERA	M	M45-49			0:53:07	0:05:02				MX	DNF
 e1e7af53-bde1-42db-abee-cdb7fc9de253		Francisco Moreno	M	M50-54								MX	DNS

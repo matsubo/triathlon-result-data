@@ -449,7 +449,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 363197	124	Victor Eugenio Reyes Ramirez	M	M35-39	17	5:13:20	0:40:06	0:03:25	2:44:21	0:02:18	1:43:10	Mexico	FIN
 977474	125	Samuel Alvarez	M	M30-34	22	5:13:25	0:43:03	0:03:45	2:39:13	0:02:28	1:44:56	Mexico	FIN
 1148127	126	Alex Troy	M	M50-54	6	5:13:26	0:41:42	0:04:51	2:32:13	0:02:25	1:52:14	Canada	FIN
-863717	127	Gustavo Poblete  Salazar	M	M60-64	1	5:13:36	0:34:49	0:03:43	2:42:01	0:03:17	1:49:46	Mexico	FIN
+863717	127	Gustavo Poblete Salazar	M	M60-64	1	5:13:36	0:34:49	0:03:43	2:42:01	0:03:17	1:49:46	Mexico	FIN
 1004167	128	cristian pacheco	M	M35-39	18	5:13:51	0:42:41	0:03:35	2:43:28	0:02:51	1:41:17	Costa Rica	FIN
 701114	129	Bryan Rodríguez Calderón	M	M35-39	19	5:14:31	0:38:18	0:03:40	2:45:51	0:02:10	1:44:32	Costa Rica	FIN
 961533	130	Gordon Jarratt	M	M50-54	7	5:14:32	0:35:15	0:04:17	2:38:02	0:03:29	1:53:28	United States	FIN
@@ -808,7 +808,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 1004256	483	Ana Laura Gatica Márquez	F	F40-44	14	6:13:45	0:38:02	0:03:00	3:11:36	0:05:00	2:16:07	Mexico	FIN
 1189550	484	Zeltzin Sarai Acosta D Olarte	F	F35-39	11	6:13:48	0:55:26	0:06:17	3:14:57	0:05:22	1:51:46	Mexico	FIN
 1004421	485	William Tapia	M	M40-44	66	6:13:50	0:52:01	0:05:43	2:56:04	0:03:48	2:16:14	Mexico	FIN
-1293704	486	Irad  J Roman Arguelles	M	M30-34	66	6:13:51	0:45:10	0:04:50	3:05:25	0:04:36	2:13:50	Mexico	FIN
+1293704	486	Irad J Roman Arguelles	M	M30-34	66	6:13:51	0:45:10	0:04:50	3:05:25	0:04:36	2:13:50	Mexico	FIN
 1171940	487	Jesús Enrique Garza Torres	M	M40-44	67	6:14:13	0:45:13	0:04:54	3:16:50	0:03:49	2:03:27	Mexico	FIN
 863797	488	Rodolfo Pardo	M	M50-54	30	6:14:15	0:49:55	0:05:14	3:02:32	0:04:22	2:12:13	Mexico	FIN
 1016432	489	Carlos Palomera	M	M35-39	72	6:14:17	0:49:27	0:05:40	3:05:40	0:05:23	2:08:07	Mexico	FIN

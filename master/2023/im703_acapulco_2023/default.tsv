@@ -182,7 +182,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 971049	28	Esteban González	M	M25-29	3	4:48:29	0:37:55	0:01:51	2:34:39	0:02:45	1:31:20	Unknown	FIN
 972172	29	Jaime Reyes	M	M30-34	9	4:48:49	0:33:26	0:02:23	2:31:51	0:02:06	1:39:02	Unknown	FIN
 1004035	30	Arturo Ornelas Balderrama	M	M40-44	5	4:49:04	0:33:41	0:03:01	2:30:03	0:04:46	1:37:33	Unknown	FIN
-971054	31	Erik  Jhordan Rey	M	M30-34	10	4:49:24	0:38:20	0:01:47	2:30:51	0:02:45	1:35:41	Unknown	FIN
+971054	31	Erik Jhordan Rey	M	M30-34	10	4:49:24	0:38:20	0:01:47	2:30:51	0:02:45	1:35:41	Unknown	FIN
 579884	32	Rafael Ceballos Alcoba	M	M35-39	6	4:49:39	0:29:15	0:02:11	2:40:17	0:03:05	1:34:50	Unknown	FIN
 79951	33	Conrad Rodas	M	M40-44	6	4:49:54	0:27:23	0:02:37	2:28:25	0:03:39	1:47:50	Unknown	FIN
 1050515	34	Hendrik Fiedler	M	M45-49	4	4:50:09	0:27:23	0:02:22	2:34:52	0:02:20	1:43:12	Unknown	FIN
@@ -228,7 +228,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 838953	74	Rodrigo Veron Garcia	M	M40-44	12	5:05:19	0:35:01	0:03:04	2:39:23	0:02:32	1:45:18	Unknown	FIN
 34480	75	Rodrigo Tome	M	M40-44	13	5:05:23	0:30:10	0:02:54	2:30:44	0:02:42	1:58:54	Unknown	FIN
 1016399	76	Marco Rodriguez	M	M45-49	8	5:05:24	0:38:36	0:02:41	2:33:18	0:03:03	1:47:47	Unknown	FIN
-344797	77	Angel Lara	garcia	M	M50-54	6	5:05:29	0:31:32	0:01:26	2:43:21	0:02:51	1:46:19	Unknown	FIN
+344797	77	Angel Lara garcia	M	M50-54	6	5:05:29	0:31:32	0:01:26	2:43:21	0:02:51	1:46:19	Unknown	FIN
 838845	78	Juan Carlos Colin Fiche	M	M50-54	7	5:05:40	0:34:23	0:02:04	2:49:29	0:04:57	1:34:46	Unknown	FIN
 971097	79	Elisa Fernadez	F	F25-29	2	5:05:53	0:30:48	0:01:32	2:50:40	0:02:01	1:40:52	Unknown	FIN
 1050519	80	Jaime Santoyo	M	M40-44	14	5:05:56	0:40:58	0:02:14	2:34:59	0:03:23	1:44:22	Unknown	FIN
@@ -361,7 +361,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 864230	207	Antonio Leyvas Del Castillo	M	M35-39	40	5:31:26	0:34:04	0:02:04	3:10:06	0:02:46	1:42:27	Unknown	FIN
 971111	208	Gretel Angeles Herrera	F	F40-44	4	5:31:45	0:35:47	0:02:11	2:46:12	0:03:46	2:03:49	Unknown	FIN
 998866	209	Jonathan Moreno Mainato	M	M30-34	31	5:32:08	0:42:43	0:02:15	2:49:52	0:03:56	1:53:21	Unknown	FIN
-1050553	210	Oscar  Eduardo Sandoval Perez	M	M45-49	23	5:32:16	0:40:47	0:05:32	2:45:36	0:05:39	1:54:42	Unknown	FIN
+1050553	210	Oscar Eduardo Sandoval Perez	M	M45-49	23	5:32:16	0:40:47	0:05:32	2:45:36	0:05:39	1:54:42	Unknown	FIN
 512175	211	Irina Segura Escobar	F	F25-29	9	5:32:33	0:27:02	0:02:01	2:47:55	0:01:54	2:13:41	Unknown	FIN
 863617	212	Alvaro Lopez Martinez	M	M25-29	19	5:33:05	0:41:45	0:02:30	2:40:44	0:02:43	2:05:22	Unknown	FIN
 962148	213	Pedro Inostrosa Diaz Ceballos	M	M35-39	41	5:33:32	0:37:26	0:02:37	2:52:01	0:04:23	1:57:06	Unknown	FIN
