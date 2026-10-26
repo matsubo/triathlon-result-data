@@ -6,6 +6,7 @@ import { memoryRepo } from "../scripts/lib/repo.js";
 import { fixtureSource } from "../scripts/lib/results-sources/fixture.js";
 import { ironmanSource } from "../scripts/lib/results-sources/ironman.js";
 import { jtuSource } from "../scripts/lib/results-sources/jtu.js";
+import { preparedSource } from "../scripts/lib/results-sources/prepared.js";
 
 const repoRoot = resolve(import.meta.dirname, "..");
 const FIXTURES = join(import.meta.dirname, "fixtures/import");
@@ -668,5 +669,68 @@ describe("runImport: JTU add through the JTU adapter", () => {
     ]) });
     expect(unknown.exit_code).toBe(2);
     expect(unknown.editions[0].reason).toContain('unknown JTU caption "謎の列"; rename or drop it');
+  });
+});
+
+describe("runImport: prepared TSV", () => {
+  test("columns come from the plan, and a repeated sport keeps its own Segment", async () => {
+    const tsv = [
+      "順位\t氏名\t記録\t第1ラン\tバイク\t第2ラン\t備考",
+      "1\t山田　太郎\t1:10:00\t0:15:00\t0:35:00\t0:20:00\t",
+      "DNF\t佐藤 花子\t\t0:18:00\t\t\t",
+      "",
+    ].join("\n");
+    const prepared = preparedSource({
+      readFile: (path) => {
+        if (path !== "/tmp/du.tsv") throw new Error(`unexpected ${path}`);
+        return tsv;
+      },
+    });
+    const repo = seed([
+      { ...event("du", [{ date: "2025-03-01", categories: [im703Category("du", "2025", "x")] }]), name: "デュアスロン大会" },
+    ]);
+    const report = await runImport(
+      {
+        editions: [
+          {
+            event: "du",
+            date: "2026-03-01",
+            weather: false,
+            prepared: [
+              {
+                tsv: "/tmp/du.tsv",
+                id: "du",
+                file: "default.tsv",
+                name: "デュアスロン",
+                distance: "DUATHLON",
+                description: "2026年デュアスロン大会",
+                segments: [
+                  { sport: "run", distance: 5, columns: [{ header: "第1ラン", role: "lap" }] },
+                  { sport: "bike", distance: 20, columns: [{ header: "バイク", role: "lap" }] },
+                  { sport: "run", distance: 2.5, columns: [{ header: "第2ラン", role: "lap" }] },
+                ],
+                meta_columns: [
+                  { header: "順位", role: "overall_rank" },
+                  { header: "氏名", role: "name" },
+                  { header: "記録", role: "total_time" },
+                ],
+                unmapped: ["備考"],
+              },
+            ],
+          },
+        ],
+      },
+      { sources: { prepared }, repo },
+    );
+
+    expect(report.exit_code).toBe(0);
+    const [ed] = raceInfo(repo).events[0].editions;
+    expect(ed.categories[0].segments.map((s: { sport: string; columns: { header: string }[] }) => [s.sport, s.columns[0].header])).toEqual([
+      ["run", "第1ラン"],
+      ["bike", "バイク"],
+      ["run", "第2ラン"],
+    ]);
+    expect(ed.categories[0].source_ref).toBeUndefined();
+    expect(repo.readText("master/2026/du/default.tsv")).toBe(tsv.replace("山田　太郎", "山田 太郎"));
   });
 });
