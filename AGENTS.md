@@ -61,8 +61,8 @@ Agents can help navigate and understand this triathlon result data repository wh
   - この規約は `tests/tsv-lint.test.ts` の「Japanese 氏名 values contain a half-width
     space between family and given name」で静的に検査される。チーム名・ニックネーム
     登録（年齢欄が空、または数字・括弧・中黒を含む値）や1文字のみの登録は対象外。
-    姓名境界が2分割できない外国人名やニックネーム等、正当な例外は
-    `name-space-allowlist.json` に追記する。
+    姓名境界が2分割できない外国人名やニックネーム等、正当な例外（Exception）は
+    `name-space-allowlist.json` の `entries` に追記する。
   - 新規TSV取り込み時、氏名にスペースがない行を見つけたら他TSVファイルの同名
     参加者（同一人物が複数大会に出ていることが多い）から姓名境界を推定するか、
     Python の `namedivider-python`（GBDTモデル）で分割を推定する。
@@ -82,8 +82,8 @@ Agents can help navigate and understand this triathlon result data repository wh
   れば自動で変換される（冪等）。年齢と矛盾する区分は破損とみなして変換し
   ない。`tests/tsv-lint.test.ts` の「年齢区分 values use the canonical M/F
   label…」で静的に検査される。年齢区分ではない部門名（`一般男子`、
-  `高校生女子`、`1970年代男子` 等）は `age-category-allowlist.json` に追記
-  する。
+  `高校生女子`、`1970年代男子` 等）は Exception として
+  `age-category-allowlist.json` の `entries` に追記する。
 
 ## ファイル名規約
 
@@ -222,16 +222,29 @@ bunx ajv-cli validate -s weather-schema.json -d master/{year}/{id}/weather-data.
 bun scripts/normalize-tsv.js <event_id> <year>   # result-schema.json 検証込み
 bun run test:tsv-lint       # 静的規約（氏名スペース・時間形式・順位列・列数整合）
 bun run check:duplicates    # 重複エディション検出
-bun run check:integrity     # 正規化後の欠損検査（integrity-baseline.json との回帰比較）
+bun run check:integrity     # 正規化後の欠損検査（integrity-baseline.json の件数との一致を確認）
 ```
 
 新規取り込みは `check:integrity` で **欠損ゼロ** が原則。ソース自体に
 データが無い場合のみ、コミットメッセージに明記した上で
-`bun run scripts/check-integrity.js --update` で baseline に記録する。
-既知のデータ品質問題は `tsv-lint-known-issues.json`（静的レベル）と
-`integrity-baseline.json`（正規化レベル）に集約されており、いずれも
-「将来元ソースから再取り込みして減らす」ための to-fix リスト。増やす
-方向の変更は原則禁止。
+`bun run update:integrity-baseline` で ledger に記録する。
+
+既知のデータ品質問題（Known issue）は Known-issue ledger に件数で集約されて
+いる: `tsv-lint-known-issues.json`（静的レベル、ルール×TSVパス）と
+`integrity-baseline.json`（正規化レベル、ルール×カテゴリ）。形式はどちらも
+`{ "description", "rules": { ルール: { キー: 件数 } } }` で、
+`scripts/lib/known-issue-ledger.js` が読み書きする。いずれも「将来元ソースから
+再取り込みして減らす」ための to-fix リストで、増やす方向の変更は原則禁止。
+件数は減る方向にしか動かないので（docs/adr/0002-known-issue-counts-only-shrink.md）、
+チェックは件数の増加（regression）だけでなく、減少（improvement）や検査対象から
+消えたキーの残存（stale）でも失敗する。データを直して件数が減ったら
+`bun run update:tsv-lint-known-issues` / `bun run update:integrity-baseline` で
+ledger を現在の件数に縮め、同じコミットに含める。
+
+正しいデータだがルールに合わない値（Exception）は欠陥ではないので件数を持たず、
+ledger にも含めない: `name-space-allowlist.json`、`age-category-allowlist.json`、
+`duplicate-allowlist.json`。形式はどれも `{ "description", "entries": [...] }` で、
+`scripts/lib/exceptions.js` が読む。
 
 ## distance の種別
 

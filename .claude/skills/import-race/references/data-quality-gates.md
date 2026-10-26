@@ -6,13 +6,25 @@ On 2026-07-07 a senior-review audit of all 2844 categories / 3.76M athletes
 added permanent quality gates to this repo:
 
 - `bun run check:integrity` (scripts/check-integrity.js) — normalizes every
-  edition, compares missing-lap/missing-total/header-warning counts per
-  category against `integrity-baseline.json`, fails on regression only.
-  `--update` rewrites the baseline (do this ONLY for source-inherent gaps,
-  stated in the commit message). CI: .github/workflows/check-integrity.yml.
+  edition and compares header-warning / missing-lap / missing-total counts
+  per category with the Known-issue ledger `integrity-baseline.json`.
+  `bun run update:integrity-baseline` rewrites the ledger (record a growth
+  ONLY for source-inherent gaps, stated in the commit message).
+  CI: .github/workflows/check-integrity.yml.
 - tsv-lint gained 3 structural rules (time-format, rank-numeric,
-  extra-columns) with `tsv-lint-known-issues.json` pinning pre-existing
-  violations per file. Both registries are shrink-only to-fix lists.
+  extra-columns) with the Known-issue ledger `tsv-lint-known-issues.json`
+  pinning pre-existing violations per file;
+  `bun run update:tsv-lint-known-issues` rewrites it.
+- Since 2026-10 both ledgers share one shape,
+  `{ "description", "rules": { rule: { key: count } } }`, handled by
+  `scripts/lib/known-issue-ledger.js`. Counts only shrink (ADR-0002): a check
+  fails on a regression, on an improvement (fewer findings than allowed) and
+  on a stale entry (a key the rule no longer examines). After fixing data, run
+  the update command and commit the shrunken ledger with the fix.
+- Exceptions (`name-space-allowlist.json`, `age-category-allowlist.json`,
+  `duplicate-allowlist.json`) are correct data, not Known issues: no counts,
+  shape `{ "description", "entries": [...] }`, read by
+  `scripts/lib/exceptions.js`.
 - The post-import acceptance check is AGGREGATE stats, never sample rows —
   procedure lives in [validation-pipeline](validation-pipeline.md).
 
