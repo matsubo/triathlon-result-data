@@ -182940,6 +182940,90 @@
       "source": "https://www.coachcox.co.uk/imstats/race/2625/results/",
       "editions": [
         {
+          "date": "2026-10-24",
+          "weather_file": "master/2026/im703_new_york_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_new_york_2026",
+              "result_tsv": "master/2026/im703_new_york_2026/default.tsv",
+              "name": "Half Distance",
+              "distance": "MD",
+              "description": "IRONMAN 70.3 New York 2026. Jones Beach, New York, USA.",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
+        {
           "date": "2025-09-20",
           "weather_file": "master/2025/im703_new_york_2025/weather-data.json",
           "categories": [
@@ -187608,6 +187692,90 @@
               "source_url": null
             }
           ]
+        },
+        {
+          "date": "2026-10-25",
+          "weather_file": "master/2026/im703_marathon_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_marathon_2026",
+              "result_tsv": "master/2026/im703_marathon_2026/default.tsv",
+              "name": "Half Distance",
+              "distance": "MD",
+              "description": "IRONMAN 70.3 Greece 2026. Costa Navarino, Peloponnese, Greece.",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
         }
       ]
     },
@@ -187623,6 +187791,90 @@
       "image": "images/im703_salalah.webp",
       "source": "https://www.coachcox.co.uk/imstats/race/2635/results/",
       "editions": [
+        {
+          "date": "2026-10-24",
+          "weather_file": "master/2026/im703_salalah_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_salalah_2026",
+              "result_tsv": "master/2026/im703_salalah_2026/default.tsv",
+              "name": "Half Distance",
+              "distance": "MD",
+              "description": "IRONMAN 70.3 Dhofar 2026. Salalah, Oman.",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-10-25",
           "weather_file": "master/2025/im703_salalah_2025/weather-data.json",
@@ -264552,6 +264804,90 @@
       "image": "images/im703_agadir.webp",
       "source": "https://www.coachcox.co.uk/imstats/series/398/",
       "editions": [
+        {
+          "date": "2026-10-25",
+          "weather_file": "master/2026/im703_agadir_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_agadir_2026",
+              "result_tsv": "master/2026/im703_agadir_2026/default.tsv",
+              "name": "70.3",
+              "distance": "MD",
+              "description": "IRONMAN 70.3 Agadir 2026. Agadir, Morocco.",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90.1,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.0975,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null
+            }
+          ]
+        },
         {
           "date": "2025-10-26",
           "weather_file": "master/2025/im703_agadir_2025/weather-data.json",
