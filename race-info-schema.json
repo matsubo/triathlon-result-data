@@ -168,6 +168,23 @@
         "source_url": {
           "type": ["string", "null"],
           "description": "Canonical URL of the upstream data source for this category's result_tsv (e.g. the JTU result page for the specific program). Null when unknown. Used to detect data-source mismatches/contamination."
+        },
+        "source_ref": {
+          "type": "object",
+          "description": "Source reference: identifies where this category's result_tsv can be re-fetched from (IRONMAN subevent UUID or JTU program id). Provenance metadata; not part of the normalized output.",
+          "additionalProperties": false,
+          "required": ["results_source", "id"],
+          "properties": {
+            "results_source": {
+              "type": "string",
+              "enum": ["ironman", "jtu"],
+              "description": "Results source the id belongs to"
+            },
+            "id": {
+              "type": "string",
+              "description": "IRONMAN subevent UUID (results_source=ironman) or JTU program id such as 436_3 (results_source=jtu)"
+            }
+          }
         }
       }
     },
