@@ -1,15 +1,106 @@
 /**
+ * Age category labels: parse a raw 年齢区分 value into an age bracket, and
+ * name its canonical label.
+ *
+ * The canonical label is the IRONMAN-style label ai-tri renders
+ * (`formatAgeGroupLabel`): a gender letter followed by the bracket.
+ *
+ *   男子25-29歳 / 25-29歳男子 / 30-34男子 / 男子40才～44才 → M25-29 / M30-34 / M40-44
+ *   女子24歳以下 / 19歳以下女子 / U20女子                    → F0-24 / F0-19 / F0-20
+ *   男子65歳以上 / 70代以上男子 / 60-  男子                  → M65+ / M70+ / M60+
+ *   30歳代男子 / 男子40代                                    → M30-39 / M40-49
+ *
+ * Only labels that carry a Japanese gender word (男 / 女) are in scope: that
+ * is what makes the same bracket render differently across events. Labels
+ * that name a division rather than an age bracket (一般男子, 高校生男子, …)
+ * have no canonical form.
+ *
+ * @typedef {{ min_age: number, max_age: number }} AgeBracket
+ * @typedef {"canonical" | "fixable" | "no-canonical-form" | "out-of-scope"} AgeLabelClass
+ */
+
+/**
  * Parse age category string into {min_age, max_age} or null.
  * Handles 30+ format variations from race results.
  * Brackets outside 0–99 are rejected: they come from a rank glued onto the
  * label during extraction (e.g. "1030歳～39歳女子" = rank 10 + "30歳～39歳女子").
  * @param {string|null|undefined} str
- * @returns {{ min_age: number, max_age: number }|null}
+ * @returns {AgeBracket|null}
  */
 export function parseAgeCategory(str) {
   const bracket = parseBracket(str);
   if (!bracket || bracket.min_age < 0 || bracket.max_age > 99) return null;
   return bracket;
+}
+
+/**
+ * Canonical label for a raw 年齢区分 value, or null when the value carries no
+ * Japanese gender word (or both), is not an age bracket, or parses to an
+ * implausible bracket (OCR garbage such as "230歳〜39歳女子"). A returned
+ * label always parses back to the same bracket as the raw value.
+ * @param {string|null|undefined} raw
+ * @returns {string|null}
+ */
+export function canonicalAgeCategory(raw) {
+  const label = (raw || "").trim();
+  const gender = genderOfLabel(label);
+  if (gender !== "M" && gender !== "F") return null;
+  const bracket = parseAgeCategory(label);
+  if (!bracket || bracket.min_age > bracket.max_age) return null;
+  const canonical = formatLabel(gender, bracket);
+  return sameBracket(parseAgeCategory(canonical), bracket) ? canonical : null;
+}
+
+/**
+ * Where a raw 年齢区分 value stands against the canonical notation:
+ * - "canonical": already a canonical label (M25-29, F0-24, M65+)
+ * - "fixable": carries a Japanese gender word and has a canonical form
+ *   (see canonicalAgeCategory)
+ * - "no-canonical-form": carries a Japanese gender word but names no usable
+ *   age bracket (division labels, labels naming both genders, OCR garbage)
+ * - "out-of-scope": neither canonical nor carrying a Japanese gender word
+ * @param {string|null|undefined} raw
+ * @returns {AgeLabelClass}
+ */
+export function classifyAgeCategory(raw) {
+  const label = (raw || "").trim();
+  const letter = label.match(/^([MF])\d/)?.[1];
+  const bracket = letter ? parseAgeCategory(label) : null;
+  if (bracket && formatLabel(letter, bracket) === label) return "canonical";
+  if (!genderOfLabel(label)) return "out-of-scope";
+  return canonicalAgeCategory(label) ? "fixable" : "no-canonical-form";
+}
+
+/**
+ * Japanese gender word (男 / 女) in a label → "M" | "F", "both" when it names
+ * both genders, null when it names neither.
+ * @param {string} label
+ * @returns {"M" | "F" | "both" | null}
+ */
+function genderOfLabel(label) {
+  const male = label.includes("男");
+  const female = label.includes("女");
+  if (male && female) return "both";
+  if (male) return "M";
+  return female ? "F" : null;
+}
+
+/**
+ * Canonical label for a gender letter and a bracket.
+ * @param {string} gender
+ * @param {AgeBracket} bracket
+ */
+function formatLabel(gender, { min_age, max_age }) {
+  if (max_age >= 99) return `${gender}${min_age}+`;
+  return `${gender}${min_age}-${max_age}`;
+}
+
+/**
+ * @param {AgeBracket|null} a
+ * @param {AgeBracket} b
+ */
+function sameBracket(a, b) {
+  return a?.min_age === b.min_age && a?.max_age === b.max_age;
 }
 
 function parseBracket(str) {

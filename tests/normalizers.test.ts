@@ -1,6 +1,9 @@
 import { describe, test, expect } from "bun:test";
-import { canonicalAgeCategory } from "../scripts/lib/canonical-age-category.js";
-import { parseAgeCategory } from "../scripts/lib/normalize-age-category.js";
+import {
+  canonicalAgeCategory,
+  classifyAgeCategory,
+  parseAgeCategory,
+} from "../scripts/lib/normalize-age-category.js";
 import { parseGender } from "../scripts/lib/normalize-gender.js";
 import { parseResidence } from "../scripts/lib/normalize-residence.js";
 import { isStatusToken, parseRank, resolveStatus } from "../scripts/lib/normalize-status.js";
@@ -332,14 +335,38 @@ describe("normalizer functions", () => {
     test("30歳代男子", () => expect(canonicalAgeCategory("30歳代男子")).toBe("M30-39"));
     test("女子24歳以下", () => expect(canonicalAgeCategory("女子24歳以下")).toBe("F0-24"));
     test("男子65歳以上", () => expect(canonicalAgeCategory("男子65歳以上")).toBe("M65+"));
-    test("canonical labels round-trip", () =>
-      expect(["M25-29", "F0-24", "M65+"].map((l) => parseAgeCategory(l))).toEqual([
-        { min_age: 25, max_age: 29 },
-        { min_age: 0, max_age: 24 },
-        { min_age: 65, max_age: 99 },
-      ]));
+    test("男子40才～44才", () => expect(canonicalAgeCategory("男子40才～44才")).toBe("M40-44"));
+    test("U20女子", () => expect(canonicalAgeCategory("U20女子")).toBe("F0-20"));
+    test("60-  男子", () => expect(canonicalAgeCategory("60-  男子")).toBe("M60+"));
+    test("surrounding whitespace", () => expect(canonicalAgeCategory(" 男子25-29歳 ")).toBe("M25-29"));
+    test("canonical labels parse to the raw label's bracket and classify as canonical", () => {
+      const raws = ["男子25-29歳", "30-34女子", "30歳代男子", "女子24歳以下", "男子65歳以上", "70代以上男子", "30歳未満男子", "U20女子", "10.20代男子"];
+      for (const raw of raws) {
+        const canonical = canonicalAgeCategory(raw);
+        expect(canonical).not.toBeNull();
+        expect(parseAgeCategory(canonical)).toEqual(parseAgeCategory(raw));
+        expect(classifyAgeCategory(canonical)).toBe("canonical");
+      }
+    });
     test("division label has no canonical form", () => expect(canonicalAgeCategory("一般男子")).toBeNull());
+    test("implausible bracket has no canonical form", () => expect(canonicalAgeCategory("230歳〜39歳女子")).toBeNull());
+    test("both gender words", () => expect(canonicalAgeCategory("男女30-34")).toBeNull());
     test("label without a gender word is out of scope", () => expect(canonicalAgeCategory("30-34")).toBeNull());
   });
 
+  describe("classifyAgeCategory", () => {
+    test("M25-29 is canonical", () => expect(classifyAgeCategory("M25-29")).toBe("canonical"));
+    test("F0-24 is canonical", () => expect(classifyAgeCategory("F0-24")).toBe("canonical"));
+    test("M65+ is canonical", () => expect(classifyAgeCategory("M65+")).toBe("canonical"));
+    test("男子25-29歳 is fixable", () => expect(classifyAgeCategory("男子25-29歳")).toBe("fixable"));
+    test("一般男子 has no canonical form", () => expect(classifyAgeCategory("一般男子")).toBe("no-canonical-form"));
+    test("OCR garbage has no canonical form", () =>
+      expect(classifyAgeCategory("230歳〜39歳女子")).toBe("no-canonical-form"));
+    test("both gender words have no canonical form", () =>
+      expect(classifyAgeCategory("男女30-34")).toBe("no-canonical-form"));
+    test("M70 & + is not canonical", () => expect(classifyAgeCategory("M70&+")).toBe("out-of-scope"));
+    test("M50～54 is not canonical", () => expect(classifyAgeCategory("M50～54")).toBe("out-of-scope"));
+    test("40-44M is out of scope", () => expect(classifyAgeCategory("40-44M")).toBe("out-of-scope"));
+    test("empty is out of scope", () => expect(classifyAgeCategory("")).toBe("out-of-scope"));
+  });
 });

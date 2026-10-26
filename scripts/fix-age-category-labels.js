@@ -1,10 +1,10 @@
 /**
  * Rewrite 年齢区分 cells that carry a Japanese gender word into the canonical
- * label (scripts/lib/canonical-age-category.js): 男子25-29歳 → M25-29,
+ * label (scripts/lib/normalize-age-category.js): 男子25-29歳 → M25-29,
  * 女子24歳以下 → F0-24, 男子65歳以上 → M65+.
  *
- * Only columns mapped to role `age_category` in race-info.json are touched,
- * and every rewrite is checked to parse to the same bracket as the original.
+ * Only columns mapped to role `age_category` in race-info.json are touched;
+ * a canonical label always parses to the same bracket as the original.
  * A cell whose row has an age (role `age`) outside the bracket by more than a
  * year is left as-is: that label is corrupt (OCR such as "46 44男子" on a
  * 42-year-old), and a clean-looking canonical label would hide it.
@@ -17,8 +17,10 @@
  */
 import { readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { canonicalAgeCategory } from "./lib/canonical-age-category.js";
-import { parseAgeCategory } from "./lib/normalize-age-category.js";
+import {
+  canonicalAgeCategory,
+  parseAgeCategory,
+} from "./lib/normalize-age-category.js";
 
 const repoRoot = join(import.meta.dirname, "..");
 const data = JSON.parse(readFileSync(join(repoRoot, "race-info.json"), "utf8"));
@@ -66,11 +68,6 @@ for (const [tsv, { headers, age }] of targets) {
       const canon = canonicalAgeCategory(raw);
       if (!canon || canon === raw) continue;
       const bracket = parseAgeCategory(canon);
-      if (JSON.stringify(bracket) !== JSON.stringify(parseAgeCategory(raw))) {
-        throw new Error(
-          `${tsv}:${ln + 1}: ${raw} -> ${canon} changes the parsed bracket`,
-        );
-      }
       const athleteAge =
         ageIdx >= 0 ? Number.parseInt(row[ageIdx], 10) : Number.NaN;
       if (
