@@ -10,9 +10,15 @@ import { parseTime } from "./normalize-time.js";
  * @param {Record<string, string>} row
  * @param {Array<{header: string, role: string}>} metaColumnDefs
  * @param {Array<{sport: string, distance: number, columns: Array<{header: string, role: string}>}>} segmentDefs
+ * @param {(token: string) => void} [onUnknownStatusToken] - called with the rank cell's text when it is no known status token
  * @returns {Object}
  */
-export function buildAthlete(row, metaColumnDefs, segmentDefs) {
+export function buildAthlete(
+  row,
+  metaColumnDefs,
+  segmentDefs,
+  onUnknownStatusToken = () => {},
+) {
   const athlete = {
     rank: null,
     status: "DNS",
@@ -92,13 +98,14 @@ export function buildAthlete(row, metaColumnDefs, segmentDefs) {
     }
   }
 
-  const { rank, status } = resolveStatus({
+  const { rank, status, unknownToken } = resolveStatus({
     rankCell,
     statusCells,
     hasTotalTime: athlete.total_time_seconds !== null,
   });
   athlete.rank = rank;
   athlete.status = status;
+  if (unknownToken !== undefined) onUnknownStatusToken(unknownToken);
 
   athlete.segments = buildSegments(row, segmentDefs);
 

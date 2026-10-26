@@ -27,11 +27,27 @@ export function normalizeCategory(tsvContent, categoryDef) {
     }
   }
 
-  const athletes = rows
-    .map((row) =>
-      buildAthlete(row, categoryDef.meta_columns, categoryDef.segments),
-    )
-    .filter((a) => a.name !== "");
+  // Rows without a name (continuation lines of a wrapped note) are not
+  // Athletes, so their rank cell text raises no warning.
+  const athletes = [];
+  for (const row of rows) {
+    let unknownToken = null;
+    const athlete = buildAthlete(
+      row,
+      categoryDef.meta_columns,
+      categoryDef.segments,
+      (token) => {
+        unknownToken = token;
+      },
+    );
+    if (athlete.name === "") continue;
+    athletes.push(athlete);
+    if (unknownToken !== null) {
+      warnings.push(
+        `Unknown status token "${unknownToken}" in ${categoryDef.result_tsv}`,
+      );
+    }
+  }
 
   return { athletes, warnings };
 }

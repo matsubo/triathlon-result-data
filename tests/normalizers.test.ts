@@ -57,6 +57,30 @@ describe("normalizer functions", () => {
     test("null", () => expect(fromRank(null)).toEqual({ rank: null, status: "DNS" }));
     test("no rank column", () => expect(resolveStatus({})).toEqual({ rank: null, status: "DNS" }));
 
+    test("tokens are NFKC-folded (full-width ＤＮＦ)", () =>
+      expect(fromRank("ＤＮＦ")).toEqual({ rank: null, status: "DNF" }));
+    test("tokens are case-insensitive", () => expect(fromRank("dns")).toEqual({ rank: null, status: "DNS" }));
+    test("OVT (over time) is TOV", () => expect(fromRank("OVT")).toEqual({ rank: null, status: "TOV" }));
+    test("OPN is OPEN", () => expect(fromRank("OPN")).toEqual({ rank: null, status: "OPEN" }));
+    test("short of bike laps is a DNF", () =>
+      expect(fromRank("バイク周回不足")).toEqual({ rank: null, status: "DNF" }));
+    test("short of run laps is a DNF", () =>
+      expect(fromRank("ラン周回不足")).toEqual({ rank: null, status: "DNF" }));
+    test("short of run laps, cut at a column break, is a DNF", () =>
+      expect(fromRank("ラン周")).toEqual({ rank: null, status: "DNF" }));
+    test("iseshima DNQ *1 (no run, no total) is a DNF", () =>
+      expect(fromRank("DNQ *1")).toEqual({ rank: null, status: "DNF" }));
+    test("minato_sakata SKIP& (SKIP&DNF) is a DNF", () =>
+      expect(fromRank("SKIP&")).toEqual({ rank: null, status: "DNF" }));
+    test("an unknown token stays DNS and is reported", () =>
+      expect(fromRank(" DNQ *2 ")).toEqual({ rank: null, status: "DNS", unknownToken: "DNQ *2" }));
+    test("a status cell override silences an unknown token", () =>
+      expect(resolveStatus({ rankCell: "DNQ *2", statusCells: ["DNF"] })).toEqual({ rank: null, status: "DNF" }));
+    test("a non-positive number is no token", () =>
+      expect(resolveStatus({ rankCell: "0" })).not.toHaveProperty("unknownToken"));
+    test("full-width status cells fold too", () =>
+      expect(resolveStatus({ rankCell: "3", statusCells: ["ＤＱ"] })).toEqual({ rank: null, status: "DSQ" }));
+
     // IRONMAN writes 99999 for every Athlete outside the official ranking.
     test("placeholder rank with a total time is an unranked finisher", () =>
       expect(resolveStatus({ rankCell: "99999", hasTotalTime: true })).toEqual({ rank: null, status: "OPEN" }));
@@ -108,10 +132,11 @@ describe("normalizer functions", () => {
   describe("isStatusToken", () => {
     test("known token", () => expect(isStatusToken("DQ")).toBe(true));
     test("trimmed", () => expect(isStatusToken(" SKP ")).toBe(true));
+    test("folded", () => expect(isStatusToken("ｄｎｆ")).toBe(true));
     test("a rank is not a token", () => expect(isStatusToken("12")).toBe(false));
     test("FIN only belongs in status cells", () => expect(isStatusToken("FIN")).toBe(false));
     test("unknown token", () => expect(isStatusToken("DNQ *2")).toBe(false));
-    test("inherited object keys are not tokens", () => expect(isStatusToken("constructor")).toBe(false));
+    test("empty", () => expect(isStatusToken("")).toBe(false));
   });
 
   describe("parseGender", () => {
