@@ -144898,14 +144898,14 @@
         },
         {
           "date": "2008-11-23",
-          "weather_file": "master/2008/ironman_arizona_2008/weather-data.json",
+          "weather_file": "master/2008/ironman_arizona_nov_2008/weather-data.json",
           "categories": [
             {
-              "id": "ironman_arizona_2008",
-              "result_tsv": "master/2008/ironman_arizona_2008/default.tsv",
+              "id": "ironman_arizona_nov_2008",
+              "result_tsv": "master/2008/ironman_arizona_nov_2008/default.tsv",
               "name": "Full Distance",
               "distance": "LD",
-              "description": "2008 IRONMAN arizona",
+              "description": "2008 IRONMAN Arizona November",
               "segments": [
                 {
                   "sport": "swim",
