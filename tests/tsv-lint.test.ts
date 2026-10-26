@@ -1,6 +1,8 @@
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { describe, test, expect } from "bun:test";
+import { openLedger, type Findings } from "../scripts/lib/known-issue-ledger.js";
+import { loadExceptions } from "../scripts/lib/exceptions.js";
 
 const repoRoot = resolve(import.meta.dirname, "..");
 const masterDir = join(repoRoot, "master");
@@ -269,10 +271,7 @@ describe("TSV Lint Rules", () => {
 
   test("Japanese 氏名 values contain a half-width space between family and given name", () => {
     const errors: string[] = [];
-    const allowlist: string[] = JSON.parse(
-      readFileSync(join(repoRoot, "name-space-allowlist.json"), "utf-8"),
-    ).names;
-    const allowSet = new Set(allowlist);
+    const allowSet = new Set(loadExceptions("name_space"));
 
     // Team names, placeholders, and joke entries carry digits/brackets/nakaguro
     // and are never split into family/given name.
@@ -310,9 +309,10 @@ describe("TSV Lint Rules", () => {
     expect(errors).toEqual([]);
   });
 
-  const knownIssues = JSON.parse(
-    readFileSync(join(repoRoot, "tsv-lint-known-issues.json"), "utf-8"),
-  );
+  const ledger = openLedger(join(repoRoot, "tsv-lint-known-issues.json"), {
+    update: process.env.UPDATE_KNOWN_ISSUES === "1",
+    updateCommand: "bun run update:tsv-lint-known-issues",
+  });
 
   // Time-like value: H:MM:SS / MM:SS with optional fractional seconds and an
   // optional trailing flag token (e.g. "2:39:42 P"), or a placeholder/status.
@@ -323,10 +323,8 @@ describe("TSV Lint Rules", () => {
   function collectViolations(
     headerMatches: (h: string) => boolean,
     valueOk: (v: string) => boolean,
-    knownKey: string,
-  ): string[] {
-    const known: Record<string, number> = knownIssues[knownKey] || {};
-    const errors: string[] = [];
+  ): Findings {
+    const findings: Findings = {};
 
     for (const filePath of tsvFiles) {
       const rel = relPath(filePath);
@@ -349,14 +347,9 @@ describe("TSV Lint Rules", () => {
           }
         }
       }
-      const allowed = known[rel] || 0;
-      if (fileErrors.length > allowed) {
-        errors.push(
-          `${rel}: ${fileErrors.length} violations (allowed ${allowed}), e.g. ${fileErrors.slice(0, 3).join("; ")}`,
-        );
-      }
+      findings[rel] = { count: fileErrors.length, example: fileErrors.slice(0, 3).join("; ") };
     }
-    return errors;
+    return findings;
   }
 
   test("Time columns contain parseable times", () => {
@@ -366,32 +359,29 @@ describe("TSV Lint Rules", () => {
       !/順/.test(h) &&
       (/(ラップ|ﾗｯﾌﾟ|記録|ｽﾌﾟﾘｯﾄ|スプリット|タイム)/.test(h) ||
         /^(Swim|Bike|Run|T1|T2|Total_Time|LAP\d+)$/.test(h));
-    const errors = collectViolations(
+    const findings = collectViolations(
       isTimeHeader,
       (v) => TIME_VALUE.test(v) || NON_VALUE.test(v),
-      "time_format",
     );
-    expect(errors).toEqual([]);
+    expect(ledger.check({ time_format: findings })).toEqual([]);
   });
 
   test("Rank columns contain integers or status tokens", () => {
     // Segment/gender/age rank columns; overall-rank columns legitimately mix
     // integers with status strings, which NON_VALUE covers.
     const isRankHeader = (h: string) => /(順$|順位$|_Rank$)/.test(h);
-    const errors = collectViolations(
+    const findings = collectViolations(
       isRankHeader,
       (v) => /^\d+$/.test(v) || NON_VALUE.test(v),
-      "rank_numeric",
     );
-    expect(errors).toEqual([]);
+    expect(ledger.check({ rank_numeric: findings })).toEqual([]);
   });
 
   test("No data beyond the header's column count", () => {
     // A data row wider than the header means a column was dropped from the
     // header or inserted mid-row during import — every downstream mapping
     // silently reads shifted values.
-    const known: Record<string, number> = knownIssues.extra_columns || {};
-    const errors: string[] = [];
+    const findings: Findings = {};
 
     for (const filePath of tsvFiles) {
       const rel = relPath(filePath);
@@ -412,15 +402,13 @@ describe("TSV Lint Rules", () => {
           if (!example) example = `line ${ln + 1}`;
         }
       }
-      const allowed = known[rel] || 0;
-      if (count > allowed) {
-        errors.push(
-          `${rel}: ${count} rows wider than the ${nCols}-column header (allowed ${allowed}), first at ${example}`,
-        );
-      }
+      findings[rel] = {
+        count,
+        example: `first at ${example}, header has ${nCols} columns`,
+      };
     }
 
-    expect(errors).toEqual([]);
+    expect(ledger.check({ extra_columns: findings })).toEqual([]);
   });
 
   test("年齢区分 values use the canonical M/F label instead of a Japanese gender word", () => {
@@ -431,10 +419,8 @@ describe("TSV Lint Rules", () => {
     // not age brackets (一般男子, 高校生女子, …) go in age-category-allowlist.json;
     // unfixable source defects are counted in tsv-lint-known-issues.json.
     const raceInfo = JSON.parse(readFileSync(join(repoRoot, "race-info.json"), "utf-8"));
-    const allow = new Set<string>(
-      JSON.parse(readFileSync(join(repoRoot, "age-category-allowlist.json"), "utf-8")),
-    );
-    const known: Record<string, number> = knownIssues.age_category_label || {};
+    const allow = new Set(loadExceptions("age_category"));
+    const findings: Findings = {};
 
     const targets = new Map<string, Set<string>>();
     for (const event of raceInfo.events || [])
@@ -446,7 +432,6 @@ describe("TSV Lint Rules", () => {
               targets.get(cat.result_tsv)?.add(m.header);
             }
 
-    const errors: string[] = [];
     for (const [tsv, headers] of targets) {
       let lines: string[];
       try {
@@ -465,15 +450,10 @@ describe("TSV Lint Rules", () => {
           if (/[男女]/.test(v) && !allow.has(v)) fileErrors.push(`${tsv}:${ln + 1} ${head[i]}=${v}`);
         }
       }
-      const allowed = known[tsv] || 0;
-      if (fileErrors.length > allowed) {
-        errors.push(
-          `${tsv}: ${fileErrors.length} violations (allowed ${allowed}), e.g. ${fileErrors.slice(0, 3).join("; ")}`,
-        );
-      }
+      findings[tsv] = { count: fileErrors.length, example: fileErrors.slice(0, 3).join("; ") };
     }
 
-    expect(errors).toEqual([]);
+    expect(ledger.check({ age_category_label: findings })).toEqual([]);
   });
 
   test("All filenames under master/ and images/ are ASCII", () => {
