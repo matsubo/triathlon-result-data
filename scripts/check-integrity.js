@@ -9,28 +9,29 @@
  *   - finished athletes with no total time
  *   - athletes failing result-schema.json validation
  *
- * Pre-existing, source-inherent gaps live in integrity-baseline.json — the
- * check fails only when a metric REGRESSES against that baseline, so new
- * imports must be clean but historical PDFs with genuinely missing splits
- * do not block CI.
+ * Known issues (source-inherent gaps such as historical PDFs without splits)
+ * live in the Known-issue ledger integrity-baseline.json. The check fails on
+ * any drift from it: a regression, an improvement, or a stale entry
+ * (docs/adr/0002-known-issue-counts-only-shrink.md).
  *
  * Usage:
- *   bun run scripts/check-integrity.js              # check against baseline
- *   bun run scripts/check-integrity.js --update     # rewrite the baseline
+ *   bun run scripts/check-integrity.js              # check against the ledger
+ *   bun run scripts/check-integrity.js --update     # rewrite the ledger
  *   bun run scripts/check-integrity.js --verbose    # list every finding
  */
 
-import { readFileSync, writeFileSync } from "node:fs";
+import { readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { normalizeCategory } from "./lib/normalize-category.js";
+import { openLedger } from "./lib/known-issue-ledger.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const repoRoot = join(__dirname, "..");
-const baselinePath = join(repoRoot, "integrity-baseline.json");
+const ledgerPath = join(repoRoot, "integrity-baseline.json");
 
 const args = process.argv.slice(2);
-const updateBaseline = args.includes("--update");
+const update = args.includes("--update");
 const verbose = args.includes("--verbose");
 
 const raceInfo = JSON.parse(
@@ -131,54 +132,35 @@ if (details.length > 0) {
   }
 }
 
-if (updateBaseline) {
-  const baseline = {};
+const ledger = openLedger(ledgerPath, {
+  update,
+  updateCommand: "bun run update:integrity-baseline",
+});
+/** @type {Record<string, "warnings" | "missingLaps" | "missingTotal">} */
+const metricByRule = {
+  header_warnings: "warnings",
+  missing_laps: "missingLaps",
+  missing_total: "missingTotal",
+};
+/** @type {import("./lib/known-issue-ledger.js").FindingsByRule} */
+const findingsByRule = {};
+for (const [rule, metric] of Object.entries(metricByRule)) {
+  findingsByRule[rule] = {};
   for (const [key, r] of Object.entries(results)) {
-    if (r.warnings > 0 || r.missingLaps > 0 || r.missingTotal > 0) {
-      baseline[key] = {
-        warnings: r.warnings,
-        missingLaps: r.missingLaps,
-        missingTotal: r.missingTotal,
-      };
-    }
+    findingsByRule[rule][key] = { count: r[metric] };
   }
-  writeFileSync(baselinePath, `${JSON.stringify(baseline, null, 2)}\n`);
-  console.log(
-    `Baseline updated: ${Object.keys(baseline).length} categories with known issues.`,
-  );
+}
+const drift = ledger.check(findingsByRule);
+
+if (update) {
+  console.log(`Ledger updated: ${ledgerPath}`);
   process.exit(0);
 }
 
-let baseline = {};
-try {
-  baseline = JSON.parse(readFileSync(baselinePath, "utf-8"));
-} catch {
-  console.error(
-    "No integrity-baseline.json found. Run with --update to create it.",
-  );
+if (drift.length > 0) {
+  console.error("\nKnown-issue ledger drift (integrity-baseline.json):");
+  for (const d of drift) console.error(`  ${d}`);
   process.exit(1);
 }
 
-const regressions = [];
-for (const [key, r] of Object.entries(results)) {
-  const b = baseline[key] || { warnings: 0, missingLaps: 0, missingTotal: 0 };
-  if (
-    r.warnings > b.warnings ||
-    r.missingLaps > b.missingLaps ||
-    r.missingTotal > b.missingTotal
-  ) {
-    regressions.push(
-      `${key}: warnings ${b.warnings}->${r.warnings}, ` +
-        `missingLaps ${b.missingLaps}->${r.missingLaps}, ` +
-        `missingTotal ${b.missingTotal}->${r.missingTotal}`,
-    );
-  }
-}
-
-if (regressions.length > 0) {
-  console.error(`\n${regressions.length} regressions against baseline:`);
-  for (const r of regressions) console.error(`  ${r}`);
-  process.exit(1);
-}
-
-console.log("No regressions against baseline.");
+console.log("Findings match the Known-issue ledger.");
