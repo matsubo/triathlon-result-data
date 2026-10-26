@@ -9,7 +9,7 @@ added permanent quality gates to this repo:
   edition, compares missing-lap/missing-total/header-warning counts per
   category against `integrity-baseline.json`, fails on regression only.
   `--update` rewrites the baseline (do this ONLY for source-inherent gaps,
-  stated in the commit message). CI: .github/workflows/check-integrity.yml.
+  stated in the commit message). CI: .github/workflows/ci.yml.
 - tsv-lint gained 3 structural rules (time-format, rank-numeric,
   extra-columns) with `tsv-lint-known-issues.json` pinning pre-existing
   violations per file. Both registries are shrink-only to-fix lists.
