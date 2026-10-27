@@ -52,6 +52,29 @@ export function canonicalAgeCategory(raw) {
 }
 
 /**
+ * The canonical label to write in place of a raw 年齢区分 cell, or null to
+ * keep the cell: it has no canonical form, is canonical already, or its
+ * bracket contradicts the Athlete's age by more than a year. A contradicted
+ * label is corrupt (OCR such as "46 44男子" on a 42-year-old), and a
+ * clean-looking canonical label would hide it; `contradictsAge` reports it.
+ * @param {string} raw
+ * @param {string} ageCell the row's age cell; anything but a positive integer contradicts nothing
+ * @returns {{ label: string | null, contradictsAge: boolean }}
+ */
+export function relabelAgeCategory(raw, ageCell) {
+  const canonical = canonicalAgeCategory(raw);
+  if (!canonical || canonical === raw) {
+    return { label: null, contradictsAge: false };
+  }
+  const bracket = /** @type {AgeBracket} */ (parseAgeCategory(canonical));
+  const age = Number.parseInt(ageCell, 10);
+  if (age > 0 && (age < bracket.min_age - 1 || age > bracket.max_age + 1)) {
+    return { label: null, contradictsAge: true };
+  }
+  return { label: canonical, contradictsAge: false };
+}
+
+/**
  * Where a raw 年齢区分 value stands against the canonical notation:
  * - "canonical": already a canonical label (M25-29, F0-24, M65+)
  * - "fixable": carries a Japanese gender word and has a canonical form
