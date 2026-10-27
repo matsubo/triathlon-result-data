@@ -50,6 +50,13 @@ describe("Registered Categories", () => {
     const missing = categories.flatMap((c) => c.findings).filter((f) => f.kind === "missing-tsv");
     expect(missing.map((f) => f.message)).toEqual([]);
   });
+
+  test("no mapped header occurs twice in its TSV", () => {
+    // A Column reads the last of equal headers, so the other column is
+    // silently dropped. Rename repeated captions by index (1R順 / 2R順).
+    const duplicates = categories.flatMap((c) => c.findings).filter((f) => f.kind === "duplicate-header");
+    expect(duplicates.map((f) => f.message)).toEqual([]);
+  });
 });
 
 describe("TSV Lint Rules: raw text", () => {

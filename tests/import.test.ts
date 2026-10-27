@@ -704,6 +704,28 @@ describe("runImport: JTU add through the JTU adapter", () => {
     expect(unknown.exit_code).toBe(2);
     expect(unknown.editions[0].reason).toContain('unknown JTU caption "謎の列"; rename or drop it');
   });
+
+  test("a table whose captions repeat is refused", async () => {
+    // A duathlon table captions both run legs' ranks Ｒ順; written as is,
+    // the Category would read only the last one.
+    const repeating = (async (url: string) => {
+      const res = await replay(url);
+      if (!url.includes("result_table_id")) return res;
+      const json = await res.json();
+      for (const c of json.res.body.result_cols) if (c.result_col_caption === "Ｓ順") c.result_col_caption = "Ｒ順";
+      return new Response(JSON.stringify(json));
+    }) as unknown as typeof fetch;
+    const repo = seed([
+      { ...event("irago", [{ date: "2025-09-14", categories: [jtuCategory("irago_b", "b.tsv", "B", "OD")] }]), name: "伊良湖" },
+    ]);
+    const report = await runImport(
+      { editions: [{ event: "irago", date: "2026-09-06", jtu: [{ program: "422_2", distance: "OD", description: "B" }] }] },
+      { sources: { jtu: jtuSource({ fetch: repeating }) }, repo },
+    );
+    expect(report.exit_code).toBe(2);
+    expect(report.editions[0].reason).toBe("irago_b: duplicate headers Ｒ順");
+    expect(report.written).toEqual([]);
+  });
 });
 
 describe("runImport: prepared TSV", () => {

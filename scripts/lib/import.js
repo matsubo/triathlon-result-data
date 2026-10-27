@@ -438,8 +438,13 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
     const rows = table.rows.map((r) =>
       r.map((v) => (v == null ? "" : String(v))),
     );
-    if (new Set(headers).size !== headers.length)
-      throw new Skip(`${label}: duplicate headers`);
+    // A Column reads the last of equal headers, so a repeated one would
+    // silently drop a column (a duathlon's Ｒ順 for both run legs).
+    const repeated = headers.filter((h, i) => headers.indexOf(h) !== i);
+    if (repeated.length > 0)
+      throw new Skip(
+        `${label}: duplicate headers ${[...new Set(repeated)].join(", ")}`,
+      );
     const mapped = new Map(table.columns.map((c) => [c.header, c]));
     for (const c of table.columns)
       if (!headers.includes(c.header))

@@ -32011,7 +32011,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "Ｒ順",
+                      "header": "1Ｒ順",
                       "role": "rank"
                     }
                   ]
@@ -32047,7 +32047,7 @@
                       "role": "lap"
                     },
                     {
-                      "header": "Ｒ順",
+                      "header": "2Ｒ順",
                       "role": "rank"
                     }
                   ]
@@ -87642,7 +87642,7 @@
                   "distance": 10,
                   "columns": [
                     {
-                      "header": "R順",
+                      "header": "2R順",
                       "role": "rank"
                     }
                   ]
@@ -87731,7 +87731,7 @@
                   "distance": 5,
                   "columns": [
                     {
-                      "header": "R順",
+                      "header": "2R順",
                       "role": "rank"
                     }
                   ]
