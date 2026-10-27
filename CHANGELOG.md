@@ -2,6 +2,14 @@
 
 All notable changes to this repository are documented here. Versions follow the `version` field in `package.json`; commits between version bumps are grouped under the version that introduced them.
 
+## Unreleased
+
+### Tooling: Import module
+- New Editions are imported with a plan through `bun scripts/import.js <plan.json> [--dry-run]` (`scripts/lib/import.js`). IRONMAN, JTU and prepared-TSV Results source adapters sit behind one port. Every safety check always runs. A failing Edition is skipped and the rest are written, with exit code 2. `mode: "refetch"` re-reads an Edition from its Source reference and refuses to write if rank quality degrades.
+- Categories carry `source_ref` (`{results_source, id}`): 941 IRONMAN subevent UUIDs and 328 JTU program ids backfilled. It replaces the Edition-level `event_id` (ADR-0001).
+- Removed 53 one-off `.mjs` scripts and 16 `.js` scripts (per-batch intake, scanners, one-shot fixers, `fetch-ironman-results.js`) and 81 handoff JSON files.
+- Added `GLOSSARY.md` and `docs/adr/` (ADR-0001 Source references on Categories, ADR-0002 Known-issue counts only shrink).
+
 ## 5.1.0 — 2026-05-20
 
 ### Added (new races)
