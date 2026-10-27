@@ -206,17 +206,14 @@ function makeCategory(repo, event, edition, def) {
   const parse = () => {
     if (parsed) return parsed;
     const text = repo.readText(tsv);
-    const { headers, lines } = splitTsv(text ?? "");
-    /** @type {Column[]} */
-    const columns = [
+    const { headers, columns, rows } = splitTsv(text ?? "", (headers) => [
       ...(def.meta_columns ?? []).map((/** @type {any} */ m) =>
         column(m, null, headers),
       ),
       ...(def.segments ?? []).flatMap((/** @type {any} */ s, i) =>
         (s.columns ?? []).map((/** @type {any} */ c) => column(c, i, headers)),
       ),
-    ];
-    const rows = lines.map(({ line, raw }) => makeRow(line, raw, columns));
+    ]);
     parsed = {
       text,
       headers,
@@ -263,17 +260,7 @@ function makeCategory(repo, event, edition, def) {
       /** @type {Cell[]} */
       const out = [];
       for (const row of parse().rows) {
-        for (const col of cols) {
-          const value = row.at(col);
-          out.push({
-            value,
-            raw: row.raw[col.index] ?? "",
-            row,
-            column: col,
-            category,
-            where: `${tsv}:${row.line} ${col.header}=${value}`,
-          });
-        }
+        for (const col of cols) out.push(new TsvCell(row, col, category));
       }
       return out;
     },
@@ -298,21 +285,28 @@ function column(decl, segment, headers) {
 
 /**
  * @param {string} text
- * @returns {{ headers: string[], lines: { line: number, raw: string[] }[] }}
+ * @param {(headers: string[]) => Column[]} columnsOf
+ * @returns {{ headers: string[], columns: Column[], rows: Row[] }}
  */
-function splitTsv(text) {
-  /** @type {string[] | null} */
-  let headers = null;
-  const lines = [];
+function splitTsv(text, columnsOf) {
   const physical = text.split("\n");
-  for (let i = 0; i < physical.length; i++) {
+  let i = physical.findIndex((line) => line.trim() !== "");
+  const headers =
+    i < 0
+      ? []
+      : stripCr(physical[i])
+          .split("\t")
+          .map((h) => h.trim());
+  const columns = columnsOf(headers);
+  /** @type {Row[]} */
+  const rows = [];
+  if (i < 0) return { headers, columns, rows };
+  for (i++; i < physical.length; i++) {
     const line = physical[i];
     if (line.trim() === "") continue;
-    const raw = stripCr(line).split("\t");
-    if (headers === null) headers = raw.map((h) => h.trim());
-    else lines.push({ line: i + 1, raw });
+    rows.push(new TsvRow(i + 1, line, columns));
   }
-  return { headers: headers ?? [], lines };
+  return { headers, columns, rows };
 }
 
 /** @param {string} line */
@@ -321,32 +315,110 @@ function stripCr(line) {
 }
 
 /**
- * @param {number} line
- * @param {string[]} raw
- * @param {Column[]} columns
- * @returns {Row}
+ * A data row. The rows of the whole corpus stay in memory for the life of
+ * the reader, so a row keeps only its line (a slice sharing the TSV text) and,
+ * once a cell is read, the offsets of its tabs; `raw` and `cells` are split
+ * on each access.
+ * @implements {Row}
  */
-function makeRow(line, raw, columns) {
-  const cells = raw.map((c) => c.trim());
+class TsvRow {
+  /** @type {Int32Array | null} end offset of each cell */
+  #ends = null;
+
+  /**
+   * @param {number} line
+   * @param {string} text the physical line, \r included
+   * @param {Column[]} columns
+   */
+  constructor(line, text, columns) {
+    this.line = line;
+    /** @private */
+    this.text = text;
+    /** @private */
+    this.columns = columns;
+  }
+
+  get raw() {
+    return stripCr(this.text).split("\t");
+  }
+
+  get cells() {
+    return this.raw.map((c) => c.trim());
+  }
+
+  /**
+   * Untrimmed cell at a header index, undefined past the row's end.
+   * @param {number} index
+   */
+  rawCell(index) {
+    let ends = this.#ends;
+    if (ends === null) {
+      const { text } = this;
+      const end = text.endsWith("\r") ? text.length - 1 : text.length;
+      let tabs = 0;
+      for (
+        let p = text.indexOf("\t");
+        p >= 0 && p < end;
+        p = text.indexOf("\t", p + 1)
+      )
+        tabs++;
+      ends = new Int32Array(tabs + 1);
+      let k = 0;
+      for (
+        let p = text.indexOf("\t");
+        p >= 0 && p < end;
+        p = text.indexOf("\t", p + 1)
+      )
+        ends[k++] = p;
+      ends[k] = end;
+      this.#ends = ends;
+    }
+    if (index >= ends.length) return undefined;
+    return this.text.slice(index === 0 ? 0 : ends[index - 1] + 1, ends[index]);
+  }
+
   /** @param {Column} col */
-  const at = (col) => (col.index < 0 ? "" : (cells[col.index] ?? ""));
-  return {
-    line,
-    raw,
-    cells,
-    at,
-    get(role) {
-      for (const col of columns) {
-        if (col.role !== role) continue;
-        const v = at(col);
-        if (v !== "") return v;
-      }
-      return "";
-    },
-    all(role) {
-      return columns.filter((c) => c.role === role).map(at);
-    },
-  };
+  at(col) {
+    return col.index < 0 ? "" : (this.rawCell(col.index)?.trim() ?? "");
+  }
+
+  /** @param {string} role */
+  get(role) {
+    for (const col of this.columns) {
+      if (col.role !== role) continue;
+      const v = this.at(col);
+      if (v !== "") return v;
+    }
+    return "";
+  }
+
+  /** @param {string} role */
+  all(role) {
+    return this.columns.filter((c) => c.role === role).map((c) => this.at(c));
+  }
+}
+
+/** @implements {Cell} */
+class TsvCell {
+  /**
+   * @param {TsvRow} row
+   * @param {Column} column
+   * @param {Category} category
+   */
+  constructor(row, column, category) {
+    this.row = row;
+    this.column = column;
+    this.category = category;
+    this.value = row.at(column);
+  }
+
+  get raw() {
+    return this.row.rawCell(this.column.index) ?? "";
+  }
+
+  get where() {
+    return `${this.category.tsv}:${this.row.line} ${this.column.header}=${this.value}`;
+  }
 }
 
 /**
