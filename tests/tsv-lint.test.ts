@@ -250,9 +250,11 @@ describe("TSV Lint Rules: cells by Column role", () => {
     expect(ledger.check({ age_category_label: findings })).toEqual([]);
   });
 
-  describe("IRONMAN Categories (source_ref.results_source ironman)", () => {
+  describe("IRONMAN Categories (Event id ironman_ / im703_)", () => {
     const REQUIRED = ["ContactId", "Country", "Status"];
-    const ironman = categories.filter((c) => c.def.source_ref?.results_source === "ironman" && c.text !== null);
+    // The Event id prefix is the Event's identity; source_ref is absent from
+    // Editions imported before the Import module recorded it.
+    const ironman = categories.filter((c) => /^(ironman|im703)_/.test(c.eventId) && c.text !== null);
 
     test("the TSV includes ContactId/Country/Status", () => {
       const errors: string[] = [];
