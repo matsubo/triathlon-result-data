@@ -176,8 +176,9 @@ describe("TSV Lint Rules: cells by Column role", () => {
   test("Overall rank is unique among finished Athletes, except ties on the total time", () => {
     // A rank shared by finished Athletes with different (or missing) total
     // times is a repeat; five or more repeats mean the rank column is broken
-    // (a rank restarting per gender or division, shifted cells).
-    const errors: string[] = [];
+    // (a rank restarting per gender or division, shifted cells). Sources that
+    // publish such ranks are Known issues, counted in repeated ranks.
+    const findings: Findings = {};
     for (const category of categories) {
       if (category.columns("overall_rank").every((c) => c.index < 0)) continue;
       const columns = category.columns();
@@ -190,13 +191,12 @@ describe("TSV Lint Rules: cells by Column role", () => {
         if (!timeOfRank.has(athlete.rank)) timeOfRank.set(athlete.rank, time);
         else if (time === null || timeOfRank.get(athlete.rank) !== time) repeated.add(athlete.rank);
       }
-      if (repeated.size >= 5) {
-        errors.push(
-          `${category.tsv} — ${repeated.size} overall ranks shared by finished Athletes with different total times (e.g. ${[...repeated].slice(0, 3).join(", ")}).`,
-        );
-      }
+      findings[category.tsv] = {
+        count: repeated.size >= 5 ? repeated.size : 0,
+        example: `ranks ${[...repeated].slice(0, 3).join(", ")}`,
+      };
     }
-    expect(errors).toEqual([]);
+    expect(ledger.check({ overall_rank_unique: findings })).toEqual([]);
   }, 30_000); // normalizes every Athlete of the corpus
 
   describe("names (role name)", () => {
