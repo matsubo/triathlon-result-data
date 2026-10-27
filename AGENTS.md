@@ -78,9 +78,10 @@ Agents can help navigate and understand this triathlon result data repository wh
   性別語（男子/女子/男/女）を含む値は、`M25-29`（男子25-29歳）、`F0-24`
   （女子24歳以下）、`M65+`（男子65歳以上）、`M30-39`（30歳代男子）の形に
   統一する。大会ごとに表記が違うと、同じ区分がアプリ上で別々に表示される
-  ため。取り込み後に `bun run scripts/fix-age-category-labels.js` を実行す
-  れば自動で変換される（冪等）。年齢と矛盾する区分は破損とみなして変換し
-  ない。`tests/tsv-lint.test.ts` の「年齢区分 values use the canonical M/F
+  ため。Import モジュール（`bun scripts/import.js`）は取り込み時に変換する。
+  それ以外の手段で書いた TSV は `bun run scripts/fix-age-category-labels.js`
+  で変換する（冪等）。年齢と矛盾する区分は破損とみなして変換しない
+  （どちらも同じ規則）。`tests/tsv-lint.test.ts` の「年齢区分 values use the canonical M/F
   label…」で静的に検査される。年齢区分ではない部門名（`一般男子`、
   `高校生女子`、`1970年代男子` 等）は Exception として
   `age-category-allowlist.json` の `entries` に追記する。
@@ -177,7 +178,6 @@ Running these three commands locally reproduces CI exactly.
 ```bash
 bun scripts/import.js /tmp/import-plan.json --dry-run   # 書き込みはメモリ上のみ
 bun scripts/import.js /tmp/import-plan.json             # TSV → race-info.json の順に書き込む
-bun run scripts/fix-age-category-labels.js              # 年齢区分を M/F 表記へ
 ```
 
 結果は JSON のレポートで出力される。終了コード 0 = 全エディション取り込み済み、2 = 一部スキップ（`reason` を確認）、1 = プラン不正（何も書き込まない）。

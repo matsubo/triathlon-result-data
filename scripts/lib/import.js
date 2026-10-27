@@ -9,15 +9,16 @@
  *   committed TSVs and images; receives the writes.
  *
  * The core owns the conventions (Category ids and paths, Segment distances,
- * source_ref, weather_file), name cleanup, Edition placement, the safety
- * checks and the race-info serialisation. A failing Edition is skipped with
- * its reason and the others are still written: TSVs first, race-info.json
- * once at the end.
+ * source_ref, weather_file), name cleanup, canonical Age category labels,
+ * Edition placement, the safety checks and the race-info serialisation. A
+ * failing Edition is skipped with its reason and the others are still
+ * written: TSVs first, race-info.json once at the end.
  */
 import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import Ajv from "ajv";
+import { relabelAgeCategory } from "./normalize-age-category.js";
 import { parseTime } from "./normalize-time.js";
 import { memoryRepo } from "./repo.js";
 
@@ -119,6 +120,25 @@ export function cleanName(s) {
     )
     .replace(/\s+/g, " ")
     .trim();
+}
+
+/**
+ * Rewrite age_category cells into their canonical Age category label
+ * (relabelAgeCategory: 男子25-29歳 → M25-29), the same rule
+ * scripts/fix-age-category-labels.js applies to committed TSVs. A label whose
+ * bracket contradicts the row's age stays as it is.
+ * @param {string[][]} rows
+ * @param {number[]} labelIdxs age_category columns
+ * @param {number[]} ageIdxs age columns; the first non-empty one is the age
+ */
+function canonicalizeAgeCategories(rows, labelIdxs, ageIdxs) {
+  for (const r of rows) {
+    const age = ageIdxs.map((i) => (r[i] ?? "").trim()).find((v) => v) ?? "";
+    for (const i of labelIdxs) {
+      const { label } = relabelAgeCategory(r[i] ?? "", age);
+      if (label !== null) r[i] = label;
+    }
+  }
 }
 
 /**
@@ -433,11 +453,16 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
       );
 
     const col = (/** @type {string} */ h) => headers.indexOf(h);
+    const metaIdxs = (/** @type {string} */ role) =>
+      table.columns
+        .filter((c) => c.role === role && !c.sport)
+        .map((c) => col(c.header));
     const nameCol = table.columns.find((c) => c.role === "name" && !c.sport);
     if (nameCol) {
       const i = col(nameCol.header);
       for (const r of rows) r[i] = cleanName(r[i]);
     }
+    canonicalizeAgeCategories(rows, metaIdxs("age_category"), metaIdxs("age"));
 
     const distance = spec.distance ?? table.distance_class;
     if (!distance) throw new Skip(`${label}: no Distance class`);
@@ -774,6 +799,16 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
       const nameHeader = header("name");
       const ni = nameHeader ? table.headers.indexOf(nameHeader) : -1;
       if (ni >= 0) for (const r of rows) r[ni] = cleanName(r[ni]);
+      const metaIdxs = (/** @type {string} */ role) =>
+        metas
+          .filter((/** @type {any} */ m) => m.role === role)
+          .map((/** @type {any} */ m) => table.headers.indexOf(m.header))
+          .filter((/** @type {number} */ i) => i >= 0);
+      canonicalizeAgeCategories(
+        rows,
+        metaIdxs("age_category"),
+        metaIdxs("age"),
+      );
       const tsv = serializeTsv(table.headers, rows);
       const committed = target.readText(c.result_tsv);
 

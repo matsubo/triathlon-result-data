@@ -47,7 +47,6 @@ run it through the Import module. Never write an add-*/import-* script.
 ```bash
 bun scripts/import.js /tmp/plan.json --dry-run   # fetch + every check, writes stay in memory
 bun scripts/import.js /tmp/plan.json             # writes the TSVs, then race-info.json
-bun run scripts/fix-age-category-labels.js       # canonical M/F 年齢区分 labels (the API returns 男子25-29歳)
 ```
 
 What the JTU adapter and the core do:
@@ -67,6 +66,9 @@ What the JTU adapter and the core do:
   gender column).
 - **氏名 cleanup**: U+3000 and doubled spaces → one half-width space, full-width Latin /
   digits → half-width.
+- **年齢区分 labels**: the API returns 男子25-29歳; the core writes the canonical label
+  (M25-29) with the rule of `scripts/fix-age-category-labels.js` (a label contradicting the
+  row's age stays as published).
 - **Paths and ids**: `master/<year>/<event>/<file>`, `weather_file`
   `master/<year>/<event>/weather-data.json`, `source_ref` `{results_source: "jtu", id: <program>}`,
   `source_url` = the results API URL of the table. `id`, `file` and `name` default from the
@@ -81,9 +83,9 @@ What the JTU adapter and the core do:
   a duplicated single-use role, an existing (event, date) with different programs.
 
 To re-fetch a committed Edition, use `"mode": "refetch"` with the same `jtu[].columns`
-options the import used (only `program` + `columns`). The refetched TSV carries the API's
-raw 年齢区分 labels; run `fix-age-category-labels.js` afterwards to get the committed bytes
-back.
+options the import used (only `program` + `columns`). The refetched TSV gets the same
+氏名 cleanup and canonical 年齢区分 labels, so an unchanged source refetches as the
+committed bytes.
 
 Filter out non-age-group programs per AGENTS.md (キッズ / ジュニア / リレー / パラ /
 小学 / 中学 / アクアスロン / デュアスロン / ビギナー / チャレンジ) — and check for a

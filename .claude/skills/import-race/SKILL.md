@@ -140,7 +140,7 @@ this workflow needs is in the repository.
      fix the plan, or leave the edition out and record it as deferred.
    - Run it again without `--dry-run`. Exit 0 = all imported, 2 = some skipped (the
      others are written), 1 = plan invalid (nothing written).
-   - Then `bun run scripts/fix-age-category-labels.js`, and fix any 氏名 the module
+   - The module writes canonical 年齢区分 labels (M25-29) itself. Fix any 氏名 it
      can't (a missing family/given space, per `references/name-space-fix-methodology.md`).
    - `weather-data-generator` → create the `master/<year>/<id>/weather-data.json` the
      import referenced (see `references/weather-data-policy.md`).
