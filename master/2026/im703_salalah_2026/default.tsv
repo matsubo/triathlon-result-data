@@ -1,0 +1,381 @@
+ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	Run	Country	Status
+06cfee12-207a-4969-9e5a-2f2545b99b45	1	Florian Mestdagh	M	M30-34	1	4:05:14	0:31:00	0:02:12	2:07:37	0:01:32	1:22:53	France	
+54127ac4-d4c2-f111-aaaf-0022480b12e1	2	Suood ALKHOORI	M	M18-24	1	4:15:10	0:25:15	0:02:26	2:14:30	0:01:29	1:31:29	United Arab Emirates	
+b25a5328-edaa-445e-be66-6c996169dffa	3	Francesco Bartoloni	M	M30-34	2	4:23:18	0:30:46	0:01:39	2:16:15	0:02:02	1:32:36	Italy	
+0a18387d-94f3-4fcd-b3b6-9d17e5b6a85f	4	Vainius Kaleda	M	M35-39	1	4:32:25	0:33:19	0:02:47	2:21:04	0:01:50	1:33:24	Lithuania	
+28a51e88-d6c2-f111-aaad-7ced8d3bb850	5	Salem AlShamsi	M	M18-24	2	4:38:14	0:29:32	0:01:47	2:22:02	0:01:55	1:42:57	United Arab Emirates	
+d7611cd5-2e53-4d4d-b42e-fccba1b00a5c	6	mohammed alshureiqi	M	M25-29	1	4:39:08	0:35:19	0:02:27	2:22:59	0:01:44	1:36:40	Oman	
+17f303c5-3c3e-413e-a534-b102c1edfb34	7	Hashim Al Farsi	M	M35-39	2	4:40:27	0:34:38	0:02:29	2:18:18	0:02:09	1:42:54	Oman	
+2a1745cd-0477-4dca-9188-6e83d163bd87	8	Alexander Gröbli	M	M50-54	1	4:40:42	0:33:29	0:02:39	2:17:27	0:02:08	1:45:00	Switzerland	
+28a51e88-d6c2-f111-aaad-7ced8d3bb850	9	Salem AlShamsi	M	M30-34	3	4:42:02	0:33:38	0:02:18	2:28:04	0:01:51	1:36:11	United Arab Emirates	
+efbd2c60-fc06-48d4-ba82-218686cfb16d	10	alexandre lemoine	M	M40-44	1	4:42:12	0:35:27	0:02:23	2:25:02	0:02:14	1:37:06	France	
+5d0d9d4f-992e-f011-8c4d-000d3a5b7c3b	11	Giuliano Blei	M	M35-39	3	4:45:07	0:30:32	0:04:07	2:25:59	0:03:08	1:41:21	Italy	
+9e244903-3f86-49d4-906d-793a02523fd9	12	Jerome Yarro Nimpa	M	M30-34	4	4:45:18	0:42:26	0:01:52	2:22:57	0:02:48	1:35:15	France	
+8921abcb-5d92-4310-8b97-e377a5be54f7	13	Hamish Baxter	M	M30-34	5	4:45:26	0:29:20	0:02:47	2:24:22	0:01:45	1:47:12	United Kingdom	
+ebdf0d73-fcdb-4fdb-9722-b5797ee1cee6	14	Matthew Miller	M	M35-39	4	4:46:30	0:27:45	0:02:18	2:19:04	0:02:18	1:55:05	United Kingdom	
+e729196c-e36c-4ded-84c4-743a37a59a3e	15	Kliment Danilov	M	M30-34	6	4:47:57	0:31:25	0:02:04	2:26:13	0:02:01	1:46:14	Kazakhstan	
+5bdf6a72-95b4-f011-bbd3-000d3a35ffc1	16	Mohammed Bakheet	M	M30-34	7	4:49:02	0:44:59	0:03:18	2:15:42	0:01:59	1:43:05	United Arab Emirates	
+635716cf-6d8c-ef11-ac21-6045bd048089	17	Aleksandr Semenov	M	M30-34	8	4:49:12	0:35:58	0:02:28	2:20:50	0:01:35	1:48:22	United Arab Emirates	
+2d293b99-58b2-f011-bbd3-6045bd05fcc1	18	Rashed Alazeezi	M	M18-24	3	4:49:20	0:41:28	0:03:15	2:16:26	0:01:53	1:46:19	United Arab Emirates	
+251e8e78-d716-41d5-b149-807c982e2977	19	Paul Jooste	M	M35-39	5	4:49:23	0:35:04	0:03:50	2:23:28	0:02:45	1:44:17	South Africa	
+6ce59f08-0891-4c06-82eb-671bfd8b0c24	20	Irek Dautov	M	M40-44	2	4:49:37	0:33:19	0:03:14	2:26:04	0:03:11	1:43:50	Spain	
+95113d31-22dc-f011-8544-000d3a5cf7d8	21	Rashid Almusleh	M	M25-29	2	4:50:39	0:33:36	0:01:55	2:27:49	0:03:27	1:43:52	Qatar	
+92f41cd1-8eea-4668-a75c-15e191d66128	22	Emilia Mangilinan	F	F35-39	1	4:51:40	0:32:23	0:02:29	2:35:57	0:01:43	1:39:08	Poland	
+0985b66e-3428-4c93-aab2-4a70f5a16c71	23	Emma Gibbins	F	F35-39	2	4:52:28	0:33:13	0:02:04	2:32:11	0:01:27	1:43:34	United Kingdom	
+57a1c9ae-21b3-4f1c-9920-590ea8416b14	24	Robert Tansley	M	M40-44	3	4:52:47	0:34:38	0:02:55	2:22:54	0:02:25	1:49:56	United Kingdom	
+28d9b56a-18b3-4361-964b-9c3886f36aaa	25	Giacomo Gioveni	M	M50-54	2	4:52:58	0:33:24	0:03:33	2:20:26	0:02:43	1:52:51	Italy	
+74907f86-fa76-4e21-a1f5-b4c4e14b99f6	26	Pier Antonio Cornaglia	M	M45-49	1	4:54:50	0:31:50	0:02:10	2:26:49	0:03:14	1:50:46	Italy	
+004036f3-0b6e-4d50-b8c6-8cc72fd5b89f	27	Gilles Vallee	M	M50-54	3	4:55:46	0:32:25	0:03:08	2:26:32	0:02:26	1:51:15	France	
+54127ac4-d4c2-f111-aaaf-0022480b12e1	28	Suood ALKHOORI	M	M30-34	9	4:57:54	0:34:13	0:03:53	2:25:21	0:02:39	1:51:48	United Arab Emirates	
+e0aeeb0a-e185-4044-b5be-e9606fb631e6	29	Thierry Leroy	M	M60-64	1	4:58:23	0:33:15	0:02:44	2:36:43	0:02:41	1:43:00	France	
+cfcbc74c-c006-f111-8406-0022480b84a3	30	MARCOS SANTOS	M	M40-44	4	4:58:55	0:36:26	0:03:48	2:29:49	0:04:07	1:44:45	Brazil	
+2af9421b-0d5c-4aa7-9335-4c6b71e13908	31	Imogen Llewellyn	F	F30-34	1	4:59:01	0:32:37	0:03:14	2:37:53	0:02:45	1:42:31	United Kingdom	
+52a51273-1631-4839-8a0a-d1c3a7abfaac	32	Fahad Ali	M	M35-39	6	4:59:06	0:41:33	0:01:35	2:34:36	0:02:06	1:39:16	Bahrain	
+35926ea4-e478-4da6-b9df-806bc6f720b9	33	Aleksei Kozhevnikov	M	M40-44	5	4:59:10	0:38:47	0:02:48	2:36:07	0:02:22	1:39:06	Kazakhstan	
+cddd0c2d-b890-4d83-90d3-1d729202f79b	34	Joana Moreira	F	F45-49	1	5:00:32	0:38:22	0:03:11	2:41:37	0:02:05	1:35:18	Portugal	
+95e5797a-0160-4d9d-96bc-a2e12e214892	35	Marc Muller	M	M45-49	2	5:00:53	0:34:32	0:03:03	2:26:19	0:02:17	1:54:42	Netherlands	
+85eb646a-9baa-f011-bbd2-000d3a3009e6	36	Dmitry Svyatolutskiy	M	M18-24	4	5:02:44	0:35:27	0:02:48	2:21:56	0:02:15	2:00:18	Estonia	
+d1399535-5d7c-f111-ab0e-70a8a59b112b	37	giovani da rosa grance balbuena	M	M35-39	7	5:03:14	0:32:38	0:02:13	2:37:08	0:02:52	1:48:22	Brazil	
+c0e08d26-6eab-47a6-a9ec-d706597f03dc	38	May Alhaji	F	F45-49	2	5:03:39	0:38:55	0:02:38	2:33:39	0:02:40	1:45:47	Bahrain	
+3ebd036b-792b-4e36-b1a8-9aaf1649ddb8	39	Sager Alkhalifa	M	M45-49	3	5:04:38	0:36:22	0:02:04	2:37:56	0:03:26	1:44:51	Bahrain	
+74c4a1d2-17b3-f111-aaac-7c1e528d5074	40	Juma Almusalami	M	M18-24	5	5:06:32	0:32:39	0:02:30	2:41:33	0:02:50	1:46:59	Oman	
+30aa5c02-766a-f111-a826-6045bd08b1a2	41	Arthur Pagès	M	M25-29	3	5:07:41	0:31:01	0:02:45	2:36:56	0:02:14	1:54:45	France	
+f28dafd4-28c6-f011-bbd3-000d3a5b50ba	42	Humaid Talal	M	M18-24	6	5:09:29	0:35:02	0:02:16	2:34:45	0:02:46	1:54:40	United Arab Emirates	
+3bdec179-568a-40d1-a76a-9317e626dc1b	43	Benjamin Van Hove	M	M25-29	4	5:09:37	0:34:03	0:02:19	2:40:42	0:02:20	1:50:14	France	
+ceac57c6-86cc-4030-b3ac-f99050f3eb2c	44	Abdulmajeed Alshehab	M	M35-39	8	5:11:30	0:41:27	0:02:38	2:40:28	0:02:42	1:44:14	Saudi Arabia	
+0660207b-62b7-46d8-80b7-67ed60cb9094	45	Gary Cummings	M	M45-49	4	5:12:44	0:33:42	0:03:26	2:35:51	0:03:01	1:56:44	United Kingdom	
+54127ac4-d4c2-f111-aaaf-0022480b12e1	46	Suood ALKHOORI	M	M30-34	10	5:13:05	0:40:50	0:03:10	2:33:47	0:02:55	1:52:23	United Arab Emirates	
+18de1633-a52e-f011-8c4d-000d3a5cf7d8	47	Alessandro Profeta	M	M30-34	11	5:13:29	0:32:14	0:04:08	2:43:10	0:04:28	1:49:29	Italy	
+f9f9a1a7-f5f3-f011-8406-0022480b35b6	48	Benjamin Gerber	M	M30-34	12	5:13:56	0:41:54	0:05:25	2:43:37	0:02:59	1:40:02	France	
+2a7e64ea-a5c6-40cc-a751-4910515f2305	49	Caio Politi	M	M50-54	4	5:15:27	0:31:18	0:03:12	2:35:12	0:02:37	2:03:08	Brazil	
+e35cf46e-d160-ef11-bfe3-00224809fd7c	50	Jason Hanley	M	M45-49	5	5:15:46	0:40:55	0:04:39	2:28:59	0:04:02	1:57:10	Ireland	
+54127ac4-d4c2-f111-aaaf-0022480b12e1	51	Suood ALKHOORI	M	M18-24	7	5:16:31	0:35:56	0:03:07	2:32:49	0:01:59	2:02:40	United Arab Emirates	
+94b81607-e90d-4d0b-a553-3b75824de5db	52	Omar Al Akhzami	M	M40-44	6	5:17:45	0:33:44	0:04:28	2:36:46	0:03:41	1:59:05	Oman	
+bfd387f0-c3bb-f111-aaad-7ced8d3bb850	53	Husain Amir Ali	M	M35-39	9	5:18:01	0:42:27	0:01:52	2:37:54	0:01:22	1:54:26	Kuwait	
+2c58e658-a208-48aa-a22e-1814aa34b01c	54	Mohammed AlSamahiji	M	M45-49	6	5:18:07	0:44:41	0:02:09	2:34:30	0:02:46	1:54:01	Bahrain	
+503c952d-6e4e-47f9-859a-45f6e82e8d8a	55	Alessio Samperi	M	M35-39	10	5:20:44	0:36:12	0:02:33	2:41:46	0:02:41	1:57:32	Italy	
+cbba3106-9457-41f1-80db-aeaeb86bbeac	56	Andreas Baudisch	M	M50-54	5	5:21:27	0:35:41	0:02:49	2:39:13	0:02:09	2:01:35	Germany	
+04732a4f-5990-454f-962b-557eabecaa98	57	Nikolai Drugin	M	M45-49	7	5:22:29	0:45:51	0:03:56	2:45:19	0:02:52	1:44:31	United Arab Emirates	
+b4a2fc15-6c54-f111-bec6-7ced8d6fb2a3	58	Dominick Bretana	M	M18-24	8	5:22:38	0:33:00	0:03:14	2:46:54	0:02:16	1:57:13	United States	
+1da26baf-232a-47a6-a613-510669827265	59	Marcin Szych	M	M45-49	8	5:24:54	0:34:53	0:03:17	2:41:14	0:02:26	2:03:04	Poland	
+b12541e3-ed64-f011-bec3-6045bd05f634	60	Daniel Twigg	M	M18-24	9	5:25:14	0:31:07	0:03:10	2:45:11	0:03:33	2:02:13	United Kingdom	
+89d6424e-46c3-4259-92f9-96aa646863e3	61	Mehdi Benni	M	M45-49	9	5:26:07	0:31:20	0:01:49	2:28:34	0:02:38	2:21:47	France	
+c52a290e-d6d6-f011-8543-6045bd05fcc1	62	Andrei Kochnev	M	M30-34	13	5:26:53	0:32:10	0:03:01	2:41:17	0:04:25	2:05:59	United Arab Emirates	
+b31cf828-ef2d-4f17-9066-f55adb1aa229	63	Issam Albusaidi	M	M30-34	14	5:28:16	0:36:49	0:02:43	2:29:13	0:02:15	2:17:16	Oman	
+bce1142e-763a-4afd-a140-8d17284cf4a0	64	Dmitry Frolov	M	M30-34	15	5:28:18	0:38:34	0:02:10	2:46:57	0:02:33	1:58:05	Kyrgyzstan	
+d0a8e5ea-cb83-4c6b-ba87-a9ccb9305ad5	65	Mohammed Al-Hattali	M	M40-44	7	5:28:32	0:44:54	0:02:49	2:42:51	0:02:51	1:55:07	Oman	
+45e9b839-a6c4-f011-bbd3-6045bd09951e	66	timothé Lefaure	M	M18-24	10	5:29:34	0:34:54	0:03:20	3:00:19	0:02:52	1:48:09	France	
+e6d8ff1e-0e9a-f011-b4cc-000d3a3173b5	67	Guillaume Coulon	M	M35-39	11	5:29:57	0:43:28	0:05:59	2:57:58	0:03:09	1:39:22	France	
+b67a9fbd-d67e-f111-ab0e-70a8a59b0458	68	Mark Reynolds	M	M25-29	5	5:30:21	0:41:19	0:05:30	2:49:42	0:03:18	1:50:33	United Arab Emirates	
+274d5cf3-bbc3-48be-b529-9653b07d16d7	69	Pascal Cochard	M	M60-64	2	5:31:34	0:46:22	0:03:21	2:44:14	0:02:00	1:55:38	France	
+c718f484-fa3f-f111-88b4-0022480994c2	70	Roméo Gauquelin	M	M18-24	11	5:33:43	0:51:37	0:04:34	2:39:40	0:02:48	1:55:03	France	
+15208b78-4c9d-f111-b8dd-7ced8d6ecc26	71	Dina Sadek	F	F25-29	1	5:33:43	0:41:31	0:02:05	2:56:07	0:02:38	1:51:22	United Arab Emirates	
+71fabdc0-cdec-f011-8544-0022480b738e	72	Paco Duffaud Marès	M	M18-24	12	5:33:49	0:36:18	0:03:43	2:52:14	0:02:06	1:59:27	France	
+728e865e-471f-4b67-8dcf-54586986c620	73	Yvonne Ortlepp	F	F45-49	3	5:33:54	0:37:29	0:03:12	2:40:36	0:03:38	2:08:58	Germany	
+8410cbf4-e87c-ef11-a670-000d3a59a9a1	74	Georgia Taylor	F	F25-29	2	5:34:35	0:28:35	0:02:49	2:49:42	0:04:04	2:09:24	United Kingdom	
+da0d973b-528b-4788-a441-f527196b0199	75	Samuel Oldham	M	M35-39	12	5:34:44	0:28:27	0:03:11	2:33:39	0:02:52	2:26:35	United Kingdom	
+084bf13b-5b4c-4699-bba1-c8f9d496aa1f	76	Ali Alhebsi	M	M35-39	13	5:34:49	0:39:34	0:02:59	2:53:35	0:04:58	1:53:44	United Arab Emirates	
+cf18e138-7b3b-f011-b4cc-000d3a5b50ba	77	Denis Bulgakov	M	M45-49	10	5:36:12	0:33:36	0:02:36	2:30:21	0:05:53	2:23:46	Unknown	
+2e54ba48-cc08-4987-a2d6-e0ac251989de	78	Mohamed Yahya Abdelhai Mohamed	M	M45-49	11	5:36:16	0:44:41	0:04:50	2:43:15	0:02:56	2:00:34	Sudan	
+c8306f37-e8f2-49d7-8c40-11a601515ab2	79	Erik Boekel	M	M55-59	1	5:36:47	0:38:52	0:03:14	2:43:25	0:02:54	2:08:22	Netherlands	
+fbf09cbd-e1b6-42f6-acaa-751aa6446bfb	80	Jean-Francois Orhan	M	M60-64	3	5:37:10	0:37:38	0:02:25	2:51:36	0:03:47	2:01:44	France	
+d1283348-b7ad-4d85-93b8-dc21b58aa8c2	81	Vladimir Razuvaev	M	M40-44	8	5:37:27	0:40:16	0:03:58	2:35:18	0:03:00	2:14:55	United Arab Emirates	
+21e7e025-7eea-4c9a-a7f8-c54d17e58a68	82	Maxat Aitbayev	M	M45-49	12	5:37:42	0:37:12	0:03:05	2:45:59	0:02:44	2:08:41	Kazakhstan	
+fce4e4b8-3bc9-480e-9478-aa023b79f9f4	83	Reem Al Harthy	F	F35-39	3	5:38:14	0:39:20	0:03:13	2:54:22	0:03:29	1:57:49	Oman	
+d7543138-e5a9-402a-8721-bdfced7448bb	84	Oliver Swallow	M	M25-29	6	5:41:14	0:38:46	0:03:01	2:54:39	0:02:10	2:02:38	Australia	
+66f4b94d-7029-f011-8c4e-000d3a3173b5	85	Mohamed Bin Hafiz	M	M40-44	9	5:41:58	0:54:45	0:03:31	2:42:24	0:03:27	1:57:51	United Arab Emirates	
+c6c6b57e-c943-f111-88b4-0022480b35b6	86	David Fisher	M	M30-34	16	5:42:06	0:39:47	0:03:58	2:54:39	0:03:04	2:00:38	United Kingdom	
+84c03c56-daf3-4a28-bc14-032abaa1f894	87	Gustavo Mazzotti	M	M40-44	10	5:42:48	0:35:57	0:03:16	2:47:34	0:03:11	2:12:50	Brazil	
+1073e117-b3ae-4c20-92bc-ce84a9e30569	88	Francesco D'Ovidio	M	M55-59	2	5:43:10	0:38:08	0:03:15	2:50:50	0:03:05	2:07:52	Italy	
+0efe02a0-8cc0-f011-bbd2-000d3a5b7c3b	89	Edouard Cauhaupe	M	M18-24	13	5:44:01	0:36:59	0:04:09	2:53:35	0:02:10	2:07:08	France	
+48055abb-01de-43a8-b086-7bafc7b4df79	90	Adelina Akhmetova	F	F35-39	4	5:44:40	0:39:49	0:03:56	3:01:02	0:04:08	1:55:45	United Arab Emirates	
+c809e4dd-ca35-4818-b1f6-04daeabd26f0	91	Vyacheslav Tsoy	M	M50-54	6	5:47:14	0:51:11	0:04:24	2:57:40	0:03:09	1:50:49	Kazakhstan	
+9f569547-0aca-f011-bbd3-6045bd05fcc1	92	Hqasan Andargiri	M	M30-34	17	5:47:47	0:36:18	0:04:10	2:46:13	0:02:39	2:18:26	Saudi Arabia	
+6df81e35-9c1b-4592-b3c7-91f7f62d80a0	93	Srivani Y V	F	F45-49	4	5:48:58	0:45:02	0:02:52	3:08:01	0:03:16	1:49:48	India	
+7e491af4-223c-ef11-840a-00224809fd7c	94	Leonardo Mitri	M	M30-34	18	5:49:14	0:37:27	0:04:46	2:46:33	0:03:29	2:17:00	Brazil	
+1c46789f-ff95-4402-a1ec-75037bd6ace2	95	SLIM RJEB	M	M40-44	11	5:49:37	0:47:08	0:04:11	2:56:26	0:05:08	1:56:44	Tunisia	
+774712c4-810a-f111-8406-0022480a5755	96	Cameron McNab	M	M25-29	7	5:50:04	0:49:37	0:06:18	2:48:14	0:03:40	2:02:14	United Kingdom	
+ad4dbe76-ea0b-f111-8406-6045bd06566a	97	Abdalla Sahall	M	M25-29	8	5:50:11	0:38:55	0:07:22	2:43:46	0:03:46	2:16:21	Sudan	
+6a62e32c-faac-46ab-8285-e16a0c43bbd6	98	Fayyadh Fareed	M	M40-44	12	5:50:15	0:42:41	0:03:29	2:44:59	0:02:50	2:16:16	Bahrain	
+b0ee64a8-dd37-f111-88b4-0022480995bd	99	Oussama Merbouh	M	M25-29	9	5:50:38	0:46:22	0:04:57	3:02:18	0:03:48	1:53:12	Morocco	
+e539e04e-872b-f111-88b3-6045bd08b1a2	100	Muna Nofal	F	F35-39	5	5:50:50	0:36:21	0:03:44	3:11:23	0:05:59	1:53:23	State of Palestine	
+63e16940-6565-eb11-a812-002248029745	101	Carles Ferrater Grau	M	M35-39	14	5:51:04	0:45:07	0:03:53	3:02:01	0:04:30	1:55:34	Spain	
+d31952c0-229d-4522-966e-f760b02f73f5	102	Sabina Fenner	F	F60-64	1	5:51:38	0:33:40	0:03:53	3:03:04	0:03:26	2:07:36	Switzerland	
+957b70fc-82ec-43fc-a1db-bbf7899ec7aa	103	Vladimir Vlasov	M	M30-34	19	5:51:58	0:33:23	0:02:11	2:59:41	0:01:58	2:14:45	Unknown	
+6042c22b-c9e6-4ca2-8c0c-3313a28b65bf	104	Paolo Satta	M	M35-39	15	5:53:31	0:35:14	0:02:37	3:25:44	0:05:14	1:44:42	Italy	
+3194b5ff-2a3f-f111-88b3-6045bd06566a	105	Yeva Baltabek	F	F30-34	2	5:53:36	0:38:52	0:03:56	3:06:55	0:02:32	2:01:20	Kazakhstan	
+855c8f96-33b3-f111-aaac-7c1e528d5074	106	Izuho Koyasu	M	M25-29	10	5:53:57	0:38:36	0:03:40	2:59:21	0:05:58	2:06:22	Japan	
+dc9caa94-822e-f111-88b3-0022480a5755	107	Omar Mohamed	M	M18-24	14	5:54:39	0:35:15	0:04:29	3:06:52	0:02:47	2:05:17	Egypt	
+a717103a-f432-43fc-9e83-83e980569de3	108	Ahmed Albattashi	M	M40-44	13	5:55:04	0:38:25	0:03:14	2:25:52	0:03:20	2:44:13	Oman	
+28a51e88-d6c2-f111-aaad-7ced8d3bb850	109	Salem AlShamsi	M	F30-34	3	5:55:55	0:40:05	0:04:34	3:02:02	0:03:33	2:05:42	United Arab Emirates	
+67a8199c-6d07-f111-8406-002248046ec8	110	imke abma	F	F45-49	5	5:57:00	0:36:27	0:05:30	2:55:11	0:05:19	2:14:33	Netherlands	
+e640a5ff-3e78-4ec8-9a80-425bd6d0cf72	111	David Nevot	M	M50-54	7	5:57:35	0:40:34	0:03:26	3:01:23	0:02:21	2:09:50	France	
+401017be-b22d-f111-88b3-0022480b3ee9	112	Harish Kumar Gudelly	M	M35-39	16	5:59:17	0:47:03	0:04:36	2:54:49	0:05:33	2:07:16	India	
+ca08cc03-0768-f111-a826-0022480a5755	113	Yahia Al Dana	M	M30-34	20	6:00:11	0:46:54	0:03:27	3:03:35	0:02:28	2:03:47	United Arab Emirates	
+af1ade75-9261-488d-b420-9fe7baadda14	114	Francisco Lopez	M	M50-54	8	6:00:56	0:37:42	0:03:56	2:52:56	0:05:00	2:21:22	Spain	
+fb84c551-8d52-f111-bec7-002248046ec8	115	Jacques Le Roux	M	M40-44	14	6:00:58	0:45:17	0:04:39	2:58:04	0:06:02	2:06:58	South Africa	
+89975722-da46-f111-bec5-0022480b35b6	116	Mohammed Alghazali	M	M18-24	15	6:01:11	0:40:31	0:02:36	3:02:56	0:02:23	2:12:44	United Arab Emirates	
+c0e82d98-8dc0-f011-bbd3-6045bd05fcc1	117	Pierre Sadran	M	M25-29	11	6:01:26	0:35:44	0:04:02	3:13:37	0:02:26	2:05:37	France	
+6f791c91-ef5b-ef11-a317-000d3a367177	118	Lucas Bourdiol	M	M25-29	12	6:02:32	0:48:14	0:02:59	2:54:39	0:02:54	2:13:46	France	
+9ea10e86-476e-4dbe-be04-0ca90ced1a1b	119	Yuji Yamamoto	M	M45-49	13	6:02:38	0:44:06	0:02:20	2:57:46	0:02:26	2:16:00	Japan	
+4fafaea2-66c3-f011-bbd3-000d3a5b50ba	120	Francisco Javier Malpica Ramirez	M	M40-44	15	6:02:46	0:56:16	0:03:20	2:59:58	0:03:12	2:00:01	Colombia	
+aa72ff6a-d856-45cf-a834-2c742d231abb	121	Ahmed Al Falahi	M	M40-44	16	6:03:47	0:32:26	0:02:38	2:58:53	0:03:24	2:26:26	Oman	
+0b1dd126-775e-f011-bec2-6045bd09951e	122	Layton Thomas	M	M30-34	21	6:04:00	0:44:00	0:05:16	3:03:08	0:05:55	2:05:42	United Kingdom	
+ee410a8b-d674-47b8-99a6-d4feb0fa0e87	123	Tareq Alansari	M	M18-24	16	6:04:05	0:43:26	0:03:20	3:06:57	0:03:29	2:06:52	Kuwait	
+6f8673d8-a490-4ae0-b089-5fd09d90d043	124	Vincent Servaege	M	M50-54	9	6:04:20	0:33:31	0:03:23	2:39:57	0:02:49	2:44:40	Belgium	
+36bde047-568a-4916-aec3-052dbbb5facb	125	Tom Reiss	M	M60-64	4	6:04:54	0:42:10	0:03:59	3:01:26	0:07:16	2:10:03	Germany	
+64e8ed00-897f-463a-8fed-9efbd3db2993	126	Michael Schulz	M	M65-69	1	6:08:24	0:39:03	0:05:53	2:48:02	0:03:44	2:31:41	Germany	
+985f914a-cab8-48cc-a806-29ff642b2c47	127	Andrea Vico	M	M55-59	3	6:10:06	0:57:04	0:02:52	2:44:37	0:02:53	2:22:40	Italy	
+275fd5ed-4bd4-f011-8544-000d3a3173b5	128	Gergo Varhegyi	M	M40-44	17	6:10:06	0:28:17	0:08:14	3:22:11	0:06:01	2:05:22	Hungary	
+e98c9de9-4347-ed11-bba1-000d3a314d17	129	Elissar Mezher	F	F35-39	6	6:13:05	0:41:56	0:06:01	3:12:57	0:05:27	2:06:44	Lebanon	
+48e671d6-0c6b-f011-bec2-000d3a5b7c3b	130	Lutz Oeser	M	M55-59	4	6:13:36	0:43:06	0:04:07	2:56:58	0:03:18	2:26:08	Germany	
+3c8794e9-930c-f111-8406-002248081bd6	131	Louay Mohaisen	M	M25-29	13	6:14:03	0:37:53	0:04:17	2:52:37	0:04:05	2:35:11	Syria	
+0af5a43d-5ef1-f011-8407-0022480c370f	132	Carel Greeff	M	M35-39	17	6:15:22	0:34:32	0:02:57	2:36:36	0:02:40	2:58:37	South Africa	
+7538010f-4291-ea11-a811-000d3a5a1cf8	133	Olga Fedotova	F	F40-44	1	6:16:35	0:40:44	0:04:16	3:01:21	0:06:00	2:24:15	Unknown	
+c8a2758a-276d-f111-ab0d-6045bd06566a	134	Dmytro Dravnenkov	M	M30-34	22	6:16:46	0:43:13	0:02:59	3:18:21	0:02:38	2:09:36	Ukraine	
+65fc7cbb-0db7-4a66-9e50-d74edf94c4ac	135	Laila Gurtner	F	F18-24	1	6:18:04	0:47:51	0:05:55	3:06:18	0:05:56	2:12:04	Switzerland	
+7efb0a84-55a1-f111-b8dc-70a8a59af2e9	136	Fernando Fantoni	M	M45-49	14	6:19:08	0:39:23	0:04:38	3:12:41	0:04:12	2:18:14	Brazil	
+fe14d8ef-e15f-f111-a826-6045bd06566a	137	Lakshay Khera	M	M30-34	23	6:21:57	0:38:03	0:06:16	3:15:41	0:02:58	2:18:58	India	
+9ddf3107-8506-f111-8406-6045bd06566a	138	Maaike Brown	F	F25-29	3	6:23:03	0:32:18	0:03:51	3:20:04	0:03:06	2:23:45	Netherlands	
+e372c998-92c0-f011-bbd3-000d3a35ffc1	139	OLIVIER SADRAN	M	M55-59	5	6:23:25	0:41:49	0:05:48	3:07:12	0:07:06	2:21:30	France	
+c82e1b5d-5e73-422f-b576-ff17d867c202	140	Filip Rigole	M	M55-59	6	6:25:02	0:35:01	0:03:21	2:47:51	0:04:23	2:54:25	Belgium	
+aaa1ed56-904f-f111-bec6-0022480b3ee9	141	Amy Chick	F	F25-29	4	6:25:32	0:32:32	0:04:08	3:17:05	0:07:17	2:24:30	United Kingdom	
+3c048525-0034-f111-88b3-6045bd08b1a2	142	Shahd Yasser	F	F25-29	5	6:25:34	0:33:30	0:03:24	3:27:14	0:02:32	2:18:54	Egypt	
+07e95184-904b-f111-bec5-6045bd08b1a2	143	Joshua Rainier	M	M25-29	14	6:25:44	0:47:20	0:04:58	3:18:27	0:03:55	2:11:04	United Kingdom	
+97d6b305-6194-ee11-be37-000d3a314ae2	144	Mariana Prince	F	F45-49	6	6:26:50	0:48:33	0:10:55	3:06:19	0:05:49	2:15:13	Venezuela	
+941b4865-6194-ee11-be37-000d3a314c24	145	Ana Maria Prince	F	F45-49	7	6:26:51	0:54:56	0:04:35	3:06:46	0:05:20	2:15:13	Venezuela	
+722e8776-7f3c-f111-88b4-002248046451	146	Izabella Harte	F	F18-24	2	6:27:42	0:34:39	0:03:19	3:38:04	0:03:22	2:08:17	United Kingdom	
+f9733895-1893-43c6-b232-3cbd871b5646	147	Mike Walters	M	M50-54	10	6:27:54	0:38:40	0:02:52	2:50:02	0:03:43	2:52:37	United Kingdom	
+07debf12-7f0c-f111-8406-0022480b3ee9	148	Sari Sawaya	M	M40-44	18	6:28:45	0:39:43	0:04:36	2:58:01	0:03:43	2:42:43	United Arab Emirates	
+09b4b9d7-c93b-43e3-82c3-fcb1fe9e1ac7	149	Frédéric Manguin	M	M45-49	15	6:29:14	0:36:33	0:04:39	3:06:55	0:05:05	2:36:01	France	
+45b7f814-7f60-4fe2-9ab1-a3cd6b9f97fb	150	Sebastiaan Kerckhof	M	M35-39	18	6:29:33	0:37:26	0:09:34	2:53:00	0:09:46	2:39:47	United Arab Emirates	
+1318256e-c2b5-f011-bbd3-000d3a5b50ba	151	Morgane Goavec	F	F35-39	7	6:29:52	0:35:10	0:03:30	3:39:48	0:03:18	2:08:06	France	
+e948a4ad-62cc-f011-bbd3-6045bd05fcc1	152	NICOLAS GONZALEZ	M	M50-54	11	6:29:55	0:44:17	0:05:45	3:11:48	0:05:33	2:22:32	France	
+8d33b7dd-cf9b-f111-b8dc-7c1e528d5074	153	Frédéric GARCIA	M	M50-54	12	6:29:56	0:48:51	0:06:29	2:59:22	0:03:19	2:31:55	France	
+dd97b78c-75a5-4178-a891-5a54e59f883c	154	Gerry Steinberg	M	M65-69	2	6:31:33	0:41:52	0:02:50	3:02:53	0:03:07	2:40:52	Germany	
+4b74a23c-5b29-4b35-9ae8-7e2f73b48e3e	155	Saleh Alsaleh	M	M35-39	19	6:31:41	0:41:32	0:04:26	3:24:13	0:04:15	2:17:15	Saudi Arabia	
+3fe3f23e-d533-f111-88b3-0022480a5755	156	Dania Abu Zeid	F	F35-39	8	6:34:25	0:48:45	0:04:13	3:21:42	0:03:26	2:16:19	Canada	
+c7786222-6049-46cb-96d1-d8f124c230ca	157	Sara Andersson	F	F50-54	1	6:34:38	0:42:35	0:04:03	3:01:41	0:04:11	2:42:08	Sweden	
+03c2069d-5093-4dff-a434-a3b38175896b	158	Marleen Van Moorsel	F	F30-34	4	6:34:50	0:44:20	0:03:31	3:17:38	0:04:38	2:24:43	Netherlands	
+4f8d9e47-5cbf-4b11-9079-f3645199de27	159	Sandra Klöcker	F	F40-44	2	6:36:20	0:36:31	0:03:05	3:19:21	0:03:47	2:33:35	Germany	
+2b8da1a6-abbd-f111-aaae-70a8a5b19cbc	160	Musab Najjar	M	M18-24	17	6:36:41	0:48:36	0:05:46	3:09:53	0:05:06	2:27:21	Saudi Arabia	
+76e0ba17-745b-ef11-a316-00224808301f	161	Serge Gabarre	M	M55-59	7	6:38:09	0:44:10	0:05:41	3:14:17	0:04:35	2:29:27	France	
+c85c214b-d042-f111-88b4-0022480995bd	162	Alasdair Morrison	M	M30-34	24	6:38:25	0:41:23	0:06:53	3:18:29	0:06:52	2:24:49	United Kingdom	
+a083f693-f30c-f111-8406-7ced8d6f1799	163	Luis Maria Gonzalez Sanchez	M	M25-29	15	6:38:36	0:43:52	0:03:55	3:17:42	0:06:54	2:26:13	Spain	
+11604d34-78d6-f011-8544-6045bd05f634	164	Ermias Habteab	M	M35-39	20	6:38:54	0:45:51	0:04:35	3:27:16	0:03:33	2:17:40	Eritrea	
+7647c4bf-5d6a-f111-a825-0022480b88da	165	Laurent DELAUX	M	M60-64	5	6:39:16	0:39:21	0:05:13	3:16:34	0:06:15	2:31:53	France	
+c20bded4-eb70-f111-ab0d-0022480994c2	166	Osama Al-Khanjry	M	M18-24	18	6:39:41	0:46:26	0:03:39	3:23:51	0:03:30	2:22:15	Oman	
+04b0b433-09ef-f011-8407-6045bd015e4c	167	Saeed Al Kindi	M	M18-24	19	6:41:30	0:53:06	0:03:44	2:52:44	0:02:49	2:49:07	Oman	
+116fc9d6-e960-47e7-a032-6891483f0f72	168	Jörg Alex	M	M60-64	6	6:43:58	0:40:21	0:03:19	3:15:47	0:04:59	2:39:32	Germany	
+fe5431b3-e408-f111-8406-0022480a5755	169	Mohammed Fayed	M	M18-24	20	6:44:44	0:38:52	0:03:57	3:15:03	0:01:56	2:44:56	Egypt	
+e36f5d94-2213-f111-8406-6045bd08b1a2	170	Ismail Al Abdali	M	M25-29	16	6:44:56	0:45:07	0:05:23	3:18:36	0:03:29	2:32:21	Oman	
+3f90bee6-b9e4-f011-8543-6045bd05fcc1	171	Ben Alexander	M	M25-29	17	6:46:41	0:35:53	0:04:07	3:19:28	0:03:30	2:43:42	United Kingdom	
+294c3fba-b176-f111-ab0e-70a8a59b112b	172	Gennady Faradzhev	M	M35-39	21	6:47:52	0:42:20	0:06:05	3:28:39	0:05:58	2:24:51	Unknown	
+7a673d34-483a-f111-88b3-0022480a5755	173	Raphael De Vallee	M	M35-39	22	6:48:12	0:41:20	0:04:11	3:19:30	0:03:34	2:39:37	France	
+61797ed4-ec85-f111-ab0f-0022480994c2	174	BrookeMarie Jarvis	F	F30-34	5	6:48:12	0:41:21	0:04:23	3:19:18	0:05:40	2:37:31	United States	
+7b4aa677-ffad-f111-aaab-7ced8d6ecc26	175	Stacey Dowling	F	F40-44	3	6:48:14	0:44:23	0:04:28	3:26:52	0:04:33	2:27:58	New Zealand	
+45f91d3e-15dd-f011-8543-000d3a34b836	176	Kellie Frost	F	F30-34	6	6:50:40	0:49:15	0:06:50	3:26:23	0:05:24	2:22:48	Australia	
+70320852-4b9e-f011-b41c-000d3a5cf7d8	177	Ingrid van de Loo	F	F35-39	9	6:54:13	0:40:20	0:06:13	3:30:00	0:05:49	2:31:51	Netherlands	
+119a867a-cbfe-f011-8406-6045bd06566a	178	Saad Abdullah	M	M30-34	25	6:54:29	0:54:37	0:05:43	3:22:02	0:04:54	2:27:12	Saudi Arabia	
+2430ae66-7cc1-f011-bbd3-0022480c097c	179	Tillmann Kloss	M	M25-29	18	6:54:58	0:35:27	0:03:32	3:20:01	0:02:50	2:53:08	United Arab Emirates	
+2f678a2d-05b6-44b9-8d6f-2b0886be7e6e	180	SYLVAIN MAZOYER	M	M50-54	13	6:55:08	0:46:09	0:03:26	3:11:03	0:05:53	2:48:35	France	
+d3a16031-110c-f111-8406-0022480b88da	181	Faisal Alhammadi	M	M25-29	19	6:55:32	0:49:47	0:05:24	3:20:27	0:04:26	2:35:27	United Arab Emirates	
+ccdaf13e-71a5-4a1f-b59a-2113510775e0	182	James Dingwall	M	M45-49	16	6:55:35	0:42:20	0:05:05	3:06:21	0:08:05	2:53:44	United Kingdom	
+88b1c401-ed01-f111-8406-6045bd08b1a2	183	Silviu Postavaru	M	M40-44	19	6:57:30	0:47:02	0:08:36	3:46:46	0:06:42	2:08:25	Romania	
+198f5cd6-0cfe-413e-b9e1-2247d3850325	184	Gali Amir	M	M65-69	3	6:58:20	0:47:09	0:06:26	3:10:36	0:05:43	2:48:27	Kazakhstan	
+645fdec4-4b5b-f111-bec7-0022480994c2	185	Stephen Ireland	M	M40-44	20	6:59:44	0:54:39	0:05:12	3:14:19	0:04:45	2:40:48	United Arab Emirates	
+0b8f3d0c-018d-f111-ab10-6045bd08b1a2	186	Mohammed Abuljadayel	M	M30-34	26	7:01:45	0:46:42	0:06:11	3:36:57	0:04:47	2:27:08	Saudi Arabia	
+e8037c98-99ba-431f-b795-439376710cd7	187	Said Alshakaili	M	M40-44	21	7:02:17	0:42:02	0:05:05	3:17:50	0:02:57	2:54:22	Oman	
+f61ce93a-3cc5-4678-ab96-84a15747129f	188	Nicolas Piliu	F	M60-64	7	7:03:00	0:43:28	0:06:44	3:09:54	0:04:27	2:58:26	France	
+c0ae6dca-cd29-47dc-b749-09f70eae5d61	189	Humaid Alghandi	M	M55-59	8	7:03:19	0:35:43	0:03:00	2:55:51	0:03:40	3:25:04	United Arab Emirates	
+fd2dd03c-2aef-f011-8407-0022480c097c	190	kunal patel	M	M35-39	23	7:04:41	0:39:03	0:04:44	3:46:44	0:02:42	2:31:29	United Kingdom	
+c93fb0e2-86e5-f011-8544-000d3a5b7c3b	191	Quentin Taillefer	M	M30-34	27	7:05:36	0:39:29	0:04:51	3:20:18	0:06:21	2:54:36	Canada	
+d28b2346-bf76-f111-ab0f-6045bd06566a	192	Olesia Stepanova	F	F30-34	7	7:06:03	0:55:16	0:06:56	3:25:21	0:04:37	2:33:52	Unknown	
+118c9a8b-299c-f011-b41c-000d3a5b7c3b	193	Mazen Al Khatib	M	M40-44	22	7:08:54	0:43:20	0:05:08	3:10:10	0:03:43	3:06:33	State of Palestine	
+0dab06ee-5307-f111-8406-6045bd08b1a2	194	Pierre De Villiers	M	M45-49	17	7:09:19	0:36:14	0:05:01	3:08:14	0:05:03	3:14:47	United Kingdom	
+89080362-8a09-4c06-8e57-9625c5ff6c00	195	Inge Decock	F	F50-54	2	7:10:10	0:37:10	0:05:09	3:29:06	0:05:06	2:53:39	Belgium	
+d20dce92-0eaa-f011-bbd3-6045bd05f634	196	Wojciech Ryba	M	M45-49	18	7:12:45	0:48:55	0:05:19	3:28:21	0:06:23	2:43:47	Poland	
+df691326-176d-f011-bec3-000d3a3173b5	197	Vahan Tatevosian	M	M35-39	24	7:14:13	0:48:06	0:07:08	3:44:30	0:03:25	2:31:04	Armenia	
+2076e241-914b-f111-bec6-0022480995bd	198	Ella Faulkner	F	F30-34	8	7:14:35	0:44:08	0:03:51	3:54:02	0:06:18	2:26:16	United Kingdom	
+fb159550-f34a-f111-bec5-70a8a5aee42c	199	Joseph Sherriff	M	M35-39	25	7:15:35	1:02:10	0:04:30	2:53:37	0:07:35	3:07:44	United Arab Emirates	
+b91f8e1c-f7fa-41ce-9147-7917ea2efd3e	200	Azzam Al Kiyoumi	M	M35-39	26	7:17:11	0:40:23	0:03:16	3:12:14	0:03:36	3:17:44	Oman	
+5a2ddbfb-4a42-f011-b4ca-00224808732a	201	Reda Belahrach	M	M25-29	20	7:18:05	0:50:50	0:04:01	3:25:16	0:02:56	2:55:02	Morocco	
+754bb014-d9a5-f111-b8de-0022480994c2	202	Omair Siddiqui	M	M40-44	23	7:18:46	1:01:34	0:05:22	3:30:12	0:03:49	2:37:49	Pakistan	
+ff215259-6eac-f111-aaab-7c1e528d5074	203	Yousuf Al Maharbi	M	M55-59	9	7:19:45	0:41:16	0:04:57	3:32:08	0:07:25	2:53:59	Oman	
+00344e57-3393-f011-b4cc-000d3a5cf7d8	204	Tia Saxelby	F	F18-24	3	7:20:32	0:32:03	0:04:18	4:14:19	0:05:17	2:24:35	United Kingdom	
+2d2d299e-dc2c-f111-88b3-6045bd06566a	205	Jack French	M	M25-29	21	7:22:46	0:47:03	0:05:27	3:33:24	0:04:10	2:52:43	United Kingdom	
+f13c6285-ce00-f111-8406-0022480b35b6	206	Alexey Khovaev	M	M40-44	24	7:25:46	1:07:17	0:05:04	3:21:59	0:03:12	2:48:14	Unknown	
+bce49ebc-6022-f111-8341-0022480b35b6	207	Elie Halabi	M	M18-24	21	7:26:16	0:42:54	0:05:27	3:34:43	0:06:21	2:56:51	United Arab Emirates	
+8de1b645-7cba-f111-aaae-7c1e528d5074	208	Abdulla Alshebli	M	M18-24	22	7:27:42	0:52:10	0:03:52	3:09:18	0:05:27	3:16:54	United Arab Emirates	
+3775697a-1b29-f111-8341-6045bd08b1a2	209	Bilal Waqar	M	M30-34	28	7:28:02	0:40:13	0:06:37	3:18:11	0:08:15	3:14:45	India	
+ca944cf9-673e-f111-88b3-7ced8d3c4cc8	210	Zaki Hamdan	M	M40-44	25	7:28:55	1:06:51	0:04:17	3:28:36	0:04:06	2:45:05	Sudan	
+52ba63ed-de62-4d9e-908a-97b2a0ac10a7	211	Azrah Ebrahim Mohideen	F	F25-29	6	7:35:18	0:47:42	0:06:04	3:33:23	0:07:43	3:00:25	South Africa	
+18851830-a8c8-f011-bbd3-6045bd05fcc1	212	Magid Alosaimi	M	M40-44	26	7:36:57	0:43:36	0:08:19	3:32:13	0:09:05	3:03:44	Saudi Arabia	
+e531d79a-2fc1-f011-bbd3-000d3a5cf7d8	213	Oleg Khaustov	M	M30-34	29	7:40:50	0:43:22	0:04:33	3:36:29	0:05:46	3:10:39	Unknown	
+e7424305-6fd6-f011-8544-000d3a5cf7d8	214	Sumit Upadhyay	M	M35-39	27	7:41:48	0:42:07	0:08:01	3:36:31	0:08:41	3:06:28	India	
+44bd0a5f-a37d-ef11-ac21-000d3a5a1803	215	Thomas Needham	M	M25-29	22	7:42:43	0:51:00	0:07:03	3:48:59	0:06:21	2:49:20	United Kingdom	
+eb061b07-5582-418e-a3a3-7f1c885c39bc	216	Milind Soman	M	M60-64	8	7:44:17	0:39:22	0:06:32	3:42:45	0:04:26	3:11:12	India	
+874540e6-870e-4799-a8ff-1ae8f19a255e	217	Ankita Konwar	F	F35-39	10	7:44:26	0:47:53	0:06:35	3:59:45	0:04:39	2:45:33	India	
+f21a41ea-100b-f111-8406-002248046ec8	218	Rasha Alfahad	F	F30-34	9	7:48:07	0:41:39	0:05:48	3:49:01	0:06:56	3:04:44	Kuwait	
+c27ded4b-f02f-f111-88b4-0022480b84a3	219	Alif K	M	M30-34	30	7:49:31	0:46:56	0:07:19	4:05:22	0:04:35	2:45:19	India	
+fd47b5cb-f600-40c9-9d79-f808a1f1e1c7	220	Andrew Mccarthy	M	M50-54	14	7:51:08	0:50:48	0:05:56	3:48:13	0:08:19	2:57:51	United Kingdom	
+05959d00-ccfd-f011-8406-0022480994c2	221	Simon Lee	M	M55-59	10	7:53:07	0:48:03	0:05:13	3:58:28	0:06:55	2:54:28	United Kingdom	
+7a009a16-c321-ec11-b6e7-000d3a3ba479	222	Krishnaprasad venugopal	M	M40-44	27	7:53:47	1:01:51	0:06:05	3:50:25	0:06:02	2:49:23	India	
+23418a48-c6f9-f011-8406-0022480a5755	223	Erin Barnes	F	F40-44	4	8:07:30	1:04:03	0:05:50	3:16:28	0:09:05	3:32:03	Canada	
+31d25db4-0d6b-f011-bec3-6045bd05fcc1	224	Ebubekir Akbal	M	M25-29	23	8:11:45	1:07:12	0:05:13	3:59:33	0:04:08	2:55:39	Turkey	
+e6a1cc88-aea3-f111-b8dd-6045bd08b1a2	225	Andrea Soler	M	M25-29	24	8:18:54	0:52:56	0:05:26	3:58:18	0:04:28	3:17:46	France	
+295d1961-3530-f111-88b3-0022480a5755	226	Pavan Saigal	M	M30-34	31	8:19:37	0:47:26	0:06:54	4:05:15	0:04:31	3:15:30	India	
+a1b53636-455b-f111-bec7-0022480b3ee9	227	Karen Sanchez	F	F35-39	11	8:21:40	0:51:43	0:07:13	4:03:54	0:06:29	3:12:21	Philippines	
+b2fbad06-ccfe-f011-8406-0022480b35b6	228	Megren Alhumaidhi	M	M30-34	32	8:24:58	0:59:01	0:13:29	4:04:50	0:07:25	3:00:12	Saudi Arabia	
+150a43d5-480d-4811-9bcb-d23c3bc221f0	229	zoe dingwall	F	F45-49	8	8:24:59	0:57:13	0:04:46	4:07:51	0:08:52	3:06:18	United Kingdom	
+1ac4bdaf-4fe6-4307-9b9a-c30148efd483	230	Baida Al Zadjali	F	F40-44	5	8:26:26	0:48:23	0:08:20	4:12:33	0:10:18	3:06:52	Oman	
+beab8052-b2ed-456f-a9cf-adf691f77f70	231	Noor Alzadjali	F	F45-49	9	8:27:07	0:47:40	0:07:48	4:01:21	0:06:08	3:24:10	Oman	
+6619b30c-121e-f111-8341-0022480995bd	99999	David Dufek	M	M45-49	99999							Czech Republic	DNS
+098e1db1-86a9-f011-bbd3-000d3a5b7c3b	99999	Kisoth Madhusoothanan	M	M35-39	99999							India	DNS
+6b3882d6-2a2d-407d-9063-a7c4a15d1fa5	99999	Annalisa Robertson	F	F35-39	99999							Italy	DNS
+a0e04ab1-2cc0-ef11-b8e8-000d3a5a403c	99999	Tamzin Partridge	F	F40-44	99999							United Kingdom	DNS
+4ede3c0a-4200-f111-8406-6045bd08b1a2	99999	Bohdan Zhadan	M	M25-29	99999							Ukraine	DNS
+bded6f45-c5bc-f011-bbd3-6045bd09951e	99999	Yazid Maghrabi	M	M35-39	99999							Saudi Arabia	DNS
+b93fbc4d-6386-f011-b4cc-6045bd05fcc1	99999	Theresa Edelbroich	F	F35-39	99999							Germany	DNS
+b0d0764b-3ffc-f011-8406-0022480b88da	99999	Charlie Rollerson	F	F25-29	99999		1:12:01					United Kingdom	DNF
+87514a5f-936e-4c39-b900-bf05b8db614c	99999	Mohamed Al Sharji	M	M45-49	99999		0:38:15	0:05:20	3:15:47	0:06:45		Oman	DNF
+333aca0a-1fcc-ef11-b8e9-000d3a5a1803	99999	Yuriy Pronin	M	M30-34	99999							Kazakhstan	DNS
+2e4f3738-5f15-43f3-9ae9-4e59928eeaff	99999	Valerianne Nicolaou	F	F35-39	99999							Cyprus	DNS
+6d0a5150-0c01-f111-8406-0022480a5755	99999	Abdulsalam Al Barzanji	M	M45-49	99999							Oman	DNS
+5ccbf958-eda5-f011-bbd3-6045bd05fcc1	99999	Ghanim Ghubash	M	M18-24	99999							United Arab Emirates	DNS
+b9f3fb68-803d-4f55-bc22-4876861727d9	99999	Hassen Harrabi	M	M40-44	99999							Tunisia	DNS
+8a31af2a-1d3a-4fcc-80d5-0a56e2f13974	99999	Will Berney	M	M45-49	99999							United Arab Emirates	DNS
+aa0270af-8fbf-49f2-b518-ec88a4d1a234	99999	Mousa Alharthi	M	M35-39	99999							Saudi Arabia	DNS
+99a048a8-843d-4807-855c-bbdba3abd72c	99999	Bader Al-Hashimi	M	M35-39	99999							Bahrain	DNS
+fd418f5b-9473-f011-bec2-000d3a5cf7d8	99999	Cecile Gabarre	F	F55-59	99999		1:01:21	0:06:32	4:24:44	2:23:09		France	DNF
+d36ef8b7-7aef-f011-8407-0022480c370f	99999	Ismail Farouk	M	M40-44	99999							Egypt	DNS
+fce2dae9-5dab-45f9-9047-503dff3596a0	99999	Mohammed Jassim Alkuwari	M	M30-34	99999							Qatar	DNS
+ee9ac9e6-ade7-f011-8544-000d3a5b50ba	99999	Holly Jepson	F	F30-34	99999							United Kingdom	DNS
+862c9f0c-b55c-4f9c-92ea-a59b18827062	99999	Hisham Rustom	M	M45-49	99999		0:47:54	0:05:04	3:31:29	0:05:11		Sudan	DNF
+3af531ae-a282-f011-b4cc-000d3a5cf7d8	99999	Ali Al-Saadi	M	M25-29	99999							Iraq	DNS
+e3ff70bd-fd9c-445b-8c17-e183dc60d916	99999	Frank Oppatt	M	M65-69	99999							Germany	DNS
+28d81e52-5ba0-4ec3-b649-647a1e23aab8	99999	Yerzhan Tsenov	M	M40-44	99999							Kazakhstan	DNS
+ca0576a4-60f4-ef11-9341-6045bd05011a	99999	Ronan Madan	M	M18-24	99999							India	DNS
+9ed43f0e-63a6-ef11-8a6a-000d3a338a3c	99999	Hamad Al Aydi	M	M35-39	99999							Jordan	DNS
+3dceac85-2aa1-f011-bbd3-6045bd09951e	99999	Hamzeh Shahin	M	M25-29	99999	7:55:39	0:44:32	0:08:31	4:37:43	0:06:22	2:18:32	Jordan	DNF
+65e2e6ea-e42d-49fd-9744-972a6fa0b321	99999	Gerry Capatos	M	M60-64	99999							Greece	DNS
+90ef781c-a20e-41d0-9598-1255f20dc186	99999	Luca Giuseppe Giacomo Gherardi	F	M50-54	99999							Italy	DNS
+74c73e30-8b2d-ee11-bdf4-000d3a314cac	99999	Vadim Sokolov	M	M45-49	99999							Kazakhstan	DNS
+4dc505a7-cb1b-4723-94a8-9675b104e1ff	99999	Evan Bernard	M	M30-34	99999							United States	DNS
+add27e4d-7647-f011-877a-000d3a35ffc1	99999	Humaid Almarri	M	M35-39	99999							United Arab Emirates	DNS
+527c1ef4-23d0-f011-bbd2-000d3a5b5fc7	99999	Glenn Anderson	M	M40-44	99999							Ireland	DNS
+8cf97c18-ee47-f111-bec5-7ced8d3d918d	99999	Martial Curti	M	M35-39	99999							France	DNS
+6639b0ac-65c6-42a9-ae45-56e331cef8db	99999	Alexander Geiss	M	M55-59	99999							Germany	DNS
+759092b5-039e-4c36-9e8a-47da363e1e04	99999	Aya Issa	F	F30-34	99999							Lebanon	DNS
+a1a9e0e6-bad6-f011-8543-000d3a5d1207	99999	Jose Nuñez-Lagos Pfingsten	M	M30-34	99999							Spain	DNS
+9c7d5651-a7d0-ec11-a7b5-000d3a34f9b8	99999	Saâd Chekhchekh	M	M35-39	99999	7:18:06	0:46:04	0:05:57	3:52:42	0:03:26	2:29:58	Morocco	DNF
+13c8756c-ee9f-4961-a429-0c5b9828caef	99999	Dmitri Veremeev	M	M50-54	99999							United Arab Emirates	DNS
+1629d6b1-5d34-f111-88b3-000d3a58c020	99999	Liza Magdalinskki	F	F30-34	99999							Unknown	DNS
+8179744a-9702-f111-8406-0022480b35b6	99999	Hamed Al Fannah	M	M25-29	99999	8:57:01	0:55:49	0:05:58	4:12:30	0:04:15	3:38:28	Oman	
+39ca3441-14e8-f011-8543-000d3a5b5fc7	99999	Ruslan Sulaimanov	M	M35-39	99999	7:33:55	0:44:34	0:07:30	3:26:15	0:07:21	3:08:16	Kyrgyzstan	DNF
+760247cc-1fa1-f011-bbd3-000d3a5b50ba	99999	Alexander Sanchez	M	M50-54	99999							Colombia	DNS
+d0d6c5a7-a46e-49d4-8b5f-c66209a66acb	99999	Kristofe Shu	M	M45-49	99999							Taiwan	DNS
+5a4a41af-3fdd-ee11-904e-000d3a314d17	99999	Marlen Kairzhanov	M	M35-39	99999							Kazakhstan	DNS
+e3d8b369-d400-44f5-8af3-ad640064b5ca	99999	Steffi Steinberg	F	F45-49	99999		0:30:42	0:02:54	2:45:57	0:03:30		Germany	DNF
+b03f610a-7921-f111-8341-000d3a35d1c7	99999	Monika Tschudi		F40-44	99999							Switzerland	DNS
+89c5d6a9-bd08-f111-8406-0022480b88da	99999	Dalya Alshebli	F	F35-39	99999							Bahrain	DNS
+ac5e7f9b-a5b8-f111-aaac-6045bd024750	99999	Tarek Abdul Rahman	M	M35-39	99999							State of Palestine	DNS
+89de3e07-af91-f111-8076-7ced8d6f6533	99999	Craig Morgan	M	M40-44	99999							United Kingdom	DNS
+072e6431-6021-f111-8341-0022480b84a3	99999	Nawaf Alrajhi	M	M30-34	99999							Saudi Arabia	DNS
+ea62a550-c413-48a5-bbe9-f4bb3be7d564	99999	Luke Thorne	M	M30-34	99999							United Kingdom	DNS
+a085b037-80e0-4329-9c26-19dba701c75b	99999	james veall	M	M50-54	99999							United Arab Emirates	DNS
+a268947c-e3b5-4c78-b85a-f654bd68e3c6	99999	Abdulaziz Aldakhel	M	M30-34	99999		0:49:29	0:05:31	4:36:44	0:12:02		Saudi Arabia	DNF
+f25d18b9-0f55-4864-ad22-456c349db555	99999	Kieran Ballard	F	F50-54	99999							United Arab Emirates	DNS
+f5ca9f84-6a3d-ed11-9db0-00224806ae7d	99999	Rayan Alkhuwaiter	M	M40-44	99999							Saudi Arabia	DNS
+13795fbe-70b9-f111-aaab-70a8a59c43d6	99999	NAFIS IRTIZA	M	M30-34	99999		0:53:20	0:07:48	4:23:09	0:09:31		Bangladesh	DNF
+465614c4-423f-4a74-86ea-a7c44772b4c0	99999	Anna-Maria Grefling	F	F35-39	99999							Poland	DNS
+7dc078e2-399a-f011-b4cb-7ced8d70c1af	99999	Zahir Almamari	M	M25-29	99999							Oman	DQ
+34266eca-7107-f111-8406-000d3a3492af	99999	Nawaf Al Marzouq	M	M18-24	99999							Kuwait	DNS
+89034b0f-8be5-f011-8544-000d3a3173b5	99999	Noor Alaujan	F	F45-49	99999							Saudi Arabia	DNS
+bc54c5d9-e78a-f011-b4cc-000d3a3173b5	99999	Gabriel Elvira Selischi	M	M55-59	99999							Romania	DNS
+69d8712b-615b-f111-bec7-0022480b35b6	99999	Nimran Alajmi	M	M25-29	99999							Saudi Arabia	DNS
+1859730f-b4ab-ef11-b8e8-000d3a5ae96c	99999	Nina Golovchanskaia	F	F40-44	99999							United Arab Emirates	DNS
+4cece91f-134a-ed11-bba1-000d3a314c24	99999	Ahmed Alomrani	M	M40-44	99999							Saudi Arabia	DNS
+69299a34-ba26-f011-8c4e-000d3a5b50ba	99999	Dev Patel	M	M35-39	99999							United Kingdom	DNS
+abf19081-3b4e-4e1b-a474-5d0da104e21a	99999	Karim Felix	M	M45-49	99999							United Arab Emirates	DNS
+3a7ae24f-7887-ee11-8179-000d3a31458d	99999	Surabhi Sawardekar		F35-39	99999							India	DNS
+73b7c7f3-61f3-49b2-9091-762535eebfb2	99999	Catalin Radbata	M	M45-49	99999							Romania	DNS
+3ea7eda8-45c5-ef11-b8e8-6045bd088264	99999	LT CDR VIDYASAGAR MEHTA	M	M40-44	99999	7:45:14	0:41:21	0:05:54	3:48:35	0:05:23	3:04:01	India	DNF
+5b55c10a-6ba3-ee11-be37-000d3a314ae2	99999	Anton Koroviakov	M	M30-34	99999							United Arab Emirates	DNS
+97185f61-5242-f111-88b3-0022480a5755	99999	Hamad Alkandrei	M	M35-39	99999	7:50:38	0:50:37	0:06:41	4:13:17	0:07:01	2:33:01	Kuwait	DNF
+b4a698bb-ffdd-400a-a294-5737046f49c3	99999	Heidi Groensedt	F	F50-54	99999							Denmark	DNS
+988029f0-0f81-4f11-a473-146d3c227de1	99999	Erik Lentfert	M	M55-59	99999							Netherlands	DNS
+ca59c294-e6da-4327-a0e6-7cf8c8569223	99999	Bader Alzayani	M	M45-49	99999							Bahrain	DNS
+3dff3054-03c9-f011-bbd3-000d3a5b50ba	99999	Alfredo Bandini	M	M30-34	99999							Italy	DNS
+a4a5a2c7-a244-f011-877a-6045bd09951e	99999	MUBARAK ALMANNAI	M	M18-24	99999							Qatar	DNS
+cb3f6bd0-149c-f011-b41c-0022480a7385	99999	Kush Raj	M	M18-24	99999	8:05:29	1:06:54	0:05:12	4:06:24	0:06:46	2:40:14	India	DNF
+32939857-66e3-f011-8544-6045bd05f634	99999	Jonathan Hancox	M	M30-34	99999							United Kingdom	DNS
+f5bb6727-96b4-4c03-a596-1b2745e0fdf3	99999	Jean-Michel Gebran Gebran	M	M40-44	99999							Lebanon	DNS
+c938c9c5-2345-4f71-826f-5cff0c1be941	99999	Ilya Popov	M	M40-44	99999							Unknown	DNS
+311492e7-c740-43f5-af9a-d4b0e36dbe1c	99999	Joerg Erlebach	M	M60-64	99999							Germany	DNS
+63539665-f7cf-4d38-bbb7-e145a9e29100	99999	Ilia Zorin	M	M40-44	99999							Unknown	DNS
+e0699196-6e0d-4825-b17a-1c4878cc5e72	99999	James Bell	M	M35-39	99999							United Kingdom	DNS
+c3d1552a-884d-ed11-bba1-000d3a314d17	99999	Luca Pellicioli	M	M45-49	99999							Italy	DNS
+2fda7928-3c4d-f111-bec5-0022480b88da	99999	francesco monfreda	M	M60-64	99999							Italy	DNS
+cd2beb32-5ff8-40f9-b280-8c6ab7218843	99999	Tarek Baghdadi	M	M35-39	99999							Algeria	DNS
+2760e70e-310e-f111-8406-0022480b88da	99999	Kunal Savjani	M	M45-49	99999							United Arab Emirates	DNS
+4593509f-53ad-404f-80ee-17e56fc107d6	99999	Lars Bo Groensedt	M	M60-64	99999							Denmark	DNS
+540e9732-8a05-f111-8406-0022480994c2	99999	Alec Shakeshaft	M	M50-54	99999							United Kingdom	DNS
+7c94fb75-49b5-4d14-967b-bad0819db41b	99999	Leandro Spinardi	M	M45-49	99999							Brazil	DNS
+b19c69c3-4c00-f011-bae2-6045bd05fcc1	99999	Vitezslav Fort	M	M40-44	99999							Czech Republic	DNS
+a44d8fc0-6a86-401f-8535-12309da91433	99999	Lorenzo Bel	M	M30-34	99999							Netherlands	DNS
+fcfe712d-28d3-4411-ab41-7202e06aff3b	99999	Filippo Tomasini	M	M35-39	99999							Switzerland	DNS
+222bea10-e333-47a3-9944-ea28607fda93	99999	Zhandos Ni	M	M35-39	99999							Kazakhstan	DNS
+0393cd36-8af8-ed11-8849-000d3a31458d	99999	Tussup Nukenov	M	M35-39	99999							Kazakhstan	DNS
+2fda7928-3c4d-f111-bec5-0022480b88da	99999	francesco monfreda	M	M60-64	99999							Italy	DNS
+240e5a3e-23a1-ef11-8a69-000d3a5a403c	99999	Harrison Katusiime	M	M35-39	99999							Uganda	DNS
+a51d24f8-2f33-4fe4-bcfd-1bf2caaeac3e	99999	Wouter De Vet	M	M35-39	99999							Netherlands	DNS
+58b73827-9644-f111-88b3-6045bd06566a	99999	Tim Little	M	M35-39	99999							United Kingdom	DNS
+82ebd017-f74c-f111-bec6-002248046451	99999	Jesson Jones Rebalbos	M	M35-39	99999							United Arab Emirates	DNS
+b5e682fc-12a8-f111-b8de-6045bd06566a	99999	Kenji Miyake	M	M55-59	99999							Japan	DNS
+f5315d24-8e49-ef11-a317-6045bd017e21	99999	Kiran Kang	F	F45-49	99999							United Arab Emirates	DNS
+b9e4213d-a918-4008-9316-7c71fc5d2aa4	99999	Ed Rowland	M	M40-44	99999							United Kingdom	DNS
+496fb4fe-ddfd-f011-8406-002248046451	99999	Ivana Sokolovska	F	F40-44	99999							North Macedonia	DNF
+c8c6c97e-5db4-4901-80fb-1d3c6c93b2eb	99999	Fatma Alsalem	F	F40-44	99999							Kuwait	DNS
+e89eb41f-4f5c-4473-ba5c-6ef64ed2d726	99999	Jon Cowell	M	M60-64	99999							United Kingdom	DNS
+1c8b3c6f-0f7c-ee11-8179-000d3a31406e	99999	Rinaldo Ceccano	M	M55-59	99999							Italy	DNS
+0225dbac-28d7-ee11-9079-000d3a314329	99999	Jack Bargery	M	M25-29	99999							United Kingdom	DNS
+d82a8859-7285-4167-8014-3da2a3498024	99999	Dalia Badrawi	F	F40-44	99999							Egypt	DNS
+1e4611bf-f3c2-f011-bbd3-000d3a5b50ba	99999	Michael Drummond	M	M30-34	99999							United Kingdom	DNS
+3e190ad4-2076-4a7d-9d75-158da3cfdfe5	99999	Ajay Bhute	M	M45-49	99999		0:57:45	0:10:25	4:49:56	0:14:34		India	DNF
+e89eb41f-4f5c-4473-ba5c-6ef64ed2d726	99999	Jon Cowell	M	F50-54	99999							United Kingdom	DNS
+405e9573-fbdc-f011-8543-000d3a5b5fc7	99999	mohamad el nahi	M	M40-44	99999							Lebanon	DNS
+6ad2bd95-44ba-4864-a1cb-75fcd426ea37	99999	Mahbubur Rahman	M	M30-34	99999							Bangladesh	DNS
+2e486b59-75d2-4858-984b-0f270fab6333	99999	Miranda Gahrmann	F	F40-44	99999							Netherlands	DNS
+0c075bd3-cca9-45b9-9c4a-d73f3ba7d2ba	99999	Thomas Matthews	M	M30-34	99999							United Kingdom	DNS
+b4d03eff-19cb-4ec8-879e-6b7290f584dd	99999	Michael Stucki	M	M50-54	99999							Switzerland	DNS
+e89bcd0c-87da-4154-9107-1f03a3b05832	99999	Francesca KLEIN	F	F30-34	99999							Germany	DNS
+9b1ca2ca-bd7f-49f1-8a45-295bc1749291	99999	Frank Schmidt	M	M55-59	99999							Germany	DNS
+85161140-f3ee-f011-8406-00224804742c	99999	Anna Tobak	F	F18-24	99999							Unknown	DNS
+5af9c836-2fc9-4cbc-bed9-64cbed90261d	99999	Pedro Matos Rosa	M	M45-49	99999							Portugal	DNS
+5c39562b-8a3d-f111-88b3-0022480a5755	99999	MOHAMED ALQUBAISI	M	M30-34	99999							United Arab Emirates	DNS
+177e1310-49d8-f011-8544-6045bd05f634	99999	Rafael Soto	M	M55-59	99999							Canada	DNS
+f06e8da0-4f04-4805-9909-e28585a0d11d	99999	Jakhongir Nasriddinov	M	M30-34	99999							Uzbekistan	DNS
+72459bb6-5faf-ef11-b8e9-000d3a5a1803	99999	Darren Snooks	M	M35-39	99999							United Kingdom	DNS
+b3b854fd-aec0-f011-bbd3-0022480c097c	99999	Ryan Sprott	M	M35-39	99999							United Kingdom	DNS
+c1fdf3f8-64e8-f011-8544-000d3a5cf7d8	99999	Alia Albaghdadi	F	F35-39	99999							Saudi Arabia	DNS
+4fc14930-1e4c-4202-9c9d-e3d5fa03c202	99999	Luis Oertel	M	M18-24	99999							Germany	DNS
+5876cca0-10ef-f011-8407-00224805e61c	99999	Ali Al Ghaziri	M	M40-44	99999							Lebanon	DNS
+a640d1ae-4cb2-f011-bbd3-000d3a5b50ba	99999	Mohamad Aljassmi	M	M35-39	99999							United Arab Emirates	DNF
+fc4db90e-8dc0-f011-bbd3-6045bd05f634	99999	Carla Botha	F	F40-44	99999							South Africa	DNS
+5d89b435-109c-442e-873f-b3878af356b3	99999	Tatiana Riabushkina	F	F50-54	99999							Switzerland	DNS
+aa8b18dc-e9d0-450d-ba16-8dffe68bbf4c	99999	Steven Ho	M	M50-54	99999							Hong Kong	DNS
+2c65acd5-5246-f111-bec5-6045bd06566a	99999	David Voller	M	M30-34	99999							Australia	DNS
+97c48711-4eec-4a69-90e1-3bea70ffbc39	99999	Adam Alidra	M	M40-44	99999		0:46:40	0:02:28	2:27:23	0:04:23		United States	DNF
+bed66dc2-56cb-ef11-b8e9-000d3a5a1803	99999	Daniyar Shayakhmetov	M	M40-44	99999							Kazakhstan	DNS
+48fa1e73-6617-f111-8341-0022480994c2	99999	Zayed Alsereidi	M	M18-24	99999							United Arab Emirates	DNS
+54793efb-9df8-47fb-b47f-5f9b53ef2ce5	99999	Tomek Rutkowski	M	M45-49	99999							Poland	DNS
+955cee2c-abcd-4f5b-a7c0-f62dffa82316	99999	Evelina Sokolova	F	F40-44	99999							Kazakhstan	DNS
+c9749774-179c-4eb5-835f-dbdb907e606b	99999	Tomasz Salatka	M	M50-54	99999							Poland	DNS
+25b4ef0e-a3eb-4b49-988f-ff36b246fe89	99999	Sophie Cheesman	F	F30-34	99999							United Kingdom	DNS
+d364229d-dbaa-4a9b-8dc3-02b066b2f147	99999	Andrew Shortall	M	M25-29	99999							United Kingdom	DNS
+70a973d5-6a3b-44b5-9f91-4321eeb1969b	99999	Katerina Kratka	F	F40-44	99999							Czech Republic	DNS
+f74a0792-3f4f-f011-877a-6045bd09951e	99999	Alvaro Gil Regidor	M	M35-39	99999							Spain	DNS
+285f4a90-88e8-4f92-bc9c-89fb598d36c0	99999	Nadine Hajj	F	F40-44	99999							Lebanon	DNS
+f3094ce8-16dd-f011-8544-000d3a5b7c3b	99999	Abdulaziz Abunasif	M	M18-24	99999							Saudi Arabia	DNS
+52bc9de7-186c-426a-bad3-9231af99dcb9	99999	Emanuele Gallozzi	M	M50-54	99999							Italy	DNS
