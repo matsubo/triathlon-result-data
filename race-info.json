@@ -175545,7 +175545,7 @@
               "result_tsv": "master/2026/im703_boise_2026/default.tsv",
               "name": "Half Distance",
               "distance": "MD",
-              "description": "2026 IRONMAN 70.3 Boise. Windy, choppy conditions forced organizers to cancel the age-group swim; pros completed a modified swim minutes later. Age-group results are bike+run only; a small number of PRO finishers retain swim splits in the raw source data but the swim segment is not modeled here for data consistency.",
+              "description": "2026 IRONMAN 70.3 Boise, age-group race. Windy, choppy conditions forced organizers to cancel the age-group swim, so results are bike+run only. The PRO race, which swam, is its own Category.",
               "segments": [
                 {
                   "sport": "bike",
@@ -175610,6 +175610,88 @@
               "source_ref": {
                 "results_source": "ironman",
                 "id": "1d87f04c-925d-4196-ae91-bcc64e0fe0f7"
+              }
+            },
+            {
+              "id": "im703_boise_2026_pro",
+              "result_tsv": "master/2026/im703_boise_2026/pro.tsv",
+              "name": "Half Distance PRO",
+              "distance": "MD",
+              "description": "2026 IRONMAN 70.3 Boise, PRO race (IRONMAN Pro Series). The pros swam the full 1.9 km minutes after the age-group swim was cancelled for wind.",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null,
+              "source_ref": {
+                "results_source": "ironman",
+                "id": "44e3a420-6c48-4ac1-abae-03df2392b8aa"
               }
             }
           ]

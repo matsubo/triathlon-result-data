@@ -1,0 +1,85 @@
+ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	Run	Country	Status
+13af07d8-e359-43cb-baa2-f18271176b12	1	Sam Long	M	MPRO	1	3:32:25	0:26:06	0:01:51	1:52:37	0:01:07	1:10:45	United States	
+050eee61-996e-4277-bc6d-2522d9c6036f	2	Ari Klau	M	MPRO	2	3:37:21	0:27:50	0:02:20	1:57:09	0:01:30	1:08:32	United States	
+afcf650e-e972-f011-bec3-000d3a5b50ba	3	Blake Harris	M	MPRO	3	3:37:52	0:25:21	0:01:59	1:58:22	0:01:35	1:10:36	Canada	
+ef713a37-2dc9-45f2-b8d0-8ed50f100266	4	Vincent Luis	M	MPRO	4	3:37:59	0:23:36	0:02:03	1:59:08	0:01:30	1:11:42	France	
+e9648148-53ed-f011-8544-6045bd09fcf5	5	Ben Faeh	M	MPRO	5	3:38:50	0:23:34	0:02:04	1:57:55	0:01:13	1:14:05	Switzerland	
+f0aceb2e-38e0-4710-a642-96ffac884501	6	Matt Hanson	M	MPRO	6	3:39:06	0:25:16	0:02:14	1:59:43	0:01:15	1:10:38	United States	
+c5294115-ffa9-412c-9fd5-542cbd291dfb	7	Brock Hoel	M	MPRO	7	3:42:48	0:24:27	0:01:51	2:01:32	0:01:17	1:13:41	Canada	
+9aa1aa34-0af5-44a2-9fd4-01dacb14c8ce	8	Colin Szuch	M	MPRO	8	3:43:07	0:27:46	0:02:17	1:57:38	0:01:26	1:13:59	United States	
+731c8d05-dc0c-434e-800f-8a087d37d425	9	Nicholas Chase	M	MPRO	9	3:43:35	0:25:22	0:01:59	1:58:54	0:01:30	1:15:49	United States	
+696229ca-9495-4cea-8e7d-05c011d4a6b8	10	Edoardo Leone	M	MPRO	10	3:45:38	0:26:06	0:02:05	1:59:46	0:01:15	1:16:27	Italy	
+8e2a1d21-4481-45e8-b26b-ac957f592a0f	11	Todd Wakefield	M	MPRO	11	3:47:28	0:29:31	0:02:04	1:59:29	0:01:34	1:14:50	Australia	
+0a007f80-5281-4e58-9533-4324c5f9db1f	12	Ben Randall	M	MPRO	12	3:48:13	0:34:43	0:02:20	2:00:35	0:02:55	1:07:39	United States	
+50e59fc5-6338-419d-9707-8b22e8e71b80	13	Adam Feigh	M	MPRO	13	3:49:33	0:27:36	0:02:15	2:00:36	0:01:44	1:17:21	United States	
+6459edac-ef2e-434a-97d2-73ed918ec726	14	Sam Osborne	M	MPRO	14	3:50:34	0:24:41	0:01:54	2:00:16	0:01:18	1:22:25	New Zealand	
+eb4667aa-1943-438b-826a-74773c986f0c	15	Matt McWilliams	M	MPRO	15	3:51:34	0:28:50	0:02:37	2:00:46	0:01:21	1:18:00	United States	
+28c04036-d661-46f9-91d8-3392cf9be735	16	Andy Krueger	M	MPRO	16	3:52:14	0:25:19	0:02:07	2:02:26	0:01:44	1:20:39	United States	
+a50121c5-f304-4f45-a1b9-c140bfa1b680	17	Connor Weaver	M	MPRO	17	3:52:52	0:26:10	0:02:07	2:05:24	0:01:23	1:17:49	United States	
+4377cc65-4e30-4393-a48b-d095219cd182	18	Tommy Doubleday	M	MPRO	18	3:53:11	0:24:38	0:02:08	2:06:27	0:01:37	1:18:22	United States	
+e5b60ecd-1b10-43ae-a1bc-15dd702ef9ed	19	Avraham Mana	M	MPRO	19	3:54:23	0:25:38	0:02:13	2:05:33	0:02:03	1:18:56	Israel	
+f0eab8f9-8c00-49e8-a3b1-6e3008ecd5c2	20	Jackson Laundry	M	MPRO	20	3:54:33	0:25:25	0:02:05	2:04:13	0:04:20	1:18:30	Canada	
+e1d2c7a8-8e81-4f67-bcf5-bf9ba144c9ac	21	John Killeen	M	MPRO	21	3:54:40	0:30:53	0:02:11	2:03:31	0:01:22	1:16:43	United States	
+4c9e93c7-55fe-4e83-b50d-39d7c74b894d	22	Cole Kynoch	M	MPRO	22	3:55:46	0:26:11	0:02:22	2:05:10	0:01:38	1:20:25	United States	
+60c3751b-ce7d-40c1-b0e8-ef781ef16d22	23	Ethan Sunseri	M	MPRO	23	3:56:57	0:28:30	0:02:13	2:09:16	0:01:26	1:15:32	United States	
+49fe3044-1762-4eb0-b48d-b29a28bd0529	24	Blake Selm	M	MPRO	24	3:57:54	0:28:03	0:02:36	2:06:54	0:01:22	1:18:59	United States	
+4597197c-972e-4547-948f-23248ce8bc02	25	Joshua Berles	M	MPRO	25	3:58:09	0:24:13	0:02:07	2:05:54	0:01:41	1:24:14	Germany	
+0be87e60-b7da-440a-8761-4a0e887ae692	26	Matt Jackson	M	MPRO	26	3:58:48	0:29:30	0:02:29	2:07:45	0:01:33	1:17:30	United States	
+39efc2b4-afb6-ec11-983f-00224804c205	27	Sam Hartle	M	MPRO	27	3:59:31	0:24:46	0:02:09	2:08:49	0:01:32	1:22:15	United States	
+8c856efd-a674-ed11-81ab-000d3a31458d	28	Dylan McMurrer	M	MPRO	28	3:59:48	0:25:32	0:02:22	2:02:40	0:01:19	1:27:55	United States	
+56be295e-c710-44d7-a0df-af73e4476f68	29	Robby Webster	M	MPRO	29	4:00:05	0:29:38	0:02:25	2:07:38	0:01:37	1:18:47	United States	
+b987e61a-9418-ed11-b83e-000d3a590f7b	30	Jack Harrell	M	MPRO	30	4:00:29	0:24:44	0:02:35	2:02:51	0:01:57	1:28:23	United States	
+0f3bc680-1c06-4640-a987-3209493eab64	31	Dylan Gillespie	M	MPRO	31	4:00:48	0:25:26	0:02:02	2:03:35	0:01:35	1:28:11	United States	
+aed424c5-2687-ef11-ac21-000d3a338a3c	32	Kirsten Kasper	F	FPRO	1	4:00:50	0:25:41	0:01:57	2:12:13	0:01:26	1:19:33	United States	
+13114b13-25b6-4499-a88c-4582a59172a9	33	Hannah Berry	F	FPRO	2	4:02:05	0:25:56	0:02:22	2:08:13	0:01:42	1:23:51	New Zealand	
+78b693a5-1b25-4624-823b-6da11defacfd	34	Kevin Bishop	M	MPRO	32	4:02:09	0:24:51	0:02:04	2:07:16	0:01:56	1:26:02	United States	
+b106df33-0bf9-47a4-a9d7-07fd3daf9b36	35	Hanne De Vet	F	FPRO	3	4:03:29	0:25:54	0:02:14	2:06:48	0:01:16	1:27:16	Belgium	
+7648fd79-e9aa-4e75-b50f-d6f574aa652c	36	Max Kohll	M	MPRO	33	4:04:12	0:28:22	0:02:55	2:05:35	0:01:29	1:25:52	United States	
+f30edc9a-6f33-4a00-a71a-0119a792a418	37	Connor Readman	M	MPRO	34	4:04:43	0:29:16	0:02:57	2:04:54	0:02:01	1:25:35	United States	
+9137c5ae-d937-4d6d-b99d-3b6ae40cf844	38	Kyle Gabbard	M	MPRO	35	4:05:34	0:32:30	0:02:57	2:04:36	0:01:36	1:23:55	United States	
+46587ae3-1c77-47dd-b28f-cb8770cf2b96	39	Boden Gentile	M	MPRO	36	4:06:27	0:28:23	0:02:09	2:00:40	0:01:22	1:33:52	United States	
+a46abd70-35a8-ef11-b8e9-000d3a5a1803	40	Lydia Russell	F	FPRO	4	4:07:18	0:29:09	0:02:29	2:13:22	0:01:42	1:20:36	United States	
+5a0b114e-9566-4cec-bfbf-ecc115cba048	41	William Balady	M	MPRO	37	4:08:04	0:29:33	0:02:28	2:09:42	0:01:30	1:24:52	United States	
+c3ba9e18-3c83-43f8-a73d-1d1722f6dafb	42	Michael Chronert	M	MPRO	38	4:10:15	0:29:36	0:02:58	2:06:29	0:01:44	1:29:28	United States	
+edc297b2-46c1-409d-8eb0-a65705e6c016	43	Luke Davis	M	MPRO	39	4:11:32	0:32:26	0:02:18	2:11:01	0:01:35	1:24:11	United States	
+9ab0146f-bc57-460f-8034-f8e1f54230cc	44	Rebecca Clarke	F	FPRO	5	4:14:00	0:25:41	0:02:08	2:15:50	0:01:54	1:28:27	New Zealand	
+a797406c-e688-4486-872e-ef7ea9bd0839	45	Grace Alexander	F	FPRO	6	4:14:49	0:26:59	0:02:27	2:12:49	0:01:40	1:30:54	United States	
+dbdf8991-92f7-42e7-a2d9-1c0efac66c5e	46	Adele Likin	F	FPRO	7	4:15:22	0:32:10	0:02:13	2:14:20	0:01:44	1:24:56	United States	
+875cb941-56b2-4739-9b7c-965e7bd7d6e4	47	Megan Foley	F	FPRO	8	4:15:55	0:29:23	0:02:26	2:17:49	0:01:24	1:24:53	United States	
+d159942e-ce3d-4ebf-8901-a36331e0ae40	48	Marissa Lovell	F	FPRO	9	4:16:12	0:31:28	0:02:37	2:21:57	0:01:36	1:18:33	United States	
+ec26d10c-61ec-4448-ae65-2de34c3b5cdd	49	Caroline Kaplan	F	FPRO	10	4:17:00	0:29:19	0:02:25	2:17:09	0:01:58	1:26:11	United States	
+a523b3b1-37ee-438f-be4b-38377f399683	50	Jonathan Fecik	M	MPRO	40	4:17:08	0:29:21	0:02:35	2:06:41	0:02:09	1:36:22	United States	
+ac328e82-4404-4bd6-9a9c-642fddada615	51	Brian Folts	M	MPRO	41	4:17:18	0:32:23	0:02:17	2:13:59	0:01:57	1:26:42	United States	
+e9050f26-66b3-4ddc-85fc-bdfc1d0872ff	52	Lisa Becharas	F	FPRO	11	4:17:50	0:29:20	0:02:19	2:10:32	0:01:30	1:34:10	United States	
+c98cd31e-d3c4-44f3-a5ae-0c664242dd5d	53	Noah Shlesinger	M	MPRO	42	4:19:31	0:28:01	0:02:39	2:17:22	0:01:48	1:29:40	United States	
+e7391400-e07b-43a8-8b4c-c3cfcdff78d5	54	Ali Brauer	F	FPRO	12	4:22:18	0:29:15	0:02:26	2:15:49	0:01:46	1:33:02	United States	
+d3846bd5-10b1-4f82-a126-873e36d9256b	55	Jenna Campbell	F	FPRO	13	4:24:41	0:25:56	0:02:13	2:18:46	0:01:36	1:36:10	United States	
+0554c066-ef9f-487c-8ec1-e002b14a034b	56	Amanda Macuiba	F	FPRO	14	4:26:14	0:32:24	0:02:57	2:21:47	0:01:20	1:27:45	United States	
+6ca08955-d7d9-f011-8543-6045bd05fcc1	57	Jérémy Canham	M	MPRO	43	4:27:30	0:34:34	0:02:31	2:20:01	0:01:37	1:28:48	Canada	
+4f79efd0-d8e6-4d46-a74d-54f019764d4d	58	Carolyn Olsen	F	FPRO	15	4:28:43	0:36:39	0:03:04	2:17:17	0:01:48	1:29:55	United States	
+2fceb4ad-1fc8-4afb-9caa-cbee524723e0	59	Amber Ferreira	F	FPRO	16	4:29:39	0:30:37	0:03:13	2:22:21	0:02:24	1:31:05	United States	
+a81242be-067f-419e-aeca-ac92ecf80efb	60	Kate Curran	F	FPRO	17	4:30:48	0:26:48	0:02:37	2:24:26	0:01:53	1:35:04	United Kingdom	
+d6943cd9-f32c-4409-809a-3dd8e0f846b8	61	Freya McKinley	F	FPRO	18	4:33:11	0:28:41	0:02:27	2:23:12	0:01:53	1:36:59	United States	
+0f66fe7c-b1e8-4b45-8eb3-6787e9b383be	62	Megan Tuncer	F	FPRO	19	4:35:15	0:34:07	0:02:55	2:22:01	0:01:44	1:34:28	United States	
+0c29454a-4b68-41e2-89c0-d5d5a2ac204e	63	Kayla Bowker	F	FPRO	20	4:38:52	0:34:34	0:03:00	2:24:25	0:01:50	1:35:03	United States	
+c03e2d4e-799a-4d7c-b050-421a2e8713eb	64	Rebecca Yunginger	F	FPRO	21	4:40:42	0:33:20	0:02:37	2:20:32	0:01:50	1:42:24	United States	
+78fa0a84-2d12-43e6-bcea-fd35e1e0d2f7	65	Aliisa Heiskanen	F	FPRO	22	4:41:19	0:34:08	0:02:52	2:20:14	0:01:31	1:42:34	Canada	
+9629fd72-d4f1-42fe-abd5-2a97881dfdfe	66	Katie Spoelman	F	FPRO	23	4:43:28	0:29:13	0:02:46	2:28:50	0:02:14	1:40:25	United States	
+22cafe3b-e61a-4798-a368-ef5873a1b665	67	Danae Morris	F	FPRO	24	4:45:32	0:32:15	0:02:24	2:31:17	0:01:45	1:37:51	Canada	
+ed3491f4-c097-4033-82c4-491730b3dedc	68	Erin Castell	F	FPRO	25	4:50:12	0:31:46	0:02:56	2:29:56	0:01:33	1:44:01	Canada	
+9445de8e-1ebb-4973-9889-5410c832bccd	69	Lauren Lehenbauer	F	FPRO	26	4:58:12	0:29:28	0:03:39	2:38:27	0:02:15	1:44:23	United States	
+19ff4544-df84-4654-a550-738b985ef73f	99999	Jackie Hering	F	FPRO	99999							United States	DNS
+3513c012-257e-46c5-b7f8-1e3a08150e08	99999	Evan Price	M	MPRO	99999		0:32:02	0:02:36	2:04:27	0:01:35		United States	DNF
+cbb8fb37-9811-4704-94f7-6be8f80eaa97	99999	Alycia Fast	F	FPRO	99999		0:33:22	0:02:31				United States	DNF
+6c71c08a-c165-4850-8c72-3bce53bc1104	99999	Eduardo Perez Sandi	M	MPRO	99999		0:26:07	0:02:03	2:10:10			Mexico	DNF
+88dcbfad-ec3f-409f-9300-5235bde2fa67	99999	Gabrielle Lumkes	F	FPRO	99999							United States	DNS
+94448416-23eb-492a-861e-c9a184b620d5	99999	Leonard Arnold	M	MPRO	99999		0:24:47	0:02:20	2:00:01	0:01:40		Germany	DNF
+2e57c98d-cc62-4f5e-a761-90f447ac60c3	99999	Shyanne McGregor	F	FPRO	99999							United States	DNF
+620cdf53-68b1-49af-ae5a-2b4940a55163	99999	Dillon Longo	M	MPRO	99999		0:24:52	0:02:21	2:06:28	0:01:45		Canada	DNF
+f1cd494b-da85-4d3e-aa37-4d09c3e5ccde	99999	Rachael Tatko	F	FPRO	99999		0:34:04	0:02:39	2:25:20	0:01:44		United States	DNF
+d0f1b0d4-6dc6-4918-b10f-b2c3dd44bedc	99999	Brad Bischoff	M	MPRO	99999							United States	DNS
+e1fb63dc-7f4a-ef11-a316-000d3a3b4ec1	99999	Kerman Alonso Vicente	M	MPRO	99999		0:29:28	0:02:11	2:15:17	0:02:44		United States	DNF
+30251138-96c3-4bae-9286-a221c071ea13	99999	Cameron Wurf	M	MPRO	99999							Australia	DNS
+a7f4f6ff-6a3d-4320-888b-2d5ed10cc434	99999	Thomas Inigo	M	MPRO	99999							United States	DNS
+7c265ce9-3574-4452-943f-8ba482f6d30f	99999	Adam Goulet	M	MPRO	99999							United States	DNF
+8465757b-7a6e-4e3c-9668-d2ea20ad7674	99999	Meghan Grant	F	FPRO	99999							United States	DNS

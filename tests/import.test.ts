@@ -556,6 +556,23 @@ describe("runImport: refetch", () => {
     expect(report.editions[0].status).toBe("unchanged");
     expect(repo.readText(path)).toBe(committed);
   });
+
+  test("PRO-only results refetch over a PRO-only Category, but not over an age-group one", async () => {
+    const pro = ROWS.map((r) => ({ ...r, div: "MPRO" }));
+    const proTable = im703(pro);
+    const proCommitted = tsvOf({ headers: proTable.headers, rows: proTable.rows.map((r) => r.map((v, i) => (i === 2 ? "Pro Athlete" : v))) });
+    const proRepo = seed(
+      [event("im703_x", [{ date: "2026-06-07", categories: [im703Category("im703_x", "2026", "u")] }])],
+      { [path]: proCommitted },
+    );
+    const ok = await runImport(plan, { sources: { ironman: fixtureSource({ u: proTable }) }, repo: proRepo });
+    expect(ok.exit_code).toBe(0);
+    expect(ok.editions[0].status).toBe("refetched");
+
+    const partial = await runImport(plan, { sources: { ironman: fixtureSource({ u: proTable }) }, repo: fresh() });
+    expect(partial.exit_code).toBe(2);
+    expect(partial.editions[0].reason).toBe("im703_x_2026: PRO-only results (4 of 4 rows are PRO)");
+  });
 });
 
 describe("runImport: JTU add through the JTU adapter", () => {

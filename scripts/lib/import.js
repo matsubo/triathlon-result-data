@@ -880,7 +880,22 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
         const division = header("age_category");
         const di = division ? table.headers.indexOf(division) : -1;
         const pro = di < 0 ? 0 : rows.filter((r) => /PRO$/i.test(r[di])).length;
-        if (di >= 0 && pro >= rows.length * PRO_ONLY_SHARE)
+        // A partial upload posts the PRO results first. A Category whose
+        // committed TSV is PRO-only too is a PRO Category by design.
+        const committedLines = (committed ?? "").split("\n");
+        const ci = division
+          ? committedLines[0].split("\t").indexOf(division)
+          : -1;
+        const committedRows = committedLines.slice(1).filter((l) => l !== "");
+        const committedPro =
+          ci < 0
+            ? 0
+            : committedRows.filter((l) => /PRO$/i.test(l.split("\t")[ci] ?? ""))
+                .length;
+        const proByDesign =
+          committedRows.length > 0 &&
+          committedPro >= committedRows.length * PRO_ONLY_SHARE;
+        if (di >= 0 && pro >= rows.length * PRO_ONLY_SHARE && !proByDesign)
           throw new Skip(
             `${c.id}: PRO-only results (${pro} of ${rows.length} rows are PRO)`,
           );
