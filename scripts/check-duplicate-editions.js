@@ -7,26 +7,24 @@
  * (e.g. "IRONMAN 70.3 Japan" vs "IRONMAN 70.3 Centrair Chita Peninsula Japan").
  * Schema validation alone cannot catch this — only content comparison can.
  *
- * Strategy: for each edition, build a fingerprint from a stable subset of each row
- * (name + total_time). Within a given race year, if >=80% of fingerprints from one
- * edition appear in another edition (from a *different* event), flag the pair.
+ * Strategy: for each Category, build a fingerprint from normalized values of each
+ * Athlete row read by Column role: the name without whitespace, lower-cased, plus the
+ * total time in seconds (so `1:02:03` and `01:02:03` match). Within a given race year,
+ * if >=80% of fingerprints from one Category appear in another (from a *different*
+ * event), flag the pair.
  *
  * Exit code 1 when duplicates are detected.
  */
 
-import { readFileSync } from "node:fs";
-import { dirname, resolve } from "node:path";
-import { fileURLToPath } from "node:url";
+import { resolve } from "node:path";
+import { readCategories } from "./lib/category-reader.js";
 import { loadExceptions } from "./lib/exceptions.js";
+import { parseTime } from "./lib/normalize-time.js";
+import { fsRepo } from "./lib/repo.js";
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const repoRoot = resolve(__dirname, "..");
+const repoRoot = resolve(import.meta.dirname, "..");
 
 const OVERLAP_THRESHOLD = 0.8;
-
-const raceInfo = JSON.parse(
-  readFileSync(resolve(repoRoot, "race-info.json"), "utf-8"),
-);
 
 const allowlist = new Set(
   loadExceptions("duplicate_edition").map(({ a, b }) => pairKey(a, b)),
@@ -40,60 +38,28 @@ function normalizeName(name) {
   return (name || "").trim().replace(/\s+/g, "").toLowerCase();
 }
 
-function extractFingerprints(tsvPath, nameHeaders, totalHeaders) {
-  const full = resolve(repoRoot, tsvPath);
-  let content;
-  try {
-    content = readFileSync(full, "utf-8");
-  } catch {
-    return null;
-  }
-  const lines = content.split(/\r?\n/).filter((l) => l.trim() !== "");
-  if (lines.length < 2) return new Set();
-  const headers = lines[0].split("\t");
-  const nameIdx = headers.findIndex((h) => nameHeaders.includes(h));
-  const totalIdx = headers.findIndex((h) => totalHeaders.includes(h));
-  if (nameIdx < 0 || totalIdx < 0) return new Set();
-  const set = new Set();
-  for (let i = 1; i < lines.length; i++) {
-    const cells = lines[i].split("\t");
-    const name = normalizeName(cells[nameIdx]);
-    const total = (cells[totalIdx] || "").trim();
-    if (name && total) set.add(`${name}|${total}`);
-  }
-  return set;
-}
-
 function collectEditions() {
   const out = [];
-  for (const event of raceInfo.events) {
-    for (const edition of event.editions || []) {
-      const year = (edition.date || "").slice(0, 4);
-      if (!year) continue;
-      for (const cat of edition.categories || []) {
-        if (!cat.result_tsv) continue;
-        const nameHeaders = [];
-        const totalHeaders = [];
-        for (const mc of cat.meta_columns || []) {
-          if (mc.role === "name") nameHeaders.push(mc.header);
-          if (mc.role === "total_time") totalHeaders.push(mc.header);
-        }
-        if (nameHeaders.length === 0 || totalHeaders.length === 0) continue;
-        const fingerprints = extractFingerprints(
-          cat.result_tsv,
-          nameHeaders,
-          totalHeaders,
-        );
-        if (!fingerprints || fingerprints.size < 20) continue;
-        out.push({
-          event_id: event.id,
-          category_id: cat.id,
-          tsv: cat.result_tsv,
-          year,
-          fingerprints,
-        });
-      }
+  for (const category of readCategories(fsRepo(repoRoot)).categories) {
+    if (
+      category.columns("name").length === 0 ||
+      category.columns("total_time").length === 0
+    )
+      continue;
+    const fingerprints = new Set();
+    for (const row of category.rows) {
+      const name = normalizeName(row.get("name"));
+      const seconds = parseTime(row.get("total_time"));
+      if (name && seconds !== null) fingerprints.add(`${name}|${seconds}`);
     }
+    if (fingerprints.size < 20) continue;
+    out.push({
+      event_id: category.eventId,
+      category_id: category.def.id,
+      tsv: category.tsv,
+      year: category.date.slice(0, 4),
+      fingerprints,
+    });
   }
   return out;
 }
