@@ -78,6 +78,11 @@ What the JTU adapter and the core do:
   km for the Distance class (OD 1.5/40/10, SD 0.75/20/5, MD 1.9/90/21.1, LD 3.8/180.2/42.195).
   Give `segments` whenever the course differs — read the distances from the organiser, never
   clone the sibling's. A cancelled leg is expressed only by omitting it from `segments`.
+  The program note `curl -s -g "https://results.jtu.or.jp/api/programs/NNN_1/additionals"`
+  published the actual course in the 2026-10-05 run (duathlon elite 4.93 / 31.65 / 5.33 km
+  against nominal 5 / 30 / 5, and a different course for the same-day age-group race), so
+  check it for every program. It returned nothing on 2026-10-27 because the API was timing
+  out, so treat an empty answer as "unknown", not "nominal".
 - **Refused automatically**: a TSV byte-identical to another TSV (the carousel
   contamination signature), a declared Segment whose lap column is empty for every finisher,
   a duplicated single-use role, an existing (event, date) with different programs.
