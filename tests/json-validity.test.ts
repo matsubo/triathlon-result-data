@@ -52,7 +52,8 @@ describe("JSON Validity", () => {
     expect(errors).toEqual([]);
   }, 30000); // scans + parses every JSON file (incl. the multi-MB race-info.json); the 5s default is too tight as the dataset grows
 
-  test("All paths referenced in race-info.json exist", () => {
+  test("All image and weather paths referenced in race-info.json exist", () => {
+    // result_tsv paths: missing-tsv findings in tests/tsv-lint.test.ts
     const content = readFileSync(raceInfoPath, "utf-8");
     const info = JSON.parse(content);
     const missing: string[] = [];
@@ -74,17 +75,6 @@ describe("JSON Validity", () => {
             statSync(join(repoRoot, weather));
           } catch {
             missing.push(weather);
-          }
-        }
-
-        for (const category of edition.categories || []) {
-          const result = category.result_tsv;
-          if (result) {
-            try {
-              statSync(join(repoRoot, result));
-            } catch {
-              missing.push(result);
-            }
           }
         }
       }

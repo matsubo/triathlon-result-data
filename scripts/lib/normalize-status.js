@@ -99,6 +99,42 @@ export function isStatusToken(cell) {
   return Object.hasOwn(STATUS_TOKENS, fold(cell));
 }
 
+// A cell of dashes or asterisks (-, --, ***, --:--:--) marks a missing value.
+const BLANK_MARK = /^[-*]+(?::[-*]+)*$/;
+
+/**
+ * Whether a cell holds a recognized non-value: a status token (FIN included),
+ * the placeholder rank, or a blank mark (-, --, ***, --:--:--, full-width
+ * forms too). Normalization reads such a time or rank cell as "none" without
+ * losing anything.
+ * @param {string | null | undefined} cell
+ * @returns {boolean}
+ */
+export function isNonValue(cell) {
+  const token = fold(cell);
+  return (
+    Object.hasOwn(STATUS_TOKENS, token) ||
+    token === CONFIRMED ||
+    token === String(PLACEHOLDER_RANK) ||
+    BLANK_MARK.test(token)
+  );
+}
+
+/**
+ * Whether a rank cell is valid: empty, an integer (thousands commas
+ * allowed), the placeholder rank, or a recognized non-value.
+ * @param {string | null | undefined} cell
+ * @returns {boolean}
+ */
+export function isValidRankCell(cell) {
+  const trimmed = typeof cell === "string" ? cell.trim() : "";
+  return (
+    trimmed === "" ||
+    /^(\d+|\d{1,3}(,\d{3})+)$/.test(trimmed) ||
+    isNonValue(trimmed)
+  );
+}
+
 /**
  * Override a status cell asks for: a Status, null to confirm the rank cell
  * (and clear earlier overrides), or undefined when the cell says nothing.

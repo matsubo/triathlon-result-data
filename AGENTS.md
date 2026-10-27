@@ -58,8 +58,9 @@ Agents can help navigate and understand this triathlon result data repository wh
   - ○ `山田 太郎`
   - × `山田　太郎`（全角スペース）
   - × `山田太郎`（スペースなし） — 大会をまたいだ同一人物の名寄せができなくなるため禁止
-  - この規約は `tests/tsv-lint.test.ts` の「Japanese 氏名 values contain a half-width
-    space between family and given name」で静的に検査される。チーム名・ニックネーム
+  - この規約は `tests/tsv-lint.test.ts` の「Japanese names have a half-width space
+    between family and given name」で静的に検査される（`role: "name"` の全列、
+    漢字・かなを含む値が対象）。チーム名・ニックネーム
     登録（年齢欄が空、または数字・括弧・中黒を含む値）や1文字のみの登録は対象外。
     姓名境界が2分割できない外国人名やニックネーム等、正当な例外（Exception）は
     `name-space-allowlist.json` の `entries` に追記する。
@@ -68,12 +69,12 @@ Agents can help navigate and understand this triathlon result data repository wh
     Python の `namedivider-python`（GBDTモデル）で分割を推定する。
   - 連続する半角スペース（`佐藤  桂`のような二重スペース）も禁止。原本
     （JTU等）に由来する表記ゆれとして紛れ込むことがあるため、取り込み時に
-    正規化する。`tests/tsv-lint.test.ts`の「氏名 values do not contain
-    consecutive half-width spaces」で静的に検査される。
+    正規化する。`tests/tsv-lint.test.ts`の「no consecutive half-width
+    spaces」（`role: "name"` の全列）で静的に検査される。
 - **アルファベット氏名は半角に統一**: 全角英字（`Ｔｏｍ Ｓｍｉｔｈ`）は半角
   （`Tom Smith`）へ変換して取り込む。全角のままだと同一人物の大会横断
-  名寄せができない。`tests/tsv-lint.test.ts`の「氏名 values do not contain
-  full-width Latin letters」で静的に検査される。
+  名寄せができない。`tests/tsv-lint.test.ts`の「no full-width Latin
+  letters」（`role: "name"` の全列）で静的に検査される。
 - **年齢区分は性別を M/F の接頭辞で表記する**: `role: "age_category"` の列で
   性別語（男子/女子/男/女）を含む値は、`M25-29`（男子25-29歳）、`F0-24`
   （女子24歳以下）、`M65+`（男子65歳以上）、`M30-39`（30歳代男子）の形に

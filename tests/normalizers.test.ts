@@ -3,10 +3,11 @@ import {
   canonicalAgeCategory,
   classifyAgeCategory,
   parseAgeCategory,
+  relabelAgeCategory,
 } from "../scripts/lib/normalize-age-category.js";
 import { parseGender } from "../scripts/lib/normalize-gender.js";
 import { parseResidence } from "../scripts/lib/normalize-residence.js";
-import { isStatusToken, parseRank, resolveStatus } from "../scripts/lib/normalize-status.js";
+import { isNonValue, isStatusToken, isValidRankCell, parseRank, resolveStatus } from "../scripts/lib/normalize-status.js";
 import { parseTime } from "../scripts/lib/normalize-time.js";
 
 describe("normalizer functions", () => {
@@ -140,6 +141,30 @@ describe("normalizer functions", () => {
     test("FIN only belongs in status cells", () => expect(isStatusToken("FIN")).toBe(false));
     test("unknown token", () => expect(isStatusToken("DNQ *2")).toBe(false));
     test("empty", () => expect(isStatusToken("")).toBe(false));
+  });
+
+  describe("isNonValue", () => {
+    test("status token", () => expect(isNonValue("DNF")).toBe(true));
+    test("FIN", () => expect(isNonValue("FIN")).toBe(true));
+    test("placeholder rank", () => expect(isNonValue("99999")).toBe(true));
+    test("dashes", () => expect(isNonValue("--")).toBe(true));
+    test("full-width dash", () => expect(isNonValue("－")).toBe(true));
+    test("blank time", () => expect(isNonValue("--:--:--")).toBe(true));
+    test("asterisks", () => expect(isNonValue("***")).toBe(true));
+    test("a time is a value", () => expect(isNonValue("0:21:05")).toBe(false));
+    test("a negative time is a value", () => expect(isNonValue("-0:02:20")).toBe(false));
+    test("text", () => expect(isNonValue("ｽｷｯﾌﾟ ｽｷｯﾌﾟ")).toBe(false));
+  });
+
+  describe("isValidRankCell", () => {
+    test("integer", () => expect(isValidRankCell("12")).toBe(true));
+    test("thousands comma", () => expect(isValidRankCell("1,234")).toBe(true));
+    test("placeholder rank", () => expect(isValidRankCell("99999")).toBe(true));
+    test("status token", () => expect(isValidRankCell("DSQ")).toBe(true));
+    test("empty", () => expect(isValidRankCell(" ")).toBe(true));
+    test("an age label is no rank", () => expect(isValidRankCell("50-54歳男子")).toBe(false));
+    test("a time is no rank", () => expect(isValidRankCell("0:41:22")).toBe(false));
+    test("a broken comma is no rank", () => expect(isValidRankCell("12,34")).toBe(false));
   });
 
   describe("parseGender", () => {
@@ -352,6 +377,21 @@ describe("normalizer functions", () => {
     test("implausible bracket has no canonical form", () => expect(canonicalAgeCategory("230歳〜39歳女子")).toBeNull());
     test("both gender words", () => expect(canonicalAgeCategory("男女30-34")).toBeNull());
     test("label without a gender word is out of scope", () => expect(canonicalAgeCategory("30-34")).toBeNull());
+  });
+
+  describe("relabelAgeCategory", () => {
+    test("a fixable label gets its canonical form", () =>
+      expect(relabelAgeCategory("男子25-29歳", "27")).toEqual({ label: "M25-29", contradictsAge: false }));
+    test("an age one year outside the bracket is tolerated", () =>
+      expect(relabelAgeCategory("男子25-29歳", "30")).toEqual({ label: "M25-29", contradictsAge: false }));
+    test("an age contradicting the bracket keeps the label", () =>
+      expect(relabelAgeCategory("46 44男子", "42")).toEqual({ label: null, contradictsAge: true }));
+    test("no age contradicts nothing", () =>
+      expect(relabelAgeCategory("女子24歳以下", "")).toEqual({ label: "F0-24", contradictsAge: false }));
+    test("a canonical label stays", () =>
+      expect(relabelAgeCategory("M25-29", "60")).toEqual({ label: null, contradictsAge: false }));
+    test("a division label stays", () =>
+      expect(relabelAgeCategory("一般男子", "30")).toEqual({ label: null, contradictsAge: false }));
   });
 
   describe("classifyAgeCategory", () => {
