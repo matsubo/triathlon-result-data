@@ -10,6 +10,21 @@ All notable changes to this repository are documented here. Versions follow the 
 - Removed 53 one-off `.mjs` scripts and 16 `.js` scripts (per-batch intake, scanners, one-shot fixers, `fetch-ironman-results.js`) and 81 handoff JSON files.
 - Added `GLOSSARY.md` and `docs/adr/` (ADR-0001 Source references on Categories, ADR-0002 Known-issue counts only shrink).
 
+### Changed (normalized output)
+- `bun scripts/normalize-tsv.js` accepts a full date as well as a year. It exits 1 when a year matches more than one Edition.
+- Status tokens are NFKC-folded. OVT → TOV, ＤＮＦ → DNF, OPN → OPEN, スキップ → SKIP, lap-shortfall words → DNF, and two source-specific marks → DNF (iseshima `DNQ *1`, minato_sakata `SKIP&`): 21 Athletes change from DNS. An unknown token (iseshima 2022 `DNQ *2`) now warns instead of silently becoming DNS.
+- IRONMAN World Championship 2022: real dates 2022-10-06 / 2022-10-08 (were 2022-01-01) and weather. IRONMAN Arizona 2008 November gets its own results; it had shared April's TSV. Duplicate IRONMAN 70.3 Pucon and Puerto Rico 2022 Editions removed.
+- IRONMAN 70.3 Boise 2026 is split into the age-group Category (bike + run, swim cancelled) and `im703_boise_2026_pro` (84 PRO Athletes, who swam).
+- Name fixes: 1,162 doubled spaces collapsed, and 136 Japanese names split into family and given name.
+- Data repairs: cells realigned in 21 Editions (642 Athletes); kurashiki 2019 rebuilt (digits reversed and minutes/seconds swapped in the source export); laps recovered for niijima 2022, miyazaki_seagaia 2023 and ako_tri 2025; basho 2015 first-run ranks now read the right column; overall ranks recomputed from total time for IRONMAN South Africa 2017, France 2017, Portugal 2024 and 70.3 Mont-Tremblant 2024.
+
+### Tooling: Category reader and checks
+- `scripts/lib/category-reader.js` reads every registered Category's TSV once and gives cells by Column role. The Edition document, `check:integrity`, `check:duplicates`, `fix-age-category-labels` and tsv-lint all go through it. `validate-headers.js`, `parse-tsv.js` and `normalize-category.js` are removed.
+- tsv-lint checks name, time and rank cells by Column role, covering every name column (2,151 `Name` headers were unchecked before) and 348 time columns it used to miss. It also fails on unregistered TSVs, a duplicate (Event, date) pair, shared TSVs and duplicate mapped headers.
+- `check:integrity` validates every Edition document against `result-schema.json`.
+- One Known-issue ledger module serves tsv-lint and `check:integrity`. It fails on regressions, improvements and stale entries until `bun run update:tsv-lint-known-issues` / `update:integrity-baseline` is run (ADR-0002). Exceptions load through one loader.
+- CI is one workflow (`.github/workflows/ci.yml`): `bun run test`, `check:integrity`, `check:duplicates`. ajv-cli is dropped.
+
 ## 5.1.0 — 2026-05-20
 
 ### Added (new races)
