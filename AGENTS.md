@@ -126,8 +126,11 @@ It sets up Bun, runs `bun install`, then:
 1. `bun run test` — every `tests/*.test.ts` (JSON syntax and path references,
    race-info.json and weather-data.json against their JSON Schemas, TSV lint,
    image references, normalizer unit tests) followed by `tsc --noEmit`
-2. `bun run check:integrity` — normalizes every Edition and compares
-   missing-value counts against `integrity-baseline.json`
+2. `bun run check:integrity` — normalizes every Edition (validating each
+   against `result-schema.json`) and compares header-warning, unknown status
+   token and missing-value counts against `integrity-baseline.json`; a schema
+   failure or a corpus finding of the Category reader (repeated Edition,
+   shared or unregistered TSV) fails it outright
 3. `bun run check:duplicates` — flags pairs of Editions in the same year whose
    (name, total_time) fingerprints overlap ≥80%; allowlist genuinely distinct
    lookalikes in `duplicate-allowlist.json`
@@ -205,7 +208,7 @@ bun run test:weather        # 全 weather-data.json ↔ weather-schema.json
 bun scripts/normalize-tsv.js <event_id> <year>   # result-schema.json 検証込み
 bun run test:tsv-lint       # 静的規約（氏名スペース・時間形式・順位列・列数整合）
 bun run check:duplicates    # 重複エディション検出
-bun run check:integrity     # 正規化後の欠損検査（integrity-baseline.json の件数との一致を確認）
+bun run check:integrity     # 正規化後の検査（result-schema.json 検証、未登録 TSV 等の検出、integrity-baseline.json の件数との一致を確認）
 ```
 
 新規取り込みは `check:integrity` で **欠損ゼロ** が原則。ソース自体に

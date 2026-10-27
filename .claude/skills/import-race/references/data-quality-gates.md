@@ -6,8 +6,13 @@ On 2026-07-07 a senior-review audit of all 2844 categories / 3.76M athletes
 added permanent quality gates to this repo:
 
 - `bun run check:integrity` (scripts/check-integrity.js) — normalizes every
-  edition and compares header-warning / missing-lap / missing-total counts
-  per category with the Known-issue ledger `integrity-baseline.json`.
+  Edition through `scripts/lib/edition-document.js` and compares
+  header-warning (unmapped header or missing TSV) / unknown-status-token /
+  missing-lap / missing-total counts per category with the Known-issue ledger
+  `integrity-baseline.json`. An Edition failing `result-schema.json`, or a
+  corpus finding of the Category reader (a repeated Edition, a TSV shared by
+  Categories, an unregistered TSV under master/), fails it outright and is
+  never a Known issue. It also runs in `.husky/pre-commit`.
   `bun run update:integrity-baseline` rewrites the ledger (record a growth
   ONLY for source-inherent gaps, stated in the commit message).
   CI: .github/workflows/ci.yml.

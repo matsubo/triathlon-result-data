@@ -4,12 +4,17 @@
  * Normalize every Edition (scripts/lib/edition-document.js) and report
  * data-quality problems that schema validation alone cannot catch:
  *
- *   - header-mismatch warnings (race-info.json maps a column the TSV lacks)
- *   - finished athletes with missing per-segment lap times
- *   - finished athletes with no total time
+ *   - header_warnings: race-info.json maps a column the TSV lacks, or a
+ *     Category's result TSV is missing
+ *   - unknown_status_tokens: an Athlete's rank cell holds text that is no
+ *     known Status token
+ *   - missing_laps: finished athletes with missing per-segment lap times
+ *   - missing_total: finished athletes with no total time
  *
- * An Edition failing result-schema.json fails the check outright; it is never
- * a Known issue.
+ * Two kinds of problem fail the check outright and are never Known issues:
+ * an Edition failing result-schema.json, and a corpus finding of the
+ * Category reader (a repeated Edition, a TSV shared by Categories, a TSV no
+ * Category registers).
  *
  * Known issues (source-inherent gaps such as historical PDFs without splits)
  * live in the Known-issue ledger integrity-baseline.json. The check fails on
@@ -36,20 +41,26 @@ const update = args.includes("--update");
 const verbose = args.includes("--verbose");
 
 const repo = fsRepo(repoRoot);
+const corpus = readCategories(repo);
 
-/** @type {Record<string, {warnings: number, missingLaps: number, missingTotal: number, athletes: number}>} */
+/**
+ * @typedef {"header_warnings" | "unknown_status_tokens" | "missing_laps" | "missing_total"} Rule
+ * @type {Record<string, Record<Rule, number> & { athletes: number }>}
+ */
 const results = {};
 const details = [];
 /** @type {string[]} */
-const schemaFailures = [];
+const failures = corpus.findings.map((f) => `${f.kind}: ${f.message}`);
 
-for (const { event, edition, categories } of readCategories(repo).editions) {
+for (const { event, edition, categories } of corpus.editions) {
   let built;
   try {
     built = editionDocument(repo, event.id, edition.date);
   } catch (err) {
     if (!(err instanceof SchemaInvalid)) throw err;
-    schemaFailures.push(`${event.id} ${edition.date}\n${err.message}`);
+    failures.push(
+      `result-schema.json: ${event.id} ${edition.date}\n${err.message}`,
+    );
     continue;
   }
   const { document, issues } = built;
@@ -57,16 +68,12 @@ for (const { event, edition, categories } of readCategories(repo).editions) {
     const { def } = category;
     const key = `${event.id}/${edition.date.slice(0, 4)}/${def.id}`;
     const { athletes } = document.categories[ci];
-    const warnings = issues
-      .filter((i) => i.categoryId === def.id)
-      .map((i) => i.message);
-    const finished = athletes.filter(
-      (/** @type {any} */ a) => a.status === "finished",
-    );
+    const own = issues.filter((i) => i.categoryId === def.id);
+    const finished = athletes.filter((a) => a.status === "finished");
     // Only segments that actually map a lap column can be expected to
     // have lap data — many historical sources publish no splits at all.
     const lapSegmentIdxs = def.segments
-      .map((/** @type {any} */ _, /** @type {number} */ i) =>
+      .map((/** @type {unknown} */ _, /** @type {number} */ i) =>
         category.columns("lap", { segment: i }).length > 0 ? i : -1,
       )
       .filter((/** @type {number} */ i) => i !== -1);
@@ -85,11 +92,11 @@ for (const { event, edition, categories } of readCategories(repo).editions) {
       }
     }
     const missingTotal = finished.filter(
-      (/** @type {any} */ a) => a.total_time_seconds == null,
+      (a) => a.total_time_seconds == null,
     ).length;
 
-    for (const w of warnings) {
-      details.push(`${key}: ${w}`);
+    for (const i of own) {
+      details.push(`${key}: ${i.message}`);
     }
     if (verbose && missingTotal > 0) {
       details.push(
@@ -98,38 +105,43 @@ for (const { event, edition, categories } of readCategories(repo).editions) {
     }
 
     results[key] = {
-      warnings: warnings.length,
-      missingLaps,
-      missingTotal,
+      header_warnings: own.filter((i) => i.kind !== "unknown-status-token")
+        .length,
+      unknown_status_tokens: own.filter(
+        (i) => i.kind === "unknown-status-token",
+      ).length,
+      missing_laps: missingLaps,
+      missing_total: missingTotal,
       athletes: athletes.length,
     };
   });
 }
 
-if (schemaFailures.length > 0) {
+if (failures.length > 0) {
   console.error(
-    `${schemaFailures.length} Edition(s) fail result-schema.json; fix them first (never a Known issue):`,
+    `${failures.length} problem(s) that are never Known issues; fix them first:`,
   );
-  for (const f of schemaFailures) console.error(f);
+  for (const f of failures) console.error(`  ${f}`);
   process.exit(1);
 }
 
-const totals = Object.values(results).reduce(
-  (acc, r) => ({
-    warnings: acc.warnings + r.warnings,
-    missingLaps: acc.missingLaps + r.missingLaps,
-    missingTotal: acc.missingTotal + r.missingTotal,
-    athletes: acc.athletes + r.athletes,
-    categories: acc.categories + 1,
-  }),
-  { warnings: 0, missingLaps: 0, missingTotal: 0, athletes: 0, categories: 0 },
-);
+/** @type {Rule[]} */
+const RULES = [
+  "header_warnings",
+  "unknown_status_tokens",
+  "missing_laps",
+  "missing_total",
+];
+/** @param {Rule | "athletes"} field */
+const total = (field) =>
+  Object.values(results).reduce((sum, r) => sum + r[field], 0);
 
 console.log(
-  `Checked ${totals.categories} categories / ${totals.athletes} athletes: ` +
-    `${totals.warnings} header warnings, ` +
-    `${totals.missingLaps} missing laps (finished), ` +
-    `${totals.missingTotal} missing totals (finished).`,
+  `Checked ${Object.keys(results).length} categories / ${total("athletes")} athletes: ` +
+    `${total("header_warnings")} header warnings, ` +
+    `${total("unknown_status_tokens")} unknown status tokens, ` +
+    `${total("missing_laps")} missing laps (finished), ` +
+    `${total("missing_total")} missing totals (finished).`,
 );
 
 if (details.length > 0) {
@@ -146,18 +158,12 @@ const ledger = openLedger(ledgerPath, {
   update,
   updateCommand: "bun run update:integrity-baseline",
 });
-/** @type {Record<string, "warnings" | "missingLaps" | "missingTotal">} */
-const metricByRule = {
-  header_warnings: "warnings",
-  missing_laps: "missingLaps",
-  missing_total: "missingTotal",
-};
 /** @type {import("./lib/known-issue-ledger.js").FindingsByRule} */
 const findingsByRule = {};
-for (const [rule, metric] of Object.entries(metricByRule)) {
+for (const rule of RULES) {
   findingsByRule[rule] = {};
   for (const [key, r] of Object.entries(results)) {
-    findingsByRule[rule][key] = { count: r[metric] };
+    findingsByRule[rule][key] = { count: r[rule] };
   }
 }
 const drift = ledger.check(findingsByRule);

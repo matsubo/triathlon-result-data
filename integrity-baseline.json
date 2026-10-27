@@ -1,9 +1,7 @@
 {
   "description": "Known issues found by scripts/check-integrity.js after normalization: per rule and Category key (event/year/category), the exact count still waiting for a fix from the source. header_warnings: normalizer warnings, e.g. race-info.json maps a column the TSV lacks, or the TSV is missing. missing_laps: lap times missing for finished athletes in segments that map a lap column. missing_total: finished athletes with no total time. A new Import must add nothing. Record a gap only when the source itself lacks the data, and say so in the commit message. Counts otherwise only shrink (docs/adr/0002-known-issue-counts-only-shrink.md). Update with `bun run update:integrity-baseline`.",
   "rules": {
-    "header_warnings": {
-      "iseshima/2022/iseshima": 3
-    },
+    "header_warnings": {},
     "missing_laps": {
       "ako/2017/ako_od_2017": 108,
       "ako/2017/ako_sd_2017": 107,
@@ -1414,6 +1412,9 @@
       "nagasaki_saikai/2018/nagasaki_saikai": 50,
       "nagasaki_saikai/2019/nagasaki_saikai": 56,
       "osakikamijima/2016/osakikamijima": 1
+    },
+    "unknown_status_tokens": {
+      "iseshima/2022/iseshima": 3
     }
   }
 }
