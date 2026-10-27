@@ -1,5 +1,5 @@
 {
-  "description": "Exceptions to the '氏名 must contain a half-width space between family and given name' lint rule. Each entry is a name string that is legitimately a single token: a foreign name whose family/given boundary can't be split into exactly two parts, a mononym/nickname entry, or a known data-corruption artifact.",
+  "description": "Exceptions to the '氏名 must contain a half-width space between family and given name' lint rule. Each entry is a name string that is legitimately a single token: a foreign name whose family/given boundary can't be split into exactly two parts (incl. Chinese names written unspaced), a mononym/nickname entry, a surname-only or team-name registration, or a known data-corruption artifact.",
   "entries": [
     "ダイヤー",
     "フエルドマン",
@@ -9,6 +9,24 @@
     "バユプラウィラサリム",
     "ひらめ。",
     "林諄□",
-    "エース栗原"
+    "エース栗原",
+    "吳映萱",
+    "張晉源",
+    "蔡定謀",
+    "孟亞輝",
+    "陳冠華",
+    "戴宇男",
+    "ﾁｬｲｺﾌｽｷｰ",
+    "ホセ",
+    "尻無濱",
+    "堀江",
+    "渡辺",
+    "中村",
+    "守田",
+    "三輪",
+    "高野",
+    "長田",
+    "インターテック",
+    "アンデックスユー"
   ]
 }
