@@ -46,11 +46,11 @@ Agents can help navigate and understand this triathlon result data repository wh
 ```
 入力（master/）
   result.tsv ─────┐
-  weather.json ───┤──→ normalize-tsv.js <event_id> <year> → JSON（stdout）
+  weather.json ───┤──→ normalize-tsv.js <event_id> <year|date> → JSON（stdout）
   race-info.json ─┘
 ```
 
-出力コマンド: `bun scripts/normalize-tsv.js <event_id> <year>`
+出力コマンド: `bun scripts/normalize-tsv.js <event_id> <year|date>`（同じ年に複数エディションがある大会は年だと曖昧なので終了コード 1 で日付を列挙する。そのときは `YYYY-MM-DD` で指定する）
 
 ## TSVデータ規約
 
@@ -111,9 +111,10 @@ Agents can help navigate and understand this triathlon result data repository wh
 - `images/` 大会を象徴する画像。webp形式。600x400以内に収まる大きさ。
 - `master/<year>/<dir>/<file>.tsv` 大会のリザルトデータ（入力・非正規化）。カテゴリごとに1ファイル。パスは各カテゴリの `result_tsv` が正（IRONMAN は `master/<year>/<event_id>_<year>/default.tsv`、その他は `master/<year>/<event_id>/default.tsv`・`sprint.tsv` 等。古いエディションには `result.tsv` もある）
 - `master/<year>/<id>/weather-data.json` 大会の天気データ
-- `scripts/normalize-tsv.js` 大会IDと年を指定して正規化済み JSON を stdout に出力する CLI
+- `scripts/normalize-tsv.js` 大会IDと年（または日付）を指定して正規化済み JSON を stdout に出力する CLI（Edition document モジュールの薄いラッパー）
 - `scripts/import.js` Import モジュール（`scripts/lib/import.js`）の CLI。取り込みプランから TSV と race-info.json のエディションを書き込む
-- `scripts/lib/normalize-category.js` TSV→正規化athletesの共通ロジック
+- `scripts/lib/category-reader.js` Category reader モジュール。`readCategories(repo, where?)` が race-info.json の全カテゴリと TSV を Column role 単位で読む（`columns(role)` / `rows` / `cells(role)`）。データ欠陥（未登録 TSV、存在しないヘッダー等）は Finding として返す。TSV のセルを役割で書き換える `rewriteCells` も持つ。TSV を読むスクリプト・テストはヘッダー文字列ではなくこのモジュールを使う
+- `scripts/lib/edition-document.js` Edition document モジュール。`editionDocument(repo, eventId, dateOrYear)` が1エディションの正規化 JSON を組み立てて result-schema.json で検証する
 - `scripts/lib/` 正規化モジュール群（時間、性別、居住地、年齢区分、ステータス等）
 
 ### GitHub Workflows (.github/workflows/)

@@ -38,10 +38,10 @@ Event
 
 ## Generating normalized output
 
-Given an event ID and a year, emit that edition's normalized JSON to stdout:
+Given an event ID and a year (or a full date), emit that edition's normalized JSON to stdout:
 
 ```bash
-bun scripts/normalize-tsv.js <event_id> <year>
+bun scripts/normalize-tsv.js <event_id> <year|date>
 ```
 
 Examples:
@@ -49,10 +49,11 @@ Examples:
 ```bash
 bun scripts/normalize-tsv.js ironman_cairns 2025
 bun scripts/normalize-tsv.js sado 2024
-bun scripts/normalize-tsv.js yokohama 2025
+bun scripts/normalize-tsv.js yokohama 2025-05-18
 ```
 
 - `event_id` corresponds to `events[].id` in `race-info.json`.
+- A year must match exactly one edition of the event; when the event ran more than once that year, the command exits 1 listing the dates, and you pass the full date.
 - Warnings are written to **stderr**; normalized JSON goes to **stdout**.
 - Output is validated against `result-schema.json` before being emitted.
 
