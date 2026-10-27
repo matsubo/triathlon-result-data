@@ -1,2 +1,2 @@
 bunx biome check --staged --write --no-errors-on-unmatched
-bun run scripts/validate-headers.js
+bun run check:integrity
