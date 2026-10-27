@@ -38,7 +38,9 @@ export function loadExceptions(kind) {
   const url = new URL(`../../${FILES[kind]}`, import.meta.url);
   const data = JSON.parse(readFileSync(url, "utf-8"));
   if (!Array.isArray(data.entries)) {
-    throw new Error(`${FILES[kind]}: expected { "description", "entries": [] }`);
+    throw new Error(
+      `${FILES[kind]}: expected { "description", "entries": [] }`,
+    );
   }
   return data.entries;
 }
