@@ -146,8 +146,18 @@ describe("TSV Lint Rules: raw text", () => {
 describe("TSV Lint Rules: cells by Column role", () => {
   test("Time cells parse as times, or hold a status token or blank mark", () => {
     // A time cell normalization can't read (and that is no recognized
-    // non-value) is a time lost from the normalized output.
-    const findings = cellFindings(TIME_ROLES, (c) => c.value === "" || parseTime(c.value) !== null || isNonValue(c.value));
+    // non-value) is a time lost from the normalized output. parseTime reads
+    // the first token of a cell and ignores what follows (iseshima 2019 cells
+    // pair the lap with the cumulative time: "11:32 22:41", and a skipped
+    // leg "ｽｷｯﾌﾟ ｽｷｯﾌﾟ"), so a cell whose first token is a non-value is too.
+    const findings = cellFindings(
+      TIME_ROLES,
+      (c) =>
+        c.value === "" ||
+        parseTime(c.value) !== null ||
+        isNonValue(c.value) ||
+        isNonValue(c.value.split(/\s+/)[0]),
+    );
     expect(ledger.check({ time_format: findings })).toEqual([]);
   });
 

@@ -26,6 +26,8 @@ const STATUS_TOKENS = {
   OPN: "OPEN",
   SKIP: "SKIP",
   SKP: "SKIP",
+  // iseshima writes ｽｷｯﾌﾟ, which NFKC folds to スキップ.
+  スキップ: "SKIP",
   // "Not Official Finisher": has lap times but no official finish.
   NOF: "DNF",
   // Lapped out — pulled from the course after being overtaken by a lap.

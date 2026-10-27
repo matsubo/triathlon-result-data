@@ -66,6 +66,8 @@ describe("normalizer functions", () => {
     test("tokens are case-insensitive", () => expect(fromRank("dns")).toEqual({ rank: null, status: "DNS" }));
     test("OVT (over time) is TOV", () => expect(fromRank("OVT")).toEqual({ rank: null, status: "TOV" }));
     test("OPN is OPEN", () => expect(fromRank("OPN")).toEqual({ rank: null, status: "OPEN" }));
+    test("half-width ｽｷｯﾌﾟ (iseshima) is SKIP", () =>
+      expect(fromRank("ｽｷｯﾌﾟ")).toEqual({ rank: null, status: "SKIP" }));
     test("short of bike laps is a DNF", () =>
       expect(fromRank("バイク周回不足")).toEqual({ rank: null, status: "DNF" }));
     test("short of run laps is a DNF", () =>
@@ -153,7 +155,8 @@ describe("normalizer functions", () => {
     test("asterisks", () => expect(isNonValue("***")).toBe(true));
     test("a time is a value", () => expect(isNonValue("0:21:05")).toBe(false));
     test("a negative time is a value", () => expect(isNonValue("-0:02:20")).toBe(false));
-    test("text", () => expect(isNonValue("ｽｷｯﾌﾟ ｽｷｯﾌﾟ")).toBe(false));
+    test("half-width ｽｷｯﾌﾟ", () => expect(isNonValue("ｽｷｯﾌﾟ")).toBe(true));
+    test("a repeated token is no token", () => expect(isNonValue("ｽｷｯﾌﾟ ｽｷｯﾌﾟ")).toBe(false));
   });
 
   describe("isValidRankCell", () => {

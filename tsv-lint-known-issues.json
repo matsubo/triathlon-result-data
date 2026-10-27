@@ -3,12 +3,8 @@
   "rules": {
     "time_format": {
       "master/2012/itako/sprint.tsv": 2,
-      "master/2014/iseshima/result.tsv": 3,
       "master/2014/komatsu_tetsujin/tetsujin.tsv": 1,
       "master/2014/oigawa/result.tsv": 1,
-      "master/2015/iseshima/result.tsv": 1,
-      "master/2016/iseshima/result.tsv": 4,
-      "master/2017/iseshima/result.tsv": 1,
       "master/2017/minato_sakata/result.tsv": 8,
       "master/2017/nagasaki_saikai/od.tsv": 207,
       "master/2018/im703_calgary_2018/default.tsv": 5,
