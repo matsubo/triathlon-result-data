@@ -1,0 +1,22 @@
+{
+  "im703_salalah": {
+    "subevent_uuid": "100cc5bf-7778-44f6-8740-07a86c71c781",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Dhofar"
+  },
+  "im703_new_york": {
+    "subevent_uuid": "c1a7ef77-dfd8-4cd7-a2dd-b22ab9e9d776",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 New York"
+  },
+  "im703_marathon": {
+    "subevent_uuid": "92bde9d4-4df9-4ca3-a116-3d49e0ceef43",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Costa Navarino, Peloponnese, Greece"
+  },
+  "im703_agadir": {
+    "subevent_uuid": "1929cc35-e4fd-4a2c-8991-c1cdb7036b2a",
+    "year": 2026,
+    "name": "2026 IRONMAN 70.3 Agadir"
+  }
+}
