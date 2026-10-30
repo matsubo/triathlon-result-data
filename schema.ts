@@ -169,6 +169,19 @@ export interface Category {
    * Canonical URL of the upstream data source for this category's result_tsv (e.g. the JTU result page for the specific program). Null when unknown. Used to detect data-source mismatches/contamination.
    */
   source_url?: string | null;
+  /**
+   * Source reference: identifies where this category's result_tsv can be re-fetched from (IRONMAN subevent UUID or JTU program id). Provenance metadata; not part of the normalized output.
+   */
+  source_ref?: {
+    /**
+     * Results source the id belongs to
+     */
+    results_source: "ironman" | "jtu";
+    /**
+     * IRONMAN subevent UUID (results_source=ironman) or JTU program id such as 436_3 (results_source=jtu)
+     */
+    id: string;
+  };
   [k: string]: unknown;
 }
 export interface Segment {

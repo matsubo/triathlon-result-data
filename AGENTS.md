@@ -109,9 +109,10 @@ Agents can help navigate and understand this triathlon result data repository wh
 - `race-info-schema.json` race-info.json の JSON Schema（Single Source of Truth）
 - `schema.ts` TypeScript 型定義（race-info-schema.json から派生）
 - `images/` 大会を象徴する画像。webp形式。600x400以内に収まる大きさ。
-- `master/<year>/<id>/result.tsv` 大会のリザルトデータ（入力・非正規化）
+- `master/<year>/<dir>/<file>.tsv` 大会のリザルトデータ（入力・非正規化）。カテゴリごとに1ファイル。パスは各カテゴリの `result_tsv` が正（IRONMAN は `master/<year>/<event_id>_<year>/default.tsv`、その他は `master/<year>/<event_id>/default.tsv`・`sprint.tsv` 等。古いエディションには `result.tsv` もある）
 - `master/<year>/<id>/weather-data.json` 大会の天気データ
 - `scripts/normalize-tsv.js` 大会IDと年を指定して正規化済み JSON を stdout に出力する CLI
+- `scripts/import.js` Import モジュール（`scripts/lib/import.js`）の CLI。取り込みプランから TSV と race-info.json のエディションを書き込む
 - `scripts/lib/normalize-category.js` TSV→正規化athletesの共通ロジック
 - `scripts/lib/` 正規化モジュール群（時間、性別、居住地、年齢区分、ステータス等）
 
@@ -152,54 +153,47 @@ These workflows ensure data integrity and consistency across the repository.
 
 ## 新規大会データの取り込み手順
 
-### 1. JTUリザルトシステムからの取り込み
+取り込みは **Import モジュール** で行う。一回限りの add-* / import-* スクリプトは書かない。
+手順の詳細は `.claude/skills/import-race/SKILL.md`（ステップ4）と同ディレクトリの
+`references/` を参照。
 
-JTU（トライアスロンジャパン）のリザルトページは動的にデータをロードするため、Playwrightでのスクレイピングが必要。
+### 1. 取り込みプランを書く
 
-**リザルトURL体系:**
-- 大会プログラム一覧: `https://www.jtu.or.jp/result_program/?event_id={ID}`
-- 個別リザルト: `https://www.jtu.or.jp/result/?event_id={ID}&program_id={ID}_{N}`
+プランはリポジトリ外の JSON ファイル（例: `/tmp/import-plan.json`、コミットしない）。
+スキーマは `scripts/lib/import-plan-schema.json`。
 
-**event_id の年度別レンジ（目安）:**
-- 2022年: 124〜169
-- 2023年: 172〜232
-- 2024年: 239〜310
-- 2025年: 309〜374
-
-**スクレイピング手順:**
-1. `result_program` ページでプログラム一覧を取得
-2. 各プログラムの `result` ページにアクセス
-3. `table.result_table` からヘッダーと行データを抽出
-4. TSV形式で `master/{year}/{id}/` に保存
-
-**Playwright（Node.js）でのデータ抽出パターン:**
-```javascript
-const headers = await page.locator('table.result_table thead th').allTextContents();
-const rows = await page.locator('table.result_table tbody tr').all();
-for (const row of rows) {
-  const cells = await row.locator('td').allTextContents();
+```json
+{
+  "events": [],
+  "editions": [
+    { "event": "im703_porec", "date": "2026-10-18", "ironman": "<subevent uuid>" },
+    { "event": "chibacity", "date": "2026-10-11",
+      "jtu": [{ "program": "436_3", "distance": "SD", "description": "…" }] }
+  ]
 }
 ```
 
-**フィルタすべきカテゴリ:** キッズ、ジュニア、リレー、パラ、小学、中学、アクアスロン、デュアスロン、ビギナー、チャレンジ等（メインのエイジグループカテゴリのみ取り込む）
+- **IRONMAN**: labs-v2 のサブイベント uuid を `ironman` に指定する。テンプレート（full / 70.3）は既存エディションの distance から推定する（新規大会・混在時は `template` を指定）。
+- **JTU**: 取り込むプログラムごとに `jtu[]` を1件。JSON API（`results.jtu.or.jp/api`）から取得する。`jtu.or.jp/result` の SPA は Playwright でスクレイピングしない（カルーセルで他大会の表が混入する）。キャプションの列ロールは `scripts/lib/results-sources/jtu.js` の語彙で決まり、未知のキャプションはエラーになる（プランの `columns.rename` / `drop` で対処）。
+- **PDF・CSV 等**: リポジトリ外で TSV を作り（PDF は `pdfplumber`）、`prepared[]` に列マッピングとともに指定する。
+- **新規大会**: `events[]` に追加する（画像は先に `images/` へ置く）。
+- **フィルタすべきカテゴリ:** キッズ、ジュニア、リレー、パラ、小学、中学、アクアスロン、デュアスロン、ビギナー、チャレンジ等（メインのエイジグループカテゴリのみ取り込む）。1つの表の中に部門列がないかも確認する。
+- コースが標準と違う場合は `segments` で距離を指定する。中止された種目（スイム中止など）は `segments` から省くことでのみ表す。
 
-### 2. PDFリザルトからの取り込み
+### 2. 実行する
 
-JTU以外の大会（木更津、宮崎シーガイア等）はPDFでリザルトを公開している場合がある。
-
-```python
-import pdfplumber
-with pdfplumber.open('result.pdf') as pdf:
-    for page in pdf.pages:
-        table = page.extract_table()
+```bash
+bun scripts/import.js /tmp/import-plan.json --dry-run   # 書き込みはメモリ上のみ
+bun scripts/import.js /tmp/import-plan.json             # TSV → race-info.json の順に書き込む
+bun run scripts/fix-age-category-labels.js              # 年齢区分を M/F 表記へ
 ```
 
-### 3. race-info.json への追加
+結果は JSON のレポートで出力される。終了コード 0 = 全エディション取り込み済み、2 = 一部スキップ（`reason` を確認）、1 = プラン不正（何も書き込まない）。
+カテゴリID・`result_tsv` パス・`segments` / `meta_columns`・`source_ref`・`weather_file`、エディションの日付順の配置、スキーマ検証はモジュールが行う。PRO のみの速報、TSV の完全一致（混入）、既存エディションとの Source reference 不一致などは自動で拒否される。
 
-- 既存大会に年度を追加: `editions` 配列に新しいエントリを追加
-- 新規大会: `events` 配列に新しいイベントを追加
-- TSVヘッダーを確認し、`segments.columns` と `meta_columns` のマッピングを正確に設定
-- バリデーション: `bunx ajv-cli validate -s race-info-schema.json -d race-info.json`
+### 3. 既存エディションの再取得
+
+`"mode": "refetch"` を指定すると、各カテゴリの `source_ref` から再取得して TSV だけを更新する。ヘッダーが変わった場合や順位の品質（重複のない順位数・順位とタイムの逆転数）が劣化する場合は拒否される。
 
 ### 4. 天気データの生成
 
