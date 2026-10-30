@@ -126,7 +126,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 954921	DNS	Fabián Rojas	M	M35-39								Chile	DNS
 240863	DNS	Sandro Benito Nahuelpan Martin	M	M45-49								Chile	DNS
 1286242	DNS	Eduardo Alarcon	M	M40-44								Chile	DNS
-1286324	DNS	CRISTOBAL IGNACIO CUETO  LATORRE	M	M25-29								Chile	DNS
+1286324	DNS	CRISTOBAL IGNACIO CUETO LATORRE	M	M25-29								Chile	DNS
 955452	DNF	Nicolas Vargas Hott	M	M18-24			0:33:44	0:08:53				Chile	DNF
 1277751	DSQ	Brayan Zenteno	M	M30-34								Chile	DQ
 829534	DNS	Eduardo Mora León	M	M60-64								Chile	DNS
@@ -702,7 +702,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 1285839	412	Daniel Jerez	M	M35-39	75	5:07:02	0:35:07	0:08:04	2:37:25	0:05:04	1:41:22	Chile	FIN
 1179511	413	Antony Chaparro Yacks	M	M35-39	76	5:07:11	0:31:22	0:06:44	2:26:22	0:05:04	1:57:39	Uruguay	FIN
 1285840	414	Luis Bollo	M	M40-44	86	5:07:14	0:31:08	0:06:42	2:51:01	0:05:29	1:32:54	Chile	FIN
-1192884	415	Jose Luis Moscoso  Fonseca	M	M50-54	23	5:07:16	0:31:36	0:07:11	2:33:13	0:05:14	1:50:01	Chile	FIN
+1192884	415	Jose Luis Moscoso Fonseca	M	M50-54	23	5:07:16	0:31:36	0:07:11	2:33:13	0:05:14	1:50:01	Chile	FIN
 1232584	416	Alfredo Noguera	M	M40-44	87	5:07:34	0:28:25	0:08:54	2:42:23	0:05:51	1:42:01	Chile	FIN
 954443	417	Alejandro Agüero	M	M40-44	88	5:07:35	0:34:51	0:06:43	2:36:00	0:04:10	1:45:51	Chile	FIN
 1188323	418	Jose Tapia	M	M45-49	40	5:07:36	0:30:45	0:08:13	2:34:17	0:05:02	1:49:19	Chile	FIN
@@ -889,7 +889,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 1285896	599	Pablo Izcue Valdés	M	M25-29	87	5:21:30	0:38:09	0:06:35	2:47:59	0:04:18	1:44:30	Chile	FIN
 954129	600	Tomas Pantoja Calderon	M	M55-59	14	5:21:31	0:37:12	0:08:23	2:39:25	0:04:16	1:52:14	Chile	FIN
 1188236	601	Carlos Gomez	M	M40-44	122	5:21:32	0:38:27	0:06:56	2:50:13	0:03:44	1:42:12	Chile	FIN
-1285897	602	Esteban Roco  Avilez	M	M35-39	102	5:21:39	0:32:30	0:07:22	2:48:54	0:03:55	1:48:58	Chile	FIN
+1285897	602	Esteban Roco Avilez	M	M35-39	102	5:21:39	0:32:30	0:07:22	2:48:54	0:03:55	1:48:58	Chile	FIN
 954394	603	Rodrigo alejandro monares navarrete	M	M35-39	103	5:21:46	0:43:10	0:07:33	2:55:28	0:05:26	1:30:09	Chile	FIN
 1188037	604	Luis Felipe Leiva	M	M30-34	107	5:21:49	0:34:29	0:06:45	2:51:08	0:04:26	1:45:02	Chile	FIN
 1193296	605	Pedro Antonio Reyes Pacheco	M	M35-39	104	5:21:49	0:37:34	0:11:28	2:37:52	0:05:22	1:49:33	Chile	FIN
@@ -1284,7 +1284,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 1286034	994	Daniela Severino Salamanca	F	F25-29	9	5:54:02	0:35:46	0:09:19	3:04:47	0:07:07	1:57:03	Chile	FIN
 1188368	995	Josefina Palacios	F	F30-34	28	5:54:10	0:36:32	0:08:59	2:58:52	0:06:32	2:03:16	Chile	FIN
 1179639	996	Cristian Van Ek	M	M35-39	167	5:54:23	0:39:26	0:08:58	2:50:59	0:07:42	2:07:18	Argentina	FIN
-954381	997	Lorena  Del Pilar Gajardo Sanchez	F	F45-49	10	5:54:28	0:34:10	0:09:14	3:06:03	0:06:00	1:59:01	Chile	FIN
+954381	997	Lorena Del Pilar Gajardo Sanchez	F	F45-49	10	5:54:28	0:34:10	0:09:14	3:06:03	0:06:00	1:59:01	Chile	FIN
 954371	998	Cristián Meneses	M	M45-49	102	5:54:31	0:31:40	0:09:31	2:53:10	0:06:02	2:14:08	Chile	FIN
 1286035	999	Maria Dolores Vasquez Albornoz	F	F35-39	20	5:54:32	0:32:44	0:08:17	3:07:47	0:05:05	2:00:39	Chile	FIN
 1286036	1000	juan ovalle	M	M60-64	13	5:54:35	0:33:08	0:09:58	2:53:36	0:07:43	2:10:10	Chile	FIN
@@ -1556,7 +1556,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 1286146	1266	Ronald Alexi Puentes Stubing	M	M30-34	190	6:28:09	0:32:13	0:10:32	3:37:01	0:06:07	2:02:17	Chile	FIN
 1286147	1267	Tommy Teddy Tejada Hinojosa	M	M45-49	140	6:28:27	0:28:49	0:07:59	2:57:38	0:07:11	2:46:50	Chile	FIN
 954955	1268	Marta María Valdenegro Pizarr0	F	F40-44	24	6:28:40	0:38:46	0:10:17	3:23:52	0:06:20	2:09:25	Chile	FIN
-524253	1269	Manuel   Bubu Gonzalez Mandiola	M	M30-34	191	6:28:56	0:33:24	0:11:58	3:01:47	0:08:43	2:33:04	Chile	FIN
+524253	1269	Manuel Bubu Gonzalez Mandiola	M	M30-34	191	6:28:56	0:33:24	0:11:58	3:01:47	0:08:43	2:33:04	Chile	FIN
 954619	1270	Jonathan Alexis Gonzalez Baez	M	M30-34	192	6:28:58	0:42:19	0:07:19	3:15:21	0:04:58	2:19:01	Chile	FIN
 955482	1271	Daniel Nuñez	M	M35-39	212	6:29:21	0:31:01	0:08:29	3:17:28	0:06:23	2:26:01	Chile	FIN
 1193113	1272	Ana Carreño Rojas	F	F40-44	25	6:29:37	0:41:47	0:09:33	3:18:41	0:08:49	2:10:47	Chile	FIN

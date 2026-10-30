@@ -1,124 +1,147 @@
 /**
  * check-integrity.js
  *
- * Normalize every edition/category in race-info.json and report data-quality
- * problems that schema validation alone cannot catch:
+ * Normalize every Edition (scripts/lib/edition-document.js) and report
+ * data-quality problems that schema validation alone cannot catch:
  *
- *   - header-mismatch warnings (race-info.json maps a column the TSV lacks)
- *   - finished athletes with missing per-segment lap times
- *   - finished athletes with no total time
- *   - athletes failing result-schema.json validation
+ *   - header_warnings: race-info.json maps a column the TSV lacks, or a
+ *     Category's result TSV is missing
+ *   - unknown_status_tokens: an Athlete's rank cell holds text that is no
+ *     known Status token
+ *   - missing_laps: finished athletes with missing per-segment lap times
+ *   - missing_total: finished athletes with no total time
  *
- * Pre-existing, source-inherent gaps live in integrity-baseline.json — the
- * check fails only when a metric REGRESSES against that baseline, so new
- * imports must be clean but historical PDFs with genuinely missing splits
- * do not block CI.
+ * Two kinds of problem fail the check outright and are never Known issues:
+ * an Edition failing result-schema.json, and a corpus finding of the
+ * Category reader (a repeated Edition, a TSV shared by Categories, a TSV no
+ * Category registers).
+ *
+ * Known issues (source-inherent gaps such as historical PDFs without splits)
+ * live in the Known-issue ledger integrity-baseline.json. The check fails on
+ * any drift from it: a regression, an improvement, or a stale entry
+ * (docs/adr/0002-known-issue-counts-only-shrink.md).
  *
  * Usage:
- *   bun run scripts/check-integrity.js              # check against baseline
- *   bun run scripts/check-integrity.js --update     # rewrite the baseline
+ *   bun run scripts/check-integrity.js              # check against the ledger
+ *   bun run scripts/check-integrity.js --update     # rewrite the ledger
  *   bun run scripts/check-integrity.js --verbose    # list every finding
  */
 
-import { readFileSync, writeFileSync } from "node:fs";
-import { dirname, join } from "node:path";
-import { fileURLToPath } from "node:url";
-import { normalizeCategory } from "./lib/normalize-category.js";
+import { join } from "node:path";
+import { readCategories } from "./lib/category-reader.js";
+import { editionDocument, SchemaInvalid } from "./lib/edition-document.js";
+import { openLedger } from "./lib/known-issue-ledger.js";
+import { fsRepo } from "./lib/repo.js";
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const repoRoot = join(__dirname, "..");
-const baselinePath = join(repoRoot, "integrity-baseline.json");
+const repoRoot = join(import.meta.dirname, "..");
+const ledgerPath = join(repoRoot, "integrity-baseline.json");
 
 const args = process.argv.slice(2);
-const updateBaseline = args.includes("--update");
+const update = args.includes("--update");
 const verbose = args.includes("--verbose");
 
-const raceInfo = JSON.parse(
-  readFileSync(join(repoRoot, "race-info.json"), "utf-8"),
-);
+const repo = fsRepo(repoRoot);
+const corpus = readCategories(repo);
 
-/** @type {Record<string, {warnings: number, missingLaps: number, missingTotal: number, athletes: number}>} */
+/**
+ * @typedef {"header_warnings" | "unknown_status_tokens" | "missing_laps" | "missing_total"} Rule
+ * @type {Record<string, Record<Rule, number> & { athletes: number }>}
+ */
 const results = {};
 const details = [];
+/** @type {string[]} */
+const failures = corpus.findings.map((f) => `${f.kind}: ${f.message}`);
 
-for (const event of raceInfo.events) {
-  for (const edition of event.editions) {
-    for (const category of edition.categories) {
-      const key = `${event.id}/${edition.date.slice(0, 4)}/${category.id}`;
-      let tsvContent;
-      try {
-        tsvContent = readFileSync(join(repoRoot, category.result_tsv), "utf-8");
-      } catch {
-        details.push(`${key}: MISSING TSV ${category.result_tsv}`);
-        results[key] = {
-          warnings: 1,
-          missingLaps: 0,
-          missingTotal: 0,
-          athletes: 0,
-        };
-        continue;
-      }
+for (const { event, edition, categories } of corpus.editions) {
+  let built;
+  try {
+    built = editionDocument(repo, event.id, edition.date);
+  } catch (err) {
+    if (!(err instanceof SchemaInvalid)) throw err;
+    failures.push(
+      `result-schema.json: ${event.id} ${edition.date}\n${err.message}`,
+    );
+    continue;
+  }
+  const { document, issues } = built;
+  categories.forEach((category, ci) => {
+    const { def } = category;
+    const key = `${event.id}/${edition.date.slice(0, 4)}/${def.id}`;
+    const { athletes } = document.categories[ci];
+    const own = issues.filter((i) => i.categoryId === def.id);
+    const finished = athletes.filter((a) => a.status === "finished");
+    // Only segments that actually map a lap column can be expected to
+    // have lap data — many historical sources publish no splits at all.
+    const lapSegmentIdxs = def.segments
+      .map((/** @type {unknown} */ _, /** @type {number} */ i) =>
+        category.columns("lap", { segment: i }).length > 0 ? i : -1,
+      )
+      .filter((/** @type {number} */ i) => i !== -1);
 
-      const { athletes, warnings } = normalizeCategory(tsvContent, category);
-      const finished = athletes.filter((a) => a.status === "finished");
-      // Only segments that actually map a lap column can be expected to
-      // have lap data — many historical sources publish no splits at all.
-      const lapSegmentIdxs = category.segments
-        .map((seg, i) => (seg.columns.some((c) => c.role === "lap") ? i : -1))
-        .filter((i) => i !== -1);
-
-      let missingLaps = 0;
-      for (const a of finished) {
-        for (const i of lapSegmentIdxs) {
-          if (!a.segments[i] || a.segments[i].lap_seconds == null) {
-            missingLaps++;
-            if (verbose) {
-              details.push(
-                `${key}: bib=${a.bib} ${a.name} missing segment[${i}] lap`,
-              );
-            }
+    let missingLaps = 0;
+    for (const a of finished) {
+      for (const i of lapSegmentIdxs) {
+        if (!a.segments[i] || a.segments[i].lap_seconds == null) {
+          missingLaps++;
+          if (verbose) {
+            details.push(
+              `${key}: bib=${a.bib} ${a.name} missing segment[${i}] lap`,
+            );
           }
         }
       }
-      const missingTotal = finished.filter(
-        (a) => a.total_time_seconds == null,
-      ).length;
-
-      for (const w of warnings) {
-        details.push(`${key}: ${w}`);
-      }
-      if (verbose && missingTotal > 0) {
-        details.push(
-          `${key}: ${missingTotal} finished athletes with no total time`,
-        );
-      }
-
-      results[key] = {
-        warnings: warnings.length,
-        missingLaps,
-        missingTotal,
-        athletes: athletes.length,
-      };
     }
-  }
+    const missingTotal = finished.filter(
+      (a) => a.total_time_seconds == null,
+    ).length;
+
+    for (const i of own) {
+      details.push(`${key}: ${i.message}`);
+    }
+    if (verbose && missingTotal > 0) {
+      details.push(
+        `${key}: ${missingTotal} finished athletes with no total time`,
+      );
+    }
+
+    results[key] = {
+      header_warnings: own.filter((i) => i.kind !== "unknown-status-token")
+        .length,
+      unknown_status_tokens: own.filter(
+        (i) => i.kind === "unknown-status-token",
+      ).length,
+      missing_laps: missingLaps,
+      missing_total: missingTotal,
+      athletes: athletes.length,
+    };
+  });
 }
 
-const totals = Object.values(results).reduce(
-  (acc, r) => ({
-    warnings: acc.warnings + r.warnings,
-    missingLaps: acc.missingLaps + r.missingLaps,
-    missingTotal: acc.missingTotal + r.missingTotal,
-    athletes: acc.athletes + r.athletes,
-    categories: acc.categories + 1,
-  }),
-  { warnings: 0, missingLaps: 0, missingTotal: 0, athletes: 0, categories: 0 },
-);
+if (failures.length > 0) {
+  console.error(
+    `${failures.length} problem(s) that are never Known issues; fix them first:`,
+  );
+  for (const f of failures) console.error(`  ${f}`);
+  process.exit(1);
+}
+
+/** @type {Rule[]} */
+const RULES = [
+  "header_warnings",
+  "unknown_status_tokens",
+  "missing_laps",
+  "missing_total",
+];
+/** @param {Rule | "athletes"} field */
+const total = (field) =>
+  Object.values(results).reduce((sum, r) => sum + r[field], 0);
 
 console.log(
-  `Checked ${totals.categories} categories / ${totals.athletes} athletes: ` +
-    `${totals.warnings} header warnings, ` +
-    `${totals.missingLaps} missing laps (finished), ` +
-    `${totals.missingTotal} missing totals (finished).`,
+  `Checked ${Object.keys(results).length} categories / ${total("athletes")} athletes: ` +
+    `${total("header_warnings")} header warnings, ` +
+    `${total("unknown_status_tokens")} unknown status tokens, ` +
+    `${total("missing_laps")} missing laps (finished), ` +
+    `${total("missing_total")} missing totals (finished).`,
 );
 
 if (details.length > 0) {
@@ -131,54 +154,29 @@ if (details.length > 0) {
   }
 }
 
-if (updateBaseline) {
-  const baseline = {};
+const ledger = openLedger(ledgerPath, {
+  update,
+  updateCommand: "bun run update:integrity-baseline",
+});
+/** @type {import("./lib/known-issue-ledger.js").FindingsByRule} */
+const findingsByRule = {};
+for (const rule of RULES) {
+  findingsByRule[rule] = {};
   for (const [key, r] of Object.entries(results)) {
-    if (r.warnings > 0 || r.missingLaps > 0 || r.missingTotal > 0) {
-      baseline[key] = {
-        warnings: r.warnings,
-        missingLaps: r.missingLaps,
-        missingTotal: r.missingTotal,
-      };
-    }
+    findingsByRule[rule][key] = { count: r[rule] };
   }
-  writeFileSync(baselinePath, `${JSON.stringify(baseline, null, 2)}\n`);
-  console.log(
-    `Baseline updated: ${Object.keys(baseline).length} categories with known issues.`,
-  );
+}
+const drift = ledger.check(findingsByRule);
+
+if (update) {
+  console.log(`Ledger updated: ${ledgerPath}`);
   process.exit(0);
 }
 
-let baseline = {};
-try {
-  baseline = JSON.parse(readFileSync(baselinePath, "utf-8"));
-} catch {
-  console.error(
-    "No integrity-baseline.json found. Run with --update to create it.",
-  );
+if (drift.length > 0) {
+  console.error("\nKnown-issue ledger drift (integrity-baseline.json):");
+  for (const d of drift) console.error(`  ${d}`);
   process.exit(1);
 }
 
-const regressions = [];
-for (const [key, r] of Object.entries(results)) {
-  const b = baseline[key] || { warnings: 0, missingLaps: 0, missingTotal: 0 };
-  if (
-    r.warnings > b.warnings ||
-    r.missingLaps > b.missingLaps ||
-    r.missingTotal > b.missingTotal
-  ) {
-    regressions.push(
-      `${key}: warnings ${b.warnings}->${r.warnings}, ` +
-        `missingLaps ${b.missingLaps}->${r.missingLaps}, ` +
-        `missingTotal ${b.missingTotal}->${r.missingTotal}`,
-    );
-  }
-}
-
-if (regressions.length > 0) {
-  console.error(`\n${regressions.length} regressions against baseline:`);
-  for (const r of regressions) console.error(`  ${r}`);
-  process.exit(1);
-}
-
-console.log("No regressions against baseline.");
+console.log("Findings match the Known-issue ledger.");

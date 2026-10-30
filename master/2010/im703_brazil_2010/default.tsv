@@ -50,7 +50,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 798294	DNF	Priscilla Dutra	F	F25-29	0		0:31:23	0:02:53	2:52:47	0:01:48		Unknown	DNF
 798719	DNS	Rodrigo Mendes	M	M45-49	0							Unknown	DNS
 798511	DNS	Adriano Rondello	M	M30-34	0							Unknown	DNS
-798300	DNF	Fernando Assump  O	M	M25-29	0		0:41:35	0:02:45	2:10:49			Unknown	DNF
+798300	DNF	Fernando Assump O	M	M25-29	0		0:41:35	0:02:45	2:10:49			Unknown	DNF
 84258	DNS	Milton Kees	M	M35-39	0							Unknown	DNS
 798722	DNS	Marcelo Pereira	M	M55-59	0							Unknown	DNS
 34654	DNF	German Bejarano	M	M30-34	0		0:34:39	0:03:40	2:31:07	0:01:32		Unknown	DNF
@@ -511,7 +511,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 798582	384	Frederico Amorim	M	M30-34	85	5:41:30	0:41:40	0:06:05	3:06:17	0:02:44	1:44:44	Unknown	FIN
 798263	385	Alexandro Natali	M	M45-49	43	5:41:47	0:40:11	0:04:58	3:02:23	0:02:01	1:52:14	Unknown	FIN
 798597	386	Ana Peres	F	F30-34	3	5:42:52	0:43:32	0:06:17	2:55:56	0:02:06	1:55:01	Unknown	FIN
-83729	387	Ana Silvia  Davini Paller	F	F45-49	1	5:42:52	0:39:24	0:03:28	2:50:56	0:03:05	2:05:59	Unknown	FIN
+83729	387	Ana Silvia Davini Paller	F	F45-49	1	5:42:52	0:39:24	0:03:28	2:50:56	0:03:05	2:05:59	Unknown	FIN
 798535	388	Fabio Victorelli	M	M45-49	44	5:43:00	0:38:05	0:08:20	2:41:20	0:03:33	2:11:42	Unknown	FIN
 798495	389	Rafael Dornelles	M	M30-34	86	5:43:08	0:34:21	0:05:01	2:54:14	0:02:50	2:06:42	Unknown	FIN
 452991	390	Luis Lons	M	M40-44	58	5:43:31	0:36:19	0:04:32	2:57:35	0:01:41	2:03:24	Unknown	FIN

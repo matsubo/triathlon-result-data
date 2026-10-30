@@ -87,7 +87,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 83989	DNS	Fabiano Duarte Dutra	M	M40-44	0							Unknown	DNS
 750650	DNS	Marcio Silva Pinheiro	M	M40-44	0							Unknown	DNS
 643500	DNS	Vitor Meira	M	M35-39	0							Unknown	DNS
-335584	DNF	Levy Rogerio  Scarpim	M	M40-44	0		0:36:13					Unknown	DNF
+335584	DNF	Levy Rogerio Scarpim	M	M40-44	0		0:36:13					Unknown	DNF
 46478	DNS	Tamsin Lewis	F	F30-34	0							Unknown	DNS
 530724	DNS	Georges Oliva De Oliveira	M	M30-34	0							Unknown	DNS
 278422	DNS	Leonardo Avelar	M	M30-34	0							Unknown	DNS
@@ -404,7 +404,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 348809	241	Flavio Milhomem	M	M40-44	39	5:15:43	0:34:07	0:04:33	2:48:30	0:02:22	1:46:11	Unknown	FIN
 61291	242	Sergio AlarcÃ³n Jerez	M	M25-29	32	5:15:54	0:32:14	0:02:58	2:38:59	0:02:37	1:59:06	Unknown	FIN
 83386	243	Joao Carlos Neto	M	M45-49	18	5:16:00	0:33:25	0:05:01	2:35:02	0:04:15	1:58:17	Unknown	FIN
-158278	244	Luiz Carlos  Thomazette	M	M30-34	71	5:16:07	0:36:48	0:04:10	2:37:52	0:02:03	1:55:14	Unknown	FIN
+158278	244	Luiz Carlos Thomazette	M	M30-34	71	5:16:07	0:36:48	0:04:10	2:37:52	0:02:03	1:55:14	Unknown	FIN
 278495	245	JOSE BAPTISTA DOS SANTOS NETO	M	M30-34	72	5:16:09	0:37:59	0:05:21	2:37:13	0:03:14	1:52:22	Unknown	FIN
 474545	246	Geraldo Magela Souza Nascimento	M	M40-44	40	5:16:15	0:37:46	0:03:58	2:45:15	0:02:22	1:46:54	Unknown	FIN
 278523	247	Luiz Marcelo Mattos	M	M40-44	41	5:16:17	0:39:20	0:04:59	2:36:18	0:02:54	1:52:46	Unknown	FIN
@@ -681,7 +681,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 34545	518	Lucas Gomes	M	M30-34	137	5:56:51	0:36:18	0:05:08	2:38:46	0:04:50	2:31:49	Unknown	FIN
 65628	519	Albor Renones	M	M45-49	47	5:57:01	0:41:59	0:05:24	2:58:11	0:02:54	2:08:33	Unknown	FIN
 83861	520	Virna Costa E Silva	F	F35-39	10	5:57:01	0:46:54	0:06:05	2:59:30	0:02:08	2:02:24	Unknown	FIN
-264050	521	Antonio Jose  Gomes Junior	M	M45-49	48	5:57:04	0:34:59	0:06:30	2:49:49	0:04:48	2:20:58	Unknown	FIN
+264050	521	Antonio Jose Gomes Junior	M	M45-49	48	5:57:04	0:34:59	0:06:30	2:49:49	0:04:48	2:20:58	Unknown	FIN
 506039	522	Andre Portugal	M	M40-44	78	5:57:06	0:40:25	0:05:35	2:52:20	0:04:09	2:14:37	Unknown	FIN
 750567	523	Deborah Klabin	F	F25-29	8	5:57:13	0:38:12	0:05:58	3:06:52	0:03:38	2:02:33	Unknown	FIN
 721651	524	Renan Alves	M	M18-24	23	5:57:19	0:42:49	0:04:40	3:03:00	0:04:26	2:02:24	Unknown	FIN
@@ -898,7 +898,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 278896	735	Fernando Cardoso	M	M40-44	111	7:41:58	0:52:37	0:11:17	3:49:27	0:07:11	2:41:26	Unknown	FIN
 689020	736	Gustavo Carfagna	M	M45-49	69	7:42:50	0:47:35	0:09:33	3:21:49	0:08:07	3:15:46	Unknown	FIN
 730943	737	Thiago Biazetto	M	M30-34	182	7:45:27	0:43:07	0:07:55	3:39:48	0:04:59	3:09:38	Unknown	FIN
-292306	738	Deycy Lidiana Nunez  Feris	F	F35-39	20	7:47:11	1:06:31	0:06:41	3:29:57	0:05:21	2:58:41	Unknown	FIN
+292306	738	Deycy Lidiana Nunez Feris	F	F35-39	20	7:47:11	1:06:31	0:06:41	3:29:57	0:05:21	2:58:41	Unknown	FIN
 750625	739	Luiz Augusto Loyola	M	M30-34	183	7:49:48	0:52:30	0:08:04	3:21:02	0:07:38	3:20:34	Unknown	FIN
 750626	740	Joco Gabriel Nobrega Pereira De Almeida	M	M30-34	184	7:50:11	0:54:32	0:09:51	3:45:11		3:00:37	Unknown	FIN
 750627	741	Laudenor Pereira Lemos Junior	M	M30-34	185	7:50:19	0:50:41	0:15:12	3:30:47	0:10:08	3:03:31	Unknown	FIN

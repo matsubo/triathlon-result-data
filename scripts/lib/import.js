@@ -9,15 +9,16 @@
  *   committed TSVs and images; receives the writes.
  *
  * The core owns the conventions (Category ids and paths, Segment distances,
- * source_ref, weather_file), name cleanup, Edition placement, the safety
- * checks and the race-info serialisation. A failing Edition is skipped with
- * its reason and the others are still written: TSVs first, race-info.json
- * once at the end.
+ * source_ref, weather_file), name cleanup, canonical Age category labels,
+ * Edition placement, the safety checks and the race-info serialisation. A
+ * failing Edition is skipped with its reason and the others are still
+ * written: TSVs first, race-info.json once at the end.
  */
 import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import Ajv from "ajv";
+import { relabelAgeCategory } from "./normalize-age-category.js";
 import { parseTime } from "./normalize-time.js";
 import { memoryRepo } from "./repo.js";
 
@@ -119,6 +120,25 @@ export function cleanName(s) {
     )
     .replace(/\s+/g, " ")
     .trim();
+}
+
+/**
+ * Rewrite age_category cells into their canonical Age category label
+ * (relabelAgeCategory: 男子25-29歳 → M25-29), the same rule
+ * scripts/fix-age-category-labels.js applies to committed TSVs. A label whose
+ * bracket contradicts the row's age stays as it is.
+ * @param {string[][]} rows
+ * @param {number[]} labelIdxs age_category columns
+ * @param {number[]} ageIdxs age columns; the first non-empty one is the age
+ */
+function canonicalizeAgeCategories(rows, labelIdxs, ageIdxs) {
+  for (const r of rows) {
+    const age = ageIdxs.map((i) => (r[i] ?? "").trim()).find((v) => v) ?? "";
+    for (const i of labelIdxs) {
+      const { label } = relabelAgeCategory(r[i] ?? "", age);
+      if (label !== null) r[i] = label;
+    }
+  }
 }
 
 /**
@@ -418,8 +438,13 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
     const rows = table.rows.map((r) =>
       r.map((v) => (v == null ? "" : String(v))),
     );
-    if (new Set(headers).size !== headers.length)
-      throw new Skip(`${label}: duplicate headers`);
+    // A Column reads the last of equal headers, so a repeated one would
+    // silently drop a column (a duathlon's Ｒ順 for both run legs).
+    const repeated = headers.filter((h, i) => headers.indexOf(h) !== i);
+    if (repeated.length > 0)
+      throw new Skip(
+        `${label}: duplicate headers ${[...new Set(repeated)].join(", ")}`,
+      );
     const mapped = new Map(table.columns.map((c) => [c.header, c]));
     for (const c of table.columns)
       if (!headers.includes(c.header))
@@ -433,11 +458,16 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
       );
 
     const col = (/** @type {string} */ h) => headers.indexOf(h);
+    const metaIdxs = (/** @type {string} */ role) =>
+      table.columns
+        .filter((c) => c.role === role && !c.sport)
+        .map((c) => col(c.header));
     const nameCol = table.columns.find((c) => c.role === "name" && !c.sport);
     if (nameCol) {
       const i = col(nameCol.header);
       for (const r of rows) r[i] = cleanName(r[i]);
     }
+    canonicalizeAgeCategories(rows, metaIdxs("age_category"), metaIdxs("age"));
 
     const distance = spec.distance ?? table.distance_class;
     if (!distance) throw new Skip(`${label}: no Distance class`);
@@ -774,6 +804,16 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
       const nameHeader = header("name");
       const ni = nameHeader ? table.headers.indexOf(nameHeader) : -1;
       if (ni >= 0) for (const r of rows) r[ni] = cleanName(r[ni]);
+      const metaIdxs = (/** @type {string} */ role) =>
+        metas
+          .filter((/** @type {any} */ m) => m.role === role)
+          .map((/** @type {any} */ m) => table.headers.indexOf(m.header))
+          .filter((/** @type {number} */ i) => i >= 0);
+      canonicalizeAgeCategories(
+        rows,
+        metaIdxs("age_category"),
+        metaIdxs("age"),
+      );
       const tsv = serializeTsv(table.headers, rows);
       const committed = target.readText(c.result_tsv);
 
@@ -840,7 +880,22 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
         const division = header("age_category");
         const di = division ? table.headers.indexOf(division) : -1;
         const pro = di < 0 ? 0 : rows.filter((r) => /PRO$/i.test(r[di])).length;
-        if (di >= 0 && pro >= rows.length * PRO_ONLY_SHARE)
+        // A partial upload posts the PRO results first. A Category whose
+        // committed TSV is PRO-only too is a PRO Category by design.
+        const committedLines = (committed ?? "").split("\n");
+        const ci = division
+          ? committedLines[0].split("\t").indexOf(division)
+          : -1;
+        const committedRows = committedLines.slice(1).filter((l) => l !== "");
+        const committedPro =
+          ci < 0
+            ? 0
+            : committedRows.filter((l) => /PRO$/i.test(l.split("\t")[ci] ?? ""))
+                .length;
+        const proByDesign =
+          committedRows.length > 0 &&
+          committedPro >= committedRows.length * PRO_ONLY_SHARE;
+        if (di >= 0 && pro >= rows.length * PRO_ONLY_SHARE && !proByDesign)
           throw new Skip(
             `${c.id}: PRO-only results (${pro} of ${rows.length} rows are PRO)`,
           );

@@ -1,5 +1,4 @@
 {
-  "$comment": "Known-OK event_id pairs whose TSV content overlaps >=80% but are legitimately separate entries (e.g. same venue listed under two series). Used by scripts/check-duplicate-editions.js. Add an entry only after manually confirming the editions are NOT duplicates.",
-  "$review_needed": "The pairs below are structural overlaps or data bugs flagged during the 2026-04 bulk duplicate audit. Each needs follow-up (noted inline).",
-  "pairs": []
+  "description": "Exceptions to scripts/check-duplicate-editions.js: pairs of event ids whose Editions overlap >=80% in (name, total time) but are legitimately separate races (e.g. same venue listed under two series). Each entry is { \"a\": event id, \"b\": event id, \"note\": why they are distinct }. Add an entry only after manually confirming the Editions are NOT duplicates. The list is empty: the 13 pairs allowlisted in 5.0.2 were all resolved, 7 by consolidating duplicate events (commit 2cd160ae) and the last 6 by fixing mis-assigned TSVs and gender-split Events in 5.2.0 (commit 96cbaf88).",
+  "entries": []
 }

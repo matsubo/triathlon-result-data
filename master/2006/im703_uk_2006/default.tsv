@@ -3,7 +3,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 	DNF	Raynard Tissink	M	MPRO	0		0:24:31	0:03:20				Unknown	DNF
 	DNF	Mitch Dean	M	MPRO	0		0:25:01					Unknown	DNF
 	DNF	James Parker	M	MPRO	0		0:26:07	0:03:21	2:58:57	0:01:16		Unknown	DNF
-	DNF	Michael  Abbott	M	M30-34	0		0:26:18	0:04:12				Unknown	DNF
+	DNF	Michael Abbott	M	M30-34	0		0:26:18	0:04:12				Unknown	DNF
 	DNF	Peter Clearkin	M	M30-34	0		0:26:21	0:04:43	3:27:13	0:01:37		Unknown	DNF
 	DNF	Rebecca Preston	F	FPRO	0		0:30:15	0:03:23				Unknown	DNF
 	DNF	James Duveen	M	M25-29	0		0:33:11	0:07:09				Unknown	DNF
@@ -26,7 +26,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 	DNF	Nicola Desty	F	F25-29	0		0:40:52	0:06:33	2:53:05	0:03:40		Unknown	DNF
 	DNF	Toby Marsh	M	M30-34	0		0:40:58	0:12:19				Unknown	DNF
 	DNF	Marianne Allen	F	F45-49	0		0:41:02	0:07:42				Unknown	DNF
-	DNF	Amanda  Sallis	F	F35-39	0		0:41:16	0:06:32				Unknown	DNF
+	DNF	Amanda Sallis	F	F35-39	0		0:41:16	0:06:32				Unknown	DNF
 	DNF	Liz Arme	F	F45-49	0		0:41:29	0:06:39				Unknown	DNF
 	DNF	Barry Aherne	M	M25-29	0		0:43:08	0:08:49				Unknown	DNF
 	DNF	Anita Cavell	F	F35-39	0		0:44:12	0:05:09	3:38:48	0:01:37		Unknown	DNF
@@ -39,7 +39,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 	DNF	Gayle Cairns	F	F25-29	0		0:52:49	0:10:09				Unknown	DNF
 	DNF	Dave Clyne	M	M35-39	0		0:54:13	0:06:49				Unknown	DNF
 	DNF	Sam Maguire	M	M25-29	0		0:54:13	0:10:15				Unknown	DNF
-	DNF	Stephen  Chandler	M	M40-44	0		0:54:30					Unknown	DNF
+	DNF	Stephen Chandler	M	M40-44	0		0:54:30					Unknown	DNF
 	DNF	Sam Baxendale	M	M25-29	0		0:56:44	0:07:41				Unknown	DNF
 	DNF	Anke Richter	F	F35-39	0		0:57:55	0:14:31				Unknown	DNF
 	DNF	Glenda Elder	F	F40-44	0		0:58:52	0:09:41				Unknown	DNF
@@ -310,7 +310,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 	265	Dave Bradley	M	M25-29	40	6:00:36	0:37:34	0:06:35	3:32:53	0:02:35	1:40:56	Unknown	FIN
 	266	Jo Barrett	F	F30-34	5	6:00:43	0:40:49	0:05:32	3:34:08	0:01:23	1:38:46	Unknown	FIN
 	267	Simon Barry	M	M40-44	43	6:00:44	0:42:14	0:05:43	3:13:13	0:01:52	1:57:39	Unknown	FIN
-	268	Mark  Bayliss	M	M40-44	44	6:00:44	0:36:13	0:04:54	3:20:39	0:01:10	1:57:43	Unknown	FIN
+	268	Mark Bayliss	M	M40-44	44	6:00:44	0:36:13	0:04:54	3:20:39	0:01:10	1:57:43	Unknown	FIN
 	269	Nigel Burnett	M	M50-54	3	6:00:59	0:35:36	0:06:38	3:21:05	0:02:07	1:55:28	Unknown	FIN
 	270	Adam Tullett	M	M35-39	63	6:01:16	0:38:50	0:05:25	3:20:51	0:01:53	1:54:15	Unknown	FIN
 	271	Matthew Robinson	M	M35-39	64	6:01:28	0:34:26	0:07:10	3:25:52	0:02:24	1:51:32	Unknown	FIN
@@ -359,7 +359,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 	314	Phil Clarke	M	M35-39	79	6:09:57	0:33:21	0:07:04	3:23:55	0:01:29	2:04:04	Unknown	FIN
 	315	John Boyd	M	M40-44	50	6:10:02	0:29:40	0:07:07	3:22:11	0:01:45	2:09:14	Unknown	FIN
 	316	Stuart Westwood	M	M25-29	45	6:10:07	0:29:30	0:08:33	3:36:56	0:02:32	1:52:32	Unknown	FIN
-	317	Louise  Wood	F	F25-29	1	6:10:24	0:44:10	0:05:38	3:25:41	0:01:50	1:53:01	Unknown	FIN
+	317	Louise Wood	F	F25-29	1	6:10:24	0:44:10	0:05:38	3:25:41	0:01:50	1:53:01	Unknown	FIN
 	318	Christina Squire	F	F25-29	2	6:10:45	0:30:33	0:05:25	3:36:26	0:01:52	1:56:23	Unknown	FIN
 	319	Bruce Manning	M	M55-59	2	6:10:49	0:45:02	0:04:52	3:18:32	0:01:17	2:01:02	Unknown	FIN
 	320	James Poole	M	M18-24	16	6:10:57	0:39:25	0:06:06	3:34:22	0:02:19	1:48:41	Unknown	FIN
@@ -371,7 +371,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 	326	Gavin Kelly	M	M25-29	46	6:11:39	0:33:38	0:05:19	3:26:35	0:01:53	2:04:10	Unknown	FIN
 	327	Emma Richards	F	F25-29	3	6:11:40	0:35:43	0:05:14	3:36:33	0:02:09	1:51:58	Unknown	FIN
 	328	David Fleet	M	M45-49	22	6:11:42	0:38:47	0:05:30	3:23:24	0:01:43	2:02:14	Unknown	FIN
-	329	Kevin  Cook	M	M35-39	82	6:11:44	0:36:03	0:05:33	3:31:37	0:02:25	1:56:01	Unknown	FIN
+	329	Kevin Cook	M	M35-39	82	6:11:44	0:36:03	0:05:33	3:31:37	0:02:25	1:56:01	Unknown	FIN
 	330	Rory Davidson	M	M30-34	69	6:12:03	0:32:51	0:07:42	3:29:15	0:03:14	1:58:55	Unknown	FIN
 	331	Graeme Little	M	M18-24	17	6:12:13	0:37:23	0:07:36	3:26:22	0:02:35	1:58:12	Unknown	FIN
 	332	David Higgins	M	M35-39	83	6:12:13	0:38:29	0:06:46	3:26:02	0:01:42	1:59:10	Unknown	FIN
@@ -395,7 +395,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 	350	David Whittingham-Jones	M	M30-34	74	6:14:04	0:34:36	0:05:28	3:24:05	0:01:41	2:08:10	Unknown	FIN
 	351	Perry Bettis	M	M40-44	55	6:14:14	0:36:11	0:06:44	3:23:12	0:01:49	2:06:13	Unknown	FIN
 	352	Kenny Brown	M	M45-49	25	6:14:27	0:35:49	0:10:22	3:37:06	0:02:03	1:49:03	Unknown	FIN
-	353	Jenny  Carter	F	F30-34	7	6:14:31	0:33:13	0:06:23	3:39:09	0:01:36	1:54:05	Unknown	FIN
+	353	Jenny Carter	F	F30-34	7	6:14:31	0:33:13	0:06:23	3:39:09	0:01:36	1:54:05	Unknown	FIN
 	354	Joanne Iles	F	F35-39	7	6:14:38	0:34:01	0:04:25	3:36:16	0:01:25	1:58:28	Unknown	FIN
 	355	Jonathan Miller	M	M35-39	85	6:14:43	0:28:21	0:04:00	3:34:20	0:01:22	2:06:36	Unknown	FIN
 	356	David Thompson	M	M45-49	26	6:15:05	0:39:27	0:05:23	3:21:45	0:02:11	2:06:16	Unknown	FIN
@@ -437,7 +437,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 	392	Simon Wood	M	M35-39	95	6:21:04	0:35:42	0:04:23	3:28:51	0:01:49	2:10:14	Unknown	FIN
 	393	Angelo neto Uliana	M	M25-29	54	6:21:11	0:28:56	0:07:28	3:19:39	0:02:18	2:22:46	Unknown	FIN
 	394	Mitchell Nova	M	M25-29	55	6:21:32	0:35:27	0:07:18	3:28:58	0:02:15	2:07:31	Unknown	FIN
-	395	Peter  Barrat	M	M35-39	96	6:21:46	0:36:33	0:07:03	3:39:06	0:01:41	1:57:18	Unknown	FIN
+	395	Peter Barrat	M	M35-39	96	6:21:46	0:36:33	0:07:03	3:39:06	0:01:41	1:57:18	Unknown	FIN
 	396	Tim Spaulding	M	M25-29	56	6:21:46	0:45:54	0:06:41	3:25:48	0:02:56	2:00:23	Unknown	FIN
 	397	George Abbatt	M	M18-24	20	6:21:47	0:38:25	0:06:59	3:16:47	0:02:06	2:17:26	Unknown	FIN
 	398	Bruce Rogerson	M	M30-34	84	6:21:51	0:32:42	0:05:36	3:41:50	0:01:54	1:59:44	Unknown	FIN
@@ -456,7 +456,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 	411	David Hallett	M	M35-39	103	6:24:18	0:34:50	0:07:48	3:34:31	0:03:21	2:03:43	Unknown	FIN
 	412	Ian O'Brien	M	M40-44	63	6:24:25	0:35:35	0:05:35	3:42:33	0:02:10	1:58:28	Unknown	FIN
 	413	Steven Vaughan	M	M35-39	104	6:24:56	0:35:19	0:06:03	3:29:36	0:01:29	2:12:25	Unknown	FIN
-	414	Robbie  Laughton	M	M40-44	64	6:25:02	0:37:59	0:06:02	3:26:47	0:01:54	2:12:17	Unknown	FIN
+	414	Robbie Laughton	M	M40-44	64	6:25:02	0:37:59	0:06:02	3:26:47	0:01:54	2:12:17	Unknown	FIN
 	415	Alan Minister	M	M40-44	65	6:25:07	0:35:21	0:06:37	3:31:33	0:03:46	2:07:44	Unknown	FIN
 	416	Rachel Bown	F	F35-39	8	6:25:10	0:38:00	0:05:42	3:48:31	0:01:11	1:51:41	Unknown	FIN
 	417	Stewart Orrell	M	M40-44	66	6:25:14	0:34:18	0:07:43	3:37:01	0:03:38	2:02:30	Unknown	FIN
@@ -486,7 +486,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 	441	Daniel Jones	M	M25-29	60	6:29:30	0:35:19	0:07:07	3:36:34	0:01:45	2:08:39	Unknown	FIN
 	442	James Wright	M	M35-39	109	6:29:32	0:35:41	0:07:06	3:42:45	0:02:05	2:01:52	Unknown	FIN
 	443	Bob Cregan	M	M35-39	110	6:29:47	0:38:44	0:05:49	3:31:00	0:02:05	2:12:05	Unknown	FIN
-	444	Nick  Thomas	M	M25-29	61	6:29:56	0:34:47	0:08:27	3:52:56	0:04:20	1:49:22	Unknown	FIN
+	444	Nick Thomas	M	M25-29	61	6:29:56	0:34:47	0:08:27	3:52:56	0:04:20	1:49:22	Unknown	FIN
 	445	Richard Taylor	M	M35-39	111	6:30:03	0:34:29	0:07:42	3:35:15	0:02:22	2:10:10	Unknown	FIN
 	446	Daniel Grose	M	M35-39	112	6:30:16	0:37:32	0:10:01	3:47:57	0:02:58	1:51:42	Unknown	FIN
 	447	Clayton Wehrle	M	M35-39	113	6:30:23	0:33:27	0:05:06	3:41:12	0:01:23	2:09:12	Unknown	FIN
@@ -508,7 +508,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 	463	Peter Higgins	M	M30-34	97	6:33:35	0:44:15	0:06:06	3:31:04	0:01:14	2:10:51	Unknown	FIN
 	464	Neil Hathaway	M	M30-34	98	6:33:56	0:40:55	0:06:17	3:31:42	0:02:44	2:12:12	Unknown	FIN
 	465	Anthony Edwards	M	M40-44	72	6:34:01	0:36:25	0:06:39	3:20:53	0:02:33	2:27:26	Unknown	FIN
-	466	Andrew  Ridley	M	M35-39	120	6:34:04	0:34:46	0:04:41	3:34:50	0:04:58	2:14:45	Unknown	FIN
+	466	Andrew Ridley	M	M35-39	120	6:34:04	0:34:46	0:04:41	3:34:50	0:04:58	2:14:45	Unknown	FIN
 	467	Michael Nowicki	M	M25-29	62	6:34:06	0:36:52	0:07:03	3:32:11	0:01:25	2:16:31	Unknown	FIN
 	468	Ian Grace	M	M35-39	121	6:34:08	0:44:00	0:06:04	3:16:44	0:02:45	2:24:29	Unknown	FIN
 	469	Barney Durrant	M	M30-34	99	6:34:14	0:43:06	0:05:39	3:39:26	0:01:29	2:04:29	Unknown	FIN
@@ -637,7 +637,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 	592	Colin Clark	M	M50-54	10	6:58:38	0:34:08	0:06:20	3:49:13	0:03:11	2:25:41	Unknown	FIN
 	593	Grahame Murray	M	M35-39	152	6:58:39	0:33:34	0:09:03	3:54:42	0:05:16	2:16:01	Unknown	FIN
 	594	Mike Spieker	M	M35-39	153	6:58:49	0:35:31	0:06:13	3:44:55	0:04:06	2:27:59	Unknown	FIN
-	595	Doug  Plunkett	M	M45-49	45	6:58:51	0:35:53	0:05:42	3:54:08	0:02:30	2:20:34	Unknown	FIN
+	595	Doug Plunkett	M	M45-49	45	6:58:51	0:35:53	0:05:42	3:54:08	0:02:30	2:20:34	Unknown	FIN
 	596	Miles Whittock	M	M35-39	154	6:59:00	0:39:10	0:07:30	3:43:56	0:03:46	2:24:33	Unknown	FIN
 	597	David Macready	M	M45-49	46	6:59:37	0:35:35	0:09:02	3:47:02	0:05:01	2:22:53	Unknown	FIN
 	598	Paul Hogger	M	M40-44	91	7:00:23	0:40:53	0:06:16	3:52:57	0:02:13	2:18:01	Unknown	FIN
@@ -645,7 +645,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 	600	Robert Rea	M	M35-39	155	7:00:48	0:45:12	0:06:49	3:53:12	0:04:04	2:11:26	Unknown	FIN
 	601	Jeffrey Brockman	M	M50-54	11	7:01:06	0:35:22	0:07:39	4:04:11	0:03:26	2:10:23	Unknown	FIN
 	602	Danny Gorrill	M	M35-39	156	7:01:06	0:39:10	0:10:18	3:44:43	0:06:38	2:20:15	Unknown	FIN
-	603	Tony  Oliver	M	M30-34	120	7:01:09	0:43:44	0:09:51	3:52:24	0:06:15	2:08:51	Unknown	FIN
+	603	Tony Oliver	M	M30-34	120	7:01:09	0:43:44	0:09:51	3:52:24	0:06:15	2:08:51	Unknown	FIN
 	604	Steve Elliott	M	M40-44	92	7:01:09	0:46:40	0:08:38	3:33:57	0:02:48	2:29:00	Unknown	FIN
 	605	Paul Besser	M	M50-54	12	7:01:13	0:42:02	0:17:01	3:51:44	0:06:26	2:03:54	Unknown	FIN
 	606	Anna Willetts	F	F18-24	4	7:01:40	0:37:34	0:05:21	3:51:58	0:04:05	2:22:40	Unknown	FIN
@@ -711,7 +711,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 	666	Stephen Horrocks	M	M35-39	170	7:18:57	0:45:39	0:07:31	3:56:21	0:02:17	2:27:07	Unknown	FIN
 	667	Caroline Maguire	F	F40-44	13	7:19:11	0:39:53	0:07:21	4:08:47	0:04:13	2:18:53	Unknown	FIN
 	668	Vicky Whitfield	F	F35-39	20	7:20:04	0:33:58	0:07:04	4:25:46	0:02:33	2:10:40	Unknown	FIN
-	669	Paul  Hoare	M	M45-49	51	7:20:21	0:40:11	0:07:05	3:59:39	0:02:49	2:30:33	Unknown	FIN
+	669	Paul Hoare	M	M45-49	51	7:20:21	0:40:11	0:07:05	3:59:39	0:02:49	2:30:33	Unknown	FIN
 	670	Ian Young	M	M25-29	79	7:20:28	0:33:14	0:07:25	3:54:00	0:03:03	2:42:41	Unknown	FIN
 	671	Diane Hamilton	F	F35-39	21	7:21:05	0:44:45	0:09:22	4:00:19	0:07:18	2:19:17	Unknown	FIN
 	672	Alan Gray	M	M25-29	80	7:21:18	0:40:16	0:05:35	3:58:21	0:01:51	2:35:10	Unknown	FIN

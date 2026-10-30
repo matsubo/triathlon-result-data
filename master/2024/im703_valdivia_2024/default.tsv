@@ -363,7 +363,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 955457	DNF	Sebastian Oyarzun Alvial	M	M30-34			0:36:08	0:12:08	3:12:15	0:08:48		Chile	DNF
 1193292	DNS	Milton Gutcovsky	M	M30-34								Chile	DNS
 1193225	DNS	Daishi Kawano	M	M30-34								Japan	DNS
-954381	DNS	Lorena  Del Pilar Gajardo Sanchez	F	F45-49								Chile	DNS
+954381	DNS	Lorena Del Pilar Gajardo Sanchez	F	F45-49								Chile	DNS
 959649	DNS	Sergio Luiz Bruno Filho	M	M40-44								Brazil	DNS
 680934	DNS	Pablo Renan Claros	M	M35-39								Bolivia	DNS
 954358	DNS	Manuel Antonio Camiruaga Mezzano	M	M50-54								Chile	DNS
@@ -420,7 +420,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 1193301	DNS	Joaquin Jimenez Salgado	M	M30-34								Chile	DNS
 893524	DNS	Tomas Rivera	M	M35-39								Chile	DNS
 955232	DNS	Hernan Ignacio Flores Cerro	M	M40-44								Chile	DNS
-1193231	DNS	Francisco Villablanca  Tarsetti	M	M45-49								Chile	DNS
+1193231	DNS	Francisco Villablanca Tarsetti	M	M45-49								Chile	DNS
 1187911	DNS	Fernando Aguayo	M	M30-34								Chile	DNS
 324942	DNS	Rodrigo Orellana Carmona	M	M50-54								Chile	DNS
 954913	DNS	Andres Vasquez	M	M45-49								Chile	DNS
@@ -1168,7 +1168,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 1053905	722	Isabel Corvalan	F	F55-59	1	5:36:07	0:40:56	0:08:02	2:39:24	0:05:53	2:01:53	Chile	FIN
 1192883	723	Matias Salas	M	M30-34	146	5:36:08	0:39:42	0:09:55	2:44:04	0:07:42	1:54:45	Chile	FIN
 995504	724	Thiago Duarte Mota	M	M45-49	77	5:36:08	0:33:55	0:09:12	2:54:36	0:06:01	1:52:24	Antarctica	FIN
-1192884	725	Jose Luis Moscoso  Fonseca	M	M50-54	45	5:36:09	0:30:54	0:07:41	2:46:57	0:05:40	2:04:56	Chile	FIN
+1192884	725	Jose Luis Moscoso Fonseca	M	M50-54	45	5:36:09	0:30:54	0:07:41	2:46:57	0:05:40	2:04:56	Chile	FIN
 954511	726	Marcelo Eduardo Ruiz Joménez	M	M50-54	46	5:36:15	0:35:07	0:07:13	2:45:54	0:06:51	2:01:10	Chile	FIN
 954187	727	Fernando Tapia	M	M40-44	141	5:36:24	0:29:54	0:06:05	2:41:20	0:04:34	2:14:33	Chile	FIN
 1192885	728	Juan Antonio Vargas Gómez	M	M30-34	147	5:36:39	0:39:05	0:08:14	2:55:09	0:06:49	1:47:22	Chile	FIN
@@ -1186,7 +1186,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 240459	740	Fernando Javier Araneda Brito	M	M45-49	79	5:37:53	0:36:50	0:07:06	2:42:03	0:04:50	2:07:04	Chile	FIN
 1175187	741	Andres Felipe Moreno Parra	M	M25-29	77	5:37:53	0:34:38	0:07:49	2:45:30	0:07:01	2:02:56	Colombia	FIN
 954429	742	Diego Vargas	M	M35-39	126	5:37:58	0:36:55	0:09:00	2:53:00	0:06:05	1:52:59	Chile	FIN
-955252	743	Felipe  Andres Oryan Suazo	M	M45-49	80	5:38:02	0:40:31	0:08:17	2:33:11	0:05:47	2:10:16	Chile	FIN
+955252	743	Felipe Andres Oryan Suazo	M	M45-49	80	5:38:02	0:40:31	0:08:17	2:33:11	0:05:47	2:10:16	Chile	FIN
 955390	744	Marcelo Munzenmayer	M	M50-54	49	5:38:07	0:44:09	0:08:22	2:36:50	0:05:48	2:02:58	Chile	FIN
 948114	745	Mauricio Oporto	M	M45-49	81	5:38:08	0:35:46	0:07:33	2:36:44	0:06:40	2:11:25	Argentina	FIN
 1192889	746	Carlos Vega	M	M30-34	150	5:38:15	0:41:33	0:08:13	2:56:30	0:06:36	1:45:22	Chile	FIN
@@ -1704,7 +1704,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 955606	1258	Alexis Leonardo Valerio Gajardo	M	M40-44	222	6:31:02	0:54:48	0:08:30	2:59:43	0:05:50	2:22:11	Chile	FIN
 1193094	1259	Sebastian Zambrano	M	M18-24	36	6:31:07	0:29:53	0:09:22	3:11:44	0:06:43	2:33:24	Chile	FIN
 1186353	1260	Beilis Branda	F	F40-44	24	6:31:13	0:53:15	0:10:08	3:08:48	0:07:53	2:11:09	Panama	FIN
-960179	1261	Augusto Yupanqui  Baca	M	M50-54	94	6:31:37	0:50:58	0:09:13	3:11:54	0:07:02	2:12:30	Peru	FIN
+960179	1261	Augusto Yupanqui Baca	M	M50-54	94	6:31:37	0:50:58	0:09:13	3:11:54	0:07:02	2:12:30	Peru	FIN
 954600	1262	Roberto Gabriel Castro Bravo	M	M30-34	223	6:31:42	0:38:45	0:08:37	2:56:06	0:06:05	2:42:09	Chile	FIN
 1193095	1263	Francisco Andrés Alvarez Diaz	M	M30-34	224	6:31:42	0:36:53	0:08:58	3:06:00	0:07:29	2:32:21	Chile	FIN
 1193096	1264	Rafael Vilches Galvez	M	M40-44	223	6:32:00	0:41:51	0:08:30	3:18:16	0:05:54	2:17:29	Chile	FIN
@@ -1781,7 +1781,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 1193128	1335	Christian Pierre Labarthe Vasquez	M	M40-44	230	6:45:39	0:51:36	0:10:04	3:22:33	0:07:00	2:14:26	Chile	FIN
 1193129	1336	Francisca Troncoso	F	F40-44	30	6:45:42	0:41:13	0:10:50	3:06:27	0:08:06	2:39:06	Chile	FIN
 1188162	1337	Rocio De Los Angeles Guerrero Cárdenas	F	F35-39	43	6:46:10	0:51:45	0:09:20	3:26:18	0:06:03	2:12:44	Chile	FIN
-974666	1338	Claudio  Marcelo Sanchez Clavero	M	M55-59	40	6:46:30	0:37:03	0:11:51	3:16:56	0:08:05	2:32:35	Argentina	FIN
+974666	1338	Claudio Marcelo Sanchez Clavero	M	M55-59	40	6:46:30	0:37:03	0:11:51	3:16:56	0:08:05	2:32:35	Argentina	FIN
 954854	1339	Roberto Eduardo Beltrán Díaz	M	M35-39	222	6:46:39	1:02:55	0:10:47	3:03:57	0:09:25	2:19:34	Chile	FIN
 1188150	1340	Sofia Belen Aguilera Achurra	F	F18-24	6	6:46:46	0:36:40	0:08:25	3:16:23	0:04:45	2:40:33	Chile	FIN
 325377	1341	Marco Antonio Cubillos	M	M35-39	223	6:46:48	0:40:32	0:09:08	3:11:28	0:09:32	2:36:09	Chile	FIN

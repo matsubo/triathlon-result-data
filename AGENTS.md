@@ -46,11 +46,11 @@ Agents can help navigate and understand this triathlon result data repository wh
 ```
 入力（master/）
   result.tsv ─────┐
-  weather.json ───┤──→ normalize-tsv.js <event_id> <year> → JSON（stdout）
+  weather.json ───┤──→ normalize-tsv.js <event_id> <year|date> → JSON（stdout）
   race-info.json ─┘
 ```
 
-出力コマンド: `bun scripts/normalize-tsv.js <event_id> <year>`
+出力コマンド: `bun scripts/normalize-tsv.js <event_id> <year|date>`（同じ年に複数エディションがある大会は年だと曖昧なので終了コード 1 で日付を列挙する。そのときは `YYYY-MM-DD` で指定する）
 
 ## TSVデータ規約
 
@@ -58,32 +58,34 @@ Agents can help navigate and understand this triathlon result data repository wh
   - ○ `山田 太郎`
   - × `山田　太郎`（全角スペース）
   - × `山田太郎`（スペースなし） — 大会をまたいだ同一人物の名寄せができなくなるため禁止
-  - この規約は `tests/tsv-lint.test.ts` の「Japanese 氏名 values contain a half-width
-    space between family and given name」で静的に検査される。チーム名・ニックネーム
+  - この規約は `tests/tsv-lint.test.ts` の「Japanese names have a half-width space
+    between family and given name」で静的に検査される（`role: "name"` の全列、
+    漢字・かなを含む値が対象）。チーム名・ニックネーム
     登録（年齢欄が空、または数字・括弧・中黒を含む値）や1文字のみの登録は対象外。
-    姓名境界が2分割できない外国人名やニックネーム等、正当な例外は
-    `name-space-allowlist.json` に追記する。
+    姓名境界が2分割できない外国人名やニックネーム等、正当な例外（Exception）は
+    `name-space-allowlist.json` の `entries` に追記する。
   - 新規TSV取り込み時、氏名にスペースがない行を見つけたら他TSVファイルの同名
     参加者（同一人物が複数大会に出ていることが多い）から姓名境界を推定するか、
     Python の `namedivider-python`（GBDTモデル）で分割を推定する。
   - 連続する半角スペース（`佐藤  桂`のような二重スペース）も禁止。原本
     （JTU等）に由来する表記ゆれとして紛れ込むことがあるため、取り込み時に
-    正規化する。`tests/tsv-lint.test.ts`の「氏名 values do not contain
-    consecutive half-width spaces」で静的に検査される。
+    正規化する。`tests/tsv-lint.test.ts`の「no consecutive half-width
+    spaces」（`role: "name"` の全列）で静的に検査される。
 - **アルファベット氏名は半角に統一**: 全角英字（`Ｔｏｍ Ｓｍｉｔｈ`）は半角
   （`Tom Smith`）へ変換して取り込む。全角のままだと同一人物の大会横断
-  名寄せができない。`tests/tsv-lint.test.ts`の「氏名 values do not contain
-  full-width Latin letters」で静的に検査される。
+  名寄せができない。`tests/tsv-lint.test.ts`の「no full-width Latin
+  letters」（`role: "name"` の全列）で静的に検査される。
 - **年齢区分は性別を M/F の接頭辞で表記する**: `role: "age_category"` の列で
   性別語（男子/女子/男/女）を含む値は、`M25-29`（男子25-29歳）、`F0-24`
   （女子24歳以下）、`M65+`（男子65歳以上）、`M30-39`（30歳代男子）の形に
   統一する。大会ごとに表記が違うと、同じ区分がアプリ上で別々に表示される
-  ため。取り込み後に `bun run scripts/fix-age-category-labels.js` を実行す
-  れば自動で変換される（冪等）。年齢と矛盾する区分は破損とみなして変換し
-  ない。`tests/tsv-lint.test.ts` の「年齢区分 values use the canonical M/F
+  ため。Import モジュール（`bun scripts/import.js`）は取り込み時に変換する。
+  それ以外の手段で書いた TSV は `bun run scripts/fix-age-category-labels.js`
+  で変換する（冪等）。年齢と矛盾する区分は破損とみなして変換しない
+  （どちらも同じ規則）。`tests/tsv-lint.test.ts` の「年齢区分 values use the canonical M/F
   label…」で静的に検査される。年齢区分ではない部門名（`一般男子`、
-  `高校生女子`、`1970年代男子` 等）は `age-category-allowlist.json` に追記
-  する。
+  `高校生女子`、`1970年代男子` 等）は Exception として
+  `age-category-allowlist.json` の `entries` に追記する。
 
 ## ファイル名規約
 
@@ -111,39 +113,31 @@ Agents can help navigate and understand this triathlon result data repository wh
 - `images/` 大会を象徴する画像。webp形式。600x400以内に収まる大きさ。
 - `master/<year>/<dir>/<file>.tsv` 大会のリザルトデータ（入力・非正規化）。カテゴリごとに1ファイル。パスは各カテゴリの `result_tsv` が正（IRONMAN は `master/<year>/<event_id>_<year>/default.tsv`、その他は `master/<year>/<event_id>/default.tsv`・`sprint.tsv` 等。古いエディションには `result.tsv` もある）
 - `master/<year>/<id>/weather-data.json` 大会の天気データ
-- `scripts/normalize-tsv.js` 大会IDと年を指定して正規化済み JSON を stdout に出力する CLI
+- `scripts/normalize-tsv.js` 大会IDと年（または日付）を指定して正規化済み JSON を stdout に出力する CLI（Edition document モジュールの薄いラッパー）
 - `scripts/import.js` Import モジュール（`scripts/lib/import.js`）の CLI。取り込みプランから TSV と race-info.json のエディションを書き込む
-- `scripts/lib/normalize-category.js` TSV→正規化athletesの共通ロジック
+- `scripts/lib/category-reader.js` Category reader モジュール。`readCategories(repo, where?)` が race-info.json の全カテゴリと TSV を Column role 単位で読む（`columns(role)` / `rows` / `cells(role)`）。データ欠陥（未登録 TSV、存在しないヘッダー等）は Finding として返す。TSV のセルを役割で書き換える `rewriteCells` も持つ。TSV を読むスクリプト・テストはヘッダー文字列ではなくこのモジュールを使う
+- `scripts/lib/edition-document.js` Edition document モジュール。`editionDocument(repo, eventId, dateOrYear)` が1エディションの正規化 JSON を組み立てて result-schema.json で検証する
 - `scripts/lib/` 正規化モジュール群（時間、性別、居住地、年齢区分、ステータス等）
 
 ### GitHub Workflows (.github/workflows/)
 
-The project includes automated CI/CD workflows for data validation:
+One workflow, **ci.yml** (`CI`), runs on every push to `main`, every pull request,
+and on manual dispatch. It has no path filters, so every change runs every check.
+It sets up Bun, runs `bun install`, then:
 
-- **json-check.yml**: Runs JSON syntax validation using pytest
-  - Triggers on changes to JSON files, tests, workflows, or README
-  - Uses Python 3.x and pytest for validation
-  - Ensures all JSON files have valid syntax
+1. `bun run test` — every `tests/*.test.ts` (JSON syntax and path references,
+   race-info.json and weather-data.json against their JSON Schemas, TSV lint,
+   image references, normalizer unit tests) followed by `tsc --noEmit`
+2. `bun run check:integrity` — normalizes every Edition (validating each
+   against `result-schema.json`) and compares header-warning, unknown status
+   token and missing-value counts against `integrity-baseline.json`; a schema
+   failure or a corpus finding of the Category reader (repeated Edition,
+   shared or unregistered TSV) fails it outright
+3. `bun run check:duplicates` — flags pairs of Editions in the same year whose
+   (name, total_time) fingerprints overlap ≥80%; allowlist genuinely distinct
+   lookalikes in `duplicate-allowlist.json`
 
-- **validate-race-info.yml**: Validates race information data
-  - Triggers on changes to `race-info.json` or `race-info-schema.json`
-  - Uses Node.js 22 and ajv-cli for JSON Schema validation
-  - Validates race-info.json against its schema
-
-- **validate-weather-data.yml**: Validates weather data files
-  - Triggers on changes to weather-data.json files or weather-schema.json
-  - Uses Node.js 22 and ajv-cli for JSON Schema validation
-  - Finds and validates all weather-data.json files in the master directory
-  - Provides detailed validation results for each file
-
-- **check-duplicates.yml**: Detects duplicate race editions by comparing TSV content
-  - Triggers on changes to `race-info.json`, `master/**/*.tsv`, or the checker itself
-  - Runs `bun run check:duplicates` (scripts/check-duplicate-editions.js)
-  - Flags pairs of editions in the same year whose (name, total_time) fingerprints overlap ≥80%
-  - Allowlist genuinely distinct lookalikes in `duplicate-allowlist.json`
-  - Prevents the scenario where the same physical race is registered under two event_ids (e.g., "IRONMAN 70.3 Japan" vs "IRONMAN 70.3 Centrair Chita Peninsula Japan")
-
-These workflows ensure data integrity and consistency across the repository.
+Running these three commands locally reproduces CI exactly.
 
 ### Lint / Format
 
@@ -185,7 +179,6 @@ These workflows ensure data integrity and consistency across the repository.
 ```bash
 bun scripts/import.js /tmp/import-plan.json --dry-run   # 書き込みはメモリ上のみ
 bun scripts/import.js /tmp/import-plan.json             # TSV → race-info.json の順に書き込む
-bun run scripts/fix-age-category-labels.js              # 年齢区分を M/F 表記へ
 ```
 
 結果は JSON のレポートで出力される。終了コード 0 = 全エディション取り込み済み、2 = 一部スキップ（`reason` を確認）、1 = プラン不正（何も書き込まない）。
@@ -211,21 +204,34 @@ bun run scripts/fix-age-category-labels.js              # 年齢区分を M/F �
 ### 6. 検証と出力確認
 
 ```bash
-bunx ajv-cli validate -s race-info-schema.json -d race-info.json
-bunx ajv-cli validate -s weather-schema.json -d master/{year}/{id}/weather-data.json
+bun run test:schema         # race-info.json ↔ race-info-schema.json
+bun run test:weather        # 全 weather-data.json ↔ weather-schema.json
 bun scripts/normalize-tsv.js <event_id> <year>   # result-schema.json 検証込み
 bun run test:tsv-lint       # 静的規約（氏名スペース・時間形式・順位列・列数整合）
 bun run check:duplicates    # 重複エディション検出
-bun run check:integrity     # 正規化後の欠損検査（integrity-baseline.json との回帰比較）
+bun run check:integrity     # 正規化後の検査（result-schema.json 検証、未登録 TSV 等の検出、integrity-baseline.json の件数との一致を確認）
 ```
 
 新規取り込みは `check:integrity` で **欠損ゼロ** が原則。ソース自体に
 データが無い場合のみ、コミットメッセージに明記した上で
-`bun run scripts/check-integrity.js --update` で baseline に記録する。
-既知のデータ品質問題は `tsv-lint-known-issues.json`（静的レベル）と
-`integrity-baseline.json`（正規化レベル）に集約されており、いずれも
-「将来元ソースから再取り込みして減らす」ための to-fix リスト。増やす
-方向の変更は原則禁止。
+`bun run update:integrity-baseline` で ledger に記録する。
+
+既知のデータ品質問題（Known issue）は Known-issue ledger に件数で集約されて
+いる: `tsv-lint-known-issues.json`（静的レベル、ルール×TSVパス）と
+`integrity-baseline.json`（正規化レベル、ルール×カテゴリ）。形式はどちらも
+`{ "description", "rules": { ルール: { キー: 件数 } } }` で、
+`scripts/lib/known-issue-ledger.js` が読み書きする。いずれも「将来元ソースから
+再取り込みして減らす」ための to-fix リストで、増やす方向の変更は原則禁止。
+件数は減る方向にしか動かないので（docs/adr/0002-known-issue-counts-only-shrink.md）、
+チェックは件数の増加（regression）だけでなく、減少（improvement）や検査対象から
+消えたキーの残存（stale）でも失敗する。データを直して件数が減ったら
+`bun run update:tsv-lint-known-issues` / `bun run update:integrity-baseline` で
+ledger を現在の件数に縮め、同じコミットに含める。
+
+正しいデータだがルールに合わない値（Exception）は欠陥ではないので件数を持たず、
+ledger にも含めない: `name-space-allowlist.json`、`age-category-allowlist.json`、
+`duplicate-allowlist.json`。形式はどれも `{ "description", "entries": [...] }` で、
+`scripts/lib/exceptions.js` が読む。
 
 ## distance の種別
 

@@ -45,38 +45,32 @@ with open('result.tsv', 'w') as f:
 
 ## Validate the mapping against the TSV header
 
-The repo-wide check already exists and runs on every commit via `.husky/pre-commit`:
+The repo-wide check runs on every commit via `.husky/pre-commit` (and in CI):
 
 ```bash
-bun run scripts/validate-headers.js   # every mapped header must exist in its TSV
+bun run check:integrity   # every mapped header must exist in its TSV (header_warnings)
 ```
 
-To inspect a single edition — note that `segments[].columns[]` and `meta_columns[]` both
-key on `header`, and that a TSV may legitimately carry **unmapped** columns (IRONMAN's
-`T1` / `T2`, for instance), so this is a containment check, not an equal-count check:
+A mapped header missing from its TSV is an `unmapped-header` finding of the Category
+reader (`scripts/lib/category-reader.js`); `bun scripts/normalize-tsv.js` prints it as a
+`Warning: Header mismatch in …` line. To inspect a single edition — note that a TSV may
+legitimately carry **unmapped** columns (IRONMAN's `T1` / `T2`, for instance), so this is
+a containment check, not an equal-count check:
 
 ```bash
-node -e "
-const fs = require('fs');
-const data = JSON.parse(fs.readFileSync('race-info.json'));
-const event = data.events.find(e => e.id === 'EVENT_ID');
-const edition = event.editions.find(e => e.date.startsWith('YEAR'));  // editions key off date, not a year field
-for (const cat of edition.categories) {
-  const mapped = [
-    ...(cat.segments||[]).flatMap(s => (s.columns||[]).map(c => c.header)),
-    ...(cat.meta_columns||[]).map(m => m.header),
-  ];
-  const tsv = fs.readFileSync(cat.result_tsv, 'utf8').split('\n')[0].split('\t').map(h => h.trim());
-  const missing = mapped.filter(h => !tsv.includes(h));
-  console.log(cat.id, '| mapped:', mapped.length, '| tsv:', tsv.length,
-              '| unmapped in tsv:', tsv.filter(h => !mapped.includes(h)),
-              '| MISSING from tsv:', missing);
+bun -e "
+import { readCategories } from './scripts/lib/category-reader.js';
+import { fsRepo } from './scripts/lib/repo.js';
+for (const c of readCategories(fsRepo('.'), { eventId: 'EVENT_ID', date: 'YEAR' }).categories) {
+  const mapped = new Set(c.columns().map((col) => col.header));
+  console.log(c.def.id, '| findings:', c.findings.map((f) => f.message),
+              '| unmapped in tsv:', c.headers.filter((h) => !mapped.has(h)));
 }
 "
 ```
 
-Any nonempty `MISSING` is a broken mapping. Unmapped TSV columns are fine as long as they
-are genuinely unused.
+Any `unmapped-header` finding is a broken mapping. Unmapped TSV columns are fine as long
+as they are genuinely unused.
 
 Build the mapping from the **actual** column captions for that edition — captions vary
 year to year even within one event. The structural `extra-columns` rule in

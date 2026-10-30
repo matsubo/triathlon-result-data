@@ -355,6 +355,32 @@ describe("runImport: IRONMAN add", () => {
     );
     expect(report.editions[0].reason).toContain("PRO-only results (4 of 4 rows are PRO)");
   });
+
+  test("Age category labels are written canonical, except a label contradicting the Athlete's age", async () => {
+    const repo = seed([event("im703_x", [{ date: "2025-06-01", categories: [im703Category("im703_x", "2025", "old")] }])]);
+    const t = im703(ROWS);
+    const labels = ["男子30-34歳", "30-34男子", "男子30-34歳", "女子24歳以下"];
+    const ages = ["31", "35", "52", ""];
+    const table = {
+      ...t,
+      headers: [...t.headers, "Age"],
+      rows: t.rows.map((r, i) => [...r.slice(0, 4), labels[i], ...r.slice(5), ages[i]]),
+      columns: [...t.columns, { header: "Age", role: "age" }],
+    };
+    const report = await runImport(
+      { editions: [{ event: "im703_x", date: "2026-06-07", ironman: "u" }] },
+      { sources: { ironman: fixtureSource({ u: table }) }, repo },
+    );
+    expect(report.exit_code).toBe(0);
+    const tsv = repo.readText("master/2026/im703_x_2026/default.tsv") as string;
+    const division = tsv.split("\n")[0].split("\t").indexOf("Division");
+    expect(tsv.trim().split("\n").slice(1).map((l) => l.split("\t")[division])).toEqual([
+      "M30-34",
+      "M30-34",
+      "男子30-34歳",
+      "F0-24",
+    ]);
+  });
 });
 
 describe("runImport: failure handling", () => {
@@ -522,6 +548,31 @@ describe("runImport: refetch", () => {
     const report = await runImport(plan, { sources: { ironman: fixtureSource({ u: renamed }) }, repo });
     expect(report.editions[0].reason).toContain("header set changed");
   });
+
+  test("a source's Japanese Age category labels refetch as the committed canonical labels", async () => {
+    const repo = fresh();
+    const japanese = ROWS.map((r) => ({ ...r, div: "男子30-34歳" }));
+    const report = await runImport(plan, { sources: { ironman: fixtureSource({ u: im703(japanese) }) }, repo });
+    expect(report.editions[0].status).toBe("unchanged");
+    expect(repo.readText(path)).toBe(committed);
+  });
+
+  test("PRO-only results refetch over a PRO-only Category, but not over an age-group one", async () => {
+    const pro = ROWS.map((r) => ({ ...r, div: "MPRO" }));
+    const proTable = im703(pro);
+    const proCommitted = tsvOf({ headers: proTable.headers, rows: proTable.rows.map((r) => r.map((v, i) => (i === 2 ? "Pro Athlete" : v))) });
+    const proRepo = seed(
+      [event("im703_x", [{ date: "2026-06-07", categories: [im703Category("im703_x", "2026", "u")] }])],
+      { [path]: proCommitted },
+    );
+    const ok = await runImport(plan, { sources: { ironman: fixtureSource({ u: proTable }) }, repo: proRepo });
+    expect(ok.exit_code).toBe(0);
+    expect(ok.editions[0].status).toBe("refetched");
+
+    const partial = await runImport(plan, { sources: { ironman: fixtureSource({ u: proTable }) }, repo: fresh() });
+    expect(partial.exit_code).toBe(2);
+    expect(partial.editions[0].reason).toBe("im703_x_2026: PRO-only results (4 of 4 rows are PRO)");
+  });
 });
 
 describe("runImport: JTU add through the JTU adapter", () => {
@@ -636,7 +687,7 @@ describe("runImport: JTU add through the JTU adapter", () => {
       "総合順位\tNo.\t氏名\t年齢\t性別\t登録地\t総合記録\tｽｲﾑﾗｯﾌﾟ\tＳ順\tﾊﾞｲｸﾗｯﾌﾟ\tＢ順\tｽﾌﾟﾘｯﾄ\t通過\tﾗﾝﾗｯﾌﾟ\tＲ順\tPNLT\t男子順位\t女子順位\t年齢区分\t年齡別順",
     );
     expect(tsv.split("\n")[1]).toBe(
-      "1\t1\t前田 能宜\t27\t男\t愛知県\t3:26:50\t0:32:08\t3\t1:45:19\t1\t2:17:27\t1\t1:09:23\t1\t\t1\t\t25-29歳男子\t",
+      "1\t1\t前田 能宜\t27\t男\t愛知県\t3:26:50\t0:32:08\t3\t1:45:19\t1\t2:17:27\t1\t1:09:23\t1\t\t1\t\tM25-29\t",
     );
   });
 
@@ -669,6 +720,28 @@ describe("runImport: JTU add through the JTU adapter", () => {
     ]) });
     expect(unknown.exit_code).toBe(2);
     expect(unknown.editions[0].reason).toContain('unknown JTU caption "謎の列"; rename or drop it');
+  });
+
+  test("a table whose captions repeat is refused", async () => {
+    // A duathlon table captions both run legs' ranks Ｒ順; written as is,
+    // the Category would read only the last one.
+    const repeating = (async (url: string) => {
+      const res = await replay(url);
+      if (!url.includes("result_table_id")) return res;
+      const json = await res.json();
+      for (const c of json.res.body.result_cols) if (c.result_col_caption === "Ｓ順") c.result_col_caption = "Ｒ順";
+      return new Response(JSON.stringify(json));
+    }) as unknown as typeof fetch;
+    const repo = seed([
+      { ...event("irago", [{ date: "2025-09-14", categories: [jtuCategory("irago_b", "b.tsv", "B", "OD")] }]), name: "伊良湖" },
+    ]);
+    const report = await runImport(
+      { editions: [{ event: "irago", date: "2026-09-06", jtu: [{ program: "422_2", distance: "OD", description: "B" }] }] },
+      { sources: { jtu: jtuSource({ fetch: repeating }) }, repo },
+    );
+    expect(report.exit_code).toBe(2);
+    expect(report.editions[0].reason).toBe("irago_b: duplicate headers Ｒ順");
+    expect(report.written).toEqual([]);
   });
 });
 

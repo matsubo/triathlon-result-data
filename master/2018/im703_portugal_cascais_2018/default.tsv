@@ -368,7 +368,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 958724	DNS	Serhiy Myselyuk	M	M35-39								Ukraine	DNS
 217019	DNS	Franco Bocci	M	M35-39								Argentina	DNS
 217155	DNS	Robin Van Den Nieuwenhuizen	M	M50-54								United States	DNS
-217012	DNS	Alvaro  Junior Da Costa Ferreira	M	M50-54								Brazil	DNS
+217012	DNS	Alvaro Junior Da Costa Ferreira	M	M50-54								Brazil	DNS
 88449	DNS	Fabricio Aquino	M	M40-44								Brazil	DNS
 217063	DNS	Pablo Cervera	M	M25-29								Spain	DNS
 958725	DNS	Julie Von Gruenigen	F	F18-24								Switzerland	DNS
@@ -1881,7 +1881,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 66340	1484	Jorge Castanheira	M	M50-54	120	6:16:26	0:44:29	0:11:44	3:07:23	0:08:19	2:04:30	Portugal	FIN
 881751	1485	Fockedey Colas	M	M18-24	32	6:16:34	0:43:20	0:10:35	3:12:30	0:04:51	2:05:19	Belgium	FIN
 216627	1486	Sarah Guignard	F	F45-49	24	6:16:40	0:38:12	0:08:04	3:14:53	0:03:54	2:11:36	United Kingdom	FIN
-216628	1487	Juan Marin  Ferrer	M	M40-44	309	6:16:44	0:32:19	0:08:19	3:05:07	0:04:40	2:26:19	Spain	FIN
+216628	1487	Juan Marin Ferrer	M	M40-44	309	6:16:44	0:32:19	0:08:19	3:05:07	0:04:40	2:26:19	Spain	FIN
 216629	1488	Neil Smith	M	M35-39	230	6:16:56	0:39:46	0:08:48	2:54:32	0:03:48	2:30:02	United Kingdom	FIN
 216630	1489	Bart Van Sambeek	M	M35-39	231	6:17:06	0:40:52	0:14:07	3:09:46	0:06:50	2:05:31	Netherlands	FIN
 216631	1490	Dimitar Dimitrov	M	M35-39	232	6:17:08	0:39:45	0:09:34	3:02:39	0:04:21	2:20:49	Bulgaria	FIN
@@ -1972,7 +1972,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 216696	1575	ARTEM ISAEV	M	M25-29	125	6:24:46	0:45:52	0:09:45	3:05:22	0:06:35	2:17:12	Russian Federation	FIN
 53433	1576	Andy Furlong	M	M30-34	239	6:24:55	0:40:38	0:09:40	3:17:58	0:05:23	2:11:16	Ireland	FIN
 176459	1577	Urs Maurhofer	M	M55-59	50	6:25:00	0:46:48	0:12:48	3:19:36	0:08:32	1:57:16	Switzerland	FIN
-958680	1578	Enrique Aldea  Sanchez	M	M45-49	211	6:25:06	0:37:24	0:13:12	3:20:29	0:06:58	2:07:04	Spain	FIN
+958680	1578	Enrique Aldea Sanchez	M	M45-49	211	6:25:06	0:37:24	0:13:12	3:20:29	0:06:58	2:07:04	Spain	FIN
 958681	1579	Lewin Keller	M	M30-34	240	6:25:09	0:37:07	0:11:38	3:03:18	0:04:51	2:28:15	Germany	FIN
 216698	1580	Haroldo Leao	M	M55-59	51	6:25:15	0:42:33	0:12:11	3:26:11	0:05:49	1:58:31	Brazil	FIN
 216699	1581	Peter Borkop	M	M40-44	325	6:25:16	0:44:45	0:08:58	3:16:35	0:04:51	2:10:06	Denmark	FIN

@@ -1,388 +1,112 @@
-import { readdirSync, readFileSync, statSync } from "node:fs";
-import { dirname, join, resolve } from "node:path";
-import { describe, test, expect } from "bun:test";
+import { readdirSync, statSync } from "node:fs";
+import { join, resolve } from "node:path";
+import { describe, expect, test } from "bun:test";
+import { buildAthlete } from "../scripts/lib/build-athlete.js";
+import { type Category, type Cell, readCategories } from "../scripts/lib/category-reader.js";
+import { loadExceptions } from "../scripts/lib/exceptions.js";
+import { type Findings, openLedger } from "../scripts/lib/known-issue-ledger.js";
+import { canonicalAgeCategory, classifyAgeCategory } from "../scripts/lib/normalize-age-category.js";
+import { isNonValue, isValidRankCell } from "../scripts/lib/normalize-status.js";
+import { parseTime } from "../scripts/lib/normalize-time.js";
+import { fsRepo } from "../scripts/lib/repo.js";
 
 const repoRoot = resolve(import.meta.dirname, "..");
-const masterDir = join(repoRoot, "master");
+const corpus = readCategories(fsRepo(repoRoot));
+const { categories } = corpus;
 
-function getAllTsvFiles(dir: string): string[] {
-  const files: string[] = [];
+/** Every registered TSV with its raw text, once per file. */
+const files = [...new Map(categories.filter((c) => c.text !== null).map((c) => [c.tsv, c.text as string]))].map(
+  ([tsv, text]) => ({ tsv, lines: text.split("\n") }),
+);
 
-  function traverse(currentDir: string) {
-    const items = readdirSync(currentDir);
+const ledger = openLedger(join(repoRoot, "tsv-lint-known-issues.json"), {
+  update: process.env.UPDATE_KNOWN_ISSUES === "1",
+  updateCommand: "bun run update:tsv-lint-known-issues",
+});
 
-    for (const item of items) {
-      const fullPath = join(currentDir, item);
-      const stat = statSync(fullPath);
-
-      if (stat.isDirectory()) {
-        traverse(fullPath);
-      } else if (item.endsWith(".tsv")) {
-        files.push(fullPath);
-      }
-    }
+/**
+ * Ledger findings of a cell rule: one entry per Category TSV that has a
+ * column of the roles, counting the cells `ok` rejects.
+ */
+function cellFindings(roles: string[], ok: (cell: Cell) => boolean): Findings {
+  const findings: Findings = {};
+  for (const category of categories) {
+    if (!category.columns().some((c) => roles.includes(c.role) && c.index >= 0)) continue;
+    const bad = category.cells(roles).filter((cell) => !ok(cell));
+    findings[category.tsv] = { count: bad.length, example: bad.slice(0, 3).map((c) => c.where).join("; ") };
   }
-
-  traverse(dir);
-  return files.sort();
+  return findings;
 }
 
-function relPath(filePath: string): string {
-  return filePath.replace(`${repoRoot}/`, "");
-}
+const TIME_ROLES = ["lap", "total_time", "cumulative_time", "transition", "checkpoint"];
+const RANK_ROLES = ["overall_rank", "gender_rank", "age_rank", "rank", "cumulative_rank"];
 
-describe("TSV Lint Rules", () => {
-  const tsvFiles = getAllTsvFiles(masterDir);
+describe("Registered Categories", () => {
+  test("no Edition repeats, no TSV is shared by Categories, every master/ TSV is registered", () => {
+    expect(corpus.findings.map((f) => f.message)).toEqual([]);
+  });
 
+  test("every Category's result TSV exists", () => {
+    const missing = categories.flatMap((c) => c.findings).filter((f) => f.kind === "missing-tsv");
+    expect(missing.map((f) => f.message)).toEqual([]);
+  });
+
+  test("no mapped header occurs twice in its TSV", () => {
+    // A Column reads the last of equal headers, so the other column is
+    // silently dropped. Rename repeated captions by index (1R順 / 2R順).
+    const duplicates = categories.flatMap((c) => c.findings).filter((f) => f.kind === "duplicate-header");
+    expect(duplicates.map((f) => f.message)).toEqual([]);
+  });
+});
+
+describe("TSV Lint Rules: raw text", () => {
   test("No full-width spaces (U+3000)", () => {
     const errors: string[] = [];
-
-    for (const filePath of tsvFiles) {
-      const content = readFileSync(filePath, "utf-8");
-      const lines = content.split("\n");
-
-      for (let i = 0; i < lines.length; i++) {
-        if (lines[i].includes("　")) {
-          errors.push(`${relPath(filePath)}:${i + 1}`);
-          break;
-        }
-      }
+    for (const { tsv, lines } of files) {
+      const i = lines.findIndex((l) => l.includes("　"));
+      if (i >= 0) errors.push(`${tsv}:${i + 1}`);
     }
-
     expect(errors).toEqual([]);
   });
 
   test("No repeated header rows (PDF extraction artifacts)", () => {
     const errors: string[] = [];
-
-    for (const filePath of tsvFiles) {
-      const lines = readFileSync(filePath, "utf-8").split("\n");
+    for (const { tsv, lines } of files) {
       if (lines.length < 3) continue;
-      const header = lines[0];
-      const headerCells = header.split("\t");
-      const headerSig3 = headerCells.slice(0, 3).join("\t");
-
+      const headerSig3 = lines[0].split("\t").slice(0, 3).join("\t");
       for (let i = 1; i < lines.length; i++) {
         const line = lines[i];
         if (!line) continue;
         const cells = line.split("\t");
-        const sig3 = cells.slice(0, 3).join("\t");
-        if (sig3 === headerSig3) {
-          errors.push(
-            `${relPath(filePath)}:${i + 1} (header row repeated mid-file)`,
-          );
+        if (cells.slice(0, 3).join("\t") === headerSig3) {
+          errors.push(`${tsv}:${i + 1} (header row repeated mid-file)`);
           break;
         }
-        if (
-          cells.length === 1 &&
-          cells[0] === "総合" &&
-          i + 1 < lines.length &&
-          lines[i + 1].startsWith("順位\t")
-        ) {
-          errors.push(
-            `${relPath(filePath)}:${i + 1} (PDF page-break header artifact)`,
-          );
+        if (cells.length === 1 && cells[0] === "総合" && i + 1 < lines.length && lines[i + 1].startsWith("順位\t")) {
+          errors.push(`${tsv}:${i + 1} (PDF page-break header artifact)`);
           break;
         }
       }
     }
-
     expect(errors).toEqual([]);
   });
 
   test("No stray relay-section headers in non-relay TSV files", () => {
     const errors: string[] = [];
-    const RELAY_MARKERS = [
-      "チーム名",
-      "スイム氏名",
-      "バイク氏名",
-      "ラン氏名",
-      "団体順位",
-    ];
-
-    for (const filePath of tsvFiles) {
-      const lines = readFileSync(filePath, "utf-8").split("\n");
+    const RELAY_MARKERS = ["チーム名", "スイム氏名", "バイク氏名", "ラン氏名", "団体順位"];
+    for (const { tsv, lines } of files) {
       if (lines.length < 2) continue;
       const headerCells = lines[0].split("\t");
       if (RELAY_MARKERS.some((m) => headerCells.includes(m))) continue;
-
       for (let i = 1; i < lines.length; i++) {
-        const line = lines[i];
-        if (!line) continue;
-        const cells = line.split("\t");
+        if (!lines[i]) continue;
+        const cells = lines[i].split("\t");
         if (RELAY_MARKERS.some((m) => cells.includes(m))) {
-          errors.push(
-            `${relPath(filePath)}:${i + 1} (relay header found mid-file)`,
-          );
+          errors.push(`${tsv}:${i + 1} (relay header found mid-file)`);
           break;
         }
       }
     }
-
-    expect(errors).toEqual([]);
-  });
-
-  test("Overall rank is unique in each TSV file", () => {
-    const errors: string[] = [];
-    const RANK_HEADERS = ["総合順位", "順位", "Pos", "Overall_Rank", "Rank"];
-
-    for (const filePath of tsvFiles) {
-      const lines = readFileSync(filePath, "utf-8").split("\n").filter(Boolean);
-      if (lines.length < 5) continue;
-      const headerCells = lines[0].split("\t");
-      if (!RANK_HEADERS.includes(headerCells[0])) continue;
-
-      const seen = new Map<string, number>();
-      let duplicates = 0;
-      const exampleRanks: string[] = [];
-      for (let i = 1; i < lines.length; i++) {
-        const rank = lines[i].split("\t")[0];
-        if (!/^\d+$/.test(rank)) continue;
-        const count = (seen.get(rank) || 0) + 1;
-        seen.set(rank, count);
-        if (count === 2) {
-          duplicates++;
-          if (exampleRanks.length < 3) exampleRanks.push(rank);
-        }
-      }
-
-      if (duplicates >= 5) {
-        errors.push(
-          `${relPath(filePath)} — ${duplicates} duplicate numeric ranks in 総合順位 column (e.g. ${exampleRanks.join(", ")}).`,
-        );
-      }
-    }
-
-    expect(errors).toEqual([]);
-  });
-
-  test("IRONMAN / IRONMAN 70.3 TSVs include ContactId/Country/Status", () => {
-    const errors: string[] = [];
-    const REQUIRED = ["ContactId", "Country", "Status"];
-
-    for (const filePath of tsvFiles) {
-      const rel = relPath(filePath);
-      if (!/^master\/\d+\/(im703|ironman)_[^/]+\//.test(rel)) continue;
-
-      const lines = readFileSync(filePath, "utf-8").split("\n");
-      if (lines.length < 2) continue;
-      const headerCells = lines[0].split("\t");
-      const missing = REQUIRED.filter((c) => !headerCells.includes(c));
-      if (missing.length > 0) {
-        errors.push(`${rel} — missing: ${missing.join(", ")}`);
-      }
-    }
-
-    expect(errors).toEqual([]);
-  });
-
-  test("All IRONMAN meta_columns cover the TSV's ContactId/Country/Status", () => {
-    const raceInfo = JSON.parse(
-      readFileSync(join(repoRoot, "race-info.json"), "utf-8"),
-    );
-    const REQUIRED = ["ContactId", "Country", "Status"];
-    const errors: string[] = [];
-
-    for (const event of raceInfo.events || []) {
-      if (!event.id.startsWith("im703_") && !event.id.startsWith("ironman_")) {
-        continue;
-      }
-      for (const edition of event.editions || []) {
-        for (const cat of edition.categories || []) {
-          const tsv = cat.result_tsv;
-          if (!tsv) continue;
-          const tsvPath = join(repoRoot, tsv);
-          let header: string;
-          try {
-            header = readFileSync(tsvPath, "utf-8").split("\n")[0];
-          } catch {
-            continue;
-          }
-          const headers = header.split("\t");
-          const metaHeaders = (cat.meta_columns || []).map((c: any) => c.header);
-          const missing = REQUIRED.filter(
-            (col) => headers.includes(col) && !metaHeaders.includes(col),
-          );
-          if (missing.length > 0) {
-            errors.push(
-              `${cat.id} (${tsv}) — TSV has [${missing.join(", ")}] but meta_columns does not.`,
-            );
-          }
-        }
-      }
-    }
-
-    expect(errors).toEqual([]);
-  });
-
-  test("氏名 values do not contain full-width Latin letters", () => {
-    // Alphabet names must use half-width ASCII (Ｔｏｍ → Tom) so the same
-    // athlete matches across races regardless of the source's encoding style.
-    const FW_LATIN = /[Ａ-Ｚａ-ｚ]/;
-    const errors: string[] = [];
-
-    for (const filePath of tsvFiles) {
-      const lines = readFileSync(filePath, "utf-8").split("\n");
-      if (lines.length < 2) continue;
-      const headerCells = lines[0].split("\t").map((h) => h.trim());
-      const nameIdx = headerCells.findIndex((h) =>
-        ["氏名", "氏 名", "Name"].includes(h),
-      );
-      if (nameIdx === -1) continue;
-
-      for (let i = 1; i < lines.length; i++) {
-        if (!lines[i].trim()) continue;
-        const name = lines[i].split("\t")[nameIdx];
-        if (name && FW_LATIN.test(name)) {
-          errors.push(`${relPath(filePath)}:${i + 1} (${name})`);
-        }
-      }
-    }
-
-    expect(errors).toEqual([]);
-  });
-
-  test("氏名 values do not contain consecutive half-width spaces", () => {
-    const errors: string[] = [];
-
-    for (const filePath of tsvFiles) {
-      const lines = readFileSync(filePath, "utf-8").split("\n");
-      if (lines.length < 2) continue;
-      const headerCells = lines[0].split("\t");
-      const nameIdx = headerCells.indexOf("氏名");
-      if (nameIdx === -1) continue;
-
-      for (let i = 1; i < lines.length; i++) {
-        const line = lines[i];
-        if (!line.trim()) continue;
-        const cells = line.split("\t");
-        const name = cells[nameIdx];
-        if (!name) continue;
-        if (/ {2,}/.test(name)) {
-          errors.push(`${relPath(filePath)}:${i + 1} (${name})`);
-        }
-      }
-    }
-
-    expect(errors).toEqual([]);
-  });
-
-  test("Japanese 氏名 values contain a half-width space between family and given name", () => {
-    const errors: string[] = [];
-    const allowlist: string[] = JSON.parse(
-      readFileSync(join(repoRoot, "name-space-allowlist.json"), "utf-8"),
-    ).names;
-    const allowSet = new Set(allowlist);
-
-    // Team names, placeholders, and joke entries carry digits/brackets/nakaguro
-    // and are never split into family/given name.
-    const NON_NAME_PATTERN = /[0-90-9０-９・･()（）+＋@＠=＝*？?！!]/;
-    const JAPANESE_SCRIPT = /[一-鿿぀-ゟ゠-ヿ]/;
-
-    for (const filePath of tsvFiles) {
-      const lines = readFileSync(filePath, "utf-8").split("\n");
-      if (lines.length < 2) continue;
-      const headerCells = lines[0].split("\t");
-      const nameIdx = headerCells.indexOf("氏名");
-      if (nameIdx === -1) continue;
-      const ageIdx = headerCells.indexOf("年齢");
-
-      for (let i = 1; i < lines.length; i++) {
-        const line = lines[i];
-        if (!line.trim()) continue;
-        const cells = line.split("\t");
-        const name = cells[nameIdx];
-        if (!name || !name.trim()) continue;
-        if (name.includes(" ")) continue; // already spaced
-        if (name.length < 2) continue; // single character/token, nothing to split
-        if (!JAPANESE_SCRIPT.test(name)) continue; // non-Japanese-script, out of scope
-        if (NON_NAME_PATTERN.test(name)) continue; // team/placeholder entry
-        // blank age is this repo's convention for team/nickname sign-ins (e.g. hiwasa)
-        if (ageIdx !== -1 && cells[ageIdx] !== undefined && cells[ageIdx].trim() === "") {
-          continue;
-        }
-        if (allowSet.has(name)) continue;
-
-        errors.push(`${relPath(filePath)}:${i + 1} (${name})`);
-      }
-    }
-
-    expect(errors).toEqual([]);
-  });
-
-  const knownIssues = JSON.parse(
-    readFileSync(join(repoRoot, "tsv-lint-known-issues.json"), "utf-8"),
-  );
-
-  // Time-like value: H:MM:SS / MM:SS with optional fractional seconds and an
-  // optional trailing flag token (e.g. "2:39:42 P"), or a placeholder/status.
-  const TIME_VALUE = /^\d{1,3}:\d{2}(:\d{2})?(\.\d+)?(\s+\S+)?$/;
-  const NON_VALUE =
-    /^(-+|\*+|--:--:--|DNF|DNS|DSQ|DQ|TOV|OPEN|SKIP|SKP|NOF|NC|FIN|LAP|参考記録)$/;
-
-  function collectViolations(
-    headerMatches: (h: string) => boolean,
-    valueOk: (v: string) => boolean,
-    knownKey: string,
-  ): string[] {
-    const known: Record<string, number> = knownIssues[knownKey] || {};
-    const errors: string[] = [];
-
-    for (const filePath of tsvFiles) {
-      const rel = relPath(filePath);
-      const lines = readFileSync(filePath, "utf-8").split("\n");
-      if (lines.length < 2) continue;
-      const headers = lines[0].split("\t").map((h) => h.trim());
-      const idxs = headers
-        .map((h, i) => (headerMatches(h) ? i : -1))
-        .filter((i) => i !== -1);
-      if (idxs.length === 0) continue;
-
-      const fileErrors: string[] = [];
-      for (let ln = 1; ln < lines.length; ln++) {
-        if (!lines[ln].trim()) continue;
-        const cells = lines[ln].split("\t");
-        for (const i of idxs) {
-          const v = (cells[i] || "").trim();
-          if (v && !valueOk(v)) {
-            fileErrors.push(`${rel}:${ln + 1} ${headers[i]}=${v}`);
-          }
-        }
-      }
-      const allowed = known[rel] || 0;
-      if (fileErrors.length > allowed) {
-        errors.push(
-          `${rel}: ${fileErrors.length} violations (allowed ${allowed}), e.g. ${fileErrors.slice(0, 3).join("; ")}`,
-        );
-      }
-    }
-    return errors;
-  }
-
-  test("Time columns contain parseable times", () => {
-    // ラップ/記録/スプリット columns and IRONMAN's Swim/Bike/Run/T1/T2/Total_Time;
-    // headers naming a rank (順/順位) are excluded — those are covered below.
-    const isTimeHeader = (h: string) =>
-      !/順/.test(h) &&
-      (/(ラップ|ﾗｯﾌﾟ|記録|ｽﾌﾟﾘｯﾄ|スプリット|タイム)/.test(h) ||
-        /^(Swim|Bike|Run|T1|T2|Total_Time|LAP\d+)$/.test(h));
-    const errors = collectViolations(
-      isTimeHeader,
-      (v) => TIME_VALUE.test(v) || NON_VALUE.test(v),
-      "time_format",
-    );
-    expect(errors).toEqual([]);
-  });
-
-  test("Rank columns contain integers or status tokens", () => {
-    // Segment/gender/age rank columns; overall-rank columns legitimately mix
-    // integers with status strings, which NON_VALUE covers.
-    const isRankHeader = (h: string) => /(順$|順位$|_Rank$)/.test(h);
-    const errors = collectViolations(
-      isRankHeader,
-      (v) => /^\d+$/.test(v) || NON_VALUE.test(v),
-      "rank_numeric",
-    );
     expect(errors).toEqual([]);
   });
 
@@ -390,95 +114,27 @@ describe("TSV Lint Rules", () => {
     // A data row wider than the header means a column was dropped from the
     // header or inserted mid-row during import — every downstream mapping
     // silently reads shifted values.
-    const known: Record<string, number> = knownIssues.extra_columns || {};
-    const errors: string[] = [];
-
-    for (const filePath of tsvFiles) {
-      const rel = relPath(filePath);
-      const lines = readFileSync(filePath, "utf-8").split("\n");
+    const findings: Findings = {};
+    for (const { tsv, lines } of files) {
       if (lines.length < 2) continue;
       const nCols = lines[0].split("\t").length;
-
       let count = 0;
       let example = "";
       for (let ln = 1; ln < lines.length; ln++) {
         if (!lines[ln].trim()) continue;
         const cells = lines[ln].split("\t");
-        if (
-          cells.length > nCols &&
-          cells.slice(nCols).some((c) => c.trim() !== "")
-        ) {
+        if (cells.length > nCols && cells.slice(nCols).some((c) => c.trim() !== "")) {
           count++;
           if (!example) example = `line ${ln + 1}`;
         }
       }
-      const allowed = known[rel] || 0;
-      if (count > allowed) {
-        errors.push(
-          `${rel}: ${count} rows wider than the ${nCols}-column header (allowed ${allowed}), first at ${example}`,
-        );
-      }
+      findings[tsv] = { count, example: `first at ${example}, header has ${nCols} columns` };
     }
-
-    expect(errors).toEqual([]);
-  });
-
-  test("年齢区分 values use the canonical M/F label instead of a Japanese gender word", () => {
-    // 男子25-29歳 / 25-29男子 / 30歳代男子 must be written M25-29 / M30-39
-    // (F for 女子; F0-24 for 24歳以下; M65+ for 65歳以上) so the same bracket
-    // renders identically across events. Fix with
-    // `bun run scripts/fix-age-category-labels.js`. Division labels that are
-    // not age brackets (一般男子, 高校生女子, …) go in age-category-allowlist.json;
-    // unfixable source defects are counted in tsv-lint-known-issues.json.
-    const raceInfo = JSON.parse(readFileSync(join(repoRoot, "race-info.json"), "utf-8"));
-    const allow = new Set<string>(
-      JSON.parse(readFileSync(join(repoRoot, "age-category-allowlist.json"), "utf-8")),
-    );
-    const known: Record<string, number> = knownIssues.age_category_label || {};
-
-    const targets = new Map<string, Set<string>>();
-    for (const event of raceInfo.events || [])
-      for (const edition of event.editions || [])
-        for (const cat of edition.categories || [])
-          for (const m of cat.meta_columns || [])
-            if (m.role === "age_category") {
-              if (!targets.has(cat.result_tsv)) targets.set(cat.result_tsv, new Set());
-              targets.get(cat.result_tsv)?.add(m.header);
-            }
-
-    const errors: string[] = [];
-    for (const [tsv, headers] of targets) {
-      let lines: string[];
-      try {
-        lines = readFileSync(join(repoRoot, tsv), "utf-8").split("\n");
-      } catch {
-        continue;
-      }
-      const head = lines[0].split("\t");
-      const idxs = head.map((h, i) => (headers.has(h) ? i : -1)).filter((i) => i !== -1);
-      const fileErrors: string[] = [];
-      for (let ln = 1; ln < lines.length; ln++) {
-        if (!lines[ln].trim()) continue;
-        const cells = lines[ln].split("\t");
-        for (const i of idxs) {
-          const v = (cells[i] || "").trim();
-          if (/[男女]/.test(v) && !allow.has(v)) fileErrors.push(`${tsv}:${ln + 1} ${head[i]}=${v}`);
-        }
-      }
-      const allowed = known[tsv] || 0;
-      if (fileErrors.length > allowed) {
-        errors.push(
-          `${tsv}: ${fileErrors.length} violations (allowed ${allowed}), e.g. ${fileErrors.slice(0, 3).join("; ")}`,
-        );
-      }
-    }
-
-    expect(errors).toEqual([]);
+    expect(ledger.check({ extra_columns: findings })).toEqual([]);
   });
 
   test("All filenames under master/ and images/ are ASCII", () => {
     const errors: string[] = [];
-
     function walk(dir: string) {
       for (const item of readdirSync(dir)) {
         const fullPath = join(dir, item);
@@ -489,11 +145,153 @@ describe("TSV Lint Rules", () => {
         if (statSync(fullPath).isDirectory()) walk(fullPath);
       }
     }
-
-    for (const dir of [masterDir, join(repoRoot, "images")]) {
-      walk(dir);
-    }
-
+    for (const dir of [join(repoRoot, "master"), join(repoRoot, "images")]) walk(dir);
     expect(errors).toEqual([]);
+  });
+});
+
+describe("TSV Lint Rules: cells by Column role", () => {
+  test("Time cells parse as times, or hold a status token or blank mark", () => {
+    // A time cell normalization can't read (and that is no recognized
+    // non-value) is a time lost from the normalized output. parseTime reads
+    // the first token of a cell and ignores what follows (iseshima 2019 cells
+    // pair the lap with the cumulative time: "11:32 22:41", and a skipped
+    // leg "ｽｷｯﾌﾟ ｽｷｯﾌﾟ"), so a cell whose first token is a non-value is too.
+    const findings = cellFindings(
+      TIME_ROLES,
+      (c) =>
+        c.value === "" ||
+        parseTime(c.value) !== null ||
+        isNonValue(c.value) ||
+        isNonValue(c.value.split(/\s+/)[0]),
+    );
+    expect(ledger.check({ time_format: findings })).toEqual([]);
+  });
+
+  test("Rank cells hold integers, the placeholder rank, or status tokens", () => {
+    const findings = cellFindings(RANK_ROLES, (c) => isValidRankCell(c.value));
+    expect(ledger.check({ rank_numeric: findings })).toEqual([]);
+  });
+
+  test("Overall rank is unique among finished Athletes, except ties on the total time", () => {
+    // A rank shared by finished Athletes with different (or missing) total
+    // times is a repeat; five or more repeats mean the rank column is broken
+    // (a rank restarting per gender or division, shifted cells). Sources that
+    // publish such ranks are Known issues, counted in repeated ranks.
+    const findings: Findings = {};
+    for (const category of categories) {
+      if (category.columns("overall_rank").every((c) => c.index < 0)) continue;
+      const columns = category.columns();
+      const timeOfRank = new Map<number, number | null>();
+      const repeated = new Set<number>();
+      for (const row of category.rows) {
+        const athlete = buildAthlete(row, columns, category.def.segments.length);
+        if (athlete.name === "" || athlete.status !== "finished" || athlete.rank === null) continue;
+        const time = athlete.total_time_seconds;
+        if (!timeOfRank.has(athlete.rank)) timeOfRank.set(athlete.rank, time);
+        else if (time === null || timeOfRank.get(athlete.rank) !== time) repeated.add(athlete.rank);
+      }
+      findings[category.tsv] = {
+        count: repeated.size >= 5 ? repeated.size : 0,
+        example: `ranks ${[...repeated].slice(0, 3).join(", ")}`,
+      };
+    }
+    expect(ledger.check({ overall_rank_unique: findings })).toEqual([]);
+  }, 30_000); // normalizes every Athlete of the corpus
+
+  describe("names (role name)", () => {
+    const names = corpus.cells("name");
+
+    test("no full-width Latin letters", () => {
+      // Alphabet names must use half-width ASCII (Ｔｏｍ → Tom) so the same
+      // athlete matches across races regardless of the source's encoding style.
+      const errors = names.filter((c) => /[Ａ-Ｚａ-ｚ]/.test(c.value)).map((c) => c.where);
+      expect(errors).toEqual([]);
+    });
+
+    test("no consecutive half-width spaces", () => {
+      const errors = names.filter((c) => / {2,}/.test(c.raw)).map((c) => c.where);
+      expect(errors).toEqual([]);
+    });
+
+    test("Japanese names have a half-width space between family and given name", () => {
+      const allowSet = new Set(loadExceptions("name_space"));
+      // Team names, placeholders, and joke entries carry digits/brackets/nakaguro
+      // and are never split into family/given name.
+      const NON_NAME_PATTERN = /[0-90-9０-９・･()（）+＋@＠=＝*？?！!]/;
+      // CJK ideographs, hiragana, katakana (full and half width).
+      const JAPANESE_SCRIPT = /[一-鿿぀-ゟ゠-ヿｦ-ﾝ]/;
+      const hasAge = new Map<Category, boolean>();
+      const errors: string[] = [];
+      for (const cell of names) {
+        const name = cell.value;
+        if (name === "" || name.includes(" ")) continue; // empty or already spaced
+        if (name.length < 2) continue; // single character, nothing to split
+        if (!JAPANESE_SCRIPT.test(name)) continue; // not a Japanese name
+        if (NON_NAME_PATTERN.test(name)) continue; // team/placeholder entry
+        let ageColumn = hasAge.get(cell.category);
+        if (ageColumn === undefined) {
+          ageColumn = cell.category.columns("age").some((c) => c.index >= 0);
+          hasAge.set(cell.category, ageColumn);
+        }
+        // blank age is this repo's convention for team/nickname sign-ins (e.g. hiwasa)
+        if (ageColumn && cell.row.get("age") === "") continue;
+        if (allowSet.has(name)) continue;
+        errors.push(cell.where);
+      }
+      expect(errors).toEqual([]);
+    });
+  });
+
+  test("年齢区分 values use the canonical M/F label instead of a Japanese gender word", () => {
+    // 男子25-29歳 / 25-29男子 / 30歳代男子 must be written M25-29 / M30-39
+    // (F for 女子; F0-24 for 24歳以下; M65+ for 65歳以上) so the same bracket
+    // renders identically across events. Fix with
+    // `bun run scripts/fix-age-category-labels.js`. Division labels that are
+    // not age brackets (一般男子, 高校生女子, …) go in age-category-allowlist.json;
+    // unfixable source defects are counted in tsv-lint-known-issues.json.
+    const allow = new Set(loadExceptions("age_category"));
+    const findings: Findings = {};
+    for (const category of categories) {
+      if (category.text === null || category.columns("age_category").length === 0) continue;
+      const errors: string[] = [];
+      for (const cell of category.cells("age_category")) {
+        const v = cell.value;
+        if (allow.has(v)) continue;
+        const kind = classifyAgeCategory(v);
+        if (kind === "fixable") errors.push(`${cell.where} (fixable → ${canonicalAgeCategory(v)})`);
+        else if (kind === "no-canonical-form") errors.push(`${cell.where} (no canonical form)`);
+      }
+      findings[category.tsv] = { count: errors.length, example: errors.slice(0, 3).join("; ") };
+    }
+    expect(ledger.check({ age_category_label: findings })).toEqual([]);
+  });
+
+  describe("IRONMAN Categories (Event id ironman_ / im703_)", () => {
+    const REQUIRED = ["ContactId", "Country", "Status"];
+    // The Event id prefix is the Event's identity; source_ref is absent from
+    // Editions imported before the Import module recorded it.
+    const ironman = categories.filter((c) => /^(ironman|im703)_/.test(c.eventId) && c.text !== null);
+
+    test("the TSV includes ContactId/Country/Status", () => {
+      const errors: string[] = [];
+      for (const c of ironman) {
+        const missing = REQUIRED.filter((h) => !c.headers.includes(h));
+        if (missing.length > 0) errors.push(`${c.tsv} — missing: ${missing.join(", ")}`);
+      }
+      expect(errors).toEqual([]);
+    });
+
+    test("meta_columns cover the TSV's ContactId/Country/Status", () => {
+      const errors: string[] = [];
+      for (const c of ironman) {
+        const mapped = new Set(c.columns(undefined, { segment: null }).map((col) => col.header));
+        const missing = REQUIRED.filter((h) => c.headers.includes(h) && !mapped.has(h));
+        if (missing.length > 0) {
+          errors.push(`${c.def.id} (${c.tsv}) — TSV has [${missing.join(", ")}] but meta_columns does not.`);
+        }
+      }
+      expect(errors).toEqual([]);
+    });
   });
 });

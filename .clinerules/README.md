@@ -4,9 +4,7 @@
 
 このレポジトリに入っているレースの結果を[AI TRI+](https://ai-triathlon-result.teraren.com/)のサイトで分析できるようになっています。
 
-[![JSON Syntax Check](https://github.com/matsubo/triathlon-result-data/actions/workflows/json-check.yml/badge.svg)](https://github.com/matsubo/triathlon-result-data/actions/workflows/json-check.yml)
-[![Validate Race Info](https://github.com/matsubo/triathlon-result-data/actions/workflows/validate-race-info.yml/badge.svg)](https://github.com/matsubo/triathlon-result-data/actions/workflows/validate-race-info.yml)
-[![Validate Weather Data](https://github.com/matsubo/triathlon-result-data/actions/workflows/validate-weather-data.yml/badge.svg)](https://github.com/matsubo/triathlon-result-data/actions/workflows/validate-weather-data.yml)
+[![CI](https://github.com/matsubo/triathlon-result-data/actions/workflows/ci.yml/badge.svg)](https://github.com/matsubo/triathlon-result-data/actions/workflows/ci.yml)
 
 
 ## データ構造
@@ -90,14 +88,15 @@
 
 ## テストの実行
 
-`pytest` を使ってJSONファイルの整合性を確認するテストを実行できます。
+`bun run test` でJSONファイルの整合性を確認するテストと型チェックを実行できます。
 レポジトリのルートで次のコマンドを実行してください。
 
 ```bash
-pytest
+bun run test
 ```
 
-GitHub Actions でも同じテストが自動的に実行され、JSONの構文エラーがないか確認
+GitHub Actions の CI ワークフロー（`.github/workflows/ci.yml`）でも、push と
+pull request のたびに同じテストが自動的に実行され、JSONの構文エラーがないか確認
 されます。
 
 `race-info.json` に記載された画像やリザルト、天気データのファイルが存在するか
@@ -105,7 +104,7 @@ GitHub Actions でも同じテストが自動的に実行され、JSONの構文�
 
 ### 天気データの検証
 
-天気データ（`master/*/*/weather-data.json`）は、`weather-schema.json` で定義されたJSON Schemaに基づいて自動検証されます。GitHub Actionsの「Validate Weather Data」ワークフローが天気データファイルやスキーマファイルが変更されるたびに実行され、データの整合性を確認します。
+天気データ（`master/*/*/weather-data.json`）は、`weather-schema.json` で定義されたJSON Schemaに基づいて自動検証されます（`bun run test:weather`）。GitHub Actions の CI ワークフローが push と pull request のたびに実行し、データの整合性を確認します。
 
 
 

@@ -189,7 +189,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 816263	DNS	Shelley Farmer	F	F35-39	0							Unknown	DNS
 816114	DNS	Sally Mitchell	F	F30-34	0							United Kingdom	DNS
 319876	DNF	Scott Sampson	M	M35-39	0		0:30:52	0:03:33				United States	DNF
-815969	DNS	M  Rcio Garcia	M	M25-29	0							Brazil	DNS
+815969	DNS	M Rcio Garcia	M	M25-29	0							Brazil	DNS
 816326	DNS	Alex Blank	M	M30-34	0							Germany	DNS
 536517	DNS	Patrick Thompson	M	M45-49	0							United States	DNS
 486358	DNS	Kevin Leske	M	M35-39	0							United States	DNS
@@ -1219,7 +1219,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 667667	942	Brian Guarraci	M	M35-39	190	5:12:06	0:34:00	0:03:36	2:30:52	0:04:07	1:59:31	United States	FIN
 486911	943	Theresa Michal	F	F40-44	22	5:12:09	0:30:31	0:03:24	2:30:58	0:03:07	2:04:09	Germany	FIN
 235955	944	Tim Hudson	M	M45-49	78	5:12:13	0:38:30	0:04:10	2:29:29	0:03:13	1:56:51	United States	FIN
-815970	945	Tere Ambe  Kibrit	F	F40-44	23	5:12:29	0:37:46	0:04:54	2:43:11	0:03:18	1:43:20	Mexico	FIN
+815970	945	Tere Ambe Kibrit	F	F40-44	23	5:12:29	0:37:46	0:04:54	2:43:11	0:03:18	1:43:20	Mexico	FIN
 816173	946	Jo Barrett	F	F30-34	34	5:12:45	0:39:24	0:03:53	2:45:36	0:03:33	1:40:19	United Kingdom	FIN
 32155	947	Pete Jacobs	M	MPRO	25	5:12:54	0:23:55	0:02:06	2:40:58	0:03:15	2:02:40	Australia	FIN
 816115	948	Glen Marillier	M	M30-34	132	5:13:06	0:32:16	0:03:57	2:35:11	0:03:54	1:57:48	South Africa	FIN
@@ -1404,7 +1404,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 815998	1127	Lucille Barber	F	F45-49	26	5:36:17	0:41:05	0:02:58	2:49:25	0:03:02	1:59:47	United States	FIN
 816167	1128	Kim Dunker	F	F18-24	14	5:36:19	0:34:07	0:02:53	3:02:09	0:02:39	1:54:31	United States	FIN
 206494	1129	John Booth	M	M55-59	24	5:36:23	0:49:17	0:03:23	2:44:00	0:02:33	1:57:10	United Kingdom	FIN
-816192	1130	Deborah Price  Alexander	F	F50-54	12	5:36:27	0:38:31	0:03:19	2:45:16	0:03:14	2:06:07	United States	FIN
+816192	1130	Deborah Price Alexander	F	F50-54	12	5:36:27	0:38:31	0:03:19	2:45:16	0:03:14	2:06:07	United States	FIN
 816082	1131	Stephanie Perkins	F	F30-34	50	5:36:33	0:38:41	0:04:42	2:49:38	0:03:07	2:00:25	United States	FIN
 816327	1132	Felix Von Bormann	M	M35-39	212	5:36:42	0:37:10	0:05:22	2:48:34	0:02:45	2:02:51	United States	FIN
 154394	1133	Tracy Frakes	F	F30-34	51	5:36:48	0:36:54	0:04:50	2:44:18	0:04:44	2:06:02	United States	FIN

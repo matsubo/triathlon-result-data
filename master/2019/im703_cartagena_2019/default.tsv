@@ -1031,7 +1031,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 829261	745	Richie Herrera	M	M35-39	157	5:53:32	0:43:18	0:05:02	2:51:28	0:03:16	2:10:28	Colombia	FIN
 306041	746	MarÃ­a JosÃ© Moreno	F	F18-24	6	5:53:36	0:52:08	0:04:29	2:55:19	0:03:44	1:57:56	Colombia	FIN
 582627	747	Maria Alejandra Arias Montoya	F	F30-34	26	5:53:44	0:46:39	0:05:18	2:58:35	0:03:22	1:59:50	Colombia	FIN
-342561	748	Victor  Manuel Gelvez OrdoÃ±ez	M	M50-54	25	5:53:45	0:46:24	0:03:46	2:55:59	0:03:14	2:04:22	Colombia	FIN
+342561	748	Victor Manuel Gelvez OrdoÃ±ez	M	M50-54	25	5:53:45	0:46:24	0:03:46	2:55:59	0:03:14	2:04:22	Colombia	FIN
 233411	749	Geoff Carr	M	M40-44	125	5:53:51	0:37:20	0:09:23	2:54:37	0:06:51	2:05:40	Australia	FIN
 228599	750	Adolfo Pretell Rivera	M	M30-34	160	5:53:52	0:37:44	0:03:39	2:43:32	0:01:54	2:27:04	Peru	FIN
 829262	751	Everardo Marin	M	M30-34	161	5:53:59	0:40:44	0:03:30	2:55:05	0:02:48	2:11:51	Colombia	FIN
@@ -1557,7 +1557,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 829534	1271	Eduardo Mora LeÃ³n	M	M50-54	44	6:32:10	0:41:29	0:06:12	3:10:45	0:05:14	2:28:31	Colombia	FIN
 426736	1272	Luciano Garnica Camargo	M	M45-49	108	6:32:16	0:39:13	0:05:41	2:56:47	0:02:43	2:47:52	Brazil	FIN
 829535	1273	Deybi Morales Suarez	M	M35-39	252	6:32:18	0:36:52	0:06:48	2:57:52	0:04:44	2:46:03	Colombia	FIN
-829536	1274	Samanda  Betsabe Castano  Herrera	F	F30-34	52	6:32:23	0:51:40	0:05:49	3:12:55	0:04:16	2:17:43	Colombia	FIN
+829536	1274	Samanda Betsabe Castano Herrera	F	F30-34	52	6:32:23	0:51:40	0:05:49	3:12:55	0:04:16	2:17:43	Colombia	FIN
 582827	1275	Jorge Humberto Lugo Guzman	M	M50-54	45	6:32:27	0:57:43	0:03:42	3:06:49	0:03:43	2:20:31	Colombia	FIN
 829537	1276	Karina Julio Solana	F	F30-34	53	6:32:34	0:58:48	0:04:29	3:08:07	0:06:02	2:15:08	Colombia	FIN
 233539	1277	Rudolf Meyer	M	M50-54	46	6:32:37	0:36:37	0:05:57	2:54:23	0:04:20	2:51:19	Colombia	FIN
@@ -1573,7 +1573,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 306615	1287	Gerardo Fernandez Navarro	M	M45-49	109	6:33:26	0:51:32	0:07:13	3:11:59	0:04:03	2:18:39	Mexico	FIN
 829545	1288	Oscar MarÃ­n	M	M35-39	255	6:33:28	0:39:05	0:07:34	3:02:41	0:04:37	2:39:30	Colombia	FIN
 829546	1289	Christian Carrillo	M	M25-29	145	6:33:34	0:52:05	0:06:38	3:06:58	0:04:51	2:23:02	Colombia	FIN
-582828	1290	Lucas Florez  Hoyos	M	M35-39	256	6:33:35	0:45:35	0:05:11	2:51:34	0:04:47	2:46:29	Colombia	FIN
+582828	1290	Lucas Florez Hoyos	M	M35-39	256	6:33:35	0:45:35	0:05:11	2:51:34	0:04:47	2:46:29	Colombia	FIN
 829547	1291	Diego Fernando Polania Polania Vargas	M	M35-39	257	6:33:43	0:48:40	0:05:47	3:02:36	0:04:49	2:31:51	Colombia	FIN
 829548	1292	Pedro G	M	M30-34	249	6:33:55	0:49:22	0:04:33	3:01:26	0:03:37	2:34:58	Colombia	FIN
 829549	1293	Alejandra Alzate	F	F25-29	43	6:33:56	1:01:17	0:04:02	3:21:57	0:03:37	2:03:04	Colombia	FIN
@@ -1913,7 +1913,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 829755	1627	John Fredy Moreno Ossa	M	M30-34	289	7:15:18	0:58:01	0:04:07	3:21:51	0:02:25	2:48:53	Colombia	FIN
 230725	1628	Fernando Parra	M	M25-29	170	7:15:23	0:46:13	0:05:18	3:20:23	0:04:21	2:59:08	Colombia	FIN
 829756	1629	diego velasquez	M	M35-39	305	7:15:52	0:46:53	0:08:33	3:21:44	0:07:01	2:51:41	Colombia	FIN
-829757	1630	Jorge Ivan Duque  CastaÃ±o	M	M35-39	306	7:16:01	0:54:59	0:04:57	3:32:48	0:05:28	2:37:49	Colombia	FIN
+829757	1630	Jorge Ivan Duque CastaÃ±o	M	M35-39	306	7:16:01	0:54:59	0:04:57	3:32:48	0:05:28	2:37:49	Colombia	FIN
 215046	1631	Isabel Cristina Ossa Echeverri	F	F40-44	38	7:16:15	0:46:24	0:05:35	3:24:33	0:06:32	2:53:11	Colombia	FIN
 829758	1632	Juan Manuel Rubiano Chaves	M	M30-34	290	7:16:23	0:49:17	0:05:54	3:31:15	0:03:19	2:46:39	Colombia	FIN
 829759	1633	Tatiana Ossa Jimenez	F	F25-29	63	7:16:28	0:44:09	0:09:27	3:52:08	0:05:34	2:25:10	Colombia	FIN
@@ -2073,6 +2073,6 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 228786	1787	Carlos Fernando ProaÃ±o Manosalvas	M	M45-49	159	8:29:10	0:48:26	0:06:21	3:58:51	0:05:33	3:30:00	Ecuador	FIN
 829853	1788	alexander clavijo	M	M35-39	318	8:32:25	1:05:19	0:04:32	4:21:30	0:05:03	2:56:01	Colombia	FIN
 829854	1789	Anubis Ariel Maiguel Noriega	M	MUNKNOWN	0	8:33:29	0:53:58	0:05:45	4:01:13	0:04:47	3:27:46	Colombia	FIN
-292306	1790	Deycy Lidiana Nunez  Feris	F	F40-44	53	8:38:10	1:00:52	0:06:33	3:57:12	0:08:34	3:24:59	Paraguay	FIN
+292306	1790	Deycy Lidiana Nunez Feris	F	F40-44	53	8:38:10	1:00:52	0:06:33	3:57:12	0:08:34	3:24:59	Paraguay	FIN
 829855	1791	alexander del valle	M	M30-34	301	8:51:08	1:01:53	0:09:47	3:42:16	0:13:55	3:43:17	Colombia	FIN
 829856	1792	Sioni Velarde	F	F30-34	111	8:58:08	1:05:07	0:07:17	4:08:01	0:17:57	3:19:46	Bolivia	FIN

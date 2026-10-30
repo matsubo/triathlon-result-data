@@ -1,11 +1,14 @@
 import { describe, test, expect } from "bun:test";
-import { canonicalAgeCategory } from "../scripts/lib/canonical-age-category.js";
-import { parseAgeCategory } from "../scripts/lib/normalize-age-category.js";
+import {
+  canonicalAgeCategory,
+  classifyAgeCategory,
+  parseAgeCategory,
+  relabelAgeCategory,
+} from "../scripts/lib/normalize-age-category.js";
 import { parseGender } from "../scripts/lib/normalize-gender.js";
 import { parseResidence } from "../scripts/lib/normalize-residence.js";
-import { parseRankAndStatus } from "../scripts/lib/normalize-status.js";
+import { isNonValue, isStatusToken, isValidRankCell, parseRank, resolveStatus } from "../scripts/lib/normalize-status.js";
 import { parseTime } from "../scripts/lib/normalize-time.js";
-import { parseInteger } from "../scripts/lib/parse-integer.js";
 
 describe("normalizer functions", () => {
   describe("parseTime", () => {
@@ -30,29 +33,141 @@ describe("normalizer functions", () => {
     test("not a leading time", () => expect(parseTime("P 2:39:42")).toBeNull());
   });
 
-  describe("parseRankAndStatus", () => {
-    test("numeric", () => expect(parseRankAndStatus("1")).toEqual({ rank: 1, status: "finished" }));
-    test("large", () => expect(parseRankAndStatus("1234")).toEqual({ rank: 1234, status: "finished" }));
-    test("DNF", () => expect(parseRankAndStatus("DNF")).toEqual({ rank: null, status: "DNF" }));
-    test("DNS", () => expect(parseRankAndStatus("DNS")).toEqual({ rank: null, status: "DNS" }));
-    test("DSQ", () => expect(parseRankAndStatus("DSQ")).toEqual({ rank: null, status: "DSQ" }));
-    test("TOV", () => expect(parseRankAndStatus("TOV")).toEqual({ rank: null, status: "TOV" }));
-    test("OPEN", () => expect(parseRankAndStatus("OPEN")).toEqual({ rank: null, status: "OPEN" }));
-    test("SKIP", () => expect(parseRankAndStatus("SKIP")).toEqual({ rank: null, status: "SKIP" }));
+  describe("resolveStatus", () => {
+    const fromRank = (rankCell: string | null) => resolveStatus({ rankCell });
+    test("numeric", () => expect(fromRank("1")).toEqual({ rank: 1, status: "finished" }));
+    test("large", () => expect(fromRank("1234")).toEqual({ rank: 1234, status: "finished" }));
+    test("comma", () => expect(fromRank("1,234")).toEqual({ rank: 1234, status: "finished" }));
+    test("DNF", () => expect(fromRank("DNF")).toEqual({ rank: null, status: "DNF" }));
+    test("DNS", () => expect(fromRank("DNS")).toEqual({ rank: null, status: "DNS" }));
+    test("DSQ", () => expect(fromRank("DSQ")).toEqual({ rank: null, status: "DSQ" }));
+    test("TOV", () => expect(fromRank("TOV")).toEqual({ rank: null, status: "TOV" }));
+    test("OPEN", () => expect(fromRank("OPEN")).toEqual({ rank: null, status: "OPEN" }));
+    test("SKIP", () => expect(fromRank("SKIP")).toEqual({ rank: null, status: "SKIP" }));
     test("SKP (kujukuri/iseshima abbreviation)", () =>
-      expect(parseRankAndStatus("SKP")).toEqual({ rank: null, status: "SKIP" }));
+      expect(fromRank("SKP")).toEqual({ rank: null, status: "SKIP" }));
     test("NOF is a DNF (laps but no official finish)", () =>
-      expect(parseRankAndStatus("NOF")).toEqual({ rank: null, status: "DNF" }));
+      expect(fromRank("NOF")).toEqual({ rank: null, status: "DNF" }));
     test("参考記録 is an unranked participant", () =>
-      expect(parseRankAndStatus("参考記録")).toEqual({ rank: null, status: "OPEN" }));
-    test("DQ maps to DSQ", () =>
-      expect(parseRankAndStatus("DQ")).toEqual({ rank: null, status: "DSQ" }));
+      expect(fromRank("参考記録")).toEqual({ rank: null, status: "OPEN" }));
+    test("DQ maps to DSQ", () => expect(fromRank("DQ")).toEqual({ rank: null, status: "DSQ" }));
     test("NC (not classified) is unranked", () =>
-      expect(parseRankAndStatus("NC")).toEqual({ rank: null, status: "OPEN" }));
+      expect(fromRank("NC")).toEqual({ rank: null, status: "OPEN" }));
     test("LAP (lapped out) is a DNF", () =>
-      expect(parseRankAndStatus("LAP")).toEqual({ rank: null, status: "DNF" }));
-    test("empty", () => expect(parseRankAndStatus("")).toEqual({ rank: null, status: "DNS" }));
-    test("null", () => expect(parseRankAndStatus(null as any)).toEqual({ rank: null, status: "DNS" }));
+      expect(fromRank("LAP")).toEqual({ rank: null, status: "DNF" }));
+    test("tokens are trimmed", () => expect(fromRank(" DNF ")).toEqual({ rank: null, status: "DNF" }));
+    test("zero is no rank", () => expect(fromRank("0")).toEqual({ rank: null, status: "DNS" }));
+    test("empty", () => expect(fromRank("")).toEqual({ rank: null, status: "DNS" }));
+    test("null", () => expect(fromRank(null)).toEqual({ rank: null, status: "DNS" }));
+    test("no rank column", () => expect(resolveStatus({})).toEqual({ rank: null, status: "DNS" }));
+
+    test("tokens are NFKC-folded (full-width ＤＮＦ)", () =>
+      expect(fromRank("ＤＮＦ")).toEqual({ rank: null, status: "DNF" }));
+    test("tokens are case-insensitive", () => expect(fromRank("dns")).toEqual({ rank: null, status: "DNS" }));
+    test("OVT (over time) is TOV", () => expect(fromRank("OVT")).toEqual({ rank: null, status: "TOV" }));
+    test("OPN is OPEN", () => expect(fromRank("OPN")).toEqual({ rank: null, status: "OPEN" }));
+    test("half-width ｽｷｯﾌﾟ (iseshima) is SKIP", () =>
+      expect(fromRank("ｽｷｯﾌﾟ")).toEqual({ rank: null, status: "SKIP" }));
+    test("short of bike laps is a DNF", () =>
+      expect(fromRank("バイク周回不足")).toEqual({ rank: null, status: "DNF" }));
+    test("short of run laps is a DNF", () =>
+      expect(fromRank("ラン周回不足")).toEqual({ rank: null, status: "DNF" }));
+    test("short of run laps, cut at a column break, is a DNF", () =>
+      expect(fromRank("ラン周")).toEqual({ rank: null, status: "DNF" }));
+    test("iseshima DNQ *1 (no run, no total) is a DNF", () =>
+      expect(fromRank("DNQ *1")).toEqual({ rank: null, status: "DNF" }));
+    test("minato_sakata SKIP& (SKIP&DNF) is a DNF", () =>
+      expect(fromRank("SKIP&")).toEqual({ rank: null, status: "DNF" }));
+    test("an unknown token stays DNS and is reported", () =>
+      expect(fromRank(" DNQ *2 ")).toEqual({ rank: null, status: "DNS", unknownToken: "DNQ *2" }));
+    test("a status cell override silences an unknown token", () =>
+      expect(resolveStatus({ rankCell: "DNQ *2", statusCells: ["DNF"] })).toEqual({ rank: null, status: "DNF" }));
+    test("a non-positive number is no token", () =>
+      expect(resolveStatus({ rankCell: "0" })).not.toHaveProperty("unknownToken"));
+    test("full-width status cells fold too", () =>
+      expect(resolveStatus({ rankCell: "3", statusCells: ["ＤＱ"] })).toEqual({ rank: null, status: "DSQ" }));
+
+    // IRONMAN writes 99999 for every Athlete outside the official ranking.
+    test("placeholder rank with a total time is an unranked finisher", () =>
+      expect(resolveStatus({ rankCell: "99999", hasTotalTime: true })).toEqual({ rank: null, status: "OPEN" }));
+    test("placeholder rank without a total time is DNS", () =>
+      expect(resolveStatus({ rankCell: "99999", hasTotalTime: false })).toEqual({ rank: null, status: "DNS" }));
+    test("status cell wins over the placeholder rank", () =>
+      expect(resolveStatus({ rankCell: "99999", statusCells: ["DNF"], hasTotalTime: true })).toEqual({
+        rank: null,
+        status: "DNF",
+      }));
+    test("FIN keeps the placeholder rule", () =>
+      expect(resolveStatus({ rankCell: "99999", statusCells: ["FIN"], hasTotalTime: true })).toEqual({
+        rank: null,
+        status: "OPEN",
+      }));
+
+    test("status cell override unranks a numeric rank", () =>
+      expect(resolveStatus({ rankCell: "12", statusCells: ["DQ"], hasTotalTime: true })).toEqual({
+        rank: null,
+        status: "DSQ",
+      }));
+    test("status cell NC is an unranked finisher", () =>
+      expect(resolveStatus({ rankCell: "12", statusCells: ["NC"] })).toEqual({ rank: null, status: "OPEN" }));
+    test("status cells are case-insensitive", () =>
+      expect(resolveStatus({ rankCell: "", statusCells: ["dnf"] })).toEqual({ rank: null, status: "DNF" }));
+    test("FIN confirms the rank cell", () =>
+      expect(resolveStatus({ rankCell: "3", statusCells: ["FIN"] })).toEqual({ rank: 3, status: "finished" }));
+    test("a later FIN clears an earlier override", () =>
+      expect(resolveStatus({ rankCell: "3", statusCells: ["DNF", "FIN"] })).toEqual({ rank: 3, status: "finished" }));
+    test("a status cell that says nothing keeps the earlier override", () =>
+      expect(resolveStatus({ rankCell: "3", statusCells: ["DNF", "バイク リタイア"] })).toEqual({
+        rank: null,
+        status: "DNF",
+      }));
+    test("SKIP in a status cell does not unrank", () =>
+      expect(resolveStatus({ rankCell: "3", statusCells: ["SKIP"] })).toEqual({ rank: 3, status: "finished" }));
+  });
+
+  describe("parseRank", () => {
+    test("simple", () => expect(parseRank("42")).toBe(42));
+    test("comma", () => expect(parseRank("1,234")).toBe(1234));
+    test("placeholder is outside the ranking", () => expect(parseRank("99999")).toBeNull());
+    test("zero", () => expect(parseRank("0")).toBeNull());
+    test("empty", () => expect(parseRank("")).toBeNull());
+    test("null", () => expect(parseRank(null)).toBeNull());
+    test("text", () => expect(parseRank("DNS")).toBeNull());
+  });
+
+  describe("isStatusToken", () => {
+    test("known token", () => expect(isStatusToken("DQ")).toBe(true));
+    test("trimmed", () => expect(isStatusToken(" SKP ")).toBe(true));
+    test("folded", () => expect(isStatusToken("ｄｎｆ")).toBe(true));
+    test("a rank is not a token", () => expect(isStatusToken("12")).toBe(false));
+    test("FIN only belongs in status cells", () => expect(isStatusToken("FIN")).toBe(false));
+    test("unknown token", () => expect(isStatusToken("DNQ *2")).toBe(false));
+    test("empty", () => expect(isStatusToken("")).toBe(false));
+  });
+
+  describe("isNonValue", () => {
+    test("status token", () => expect(isNonValue("DNF")).toBe(true));
+    test("FIN", () => expect(isNonValue("FIN")).toBe(true));
+    test("placeholder rank", () => expect(isNonValue("99999")).toBe(true));
+    test("dashes", () => expect(isNonValue("--")).toBe(true));
+    test("full-width dash", () => expect(isNonValue("－")).toBe(true));
+    test("blank time", () => expect(isNonValue("--:--:--")).toBe(true));
+    test("asterisks", () => expect(isNonValue("***")).toBe(true));
+    test("a time is a value", () => expect(isNonValue("0:21:05")).toBe(false));
+    test("a negative time is a value", () => expect(isNonValue("-0:02:20")).toBe(false));
+    test("half-width ｽｷｯﾌﾟ", () => expect(isNonValue("ｽｷｯﾌﾟ")).toBe(true));
+    test("a repeated token is no token", () => expect(isNonValue("ｽｷｯﾌﾟ ｽｷｯﾌﾟ")).toBe(false));
+  });
+
+  describe("isValidRankCell", () => {
+    test("integer", () => expect(isValidRankCell("12")).toBe(true));
+    test("thousands comma", () => expect(isValidRankCell("1,234")).toBe(true));
+    test("placeholder rank", () => expect(isValidRankCell("99999")).toBe(true));
+    test("status token", () => expect(isValidRankCell("DSQ")).toBe(true));
+    test("empty", () => expect(isValidRankCell(" ")).toBe(true));
+    test("an age label is no rank", () => expect(isValidRankCell("50-54歳男子")).toBe(false));
+    test("a time is no rank", () => expect(isValidRankCell("0:41:22")).toBe(false));
+    test("a broken comma is no rank", () => expect(isValidRankCell("12,34")).toBe(false));
   });
 
   describe("parseGender", () => {
@@ -248,21 +363,53 @@ describe("normalizer functions", () => {
     test("30歳代男子", () => expect(canonicalAgeCategory("30歳代男子")).toBe("M30-39"));
     test("女子24歳以下", () => expect(canonicalAgeCategory("女子24歳以下")).toBe("F0-24"));
     test("男子65歳以上", () => expect(canonicalAgeCategory("男子65歳以上")).toBe("M65+"));
-    test("canonical labels round-trip", () =>
-      expect(["M25-29", "F0-24", "M65+"].map((l) => parseAgeCategory(l))).toEqual([
-        { min_age: 25, max_age: 29 },
-        { min_age: 0, max_age: 24 },
-        { min_age: 65, max_age: 99 },
-      ]));
+    test("男子40才～44才", () => expect(canonicalAgeCategory("男子40才～44才")).toBe("M40-44"));
+    test("U20女子", () => expect(canonicalAgeCategory("U20女子")).toBe("F0-20"));
+    test("60-  男子", () => expect(canonicalAgeCategory("60-  男子")).toBe("M60+"));
+    test("surrounding whitespace", () => expect(canonicalAgeCategory(" 男子25-29歳 ")).toBe("M25-29"));
+    test("canonical labels parse to the raw label's bracket and classify as canonical", () => {
+      const raws = ["男子25-29歳", "30-34女子", "30歳代男子", "女子24歳以下", "男子65歳以上", "70代以上男子", "30歳未満男子", "U20女子", "10.20代男子"];
+      for (const raw of raws) {
+        const canonical = canonicalAgeCategory(raw);
+        expect(canonical).not.toBeNull();
+        expect(parseAgeCategory(canonical)).toEqual(parseAgeCategory(raw));
+        expect(classifyAgeCategory(canonical)).toBe("canonical");
+      }
+    });
     test("division label has no canonical form", () => expect(canonicalAgeCategory("一般男子")).toBeNull());
+    test("implausible bracket has no canonical form", () => expect(canonicalAgeCategory("230歳〜39歳女子")).toBeNull());
+    test("both gender words", () => expect(canonicalAgeCategory("男女30-34")).toBeNull());
     test("label without a gender word is out of scope", () => expect(canonicalAgeCategory("30-34")).toBeNull());
   });
 
-  describe("parseInteger", () => {
-    test("simple", () => expect(parseInteger("42")).toBe(42));
-    test("comma", () => expect(parseInteger("1,234")).toBe(1234));
-    test("empty", () => expect(parseInteger("")).toBeNull());
-    test("null", () => expect(parseInteger(null as any)).toBeNull());
-    test("text", () => expect(parseInteger("abc")).toBeNull());
+  describe("relabelAgeCategory", () => {
+    test("a fixable label gets its canonical form", () =>
+      expect(relabelAgeCategory("男子25-29歳", "27")).toEqual({ label: "M25-29", contradictsAge: false }));
+    test("an age one year outside the bracket is tolerated", () =>
+      expect(relabelAgeCategory("男子25-29歳", "30")).toEqual({ label: "M25-29", contradictsAge: false }));
+    test("an age contradicting the bracket keeps the label", () =>
+      expect(relabelAgeCategory("46 44男子", "42")).toEqual({ label: null, contradictsAge: true }));
+    test("no age contradicts nothing", () =>
+      expect(relabelAgeCategory("女子24歳以下", "")).toEqual({ label: "F0-24", contradictsAge: false }));
+    test("a canonical label stays", () =>
+      expect(relabelAgeCategory("M25-29", "60")).toEqual({ label: null, contradictsAge: false }));
+    test("a division label stays", () =>
+      expect(relabelAgeCategory("一般男子", "30")).toEqual({ label: null, contradictsAge: false }));
+  });
+
+  describe("classifyAgeCategory", () => {
+    test("M25-29 is canonical", () => expect(classifyAgeCategory("M25-29")).toBe("canonical"));
+    test("F0-24 is canonical", () => expect(classifyAgeCategory("F0-24")).toBe("canonical"));
+    test("M65+ is canonical", () => expect(classifyAgeCategory("M65+")).toBe("canonical"));
+    test("男子25-29歳 is fixable", () => expect(classifyAgeCategory("男子25-29歳")).toBe("fixable"));
+    test("一般男子 has no canonical form", () => expect(classifyAgeCategory("一般男子")).toBe("no-canonical-form"));
+    test("OCR garbage has no canonical form", () =>
+      expect(classifyAgeCategory("230歳〜39歳女子")).toBe("no-canonical-form"));
+    test("both gender words have no canonical form", () =>
+      expect(classifyAgeCategory("男女30-34")).toBe("no-canonical-form"));
+    test("M70 & + is not canonical", () => expect(classifyAgeCategory("M70&+")).toBe("out-of-scope"));
+    test("M50～54 is not canonical", () => expect(classifyAgeCategory("M50～54")).toBe("out-of-scope"));
+    test("40-44M is out of scope", () => expect(classifyAgeCategory("40-44M")).toBe("out-of-scope"));
+    test("empty is out of scope", () => expect(classifyAgeCategory("")).toBe("out-of-scope"));
   });
 });

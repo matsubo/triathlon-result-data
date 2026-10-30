@@ -9,7 +9,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 1176295	DNS	Luiz Eduardo Moreira Passos	M	M45-49								Brazil	DNS
 84075	DNS	Paulo GM Alencar	M	M50-54								Brazil	DNS
 992667	DNS	Francisco Spina	M	M35-39								Argentina	DNS
-992634	DSQ	Ariosto Bezerra  Vale	M	M55-59								Brazil	DQ
+992634	DSQ	Ariosto Bezerra Vale	M	M55-59								Brazil	DQ
 894044	DNS	Franciele Cotta Miranda	F	F30-34								Brazil	DNS
 884222	DSQ	Cesar Suzuki	M	M50-54								Brazil	DQ
 126041	DSQ	Glenn Iacurto	M	M70-74								United States	DQ
@@ -177,7 +177,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 1054571	83	Adolfo Fernandes Pinheiro	M	M40-44	17	4:43:44	0:31:16	0:01:54	2:29:23	0:01:53	1:39:18	Brazil	FIN
 893512	84	Marco Aurélio Barbosa Gimenes	M	M50-54	3	4:44:05	0:35:03	0:02:48	2:25:51	0:03:03	1:37:20	Brazil	FIN
 1175938	85	Richardson Pericles Sousa Da Silva	M	M25-29	11	4:44:07	0:29:30	0:01:23	2:34:35	0:01:49	1:36:50	Brazil	FIN
-975102	86	Gerald Alex  Ferreira De Sá	M	M35-39	22	4:44:09	0:31:56	0:03:00	2:30:57	0:01:43	1:36:34	Brazil	FIN
+975102	86	Gerald Alex Ferreira De Sá	M	M35-39	22	4:44:09	0:31:56	0:03:00	2:30:57	0:01:43	1:36:34	Brazil	FIN
 1175692	87	Rafael Ferreira	M	M40-44	18	4:44:15	0:33:09	0:01:46	2:33:51	0:01:13	1:34:16	Brazil	FIN
 1183807	88	Guillermo Arauz	M	M25-29	12	4:44:27	0:38:44	0:02:16	2:26:08	0:03:02	1:34:18	Brazil	FIN
 993162	89	Frank Madlehner	M	M30-34	17	4:45:03	0:33:01	0:01:47	2:32:28	0:01:29	1:36:19	Germany	FIN

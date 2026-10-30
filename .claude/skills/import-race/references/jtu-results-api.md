@@ -47,7 +47,6 @@ run it through the Import module. Never write an add-*/import-* script.
 ```bash
 bun scripts/import.js /tmp/plan.json --dry-run   # fetch + every check, writes stay in memory
 bun scripts/import.js /tmp/plan.json             # writes the TSVs, then race-info.json
-bun run scripts/fix-age-category-labels.js       # canonical M/F 年齢区分 labels (the API returns 男子25-29歳)
 ```
 
 What the JTU adapter and the core do:
@@ -67,6 +66,9 @@ What the JTU adapter and the core do:
   gender column).
 - **氏名 cleanup**: U+3000 and doubled spaces → one half-width space, full-width Latin /
   digits → half-width.
+- **年齢区分 labels**: the API returns 男子25-29歳; the core writes the canonical label
+  (M25-29) with the rule of `scripts/fix-age-category-labels.js` (a label contradicting the
+  row's age stays as published).
 - **Paths and ids**: `master/<year>/<event>/<file>`, `weather_file`
   `master/<year>/<event>/weather-data.json`, `source_ref` `{results_source: "jtu", id: <program>}`,
   `source_url` = the results API URL of the table. `id`, `file` and `name` default from the
@@ -76,14 +78,19 @@ What the JTU adapter and the core do:
   km for the Distance class (OD 1.5/40/10, SD 0.75/20/5, MD 1.9/90/21.1, LD 3.8/180.2/42.195).
   Give `segments` whenever the course differs — read the distances from the organiser, never
   clone the sibling's. A cancelled leg is expressed only by omitting it from `segments`.
+  The program note `curl -s -g "https://results.jtu.or.jp/api/programs/NNN_1/additionals"`
+  published the actual course in the 2026-10-05 run (duathlon elite 4.93 / 31.65 / 5.33 km
+  against nominal 5 / 30 / 5, and a different course for the same-day age-group race), so
+  check it for every program. It returned nothing on 2026-10-27 because the API was timing
+  out, so treat an empty answer as "unknown", not "nominal".
 - **Refused automatically**: a TSV byte-identical to another TSV (the carousel
   contamination signature), a declared Segment whose lap column is empty for every finisher,
   a duplicated single-use role, an existing (event, date) with different programs.
 
 To re-fetch a committed Edition, use `"mode": "refetch"` with the same `jtu[].columns`
-options the import used (only `program` + `columns`). The refetched TSV carries the API's
-raw 年齢区分 labels; run `fix-age-category-labels.js` afterwards to get the committed bytes
-back.
+options the import used (only `program` + `columns`). The refetched TSV gets the same
+氏名 cleanup and canonical 年齢区分 labels, so an unchanged source refetches as the
+committed bytes.
 
 Filter out non-age-group programs per AGENTS.md (キッズ / ジュニア / リレー / パラ /
 小学 / 中学 / アクアスロン / デュアスロン / ビギナー / チャレンジ) — and check for a

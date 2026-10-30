@@ -338,7 +338,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 263322	167	Bruno Lessa	M	M18-24	10	5:14:13	0:37:46	0:02:40	2:42:48	0:05:20	1:45:39	Brazil	FIN
 474732	168	Samuel Burlamaqui	M	M30-34	43	5:14:30	0:37:49	0:01:54	2:39:43	0:02:06	1:52:58	Brazil	FIN
 291428	169	Carlos Ronie Luciano	M	M45-49	14	5:14:53	0:35:54	0:02:07	2:44:37	0:01:48	1:50:27	Brazil	FIN
-704980	170	Pedro Henrique Vasconcelos  Bezerra	M	M40-44	27	5:14:54	0:35:40	0:02:36	2:44:06	0:03:49	1:48:43	Brazil	FIN
+704980	170	Pedro Henrique Vasconcelos Bezerra	M	M40-44	27	5:14:54	0:35:40	0:02:36	2:44:06	0:03:49	1:48:43	Brazil	FIN
 292277	171	Victor De Oliveira Souza	M	M35-39	49	5:14:54	0:37:12	0:03:43	2:40:16	0:02:43	1:51:00	Brazil	FIN
 704981	172	Daniel Moita	M	M30-34	44	5:15:34	0:37:07	0:01:58	2:38:04	0:02:56	1:55:29	Brazil	FIN
 551610	173	Roberto Oliveira De Abreu	M	M40-44	28	5:15:43	0:38:49	0:03:24	2:45:02	0:02:49	1:45:39	Brazil	FIN
@@ -541,7 +541,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 65289	370	Andre De Souza Dantas Vieira	M	M40-44	52	5:51:46	0:40:43	0:03:18	3:05:58	0:04:06	1:57:41	Brazil	FIN
 667191	371	Vinicius Vieira	M	M35-39	117	5:51:47	0:41:19	0:05:30	2:58:40	0:05:59	2:00:19	Brazil	FIN
 426938	372	Cleomar Aliane	M	M45-49	28	5:51:52	0:41:51	0:05:23	2:50:05	0:06:25	2:08:08	Brazil	FIN
-484768	373	Luigi Linhares  Tavares	M	M30-34	82	5:52:27	0:43:40	0:05:32	2:45:29	0:06:17	2:11:29	Brazil	FIN
+484768	373	Luigi Linhares Tavares	M	M30-34	82	5:52:27	0:43:40	0:05:32	2:45:29	0:06:17	2:11:29	Brazil	FIN
 705017	374	Joao Silva	M	M25-29	33	5:52:33	0:38:13	0:03:06	3:05:11	0:06:20	1:59:43	Brazil	FIN
 705018	375	Andre Porto	M	M30-34	83	5:52:42	0:34:23	0:02:55	2:58:32	0:20:17	1:56:35	Brazil	FIN
 453393	376	Alinson De Paula	M	M40-44	53	5:52:49	0:38:52	0:04:36	3:05:45	0:05:12	1:58:24	Brazil	FIN
@@ -562,7 +562,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 614158	391	Breno Montans	M	M25-29	34	5:54:47	0:37:17	0:03:11	2:52:11	0:04:13	2:17:55	Brazil	FIN
 291566	392	Silvestre Nunes Filho	M	M35-39	120	5:54:49	0:50:09	0:03:23	2:47:16	0:04:21	2:09:40	Brazil	FIN
 705022	393	David Marinho	M	M35-39	121	5:54:52	0:36:44	0:03:28	2:52:03	0:04:16	2:18:21	Brazil	FIN
-84089	394	Ubirajara  Mendes Camara	M	M50-54	13	5:55:27	0:36:56	0:03:13	2:43:55	0:04:19	2:27:04	Brazil	FIN
+84089	394	Ubirajara Mendes Camara	M	M50-54	13	5:55:27	0:36:56	0:03:13	2:43:55	0:04:19	2:27:04	Brazil	FIN
 140770	395	MÃ´nica SimÃµes Rodrigues	F	F35-39	12	5:55:28	0:41:59	0:03:19	3:00:01	0:02:42	2:07:27	Brazil	FIN
 705023	396	Ednaldo Candido Da Silva	M	M40-44	59	5:55:29	0:39:22	0:03:57	3:01:22	0:06:50	2:03:58	Brazil	FIN
 140567	397	Fabrini Peixoto Carvalho	M	M30-34	85	5:55:44	0:34:04	0:02:04	2:55:14	0:05:19	2:19:03	Brazil	FIN
@@ -841,7 +841,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 705113	670	Douglas Lima Benevides	M	M30-34	129	6:50:02	0:43:16	0:09:21	3:32:17	0:13:20	2:11:48	Brazil	FIN
 705114	671	Adilson Borges Junior	M	M40-44	111	6:50:54	0:51:10	0:04:56	3:33:24	0:06:41	2:14:43	Brazil	FIN
 705115	672	Andrea Paolillo De Crescenzo Braga	F	F45-49	7	6:51:08	0:46:38	0:06:47	3:30:57	0:11:11	2:15:35	Brazil	FIN
-531039	673	JosÃ© Edmilson  Sousa Filho	M	M45-49	64	6:51:14	0:43:49	0:04:47	3:12:08	0:06:23	2:44:07	Brazil	FIN
+531039	673	JosÃ© Edmilson Sousa Filho	M	M45-49	64	6:51:14	0:43:49	0:04:47	3:12:08	0:06:23	2:44:07	Brazil	FIN
 705116	674	Handerson Carlos Brauna Maciel	M	M25-29	55	6:51:34	0:57:02	0:03:58	3:07:42	0:05:47	2:37:05	Brazil	FIN
 551855	675	AndrÃ©a De Almeida Franco	F	F45-49	8	6:51:42	0:49:03	0:03:24	3:35:08	0:05:20	2:18:47	Brazil	FIN
 453555	676	Mateus Reis	M	M35-39	180	6:52:10	0:44:28	0:02:47	3:01:17	0:05:57	2:57:41	Brazil	FIN
@@ -953,7 +953,7 @@ ContactId	Overall_Rank	Name	Gender	Division	Div_Rank	Total_Time	Swim	T1	Bike	T2	
 292161	782	Gustavo Bezerra	M	M40-44	130	7:26:11	0:49:51	0:07:23	3:18:41	0:18:28	2:51:48	Brazil	FIN
 676038	783	Frank Schmidt	M	M45-49	81	7:26:29	0:43:33	0:12:34	3:30:17	0:12:06	2:47:59	Germany	FIN
 329872	784	Luciano Juacaba	M	M25-29	61	7:27:23	0:46:31	0:05:10	3:37:10	0:07:34	2:50:58	Brazil	FIN
-292293	785	Joao Carlos  Pessoa	M	M45-49	82	7:27:28	0:46:41	0:07:38	3:34:52	0:07:18	2:50:59	Brazil	FIN
+292293	785	Joao Carlos Pessoa	M	M45-49	82	7:27:28	0:46:41	0:07:38	3:34:52	0:07:18	2:50:59	Brazil	FIN
 705198	786	Jehovah Kayser	M	M40-44	131	7:27:43	0:39:02	0:04:20				Brazil	FIN
 140891	787	Teobaldo De AraÃºjo Albuquerque Junior Albuquerque	M	M45-49	83	7:27:53	1:03:25	0:06:36	3:40:57	0:11:35	2:25:20	Brazil	FIN
 453424	788	Adriano Grams	M	M40-44	132	7:28:10	0:43:09	0:09:44	3:50:16	0:07:55	2:37:06	Brazil	FIN

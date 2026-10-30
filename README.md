@@ -1,9 +1,6 @@
 # Multi-Sport Race Result Data
 
-[![JSON Syntax Check](https://github.com/matsubo/triathlon-result-data/actions/workflows/json-check.yml/badge.svg)](https://github.com/matsubo/triathlon-result-data/actions/workflows/json-check.yml)
-[![Validate Race Info](https://github.com/matsubo/triathlon-result-data/actions/workflows/validate-race-info.yml/badge.svg)](https://github.com/matsubo/triathlon-result-data/actions/workflows/validate-race-info.yml)
-[![Validate Weather Data](https://github.com/matsubo/triathlon-result-data/actions/workflows/validate-weather-data.yml/badge.svg)](https://github.com/matsubo/triathlon-result-data/actions/workflows/validate-weather-data.yml)
-[![Check Duplicate Editions](https://github.com/matsubo/triathlon-result-data/actions/workflows/check-duplicates.yml/badge.svg)](https://github.com/matsubo/triathlon-result-data/actions/workflows/check-duplicates.yml)
+[![CI](https://github.com/matsubo/triathlon-result-data/actions/workflows/ci.yml/badge.svg)](https://github.com/matsubo/triathlon-result-data/actions/workflows/ci.yml)
 
 ## Purpose
 
@@ -41,10 +38,10 @@ Event
 
 ## Generating normalized output
 
-Given an event ID and a year, emit that edition's normalized JSON to stdout:
+Given an event ID and a year (or a full date), emit that edition's normalized JSON to stdout:
 
 ```bash
-bun scripts/normalize-tsv.js <event_id> <year>
+bun scripts/normalize-tsv.js <event_id> <year|date>
 ```
 
 Examples:
@@ -52,10 +49,11 @@ Examples:
 ```bash
 bun scripts/normalize-tsv.js ironman_cairns 2025
 bun scripts/normalize-tsv.js sado 2024
-bun scripts/normalize-tsv.js yokohama 2025
+bun scripts/normalize-tsv.js yokohama 2025-05-18
 ```
 
 - `event_id` corresponds to `events[].id` in `race-info.json`.
+- A year must match exactly one edition of the event; when the event ran more than once that year, the command exits 1 listing the dates, and you pass the full date.
 - Warnings are written to **stderr**; normalized JSON goes to **stdout**.
 - Output is validated against `result-schema.json` before being emitted.
 
@@ -138,7 +136,7 @@ Edit `race-info.json`. The structure is a tree of events → editions → catego
 Validate and regenerate TypeScript types:
 
 ```bash
-bunx ajv-cli validate -s race-info-schema.json -d race-info.json
+bun run test:schema
 bun run build:schema
 ```
 
@@ -153,7 +151,7 @@ Per edition, at `master/<year>/<event_id>/weather-data.json`, following `weather
 Validate:
 
 ```bash
-bunx ajv-cli validate -s weather-schema.json -d master/<year>/<event_id>/weather-data.json
+bun run test:weather
 ```
 
 ### Add results
@@ -212,12 +210,11 @@ bun run test:typecheck   # run static type check (tsc --noEmit)
 bun run check:duplicates # detect duplicate race editions
 ```
 
-The GitHub Actions workflows run the same checks:
+A single GitHub Actions workflow, **CI** (`.github/workflows/ci.yml`), runs on every push to `main` and every pull request:
 
-- **json-check** — JSON syntax validity.
-- **validate-race-info** — `race-info.json` against its schema.
-- **validate-weather-data** — every `weather-data.json` against `weather-schema.json`.
-- **check-duplicates** — flag pairs of editions whose `(name, total_time)` fingerprints overlap ≥80 % (allowlist genuinely distinct lookalikes in `duplicate-allowlist.json`).
+- `bun run test` — all of the tests above plus the typecheck.
+- `bun run check:integrity` — normalize every edition and compare missing-value counts against `integrity-baseline.json`.
+- `bun run check:duplicates` — flag pairs of editions whose `(name, total_time)` fingerprints overlap ≥80 % (allowlist genuinely distinct lookalikes in `duplicate-allowlist.json`).
 
 ## Importing new race data
 

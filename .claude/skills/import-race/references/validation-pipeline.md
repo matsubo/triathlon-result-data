@@ -13,11 +13,12 @@ checks and require zeros:
 bun run scripts/fix-age-category-labels.js
 
 # Structural lint (time-format, rank-numeric, extra-columns, name-space and
-# 年齢区分-notation rules)
+# 年齢区分-notation rules); counts must equal tsv-lint-known-issues.json
 bun run test:tsv-lint
 
-# Normalize-level integrity: fails on ANY regression vs integrity-baseline.json;
-# a clean new import must add zero missing laps / totals
+# Normalize-level integrity: fails on ANY drift from integrity-baseline.json
+# (regression, improvement or stale entry); a clean new import must add zero
+# missing laps / totals
 bun run check:integrity
 
 # End-to-end normalize incl. result-schema validation for the new edition
@@ -41,9 +42,10 @@ for c in d['categories']:
 ```
 
 If a metric is legitimately nonzero (the SOURCE truly lacks the data), say so explicitly in
-the commit message and re-run `bun run scripts/check-integrity.js --update` so the baseline
-records it as known — never leave an unexplained regression. See
-[data-quality-gates](data-quality-gates.md).
+the commit message and run `bun run update:integrity-baseline` so the Known-issue ledger
+records it — never leave an unexplained regression. If a fix lowered a count, the checks fail
+until you run `bun run update:tsv-lint-known-issues` / `bun run update:integrity-baseline`
+and commit the shrunken ledger. See [data-quality-gates](data-quality-gates.md).
 
 ## Build & validate
 
@@ -51,10 +53,10 @@ Run the full pipeline after any data change:
 
 ```bash
 # 1. Validate race-info.json schema
-bunx ajv-cli validate -s race-info-schema.json -d race-info.json
+bun run test:schema
 
-# 2. Validate any new weather files
-bunx ajv-cli validate -s weather-schema.json -d master/YEAR/ID/weather-data.json
+# 2. Validate weather files (every weather-data.json)
+bun run test:weather
 
 # 3. Regenerate the derived TS schema
 bun run build:schema
