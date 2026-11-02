@@ -69,11 +69,16 @@ def fetch(lat, lon, start, end):
         # The reanalysis archive caps end_date at yesterday and answers 400 for
         # anything later. Since the window is widened by a day, a race held
         # yesterday asks for today and gets rejected — so an HTTP error has to
-        # fall through to the next endpoint rather than abort the loop.
+        # fall through to the next endpoint rather than abort the loop. The
+        # archive also goes down on its own (503s answered as read timeouts),
+        # which must fall through the same way.
         try:
             data = get_json(base + query)
         except urllib.error.HTTPError as err:
             last = f"{base} (HTTP {err.code})"
+            continue
+        except (urllib.error.URLError, TimeoutError) as err:
+            last = f"{base} ({err})"
             continue
         temps = data.get("hourly", {}).get("temperature_2m") or []
         if any(t is not None for t in temps):
