@@ -193766,6 +193766,94 @@
       "source": "https://www.coachcox.co.uk/imstats/race/2641/results/",
       "editions": [
         {
+          "date": "2026-11-01",
+          "weather_file": "master/2026/im703_turkey_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_turkey_2026",
+              "result_tsv": "master/2026/im703_turkey_2026/default.tsv",
+              "name": "Half Distance",
+              "distance": "MD",
+              "description": "IRONMAN 70.3 Turkey 2026. Antalya, Turkey.",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null,
+              "source_ref": {
+                "results_source": "ironman",
+                "id": "18cc0d24-553e-4fb6-a742-b3ef1b344eb1"
+              }
+            }
+          ]
+        },
+        {
           "date": "2025-11-02",
           "weather_file": "master/2025/im703_turkey_2025/weather-data.json",
           "categories": [
@@ -196272,6 +196360,94 @@
       "image": "images/im703_goa.webp",
       "source": "https://www.coachcox.co.uk/imstats/race/2607/results/",
       "editions": [
+        {
+          "date": "2026-11-01",
+          "weather_file": "master/2026/im703_goa_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_goa_2026",
+              "result_tsv": "master/2026/im703_goa_2026/default.tsv",
+              "name": "Half Distance",
+              "distance": "MD",
+              "description": "IRONMAN 70.3 Goa 2026. Goa, India.",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null,
+              "source_ref": {
+                "results_source": "ironman",
+                "id": "17b35ded-cb70-418d-91cb-e3db705b2270"
+              }
+            }
+          ]
+        },
         {
           "date": "2025-11-09",
           "weather_file": "master/2025/im703_goa_2025/weather-data.json",
