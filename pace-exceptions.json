@@ -96,6 +96,206 @@
       "segment": "3 run",
       "reason": "PRO-only Category on the full half marathon (Sam Long 1:10:45); compared with the age-group 2025 Edition.",
       "source": "https://www.triathlete.com/culture/news/sam-long-kirsten-kasper-win-ironman-70-3-boise-2026/"
+    },
+    {
+      "event": "osaka",
+      "date": "2023-05-28",
+      "category": "osaka_asiacup_men",
+      "segment": "1 swim",
+      "reason": "World Triathlon Asia Cup elite field (sprint); the published course 「スイム750m(1周）/バイク20km(3.33km×6周)/ラン5km(2.5km×2周)」 was raced. Flagged only against the age-group Editions of this Event.",
+      "source": "https://www.jtu.or.jp/news/2023/05/28/50743/"
+    },
+    {
+      "event": "osaka",
+      "date": "2024-05-26",
+      "category": "osaka_asia_cup_men",
+      "segment": "1 swim",
+      "reason": "World Triathlon Asia Cup elite field (sprint); program note 「スイム：750ｍ（1周回）バイク：20km（6周回）ラン：5ｋｍ（2周回）」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://results.jtu.or.jp/api/programs/249_1/additionals"
+    },
+    {
+      "event": "asia_hatsukaichi",
+      "date": "2021-09-12",
+      "category": "asia_hatsukaichi_elite_men",
+      "segment": "1 swim",
+      "reason": "Asia Championships elite field; program note 「スイム：1.5ｋｍ（2周回）、バイク：40ｋｍ（8周回）、ラン：10ｋｍ（4周回）」. Flagged only against the 2024 age-group Edition.",
+      "source": "https://results.jtu.or.jp/api/programs/109_1/additionals"
+    },
+    {
+      "event": "sado",
+      "date": "2023-09-03",
+      "category": "sado_championship_men",
+      "segment": "1 swim",
+      "reason": "Long Distance National Championship (elite) on the Type B course, raced as 「スイム2.0km、バイク108.0km、ラン21.1km」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://www.jtu.or.jp/news/2023/09/04/54006/"
+    },
+    {
+      "event": "osaka",
+      "date": "2023-05-28",
+      "category": "osaka_asiacup_women",
+      "segment": "1 swim",
+      "reason": "World Triathlon Asia Cup elite field (sprint); the published course 「スイム750m(1周）/バイク20km(3.33km×6周)/ラン5km(2.5km×2周)」 was raced. Flagged only against the age-group Editions of this Event.",
+      "source": "https://www.jtu.or.jp/news/2023/05/28/50743/"
+    },
+    {
+      "event": "osaka",
+      "date": "2024-05-26",
+      "category": "osaka_asia_cup_women",
+      "segment": "1 swim",
+      "reason": "World Triathlon Asia Cup elite field (sprint); program note 「スイム：750ｍ（1周回）バイク：20km（6周回）ラン：5ｋｍ（2周回）」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://results.jtu.or.jp/api/programs/249_1/additionals"
+    },
+    {
+      "event": "asia_hatsukaichi",
+      "date": "2024-04-21",
+      "category": "asia_hatsukaichi_age_group",
+      "segment": "1 swim",
+      "reason": "Age-group race on the full 1.5 km swim (「スイム1.5km（750m×2周）」, 2:00/100m median); flagged only against the 2021 elite Edition.",
+      "source": "https://www.jtu.or.jp/news/2024/04/21/60323"
+    },
+    {
+      "event": "sado",
+      "date": "2022-09-04",
+      "category": "sado_championship_men",
+      "segment": "1 swim",
+      "reason": "Long Distance National Championship (elite) on the Type B course; program note 「スイム : 2000m (1周回)バイク : 108km(1周回)ラン :21.1km(3周回)」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://results.jtu.or.jp/api/programs/155_1/additionals"
+    },
+    {
+      "event": "sado",
+      "date": "2022-09-04",
+      "category": "sado_championship_men",
+      "segment": "3 run",
+      "reason": "Long Distance National Championship (elite) on the Type B course; program note 「スイム : 2000m (1周回)バイク : 108km(1周回)ラン :21.1km(3周回)」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://results.jtu.or.jp/api/programs/155_1/additionals"
+    },
+    {
+      "event": "osaka",
+      "date": "2023-05-28",
+      "category": "osaka_asiacup_men",
+      "segment": "3 run",
+      "reason": "World Triathlon Asia Cup elite field (sprint); the published course 「スイム750m(1周）/バイク20km(3.33km×6周)/ラン5km(2.5km×2周)」 was raced. Flagged only against the age-group Editions of this Event.",
+      "source": "https://www.jtu.or.jp/news/2023/05/28/50743/"
+    },
+    {
+      "event": "osaka",
+      "date": "2024-05-26",
+      "category": "osaka_asia_cup_men",
+      "segment": "3 run",
+      "reason": "World Triathlon Asia Cup elite field (sprint); program note 「スイム：750ｍ（1周回）バイク：20km（6周回）ラン：5ｋｍ（2周回）」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://results.jtu.or.jp/api/programs/249_1/additionals"
+    },
+    {
+      "event": "sado",
+      "date": "2023-09-03",
+      "category": "sado_championship_men",
+      "segment": "3 run",
+      "reason": "Long Distance National Championship (elite) on the Type B course, raced as 「スイム2.0km、バイク108.0km、ラン21.1km」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://www.jtu.or.jp/news/2023/09/04/54006/"
+    },
+    {
+      "event": "omihachiman",
+      "date": "2024-09-08",
+      "category": "omihachiman_men",
+      "segment": "1 swim",
+      "reason": "国スポ rehearsal and Japan Championship qualifier (draft-legal, competitive field); program note 「スイム : 1.5km (750m×2周回) バイク : 40km (3.6km+5.2km×7周回)」. Flagged only against the age-group Editions.",
+      "source": "https://results.jtu.or.jp/api/programs/283_1/additionals"
+    },
+    {
+      "event": "sado",
+      "date": "2023-09-03",
+      "category": "sado_championship_women",
+      "segment": "1 swim",
+      "reason": "Long Distance National Championship (elite) on the Type B course, raced as 「スイム2.0km、バイク108.0km、ラン21.1km」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://www.jtu.or.jp/news/2023/09/04/54006/"
+    },
+    {
+      "event": "sado",
+      "date": "2022-09-04",
+      "category": "sado_championship_women",
+      "segment": "1 swim",
+      "reason": "Long Distance National Championship (elite) on the Type B course; program note 「スイム : 2000m (1周回)バイク : 108km(1周回)ラン :21.1km(3周回)」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://results.jtu.or.jp/api/programs/155_1/additionals"
+    },
+    {
+      "event": "asia_hatsukaichi",
+      "date": "2021-09-12",
+      "category": "asia_hatsukaichi_elite_women",
+      "segment": "1 swim",
+      "reason": "Asia Championships elite field; program note 「スイム：1.5ｋｍ（2周回）、バイク：40ｋｍ（8周回）、ラン：10ｋｍ（4周回）」. Flagged only against the 2024 age-group Edition.",
+      "source": "https://results.jtu.or.jp/api/programs/109_1/additionals"
+    },
+    {
+      "event": "kanagawa",
+      "date": "2022-07-03",
+      "category": "kanagawa_championship_men",
+      "segment": "1 swim",
+      "reason": "関東ブロック選手権 (championship) field on the published 「スイム1.5km（0.75km×2周）」 course; flagged only against the age-group Editions.",
+      "source": "https://www.jtu.or.jp/news/2022/07/07/43386/"
+    },
+    {
+      "event": "sado",
+      "date": "2023-09-03",
+      "category": "sado_championship_women",
+      "segment": "3 run",
+      "reason": "Long Distance National Championship (elite) on the Type B course, raced as 「スイム2.0km、バイク108.0km、ラン21.1km」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://www.jtu.or.jp/news/2023/09/04/54006/"
+    },
+    {
+      "event": "sado",
+      "date": "2022-09-04",
+      "category": "sado_championship_women",
+      "segment": "3 run",
+      "reason": "Long Distance National Championship (elite) on the Type B course; program note 「スイム : 2000m (1周回)バイク : 108km(1周回)ラン :21.1km(3周回)」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://results.jtu.or.jp/api/programs/155_1/additionals"
+    },
+    {
+      "event": "osaka",
+      "date": "2023-05-28",
+      "category": "osaka_asiacup_men",
+      "segment": "2 bike",
+      "reason": "World Triathlon Asia Cup elite field (sprint); the published course 「スイム750m(1周）/バイク20km(3.33km×6周)/ラン5km(2.5km×2周)」 was raced. Flagged only against the age-group Editions of this Event.",
+      "source": "https://www.jtu.or.jp/news/2023/05/28/50743/"
+    },
+    {
+      "event": "omihachiman",
+      "date": "2024-09-08",
+      "category": "omihachiman_men",
+      "segment": "2 bike",
+      "reason": "国スポ rehearsal and Japan Championship qualifier (draft-legal, competitive field); program note 「スイム : 1.5km (750m×2周回) バイク : 40km (3.6km+5.2km×7周回)」. Flagged only against the age-group Editions.",
+      "source": "https://results.jtu.or.jp/api/programs/283_1/additionals"
+    },
+    {
+      "event": "sado",
+      "date": "2022-09-04",
+      "category": "sado_championship_men",
+      "segment": "2 bike",
+      "reason": "Long Distance National Championship (elite) on the Type B course; program note 「スイム : 2000m (1周回)バイク : 108km(1周回)ラン :21.1km(3周回)」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://results.jtu.or.jp/api/programs/155_1/additionals"
+    },
+    {
+      "event": "osaka",
+      "date": "2024-05-26",
+      "category": "osaka_asia_cup_men",
+      "segment": "2 bike",
+      "reason": "World Triathlon Asia Cup elite field (sprint); program note 「スイム：750ｍ（1周回）バイク：20km（6周回）ラン：5ｋｍ（2周回）」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://results.jtu.or.jp/api/programs/249_1/additionals"
+    },
+    {
+      "event": "miyazaki_ss",
+      "date": "2021-05-30",
+      "category": "miyazaki_ss_2nd",
+      "segment": "3 run",
+      "reason": "Five elite men (Olympic selection) in a super sprint; program note 「ラン2km （1km×2周）」. 2:56–2:59/km over 2 km is genuine for this field.",
+      "source": "https://results.jtu.or.jp/api/programs/115_1/additionals"
+    },
+    {
+      "event": "miyazaki_ss",
+      "date": "2021-05-30",
+      "category": "miyazaki_ss_1st",
+      "segment": "3 run",
+      "reason": "Five elite men (Olympic selection) in a super sprint; program note 「ラン2km （1km×2周）」. 2:56–2:59/km over 2 km is genuine for this field.",
+      "source": "https://results.jtu.or.jp/api/programs/115_1/additionals"
     }
   ]
 }
