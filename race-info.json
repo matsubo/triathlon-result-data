@@ -16172,11 +16172,11 @@
               "result_tsv": "master/2024/fukuyama/middle_individual.tsv",
               "name": "ミドルディスタンス個人",
               "distance": "MD",
-              "description": "2024年福山トライアスロン ミドルディスタンス個人の部。",
+              "description": "2024年福山かわまちトライアスロン ミドルディスタンス個人の部。スイム1.8km（600m×3周）、バイク80km（10km×8周）、ラン18km（6km×3周）。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 2.25,
+                  "distance": 1.8,
                   "columns": [
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
@@ -16212,7 +16212,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 20,
+                  "distance": 18,
                   "columns": [
                     {
                       "header": "ﾗﾝﾗｯﾌﾟ",
@@ -16388,13 +16388,13 @@
             {
               "id": "fukuyama",
               "result_tsv": "master/2023/fukuyama/default.tsv",
-              "name": "オリンピックディスタンス",
+              "name": "ミドルディスタンス",
               "distance": "MD",
-              "description": "2023年福山鞆の浦トライアスロン大会。広島県福山市で開催。スイム1.5km、バイク40km、ラン10km。",
+              "description": "2023年福山かわまちトライアスロン ミドルディスタンス。広島県福山市芦田川かわまち広場周辺。スイム1.8km（600m×3周）、バイク80km（10km×8周）、ラン18km（6km×3周）。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.5,
+                  "distance": 1.8,
                   "columns": [
                     {
                       "header": "SWIM順位",
@@ -16412,7 +16412,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 40,
+                  "distance": 80,
                   "columns": [
                     {
                       "header": "BIKE順位",
@@ -16430,7 +16430,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 10,
+                  "distance": 18,
                   "columns": [
                     {
                       "header": "RUN順位",
@@ -29532,11 +29532,11 @@
               "result_tsv": "master/2026/teganuma/duathlon.tsv",
               "name": "デュアスロンの部",
               "distance": "DUATHLON",
-              "description": "2026年第19回手賀沼トライアスロン大会デュアスロン部門。ラン5km、バイク20km、ラン5kmの構成で、水泳が苦手な方でも参加できる競技。",
+              "description": "2026年第19回手賀沼トライアスロン大会デュアスロン部門。第1ラン1.5km、バイク40km、第2ラン10km。",
               "segments": [
                 {
                   "sport": "run",
-                  "distance": 5,
+                  "distance": 1.5,
                   "columns": [
                     {
                       "header": "スイムラップ",
@@ -29550,7 +29550,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 20,
+                  "distance": 40,
                   "columns": [
                     {
                       "header": "バイクラップ",
@@ -29572,7 +29572,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 5,
+                  "distance": 10,
                   "columns": [
                     {
                       "header": "ランラップ",
@@ -29852,11 +29852,11 @@
               "result_tsv": "master/2025/teganuma/duathlon.tsv",
               "name": "デュアスロンの部",
               "distance": "DUATHLON",
-              "description": "2025年第18回手賀沼トライアスロン大会デュアスロン部門。ラン5km、バイク20km、ラン5kmの構成で、水泳が苦手な方でも参加できる競技。",
+              "description": "2025年第18回手賀沼トライアスロン大会デュアスロン部門。第1ラン1.5km、バイク40km、第2ラン10km。",
               "segments": [
                 {
                   "sport": "run",
-                  "distance": 5,
+                  "distance": 1.5,
                   "columns": [
                     {
                       "header": "スイムラップ",
@@ -29870,7 +29870,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 20,
+                  "distance": 40,
                   "columns": [
                     {
                       "header": "バイクラップ",
@@ -29892,7 +29892,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 5,
+                  "distance": 10,
                   "columns": [
                     {
                       "header": "ランラップ",
@@ -30161,7 +30161,7 @@
               "id": "teganuma",
               "result_tsv": "master/2023/teganuma/default.tsv",
               "name": "手賀沼トライアスロン",
-              "distance": "SD",
+              "distance": "OD",
               "description": "2023年第16回手賀沼トライアスロン大会。熱中症警戒アラートにより当日距離短縮（スイム0.75km、バイク24km、ラン3.3km）。",
               "segments": [
                 {
@@ -30386,7 +30386,7 @@
               "result_tsv": "master/2019/teganuma/default.tsv",
               "name": "個人の部",
               "distance": "OD",
-              "description": "2019年第14回手賀沼トライアスロン大会。スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンスで開催。",
+              "description": "2019年第14回手賀沼トライアスロン大会（オリンピックディスタンス）。猛暑予報のため当日ランが10km（3.3km×3周）から3.3km（1周）に短縮、スイム1.5km/バイク40kmは通常通り実施。",
               "segments": [
                 {
                   "sport": "swim",
@@ -30426,7 +30426,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 10,
+                  "distance": 3.3,
                   "columns": [
                     {
                       "header": "ランラップ",
