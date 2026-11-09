@@ -90428,7 +90428,7 @@
           ]
         },
         {
-          "date": "2017-07-16",
+          "date": "2017-07-23",
           "weather_file": "master/2017/ako/weather-data.json",
           "categories": [
             {
@@ -90436,7 +90436,7 @@
               "result_tsv": "master/2017/ako/sd.tsv",
               "name": "1部 スプリントディスタンス",
               "distance": "SD",
-              "description": "2017年赤穂トライアスロン スプリントディスタンス（男女総合）。",
+              "description": "2017年第30回記念ジャパンショートトライアスロン赤穂 1部 スプリントディスタンス（男女総合）。公式記録はスイムとバイク（スイム＋バイクの通過タイム）のみで、ラン・総合記録は公表なし。バイクラップは通過タイムからスイムを引いて算出。",
               "segments": [
                 {
                   "sport": "swim",
@@ -90454,6 +90454,10 @@
                   "columns": [
                     {
                       "header": "バイク",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "バイクラップ",
                       "role": "lap"
                     }
                   ]
@@ -90510,7 +90514,7 @@
               "result_tsv": "master/2017/ako/od.tsv",
               "name": "2部 オリンピックディスタンス",
               "distance": "OD",
-              "description": "2017年赤穂トライアスロン オリンピックディスタンス（男女総合）。",
+              "description": "2017年第30回記念ジャパンショートトライアスロン赤穂 2部 オリンピックディスタンス（男女総合）。公式記録はスイムとバイク（スイム＋バイクの通過タイム）のみで、ラン・総合記録は公表なし。バイクラップは通過タイムからスイムを引いて算出。",
               "segments": [
                 {
                   "sport": "swim",
@@ -90528,6 +90532,10 @@
                   "columns": [
                     {
                       "header": "バイク",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "バイクラップ",
                       "role": "lap"
                     }
                   ]
