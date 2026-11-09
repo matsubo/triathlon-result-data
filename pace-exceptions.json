@@ -304,6 +304,22 @@
       "segment": "1 swim",
       "reason": "Full 750 m swim at the old 湊浜 venue, whose swim lap includes the ~400 m run from the beach to transition (「スイムアップ後、トランジションまでは400mと距離がある」), in a small age-group sprint field. Flagged only against the 2024–2026 Editions at the new 菖蒲田浜 venue.",
       "source": "https://www.sportsentry.ne.jp/event/t/91143"
+    },
+    {
+      "event": "numadu",
+      "date": "2026-08-02",
+      "category": "numadu",
+      "segment": "1 swim",
+      "reason": "Full 750 m swim as published after the race (「スイム0.75km（0.375km×2周）」); the leaders swam 10:29–11:27 as in 2025 (10:48). Flagged only against older Editions whose median swims (6:00 in 2021, 10:31 in 2023) are short.",
+      "source": "https://www.jtu.or.jp/news/2026/08/03/85576"
+    },
+    {
+      "event": "numadu",
+      "date": "2023-08-06",
+      "category": "numadu",
+      "segment": "1 swim",
+      "reason": "The race-day result gives the full 「スイム750m（375m×2周）」 with no shortening noted; the leaders' 7:30 swims point to a fast (current-assisted) sea course, not a published change. No race-day source gives another distance.",
+      "source": "https://www.jtu.or.jp/news/2023/08/07/53256/"
     }
   ]
 }

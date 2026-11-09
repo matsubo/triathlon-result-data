@@ -43377,7 +43377,7 @@
               "result_tsv": "master/2024/numadu/default.tsv",
               "name": "個人",
               "distance": "SD",
-              "description": "2024年 沼津千本浜トライアスロン。静岡県沼津市の千本浜公園を舞台に、スイム750m、バイク22.5km、ラン5kmのスプリントディスタンスで開催。美しい海岸線と富士山を望む絶景の中で行われる大会です。",
+              "description": "2024年 沼津千本浜トライアスロン。静岡県沼津市の千本浜公園を舞台に、スイム0.75km（375m×2周）、バイク20km（10km×2周）、ラン5.06km（1.6km×3周+0.2km）のスプリントディスタンスで開催。",
               "segments": [
                 {
                   "sport": "swim",
@@ -43395,7 +43395,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 22.5,
+                  "distance": 20,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -43417,7 +43417,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 5,
+                  "distance": 5.06,
                   "columns": [
                     {
                       "header": "ﾗﾝﾗｯﾌﾟ",
@@ -43481,7 +43481,7 @@
               "result_tsv": "master/2023/numadu/default.tsv",
               "name": "個人",
               "distance": "SD",
-              "description": "2023年沼津千本浜トライアスロン大会。静岡県沼津市で開催。スプリントディスタンス（スイム0.75km、バイク22.5km、ラン5km）。",
+              "description": "2023年沼津千本浜トライアスロン大会。静岡県沼津市で開催。スプリントディスタンス（スイム750m（375m×2周）、バイク22km（7.5km×3周）、ラン6km（2km×3周））。",
               "segments": [
                 {
                   "sport": "swim",
@@ -43499,7 +43499,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 22.5,
+                  "distance": 22,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -43521,7 +43521,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 5,
+                  "distance": 6,
                   "columns": [
                     {
                       "header": "ﾗﾝﾗｯﾌﾟ",
@@ -43697,11 +43697,11 @@
               "result_tsv": "master/2021/numadu/default.tsv",
               "name": "個人",
               "distance": "SD",
-              "description": "2021 沼津千本浜トライアスロン 個人",
+              "description": "2021 沼津千本浜トライアスロン 個人。堤防工事のためバイクは2周回の15km。スイムは当日0.75kmから約0.3kmに短縮。当日のスイム距離は公表なし、タイム中央値からの推定。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 0.75,
+                  "distance": 0.3,
                   "columns": [
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
@@ -43715,7 +43715,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 20,
+                  "distance": 15,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
