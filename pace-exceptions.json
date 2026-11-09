@@ -296,6 +296,14 @@
       "segment": "3 run",
       "reason": "Five elite men (Olympic selection) in a super sprint; program note 「ラン2km （1km×2周）」. 2:56–2:59/km over 2 km is genuine for this field.",
       "source": "https://results.jtu.or.jp/api/programs/115_1/additionals"
+    },
+    {
+      "event": "shichigahama",
+      "date": "2023-07-02",
+      "category": "shichigahama_sprint",
+      "segment": "1 swim",
+      "reason": "Full 750 m swim at the old 湊浜 venue, whose swim lap includes the ~400 m run from the beach to transition (「スイムアップ後、トランジションまでは400mと距離がある」), in a small age-group sprint field. Flagged only against the 2024–2026 Editions at the new 菖蒲田浜 venue.",
+      "source": "https://www.sportsentry.ne.jp/event/t/91143"
     }
   ]
 }

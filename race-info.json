@@ -60170,11 +60170,11 @@
               "result_tsv": "master/2025/shichigahama/standard.tsv",
               "name": "スタンダード",
               "distance": "OD",
-              "description": "2025年第31回みやぎ国際トライアスロン仙台ベイ七ヶ浜大会スタンダード。当日の暑さ等によりスイム・ランの距離が短縮されて実施（スイム1.5km、バイク39.5km、ラン5km）。",
+              "description": "2025年第31回みやぎ国際トライアスロン仙台ベイ七ヶ浜大会スタンダード。当日、波のためスイムが1.5kmから1km（500m×2周）に、暑さ（熱中症指数上昇）のためランが10kmから5kmに短縮、バイク39.5kmは通常通り実施。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.5,
+                  "distance": 1,
                   "columns": [
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
@@ -61070,7 +61070,7 @@
               "result_tsv": "master/2023/shichigahama/age_sprint.tsv",
               "name": "エイジスプリント",
               "distance": "SD",
-              "description": "2023年七ヶ浜トライアスロン大会エイジスプリント。スイム750m、バイク20km、ラン5km。",
+              "description": "2023年七ヶ浜トライアスロン大会エイジスプリント。スイム750m（ビーチスタート、スイムアップ後トランジションまで約400mのミニラン）、バイク26km、ラン5km。",
               "segments": [
                 {
                   "sport": "swim",
@@ -61088,7 +61088,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 20,
+                  "distance": 26,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
