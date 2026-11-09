@@ -32,6 +32,21 @@ added permanent quality gates to this repo:
   `scripts/lib/exceptions.js`.
 - The post-import acceptance check is AGGREGATE stats, never sample rows —
   procedure lives in [validation-pipeline](validation-pipeline.md).
+- Since 2026-11, `check:integrity` also counts implausible Segment paces
+  (rule `implausible_pace`, `scripts/lib/segment-pace.js`): a Segment whose
+  median lap over finishers implies a pace outside the sport's band (swim
+  1:00–4:00/100m, bike 13–45 km/h, run 3:10–9:00/km, calibrated on the
+  medians of all 2996 Categories), or strays more than ×1.4 from the
+  Event's other Editions at the same declared distance. It catches a
+  distance copied from the 募集要項 or the previous Edition when the course
+  was cut on the day (uminomori 2026 OD carried 2025's 0.5 km swim; the
+  median was 35:18, the full 1.5 km). Segment distances must come from
+  race-day evidence; the Import report repeats the check as `warnings`,
+  which an import resolves or explains in its commit message. The ledger
+  was seeded with the 209 Segments in 161 Categories flagged on
+  2026-11-09 (mostly IRONMAN swims cut short but declared at full distance,
+  and laps holding a cumulative time); `bun scripts/report-segment-pace.js`
+  lists them by severity with the implied distance.
 
 Fixed during the audit (details in commits 7b0ea4a..52015c4): IRONMAN
 99999-placeholder + ignored Status column (~586k athletes misclassified

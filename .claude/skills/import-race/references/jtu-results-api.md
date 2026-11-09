@@ -76,13 +76,22 @@ What the JTU adapter and the core do:
   otherwise (and for a new Event).
 - **Segments** come from the captions (swim / bike / run in that order) with the standard
   km for the Distance class (OD 1.5/40/10, SD 0.75/20/5, MD 1.9/90/21.1, LD 3.8/180.2/42.195).
-  Give `segments` whenever the course differs — read the distances from the organiser, never
-  clone the sibling's. A cancelled leg is expressed only by omitting it from `segments`.
-  The program note `curl -s -g "https://results.jtu.or.jp/api/programs/NNN_1/additionals"`
-  published the actual course in the 2026-10-05 run (duathlon elite 4.93 / 31.65 / 5.33 km
-  against nominal 5 / 30 / 5, and a different course for the same-day age-group race), so
-  check it for every program. It returned nothing on 2026-10-27 because the API was timing
-  out, so treat an empty answer as "unknown", not "nominal".
+  Segment distances come from race-day evidence: the course notes on the results, the
+  program note `curl -s -g "https://results.jtu.or.jp/api/programs/NNN_1/additionals"`,
+  the organiser's race-day announcements and race reports. Never from the 募集要項 (entry
+  guidelines) or the previous Edition, and never clone the sibling Category's. Give
+  `segments` whenever the course differs. A cancelled leg is expressed only by omitting it
+  from `segments`. The program note published the actual course in the 2026-10-05 run
+  (duathlon elite 4.93 / 31.65 / 5.33 km against nominal 5 / 30 / 5, and a different
+  course for the same-day age-group race), so check it for every program. It returned
+  nothing on 2026-10-27 because the API was timing out, so treat an empty answer as
+  "unknown", not "nominal". uminomori shows why: 2023 swam 900 m / 450 m (strong wind),
+  2025 swam 500 m, 2026 swam the full 1500 m, and each wrong guess had been copied from
+  the guidelines or the year before.
+- **Pace warnings**: the report flags each Segment whose median lap implies an implausible
+  pace or strays more than ×1.4 from the Event's other Editions at the same declared
+  distance (`scripts/lib/segment-pace.js`). Resolve each one from race-day evidence, or
+  explain it in the commit message; see SKILL.md step 4.
 - **Refused automatically**: a TSV byte-identical to another TSV (the carousel
   contamination signature), a declared Segment whose lap column is empty for every finisher,
   a duplicated single-use role, an existing (event, date) with different programs.

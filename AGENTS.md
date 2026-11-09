@@ -117,6 +117,7 @@ Agents can help navigate and understand this triathlon result data repository wh
 - `scripts/import.js` Import モジュール（`scripts/lib/import.js`）の CLI。取り込みプランから TSV と race-info.json のエディションを書き込む
 - `scripts/lib/category-reader.js` Category reader モジュール。`readCategories(repo, where?)` が race-info.json の全カテゴリと TSV を Column role 単位で読む（`columns(role)` / `rows` / `cells(role)`）。データ欠陥（未登録 TSV、存在しないヘッダー等）は Finding として返す。TSV のセルを役割で書き換える `rewriteCells` も持つ。TSV を読むスクリプト・テストはヘッダー文字列ではなくこのモジュールを使う
 - `scripts/lib/edition-document.js` Edition document モジュール。`editionDocument(repo, eventId, dateOrYear)` が1エディションの正規化 JSON を組み立てて result-schema.json で検証する
+- `scripts/lib/segment-pace.js` Segment pace モジュール。カテゴリの各種目について完走者のラップ中央値からペースを求め、妥当な範囲外のペースや同じ大会の他エディションからのずれ（＝申告距離が当日のコースと違う疑い）を検出する。Import のペース警告と `check:integrity` の `implausible_pace` が使う。全件のレポートは `bun scripts/report-segment-pace.js`
 - `scripts/lib/` 正規化モジュール群（時間、性別、居住地、年齢区分、ステータス等）
 
 ### GitHub Workflows (.github/workflows/)
@@ -130,7 +131,8 @@ It sets up Bun, runs `bun install`, then:
    image references, normalizer unit tests) followed by `tsc --noEmit`
 2. `bun run check:integrity` — normalizes every Edition (validating each
    against `result-schema.json`) and compares header-warning, unknown status
-   token and missing-value counts against `integrity-baseline.json`; a schema
+   token, missing-value and implausible Segment pace counts against
+   `integrity-baseline.json`; a schema
    failure or a corpus finding of the Category reader (repeated Edition,
    shared or unregistered TSV) fails it outright
 3. `bun run check:duplicates` — flags pairs of Editions in the same year whose
@@ -173,6 +175,7 @@ Running these three commands locally reproduces CI exactly.
 - **新規大会**: `events[]` に追加する（画像は先に `images/` へ置く）。
 - **フィルタすべきカテゴリ:** キッズ、ジュニア、リレー、パラ、小学、中学、アクアスロン、デュアスロン、ビギナー、チャレンジ等（メインのエイジグループカテゴリのみ取り込む）。1つの表の中に部門列がないかも確認する。
 - コースが標準と違う場合は `segments` で距離を指定する。中止された種目（スイム中止など）は `segments` から省くことでのみ表す。
+- **種目距離は当日の実績から決める**: リザルトのコース注記、JTU の `/api/programs/<pid>/additionals`、当日のアナウンス、大会レポートを根拠にする。募集要項や前回エディションの距離はコピーしない（スイムの短縮・中止や暑さによるランの短縮は当日に決まることが多い）。
 
 ### 2. 実行する
 
@@ -183,6 +186,8 @@ bun scripts/import.js /tmp/import-plan.json             # TSV → race-info.json
 
 結果は JSON のレポートで出力される。終了コード 0 = 全エディション取り込み済み、2 = 一部スキップ（`reason` を確認）、1 = プラン不正（何も書き込まない）。
 カテゴリID・`result_tsv` パス・`segments` / `meta_columns`・`source_ref`・`weather_file`、エディションの日付順の配置、スキーマ検証はモジュールが行う。PRO のみの速報、TSV の完全一致（混入）、既存エディションとの Source reference 不一致などは自動で拒否される。
+
+取り込みごとに種目ラップの中央値を確認する。中央値から求めたペースが妥当な範囲外の種目や、同じ大会の他エディションの同じ距離と 1.4 倍以上ずれる種目は、レポートの `warnings` にペース警告として出る（`scripts/lib/segment-pace.js`）。ペース警告は当日のコースを調べて `segments` を直すか、距離が正しい理由をコミットメッセージに書いて解消する。理由を書いて残す警告は `bun run update:integrity-baseline` で ledger に記録する。記録していない警告は `check:integrity` の `implausible_pace` で失敗する。
 
 ### 3. 既存エディションの再取得
 

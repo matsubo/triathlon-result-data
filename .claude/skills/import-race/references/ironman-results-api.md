@@ -61,9 +61,17 @@ What the IRONMAN adapter and the core decide for you:
 - **Description**: defaults to `<Event name> <year>. <location>.`; override with
   `ironman.description`.
 - **Segment distances**: give `ironman.segments` when the course differs from the
-  template. A cancelled swim is expressed only by omitting swim from `segments`; the
-  Import refuses it if any row carries a Swim split, and refuses a declared Segment whose
-  lap column is empty for every finisher.
+  template. They come from race-day evidence (the athlete-tracker / results course notes,
+  the race's social-media announcements on the day, race reports), never from the athlete
+  guide or the previous Edition. A cancelled swim is expressed only by omitting swim from
+  `segments`; the Import refuses it if any row carries a Swim split, and refuses a
+  declared Segment whose lap column is empty for every finisher.
+- **Pace warnings**: a shortened swim still posts a Swim split, so the Import cannot refuse
+  it; the report instead warns about each Segment whose median lap implies an implausible
+  pace or strays more than ×1.4 from the Event's other Editions at the same distance
+  (a cut 1.9 km swim shows a median of 12–17 min, 0:40–0:55/100m). Find the distance
+  actually swum and give it in `ironman.segments`, or explain the warning in the commit
+  message; see SKILL.md step 4.
 - **Refused automatically**: PRO-only results (PRO rows ≈ all rows), a TSV byte-identical
   to another TSV, an existing (event, date) with different Source references. A drop of
   more than half the Athletes against the previous Edition is a warning in the report.

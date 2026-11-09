@@ -47,6 +47,8 @@ results, or JMA weather not yet published. Skip it, record it as deferred in
 - [ ] `race-info.json` validates against `race-info-schema.json`
 - [ ] Each new event has an `image` field pointing to an existing, **unique** `.webp`
 - [ ] TSV columns align with the edition's `segments` / `meta_columns` mapping
+- [ ] Segment distances come from race-day evidence, and every pace warning of the Import
+      report is resolved or explained in the commit message
 - [ ] The aggregate audit is clean — `test:tsv-lint`, `check:integrity`, `check:duplicates`
 - [ ] `bun run build:schema` and `bun run test` succeed
 
@@ -133,11 +135,27 @@ this workflow needs is in the repository.
      hand (PDF, CSV): `prepared[]` with its `meta_columns` / `segments` mapping. New
      events go in `events[]`. Give `segments` whenever the course differs from the
      standard one; a cancelled leg is expressed only by omitting it from `segments`.
+   - **Segment distances come from race-day evidence**, never from the 募集要項 (entry
+     guidelines) or the previous Edition: courses are often cut on the day (a swim
+     shortened or cancelled for wind or water temperature, a run shortened for heat). Read
+     the course notes on the results, the JTU program note
+     `https://results.jtu.or.jp/api/programs/<pid>/additionals`, the organiser's race-day
+     announcements and race reports. With no race-day evidence, use the standard distance
+     and let the pace check below confirm it.
    - Run `bun scripts/import.js /tmp/import-plan.json --dry-run` and read the JSON
      report: every edition `imported` (or `already-imported`), and no `warnings` you
      can't explain. A `skipped` edition carries its `reason` (PRO-only results, a
      non-empty column of an omitted Segment, an unknown JTU caption, contamination…):
      fix the plan, or leave the edition out and record it as deferred.
+   - **Check the median lap times.** The report warns about each Segment whose median
+     lap implies an implausible pace or strays more than ×1.4 from the Event's other
+     Editions at the same declared distance, e.g. `uminomori_short: swim median 21:39
+     for 1.5 km (1:27/100m; 37% faster than the 34:16 median of 3 other Editions …;
+     about 0.95 km at this Event's usual pace): check the race-day course`. Find the
+     course actually raced and fix `segments`, or explain in the commit message why the
+     declared distance stands (a fast current, a long beach run inside the swim lap). A
+     flagged Segment also fails `check:integrity` (rule `implausible_pace`) until it is
+     fixed, or, when explained, recorded with `bun run update:integrity-baseline`.
    - Run it again without `--dry-run`. Exit 0 = all imported, 2 = some skipped (the
      others are written), 1 = plan invalid (nothing written).
    - The module writes canonical 年齢区分 labels (M25-29) itself. Fix any 氏名 it
@@ -154,7 +172,7 @@ this workflow needs is in the repository.
    bun run build:schema
    bun run test              # NOT bare `bun test` — the package script also runs tsc --noEmit
    bun run check:duplicates  # run immediately after every edition-add batch
-   bun run check:integrity   # a clean import adds zero missing laps / totals
+   bun run check:integrity   # a clean import adds zero missing laps / totals / implausible paces
    ```
    Never accept an import on the strength of a few eyeballed rows — the audit is
    aggregate statistics, and a nonzero metric must either be fixed or explained in the
@@ -174,8 +192,10 @@ this workflow needs is in the repository.
    - Stage only the paths this run created or changed: `git add <paths>`, never
      `git add -A`.
    - Commit the data as `feat: import <races> <date> (<N>)`, following `git log`. The body
-     carries the per-edition athlete counts and any baselined integrity gaps. Commit the
-     `discovery.md` section separately as `docs(import-race): record the <date> sweep`.
+     carries the per-edition athlete counts, the race-day source of every non-standard
+     Segment distance, how each pace warning was resolved, and any baselined integrity
+     gaps. Commit the `discovery.md` section separately as
+     `docs(import-race): record the <date> sweep`.
    - Run `git push origin HEAD:main`. If it is rejected, run `git fetch origin` and
      `git rebase origin/main`. Drop any edition that upstream already imported, re-run
      `bun run test`, `check:duplicates` and `check:integrity`, then push again. Never
