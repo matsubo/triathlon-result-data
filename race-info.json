@@ -153319,11 +153319,11 @@
               "result_tsv": "master/2026/im703_gulf_coast_2026/default.tsv",
               "name": "70.3",
               "distance": "MD",
-              "description": "2026 IRONMAN 70.3 Gulf Coast",
+              "description": "2026 IRONMAN 70.3 Gulf Coast. Swim shortened due to ocean swell (announced as 1,000 m, cut again on the morning to about 600 m); bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 0.6,
                   "columns": [
                     {
                       "header": "Swim",
@@ -159857,11 +159857,11 @@
               "result_tsv": "master/2024/im703_switzerland_2024/default.tsv",
               "name": "Half Distance",
               "distance": "MD",
-              "description": "IRONMAN 70.3 Switzerland",
+              "description": "IRONMAN 70.3 Switzerland. Swim shortened to 750 m due to cold water (13.7 °C); bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 0.75,
                   "columns": [
                     {
                       "header": "Swim",
@@ -168752,11 +168752,11 @@
               "result_tsv": "master/2024/im703_coeur_dalene_2024/default.tsv",
               "name": "Half Distance",
               "distance": "MD",
-              "description": "IRONMAN 70.3 Coeur d'Alene",
+              "description": "IRONMAN 70.3 Coeur d'Alene. Swim shortened to 500 m due to strong wind; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 0.5,
                   "columns": [
                     {
                       "header": "Swim",
@@ -172688,11 +172688,11 @@
               "result_tsv": "master/2024/im703_jonkoping_2024/default.tsv",
               "name": "Half Distance",
               "distance": "MD",
-              "description": "IRONMAN 70.3 Jönköping",
+              "description": "IRONMAN 70.3 Jönköping. Swim shortened to 600 m due to waves on Lake Munksjön; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 0.6,
                   "columns": [
                     {
                       "header": "Swim",
@@ -172952,11 +172952,11 @@
               "result_tsv": "master/2021/im703_jonkoping_2021/default.tsv",
               "name": "Half Distance",
               "distance": "MD",
-              "description": "IRONMAN 70.3 Jonkoping",
+              "description": "IRONMAN 70.3 Jonkoping. Swim shortened to 750 m due to cold water (14 °C); bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 0.75,
                   "columns": [
                     {
                       "header": "Swim",
@@ -214669,11 +214669,11 @@
               "result_tsv": "master/2018/im703_busselton_2018/default.tsv",
               "name": "70.3",
               "distance": "MD",
-              "description": "2018 IRONMAN 70.3 Busselton",
+              "description": "2018 IRONMAN 70.3 Busselton. Swim cancelled due to bad weather and replaced by a 3 km run (run-bike-run); bike and run held as planned.",
               "segments": [
                 {
-                  "sport": "swim",
-                  "distance": 1.9,
+                  "sport": "run",
+                  "distance": 3,
                   "columns": [
                     {
                       "header": "Swim",
@@ -215598,11 +215598,11 @@
               "result_tsv": "master/2024/im703_vietnam_2024/default.tsv",
               "name": "70.3",
               "distance": "MD",
-              "description": "2024 IRONMAN 70.3 Vietnam",
+              "description": "2024 IRONMAN 70.3 Vietnam. Swim shortened to 600 m due to large swells; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 0.6,
                   "columns": [
                     {
                       "header": "Swim",
@@ -236849,18 +236849,18 @@
       "source": "https://www.coachcox.co.uk/imstats/series/158/",
       "editions": [
         {
-          "date": "2018-01-01",
+          "date": "2018-10-21",
           "categories": [
             {
               "id": "im703_new_orleans_2018",
               "result_tsv": "master/2018/im703_new_orleans_2018/default.tsv",
               "name": "70.3",
               "distance": "MD",
-              "description": "2018 IRONMAN 70.3 New Orleans",
+              "description": "2018 IRONMAN 70.3 New Orleans. Swim shortened to about 600 m inside the harbor due to strong wind; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 0.6,
                   "columns": [
                     {
                       "header": "Swim",
@@ -237347,18 +237347,18 @@
           ]
         },
         {
-          "date": "2012-01-01",
+          "date": "2012-04-22",
           "categories": [
             {
               "id": "im703_new_orleans_2012",
               "result_tsv": "master/2012/im703_new_orleans_2012/default.tsv",
               "name": "70.3",
               "distance": "MD",
-              "description": "2012 IRONMAN 70.3 New Orleans",
+              "description": "2012 IRONMAN 70.3 New Orleans. Swim cancelled due to high winds and replaced by a 2-mile (3.2 km) run; bike shortened to 52 miles (83.7 km); run held as planned.",
               "segments": [
                 {
-                  "sport": "swim",
-                  "distance": 1.9,
+                  "sport": "run",
+                  "distance": 3.2,
                   "columns": [
                     {
                       "header": "Swim",
@@ -237368,7 +237368,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 90.1,
+                  "distance": 83.7,
                   "columns": [
                     {
                       "header": "Bike",
@@ -243014,11 +243014,11 @@
               "result_tsv": "master/2017/im703_taupo_2017/default.tsv",
               "name": "70.3",
               "distance": "MD",
-              "description": "2017 IRONMAN 70.3 Taupo",
+              "description": "2017 IRONMAN 70.3 Taupo. Swim cancelled because of a potentially toxic algal bloom in Lake Taupō and replaced by a 3 km run (run-bike-run); bike and run held as planned.",
               "segments": [
                 {
-                  "sport": "swim",
-                  "distance": 1.9,
+                  "sport": "run",
+                  "distance": 3,
                   "columns": [
                     {
                       "header": "Swim",
