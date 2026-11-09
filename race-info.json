@@ -72354,7 +72354,7 @@
           ]
         },
         {
-          "date": "2014-11-02",
+          "date": "2014-07-13",
           "weather_file": "master/2014/nagasaki_saikai/weather-data.json",
           "categories": [
             {
@@ -72362,7 +72362,7 @@
               "result_tsv": "master/2014/nagasaki_saikai/od.tsv",
               "name": "一般",
               "distance": "OD",
-              "description": "2014年長崎西海トライアスロン祭 オリンピックディスタンス（男女総合：エリート＋一般＋学生）。スイム1.5km、バイク40km、ラン10km。",
+              "description": "2014年長崎西海トライアスロン祭 オリンピックディスタンス（男女総合：エリート＋一般＋学生）。スイム1.5km、バイク40km、ランは10kmではなく5kmで実施（九州沖縄学生選手権併催、学生連盟の記録による。短縮の理由は未確認）。",
               "segments": [
                 {
                   "sport": "swim",
@@ -72402,7 +72402,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 10,
+                  "distance": 5,
                   "columns": [
                     {
                       "header": "ﾗﾝﾗｯﾌﾟ",
