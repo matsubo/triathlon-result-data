@@ -187123,11 +187123,11 @@
               "result_tsv": "master/2019/im703_weymouth_2019/default.tsv",
               "name": "Half Distance",
               "distance": "MD",
-              "description": "IRONMAN 70.3 Weymouth",
+              "description": "IRONMAN 70.3 Weymouth. Swim shortened to 950 m due to wet and windy conditions; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 0.95,
                   "columns": [
                     {
                       "header": "Swim",
@@ -187211,11 +187211,11 @@
               "result_tsv": "master/2018/im703_weymouth_2018/default.tsv",
               "name": "Half Distance",
               "distance": "MD",
-              "description": "IRONMAN 70.3 Weymouth",
+              "description": "IRONMAN 70.3 Weymouth. Swim cut in half to 950 m due to rough conditions; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 0.95,
                   "columns": [
                     {
                       "header": "Swim",
@@ -231347,11 +231347,11 @@
               "result_tsv": "master/2019/im703_dun_laoghaire_2019/default.tsv",
               "name": "70.3",
               "distance": "MD",
-              "description": "2019 IRONMAN 70.3 Dun Laoghaire",
+              "description": "2019 IRONMAN 70.3 Dun Laoghaire. Swim shortened to 950 m after thick fog rolled in during the rolling start (the first starters swam the full 1.9 km); bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 0.95,
                   "columns": [
                     {
                       "header": "Swim",
@@ -232383,18 +232383,18 @@
           ]
         },
         {
-          "date": "2014-01-01",
+          "date": "2014-09-14",
           "categories": [
             {
               "id": "im703_ruegen_2014",
               "result_tsv": "master/2014/im703_ruegen_2014/default.tsv",
               "name": "70.3",
               "distance": "MD",
-              "description": "2014 IRONMAN 70.3 Ruegen",
+              "description": "2014 IRONMAN 70.3 Ruegen. Swim cancelled due to high waves on the Baltic Sea and replaced by a 5 km run (run-bike-run); bike and run held as planned.",
               "segments": [
                 {
-                  "sport": "swim",
-                  "distance": 1.9,
+                  "sport": "run",
+                  "distance": 5,
                   "columns": [
                     {
                       "header": "Swim",
@@ -244033,18 +244033,18 @@
           ]
         },
         {
-          "date": "2017-01-01",
+          "date": "2017-06-18",
           "categories": [
             {
               "id": "im703_italy_emilia_romagna_2017",
               "result_tsv": "master/2017/im703_italy_emilia_romagna_2017/default.tsv",
               "name": "70.3",
               "distance": "MD",
-              "description": "2017 IRONMAN 70.3 Italy Emilia-Romagna",
+              "description": "2017 IRONMAN 70.3 Italy Emilia-Romagna. Held in Pescara as IRONMAN 70.3 Italy. Swim shortened to 1,200 m due to weather; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 1.2,
                   "columns": [
                     {
                       "header": "Swim",
@@ -244282,18 +244282,18 @@
           ]
         },
         {
-          "date": "2014-01-01",
+          "date": "2014-06-01",
           "categories": [
             {
               "id": "im703_italy_emilia_romagna_2014",
               "result_tsv": "master/2014/im703_italy_emilia_romagna_2014/default.tsv",
               "name": "70.3",
               "distance": "MD",
-              "description": "2014 IRONMAN 70.3 Italy Emilia-Romagna",
+              "description": "2014 IRONMAN 70.3 Italy Emilia-Romagna. Held in Pescara as IRONMAN 70.3 Italy. Swim shortened to 1 km due to sea conditions; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 1,
                   "columns": [
                     {
                       "header": "Swim",
@@ -257977,18 +257977,18 @@
       "source": "https://www.coachcox.co.uk/imstats/series/229/",
       "editions": [
         {
-          "date": "2015-01-01",
+          "date": "2015-09-13",
           "categories": [
             {
               "id": "im703_aarhus_2015",
               "result_tsv": "master/2015/im703_aarhus_2015/default.tsv",
               "name": "70.3",
               "distance": "MD",
-              "description": "2015 IRONMAN 70.3 Aarhus",
+              "description": "2015 IRONMAN 70.3 Aarhus. Swim shortened to 1,000 m; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 1,
                   "columns": [
                     {
                       "header": "Swim",
@@ -258060,7 +258060,7 @@
           ]
         },
         {
-          "date": "2014-01-01",
+          "date": "2014-06-22",
           "categories": [
             {
               "id": "im703_aarhus_2014",
@@ -261814,7 +261814,7 @@
       "source": "https://www.coachcox.co.uk/imstats/series/251/",
       "editions": [
         {
-          "date": "2018-01-01",
+          "date": "2018-07-01",
           "categories": [
             {
               "id": "im703_edinburgh_2018",
@@ -261897,18 +261897,18 @@
           ]
         },
         {
-          "date": "2017-01-01",
+          "date": "2017-07-02",
           "categories": [
             {
               "id": "im703_edinburgh_2017",
               "result_tsv": "master/2017/im703_edinburgh_2017/default.tsv",
               "name": "70.3",
               "distance": "MD",
-              "description": "2017 IRONMAN 70.3 Edinburgh",
+              "description": "2017 IRONMAN 70.3 Edinburgh. Swim shortened to 950 m due to strong current and waves; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 0.95,
                   "columns": [
                     {
                       "header": "Swim",
