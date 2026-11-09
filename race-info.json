@@ -69986,19 +69986,19 @@
       "source": "https://www.jtu.or.jp/",
       "editions": [
         {
-          "date": "2021-08-22",
+          "date": "2021-06-13",
           "weather_file": "master/2021/kanto_block/weather-data.json",
           "categories": [
             {
               "id": "kanto_block_men",
               "result_tsv": "master/2021/kanto_block/men.tsv",
               "name": "男子",
-              "distance": "OD",
-              "description": "2021年関東ブロックトライアスロン男子。スイム1.5km、バイク40km、ラン10km。",
+              "distance": "SD",
+              "description": "2021年関東ブロックトライアスロン選手権 男子（横須賀市 夏島）。当日のコースはスイム750m、バイク20km、ラン5km（JTUリザルトのコース注記）。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.5,
+                  "distance": 0.75,
                   "columns": [
                     {
                       "header": "Swim",
@@ -70008,7 +70008,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 40,
+                  "distance": 20,
                   "columns": [
                     {
                       "header": "Bike",
@@ -70018,7 +70018,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 10,
+                  "distance": 5,
                   "columns": [
                     {
                       "header": "Run",
@@ -70063,12 +70063,12 @@
               "id": "kanto_block_women",
               "result_tsv": "master/2021/kanto_block/women.tsv",
               "name": "女子",
-              "distance": "OD",
-              "description": "2021年関東ブロックトライアスロン女子。スイム1.5km、バイク40km、ラン10km。",
+              "distance": "SD",
+              "description": "2021年関東ブロックトライアスロン選手権 女子（横須賀市 夏島）。当日のコースはスイム750m、バイク20km、ラン5km（JTUリザルトのコース注記）。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.5,
+                  "distance": 0.75,
                   "columns": [
                     {
                       "header": "Swim",
@@ -70078,7 +70078,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 40,
+                  "distance": 20,
                   "columns": [
                     {
                       "header": "Bike",
@@ -70088,7 +70088,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 10,
+                  "distance": 5,
                   "columns": [
                     {
                       "header": "Run",
@@ -70145,19 +70145,19 @@
       "source": "https://www.jtu.or.jp/",
       "editions": [
         {
-          "date": "2021-08-29",
+          "date": "2021-06-06",
           "weather_file": "master/2021/tokai_block/weather-data.json",
           "categories": [
             {
               "id": "tokai_block_men",
               "result_tsv": "master/2021/tokai_block/men.tsv",
               "name": "男子",
-              "distance": "OD",
-              "description": "2021年東海ブロックトライアスロン男子。スイム1.5km、バイク40km、ラン10km。",
+              "distance": "SD",
+              "description": "2021年日本トライアスロン選手権東海ブロック代表選考会 男子（海津市 木曽三川公園）。当日のコースはスイム750m、バイク20km、ラン5km（JTUリザルトのコース注記）。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.5,
+                  "distance": 0.75,
                   "columns": [
                     {
                       "header": "Swim",
@@ -70167,7 +70167,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 40,
+                  "distance": 20,
                   "columns": [
                     {
                       "header": "Bike",
@@ -70177,7 +70177,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 10,
+                  "distance": 5,
                   "columns": [
                     {
                       "header": "Run",
@@ -70222,12 +70222,12 @@
               "id": "tokai_block_women",
               "result_tsv": "master/2021/tokai_block/women.tsv",
               "name": "女子",
-              "distance": "OD",
-              "description": "2021年東海ブロックトライアスロン女子。スイム1.5km、バイク40km、ラン10km。",
+              "distance": "SD",
+              "description": "2021年日本トライアスロン選手権東海ブロック代表選考会 女子（海津市 木曽三川公園）。当日のコースはスイム750m、バイク20km、ラン5km（JTUリザルトのコース注記）。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.5,
+                  "distance": 0.75,
                   "columns": [
                     {
                       "header": "Swim",
@@ -70237,7 +70237,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 40,
+                  "distance": 20,
                   "columns": [
                     {
                       "header": "Bike",
@@ -70247,7 +70247,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 10,
+                  "distance": 5,
                   "columns": [
                     {
                       "header": "Run",
