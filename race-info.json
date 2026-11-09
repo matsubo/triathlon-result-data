@@ -12678,11 +12678,11 @@
               "result_tsv": "master/2024/sainokuni/a.tsv",
               "name": "Aタイプ（ミドルディスタンス）",
               "distance": "MD",
-              "description": "2024年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム2.25km、バイク72km、ラン15kmのコースに挑戦。地域の魅力を感じながらのレースです。",
+              "description": "2024年彩の国トライアスロンin加須大会 Aタイプ。悪天候（雷雨）予報のため当日スイムが2.25kmから1.5km（750m×2周）、バイクが72km（7.2km×10周）から57.6km（7.2km×8周）に短縮、ラン15kmは通常通り実施。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 2.25,
+                  "distance": 1.5,
                   "columns": [
                     {
                       "header": "スイムラップ",
@@ -12696,7 +12696,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 72,
+                  "distance": 57.6,
                   "columns": [
                     {
                       "header": "バイクラップ",
@@ -12784,11 +12784,11 @@
               "result_tsv": "master/2024/sainokuni/b.tsv",
               "name": "Bタイプ（オリンピックディスタンス）",
               "distance": "OD",
-              "description": "2024年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム1.5km、バイク43km、ラン10kmのコースに挑戦。地域の魅力を感じながらのレースです。",
+              "description": "2024年彩の国トライアスロンin加須大会 Bタイプ。悪天候予報のため当日スイムが1.5kmから短縮（約1km）、バイク43km/ラン10kmは通常通り実施。当日の距離は公表なし、タイム中央値からの推定。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.5,
+                  "distance": 1,
                   "columns": [
                     {
                       "header": "スイムラップ",
@@ -12890,11 +12890,11 @@
               "result_tsv": "master/2024/sainokuni/c.tsv",
               "name": "Cタイプ（スプリントディスタンス）",
               "distance": "SD",
-              "description": "2024年彩の国トライアスロンin加須大会。渡良瀬遊水地の広大な湿地帯や、農耕地帯を舞台に、スイム750m、バイク21.6km、ラン5kmのコースに挑戦。地域の自然や文化の魅力を感じながらのレースです。",
+              "description": "2024年彩の国トライアスロンin加須大会 Cタイプ。悪天候予報のため当日スイムが750mから短縮（約500m）、バイク21.6km/ラン5kmは通常通り実施。当日の距離は公表なし、タイム中央値からの推定。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 0.75,
+                  "distance": 0.5,
                   "columns": [
                     {
                       "header": "スイムラップ",
@@ -14290,15 +14290,121 @@
           ]
         },
         {
-          "date": "2019-08-04",
+          "date": "2019-06-02",
           "weather_file": "master/2019/sainokuni/weather-data.json",
           "categories": [
             {
               "id": "sainokuni_a",
               "result_tsv": "master/2019/sainokuni/a.tsv",
               "name": "Aタイプ",
+              "distance": "MD",
+              "description": "2019年彩の国トライアスロンin加須大会 Aタイプ。スイム2.25km、バイク64.8km、ラン15km（参加者のレース報告）。",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 2.25,
+                  "columns": [
+                    {
+                      "header": "スイムラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "S順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 64.8,
+                  "columns": [
+                    {
+                      "header": "バイクラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "B順",
+                      "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 15,
+                  "columns": [
+                    {
+                      "header": "ランラップ",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "R順",
+                      "role": "rank"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "総合順位",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "No.",
+                  "role": "bib"
+                },
+                {
+                  "header": "氏名",
+                  "role": "name"
+                },
+                {
+                  "header": "年齢",
+                  "role": "age"
+                },
+                {
+                  "header": "性別",
+                  "role": "gender"
+                },
+                {
+                  "header": "居住地",
+                  "role": "residence"
+                },
+                {
+                  "header": "総合記録",
+                  "role": "total_time"
+                },
+                {
+                  "header": "男子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "女子順位",
+                  "role": "gender_rank"
+                },
+                {
+                  "header": "年代区分",
+                  "role": "age_category"
+                },
+                {
+                  "header": "年代順位",
+                  "role": "age_rank"
+                }
+              ],
+              "source_url": null
+            },
+            {
+              "id": "sainokuni_b",
+              "result_tsv": "master/2019/sainokuni/b.tsv",
+              "name": "Bタイプ",
               "distance": "OD",
-              "description": "2019年 Aタイプ",
+              "description": "2019年彩の国トライアスロンin加須大会 Bタイプ。スイム1.5km、バイク40km、ラン10km。",
               "segments": [
                 {
                   "sport": "swim",
@@ -14400,11 +14506,11 @@
               "source_url": null
             },
             {
-              "id": "sainokuni_b",
-              "result_tsv": "master/2019/sainokuni/b.tsv",
-              "name": "Bタイプ",
+              "id": "sainokuni_c",
+              "result_tsv": "master/2019/sainokuni/c.tsv",
+              "name": "Cタイプ",
               "distance": "SD",
-              "description": "2019年 Bタイプ",
+              "description": "2019年彩の国トライアスロンin加須大会 Cタイプ。スイム0.75km、バイク20km、ラン5km。",
               "segments": [
                 {
                   "sport": "swim",
@@ -14445,112 +14551,6 @@
                 {
                   "sport": "run",
                   "distance": 5,
-                  "columns": [
-                    {
-                      "header": "ランラップ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "R順",
-                      "role": "rank"
-                    }
-                  ]
-                }
-              ],
-              "meta_columns": [
-                {
-                  "header": "総合順位",
-                  "role": "overall_rank"
-                },
-                {
-                  "header": "No.",
-                  "role": "bib"
-                },
-                {
-                  "header": "氏名",
-                  "role": "name"
-                },
-                {
-                  "header": "年齢",
-                  "role": "age"
-                },
-                {
-                  "header": "性別",
-                  "role": "gender"
-                },
-                {
-                  "header": "居住地",
-                  "role": "residence"
-                },
-                {
-                  "header": "総合記録",
-                  "role": "total_time"
-                },
-                {
-                  "header": "男子順位",
-                  "role": "gender_rank"
-                },
-                {
-                  "header": "女子順位",
-                  "role": "gender_rank"
-                },
-                {
-                  "header": "年代区分",
-                  "role": "age_category"
-                },
-                {
-                  "header": "年代順位",
-                  "role": "age_rank"
-                }
-              ],
-              "source_url": null
-            },
-            {
-              "id": "sainokuni_c",
-              "result_tsv": "master/2019/sainokuni/c.tsv",
-              "name": "Cタイプ",
-              "distance": "SS",
-              "description": "2019年 Cタイプ",
-              "segments": [
-                {
-                  "sport": "swim",
-                  "distance": 0.3,
-                  "columns": [
-                    {
-                      "header": "スイムラップ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "S順",
-                      "role": "rank"
-                    }
-                  ]
-                },
-                {
-                  "sport": "bike",
-                  "distance": 10,
-                  "columns": [
-                    {
-                      "header": "バイクラップ",
-                      "role": "lap"
-                    },
-                    {
-                      "header": "B順",
-                      "role": "rank"
-                    },
-                    {
-                      "header": "スプリット",
-                      "role": "cumulative_time"
-                    },
-                    {
-                      "header": "通過",
-                      "role": "cumulative_rank"
-                    }
-                  ]
-                },
-                {
-                  "sport": "run",
-                  "distance": 2.5,
                   "columns": [
                     {
                       "header": "ランラップ",
