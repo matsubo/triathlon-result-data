@@ -45343,7 +45343,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 74.7,
+                  "distance": 70,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -45457,7 +45457,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 44.4,
+                  "distance": 42,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -45571,7 +45571,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 14.1,
+                  "distance": 14,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -46009,7 +46009,7 @@
               "result_tsv": "master/2024/irago/a.tsv",
               "name": "Aタイプ（ミドル）",
               "distance": "MD",
-              "description": "2024年トライアスロン伊良湖大会。愛知県田原市の伊良湖岬周辺を舞台に、スイム2.25km、バイク74.7km、ラン18kmのミドルディスタンスで開催。美しい海と自然を望む絶景の中で行われる大会です。",
+              "description": "2024年トライアスロン伊良湖大会。愛知県田原市の伊良湖岬周辺を舞台に、スイム2.25km、バイク70km、ラン18kmのミドルディスタンスで開催。美しい海と自然を望む絶景の中で行われる大会です。",
               "segments": [
                 {
                   "sport": "swim",
@@ -46027,7 +46027,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 74.7,
+                  "distance": 70,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -46123,7 +46123,7 @@
               "result_tsv": "master/2024/irago/b.tsv",
               "name": "Bタイプ（スタンダード）",
               "distance": "OD",
-              "description": "2024年トライアスロン伊良湖大会。愛知県田原市の伊良湖岬周辺を舞台に、スイム1.5km、バイク44.4km、ラン10kmのスタンダードディスタンスで開催。美しい海と自然を望む絶景の中で行われる大会です。",
+              "description": "2024年トライアスロン伊良湖大会。愛知県田原市の伊良湖岬周辺を舞台に、スイム1.5km、バイク42km、ラン10kmのスタンダードディスタンスで開催。美しい海と自然を望む絶景の中で行われる大会です。",
               "segments": [
                 {
                   "sport": "swim",
@@ -46141,7 +46141,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 44.4,
+                  "distance": 42,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -46243,11 +46243,11 @@
               "result_tsv": "master/2023/irago/a.tsv",
               "name": "Aタイプ（ミドル）",
               "distance": "MD",
-              "description": "2023年伊良湖トライアスロン大会Aタイプ。愛知県田原市伊良湖岬で開催。スイム2km、バイク60km、ラン20kmのミドルディスタンス。",
+              "description": "2023年伊良湖トライアスロン大会Aタイプ。愛知県田原市伊良湖岬で開催。スイム2.25km、バイク70km、ラン18kmのミドルディスタンス。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 2,
+                  "distance": 2.25,
                   "columns": [
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
@@ -46261,7 +46261,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 60,
+                  "distance": 70,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -46283,7 +46283,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 20,
+                  "distance": 18,
                   "columns": [
                     {
                       "header": "ﾗﾝﾗｯﾌﾟ",
@@ -46357,7 +46357,7 @@
               "result_tsv": "master/2023/irago/b.tsv",
               "name": "Bタイプ（スタンダード）",
               "distance": "OD",
-              "description": "2023年伊良湖トライアスロン大会Bタイプ。スイム1.5km、バイク40km、ラン10kmのスタンダードディスタンス。",
+              "description": "2023年伊良湖トライアスロン大会Bタイプ。スイム1.5km、バイク42km、ラン10kmのスタンダードディスタンス。",
               "segments": [
                 {
                   "sport": "swim",
@@ -46375,7 +46375,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 40,
+                  "distance": 42,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -46480,7 +46480,7 @@
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 2,
+                  "distance": 2.25,
                   "columns": [
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
@@ -46494,7 +46494,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 60,
+                  "distance": 70,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -46516,7 +46516,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 20,
+                  "distance": 18,
                   "columns": [
                     {
                       "header": "ﾗﾝﾗｯﾌﾟ",
@@ -46529,7 +46529,7 @@
                   ]
                 }
               ],
-              "description": "2022年伊良湖トライアスロン大会Aタイプ。スイム2km、バイク60km、ラン20kmのミドルディスタンス。",
+              "description": "2022年伊良湖トライアスロン大会Aタイプ。スイム2.25km、バイク70km、ラン18kmのミドルディスタンス。",
               "meta_columns": [
                 {
                   "header": "総合順位",
@@ -46608,7 +46608,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 40,
+                  "distance": 42,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -46643,7 +46643,7 @@
                   ]
                 }
               ],
-              "description": "2022年伊良湖トライアスロン大会Bタイプ。スイム1.5km、バイク40km、ラン10kmのオリンピックディスタンス。",
+              "description": "2022年伊良湖トライアスロン大会Bタイプ。スイム1.5km、バイク42km、ラン10kmのオリンピックディスタンス。",
               "meta_columns": [
                 {
                   "header": "総合順位",
@@ -46703,7 +46703,7 @@
           ]
         },
         {
-          "date": "2019-10-06",
+          "date": "2019-09-08",
           "weather_file": "master/2019/irago/weather-data.json",
           "categories": [
             {
@@ -46714,7 +46714,7 @@
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 2,
+                  "distance": 2.25,
                   "columns": [
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
@@ -46728,7 +46728,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 59,
+                  "distance": 70,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -46813,7 +46813,7 @@
                   "role": "penalty"
                 }
               ],
-              "description": "2019年トライアスロン伊良湖大会 Aタイプ（ミドル）",
+              "description": "2019年トライアスロン伊良湖大会 Aタイプ（ミドル）。スイム2.25km、バイク70km、ラン20km。",
               "source_url": null
             },
             {
@@ -46824,7 +46824,7 @@
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1,
+                  "distance": 1.5,
                   "columns": [
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
@@ -46838,7 +46838,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 35,
+                  "distance": 42,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -46923,13 +46923,13 @@
                   "role": "penalty"
                 }
               ],
-              "description": "2019年トライアスロン伊良湖大会 Bタイプ（オリンピック）",
+              "description": "2019年トライアスロン伊良湖大会 Bタイプ（オリンピック）。スイム1.5km、バイク42km、ラン10km。",
               "source_url": null
             }
           ]
         },
         {
-          "date": "2018-10-07",
+          "date": "2018-09-09",
           "weather_file": "master/2018/irago/weather-data.json",
           "categories": [
             {
@@ -46940,7 +46940,7 @@
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 2,
+                  "distance": 2.25,
                   "columns": [
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
@@ -46954,7 +46954,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 59,
+                  "distance": 70,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -47035,7 +47035,7 @@
                   "role": "penalty"
                 }
               ],
-              "description": "2018年トライアスロン伊良湖大会 Aタイプ（ミドル）",
+              "description": "2018年トライアスロン伊良湖大会 Aタイプ（ミドル）。スイム2.25km、バイク70km、ラン20km。",
               "source_url": null
             },
             {
@@ -47046,7 +47046,7 @@
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1,
+                  "distance": 1.5,
                   "columns": [
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
@@ -47060,7 +47060,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 35,
+                  "distance": 42,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -47141,13 +47141,13 @@
                   "role": "penalty"
                 }
               ],
-              "description": "2018年トライアスロン伊良湖大会 Bタイプ（オリンピック）",
+              "description": "2018年トライアスロン伊良湖大会 Bタイプ（オリンピック）。スイム1.5km、バイク42km、ラン10km。",
               "source_url": null
             }
           ]
         },
         {
-          "date": "2017-10-01",
+          "date": "2017-09-10",
           "weather_file": "master/2017/irago/weather-data.json",
           "categories": [
             {
@@ -47158,7 +47158,7 @@
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 2,
+                  "distance": 2.25,
                   "columns": [
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
@@ -47172,7 +47172,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 59,
+                  "distance": 70,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -47253,7 +47253,7 @@
                   "role": "penalty"
                 }
               ],
-              "description": "2017年トライアスロン伊良湖大会 Aタイプ（ミドル）",
+              "description": "2017年トライアスロン伊良湖大会 Aタイプ（ミドル）。スイム2.25km、バイク70km、ラン20km。",
               "source_url": null
             },
             {
@@ -47264,7 +47264,7 @@
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1,
+                  "distance": 1.5,
                   "columns": [
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
@@ -47278,7 +47278,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 35,
+                  "distance": 42,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -47359,13 +47359,13 @@
                   "role": "penalty"
                 }
               ],
-              "description": "2017年トライアスロン伊良湖大会 Bタイプ（オリンピック）",
+              "description": "2017年トライアスロン伊良湖大会 Bタイプ（オリンピック）。スイム1.5km、バイク42km、ラン10km。",
               "source_url": null
             }
           ]
         },
         {
-          "date": "2016-10-02",
+          "date": "2016-09-11",
           "weather_file": "master/2016/irago/weather-data.json",
           "categories": [
             {
@@ -47376,7 +47376,7 @@
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 2,
+                  "distance": 2.25,
                   "columns": [
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
@@ -47390,7 +47390,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 59,
+                  "distance": 70,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -47463,7 +47463,7 @@
                   "role": "penalty"
                 }
               ],
-              "description": "2016年トライアスロン伊良湖大会 Aタイプ（ミドル）",
+              "description": "2016年トライアスロン伊良湖大会 Aタイプ（ミドル）。スイム2.25km、バイク70km、ラン20km。",
               "source_url": null
             },
             {
@@ -47474,7 +47474,7 @@
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1,
+                  "distance": 1.5,
                   "columns": [
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
@@ -47488,7 +47488,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 35,
+                  "distance": 42,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -47569,13 +47569,13 @@
                   "role": "penalty"
                 }
               ],
-              "description": "2016年トライアスロン伊良湖大会 Bタイプ（オリンピック）",
+              "description": "2016年トライアスロン伊良湖大会 Bタイプ（オリンピック）。スイム1.5km、バイク42km、ラン10km。",
               "source_url": null
             }
           ]
         },
         {
-          "date": "2015-10-04",
+          "date": "2015-09-06",
           "weather_file": "master/2015/irago/weather-data.json",
           "categories": [
             {
@@ -47586,7 +47586,7 @@
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 2,
+                  "distance": 1.5,
                   "columns": [
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
@@ -47600,7 +47600,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 59,
+                  "distance": 70,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -47622,7 +47622,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 20,
+                  "distance": 19,
                   "columns": [
                     {
                       "header": "ﾗﾝﾗｯﾌﾟ",
@@ -47685,7 +47685,7 @@
                   "role": "age_rank"
                 }
               ],
-              "description": "2015年トライアスロン伊良湖大会 Aタイプ（ミドル）",
+              "description": "2015年トライアスロン伊良湖大会 Aタイプ（ミドル）。スタート直前の強い雨のためスタートを30分遅らせ、当日スイムを3周2.25kmから2周1.5kmに短縮（バイク70km、ラン19km）。ラン競技中の豪雨により14時05分に競技途中中止となり、ラン途中の選手は参考記録。",
               "source_url": null
             },
             {
@@ -47696,7 +47696,7 @@
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1,
+                  "distance": 1.5,
                   "columns": [
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
@@ -47710,7 +47710,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 35,
+                  "distance": 42,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -47795,13 +47795,13 @@
                   "role": "age_rank"
                 }
               ],
-              "description": "2015年トライアスロン伊良湖大会 Bタイプ（オリンピック）",
+              "description": "2015年トライアスロン伊良湖大会 Bタイプ（オリンピック）。スイム1.5km、バイク42km、ラン10km。ラン競技中の豪雨により14時05分に競技途中中止となり、ラン途中の選手は参考記録。",
               "source_url": null
             }
           ]
         },
         {
-          "date": "2014-10-05",
+          "date": "2014-09-07",
           "weather_file": "master/2014/irago/weather-data.json",
           "categories": [
             {
@@ -47911,7 +47911,7 @@
                   "role": "age_rank"
                 }
               ],
-              "description": "2014年トライアスロン伊良湖大会 Aタイプ（ミドル）",
+              "description": "2014年トライアスロン伊良湖大会 Aタイプ（ミドル）。スイム2km、バイク59km、ラン20km。",
               "source_url": null
             },
             {
@@ -47936,7 +47936,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 35,
+                  "distance": 35.4,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -48021,7 +48021,7 @@
                   "role": "age_rank"
                 }
               ],
-              "description": "2014年トライアスロン伊良湖大会 Bタイプ（オリンピック）",
+              "description": "2014年トライアスロン伊良湖大会 Bタイプ（オリンピック）。スイム1km、バイク35.4km、ラン10km。",
               "source_url": null
             }
           ]
