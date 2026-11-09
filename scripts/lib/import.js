@@ -12,7 +12,10 @@
  * source_ref, weather_file), name cleanup, canonical Age category labels,
  * Edition placement, the safety checks and the race-info serialisation. A
  * failing Edition is skipped with its reason and the others are still
- * written: TSVs first, race-info.json once at the end.
+ * written: TSVs first, race-info.json once at the end. Each added or
+ * refetched Edition gets the Segment pace check (scripts/lib/segment-pace.js)
+ * as warnings: a flagged Segment distance is for the operator to verify
+ * against the race-day course, so it never skips the Edition.
  */
 import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
@@ -21,6 +24,7 @@ import Ajv from "ajv";
 import { relabelAgeCategory } from "./normalize-age-category.js";
 import { parseTime } from "./normalize-time.js";
 import { memoryRepo } from "./repo.js";
+import { paceWarnings } from "./segment-pace.js";
 
 /**
  * @typedef {object} SourceColumn
@@ -56,7 +60,7 @@ import { memoryRepo } from "./repo.js";
  * @property {"add" | "refetch"} mode
  * @property {"imported" | "already-imported" | "refetched" | "unchanged" | "skipped"} status
  * @property {string} [reason] why the Edition was skipped
- * @property {string[]} warnings
+ * @property {string[]} warnings things to verify before committing (Athlete count drops, implausible Segment paces)
  * @property {CategoryReport[]} categories
  *
  * @typedef {object} ImportReport
@@ -967,6 +971,22 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
         e.reason = `final race-info validation failed: ${why}`;
       }
     pending.clear();
+  }
+
+  // ---- Pace check of what this run adds or refetches (warnings only). ----
+  const changed = report.editions.filter(
+    (e) => e.status === "imported" || e.status === "refetched",
+  );
+  if (changed.length > 0) {
+    const after = memoryRepo(
+      {
+        ...Object.fromEntries(pending),
+        "race-info.json": JSON.stringify(raceInfo),
+      },
+      target,
+    );
+    for (const e of changed)
+      e.warnings.push(...paceWarnings(after, e.event, e.date));
   }
 
   // ---- Writes: TSVs first, race-info.json once at the end. ----

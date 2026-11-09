@@ -466,6 +466,33 @@ describe("runImport: failure handling", () => {
       "Athlete count dropped from 10 (previous Edition 2025-06-01) to 4, more than 50%",
     ]);
   });
+
+  test("a Segment median far from the other Editions at the same distance is a pace warning", async () => {
+    // The plan copied the previous Edition's 1.9 km, but the swim raced was shorter.
+    const field = (swim: string) =>
+      im703(Array.from({ length: 6 }, (_, i) => ({ rank: String(i + 1), name: `A ${i}`, total: `5:0${i}:00`, swim })));
+    const repo = seed(
+      [
+        event("im703_x", [
+          { date: "2025-06-01", categories: [im703Category("im703_x", "2025", "x")] },
+          { date: "2024-06-02", categories: [im703Category("im703_x", "2024", "y")] },
+        ]),
+      ],
+      {
+        "master/2025/im703_x_2025/default.tsv": tsvOf(field("0:35:00")),
+        "master/2024/im703_x_2024/default.tsv": tsvOf(field("0:36:00")),
+      },
+    );
+    const report = await runImport(
+      { editions: [{ event: "im703_x", date: "2026-06-07", ironman: "short" }] },
+      { sources: { ironman: fixtureSource({ short: field("0:22:00") }) }, repo },
+    );
+    expect(report.exit_code).toBe(0);
+    expect(report.editions[0].status).toBe("imported");
+    expect(report.editions[0].warnings).toEqual([
+      "im703_x_2026: swim median 22:00 for 1.9 km (1:09/100m; 38% faster than the 35:30 median of 2 other Editions of this Event at 1.9 km; about 1.18 km at this Event's usual pace): check the race-day course",
+    ]);
+  });
 });
 
 describe("runImport: Edition placement", () => {
