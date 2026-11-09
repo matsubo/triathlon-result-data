@@ -31379,11 +31379,11 @@
               "result_tsv": "master/2024/basho/default.tsv",
               "name": "デュアスロン",
               "distance": "DUATHLON",
-              "description": "2024年馬瀬川大会 デュアスロン。ラン-バイク-ランの3種目。",
+              "description": "2024年第34回秋田トライアスロン芭蕉レース象潟大会。波浪のため当日スイムが中止され、ミニラン2.8km（スイム代替）＋ミニラン1km（バイクスタンドまで）、バイク40km、ラン10kmで実施。",
               "segments": [
                 {
                   "sport": "run",
-                  "distance": 5,
+                  "distance": 2.8,
                   "columns": [
                     {
                       "header": "1stRUNﾗｯﾌﾟ",
@@ -31419,7 +31419,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 20,
+                  "distance": 10,
                   "columns": [
                     {
                       "header": "2ndRUNﾗｯﾌﾟ",
