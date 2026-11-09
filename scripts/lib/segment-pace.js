@@ -33,15 +33,23 @@
  *
  * The implied distance is the median lap at the Event's normal pace for the
  * sport (the median pace of its other Editions, or the band's typical pace).
+ *
+ * A flagged pace that the race-day evidence shows to be genuine (a swim with
+ * a strong current, a PRO-only Category) is an Exception in
+ * pace-exceptions.json: one entry per Segment, matched by Event, Edition
+ * date, Category id and `segmentLabel`. An exempted Segment is never
+ * flagged; an entry that exempts nothing is stale (`staleExceptions`).
  */
 import { buildAthlete } from "./build-athlete.js";
 import { readCategories } from "./category-reader.js";
+import { loadExceptions } from "./exceptions.js";
 import { parseTime } from "./normalize-time.js";
 
 /**
  * @typedef {import("./category-reader.js").Category} Category
  * @typedef {import("./category-reader.js").Column} Column
  * @typedef {import("./repo.js").Repo} Repo
+ * @typedef {import("./exceptions.js").PaceException} PaceException
  *
  * @typedef {"lap" | "checkpoints" | "cumulative" | "total"} LapSource
  *
@@ -70,7 +78,8 @@ import { parseTime } from "./normalize-time.js";
  * @property {number | null} ratio median / reference
  * @property {boolean} offEditions ratio beyond MAX_EDITION_RATIO
  * @property {number} impliedKm median lap at the Event's normal pace
- * @property {number} severity 0 when not flagged; larger is worse
+ * @property {PaceException | null} exception the Exception that exempts this Segment
+ * @property {number} severity 0 when not flagged or exempted; larger is worse
  */
 
 /** Finishers needed for a median. */
@@ -245,13 +254,30 @@ export function segmentMedians(category) {
 }
 
 /**
+ * A Segment's label in pace Exceptions and reports: its 1-based position in
+ * the Category's Segments and its sport, e.g. "1 swim", "3 run".
+ * @param {{ index: number, sport: string }} segment
+ */
+export function segmentLabel(segment) {
+  return `${segment.index + 1} ${segment.sport}`;
+}
+
+/** @param {{ event: string, date: string, category: string, segment: string }} at */
+const exceptionKey = (at) =>
+  `${at.event}|${at.date}|${at.category}|${at.segment}`;
+
+/**
  * Check every measured Segment of the given Categories. Each Category is
  * compared with the other Editions of its Event among `categories`, so pass
- * the whole Event (or the corpus).
+ * the whole Event (or the corpus). A Segment matched by one of `exceptions`
+ * gets that entry as `exception` and severity 0.
  * @param {Category[]} categories
+ * @param {PaceException[]} [exceptions]
  * @returns {PaceCheck[]}
  */
-export function checkPace(categories) {
+export function checkPace(categories, exceptions = []) {
+  /** @type {Map<string, PaceException>} */
+  const exempt = new Map(exceptions.map((e) => [exceptionKey(e), e]));
   /** @type {Map<string, Category[]>} */
   const byEvent = new Map();
   for (const c of categories) {
@@ -311,6 +337,15 @@ export function checkPace(categories) {
         .map((m) => m.pace);
       const normalPace =
         normal.length > 0 ? median(normal) : (band?.typical ?? pace);
+      const exception =
+        exempt.get(
+          exceptionKey({
+            event: category.eventId,
+            date: category.date,
+            category: category.def.id,
+            segment: segmentLabel(segment),
+          }),
+        ) ?? null;
       checks.push({
         category,
         segment,
@@ -322,13 +357,38 @@ export function checkPace(categories) {
         ratio,
         offEditions,
         impliedKm: PACE_UNITS[segment.sport].km(segment.median, normalPace),
-        severity:
-          bandExcess +
-          (offEditions ? Math.abs(Math.log(/** @type {number} */ (ratio))) : 0),
+        exception,
+        severity: exception
+          ? 0
+          : bandExcess +
+            (offEditions
+              ? Math.abs(Math.log(/** @type {number} */ (ratio)))
+              : 0),
       });
     }
   }
   return checks;
+}
+
+/**
+ * Pace Exceptions that exempt nothing, one line each: the entry matches no
+ * measured Segment of `checks`, or the Segment it names is no longer flagged.
+ * Pass the checks of the whole corpus, made with the same `exceptions`.
+ * @param {PaceCheck[]} checks
+ * @param {PaceException[]} exceptions
+ * @returns {string[]}
+ */
+export function staleExceptions(checks, exceptions) {
+  return exceptions.flatMap((entry) => {
+    const at = `${entry.event} ${entry.date} ${entry.category} "${entry.segment}"`;
+    const check = checks.find((c) => c.exception === entry);
+    if (!check) return [`${at}: matches no measured Segment`];
+    if (!check.outsideBand && !check.offEditions)
+      return [
+        `${at}: the Segment's pace is no longer flagged; remove the entry`,
+      ];
+    return [];
+  });
 }
 
 /**
@@ -371,15 +431,22 @@ const kmText = (km) =>
 
 /**
  * Import warnings for one Edition: one line per flagged Segment, compared
- * with the Event's other Editions in `repo`.
+ * with the Event's other Editions in `repo`. Segments exempted by
+ * `exceptions` (by default pace-exceptions.json) give no warning.
  * @param {Repo} repo
  * @param {string} eventId
  * @param {string} date
+ * @param {PaceException[]} [exceptions]
  * @returns {string[]}
  */
-export function paceWarnings(repo, eventId, date) {
+export function paceWarnings(
+  repo,
+  eventId,
+  date,
+  exceptions = loadExceptions("segment_pace"),
+) {
   const { categories } = readCategories(repo, { eventId });
-  return checkPace(categories)
+  return checkPace(categories, exceptions)
     .filter((c) => c.category.date === date && c.severity > 0)
     .map(describePace);
 }

@@ -188,7 +188,7 @@ bun scripts/import.js /tmp/import-plan.json             # TSV → race-info.json
 結果は JSON のレポートで出力される。終了コード 0 = 全エディション取り込み済み、2 = 一部スキップ（`reason` を確認）、1 = プラン不正（何も書き込まない）。
 カテゴリID・`result_tsv` パス・`segments` / `meta_columns`・`source_ref`・`weather_file`、エディションの日付順の配置、スキーマ検証はモジュールが行う。PRO のみの速報、TSV の完全一致（混入）、既存エディションとの Source reference 不一致などは自動で拒否される。
 
-取り込みごとに種目ラップの中央値を確認する。中央値から求めたペースが妥当な範囲外の種目や、同じ大会の他エディションの同じ距離と 1.4 倍以上ずれる種目は、レポートの `warnings` にペース警告として出る（`scripts/lib/segment-pace.js`）。ペース警告は当日のコースを調べて `segments` を直すか、距離が正しい理由をコミットメッセージに書いて解消する。理由を書いて残す警告は `bun run update:integrity-baseline` で ledger に記録する。記録していない警告は `check:integrity` の `implausible_pace` で失敗する。
+取り込みごとに種目ラップの中央値を確認する。中央値から求めたペースが妥当な範囲外の種目や、同じ大会の他エディションの同じ距離と 1.4 倍以上ずれる種目は、レポートの `warnings` にペース警告として出る（`scripts/lib/segment-pace.js`）。ペース警告は当日のコースを調べて `segments` を直す。当日の根拠からペースが本物だと分かった警告（強い潮流のスイム、PRO だけのカテゴリ等）は `pace-exceptions.json` に根拠の URL とともに Exception として追加する。どちらでもない警告は `check:integrity` の `implausible_pace` で失敗する。
 
 ### 3. 既存エディションの再取得
 
@@ -236,8 +236,9 @@ ledger を現在の件数に縮め、同じコミットに含める。
 
 正しいデータだがルールに合わない値（Exception）は欠陥ではないので件数を持たず、
 ledger にも含めない: `name-space-allowlist.json`、`age-category-allowlist.json`、
-`duplicate-allowlist.json`。形式はどれも `{ "description", "entries": [...] }` で、
-`scripts/lib/exceptions.js` が読む。
+`duplicate-allowlist.json`、`pace-exceptions.json`。形式はどれも `{ "description", "entries": [...] }` で、
+`scripts/lib/exceptions.js` が読む。当日の根拠からペース警告（`implausible_pace`）が本物だと分かった種目は、ledger に残さず
+`pace-exceptions.json` に 1 種目 1 エントリ（`event`・`date`・`category`・`segment`・`reason`・`source`）で追加する。
 
 ## distance の種別
 

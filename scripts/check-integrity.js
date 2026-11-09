@@ -13,12 +13,15 @@
  *   - implausible_pace: Segments whose median lap implies a pace outside the
  *     sport's plausible band, or strays from the Event's other Editions at
  *     the same declared distance (scripts/lib/segment-pace.js): the declared
- *     distance is probably not the course raced that day
+ *     distance is probably not the course raced that day. Segments whose
+ *     pace is genuine are Exceptions in pace-exceptions.json and are not
+ *     counted.
  *
- * Two kinds of problem fail the check outright and are never Known issues:
- * an Edition failing result-schema.json, and a corpus finding of the
+ * Three kinds of problem fail the check outright and are never Known
+ * issues: an Edition failing result-schema.json, a corpus finding of the
  * Category reader (a repeated Edition, a TSV shared by Categories, a TSV no
- * Category registers).
+ * Category registers), and a stale pace Exception (it matches no measured
+ * Segment, or the Segment it names is no longer flagged).
  *
  * Known issues (source-inherent gaps such as historical PDFs without splits)
  * live in the Known-issue ledger integrity-baseline.json. The check fails on
@@ -35,9 +38,14 @@
 import { join } from "node:path";
 import { readCategories } from "./lib/category-reader.js";
 import { editionDocument, SchemaInvalid } from "./lib/edition-document.js";
+import { loadExceptions } from "./lib/exceptions.js";
 import { openLedger } from "./lib/known-issue-ledger.js";
 import { fsRepo } from "./lib/repo.js";
-import { checkPace, describePace } from "./lib/segment-pace.js";
+import {
+  checkPace,
+  describePace,
+  staleExceptions,
+} from "./lib/segment-pace.js";
 
 const repoRoot = join(import.meta.dirname, "..");
 const ledgerPath = join(repoRoot, "integrity-baseline.json");
@@ -61,7 +69,11 @@ const failures = corpus.findings.map((f) => `${f.kind}: ${f.message}`);
 /** Flagged Segment paces per Category key (event/date/category). */
 /** @type {Map<string, string[]>} */
 const paceFlags = new Map();
-for (const check of checkPace(corpus.categories)) {
+const paceExceptions = loadExceptions("segment_pace");
+const paceChecks = checkPace(corpus.categories, paceExceptions);
+for (const stale of staleExceptions(paceChecks, paceExceptions))
+  failures.push(`stale pace Exception in pace-exceptions.json: ${stale}`);
+for (const check of paceChecks) {
   if (check.severity === 0) continue;
   const list = paceFlags.get(check.category.key) ?? [];
   list.push(describePace(check));

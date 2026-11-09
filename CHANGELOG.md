@@ -23,6 +23,7 @@ All notable changes to this repository are documented here. Versions follow the 
 - tsv-lint checks name, time and rank cells by Column role, covering every name column (2,151 `Name` headers were unchecked before) and 348 time columns it used to miss. It also fails on unregistered TSVs, a duplicate (Event, date) pair, shared TSVs and duplicate mapped headers.
 - `check:integrity` validates every Edition document against `result-schema.json`.
 - One Known-issue ledger module serves tsv-lint and `check:integrity`. It fails on regressions, improvements and stale entries until `bun run update:tsv-lint-known-issues` / `update:integrity-baseline` is run (ADR-0002). Exceptions load through one loader.
+- Segment paces that are flagged but genuine (a swim with a strong current, a PRO-only Category) are Exceptions in `pace-exceptions.json`, one entry per Segment with a `reason` and a `source` URL. `check:integrity`, the Import pace warnings and `report-segment-pace.js` skip them, and `check:integrity` fails on an entry that matches nothing or whose Segment is no longer flagged. Seeded with 12 IRONMAN 70.3 Segments (Xiamen 2016–2019, Maine 2019/2023, Durban 2016, Boise 2025 and the 2026 PRO race).
 - CI is one workflow (`.github/workflows/ci.yml`): `bun run test`, `check:integrity`, `check:duplicates`. ajv-cli is dropped.
 
 ## 5.1.0 — 2026-05-20

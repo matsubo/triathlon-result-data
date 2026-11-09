@@ -13,6 +13,7 @@
  */
 import { join } from "node:path";
 import { readCategories } from "./lib/category-reader.js";
+import { loadExceptions } from "./lib/exceptions.js";
 import { fsRepo } from "./lib/repo.js";
 import {
   checkPace,
@@ -20,6 +21,7 @@ import {
   MAX_EDITION_RATIO,
   PACE_BANDS,
   PACE_UNITS,
+  segmentLabel,
   segmentMedians,
 } from "./lib/segment-pace.js";
 
@@ -32,7 +34,7 @@ const top = args.includes("--all")
     : 40;
 
 const { categories } = readCategories(fsRepo(join(import.meta.dirname, "..")));
-const checks = checkPace(categories);
+const checks = checkPace(categories, loadExceptions("segment_pace"));
 const flagged = checks
   .filter((c) => c.severity > 0)
   .sort((a, b) => b.severity - a.severity);
@@ -67,6 +69,9 @@ out.push(
     `(outside the band: ${flagged.filter((c) => c.outsideBand).length}, ` +
     `off the other Editions by more than ×${MAX_EDITION_RATIO}: ${flagged.filter((c) => c.offEditions).length}, ` +
     `both: ${flagged.filter((c) => c.outsideBand && c.offEditions).length})`,
+);
+out.push(
+  `- Exempted as genuine (pace-exceptions.json): ${checks.filter((c) => c.exception).length}`,
 );
 out.push("", "## Bands", "");
 out.push(
@@ -108,7 +113,7 @@ flagged.slice(0, top).forEach((c, i) => {
     .filter(Boolean)
     .join("+");
   out.push(
-    `| ${i + 1} | ${c.category.eventId} | ${c.category.date} | ${c.category.def.id} | ${c.segment.index + 1} ${c.segment.sport} | ${c.segment.km} | ${clock(c.segment.median)} | ${units.format(c.pace)} | ${c.ratio === null ? "–" : `${c.ratio.toFixed(2)} (${c.peers})`} | ${c.impliedKm.toFixed(2)} | ${flags} | ${c.severity.toFixed(2)} |`,
+    `| ${i + 1} | ${c.category.eventId} | ${c.category.date} | ${c.category.def.id} | ${segmentLabel(c.segment)} | ${c.segment.km} | ${clock(c.segment.median)} | ${units.format(c.pace)} | ${c.ratio === null ? "–" : `${c.ratio.toFixed(2)} (${c.peers})`} | ${c.impliedKm.toFixed(2)} | ${flags} | ${c.severity.toFixed(2)} |`,
   );
 });
 console.log(out.join("\n"));

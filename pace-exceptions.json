@@ -1,0 +1,101 @@
+{
+  "description": "Exceptions to the Segment pace check (scripts/lib/segment-pace.js, check:integrity rule implausible_pace, Import pace warnings): Segments whose median lap is flagged but is what was raced, e.g. a full-distance swim with or against a strong current, or a PRO-only Category compared with age-group Editions. One entry exempts exactly one Segment: { \"event\": Event id, \"date\": Edition date YYYY-MM-DD, \"category\": Category id, \"segment\": \"<position> <sport>\" as in the Segment column of bun scripts/report-segment-pace.js (e.g. \"1 swim\", \"3 run\"), \"reason\": why the pace is genuine, \"source\": URL of the race-day evidence }. Add an entry only when race-day evidence shows the declared distance was raced; a wrong distance is fixed in race-info.json instead. check:integrity fails on an entry that matches no measured Segment or whose Segment is no longer flagged.",
+  "entries": [
+    {
+      "event": "im703_xiamen",
+      "date": "2016-11-13",
+      "category": "im703_xiamen_2016",
+      "segment": "1 swim",
+      "reason": "Full 1.9 km swim in a strong current that made the buoys hard to find; the PRO winner swam 26:09. Slower than 2017/2018, when the course ran with the current.",
+      "source": "https://www.wildto.com/news/41406.html"
+    },
+    {
+      "event": "im703_xiamen",
+      "date": "2017-11-12",
+      "category": "im703_xiamen_2017",
+      "segment": "1 swim",
+      "reason": "Full 1.9 km swim with the current (the with-current layout also used in 2018); the PRO men led out of the water in 19:41.",
+      "source": "https://slowtwitch.com/news/mullan-betten-win-ironman-70-3-xiamen/"
+    },
+    {
+      "event": "im703_xiamen",
+      "date": "2018-11-18",
+      "category": "im703_xiamen_2018",
+      "segment": "1 swim",
+      "reason": "Full 1.9 km swim, 550 m out to the turn buoy and then about 1,300 m along with the current.",
+      "source": "https://www.sonicsports.org.hk/clubnews/2018/11/20/ironman-703-xiamen-2018"
+    },
+    {
+      "event": "im703_xiamen",
+      "date": "2019-11-10",
+      "category": "im703_xiamen_2019",
+      "segment": "1 swim",
+      "reason": "Full 1.9 km swim in choppy water; the course was changed from swimming with the current to swimming against it.",
+      "source": "https://tri2.org/2020/08/11/xiamen-ironman-70-3-2019/"
+    },
+    {
+      "event": "im703_maine",
+      "date": "2019-08-25",
+      "category": "im703_maine_2019",
+      "segment": "1 swim",
+      "reason": "Full 1.9 km cold, rough ocean swim at Old Orchard Beach (80-100 athletes pulled from the water); compared with the faster river swims in Augusta from 2022.",
+      "source": "https://www.givinitatri.com/post/maine-70-3-race-report-8-25-2019"
+    },
+    {
+      "event": "im703_maine",
+      "date": "2023-07-30",
+      "category": "im703_maine_2023",
+      "segment": "1 swim",
+      "reason": "Full 1.9 km downstream swim in the Kennebec River, sped up by a rainstorm the night before.",
+      "source": "https://www.runwithcoachd.com/blog/race-recap-ironman-maine-703"
+    },
+    {
+      "event": "im703_durban",
+      "date": "2016-06-19",
+      "category": "im703_durban_2016",
+      "segment": "1 swim",
+      "reason": "The age-group swim was cancelled for high surf; the only swim splits are the 14 PROs, who swam the full 1.9 km through the shore break.",
+      "source": "https://slowtwitch.com/news/trautman-watkinson-win-durban/"
+    },
+    {
+      "event": "im703_boise",
+      "date": "2025-07-26",
+      "category": "im703_boise_2025",
+      "segment": "2 bike",
+      "reason": "Full age-group race on the 90 km course; flagged only because its one peer at 90 km is the PRO-only 2026 Category.",
+      "source": "https://www.giventotri.com/2025/07/30/race-report-2025-ironman-70-3-boise/"
+    },
+    {
+      "event": "im703_boise",
+      "date": "2025-07-26",
+      "category": "im703_boise_2025",
+      "segment": "3 run",
+      "reason": "Full age-group half marathon; flagged only because its one peer is the PRO-only 2026 Category.",
+      "source": "https://www.giventotri.com/2025/07/30/race-report-2025-ironman-70-3-boise/"
+    },
+    {
+      "event": "im703_boise",
+      "date": "2026-07-25",
+      "category": "im703_boise_2026_pro",
+      "segment": "1 swim",
+      "reason": "PRO-only Category: the PROs swam a modified two-lap course in rough chop after the age-group swim was cancelled; compared with age-group Editions.",
+      "source": "https://www.triathlete.com/culture/news/sam-long-kirsten-kasper-win-ironman-70-3-boise-2026/"
+    },
+    {
+      "event": "im703_boise",
+      "date": "2026-07-25",
+      "category": "im703_boise_2026_pro",
+      "segment": "2 bike",
+      "reason": "PRO-only Category on the full 90 km bike (Sam Long 1:52:37); compared with the age-group 2025 Edition.",
+      "source": "https://www.triathlete.com/culture/news/sam-long-kirsten-kasper-win-ironman-70-3-boise-2026/"
+    },
+    {
+      "event": "im703_boise",
+      "date": "2026-07-25",
+      "category": "im703_boise_2026_pro",
+      "segment": "3 run",
+      "reason": "PRO-only Category on the full half marathon (Sam Long 1:10:45); compared with the age-group 2025 Edition.",
+      "source": "https://www.triathlete.com/culture/news/sam-long-kirsten-kasper-win-ironman-70-3-boise-2026/"
+    }
+  ]
+}

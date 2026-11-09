@@ -70,8 +70,8 @@ What the IRONMAN adapter and the core decide for you:
   it; the report instead warns about each Segment whose median lap implies an implausible
   pace or strays more than ×1.4 from the Event's other Editions at the same distance
   (a cut 1.9 km swim shows a median of 12–17 min, 0:40–0:55/100m). Find the distance
-  actually swum and give it in `ironman.segments`, or explain the warning in the commit
-  message; see SKILL.md step 4.
+  actually swum and give it in `ironman.segments`; if the race-day evidence shows the pace
+  is genuine, add the Segment to `pace-exceptions.json`; see SKILL.md step 4.
 - **Refused automatically**: PRO-only results (PRO rows ≈ all rows), a TSV byte-identical
   to another TSV, an existing (event, date) with different Source references. A drop of
   more than half the Athletes against the previous Edition is a warning in the report.

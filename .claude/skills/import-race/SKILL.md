@@ -48,7 +48,7 @@ results, or JMA weather not yet published. Skip it, record it as deferred in
 - [ ] Each new event has an `image` field pointing to an existing, **unique** `.webp`
 - [ ] TSV columns align with the edition's `segments` / `meta_columns` mapping
 - [ ] Segment distances come from race-day evidence, and every pace warning of the Import
-      report is resolved or explained in the commit message
+      report is resolved: `segments` fixed, or a genuine pace added to `pace-exceptions.json`
 - [ ] The aggregate audit is clean — `test:tsv-lint`, `check:integrity`, `check:duplicates`
 - [ ] `bun run build:schema` and `bun run test` succeed
 
@@ -152,10 +152,11 @@ this workflow needs is in the repository.
      Editions at the same declared distance, e.g. `uminomori_short: swim median 21:39
      for 1.5 km (1:27/100m; 37% faster than the 34:16 median of 3 other Editions …;
      about 0.95 km at this Event's usual pace): check the race-day course`. Find the
-     course actually raced and fix `segments`, or explain in the commit message why the
-     declared distance stands (a fast current, a long beach run inside the swim lap). A
-     flagged Segment also fails `check:integrity` (rule `implausible_pace`) until it is
-     fixed, or, when explained, recorded with `bun run update:integrity-baseline`.
+     course actually raced and fix `segments`. If the race-day evidence shows the
+     declared distance stands (a fast current, a long beach run inside the swim lap, a
+     PRO-only Category), add the Segment to `pace-exceptions.json` with its `reason` and
+     `source` URL. A flagged Segment otherwise fails `check:integrity` (rule
+     `implausible_pace`).
    - Run it again without `--dry-run`. Exit 0 = all imported, 2 = some skipped (the
      others are written), 1 = plan invalid (nothing written).
    - The module writes canonical 年齢区分 labels (M25-29) itself. Fix any 氏名 it

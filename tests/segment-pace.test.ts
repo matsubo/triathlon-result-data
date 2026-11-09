@@ -1,7 +1,15 @@
 import { describe, expect, test } from "bun:test";
 import { readCategories } from "../scripts/lib/category-reader.js";
 import { memoryRepo } from "../scripts/lib/repo.js";
-import { checkPace, describePace, paceWarnings, segmentMedians } from "../scripts/lib/segment-pace.js";
+import { exceptionProblems, loadExceptions } from "../scripts/lib/exceptions.js";
+import {
+  checkPace,
+  describePace,
+  paceWarnings,
+  segmentLabel,
+  segmentMedians,
+  staleExceptions,
+} from "../scripts/lib/segment-pace.js";
 
 type Column = { header: string; role: string };
 type Segment = { sport: string; distance: number; columns: Column[] };
@@ -181,5 +189,73 @@ describe("checkPace", () => {
     expect(paceWarnings(repo, "ev", "2024-06-02")).toEqual([
       "od: swim median 12:00 for 1.5 km (0:48/100m, outside the plausible 1:00–4:00/100m; 66% faster than the 35:00 median of 1 other Edition of this Event at 1.5 km; about 0.51 km at this Event's usual pace): check the race-day course",
     ]);
+  });
+});
+
+describe("pace Exceptions", () => {
+  /** Four Editions of a swim-only OD Category; only 2024 (a fast 12:00 at 1.5 km) is flagged. */
+  function corpus() {
+    const files: Record<string, string> = {};
+    const swims = { "2025-06-01": "0:35:00", "2024-06-02": "0:12:00", "2023-06-04": "0:36:00", "2022-06-05": "0:35:30" };
+    const list = Object.entries(swims).map(
+      ([date, swim]) => {
+        const c = category("od", date, "OD", [{ sport: "swim", distance: 1.5, columns: [lap("Swim")] }]);
+        files[c.result_tsv] = tsv(["Swim"], finishers(5, () => ["2:30:00", swim]));
+        return { date, categories: [c] };
+      },
+    );
+    return repoOf(list, files);
+  }
+  const entry = (date: string, segment = "1 swim") => ({
+    event: "ev",
+    date,
+    category: "od",
+    segment,
+    reason: "full swim with a strong current",
+    source: "https://example.com/race-report",
+  });
+
+  test("an exempted Segment is not flagged, by checkPace or by the Import warning", () => {
+    const repo = corpus();
+    const exceptions = [entry("2024-06-02")];
+    const checks = checkPace(readCategories(repo).categories, exceptions);
+    const exempted = checks.find((c) => c.category.date === "2024-06-02");
+    expect(exempted?.exception).toBe(exceptions[0]);
+    expect(exempted?.severity).toBe(0);
+    expect(exempted?.outsideBand).toBe(true);
+    expect(segmentLabel(exempted!.segment)).toBe("1 swim");
+    expect(checks.filter((c) => c.severity > 0)).toEqual([]);
+    expect(staleExceptions(checks, exceptions)).toEqual([]);
+    expect(paceWarnings(repo, "ev", "2024-06-02", exceptions)).toEqual([]);
+    expect(paceWarnings(repo, "ev", "2024-06-02", [])).toHaveLength(1);
+  });
+
+  test("an entry that matches no measured Segment, or names a Segment that is not flagged, is stale", () => {
+    const exceptions = [entry("2024-06-02"), entry("2025-06-01"), entry("2024-06-02", "2 bike")];
+    const checks = checkPace(readCategories(corpus()).categories, exceptions);
+    expect(staleExceptions(checks, exceptions)).toEqual([
+      `ev 2025-06-01 od "1 swim": the Segment's pace is no longer flagged; remove the entry`,
+      `ev 2024-06-02 od "2 bike": matches no measured Segment`,
+    ]);
+  });
+
+  test("every entry needs a reason and a source URL; the committed file is valid", () => {
+    const { source, ...noSource } = entry("2024-06-02");
+    expect(source).toBeTruthy();
+    expect(
+      exceptionProblems("segment_pace", [
+        noSource,
+        { ...entry("2024-06-02"), reason: " ", source: "example.com", segment: "swim" },
+        entry("2025-06-01"),
+        entry("2025-06-01"),
+      ]),
+    ).toEqual([
+      'entries[0]: "source" is required',
+      'entries[1]: "reason" is required',
+      'entries[1]: "segment" must be "<position> <sport>", e.g. "1 swim"',
+      'entries[1]: "source" must be a URL',
+      'entries[3]: duplicate entry for ev 2025-06-01 od "1 swim"',
+    ]);
+    expect(exceptionProblems("segment_pace", loadExceptions("segment_pace"))).toEqual([]);
   });
 });

@@ -90,8 +90,8 @@ What the JTU adapter and the core do:
   the guidelines or the year before.
 - **Pace warnings**: the report flags each Segment whose median lap implies an implausible
   pace or strays more than ×1.4 from the Event's other Editions at the same declared
-  distance (`scripts/lib/segment-pace.js`). Resolve each one from race-day evidence, or
-  explain it in the commit message; see SKILL.md step 4.
+  distance (`scripts/lib/segment-pace.js`). Resolve each one from race-day evidence: fix
+  the Segment, or add a genuine pace to `pace-exceptions.json`; see SKILL.md step 4.
 - **Refused automatically**: a TSV byte-identical to another TSV (the carousel
   contamination signature), a declared Segment whose lap column is empty for every finisher,
   a duplicated single-use role, an existing (event, date) with different programs.

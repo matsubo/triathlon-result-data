@@ -27,9 +27,12 @@ added permanent quality gates to this repo:
   on a stale entry (a key the rule no longer examines). After fixing data, run
   the update command and commit the shrunken ledger with the fix.
 - Exceptions (`name-space-allowlist.json`, `age-category-allowlist.json`,
-  `duplicate-allowlist.json`) are correct data, not Known issues: no counts,
-  shape `{ "description", "entries": [...] }`, read by
-  `scripts/lib/exceptions.js`.
+  `duplicate-allowlist.json`, `pace-exceptions.json`) are correct data, not
+  Known issues: no counts, shape `{ "description", "entries": [...] }`, read
+  by `scripts/lib/exceptions.js`. When the race-day evidence shows a flagged
+  pace is genuine, add the Segment to `pace-exceptions.json` with its source
+  (`{ event, date, category, segment: "1 swim", reason, source }`) instead of
+  leaving it in the ledger; `check:integrity` fails on a stale entry.
 - The post-import acceptance check is AGGREGATE stats, never sample rows —
   procedure lives in [validation-pipeline](validation-pipeline.md).
 - Since 2026-11, `check:integrity` also counts implausible Segment paces
@@ -42,7 +45,8 @@ added permanent quality gates to this repo:
   was cut on the day (uminomori 2026 OD carried 2025's 0.5 km swim; the
   median was 35:18, the full 1.5 km). Segment distances must come from
   race-day evidence; the Import report repeats the check as `warnings`,
-  which an import resolves or explains in its commit message. The ledger
+  which an import resolves by fixing the Segment or, for a genuine pace, by
+  adding an Exception to `pace-exceptions.json`. The ledger
   was seeded with the 209 Segments in 161 Categories flagged on
   2026-11-09 (mostly IRONMAN swims cut short but declared at full distance,
   and laps holding a cumulative time); `bun scripts/report-segment-pace.js`
