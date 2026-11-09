@@ -16,10 +16,15 @@ Usage:
 Times are requested as unixtime and converted with zoneinfo per date: passing
 timezone=auto makes Open-Meteo apply the UTC offset in effect at request time
 to every date, which silently shifts data by an hour across a DST boundary.
+The request still names the race's IANA zone, because the daily aggregates
+(sunrise, sunset, min/max) are computed per day of the requested zone: with
+timezone=UTC, a race west of Greenwich picked up the next day's sunrise and
+extremes, and one east of it a UTC day's.
 """
 import argparse
 import json
 import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import date as date_cls
 from datetime import datetime, timedelta
@@ -58,11 +63,11 @@ def get_json(url):
         return json.load(res)
 
 
-def fetch(lat, lon, start, end):
+def fetch(lat, lon, start, end, tz_name):
     query = (
         f"?latitude={lat}&longitude={lon}&start_date={start}&end_date={end}"
         f"&hourly={HOURLY_VARS}&daily={DAILY_VARS}"
-        "&wind_speed_unit=ms&timeformat=unixtime&timezone=UTC"
+        f"&wind_speed_unit=ms&timeformat=unixtime&timezone={urllib.parse.quote(tz_name)}"
     )
     last = None
     for base in ENDPOINTS:
@@ -116,7 +121,7 @@ def main():
     d = date_cls.fromisoformat(args.date)
     # Widen the window by a day on each side so local hour 24 and the local
     # day boundary are both covered regardless of UTC offset.
-    data, source = fetch(args.lat, args.lon, d - timedelta(days=1), d + timedelta(days=1))
+    data, source = fetch(args.lat, args.lon, d - timedelta(days=1), d + timedelta(days=1), args.tz)
 
     hourly = data["hourly"]
     by_local = {}
@@ -125,8 +130,10 @@ def main():
         by_local[(local.date(), local.hour)] = i
 
     daily = data["daily"]
+    # The race day is the daily row whose sunrise falls on it locally; a row's
+    # midnight timestamp can sit an hour off on a DST transition day.
     day_idx = next(
-        (i for i, ts in enumerate(daily["time"]) if datetime.fromtimestamp(ts, tz).date() == d),
+        (i for i, ts in enumerate(daily["sunrise"]) if datetime.fromtimestamp(ts, tz).date() == d),
         None,
     )
     if day_idx is None:
