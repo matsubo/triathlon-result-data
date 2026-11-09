@@ -79915,19 +79915,33 @@
       "source": "https://triathlon-suzu.com/",
       "editions": [
         {
-          "date": "2023-09-03",
+          "date": "2023-08-27",
           "weather_file": "master/2023/suzu/weather-data.json",
           "categories": [
             {
               "id": "suzu_a",
               "result_tsv": "master/2023/suzu/type_a.tsv",
-              "name": "Aタイプ（OD）",
-              "distance": "OD",
-              "description": "2023年珠洲トライアスロン Aタイプ. Swim was cancelled due to conditions; race held as bike+run only.",
+              "name": "Aタイプ",
+              "distance": "MD",
+              "description": "2023年第34回トライアスロン珠洲大会 Aタイプ。スイム2.5km、バイク102.2km、ラン23.3km。",
               "segments": [
                 {
+                  "sport": "swim",
+                  "distance": 2.5,
+                  "columns": [
+                    {
+                      "header": "スイム",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
                   "sport": "bike",
-                  "distance": 40,
+                  "distance": 102.2,
                   "columns": [
                     {
                       "header": "バイク",
@@ -79949,7 +79963,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 10,
+                  "distance": 23.3,
                   "columns": [
                     {
                       "header": "ラン",
@@ -80013,13 +80027,27 @@
             {
               "id": "suzu_b",
               "result_tsv": "master/2023/suzu/type_b.tsv",
-              "name": "Bタイプ（SD）",
-              "distance": "SD",
-              "description": "2023年珠洲トライアスロン Bタイプ. Swim was cancelled due to conditions; race held as bike+run only.",
+              "name": "Bタイプ",
+              "distance": "MD",
+              "description": "2023年第34回トライアスロン珠洲大会 Bタイプ。スイム1.5km、バイク51.1km、ラン10.2km。",
               "segments": [
                 {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "スイム",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
                   "sport": "bike",
-                  "distance": 20,
+                  "distance": 51.1,
                   "columns": [
                     {
                       "header": "バイク",
@@ -80041,7 +80069,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 5,
+                  "distance": 10.2,
                   "columns": [
                     {
                       "header": "ラン",
@@ -80105,19 +80133,33 @@
           ]
         },
         {
-          "date": "2019-09-08",
+          "date": "2019-08-25",
           "weather_file": "master/2019/suzu/weather-data.json",
           "categories": [
             {
               "id": "suzu_a",
               "result_tsv": "master/2019/suzu/type_a.tsv",
-              "name": "Aタイプ（OD）",
-              "distance": "OD",
-              "description": "2019年珠洲トライアスロン Aタイプ. Swim was cancelled due to conditions; race held as bike+run only.",
+              "name": "Aタイプ",
+              "distance": "MD",
+              "description": "2019年第30回トライアスロン珠洲大会 Aタイプ。スイム2.5km、バイク102.2km、ラン23.3km。",
               "segments": [
                 {
+                  "sport": "swim",
+                  "distance": 2.5,
+                  "columns": [
+                    {
+                      "header": "スイム",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
                   "sport": "bike",
-                  "distance": 40,
+                  "distance": 102.2,
                   "columns": [
                     {
                       "header": "バイク",
@@ -80139,7 +80181,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 10,
+                  "distance": 23.3,
                   "columns": [
                     {
                       "header": "ラン",
@@ -80203,13 +80245,27 @@
             {
               "id": "suzu_b",
               "result_tsv": "master/2019/suzu/type_b.tsv",
-              "name": "Bタイプ（SD）",
-              "distance": "SD",
-              "description": "2019年珠洲トライアスロン Bタイプ. Swim was cancelled due to conditions; race held as bike+run only.",
+              "name": "Bタイプ",
+              "distance": "MD",
+              "description": "2019年第30回トライアスロン珠洲大会 Bタイプ。スイム1.5km、バイク51.1km、ラン10.2km。",
               "segments": [
                 {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "スイム",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
                   "sport": "bike",
-                  "distance": 20,
+                  "distance": 51.1,
                   "columns": [
                     {
                       "header": "バイク",
@@ -80231,7 +80287,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 5,
+                  "distance": 10.2,
                   "columns": [
                     {
                       "header": "ラン",
@@ -80295,19 +80351,19 @@
           ]
         },
         {
-          "date": "2018-09-02",
+          "date": "2018-08-26",
           "weather_file": "master/2018/suzu/weather-data.json",
           "categories": [
             {
               "id": "suzu_a",
               "result_tsv": "master/2018/suzu/type_a.tsv",
-              "name": "Aタイプ（OD）",
-              "distance": "OD",
-              "description": "2018年珠洲トライアスロン Aタイプ. Swim was cancelled due to conditions; race held as bike+run only.",
+              "name": "Aタイプ",
+              "distance": "MD",
+              "description": "2018年第29回トライアスロン珠洲大会 Aタイプ。悪天候（海が荒れコースロープが張れず）のため当日スイムが中止、バイク102.2km/ラン23.3kmで実施。",
               "segments": [
                 {
                   "sport": "bike",
-                  "distance": 40,
+                  "distance": 102.2,
                   "columns": [
                     {
                       "header": "バイク",
@@ -80329,7 +80385,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 10,
+                  "distance": 23.3,
                   "columns": [
                     {
                       "header": "ラン",
@@ -80393,13 +80449,13 @@
             {
               "id": "suzu_b",
               "result_tsv": "master/2018/suzu/type_b.tsv",
-              "name": "Bタイプ（SD）",
-              "distance": "SD",
-              "description": "2018年珠洲トライアスロン Bタイプ. Swim was cancelled due to conditions; race held as bike+run only.",
+              "name": "Bタイプ",
+              "distance": "MD",
+              "description": "2018年第29回トライアスロン珠洲大会 Bタイプ。悪天候（海が荒れコースロープが張れず）のため当日スイムが中止、バイク51.1km/ラン10.2kmで実施。",
               "segments": [
                 {
                   "sport": "bike",
-                  "distance": 20,
+                  "distance": 51.1,
                   "columns": [
                     {
                       "header": "バイク",
@@ -80421,7 +80477,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 5,
+                  "distance": 10.2,
                   "columns": [
                     {
                       "header": "ラン",
@@ -80485,19 +80541,33 @@
           ]
         },
         {
-          "date": "2017-09-03",
+          "date": "2017-08-27",
           "weather_file": "master/2017/suzu/weather-data.json",
           "categories": [
             {
               "id": "suzu_a",
               "result_tsv": "master/2017/suzu/type_a.tsv",
-              "name": "Aタイプ（OD）",
-              "distance": "OD",
-              "description": "2017年珠洲トライアスロン Aタイプ. Swim was cancelled due to conditions; race held as bike+run only.",
+              "name": "Aタイプ",
+              "distance": "MD",
+              "description": "2017年第28回トライアスロン珠洲大会 Aタイプ。スイム2.5km、バイク102.2km、ラン23.3km。",
               "segments": [
                 {
+                  "sport": "swim",
+                  "distance": 2.5,
+                  "columns": [
+                    {
+                      "header": "スイム",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
                   "sport": "bike",
-                  "distance": 40,
+                  "distance": 102.2,
                   "columns": [
                     {
                       "header": "バイク",
@@ -80519,7 +80589,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 10,
+                  "distance": 23.3,
                   "columns": [
                     {
                       "header": "ラン",
@@ -80583,13 +80653,27 @@
             {
               "id": "suzu_b",
               "result_tsv": "master/2017/suzu/type_b.tsv",
-              "name": "Bタイプ（SD）",
-              "distance": "SD",
-              "description": "2017年珠洲トライアスロン Bタイプ. Swim was cancelled due to conditions; race held as bike+run only.",
+              "name": "Bタイプ",
+              "distance": "MD",
+              "description": "2017年第28回トライアスロン珠洲大会 Bタイプ。スイム1.5km、バイク51.1km、ラン10.2km。",
               "segments": [
                 {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "スイム",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
                   "sport": "bike",
-                  "distance": 20,
+                  "distance": 51.1,
                   "columns": [
                     {
                       "header": "バイク",
@@ -80611,7 +80695,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 5,
+                  "distance": 10.2,
                   "columns": [
                     {
                       "header": "ラン",
@@ -80675,19 +80759,33 @@
           ]
         },
         {
-          "date": "2016-09-04",
+          "date": "2016-08-28",
           "weather_file": "master/2016/suzu/weather-data.json",
           "categories": [
             {
               "id": "suzu_a",
               "result_tsv": "master/2016/suzu/type_a.tsv",
-              "name": "Aタイプ（OD）",
-              "distance": "OD",
-              "description": "2016年珠洲トライアスロン Aタイプ. Swim was cancelled due to conditions; race held as bike+run only.",
+              "name": "Aタイプ",
+              "distance": "MD",
+              "description": "2016年第27回トライアスロン珠洲大会 Aタイプ。スイム2.5km、バイク102.2km、ラン23.3km。",
               "segments": [
                 {
+                  "sport": "swim",
+                  "distance": 2.5,
+                  "columns": [
+                    {
+                      "header": "スイム",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
                   "sport": "bike",
-                  "distance": 40,
+                  "distance": 102.2,
                   "columns": [
                     {
                       "header": "バイク",
@@ -80709,7 +80807,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 10,
+                  "distance": 23.3,
                   "columns": [
                     {
                       "header": "ラン",
@@ -80773,13 +80871,27 @@
             {
               "id": "suzu_b",
               "result_tsv": "master/2016/suzu/type_b.tsv",
-              "name": "Bタイプ（SD）",
-              "distance": "SD",
-              "description": "2016年珠洲トライアスロン Bタイプ. Swim was cancelled due to conditions; race held as bike+run only.",
+              "name": "Bタイプ",
+              "distance": "MD",
+              "description": "2016年第27回トライアスロン珠洲大会 Bタイプ。スイム1.5km、バイク51.1km、ラン10.2km。",
               "segments": [
                 {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "スイム",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
                   "sport": "bike",
-                  "distance": 20,
+                  "distance": 51.1,
                   "columns": [
                     {
                       "header": "バイク",
@@ -80801,7 +80913,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 5,
+                  "distance": 10.2,
                   "columns": [
                     {
                       "header": "ラン",
@@ -80865,19 +80977,33 @@
           ]
         },
         {
-          "date": "2015-09-06",
+          "date": "2015-08-23",
           "weather_file": "master/2015/suzu/weather-data.json",
           "categories": [
             {
               "id": "suzu_a",
               "result_tsv": "master/2015/suzu/type_a.tsv",
-              "name": "Aタイプ（OD）",
-              "distance": "OD",
-              "description": "2015年珠洲トライアスロン Aタイプ. Swim was cancelled due to conditions; race held as bike+run only.",
+              "name": "Aタイプ",
+              "distance": "MD",
+              "description": "2015年第26回トライアスロン珠洲大会 Aタイプ。スイム2.5km、バイク102.2km、ラン23.3km。",
               "segments": [
                 {
+                  "sport": "swim",
+                  "distance": 2.5,
+                  "columns": [
+                    {
+                      "header": "スイム",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
                   "sport": "bike",
-                  "distance": 40,
+                  "distance": 102.2,
                   "columns": [
                     {
                       "header": "バイク",
@@ -80899,7 +81025,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 10,
+                  "distance": 23.3,
                   "columns": [
                     {
                       "header": "ラン",
@@ -80963,13 +81089,27 @@
             {
               "id": "suzu_b",
               "result_tsv": "master/2015/suzu/type_b.tsv",
-              "name": "Bタイプ（SD）",
-              "distance": "SD",
-              "description": "2015年珠洲トライアスロン Bタイプ. Swim was cancelled due to conditions; race held as bike+run only.",
+              "name": "Bタイプ",
+              "distance": "MD",
+              "description": "2015年第26回トライアスロン珠洲大会 Bタイプ。スイム1.5km、バイク51.1km、ラン10.2km。",
               "segments": [
                 {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "スイム",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
                   "sport": "bike",
-                  "distance": 20,
+                  "distance": 51.1,
                   "columns": [
                     {
                       "header": "バイク",
@@ -80991,7 +81131,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 5,
+                  "distance": 10.2,
                   "columns": [
                     {
                       "header": "ラン",
@@ -81055,19 +81195,33 @@
           ]
         },
         {
-          "date": "2014-09-07",
+          "date": "2014-08-24",
           "weather_file": "master/2014/suzu/weather-data.json",
           "categories": [
             {
               "id": "suzu_a",
               "result_tsv": "master/2014/suzu/type_a.tsv",
-              "name": "Aタイプ（OD）",
-              "distance": "OD",
-              "description": "2014年第25回珠洲トライアスロン Aタイプ. Swim was cancelled due to conditions; race held as bike+run only.",
+              "name": "Aタイプ",
+              "distance": "MD",
+              "description": "2014年第25回トライアスロン珠洲大会 Aタイプ。スイム2.5km、バイク102.2km、ラン23.3km。",
               "segments": [
                 {
+                  "sport": "swim",
+                  "distance": 2.5,
+                  "columns": [
+                    {
+                      "header": "スイム",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
                   "sport": "bike",
-                  "distance": 40,
+                  "distance": 102.2,
                   "columns": [
                     {
                       "header": "バイク",
@@ -81089,7 +81243,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 10,
+                  "distance": 23.3,
                   "columns": [
                     {
                       "header": "ラン",
@@ -81153,13 +81307,27 @@
             {
               "id": "suzu_b",
               "result_tsv": "master/2014/suzu/type_b.tsv",
-              "name": "Bタイプ（SD）",
-              "distance": "SD",
-              "description": "2014年第25回珠洲トライアスロン Bタイプ. Swim was cancelled due to conditions; race held as bike+run only.",
+              "name": "Bタイプ",
+              "distance": "MD",
+              "description": "2014年第25回トライアスロン珠洲大会 Bタイプ。スイム1.5km、バイク51.1km、ラン10.2km。",
               "segments": [
                 {
+                  "sport": "swim",
+                  "distance": 1.5,
+                  "columns": [
+                    {
+                      "header": "スイム",
+                      "role": "lap"
+                    },
+                    {
+                      "header": "Ｓ順",
+                      "role": "rank"
+                    }
+                  ]
+                },
+                {
                   "sport": "bike",
-                  "distance": 20,
+                  "distance": 51.1,
                   "columns": [
                     {
                       "header": "バイク",
@@ -81181,7 +81349,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 5,
+                  "distance": 10.2,
                   "columns": [
                     {
                       "header": "ラン",
