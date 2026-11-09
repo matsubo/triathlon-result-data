@@ -66101,7 +66101,7 @@
               "result_tsv": "master/2024/kyoto_tanba/standard.tsv",
               "name": "スタンダード",
               "distance": "OD",
-              "description": "2024 京都丹波トライアスロン大会in南丹 スタンダード",
+              "description": "2024 京都丹波トライアスロン大会in南丹 スタンダード。当日ランが10kmから5kmに短縮、スイム1.5km/バイク40kmは通常通り実施。",
               "segments": [
                 {
                   "sport": "swim",
@@ -66141,7 +66141,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 10,
+                  "distance": 5,
                   "columns": [
                     {
                       "header": "ﾗﾝﾗｯﾌﾟ",
@@ -88980,7 +88980,7 @@
       "source": "https://www.jtu.or.jp/",
       "editions": [
         {
-          "date": "2024-07-14",
+          "date": "2024-09-22",
           "weather_file": "master/2024/kamigoto/weather-data.json",
           "categories": [
             {
