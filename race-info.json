@@ -32654,7 +32654,7 @@
           ]
         },
         {
-          "date": "2019-09-08",
+          "date": "2019-07-14",
           "weather_file": "master/2019/hiwasa/weather-data.json",
           "categories": [
             {
@@ -32662,11 +32662,11 @@
               "result_tsv": "master/2019/hiwasa/default.tsv",
               "name": "日和佐うみがめトライアスロン",
               "distance": "OD",
-              "description": "2019年日和佐うみがめトライアスロン",
+              "description": "2019年日和佐うみがめトライアスロン。前日からの雨で地盤が緩んでいたため当日バイクを40kmから18km（第二展望台折返し）に短縮し、スイムも1.5kmから750mに短縮、ランは通常通り10kmで実施。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.5,
+                  "distance": 0.75,
                   "columns": [
                     {
                       "header": "スイムタイム",
@@ -32680,7 +32680,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 40,
+                  "distance": 18,
                   "columns": [
                     {
                       "header": "バイクタイム",
