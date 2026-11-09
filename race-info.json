@@ -56389,11 +56389,11 @@
               "result_tsv": "master/2022/miyazaki_age/standard_men.tsv",
               "name": "スタンダード選手権男子",
               "distance": "OD",
-              "description": "2022 第3回日本エイジグループNCS（宮崎）スタンダード男子",
+              "description": "2022 第3回日本エイジグループNCS（宮崎）スタンダード男子。気象状況とスイムコース環境のため当日スイムが1.5kmから400mに短縮、バイク40km/ラン10kmは通常通り実施。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.5,
+                  "distance": 0.4,
                   "columns": [
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
@@ -56487,11 +56487,11 @@
               "result_tsv": "master/2022/miyazaki_age/standard_women.tsv",
               "name": "スタンダード選手権女子",
               "distance": "OD",
-              "description": "2022 第3回日本エイジグループNCS（宮崎）スタンダード女子",
+              "description": "2022 第3回日本エイジグループNCS（宮崎）スタンダード女子。気象状況とスイムコース環境のため当日スイムが1.5kmから400mに短縮、バイク40km/ラン10kmは通常通り実施。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.5,
+                  "distance": 0.4,
                   "columns": [
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
@@ -69811,7 +69811,7 @@
       "source": "https://www.jtu.or.jp/",
       "editions": [
         {
-          "date": "2021-10-17",
+          "date": "2021-05-30",
           "weather_file": "master/2021/miyazaki_ss/weather-data.json",
           "categories": [
             {
@@ -69819,7 +69819,7 @@
               "result_tsv": "master/2021/miyazaki_ss/1st_race.tsv",
               "name": "第1レース",
               "distance": "SS",
-              "description": "2021年宮崎スーパースプリントトライアスロン第1レース。",
+              "description": "JTU男子スーパースプリント特別大会（2021/宮崎）第1レース（個人タイムトライアル）。スイム300m、バイク7.112km、ラン2km（JTUリザルトのコース注記）。",
               "segments": [
                 {
                   "sport": "swim",
@@ -69837,7 +69837,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 8,
+                  "distance": 7.112,
                   "columns": [
                     {
                       "header": "Bike",
@@ -69897,7 +69897,7 @@
               "result_tsv": "master/2021/miyazaki_ss/2nd_race.tsv",
               "name": "第2レース",
               "distance": "SS",
-              "description": "2021年宮崎スーパースプリントトライアスロン第2レース。",
+              "description": "JTU男子スーパースプリント特別大会（2021/宮崎）第2レース（一斉スタート）。スイム300m、バイク7.112km、ラン2km（JTUリザルトのコース注記）。",
               "segments": [
                 {
                   "sport": "swim",
@@ -69915,7 +69915,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 8,
+                  "distance": 7.112,
                   "columns": [
                     {
                       "header": "Bike",
