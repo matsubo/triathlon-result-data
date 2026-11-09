@@ -154529,11 +154529,11 @@
               "result_tsv": "master/2024/im703_hawaii_2024/default.tsv",
               "name": "Half Distance",
               "distance": "MD",
-              "description": "IRONMAN 70.3 Hawaii",
+              "description": "IRONMAN 70.3 Hawaii. Swim moved to a protected short course of about 750 m due to high winds; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 0.75,
                   "columns": [
                     {
                       "header": "Swim",
@@ -185531,11 +185531,11 @@
               "result_tsv": "master/2017/im703_santa_cruz_2017/default.tsv",
               "name": "Half Distance",
               "distance": "MD",
-              "description": "IRONMAN 70.3 Santa Cruz",
+              "description": "IRONMAN 70.3 Santa Cruz. Swim shortened to 750 m due to heavy fog, which delayed the start by an hour; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 0.75,
                   "columns": [
                     {
                       "header": "Swim",
@@ -187488,11 +187488,11 @@
               "result_tsv": "master/2026/im703_new_york_2026/default.tsv",
               "name": "Half Distance",
               "distance": "MD",
-              "description": "IRONMAN 70.3 New York 2026. Jones Beach, New York, USA.",
+              "description": "IRONMAN 70.3 New York 2026. Jones Beach, New York, USA. Postponed from 26 September by a nor'easter; swim shorter than 1.9 km. Race-day distance not published; estimated from median times.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 1.3,
                   "columns": [
                     {
                       "header": "Swim",
@@ -187752,11 +187752,11 @@
               "result_tsv": "master/2023/im703_new_york_2023/default.tsv",
               "name": "Half Distance",
               "distance": "MD",
-              "description": "IRONMAN 70.3 New York",
+              "description": "IRONMAN 70.3 New York. Swim shortened to 750 m due to water conditions; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 0.75,
                   "columns": [
                     {
                       "header": "Swim",
@@ -207393,11 +207393,11 @@
               "result_tsv": "master/2016/im703_dubai_2016/default.tsv",
               "name": "70.3",
               "distance": "MD",
-              "description": "2016 IRONMAN 70.3 Dubai",
+              "description": "2016 IRONMAN 70.3 Dubai. Swim shortened due to rough sea: age-groupers swam one 600 m loop (PROs two loops, 1.2 km), and the swim split includes a run of about 750 m up the beach to T1; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 0.6,
                   "columns": [
                     {
                       "header": "Swim",
@@ -220557,11 +220557,11 @@
               "result_tsv": "master/2019/im703_connecticut_2019/default.tsv",
               "name": "70.3",
               "distance": "MD",
-              "description": "2019 IRONMAN 70.3 Connecticut",
+              "description": "2019 IRONMAN 70.3 Connecticut. Swim shortened to 0.47 miles (750 m) due to water conditions; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 0.75,
                   "columns": [
                     {
                       "header": "Swim",
@@ -262090,18 +262090,18 @@
       "source": "https://www.coachcox.co.uk/imstats/series/253/",
       "editions": [
         {
-          "date": "2018-01-01",
+          "date": "2018-07-08",
           "categories": [
             {
               "id": "im703_jeju_2018",
               "result_tsv": "master/2018/im703_jeju_2018/default.tsv",
               "name": "70.3",
               "distance": "MD",
-              "description": "2018 IRONMAN 70.3 Jeju",
+              "description": "2018 IRONMAN 70.3 Jeju. Swim shortened to 500 m due to wind; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 0.5,
                   "columns": [
                     {
                       "header": "Swim",
@@ -266767,18 +266767,18 @@
           ]
         },
         {
-          "date": "2023-01-01",
+          "date": "2023-03-05",
           "categories": [
             {
               "id": "im703_nelson_mandela_bay_2023",
               "result_tsv": "master/2023/im703_nelson_mandela_bay_2023/default.tsv",
               "name": "70.3",
               "distance": "MD",
-              "description": "2023 IRONMAN 70.3 Nelson Mandela Bay",
+              "description": "2023 IRONMAN 70.3 Nelson Mandela Bay. Swim shortened to 900 m due to rough sea and a storm threat (shared with the full-distance race); bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 0.9,
                   "columns": [
                     {
                       "header": "Swim",
@@ -271038,11 +271038,11 @@
               "result_tsv": "master/2026/im703_puerto_varas_2026/default.tsv",
               "name": "70.3",
               "distance": "MD",
-              "description": "2026 IRONMAN 70.3 Puerto Varas",
+              "description": "2026 IRONMAN 70.3 Puerto Varas. Swim shortened to 750 m due to low water temperature in Lake Llanquihue; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 0.75,
                   "columns": [
                     {
                       "header": "Swim",
