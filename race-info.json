@@ -11898,6 +11898,14 @@
                     {
                       "header": "B順",
                       "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
                     }
                   ]
                 },
@@ -12006,6 +12014,14 @@
                     {
                       "header": "B順",
                       "role": "rank"
+                    },
+                    {
+                      "header": "スプリット",
+                      "role": "cumulative_time"
+                    },
+                    {
+                      "header": "通過",
+                      "role": "cumulative_rank"
                     }
                   ]
                 },
@@ -12052,6 +12068,10 @@
                 {
                   "header": "総合記録",
                   "role": "total_time"
+                },
+                {
+                  "header": "PNLT",
+                  "role": "penalty"
                 },
                 {
                   "header": "男子順位",
