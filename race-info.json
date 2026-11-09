@@ -120751,7 +120751,7 @@
               "result_tsv": "master/2016/ironman_north_carolina_2016/default.tsv",
               "name": "Full Distance",
               "distance": "LD",
-              "description": "2016 IRONMAN North Carolina",
+              "description": "2016 IRONMAN North Carolina. Bike shortened to 56 miles (90 km) because Hurricane Matthew flood damage closed the outer bike loop; swim and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
@@ -120765,7 +120765,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 180.2,
+                  "distance": 90,
                   "columns": [
                     {
                       "header": "Bike",
@@ -124083,7 +124083,7 @@
               "result_tsv": "master/2026/ironman_frankfurt_2026/default.tsv",
               "name": "Full Distance",
               "distance": "LD",
-              "description": "IRONMAN Frankfurt 2026. Frankfurt, Germany.",
+              "description": "IRONMAN Frankfurt 2026. Frankfurt, Germany. Bike shortened to 125 km and run to a half marathon (21.1 km) due to extreme heat (forecast up to 39 °C); swim held as planned.",
               "segments": [
                 {
                   "sport": "swim",
@@ -124097,7 +124097,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 180.2,
+                  "distance": 125,
                   "columns": [
                     {
                       "header": "Bike",
@@ -124107,7 +124107,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 42.195,
+                  "distance": 21.1,
                   "columns": [
                     {
                       "header": "Run",
@@ -163154,7 +163154,7 @@
               "result_tsv": "master/2021/im703_des_moines_2021/default.tsv",
               "name": "Half Distance",
               "distance": "MD",
-              "description": "IRONMAN 70.3 Des Moines",
+              "description": "IRONMAN 70.3 Des Moines. Start delayed about three hours by thunderstorms and the bike shortened to 27 miles (43.5 km); swim and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
@@ -163168,7 +163168,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 90,
+                  "distance": 43.5,
                   "columns": [
                     {
                       "header": "Bike",
@@ -174550,11 +174550,11 @@
               "result_tsv": "master/2012/im703_muncie_2012/default.tsv",
               "name": "Half Distance",
               "distance": "MD",
-              "description": "IRONMAN 70.3 Muncie",
+              "description": "IRONMAN 70.3 Muncie. Shortened for an excessive-heat warning to a 1-mile (1.6 km) swim, 30-mile (48.3 km) bike and 10 km run.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 1.6,
                   "columns": [
                     {
                       "header": "Swim",
@@ -174564,7 +174564,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 90,
+                  "distance": 48.3,
                   "columns": [
                     {
                       "header": "Bike",
@@ -174574,7 +174574,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 21.1,
+                  "distance": 10,
                   "columns": [
                     {
                       "header": "Run",
@@ -216609,14 +216609,14 @@
           ]
         },
         {
-          "date": "2022-01-01",
+          "date": "2022-05-08",
           "categories": [
             {
               "id": "im703_monterrey_2022",
               "result_tsv": "master/2022/im703_monterrey_2022/default.tsv",
               "name": "70.3",
               "distance": "MD",
-              "description": "2022 IRONMAN 70.3 Monterrey",
+              "description": "2022 IRONMAN 70.3 Monterrey. Bike shortened to 60 km and run to 10 km due to heat; swim held as planned.",
               "segments": [
                 {
                   "sport": "swim",
@@ -216630,7 +216630,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 90.1,
+                  "distance": 60,
                   "columns": [
                     {
                       "header": "Bike",
@@ -216640,7 +216640,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 21.0975,
+                  "distance": 10,
                   "columns": [
                     {
                       "header": "Run",
@@ -252714,7 +252714,7 @@
       "source": "https://www.coachcox.co.uk/imstats/series/210/",
       "editions": [
         {
-          "date": "2017-01-01",
+          "date": "2017-07-16",
           "categories": [
             {
               "id": "im703_racine_2017",
@@ -252787,18 +252787,18 @@
           ]
         },
         {
-          "date": "2016-01-01",
+          "date": "2016-07-17",
           "categories": [
             {
               "id": "im703_racine_2016",
               "result_tsv": "master/2016/im703_racine_2016/default.tsv",
               "name": "70.3",
               "distance": "MD",
-              "description": "2016 IRONMAN 70.3 Racine. Swim was cancelled due to conditions; race held as bike+run only.",
+              "description": "2016 IRONMAN 70.3 Racine. Swim was cancelled due to high winds and the bike shortened to 31 miles (50 km); race held as bike+run only.",
               "segments": [
                 {
                   "sport": "bike",
-                  "distance": 90.1,
+                  "distance": 50,
                   "columns": [
                     {
                       "header": "Bike",
