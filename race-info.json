@@ -20762,11 +20762,11 @@
               "result_tsv": "master/2023/uminomori/standard.tsv",
               "name": "スタンダード",
               "distance": "OD",
-              "description": "2023 第2回東京・海の森トライアスロン スタンダード",
+              "description": "2023 第2回東京・海の森トライアスロン スタンダード。強風のため当日スイムが1.5kmから約900mに短縮、バイク40km/ラン10kmは通常通り実施。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.5,
+                  "distance": 0.9,
                   "columns": [
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
@@ -20880,11 +20880,11 @@
               "result_tsv": "master/2023/uminomori/sprint.tsv",
               "name": "スプリント",
               "distance": "SD",
-              "description": "2023 第2回東京・海の森トライアスロン スプリント",
+              "description": "2023 第2回東京・海の森トライアスロン スプリント。強風のため当日スイムが750mから約450mに短縮、バイク20km/ラン5kmは通常通り実施。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 0.75,
+                  "distance": 0.45,
                   "columns": [
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
@@ -20998,11 +20998,11 @@
               "result_tsv": "master/2023/uminomori/sprint_highschool.tsv",
               "name": "スプリント（高校生）",
               "distance": "SD",
-              "description": "2023 第2回東京・海の森トライアスロン スプリント高校生",
+              "description": "2023 第2回東京・海の森トライアスロン スプリント高校生。強風のため当日スイムが750mから約450mに短縮、バイク20km/ラン5kmは通常通り実施。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 0.75,
+                  "distance": 0.45,
                   "columns": [
                     {
                       "header": "ｽｲﾑﾗｯﾌﾟ",
