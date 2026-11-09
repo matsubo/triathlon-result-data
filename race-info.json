@@ -32750,7 +32750,7 @@
           ]
         },
         {
-          "date": "2018-09-09",
+          "date": "2018-07-15",
           "weather_file": "master/2018/hiwasa/weather-data.json",
           "categories": [
             {
@@ -32846,7 +32846,7 @@
           ]
         },
         {
-          "date": "2017-09-10",
+          "date": "2017-07-16",
           "weather_file": "master/2017/hiwasa/weather-data.json",
           "categories": [
             {
@@ -32942,7 +32942,7 @@
           ]
         },
         {
-          "date": "2016-09-11",
+          "date": "2016-07-17",
           "weather_file": "master/2016/hiwasa/weather-data.json",
           "categories": [
             {
@@ -33038,7 +33038,7 @@
           ]
         },
         {
-          "date": "2015-09-06",
+          "date": "2015-07-19",
           "weather_file": "master/2015/hiwasa/weather-data.json",
           "categories": [
             {
@@ -33134,7 +33134,7 @@
           ]
         },
         {
-          "date": "2014-09-07",
+          "date": "2014-07-20",
           "weather_file": "master/2014/hiwasa/weather-data.json",
           "categories": [
             {
@@ -71814,7 +71814,7 @@
       "source": "https://nagasakisaikai.com/",
       "editions": [
         {
-          "date": "2019-11-03",
+          "date": "2019-09-29",
           "weather_file": "master/2019/nagasaki_saikai/weather-data.json",
           "categories": [
             {
@@ -71922,7 +71922,7 @@
           ]
         },
         {
-          "date": "2018-11-04",
+          "date": "2018-07-15",
           "weather_file": "master/2018/nagasaki_saikai/weather-data.json",
           "categories": [
             {
@@ -72030,7 +72030,7 @@
           ]
         },
         {
-          "date": "2017-11-05",
+          "date": "2017-07-09",
           "weather_file": "master/2017/nagasaki_saikai/weather-data.json",
           "categories": [
             {
@@ -72138,7 +72138,7 @@
           ]
         },
         {
-          "date": "2016-10-30",
+          "date": "2016-07-24",
           "weather_file": "master/2016/nagasaki_saikai/weather-data.json",
           "categories": [
             {
@@ -72246,7 +72246,7 @@
           ]
         },
         {
-          "date": "2015-11-01",
+          "date": "2015-07-19",
           "weather_file": "master/2015/nagasaki_saikai/weather-data.json",
           "categories": [
             {
@@ -72362,7 +72362,7 @@
               "result_tsv": "master/2014/nagasaki_saikai/od.tsv",
               "name": "一般",
               "distance": "OD",
-              "description": "2014年長崎西海トライアスロン祭 オリンピックディスタンス（男女総合：エリート＋一般＋学生）。スイム1.5km、バイク40km、ランは10kmではなく5kmで実施（九州沖縄学生選手権併催、学生連盟の記録による。短縮の理由は未確認）。",
+              "description": "2014年長崎西海トライアスロン祭 オリンピックディスタンス（男女総合：エリート＋一般＋学生）。早朝の強風のため当日コースの一部が短縮され、スイム1.5km、バイク40km、ランは10kmから5kmに短縮して実施（九州沖縄学生選手権の記録）。",
               "segments": [
                 {
                   "sport": "swim",
