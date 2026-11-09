@@ -92466,11 +92466,11 @@
               "result_tsv": "master/2025/ironman_taiwan_2025/default.tsv",
               "name": "Full Distance",
               "distance": "LD",
-              "description": "IRONMAN Taiwan 2025. Taiwan.",
+              "description": "IRONMAN Taiwan 2025. Taiwan. Swim shortened to one 1.9 km lap due to strong, gusty wind; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 3.8,
+                  "distance": 1.9,
                   "columns": [
                     {
                       "header": "Swim",
@@ -92730,11 +92730,11 @@
               "result_tsv": "master/2018/ironman_taiwan_2018/default.tsv",
               "name": "Full Distance",
               "distance": "LD",
-              "description": "2018 IRONMAN Taiwan",
+              "description": "2018 IRONMAN Taiwan. Swim shortened to 400 m inside the lagoon due to high winds; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 3.8,
+                  "distance": 0.4,
                   "columns": [
                     {
                       "header": "Swim",
@@ -108302,11 +108302,11 @@
               "result_tsv": "master/2018/ironman_louisville_2018/default.tsv",
               "name": "Full Distance",
               "distance": "LD",
-              "description": "2018 IRONMAN Louisville",
+              "description": "2018 IRONMAN Louisville. Swim shortened to 0.9 miles (1.45 km, downstream) due to the strong current in the Ohio River; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 3.8,
+                  "distance": 1.45,
                   "columns": [
                     {
                       "header": "Swim",
@@ -121016,11 +121016,11 @@
               "result_tsv": "master/2018/ironman_argentina_2018/default.tsv",
               "name": "Full Distance",
               "distance": "LD",
-              "description": "2018 IRONMAN Argentina",
+              "description": "2018 IRONMAN Argentina. Swim shortened to 1,500 m due to rough sea; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 3.8,
+                  "distance": 1.5,
                   "columns": [
                     {
                       "header": "Swim",
@@ -121813,11 +121813,11 @@
               "result_tsv": "master/2023/ironman_ireland_2023/default.tsv",
               "name": "Full Distance",
               "distance": "LD",
-              "description": "2023 IRONMAN Ireland",
+              "description": "2023 IRONMAN Ireland. Swim shortened in Storm Betty conditions: announced as 1.9 km, but kayakers redirected swimmers onto a course of about 1.2 km; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 3.8,
+                  "distance": 1.2,
                   "columns": [
                     {
                       "header": "Swim",
@@ -137840,11 +137840,11 @@
               "result_tsv": "master/2023/ironman_maryland_2023/default.tsv",
               "name": "Full Distance",
               "distance": "LD",
-              "description": "2023 IRONMAN Maryland",
+              "description": "2023 IRONMAN Maryland. Swim shortened to 918 m due to water conditions in the Choptank River; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 3.8,
+                  "distance": 0.918,
                   "columns": [
                     {
                       "header": "Swim",
@@ -138446,11 +138446,11 @@
               "result_tsv": "master/2015/ironman_maryland_2015/default.tsv",
               "name": "Full Distance",
               "distance": "LD",
-              "description": "2015 IRONMAN Maryland",
+              "description": "2015 IRONMAN Maryland. Postponed from 3 October by Hurricane Joaquin. Swim shortened to 3,000 m and moved to a protected part of the Choptank River due to wind and chop; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 3.8,
+                  "distance": 3,
                   "columns": [
                     {
                       "header": "Swim",
@@ -141817,11 +141817,11 @@
               "result_tsv": "master/2021/ironman_barcelona_2021/default.tsv",
               "name": "Full Distance",
               "distance": "LD",
-              "description": "2021 IRONMAN Barcelona",
+              "description": "2021 IRONMAN Barcelona. Swim shortened to about 900 m due to rough sea; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 3.8,
+                  "distance": 0.9,
                   "columns": [
                     {
                       "header": "Swim",
@@ -217385,11 +217385,11 @@
               "result_tsv": "master/2021/im703_barcelona_2021/default.tsv",
               "name": "70.3",
               "distance": "MD",
-              "description": "2021 IRONMAN 70.3 Barcelona",
+              "description": "2021 IRONMAN 70.3 Barcelona. Swim shortened in rough sea (the full-distance race on the same beach that morning was cut to about 900 m). Race-day distance not published; estimated from median times.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 0.7,
                   "columns": [
                     {
                       "header": "Swim",
