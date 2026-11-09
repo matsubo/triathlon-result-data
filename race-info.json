@@ -31377,8 +31377,8 @@
             {
               "id": "basho",
               "result_tsv": "master/2024/basho/default.tsv",
-              "name": "デュアスロン",
-              "distance": "DUATHLON",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
               "description": "2024年第34回秋田トライアスロン芭蕉レース象潟大会。波浪のため当日スイムが中止され、ミニラン2.8km（スイム代替）＋ミニラン1km（バイクスタンドまで）、バイク40km、ラン10kmで実施。",
               "segments": [
                 {
@@ -31794,9 +31794,9 @@
             {
               "id": "basho",
               "result_tsv": "master/2017/basho/default.tsv",
-              "name": "デュアスロン",
-              "distance": "DUATHLON",
-              "description": "2017年第30回秋田トライアスロン芭蕉レース象潟大会。スイム中止によりデュアスロン形式（ラン-バイク-ラン）で開催。",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "description": "2017年第30回秋田トライアスロン芭蕉レース象潟大会（オリンピックディスタンス）。当日スイム中止により第1ラン2km・バイク40km・ラン10km（ラン-バイク-ラン）で実施。",
               "segments": [
                 {
                   "sport": "run",
@@ -32018,9 +32018,9 @@
             {
               "id": "basho",
               "result_tsv": "master/2015/basho/default.tsv",
-              "name": "デュアスロン",
-              "distance": "DUATHLON",
-              "description": "2015年第28回秋田トライアスロン芭蕉レース象潟大会。スイム中止によりデュアスロン形式（ラン-バイク-ラン）で開催。",
+              "name": "オリンピックディスタンス",
+              "distance": "OD",
+              "description": "2015年第28回秋田トライアスロン芭蕉レース象潟大会（オリンピックディスタンス）。当日スイム中止により第1ラン2km・バイク40km・ラン10km（ラン-バイク-ラン）で実施。",
               "segments": [
                 {
                   "sport": "run",
@@ -67306,7 +67306,7 @@
               "id": "komatsu_tetsujin",
               "result_tsv": "master/2018/komatsu_tetsujin/tetsujin.tsv",
               "name": "鉄人の部",
-              "distance": "DUATHLON",
+              "distance": "OTHER",
               "description": "2018年小松鉄人レース鉄人の部。台風24号の影響によりコース変更、ラン-バイク-ラン形式で実施。",
               "segments": [
                 {
