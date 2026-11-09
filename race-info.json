@@ -16284,13 +16284,13 @@
             {
               "id": "fukuyama_sprint_women_duathlon",
               "result_tsv": "master/2024/fukuyama/sprint_women.tsv",
-              "name": "スプリント女子（デュアスロン）",
-              "distance": "DUATHLON",
-              "description": "2024年福山トライアスロン スプリント女子デュアスロン。ラン-バイク-ランの3種目。",
+              "name": "スプリント女子",
+              "distance": "SD",
+              "description": "2024年福山かわまちトライアスロン スプリント女子（スイム0.6km・バイク20km・ラン6kmのスプリントとして募集）。公式記録は第1ラン・バイク・第2ランで、スイムに代えて第1ランを実施。第1ランの距離は公表なし、タイム中央値からの推定（約1.3km）。第2ランは大会コースの6km。",
               "segments": [
                 {
                   "sport": "run",
-                  "distance": 2.5,
+                  "distance": 1.3,
                   "columns": [
                     {
                       "header": "第1RUN",
@@ -16326,7 +16326,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 5,
+                  "distance": 6,
                   "columns": [
                     {
                       "header": "第2RUN",
