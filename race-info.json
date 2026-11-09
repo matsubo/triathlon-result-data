@@ -90988,11 +90988,11 @@
               "result_tsv": "master/2023/ironman_south_africa_2023/default.tsv",
               "name": "Full Distance",
               "distance": "LD",
-              "description": "2023 IRONMAN African Championship South Africa",
+              "description": "2023 IRONMAN African Championship South Africa. Swim shortened to 900 m due to a storm threat; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 3.8,
+                  "distance": 0.9,
                   "columns": [
                     {
                       "header": "Swim",
@@ -91154,11 +91154,11 @@
               "result_tsv": "master/2021/ironman_south_africa_2021/default.tsv",
               "name": "Full Distance",
               "distance": "LD",
-              "description": "2021 IRONMAN African Championship South Africa",
+              "description": "2021 IRONMAN African Championship South Africa. Swim shortened due to wind: 700 m for age-groupers (PROs swam 1.9 km); bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 3.8,
+                  "distance": 0.7,
                   "columns": [
                     {
                       "header": "Swim",
@@ -91242,11 +91242,11 @@
               "result_tsv": "master/2019/ironman_south_africa_2019/default.tsv",
               "name": "Full Distance",
               "distance": "LD",
-              "description": "2019 IRONMAN African Championship South Africa",
+              "description": "2019 IRONMAN African Championship South Africa. Swim shortened to 1.6 km due to rough conditions in Nelson Mandela Bay; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 3.8,
+                  "distance": 1.6,
                   "columns": [
                     {
                       "header": "Swim",
@@ -107206,11 +107206,11 @@
               "result_tsv": "master/2014/ironman_lake_placid_2014/default.tsv",
               "name": "Full Distance",
               "distance": "LD",
-              "description": "2014 IRONMAN Lake Placid",
+              "description": "2014 IRONMAN Lake Placid. Lightning stopped the swim during the second lap: age-group results count only the first 1.9 km lap and no T1 (PROs swam the full 3.8 km); bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 3.8,
+                  "distance": 1.9,
                   "columns": [
                     {
                       "header": "Swim",
@@ -109492,11 +109492,11 @@
               "result_tsv": "master/2013/ironman_melbourne_2013/default.tsv",
               "name": "Full Distance",
               "distance": "LD",
-              "description": "2013 IRONMAN Melbourne",
+              "description": "2013 IRONMAN Melbourne. Swim at Frankston shortened to half distance, 1.5 km, due to rough conditions; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 3.8,
+                  "distance": 1.5,
                   "columns": [
                     {
                       "header": "Swim",
@@ -120303,11 +120303,11 @@
               "result_tsv": "master/2014/ironman_weymouth_2014/default.tsv",
               "name": "Full Distance",
               "distance": "LD",
-              "description": "2014 IRONMAN Weymouth",
+              "description": "2014 IRONMAN Weymouth. Swim halved to 1.9 km and its start delayed by half an hour due to rough sea; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 3.8,
+                  "distance": 1.9,
                   "columns": [
                     {
                       "header": "Swim",
