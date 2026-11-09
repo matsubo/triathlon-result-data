@@ -49383,11 +49383,11 @@
               "result_tsv": "master/2026/yamagata_zao/default.tsv",
               "name": "スタンダードディスタンス",
               "distance": "OD",
-              "description": "2026年おもてなし山形トライアスロンin ZAO。山形市蔵王温泉を舞台に、スイム1.5km、バイク40km、ラン10kmのスタンダードディスタンスで開催。",
+              "description": "2026年おもてなし山形トライアスロンin ZAO スタンダード。当日の水温低下のためスイムが1.5kmから0.5km（1周）に短縮、クマ出没によりバイクコースを変更（37.1km）、ラン10.2km。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.5,
+                  "distance": 0.5,
                   "columns": [
                     {
                       "header": "スイムラップ",
@@ -49405,7 +49405,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 40,
+                  "distance": 37.1,
                   "columns": [
                     {
                       "header": "バイクラップ",
@@ -49427,7 +49427,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 10,
+                  "distance": 10.2,
                   "columns": [
                     {
                       "header": "ランラップ",
@@ -49489,11 +49489,11 @@
               "result_tsv": "master/2026/yamagata_zao/sprint.tsv",
               "name": "スプリントディスタンス",
               "distance": "SD",
-              "description": "2026年おもてなし山形トライアスロンin ZAO スプリントディスタンス。山形市蔵王温泉を舞台に、スイム750m、バイク20km、ラン5kmで開催。",
+              "description": "2026年おもてなし山形トライアスロンin ZAO スプリント。スイム0.5km（1周）、クマ出没によりバイクコースを変更（21.2km、4周）、ラン6.8km（2周）（JTUリザルトのコース注記）。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 0.75,
+                  "distance": 0.5,
                   "columns": [
                     {
                       "header": "スイムラップ",
@@ -49511,7 +49511,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 20,
+                  "distance": 21.2,
                   "columns": [
                     {
                       "header": "バイクラップ",
@@ -49533,7 +49533,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 5,
+                  "distance": 6.8,
                   "columns": [
                     {
                       "header": "ランラップ",
@@ -49707,11 +49707,11 @@
               "result_tsv": "master/2025/yamagata_zao/sprint.tsv",
               "name": "スプリントディスタンス",
               "distance": "SD",
-              "description": "2025年おもてなし山形トライアスロンin ZAO スプリントディスタンス。山形市蔵王温泉を舞台に、スイム750m、バイク20km、ラン5kmで開催。初心者でも参加しやすい距離設定で、蔵王の自然を楽しめる大会です。",
+              "description": "2025年おもてなし山形トライアスロンin ZAO スプリントディスタンス。山形市蔵王温泉を舞台に、スイム0.5km（500m×1周）、バイク20km（10km×2周）、ラン5.06km（2.5km×2周）。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 0.75,
+                  "distance": 0.5,
                   "columns": [
                     {
                       "header": "スイムラップ",
@@ -49747,7 +49747,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 5,
+                  "distance": 5.06,
                   "columns": [
                     {
                       "header": "ランラップ",
