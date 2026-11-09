@@ -10,6 +10,10 @@
  *     known Status token
  *   - missing_laps: finished athletes with missing per-segment lap times
  *   - missing_total: finished athletes with no total time
+ *   - implausible_pace: Segments whose median lap implies a pace outside the
+ *     sport's plausible band, or strays from the Event's other Editions at
+ *     the same declared distance (scripts/lib/segment-pace.js): the declared
+ *     distance is probably not the course raced that day
  *
  * Two kinds of problem fail the check outright and are never Known issues:
  * an Edition failing result-schema.json, and a corpus finding of the
@@ -25,6 +29,7 @@
  *   bun run scripts/check-integrity.js              # check against the ledger
  *   bun run scripts/check-integrity.js --update     # rewrite the ledger
  *   bun run scripts/check-integrity.js --verbose    # list every finding
+ *   bun scripts/report-segment-pace.js              # implausible_pace by severity
  */
 
 import { join } from "node:path";
@@ -32,6 +37,7 @@ import { readCategories } from "./lib/category-reader.js";
 import { editionDocument, SchemaInvalid } from "./lib/edition-document.js";
 import { openLedger } from "./lib/known-issue-ledger.js";
 import { fsRepo } from "./lib/repo.js";
+import { checkPace, describePace } from "./lib/segment-pace.js";
 
 const repoRoot = join(import.meta.dirname, "..");
 const ledgerPath = join(repoRoot, "integrity-baseline.json");
@@ -44,13 +50,25 @@ const repo = fsRepo(repoRoot);
 const corpus = readCategories(repo);
 
 /**
- * @typedef {"header_warnings" | "unknown_status_tokens" | "missing_laps" | "missing_total"} Rule
+ * @typedef {"header_warnings" | "unknown_status_tokens" | "missing_laps" | "missing_total" | "implausible_pace"} Rule
  * @type {Record<string, Record<Rule, number> & { athletes: number }>}
  */
 const results = {};
 const details = [];
 /** @type {string[]} */
 const failures = corpus.findings.map((f) => `${f.kind}: ${f.message}`);
+
+/** Flagged Segment paces per Category key (event/date/category). */
+/** @type {Map<string, string[]>} */
+const paceFlags = new Map();
+for (const check of checkPace(corpus.categories)) {
+  if (check.severity === 0) continue;
+  const list = paceFlags.get(check.category.key) ?? [];
+  list.push(describePace(check));
+  paceFlags.set(check.category.key, list);
+}
+/** @type {Record<string, string>} */
+const paceExamples = {};
 
 for (const { event, edition, categories } of corpus.editions) {
   let built;
@@ -103,6 +121,9 @@ for (const { event, edition, categories } of corpus.editions) {
         `${key}: ${missingTotal} finished athletes with no total time`,
       );
     }
+    const pace = paceFlags.get(category.key) ?? [];
+    if (pace.length > 0) paceExamples[key] = pace[0];
+    if (verbose) for (const p of pace) details.push(`${key}: ${p}`);
 
     results[key] = {
       header_warnings: own.filter((i) => i.kind !== "unknown-status-token")
@@ -112,6 +133,7 @@ for (const { event, edition, categories } of corpus.editions) {
       ).length,
       missing_laps: missingLaps,
       missing_total: missingTotal,
+      implausible_pace: pace.length,
       athletes: athletes.length,
     };
   });
@@ -131,6 +153,7 @@ const RULES = [
   "unknown_status_tokens",
   "missing_laps",
   "missing_total",
+  "implausible_pace",
 ];
 /** @param {Rule | "athletes"} field */
 const total = (field) =>
@@ -141,7 +164,8 @@ console.log(
     `${total("header_warnings")} header warnings, ` +
     `${total("unknown_status_tokens")} unknown status tokens, ` +
     `${total("missing_laps")} missing laps (finished), ` +
-    `${total("missing_total")} missing totals (finished).`,
+    `${total("missing_total")} missing totals (finished), ` +
+    `${total("implausible_pace")} implausible Segment paces.`,
 );
 
 if (details.length > 0) {
@@ -163,7 +187,11 @@ const findingsByRule = {};
 for (const rule of RULES) {
   findingsByRule[rule] = {};
   for (const [key, r] of Object.entries(results)) {
-    findingsByRule[rule][key] = { count: r[rule] };
+    findingsByRule[rule][key] = {
+      count: r[rule],
+      ...(rule === "implausible_pace" &&
+        paceExamples[key] && { example: paceExamples[key] }),
+    };
   }
 }
 const drift = ledger.check(findingsByRule);
