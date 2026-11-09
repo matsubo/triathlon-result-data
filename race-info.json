@@ -37648,7 +37648,7 @@
               "result_tsv": "master/2026/kaike/default.tsv",
               "name": "Aタイプ（ロング）",
               "distance": "LD",
-              "description": "第44回全日本トライアスロン皆生大会 個人の部Aタイプ",
+              "description": "第44回全日本トライアスロン皆生大会 個人の部Aタイプ。熱中症対策としてランを40kmから35kmに短縮（スイム3km、バイク140km）。",
               "segments": [
                 {
                   "sport": "swim",
@@ -37688,7 +37688,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 40,
+                  "distance": 35,
                   "columns": [
                     {
                       "header": "ﾗﾝﾗｯﾌﾟ",
@@ -37874,7 +37874,7 @@
               "result_tsv": "master/2025/kaike/default.tsv",
               "name": "Aタイプ（ロング）",
               "distance": "LD",
-              "description": "2025年第19回全日本トライアスロン皆生大会。鳥取県米子市を舞台に、スイム3km、バイク140km、ラン40kmのオリンピックディスタンスで開催。美しい海と自然に囲まれたコースが魅力の大会です。",
+              "description": "2025年第19回全日本トライアスロン皆生大会。鳥取県米子市を舞台に、スイム3km、バイク140km、ラン40kmのロングディスタンスで開催。美しい海と自然に囲まれたコースが魅力の大会です。",
               "segments": [
                 {
                   "sport": "swim",
@@ -38108,7 +38108,7 @@
               "result_tsv": "master/2024/kaike/result.tsv",
               "name": "皆生トライアスロン LD",
               "distance": "LD",
-              "description": "2024年皆生トライアスロン",
+              "description": "2024年皆生トライアスロン。スイム3km、バイク140km、ラン40km。",
               "segments": [
                 {
                   "sport": "swim",
@@ -38126,7 +38126,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 160,
+                  "distance": 140,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -38148,7 +38148,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 42.195,
+                  "distance": 40,
                   "columns": [
                     {
                       "header": "ﾗﾝﾗｯﾌﾟ",
@@ -38220,7 +38220,7 @@
               "result_tsv": "master/2023/kaike/result.tsv",
               "name": "皆生トライアスロン LD",
               "distance": "LD",
-              "description": "2023年皆生トライアスロン",
+              "description": "2023年皆生トライアスロン。スイム3km、バイク140km、ラン40km。",
               "segments": [
                 {
                   "sport": "swim",
@@ -38238,7 +38238,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 160,
+                  "distance": 140,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -38260,7 +38260,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 42.195,
+                  "distance": 40,
                   "columns": [
                     {
                       "header": "ﾗﾝﾗｯﾌﾟ",
@@ -38336,11 +38336,11 @@
               "result_tsv": "master/2022/kaike/result.tsv",
               "name": "皆生トライアスロン LD",
               "distance": "LD",
-              "description": "2022年全日本トライアスロン皆生大会。鳥取県米子市を舞台にしたロングディスタンス大会（スイム3km/バイク160km/ラン42.195km）。",
+              "description": "2022年全日本トライアスロン皆生大会。鳥取県米子市を舞台にしたロングディスタンス大会。新型コロナ対策でバイク115km、ラン32kmに短縮して開催し、当日は高波のためスイム（3km）が中止となり、代わりに第1ラン6.9kmを実施（スイムラップ欄は第1ランの記録）。",
               "segments": [
                 {
-                  "sport": "swim",
-                  "distance": 3,
+                  "sport": "run",
+                  "distance": 6.9,
                   "columns": [
                     {
                       "header": "スイムラップ",
@@ -38354,7 +38354,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 160,
+                  "distance": 115,
                   "columns": [
                     {
                       "header": "バイクラップ",
@@ -38368,7 +38368,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 42.195,
+                  "distance": 32,
                   "columns": [
                     {
                       "header": "ランラップ",

@@ -320,6 +320,22 @@
       "segment": "1 swim",
       "reason": "The race-day result gives the full 「スイム750m（375m×2周）」 with no shortening noted; the leaders' 7:30 swims point to a fast (current-assisted) sea course, not a published change. No race-day source gives another distance.",
       "source": "https://www.jtu.or.jp/news/2023/08/07/53256/"
+    },
+    {
+      "event": "kaike",
+      "date": "2025-07-20",
+      "category": "kaike_b",
+      "segment": "3 run",
+      "reason": "Full 23 km run (new B type) in extreme heat, over 36 °C; many walked and only 66.6% of B starters finished. 9:34/km is genuine.",
+      "source": "https://bodyworks.blog.jp/archives/29228287.html"
+    },
+    {
+      "event": "kaike",
+      "date": "2026-07-19",
+      "category": "kaike_b",
+      "segment": "3 run",
+      "reason": "B-type distances unchanged from 2025 (「Bタイプ(セミロング)の距離は前年同様です」, run 23 km) and another 「灼熱の皆生」 day (33.9 °C); 9:50/km is genuine.",
+      "source": "https://www.kaike-triathlon.com/?p=5969"
     }
   ]
 }
