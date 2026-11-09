@@ -158890,11 +158890,11 @@
               "result_tsv": "master/2017/im703_chattanooga_2017/default.tsv",
               "name": "Half Distance",
               "distance": "MD",
-              "description": "IRONMAN 70.3 Chattanooga",
+              "description": "IRONMAN 70.3 Chattanooga. Age-group swim shortened to about 0.8 miles (1.3 km, downstream only) after storms the night before; PROs swam the full 1.9 km; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 1.3,
                   "columns": [
                     {
                       "header": "Swim",
@@ -159066,11 +159066,11 @@
               "result_tsv": "master/2019/im703_chattanooga_2019/default.tsv",
               "name": "Half Distance",
               "distance": "MD",
-              "description": "IRONMAN 70.3 Chattanooga",
+              "description": "IRONMAN 70.3 Chattanooga. Age-group swim shortened to 0.75 miles (1.2 km, downstream only) after storms; PROs swam the full 1.9 km; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 1.2,
                   "columns": [
                     {
                       "header": "Swim",
@@ -169470,11 +169470,11 @@
               "result_tsv": "master/2024/im703_mont_tremblant_2024/default.tsv",
               "name": "Half Distance",
               "distance": "MD",
-              "description": "IRONMAN 70.3 Mont Tremblant",
+              "description": "IRONMAN 70.3 Mont Tremblant. Swim shortened to 0.727 miles (1,170 m) due to wind at the far end of the course; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 1.17,
                   "columns": [
                     {
                       "header": "Swim",
@@ -180395,11 +180395,11 @@
               "result_tsv": "master/2026/im703_lapu_lapu_2026/default.tsv",
               "name": "Half Distance",
               "distance": "MD",
-              "description": "2026 IRONMAN 70.3 Lapu-Lapu",
+              "description": "2026 IRONMAN 70.3 Lapu-Lapu. Age-group swim shortened to 1 km due to strong currents; PROs swam the full 1.9 km; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 1,
                   "columns": [
                     {
                       "header": "Swim",
@@ -195668,11 +195668,11 @@
               "result_tsv": "master/2024/im703_kenting_2024/default.tsv",
               "name": "Half Distance",
               "distance": "MD",
-              "description": "IRONMAN 70.3 Kenting",
+              "description": "IRONMAN 70.3 Kenting. Swim shortened to one 950 m lap because Typhoon Krathon damaged the beach; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 0.95,
                   "columns": [
                     {
                       "header": "Swim",
@@ -196200,11 +196200,11 @@
               "result_tsv": "master/2023/im703_melbourne_2023/default.tsv",
               "name": "Half Distance",
               "distance": "MD",
-              "description": "IRONMAN 70.3 Melbourne",
+              "description": "IRONMAN 70.3 Melbourne. Swim shortened to 900 m due to wind; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 0.9,
                   "columns": [
                     {
                       "header": "Swim",
@@ -235164,11 +235164,11 @@
               "result_tsv": "master/2025/im703_rio_de_janeiro_2025/default.tsv",
               "name": "70.3",
               "distance": "MD",
-              "description": "2025 IRONMAN 70.3 Rio de Janeiro",
+              "description": "2025 IRONMAN 70.3 Rio de Janeiro. Swim shortened to about 1,000 m; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 1,
                   "columns": [
                     {
                       "header": "Swim",
@@ -245072,11 +245072,11 @@
               "result_tsv": "master/2026/im703_desaru_coast_2026/default.tsv",
               "name": "70.3",
               "distance": "MD",
-              "description": "2026 IRONMAN 70.3 Desaru Coast",
+              "description": "2026 IRONMAN 70.3 Desaru Coast. Swim shortened to 1 km due to strong waves and currents; bike and run held as planned.",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 1.9,
+                  "distance": 1,
                   "columns": [
                     {
                       "header": "Swim",
