@@ -15946,7 +15946,7 @@
               "result_tsv": "master/2025/fukuyama/short.tsv",
               "name": "オリンピックディスタンス",
               "distance": "OD",
-              "description": "2025年福山鞆の浦トライアスロン。国の重要伝統的建造物群保存地区に選定された風光明媚な鞆の浦を舞台に、スイム1.5km、バイク40km、ラン10kmのコースに挑戦します。",
+              "description": "2025年福山かわまちトライアスロン スタンダード。広島県福山市芦田川かわまち広場・エフピコアリーナ周辺特設コース。スイム1.5km（750m×2周）、バイク40km（10km×4周）、ラン10km。",
               "segments": [
                 {
                   "sport": "swim",
@@ -68735,7 +68735,7 @@
           ]
         },
         {
-          "date": "2025-09-21",
+          "date": "2025-09-28",
           "weather_file": "master/2025/komatsu_tetsujin/weather-data.json",
           "categories": [
             {
