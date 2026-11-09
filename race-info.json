@@ -50541,7 +50541,7 @@
               "result_tsv": "master/2023/yokohama_hakkeijima/sprint_s250.tsv",
               "name": "スプリントS250",
               "distance": "SD",
-              "description": "2023年横浜八景島トライアスロン大会スプリントS250。スイム250m、バイク10km、ラン2.5km。",
+              "description": "2023年横浜八景島トライアスロン大会スプリントS250。スイム250m（0.25km×1周）、バイク20km（5.0km×4周）、ラン5km（2.5km×2周）。",
               "segments": [
                 {
                   "sport": "swim",
@@ -50559,7 +50559,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 10,
+                  "distance": 20,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -50581,7 +50581,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 2.5,
+                  "distance": 5,
                   "columns": [
                     {
                       "header": "ﾗﾝﾗｯﾌﾟ",
@@ -67075,11 +67075,11 @@
               "result_tsv": "master/2009/komatsu_tetsujin/tetsujin.tsv",
               "name": "鉄人の部",
               "distance": "OTHER",
-              "description": "2009年小松鉄人レース鉄人の部。バイク、ゆるぎ山登山、バイク、ランの4種目で競う過酷なレース。",
+              "description": "2009年小松鉄人レース鉄人の部。バイク、ゆるぎ山登山、バイク、ランの4種目で競う過酷なレース。バイク40km・登山10km・バイク20km・ラン20km（2014年・2019年と同じ構成）。当日の距離は公表なし、タイム中央値からの推定。",
               "segments": [
                 {
                   "sport": "bike",
-                  "distance": 45,
+                  "distance": 40,
                   "columns": [
                     {
                       "header": "1stﾊﾞｲｸ",
@@ -67107,7 +67107,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 45,
+                  "distance": 20,
                   "columns": [
                     {
                       "header": "2ndﾊﾞｲｸ",
@@ -67185,11 +67185,11 @@
               "result_tsv": "master/2014/komatsu_tetsujin/tetsujin.tsv",
               "name": "鉄人の部",
               "distance": "OTHER",
-              "description": "2014年小松鉄人レース鉄人の部。バイク、ゆるぎ山登山、バイク、ランの4種目で競う過酷なレース。",
+              "description": "2014年小松鉄人レース鉄人の部。バイク、ゆるぎ山登山、バイク、ランの4種目で競う過酷なレース。バイク40km・登山10km・バイク20km・ラン20km。",
               "segments": [
                 {
                   "sport": "bike",
-                  "distance": 45,
+                  "distance": 40,
                   "columns": [
                     {
                       "header": "1stﾊﾞｲｸ",
@@ -67217,7 +67217,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 45,
+                  "distance": 20,
                   "columns": [
                     {
                       "header": "2ndﾊﾞｲｸ",
@@ -67639,11 +67639,11 @@
               "result_tsv": "master/2019/komatsu_tetsujin/tetsujin.tsv",
               "name": "鉄人の部",
               "distance": "OTHER",
-              "description": "2019年小松鉄人レース鉄人の部。バイク、ゆるぎ山登山、バイク、ランの4種目で競う。",
+              "description": "2019年小松鉄人レース鉄人の部。バイク、ゆるぎ山登山、バイク、ランの4種目で競う。バイク40km・登山10km・バイク20km・ラン20km。",
               "segments": [
                 {
                   "sport": "bike",
-                  "distance": 45,
+                  "distance": 40,
                   "columns": [
                     {
                       "header": "1stバイク",
@@ -67671,7 +67671,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 45,
+                  "distance": 20,
                   "columns": [
                     {
                       "header": "2ndバイク",
@@ -68187,11 +68187,11 @@
               "result_tsv": "master/2023/komatsu_tetsujin/tetsujin.tsv",
               "name": "鉄人の部",
               "distance": "OTHER",
-              "description": "2023年小松鉄人レース鉄人の部。バイク、ゆるぎ山登山、バイク、ランの4種目で競う。",
+              "description": "2023年小松鉄人レース鉄人の部。バイク、ゆるぎ山登山、バイク、ランの4種目で競う。バイク40km・登山7km（10kmから変更）・バイク20km・ラン20km。",
               "segments": [
                 {
                   "sport": "bike",
-                  "distance": 45,
+                  "distance": 40,
                   "columns": [
                     {
                       "header": "1stバイク",
@@ -68205,7 +68205,7 @@
                 },
                 {
                   "sport": "trail_running",
-                  "distance": 10,
+                  "distance": 7,
                   "columns": [
                     {
                       "header": "登山",
@@ -68219,7 +68219,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 45,
+                  "distance": 20,
                   "columns": [
                     {
                       "header": "2ndバイク",
@@ -87328,7 +87328,7 @@
       "source": "https://izu-tri.jp/",
       "editions": [
         {
-          "date": "2024-10-13",
+          "date": "2024-06-08",
           "weather_file": "master/2024/izuoshima/weather-data.json",
           "categories": [
             {
@@ -87538,7 +87538,7 @@
           ]
         },
         {
-          "date": "2023-10-15",
+          "date": "2023-06-10",
           "weather_file": "master/2023/izuoshima/weather-data.json",
           "categories": [
             {
@@ -87748,7 +87748,7 @@
           ]
         },
         {
-          "date": "2022-10-16",
+          "date": "2022-06-04",
           "weather_file": "master/2022/izuoshima/weather-data.json",
           "categories": [
             {
@@ -87958,7 +87958,7 @@
           ]
         },
         {
-          "date": "2019-10-13",
+          "date": "2019-06-08",
           "weather_file": "master/2019/izuoshima/weather-data.json",
           "categories": [
             {
@@ -88142,7 +88142,7 @@
           ]
         },
         {
-          "date": "2018-10-14",
+          "date": "2018-06-09",
           "weather_file": "master/2018/izuoshima/weather-data.json",
           "categories": [
             {
@@ -88352,15 +88352,15 @@
           ]
         },
         {
-          "date": "2017-10-08",
+          "date": "2017-06-10",
           "weather_file": "master/2017/izuoshima/weather-data.json",
           "categories": [
             {
               "id": "izuoshima",
               "result_tsv": "master/2017/izuoshima/default.tsv",
               "name": "伊豆大島トライアスロン",
-              "distance": "DUATHLON",
-              "description": "2017年 伊豆大島トライアスロン",
+              "distance": "OD",
+              "description": "2017年 伊豆大島トライアスロン。強風のため当日スイムが中止され第1ラン5kmに変更、ラン5km・バイク・ラン10kmで実施。",
               "segments": [
                 {
                   "sport": "run",
@@ -88461,12 +88461,12 @@
               "id": "izuoshima_sprint",
               "result_tsv": "master/2017/izuoshima/sprint.tsv",
               "name": "スプリントディスタンス",
-              "distance": "DUATHLON",
-              "description": "2017年 スプリントディスタンス",
+              "distance": "SD",
+              "description": "2017年 スプリントディスタンス。強風のため当日スイムが中止され第1ランに変更（約5km）、バイク20km・ラン5kmで実施。第1ランの距離は公表なし、タイム中央値からの推定。",
               "segments": [
                 {
                   "sport": "run",
-                  "distance": 2.5,
+                  "distance": 5,
                   "columns": [
                     {
                       "header": "第1ランラップ",
@@ -88562,7 +88562,7 @@
           ]
         },
         {
-          "date": "2016-10-09",
+          "date": "2016-06-04",
           "weather_file": "master/2016/izuoshima/weather-data.json",
           "categories": [
             {
@@ -88764,7 +88764,7 @@
           ]
         },
         {
-          "date": "2015-10-11",
+          "date": "2015-06-06",
           "weather_file": "master/2015/izuoshima/weather-data.json",
           "categories": [
             {
