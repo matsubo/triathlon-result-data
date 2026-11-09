@@ -19,7 +19,7 @@ One result table within an Edition: a distance or division with its own course a
 _Avoid_: program (JTU's word), subevent (IRONMAN's word), division, race
 
 **Distance class**:
-The size class of a Category: LD, MD, OD, SD, SS, DUATHLON, AQUATHLON or OTHER.
+The size class of a Category: LD, MD, OD, SD, SS, DUATHLON, AQUATHLON or OTHER. It records the format the race was entered and held as: a race shortened or changed on the day keeps its class (an OD with a shortened swim stays OD), and its Segments record the distances as raced. The class changes only when the Category was recorded under the wrong format altogether.
 _Avoid_: distance (on its own; that means a Segment's kilometres), format
 
 **Segment**:
