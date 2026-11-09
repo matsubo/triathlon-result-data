@@ -39350,11 +39350,11 @@
               "result_tsv": "master/2026/nagaragawa_kokusai/default.tsv",
               "name": "スタンダード",
               "distance": "SD",
-              "description": "2026年長良川国際トライアスロン大会。岐阜県海津市の国営木曽三川公園を舞台に、スイム750m、バイク30km、ラン6kmのスタンダードディスタンスで開催。自然豊かな環境の中で行われる大会です。",
+              "description": "2026年長良川国際トライアスロン大会。岐阜県海津市の国営木曽三川公園を舞台に、スイム1.5km、バイク30km、ラン6kmのスタンダードディスタンスで開催（JTUリザルトのコース注記）。自然豊かな環境の中で行われる大会です。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 0.75,
+                  "distance": 1.5,
                   "columns": [
                     {
                       "header": "スイムラップ",
@@ -39464,7 +39464,7 @@
               "result_tsv": "master/2026/nagaragawa_kokusai/sprint.tsv",
               "name": "スプリント",
               "distance": "SD",
-              "description": "2026年長良川国際トライアスロン大会。岐阜県海津市の国営木曽三川公園を舞台に、スイム750m、バイク20km、ラン4kmのスプリントディスタンスで開催。自然豊かな環境の中で行われる大会です。",
+              "description": "2026年長良川国際トライアスロン大会。岐阜県海津市の国営木曽三川公園を舞台に、スイム750m、バイク15km、ラン3kmのスプリントディスタンスで開催（JTUリザルトのコース注記）。自然豊かな環境の中で行われる大会です。",
               "segments": [
                 {
                   "sport": "swim",
@@ -39486,7 +39486,7 @@
                 },
                 {
                   "sport": "bike",
-                  "distance": 20,
+                  "distance": 15,
                   "columns": [
                     {
                       "header": "ﾊﾞｲｸﾗｯﾌﾟ",
@@ -39500,7 +39500,7 @@
                 },
                 {
                   "sport": "run",
-                  "distance": 4,
+                  "distance": 3,
                   "columns": [
                     {
                       "header": "ﾗﾝﾗｯﾌﾟ",
@@ -39576,11 +39576,11 @@
               "result_tsv": "master/2025/nagaragawa_kokusai/default.tsv",
               "name": "スタンダード",
               "distance": "SD",
-              "description": "2025年長良川国際トライアスロン大会。岐阜県海津市の国営木曽三川公園を舞台に、スイム750m、バイク30km、ラン6kmのスタンダードディスタンスで開催。自然豊かな環境の中で行われる大会です。",
+              "description": "2025年長良川国際トライアスロン大会。岐阜県海津市の国営木曽三川公園を舞台に、スイム1.5km（750m×2周）、バイク30km、ラン6kmのスタンダードディスタンスで開催。JTUリザルトのコース注記は「スイム : 0.75km (2周回)」だが、2周回で1.5km（2026年の同じ2周回コースの注記は1.5km、タイム中央値も一致）。自然豊かな環境の中で行われる大会です。",
               "segments": [
                 {
                   "sport": "swim",
-                  "distance": 0.75,
+                  "distance": 1.5,
                   "columns": [
                     {
                       "header": "スイムラップ",
