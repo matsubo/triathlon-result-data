@@ -125771,12 +125771,7 @@
                 {
                   "sport": "run",
                   "distance": 42.195,
-                  "columns": [
-                    {
-                      "header": "Run",
-                      "role": "lap"
-                    }
-                  ]
+                  "columns": []
                 }
               ],
               "meta_columns": [
