@@ -144551,6 +144551,94 @@
       "source": "https://www.coachcox.co.uk/imstats/race/2465/results/",
       "editions": [
         {
+          "date": "2026-11-07",
+          "weather_file": "master/2026/ironman_florida_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "ironman_florida_2026",
+              "result_tsv": "master/2026/ironman_florida_2026/default.tsv",
+              "name": "Full Distance",
+              "distance": "LD",
+              "description": "IRONMAN Florida 2026. Panama City Beach, Florida, USA.",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 3.8,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 180.2,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 42.195,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null,
+              "source_ref": {
+                "results_source": "ironman",
+                "id": "b46acafa-1a50-4aab-9b39-b1cf344ac41e"
+              }
+            }
+          ]
+        },
+        {
           "date": "2025-11-01",
           "weather_file": "master/2025/ironman_florida_2025/weather-data.json",
           "categories": [
@@ -196127,6 +196215,94 @@
       "source": "https://www.coachcox.co.uk/imstats/race/2619/results/",
       "editions": [
         {
+          "date": "2026-11-08",
+          "weather_file": "master/2026/im703_melbourne_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_melbourne_2026",
+              "result_tsv": "master/2026/im703_melbourne_2026/default.tsv",
+              "name": "Half Distance",
+              "distance": "MD",
+              "description": "IRONMAN 70.3 Melbourne 2026. Melbourne, Australia.",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null,
+              "source_ref": {
+                "results_source": "ironman",
+                "id": "1060c5a3-296c-445c-9c20-0744cd938d1c"
+              }
+            }
+          ]
+        },
+        {
           "date": "2025-11-09",
           "weather_file": "master/2025/im703_melbourne_2025/weather-data.json",
           "categories": [
@@ -211175,6 +211351,94 @@
       "image": "images/im703_campeche.webp",
       "source": "https://www.coachcox.co.uk/imstats/series/83/",
       "editions": [
+        {
+          "date": "2026-11-08",
+          "weather_file": "master/2026/im703_campeche_2026/weather-data.json",
+          "categories": [
+            {
+              "id": "im703_campeche_2026",
+              "result_tsv": "master/2026/im703_campeche_2026/default.tsv",
+              "name": "Half Distance",
+              "distance": "MD",
+              "description": "IRONMAN 70.3 Campeche 2026. Campeche.",
+              "segments": [
+                {
+                  "sport": "swim",
+                  "distance": 1.9,
+                  "columns": [
+                    {
+                      "header": "Swim",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "bike",
+                  "distance": 90,
+                  "columns": [
+                    {
+                      "header": "Bike",
+                      "role": "lap"
+                    }
+                  ]
+                },
+                {
+                  "sport": "run",
+                  "distance": 21.1,
+                  "columns": [
+                    {
+                      "header": "Run",
+                      "role": "lap"
+                    }
+                  ]
+                }
+              ],
+              "meta_columns": [
+                {
+                  "header": "ContactId",
+                  "role": "athlete_id"
+                },
+                {
+                  "header": "Overall_Rank",
+                  "role": "overall_rank"
+                },
+                {
+                  "header": "Name",
+                  "role": "name"
+                },
+                {
+                  "header": "Gender",
+                  "role": "gender"
+                },
+                {
+                  "header": "Division",
+                  "role": "age_category"
+                },
+                {
+                  "header": "Div_Rank",
+                  "role": "age_rank"
+                },
+                {
+                  "header": "Total_Time",
+                  "role": "total_time"
+                },
+                {
+                  "header": "Country",
+                  "role": "residence"
+                },
+                {
+                  "header": "Status",
+                  "role": "status"
+                }
+              ],
+              "source_url": null,
+              "source_ref": {
+                "results_source": "ironman",
+                "id": "121381fa-e093-44e1-b3ee-5083bd95db74"
+              }
+            }
+          ]
+        },
         {
           "date": "2025-03-16",
           "weather_file": "master/2025/im703_campeche_2025/weather-data.json",
