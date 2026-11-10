@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Goa",
+  "location": "Goa, India",
+  "location_parts": {
+    "country": "IN",
+    "region": "Goa"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2607/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Baga_Beach_25012016.jpg",
+    "author": "Nikhilb239",
+    "license": "CC BY 3.0"
+  }
+}

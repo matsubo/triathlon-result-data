@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Auckland",
+  "location": "Auckland",
+  "location_parts": {
+    "country": "NZ",
+    "city": "Auckland"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/225/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Auckland_skyline_from_harbour.png",
+    "author": "WBPchur",
+    "license": "CC BY-SA 4.0"
+  }
+}

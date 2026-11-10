@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Poznan",
+  "location": "Poznan, Poland",
+  "location_parts": {
+    "country": "PL",
+    "city": "Poznań"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2632/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3APoznan_old_town_2015.JPG",
+    "author": "MOs810",
+    "license": "CC BY-SA 4.0"
+  }
+}

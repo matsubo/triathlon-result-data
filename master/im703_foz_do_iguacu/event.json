@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Foz do Iguacu",
+  "location": "Foz do Iguacu",
+  "location_parts": {
+    "country": "BR",
+    "region": "Paraná",
+    "city": "Foz do Iguaçu"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/233/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Cataratas027.jpg",
+    "author": "Anouchka Unel (Kremtak)",
+    "license": "FAL"
+  }
+}

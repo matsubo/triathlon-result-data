@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Salalah",
+  "location": "Salalah, Oman",
+  "location_parts": {
+    "country": "OM",
+    "region": "Dhofar",
+    "city": "Salalah"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2635/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AIttin_Mountain_Road_in_Salalah%2C_Dhofar_Governorate%2C_Southern_Oman_%28March_2014%29.jpg",
+    "author": "Juozas Šalna",
+    "license": "CC BY 2.0"
+  }
+}

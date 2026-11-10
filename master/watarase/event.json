@@ -1,0 +1,15 @@
+{
+  "name": "東京都トライアスロン渡良瀬大会",
+  "location": "渡良瀬遊水地",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "栃木県",
+    "venue": "渡良瀬遊水地"
+  },
+  "source": "https://www.sportsentry.ne.jp/event/t/75005",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Watarase-Yusuichi.jpg",
+    "author": "MaedaAkihiko",
+    "license": "CC BY-SA 4.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Lombok",
+  "location": "Lombok",
+  "location_parts": {
+    "country": "ID",
+    "city": "Lombok"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/262/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Clouds_over_Lombok_Strait,_Gili_Islands,_West_Nusa_Tenggara,_Indonesia.jpg",
+    "author": "Vyacheslav Argenberg",
+    "license": "CC BY 4.0"
+  }
+}

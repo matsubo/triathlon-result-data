@@ -1,0 +1,69 @@
+{
+  "categories": [
+    {
+      "id": "miyazaki_seagaia",
+      "name": "宮崎シーガイアトライアスロン",
+      "distance": "OD",
+      "description": "2018年 宮崎シーガイアトライアスロン",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "SWIM",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "BIKE",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "RUN",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "レースNo.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名（漢字）",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "所属（地区）",
+          "role": "residence"
+        },
+        {
+          "header": "TOTAL",
+          "role": "total_time"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

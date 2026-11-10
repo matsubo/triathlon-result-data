@@ -8,7 +8,7 @@
   "properties": {
     "events": {
       "type": "array",
-      "description": "New Events only. An Event already in race-info.json is referenced by id from editions[].event.",
+      "description": "New Events only. An existing Event (master/<id>/event.json) is referenced by id from editions[].event. The Event image must already be at master/<id>/image.webp.",
       "items": { "$ref": "#/definitions/NewEvent" }
     },
     "editions": {
@@ -38,7 +38,6 @@
       "type": "string",
       "enum": ["swim", "bike", "run", "trail_running"]
     },
-    "TsvFile": { "type": "string", "pattern": "^[A-Za-z0-9_.-]+\\.tsv$" },
     "Segments": {
       "type": "array",
       "description": "Which Segments exist, in course order, with their km. Omit a Segment (e.g. swim) when it was cancelled.",
@@ -56,7 +55,7 @@
     "NewEvent": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["id", "name", "location_parts", "image", "source"],
+      "required": ["id", "name", "location_parts", "source"],
       "properties": {
         "id": { "$ref": "#/definitions/Id" },
         "name": { "type": "string", "minLength": 1 },
@@ -74,14 +73,10 @@
           }
         },
         "description": { "type": "string" },
-        "image": {
-          "type": "string",
-          "pattern": "^images/[A-Za-z0-9_.-]+\\.webp$"
-        },
         "source": { "type": "string", "pattern": "^https?://" },
-        "insert_before": {
-          "description": "Id of an existing Event the new Event is inserted before; appended when absent.",
-          "$ref": "#/definitions/Id"
+        "image_source": {
+          "type": "object",
+          "description": "Credit of master/<id>/image.webp, written to event.json; checked against event-schema.json"
         }
       }
     },
@@ -133,14 +128,13 @@
     },
     "JtuProgram": {
       "type": "object",
-      "description": "One JTU program = one Category. id / file / name default from the previous Edition's only Category of the same Distance class.",
+      "description": "One JTU program = one Category. id / name default from the previous Edition's only Category of the same Distance class. The result TSV is <id>.tsv in the Edition directory.",
       "additionalProperties": false,
       "required": ["program", "distance", "description"],
       "properties": {
         "program": { "type": "string", "pattern": "^[0-9]+_[0-9]+$" },
         "distance": { "$ref": "#/definitions/Distance" },
         "id": { "$ref": "#/definitions/Id" },
-        "file": { "$ref": "#/definitions/TsvFile" },
         "name": { "type": "string", "minLength": 1 },
         "description": { "type": "string" },
         "segments": { "$ref": "#/definitions/Segments" },
@@ -172,7 +166,6 @@
       "required": [
         "tsv",
         "id",
-        "file",
         "name",
         "distance",
         "description",
@@ -182,7 +175,6 @@
       "properties": {
         "tsv": { "type": "string", "description": "Path of the prepared TSV" },
         "id": { "$ref": "#/definitions/Id" },
-        "file": { "$ref": "#/definitions/TsvFile" },
         "name": { "type": "string", "minLength": 1 },
         "distance": { "$ref": "#/definitions/Distance" },
         "description": { "type": "string" },
@@ -233,11 +225,6 @@
           "type": "array",
           "minItems": 1,
           "items": { "$ref": "#/definitions/Prepared" }
-        },
-        "weather": {
-          "type": "boolean",
-          "default": true,
-          "description": "Write the weather_file reference (<dir>/weather-data.json). The file itself is generated separately."
         }
       },
       "if": {
@@ -247,11 +234,7 @@
       "then": {
         "description": "Refetch re-reads each Category's source_ref; only JTU column options may be given.",
         "not": {
-          "anyOf": [
-            { "required": ["ironman"] },
-            { "required": ["prepared"] },
-            { "required": ["weather"] }
-          ]
+          "anyOf": [{ "required": ["ironman"] }, { "required": ["prepared"] }]
         },
         "properties": {
           "jtu": { "items": { "$ref": "#/definitions/JtuRefetch" } }

@@ -3,7 +3,6 @@ import { dirname, join, resolve } from "node:path";
 import { describe, test, expect } from "bun:test";
 
 const repoRoot = resolve(import.meta.dirname, "..");
-const raceInfoPath = join(repoRoot, "race-info.json");
 
 function getAllJsonFiles(dir: string): string[] {
   const files: string[] = [];
@@ -50,37 +49,5 @@ describe("JSON Validity", () => {
     }
 
     expect(errors).toEqual([]);
-  }, 30000); // scans + parses every JSON file (incl. the multi-MB race-info.json); the 5s default is too tight as the dataset grows
-
-  test("All image and weather paths referenced in race-info.json exist", () => {
-    // result_tsv paths: missing-tsv findings in tests/tsv-lint.test.ts
-    const content = readFileSync(raceInfoPath, "utf-8");
-    const info = JSON.parse(content);
-    const missing: string[] = [];
-
-    for (const event of info.events || []) {
-      const image = event.image;
-      if (image) {
-        try {
-          statSync(join(repoRoot, image));
-        } catch {
-          missing.push(image);
-        }
-      }
-
-      for (const edition of event.editions || []) {
-        const weather = edition.weather_file;
-        if (weather) {
-          try {
-            statSync(join(repoRoot, weather));
-          } catch {
-            missing.push(weather);
-          }
-        }
-      }
-    }
-
-    const uniqueMissing = [...new Set(missing)].sort();
-    expect(uniqueMissing).toEqual([]);
-  });
+  }, 30000); // scans + parses every JSON file (thousands of event.json / edition.json / weather-data.json); the 5s default is too tight
 });

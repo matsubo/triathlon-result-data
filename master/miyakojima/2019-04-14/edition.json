@@ -1,0 +1,121 @@
+{
+  "categories": [
+    {
+      "id": "miyakojima",
+      "name": "宮古島トライアスロン",
+      "distance": "LD",
+      "description": "2019年大会。コロナ禍前最後のフルディスタンス開催。熱い戦いが繰り広げられました。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 3,
+          "columns": [
+            {
+              "header": "ｽｲﾑﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "スイム折返",
+              "role": "checkpoint"
+            },
+            {
+              "header": "スイムF",
+              "role": "checkpoint"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 157,
+          "columns": [
+            {
+              "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "バイクS",
+              "role": "checkpoint"
+            },
+            {
+              "header": "伊良部島30km",
+              "role": "checkpoint"
+            },
+            {
+              "header": "池間島60km",
+              "role": "checkpoint"
+            },
+            {
+              "header": "東平安名崎98km",
+              "role": "checkpoint"
+            },
+            {
+              "header": "バイクF",
+              "role": "checkpoint"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 42.195,
+          "columns": [
+            {
+              "header": "ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "ラン折り返し21km",
+              "role": "checkpoint"
+            },
+            {
+              "header": "ラン30km",
+              "role": "checkpoint"
+            },
+            {
+              "header": "ラン35km",
+              "role": "checkpoint"
+            },
+            {
+              "header": "ランF",
+              "role": "checkpoint"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "居住地",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "備考",
+          "role": "note"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "categories": [
+    {
+      "id": "tokai_block_men",
+      "name": "男子",
+      "distance": "SD",
+      "description": "2021年日本トライアスロン選手権東海ブロック代表選考会 男子（海津市 木曽三川公園）。当日のコースはスイム750m、バイク20km、ラン5km（JTUリザルトのコース注記）。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 0.75,
+          "columns": [
+            {
+              "header": "Swim",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 20,
+          "columns": [
+            {
+              "header": "Bike",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 5,
+          "columns": [
+            {
+              "header": "Run",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "Pos",
+          "role": "overall_rank"
+        },
+        {
+          "header": "StartNum",
+          "role": "bib"
+        },
+        {
+          "header": "Name",
+          "role": "name"
+        },
+        {
+          "header": "Affiliation",
+          "role": "residence"
+        },
+        {
+          "header": "YOB",
+          "role": "age"
+        },
+        {
+          "header": "Time",
+          "role": "total_time"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=117&program_id=117_1",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "117_1"
+      }
+    },
+    {
+      "id": "tokai_block_women",
+      "name": "女子",
+      "distance": "SD",
+      "description": "2021年日本トライアスロン選手権東海ブロック代表選考会 女子（海津市 木曽三川公園）。当日のコースはスイム750m、バイク20km、ラン5km（JTUリザルトのコース注記）。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 0.75,
+          "columns": [
+            {
+              "header": "Swim",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 20,
+          "columns": [
+            {
+              "header": "Bike",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 5,
+          "columns": [
+            {
+              "header": "Run",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "Pos",
+          "role": "overall_rank"
+        },
+        {
+          "header": "StartNum",
+          "role": "bib"
+        },
+        {
+          "header": "Name",
+          "role": "name"
+        },
+        {
+          "header": "Affiliation",
+          "role": "residence"
+        },
+        {
+          "header": "YOB",
+          "role": "age"
+        },
+        {
+          "header": "Time",
+          "role": "total_time"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=117&program_id=117_2",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "117_2"
+      }
+    }
+  ]
+}

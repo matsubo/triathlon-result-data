@@ -1,0 +1,15 @@
+{
+  "name": "LAKE BIWA TRIATHLON",
+  "location": "滋賀県守山市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "滋賀県",
+    "city": "守山市"
+  },
+  "source": "https://lbt.biwako-moriyama.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Top_view_of_Lake_Biwa.jpg",
+    "author": "Alpsdake",
+    "license": "CC BY-SA 4.0"
+  }
+}

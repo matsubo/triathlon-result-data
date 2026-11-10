@@ -1,0 +1,15 @@
+{
+  "name": "館山わかしおトライアスロン",
+  "location": "館山",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "千葉県",
+    "city": "館山市"
+  },
+  "source": "https://www.tateyama-tri.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Beach_in_Shiomi,_Tateyama.jpg",
+    "author": "Pocsywe",
+    "license": "CC BY-SA 3.0"
+  }
+}

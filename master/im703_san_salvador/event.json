@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 San Salvador",
+  "location": "San Salvador",
+  "location_parts": {
+    "country": "SV",
+    "city": "San Salvador"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/407/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AApopa_Alcaldia_San_Salvador_El_Salvador_2012.jpg",
+    "author": "Ll1324",
+    "license": "CC0"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "categories": [
+    {
+      "id": "gamagori_fall",
+      "name": "スプリントディスタンス",
+      "distance": "SD",
+      "description": "2025年蒲郡オレンジトライアスロン大会秋スペシャルエディション。愛知県蒲郡市の美しい海岸線と竹島を望むコースで開催される秋の特別版。秋の穏やかな気候の中、地域の温かい応援に包まれながら蒲郡の魅力を存分に味わえる大会です。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 0.75,
+          "columns": [
+            {
+              "header": "スイムラップ",
+              "role": "lap"
+            },
+            {
+              "header": "S順",
+              "role": "rank"
+            },
+            {
+              "header": "T1",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 20,
+          "columns": [
+            {
+              "header": "バイクラップ",
+              "role": "lap"
+            },
+            {
+              "header": "B順",
+              "role": "rank"
+            },
+            {
+              "header": "スプリット",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 5,
+          "columns": [
+            {
+              "header": "ランラップ",
+              "role": "lap"
+            },
+            {
+              "header": "R順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "居住地",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "年齢区分",
+          "role": "age_category"
+        },
+        {
+          "header": "年齢別順",
+          "role": "age_rank"
+        },
+        {
+          "header": "選手権順",
+          "role": "note"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=361&program_id=361_1",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "361_1"
+      }
+    }
+  ]
+}

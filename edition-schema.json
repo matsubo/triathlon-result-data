@@ -1,0 +1,190 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Edition",
+  "description": "master/<event_id>/<YYYY-MM-DD>/edition.json: the categories of one edition (occurrence) of an event. The date is the directory name; each category's result TSV is <category_id>.tsv beside this file, and the edition has weather exactly when weather-data.json is there too.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["categories"],
+  "properties": {
+    "categories": {
+      "type": "array",
+      "description": "Array of race categories within this edition",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/Category"
+      }
+    }
+  },
+  "definitions": {
+    "DistanceType": {
+      "type": "string",
+      "enum": [
+        "LD",
+        "MD",
+        "OD",
+        "SD",
+        "SS",
+        "DUATHLON",
+        "AQUATHLON",
+        "MARATHON",
+        "OTHER"
+      ],
+      "description": "Race distance/type classification"
+    },
+    "Sport": {
+      "type": "string",
+      "enum": ["swim", "bike", "run", "trail_running"],
+      "description": "Type of sport segment"
+    },
+    "SegmentColumnRole": {
+      "type": "string",
+      "enum": [
+        "lap",
+        "checkpoint",
+        "rank",
+        "transition",
+        "cumulative_time",
+        "cumulative_rank"
+      ],
+      "description": "Semantic role of this column within the segment"
+    },
+    "MetaColumnRole": {
+      "type": "string",
+      "enum": [
+        "overall_rank",
+        "bib",
+        "name",
+        "age",
+        "gender",
+        "residence",
+        "total_time",
+        "gender_rank",
+        "age_category",
+        "age_rank",
+        "penalty",
+        "status",
+        "guide_name",
+        "citizen_rank",
+        "citizen_category",
+        "athlete_id",
+        "championship_rank",
+        "note"
+      ],
+      "description": "Semantic role of this metadata column"
+    },
+    "SegmentColumn": {
+      "type": "object",
+      "required": ["header", "role"],
+      "properties": {
+        "header": {
+          "type": "string",
+          "description": "TSV column header name"
+        },
+        "role": {
+          "$ref": "#/definitions/SegmentColumnRole"
+        }
+      }
+    },
+    "MetaColumn": {
+      "type": "object",
+      "required": ["header", "role"],
+      "properties": {
+        "header": {
+          "type": "string",
+          "description": "TSV column header name"
+        },
+        "role": {
+          "$ref": "#/definitions/MetaColumnRole"
+        }
+      }
+    },
+    "Segment": {
+      "type": "object",
+      "required": ["sport", "distance", "columns"],
+      "properties": {
+        "sport": {
+          "$ref": "#/definitions/Sport"
+        },
+        "distance": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Distance in kilometers"
+        },
+        "columns": {
+          "type": "array",
+          "description": "TSV column names belonging to this segment, in order. Maps denormalized TSV columns (lap times, split times, intermediate checkpoints) to their parent segment.",
+          "minItems": 0,
+          "items": {
+            "$ref": "#/definitions/SegmentColumn"
+          }
+        }
+      }
+    },
+    "Category": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "distance",
+        "segments",
+        "description",
+        "meta_columns"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9_]+$",
+          "description": "Unique identifier of the category within its edition; also the basename of its result TSV (<category_id>.tsv in the edition directory)"
+        },
+        "name": {
+          "type": "string",
+          "description": "Name of the race category in Japanese"
+        },
+        "distance": {
+          "$ref": "#/definitions/DistanceType"
+        },
+        "segments": {
+          "type": "array",
+          "description": "Ordered array of sport segments defining the race format",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/Segment"
+          }
+        },
+        "description": {
+          "type": "string",
+          "description": "Detailed description of the race category in Japanese"
+        },
+        "meta_columns": {
+          "type": "array",
+          "description": "TSV columns for participant metadata, rankings, and status that are not part of any sport segment.",
+          "items": {
+            "$ref": "#/definitions/MetaColumn"
+          }
+        },
+        "source_url": {
+          "type": ["string", "null"],
+          "description": "Canonical URL of the upstream data source for this category's result_tsv (e.g. the JTU result page for the specific program). Null when unknown. Used to detect data-source mismatches/contamination."
+        },
+        "source_ref": {
+          "type": "object",
+          "description": "Source reference: identifies where this category's result_tsv can be re-fetched from (IRONMAN subevent UUID or JTU program id). Provenance metadata; not part of the normalized output.",
+          "additionalProperties": false,
+          "required": ["results_source", "id"],
+          "properties": {
+            "results_source": {
+              "type": "string",
+              "enum": ["ironman", "jtu"],
+              "description": "Results source the id belongs to"
+            },
+            "id": {
+              "type": "string",
+              "description": "IRONMAN subevent UUID (results_source=ironman) or JTU program id such as 436_3 (results_source=jtu)"
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

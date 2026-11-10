@@ -23,7 +23,7 @@ import { readCategories } from "./category-reader.js";
  * @typedef {import("./repo.js").Repo} Repo
  * @typedef {import("./build-athlete.js").Athlete} Athlete
  * @typedef {"unmapped-header" | "missing-tsv" | "unknown-status-token"} IssueKind
- * @typedef {{ categoryId: string | null, kind: IssueKind | "missing-weather", message: string }} Issue
+ * @typedef {{ categoryId: string, kind: IssueKind, message: string }} Issue
  *
  * @typedef {object} DocumentCategory
  * @property {string} id
@@ -116,7 +116,7 @@ export function editionDocument(repo, eventId, dateOrYear) {
     throw new EditionNotFound(
       known
         ? `no edition found for event "${eventId}" in year ${dateOrYear}`
-        : `event "${eventId}" not found in race-info.json`,
+        : `event "${eventId}" not found`,
     );
   }
   if (editions.length > 1) {
@@ -131,19 +131,10 @@ export function editionDocument(repo, eventId, dateOrYear) {
   /** @type {Issue[]} */
   const issues = [];
 
-  let weather = null;
-  if (edition.weather_file) {
-    const text = repo.readText(edition.weather_file);
-    if (text === null) {
-      issues.push({
-        categoryId: null,
-        kind: "missing-weather",
-        message: `weather file not found: ${edition.weather_file}`,
-      });
-    } else {
-      weather = JSON.parse(text);
-    }
-  }
+  const weatherText = edition.weather_file
+    ? repo.readText(edition.weather_file)
+    : null;
+  const weather = weatherText === null ? null : JSON.parse(weatherText);
 
   const documentCategories = categories.map((category) => {
     const { def } = category;
@@ -180,7 +171,7 @@ export function editionDocument(repo, eventId, dateOrYear) {
         issues.push({
           categoryId: def.id,
           kind: "unknown-status-token",
-          message: `Unknown status token "${unknownToken}" in ${def.result_tsv}`,
+          message: `Unknown status token "${unknownToken}" in ${category.tsv}`,
         });
       }
     }

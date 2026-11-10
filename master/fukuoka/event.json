@@ -1,0 +1,16 @@
+{
+  "name": "福岡トライアスロン",
+  "location": "福岡県福岡市東区志賀島一帯",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "福岡県",
+    "city": "福岡市",
+    "venue": "東区志賀島一帯"
+  },
+  "source": "https://fukuoka-triathlon.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Shikanoshima_aerial_shoot.jpg",
+    "author": "Hideyuki KAMON",
+    "license": "CC BY-SA"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN Tallinn",
+  "location": "Tallinn, Estonia",
+  "location_parts": {
+    "country": "EE",
+    "city": "Tallinn"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2452/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Old_town_of_Tallinn_06-03-2012.jpg",
+    "author": "Ivar Leidus",
+    "license": "CC BY-SA 3.0 ee"
+  }
+}

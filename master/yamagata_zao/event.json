@@ -1,0 +1,16 @@
+{
+  "name": "おもてなし山形トライアスロンin ZAO",
+  "location": "山形市 蔵王温泉",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "山形県",
+    "city": "山形市",
+    "venue": "蔵王温泉"
+  },
+  "source": "https://www.yamagatatri.com/zao",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Okama_crater_lake,_Mt._Zao,_Tohoku_region,_Japan_(north_facing_view).jpg",
+    "author": "OKJaguar",
+    "license": "CC BY-SA 4.0"
+  }
+}

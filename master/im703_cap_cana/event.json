@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Cap Cana",
+  "location": "Cap Cana",
+  "location_parts": {
+    "country": "DO",
+    "region": "La Altagracia",
+    "city": "Punta Cana"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/390/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Cap_Cana_Marina_Dominican_Republic.jpg",
+    "author": "https://www.flickr.com/photos/uira/",
+    "license": "CC BY-SA 2.0"
+  }
+}

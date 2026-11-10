@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN Brazil",
+  "location": "Florianopolis, Brazil",
+  "location_parts": {
+    "country": "BR"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2188/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Floripa_Ponte_Herc%C3%ADlio_Luz.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0"
+  }
+}

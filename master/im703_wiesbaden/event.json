@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Wiesbaden",
+  "location": "Wiesbaden",
+  "location_parts": {
+    "country": "DE",
+    "region": "Hesse",
+    "city": "Wiesbaden"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/249/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Bowling_Green_%26_Kurhaus_Wiesbaden.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0"
+  }
+}

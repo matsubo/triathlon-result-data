@@ -1,0 +1,166 @@
+{
+  "categories": [
+    {
+      "id": "japan_championship_men_2025",
+      "name": "エリート男子",
+      "distance": "OD",
+      "description": "2025年第31回日本トライアスロン選手権・第15回日本U23トライアスロン選手権（東京・台場）エリート男子。お台場海浜公園で開催。スイム1.5km、バイク38.45km、ラン10km。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "スイム",
+              "role": "lap"
+            },
+            {
+              "header": "T1",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 38.45,
+          "columns": [
+            {
+              "header": "バイク",
+              "role": "lap"
+            },
+            {
+              "header": "T2",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "ラン",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "所属／登録",
+          "role": "residence"
+        },
+        {
+          "header": "YOB",
+          "role": "age"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "U23",
+          "role": "age_category"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=371&program_id=371_2",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "371_2"
+      }
+    },
+    {
+      "id": "japan_championship_women_2025",
+      "name": "エリート女子",
+      "distance": "OD",
+      "description": "2025年第31回日本トライアスロン選手権・第15回日本U23トライアスロン選手権（東京・台場）エリート女子。お台場海浜公園で開催。スイム1.5km、バイク38.45km、ラン10km。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "スイム",
+              "role": "lap"
+            },
+            {
+              "header": "T1",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 38.45,
+          "columns": [
+            {
+              "header": "バイク",
+              "role": "lap"
+            },
+            {
+              "header": "T2",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "ラン",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "所属／登録",
+          "role": "residence"
+        },
+        {
+          "header": "YOB",
+          "role": "age"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "U23",
+          "role": "age_category"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=371&program_id=371_1",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "371_1"
+      }
+    }
+  ]
+}

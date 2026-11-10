@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Rwanda",
+  "location": "Rwanda",
+  "location_parts": {
+    "country": "RW",
+    "city": "Kigali"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/350/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3ALake_Kivu%2C_Western_Rwanda.jpg",
+    "author": "Synkubito",
+    "license": "CC0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Dublin",
+  "location": "Dublin",
+  "location_parts": {
+    "country": "IE",
+    "city": "Dublin"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/48/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:River_Liffey_and_Samuel_Beckett_Bridge.jpg",
+    "author": "Christian David",
+    "license": "CC BY-SA 4.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Sardegna",
+  "location": "Sardegna",
+  "location_parts": {
+    "country": "IT",
+    "region": "Sardinia"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/266/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3ACoast_and_sea_at_Santa_Maria_Navarrese%2C_Sardinia%2C_Italy.jpg",
+    "author": "Fabio Pani",
+    "license": "CC BY-SA 4.0"
+  }
+}

@@ -6,6 +6,71 @@
  */
 
 /**
+ * master/<event_id>/event.json: one race event. The id is the directory name; the event image is image.webp beside this file; the editions are the YYYY-MM-DD directories beside it.
+ */
+export interface RaceEvent {
+  /**
+   * Name of the event in Japanese
+   */
+  name: string;
+  /**
+   * @deprecated
+   * DEPRECATED — kept for backward compatibility. Use location_parts instead. Will be removed in a future major version.
+   */
+  location?: string;
+  /**
+   * Structured location data. Required for all events.
+   */
+  location_parts: {
+    /**
+     * ISO 3166-1 alpha-2 country code (e.g. JP, US, ES)
+     */
+    country: string;
+    /**
+     * Japanese prefecture (都道府県) for country=JP, e.g. 千葉県
+     */
+    prefecture?: string;
+    /**
+     * Sub-national region for non-Japan countries (state, province, etc.), e.g. Texas, Catalonia
+     */
+    region?: string;
+    /**
+     * City / municipality, e.g. 木更津市, Valencia, The Woodlands
+     */
+    city?: string;
+    /**
+     * Optional venue or sub-area detail, e.g. 中の島大橋付近, 山下公園周辺特設会場
+     */
+    venue?: string;
+  };
+  /**
+   * Official website URL of the event
+   */
+  source: string;
+  /**
+   * Description of the event
+   */
+  description?: string;
+  /**
+   * Credit of the event image (image.webp beside this file): where it comes from, its author and license. Optional until every image is credited.
+   */
+  image_source?: {
+    /**
+     * Page of the original image
+     */
+    url: string;
+    /**
+     * Author or rights holder
+     */
+    author?: string;
+    /**
+     * License of the original image, e.g. CC BY-SA 4.0
+     */
+    license: string;
+  };
+}
+
+/**
  * Race distance/type classification
  */
 export type DistanceType =
@@ -56,96 +121,21 @@ export type MetaColumnRole =
   | "note";
 
 /**
- * Schema for multi-sport race information data
+ * master/<event_id>/<YYYY-MM-DD>/edition.json: the categories of one edition (occurrence) of an event. The date is the directory name; each category's result TSV is <category_id>.tsv beside this file, and the edition has weather exactly when weather-data.json is there too.
  */
-export interface RaceInfoSchema {
-  /**
-   * Array of race events
-   */
-  events: RaceEvent[];
-  [k: string]: unknown;
-}
-export interface RaceEvent {
-  /**
-   * Unique identifier for the event
-   */
-  id: string;
-  /**
-   * Name of the event in Japanese
-   */
-  name: string;
-  /**
-   * @deprecated
-   * DEPRECATED — kept for backward compatibility. Use location_parts instead. Will be removed in a future major version.
-   */
-  location?: string;
-  /**
-   * Structured location data. Required for all events.
-   */
-  location_parts: {
-    /**
-     * ISO 3166-1 alpha-2 country code (e.g. JP, US, ES)
-     */
-    country: string;
-    /**
-     * Japanese prefecture (都道府県) for country=JP, e.g. 千葉県
-     */
-    prefecture?: string;
-    /**
-     * Sub-national region for non-Japan countries (state, province, etc.), e.g. Texas, Catalonia
-     */
-    region?: string;
-    /**
-     * City / municipality, e.g. 木更津市, Valencia, The Woodlands
-     */
-    city?: string;
-    /**
-     * Optional venue or sub-area detail, e.g. 中の島大橋付近, 山下公園周辺特設会場
-     */
-    venue?: string;
-  };
-  /**
-   * Path to the event image file
-   */
-  image: string;
-  /**
-   * Official website URL of the event
-   */
-  source: string;
-  /**
-   * Array of event editions (yearly occurrences)
-   *
-   * @minItems 1
-   */
-  editions: [Edition, ...Edition[]];
-  [k: string]: unknown;
-}
 export interface Edition {
-  /**
-   * Date of the event in YYYY-MM-DD format
-   */
-  date: string;
-  /**
-   * Path to the weather data file
-   */
-  weather_file?: string;
   /**
    * Array of race categories within this edition
    *
    * @minItems 1
    */
   categories: [Category, ...Category[]];
-  [k: string]: unknown;
 }
 export interface Category {
   /**
-   * Unique identifier for the category
+   * Unique identifier of the category within its edition; also the basename of its result TSV (<category_id>.tsv in the edition directory)
    */
   id: string;
-  /**
-   * Path to the TSV result file
-   */
-  result_tsv: string;
   /**
    * Name of the race category in Japanese
    */
@@ -182,7 +172,6 @@ export interface Category {
      */
     id: string;
   };
-  [k: string]: unknown;
 }
 export interface Segment {
   sport: Sport;
@@ -213,6 +202,36 @@ export interface MetaColumn {
   header: string;
   role: MetaColumnRole;
   [k: string]: unknown;
+}
+
+// ============================================================
+// Corpus types (scripts/lib/corpus.js): the stored files plus the
+// fields the layout derives (scripts/lib/layout.js)
+// ============================================================
+
+/** A Category of edition.json plus the path of its result TSV. */
+export interface CorpusCategory extends Category {
+  /** master/<event_id>/<YYYY-MM-DD>/<category_id>.tsv */
+  result_tsv: string;
+}
+
+/** An Edition directory: its date, weather file and Categories. */
+export interface CorpusEdition {
+  /** YYYY-MM-DD, the directory name */
+  date: string;
+  /** master/<event_id>/<YYYY-MM-DD>/weather-data.json when that file exists, else null */
+  weather_file: string | null;
+  categories: CorpusCategory[];
+}
+
+/** An Event directory: event.json plus its id, image path and Editions. */
+export interface CorpusEvent extends RaceEvent {
+  /** the directory name */
+  id: string;
+  /** master/<event_id>/image.webp */
+  image: string;
+  /** sorted by date */
+  editions: CorpusEdition[];
 }
 
 // ============================================================

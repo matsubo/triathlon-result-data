@@ -1,0 +1,218 @@
+{
+  "categories": [
+    {
+      "id": "nagaragawa_kokusai",
+      "name": "スタンダード",
+      "distance": "SD",
+      "description": "2025年長良川国際トライアスロン大会。岐阜県海津市の国営木曽三川公園を舞台に、スイム1.5km（750m×2周）、バイク30km、ラン6kmのスタンダードディスタンスで開催。JTUリザルトのコース注記は「スイム : 0.75km (2周回)」だが、2周回で1.5km（2026年の同じ2周回コースの注記は1.5km、タイム中央値も一致）。自然豊かな環境の中で行われる大会です。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "スイムラップ",
+              "role": "lap"
+            },
+            {
+              "header": "S順",
+              "role": "rank"
+            },
+            {
+              "header": "T1",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 30,
+          "columns": [
+            {
+              "header": "バイクラップ",
+              "role": "lap"
+            },
+            {
+              "header": "B順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 6,
+          "columns": [
+            {
+              "header": "ランラップ",
+              "role": "lap"
+            },
+            {
+              "header": "R順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "居住地",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "年齢区分",
+          "role": "age_category"
+        },
+        {
+          "header": "年齢別順",
+          "role": "age_rank"
+        },
+        {
+          "header": "選手権",
+          "role": "note"
+        },
+        {
+          "header": "選手権順",
+          "role": "note"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=348&program_id=348_1",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "348_1"
+      }
+    },
+    {
+      "id": "nagaragawa_kokusai_sprint",
+      "name": "スプリント",
+      "distance": "SD",
+      "description": "2025年長良川国際トライアスロン大会。岐阜県海津市の国営木曽三川公園を舞台に、スイム750m、バイク20km、ラン4kmのスプリントディスタンスで開催。自然豊かな環境の中で行われる大会です。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 0.75,
+          "columns": [
+            {
+              "header": "ｽｲﾑﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｓ順",
+              "role": "rank"
+            },
+            {
+              "header": "T1",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 20,
+          "columns": [
+            {
+              "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｂ順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 4,
+          "columns": [
+            {
+              "header": "ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｒ順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "年齢区分",
+          "role": "age_category"
+        },
+        {
+          "header": "年齢別順",
+          "role": "age_rank"
+        },
+        {
+          "header": "選手権順位",
+          "role": "note"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

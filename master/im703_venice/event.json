@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Venice-Jesolo",
+  "location": "Jesolo, Italy",
+  "location_parts": {
+    "country": "IT",
+    "region": "Veneto",
+    "city": "Jesolo"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2418/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Jesolo_-_tramonto_sulla_spiaggia.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0"
+  }
+}

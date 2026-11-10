@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN France",
+  "location": "Nice, France",
+  "location_parts": {
+    "country": "FR",
+    "city": "Nice"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2191/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Promenade_des_Anglais_(Nice),_France.jpg",
+    "author": "Uhooep",
+    "license": "CC BY-SA 4.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Cozumel",
+  "location": "Cozumel, Mexico",
+  "location_parts": {
+    "country": "MX",
+    "region": "Quintana Roo",
+    "city": "Cozumel"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/8/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Caribbean_surf,_Cozumel_Island,_Mexico.jpg",
+    "author": "Andrey Sulitskiy",
+    "license": "CC BY-SA 4.0"
+  }
+}

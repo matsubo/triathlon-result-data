@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Porec",
+  "location": "Porec, Croatia",
+  "location_parts": {
+    "country": "HR",
+    "city": "Poreč"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2630/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3ACroatia_Porec_Euphrasius_Basilika_BW_2014-10-08_10-47-48.jpg",
+    "author": "Berthold Werner",
+    "license": "CC BY-SA 3.0"
+  }
+}

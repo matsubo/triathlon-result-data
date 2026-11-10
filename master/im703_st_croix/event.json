@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 St Croix",
+  "location": "St Croix",
+  "location_parts": {
+    "country": "VI",
+    "city": "Saint Croix"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/199/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Christiansted-1-.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0"
+  }
+}

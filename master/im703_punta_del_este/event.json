@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Punta Del Este",
+  "location": "Punta Del Este",
+  "location_parts": {
+    "country": "UY",
+    "region": "Maldonado",
+    "city": "Punta del Este"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/87/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3ALa_mano_de_Punta_del_Este.JPG",
+    "author": "María Cecilia",
+    "license": "CC0"
+  }
+}

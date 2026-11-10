@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Alaska",
+  "location": "Juneau, Alaska, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Alaska",
+    "city": "Juneau"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/332/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Mount_Juneau_Alaska.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0"
+  }
+}

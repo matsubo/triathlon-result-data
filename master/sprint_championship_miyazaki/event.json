@@ -1,0 +1,15 @@
+{
+  "name": "日本スプリントトライアスロン選手権（宮崎）",
+  "location": "宮崎県宮崎市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "宮崎県",
+    "city": "宮崎市"
+  },
+  "source": "https://www.jtu.or.jp/championship-series/sprint/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Sun_Marina_Miyazaki_Apr_19,_2011.jpg",
+    "author": "Naoki Tomeno",
+    "license": "CC BY 2.0"
+  }
+}

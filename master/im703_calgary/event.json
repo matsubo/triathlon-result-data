@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Calgary",
+  "location": "Calgary, Alberta, Canada",
+  "location_parts": {
+    "country": "CA",
+    "region": "Alberta",
+    "city": "Calgary"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2734/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Calgary_Stampede_Grounds_and_Skyline,_southeast_view_20240819_1.jpg",
+    "author": "DXR",
+    "license": "CC BY-SA 4.0"
+  }
+}

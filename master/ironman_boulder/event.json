@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Boulder",
+  "location": "Boulder, Colorado, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Colorado",
+    "city": "Boulder"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/37/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Flatirons_Sunrise.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0"
+  }
+}

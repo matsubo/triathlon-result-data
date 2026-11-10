@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Centrair Chita Peninsula Japan",
+  "location": "Centrair Chita Peninsula Japan",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "愛知県",
+    "city": "常滑市"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/112/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Chita_Peninsula_-_Dec_12,_2025.jpg",
+    "author": "nagi usano",
+    "license": "CC BY 4.0"
+  }
+}

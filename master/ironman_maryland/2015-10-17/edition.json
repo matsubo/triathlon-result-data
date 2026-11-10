@@ -1,0 +1,85 @@
+{
+  "categories": [
+    {
+      "id": "ironman_maryland_2015",
+      "name": "Full Distance",
+      "distance": "LD",
+      "description": "2015 IRONMAN Maryland. Postponed from 3 October by Hurricane Joaquin. Swim shortened to 3,000 m and moved to a protected part of the Choptank River due to wind and chop; bike and run held as planned.",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 3,
+          "columns": [
+            {
+              "header": "Swim",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 180.2,
+          "columns": [
+            {
+              "header": "Bike",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 42.195,
+          "columns": [
+            {
+              "header": "Run",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "ContactId",
+          "role": "athlete_id"
+        },
+        {
+          "header": "Overall_Rank",
+          "role": "overall_rank"
+        },
+        {
+          "header": "Name",
+          "role": "name"
+        },
+        {
+          "header": "Gender",
+          "role": "gender"
+        },
+        {
+          "header": "Division",
+          "role": "age_category"
+        },
+        {
+          "header": "Div_Rank",
+          "role": "age_rank"
+        },
+        {
+          "header": "Total_Time",
+          "role": "total_time"
+        },
+        {
+          "header": "Country",
+          "role": "residence"
+        },
+        {
+          "header": "Status",
+          "role": "status"
+        }
+      ],
+      "source_url": null,
+      "source_ref": {
+        "results_source": "ironman",
+        "id": "ff5a8189-aaf2-4fc7-889c-62ea894905f9"
+      }
+    }
+  ]
+}

@@ -14,7 +14,7 @@ measured quantity still comes from JMA. Pass --no-fill-weather to disable.
 Usage:
   python3 scripts/gen-weather-jma.py --prec 54 --block 47602 \
       --date 2026-09-06 --lat 38.0272 --lon 138.2394 \
-      --out master/2026/sado/weather-data.json
+      --out master/sado/2026-09-06/weather-data.json
 
 Station codes are the prec_no / block_no pair from
 https://www.data.jma.go.jp/stats/etrn/view/hourly_s1.php

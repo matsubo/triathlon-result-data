@@ -1,0 +1,16 @@
+{
+  "name": "昭和記念公園トライアスロン",
+  "location": "東京都立川市昭和記念公園",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "東京都",
+    "city": "立川市",
+    "venue": "昭和記念公園"
+  },
+  "source": "https://www.mspo.jp/showakinen-tri/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Showa_Commemorative_National_Government_Park_1.JPG",
+    "author": "Kakidai",
+    "license": "CC BY-SA 4.0"
+  }
+}

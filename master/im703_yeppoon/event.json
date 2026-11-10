@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Yeppoon",
+  "location": "Yeppoon",
+  "location_parts": {
+    "country": "AU",
+    "region": "Queensland",
+    "city": "Yeppoon"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/219/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Australia_keppel_bay_sunset.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0"
+  }
+}

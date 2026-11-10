@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Coquimbo",
+  "location": "Coquimbo",
+  "location_parts": {
+    "country": "CL",
+    "region": "Coquimbo",
+    "city": "Coquimbo"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/162/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Bahia_de_Coquimbo_y_La_Serena.JPG",
+    "author": "Luxciardo",
+    "license": "CC BY-SA 3.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 North Carolina",
+  "location": "Wilmington, North Carolina, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "North Carolina",
+    "city": "Wilmington"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2626/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AWilmington_North_Carolina_port_aerial_view.jpg",
+    "author": "Bud Davis, U.S. Army Corps of Engineers",
+    "license": "Public domain"
+  }
+}

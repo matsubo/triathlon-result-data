@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Branson",
+  "location": "Branson",
+  "location_parts": {
+    "country": "US",
+    "region": "Missouri",
+    "city": "Branson"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/206/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Branson_Mall_Water_Display.jpeg",
+    "author": "User:Ccheck7",
+    "license": "CC BY-SA 3.0"
+  }
+}

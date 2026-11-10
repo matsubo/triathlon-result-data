@@ -1,0 +1,15 @@
+{
+  "name": "愛南町いやしの郷トライアスロン大会",
+  "location": "愛媛県愛南町",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "愛媛県",
+    "city": "愛南町"
+  },
+  "source": "https://ainantriathlon.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Kashima_Island,_Ainan_Ehime_Aerial_photograph.2019.jpg",
+    "author": "国土地理院 (GSI of Japan)",
+    "license": "Attribution (CC-BY 4.0)"
+  }
+}

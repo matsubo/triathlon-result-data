@@ -1,0 +1,16 @@
+{
+  "name": "榛名湖リゾート・トライアスロン in 群馬",
+  "location": "群馬県高崎市榛名湖",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "群馬県",
+    "city": "高崎市",
+    "venue": "榛名湖"
+  },
+  "source": "https://harutra.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Mount_Haruna_view_from_Hokkitsu_Onsen_Tachibana_no_sato_Shiroyama.jpg",
+    "author": "Qurren",
+    "license": "CC BY-SA 4.0"
+  }
+}

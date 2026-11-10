@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Riviera Nayarit",
+  "location": "Riviera Nayarit",
+  "location_parts": {
+    "country": "MX",
+    "region": "Nayarit"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/392/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3ABahia_de_Banderas%2C_Nayarit%2C_MEXICO.jpg",
+    "author": "Christian Frausto Bernal",
+    "license": "CC BY-SA 2.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "水郷潮来トライアスロン",
+  "location": "茨城県潮来市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "茨城県",
+    "city": "潮来市"
+  },
+  "source": "https://www.mspo.jp/itako/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Itako_Ibaraki.JPG",
+    "author": "そらみみ",
+    "license": "CC BY-SA 3.0"
+  }
+}

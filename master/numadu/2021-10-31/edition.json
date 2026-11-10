@@ -1,0 +1,101 @@
+{
+  "categories": [
+    {
+      "id": "numadu",
+      "name": "個人",
+      "distance": "SD",
+      "description": "2021 沼津千本浜トライアスロン 個人。堤防工事のためバイクは2周回の15km。スイムは当日0.75kmから約0.3kmに短縮。当日のスイム距離は公表なし、タイム中央値からの推定。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 0.3,
+          "columns": [
+            {
+              "header": "ｽｲﾑﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "S順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 15,
+          "columns": [
+            {
+              "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "B順",
+              "role": "rank"
+            },
+            {
+              "header": "ｽﾌﾟﾘｯﾄ",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 5,
+          "columns": [
+            {
+              "header": "ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "R順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合 順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子 順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子 順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "区分",
+          "role": "age_category"
+        },
+        {
+          "header": "区分 順位",
+          "role": "age_rank"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

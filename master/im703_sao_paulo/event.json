@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Sao Paulo",
+  "location": "Sao Paulo",
+  "location_parts": {
+    "country": "BR",
+    "region": "São Paulo",
+    "city": "São Paulo"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/187/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3APanoramic_view_of_S%C3%A3o_Paulo_city_center.jpg",
+    "author": "Wilfredor",
+    "license": "CC0"
+  }
+}

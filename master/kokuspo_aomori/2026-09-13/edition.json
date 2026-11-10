@@ -1,0 +1,158 @@
+{
+  "categories": [
+    {
+      "id": "kokuspo_aomori_men",
+      "name": "成年男子",
+      "distance": "OD",
+      "description": "2026年青の煌めきあおもり国スポ トライアスロン成年男子。青森市特設トライアスロン会場を舞台に開催。スイム1.5km、バイク40km、ラン10km。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "スイムラップ",
+              "role": "lap"
+            },
+            {
+              "header": "T1",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "バイクラップ",
+              "role": "lap"
+            },
+            {
+              "header": "T2",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "ランラップ",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "所属",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        }
+      ],
+      "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4627",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "425_2"
+      }
+    },
+    {
+      "id": "kokuspo_aomori_women",
+      "name": "成年女子",
+      "distance": "OD",
+      "description": "2026年青の煌めきあおもり国スポ トライアスロン成年女子。青森市特設トライアスロン会場を舞台に開催。スイム1.5km、バイク40km、ラン10km。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "スイムラップ",
+              "role": "lap"
+            },
+            {
+              "header": "T1",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "バイクラップ",
+              "role": "lap"
+            },
+            {
+              "header": "T2",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "ランラップ",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "所属",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        }
+      ],
+      "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4609",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "425_1"
+      }
+    }
+  ]
+}

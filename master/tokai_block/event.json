@@ -1,0 +1,14 @@
+{
+  "name": "東海ブロックトライアスロン",
+  "location": "東海",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "愛知県"
+  },
+  "source": "https://www.jtu.or.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Mount_Fuji_from_Lake_Yamanaka.JPG",
+    "author": "Alpsdake",
+    "license": "CC BY-SA 4.0"
+  }
+}

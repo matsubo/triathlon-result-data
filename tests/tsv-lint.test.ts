@@ -42,7 +42,7 @@ const TIME_ROLES = ["lap", "total_time", "cumulative_time", "transition", "check
 const RANK_ROLES = ["overall_rank", "gender_rank", "age_rank", "rank", "cumulative_rank"];
 
 describe("Registered Categories", () => {
-  test("no Edition repeats, no TSV is shared by Categories, every master/ TSV is registered", () => {
+  test("no layout findings: every file under master/ is a corpus file at its place, every Event and Edition directory complete", () => {
     expect(corpus.findings.map((f) => f.message)).toEqual([]);
   });
 
@@ -133,7 +133,7 @@ describe("TSV Lint Rules: raw text", () => {
     expect(ledger.check({ extra_columns: findings })).toEqual([]);
   });
 
-  test("All filenames under master/ and images/ are ASCII", () => {
+  test("All filenames under master/ are ASCII", () => {
     const errors: string[] = [];
     function walk(dir: string) {
       for (const item of readdirSync(dir)) {
@@ -145,7 +145,7 @@ describe("TSV Lint Rules: raw text", () => {
         if (statSync(fullPath).isDirectory()) walk(fullPath);
       }
     }
-    for (const dir of [join(repoRoot, "master"), join(repoRoot, "images")]) walk(dir);
+    walk(join(repoRoot, "master"));
     expect(errors).toEqual([]);
   });
 });

@@ -1,0 +1,15 @@
+{
+  "name": "木更津トライアスロン",
+  "location": "千葉県木更津市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "千葉県",
+    "city": "木更津市"
+  },
+  "source": "https://kisarazu-tri.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Panorama_Kisarazu-Port_090814.jpg",
+    "author": "Goki",
+    "license": "CC BY-SA 3.0"
+  }
+}

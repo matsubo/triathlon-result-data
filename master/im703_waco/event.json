@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Waco",
+  "location": "Waco, Texas, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Texas",
+    "city": "Waco"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2644/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Waco_June_2016_06_%28Brazos_River%29.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0"
+  }
+}

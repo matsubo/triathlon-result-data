@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Pocono Mountains",
+  "location": "Pocono Mountains",
+  "location_parts": {
+    "country": "US",
+    "region": "Pennsylvania",
+    "city": "Lake Harmony"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/223/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AParadise_Falls%2C_Pocono_Mountains%2C_Pennsylvania-LCCN2008678264.jpg",
+    "license": "Public domain"
+  }
+}

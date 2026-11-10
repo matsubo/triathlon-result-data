@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Palmas",
+  "location": "Palmas",
+  "location_parts": {
+    "country": "BR",
+    "region": "Tocantins",
+    "city": "Palmas"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/247/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3APalmas%2C_Tocantins%2C_Brazil.jpg",
+    "author": "Flávio André - MTUR",
+    "license": "CC0"
+  }
+}

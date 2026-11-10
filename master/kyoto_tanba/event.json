@@ -1,0 +1,15 @@
+{
+  "name": "京都丹波トライアスロン",
+  "location": "京都府南丹市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "京都府",
+    "city": "南丹市"
+  },
+  "source": "https://www.jtu.or.jp/event/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:%E7%BE%8E%E5%B1%B1%E7%94%BA_(7838469770).jpg",
+    "author": "Hideyuki KAMON",
+    "license": "CC BY-SA 2.0"
+  }
+}

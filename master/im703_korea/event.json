@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN 70.3 Korea",
+  "location": "Korea",
+  "location_parts": {
+    "country": "KR"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/234/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:2018-10-20_Busan_Harbor_Bridge_with_Container_Terminal.jpg",
+    "author": "Gunnar.Kaestle",
+    "license": "Public domain"
+  }
+}

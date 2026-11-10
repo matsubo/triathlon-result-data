@@ -1,0 +1,15 @@
+{
+  "name": "五島長崎国際トライアスロン",
+  "location": "長崎県五島市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "長崎県",
+    "city": "五島市"
+  },
+  "source": "https://gototri.com/?cat=12",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Kazurashima_Island_Goto,_Nagasaki_Aerial_photograph.2014.jpg",
+    "author": "国土地理院 (GSI of Japan)",
+    "license": "Attribution (CC-BY 4.0)"
+  }
+}

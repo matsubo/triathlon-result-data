@@ -1,0 +1,48 @@
+{
+  "categories": [
+    {
+      "id": "fujihill",
+      "name": "ヒルクライム",
+      "distance": "OTHER",
+      "description": "2006 第3回 Mt.富士ヒルクライム（富士スバルライン 24km、計測点 19km/20km/Finish）",
+      "segments": [
+        {
+          "sport": "bike",
+          "distance": 24,
+          "columns": []
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "BibNumber",
+          "role": "bib"
+        },
+        {
+          "header": "Name",
+          "role": "name"
+        },
+        {
+          "header": "Gender",
+          "role": "gender"
+        },
+        {
+          "header": "Division",
+          "role": "age_category"
+        },
+        {
+          "header": "Div_Rank",
+          "role": "age_rank"
+        },
+        {
+          "header": "Overall_Rank",
+          "role": "overall_rank"
+        },
+        {
+          "header": "Gross_Time",
+          "role": "total_time"
+        }
+      ],
+      "source_url": "https://runnet.jp/record/userRaceTopShowAction.do?raceId=3679"
+    }
+  ]
+}

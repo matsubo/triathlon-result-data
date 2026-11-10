@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Jeju",
+  "location": "Jeju",
+  "location_parts": {
+    "country": "KR",
+    "city": "Jeju"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/253/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Marado_Island_View.jpg",
+    "author": "Rémi Cormier",
+    "license": "CC BY-SA 3.0"
+  }
+}

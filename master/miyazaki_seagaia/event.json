@@ -1,0 +1,15 @@
+{
+  "name": "宮崎シーガイアトライアスロン",
+  "location": "宮崎県宮崎市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "宮崎県",
+    "city": "宮崎市"
+  },
+  "source": "https://seagaia-tri.tv/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Aoshima_beach_resort_-_Miyazaki,_Japan_(2008).jpg",
+    "author": "Carpkazu",
+    "license": "CC BY-SA 3.0"
+  }
+}

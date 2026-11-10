@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 World Championship (Men)",
+  "location": "Marbella, Spain",
+  "location_parts": {
+    "country": "US",
+    "region": "Hawaii",
+    "city": "Kailua-Kona"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2662/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Harbor_in_Puerto_Banus%2C_Costa_del_Sol%2C_Spain%2C_Dec_2004_3.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0"
+  }
+}

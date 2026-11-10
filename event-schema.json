@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RaceEvent",
+  "description": "master/<event_id>/event.json: one race event. The id is the directory name; the event image is image.webp beside this file; the editions are the YYYY-MM-DD directories beside it.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["name", "location_parts", "source"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the event in Japanese"
+    },
+    "location": {
+      "type": "string",
+      "deprecated": true,
+      "description": "DEPRECATED — kept for backward compatibility. Use location_parts instead. Will be removed in a future major version."
+    },
+    "location_parts": {
+      "type": "object",
+      "description": "Structured location data. Required for all events.",
+      "additionalProperties": false,
+      "required": ["country"],
+      "properties": {
+        "country": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$",
+          "description": "ISO 3166-1 alpha-2 country code (e.g. JP, US, ES)"
+        },
+        "prefecture": {
+          "type": "string",
+          "description": "Japanese prefecture (都道府県) for country=JP, e.g. 千葉県"
+        },
+        "region": {
+          "type": "string",
+          "description": "Sub-national region for non-Japan countries (state, province, etc.), e.g. Texas, Catalonia"
+        },
+        "city": {
+          "type": "string",
+          "description": "City / municipality, e.g. 木更津市, Valencia, The Woodlands"
+        },
+        "venue": {
+          "type": "string",
+          "description": "Optional venue or sub-area detail, e.g. 中の島大橋付近, 山下公園周辺特設会場"
+        }
+      }
+    },
+    "source": {
+      "type": "string",
+      "pattern": "^https?://",
+      "description": "Official website URL of the event"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of the event"
+    },
+    "image_source": {
+      "type": "object",
+      "description": "Credit of the event image (image.webp beside this file): where it comes from, its author and license. Optional until every image is credited.",
+      "additionalProperties": false,
+      "required": ["url", "license"],
+      "properties": {
+        "url": {
+          "type": "string",
+          "pattern": "^https?://",
+          "description": "Page of the original image"
+        },
+        "author": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Author or rights holder"
+        },
+        "license": {
+          "type": "string",
+          "minLength": 1,
+          "description": "License of the original image, e.g. CC BY-SA 4.0"
+        }
+      }
+    }
+  }
+}

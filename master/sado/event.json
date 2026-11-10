@@ -1,0 +1,15 @@
+{
+  "name": "佐渡国際トライアスロン",
+  "location": "佐渡島",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "新潟県",
+    "city": "佐渡市"
+  },
+  "source": "https://www.scsf.jp/triathlon/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:佐渡島七浦海岸_(5742173102).jpg",
+    "author": "houroumono",
+    "license": "CC BY 2.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Subic Bay",
+  "location": "Subic Bay",
+  "location_parts": {
+    "country": "PH",
+    "city": "Subic Bay"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/369/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Subic_Bay_Viewpoint%2C_Zambales.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0"
+  }
+}

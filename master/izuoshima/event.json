@@ -1,0 +1,15 @@
+{
+  "name": "伊豆大島トライアスロン",
+  "location": "東京都大島町",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "東京都",
+    "city": "大島町"
+  },
+  "source": "https://izu-tri.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Izu_Oshima_Island_Aerial_photograph.2016.jpg",
+    "author": "国土地理院 (GSI of Japan)",
+    "license": "Attribution (CC-BY 4.0)"
+  }
+}

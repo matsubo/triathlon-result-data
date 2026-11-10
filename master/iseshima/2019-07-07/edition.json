@@ -1,0 +1,105 @@
+{
+  "categories": [
+    {
+      "id": "iseshima",
+      "name": "オリンピックディスタンス",
+      "distance": "OD",
+      "description": "2019 伊勢志摩・里海トライアスロン大会",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "S①:750m",
+              "role": "checkpoint"
+            },
+            {
+              "header": "S②:750m",
+              "role": "checkpoint"
+            },
+            {
+              "header": "Ｔ１",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "B①:20㎞",
+              "role": "checkpoint"
+            },
+            {
+              "header": "B②:20㎞",
+              "role": "checkpoint"
+            },
+            {
+              "header": "Ｔ２",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "R①:3.33㎞",
+              "role": "checkpoint"
+            },
+            {
+              "header": "R②:3.33㎞",
+              "role": "checkpoint"
+            },
+            {
+              "header": "R③:3.34㎞",
+              "role": "checkpoint"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏 名",
+          "role": "name"
+        },
+        {
+          "header": "歳",
+          "role": "age"
+        },
+        {
+          "header": "性",
+          "role": "gender"
+        },
+        {
+          "header": "居住地",
+          "role": "residence"
+        },
+        {
+          "header": "記 録",
+          "role": "total_time"
+        },
+        {
+          "header": "男順",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女順",
+          "role": "gender_rank"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

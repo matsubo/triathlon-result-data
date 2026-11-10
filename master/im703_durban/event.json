@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Durban",
+  "location": "Durban",
+  "location_parts": {
+    "country": "ZA",
+    "city": "Durban"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/107/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Durban_Beachfront_(475914663).jpg",
+    "author": "Chris Bloom from Durban, South Africa",
+    "license": "CC BY-SA 2.0"
+  }
+}

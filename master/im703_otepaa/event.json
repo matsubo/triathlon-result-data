@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Otepaa",
+  "location": "Otepaa",
+  "location_parts": {
+    "country": "EE",
+    "city": "Otepää"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/116/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3ATown_hall_of_Otep%C3%A4%C3%A4_%28Estonia%2C_2024%29.jpg",
+    "author": "Sillerkiil",
+    "license": "CC0"
+  }
+}

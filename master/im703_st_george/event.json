@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 St George",
+  "location": "St George, Utah, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Utah",
+    "city": "Saint George"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2420/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:EM_ST._GEORGE%2C_UTAH_%282624012794%29.jpg",
+    "author": "Bureau of Land Management",
+    "license": "CC BY 2.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Puerto Rico",
+  "location": "Puerto Rico",
+  "location_parts": {
+    "country": "PR",
+    "city": "San Juan"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/82/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AUSA-2016-Puerto_Rico-San_Juan-Castillo_San_Felipe_del_Morro_%28and_lighthouse%29_03.jpg",
+    "author": "Godot13",
+    "license": "CC BY-SA 4.0"
+  }
+}

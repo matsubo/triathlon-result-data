@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN UK",
+  "location": "Bolton, UK",
+  "location_parts": {
+    "country": "GB"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/26/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Bolton_Town_Hall.jpg",
+    "author": "Stephen McKay",
+    "license": "CC BY-SA 2.0"
+  }
+}

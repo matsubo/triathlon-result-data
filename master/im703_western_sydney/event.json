@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Western Sydney",
+  "location": "Western Sydney",
+  "location_parts": {
+    "country": "AU",
+    "region": "New South Wales",
+    "city": "Western Sydney"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/170/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Yandhai_Nepean_Crossing%2C_Victoria_Bridge%2C_Penrith.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0"
+  }
+}

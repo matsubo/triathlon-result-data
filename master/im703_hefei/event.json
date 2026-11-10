@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Hefei",
+  "location": "Hefei",
+  "location_parts": {
+    "country": "CN",
+    "city": "Hefei"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/59/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Skylines_of_Hefei_at_Tianehu.jpg",
+    "author": "钉钉",
+    "license": "CC BY-SA 4.0"
+  }
+}

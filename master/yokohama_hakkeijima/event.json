@@ -1,0 +1,15 @@
+{
+  "name": "横浜八景島トライアスロンフェスティバル",
+  "location": "神奈川県横浜市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "神奈川県",
+    "city": "横浜市"
+  },
+  "source": "https://sea.tri.yokohama/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Yokohama_Hakkeijima_Sea_Paradise_from_Nojima.jpg",
+    "author": "Quercus acuta",
+    "license": "CC BY-SA 4.0"
+  }
+}

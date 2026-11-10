@@ -1,0 +1,16 @@
+{
+  "name": "日本トライアスロン選手権",
+  "location": "東京都港区台場",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "東京都",
+    "city": "港区",
+    "venue": "台場"
+  },
+  "source": "https://www.jtu.or.jp/championship-series/triathlon/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Odaiba_views.jpg",
+    "author": "Basile Morin",
+    "license": "CC BY-SA 4.0"
+  }
+}

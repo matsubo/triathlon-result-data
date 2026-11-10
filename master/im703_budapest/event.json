@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Budapest",
+  "location": "Budapest",
+  "location_parts": {
+    "country": "HU",
+    "city": "Budapest"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/232/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Budapest_Parliament_4604.JPG",
+    "author": "Dirk Beyer",
+    "license": "CC BY-SA 3.0"
+  }
+}

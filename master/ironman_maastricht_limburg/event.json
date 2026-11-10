@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Maastricht-Limburg",
+  "location": "Maastricht, Netherlands",
+  "location_parts": {
+    "country": "NL",
+    "region": "Limburg",
+    "city": "Maastricht"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/47/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Bicycle_in_the_Meuse_River_Maastricht.jpg",
+    "author": "Palauenc05",
+    "license": "CC BY-SA 4.0"
+  }
+}

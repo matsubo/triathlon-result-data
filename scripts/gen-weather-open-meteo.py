@@ -11,7 +11,7 @@ is therefore recorded as "---", per weather-data-policy).
 Usage:
   python3 scripts/gen-weather-open-meteo.py --lat 40.4093 --lon 49.8671 \
       --tz Asia/Baku --date 2026-09-05 \
-      --out master/2026/im703_baku_2026/weather-data.json
+      --out master/im703_baku/2026-09-05/weather-data.json
 
 Times are requested as unixtime and converted with zoneinfo per date: passing
 timezone=auto makes Open-Meteo apply the UTC offset in effect at request time

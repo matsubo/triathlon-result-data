@@ -1,0 +1,10 @@
+{
+  "name": "IRONMAN 70.3 Puerto Varas",
+  "location": "Puerto Varas, Chile",
+  "location_parts": {
+    "country": "CL",
+    "region": "Los Lagos",
+    "city": "Puerto Varas"
+  },
+  "source": "https://www.ironman.com/races/im703-puerto-varas"
+}

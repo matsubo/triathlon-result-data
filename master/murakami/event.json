@@ -1,0 +1,15 @@
+{
+  "name": "村上・笹川流れ国際トライアスロン",
+  "location": "新潟県村上市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "新潟県",
+    "city": "村上市"
+  },
+  "source": "https://murakami-triathlon.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:%E7%AC%B9%E5%B7%9D%E6%B5%81%E3%82%8C(%E6%97%A5%E6%9C%AC%E7%99%BE%E6%99%AF),_Sasagawa_Nagare_-_panoramio.jpg",
+    "author": "xe zna (panoramio)",
+    "license": "CC BY-SA 3.0"
+  }
+}

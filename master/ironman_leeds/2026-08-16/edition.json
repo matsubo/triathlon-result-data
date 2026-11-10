@@ -1,0 +1,75 @@
+{
+  "categories": [
+    {
+      "id": "ironman_leeds_2026",
+      "name": "Full Distance",
+      "distance": "LD",
+      "description": "2026 IRONMAN Leeds. Swim was cancelled due to blue-green algae in Waterloo Lake (Roundhay Park); race modified to a bike-run format (112mi bike, 26.2mi run) with a rolling TT start from transition.",
+      "segments": [
+        {
+          "sport": "bike",
+          "distance": 180.2,
+          "columns": [
+            {
+              "header": "Bike",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 42.195,
+          "columns": [
+            {
+              "header": "Run",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "ContactId",
+          "role": "athlete_id"
+        },
+        {
+          "header": "Overall_Rank",
+          "role": "overall_rank"
+        },
+        {
+          "header": "Name",
+          "role": "name"
+        },
+        {
+          "header": "Gender",
+          "role": "gender"
+        },
+        {
+          "header": "Division",
+          "role": "age_category"
+        },
+        {
+          "header": "Div_Rank",
+          "role": "age_rank"
+        },
+        {
+          "header": "Total_Time",
+          "role": "total_time"
+        },
+        {
+          "header": "Country",
+          "role": "residence"
+        },
+        {
+          "header": "Status",
+          "role": "status"
+        }
+      ],
+      "source_url": null,
+      "source_ref": {
+        "results_source": "ironman",
+        "id": "277ae1e3-2400-4862-9fa0-96f0faf17ede"
+      }
+    }
+  ]
+}

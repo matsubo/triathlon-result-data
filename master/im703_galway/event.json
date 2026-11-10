@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Galway",
+  "location": "Galway",
+  "location_parts": {
+    "country": "IE",
+    "city": "Galway"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/221/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Harbor,_Spiddal_in_County_Galway,_Ireland_(2).jpg",
+    "author": "David Brossard",
+    "license": "CC BY-SA 2.0"
+  }
+}

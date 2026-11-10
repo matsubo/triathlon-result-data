@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Wisconsin",
+  "location": "Madison, Wisconsin, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Wisconsin",
+    "city": "Madison"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2649/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Capitol_from_Monona_Terrace.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0"
+  }
+}

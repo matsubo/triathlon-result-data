@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN 70.3 Bahrain",
+  "location": "Bahrain",
+  "location_parts": {
+    "country": "BH"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/240/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Manama_Skyline.jpg",
+    "author": "Author Chris Price - www.flickr.com/photos/pricey. Original uploader was Fr33k3v1n at en.wikipedia",
+    "license": "CC BY 2.0"
+  }
+}

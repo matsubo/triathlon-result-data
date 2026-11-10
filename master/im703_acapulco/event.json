@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Acapulco",
+  "location": "Acapulco",
+  "location_parts": {
+    "country": "MX",
+    "region": "Guerrero",
+    "city": "Acapulco"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/298/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Acapulco_Bay_2010.jpg",
+    "author": "Sally from Willamette Valley - Oregon, USA",
+    "license": "CC BY 2.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Nelson Mandela Bay",
+  "location": "Nelson Mandela Bay",
+  "location_parts": {
+    "country": "ZA",
+    "region": "Eastern Cape",
+    "city": "Gqeberha"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/366/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AHobie_Beach%2C_Port_Elizabeth_-_South_africa_%282417710541%29.jpg",
+    "author": "South African Tourism from South Africa",
+    "license": "CC BY 2.0"
+  }
+}

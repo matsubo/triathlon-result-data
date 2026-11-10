@@ -1,0 +1,97 @@
+{
+  "categories": [
+    {
+      "id": "iseshima",
+      "name": "オリンピックディスタンス",
+      "distance": "OD",
+      "description": "2023 伊勢志摩・里海トライアスロン大会 オリンピックディスタンス",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 2,
+          "columns": [
+            {
+              "header": "スイム ラップ",
+              "role": "lap"
+            },
+            {
+              "header": "S 順",
+              "role": "rank"
+            },
+            {
+              "header": "T1 ラップ",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 45,
+          "columns": [
+            {
+              "header": "バイク ラップ",
+              "role": "lap"
+            },
+            {
+              "header": "B 順",
+              "role": "rank"
+            },
+            {
+              "header": "ｽﾌﾟﾘｯﾄ",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通 過",
+              "role": "cumulative_rank"
+            },
+            {
+              "header": "T2 ラップ",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "ラン ラップ",
+              "role": "lap"
+            },
+            {
+              "header": "R 順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合 順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "総合 記録",
+          "role": "total_time"
+        },
+        {
+          "header": "エイジ区分",
+          "role": "age_category"
+        },
+        {
+          "header": "ｴｲｼﾞ 順位",
+          "role": "age_rank"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

@@ -1,16 +1,17 @@
 /**
- * Category reader: every Category of race-info.json with its result TSV read
- * by Column role. Callers ask for cells by role instead of guessing headers.
+ * Category reader: every Category of the corpus (scripts/lib/corpus.js) with
+ * its result TSV read by Column role. Callers ask for cells by role instead
+ * of guessing headers.
  *
  *   readCategories(repo, where?) → { categories, editions, findings, cells(role) }
+ *   parseCategory(def, text) → Category    one Category from its definition and TSV text, no repo
  *
  * `where.eventId` keeps one Event; `where.date` keeps the Editions whose date
  * starts with it, so a year and a full date both work.
  *
- * A reader is a snapshot of one repo object (scripts/lib/repo.js), memoized
- * per repo: race-info.json is parsed once, master/ is listed once, and each
- * TSV is parsed at most once, when first asked for. After writing to a repo,
- * read through a new repo object.
+ * A reader is a snapshot of one corpus, memoized with it: master/ is listed
+ * once, and each TSV is parsed at most once, when first asked for. A write
+ * through the repo port makes the next readCategories read a fresh corpus.
  *
  * Parsing matches what normalization has always done: lines split on `\n`,
  * lines whose trim() is empty dropped, the first remaining line is the
@@ -18,19 +19,23 @@
  * equals its declared header, so a duplicated header resolves to its last
  * occurrence.
  *
- * Only a missing or invalid race-info.json throws. Data defects are Findings:
- * corpus-scope ones on the result, Category-scope ones on the Category.
+ * Only an unreadable event.json or edition.json throws. Data defects are
+ * Findings: corpus-scope ones (the layout Findings of scripts/lib/corpus.js)
+ * on the result, Category-scope ones on the Category.
  *
  * @typedef {import("./repo.js").Repo} Repo
+ * @typedef {import("./corpus.js").CorpusEvent} CorpusEvent
+ * @typedef {import("./corpus.js").CorpusEdition} CorpusEdition
  *
- * @typedef {"duplicate-edition" | "shared-tsv" | "unregistered-tsv" | "missing-tsv" | "unmapped-header" | "duplicate-header"} FindingKind
+ * @typedef {import("./corpus.js").LayoutFindingKind | "missing-tsv" | "unmapped-header" | "duplicate-header"} FindingKind
  * @typedef {object} Finding
  * @property {FindingKind} kind
  * @property {string} message
  * @property {string} [eventId]
  * @property {string} [date]
  * @property {string} [categoryId]
- * @property {string} [tsv]
+ * @property {string} [tsv] Category-scope Findings: the result TSV
+ * @property {string} [path] layout Findings: the file concerned
  *
  * @typedef {object} Column
  * @property {string} role Column role
@@ -58,10 +63,10 @@
  * @property {string} key `${eventId}/${date}/${categoryId}`
  * @property {string} eventId
  * @property {string} date
- * @property {any} event raw race-info Event
- * @property {any} edition raw race-info Edition
- * @property {any} def raw race-info Category
- * @property {string} tsv result_tsv path
+ * @property {CorpusEvent | null} event corpus Event (null from parseCategory)
+ * @property {CorpusEdition | null} edition corpus Edition (null from parseCategory)
+ * @property {any} def the Category's edition.json entry, plus result_tsv
+ * @property {string} tsv result TSV path
  * @property {string | null} text TSV text, null when the file is missing
  * @property {string[]} headers trimmed header row
  * @property {(role?: string, options?: { segment?: number | null }) => Column[]} columns declaration order: meta_columns, then each Segment's columns
@@ -71,19 +76,20 @@
  *
  * @typedef {object} EditionEntry
  * @property {string} key `${eventId}/${date}`
- * @property {any} event
- * @property {any} edition
+ * @property {CorpusEvent} event
+ * @property {CorpusEdition} edition
  * @property {Category[]} categories
  *
  * @typedef {object} Selection
  * @property {Category[]} categories
  * @property {EditionEntry[]} editions
- * @property {Finding[]} findings corpus-scope Findings touching the selection
+ * @property {Finding[]} findings layout Findings (scripts/lib/corpus.js) in the selection
  * @property {(role: string | string[]) => Cell[]} cells
  */
+import { readCorpus } from "./corpus.js";
 
-/** @type {WeakMap<Repo, ReturnType<typeof loadCorpus>>} */
-const corpora = new WeakMap();
+/** @type {WeakMap<import("./corpus.js").Corpus, EditionEntry[]>} */
+const readers = new WeakMap();
 
 /**
  * @param {Repo} repo
@@ -91,121 +97,77 @@ const corpora = new WeakMap();
  * @returns {Selection}
  */
 export function readCategories(repo, where = {}) {
-  let corpus = corpora.get(repo);
-  if (!corpus) {
-    corpus = loadCorpus(repo);
-    corpora.set(repo, corpus);
+  const corpus = readCorpus(repo);
+  let all = readers.get(corpus);
+  if (!all) {
+    all = corpus.events.flatMap((event) =>
+      event.editions.map((edition) => ({
+        key: `${event.id}/${edition.date}`,
+        event,
+        edition,
+        categories: edition.categories.map((def) =>
+          makeCategory(
+            {
+              key: `${event.id}/${edition.date}/${def.id}`,
+              eventId: event.id,
+              date: edition.date,
+              event,
+              edition,
+            },
+            def,
+            def.result_tsv,
+            () => repo.readText(def.result_tsv),
+          ),
+        ),
+      })),
+    );
+    readers.set(corpus, all);
   }
   const { eventId, date } = where;
-  const editions = corpus.editions.filter(
+  const editions = all.filter(
     (e) =>
       (eventId === undefined || e.event.id === eventId) &&
       (date === undefined || e.edition.date.startsWith(date)),
   );
   const categories = editions.flatMap((e) => e.categories);
-  const unfiltered = eventId === undefined && date === undefined;
-  const keys = new Set(categories.map((c) => c.key));
-  const editionKeys = new Set(editions.map((e) => e.key));
-  const findings = corpus.findings.filter((f) => {
-    if (f.kind === "unregistered-tsv") return unfiltered;
-    if (unfiltered) return true;
-    if (f.kind === "duplicate-edition")
-      return editionKeys.has(`${f.eventId}/${f.date}`);
-    return corpus.sharers
-      .get(/** @type {string} */ (f.tsv))
-      ?.some((c) => keys.has(c.key));
-  });
   return {
     categories,
     editions,
-    findings,
+    findings: readCorpus(repo, where).findings,
     cells: (role) => categories.flatMap((c) => c.cells(role)),
   };
 }
 
-/** @param {Repo} repo */
-function loadCorpus(repo) {
-  const text = repo.readText("race-info.json");
-  if (text === null) throw new Error("race-info.json not found");
-  let raceInfo;
-  try {
-    raceInfo = JSON.parse(text);
-  } catch (err) {
-    throw new Error(
-      `race-info.json is not valid JSON: ${/** @type {Error} */ (err).message}`,
-    );
-  }
-  if (!raceInfo || !Array.isArray(raceInfo.events)) {
-    throw new Error('race-info.json: expected { "events": [] }');
-  }
-
-  /** @type {EditionEntry[]} */
-  const editions = [];
-  /** @type {Map<string, Category[]>} */
-  const sharers = new Map();
-  /** @type {Finding[]} */
-  const findings = [];
-  /** @type {Set<string>} */
-  const editionKeys = new Set();
-
-  for (const event of raceInfo.events) {
-    for (const edition of event.editions ?? []) {
-      const key = `${event.id}/${edition.date}`;
-      if (editionKeys.has(key)) {
-        findings.push({
-          kind: "duplicate-edition",
-          message: `Edition ${event.id} ${edition.date} is registered more than once`,
-          eventId: event.id,
-          date: edition.date,
-        });
-      }
-      editionKeys.add(key);
-      const categories = (edition.categories ?? []).map(
-        (/** @type {any} */ def) => makeCategory(repo, event, edition, def),
-      );
-      for (const c of categories) {
-        const list = sharers.get(c.tsv);
-        if (list) list.push(c);
-        else sharers.set(c.tsv, [c]);
-      }
-      editions.push({ key, event, edition, categories });
-    }
-  }
-
-  for (const [tsv, list] of sharers) {
-    if (list.length < 2) continue;
-    findings.push({
-      kind: "shared-tsv",
-      message: `${tsv} is the result TSV of ${list.length} Categories: ${list.map((c) => c.key).join(", ")}`,
-      tsv,
-    });
-  }
-  for (const path of repo.list("master")) {
-    if (!path.endsWith(".tsv") || sharers.has(path)) continue;
-    findings.push({
-      kind: "unregistered-tsv",
-      message: `${path} is no Category's result TSV`,
-      tsv: path,
-    });
-  }
-
-  return { editions, findings, sharers };
+/**
+ * One Category read from its definition and TSV text, outside any repo:
+ * `key` is the Category id, `eventId` and `date` are empty, `tsv` is
+ * `def.result_tsv` (or `<id>.tsv`).
+ * @param {any} def a Category of edition.json (result_tsv optional)
+ * @param {string | null} text TSV text; null reads as a missing TSV
+ * @returns {Category}
+ */
+export function parseCategory(def, text) {
+  return makeCategory(
+    { key: def.id, eventId: "", date: "", event: null, edition: null },
+    def,
+    def.result_tsv ?? `${def.id}.tsv`,
+    () => text,
+  );
 }
 
 /**
- * @param {Repo} repo
- * @param {any} event
- * @param {any} edition
+ * @param {Pick<Category, "key" | "eventId" | "date" | "event" | "edition">} scope
  * @param {any} def
+ * @param {string} tsv
+ * @param {() => string | null} readText
  * @returns {Category}
  */
-function makeCategory(repo, event, edition, def) {
-  const tsv = def.result_tsv;
+function makeCategory(scope, def, tsv, readText) {
   /** @type {{ text: string | null, headers: string[], rows: Row[], columns: Column[], findings: Finding[] } | undefined} */
   let parsed;
   const parse = () => {
     if (parsed) return parsed;
-    const text = repo.readText(tsv);
+    const text = readText();
     const { headers, columns, rows } = splitTsv(text ?? "", (headers) => [
       ...(def.meta_columns ?? []).map((/** @type {any} */ m) =>
         column(m, null, headers),
@@ -226,11 +188,7 @@ function makeCategory(repo, event, edition, def) {
 
   /** @type {Category} */
   const category = {
-    key: `${event.id}/${edition.date}/${def.id}`,
-    eventId: event.id,
-    date: edition.date,
-    event,
-    edition,
+    ...scope,
     def,
     tsv,
     get text() {

@@ -1,0 +1,11 @@
+{
+  "name": "Mt.富士ヒルクライム",
+  "location": "山梨県富士吉田市 富士スバルライン",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "山梨県",
+    "city": "富士吉田市",
+    "venue": "富士スバルライン"
+  },
+  "source": "https://www.fujihc.jp/"
+}

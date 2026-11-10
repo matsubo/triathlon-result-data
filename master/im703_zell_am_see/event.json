@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Zell am See-Kaprun",
+  "location": "Zell am See, Austria",
+  "location_parts": {
+    "country": "AT",
+    "city": "Zell am See"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2650/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:ZellerSeeZellSee_02.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0"
+  }
+}

@@ -4,7 +4,7 @@
  * Normalize every Edition (scripts/lib/edition-document.js) and report
  * data-quality problems that schema validation alone cannot catch:
  *
- *   - header_warnings: race-info.json maps a column the TSV lacks, or a
+ *   - header_warnings: an edition.json Category maps a column the TSV lacks, or a
  *     Category's result TSV is missing
  *   - unknown_status_tokens: an Athlete's rank cell holds text that is no
  *     known Status token
@@ -18,9 +18,11 @@
  *     counted.
  *
  * Three kinds of problem fail the check outright and are never Known
- * issues: an Edition failing result-schema.json, a corpus finding of the
- * Category reader (a repeated Edition, a TSV shared by Categories, a TSV no
- * Category registers), and a stale pace Exception (it matches no measured
+ * issues: an Edition failing result-schema.json, a layout finding of the
+ * corpus (scripts/lib/corpus.js: a file under master/ that is no corpus
+ * file at its place, an Event or Edition directory missing event.json,
+ * image.webp or edition.json, an Event without Editions, a repeated
+ * Category id), and a stale pace Exception (it matches no measured
  * Segment, or the Segment it names is no longer flagged).
  *
  * Known issues (source-inherent gaps such as historical PDFs without splits)
@@ -95,8 +97,7 @@ for (const { event, edition, categories } of corpus.editions) {
   }
   const { document, issues } = built;
   categories.forEach((category, ci) => {
-    const { def } = category;
-    const key = `${event.id}/${edition.date.slice(0, 4)}/${def.id}`;
+    const { def, key } = category;
     const { athletes } = document.categories[ci];
     const own = issues.filter((i) => i.categoryId === def.id);
     const finished = athletes.filter((a) => a.status === "finished");

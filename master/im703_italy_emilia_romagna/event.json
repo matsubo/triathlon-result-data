@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Italy Emilia-Romagna",
+  "location": "Italy Emilia-Romagna",
+  "location_parts": {
+    "country": "IT",
+    "region": "Emilia-Romagna",
+    "city": "Cervia"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/186/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Beach_-_Cervia,_Ravenna,_Italy_-_April_25,_2019.jpg",
+    "author": "Giorgio Galeotti",
+    "license": "CC BY 4.0"
+  }
+}

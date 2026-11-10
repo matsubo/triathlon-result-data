@@ -1,0 +1,15 @@
+{
+  "name": "石垣島トライアスロン",
+  "location": "石垣島",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "沖縄県",
+    "city": "石垣市"
+  },
+  "source": "https://ishigaki-triathlon.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Kabira_Bay_Ishigaki_Island40bs3s4592.jpg",
+    "author": "663highland",
+    "license": "CC BY-SA 3.0"
+  }
+}

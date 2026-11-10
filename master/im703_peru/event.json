@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN 70.3 Peru",
+  "location": "Peru",
+  "location_parts": {
+    "country": "PE"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/89/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3ACoast_of_Lima_Peru.jpg",
+    "author": "Checo890",
+    "license": "CC BY-SA 3.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Duisburg",
+  "location": "Duisburg, Germany",
+  "location_parts": {
+    "country": "DE",
+    "city": "Duisburg"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2600/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Innenhafen_Duisburg_Blaue_Stunde_2014.jpg",
+    "author": "Tuxyso",
+    "license": "CC BY-SA 3.0"
+  }
+}

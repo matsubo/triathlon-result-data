@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Shepparton",
+  "location": "Shepparton",
+  "location_parts": {
+    "country": "AU",
+    "region": "Victoria",
+    "city": "Shepparton"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/217/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AVictoria_Lake_-_Shepparton.JPG",
+    "author": "Roni",
+    "license": "CC BY-SA 4.0"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "categories": [
+    {
+      "id": "hiwasa",
+      "name": "日和佐うみがめトライアスロン",
+      "distance": "OD",
+      "description": "2016年日和佐うみがめトライアスロン",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "スイムタイム",
+              "role": "lap"
+            },
+            {
+              "header": "スイム順位",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "バイクタイム",
+              "role": "lap"
+            },
+            {
+              "header": "バイク順位",
+              "role": "rank"
+            },
+            {
+              "header": "スプリットタイム",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "スプリット順位",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "ランタイム",
+              "role": "lap"
+            },
+            {
+              "header": "ラン順位",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "都道府県",
+          "role": "residence"
+        },
+        {
+          "header": "ゴールタイム",
+          "role": "total_time"
+        },
+        {
+          "header": "エイジ別",
+          "role": "age_category"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "IRONMAN 70.3 Curitiba",
+  "location": "Curitiba",
+  "location_parts": {
+    "country": "BR",
+    "city": "Curitiba"
+  },
+  "source": "https://labs-v2.competitor.com/api/results?wtc_eventid=6280e340-8809-43ff-a572-4c3ca38fd39b"
+}

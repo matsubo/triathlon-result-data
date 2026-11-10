@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN Copenhagen",
+  "location": "Copenhagen, Denmark",
+  "location_parts": {
+    "country": "DK",
+    "city": "Copenhagen"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2209/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Nyhavn,_Copenhagen,_20220618_1728_7354.jpg",
+    "author": "Jakub Hałun",
+    "license": "CC BY-SA 4.0"
+  }
+}

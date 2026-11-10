@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Graz",
+  "location": "Graz",
+  "location_parts": {
+    "country": "AT",
+    "city": "Graz"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/271/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Austria_Graz_2022-03.jpg",
+    "author": "Scotch Mist",
+    "license": "CC BY-SA 4.0"
+  }
+}

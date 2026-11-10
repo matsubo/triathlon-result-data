@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Atlantic City",
+  "location": "Atlantic City",
+  "location_parts": {
+    "country": "US",
+    "region": "New Jersey",
+    "city": "Atlantic City"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/149/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Boardwalk_at_dusk,_Atlantic_City,_2007.jpg",
+    "author": "DimiTalen",
+    "license": "CC0"
+  }
+}

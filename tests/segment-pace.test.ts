@@ -1,6 +1,8 @@
 import { describe, expect, test } from "bun:test";
 import { readCategories } from "../scripts/lib/category-reader.js";
+import { tsvPath } from "../scripts/lib/layout.js";
 import { memoryRepo } from "../scripts/lib/repo.js";
+import { corpusFiles } from "./corpus-fixture";
 import { exceptionProblems, loadExceptions } from "../scripts/lib/exceptions.js";
 import {
   checkPace,
@@ -32,7 +34,7 @@ const META: Column[] = [
 function category(id: string, date: string, distance: string, segments: Segment[]): CategoryDef {
   return {
     id,
-    result_tsv: `master/${date.slice(0, 4)}/ev/${id}.tsv`,
+    result_tsv: tsvPath("ev", date, id),
     name: id,
     distance,
     description: id,
@@ -54,7 +56,7 @@ const finishers = (n: number, cells: (i: number) => string[]) =>
 
 function repoOf(editions: { date: string; categories: CategoryDef[] }[], files: Record<string, string>) {
   return memoryRepo({
-    "race-info.json": JSON.stringify({ events: [{ id: "ev", name: "Ev", editions }] }),
+    ...corpusFiles([{ id: "ev", name: "Ev", editions }]),
     ...files,
   });
 }

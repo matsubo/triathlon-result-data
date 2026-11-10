@@ -1,0 +1,142 @@
+{
+  "categories": [
+    {
+      "id": "kanto_block_men",
+      "name": "男子",
+      "distance": "SD",
+      "description": "2021年関東ブロックトライアスロン選手権 男子（横須賀市 夏島）。当日のコースはスイム750m、バイク20km、ラン5km（JTUリザルトのコース注記）。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 0.75,
+          "columns": [
+            {
+              "header": "Swim",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 20,
+          "columns": [
+            {
+              "header": "Bike",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 5,
+          "columns": [
+            {
+              "header": "Run",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "Pos",
+          "role": "overall_rank"
+        },
+        {
+          "header": "StartNum",
+          "role": "bib"
+        },
+        {
+          "header": "Name",
+          "role": "name"
+        },
+        {
+          "header": "Affiliation",
+          "role": "residence"
+        },
+        {
+          "header": "YOB",
+          "role": "age"
+        },
+        {
+          "header": "Time",
+          "role": "total_time"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=116&program_id=116_2",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "116_2"
+      }
+    },
+    {
+      "id": "kanto_block_women",
+      "name": "女子",
+      "distance": "SD",
+      "description": "2021年関東ブロックトライアスロン選手権 女子（横須賀市 夏島）。当日のコースはスイム750m、バイク20km、ラン5km（JTUリザルトのコース注記）。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 0.75,
+          "columns": [
+            {
+              "header": "Swim",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 20,
+          "columns": [
+            {
+              "header": "Bike",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 5,
+          "columns": [
+            {
+              "header": "Run",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "Pos",
+          "role": "overall_rank"
+        },
+        {
+          "header": "StartNum",
+          "role": "bib"
+        },
+        {
+          "header": "Name",
+          "role": "name"
+        },
+        {
+          "header": "Affiliation",
+          "role": "residence"
+        },
+        {
+          "header": "YOB",
+          "role": "age"
+        },
+        {
+          "header": "Time",
+          "role": "total_time"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=116&program_id=116_1",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "116_1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Phu Quoc",
+  "location": "Phu Quoc, Vietnam",
+  "location_parts": {
+    "country": "VN",
+    "city": "Phu Quoc"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2629/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3A1_Phu_Quoc_sunset.jpg",
+    "author": "Elmschrat",
+    "license": "CC0"
+  }
+}

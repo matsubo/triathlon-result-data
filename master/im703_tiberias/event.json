@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Tiberias",
+  "location": "Tiberias",
+  "location_parts": {
+    "country": "IL",
+    "region": "Northern District",
+    "city": "Tiberias"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/354/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Modern_Tiberias_on_the_Sea_of_Galilee_%285806854182%29.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY 2.0"
+  }
+}

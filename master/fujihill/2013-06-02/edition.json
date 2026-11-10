@@ -1,0 +1,47 @@
+{
+  "categories": [
+    {
+      "id": "fujihill",
+      "name": "ヒルクライム",
+      "distance": "OTHER",
+      "description": "2013 第10回 Mt.富士ヒルクライム（PDFリザルトより、富士スバルライン 24km）",
+      "segments": [
+        {
+          "sport": "bike",
+          "distance": 24,
+          "columns": []
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "BibNumber",
+          "role": "bib"
+        },
+        {
+          "header": "Name",
+          "role": "name"
+        },
+        {
+          "header": "Gender",
+          "role": "gender"
+        },
+        {
+          "header": "Division",
+          "role": "age_category"
+        },
+        {
+          "header": "Total_Time",
+          "role": "total_time"
+        },
+        {
+          "header": "Div_Rank",
+          "role": "age_rank"
+        },
+        {
+          "header": "Overall_Rank",
+          "role": "overall_rank"
+        }
+      ]
+    }
+  ]
+}

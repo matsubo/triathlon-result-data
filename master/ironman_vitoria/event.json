@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Vitoria-Gasteiz",
+  "location": "Vitoria-Gasteiz, Spain",
+  "location_parts": {
+    "country": "ES",
+    "region": "Basque Country",
+    "city": "Vitoria-Gasteiz"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2200/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Medieval_wall_in_Vitoria-Gasteiz_(1).jpg",
+    "author": "Krzysztof Golik",
+    "license": "CC BY-SA 4.0"
+  }
+}

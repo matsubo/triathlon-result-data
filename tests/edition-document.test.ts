@@ -8,11 +8,13 @@ import {
   editionDocument,
   SchemaInvalid,
 } from "../scripts/lib/edition-document.js";
+import { tsvPath, weatherPath } from "../scripts/lib/layout.js";
 import { memoryRepo, type Repo } from "../scripts/lib/repo.js";
+import { corpusFiles, type FixtureEdition } from "./corpus-fixture";
 
 type Col = { header: string; role: string };
 
-const TSV = "master/2024/ev/od.tsv";
+const TSV = tsvPath("ev", "2024-06-02", "ev_od");
 
 function edition(meta: Col[], swim: Col[] = [], extra: object = {}) {
   return {
@@ -35,9 +37,9 @@ function edition(meta: Col[], swim: Col[] = [], extra: object = {}) {
   };
 }
 
-function repoOf(editions: unknown[], files: Record<string, string>) {
+function repoOf(editions: FixtureEdition[], files: Record<string, string>) {
   return memoryRepo({
-    "race-info.json": JSON.stringify({ events: [{ id: "ev", name: "Ev", location: "Somewhere", editions }] }),
+    ...corpusFiles([{ id: "ev", name: "Ev", location: "Somewhere", editions }]),
     ...files,
   });
 }
@@ -57,7 +59,7 @@ const NAME = { header: "Name", role: "name" };
 const TOTAL = { header: "Total", role: "total_time" };
 
 describe("editionDocument: the Edition document", () => {
-  test("builds the exact output object from race-info and the TSV", () => {
+  test("builds the exact output object from event.json, edition.json and the TSV", () => {
     const repo = single(
       [RANK, NAME, TOTAL, { header: "Country", role: "residence" }],
       [["1", "Taro Yamada", "2:01:02", "JPN"]],
@@ -157,8 +159,8 @@ describe("editionDocument: the Edition document", () => {
     expect(JSON.stringify(a)).not.toMatch(/memo|市民/);
   });
 
-  test("every Column role in race-info-schema.json is handled or dropped", () => {
-    const schema = JSON.parse(readFileSync(join(resolve(import.meta.dirname, ".."), "race-info-schema.json"), "utf8"));
+  test("every Column role in edition-schema.json is handled or dropped", () => {
+    const schema = JSON.parse(readFileSync(join(resolve(import.meta.dirname, ".."), "edition-schema.json"), "utf8"));
     const meta = schema.definitions.MetaColumnRole.enum.map((role: string) => ({ header: `m_${role}`, role }));
     const seg = schema.definitions.SegmentColumnRole.enum.map((role: string) => ({ header: `s_${role}`, role }));
     const repo = single([NAME, ...meta], [["Taro", ...meta.map(() => "1"), ...seg.map(() => "0:10:00")]], seg);
@@ -176,20 +178,23 @@ describe("editionDocument: the Edition document", () => {
       { [TSV]: "Rank\tName\nDNQ *2\tTaro\nDNF\tJiro\n" },
     );
     expect(editionDocument(repo, "ev", "2024").warnings).toEqual([
-      'Header mismatch in master/2024/ev/od.tsv: column "Age" not found in TSV headers',
-      'Unknown status token "DNQ *2" in master/2024/ev/od.tsv',
+      'Header mismatch in master/ev/2024-06-02/ev_od.tsv: column "Age" not found in TSV headers',
+      'Unknown status token "DNQ *2" in master/ev/2024-06-02/ev_od.tsv',
     ]);
     const missing = repoOf([edition([NAME])], {});
     const result = editionDocument(missing, "ev", "2024");
-    expect(result.warnings).toEqual(["Result TSV not found: master/2024/ev/od.tsv"]);
+    expect(result.warnings).toEqual(["Result TSV not found: master/ev/2024-06-02/ev_od.tsv"]);
     expect(result.document.categories[0].athletes).toEqual([]);
   });
 
-  test("a missing weather file is a warning and null weather", () => {
-    const repo = repoOf([{ ...edition([NAME]), weather_file: "master/2024/ev/weather-data.json" }], { [TSV]: "Name\nTaro\n" });
+  test("weather is the weather-data.json beside edition.json, null without one", () => {
+    const repo = repoOf([edition([NAME])], { [TSV]: "Name\nTaro\n" });
+    expect(editionDocument(repo, "ev", "2024").document.weather).toBeNull();
+    const weather = { date: "2024-06-02", sunrise: "04:30", sunset: "19:00", minTemp: 18, maxTemp: 27, hourly: [] };
+    repo.writeText(weatherPath("ev", "2024-06-02"), JSON.stringify(weather));
     const { document, warnings } = editionDocument(repo, "ev", "2024");
-    expect(document.weather).toBeNull();
-    expect(warnings).toEqual(["weather file not found: master/2024/ev/weather-data.json"]);
+    expect(document.weather).toEqual(weather);
+    expect(warnings).toEqual([]);
   });
 });
 
@@ -213,7 +218,7 @@ describe("editionDocument: errors", () => {
   test("no matching Edition or Event is EditionNotFound", () => {
     const repo = repoOf([edition([NAME])], { [TSV]: "Name\nTaro\n" });
     expect(() => editionDocument(repo, "ev", "2019")).toThrow(EditionNotFound);
-    expect(() => editionDocument(repo, "nope", "2024")).toThrow('event "nope" not found in race-info.json');
+    expect(() => editionDocument(repo, "nope", "2024")).toThrow('event "nope" not found');
   });
 
   test("a document failing result-schema.json is SchemaInvalid with the ajv errors", () => {

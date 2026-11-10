@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Puerto Princesa",
+  "location": "Puerto Princesa, Philippines",
+  "location_parts": {
+    "country": "PH",
+    "city": "Puerto Princesa"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2404/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3APuerto_Princesa_Underground_River.jpg",
+    "author": "Mike Gonzalez",
+    "license": "CC BY-SA 3.0"
+  }
+}

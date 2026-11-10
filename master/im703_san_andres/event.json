@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 San Andres",
+  "location": "San Andres",
+  "location_parts": {
+    "country": "CO",
+    "region": "San Andrés",
+    "city": "San Andrés"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/396/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AUninhabited_island_Cayo_Bolivar.jpg",
+    "author": "...some guy",
+    "license": "CC BY 2.0"
+  }
+}

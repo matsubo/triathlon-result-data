@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Florida",
+  "location": "Haines City, Florida, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Florida",
+    "city": "Haines City"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2606/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:\"The_Land_of_Lakes_and_Citrus_Groves,\"_Haines_City,_Florida_LCCN2007660758.tif",
+    "author": "Unknown",
+    "license": "Public domain"
+  }
+}

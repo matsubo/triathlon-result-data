@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Virginia's Blue Ridge",
+  "location": "Virginia's Blue Ridge",
+  "location_parts": {
+    "country": "US",
+    "region": "Virginia",
+    "city": "Roanoke"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/294/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Roanoke_City_%28Virginia%29_from_Mill_Mountain_Star_at_Dusk.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0"
+  }
+}

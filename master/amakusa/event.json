@@ -1,0 +1,15 @@
+{
+  "name": "天草宝島国際トライアスロン大会",
+  "location": "天草",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "熊本県",
+    "city": "天草市"
+  },
+  "source": "https://amakusa-triathlon.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Amakusa_city_Hondo_district_Aerial_photograph.2016.jpg",
+    "author": "国土地理院 (GSI of Japan)",
+    "license": "Attribution (CC-BY 4.0)"
+  }
+}

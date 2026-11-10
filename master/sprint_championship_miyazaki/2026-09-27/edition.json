@@ -1,0 +1,166 @@
+{
+  "categories": [
+    {
+      "id": "sprint_championship_miyazaki_men",
+      "name": "エリート男子",
+      "distance": "SD",
+      "description": "2026年第17回日本スプリントトライアスロン選手権（宮崎） エリート男子。みやざき臨海公園特設会場で開催。スイム0.75km、バイク20km、ラン5km。ドラフティング許可レース。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 0.75,
+          "columns": [
+            {
+              "header": "スイムラップ",
+              "role": "lap"
+            },
+            {
+              "header": "T1",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 20,
+          "columns": [
+            {
+              "header": "バイクラップ",
+              "role": "lap"
+            },
+            {
+              "header": "T2",
+              "role": "transition"
+            },
+            {
+              "header": "スプリット",
+              "role": "cumulative_time"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 5,
+          "columns": [
+            {
+              "header": "ランラップ",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "所属",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        }
+      ],
+      "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4642",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "428_1"
+      }
+    },
+    {
+      "id": "sprint_championship_miyazaki_women",
+      "name": "エリート女子",
+      "distance": "SD",
+      "description": "2026年第17回日本スプリントトライアスロン選手権（宮崎） エリート女子。みやざき臨海公園特設会場で開催。スイム0.75km、バイク20km、ラン5km。ドラフティング許可レース。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 0.75,
+          "columns": [
+            {
+              "header": "スイムラップ",
+              "role": "lap"
+            },
+            {
+              "header": "T1",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 20,
+          "columns": [
+            {
+              "header": "バイクラップ",
+              "role": "lap"
+            },
+            {
+              "header": "T2",
+              "role": "transition"
+            },
+            {
+              "header": "スプリット",
+              "role": "cumulative_time"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 5,
+          "columns": [
+            {
+              "header": "ランラップ",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "所属",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        }
+      ],
+      "source_url": "https://results.jtu.or.jp/api/results?cond[result_table_id]=4643",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "428_2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Maryland",
+  "location": "Cambridge, Maryland, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Maryland",
+    "city": "Cambridge"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2457/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:On_the_Choptank_River_in_Cambridge,_Maryland.jpg",
+    "author": "Bronzeage10",
+    "license": "CC BY 4.0"
+  }
+}

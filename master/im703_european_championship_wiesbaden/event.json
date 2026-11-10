@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 European Championship Wiesbaden",
+  "location": "European Championship Wiesbaden",
+  "location_parts": {
+    "country": "DE",
+    "region": "Hesse",
+    "city": "Wiesbaden"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/49/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Wiesbaden_BW_2017-04-24_20-51-36.jpg",
+    "author": "Berthold Werner",
+    "license": "CC BY-SA 3.0"
+  }
+}

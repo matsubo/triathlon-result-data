@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Superfrog",
+  "location": "Superfrog",
+  "location_parts": {
+    "country": "US",
+    "region": "California",
+    "city": "Coronado"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/150/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Hotel_del_Coronado.JPG",
+    "author": "Wikimedia Commons",
+    "license": "CC BY 2.0"
+  }
+}

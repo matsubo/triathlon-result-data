@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Santa Rosa",
+  "location": "Santa Rosa",
+  "location_parts": {
+    "country": "US",
+    "region": "California",
+    "city": "Santa Rosa"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/132/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3ASanta_Rosa_Junior_College_Museum.jpg",
+    "author": "E bailey",
+    "license": "CC BY-SA 4.0"
+  }
+}

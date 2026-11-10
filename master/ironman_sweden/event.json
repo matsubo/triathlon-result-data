@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN Sweden",
+  "location": "Kalmar, Sweden",
+  "location_parts": {
+    "country": "SE",
+    "city": "Kalmar"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2208/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Kalmar_castle_(by_Pudelek).JPG",
+    "author": "Pudelek",
+    "license": "CC BY-SA 4.0"
+  }
+}

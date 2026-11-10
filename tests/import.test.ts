@@ -1,16 +1,22 @@
 import { describe, expect, test } from "bun:test";
 import { readFileSync } from "node:fs";
 import { join, resolve } from "node:path";
+import { readCorpus } from "../scripts/lib/corpus.js";
 import { runImport } from "../scripts/lib/import.js";
-import { memoryRepo } from "../scripts/lib/repo.js";
+import { editionDir, editionJsonPath, eventJsonPath, imagePath, tsvPath, weatherPath } from "../scripts/lib/layout.js";
+import { memoryRepo, type Repo } from "../scripts/lib/repo.js";
 import { fixtureSource } from "../scripts/lib/results-sources/fixture.js";
 import { ironmanSource } from "../scripts/lib/results-sources/ironman.js";
 import { jtuSource } from "../scripts/lib/results-sources/jtu.js";
 import { preparedSource } from "../scripts/lib/results-sources/prepared.js";
+import { corpusFiles, type FixtureEdition, type FixtureEvent } from "./corpus-fixture";
 
 const repoRoot = resolve(import.meta.dirname, "..");
 const FIXTURES = join(import.meta.dirname, "fixtures/import");
-const SCHEMA = readFileSync(join(repoRoot, "race-info-schema.json"), "utf8");
+const SCHEMAS = {
+  "event-schema.json": readFileSync(join(repoRoot, "event-schema.json"), "utf8"),
+  "edition-schema.json": readFileSync(join(repoRoot, "edition-schema.json"), "utf8"),
+};
 
 // ---- builders ----------------------------------------------------------
 
@@ -102,10 +108,11 @@ function tsvOf(table: { headers: string[]; rows: string[][] }) {
   return `${[table.headers, ...table.rows].map((r) => r.join("\t")).join("\n")}\n`;
 }
 
-function im703Category(event: string, year: string, uuid: string) {
+function im703Category(event: string, date: string, uuid: string) {
+  const year = date.slice(0, 4);
   return {
     id: `${event}_${year}`,
-    result_tsv: `master/${year}/${event}_${year}/default.tsv`,
+    result_tsv: tsvPath(event, date, `${event}_${year}`),
     name: "Half Distance",
     distance: "MD",
     description: `${event} ${year}`,
@@ -120,37 +127,41 @@ function im703Category(event: string, year: string, uuid: string) {
   };
 }
 
-function event(id: string, editions: unknown[], extra: object = {}) {
+function event(id: string, editions: FixtureEdition[], extra: object = {}): FixtureEvent {
   return {
     id,
     name: `IRONMAN 70.3 ${id}`,
     location: "Somewhere, Japan",
     location_parts: { country: "JP" },
-    image: `images/${id}.webp`,
     source: "https://example.com/",
     editions,
     ...extra,
   };
 }
 
-function seed(events: unknown[], files: Record<string, string> = {}) {
-  return memoryRepo({
-    "race-info.json": `${JSON.stringify({ events }, null, 2)}\n`,
-    "race-info-schema.json": SCHEMA,
-    ...files,
-  });
+/** An Event with one Edition, whose only Category has the given IRONMAN uuid. */
+const im703Event = (id: string, date: string, uuid = "old") => event(id, [{ date, categories: [im703Category(id, date, uuid)] }]);
+
+function seed(events: FixtureEvent[], files: Record<string, string> = {}) {
+  return memoryRepo({ ...SCHEMAS, ...corpusFiles(events), ...files });
 }
 
-const raceInfo = (repo: { readText: (p: string) => string | null }) =>
-  JSON.parse(repo.readText("race-info.json") as string);
+function editionOf(repo: Repo, eventId: string, date: string) {
+  const edition = readCorpus(repo)
+    .events.find((e) => e.id === eventId)
+    ?.editions.find((e) => e.date === date);
+  if (!edition) throw new Error(`no Edition ${eventId} ${date}`);
+  return edition;
+}
+
+const X_2026 = tsvPath("im703_x", "2026-06-07", "im703_x_2026");
+const X_2026_EDITION = editionJsonPath("im703_x", "2026-06-07");
 
 // ---- tests -------------------------------------------------------------
 
 describe("runImport: IRONMAN add", () => {
   test("a 70.3 Edition with defaults: conventions, template inference, name cleanup", async () => {
-    const repo = seed([
-      event("im703_x", [{ date: "2025-06-01", categories: [im703Category("im703_x", "2025", "old")] }]),
-    ]);
+    const repo = seed([im703Event("im703_x", "2025-06-01"), im703Event("im703_y", "2025-06-01")]);
     const ironman = fixtureSource({ "uuid-1": im703(ROWS) });
     const report = await runImport(
       { editions: [{ event: "im703_x", date: "2026-06-07", ironman: "uuid-1" }] },
@@ -161,28 +172,27 @@ describe("runImport: IRONMAN add", () => {
     expect(report.editions[0].status).toBe("imported");
     expect(ironman.requests).toEqual([{ id: "uuid-1", template: "70.3" }]);
     expect(report.written).toEqual([
-      "master/2026/im703_x_2026/default.tsv",
-      "race-info.json",
+      "master/im703_x/2026-06-07/im703_x_2026.tsv",
+      "master/im703_x/2026-06-07/edition.json",
     ]);
 
-    const [ed] = raceInfo(repo).events[0].editions;
-    expect(ed).toEqual({
+    expect(editionOf(repo, "im703_x", "2026-06-07")).toEqual({
       date: "2026-06-07",
-      weather_file: "master/2026/im703_x_2026/weather-data.json",
+      weather_file: null,
       categories: [
         {
-          ...im703Category("im703_x", "2026", "uuid-1"),
+          ...im703Category("im703_x", "2026-06-07", "uuid-1"),
           description: "IRONMAN 70.3 im703_x 2026. Somewhere, Japan.",
         },
       ],
     });
 
-    const tsv = repo.readText("master/2026/im703_x_2026/default.tsv") as string;
+    const tsv = repo.readText(X_2026) as string;
     const names = tsv.split("\n").slice(1, 3).map((l) => l.split("\t")[2]);
     expect(names).toEqual(["Taro Yamada", "Jiro Sato"]);
-    expect(repo.readText("race-info.json")).toBe(
-      `${JSON.stringify(raceInfo(repo), null, 2)}\n`,
-    );
+    const editionText = repo.readText(X_2026_EDITION) as string;
+    expect(editionText).toBe(`${JSON.stringify(JSON.parse(editionText), null, 2)}\n`);
+    expect(JSON.parse(editionText).categories[0]).not.toHaveProperty("result_tsv");
   });
 
   test("the IRONMAN adapter replays a recorded payload into the committed TSV bytes", async () => {
@@ -195,9 +205,7 @@ describe("runImport: IRONMAN add", () => {
         return new Response(payload);
       }) as unknown as typeof fetch,
     });
-    const repo = seed([
-      event("im703_porec", [{ date: "2025-10-19", categories: [im703Category("im703_porec", "2025", "old")] }]),
-    ]);
+    const repo = seed([im703Event("im703_porec", "2025-10-19")]);
     const report = await runImport(
       { editions: [{ event: "im703_porec", date: "2026-10-18", ironman: "ace7b6b3" }] },
       { sources: { ironman }, repo },
@@ -205,7 +213,7 @@ describe("runImport: IRONMAN add", () => {
 
     expect(report.exit_code).toBe(0);
     expect(urls).toEqual(["https://labs-v2.competitor.com/api/results?wtc_eventid=ace7b6b3"]);
-    expect(repo.readText("master/2026/im703_porec_2026/default.tsv")).toBe(
+    expect(repo.readText(tsvPath("im703_porec", "2026-10-18", "im703_porec_2026"))).toBe(
       [
         "ContactId\tOverall_Rank\tName\tGender\tDivision\tDiv_Rank\tTotal_Time\tSwim\tT1\tBike\tT2\tRun\tCountry\tStatus",
         "73844bee-34e5-ed11-a7c7-000d3a314329\t1\tArthur Soler\tM\tM25-29\t1\t4:00:39\t0:27:29\t0:03:09\t2:10:55\t0:02:03\t1:17:04\tFrance\t",
@@ -220,22 +228,17 @@ describe("runImport: IRONMAN add", () => {
     );
   });
 
-  test("a new Event is inserted before insert_before and needs an explicit template", async () => {
-    const repo = seed(
-      [
-        event("im703_a", [{ date: "2025-06-01", categories: [im703Category("im703_a", "2025", "a")] }]),
-        event("im703_b", [{ date: "2025-06-01", categories: [im703Category("im703_b", "2025", "b")] }]),
-      ],
-      { "images/ironman_new.webp": "webp" },
-    );
+  test("a new Event needs its image.webp beforehand and an explicit template; only its event.json and Edition are written", async () => {
+    const repo = seed([im703Event("im703_a", "2025-06-01"), im703Event("im703_b", "2025-06-01")], {
+      [imagePath("ironman_new")]: "webp",
+    });
     const newEvent = {
       id: "ironman_new",
       name: "IRONMAN New",
       location: "Newtown, Japan",
       location_parts: { country: "JP", city: "Newtown" },
-      image: "images/ironman_new.webp",
       source: "https://example.com/new",
-      insert_before: "im703_b",
+      image_source: { url: "https://commons.wikimedia.org/wiki/File:New.jpg", author: "A", license: "CC BY 4.0" },
     };
     const sources = { ironman: fixtureSource({ "u-new": im703(ROWS, "Full Distance") }) };
 
@@ -248,51 +251,51 @@ describe("runImport: IRONMAN add", () => {
     expect(noTemplate.written).toEqual([]);
 
     const report = await runImport(
-      {
-        events: [newEvent],
-        editions: [
-          { event: "ironman_new", date: "2026-07-01", ironman: { id: "u-new", template: "full" }, weather: false },
-        ],
-      },
+      { events: [newEvent], editions: [{ event: "ironman_new", date: "2026-07-01", ironman: { id: "u-new", template: "full" } }] },
       { sources, repo },
     );
     expect(report.exit_code).toBe(0);
-    const events = raceInfo(repo).events;
-    expect(events.map((e: { id: string }) => e.id)).toEqual(["im703_a", "ironman_new", "im703_b"]);
-    const created = events[1];
-    expect(Object.keys(created)).toEqual([
-      "id",
-      "name",
-      "location",
-      "location_parts",
-      "image",
-      "source",
-      "editions",
+    expect(report.written).toEqual([
+      "master/ironman_new/2026-07-01/ironman_new_2026.tsv",
+      "master/ironman_new/2026-07-01/edition.json",
+      "master/ironman_new/event.json",
     ]);
-    expect(created.editions[0].weather_file).toBeUndefined();
-    expect(created.editions[0].categories[0].id).toBe("ironman_new_2026");
+    expect(JSON.parse(repo.readText(eventJsonPath("ironman_new")) as string)).toEqual({
+      name: "IRONMAN New",
+      location: "Newtown, Japan",
+      location_parts: { country: "JP", city: "Newtown" },
+      source: "https://example.com/new",
+      image_source: newEvent.image_source,
+    });
+    const { events, findings } = readCorpus(repo);
+    expect(findings).toEqual([]);
+    expect(events.map((e) => e.id)).toEqual(["im703_a", "im703_b", "ironman_new"]);
+    expect(events[2].image).toBe("master/ironman_new/image.webp");
+    expect(events[2].editions[0].categories[0].id).toBe("ironman_new_2026");
   });
 
-  test("a new Event whose image is missing or whose name duplicates an Event makes the plan invalid", async () => {
-    const repo = seed([event("im703_a", [{ date: "2025-06-01", categories: [im703Category("im703_a", "2025", "a")] }])]);
+  test("a new Event whose image is missing, reuses another Event's image bytes or whose name duplicates an Event makes the plan invalid", async () => {
+    const repo = seed([im703Event("im703_a", "2025-06-01")], { [imagePath("im703_copy")]: "image of im703_a" });
+    const newEvent = (id: string, name: string) => ({ id, name, location_parts: { country: "JP" }, source: "https://example.com/" });
     const report = await runImport(
       {
-        events: [
-          {
-            id: "im703_a_again",
-            name: "IRONMAN 70.3 IM703_A",
-            location_parts: { country: "JP" },
-            image: "images/missing.webp",
-            source: "https://example.com/",
-          },
-        ],
+        events: [newEvent("im703_a_again", "IRONMAN 70.3 IM703_A"), newEvent("im703_copy", "Copy")],
         editions: [{ event: "im703_a_again", date: "2026-07-01", ironman: "u" }],
       },
       { sources: {}, repo },
     );
     expect(report.exit_code).toBe(1);
-    expect(report.plan_errors.join("\n")).toContain("duplicates Event im703_a");
-    expect(report.plan_errors.join("\n")).toContain("images/missing.webp does not exist");
+    expect(report.plan_errors).toEqual([
+      'event im703_a_again: name "IRONMAN 70.3 IM703_A" duplicates Event im703_a',
+      "event im703_a_again: image master/im703_a_again/image.webp does not exist; add it before importing",
+      "event im703_copy: image master/im703_copy/image.webp is byte-identical to master/im703_a/image.webp",
+    ]);
+
+    const withImage = await runImport(
+      { events: [{ ...newEvent("im703_z", "Z"), image: "master/im703_z/image.webp" }], editions: [{ event: "im703_z", date: "2026-07-01", ironman: "u" }] },
+      { sources: {}, repo },
+    );
+    expect(withImage.exit_code).toBe(1);
 
     const bad = await runImport({ editions: [{ event: "x", date: "2026-7-1", ironman: "u" }] }, { sources: {}, repo });
     expect(bad.exit_code).toBe(1);
@@ -319,13 +322,12 @@ describe("runImport: IRONMAN add", () => {
     const sources = {
       ironman: fixtureSource({ empty: im703(noSwim), filled: im703(ROWS) }),
     };
-    const fresh = () =>
-      seed([event("im703_x", [{ date: "2025-06-01", categories: [im703Category("im703_x", "2025", "old")] }])]);
+    const fresh = () => seed([im703Event("im703_x", "2025-06-01")]);
 
     const repo = fresh();
     const ok = await runImport(plan("empty"), { sources, repo });
     expect(ok.exit_code).toBe(0);
-    const cat = raceInfo(repo).events[0].editions[0].categories[0];
+    const cat = editionOf(repo, "im703_x", "2026-06-07").categories[0];
     expect(cat.segments).toEqual([
       { sport: "bike", distance: 90, columns: [{ header: "Bike", role: "lap" }] },
       { sport: "run", distance: 21.1, columns: [{ header: "Run", role: "lap" }] },
@@ -338,7 +340,7 @@ describe("runImport: IRONMAN add", () => {
   });
 
   test("a declared swim with no finisher swim split is refused", async () => {
-    const repo = seed([event("im703_x", [{ date: "2025-06-01", categories: [im703Category("im703_x", "2025", "old")] }])]);
+    const repo = seed([im703Event("im703_x", "2025-06-01")]);
     const report = await runImport(
       { editions: [{ event: "im703_x", date: "2026-06-07", ironman: "u" }] },
       { sources: { ironman: fixtureSource({ u: im703(ROWS.map((r) => ({ ...r, swim: "" }))) }) }, repo },
@@ -347,7 +349,7 @@ describe("runImport: IRONMAN add", () => {
   });
 
   test("PRO-only results are refused", async () => {
-    const repo = seed([event("im703_x", [{ date: "2025-06-01", categories: [im703Category("im703_x", "2025", "old")] }])]);
+    const repo = seed([im703Event("im703_x", "2025-06-01")]);
     const pro = ROWS.map((r) => ({ ...r, div: "MPRO" }));
     const report = await runImport(
       { editions: [{ event: "im703_x", date: "2026-06-07", ironman: "u" }] },
@@ -357,7 +359,7 @@ describe("runImport: IRONMAN add", () => {
   });
 
   test("Age category labels are written canonical, except a label contradicting the Athlete's age", async () => {
-    const repo = seed([event("im703_x", [{ date: "2025-06-01", categories: [im703Category("im703_x", "2025", "old")] }])]);
+    const repo = seed([im703Event("im703_x", "2025-06-01")]);
     const t = im703(ROWS);
     const labels = ["男子30-34歳", "30-34男子", "男子30-34歳", "女子24歳以下"];
     const ages = ["31", "35", "52", ""];
@@ -372,7 +374,7 @@ describe("runImport: IRONMAN add", () => {
       { sources: { ironman: fixtureSource({ u: table }) }, repo },
     );
     expect(report.exit_code).toBe(0);
-    const tsv = repo.readText("master/2026/im703_x_2026/default.tsv") as string;
+    const tsv = repo.readText(X_2026) as string;
     const division = tsv.split("\n")[0].split("\t").indexOf("Division");
     expect(tsv.trim().split("\n").slice(1).map((l) => l.split("\t")[division])).toEqual([
       "M30-34",
@@ -385,10 +387,7 @@ describe("runImport: IRONMAN add", () => {
 
 describe("runImport: failure handling", () => {
   test("a failing Edition is skipped with its reason, the others are written, exit 2; a re-run is already-imported", async () => {
-    const repo = seed([
-      event("im703_x", [{ date: "2025-06-01", categories: [im703Category("im703_x", "2025", "x")] }]),
-      event("im703_y", [{ date: "2025-06-01", categories: [im703Category("im703_y", "2025", "y")] }]),
-    ]);
+    const repo = seed([im703Event("im703_x", "2025-06-01", "x"), im703Event("im703_y", "2025-06-01", "y")]);
     const sources = {
       ironman: fixtureSource({ ok: im703(ROWS), broken: new Error("HTTP 500") }),
     };
@@ -402,7 +401,7 @@ describe("runImport: failure handling", () => {
     expect(first.exit_code).toBe(2);
     expect(first.editions.map((e) => e.status)).toEqual(["skipped", "imported"]);
     expect(first.editions[0].reason).toBe("im703_x_2026: ironman fetch failed: HTTP 500");
-    expect(first.written).toEqual(["master/2026/im703_y_2026/default.tsv", "race-info.json"]);
+    expect(first.written).toEqual(["master/im703_y/2026-06-07/im703_y_2026.tsv", "master/im703_y/2026-06-07/edition.json"]);
 
     const again = await runImport(
       { editions: [{ event: "im703_y", date: "2026-06-07", ironman: "ok" }] },
@@ -421,42 +420,51 @@ describe("runImport: failure handling", () => {
   });
 
   test("a dry run keeps every write in memory", async () => {
-    const repo = seed([event("im703_x", [{ date: "2025-06-01", categories: [im703Category("im703_x", "2025", "x")] }])]);
-    const before = repo.readText("race-info.json");
+    const repo = seed([im703Event("im703_x", "2025-06-01", "x")]);
+    const before = repo.list("master");
     const report = await runImport(
       { editions: [{ event: "im703_x", date: "2026-06-07", ironman: "ok" }] },
       { sources: { ironman: fixtureSource({ ok: im703(ROWS) }) }, repo, dryRun: true },
     );
-    expect(report.written).toEqual(["master/2026/im703_x_2026/default.tsv", "race-info.json"]);
-    expect(repo.readText("race-info.json")).toBe(before);
-    expect(repo.readText("master/2026/im703_x_2026/default.tsv")).toBeNull();
+    expect(report.written).toEqual([X_2026, X_2026_EDITION]);
+    expect(repo.list("master")).toEqual(before);
+    expect(repo.readText(X_2026)).toBeNull();
+  });
+
+  test("an Edition directory holding files but no edition.json is skipped", async () => {
+    const repo = seed([im703Event("im703_x", "2025-06-01", "x")], { [weatherPath("im703_x", "2026-06-07")]: "{}" });
+    const report = await runImport(
+      { editions: [{ event: "im703_x", date: "2026-06-07", ironman: "ok" }] },
+      { sources: { ironman: fixtureSource({ ok: im703(ROWS) }) }, repo },
+    );
+    expect(report.exit_code).toBe(2);
+    expect(report.editions[0].reason).toBe(
+      `${editionDir("im703_x", "2026-06-07")} already holds master/im703_x/2026-06-07/weather-data.json but no Edition`,
+    );
+    expect(report.written).toEqual([]);
   });
 
   test("a TSV byte-identical to an existing TSV is rejected as contamination", async () => {
     const table = im703(ROWS);
-    const repo = seed(
-      [event("im703_x", [{ date: "2025-06-01", categories: [im703Category("im703_x", "2025", "x")] }])],
-      {
-        "master/2026/other/default.tsv": tsvOf({
-          headers: table.headers,
-          rows: table.rows.map((r) => r.map((v, i) => (i === 2 ? v.replace(/\s+/g, " ").replace("Ｔａｒｏ", "Taro") : v))),
-        }),
-      },
-    );
+    const repo = seed([im703Event("im703_x", "2025-06-01", "x"), im703Event("other", "2026-06-07")], {
+      [tsvPath("other", "2026-06-07", "other_2026")]: tsvOf({
+        headers: table.headers,
+        rows: table.rows.map((r) => r.map((v, i) => (i === 2 ? v.replace(/\s+/g, " ").replace("Ｔａｒｏ", "Taro") : v))),
+      }),
+    });
     const report = await runImport(
       { editions: [{ event: "im703_x", date: "2026-06-07", ironman: "ok" }] },
       { sources: { ironman: fixtureSource({ ok: table }) }, repo },
     );
     expect(report.exit_code).toBe(2);
-    expect(report.editions[0].reason).toContain("byte-identical to master/2026/other/default.tsv (contamination)");
+    expect(report.editions[0].reason).toContain("byte-identical to master/other/2026-06-07/other_2026.tsv (contamination)");
   });
 
   test("an Athlete count drop of more than half is a warning", async () => {
     const big = im703(Array.from({ length: 10 }, (_, i) => ({ rank: String(i + 1), name: `A ${i}`, total: `5:0${i}:00` })));
-    const repo = seed(
-      [event("im703_x", [{ date: "2025-06-01", categories: [im703Category("im703_x", "2025", "x")] }])],
-      { "master/2025/im703_x_2025/default.tsv": tsvOf(big) },
-    );
+    const repo = seed([im703Event("im703_x", "2025-06-01", "x")], {
+      [tsvPath("im703_x", "2025-06-01", "im703_x_2025")]: tsvOf(big),
+    });
     const report = await runImport(
       { editions: [{ event: "im703_x", date: "2026-06-07", ironman: "ok" }] },
       { sources: { ironman: fixtureSource({ ok: im703(ROWS) }) }, repo },
@@ -474,13 +482,13 @@ describe("runImport: failure handling", () => {
     const repo = seed(
       [
         event("im703_x", [
-          { date: "2025-06-01", categories: [im703Category("im703_x", "2025", "x")] },
-          { date: "2024-06-02", categories: [im703Category("im703_x", "2024", "y")] },
+          { date: "2025-06-01", categories: [im703Category("im703_x", "2025-06-01", "x")] },
+          { date: "2024-06-02", categories: [im703Category("im703_x", "2024-06-02", "y")] },
         ]),
       ],
       {
-        "master/2025/im703_x_2025/default.tsv": tsvOf(field("0:35:00")),
-        "master/2024/im703_x_2024/default.tsv": tsvOf(field("0:36:00")),
+        [tsvPath("im703_x", "2025-06-01", "im703_x_2025")]: tsvOf(field("0:35:00")),
+        [tsvPath("im703_x", "2024-06-02", "im703_x_2024")]: tsvOf(field("0:36:00")),
       },
     );
     const report = await runImport(
@@ -495,30 +503,20 @@ describe("runImport: failure handling", () => {
   });
 });
 
-describe("runImport: Edition placement", () => {
-  const add = async (dates: string[], date: string) => {
+describe("runImport: Edition order", () => {
+  test("Editions read back sorted by date, wherever the new one falls", async () => {
     const repo = seed([
       event(
         "im703_x",
-        dates.map((d) => ({ date: d, categories: [{ ...im703Category("im703_x", d.slice(0, 4), d), id: `x_${d}`, result_tsv: `master/${d.slice(0, 4)}/x_${d}/default.tsv` }] })),
+        ["2025-06-01", "2023-06-01"].map((d) => ({ date: d, categories: [im703Category("im703_x", d, d)] })),
       ),
     ]);
     const report = await runImport(
-      { editions: [{ event: "im703_x", date, ironman: "u" }] },
+      { editions: [{ event: "im703_x", date: "2024-06-01", ironman: "u" }] },
       { sources: { ironman: fixtureSource({ u: im703(ROWS) }) }, repo },
     );
     expect(report.exit_code).toBe(0);
-    return raceInfo(repo).events[0].editions.map((e: { date: string }) => e.date);
-  };
-
-  test("follows newest-first order", async () => {
-    expect(await add(["2025-06-01", "2023-06-01"], "2024-06-01")).toEqual(["2025-06-01", "2024-06-01", "2023-06-01"]);
-    expect(await add(["2025-06-01"], "2026-06-01")).toEqual(["2026-06-01", "2025-06-01"]);
-  });
-
-  test("follows oldest-first order", async () => {
-    expect(await add(["2023-06-01", "2025-06-01"], "2024-06-01")).toEqual(["2023-06-01", "2024-06-01", "2025-06-01"]);
-    expect(await add(["2023-06-01", "2025-06-01"], "2026-06-01")).toEqual(["2023-06-01", "2025-06-01", "2026-06-01"]);
+    expect(readCorpus(repo).events[0].editions.map((e) => e.date)).toEqual(["2023-06-01", "2024-06-01", "2025-06-01"]);
   });
 });
 
@@ -528,12 +526,8 @@ describe("runImport: refetch", () => {
     headers: committedTable.headers,
     rows: committedTable.rows.map((r) => r.map((v, i) => (i === 2 ? v.replace("Ｔａｒｏ　 ", "Taro ").replace("  ", " ") : v))),
   });
-  const path = "master/2026/im703_x_2026/default.tsv";
-  const fresh = () =>
-    seed(
-      [event("im703_x", [{ date: "2026-06-07", categories: [im703Category("im703_x", "2026", "u")] }])],
-      { [path]: committed },
-    );
+  const path = X_2026;
+  const fresh = () => seed([im703Event("im703_x", "2026-06-07", "u")], { [path]: committed });
   const plan = { editions: [{ event: "im703_x", date: "2026-06-07", mode: "refetch" as const }] };
 
   test("identical bytes are unchanged", async () => {
@@ -546,7 +540,7 @@ describe("runImport: refetch", () => {
 
   test("changed bytes rewrite only the TSV", async () => {
     const repo = fresh();
-    const before = repo.readText("race-info.json");
+    const before = repo.readText(X_2026_EDITION);
     const changed = ROWS.map((r, i) => (i === 2 ? { ...r, country: "France" } : r));
     const report = await runImport(plan, { sources: { ironman: fixtureSource({ u: im703(changed) }) }, repo });
     expect(report.exit_code).toBe(0);
@@ -554,7 +548,7 @@ describe("runImport: refetch", () => {
     expect(report.editions[0].categories[0]).toMatchObject({ tsv: "written", changed_rows: 1 });
     expect(report.written).toEqual([path]);
     expect(repo.readText(path)).toContain("Hanako Suzuki\tM\tM30-34\t1\t5:10:00\t0:30:00\t\t2:30:00\t\t1:40:00\tFrance");
-    expect(repo.readText("race-info.json")).toBe(before);
+    expect(repo.readText(X_2026_EDITION)).toBe(before);
   });
 
   test("a degraded rank probe is refused", async () => {
@@ -588,10 +582,7 @@ describe("runImport: refetch", () => {
     const pro = ROWS.map((r) => ({ ...r, div: "MPRO" }));
     const proTable = im703(pro);
     const proCommitted = tsvOf({ headers: proTable.headers, rows: proTable.rows.map((r) => r.map((v, i) => (i === 2 ? "Pro Athlete" : v))) });
-    const proRepo = seed(
-      [event("im703_x", [{ date: "2026-06-07", categories: [im703Category("im703_x", "2026", "u")] }])],
-      { [path]: proCommitted },
-    );
+    const proRepo = seed([im703Event("im703_x", "2026-06-07", "u")], { [path]: proCommitted });
     const ok = await runImport(plan, { sources: { ironman: fixtureSource({ u: proTable }) }, repo: proRepo });
     expect(ok.exit_code).toBe(0);
     expect(ok.editions[0].status).toBe("refetched");
@@ -615,9 +606,8 @@ describe("runImport: JTU add through the JTU adapter", () => {
     return new Response(readFileSync(join(FIXTURES, file), "utf8"));
   }) as unknown as typeof fetch;
 
-  const jtuCategory = (id: string, file: string, name: string, distance: string) => ({
+  const jtuCategory = (id: string, name: string, distance: string) => ({
     id,
-    result_tsv: `master/2025/irago/${file}`,
     name,
     distance,
     description: `${name} 2025`,
@@ -630,23 +620,25 @@ describe("runImport: JTU add through the JTU adapter", () => {
     source_url: null,
   });
 
-  test("three programs: id / file / name inferred from the previous Edition, roles from the caption vocabulary", async () => {
-    const repo = seed([
-      {
-        ...event("irago", [
-          {
-            date: "2025-09-14",
-            weather_file: "master/2025/irago/weather-data.json",
-            categories: [
-              jtuCategory("irago_a", "a.tsv", "Aタイプ（ミドル）", "MD"),
-              jtuCategory("irago_b", "b.tsv", "Bタイプ（スタンダード）", "OD"),
-              jtuCategory("irago_c", "c.tsv", "Cタイプ（スプリント）", "SD"),
-            ],
-          },
-        ]),
-        name: "トライアスロン伊良湖大会",
-      },
-    ]);
+  test("three programs: id / name inferred from the previous Edition, roles from the caption vocabulary", async () => {
+    const repo = seed(
+      [
+        {
+          ...event("irago", [
+            {
+              date: "2025-09-14",
+              categories: [
+                jtuCategory("irago_a", "Aタイプ（ミドル）", "MD"),
+                jtuCategory("irago_b", "Bタイプ（スタンダード）", "OD"),
+                jtuCategory("irago_c", "Cタイプ（スプリント）", "SD"),
+              ],
+            },
+          ]),
+          name: "トライアスロン伊良湖大会",
+        },
+      ],
+      { [weatherPath("irago", "2025-09-14")]: "{}" },
+    );
     const report = await runImport(
       {
         editions: [
@@ -675,13 +667,13 @@ describe("runImport: JTU add through the JTU adapter", () => {
 
     expect(report.exit_code).toBe(0);
     expect(report.editions[0].categories.map((c) => [c.id, c.result_tsv, c.rows])).toEqual([
-      ["irago_a", "master/2026/irago/a.tsv", 4],
-      ["irago_b", "master/2026/irago/b.tsv", 4],
-      ["irago_c", "master/2026/irago/c.tsv", 4],
+      ["irago_a", "master/irago/2026-09-06/irago_a.tsv", 4],
+      ["irago_b", "master/irago/2026-09-06/irago_b.tsv", 4],
+      ["irago_c", "master/irago/2026-09-06/irago_c.tsv", 4],
     ]);
-    const [ed] = raceInfo(repo).events[0].editions;
-    expect(ed.date).toBe("2026-09-06");
-    expect(ed.weather_file).toBe("master/2026/irago/weather-data.json");
+    const ed = editionOf(repo, "irago", "2026-09-06");
+    expect(ed.weather_file).toBeNull();
+    expect(editionOf(repo, "irago", "2025-09-14").weather_file).toBe("master/irago/2025-09-14/weather-data.json");
     const [a, b, c] = ed.categories;
     expect([a.name, b.name, c.name]).toEqual(["Aタイプ（ミドル）", "Bタイプ（スタンダード）", "Cタイプ（スプリント）"]);
     expect(a.source_ref).toEqual({ results_source: "jtu", id: "422_1" });
@@ -709,7 +701,7 @@ describe("runImport: JTU add through the JTU adapter", () => {
       { header: "ｽﾌﾟﾘｯﾄ", role: "cumulative_time" },
       { header: "通過", role: "cumulative_rank" },
     ]);
-    const tsv = repo.readText("master/2026/irago/a.tsv") as string;
+    const tsv = repo.readText(tsvPath("irago", "2026-09-06", "irago_a")) as string;
     expect(tsv.split("\n")[0]).toBe(
       "総合順位\tNo.\t氏名\t年齢\t性別\t登録地\t総合記録\tｽｲﾑﾗｯﾌﾟ\tＳ順\tﾊﾞｲｸﾗｯﾌﾟ\tＢ順\tｽﾌﾟﾘｯﾄ\t通過\tﾗﾝﾗｯﾌﾟ\tＲ順\tPNLT\t男子順位\t女子順位\t年齢区分\t年齡別順",
     );
@@ -719,9 +711,7 @@ describe("runImport: JTU add through the JTU adapter", () => {
   });
 
   test("column options rename, drop and add constants; an unknown caption is an error", async () => {
-    const repo = seed([
-      { ...event("irago", [{ date: "2025-09-14", categories: [jtuCategory("irago_b", "b.tsv", "B", "OD")] }]), name: "伊良湖" },
-    ]);
+    const repo = seed([{ ...event("irago", [{ date: "2025-09-14", categories: [jtuCategory("irago_b", "B", "OD")] }]), name: "伊良湖" }]);
     const plan = (columns: object) => ({
       editions: [
         { event: "irago", date: "2026-09-06", jtu: [{ program: "422_2", distance: "OD" as const, description: "B", columns }] },
@@ -734,17 +724,18 @@ describe("runImport: JTU add through the JTU adapter", () => {
       { sources, repo },
     );
     expect(ok.exit_code).toBe(0);
-    const header = (repo.readText("master/2026/irago/b.tsv") as string).split("\n")[0].split("\t");
+    const header = (repo.readText(tsvPath("irago", "2026-09-06", "irago_b")) as string).split("\n")[0].split("\t");
     expect(header.slice(3, 7)).toEqual(["年齢", "性別", "種別", "居住地"]);
     expect(header).toContain("ペナルティ");
     expect(header).not.toContain("Ｒ順");
-    const cat = raceInfo(repo).events[0].editions[0].categories[0];
+    const cat = editionOf(repo, "irago", "2026-09-06").categories[0];
     expect(cat.meta_columns).toContainEqual({ header: "種別", role: "note" });
     expect(cat.meta_columns).toContainEqual({ header: "ペナルティ", role: "penalty" });
 
-    const unknown = await runImport(plan({ rename: { PNLT: "謎の列" } }), { sources, repo: seed([
-      { ...event("irago", [{ date: "2025-09-14", categories: [jtuCategory("irago_b", "b.tsv", "B", "OD")] }]), name: "伊良湖" },
-    ]) });
+    const unknown = await runImport(plan({ rename: { PNLT: "謎の列" } }), {
+      sources,
+      repo: seed([{ ...event("irago", [{ date: "2025-09-14", categories: [jtuCategory("irago_b", "B", "OD")] }]), name: "伊良湖" }]),
+    });
     expect(unknown.exit_code).toBe(2);
     expect(unknown.editions[0].reason).toContain('unknown JTU caption "謎の列"; rename or drop it');
   });
@@ -759,9 +750,7 @@ describe("runImport: JTU add through the JTU adapter", () => {
       for (const c of json.res.body.result_cols) if (c.result_col_caption === "Ｓ順") c.result_col_caption = "Ｒ順";
       return new Response(JSON.stringify(json));
     }) as unknown as typeof fetch;
-    const repo = seed([
-      { ...event("irago", [{ date: "2025-09-14", categories: [jtuCategory("irago_b", "b.tsv", "B", "OD")] }]), name: "伊良湖" },
-    ]);
+    const repo = seed([{ ...event("irago", [{ date: "2025-09-14", categories: [jtuCategory("irago_b", "B", "OD")] }]), name: "伊良湖" }]);
     const report = await runImport(
       { editions: [{ event: "irago", date: "2026-09-06", jtu: [{ program: "422_2", distance: "OD", description: "B" }] }] },
       { sources: { jtu: jtuSource({ fetch: repeating }) }, repo },
@@ -786,21 +775,17 @@ describe("runImport: prepared TSV", () => {
         return tsv;
       },
     });
-    const repo = seed([
-      { ...event("du", [{ date: "2025-03-01", categories: [im703Category("du", "2025", "x")] }]), name: "デュアスロン大会" },
-    ]);
+    const repo = seed([{ ...event("du", [{ date: "2025-03-01", categories: [im703Category("du", "2025-03-01", "x")] }]), name: "デュアスロン大会" }]);
     const report = await runImport(
       {
         editions: [
           {
             event: "du",
             date: "2026-03-01",
-            weather: false,
             prepared: [
               {
                 tsv: "/tmp/du.tsv",
                 id: "du",
-                file: "default.tsv",
                 name: "デュアスロン",
                 distance: "DUATHLON",
                 description: "2026年デュアスロン大会",
@@ -824,13 +809,13 @@ describe("runImport: prepared TSV", () => {
     );
 
     expect(report.exit_code).toBe(0);
-    const [ed] = raceInfo(repo).events[0].editions;
+    const ed = editionOf(repo, "du", "2026-03-01");
     expect(ed.categories[0].segments.map((s: { sport: string; columns: { header: string }[] }) => [s.sport, s.columns[0].header])).toEqual([
       ["run", "第1ラン"],
       ["bike", "バイク"],
       ["run", "第2ラン"],
     ]);
     expect(ed.categories[0].source_ref).toBeUndefined();
-    expect(repo.readText("master/2026/du/default.tsv")).toBe(tsv.replace("山田　太郎", "山田 太郎"));
+    expect(repo.readText(tsvPath("du", "2026-03-01", "du"))).toBe(tsv.replace("山田　太郎", "山田 太郎"));
   });
 });

@@ -1,0 +1,184 @@
+{
+  "categories": [
+    {
+      "id": "tangram_madarao_elite",
+      "name": "エリート",
+      "distance": "OTHER",
+      "description": "エリート（2025 ウインタートライアスロン）",
+      "segments": [
+        {
+          "sport": "bike",
+          "distance": 0,
+          "columns": [
+            {
+              "header": "MTB",
+              "role": "lap"
+            },
+            {
+              "header": "Ｂ順",
+              "role": "rank"
+            },
+            {
+              "header": "ｽﾌﾟﾘｯﾄ",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 0,
+          "columns": [
+            {
+              "header": "ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "R順",
+              "role": "rank"
+            },
+            {
+              "header": "XCスキー",
+              "role": "lap"
+            },
+            {
+              "header": "XC順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "都道府県",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男女別順",
+          "role": "gender_rank"
+        }
+      ],
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "308_1"
+      }
+    },
+    {
+      "id": "tangram_madarao_regular",
+      "name": "レギュラー",
+      "distance": "OTHER",
+      "description": "レギュラー（2025 ウインタートライアスロン）",
+      "segments": [
+        {
+          "sport": "bike",
+          "distance": 0,
+          "columns": [
+            {
+              "header": "MTB",
+              "role": "lap"
+            },
+            {
+              "header": "Ｂ順",
+              "role": "rank"
+            },
+            {
+              "header": "ｽﾌﾟﾘｯﾄ",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 0,
+          "columns": [
+            {
+              "header": "ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "R順",
+              "role": "rank"
+            },
+            {
+              "header": "XCスキー",
+              "role": "lap"
+            },
+            {
+              "header": "XC順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "都道府県",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男女別順",
+          "role": "gender_rank"
+        }
+      ],
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "308_2"
+      }
+    }
+  ]
+}

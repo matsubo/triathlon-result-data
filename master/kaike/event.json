@@ -1,0 +1,15 @@
+{
+  "name": "全日本トライアスロン皆生大会",
+  "location": "鳥取県米子市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "鳥取県",
+    "city": "米子市"
+  },
+  "source": "https://www.kaike-triathlon.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Kaike_onsen01n3200.jpg",
+    "author": "663highland",
+    "license": "CC BY-SA 3.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Saipan",
+  "location": "Saipan",
+  "location_parts": {
+    "country": "MP",
+    "city": "Saipan"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/165/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Susupe_beach_-_Saipan_-_panoramio.jpg",
+    "author": "kajikawa",
+    "license": "CC BY 3.0"
+  }
+}

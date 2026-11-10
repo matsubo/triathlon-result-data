@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Qujing",
+  "location": "Qujing",
+  "location_parts": {
+    "country": "CN",
+    "city": "Qujing"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/69/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3A%E6%9B%B2%E9%9D%96%E5%B8%82%E5%A4%A9%E9%99%85%E7%BA%BF_-_%E8%88%AA%E6%8B%8D_-_2024-10-02_10.jpg",
+    "author": "瑞丽江的河水",
+    "license": "CC BY-SA 4.0"
+  }
+}

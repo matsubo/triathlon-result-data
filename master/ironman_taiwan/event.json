@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN Taiwan",
+  "location": "Taiwan",
+  "location_parts": {
+    "country": "TW"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2201/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Taipei_101_sunset_skyline_2015.jpg",
+    "author": "中岑 范姜",
+    "license": "CC BY-SA 2.0"
+  }
+}

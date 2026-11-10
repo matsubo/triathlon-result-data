@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Campeche",
+  "location": "Campeche",
+  "location_parts": {
+    "country": "MX",
+    "region": "Campeche",
+    "city": "Campeche"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/83/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Malecon_Campeche_Mexico.jpg",
+    "author": "amanderson2",
+    "license": "CC BY 2.0"
+  }
+}

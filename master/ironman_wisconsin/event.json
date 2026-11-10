@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Wisconsin",
+  "location": "Madison, Wisconsin, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Wisconsin",
+    "city": "Madison"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2454/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Wisconsin_State_Capitol,_Capitol_Square,_Madison,_WI_(52733889726).jpg",
+    "author": "Warren LeMay",
+    "license": "CC BY-SA 2.0"
+  }
+}

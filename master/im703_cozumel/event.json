@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Cozumel",
+  "location": "Cozumel, Mexico",
+  "location_parts": {
+    "country": "MX",
+    "region": "Quintana Roo",
+    "city": "Cozumel"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2598/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Cozumel_beach.jpg",
+    "author": "Virginiambe",
+    "license": "CC BY-SA 3.0"
+  }
+}

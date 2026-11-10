@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Wales",
+  "location": "Tenby, Wales, UK",
+  "location_parts": {
+    "country": "GB",
+    "region": "Wales",
+    "city": "Tenby"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2458/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Harbor,_Tenby,_Wales-LCCN2001703557.jpg",
+    "author": "Photochrom Print Collection",
+    "license": "Public domain"
+  }
+}

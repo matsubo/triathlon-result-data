@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Xi'an",
+  "location": "Xi'an",
+  "location_parts": {
+    "country": "CN",
+    "city": "Xi’an"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/179/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:City_wall_of_Xi%27an_51550-Xian_%2827959363326%29.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY 2.0"
+  }
+}

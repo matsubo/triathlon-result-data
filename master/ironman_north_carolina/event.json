@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN North Carolina",
+  "location": "Wilmington, North Carolina, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "North Carolina",
+    "city": "Wilmington"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/56/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Wilmington_Riverwalk_and_downtown.jpg",
+    "author": "Jason W. Smith",
+    "license": "CC BY-SA 3.0"
+  }
+}

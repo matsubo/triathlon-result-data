@@ -1,0 +1,85 @@
+{
+  "categories": [
+    {
+      "id": "im703_mont_tremblant_2024",
+      "name": "Half Distance",
+      "distance": "MD",
+      "description": "IRONMAN 70.3 Mont Tremblant. Swim shortened to 0.727 miles (1,170 m) due to wind at the far end of the course; bike and run held as planned.",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.17,
+          "columns": [
+            {
+              "header": "Swim",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 90,
+          "columns": [
+            {
+              "header": "Bike",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 21.1,
+          "columns": [
+            {
+              "header": "Run",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "ContactId",
+          "role": "athlete_id"
+        },
+        {
+          "header": "Overall_Rank",
+          "role": "overall_rank"
+        },
+        {
+          "header": "Name",
+          "role": "name"
+        },
+        {
+          "header": "Gender",
+          "role": "gender"
+        },
+        {
+          "header": "Division",
+          "role": "age_category"
+        },
+        {
+          "header": "Div_Rank",
+          "role": "age_rank"
+        },
+        {
+          "header": "Total_Time",
+          "role": "total_time"
+        },
+        {
+          "header": "Country",
+          "role": "residence"
+        },
+        {
+          "header": "Status",
+          "role": "status"
+        }
+      ],
+      "source_url": null,
+      "source_ref": {
+        "results_source": "ironman",
+        "id": "49e3a2a0-f4d7-492a-9fbe-489a98e535ae"
+      }
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "categories": [
+    {
+      "id": "tangram_madarao_2026",
+      "name": "スタンダード",
+      "distance": "OTHER",
+      "description": "2026 タングラム斑尾ウインタートライアスロン スタンダード。ラン→MTB→クロスカントリースキーを2周回する冬季トライアスロン。スポーツ種別にスキーが無いため、クロスカントリースキー区間は run として記録（ラップタイムは保持）。",
+      "segments": [
+        {
+          "sport": "run",
+          "distance": 0,
+          "columns": [
+            {
+              "header": "ラン1",
+              "role": "lap"
+            },
+            {
+              "header": "R1順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 0,
+          "columns": [
+            {
+              "header": "MTB1",
+              "role": "lap"
+            },
+            {
+              "header": "Ｂ1順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 0,
+          "columns": [
+            {
+              "header": "XCｽｷｰ1",
+              "role": "lap"
+            },
+            {
+              "header": "XC1順",
+              "role": "rank"
+            },
+            {
+              "header": "LAP1",
+              "role": "cumulative_time"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 0,
+          "columns": [
+            {
+              "header": "ラン2",
+              "role": "lap"
+            },
+            {
+              "header": "R2順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 0,
+          "columns": [
+            {
+              "header": "MTB2",
+              "role": "lap"
+            },
+            {
+              "header": "Ｂ2順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 0,
+          "columns": [
+            {
+              "header": "XCｽｷｰ2",
+              "role": "lap"
+            },
+            {
+              "header": "XC2順",
+              "role": "rank"
+            },
+            {
+              "header": "LAP2",
+              "role": "cumulative_time"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=379&program_id=379_1",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "379_1"
+      }
+    }
+  ]
+}

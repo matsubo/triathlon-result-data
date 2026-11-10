@@ -1,0 +1,10 @@
+{
+  "name": "IRONMAN 70.3 Omaha",
+  "location": "Omaha, Nebraska",
+  "location_parts": {
+    "country": "US",
+    "region": "Nebraska",
+    "city": "Omaha"
+  },
+  "source": "https://labs-v2.competitor.com/results/event/658da0ab-acc3-4eb5-a40b-6ccb8acde758"
+}

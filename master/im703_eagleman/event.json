@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Eagleman",
+  "location": "Cambridge, Maryland, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Maryland",
+    "city": "Cambridge"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2434/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:GreatChoptankParishPS.jpg",
+    "author": "Nolabob",
+    "license": "CC BY-SA 4.0"
+  }
+}

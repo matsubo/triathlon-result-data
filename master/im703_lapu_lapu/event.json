@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Lapu-Lapu",
+  "location": "Lapu-Lapu City, Philippines",
+  "location_parts": {
+    "country": "PH",
+    "city": "Lapu-Lapu"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2599/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:BB_Blue_Waters_Mactan_beach_4.jpg",
+    "author": "Øyvind Holmstad",
+    "license": "CC BY-SA 4.0"
+  }
+}

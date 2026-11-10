@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Taupo",
+  "location": "Taupo",
+  "location_parts": {
+    "country": "NZ",
+    "city": "Taupō"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/174/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Lake_Taupo_and_three_mountains.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0"
+  }
+}

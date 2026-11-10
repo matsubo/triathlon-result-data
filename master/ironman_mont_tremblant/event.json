@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Mont-Tremblant",
+  "location": "Mont-Tremblant, Quebec, Canada",
+  "location_parts": {
+    "country": "CA",
+    "region": "Quebec",
+    "city": "Mont-Tremblant"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/17/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Mont-Tremblant_Quebec_Canada.jpg",
+    "author": "Acarpentier",
+    "license": "CC BY 3.0"
+  }
+}

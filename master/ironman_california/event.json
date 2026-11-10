@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN California",
+  "location": "Sacramento, California, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "California",
+    "city": "Oceanside"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2464/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Sacramento,_California_skyline.jpg",
+    "author": "Quintin Soloviev",
+    "license": "CC BY 4.0"
+  }
+}

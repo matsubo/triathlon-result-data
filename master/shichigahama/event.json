@@ -1,0 +1,15 @@
+{
+  "name": "みやぎ国際トライアスロン仙台ベイ七ヶ浜大会",
+  "location": "宮城県七ヶ浜町",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "宮城県",
+    "city": "七ヶ浜町"
+  },
+  "source": "http://date-tora.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Kobamako_shichigahama_1.jpg",
+    "author": "ToshiJapon",
+    "license": "CC BY-SA 4.0"
+  }
+}

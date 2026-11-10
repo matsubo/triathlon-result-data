@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Ballarat",
+  "location": "Ballarat",
+  "location_parts": {
+    "country": "AU",
+    "region": "Victoria",
+    "city": "Ballarat"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/231/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Lake_Wendouree._Ballarat.jpg",
+    "author": "Ed Dunens",
+    "license": "CC BY 2.0"
+  }
+}

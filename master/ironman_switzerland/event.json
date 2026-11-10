@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN Switzerland",
+  "location": "Thun, Switzerland",
+  "location_parts": {
+    "country": "CH",
+    "city": "Thun"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2453/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Lake_Thun_(view_from_the_east).jpg",
+    "author": "Carsten Steger",
+    "license": "CC BY-SA 4.0"
+  }
+}

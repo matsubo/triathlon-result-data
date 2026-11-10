@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Michigan",
+  "location": "Traverse City, Michigan, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Michigan"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2620/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AFrankfort_lighthouse_sunset.jpg",
+    "author": "Belle montano-zygmunt",
+    "license": "CC BY 2.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Lanzarote",
+  "location": "Lanzarote, Spain",
+  "location_parts": {
+    "country": "ES",
+    "region": "Canary Islands",
+    "city": "Puerto del Carmen"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2195/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Volcanoes_in_Parque_Nacional_Timanfaya,_Lanzarote_-_panoramio.jpg",
+    "author": "rgmz",
+    "license": "CC BY-SA 3.0"
+  }
+}

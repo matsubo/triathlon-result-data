@@ -1,0 +1,16 @@
+{
+  "name": "IRONMAN Japan",
+  "location": "北海道洞爺湖町・五島列島・南北海道",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "北海道",
+    "city": "洞爺湖町",
+    "venue": "五島列島・南北海道"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/32/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Lake_Toya_20140807.jpg",
+    "author": "Suicasmo",
+    "license": "CC BY-SA 4.0"
+  }
+}

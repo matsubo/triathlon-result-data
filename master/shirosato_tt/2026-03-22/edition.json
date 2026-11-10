@@ -1,0 +1,459 @@
+{
+  "categories": [
+    {
+      "id": "shirosato_tt_200km",
+      "name": "200km部門",
+      "distance": "OTHER",
+      "description": "2026年第11回しろさとTT200 200km部門（198.32km・35周回）。日本自動車研究所城里テストセンターの周回コースで開催されるノンドラフティングタイムトライアル。",
+      "segments": [
+        {
+          "sport": "bike",
+          "distance": 198.32,
+          "columns": [
+            {
+              "header": "総合記録",
+              "role": "lap"
+            },
+            {
+              "header": "LAP1",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP2",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP3",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP4",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP5",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP6",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP7",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP8",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP9",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP10",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP11",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP12",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP13",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP14",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP15",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP16",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP17",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP18",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP19",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP20",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP21",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP22",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP23",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP24",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP25",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP26",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP27",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP28",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP29",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP30",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP31",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP32",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP33",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP34",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP35",
+              "role": "checkpoint"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "都道府県",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "P分",
+          "role": "penalty"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "年齢区分",
+          "role": "age_category"
+        },
+        {
+          "header": "区分順位",
+          "role": "age_rank"
+        }
+      ],
+      "source_url": null
+    },
+    {
+      "id": "shirosato_tt_100km",
+      "name": "100km部門",
+      "distance": "OTHER",
+      "description": "2026年第11回しろさとTT200 100km部門（101.99km・18周回）。日本自動車研究所城里テストセンターの周回コースで開催されるノンドラフティングタイムトライアル。",
+      "segments": [
+        {
+          "sport": "bike",
+          "distance": 101.99,
+          "columns": [
+            {
+              "header": "総合記録",
+              "role": "lap"
+            },
+            {
+              "header": "LAP1",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP2",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP3",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP4",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP5",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP6",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP7",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP8",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP9",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP10",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP11",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP12",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP13",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP14",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP15",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP16",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP17",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP18",
+              "role": "checkpoint"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "都道府県",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "P分",
+          "role": "penalty"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "年齢区分",
+          "role": "age_category"
+        },
+        {
+          "header": "区分順位",
+          "role": "age_rank"
+        }
+      ],
+      "source_url": null
+    },
+    {
+      "id": "shirosato_tt_50km",
+      "name": "50km部門",
+      "distance": "OTHER",
+      "description": "2026年第11回しろさとTT200 50km部門（51.00km・9周回）。日本自動車研究所城里テストセンターの周回コースで開催されるノンドラフティングタイムトライアル。",
+      "segments": [
+        {
+          "sport": "bike",
+          "distance": 51,
+          "columns": [
+            {
+              "header": "総合記録",
+              "role": "lap"
+            },
+            {
+              "header": "LAP1",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP2",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP3",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP4",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP5",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP6",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP7",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP8",
+              "role": "checkpoint"
+            },
+            {
+              "header": "LAP9",
+              "role": "checkpoint"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "都道府県",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "P分",
+          "role": "penalty"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "年齢区分",
+          "role": "age_category"
+        },
+        {
+          "header": "区分順位",
+          "role": "age_rank"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

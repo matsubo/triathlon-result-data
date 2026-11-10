@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Aarhus",
+  "location": "Aarhus",
+  "location_parts": {
+    "country": "DK",
+    "city": "Aarhus"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/229/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Aarhus_to_Sams%C3%B8_passenger_ferry_Lille%C3%B8re_in_Aarhus_harbour_Denmark_04.jpg",
+    "author": "Ciara Ní Riain",
+    "license": "CC BY-SA 4.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Barcelona",
+  "location": "Barcelona",
+  "location_parts": {
+    "country": "ES",
+    "region": "Catalonia",
+    "city": "Calella"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/103/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Beach,_Barcelona_(P1170713).jpg",
+    "author": "Matti Blume",
+    "license": "CC BY-SA"
+  }
+}

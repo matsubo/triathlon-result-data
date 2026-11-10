@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Staffordshire",
+  "location": "Staffordshire",
+  "location_parts": {
+    "country": "GB",
+    "region": "England",
+    "city": "Stoke-on-Trent"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/46/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Cannock_Chase_Sherbrook_Valley_%2837096640%29_%28cropped%29.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 2.0"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "categories": [
+    {
+      "id": "kisosangawa",
+      "name": "トライアスロン（エイジ）",
+      "distance": "DUATHLON",
+      "description": "2025 木曽三川トライアスロン大会（エイジ）。スイム中止のためラン-バイク-ランのデュアスロン形式で実施。",
+      "segments": [
+        {
+          "sport": "run",
+          "distance": 0,
+          "columns": [
+            {
+              "header": "1st ラン",
+              "role": "lap"
+            },
+            {
+              "header": "1R順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 0,
+          "columns": [
+            {
+              "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "B順",
+              "role": "rank"
+            },
+            {
+              "header": "ｽﾌﾟﾘｯﾄ",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 0,
+          "columns": [
+            {
+              "header": "2nd ラン",
+              "role": "lap"
+            },
+            {
+              "header": "2R順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "居住地",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "PNLT",
+          "role": "penalty"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "区分",
+          "role": "age_category"
+        },
+        {
+          "header": "区分順位",
+          "role": "age_rank"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=324&program_id=324_3",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "324_3"
+      }
+    }
+  ]
+}

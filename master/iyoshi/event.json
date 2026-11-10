@@ -1,0 +1,16 @@
+{
+  "name": "伊予市トライアスロン大会inふたみ",
+  "location": "愛媛県伊予市双海",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "愛媛県",
+    "city": "伊予市",
+    "venue": "双海"
+  },
+  "source": "https://www.iyo-triathlon-futami.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Futami_sunset_in_Iyo.jpg",
+    "author": "Kounoji-amago",
+    "license": "CC BY-SA 4.0"
+  }
+}

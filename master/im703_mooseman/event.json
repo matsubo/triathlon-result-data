@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Mooseman",
+  "location": "Mooseman",
+  "location_parts": {
+    "country": "US",
+    "region": "New Hampshire",
+    "city": "Bristol"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/209/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AThe_ledges%2C_Newfound_Lake%2C_N.H_%2880128%29.jpg",
+    "author": "Tichnor Brothers, Publisher",
+    "license": "Public domain"
+  }
+}

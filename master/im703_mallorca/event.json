@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Mallorca",
+  "location": "Alcudia, Mallorca, Spain",
+  "location_parts": {
+    "country": "ES",
+    "region": "Balearic Islands",
+    "city": "Alcúdia"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2392/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Alcudia_beach.jpg",
+    "author": "Liilia Moroz",
+    "license": "CC BY-SA 4.0"
+  }
+}

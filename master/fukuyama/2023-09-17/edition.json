@@ -1,0 +1,97 @@
+{
+  "categories": [
+    {
+      "id": "fukuyama",
+      "name": "ミドルディスタンス",
+      "distance": "MD",
+      "description": "2023年福山かわまちトライアスロン ミドルディスタンス。広島県福山市芦田川かわまち広場周辺。スイム1.8km（600m×3周）、バイク80km（10km×8周）、ラン18km（6km×3周）。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.8,
+          "columns": [
+            {
+              "header": "SWIM順位",
+              "role": "rank"
+            },
+            {
+              "header": "SWIM Time",
+              "role": "lap"
+            },
+            {
+              "header": "transit",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 80,
+          "columns": [
+            {
+              "header": "BIKE順位",
+              "role": "rank"
+            },
+            {
+              "header": "BIKE通算順位",
+              "role": "cumulative_rank"
+            },
+            {
+              "header": "Bike Time",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 18,
+          "columns": [
+            {
+              "header": "RUN順位",
+              "role": "rank"
+            },
+            {
+              "header": "RUN Time",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "クラス",
+          "role": "age_category"
+        },
+        {
+          "header": "クラス順位",
+          "role": "age_rank"
+        },
+        {
+          "header": "居住地",
+          "role": "residence"
+        },
+        {
+          "header": "Finish time",
+          "role": "total_time"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

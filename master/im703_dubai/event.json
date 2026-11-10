@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Dubai",
+  "location": "Dubai",
+  "location_parts": {
+    "country": "AE",
+    "region": "Dubai",
+    "city": "Dubai"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/75/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:View_of_Dubai_Marina_Skyline_on_a_foggy_day.png",
+    "author": "Thehugossk",
+    "license": "CC BY-SA 4.0"
+  }
+}

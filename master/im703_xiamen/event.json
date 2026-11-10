@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Xiamen",
+  "location": "Xiamen",
+  "location_parts": {
+    "country": "CN",
+    "city": "Xiamen"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/60/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Xiamen_as_seen_from_the_coast_of_Xiaojinmen.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0"
+  }
+}

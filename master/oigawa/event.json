@@ -1,0 +1,15 @@
+{
+  "name": "大井川港トライアスロン大会",
+  "location": "静岡県焼津市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "静岡県",
+    "city": "焼津市"
+  },
+  "source": "http://oigawatri.g2.xrea.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Port_of_Yaizu_(2016-02-27).jpg",
+    "author": "Alpsdake",
+    "license": "CC BY-SA 4.0"
+  }
+}

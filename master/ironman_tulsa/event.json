@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Tulsa",
+  "location": "Tulsa, Oklahoma, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Oklahoma",
+    "city": "Tulsa"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/178/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Tulsa_skyline_aerial,_April_2023.jpg",
+    "author": "Nils Huenerfuerst",
+    "license": "CC BY-SA 4.0"
+  }
+}

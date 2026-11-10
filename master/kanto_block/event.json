@@ -1,0 +1,14 @@
+{
+  "name": "関東ブロックトライアスロン",
+  "location": "関東",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "東京都"
+  },
+  "source": "https://www.jtu.or.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Tsutsujigaoka,_on_Mount_Tsukuba_6.jpg",
+    "author": "Asanagi",
+    "license": "CC BY-SA 4.0"
+  }
+}

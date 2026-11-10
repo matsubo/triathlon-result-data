@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Israel",
+  "location": "Tiberias, Israel",
+  "location_parts": {
+    "country": "IL",
+    "region": "Northern District",
+    "city": "Tiberias"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/336/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Sea_of_Galilee_2008.JPG",
+    "author": "Pacman",
+    "license": "Public domain"
+  }
+}

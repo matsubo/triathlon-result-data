@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Muncie",
+  "location": "Muncie, Indiana, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Indiana",
+    "city": "Muncie"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2622/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AMuncie-indiana-ball-state.jpg",
+    "license": "Public domain"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "IRONMAN 70.3 Ruidoso",
+  "location": "Ruidoso",
+  "location_parts": {
+    "country": "US",
+    "city": "Ruidoso"
+  },
+  "source": "https://labs-v2.competitor.com/api/results?wtc_eventid=6a6e8fbe-d142-417f-a62a-243489523117"
+}

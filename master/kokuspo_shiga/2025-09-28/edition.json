@@ -1,0 +1,126 @@
+{
+  "categories": [
+    {
+      "id": "kokuspo_shiga_men",
+      "name": "成年男子",
+      "distance": "OD",
+      "description": "2025年わたSHIGA輝く国スポ トライアスロン成年男子。近江八幡市特設トライアスロン会場を舞台に開催。スイム1.5km、バイク40km、ラン10km。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "スイム",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "バイク",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "ラン",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "選手名",
+          "role": "name"
+        },
+        {
+          "header": "所属",
+          "role": "residence"
+        },
+        {
+          "header": "合計記録",
+          "role": "total_time"
+        },
+        {
+          "header": "備考",
+          "role": "status"
+        }
+      ],
+      "source_url": null
+    },
+    {
+      "id": "kokuspo_shiga_women",
+      "name": "成年女子",
+      "distance": "OD",
+      "description": "2025年わたSHIGA輝く国スポ トライアスロン成年女子。近江八幡市特設トライアスロン会場を舞台に開催。スイム1.5km、バイク40km、ラン10km。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "スイム",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "バイク",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "ラン",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "選手名",
+          "role": "name"
+        },
+        {
+          "header": "所属",
+          "role": "residence"
+        },
+        {
+          "header": "合計記録",
+          "role": "total_time"
+        },
+        {
+          "header": "備考",
+          "role": "status"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

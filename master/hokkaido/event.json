@@ -1,0 +1,15 @@
+{
+  "name": "北海道トライアスロン",
+  "location": "北海道洞爺湖町",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "北海道",
+    "city": "洞爺湖町"
+  },
+  "source": "https://hokkaido-triathlon.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Lake_Toya_20140808.jpg",
+    "author": "mendhak",
+    "license": "CC BY-SA"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "categories": [
+    {
+      "id": "miyakojima",
+      "name": "宮古島トライアスロン",
+      "distance": "LD",
+      "description": "第39回全日本トライアスロン宮古島大会。スイム3km、バイク123km、ラン35km。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 3,
+          "columns": [
+            {
+              "header": "ｽｲﾑﾗｯﾌﾟ",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 123,
+          "columns": [
+            {
+              "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "バイクS",
+              "role": "checkpoint"
+            },
+            {
+              "header": "バイク30",
+              "role": "checkpoint"
+            },
+            {
+              "header": "バイク68",
+              "role": "checkpoint"
+            },
+            {
+              "header": "バイクF",
+              "role": "checkpoint"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 35,
+          "columns": [
+            {
+              "header": "ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "ランS",
+              "role": "checkpoint"
+            },
+            {
+              "header": "R折り返し",
+              "role": "checkpoint"
+            },
+            {
+              "header": "R25",
+              "role": "checkpoint"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "居住地",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "ステータス",
+          "role": "status"
+        },
+        {
+          "header": "備考",
+          "role": "status"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

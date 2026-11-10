@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Krakow",
+  "location": "Krakow, Poland",
+  "location_parts": {
+    "country": "PL",
+    "city": "Kraków"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2613/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Krakow_-_Wawel_from_Vistula_-_4.jpg",
+    "author": "Ingo Mehling",
+    "license": "CC BY-SA 4.0"
+  }
+}

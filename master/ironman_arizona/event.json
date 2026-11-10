@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Arizona",
+  "location": "Tempe, Arizona, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Arizona",
+    "city": "Tempe"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2466/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:231021-2_downtown_Tempe_panorama.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0"
+  }
+}

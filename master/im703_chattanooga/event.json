@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Chattanooga",
+  "location": "Chattanooga, Tennessee, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Tennessee",
+    "city": "Chattanooga"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2423/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Walnut_Street_Bridge,_Chattanooga,_Tennessee.JPG",
+    "author": "Snickersnack30",
+    "license": "CC BY-SA 3.0"
+  }
+}

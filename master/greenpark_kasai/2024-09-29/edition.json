@@ -1,0 +1,113 @@
+{
+  "categories": [
+    {
+      "id": "greenpark_kasai",
+      "name": "オリンピックディスタンス",
+      "distance": "OD",
+      "description": "2024年第12回グリーンパークトライアスロンin加西。兵庫県加西市で開催。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "スイム",
+              "role": "lap"
+            },
+            {
+              "header": "Ｓ順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "バイク",
+              "role": "lap"
+            },
+            {
+              "header": "Ｂ順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "ラン",
+              "role": "lap"
+            },
+            {
+              "header": "Ｒ順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "区分",
+          "role": "age_category"
+        },
+        {
+          "header": "区分順位",
+          "role": "age_rank"
+        },
+        {
+          "header": "加算秒",
+          "role": "penalty"
+        },
+        {
+          "header": "JTU登録地",
+          "role": "residence"
+        },
+        {
+          "header": "選手権順",
+          "role": "championship_rank"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=291&program_id=291_1",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "291_1"
+      }
+    }
+  ]
+}

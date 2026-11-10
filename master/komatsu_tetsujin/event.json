@@ -1,0 +1,15 @@
+{
+  "name": "小松鉄人レース",
+  "location": "石川県小松市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "石川県",
+    "city": "小松市"
+  },
+  "source": "https://komatsutetsujin.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Komatsu_montage.JPG",
+    "author": "Mti",
+    "license": "CC BY-SA 3.0"
+  }
+}

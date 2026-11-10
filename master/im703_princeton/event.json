@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Princeton",
+  "location": "Princeton",
+  "location_parts": {
+    "country": "US",
+    "region": "New Jersey",
+    "city": "Princeton"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/237/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3ACampus_Club_Princeton_b.JPG",
+    "author": "Smallbones",
+    "license": "CC0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN Norway",
+  "location": "Haugesund, Norway",
+  "location_parts": {
+    "country": "NO",
+    "city": "Haugesund"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/65/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Haugesund,_Norway_-_May_2022.jpg",
+    "author": "Martin Falbisoner",
+    "license": "CC BY-SA 4.0"
+  }
+}

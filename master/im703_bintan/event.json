@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Bintan",
+  "location": "Bintan",
+  "location_parts": {
+    "country": "ID",
+    "city": "Bintan"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/142/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Bintan_Agro_Beach_Resort2.jpg",
+    "author": "Abhishek Kumar",
+    "license": "CC BY 2.0"
+  }
+}

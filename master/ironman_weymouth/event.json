@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Weymouth",
+  "location": "Weymouth, UK",
+  "location_parts": {
+    "country": "GB",
+    "region": "England",
+    "city": "Weymouth"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/54/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Seafront,_Weymouth_-_geograph.org.uk_-_3669282.jpg",
+    "author": "N Chadwick",
+    "license": "CC BY-SA 2.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "IRONMAN 70.3 Hengqin",
+  "location": "Hengqin, Zhuhai",
+  "location_parts": {
+    "country": "CN",
+    "city": "Zhuhai"
+  },
+  "source": "https://labs-v2.competitor.com/api/results?wtc_eventid=5f0ee442-bd40-4742-90bd-8ff1b8495dbb"
+}

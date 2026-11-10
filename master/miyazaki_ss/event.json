@@ -1,0 +1,15 @@
+{
+  "name": "宮崎スーパースプリントトライアスロン",
+  "location": "宮崎県宮崎市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "宮崎県",
+    "city": "宮崎市"
+  },
+  "source": "https://www.jtu.or.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Ogre%27s_Washboards_and_Torii,_Aoshima,_Miyazaki_-_Nov_5,_2017.jpg",
+    "author": "663highland",
+    "license": "CC BY-SA 4.0"
+  }
+}

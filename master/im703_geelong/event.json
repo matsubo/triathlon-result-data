@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Geelong",
+  "location": "Geelong",
+  "location_parts": {
+    "country": "AU",
+    "region": "Victoria",
+    "city": "Geelong"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/76/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Geelong_Waterfront_Visitor_Information_Centre,_west_view_20230218_1.jpg",
+    "author": "DXR",
+    "license": "CC BY-SA 4.0"
+  }
+}

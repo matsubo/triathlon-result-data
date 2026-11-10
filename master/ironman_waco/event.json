@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Waco",
+  "location": "Waco, Texas, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Texas",
+    "city": "Waco"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/335/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Waco_June_2016_06_(Brazos_River).jpg",
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0"
+  }
+}

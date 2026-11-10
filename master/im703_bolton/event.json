@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Bolton",
+  "location": "Bolton, UK",
+  "location_parts": {
+    "country": "GB",
+    "region": "England",
+    "city": "Bolton"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2432/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Bolton_Town_Hall_2007.jpg",
+    "author": "AFCR (talk) 13:39, 7 February 2008 (UTC)",
+    "license": "CC BY-SA 3.0"
+  }
+}

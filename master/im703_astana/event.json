@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Astana",
+  "location": "Astana",
+  "location_parts": {
+    "country": "KZ",
+    "city": "Astana"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/131/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Bayterek_exit,_Astana_(P1190655).jpg",
+    "author": "Matti Blume",
+    "license": "CC BY-SA"
+  }
+}

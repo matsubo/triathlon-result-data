@@ -1,0 +1,101 @@
+{
+  "categories": [
+    {
+      "id": "challenge_roth_2024",
+      "name": "Full Distance",
+      "distance": "LD",
+      "description": "2024 Challenge Roth",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 3.8,
+          "columns": [
+            {
+              "header": "Swim",
+              "role": "lap"
+            },
+            {
+              "header": "T1",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 180,
+          "columns": [
+            {
+              "header": "Bike",
+              "role": "lap"
+            },
+            {
+              "header": "T2",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 42.2,
+          "columns": [
+            {
+              "header": "Run",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "Overall_Rank",
+          "role": "overall_rank"
+        },
+        {
+          "header": "Gender_Rank",
+          "role": "gender_rank"
+        },
+        {
+          "header": "Div_Rank",
+          "role": "age_rank"
+        },
+        {
+          "header": "Bib",
+          "role": "bib"
+        },
+        {
+          "header": "Name",
+          "role": "name"
+        },
+        {
+          "header": "Gender",
+          "role": "gender"
+        },
+        {
+          "header": "Division",
+          "role": "age_category"
+        },
+        {
+          "header": "Age",
+          "role": "age"
+        },
+        {
+          "header": "Country",
+          "role": "residence"
+        },
+        {
+          "header": "Club",
+          "role": "note"
+        },
+        {
+          "header": "Penalty",
+          "role": "penalty"
+        },
+        {
+          "header": "Total_Time",
+          "role": "total_time"
+        }
+      ],
+      "source_url": "https://datev-challenge-roth.r.mikatiming.com/2024/?pid=list&pidp=start&event=2024_roth"
+    }
+  ]
+}

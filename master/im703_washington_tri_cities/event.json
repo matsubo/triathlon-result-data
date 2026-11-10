@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Washington Tri-Cities",
+  "location": "Washington Tri-Cities",
+  "location_parts": {
+    "country": "US",
+    "region": "Washington",
+    "city": "Richland"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/388/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Kennewick-ColumbiaRiverAerial_%2831695765421%29.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY 2.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "木曽三川トライアスロン",
+  "location": "三重県桑名市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "三重県",
+    "city": "桑名市"
+  },
+  "source": "https://kiso3tri.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Nikk%C5%8D_River_10-Aug-2019.jpg",
+    "author": "GSI Japan",
+    "license": "Public Domain (CC BY 4.0 equivalent)"
+  }
+}

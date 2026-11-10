@@ -1,0 +1,81 @@
+{
+  "categories": [
+    {
+      "id": "fujihill",
+      "name": "ヒルクライム",
+      "distance": "OTHER",
+      "description": "2026 第22回 Mt.富士ヒルクライム（公式確定リザルト runnet raceId=383993。富士スバルライン 24km、計測点 19km/20km/Finish。総合順位・年代別順位はネットタイム基準で算出。公式リザルトは年代区分を持たないため、Division は公式エントリーリスト2026-06-01版で付与した IRONMAN 表記の年代区分で、335名は未掲載のため MOPEN/FOPEN）",
+      "segments": [
+        {
+          "sport": "bike",
+          "distance": 19,
+          "columns": [
+            {
+              "header": "Lap_19km",
+              "role": "lap"
+            },
+            {
+              "header": "Split_19km",
+              "role": "cumulative_time"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 1,
+          "columns": [
+            {
+              "header": "Lap_20km",
+              "role": "lap"
+            },
+            {
+              "header": "Split_20km",
+              "role": "cumulative_time"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 4,
+          "columns": [
+            {
+              "header": "Lap_Finish",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "BibNumber",
+          "role": "bib"
+        },
+        {
+          "header": "Name",
+          "role": "name"
+        },
+        {
+          "header": "Gender",
+          "role": "gender"
+        },
+        {
+          "header": "Division",
+          "role": "age_category"
+        },
+        {
+          "header": "Total_Time",
+          "role": "total_time"
+        },
+        {
+          "header": "Div_Rank",
+          "role": "age_rank"
+        },
+        {
+          "header": "Overall_Rank",
+          "role": "overall_rank"
+        }
+      ],
+      "source_url": "https://runnet.jp/record/race.do?raceId=383993"
+    }
+  ]
+}

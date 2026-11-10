@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Melbourne",
+  "location": "Melbourne, Australia",
+  "location_parts": {
+    "country": "AU",
+    "region": "Victoria",
+    "city": "Melbourne"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2619/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AMelbourne_Skyline_at_daytime.jpg",
+    "author": "Kolitha de Silva",
+    "license": "CC BY 2.0"
+  }
+}

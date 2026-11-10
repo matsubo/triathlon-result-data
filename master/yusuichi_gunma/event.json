@@ -1,0 +1,15 @@
+{
+  "name": "遊水地ふれあいトライアスロン群馬大会",
+  "location": "群馬県板倉町",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "群馬県",
+    "city": "板倉町"
+  },
+  "source": "https://www.gunma-triathlon.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:板倉町の水場景観1.JPG",
+    "author": "Indiana jo",
+    "license": "CC BY-SA 4.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN 70.3 Philippines",
+  "location": "Philippines",
+  "location_parts": {
+    "country": "PH"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/139/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3ALambug_beach%2C_Badian%2C_Cebu%2C_Philippines_-_Flickr.jpg",
+    "author": "Su--May from London, UK",
+    "license": "CC BY 2.0"
+  }
+}

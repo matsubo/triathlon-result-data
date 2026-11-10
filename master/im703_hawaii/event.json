@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Hawaii",
+  "location": "Hilo, Hawaii, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Hawaii",
+    "city": "Hilo"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2428/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Hilo.jpg",
+    "author": "KanoaWithington at English Wikipedia (Kanoa Withington)",
+    "license": "CC BY-SA 3.0"
+  }
+}

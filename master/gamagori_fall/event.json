@@ -1,0 +1,16 @@
+{
+  "name": "蒲郡オレンジトライアスロン大会秋スペシャルエディション",
+  "location": "愛知県蒲郡市（浜町・竹島・市民会館周辺）",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "愛知県",
+    "city": "蒲郡市",
+    "venue": "浜町・竹島・市民会館周辺"
+  },
+  "source": "https://www.gama-triathlon.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Take_Island_and_Bridge.jpg",
+    "author": "Bariston",
+    "license": "CC BY-SA 4.0"
+  }
+}

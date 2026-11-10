@@ -1,0 +1,15 @@
+{
+  "name": "大崎上島HAPPYトライアスロン大会",
+  "location": "広島県豊田郡大崎上島町",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "広島県",
+    "city": "豊田郡大崎上島町"
+  },
+  "source": "https://osakikamijima-triathlon.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Osakikamijima_skyline.jpg",
+    "author": "Ben Duchac",
+    "license": "Public domain"
+  }
+}

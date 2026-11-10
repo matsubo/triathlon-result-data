@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN 70.3 Slovenian Istria",
+  "location": "Slovenian Istria",
+  "location_parts": {
+    "country": "SI"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/151/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3APiran_Scene_-_Piran_-_Adriatic_Coast_-_Slovenia_-_09_%2854567202378%29.jpg",
+    "author": "Adam Jones from Kelowna, BC, Canada",
+    "license": "CC BY 2.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Chattanooga",
+  "location": "Chattanooga, Tennessee, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Tennessee",
+    "city": "Chattanooga"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2459/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Chattanooga,_Tennessee_(2023).jpg",
+    "author": "WeaponizingArchitecture",
+    "license": "CC BY-SA 4.0"
+  }
+}

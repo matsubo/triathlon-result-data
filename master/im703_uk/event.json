@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN 70.3 UK",
+  "location": "UK",
+  "location_parts": {
+    "country": "GB"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/31/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Exmoor_from_holdstone_down.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0"
+  }
+}

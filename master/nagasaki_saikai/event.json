@@ -1,0 +1,15 @@
+{
+  "name": "長崎西海トライアスロン祭",
+  "location": "長崎県西海市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "長崎県",
+    "city": "西海市"
+  },
+  "source": "https://nagasakisaikai.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Panorama_of_Hario_Strait_(Inoura_Strait)_from_observation_deck_west_of_Shin-Saikaibashi_Bridge_in_Saikai,_Nagasaki.JPG",
+    "author": "STA3816",
+    "license": "CC BY-SA 4.0"
+  }
+}

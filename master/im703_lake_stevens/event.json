@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Lake Stevens",
+  "location": "Lake Stevens",
+  "location_parts": {
+    "country": "US",
+    "region": "Washington",
+    "city": "Lake Stevens"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/198/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Lake_Stevens_WA_panorama_from_Wyatt_Park.jpg",
+    "author": "Ron Clausen",
+    "license": "CC BY-SA 4.0"
+  }
+}

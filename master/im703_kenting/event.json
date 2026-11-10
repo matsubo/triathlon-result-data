@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Kenting",
+  "location": "Kenting, Taiwan",
+  "location_parts": {
+    "country": "TW",
+    "city": "Kenting"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2611/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Kenting_Hengchun-Township_Taiwan_Beach-01.jpg",
+    "author": "CEphoto, Uwe Aranas",
+    "license": "CC BY-SA 3.0"
+  }
+}

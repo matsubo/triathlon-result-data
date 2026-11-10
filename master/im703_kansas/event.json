@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Kansas",
+  "location": "Kansas",
+  "location_parts": {
+    "country": "US",
+    "region": "Kansas",
+    "city": "Lawrence"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/201/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Clinton_Lake.jpg",
+    "author": "U.S. government",
+    "license": "Public domain"
+  }
+}

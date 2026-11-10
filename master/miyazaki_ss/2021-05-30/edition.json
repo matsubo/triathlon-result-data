@@ -1,0 +1,158 @@
+{
+  "categories": [
+    {
+      "id": "miyazaki_ss_1st",
+      "name": "第1レース",
+      "distance": "SS",
+      "description": "JTU男子スーパースプリント特別大会（2021/宮崎）第1レース（個人タイムトライアル）。スイム300m、バイク7.112km、ラン2km（JTUリザルトのコース注記）。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 0.3,
+          "columns": [
+            {
+              "header": "Swim",
+              "role": "lap"
+            },
+            {
+              "header": "T1",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 7.112,
+          "columns": [
+            {
+              "header": "Bike",
+              "role": "lap"
+            },
+            {
+              "header": "T2",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 2,
+          "columns": [
+            {
+              "header": "Run",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "Pos",
+          "role": "overall_rank"
+        },
+        {
+          "header": "StartNum",
+          "role": "bib"
+        },
+        {
+          "header": "Name",
+          "role": "name"
+        },
+        {
+          "header": "Affiliation",
+          "role": "residence"
+        },
+        {
+          "header": "YOB",
+          "role": "age"
+        },
+        {
+          "header": "Time",
+          "role": "total_time"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=115&program_id=115_1",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "115_1"
+      }
+    },
+    {
+      "id": "miyazaki_ss_2nd",
+      "name": "第2レース",
+      "distance": "SS",
+      "description": "JTU男子スーパースプリント特別大会（2021/宮崎）第2レース（一斉スタート）。スイム300m、バイク7.112km、ラン2km（JTUリザルトのコース注記）。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 0.3,
+          "columns": [
+            {
+              "header": "Swim",
+              "role": "lap"
+            },
+            {
+              "header": "T1",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 7.112,
+          "columns": [
+            {
+              "header": "Bike",
+              "role": "lap"
+            },
+            {
+              "header": "T2",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 2,
+          "columns": [
+            {
+              "header": "Run",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "Pos",
+          "role": "overall_rank"
+        },
+        {
+          "header": "StartNum",
+          "role": "bib"
+        },
+        {
+          "header": "Name",
+          "role": "name"
+        },
+        {
+          "header": "Affiliation",
+          "role": "residence"
+        },
+        {
+          "header": "YOB",
+          "role": "age"
+        },
+        {
+          "header": "Time",
+          "role": "total_time"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=115&program_id=115_2",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "115_2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "categories": [
+    {
+      "id": "kujukuri_du",
+      "name": "デュアスロン",
+      "distance": "DUATHLON",
+      "description": "2020年 デュアスロン。台風14号の影響でトライアスロンからデュアスロン（ラン1.5km・バイク40km・ラン10km）に変更して開催",
+      "segments": [
+        {
+          "sport": "run",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "ラン1ラップ",
+              "role": "lap"
+            },
+            {
+              "header": "R1順",
+              "role": "rank"
+            },
+            {
+              "header": "T1ラップ",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "バイクラップ",
+              "role": "lap"
+            },
+            {
+              "header": "B順",
+              "role": "rank"
+            },
+            {
+              "header": "スプリット",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            },
+            {
+              "header": "T2ラップ",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "ラン2ラップ",
+              "role": "lap"
+            },
+            {
+              "header": "R2順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "年代区分",
+          "role": "age_category"
+        },
+        {
+          "header": "年代順位",
+          "role": "age_rank"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

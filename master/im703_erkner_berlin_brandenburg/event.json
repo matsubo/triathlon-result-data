@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Erkner Berlin-Brandenburg",
+  "location": "Erkner Berlin-Brandenburg",
+  "location_parts": {
+    "country": "DE",
+    "region": "Brandenburg",
+    "city": "Erkner"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/372/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Erkner_Wupatzsee_03.jpg",
+    "author": "Assenmacher",
+    "license": "CC BY-SA 4.0"
+  }
+}

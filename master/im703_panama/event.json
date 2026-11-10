@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Panama",
+  "location": "Panama",
+  "location_parts": {
+    "country": "PA",
+    "city": "Panama City"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/194/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3APanama_City_Skyline_1.jpg",
+    "author": "Dr. Thomas Liptak",
+    "license": "CC BY-SA 4.0"
+  }
+}

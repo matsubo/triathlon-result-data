@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN World Championship St George",
+  "location": "St George, Utah, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Utah",
+    "city": "Saint George"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/330/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Pine_Valley_Mountain_and_Red_Cliffs,_Utah.jpg",
+    "author": "Jim Warrick",
+    "license": "CC BY-SA 3.0"
+  }
+}

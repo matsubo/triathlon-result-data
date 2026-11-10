@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN Ireland",
+  "location": "Cork, Ireland",
+  "location_parts": {
+    "country": "IE"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/67/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Queenstown_Harbor._County_Cork,_Ireland_LOC_4427435498.jpg",
+    "author": "Library of Congress",
+    "license": "No restrictions"
+  }
+}

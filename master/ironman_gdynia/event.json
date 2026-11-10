@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN Gdynia",
+  "location": "Gdynia, Poland",
+  "location_parts": {
+    "country": "PL",
+    "city": "Gdynia"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/313/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Gdynia_Orłowo_fishing_harbor_1.jpg",
+    "author": "stockpressphoto.eu",
+    "license": "CC BY-SA 4.0"
+  }
+}
