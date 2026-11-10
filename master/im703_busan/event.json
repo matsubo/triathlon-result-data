@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Busan",
+  "location": "Busan",
+  "location_parts": {
+    "country": "KR",
+    "city": "Busan"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/245/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Haeundae_Beach_in_Busan.jpg",
+    "author": "StephNurnberg",
+    "license": "CC BY 2.0"
+  }
+}

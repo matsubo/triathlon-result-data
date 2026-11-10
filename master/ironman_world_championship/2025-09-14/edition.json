@@ -1,0 +1,85 @@
+{
+  "categories": [
+    {
+      "id": "ironman_world_championship",
+      "name": "IRONMAN DISTANCE",
+      "distance": "LD",
+      "description": "2025年IRONMAN World Championship。フランス・ニースで開催される世界最高峰の大会。スイム3.8km、バイク180km、ラン42.195kmのフルディスタンスで、世界中のトップアスリートが集結します。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 3.8,
+          "columns": [
+            {
+              "header": "Swim",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 180,
+          "columns": [
+            {
+              "header": "Bike",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 42.195,
+          "columns": [
+            {
+              "header": "Run",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "ContactId",
+          "role": "athlete_id"
+        },
+        {
+          "header": "Overall_Rank",
+          "role": "overall_rank"
+        },
+        {
+          "header": "Name",
+          "role": "name"
+        },
+        {
+          "header": "Gender",
+          "role": "gender"
+        },
+        {
+          "header": "Division",
+          "role": "age_category"
+        },
+        {
+          "header": "Div_Rank",
+          "role": "age_rank"
+        },
+        {
+          "header": "Total_Time",
+          "role": "total_time"
+        },
+        {
+          "header": "Country",
+          "role": "residence"
+        },
+        {
+          "header": "Status",
+          "role": "status"
+        }
+      ],
+      "source_url": null,
+      "source_ref": {
+        "results_source": "ironman",
+        "id": "13a8e2a2-e528-40a8-adb4-412b23364826"
+      }
+    }
+  ]
+}

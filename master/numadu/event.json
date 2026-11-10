@@ -1,0 +1,16 @@
+{
+  "name": "沼津千本浜トライアスロン",
+  "location": "静岡県沼津市 千本浜公園",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "静岡県",
+    "city": "沼津市",
+    "venue": "千本浜公園"
+  },
+  "source": "https://teamkens.co.jp/race/numazu-2025/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Senbonhama_20120203.jpg",
+    "author": "Batholith",
+    "license": "Public domain"
+  }
+}

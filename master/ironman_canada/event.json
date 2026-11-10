@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Canada",
+  "location": "Penticton / Whistler, BC, Canada",
+  "location_parts": {
+    "country": "CA",
+    "region": "British Columbia",
+    "city": "Penticton"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/35/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Penticton_-_Okanagan_Lake_pano_01.jpg",
+    "author": "Joe Mabel",
+    "license": "CC BY-SA 4.0"
+  }
+}

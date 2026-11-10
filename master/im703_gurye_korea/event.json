@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Gurye Korea",
+  "location": "Gurye Korea",
+  "location_parts": {
+    "country": "KR",
+    "city": "Gurye"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/241/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Gurye_Sansuyu_Flower_Festival_in_Spring_-_4402796001.jpg",
+    "author": "Korea.net / Korean Culture and Information Service",
+    "license": "CC BY-SA 2.0"
+  }
+}

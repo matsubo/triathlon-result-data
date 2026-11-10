@@ -1,0 +1,287 @@
+{
+  "categories": [
+    {
+      "id": "yokohama_hakkeijima",
+      "name": "スプリントディスタンス",
+      "distance": "SD",
+      "description": "2024年横浜八景島トライアスロンフェスティバル。神奈川県横浜市の八景島を舞台に、スイム750m、バイク20km、ラン5kmのスプリントディスタンスで開催。海と島の美しい景観を楽しみながら競う都市型トライアスロン大会です。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 0.75,
+          "columns": [
+            {
+              "header": "ｽｲﾑﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｓ順",
+              "role": "rank"
+            },
+            {
+              "header": "Ｔ１",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 20,
+          "columns": [
+            {
+              "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｂ順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 5,
+          "columns": [
+            {
+              "header": "ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｒ順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "年代別",
+          "role": "age_category"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=292&program_id=292_1",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "292_1"
+      }
+    },
+    {
+      "id": "yokohama_hakkeijima_s500",
+      "name": "スプリント（S500）",
+      "distance": "SD",
+      "description": "2024年横浜八景島トライアスロン スプリントS500の部。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 0.5,
+          "columns": [
+            {
+              "header": "ｽｲﾑﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｓ順",
+              "role": "rank"
+            },
+            {
+              "header": "Ｔ１",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 20,
+          "columns": [
+            {
+              "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｂ順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 5,
+          "columns": [
+            {
+              "header": "ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｒ順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=292&program_id=292_2",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "292_2"
+      }
+    },
+    {
+      "id": "yokohama_hakkeijima_s250",
+      "name": "スプリント（S250）",
+      "distance": "SD",
+      "description": "2024年横浜八景島トライアスロン スプリントS250の部。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 0.25,
+          "columns": [
+            {
+              "header": "ｽｲﾑﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｓ順",
+              "role": "rank"
+            },
+            {
+              "header": "Ｔ１",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 20,
+          "columns": [
+            {
+              "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｂ順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 5,
+          "columns": [
+            {
+              "header": "ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｒ順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=292&program_id=292_3",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "292_3"
+      }
+    }
+  ]
+}

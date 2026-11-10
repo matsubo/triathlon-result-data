@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Curitiba",
+  "location": "Curitiba",
+  "location_parts": {
+    "country": "BR",
+    "city": "Curitiba"
+  },
+  "source": "https://labs-v2.competitor.com/api/results?wtc_eventid=6280e340-8809-43ff-a572-4c3ca38fd39b",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Estufa_principal_do_Jardim_Bot%C3%A2nico_de_Curitiba_02.jpg",
+    "author": "Rodrigo.Argenton",
+    "license": "CC BY-SA 4.0"
+  }
+}

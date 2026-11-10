@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Lake Tahoe",
+  "location": "Lake Tahoe",
+  "location_parts": {
+    "country": "US",
+    "region": "California",
+    "city": "Lake Tahoe"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/236/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Lake_Tahoe_at_morning_-_7-2023.jpg",
+    "author": "John D.",
+    "license": "CC BY 2.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN Pays d'Aix-en-Provence",
+  "location": "Aix-en-Provence, France",
+  "location_parts": {
+    "country": "FR",
+    "city": "Aix-en-Provence"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/334/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Cours_Mirabeau_20100508_Aix-en-Provence_1.jpg",
+    "author": "Georges Seguin (Okki)",
+    "license": "CC BY-SA 3.0"
+  }
+}

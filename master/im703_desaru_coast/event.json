@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Desaru Coast",
+  "location": "Desaru Coast",
+  "location_parts": {
+    "country": "MY",
+    "city": "Desaru"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/188/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Desaru_Beach.jpg",
+    "author": "Chongkian",
+    "license": "CC BY-SA 4.0"
+  }
+}

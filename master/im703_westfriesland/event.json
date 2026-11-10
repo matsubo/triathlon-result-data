@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Westfriesland",
+  "location": "Westfriesland, Netherlands",
+  "location_parts": {
+    "country": "NL",
+    "city": "Hoorn"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2445/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Hoorn_-_Hoofdtoren.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN 70.3 Japan",
+  "location": "Japan",
+  "location_parts": {
+    "country": "JP"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/343/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Sunrise_with_Mount_Fuji_-_March_2025.jpg",
+    "author": "Romain Guy",
+    "license": "CC0"
+  }
+}

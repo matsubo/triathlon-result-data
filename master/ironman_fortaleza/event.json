@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Fortaleza",
+  "location": "Fortaleza, Brazil",
+  "location_parts": {
+    "country": "BR",
+    "region": "Ceará",
+    "city": "Fortaleza"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/41/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Fortaleza_Iracema_Beach.JPG",
+    "author": "Adrian Michael",
+    "license": "CC BY-SA 3.0"
+  }
+}

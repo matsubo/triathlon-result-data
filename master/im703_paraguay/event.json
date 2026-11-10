@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN 70.3 Paraguay",
+  "location": "Paraguay",
+  "location_parts": {
+    "country": "PY"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/243/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AAsunci%C3%B3n_temple_by_Bwood720.jpeg",
+    "author": "Bwood720 at English Wikipedia",
+    "license": "Public domain"
+  }
+}

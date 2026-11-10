@@ -1,0 +1,206 @@
+{
+  "categories": [
+    {
+      "id": "lake_hamana",
+      "name": "オリンピックディスタンス",
+      "distance": "OD",
+      "description": "2024年 オリンピックディスタンス",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "ｽｲﾑﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｓ順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｂ順",
+              "role": "rank"
+            },
+            {
+              "header": "ｽﾌﾟﾘｯﾄ",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｒ順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "年代区分",
+          "role": "age_category"
+        },
+        {
+          "header": "年代別順",
+          "role": "age_rank"
+        }
+      ],
+      "source_url": null
+    },
+    {
+      "id": "lake_hamana_sprint",
+      "name": "スプリントディスタンス",
+      "distance": "SD",
+      "description": "2024年 スプリントディスタンス",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 0.75,
+          "columns": [
+            {
+              "header": "ｽｲﾑﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｓ順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 20,
+          "columns": [
+            {
+              "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｂ順",
+              "role": "rank"
+            },
+            {
+              "header": "ｽﾌﾟﾘｯﾄ",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 5,
+          "columns": [
+            {
+              "header": "ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｒ順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "年代区分",
+          "role": "age_category"
+        },
+        {
+          "header": "年代別順",
+          "role": "age_rank"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

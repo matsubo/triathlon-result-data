@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Tours Metropole - Loire Valley",
+  "location": "Tours Metropole - Loire Valley",
+  "location_parts": {
+    "country": "FR",
+    "region": "Loire Valley",
+    "city": "Tours"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/395/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Morning_in_September_in_Tours_18.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0"
+  }
+}

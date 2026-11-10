@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Encarnacion",
+  "location": "Encarnacion",
+  "location_parts": {
+    "country": "PY",
+    "region": "Itapúa",
+    "city": "Encarnación"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/399/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Playa_San_José-Encarnación,_Paraguay.jpg",
+    "author": "Arthuro SantaCruz",
+    "license": "CC BY-SA 3.0"
+  }
+}

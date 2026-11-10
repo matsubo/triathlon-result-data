@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Les Sables d'Olonne-Vendee",
+  "location": "Les Sables d'Olonne-Vendee",
+  "location_parts": {
+    "country": "FR",
+    "region": "Vendée",
+    "city": "Les Sables-d’Olonne"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/374/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Entrance_to_the_Harbor_at_Sables_d'Olonne_Albert_Marquet_(1921).jpg",
+    "author": "Albert Marquet",
+    "license": "Public domain"
+  }
+}

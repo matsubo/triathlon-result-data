@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Silverman",
+  "location": "Silverman",
+  "location_parts": {
+    "country": "US",
+    "region": "Nevada",
+    "city": "Henderson"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/239/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3ALake_Mead%2C_Nevada_%287981495537%29.jpg",
+    "author": "Ken Lund from Reno, Nevada, USA",
+    "license": "CC BY-SA 2.0"
+  }
+}

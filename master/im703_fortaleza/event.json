@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Fortaleza",
+  "location": "Fortaleza",
+  "location_parts": {
+    "country": "BR",
+    "region": "Ceará",
+    "city": "Fortaleza"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/171/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Maior_toboagua_do_mundo.JPG",
+    "author": "David Anderson Silva",
+    "license": "Public domain"
+  }
+}

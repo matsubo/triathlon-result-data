@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Texas",
+  "location": "The Woodlands, Texas, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Texas",
+    "city": "The Woodlands"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2199/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Woodlands_Waterway.jpg",
+    "author": "Photolitherland",
+    "license": "CC BY-SA 3.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "新島トライアスロン",
+  "location": "新島",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "東京都",
+    "city": "新島村"
+  },
+  "source": "https://www.mspo.jp/island1/niijima_tri/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Niijima_Island_-_panoramio.jpg",
+    "author": "panoramio user",
+    "license": "CC BY-SA 3.0"
+  }
+}

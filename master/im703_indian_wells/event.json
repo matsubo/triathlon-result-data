@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Indian Wells La Quinta",
+  "location": "La Quinta, California, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "California",
+    "city": "La Quinta"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2614/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:La_Quinta,_California_(15656391455).jpg",
+    "author": "Ken Lund from Reno, Nevada, USA",
+    "license": "CC BY-SA 2.0"
+  }
+}

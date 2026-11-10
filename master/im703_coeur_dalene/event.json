@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Coeur d'Alene",
+  "location": "Coeur d'Alene, Idaho, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Idaho",
+    "city": "Coeur d’Alene"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2447/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Coeur_d%27Alene,_Idaho.jpg",
+    "author": "Jsayre64",
+    "license": "CC BY-SA 4.0"
+  }
+}

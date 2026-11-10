@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Cartagena",
+  "location": "Cartagena",
+  "location_parts": {
+    "country": "CO",
+    "city": "Cartagena"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/173/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Sunset-cartagena-tower-dewired.jpg",
+    "author": "Igvir Ramirez",
+    "license": "CC BY-SA 2.0"
+  }
+}

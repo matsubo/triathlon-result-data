@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN 70.3 South American Championship",
+  "location": "South American Championship",
+  "location_parts": {
+    "country": "BR"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/167/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:P%C3%A3o_de_A%C3%A7ucar_-_Sugarloaf_Mountain_-_Zuckerhut_-_2022.jpg",
+    "author": "Donatas Dabravolskas",
+    "license": "CC BY-SA 4.0"
+  }
+}

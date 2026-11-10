@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Waco",
+  "location": "Waco, Texas, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Texas",
+    "city": "Waco"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/335/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Suspension_Bridge,_Waco,_Texas2.jpg",
+    "author": "diveofficer",
+    "license": "CC BY 2.0"
+  }
+}

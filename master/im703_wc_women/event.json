@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 World Championship (Women)",
+  "location": "Marbella, Spain",
+  "location_parts": {
+    "country": "US",
+    "region": "Hawaii",
+    "city": "Kailua-Kona"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2661/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Playa_de_Puerto_Ban%C3%BAs.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0"
+  }
+}

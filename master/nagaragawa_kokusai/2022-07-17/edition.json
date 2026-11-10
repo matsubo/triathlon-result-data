@@ -1,0 +1,117 @@
+{
+  "categories": [
+    {
+      "id": "nagaragawa_kokusai",
+      "name": "長良川国際トライアスロン",
+      "distance": "DUATHLON",
+      "description": "2022年長良川国際トライアスロン大会。スプリントデュアスロン形式（ラン約5km/バイク約20km/ラン約2.5km）で開催。距離はトップ選手の所要時間からの推計値。",
+      "segments": [
+        {
+          "sport": "run",
+          "distance": 5,
+          "columns": [
+            {
+              "header": "1ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "1Ｒ順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 20,
+          "columns": [
+            {
+              "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｂ順",
+              "role": "rank"
+            },
+            {
+              "header": "ｽﾌﾟﾘｯﾄ",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 2.5,
+          "columns": [
+            {
+              "header": "2ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "2Ｒ順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "JTU登録",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "年齢区分",
+          "role": "age_category"
+        },
+        {
+          "header": "年齡別順",
+          "role": "age_rank"
+        },
+        {
+          "header": "選手権順位",
+          "role": "championship_rank"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=148&program_id=148_1",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "148_1"
+      }
+    }
+  ]
+}

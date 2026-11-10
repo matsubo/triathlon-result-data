@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Berlin",
+  "location": "Berlin",
+  "location_parts": {
+    "country": "DE",
+    "city": "Berlin"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/226/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Brandenburg_Gate_Quadriga_at_Night.jpg",
+    "author": "א (Aleph) Creator: Johann Gottfried Schadow",
+    "license": "CC BY-SA 2.5"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Texas",
+  "location": "Texas, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Texas",
+    "city": "The Woodlands"
+  },
+  "source": "https://www.ironman.com/im703-texas",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Gfp-texas-galveston-island-state-park-skies-over-the-gulf.jpg",
+    "author": "Yinan Chen",
+    "license": "Public Domain"
+  }
+}

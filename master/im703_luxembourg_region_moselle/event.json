@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Luxembourg-Region Moselle",
+  "location": "Luxembourg-Region Moselle",
+  "location_parts": {
+    "country": "LU",
+    "region": "Moselle"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/118/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Moselle_river_in_Machtum_(1).jpg",
+    "author": "Tournasol7",
+    "license": "CC BY 4.0"
+  }
+}

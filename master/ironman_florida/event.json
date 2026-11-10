@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Florida",
+  "location": "Panama City Beach, Florida, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Florida",
+    "city": "Haines City"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2465/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Panama_City_Beach_(197628531).jpg",
+    "author": "Amanuel G",
+    "license": "CC0"
+  }
+}

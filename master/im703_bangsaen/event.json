@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Bangsaen",
+  "location": "Bangsaen",
+  "location_parts": {
+    "country": "TH",
+    "city": "Bangsaen"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/78/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Bangsaen_Aquarium-00014.jpg",
+    "author": "PhoenixShutter",
+    "license": "CC BY 4.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Taitung",
+  "location": "Taitung",
+  "location_parts": {
+    "country": "TW",
+    "city": "Taitung"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/278/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:2011-10-07_Panorama_of_Taitung.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0"
+  }
+}

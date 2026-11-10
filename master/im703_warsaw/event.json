@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Warsaw",
+  "location": "Warsaw, Poland",
+  "location_parts": {
+    "country": "PL",
+    "city": "Warsaw"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2394/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Warsaw7ob.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 California",
+  "location": "California",
+  "location_parts": {
+    "country": "US",
+    "region": "California",
+    "city": "Oceanside"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/196/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Oceanside_Pier.jpg",
+    "author": "User Bill Newman",
+    "license": "Public domain"
+  }
+}

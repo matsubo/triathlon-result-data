@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN Hamburg",
+  "location": "Hamburg, Germany",
+  "location_parts": {
+    "country": "DE",
+    "city": "Hamburg"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2192/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Hamburg_Harbor_Citiy_View_At_Night_No_1_(146008815).jpeg",
+    "author": "Nicolas Fischer",
+    "license": "CC BY 3.0"
+  }
+}

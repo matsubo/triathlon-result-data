@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Ruegen",
+  "location": "Ruegen",
+  "location_parts": {
+    "country": "DE",
+    "city": "Rügen"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/145/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AChalk_cliffs_of_Jasmund_National_Park_on_R%C3%BCgen_island_in_autumn_16.jpg",
+    "author": "Siarhei Besarab",
+    "license": "CC BY-SA 4.0"
+  }
+}

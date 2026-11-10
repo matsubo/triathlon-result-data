@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN St George",
+  "location": "St George, Utah, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Utah",
+    "city": "Saint George"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/22/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Snow_Canyon_Utah_March_2019.jpg",
+    "author": "Wilson44691",
+    "license": "CC0"
+  }
+}

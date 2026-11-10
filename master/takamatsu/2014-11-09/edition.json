@@ -1,0 +1,54 @@
+{
+  "categories": [
+    {
+      "id": "takamatsu",
+      "name": "高松トライアスロン",
+      "distance": "OD",
+      "description": "2014年 高松トライアスロン",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": []
+        },
+        {
+          "sport": "bike",
+          "distance": 40,
+          "columns": []
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": []
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

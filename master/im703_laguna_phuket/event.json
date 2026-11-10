@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Laguna Phuket",
+  "location": "Laguna Phuket",
+  "location_parts": {
+    "country": "TH",
+    "city": "Phuket"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/222/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Bang_Tao_Beach_of_Sheraton_Grande_Laguna_Phuket_-_panoramio.jpg",
+    "author": "Tiger@西北",
+    "license": "CC BY-SA 3.0"
+  }
+}

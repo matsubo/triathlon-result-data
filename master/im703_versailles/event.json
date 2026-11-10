@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Versailles",
+  "location": "Versailles, France",
+  "location_parts": {
+    "country": "FR",
+    "region": "Île-de-France",
+    "city": "Versailles"
+  },
+  "source": "https://www.ironman.com/races/im703-versailles",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Grand_Canal_de_Versailles_2011.jpg",
+    "author": "Cristian Bortes",
+    "license": "CC BY 2.0"
+  }
+}

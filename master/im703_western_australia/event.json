@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Western Australia",
+  "location": "Western Australia",
+  "location_parts": {
+    "country": "AU",
+    "region": "Western Australia",
+    "city": "Busselton"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/172/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Busselton_Jetty_at_Sunrise.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0"
+  }
+}

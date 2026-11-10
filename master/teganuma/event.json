@@ -1,0 +1,14 @@
+{
+  "name": "手賀沼トライアスロン",
+  "location": "千葉県",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "千葉県"
+  },
+  "source": "https://teganuman.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Lake_Tega.JPG",
+    "author": "EXECUTOR",
+    "license": "Public domain"
+  }
+}

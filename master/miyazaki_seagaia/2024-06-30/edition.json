@@ -1,0 +1,81 @@
+{
+  "categories": [
+    {
+      "id": "miyazaki_seagaia",
+      "name": "オリンピックディスタンス",
+      "distance": "OD",
+      "description": "2024年第27回宮崎シーガイアトライアスロン大会。宮崎県宮崎市のみやざき臨海公園で開催。スイム1.5km、バイク40km、ラン10km。2024NTTトライアスロンエイジグループ・ナショナルチャンピオンシップシリーズ対象大会。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "SWIM",
+              "role": "lap"
+            },
+            {
+              "header": "T1",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "BIKE",
+              "role": "lap"
+            },
+            {
+              "header": "T2",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "RUN",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "№",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "TOTAL",
+          "role": "total_time"
+        },
+        {
+          "header": "ｸﾗｽ",
+          "role": "age_category"
+        },
+        {
+          "header": "ｸﾗｽ別順位",
+          "role": "age_rank"
+        },
+        {
+          "header": "JTU登録地",
+          "role": "residence"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

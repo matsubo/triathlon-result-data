@@ -1,0 +1,15 @@
+{
+  "name": "千葉シティトライアスロン大会",
+  "location": "千葉県千葉市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "千葉県",
+    "city": "千葉市"
+  },
+  "source": "https://chiba-tra.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Chiba_Port_Tower_20201219.jpg",
+    "author": "Tak1701d",
+    "license": "CC BY-SA 4.0"
+  }
+}

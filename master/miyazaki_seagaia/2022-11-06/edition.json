@@ -1,0 +1,65 @@
+{
+  "categories": [
+    {
+      "id": "miyazaki_seagaia",
+      "name": "宮崎シーガイアトライアスロン",
+      "distance": "OD",
+      "description": "2022年 宮崎シーガイアトライアスロン",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "SWIM",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "BIKE",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "RUN",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "№",
+          "role": "bib"
+        },
+        {
+          "header": "⽒名",
+          "role": "name"
+        },
+        {
+          "header": "居住地",
+          "role": "residence"
+        },
+        {
+          "header": "TOTAL",
+          "role": "total_time"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

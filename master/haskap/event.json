@@ -1,0 +1,16 @@
+{
+  "name": "ハスカップトライアスロンin勇払",
+  "location": "北海道苫小牧市勇払マリーナ及びその周辺",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "北海道",
+    "city": "苫小牧市",
+    "venue": "勇払マリーナ及びその周辺"
+  },
+  "source": "https://haskapp-tri2025.jimdofree.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Skyline_of_Tomakomai_City.jpg",
+    "author": "JKT-c",
+    "license": "CC BY-SA 4.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Mossel Bay",
+  "location": "Mossel Bay",
+  "location_parts": {
+    "country": "ZA",
+    "region": "Western Cape",
+    "city": "Mossel Bay"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/346/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AA_view_from_Pinnacle_Point%2C_Mossel_Bay%2C_South_Africa.jpg",
+    "author": "Satdeep Gill",
+    "license": "CC BY-SA 4.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Los Cabos",
+  "location": "Los Cabos",
+  "location_parts": {
+    "country": "MX",
+    "region": "Baja California Sur",
+    "city": "Los Cabos"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/168/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:TheArchCaboSanLucas03.JPG",
+    "author": "Thelmadatter",
+    "license": "CC BY-SA 4.0"
+  }
+}

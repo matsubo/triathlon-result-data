@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Racine",
+  "location": "Racine",
+  "location_parts": {
+    "country": "US",
+    "region": "Wisconsin",
+    "city": "Racine"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/210/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AWindpoint_Lighthouse_in_Racine%2C_Wisconsin_LCCN2011630331.tif",
+    "author": "Carol M. Highsmith",
+    "license": "Public domain"
+  }
+}

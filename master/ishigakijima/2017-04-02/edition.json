@@ -1,0 +1,109 @@
+{
+  "categories": [
+    {
+      "id": "ishigakijima",
+      "name": "石垣島トライアスロン",
+      "distance": "OD",
+      "description": "2017年 石垣島トライアスロン",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "ｽｲﾑﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｓ順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｂ順",
+              "role": "rank"
+            },
+            {
+              "header": "ｽﾌﾟﾘｯﾄ",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｒ順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "所属・登録",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "年齢区分",
+          "role": "age_category"
+        },
+        {
+          "header": "年齡別順",
+          "role": "age_rank"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

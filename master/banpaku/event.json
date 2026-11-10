@@ -1,0 +1,15 @@
+{
+  "name": "万博記念公園トライアスロン",
+  "location": "大阪府吹田市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "大阪府",
+    "city": "吹田市"
+  },
+  "source": "https://suita-triathlon.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Sakura_in_Expo_%2770_Commemorative_Park_2.jpg",
+    "author": "Laitr Keiows",
+    "license": "CC BY-SA"
+  }
+}

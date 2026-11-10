@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Switzerland",
+  "location": "Rapperswil-Jona, Switzerland",
+  "location_parts": {
+    "country": "CH",
+    "city": "Thun"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2430/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_over_Rapperswil%2C_the_lake_and_the_mountains.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0"
+  }
+}

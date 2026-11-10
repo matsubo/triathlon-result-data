@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Des Moines",
+  "location": "Des Moines, Iowa, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Iowa",
+    "city": "Des Moines"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/331/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Des_Moines,_Iowa_skyline_after_Dark_-_pathawks.jpg",
+    "author": "Patrick Hawks",
+    "license": "CC BY 2.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN Austria",
+  "location": "Klagenfurt, Austria",
+  "location_parts": {
+    "country": "AT",
+    "city": "Klagenfurt"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2193/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Klagenfurt_vom_Schrottbauer_gesehen_09092008_61.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0"
+  }
+}

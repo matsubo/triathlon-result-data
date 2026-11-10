@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Traverse City",
+  "location": "Traverse City",
+  "location_parts": {
+    "country": "US",
+    "region": "Michigan",
+    "city": "Traverse City"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/144/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Grand_Traverse_Bay_from_Clinch_Marina_Traverse_City.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN South Africa",
+  "location": "Port Elizabeth, South Africa",
+  "location_parts": {
+    "country": "ZA",
+    "city": "Port Elizabeth"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2197/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Hobie_Beach,_Port_Elizabeth_-_South_africa_(2417710541).jpg",
+    "author": "South African Tourism",
+    "license": "CC BY 2.0"
+  }
+}

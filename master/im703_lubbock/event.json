@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Lubbock",
+  "location": "Lubbock",
+  "location_parts": {
+    "country": "US",
+    "region": "Texas",
+    "city": "Lubbock"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/192/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Lubbock,_Texas_skyline.jpg",
+    "author": "Quintin Soloviev",
+    "license": "CC BY 4.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "びわ湖トライアスロンin近江八幡",
+  "location": "滋賀県近江八幡市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "滋賀県",
+    "city": "近江八幡市"
+  },
+  "source": "https://results.jtu.or.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Hachiman-bori_Canal_ac_(1).jpg",
+    "author": "Asturio Cantabrio",
+    "license": "CC BY-SA 4.0"
+  }
+}

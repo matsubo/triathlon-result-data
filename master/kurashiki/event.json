@@ -1,0 +1,15 @@
+{
+  "name": "倉敷国際トライアスロン大会",
+  "location": "岡山県倉敷市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "岡山県",
+    "city": "倉敷市"
+  },
+  "source": "https://www.mspo.jp/kurashiki-triathlon/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Kurashiki_Canal_%E5%80%89%E6%95%B7%E5%B7%9D_-_panoramio.jpg",
+    "author": "panoramio user",
+    "license": "CC BY-SA 3.0"
+  }
+}

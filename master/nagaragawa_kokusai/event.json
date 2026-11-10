@@ -1,0 +1,16 @@
+{
+  "name": "長良川国際トライアスロン大会",
+  "location": "岐阜県海津市国営木曽三川公園 アクアフィールド特設トライアスロンコース",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "岐阜県",
+    "city": "海津市",
+    "venue": "国営木曽三川公園 アクアフィールド特設トライアスロンコース"
+  },
+  "source": "https://www.nagaragawa-triathlon.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:%22Ubune%22_in_Nagaragawa_River_and_Mount_Kinkazan.JPG",
+    "author": "そらみみ (Soramimi)",
+    "license": "CC BY-SA 3.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Pula",
+  "location": "Pula",
+  "location_parts": {
+    "country": "HR",
+    "city": "Pula"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/244/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3APula_Aerial_View.jpg",
+    "author": "Orlovic",
+    "license": "CC BY-SA 3.0"
+  }
+}

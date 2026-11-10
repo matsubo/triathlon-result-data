@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Agadir",
+  "location": "Agadir",
+  "location_parts": {
+    "country": "MA",
+    "city": "Agadir"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/398/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Pictures_from_and_around_Agadir_(33392674005).png",
+    "author": "Camping Aourir from Aourir, Marokko",
+    "license": "CC BY 2.0"
+  }
+}

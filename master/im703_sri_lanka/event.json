@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN 70.3 Sri Lanka",
+  "location": "Sri Lanka",
+  "location_parts": {
+    "country": "LK"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/224/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Galle_Fort.jpg",
+    "author": "Bernard Gagnon",
+    "license": "CC BY-SA 3.0"
+  }
+}

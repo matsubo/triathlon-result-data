@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Oregon",
+  "location": "Portland, Oregon, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Oregon"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2628/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3ACrater_Lake%2C_Oregon_%2875270%29.jpg",
+    "author": "Angelus Commercial Studio, Portland, Oregon. \"Tichnor Quality Views,\" Reg. U. S.",
+    "license": "Public domain"
+  }
+}

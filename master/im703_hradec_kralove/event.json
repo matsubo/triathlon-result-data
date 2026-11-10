@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Hradec Kralove",
+  "location": "Hradec Kralove",
+  "location_parts": {
+    "country": "CZ",
+    "city": "Hradec Králové"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/380/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Hradec_Králové_hlavní_nádraží_(1929).jpg",
+    "author": "archive DPmHK",
+    "license": "CC BY-SA 3.0"
+  }
+}

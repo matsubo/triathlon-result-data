@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Pucon",
+  "location": "Pucon",
+  "location_parts": {
+    "country": "CL",
+    "region": "Araucanía",
+    "city": "Pucón"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/73/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AVillarrica_Volcano.jpg",
+    "author": "Balon Greyjoy",
+    "license": "CC0"
+  }
+}

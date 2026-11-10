@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Port Macquarie",
+  "location": "Port Macquarie, Australia",
+  "location_parts": {
+    "country": "AU",
+    "region": "New South Wales",
+    "city": "Port Macquarie"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2417/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AFL15607507_Port_Macquarie_Sugar.jpg",
+    "author": "Samuel Calvert",
+    "license": "Public domain"
+  }
+}

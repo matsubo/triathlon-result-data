@@ -1,0 +1,15 @@
+{
+  "name": "青の煌めきあおもり国民スポーツ大会",
+  "location": "青森県青森市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "青森県",
+    "city": "青森市"
+  },
+  "source": "https://www.jtu.or.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Aomori_Bay_Bridge_and_sand_beach.jpg",
+    "author": "掬茶",
+    "license": "CC BY-SA 4.0"
+  }
+}

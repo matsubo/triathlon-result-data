@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Rhode Island",
+  "location": "Rhode Island",
+  "location_parts": {
+    "country": "US",
+    "region": "Rhode Island",
+    "city": "Narragansett"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/202/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AThe_Elms_-_Rhode_Island.jpg",
+    "author": "Marco Almbauer",
+    "license": "CC0"
+  }
+}

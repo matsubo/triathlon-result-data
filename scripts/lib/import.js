@@ -1,26 +1,33 @@
 /**
- * Import module: turns an import plan into Editions in race-info.json plus
- * their result TSVs, through two ports.
+ * Import module: turns an import plan into Edition directories under
+ * master/ (scripts/lib/layout.js), through two ports.
  *
  * - Results source port (`sources`): `{ fetch(request) → Promise<SourceTable> }`
  *   per Results source (ironman, jtu, prepared). Each adapter owns its own
  *   caption vocabulary, so Column roles cross the port already resolved.
- * - Repo port (`repo`, scripts/lib/repo.js): reads race-info.json, the schemas,
+ * - Repo port (`repo`, scripts/lib/repo.js): reads the corpus, the schemas,
  *   committed TSVs and images; receives the writes.
  *
- * The core owns the conventions (Category ids and paths, Segment distances,
- * source_ref, weather_file), name cleanup, canonical Age category labels,
- * Edition placement, the safety checks and the race-info serialisation. A
- * failing Edition is skipped with its reason and the others are still
- * written: TSVs first, race-info.json once at the end. Each added or
+ * The core owns the conventions (Category ids, Segment distances,
+ * source_ref), name cleanup, canonical Age category labels, the safety
+ * checks and the serialisation of edition.json / event.json. Paths come
+ * from the layout. An import writes only the new Edition directory (its
+ * TSVs and edition.json) and, for a new Event, its event.json; a refetch
+ * writes only TSVs. No other Event is rewritten. A failing Edition is
+ * skipped with its reason and the others are still written. Each added or
  * refetched Edition gets the Segment pace check (scripts/lib/segment-pace.js)
  * as warnings: a flagged Segment distance is for the operator to verify
  * against the race-day course, so it never skips the Edition.
+ *
+ * Weather is not the importer's business: an Edition has weather when its
+ * weather-data.json exists, which is generated separately.
  */
 import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import Ajv from "ajv";
+import { editionFile, eventFile, readCorpus } from "./corpus.js";
+import { CATEGORY_ID, editionDir, imagePath, tsvPath } from "./layout.js";
 import { relabelAgeCategory } from "./normalize-age-category.js";
 import { parseTime } from "./normalize-time.js";
 import { memoryRepo } from "./repo.js";
@@ -41,7 +48,7 @@ import { paceWarnings } from "./segment-pace.js";
  * @property {string | null} source_url
  * @property {{sport: string, distance: number}[]} [segments] Segments of the course, in order, with km
  * @property {string} [name] Category name
- * @property {import("../../schema.ts").DistanceType} [distance_class]
+ * @property {import("../../schemas/types.ts").DistanceType} [distance_class]
  *
  * @typedef {{ fetch: (request: any) => Promise<SourceTable> }} ResultsSource
  * @typedef {{ ironman?: ResultsSource, jtu?: ResultsSource, prepared?: ResultsSource }} Sources
@@ -69,13 +76,15 @@ import { paceWarnings } from "./segment-pace.js";
  * @property {string[]} plan_errors
  * @property {EditionReport[]} editions
  * @property {string[]} written repo paths written (into memory on a dry run)
- * @property {boolean} race_info_needs_format race-info.json was not in JSON.stringify(…, 2) form; run Biome after writing
  *
  * @typedef {{unique: number, violations: number}} RankProbe
  */
 
 const PLAN_SCHEMA = JSON.parse(
-  readFileSync(join(import.meta.dirname, "import-plan-schema.json"), "utf8"),
+  readFileSync(
+    join(import.meta.dirname, "..", "..", "schemas", "import-plan.schema.json"),
+    "utf8",
+  ),
 );
 
 /** Standard Segment km per Distance class, used when neither the plan nor the source gives them. */
@@ -200,27 +209,11 @@ const normalizedName = (s) =>
     .toLowerCase()
     .replace(/[^\p{L}\p{N}]/gu, "");
 
-/**
- * Insert an Edition by date, following the Event's newest-first or
- * oldest-first order (a single-Edition Event counts as newest-first).
- * @param {any[]} editions
- * @param {any} edition
- */
-function placeEdition(editions, edition) {
-  if (editions.length === 0) return [edition];
-  const newestFirst = editions[0].date >= editions[editions.length - 1].date;
-  let i = editions.findIndex((e) =>
-    newestFirst ? e.date < edition.date : e.date > edition.date,
-  );
-  if (i < 0) i = editions.length;
-  return [...editions.slice(0, i), edition, ...editions.slice(i)];
-}
-
-/** @param {string} text */
-const sha1 = (text) => createHash("sha1").update(text).digest("hex");
+/** @param {string | Uint8Array} data */
+const sha1 = (data) => createHash("sha1").update(data).digest("hex");
 
 /**
- * @param {any} plan parsed plan JSON (scripts/lib/import-plan-schema.json)
+ * @param {any} plan parsed plan JSON (schemas/import-plan.schema.json)
  * @param {{ sources: Sources, repo: import("./repo.js").Repo, dryRun?: boolean }} ports
  * @returns {Promise<ImportReport>}
  */
@@ -233,7 +226,6 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
     plan_errors: [],
     editions: [],
     written: [],
-    race_info_needs_format: false,
   };
 
   const ajv = new Ajv({ strict: false, allErrors: true });
@@ -246,23 +238,27 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
     return report;
   }
 
-  const raceInfoText = target.readText("race-info.json");
-  const schemaText = target.readText("race-info-schema.json");
-  if (raceInfoText == null || schemaText == null)
-    throw new Error("race-info.json / race-info-schema.json not found in repo");
-  const raceInfo = JSON.parse(raceInfoText);
-  report.race_info_needs_format =
-    `${JSON.stringify(raceInfo, null, 2)}\n` !== raceInfoText;
-  ajv.addSchema(JSON.parse(schemaText), "race-info");
-  const validateRaceInfo = /** @type {import("ajv").ValidateFunction} */ (
-    ajv.getSchema("race-info")
-  );
-  const validateEvent = /** @type {import("ajv").ValidateFunction} */ (
-    ajv.getSchema("race-info#/definitions/RaceEvent")
-  );
+  const eventSchemaText = target.readText("schemas/event.schema.json");
+  const editionSchemaText = target.readText("schemas/edition.schema.json");
+  if (eventSchemaText == null || editionSchemaText == null)
+    throw new Error(
+      "schemas/event.schema.json / schemas/edition.schema.json not found in repo",
+    );
+  const validateEvent = ajv.compile(JSON.parse(eventSchemaText));
+  const validateEdition = ajv.compile(JSON.parse(editionSchemaText));
+  /** @param {import("ajv").ValidateFunction} validate */
+  const schemaErrors = (validate) =>
+    (validate.errors ?? [])
+      .map((e) => `${e.instancePath} ${e.message}`)
+      .join("; ");
 
-  /** @type {Map<string, any>} */
-  const existingEvents = new Map(raceInfo.events.map((e) => [e.id, e]));
+  /** @type {Map<string, any>} Event id → corpus Event (a copy: editions grow as they import) */
+  const existingEvents = new Map(
+    readCorpus(target).events.map((e) => [
+      e.id,
+      { ...e, editions: [...e.editions] },
+    ]),
+  );
 
   // ---- Plan-level checks: a failure here means the plan is invalid. ----
   const errors = report.plan_errors;
@@ -279,32 +275,41 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
         errors.push(
           `event ${ev.id}: name ${JSON.stringify(ev.name)} duplicates Event ${other.id}`,
         );
-    if (target.readText(ev.image) == null)
-      errors.push(`event ${ev.id}: image ${ev.image} does not exist`);
-    const usedBy = [...existingEvents.values(), ...newEvents.values()].find(
-      (o) => o.image === ev.image,
-    );
-    if (usedBy)
+    const image = imagePath(ev.id);
+    const bytes = target.readBytes(image);
+    if (bytes == null)
       errors.push(
-        `event ${ev.id}: image ${ev.image} is already used by ${usedBy.id}`,
+        `event ${ev.id}: image ${image} does not exist; add it before importing`,
       );
-    if (ev.insert_before && !existingEvents.has(ev.insert_before))
-      errors.push(
-        `event ${ev.id}: insert_before ${ev.insert_before} is not an existing Event`,
+    else {
+      const hash = sha1(bytes);
+      const twin = [...existingEvents.keys(), ...newEvents.keys()].find(
+        (id) => {
+          const other = target.readBytes(imagePath(id));
+          return other != null && sha1(other) === hash;
+        },
       );
-    const { insert_before: _, ...fields } = ev;
-    newEvents.set(ev.id, {
-      id: fields.id,
-      name: fields.name,
-      ...(fields.location !== undefined && { location: fields.location }),
-      location_parts: fields.location_parts,
-      ...(fields.description !== undefined && {
-        description: fields.description,
-      }),
-      image: fields.image,
-      source: fields.source,
+      if (twin)
+        errors.push(
+          `event ${ev.id}: image ${image} is byte-identical to ${imagePath(twin)}`,
+        );
+    }
+    const event = {
+      id: ev.id,
+      name: ev.name,
+      ...(ev.location !== undefined && { location: ev.location }),
+      location_parts: ev.location_parts,
+      source: ev.source,
+      ...(ev.description !== undefined && { description: ev.description }),
+      image_source: ev.image_source,
+      image,
       editions: [],
-    });
+    };
+    if (!validateEvent(JSON.parse(eventFile(event).text)))
+      errors.push(
+        `event ${ev.id}: schemas/event.schema.json: ${schemaErrors(validateEvent)}`,
+      );
+    newEvents.set(ev.id, event);
   }
   const seen = new Set();
   for (const ed of plan.editions) {
@@ -319,12 +324,7 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
   }
 
   // ---- Shared state across Editions. ----
-  /** @type {Set<string>} result_tsv paths registered in race-info (plus this run's) */
-  const registered = new Set();
-  for (const ev of raceInfo.events)
-    for (const ed of ev.editions)
-      for (const c of ed.categories) registered.add(c.result_tsv);
-  /** @type {Map<string, string>} pending TSV writes, path → text */
+  /** @type {Map<string, string>} pending writes, path → text: TSVs and edition.json */
   const pending = new Map();
   /** @type {Map<string, string[]> | null} sha1 → TSV paths, built on first use */
   let tsvIndex = null;
@@ -583,83 +583,73 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
   /**
    * @param {any} entry
    * @param {any} event
-   * @param {string} year
    */
-  const categorySpecs = (entry, event, year) => {
+  const categorySpecs = (entry, event) => {
+    const year = entry.date.slice(0, 4);
+    const tsv = (/** @type {string} */ id) => tsvPath(event.id, entry.date, id);
     if (entry.ironman) {
       const o =
         typeof entry.ironman === "string"
           ? { id: entry.ironman }
           : entry.ironman;
       const template = o.template ?? inferTemplate(event);
-      const dir = `master/${year}/${event.id}_${year}`;
       const where = event.location ? ` ${event.location}.` : "";
-      return {
-        dir,
-        specs: [
-          {
-            source: "ironman",
-            request: { id: o.id, template },
-            id: `${event.id}_${year}`,
-            result_tsv: `${dir}/default.tsv`,
-            description: o.description ?? `${event.name} ${year}.${where}`,
-            segments: o.segments,
-            source_ref: { results_source: "ironman", id: o.id },
-          },
-        ],
-      };
+      const id = `${event.id}_${year}`;
+      return [
+        {
+          source: "ironman",
+          request: { id: o.id, template },
+          id,
+          result_tsv: tsv(id),
+          description: o.description ?? `${event.name} ${year}.${where}`,
+          segments: o.segments,
+          source_ref: { results_source: "ironman", id: o.id },
+        },
+      ];
     }
-    const dir = `master/${year}/${event.id}`;
     if (entry.jtu) {
       const prev = previousEdition(event, entry.date);
-      return {
-        dir,
-        specs: entry.jtu.map((/** @type {any} */ p) => {
-          let { id, file, name } = p;
-          if (id == null || file == null || name == null) {
-            const same = (prev?.categories ?? []).filter(
-              (/** @type {any} */ c) => c.distance === p.distance,
+      return entry.jtu.map((/** @type {any} */ p) => {
+        let { id, name } = p;
+        if (id == null || name == null) {
+          const same = (prev?.categories ?? []).filter(
+            (/** @type {any} */ c) => c.distance === p.distance,
+          );
+          if (same.length !== 1)
+            throw new Skip(
+              `${p.program}: cannot infer id/name (${same.length} ${p.distance} Categories in the previous Edition); give them in the plan`,
             );
-            if (same.length !== 1)
-              throw new Skip(
-                `${p.program}: cannot infer id/file/name (${same.length} ${p.distance} Categories in the previous Edition); give them in the plan`,
-              );
-            id ??= same[0].id;
-            file ??= same[0].result_tsv.split("/").pop();
-            name ??= same[0].name;
-          }
-          return {
-            source: "jtu",
-            request: { program: p.program, columns: p.columns },
-            id,
-            result_tsv: `${dir}/${file}`,
-            name,
-            distance: p.distance,
-            description: p.description,
-            segments: p.segments,
-            source_ref: { results_source: "jtu", id: p.program },
-          };
-        }),
-      };
-    }
-    return {
-      dir,
-      specs: entry.prepared.map((/** @type {any} */ p) => ({
-        source: "prepared",
-        request: {
-          tsv: p.tsv,
-          meta_columns: p.meta_columns,
+          id ??= same[0].id;
+          name ??= same[0].name;
+        }
+        return {
+          source: "jtu",
+          request: { program: p.program, columns: p.columns },
+          id,
+          result_tsv: tsv(id),
+          name,
+          distance: p.distance,
+          description: p.description,
           segments: p.segments,
-          unmapped: p.unmapped,
-          source_url: p.source_url,
-        },
-        id: p.id,
-        result_tsv: `${dir}/${p.file}`,
-        name: p.name,
-        distance: p.distance,
-        description: p.description,
-      })),
-    };
+          source_ref: { results_source: "jtu", id: p.program },
+        };
+      });
+    }
+    return entry.prepared.map((/** @type {any} */ p) => ({
+      source: "prepared",
+      request: {
+        tsv: p.tsv,
+        meta_columns: p.meta_columns,
+        segments: p.segments,
+        unmapped: p.unmapped,
+        source_url: p.source_url,
+      },
+      id: p.id,
+      result_tsv: tsv(p.id),
+      name: p.name,
+      distance: p.distance,
+      description: p.description,
+    }));
   };
 
   /**
@@ -700,11 +690,15 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
       return;
     }
 
-    const year = entry.date.slice(0, 4);
-    const { dir, specs } = categorySpecs(entry, event, year);
-    const weatherFile = `${dir}/weather-data.json`;
-    for (const p of [dir, weatherFile, ...specs.map((s) => s.result_tsv)])
-      if (!/^[\x20-\x7e]+$/.test(p)) throw new Skip(`path ${p} is not ASCII`);
+    const occupied = target.list(editionDir(event.id, entry.date));
+    if (occupied.length > 0)
+      throw new Skip(
+        `${editionDir(event.id, entry.date)} already holds ${occupied.join(", ")} but no Edition`,
+      );
+    const specs = categorySpecs(entry, event);
+    for (const s of specs)
+      if (!CATEGORY_ID.test(s.id))
+        throw new Skip(`Category id ${s.id} does not match ${CATEGORY_ID}`);
 
     const assembled = [];
     for (const spec of specs) {
@@ -716,13 +710,6 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
     const dupId = ids.find((id, i) => ids.indexOf(id) !== i);
     if (dupId)
       throw new Skip(`Category id ${dupId} is used twice in the Edition`);
-    const paths = assembled.map((a) => a.category.result_tsv);
-    for (const [i, p] of paths.entries()) {
-      if (paths.indexOf(p) !== i)
-        throw new Skip(`${p} is used twice in the Edition`);
-      if (registered.has(p))
-        throw new Skip(`${p} is already registered in race-info.json`);
-    }
     for (const a of assembled) {
       const twin = contaminationSource(a.tsv, a.category.result_tsv);
       if (twin)
@@ -731,9 +718,10 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
         );
     }
 
+    /** @type {import("./corpus.js").CorpusEdition} */
     const edition = {
       date: entry.date,
-      ...(entry.weather !== false && { weather_file: weatherFile }),
+      weather_file: null,
       categories: assembled.map((a) => a.category),
     };
     const prev = previousEdition(event, entry.date);
@@ -745,18 +733,17 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
         `previous Edition ${prev.date}`,
       );
 
-    const editions = placeEdition(event.editions, edition);
-    if (!validateEvent({ ...event, editions }))
+    const file = editionFile(event.id, edition);
+    if (!validateEdition(JSON.parse(file.text)))
       throw new Skip(
-        `race-info schema: ${(validateEvent.errors ?? [])
-          .map((e) => `${e.instancePath} ${e.message}`)
-          .join("; ")}`,
+        `schemas/edition.schema.json: ${schemaErrors(validateEdition)}`,
       );
-    event.editions = editions;
-    for (const a of assembled) {
-      registered.add(a.category.result_tsv);
-      pending.set(a.category.result_tsv, a.tsv);
-    }
+    event.editions = [...event.editions, edition].sort(
+      (/** @type {any} */ a, /** @type {any} */ b) =>
+        a.date.localeCompare(b.date),
+    );
+    for (const a of assembled) pending.set(a.category.result_tsv, a.tsv);
+    pending.set(file.path, file.text);
     out.status = "imported";
     out.categories = assembled.map((a) => ({
       id: a.category.id,
@@ -948,29 +935,8 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
   // ---- New Events with at least one imported Edition. ----
   for (const ev of newEvents.values()) {
     if (ev.editions.length === 0) continue;
-    const planned = (plan.events ?? []).find(
-      (/** @type {any} */ p) => p.id === ev.id,
-    );
-    const at = planned.insert_before
-      ? raceInfo.events.findIndex(
-          (/** @type {any} */ e) => e.id === planned.insert_before,
-        )
-      : -1;
-    if (at < 0) raceInfo.events.push(ev);
-    else raceInfo.events.splice(at, 0, ev);
-  }
-
-  const raceInfoChanged = report.editions.some((e) => e.status === "imported");
-  if (raceInfoChanged && !validateRaceInfo(raceInfo)) {
-    const why = (validateRaceInfo.errors ?? [])
-      .map((e) => `${e.instancePath} ${e.message}`)
-      .join("; ");
-    for (const e of report.editions)
-      if (e.status === "imported" || e.status === "refetched") {
-        e.status = "skipped";
-        e.reason = `final race-info validation failed: ${why}`;
-      }
-    pending.clear();
+    const file = eventFile(ev);
+    pending.set(file.path, file.text);
   }
 
   // ---- Pace check of what this run adds or refetches (warnings only). ----
@@ -978,28 +944,15 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
     (e) => e.status === "imported" || e.status === "refetched",
   );
   if (changed.length > 0) {
-    const after = memoryRepo(
-      {
-        ...Object.fromEntries(pending),
-        "race-info.json": JSON.stringify(raceInfo),
-      },
-      target,
-    );
+    const after = memoryRepo(Object.fromEntries(pending), target);
     for (const e of changed)
       e.warnings.push(...paceWarnings(after, e.event, e.date));
   }
 
-  // ---- Writes: TSVs first, race-info.json once at the end. ----
+  // ---- Writes: each Edition's TSVs then its edition.json; a new Event's event.json last. ----
   for (const [path, text] of pending) {
     target.writeText(path, text);
     report.written.push(path);
-  }
-  if (report.editions.some((e) => e.status === "imported")) {
-    target.writeText(
-      "race-info.json",
-      `${JSON.stringify(raceInfo, null, 2)}\n`,
-    );
-    report.written.push("race-info.json");
   }
 
   report.exit_code = report.editions.some((e) => e.status === "skipped")

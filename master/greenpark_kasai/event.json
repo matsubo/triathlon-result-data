@@ -1,0 +1,15 @@
+{
+  "name": "グリーンパークトライアスロンin加西",
+  "location": "兵庫県加西市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "兵庫県",
+    "city": "加西市"
+  },
+  "source": "https://www.jtu.or.jp/event/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Kasai_Inter_Country_Club,_Kasai_Hyogo_Aerial_photograph.2009.jpg",
+    "author": "国土地理院 (GSI of Japan)",
+    "license": "Attribution (CC-BY 4.0)"
+  }
+}

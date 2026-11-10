@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN 70.3 Egypt",
+  "location": "Egypt",
+  "location_parts": {
+    "country": "EG"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/314/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Kheops-Pyramid.jpg",
+    "author": "Nina",
+    "license": "CC BY 2.5"
+  }
+}

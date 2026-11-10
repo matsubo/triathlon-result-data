@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Ruidoso",
+  "location": "Ruidoso",
+  "location_parts": {
+    "country": "US",
+    "city": "Ruidoso"
+  },
+  "source": "https://labs-v2.competitor.com/api/results?wtc_eventid=6a6e8fbe-d142-417f-a62a-243489523117",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Sierra_Blanca_View_Ruidoso_NM_(2583104364).jpg",
+    "author": "Beatnik Photos",
+    "license": "CC BY 2.0"
+  }
+}

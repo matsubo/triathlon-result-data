@@ -22,7 +22,7 @@ curl -s -g "https://results.jtu.or.jp/api/results?cond[result_table_id]=NNNN"
 ## Import pipeline
 
 Write an import plan (a throwaway JSON file outside the repository, schema
-`scripts/lib/import-plan-schema.json`) with one `jtu[]` entry per program to import, and
+`schemas/import-plan.schema.json`) with one `jtu[]` entry per program to import, and
 run it through the Import module. Never write an add-*/import-* script.
 
 ```json
@@ -46,7 +46,7 @@ run it through the Import module. Never write an add-*/import-* script.
 
 ```bash
 bun scripts/import.js /tmp/plan.json --dry-run   # fetch + every check, writes stay in memory
-bun scripts/import.js /tmp/plan.json             # writes the TSVs, then race-info.json
+bun scripts/import.js /tmp/plan.json             # writes the TSVs, then edition.json (and event.json for a new Event)
 ```
 
 What the JTU adapter and the core do:
@@ -69,11 +69,13 @@ What the JTU adapter and the core do:
 - **年齢区分 labels**: the API returns 男子25-29歳; the core writes the canonical label
   (M25-29) with the rule of `scripts/fix-age-category-labels.js` (a label contradicting the
   row's age stays as published).
-- **Paths and ids**: `master/<year>/<event>/<file>`, `weather_file`
-  `master/<year>/<event>/weather-data.json`, `source_ref` `{results_source: "jtu", id: <program>}`,
-  `source_url` = the results API URL of the table. `id`, `file` and `name` default from the
+- **Paths and ids**: `master/<event>/<date>/<category_id>.tsv`, then
+  `master/<event>/<date>/edition.json`; `source_ref` `{results_source: "jtu", id: <program>}`,
+  `source_url` = the results API URL of the table. `id` and `name` default from the
   previous Edition's only Category with the same Distance class; give them in the plan
-  otherwise (and for a new Event).
+  otherwise (and for a new Event). Weather is not written: generate
+  `master/<event>/<date>/weather-data.json` afterwards (see
+  [weather-data-policy](weather-data-policy.md)).
 - **Segments** come from the captions (swim / bike / run in that order) with the standard
   km for the Distance class (OD 1.5/40/10, SD 0.75/20/5, MD 1.9/90/21.1, LD 3.8/180.2/42.195).
   Segment distances come from race-day evidence: the course notes on the results, the
@@ -91,7 +93,7 @@ What the JTU adapter and the core do:
 - **Pace warnings**: the report flags each Segment whose median lap implies an implausible
   pace or strays more than ×1.4 from the Event's other Editions at the same declared
   distance (`scripts/lib/segment-pace.js`). Resolve each one from race-day evidence: fix
-  the Segment, or add a genuine pace to `pace-exceptions.json`; see SKILL.md step 4.
+  the Segment, or add a genuine pace to `checks/exceptions/pace.json`; see SKILL.md step 4.
 - **Refused automatically**: a TSV byte-identical to another TSV (the carousel
   contamination signature), a declared Segment whose lap column is empty for every finisher,
   a duplicated single-use role, an existing (event, date) with different programs.

@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Hengqin",
+  "location": "Hengqin, Zhuhai",
+  "location_parts": {
+    "country": "CN",
+    "city": "Zhuhai"
+  },
+  "source": "https://labs-v2.competitor.com/api/results?wtc_eventid=5f0ee442-bd40-4742-90bd-8ff1b8495dbb",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Buildings_in_Hengqin_face_to_Macau.jpg",
+    "author": "Pauloleong2002",
+    "license": "CC BY 4.0"
+  }
+}

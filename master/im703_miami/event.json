@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Miami",
+  "location": "Miami",
+  "location_parts": {
+    "country": "US",
+    "region": "Florida",
+    "city": "Miami"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/208/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AMiami%2C_Florida_skyline.jpg",
+    "author": "Wilfredor",
+    "license": "CC0"
+  }
+}

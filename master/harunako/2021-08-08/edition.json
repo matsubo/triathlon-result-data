@@ -1,0 +1,166 @@
+{
+  "categories": [
+    {
+      "id": "harunako_men",
+      "name": "男子",
+      "distance": "OD",
+      "description": "2021年榛名湖リゾート・トライアスロン in 群馬 男子。群馬県高崎市の榛名湖を舞台に開催。スイム1.5km、バイク40km、ラン10km。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "ｽｲﾑﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｓ順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｂ順",
+              "role": "rank"
+            },
+            {
+              "header": "ｽﾌﾟﾘｯﾄ",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｒ順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        }
+      ],
+      "source_url": null
+    },
+    {
+      "id": "harunako_women",
+      "name": "女子",
+      "distance": "OD",
+      "description": "2021年榛名湖リゾート・トライアスロン in 群馬 女子。群馬県高崎市の榛名湖を舞台に開催。スイム1.5km、バイク40km、ラン10km。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "ｽｲﾑﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｓ順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｂ順",
+              "role": "rank"
+            },
+            {
+              "header": "ｽﾌﾟﾘｯﾄ",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｒ順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

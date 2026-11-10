@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 New York",
+  "location": "New York, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "New York"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2625/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3ALong_Island_City_New_York_May_2015_panorama_3.jpg",
+    "author": "King of Hearts",
+    "license": "CC BY-SA 3.0"
+  }
+}

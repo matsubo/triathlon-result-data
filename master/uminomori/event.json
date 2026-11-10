@@ -1,0 +1,15 @@
+{
+  "name": "東京・海の森トライアスロン",
+  "location": "東京都江東区",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "東京都",
+    "city": "江東区"
+  },
+  "source": "https://www.mspo.jp/uminomoritr/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Uminomori-202305.JPG",
+    "author": "Nyao148",
+    "license": "CC BY-SA 3.0"
+  }
+}

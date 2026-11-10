@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Rockford",
+  "location": "Rockford, Illinois, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Illinois",
+    "city": "Rockford"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2444/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3ARockford%2C_IL_Along_the_Rock_River_01.JPG",
+    "author": "Ben Jacobson (Kranar Drogin)",
+    "license": "CC BY 2.5"
+  }
+}

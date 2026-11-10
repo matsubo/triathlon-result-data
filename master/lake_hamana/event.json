@@ -1,0 +1,15 @@
+{
+  "name": "浜名湖トライアスロン",
+  "location": "静岡県浜松市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "静岡県",
+    "city": "浜松市"
+  },
+  "source": "https://hamanako-tri.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:HamanaLakeFromOkusayamaObservatory.JPG",
+    "author": "Tawashi2006",
+    "license": "CC BY-SA 3.0"
+  }
+}

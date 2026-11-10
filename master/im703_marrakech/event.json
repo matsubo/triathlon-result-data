@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Marrakech",
+  "location": "Marrakech",
+  "location_parts": {
+    "country": "MA",
+    "city": "Marrakech"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/163/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Mosquée_de_la_Koutoubia_-_marakesh.jpg",
+    "author": "Baca12",
+    "license": "CC BY-SA 4.0"
+  }
+}

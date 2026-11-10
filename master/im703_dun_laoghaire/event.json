@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Dun Laoghaire",
+  "location": "Dun Laoghaire",
+  "location_parts": {
+    "country": "IE",
+    "city": "Dún Laoghaire"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/141/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:The_Carlisle_Pier,_Dun_Laoghaire_-_geograph.org.uk_-_1461320.jpg",
+    "author": "Albert Bridge",
+    "license": "CC BY-SA 2.0"
+  }
+}

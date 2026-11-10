@@ -1,0 +1,341 @@
+{
+  "description": "Exceptions to the Segment pace check (scripts/lib/segment-pace.js, check:integrity rule implausible_pace, Import pace warnings): Segments whose median lap is flagged but is what was raced, e.g. a full-distance swim with or against a strong current, or a PRO-only Category compared with age-group Editions. One entry exempts exactly one Segment: { \"event\": Event id, \"date\": Edition date YYYY-MM-DD, \"category\": Category id, \"segment\": \"<position> <sport>\" as in the Segment column of bun scripts/report-segment-pace.js (e.g. \"1 swim\", \"3 run\"), \"reason\": why the pace is genuine, \"source\": URL of the race-day evidence }. Add an entry only when race-day evidence shows the declared distance was raced; a wrong distance is fixed in the Edition's edition.json instead. check:integrity fails on an entry that matches no measured Segment or whose Segment is no longer flagged.",
+  "entries": [
+    {
+      "event": "im703_xiamen",
+      "date": "2016-11-13",
+      "category": "im703_xiamen_2016",
+      "segment": "1 swim",
+      "reason": "Full 1.9 km swim in a strong current that made the buoys hard to find; the PRO winner swam 26:09. Slower than 2017/2018, when the course ran with the current.",
+      "source": "https://www.wildto.com/news/41406.html"
+    },
+    {
+      "event": "im703_xiamen",
+      "date": "2017-11-12",
+      "category": "im703_xiamen_2017",
+      "segment": "1 swim",
+      "reason": "Full 1.9 km swim with the current (the with-current layout also used in 2018); the PRO men led out of the water in 19:41.",
+      "source": "https://slowtwitch.com/news/mullan-betten-win-ironman-70-3-xiamen/"
+    },
+    {
+      "event": "im703_xiamen",
+      "date": "2018-11-18",
+      "category": "im703_xiamen_2018",
+      "segment": "1 swim",
+      "reason": "Full 1.9 km swim, 550 m out to the turn buoy and then about 1,300 m along with the current.",
+      "source": "https://www.sonicsports.org.hk/clubnews/2018/11/20/ironman-703-xiamen-2018"
+    },
+    {
+      "event": "im703_xiamen",
+      "date": "2019-11-10",
+      "category": "im703_xiamen_2019",
+      "segment": "1 swim",
+      "reason": "Full 1.9 km swim in choppy water; the course was changed from swimming with the current to swimming against it.",
+      "source": "https://tri2.org/2020/08/11/xiamen-ironman-70-3-2019/"
+    },
+    {
+      "event": "im703_maine",
+      "date": "2019-08-25",
+      "category": "im703_maine_2019",
+      "segment": "1 swim",
+      "reason": "Full 1.9 km cold, rough ocean swim at Old Orchard Beach (80-100 athletes pulled from the water); compared with the faster river swims in Augusta from 2022.",
+      "source": "https://www.givinitatri.com/post/maine-70-3-race-report-8-25-2019"
+    },
+    {
+      "event": "im703_maine",
+      "date": "2023-07-30",
+      "category": "im703_maine_2023",
+      "segment": "1 swim",
+      "reason": "Full 1.9 km downstream swim in the Kennebec River, sped up by a rainstorm the night before.",
+      "source": "https://www.runwithcoachd.com/blog/race-recap-ironman-maine-703"
+    },
+    {
+      "event": "im703_durban",
+      "date": "2016-06-19",
+      "category": "im703_durban_2016",
+      "segment": "1 swim",
+      "reason": "The age-group swim was cancelled for high surf; the only swim splits are the 14 PROs, who swam the full 1.9 km through the shore break.",
+      "source": "https://slowtwitch.com/news/trautman-watkinson-win-durban/"
+    },
+    {
+      "event": "im703_boise",
+      "date": "2025-07-26",
+      "category": "im703_boise_2025",
+      "segment": "2 bike",
+      "reason": "Full age-group race on the 90 km course; flagged only because its one peer at 90 km is the PRO-only 2026 Category.",
+      "source": "https://www.giventotri.com/2025/07/30/race-report-2025-ironman-70-3-boise/"
+    },
+    {
+      "event": "im703_boise",
+      "date": "2025-07-26",
+      "category": "im703_boise_2025",
+      "segment": "3 run",
+      "reason": "Full age-group half marathon; flagged only because its one peer is the PRO-only 2026 Category.",
+      "source": "https://www.giventotri.com/2025/07/30/race-report-2025-ironman-70-3-boise/"
+    },
+    {
+      "event": "im703_boise",
+      "date": "2026-07-25",
+      "category": "im703_boise_2026_pro",
+      "segment": "1 swim",
+      "reason": "PRO-only Category: the PROs swam a modified two-lap course in rough chop after the age-group swim was cancelled; compared with age-group Editions.",
+      "source": "https://www.triathlete.com/culture/news/sam-long-kirsten-kasper-win-ironman-70-3-boise-2026/"
+    },
+    {
+      "event": "im703_boise",
+      "date": "2026-07-25",
+      "category": "im703_boise_2026_pro",
+      "segment": "2 bike",
+      "reason": "PRO-only Category on the full 90 km bike (Sam Long 1:52:37); compared with the age-group 2025 Edition.",
+      "source": "https://www.triathlete.com/culture/news/sam-long-kirsten-kasper-win-ironman-70-3-boise-2026/"
+    },
+    {
+      "event": "im703_boise",
+      "date": "2026-07-25",
+      "category": "im703_boise_2026_pro",
+      "segment": "3 run",
+      "reason": "PRO-only Category on the full half marathon (Sam Long 1:10:45); compared with the age-group 2025 Edition.",
+      "source": "https://www.triathlete.com/culture/news/sam-long-kirsten-kasper-win-ironman-70-3-boise-2026/"
+    },
+    {
+      "event": "osaka",
+      "date": "2023-05-28",
+      "category": "osaka_asiacup_men",
+      "segment": "1 swim",
+      "reason": "World Triathlon Asia Cup elite field (sprint); the published course 「スイム750m(1周）/バイク20km(3.33km×6周)/ラン5km(2.5km×2周)」 was raced. Flagged only against the age-group Editions of this Event.",
+      "source": "https://www.jtu.or.jp/news/2023/05/28/50743/"
+    },
+    {
+      "event": "osaka",
+      "date": "2024-05-26",
+      "category": "osaka_asia_cup_men",
+      "segment": "1 swim",
+      "reason": "World Triathlon Asia Cup elite field (sprint); program note 「スイム：750ｍ（1周回）バイク：20km（6周回）ラン：5ｋｍ（2周回）」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://results.jtu.or.jp/api/programs/249_1/additionals"
+    },
+    {
+      "event": "asia_hatsukaichi",
+      "date": "2021-09-12",
+      "category": "asia_hatsukaichi_elite_men",
+      "segment": "1 swim",
+      "reason": "Asia Championships elite field; program note 「スイム：1.5ｋｍ（2周回）、バイク：40ｋｍ（8周回）、ラン：10ｋｍ（4周回）」. Flagged only against the 2024 age-group Edition.",
+      "source": "https://results.jtu.or.jp/api/programs/109_1/additionals"
+    },
+    {
+      "event": "sado",
+      "date": "2023-09-03",
+      "category": "sado_championship_men",
+      "segment": "1 swim",
+      "reason": "Long Distance National Championship (elite) on the Type B course, raced as 「スイム2.0km、バイク108.0km、ラン21.1km」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://www.jtu.or.jp/news/2023/09/04/54006/"
+    },
+    {
+      "event": "osaka",
+      "date": "2023-05-28",
+      "category": "osaka_asiacup_women",
+      "segment": "1 swim",
+      "reason": "World Triathlon Asia Cup elite field (sprint); the published course 「スイム750m(1周）/バイク20km(3.33km×6周)/ラン5km(2.5km×2周)」 was raced. Flagged only against the age-group Editions of this Event.",
+      "source": "https://www.jtu.or.jp/news/2023/05/28/50743/"
+    },
+    {
+      "event": "osaka",
+      "date": "2024-05-26",
+      "category": "osaka_asia_cup_women",
+      "segment": "1 swim",
+      "reason": "World Triathlon Asia Cup elite field (sprint); program note 「スイム：750ｍ（1周回）バイク：20km（6周回）ラン：5ｋｍ（2周回）」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://results.jtu.or.jp/api/programs/249_1/additionals"
+    },
+    {
+      "event": "asia_hatsukaichi",
+      "date": "2024-04-21",
+      "category": "asia_hatsukaichi_age_group",
+      "segment": "1 swim",
+      "reason": "Age-group race on the full 1.5 km swim (「スイム1.5km（750m×2周）」, 2:00/100m median); flagged only against the 2021 elite Edition.",
+      "source": "https://www.jtu.or.jp/news/2024/04/21/60323"
+    },
+    {
+      "event": "sado",
+      "date": "2022-09-04",
+      "category": "sado_championship_men",
+      "segment": "1 swim",
+      "reason": "Long Distance National Championship (elite) on the Type B course; program note 「スイム : 2000m (1周回)バイク : 108km(1周回)ラン :21.1km(3周回)」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://results.jtu.or.jp/api/programs/155_1/additionals"
+    },
+    {
+      "event": "sado",
+      "date": "2022-09-04",
+      "category": "sado_championship_men",
+      "segment": "3 run",
+      "reason": "Long Distance National Championship (elite) on the Type B course; program note 「スイム : 2000m (1周回)バイク : 108km(1周回)ラン :21.1km(3周回)」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://results.jtu.or.jp/api/programs/155_1/additionals"
+    },
+    {
+      "event": "osaka",
+      "date": "2023-05-28",
+      "category": "osaka_asiacup_men",
+      "segment": "3 run",
+      "reason": "World Triathlon Asia Cup elite field (sprint); the published course 「スイム750m(1周）/バイク20km(3.33km×6周)/ラン5km(2.5km×2周)」 was raced. Flagged only against the age-group Editions of this Event.",
+      "source": "https://www.jtu.or.jp/news/2023/05/28/50743/"
+    },
+    {
+      "event": "osaka",
+      "date": "2024-05-26",
+      "category": "osaka_asia_cup_men",
+      "segment": "3 run",
+      "reason": "World Triathlon Asia Cup elite field (sprint); program note 「スイム：750ｍ（1周回）バイク：20km（6周回）ラン：5ｋｍ（2周回）」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://results.jtu.or.jp/api/programs/249_1/additionals"
+    },
+    {
+      "event": "sado",
+      "date": "2023-09-03",
+      "category": "sado_championship_men",
+      "segment": "3 run",
+      "reason": "Long Distance National Championship (elite) on the Type B course, raced as 「スイム2.0km、バイク108.0km、ラン21.1km」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://www.jtu.or.jp/news/2023/09/04/54006/"
+    },
+    {
+      "event": "omihachiman",
+      "date": "2024-09-08",
+      "category": "omihachiman_men",
+      "segment": "1 swim",
+      "reason": "国スポ rehearsal and Japan Championship qualifier (draft-legal, competitive field); program note 「スイム : 1.5km (750m×2周回) バイク : 40km (3.6km+5.2km×7周回)」. Flagged only against the age-group Editions.",
+      "source": "https://results.jtu.or.jp/api/programs/283_1/additionals"
+    },
+    {
+      "event": "sado",
+      "date": "2023-09-03",
+      "category": "sado_championship_women",
+      "segment": "1 swim",
+      "reason": "Long Distance National Championship (elite) on the Type B course, raced as 「スイム2.0km、バイク108.0km、ラン21.1km」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://www.jtu.or.jp/news/2023/09/04/54006/"
+    },
+    {
+      "event": "sado",
+      "date": "2022-09-04",
+      "category": "sado_championship_women",
+      "segment": "1 swim",
+      "reason": "Long Distance National Championship (elite) on the Type B course; program note 「スイム : 2000m (1周回)バイク : 108km(1周回)ラン :21.1km(3周回)」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://results.jtu.or.jp/api/programs/155_1/additionals"
+    },
+    {
+      "event": "asia_hatsukaichi",
+      "date": "2021-09-12",
+      "category": "asia_hatsukaichi_elite_women",
+      "segment": "1 swim",
+      "reason": "Asia Championships elite field; program note 「スイム：1.5ｋｍ（2周回）、バイク：40ｋｍ（8周回）、ラン：10ｋｍ（4周回）」. Flagged only against the 2024 age-group Edition.",
+      "source": "https://results.jtu.or.jp/api/programs/109_1/additionals"
+    },
+    {
+      "event": "kanagawa",
+      "date": "2022-07-03",
+      "category": "kanagawa_championship_men",
+      "segment": "1 swim",
+      "reason": "関東ブロック選手権 (championship) field on the published 「スイム1.5km（0.75km×2周）」 course; flagged only against the age-group Editions.",
+      "source": "https://www.jtu.or.jp/news/2022/07/07/43386/"
+    },
+    {
+      "event": "sado",
+      "date": "2023-09-03",
+      "category": "sado_championship_women",
+      "segment": "3 run",
+      "reason": "Long Distance National Championship (elite) on the Type B course, raced as 「スイム2.0km、バイク108.0km、ラン21.1km」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://www.jtu.or.jp/news/2023/09/04/54006/"
+    },
+    {
+      "event": "sado",
+      "date": "2022-09-04",
+      "category": "sado_championship_women",
+      "segment": "3 run",
+      "reason": "Long Distance National Championship (elite) on the Type B course; program note 「スイム : 2000m (1周回)バイク : 108km(1周回)ラン :21.1km(3周回)」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://results.jtu.or.jp/api/programs/155_1/additionals"
+    },
+    {
+      "event": "osaka",
+      "date": "2023-05-28",
+      "category": "osaka_asiacup_men",
+      "segment": "2 bike",
+      "reason": "World Triathlon Asia Cup elite field (sprint); the published course 「スイム750m(1周）/バイク20km(3.33km×6周)/ラン5km(2.5km×2周)」 was raced. Flagged only against the age-group Editions of this Event.",
+      "source": "https://www.jtu.or.jp/news/2023/05/28/50743/"
+    },
+    {
+      "event": "omihachiman",
+      "date": "2024-09-08",
+      "category": "omihachiman_men",
+      "segment": "2 bike",
+      "reason": "国スポ rehearsal and Japan Championship qualifier (draft-legal, competitive field); program note 「スイム : 1.5km (750m×2周回) バイク : 40km (3.6km+5.2km×7周回)」. Flagged only against the age-group Editions.",
+      "source": "https://results.jtu.or.jp/api/programs/283_1/additionals"
+    },
+    {
+      "event": "sado",
+      "date": "2022-09-04",
+      "category": "sado_championship_men",
+      "segment": "2 bike",
+      "reason": "Long Distance National Championship (elite) on the Type B course; program note 「スイム : 2000m (1周回)バイク : 108km(1周回)ラン :21.1km(3周回)」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://results.jtu.or.jp/api/programs/155_1/additionals"
+    },
+    {
+      "event": "osaka",
+      "date": "2024-05-26",
+      "category": "osaka_asia_cup_men",
+      "segment": "2 bike",
+      "reason": "World Triathlon Asia Cup elite field (sprint); program note 「スイム：750ｍ（1周回）バイク：20km（6周回）ラン：5ｋｍ（2周回）」. Flagged only against the age-group Editions of this Event.",
+      "source": "https://results.jtu.or.jp/api/programs/249_1/additionals"
+    },
+    {
+      "event": "miyazaki_ss",
+      "date": "2021-05-30",
+      "category": "miyazaki_ss_2nd",
+      "segment": "3 run",
+      "reason": "Five elite men (Olympic selection) in a super sprint; program note 「ラン2km （1km×2周）」. 2:56–2:59/km over 2 km is genuine for this field.",
+      "source": "https://results.jtu.or.jp/api/programs/115_1/additionals"
+    },
+    {
+      "event": "miyazaki_ss",
+      "date": "2021-05-30",
+      "category": "miyazaki_ss_1st",
+      "segment": "3 run",
+      "reason": "Five elite men (Olympic selection) in a super sprint; program note 「ラン2km （1km×2周）」. 2:56–2:59/km over 2 km is genuine for this field.",
+      "source": "https://results.jtu.or.jp/api/programs/115_1/additionals"
+    },
+    {
+      "event": "shichigahama",
+      "date": "2023-07-02",
+      "category": "shichigahama_sprint",
+      "segment": "1 swim",
+      "reason": "Full 750 m swim at the old 湊浜 venue, whose swim lap includes the ~400 m run from the beach to transition (「スイムアップ後、トランジションまでは400mと距離がある」), in a small age-group sprint field. Flagged only against the 2024–2026 Editions at the new 菖蒲田浜 venue.",
+      "source": "https://www.sportsentry.ne.jp/event/t/91143"
+    },
+    {
+      "event": "numadu",
+      "date": "2026-08-02",
+      "category": "numadu",
+      "segment": "1 swim",
+      "reason": "Full 750 m swim as published after the race (「スイム0.75km（0.375km×2周）」); the leaders swam 10:29–11:27 as in 2025 (10:48). Flagged only against older Editions whose median swims (6:00 in 2021, 10:31 in 2023) are short.",
+      "source": "https://www.jtu.or.jp/news/2026/08/03/85576"
+    },
+    {
+      "event": "numadu",
+      "date": "2023-08-06",
+      "category": "numadu",
+      "segment": "1 swim",
+      "reason": "The race-day result gives the full 「スイム750m（375m×2周）」 with no shortening noted; the leaders' 7:30 swims point to a fast (current-assisted) sea course, not a published change. No race-day source gives another distance.",
+      "source": "https://www.jtu.or.jp/news/2023/08/07/53256/"
+    },
+    {
+      "event": "kaike",
+      "date": "2025-07-20",
+      "category": "kaike_b",
+      "segment": "3 run",
+      "reason": "Full 23 km run (new B type) in extreme heat, over 36 °C; many walked and only 66.6% of B starters finished. 9:34/km is genuine.",
+      "source": "https://bodyworks.blog.jp/archives/29228287.html"
+    },
+    {
+      "event": "kaike",
+      "date": "2026-07-19",
+      "category": "kaike_b",
+      "segment": "3 run",
+      "reason": "B-type distances unchanged from 2025 (「Bタイプ(セミロング)の距離は前年同様です」, run 23 km) and another 「灼熱の皆生」 day (33.9 °C); 9:50/km is genuine.",
+      "source": "https://www.kaike-triathlon.com/?p=5969"
+    }
+  ]
+}

@@ -35,10 +35,10 @@ import { readFileSync } from "node:fs";
 
 /** @type {Record<keyof ExceptionEntries, string>} */
 const FILES = {
-  name_space: "name-space-allowlist.json",
-  age_category: "age-category-allowlist.json",
-  duplicate_edition: "duplicate-allowlist.json",
-  segment_pace: "pace-exceptions.json",
+  name_space: "checks/exceptions/name-space.json",
+  age_category: "checks/exceptions/age-category.json",
+  duplicate_edition: "checks/exceptions/duplicate.json",
+  segment_pace: "checks/exceptions/pace.json",
 };
 
 const PACE_FIELDS = /** @type {const} */ ([

@@ -1,0 +1,15 @@
+{
+  "name": "珠洲トライアスロン",
+  "location": "石川県珠洲市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "石川県",
+    "city": "珠洲市"
+  },
+  "source": "https://triathlon-suzu.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Mitsukejima_(Ishikawa)_2.jpg",
+    "author": "Qurren",
+    "license": "CC BY-SA 3.0"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "categories": [
+    {
+      "id": "im703_haugesund_2015",
+      "name": "70.3",
+      "distance": "MD",
+      "description": "2015 IRONMAN 70.3 Haugesund",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.9,
+          "columns": [
+            {
+              "header": "Swim",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 90.1,
+          "columns": [
+            {
+              "header": "Bike",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 21.0975,
+          "columns": [
+            {
+              "header": "Run",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "ContactId",
+          "role": "athlete_id"
+        },
+        {
+          "header": "Overall_Rank",
+          "role": "overall_rank"
+        },
+        {
+          "header": "Name",
+          "role": "name"
+        },
+        {
+          "header": "Gender",
+          "role": "gender"
+        },
+        {
+          "header": "Division",
+          "role": "age_category"
+        },
+        {
+          "header": "Div_Rank",
+          "role": "age_rank"
+        },
+        {
+          "header": "Total_Time",
+          "role": "total_time"
+        },
+        {
+          "header": "Country",
+          "role": "residence"
+        },
+        {
+          "header": "Status",
+          "role": "status"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

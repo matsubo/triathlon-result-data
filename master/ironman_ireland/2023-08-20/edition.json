@@ -1,0 +1,81 @@
+{
+  "categories": [
+    {
+      "id": "ironman_ireland_2023",
+      "name": "Full Distance",
+      "distance": "LD",
+      "description": "2023 IRONMAN Ireland. Swim shortened in Storm Betty conditions: announced as 1.9 km, but kayakers redirected swimmers onto a course of about 1.2 km; bike and run held as planned.",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.2,
+          "columns": [
+            {
+              "header": "Swim",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 180.2,
+          "columns": [
+            {
+              "header": "Bike",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 42.195,
+          "columns": [
+            {
+              "header": "Run",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "ContactId",
+          "role": "athlete_id"
+        },
+        {
+          "header": "Overall_Rank",
+          "role": "overall_rank"
+        },
+        {
+          "header": "Name",
+          "role": "name"
+        },
+        {
+          "header": "Gender",
+          "role": "gender"
+        },
+        {
+          "header": "Division",
+          "role": "age_category"
+        },
+        {
+          "header": "Div_Rank",
+          "role": "age_rank"
+        },
+        {
+          "header": "Total_Time",
+          "role": "total_time"
+        },
+        {
+          "header": "Country",
+          "role": "residence"
+        },
+        {
+          "header": "Status",
+          "role": "status"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

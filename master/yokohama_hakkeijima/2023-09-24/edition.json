@@ -1,0 +1,303 @@
+{
+  "categories": [
+    {
+      "id": "yokohama_hakkeijima",
+      "name": "スプリント",
+      "distance": "SD",
+      "description": "2023年横浜八景島トライアスロン大会スプリント。横浜市金沢区で開催。スイム750m、バイク20km、ラン5km。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 0.75,
+          "columns": [
+            {
+              "header": "ｽｲﾑﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｓ順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 20,
+          "columns": [
+            {
+              "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｂ順",
+              "role": "rank"
+            },
+            {
+              "header": "ｽﾌﾟﾘｯﾄ",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 5,
+          "columns": [
+            {
+              "header": "ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｒ順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "年代別",
+          "role": "age_category"
+        },
+        {
+          "header": "年齡別順位",
+          "role": "age_rank"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=226&program_id=226_1",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "226_1"
+      }
+    },
+    {
+      "id": "yokohama_hakkeijima_s500",
+      "name": "スプリントS500",
+      "distance": "SD",
+      "description": "2023年横浜八景島トライアスロン大会スプリントS500。スイム500m、バイク20km、ラン5km。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 0.5,
+          "columns": [
+            {
+              "header": "ｽｲﾑﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｓ順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 20,
+          "columns": [
+            {
+              "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｂ順",
+              "role": "rank"
+            },
+            {
+              "header": "ｽﾌﾟﾘｯﾄ",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 5,
+          "columns": [
+            {
+              "header": "ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｒ順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=226&program_id=226_2",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "226_2"
+      }
+    },
+    {
+      "id": "yokohama_hakkeijima_s250",
+      "name": "スプリントS250",
+      "distance": "SD",
+      "description": "2023年横浜八景島トライアスロン大会スプリントS250。スイム250m（0.25km×1周）、バイク20km（5.0km×4周）、ラン5km（2.5km×2周）。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 0.25,
+          "columns": [
+            {
+              "header": "ｽｲﾑﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｓ順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 20,
+          "columns": [
+            {
+              "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｂ順",
+              "role": "rank"
+            },
+            {
+              "header": "ｽﾌﾟﾘｯﾄ",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 5,
+          "columns": [
+            {
+              "header": "ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｒ順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=226&program_id=226_3",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "226_3"
+      }
+    }
+  ]
+}

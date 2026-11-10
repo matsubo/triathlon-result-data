@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN Finland",
+  "location": "Lahti, Finland",
+  "location_parts": {
+    "country": "FI",
+    "city": "Lahti"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/312/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Ski_Jump_tower_from_Vesijärvi-lake.jpg",
+    "author": "mastomies",
+    "license": "CC0"
+  }
+}

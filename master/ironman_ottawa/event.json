@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Ottawa",
+  "location": "Ottawa, Ontario, Canada",
+  "location_parts": {
+    "country": "CA",
+    "region": "Ontario",
+    "city": "Ottawa"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/365/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Parliament_Hill_from_the_Ottawa_River.JPG",
+    "author": "Óðinn",
+    "license": "CC BY-SA 2.5 ca"
+  }
+}

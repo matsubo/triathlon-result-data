@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Alagoas",
+  "location": "Alagoas",
+  "location_parts": {
+    "country": "BR",
+    "region": "Alagoas",
+    "city": "Maceió"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/250/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Maceio_Alagoas_Brasil.PNG",
+    "author": "Photo: Janas",
+    "license": "Public domain"
+  }
+}

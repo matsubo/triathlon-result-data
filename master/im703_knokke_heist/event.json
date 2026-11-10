@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Knokke-Heist",
+  "location": "Knokke-Heist",
+  "location_parts": {
+    "country": "BE",
+    "city": "Knokke-Heist"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/373/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Jean-François_Fourtou_(Parijs_1964)_Beach_Castle_Knokke-Heist_19-07-2021_13-46-54.jpg",
+    "author": "Creator:Jean-François Fourtou",
+    "license": "CC BY-SA 4.0"
+  }
+}

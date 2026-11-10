@@ -1,0 +1,16 @@
+{
+  "name": "トライアスロン伊良湖大会",
+  "location": "愛知県田原市　伊良湖岬周辺",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "愛知県",
+    "city": "田原市",
+    "venue": "伊良湖岬周辺"
+  },
+  "source": "https://www.irago-triathlon.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:The_Straits_in_Cape_Irago_and_Kamishima.jpg",
+    "author": "Bariston",
+    "license": "CC BY-SA 4.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "滑川トライアスロン",
+  "location": "富山県滑川市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "富山県",
+    "city": "滑川市"
+  },
+  "source": "https://sites.google.com/view/namerikawa-triathlon",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:%E6%BB%91%E5%B7%9D%E6%B5%B7%E5%B2%B8.jpg",
+    "author": "Bakkai",
+    "license": "CC BY-SA 4.0"
+  }
+}

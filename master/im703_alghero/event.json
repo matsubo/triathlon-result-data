@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Alghero",
+  "location": "Alghero, Sardinia",
+  "location_parts": {
+    "country": "IT",
+    "region": "Sardinia",
+    "city": "Alghero"
+  },
+  "source": "https://labs-v2.competitor.com/results/event/60d9acc4-116e-4e81-beec-22f3b9b76425",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Alghero_-_Panorama_(01).jpg",
+    "author": "Gianni Careddu",
+    "license": "CC BY-SA 4.0"
+  }
+}

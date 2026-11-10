@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Valdivia",
+  "location": "Valdivia",
+  "location_parts": {
+    "country": "CL",
+    "region": "Los Ríos",
+    "city": "Valdivia"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/393/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Costanera_Arturo_Prat%2C_Valdivia%2C_2019.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0"
+  }
+}

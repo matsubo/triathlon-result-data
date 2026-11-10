@@ -36,7 +36,7 @@
  *
  * A flagged pace that the race-day evidence shows to be genuine (a swim with
  * a strong current, a PRO-only Category) is an Exception in
- * pace-exceptions.json: one entry per Segment, matched by Event, Edition
+ * checks/exceptions/pace.json: one entry per Segment, matched by Event, Edition
  * date, Category id and `segmentLabel`. An exempted Segment is never
  * flagged; an entry that exempts nothing is stale (`staleExceptions`).
  */
@@ -432,7 +432,7 @@ const kmText = (km) =>
 /**
  * Import warnings for one Edition: one line per flagged Segment, compared
  * with the Event's other Editions in `repo`. Segments exempted by
- * `exceptions` (by default pace-exceptions.json) give no warning.
+ * `exceptions` (by default checks/exceptions/pace.json) give no warning.
  * @param {Repo} repo
  * @param {string} eventId
  * @param {string} date

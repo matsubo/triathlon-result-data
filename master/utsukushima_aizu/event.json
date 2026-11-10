@@ -1,0 +1,15 @@
+{
+  "name": "うつくしまトライアスロンinあいづ",
+  "location": "福島県会津若松市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "福島県",
+    "city": "会津若松市"
+  },
+  "source": "https://www.jtu.or.jp/event/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Aizuwakamatsu_Castle_ac_(3).jpg",
+    "author": "Asturio Cantabrio",
+    "license": "CC BY-SA 4.0"
+  }
+}

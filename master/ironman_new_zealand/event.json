@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN New Zealand",
+  "location": "Taupō, New Zealand",
+  "location_parts": {
+    "country": "NZ",
+    "city": "Taupō"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/19/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Lake_Taupo_06.jpg",
+    "author": "Krzysztof Golik",
+    "license": "CC BY-SA 4.0"
+  }
+}

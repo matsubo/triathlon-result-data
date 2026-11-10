@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Puerto Varas",
+  "location": "Puerto Varas, Chile",
+  "location_parts": {
+    "country": "CL",
+    "region": "Los Lagos",
+    "city": "Puerto Varas"
+  },
+  "source": "https://www.ironman.com/races/im703-puerto-varas",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:00_1693_Puerto_Varas_on_Lake_Llanquihue_(Chile).jpg",
+    "author": "W. Bulach",
+    "license": "CC BY-SA 4.0"
+  }
+}

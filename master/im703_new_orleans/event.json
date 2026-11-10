@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 New Orleans",
+  "location": "New Orleans",
+  "location_parts": {
+    "country": "US",
+    "region": "Louisiana",
+    "city": "New Orleans"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/158/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3ANew_Orleans_skyline-02.jpg",
+    "author": "thepipe26",
+    "license": "CC BY 2.0"
+  }
+}

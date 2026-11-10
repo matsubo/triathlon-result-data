@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Colombo",
+  "location": "Colombo",
+  "location_parts": {
+    "country": "LK",
+    "city": "Colombo"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/77/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Night_Skyline_Reflection_in_Colombo,_Sri_Lanka.jpg",
+    "author": "Thilina Alagiyawanna",
+    "license": "CC BY 4.0"
+  }
+}

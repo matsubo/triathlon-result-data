@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN Malaysia",
+  "location": "Langkawi, Malaysia",
+  "location_parts": {
+    "country": "MY"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2462/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Langkawi_Island_(22116706554).jpg",
+    "author": "Marufish",
+    "license": "CC BY-SA 2.0"
+  }
+}

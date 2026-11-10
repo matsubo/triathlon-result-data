@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Marathon",
+  "location": "Marathon, Greece",
+  "location_parts": {
+    "country": "GR",
+    "city": "Marathon"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2608/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Marathon,_Greece_(3).jpg",
+    "author": "afromusing",
+    "license": "CC BY 2.0"
+  }
+}

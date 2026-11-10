@@ -1,0 +1,319 @@
+{
+  "categories": [
+    {
+      "id": "tateyama",
+      "name": "オリンピックディスタンス",
+      "distance": "OD",
+      "description": "2025年館山オリンピックディスタンス大会。南房総の美しい海と自然を舞台に、スイム400m、バイク40km、ラン10kmのコースに挑戦します。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 0.4,
+          "columns": [
+            {
+              "header": "スイムラップ",
+              "role": "lap"
+            },
+            {
+              "header": "S順",
+              "role": "rank"
+            },
+            {
+              "header": "T1",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "バイクラップ",
+              "role": "lap"
+            },
+            {
+              "header": "B順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "ランラップ",
+              "role": "lap"
+            },
+            {
+              "header": "R順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "居住地",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "年齢区分",
+          "role": "age_category"
+        },
+        {
+          "header": "年齢別順",
+          "role": "age_rank"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=316&program_id=316_1",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "316_1"
+      }
+    },
+    {
+      "id": "tateyama_duathlon",
+      "name": "デュアスロン",
+      "distance": "DUATHLON",
+      "description": "2025年館山オリンピックディスタンス大会。スイムが無くなりデュアスロンになりました、ラン(200m)、バイク40km、ラン10kmのコースに挑戦します。",
+      "segments": [
+        {
+          "sport": "run",
+          "distance": 0.2,
+          "columns": [
+            {
+              "header": "スイムラップ",
+              "role": "lap"
+            },
+            {
+              "header": "S順",
+              "role": "rank"
+            },
+            {
+              "header": "T1",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "バイクラップ",
+              "role": "lap"
+            },
+            {
+              "header": "B順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "ランラップ",
+              "role": "lap"
+            },
+            {
+              "header": "R順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "居住地",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "年齢区分",
+          "role": "age_category"
+        },
+        {
+          "header": "年齢別順",
+          "role": "age_rank"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=316&program_id=316_2",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "316_2"
+      }
+    },
+    {
+      "id": "tateyama_sprint",
+      "name": "スプリントディスタンス",
+      "distance": "DUATHLON",
+      "description": "2025年館山スプリントディスタンス大会。南房総の美しい海と自然を舞台に、ラン(200m)、バイク20km、ラン5kmのコースに挑戦します。",
+      "segments": [
+        {
+          "sport": "run",
+          "distance": 0.2,
+          "columns": [
+            {
+              "header": "1ランラップ",
+              "role": "lap"
+            },
+            {
+              "header": "1R順",
+              "role": "rank"
+            },
+            {
+              "header": "T1",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 20,
+          "columns": [
+            {
+              "header": "バイクラップ",
+              "role": "lap"
+            },
+            {
+              "header": "B順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 5,
+          "columns": [
+            {
+              "header": "2ランラップ",
+              "role": "lap"
+            },
+            {
+              "header": "2R順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "居住地",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "区分",
+          "role": "age_category"
+        },
+        {
+          "header": "区分順位",
+          "role": "age_rank"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=316&program_id=316_3",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "316_3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Ohio",
+  "location": "Delaware, Ohio, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Ohio",
+    "city": "Delaware"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2627/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3ACleveland%2C_Ohio_Skyline_at_Sunrise_at_Edgewater_Park_%288668179983%29.jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0"
+  }
+}

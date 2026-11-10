@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Pennsylvania Happy Valley",
+  "location": "State College, Pennsylvania, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Pennsylvania",
+    "city": "State College"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2439/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Campus_gate,_The_Pennsylvania_State_College,_State_College,_Pa_(75984).jpg",
+    "author": "Tichnor Brothers, Publisher",
+    "license": "Public domain"
+  }
+}

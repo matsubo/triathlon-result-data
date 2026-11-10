@@ -2,8 +2,11 @@ import fs from "node:fs";
 import path from "node:path";
 import { compileFromFile } from "json-schema-to-typescript";
 
-const schemaPath = path.resolve("race-info-schema.json");
-const outputPath = path.resolve("schema.ts");
+const schemaPaths = [
+  path.resolve("schemas/event.schema.json"),
+  path.resolve("schemas/edition.schema.json"),
+];
+const outputPath = path.resolve("schemas/types.ts");
 
 const bannerComment = `/* eslint-disable */
 /**
@@ -13,6 +16,36 @@ const bannerComment = `/* eslint-disable */
  */`;
 
 const helpers = `
+// ============================================================
+// Corpus types (scripts/lib/corpus.js): the stored files plus the
+// fields the layout derives (scripts/lib/layout.js)
+// ============================================================
+
+/** A Category of edition.json plus the path of its result TSV. */
+export interface CorpusCategory extends Category {
+  /** master/<event_id>/<YYYY-MM-DD>/<category_id>.tsv */
+  result_tsv: string;
+}
+
+/** An Edition directory: its date, weather file and Categories. */
+export interface CorpusEdition {
+  /** YYYY-MM-DD, the directory name */
+  date: string;
+  /** master/<event_id>/<YYYY-MM-DD>/weather-data.json when that file exists, else null */
+  weather_file: string | null;
+  categories: CorpusCategory[];
+}
+
+/** An Event directory: event.json plus its id, image path and Editions. */
+export interface CorpusEvent extends RaceEvent {
+  /** the directory name */
+  id: string;
+  /** master/<event_id>/image.webp */
+  image: string;
+  /** sorted by date */
+  editions: CorpusEdition[];
+}
+
 // ============================================================
 // TSV Row Types (for parsing result.tsv files)
 // ============================================================
@@ -85,21 +118,27 @@ export interface ParsedSegmentData {
 async function main() {
   try {
     console.log("Compiling JSON Schema to TypeScript definitions...");
-    const ts = await compileFromFile(schemaPath, {
-      bannerComment,
-      style: {
-        singleQuote: false,
-        semi: true,
-        printWidth: 100,
-        tabWidth: 2,
-      },
-    });
+    const style = {
+      singleQuote: false,
+      semi: true,
+      printWidth: 100,
+      tabWidth: 2,
+    };
+    const parts = [];
+    for (const [i, schemaPath] of schemaPaths.entries()) {
+      parts.push(
+        await compileFromFile(schemaPath, {
+          bannerComment: i === 0 ? bannerComment : "",
+          style,
+        }),
+      );
+    }
 
-    const finalTs = ts + helpers;
+    const finalTs = parts.join("\n") + helpers;
     fs.writeFileSync(outputPath, finalTs, "utf8");
-    console.log("Successfully generated schema.ts!");
+    console.log("Successfully generated schemas/types.ts!");
   } catch (error) {
-    console.error("Failed to build schema.ts:", error);
+    console.error("Failed to build schemas/types.ts:", error);
     process.exit(1);
   }
 }

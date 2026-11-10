@@ -1,0 +1,81 @@
+{
+  "categories": [
+    {
+      "id": "ironman_new_zealand_2012",
+      "name": "Full Distance",
+      "distance": "LD",
+      "description": "2012 IRONMAN New Zealand. Postponed a day to 4 March and shortened to half distance (1.9 km swim / 90 km bike / 21.1 km run) because of an unprecedented severe-weather forecast; results are not comparable with full-distance years.",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.9,
+          "columns": [
+            {
+              "header": "Swim",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 90,
+          "columns": [
+            {
+              "header": "Bike",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 21.1,
+          "columns": [
+            {
+              "header": "Run",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "ContactId",
+          "role": "athlete_id"
+        },
+        {
+          "header": "Overall_Rank",
+          "role": "overall_rank"
+        },
+        {
+          "header": "Name",
+          "role": "name"
+        },
+        {
+          "header": "Gender",
+          "role": "gender"
+        },
+        {
+          "header": "Division",
+          "role": "age_category"
+        },
+        {
+          "header": "Div_Rank",
+          "role": "age_rank"
+        },
+        {
+          "header": "Total_Time",
+          "role": "total_time"
+        },
+        {
+          "header": "Country",
+          "role": "residence"
+        },
+        {
+          "header": "Status",
+          "role": "status"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

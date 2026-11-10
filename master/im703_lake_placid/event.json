@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Lake Placid",
+  "location": "Lake Placid",
+  "location_parts": {
+    "country": "US",
+    "region": "New York",
+    "city": "Lake Placid"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/147/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Mirror_Lake,_Adirondack_Mountains-LCCN2008679630.jpg",
+    "author": "Unknown",
+    "license": "Public domain"
+  }
+}

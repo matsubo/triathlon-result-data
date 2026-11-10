@@ -1,0 +1,16 @@
+{
+  "name": "野尻湖トライアスロン in 信州信濃町",
+  "location": "長野県上水内郡信濃町野尻湖",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "長野県",
+    "city": "上水内郡信濃町",
+    "venue": "野尻湖"
+  },
+  "source": "https://results.jtu.or.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Lake_Nojiri.JPG",
+    "author": "Mariemon",
+    "license": "CC BY-SA 3.0"
+  }
+}

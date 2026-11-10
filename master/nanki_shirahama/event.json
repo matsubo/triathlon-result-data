@@ -1,0 +1,15 @@
+{
+  "name": "南紀白浜トライアスロン",
+  "location": "和歌山県白浜町",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "和歌山県",
+    "city": "白浜町"
+  },
+  "source": "http://shirahama-triathlon.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Shirahama,_Wakayama_20210725.jpg",
+    "author": "Cassiopeia sweet",
+    "license": "CC BY-SA 4.0"
+  }
+}

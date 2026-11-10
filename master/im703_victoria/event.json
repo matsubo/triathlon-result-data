@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Victoria",
+  "location": "Victoria",
+  "location_parts": {
+    "country": "CA",
+    "region": "British Columbia",
+    "city": "Victoria"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/110/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Victoriaharbour2.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0"
+  }
+}

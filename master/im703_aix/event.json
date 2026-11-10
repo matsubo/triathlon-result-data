@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Aix-en-Provence",
+  "location": "Aix-en-Provence, France",
+  "location_parts": {
+    "country": "FR",
+    "city": "Aix-en-Provence"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2422/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Immeuble_24_cours_Mirabeau_by_JMC.jpg",
+    "author": "JM Campaner",
+    "license": "CC BY-SA 3.0"
+  }
+}

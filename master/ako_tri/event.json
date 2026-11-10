@@ -1,0 +1,15 @@
+{
+  "name": "赤穂トライアスロン大会",
+  "location": "兵庫県赤穂市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "兵庫県",
+    "city": "赤穂市"
+  },
+  "source": "https://htj.gr.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:141115_Hyogo_prefectural_Ako_Seaside_Park_Japan15n.jpg",
+    "author": "663highland",
+    "license": "CC BY 2.5"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "川崎港トライアスロンin東扇島",
+  "location": "神奈川県川崎市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "神奈川県",
+    "city": "川崎市"
+  },
+  "source": "https://www.kn-tu.or.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:View_of_Higashi-ohgishima_from_Kawasaki_Marien.jpg",
+    "author": "Yagasanyou",
+    "license": "CC BY-SA 4.0"
+  }
+}

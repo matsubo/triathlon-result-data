@@ -1,0 +1,16 @@
+{
+  "name": "彩の国トライアスロンin加須大会",
+  "location": "加須・渡良瀬遊水地",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "埼玉県",
+    "city": "加須市",
+    "venue": "渡良瀬遊水地"
+  },
+  "source": "https://www.sainokunitri.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Tochigi_Watarase_Reservoir_First_Regulation_Pond_1.JPG",
+    "author": "京浜にけ",
+    "license": "CC BY-SA 3.0"
+  }
+}

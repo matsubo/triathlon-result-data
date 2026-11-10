@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Leeds",
+  "location": "Leeds, UK",
+  "location_parts": {
+    "country": "GB",
+    "region": "England",
+    "city": "Leeds"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2206/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Leeds_Town_Hall_(11th_March_2022).jpg",
+    "author": "Mtaylor848",
+    "license": "CC BY-SA 4.0"
+  }
+}

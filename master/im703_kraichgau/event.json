@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Kraichgau",
+  "location": "Kraichgau, Germany",
+  "location_parts": {
+    "country": "DE",
+    "city": "Kraichgau"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2425/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Eichelberg-panoramaweb.jpg",
+    "author": "p.schmelzle",
+    "license": "CC BY-SA 2.5"
+  }
+}

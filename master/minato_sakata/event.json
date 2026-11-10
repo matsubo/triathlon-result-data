@@ -1,0 +1,16 @@
+{
+  "name": "みなと酒田トライアスロンおしんレース",
+  "location": "山形県酒田市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "山形県",
+    "city": "酒田市",
+    "venue": "酒田北港"
+  },
+  "source": "http://www.osin-triathlon.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Port_of_Sakata,_-8_Dec._2011_a.jpg",
+    "author": "Jun K from Sakata, Yamagata, Japan",
+    "license": "CC BY-SA 2.0"
+  }
+}

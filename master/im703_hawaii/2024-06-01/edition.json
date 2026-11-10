@@ -1,0 +1,85 @@
+{
+  "categories": [
+    {
+      "id": "im703_hawaii_2024",
+      "name": "Half Distance",
+      "distance": "MD",
+      "description": "IRONMAN 70.3 Hawaii. Swim moved to a protected short course of about 750 m due to high winds; bike and run held as planned.",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 0.75,
+          "columns": [
+            {
+              "header": "Swim",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 90,
+          "columns": [
+            {
+              "header": "Bike",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 21.1,
+          "columns": [
+            {
+              "header": "Run",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "ContactId",
+          "role": "athlete_id"
+        },
+        {
+          "header": "Overall_Rank",
+          "role": "overall_rank"
+        },
+        {
+          "header": "Name",
+          "role": "name"
+        },
+        {
+          "header": "Gender",
+          "role": "gender"
+        },
+        {
+          "header": "Division",
+          "role": "age_category"
+        },
+        {
+          "header": "Div_Rank",
+          "role": "age_rank"
+        },
+        {
+          "header": "Total_Time",
+          "role": "total_time"
+        },
+        {
+          "header": "Country",
+          "role": "residence"
+        },
+        {
+          "header": "Status",
+          "role": "status"
+        }
+      ],
+      "source_url": null,
+      "source_ref": {
+        "results_source": "ironman",
+        "id": "13fcb784-c058-4df2-8ea3-683aecfa675d"
+      }
+    }
+  ]
+}

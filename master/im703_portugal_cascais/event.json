@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Portugal - Cascais",
+  "location": "Portugal - Cascais",
+  "location_parts": {
+    "country": "PT",
+    "city": "Cascais"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/281/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3ACascais._Portugal.jpg",
+    "author": "Ввласенко",
+    "license": "CC BY-SA 3.0"
+  }
+}

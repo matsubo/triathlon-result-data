@@ -1,0 +1,15 @@
+{
+  "name": "東京・海の森トライアスロン",
+  "location": "東京都江東区",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "東京都",
+    "city": "江東区"
+  },
+  "source": "https://www.mspo.jp/uminomorisptri/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Umi-no-Mori_(_Sea_Forest_)_-_panoramio.jpg",
+    "author": "Kaz Ish",
+    "license": "CC BY-SA 3.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Chungju",
+  "location": "Chungju",
+  "location_parts": {
+    "country": "KR",
+    "city": "Chungju"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/246/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:KOCIS_Korea_Chungju_World_Rowing_mcst_22_(9659133747).jpg",
+    "author": "Korea.net / Korean Culture and Information Service",
+    "license": "CC BY-SA 2.0"
+  }
+}

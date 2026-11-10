@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Sandnes",
+  "location": "Sandnes",
+  "location_parts": {
+    "country": "NO",
+    "city": "Sandnes"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/351/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AMAURITZ_KARTEVOLDSPLASS_R%C3%A5dhusplassen%2C_V%C3%A5gen%2C_gjestehavn._Sandnes_kommune_r%C3%A5dhus._Eurytmi_1990_by_Hugo_Frank_Wathne._Sandnes_kulturhus%2C_Elvegata%2C_Amfi%2C_etc_SANDNES%2C_Norway_Forvrengt_Distorted_iPhone_panorama_November_2021-11-01_A.jpg",
+    "author": "Wolfmann",
+    "license": "CC BY-SA 4.0"
+  }
+}

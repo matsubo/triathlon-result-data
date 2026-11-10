@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Australia",
+  "location": "Port Macquarie, Australia",
+  "location_parts": {
+    "country": "AU",
+    "region": "Western Australia",
+    "city": "Busselton"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2187/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Lighthouse_beach_as_viewed_from_Tacking_Point_Lighthouse_in_Port_Macquarie_NSW.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0"
+  }
+}

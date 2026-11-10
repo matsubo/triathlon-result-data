@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN France",
+  "location": "Nice, France",
+  "location_parts": {
+    "country": "FR",
+    "city": "Nice"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2191/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Nice_Baie_des_anges_01.jpg",
+    "author": "Cayambe",
+    "license": "CC BY-SA 3.0"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "categories": [
+    {
+      "id": "nagasaki_saikai",
+      "name": "一般",
+      "distance": "OD",
+      "description": "2014年長崎西海トライアスロン祭 オリンピックディスタンス（男女総合：エリート＋一般＋学生）。早朝の強風のため当日コースの一部が短縮され、スイム1.5km、バイク40km、ランは10kmから5kmに短縮して実施（九州沖縄学生選手権の記録）。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "ｽｲﾑﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "S順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "B順",
+              "role": "rank"
+            },
+            {
+              "header": "ｽﾌﾟﾘｯﾄ",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 5,
+          "columns": [
+            {
+              "header": "ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "R順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "男女順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "居住地",
+          "role": "residence"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "カテゴリ",
+          "role": "note"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "年齢区分",
+          "role": "age_category"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

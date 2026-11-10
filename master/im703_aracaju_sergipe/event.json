@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Aracaju-Sergipe",
+  "location": "Aracaju-Sergipe",
+  "location_parts": {
+    "country": "BR",
+    "region": "Sergipe",
+    "city": "Aracaju"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/394/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Orla_de_Atalaia_-_Aracaju.jpg",
+    "author": "Codevasf",
+    "license": "CC BY 2.0"
+  }
+}

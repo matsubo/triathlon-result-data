@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Connecticut",
+  "location": "Connecticut",
+  "location_parts": {
+    "country": "US",
+    "region": "Connecticut"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/109/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:20191016_hartford_sunrise_from_goodwin_dock_9UV2622.jpg",
+    "author": "Paul Danese",
+    "license": "CC BY-SA 4.0"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "categories": [
+    {
+      "id": "im703_switzerland_2026",
+      "name": "Half Distance",
+      "distance": "MD",
+      "description": "2026 IRONMAN 70.3 Switzerland",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.9,
+          "columns": [
+            {
+              "header": "Swim",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 90,
+          "columns": [
+            {
+              "header": "Bike",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 21.1,
+          "columns": [
+            {
+              "header": "Run",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "ContactId",
+          "role": "athlete_id"
+        },
+        {
+          "header": "Overall_Rank",
+          "role": "overall_rank"
+        },
+        {
+          "header": "Name",
+          "role": "name"
+        },
+        {
+          "header": "Gender",
+          "role": "gender"
+        },
+        {
+          "header": "Division",
+          "role": "age_category"
+        },
+        {
+          "header": "Div_Rank",
+          "role": "age_rank"
+        },
+        {
+          "header": "Total_Time",
+          "role": "total_time"
+        },
+        {
+          "header": "Country",
+          "role": "residence"
+        },
+        {
+          "header": "Status",
+          "role": "status"
+        }
+      ],
+      "source_url": null,
+      "source_ref": {
+        "results_source": "ironman",
+        "id": "58a2f801-be0d-4a8d-9310-7eb90c565491"
+      }
+    }
+  ]
+}

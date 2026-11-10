@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Arizona",
+  "location": "Arizona",
+  "location_parts": {
+    "country": "US",
+    "region": "Arizona",
+    "city": "Tempe"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/160/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Tempe_Town_Lake_Light_Rail.jpg",
+    "author": "JoseE1471",
+    "license": "CC BY-SA 4.0"
+  }
+}

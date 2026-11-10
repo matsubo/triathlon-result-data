@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Les Sables d'Olonne",
+  "location": "Les Sables d'Olonne, France",
+  "location_parts": {
+    "country": "FR",
+    "region": "Vendée",
+    "city": "Les Sables-d’Olonne"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2196/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Les_Sables-d'Olonne-FR-85-port-1.jpg",
+    "author": "auteur inconnu",
+    "license": "Public domain"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "トライアスロンIN徳之島",
+  "location": "鹿児島県徳之島・天城町",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "鹿児島県",
+    "venue": "徳之島・天城町"
+  },
+  "source": "https://www.town.amagi.lg.jp/kanko/triathlon/2025/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:徳之島町畦海水浴場_-_Panoramio_52008539.jpg",
+    "author": "CyberOyaji",
+    "license": "CC BY-SA 3.0"
+  }
+}

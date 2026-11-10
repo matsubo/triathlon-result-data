@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Canada",
+  "location": "Canada",
+  "location_parts": {
+    "country": "CA",
+    "region": "British Columbia",
+    "city": "Penticton"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/133/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Lac_Poisson_trail,_Mont_Tremblant_(28672102353).jpg",
+    "author": "Helena Jacoba",
+    "license": "CC BY 2.0"
+  }
+}

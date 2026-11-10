@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Omaha",
+  "location": "Omaha, Nebraska",
+  "location_parts": {
+    "country": "US",
+    "region": "Nebraska",
+    "city": "Omaha"
+  },
+  "source": "https://labs-v2.competitor.com/results/event/658da0ab-acc3-4eb5-a40b-6ccb8acde758",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:City_of_Omaha,_Nebraska_Skyline_on_the_Missouri_River_(30899969517).jpg",
+    "author": "Tony Webster from Minneapolis, Minnesota, United States",
+    "license": "CC BY 2.0"
+  }
+}

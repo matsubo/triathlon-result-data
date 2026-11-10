@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Sunshine Coast",
+  "location": "Sunshine Coast",
+  "location_parts": {
+    "country": "AU",
+    "region": "Queensland",
+    "city": "Sunshine Coast"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/148/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Noosa_Heads_main_beach%2C_2025.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0"
+  }
+}

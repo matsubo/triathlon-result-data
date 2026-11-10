@@ -1,0 +1,15 @@
+{
+  "name": "Mt.富士トライアスロン富士河口湖",
+  "location": "山梨県富士河口湖町",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "山梨県",
+    "city": "富士河口湖町"
+  },
+  "source": "https://mtfuji-tri.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Mount_Fuji_from_Lake_Kawaguchi_20170206.jpg",
+    "author": "D-daisuke",
+    "license": "CC BY-SA 4.0"
+  }
+}

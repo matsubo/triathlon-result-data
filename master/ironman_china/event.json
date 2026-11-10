@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN China",
+  "location": "Hainan, China",
+  "location_parts": {
+    "country": "CN"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/204/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Beaches_in_Sanya,_Hainan,_China2.jpg",
+    "author": "Huangdan2060",
+    "license": "CC0"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "categories": [
+    {
+      "id": "omihachiman_men",
+      "name": "男子",
+      "distance": "OD",
+      "description": "2024年びわ湖トライアスロンin近江八幡 男子。滋賀県近江八幡市を舞台に開催。スイム1.5km、バイク40km、ラン10km。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "ｽｲﾑﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "T1",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "T2",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "都道府県",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=283&program_id=283_1",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "283_1"
+      }
+    },
+    {
+      "id": "omihachiman_women",
+      "name": "女子",
+      "distance": "OD",
+      "description": "2024年びわ湖トライアスロンin近江八幡 女子。滋賀県近江八幡市を舞台に開催。スイム1.5km、バイク40km、ラン10km。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "ｽｲﾑﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "T1",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "T2",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "都道府県",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=283&program_id=283_2",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "283_2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "サンポート高松トライアスロン",
+  "location": "香川県高松市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "香川県",
+    "city": "高松市"
+  },
+  "source": "https://www.tritakamatsu.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Port_of_Takamatsu_panorama_Apr_01_2021_05-43PM.jpeg",
+    "author": "Nesnad",
+    "license": "CC BY 4.0"
+  }
+}

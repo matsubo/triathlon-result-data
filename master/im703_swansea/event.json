@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Swansea",
+  "location": "Swansea, Wales, UK",
+  "location_parts": {
+    "country": "GB",
+    "region": "Wales",
+    "city": "Swansea"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2639/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Swansea_Bay_from_Mumbles_-_2022-08-20.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0"
+  }
+}

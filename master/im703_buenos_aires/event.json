@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Buenos Aires Palermo",
+  "location": "Buenos Aires, Argentina",
+  "location_parts": {
+    "country": "AR",
+    "city": "Buenos Aires",
+    "venue": "Palermo"
+  },
+  "source": "https://labs-v2.competitor.com/results/event/e7996dac-cd28-45e0-8ba2-73b711571958",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:193_-_Buenos_Aires_-_Puerto_Madero_-_Janvier_2010.jpg",
+    "author": "Martin St-Amant (S23678)",
+    "license": "CC BY-SA 3.0"
+  }
+}

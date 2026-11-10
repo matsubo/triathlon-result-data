@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Valencia",
+  "location": "Valencia, Spain",
+  "location_parts": {
+    "country": "ES",
+    "region": "Valencian Community",
+    "city": "Valencia"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2414/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Ciudad_de_las_Artes_y_las_Ciencias_al_Amanecer.JPG",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0"
+  }
+}

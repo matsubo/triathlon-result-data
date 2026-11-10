@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Finland",
+  "location": "Finland",
+  "location_parts": {
+    "country": "FI",
+    "city": "Lahti"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/122/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Harbor_Scene.jpg",
+    "author": "Miguel Virkkunen Carvalho from Lahti, Finland",
+    "license": "CC BY 2.0"
+  }
+}

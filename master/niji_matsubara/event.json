@@ -1,0 +1,15 @@
+{
+  "name": "虹の松原トライアスロン",
+  "location": "佐賀県唐津市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "佐賀県",
+    "city": "唐津市"
+  },
+  "source": "https://niji-tri.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Niji_no_matsubara.jpg",
+    "author": "panoramio user",
+    "license": "CC BY-SA 3.0"
+  }
+}

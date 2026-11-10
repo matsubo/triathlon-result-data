@@ -1,0 +1,206 @@
+{
+  "categories": [
+    {
+      "id": "izuoshima",
+      "name": "伊豆大島トライアスロン",
+      "distance": "OD",
+      "description": "2017年 伊豆大島トライアスロン。強風のため当日スイムが中止され第1ラン5kmに変更、ラン5km・バイク・ラン10kmで実施。",
+      "segments": [
+        {
+          "sport": "run",
+          "distance": 5,
+          "columns": [
+            {
+              "header": "第1ランラップ",
+              "role": "lap"
+            },
+            {
+              "header": "S順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "バイクラップ",
+              "role": "lap"
+            },
+            {
+              "header": "B順",
+              "role": "rank"
+            },
+            {
+              "header": "スプリット",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "第2ランラップ",
+              "role": "lap"
+            },
+            {
+              "header": "R順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "居住地",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "ハンデ記録",
+          "role": "status"
+        }
+      ],
+      "source_url": null
+    },
+    {
+      "id": "izuoshima_sprint",
+      "name": "スプリントディスタンス",
+      "distance": "SD",
+      "description": "2017年 スプリントディスタンス。強風のため当日スイムが中止され第1ランに変更（約5km）、バイク20km・ラン5kmで実施。第1ランの距離は公表なし、タイム中央値からの推定。",
+      "segments": [
+        {
+          "sport": "run",
+          "distance": 5,
+          "columns": [
+            {
+              "header": "第1ランラップ",
+              "role": "lap"
+            },
+            {
+              "header": "S順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 20,
+          "columns": [
+            {
+              "header": "バイクラップ",
+              "role": "lap"
+            },
+            {
+              "header": "B順",
+              "role": "rank"
+            },
+            {
+              "header": "スプリット",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 5,
+          "columns": [
+            {
+              "header": "第2ランラップ",
+              "role": "lap"
+            },
+            {
+              "header": "R順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "居住地",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "ハンデ記録",
+          "role": "status"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

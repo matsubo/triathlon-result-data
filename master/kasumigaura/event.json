@@ -1,0 +1,15 @@
+{
+  "name": "霞ヶ浦トライアスロンフェスタ",
+  "location": "茨城県土浦市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "茨城県",
+    "city": "土浦市"
+  },
+  "source": "https://www.jtu.or.jp/event/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Lake_Kasumigaura_and_Mt.Fuji,Namegata-city,Japan.JPG",
+    "author": "Σ64",
+    "license": "CC BY-SA 3.0"
+  }
+}

@@ -9,7 +9,7 @@ import { parseTime } from "./normalize-time.js";
  * @typedef {import("./category-reader.js").Row} Row
  * @typedef {import("./category-reader.js").Column} Column
  *
- * @typedef {object} Athlete one Athlete of the normalized output (result-schema.json)
+ * @typedef {object} Athlete one Athlete of the normalized output (schemas/result.schema.json)
  * @property {number | null} rank
  * @property {import("./normalize-status.js").Status} status
  * @property {string} bib

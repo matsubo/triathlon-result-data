@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Putrajaya",
+  "location": "Putrajaya",
+  "location_parts": {
+    "country": "MY",
+    "city": "Putrajaya"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/238/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3APutrajaya_Malaysia_Seri-Wawasan-Bridge-02.jpg",
+    "author": "CEphoto, Uwe Aranas",
+    "license": "CC BY-SA 3.0"
+  }
+}

@@ -17,4 +17,4 @@ Critical gotchas:
 - Some finishers have a `grossTime` but empty `netTime` (missed start mat) — rank them last.
 - Bibs present in our provisional (速報) TSV but **absent from the official API** are DNS/DSQ/removed → drop them on the official overwrite (fujihill 2026 had bib 1536 with corrupt negative splits).
 
-Reusable scrapers committed: `scripts/scrape-runnet-fujihill-2026.mjs` (fetch+join), `scripts/rebuild-fujihill-2026-official.mjs` (rebuild TSV keeping enriched Division, net-based ranks).
+Reusable scraper committed: `scripts/scrape-runnet-fujihill-2026.mjs` (fetch+join). Rebuild the official TSV from its output keeping the enriched Division and net-based ranks (above).

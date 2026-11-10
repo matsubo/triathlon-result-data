@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN World Championship",
+  "location": "Kona,Hawaii,USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Hawaii",
+    "city": "Kailua-Kona"
+  },
+  "source": "https://www.ironman.com/races/im-world-championship-kona",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Kamakahonu_Beach_Kailua_Kona_Big_island,_Hawaii_(45364152875).jpg",
+    "author": "Bernard Spragg. NZ",
+    "license": "CC0"
+  }
+}

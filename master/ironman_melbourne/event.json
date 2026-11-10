@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Melbourne",
+  "location": "Melbourne, Australia",
+  "location_parts": {
+    "country": "AU",
+    "region": "Victoria",
+    "city": "Melbourne"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/16/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Melbourne_Skyline_from_Rialto_Crop_-_Nov_2008.jpg",
+    "author": "Diliff",
+    "license": "CC BY-SA 3.0"
+  }
+}

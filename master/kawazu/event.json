@@ -1,0 +1,15 @@
+{
+  "name": "河津花トライアスロン",
+  "location": "静岡県賀茂郡河津町",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "静岡県",
+    "city": "賀茂郡河津町"
+  },
+  "source": "https://kawazutriathlon.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:%E6%97%A2%E3%81%AB%E9%96%8B%E8%8A%B1%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E8%8D%92%E5%80%89%E6%A9%8B%E8%BF%91%E3%81%8F%E3%81%AE%E6%B2%B3%E6%B4%A5%E6%A1%9C_Pcs34560_IMG_2442.jpg",
+    "author": "PCs34560",
+    "license": "CC BY-SA 3.0"
+  }
+}

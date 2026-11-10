@@ -1,0 +1,15 @@
+{
+  "name": "スワコエイトピークスミドルトライアスロン",
+  "location": "長野県諏訪湖",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "長野県",
+    "venue": "諏訪湖"
+  },
+  "source": "https://suwako8peaks.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Lake_Suwa,_Nagano_Prefecture;_May_2019_(06).jpg",
+    "author": "Sei F",
+    "license": "CC BY-SA 2.0"
+  }
+}

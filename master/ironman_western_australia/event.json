@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Western Australia",
+  "location": "Busselton, Western Australia",
+  "location_parts": {
+    "country": "AU",
+    "region": "Western Australia",
+    "city": "Busselton"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/28/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:00_1701_Busselton_Jetty_-_Western_Australia.jpg",
+    "author": "W. Bulach",
+    "license": "CC BY-SA 4.0"
+  }
+}

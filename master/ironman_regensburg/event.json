@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Regensburg",
+  "location": "Regensburg, Germany",
+  "location_parts": {
+    "country": "DE",
+    "region": "Bavaria",
+    "city": "Regensburg"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/20/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Regensburg_01.jpg",
+    "author": "SimonWaldherr",
+    "license": "CC BY-SA 4.0"
+  }
+}

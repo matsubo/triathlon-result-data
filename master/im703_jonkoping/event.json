@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Jönköping",
+  "location": "Jönköping, Sweden",
+  "location_parts": {
+    "country": "SE",
+    "city": "Jönköping"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2610/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Ramsjön,_Jönköping.jpg",
+    "author": "Moralist",
+    "license": "CC BY-SA 4.0"
+  }
+}

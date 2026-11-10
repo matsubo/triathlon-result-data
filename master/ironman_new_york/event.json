@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN New York",
+  "location": "New York, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "New York"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/18/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Lower_Manhattan_from_Jersey_City_September_2020_panorama.jpg",
+    "author": "King of Hearts",
+    "license": "CC BY-SA 4.0"
+  }
+}

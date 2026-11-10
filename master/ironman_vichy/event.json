@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN Vichy",
+  "location": "Vichy, France",
+  "location_parts": {
+    "country": "FR",
+    "city": "Vichy"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/52/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Pont_de_Bellerive_-_cyclistes.jpg",
+    "author": "TCY",
+    "license": "CC BY-SA 4.0"
+  }
+}

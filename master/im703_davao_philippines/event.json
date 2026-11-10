@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Davao Philippines",
+  "location": "Davao Philippines",
+  "location_parts": {
+    "country": "PH",
+    "city": "Davao"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/84/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Davao_City_Skyline.jpg",
+    "author": "Kadayawan",
+    "license": "CC BY-SA 4.0"
+  }
+}

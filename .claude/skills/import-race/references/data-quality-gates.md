@@ -9,28 +9,28 @@ added permanent quality gates to this repo:
   Edition through `scripts/lib/edition-document.js` and compares
   header-warning (unmapped header or missing TSV) / unknown-status-token /
   missing-lap / missing-total counts per category with the Known-issue ledger
-  `integrity-baseline.json`. An Edition failing `result-schema.json`, or a
+  `checks/known-issues/integrity.json`. An Edition failing `schemas/result.schema.json`, or a
   corpus finding of the Category reader (a repeated Edition, a TSV shared by
   Categories, an unregistered TSV under master/), fails it outright and is
   never a Known issue. It also runs in `.husky/pre-commit`.
-  `bun run update:integrity-baseline` rewrites the ledger (record a growth
+  `bun run update:known-issues:integrity` rewrites the ledger (record a growth
   ONLY for source-inherent gaps, stated in the commit message).
   CI: .github/workflows/ci.yml.
 - tsv-lint gained 3 structural rules (time-format, rank-numeric,
-  extra-columns) with the Known-issue ledger `tsv-lint-known-issues.json`
+  extra-columns) with the Known-issue ledger `checks/known-issues/tsv-lint.json`
   pinning pre-existing violations per file;
-  `bun run update:tsv-lint-known-issues` rewrites it.
+  `bun run update:known-issues:tsv-lint` rewrites it.
 - Since 2026-10 both ledgers share one shape,
   `{ "description", "rules": { rule: { key: count } } }`, handled by
   `scripts/lib/known-issue-ledger.js`. Counts only shrink (ADR-0002): a check
   fails on a regression, on an improvement (fewer findings than allowed) and
   on a stale entry (a key the rule no longer examines). After fixing data, run
   the update command and commit the shrunken ledger with the fix.
-- Exceptions (`name-space-allowlist.json`, `age-category-allowlist.json`,
-  `duplicate-allowlist.json`, `pace-exceptions.json`) are correct data, not
+- Exceptions (`checks/exceptions/name-space.json`, `checks/exceptions/age-category.json`,
+  `checks/exceptions/duplicate.json`, `checks/exceptions/pace.json`) are correct data, not
   Known issues: no counts, shape `{ "description", "entries": [...] }`, read
   by `scripts/lib/exceptions.js`. When the race-day evidence shows a flagged
-  pace is genuine, add the Segment to `pace-exceptions.json` with its source
+  pace is genuine, add the Segment to `checks/exceptions/pace.json` with its source
   (`{ event, date, category, segment: "1 swim", reason, source }`) instead of
   leaving it in the ledger; `check:integrity` fails on a stale entry.
 - The post-import acceptance check is AGGREGATE stats, never sample rows —
@@ -46,7 +46,7 @@ added permanent quality gates to this repo:
   median was 35:18, the full 1.5 km). Segment distances must come from
   race-day evidence; the Import report repeats the check as `warnings`,
   which an import resolves by fixing the Segment or, for a genuine pace, by
-  adding an Exception to `pace-exceptions.json`. The ledger
+  adding an Exception to `checks/exceptions/pace.json`. The ledger
   was seeded with the 209 Segments in 161 Categories flagged on
   2026-11-09 (mostly IRONMAN swims cut short but declared at full distance,
   and laps holding a cumulative time); `bun scripts/report-segment-pace.js`
@@ -58,7 +58,7 @@ as finished), parseTime rejecting MM:SS(.ff) (half of hiwasa's laps) and
 "H:MM:SS P", status tokens SKP/NOF/NC/LAP/DQ/参考記録, nojiriko 2023
 column swap, tokunoshima 2018 truncated-seconds reconstruction (exact,
 verified via split-sum invariants), shirosato_tt 平均速度→lap mismap,
-result-schema.json missing age_category_raw + trail_running. After all
+schemas/result.schema.json missing age_category_raw + trail_running. After all
 fixes, all 2566 editions pass normalize-tsv end-to-end.
 
 **Still-open findings** (in known-issues, need re-import from source):
@@ -73,4 +73,4 @@ fixes, all 2566 editions pass normalize-tsv end-to-end.
   2016-2019: DNFs carry sequential rank numbers (source style).
 
 `sport-enum-schema-gap` is RESOLVED by this audit (both
-age_category_raw and trail_running now in result-schema.json).
+age_category_raw and trail_running now in schemas/result.schema.json).

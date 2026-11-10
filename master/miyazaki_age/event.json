@@ -1,0 +1,15 @@
+{
+  "name": "日本エイジグループSD/SPトライアスロン選手権",
+  "location": "宮崎県宮崎市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "宮崎県",
+    "city": "宮崎市"
+  },
+  "source": "https://www.jtu.or.jp/championship-series/age_sdsp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Aoshima_Island_Aerial_photograp_2017.jpg",
+    "author": "GSI Japan",
+    "license": "CC BY 4.0"
+  }
+}

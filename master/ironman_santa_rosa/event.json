@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Santa Rosa",
+  "location": "Santa Rosa, California, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "California",
+    "city": "Santa Rosa"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/55/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:The_vineyard_-_b.r._cohn_vineyards,_sonoma,_california_(2011).jpg",
+    "author": "torbakhopper",
+    "license": "CC BY 2.0"
+  }
+}

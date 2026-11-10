@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Andorra",
+  "location": "Andorra",
+  "location_parts": {
+    "country": "AD",
+    "city": "Andorra la Vella"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/315/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Andorra_la_Vella_-_panoramio_(2).jpg",
+    "author": "Ainars Brūvelis",
+    "license": "CC BY-SA 3.0"
+  }
+}

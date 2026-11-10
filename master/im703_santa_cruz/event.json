@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Santa Cruz",
+  "location": "Santa Cruz, California, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "California",
+    "city": "Santa Cruz"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2636/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AGuys_on_a_Pier_in_Santa_Cruz_Harbor_%286868329853%29.jpg",
+    "author": "Don DeBold from San Jose, CA, USA",
+    "license": "CC BY 2.0"
+  }
+}

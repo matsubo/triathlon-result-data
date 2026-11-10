@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Shanghai",
+  "location": "Shanghai, China",
+  "location_parts": {
+    "country": "CN",
+    "city": "Shanghai"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2426/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AShanghai_skyline_waterfront_pudong_5166168_69_70.jpg",
+    "author": "Ermell",
+    "license": "CC0"
+  }
+}

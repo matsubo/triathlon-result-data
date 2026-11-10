@@ -2,7 +2,34 @@
 
 All notable changes to this repository are documented here. Versions follow the `version` field in `package.json`; commits between version bumps are grouped under the version that introduced them.
 
-## Unreleased
+## 6.0.0 — 2026-11-10
+
+### Changed (repository layout, breaking for consumers)
+- `race-info.json`, `images/` and `master/<year>/<dir>/` are replaced by one directory per Event (ADR-0003): `master/<event_id>/event.json`, `master/<event_id>/image.webp`, and per Edition `master/<event_id>/<YYYY-MM-DD>/edition.json`, `<category_id>.tsv` and `weather-data.json` (an Edition has weather exactly when that file exists). No path is stored any more. `result_tsv`, `weather_file` and `image` are derived by `scripts/lib/layout.js`, the only code that builds `master/` paths. Events are ordered by id and Editions by date.
+- `scripts/lib/corpus.js` (`readCorpus`) reads the corpus with those derived fields. Any file under `master/` that is not a corpus file at its place, and any Event or Edition directory missing `event.json`, `image.webp` or `edition.json`, is a layout finding that fails `check:integrity` and tsv-lint. The Category reader is built on it and adds `parseCategory(def, text)`. The Repo port adds `readBytes` and `generation()`, so a read after a write never sees a stale corpus.
+- `event-schema.json` and `edition-schema.json` replace `race-info-schema.json`, and `schema.ts` adds `CorpusEvent` / `CorpusEdition` / `CorpusCategory`. Biome now formats and lints every `event.json` and `edition.json`. `race-info.json` (7.9 MiB) was over Biome's 1 MiB limit and had been skipped.
+- 2,998 TSVs, 2,286 weather files and 419 images moved byte-identical. Every TSV is now named after its Category id, and the 19 TSV paths that broke the old convention are resolved (`nagaragawa_102`, IRONMAN World Championship 2022 Thursday/Saturday, Arizona November 2008, St George, IRONMAN Vietnam under `im703_vietnam_<Y>`, `ishigaki`). The unreferenced duplicate IRONMAN Vietnam 2026 weather file and `images/dummy.webp` are removed. `kona.webp` / `nice.webp` became the images of `ironman_world_championship_kona` / `ironman_world_championship`.
+- Image credits moved from `docs/image-sources.tsv` into each Event's `event.json` `image_source` (`{url, author?, license}`). The 33 rows for deleted images were dropped.
+- Known-issue ledgers rekeyed with unchanged counts: `tsv-lint-known-issues.json` by the new TSV paths, `integrity-baseline.json` by `<event>/<YYYY-MM-DD>/<category>` (was `<event>/<YYYY>/<category>`). The normalized output of every Edition is unchanged.
+
+### Changed (repository root)
+- The repository root holds only the standard files (README, CHANGELOG, AGENTS.md / CLAUDE.md, package.json, bun.lock, tsconfig.json, biome.json, .gitignore) and directories. Every other file moved, byte-identical except for paths it names:
+  - JSON Schemas to `schemas/`: `event-schema.json` → `schemas/event.schema.json`, `edition-schema.json` → `schemas/edition.schema.json`, `result-schema.json` → `schemas/result.schema.json`, `weather-schema.json` → `schemas/weather.schema.json`, `scripts/lib/import-plan-schema.json` → `schemas/import-plan.schema.json`. The generated `schema.ts` → `schemas/types.ts`.
+  - Known-issue ledgers to `checks/known-issues/`: `tsv-lint-known-issues.json` → `tsv-lint.json`, `integrity-baseline.json` → `integrity.json`. Their update commands are now `bun run update:known-issues:tsv-lint` and `bun run update:known-issues:integrity` (were `update:tsv-lint-known-issues` / `update:integrity-baseline`).
+  - Exceptions to `checks/exceptions/`: `name-space-allowlist.json` → `name-space.json`, `age-category-allowlist.json` → `age-category.json`, `duplicate-allowlist.json` → `duplicate.json`, `pace-exceptions.json` → `pace.json`.
+  - `GLOSSARY.md` → `docs/glossary.md`.
+- Removed `WEATHER_DATA_RULES.md`: it described the pre-5.x weather format (Japanese `date`, `weather` / `weatherIcon` / `windDirection`, `ajv validate`), which `schemas/weather.schema.json` now rejects. The schema and `.claude/skills/import-race/references/weather-data-policy.md` hold the current rules.
+- Removed `docs/redirects-event-ids.json`: an unreferenced, outdated copy of ai-tri's `lib/redirects-event-ids.json`, which is the one ai-tri uses.
+- `.playwright/` is gitignored.
+
+### Changed (event images and credits)
+- Five Events that shared image content with another Event get their own Wikimedia Commons photo: `gamagori_fall` (was `gamagori`'s), `im703_atlantic_city_aqaubike` (was `im703_atlantic_city`'s), `ironman_gurye` (was `im703_gurye_korea`'s), `ironman_waco` (was `im703_waco`'s), `ironman_france` (was `ironman_world_championship`'s).
+- The 23 Events without a credit now have one, each traced to its Commons file by comparing the image with the Commons original. Corrected two credits: `ironman_world_championship` (Uhooep, CC BY-SA 4.0) and `im703_waco` (Michael Barera).
+- `image_source` is now required in `event-schema.json` and in the import plan's `events[]`; `tests/images.test.ts` fails when two Events' `image.webp` are byte-identical.
+
+### Tooling: Import module (layout)
+- An Import writes only the new Edition directory (TSVs, then `edition.json`) and, for a new Event, its `event.json`. Other Events are never rewritten. A new Event in the plan has no `image`: its `master/<id>/image.webp` must be there before the Import and must not be byte-identical to another Event's image. It must carry `image_source`. The plan fields `insert_before`, `weather` and `jtu[]` / `prepared[]` `file` are removed. An Edition directory that already holds files but no `edition.json` is skipped.
+- Removed the one-off scripts `scripts/import-kujukuri-99t.py`, `scripts/rebuild-fujihill-2026-official.mjs` and `scripts/replace-bad-images.mjs`.
 
 ### Tooling: Import module
 - New Editions are imported with a plan through `bun scripts/import.js <plan.json> [--dry-run]` (`scripts/lib/import.js`). IRONMAN, JTU and prepared-TSV Results source adapters sit behind one port. Every safety check always runs. A failing Edition is skipped and the rest are written, with exit code 2. `mode: "refetch"` re-reads an Edition from its Source reference and refuses to write if rank quality degrades.

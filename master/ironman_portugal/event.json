@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN Portugal - Cascais",
+  "location": "Cascais, Portugal",
+  "location_parts": {
+    "country": "PT",
+    "city": "Cascais"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2463/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Cascais,_coastal_town_(27831606817).jpg",
+    "author": "Mike Steele",
+    "license": "CC BY 2.0"
+  }
+}

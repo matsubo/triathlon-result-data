@@ -1,0 +1,117 @@
+{
+  "categories": [
+    {
+      "id": "iseshima",
+      "name": "オリンピックディスタンス",
+      "distance": "OD",
+      "description": "2015 伊勢志摩・里海トライアスロン大会 オリンピックディスタンス",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "S順",
+              "role": "rank"
+            },
+            {
+              "header": "スイム",
+              "role": "lap"
+            },
+            {
+              "header": "Ｔ１",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "バイク",
+              "role": "lap"
+            },
+            {
+              "header": "B順",
+              "role": "rank"
+            },
+            {
+              "header": "ｽﾌﾟﾘｯﾄ",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            },
+            {
+              "header": "Ｔ２",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "ラ ン",
+              "role": "lap"
+            },
+            {
+              "header": "R順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "順",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏 名",
+          "role": "name"
+        },
+        {
+          "header": "歳",
+          "role": "age"
+        },
+        {
+          "header": "性",
+          "role": "gender"
+        },
+        {
+          "header": "居住地",
+          "role": "residence"
+        },
+        {
+          "header": "記 録",
+          "role": "total_time"
+        },
+        {
+          "header": "男順",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女順",
+          "role": "gender_rank"
+        },
+        {
+          "header": "年代別",
+          "role": "age_category"
+        },
+        {
+          "header": "年順",
+          "role": "age_rank"
+        }
+      ],
+      "source_url": null
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "categories": [
+    {
+      "id": "kaike",
+      "name": "皆生トライアスロン LD",
+      "distance": "LD",
+      "description": "2023年皆生トライアスロン。スイム3km、バイク140km、ラン40km。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 3,
+          "columns": [
+            {
+              "header": "ｽｲﾑﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｓ順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 140,
+          "columns": [
+            {
+              "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｂ順",
+              "role": "rank"
+            },
+            {
+              "header": "ｽﾌﾟﾘｯﾄ",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｒ順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合 順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年 齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "年齢 区分",
+          "role": "age_category"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "居住地",
+          "role": "residence"
+        },
+        {
+          "header": "男子 順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子 順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "年齡 別順",
+          "role": "age_rank"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=202&program_id=202_1",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "202_1"
+      }
+    }
+  ]
+}

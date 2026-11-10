@@ -20,7 +20,7 @@ window and is on or before today.
 ## Import pipeline
 
 Write an import plan (a throwaway JSON file outside the repository, schema
-`scripts/lib/import-plan-schema.json`) and run it through the Import module. Never write
+`schemas/import-plan.schema.json`) and run it through the Import module. Never write
 an add-*/import-* script.
 
 ```json
@@ -42,7 +42,7 @@ an add-*/import-* script.
 
 ```bash
 bun scripts/import.js /tmp/plan.json --dry-run   # fetch + every check, writes stay in memory
-bun scripts/import.js /tmp/plan.json             # writes the TSVs, then race-info.json
+bun scripts/import.js /tmp/plan.json             # writes the TSVs, then edition.json (and event.json for a new Event)
 ```
 
 The report is JSON on stdout. Exit 0 = every Edition imported or already imported,
@@ -55,9 +55,11 @@ What the IRONMAN adapter and the core decide for you:
   classes; set `ironman.template` for a new Event or an Event that has both (e.g.
   `ironman_vietnam`). The latest Edition is never cloned, so a swim-cancelled template
   year can't leak into the new Edition.
-- **Paths and ids**: `master/<year>/<event>_<year>/default.tsv`, Category id
-  `<event>_<year>`, `weather_file` `<dir>/weather-data.json` (set `"weather": false` only
-  if the Event's Editions carry none), `source_ref` `{results_source: "ironman", id}`.
+- **Paths and ids**: `master/<event>/<date>/<event>_<year>.tsv`, Category id
+  `<event>_<year>`, then `master/<event>/<date>/edition.json`;
+  `source_ref` `{results_source: "ironman", id}`. Weather is not written: generate
+  `master/<event>/<date>/weather-data.json` afterwards (see
+  [weather-data-policy](weather-data-policy.md)).
 - **Description**: defaults to `<Event name> <year>. <location>.`; override with
   `ironman.description`.
 - **Segment distances**: give `ironman.segments` when the course differs from the
@@ -71,14 +73,15 @@ What the IRONMAN adapter and the core decide for you:
   pace or strays more than ×1.4 from the Event's other Editions at the same distance
   (a cut 1.9 km swim shows a median of 12–17 min, 0:40–0:55/100m). Find the distance
   actually swum and give it in `ironman.segments`; if the race-day evidence shows the pace
-  is genuine, add the Segment to `pace-exceptions.json`; see SKILL.md step 4.
+  is genuine, add the Segment to `checks/exceptions/pace.json`; see SKILL.md step 4.
 - **Refused automatically**: PRO-only results (PRO rows ≈ all rows), a TSV byte-identical
   to another TSV, an existing (event, date) with different Source references. A drop of
   more than half the Athletes against the previous Edition is a warning in the report.
 
 New Events go in `events[]` of the plan (`id`, `name`, `location`, `location_parts`,
-`image`, `source`, optional `description` / `insert_before`); the image must already
-exist and be unique.
+`source`, `image_source` `{url, author?, license}`, optional `description`); there is
+no `image` field — stage the Event's unique `master/<id>/image.webp` before importing
+(the plan refuses a missing image or one byte-identical to another Event's).
 
 ### Re-fetching a committed Edition
 

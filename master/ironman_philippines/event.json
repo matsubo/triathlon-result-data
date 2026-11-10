@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN Philippines",
+  "location": "Subic Bay, Philippines",
+  "location_parts": {
+    "country": "PH"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/64/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:SBMA_Beach_in_Subic_Bay,_Zambales.jpg",
+    "author": "Ralff Nestor Nacor",
+    "license": "CC BY-SA 4.0"
+  }
+}

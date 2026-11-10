@@ -1,0 +1,15 @@
+{
+  "name": "おきなわKINトライアスロン",
+  "location": "沖縄県金武町",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "沖縄県",
+    "city": "金武町"
+  },
+  "source": "https://kin-triathlon.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Kin-gū.JPG",
+    "author": "ChiefHira",
+    "license": "CC BY-SA 3.0"
+  }
+}

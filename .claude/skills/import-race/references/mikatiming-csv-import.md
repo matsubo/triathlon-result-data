@@ -24,5 +24,5 @@ CSV export(`export_list`)は**完走者のみ** → 全員 finished で完走率
 - num_results=100 でも **card=100/頁, table=50/頁**。ページングは「新規bibが増える限り継続、増分0で停止」（固定100件判定は不可）。
 - **bib で完走者と突合**（bibは数字→case無関係、完走者⊂登録者で二重計上なし。要検証 fin_not_in_reg==0）。**bib空の行は捨てる**（2022はbib空の重複が4549行混入した。bib有り2879が本物）。
 - **非完走者(登録−完走bib)を Overall_Rank=DNS 行で追加** → 完走率 finishers/registrants（2018-2025で78-92%）。DNF/DNS区別はソースに無く全てDNS（既知制約）。
-- **Age = 大会年 − YOB**（bib join、完走者にも付与）。ITU/独AKは12/31時点年齢→AKと整合。TSVに Age 列（Division後）、race-info meta_columns に `{header:"Age", role:"age"}` を**該当年エディションだけ**追加（TSV列数が年で16/17に割れるため）。
+- **Age = 大会年 − YOB**（bib join、完走者にも付与）。ITU/独AKは12/31時点年齢→AKと整合。TSVに Age 列（Division後）、該当 Edition の edition.json の meta_columns に `{header:"Age", role:"age"}` を**該当年エディションだけ**追加（TSV列数が年で16/17に割れるため）。
 - 実装: scratchpad sl_scrape.py（card+table両パーサ, 自動fallback）+ sl_merge.py + add_age_meta.mjs。**注意: ネットワークが遅く1頁10-15秒→13年直列で1.5h。年別4並列で短縮した。**

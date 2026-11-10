@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Syracuse",
+  "location": "Syracuse",
+  "location_parts": {
+    "country": "US",
+    "region": "New York",
+    "city": "Syracuse"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/218/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Syracuse_NY.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0"
+  }
+}

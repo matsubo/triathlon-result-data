@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Monterrey",
+  "location": "Monterrey",
+  "location_parts": {
+    "country": "MX",
+    "region": "Nuevo León",
+    "city": "Monterrey"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/101/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3ACerro_de_la_Silla_Mountain_Nuevo_Leon.jpg",
+    "author": "No machine-readable author provided. Joeboxcom assumed (based on copyright claim",
+    "license": "Public domain"
+  }
+}

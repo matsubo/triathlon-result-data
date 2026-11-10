@@ -1,0 +1,15 @@
+{
+  "name": "ひわさうみがめトライアスロン",
+  "location": "徳島県美波町",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "徳島県",
+    "city": "美波町"
+  },
+  "source": "https://hiwasa-triathlon.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Hiwasa_castle_(2015).JPG",
+    "author": "Carpkazu",
+    "license": "CC BY-SA 4.0"
+  }
+}

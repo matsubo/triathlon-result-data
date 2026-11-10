@@ -1,0 +1,15 @@
+{
+  "name": "黒獅子トライアスロン大会in長井",
+  "location": "山形県長井市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "山形県",
+    "city": "長井市"
+  },
+  "source": "https://www.yamagatatri.com/about-1",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Kusaoka,_Nagai,_Yamagata_Prefecture_993-0063,_Japan_-_panoramio.jpg",
+    "author": "Fumihiko Ueno",
+    "license": "CC BY 3.0"
+  }
+}

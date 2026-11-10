@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN 70.3 Turkey",
+  "location": "Antalya, Turkey",
+  "location_parts": {
+    "country": "TR"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2641/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Antalya_Hafenblick-1.JPG",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0"
+  }
+}

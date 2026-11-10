@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Maine",
+  "location": "Old Orchard Beach, Maine, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Maine",
+    "city": "Old Orchard Beach"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2618/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Aerial_photograph_of_Old_Orchard_Beach,_Maine_in_1923.jpg",
+    "author": "Arthur M. Galaid, Boston photographer",
+    "license": "Public domain"
+  }
+}

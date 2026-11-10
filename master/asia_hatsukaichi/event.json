@@ -1,0 +1,15 @@
+{
+  "name": "アジアトライアスロン廿日市",
+  "location": "広島県廿日市市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "広島県",
+    "city": "廿日市市"
+  },
+  "source": "https://www.jtu.or.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:View_towards_Miyajimaguchi,_Hatsukaichi,_2016.jpg",
+    "author": "W.carter",
+    "license": "CC BY-SA 4.0"
+  }
+}

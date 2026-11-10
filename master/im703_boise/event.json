@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Boise",
+  "location": "Boise, Idaho, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Idaho",
+    "city": "Boise"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2594/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Boise,_Idaho.jpg",
+    "author": "Jyoni Shuler",
+    "license": "CC BY-SA 4.0"
+  }
+}

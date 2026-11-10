@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Frankfurt",
+  "location": "Frankfurt, Germany",
+  "location_parts": {
+    "country": "DE",
+    "region": "Hesse",
+    "city": "Frankfurt"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2205/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Skyline_Frankfurt_2011-01.jpg",
+    "author": "Thomas Wolf (Der Wolf im Wald)",
+    "license": "CC BY-SA 3.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Belgrade",
+  "location": "Belgrade, Serbia",
+  "location_parts": {
+    "country": "RS",
+    "city": "Belgrade"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2651/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Belgrade_panorama.jpg",
+    "author": "Damijan Milenkovic",
+    "license": "CC BY-SA 4.0"
+  }
+}

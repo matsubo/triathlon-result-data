@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN 70.3 China",
+  "location": "China",
+  "location_parts": {
+    "country": "CN"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/203/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Xiamen_night_cityscape_2018_-_Flickr_-_Jaykhuang.jpg",
+    "author": "Jay Huang from Pleasanton, USA",
+    "license": "CC BY 2.0"
+  }
+}

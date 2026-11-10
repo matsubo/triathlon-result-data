@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Raleigh",
+  "location": "Raleigh",
+  "location_parts": {
+    "country": "US",
+    "region": "North Carolina",
+    "city": "Raleigh"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/228/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3APanorama_at_the_North_Carolina_State_Capitol_-_Street_Junction.jpg",
+    "author": "DiscoA340",
+    "license": "CC BY-SA 4.0"
+  }
+}

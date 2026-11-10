@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Goseong Korea",
+  "location": "Goseong Korea",
+  "location_parts": {
+    "country": "KR",
+    "city": "Goseong"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/104/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Hwajinpo_Lake.jpg",
+    "author": "Heather Carreiro",
+    "license": "CC BY-SA 4.0"
+  }
+}

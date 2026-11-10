@@ -1,0 +1,16 @@
+{
+  "name": "銚子マリーナトライアスロン大会",
+  "location": "千葉県銚子市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "千葉県",
+    "city": "銚子市",
+    "venue": "銚子マリーナ"
+  },
+  "source": "http://www.tokio-world.com/choshi/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Naarai_Coast_01.jpg",
+    "author": "Σ64",
+    "license": "CC BY 3.0"
+  }
+}

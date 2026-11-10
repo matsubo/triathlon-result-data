@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Italy",
+  "location": "Cervia, Italy",
+  "location_parts": {
+    "country": "IT",
+    "region": "Emilia-Romagna",
+    "city": "Cervia"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2456/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Cervia-marina.jpg",
+    "author": "Lorenzo Gaudenzi",
+    "license": "CC BY-SA 4.0"
+  }
+}

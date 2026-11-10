@@ -1,0 +1,85 @@
+{
+  "categories": [
+    {
+      "id": "im703_salalah_2025",
+      "name": "Half Distance",
+      "distance": "MD",
+      "description": "IRONMAN 70.3 Salalah 2025. Salalah, Oman.",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.9,
+          "columns": [
+            {
+              "header": "Swim",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 90,
+          "columns": [
+            {
+              "header": "Bike",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 21.1,
+          "columns": [
+            {
+              "header": "Run",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "ContactId",
+          "role": "athlete_id"
+        },
+        {
+          "header": "Overall_Rank",
+          "role": "overall_rank"
+        },
+        {
+          "header": "Name",
+          "role": "name"
+        },
+        {
+          "header": "Gender",
+          "role": "gender"
+        },
+        {
+          "header": "Division",
+          "role": "age_category"
+        },
+        {
+          "header": "Div_Rank",
+          "role": "age_rank"
+        },
+        {
+          "header": "Total_Time",
+          "role": "total_time"
+        },
+        {
+          "header": "Country",
+          "role": "residence"
+        },
+        {
+          "header": "Status",
+          "role": "status"
+        }
+      ],
+      "source_url": null,
+      "source_ref": {
+        "results_source": "ironman",
+        "id": "6645c5cd-76a2-4716-9b0b-86602ced1b18"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Bariloche",
+  "location": "Bariloche",
+  "location_parts": {
+    "country": "AR",
+    "region": "Río Negro",
+    "city": "Bariloche"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/81/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Bariloche_-_panoramio_(1).jpg",
+    "author": "Elvis Boaventura",
+    "license": "CC BY 3.0"
+  }
+}

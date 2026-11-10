@@ -1,0 +1,15 @@
+{
+  "name": "福山かわまちトライアスロン",
+  "location": "広島・福山市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "広島県",
+    "city": "福山市"
+  },
+  "source": "https://fukuyamakawamachi-triathlon.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Tomonoura08bs3200.jpg",
+    "author": "663highland",
+    "license": "CC BY 2.5"
+  }
+}

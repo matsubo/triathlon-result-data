@@ -4,7 +4,7 @@
  * Normalize every Edition (scripts/lib/edition-document.js) and report
  * data-quality problems that schema validation alone cannot catch:
  *
- *   - header_warnings: race-info.json maps a column the TSV lacks, or a
+ *   - header_warnings: an edition.json Category maps a column the TSV lacks, or a
  *     Category's result TSV is missing
  *   - unknown_status_tokens: an Athlete's rank cell holds text that is no
  *     known Status token
@@ -14,17 +14,19 @@
  *     sport's plausible band, or strays from the Event's other Editions at
  *     the same declared distance (scripts/lib/segment-pace.js): the declared
  *     distance is probably not the course raced that day. Segments whose
- *     pace is genuine are Exceptions in pace-exceptions.json and are not
+ *     pace is genuine are Exceptions in checks/exceptions/pace.json and are not
  *     counted.
  *
  * Three kinds of problem fail the check outright and are never Known
- * issues: an Edition failing result-schema.json, a corpus finding of the
- * Category reader (a repeated Edition, a TSV shared by Categories, a TSV no
- * Category registers), and a stale pace Exception (it matches no measured
+ * issues: an Edition failing schemas/result.schema.json, a layout finding of the
+ * corpus (scripts/lib/corpus.js: a file under master/ that is no corpus
+ * file at its place, an Event or Edition directory missing event.json,
+ * image.webp or edition.json, an Event without Editions, a repeated
+ * Category id), and a stale pace Exception (it matches no measured
  * Segment, or the Segment it names is no longer flagged).
  *
  * Known issues (source-inherent gaps such as historical PDFs without splits)
- * live in the Known-issue ledger integrity-baseline.json. The check fails on
+ * live in the Known-issue ledger checks/known-issues/integrity.json. The check fails on
  * any drift from it: a regression, an improvement, or a stale entry
  * (docs/adr/0002-known-issue-counts-only-shrink.md).
  *
@@ -48,7 +50,7 @@ import {
 } from "./lib/segment-pace.js";
 
 const repoRoot = join(import.meta.dirname, "..");
-const ledgerPath = join(repoRoot, "integrity-baseline.json");
+const ledgerPath = join(repoRoot, "checks", "known-issues", "integrity.json");
 
 const args = process.argv.slice(2);
 const update = args.includes("--update");
@@ -72,7 +74,9 @@ const paceFlags = new Map();
 const paceExceptions = loadExceptions("segment_pace");
 const paceChecks = checkPace(corpus.categories, paceExceptions);
 for (const stale of staleExceptions(paceChecks, paceExceptions))
-  failures.push(`stale pace Exception in pace-exceptions.json: ${stale}`);
+  failures.push(
+    `stale pace Exception in checks/exceptions/pace.json: ${stale}`,
+  );
 for (const check of paceChecks) {
   if (check.severity === 0) continue;
   const list = paceFlags.get(check.category.key) ?? [];
@@ -89,14 +93,13 @@ for (const { event, edition, categories } of corpus.editions) {
   } catch (err) {
     if (!(err instanceof SchemaInvalid)) throw err;
     failures.push(
-      `result-schema.json: ${event.id} ${edition.date}\n${err.message}`,
+      `schemas/result.schema.json: ${event.id} ${edition.date}\n${err.message}`,
     );
     continue;
   }
   const { document, issues } = built;
   categories.forEach((category, ci) => {
-    const { def } = category;
-    const key = `${event.id}/${edition.date.slice(0, 4)}/${def.id}`;
+    const { def, key } = category;
     const { athletes } = document.categories[ci];
     const own = issues.filter((i) => i.categoryId === def.id);
     const finished = athletes.filter((a) => a.status === "finished");
@@ -192,7 +195,7 @@ if (details.length > 0) {
 
 const ledger = openLedger(ledgerPath, {
   update,
-  updateCommand: "bun run update:integrity-baseline",
+  updateCommand: "bun run update:known-issues:integrity",
 });
 /** @type {import("./lib/known-issue-ledger.js").FindingsByRule} */
 const findingsByRule = {};
@@ -214,7 +217,9 @@ if (update) {
 }
 
 if (drift.length > 0) {
-  console.error("\nKnown-issue ledger drift (integrity-baseline.json):");
+  console.error(
+    "\nKnown-issue ledger drift (checks/known-issues/integrity.json):",
+  );
   for (const d of drift) console.error(`  ${d}`);
   process.exit(1);
 }

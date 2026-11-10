@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Dallas",
+  "location": "Dallas",
+  "location_parts": {
+    "country": "US",
+    "region": "Texas",
+    "city": "Dallas"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/408/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Dallas_skyline.jpg",
+    "author": "Lars Plougmann",
+    "license": "CC BY-SA 2.0"
+  }
+}

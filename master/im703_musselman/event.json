@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Musselman",
+  "location": "Geneva, New York, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "New York",
+    "city": "Geneva"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2624/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3ASeneca_Lake_from_Long_Pier%2C_Geneva%2C_New_York_-_20220810.jpg",
+    "author": "Andre Carrotflower",
+    "license": "CC BY-SA 4.0"
+  }
+}

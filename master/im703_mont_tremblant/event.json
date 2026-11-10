@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Mont Tremblant",
+  "location": "Mont Tremblant, Quebec, Canada",
+  "location_parts": {
+    "country": "CA",
+    "region": "Quebec",
+    "city": "Mont-Tremblant"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2443/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3AMont-Tremblant%2C_Quebec_01123.jpg",
+    "license": "CC BY-SA 2.5"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "横浜トライアスロン",
+  "location": "横浜・みなとみらい",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "神奈川県",
+    "city": "横浜市",
+    "venue": "みなとみらい"
+  },
+  "source": "https://yokohamatriathlon.jp/wts/greeting.html",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Minato_Mirai_-_Yokohama_Skyline_March_2025.jpg",
+    "author": "Justin Taylor",
+    "license": "CC BY 2.0"
+  }
+}

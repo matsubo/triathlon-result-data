@@ -1,0 +1,174 @@
+{
+  "categories": [
+    {
+      "id": "japan_championship_men_2024",
+      "name": "エリート男子",
+      "distance": "OD",
+      "description": "2024年第31回日本トライアスロン選手権・第15回日本U23トライアスロン選手権（東京・台場）エリート男子。お台場海浜公園で開催。スイム1.5km、バイク38.45km、ラン10km。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "Swim",
+              "role": "lap"
+            },
+            {
+              "header": "T1",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 38.45,
+          "columns": [
+            {
+              "header": "Bike",
+              "role": "lap"
+            },
+            {
+              "header": "T2",
+              "role": "transition"
+            },
+            {
+              "header": "Split",
+              "role": "cumulative_time"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "Run",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "Pos",
+          "role": "overall_rank"
+        },
+        {
+          "header": "StartNum",
+          "role": "bib"
+        },
+        {
+          "header": "Name",
+          "role": "name"
+        },
+        {
+          "header": "Affiliation",
+          "role": "residence"
+        },
+        {
+          "header": "YOB",
+          "role": "age"
+        },
+        {
+          "header": "Time",
+          "role": "total_time"
+        },
+        {
+          "header": "U23",
+          "role": "age_category"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=306&program_id=306_2",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "306_2"
+      }
+    },
+    {
+      "id": "japan_championship_women_2024",
+      "name": "エリート女子",
+      "distance": "OD",
+      "description": "2024年第31回日本トライアスロン選手権・第15回日本U23トライアスロン選手権（東京・台場）エリート女子。お台場海浜公園で開催。スイム1.5km、バイク38.45km、ラン10km。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "Swim",
+              "role": "lap"
+            },
+            {
+              "header": "T1",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 38.45,
+          "columns": [
+            {
+              "header": "Bike",
+              "role": "lap"
+            },
+            {
+              "header": "T2",
+              "role": "transition"
+            },
+            {
+              "header": "Split",
+              "role": "cumulative_time"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "Run",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "Pos",
+          "role": "overall_rank"
+        },
+        {
+          "header": "StartNum",
+          "role": "bib"
+        },
+        {
+          "header": "Name",
+          "role": "name"
+        },
+        {
+          "header": "Affiliation",
+          "role": "residence"
+        },
+        {
+          "header": "YOB",
+          "role": "age"
+        },
+        {
+          "header": "Time",
+          "role": "total_time"
+        },
+        {
+          "header": "U23",
+          "role": "age_category"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=306&program_id=306_1",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "306_1"
+      }
+    }
+  ]
+}

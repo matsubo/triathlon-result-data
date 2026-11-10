@@ -1,0 +1,85 @@
+{
+  "categories": [
+    {
+      "id": "im703_coeur_dalene_2024",
+      "name": "Half Distance",
+      "distance": "MD",
+      "description": "IRONMAN 70.3 Coeur d'Alene. Swim shortened to 500 m due to strong wind; bike and run held as planned.",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 0.5,
+          "columns": [
+            {
+              "header": "Swim",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 90,
+          "columns": [
+            {
+              "header": "Bike",
+              "role": "lap"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 21.1,
+          "columns": [
+            {
+              "header": "Run",
+              "role": "lap"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "ContactId",
+          "role": "athlete_id"
+        },
+        {
+          "header": "Overall_Rank",
+          "role": "overall_rank"
+        },
+        {
+          "header": "Name",
+          "role": "name"
+        },
+        {
+          "header": "Gender",
+          "role": "gender"
+        },
+        {
+          "header": "Division",
+          "role": "age_category"
+        },
+        {
+          "header": "Div_Rank",
+          "role": "age_rank"
+        },
+        {
+          "header": "Total_Time",
+          "role": "total_time"
+        },
+        {
+          "header": "Country",
+          "role": "residence"
+        },
+        {
+          "header": "Status",
+          "role": "status"
+        }
+      ],
+      "source_url": null,
+      "source_ref": {
+        "results_source": "ironman",
+        "id": "690c2747-f5dd-4c5b-96a0-42eb6c1fe7db"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 World Championship",
+  "location": "World Championship",
+  "location_parts": {
+    "country": "US",
+    "region": "Hawaii",
+    "city": "Kailua-Kona"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/51/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Sailing_at_Marbella%2C_Spain.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0"
+  }
+}

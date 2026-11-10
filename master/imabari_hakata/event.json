@@ -1,0 +1,16 @@
+{
+  "name": "瀬戸内しまなみ海道 今治伯方島トライアスロン",
+  "location": "愛媛県 今治市 伯方Ｓ・Ｃパークトライアスロン特設会場",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "愛媛県",
+    "city": "今治市",
+    "venue": "伯方Ｓ・Ｃパークトライアスロン特設会場"
+  },
+  "source": "https://imabari-triathlon.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Hakatajima_Island_from_Roadside_Station_%22Imabari_City_Tatara_Shimanami_Park%22.jpg",
+    "author": "Bariston",
+    "license": "CC BY-SA 4.0"
+  }
+}

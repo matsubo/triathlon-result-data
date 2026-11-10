@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Barranquilla",
+  "location": "Barranquilla",
+  "location_parts": {
+    "country": "CO",
+    "city": "Barranquilla"
+  },
+  "source": "https://labs-v2.competitor.com/api/results?wtc_eventid=61f3b981-974b-431b-ab9b-575aa355fae4",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Barranquilla,_Colombia_-_Vista_desde_el_Museo_Romantico.JPG",
+    "author": "Alan Camacho",
+    "license": "Public domain"
+  }
+}

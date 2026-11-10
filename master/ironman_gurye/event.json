@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN Gurye",
+  "location": "Gurye, South Korea",
+  "location_parts": {
+    "country": "KR",
+    "city": "Gurye"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2460/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Panoramic_view_of_Gurye-eup_02.jpg",
+    "author": "Academy of Korean Studies",
+    "license": "KOGL Type 1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN Kazakhstan",
+  "location": "Astana, Kazakhstan",
+  "location_parts": {
+    "country": "KZ",
+    "city": "Astana"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/256/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Central_Downtown_Astana_pamorama.jpg",
+    "author": "Ken and Nyetta",
+    "license": "CC BY 2.0"
+  }
+}

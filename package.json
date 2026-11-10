@@ -1,6 +1,6 @@
 {
   "name": "triathlon-result-data",
-  "version": "5.3.0",
+  "version": "6.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -8,13 +8,13 @@
     "test": "bun test --timeout 120000 && bun run test:typecheck",
     "check:duplicates": "bun run scripts/check-duplicate-editions.js",
     "check:integrity": "bun run scripts/check-integrity.js",
-    "update:integrity-baseline": "bun run scripts/check-integrity.js --update",
+    "update:known-issues:integrity": "bun run scripts/check-integrity.js --update",
     "test:normalizers": "bun test tests/normalizers.test.ts",
     "test:json": "bun test --timeout 120000 tests/json-validity.test.ts",
     "test:weather": "bun test tests/weather-validation.test.ts",
     "test:schema": "bun test tests/schema-validation.test.ts",
     "test:tsv-lint": "bun test --timeout 120000 tests/tsv-lint.test.ts",
-    "update:tsv-lint-known-issues": "UPDATE_KNOWN_ISSUES=1 bun run test:tsv-lint",
+    "update:known-issues:tsv-lint": "UPDATE_KNOWN_ISSUES=1 bun run test:tsv-lint",
     "test:images": "bun test tests/images.test.ts",
     "build:schema": "bun run scripts/build-schema.js",
     "test:typecheck": "tsc --noEmit",
@@ -26,14 +26,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "bun@1.4.0",
+  "packageManager": "bun@1.4.4",
   "devDependencies": {
-    "@biomejs/biome": "^2.4.15",
-    "@types/bun": "^1.1.2",
+    "@biomejs/biome": "^2.6.6",
+    "@types/bun": "^1.4.4",
     "ajv": "^8.20.0",
-    "ajv-formats": "^2.1.1",
+    "ajv-formats": "^3.0.1",
     "husky": "^9.1.7",
-    "json-schema-to-typescript": "^14.0.1",
-    "typescript": "^5.4.5"
+    "json-schema-to-typescript": "^16.0.0",
+    "typescript": "^7.0.2"
   }
 }

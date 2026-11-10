@@ -1,0 +1,230 @@
+{
+  "categories": [
+    {
+      "id": "sado",
+      "name": "タイプA（ロングディスタンス）",
+      "distance": "LD",
+      "description": "2025年佐渡国際トライアスロン大会。最も歴史ある国内ロングディスタンストライアスロン。美しい佐渡島を舞台に、水泳3.8km、自転車190km、ランニング42.195kmの総距離226kmに挑戦。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 4,
+          "columns": [
+            {
+              "header": "スイムラップ",
+              "role": "lap"
+            },
+            {
+              "header": "S順",
+              "role": "rank"
+            },
+            {
+              "header": "T1",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 190,
+          "columns": [
+            {
+              "header": "バイクラップ",
+              "role": "lap"
+            },
+            {
+              "header": "B順",
+              "role": "rank"
+            },
+            {
+              "header": "スプリット",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 42.2,
+          "columns": [
+            {
+              "header": "ランラップ",
+              "role": "lap"
+            },
+            {
+              "header": "R順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "居住地",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "年齢区分",
+          "role": "age_category"
+        },
+        {
+          "header": "年齢別順",
+          "role": "age_rank"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=350&program_id=350_1",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "350_1"
+      }
+    },
+    {
+      "id": "sado_b",
+      "name": "タイプB（ミドルディスタンス）",
+      "distance": "MD",
+      "description": "スイムが短縮になりました",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.35,
+          "columns": [
+            {
+              "header": "スイムラップ",
+              "role": "lap"
+            },
+            {
+              "header": "S順",
+              "role": "rank"
+            },
+            {
+              "header": "T1",
+              "role": "transition"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 108,
+          "columns": [
+            {
+              "header": "バイクラップ",
+              "role": "lap"
+            },
+            {
+              "header": "B順",
+              "role": "rank"
+            },
+            {
+              "header": "スプリット",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 21.1,
+          "columns": [
+            {
+              "header": "ランラップ",
+              "role": "lap"
+            },
+            {
+              "header": "R順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "居住地",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "年齢区分",
+          "role": "age_category"
+        },
+        {
+          "header": "年齢別順",
+          "role": "age_rank"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=350&program_id=350_2",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "350_2"
+      }
+    }
+  ]
+}

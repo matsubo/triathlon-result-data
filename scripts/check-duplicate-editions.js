@@ -114,9 +114,9 @@ for (const d of unexpected) {
   console.error(`    B: ${d.b.tsv}`);
 }
 console.error(
-  '\nIf these are genuinely distinct races, add the pair as an Exception to the "entries" of duplicate-allowlist.json.',
+  '\nIf these are genuinely distinct races, add the pair as an Exception to the "entries" of checks/exceptions/duplicate.json.',
 );
 console.error(
-  "Otherwise, consolidate under one event_id and remove the duplicate entries from race-info.json + master/.",
+  "Otherwise, consolidate under one event_id and remove the duplicate Edition directory from master/.",
 );
 process.exit(1);

@@ -1,0 +1,16 @@
+{
+  "name": "トライアスロン中島大会",
+  "location": "愛媛県松山市中島",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "愛媛県",
+    "city": "松山市",
+    "venue": "中島"
+  },
+  "source": "https://www.city.matsuyama.ehime.jp/shisei/opendata/metadata/triresult.html",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Nakajima.port.ehime_island.jpg",
+    "author": "Saigen Jiro",
+    "license": "CC0"
+  }
+}

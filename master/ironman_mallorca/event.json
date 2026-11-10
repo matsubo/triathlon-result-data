@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Mallorca",
+  "location": "Alcúdia, Mallorca, Spain",
+  "location_parts": {
+    "country": "ES",
+    "region": "Balearic Islands",
+    "city": "Alcúdia"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/38/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Playa_de_Muro,_Alcudia,_Mallorca_-_panoramio.jpg",
+    "author": "iwib2009",
+    "license": "CC BY 3.0"
+  }
+}

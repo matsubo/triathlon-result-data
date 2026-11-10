@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 St. Petersburg",
+  "location": "St. Petersburg",
+  "location_parts": {
+    "country": "US",
+    "region": "Florida",
+    "city": "Saint Petersburg"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/295/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Downtown_St_Petersburg_Skyline_Dec_2024.jpg",
+    "author": "Michael Rivera",
+    "license": "CC BY-SA 4.0"
+  }
+}

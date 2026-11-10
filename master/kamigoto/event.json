@@ -1,0 +1,15 @@
+{
+  "name": "上五島トライアスロン",
+  "location": "長崎県南松浦郡新上五島町",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "長崎県",
+    "city": "南松浦郡新上五島町"
+  },
+  "source": "https://www.jtu.or.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Islands_of_Arifuku-shima,_Hino-shima,_Ryozegaura-shima_Shinkamigoto,_Nagasaki_Aerial_photograph.2014.jpg",
+    "author": "国土地理院 (GSI of Japan)",
+    "license": "Attribution (CC-BY 4.0)"
+  }
+}

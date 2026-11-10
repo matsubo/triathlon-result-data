@@ -8,7 +8,7 @@
 
 **How to apply:**
 - 新規大会取り込み時、国内外問わず weather-data.json を生成する。
-- **ファイル生成だけでは下流に反映されない**: ai-tri の importer は race-info.json のエディションレベル `weather_file` フィールド経由でのみ weather を読む（ディレクトリ自動検出なし、import-from-source.ts:342）。生成したら必ず race-info.json の該当 edition に `"weather_file": "master/<year>/<id>/weather-data.json"` を追記する（date の直後に置く）。2026-07-15 に 1,628 件が未参照で取り込み漏れした実例あり（修正: ee9675d）。
+- **ファイルの置き場所が参照そのもの**: ai-tri の importer は corpus が導出する `weather_file` 経由で weather を読む。`weather_file` はどこにも保存されず、`master/<id>/<YYYY-MM-DD>/weather-data.json` が存在する Edition にだけ付く（`scripts/lib/corpus.js` / `scripts/lib/layout.js` の `weatherPath`）。生成スクリプトの `--out` は必ずそのパスにする。master/ 配下の別の場所に置いたファイルは参照されず、`check:integrity` の layout finding（unexpected-file）になる。2026-07-15 には、ファイルはあるのに当時の大会定義ファイルから未参照だった 1,628 件が取り込み漏れした実例あり（修正: ee9675d）。この layout ではその種類の漏れは起きない。
 - 日本国内 = JMA 官署の hourly_s1（`data.jma.go.jp/stats/etrn/view/hourly_s1.php?prec_no=&block_no=`、天気は img alt、湿度・気圧・視程あり）。
 - 海外 = Open-Meteo ERA5 archive API（無料・キー不要）。visibility は無いので `"---"`、不快指数は温湿度から計算。
 - **Open-Meteo の落とし穴**: `timezone=auto` は「リクエスト時点の UTC オフセット」を全日付に適用する（DST 跨ぎで1時間ズレ）。`timeformat=unixtime` で取得し Python zoneinfo で日付ごとに変換すること。

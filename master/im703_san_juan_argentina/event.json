@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 San Juan",
+  "location": "San Juan, Argentina",
+  "location_parts": {
+    "country": "AR",
+    "region": "San Juan Province",
+    "city": "San Juan"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/216/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3ACalingasta_Department%2C_San_Juan_Province%2C_Argentina_-_panoramio_%282%29.jpg",
+    "author": "littletroll",
+    "license": "CC BY-SA 3.0"
+  }
+}

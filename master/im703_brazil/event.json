@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN 70.3 Brazil",
+  "location": "Brazil",
+  "location_parts": {
+    "country": "BR"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/197/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Floripa_12_2014_Brava_1079.JPG",
+    "author": "Mariordo (Mario Roberto Durán Ortiz)",
+    "license": "CC BY-SA 4.0"
+  }
+}

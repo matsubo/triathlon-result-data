@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Liuzhou",
+  "location": "Liuzhou",
+  "location_parts": {
+    "country": "CN",
+    "city": "Liuzhou"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/70/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Riverside_Park_In_Liuzhou,_China,_seen_from_Half_Mountain.jpg",
+    "author": "Jim",
+    "license": "CC BY 2.0"
+  }
+}

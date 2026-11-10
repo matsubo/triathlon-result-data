@@ -1,10 +1,20 @@
 # トライアスロン大会情報追加ワークフロー
 
-このワークフローは、新しいトライアスロン大会の情報をレースマスタに追加する手順を定義します。
+このワークフローは、新しいトライアスロン大会の情報をレースマスタ（`master/`）に追加する手順を定義します。
 
 ## 前提条件
 - JTUのイベントページURLを持っている
 - 追加する大会の基本情報（日付、場所、カテゴリ）を把握している
+
+## ディレクトリ構成
+```
+master/{race_id}/event.json                        大会の情報（schemas/event.schema.json）
+master/{race_id}/image.webp                        大会の画像（600x400のWebP、大会ごとに固有）
+master/{race_id}/{YYYY-MM-DD}/edition.json         開催日のカテゴリ一覧（schemas/edition.schema.json）
+master/{race_id}/{YYYY-MM-DD}/{category_id}.tsv    カテゴリのリザルト
+master/{race_id}/{YYYY-MM-DD}/weather-data.json    開催日の天気（ある場合のみ）
+```
+パスはすべてこの構成から決まります。大会IDと開催日はディレクトリ名なので、JSONにはパスもIDも日付も書きません。
 
 ## 実行手順
 
@@ -14,106 +24,94 @@ web_fetchツールを使用してJTUのイベントページから情報を取�
 URL: https://www.jtu.or.jp/result_program/?event_id={EVENT_ID}
 ```
 
-### 2. race-info.jsonの構造確認
-```
-read_fileツールでrace-info.jsonを読み込み、既存のデータ構造を確認
-```
-
-### 3. ディレクトリ構造の作成
-各カテゴリごとにディレクトリを作成：
+### 2. 既存データの確認
+同じ大会がすでに登録されていないか、大会IDと大会名の両方で確認します（IDが違っても同じ大会のことがあります）。
 ```bash
-mkdir -p master/{YEAR}/{RACE_ID}
-mkdir -p master/{YEAR}/{RACE_ID}_sprint  # スプリントがある場合
+ls master/                                          # 大会ID（ディレクトリ名）の一覧
+grep '"name"' master/*/event.json | grep '{大会名の一部}'
 ```
+既存の大会の書き方は、read_fileツールで `master/{race_id}/event.json` と `master/{race_id}/{YYYY-MM-DD}/edition.json` を読んで確認します。
 
-### 4. race-info.jsonへのレース情報追加
-replace_in_fileツールを使用して以下の情報を追加：
+### 3. 大会画像の準備（新しい大会のみ）
+大会を象徴する画像を `master/{race_id}/image.webp` に置きます。Importモジュールは image.webp がない新しい大会を受け付けないので、取り込みより先に置いてください。
+- フォーマットはWebP、サイズは横600px・縦400px（リサイズ・切り抜きでちょうど600x400にする）
+- 大会ごとに固有の画像にする。ほかの画像のコピーは使わない（Importモジュールは、ほかの大会の image.webp と同じ画像の新しい大会を受け付けません）
+- 画像の出典は `event.json` の `image_source`（`url`・`author`・`license`）に記録する
+
+画像の探し方・変換方法は `.claude/skills/import-race/references/image-policy.md` を参照してください。
+
+### 4. 大会と開催日の追加（Importモジュール）
+大会と開催日は Importモジュール（`bun scripts/import.js`）で追加します。インポートプラン（JSON）を書き、まず `--dry-run` で確認してから実行します。
+```bash
+bun scripts/import.js plan.json --dry-run
+bun scripts/import.js plan.json
+```
+プランの例（新しい大会とJTUのリザルトの開催日）：
 ```json
 {
-  "id": "{race_id}",
-  "name": "大会名",
-  "location": "開催地",
-  "image": "images/{race_id}.webp",
-  "source": "公式サイトまたはJTUのURL",
+  "events": [
+    {
+      "id": "{race_id}",
+      "name": "大会名",
+      "location": "開催地",
+      "location_parts": { "country": "JP", "prefecture": "千葉県", "city": "千葉市" },
+      "source": "公式サイトまたはJTUのURL",
+      "image_source": { "url": "画像の元ページのURL", "author": "撮影者", "license": "CC BY-SA 4.0" }
+    }
+  ],
   "editions": [
     {
+      "event": "{race_id}",
       "date": "YYYY-MM-DD",
-      "weather_file": "master/{YEAR}/{RACE_ID}/weather-data.json",
-      "categories": [
-        {
-          "id": "{category_id}",
-          "result_tsv": "master/{YEAR}/{RACE_ID}/result.tsv",
-          "name": "カテゴリ名",
-          "distance": "OD|SD|MD|LD",
-          "swim_distance": 1.5,
-          "bike_distance": 40,
-          "run_distance": 10,
-          "description": "説明文"
-        }
+      "jtu": [
+        { "program": "NNN_N", "id": "{category_id}", "name": "カテゴリ名", "distance": "OD", "description": "説明文" }
       ]
     }
   ]
 }
 ```
+- 新しい大会は `events[]` に書きます。既存の大会は `editions[].event` に大会IDを書くだけです。
+- JTUのカテゴリの `id`・`name` は、前回の開催日に同じ距離のカテゴリが1つだけあれば省略できます（そこから引き継ぎます）。新しい大会では指定してください。カテゴリIDがTSVのファイル名（`{category_id}.tsv`）になります。
+- Importモジュールは開催日のディレクトリ `master/{race_id}/{YYYY-MM-DD}/`（カテゴリごとの `{category_id}.tsv` と `edition.json`）と、新しい大会なら `master/{race_id}/event.json` だけを書き込みます。ほかの大会は書き換えません。書き込むファイルはレポートの `written` に出ます。
+- JTU以外のリザルト（PDF・CSVなど）は、TSVを用意して `prepared[]` で取り込みます。
+- プランの書式は `schemas/import-plan.schema.json`、詳しい手順は `.claude/skills/import-race/SKILL.md` を参照してください。
+
+開催日の各カテゴリにはリザルトのTSVが必要です。リザルトがまだない開催日は追加できません（TSVのないカテゴリがあると `bun run test` が、開催日のない大会があると `bun run check:integrity` が失敗します）。
 
 ### 5. 天気データファイルの作成
-weather-schema.jsonに準拠した形式でweather-data.jsonを作成：
-```json
-{
-  "date": "YYYY年MM月DD日",
-  "sunrise": "HH:MM",
-  "sunset": "HH:MM",
-  "minTemp": 17.2,
-  "maxTemp": 23.5,
-  "hourly": [
-    {
-      "time": "3",
-      "weather": "晴れ|曇り|雨",
-      "weatherIcon": "clear-day|cloudy|rain|clear-night",
-      "temp": 17.8,
-      "humidity": 82,
-      "dewPoint": 14.6,
-      "pressure": 1015.2,
-      "pressureChange": "+0.3",
-      "windDirection": "北東",
-      "windSpeed": 2,
-      "visibility": 18,
-      "discomfortIndex": 65
-    }
-    // 3時間ごとに8レコード（3,6,9,12,15,18,21,24時）
-  ]
-}
-```
-
-### 6. 空のresult.tsvファイルの作成
-各カテゴリのディレクトリに空のresult.tsvファイルを作成：
+Importモジュールは天気を書き込みません。取り込んだあとで `master/{race_id}/{YYYY-MM-DD}/weather-data.json` を作成します。このファイルがあれば、その開催日に天気があることになります（JSONに設定するフィールドはありません）。
 ```bash
-touch master/{YEAR}/{RACE_ID}/result.tsv
-touch master/{YEAR}/{RACE_ID}_sprint/result.tsv  # スプリントがある場合
+# 国内（気象庁）
+python3 scripts/gen-weather-jma.py --prec {prec_no} --block {block_no} \
+    --date YYYY-MM-DD --lat {緯度} --lon {経度} \
+    --out master/{race_id}/{YYYY-MM-DD}/weather-data.json
+# 海外（Open-Meteo）
+python3 scripts/gen-weather-open-meteo.py --lat {緯度} --lon {経度} \
+    --tz {IANAタイムゾーン} --date YYYY-MM-DD \
+    --out master/{race_id}/{YYYY-MM-DD}/weather-data.json
 ```
+天気データは schemas/weather.schema.json のスキーマに準拠していることを `bun run test:weather` で確認します。
 
-### 7. レース画像の準備
-dummy.webpをコピーして適切な名前で保存：
+### 6. 整形と検証
 ```bash
-cp images/dummy.webp images/{race_id}.webp
+bun run check             # JSONを Biome で整形
+bun run test              # スキーマ検証、画像、TSV、master/ の構成（layout findings）
+bun run check:integrity   # master/ の構成に問題（layout findings）があると失敗
 ```
+`event.json`・`image.webp`・`edition.json` がない、どのカテゴリにも対応しないファイルがある、といった構成の問題は `bun run test` と `bun run check:integrity` で検出されます。
 
 ## チェックリスト
 - [ ] レース情報をJTUのURLから取得
-- [ ] race-info.jsonの既存構造を確認
-- [ ] 必要なディレクトリを作成
-- [ ] race-info.jsonにレース情報を追加（全カテゴリ）
+- [ ] 同じ大会がないことを大会IDと大会名で確認
+- [ ] 大会ごとに固有の600x400のWebP画像を `master/{race_id}/image.webp` に配置し、出典を `image_source` に記録
+- [ ] インポートプランを `--dry-run` で確認してから実行（全カテゴリ）
 - [ ] weather-data.jsonを作成（スキーマ準拠）
-- [ ] 各カテゴリの空result.tsvファイルを作成
-- [ ] レース画像（dummy.webp）をコピー
+- [ ] `bun run check`・`bun run test`・`bun run check:integrity` が通る
 
 ## 注意事項
 - sourceには公式サイトのURLを使用。ない場合はJTUのイベントページURLを使用
-- 天気データは必ずweather-schema.jsonのスキーマに準拠すること
-- 距離の単位：
-  - swim_distance: km
-  - bike_distance: km  
-  - run_distance: km
+- 天気データは必ず `schemas/weather.schema.json` のスキーマに準拠すること
+- 距離の単位：各セグメントの `distance` は km
 - distanceの値：
   - SS: スーパースプリント
   - SD: スプリント
@@ -121,13 +119,16 @@ cp images/dummy.webp images/{race_id}.webp
   - MD: ミドル
   - LD: ロング
   - DUATHLON: デュアスロン
+- JSONは `bun run check`（Biome）で整形されます
 
 ## ファイル構造例
 ```
-master/2025/chibacity/
-  ├── weather-data.json
-  └── result.tsv
-master/2025/chibacity_sprint/
-  └── result.tsv
-images/
-  └── chibacity.webp
+master/chibacity/
+  ├── event.json
+  ├── image.webp
+  └── 2025-10-13/
+        ├── edition.json
+        ├── chibacity.tsv
+        ├── chibacity_sprint.tsv
+        └── weather-data.json
+```

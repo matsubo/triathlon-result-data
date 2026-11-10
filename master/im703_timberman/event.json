@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Timberman",
+  "location": "Timberman",
+  "location_parts": {
+    "country": "US",
+    "region": "New Hampshire",
+    "city": "Gilford"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/212/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Mtmajorsummitbig-2007-1022a.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0"
+  }
+}

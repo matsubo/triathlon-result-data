@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 #
 # command example
-# % curl 'https://results.jtu.or.jp/api/results?cond%5Bresult_table_id%5D=3663' | ruby  bin/triathlon_result_to_tsv.rb > master/2025/uminomorisptri/result.tsv
+# % curl 'https://results.jtu.or.jp/api/results?cond%5Bresult_table_id%5D=3663' | ruby  bin/triathlon_result_to_tsv.rb > /tmp/result.tsv
 #
 
 require 'json'

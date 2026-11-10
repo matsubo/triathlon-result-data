@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN 70.3 Ecuador",
+  "location": "Ecuador",
+  "location_parts": {
+    "country": "EC"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/129/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Ecuador_Manta_Murci%C3%A9lago_beach_01.jpg",
+    "author": "Cayambe",
+    "license": "CC BY-SA 3.0"
+  }
+}

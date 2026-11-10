@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Langkawi",
+  "location": "Langkawi, Malaysia",
+  "location_parts": {
+    "country": "MY",
+    "city": "Langkawi"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2615/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Langkawi_Malaysia_Beach-service-truck-01.jpg",
+    "author": "CEphoto, Uwe Aranas",
+    "license": "CC BY-SA 3.0"
+  }
+}

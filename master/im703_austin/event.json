@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Austin",
+  "location": "Austin",
+  "location_parts": {
+    "country": "US",
+    "region": "Texas",
+    "city": "Austin"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/220/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Austin_Texas_skyline,_December_2023_-_Day.jpg",
+    "author": "Steve",
+    "license": "CC BY-SA 2.0"
+  }
+}

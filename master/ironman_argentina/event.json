@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN Argentina",
+  "location": "Mar del Plata, Argentina",
+  "location_parts": {
+    "country": "AR",
+    "city": "Mar del Plata"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/63/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Mar_del_Plata_%28desde_el_norte%29.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0"
+  }
+}

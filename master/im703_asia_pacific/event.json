@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Asia-Pacific",
+  "location": "Asia-Pacific",
+  "location_parts": {
+    "country": "PH",
+    "city": "Subic Bay"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/205/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Patong_Beach_(1).jpg",
+    "author": "Wolfgang Holzem",
+    "license": "CC BY-SA 4.0"
+  }
+}

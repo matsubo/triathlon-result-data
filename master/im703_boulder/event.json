@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Boulder",
+  "location": "Boulder, Colorado, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Colorado",
+    "city": "Boulder"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2436/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Flatirons_Winter_Sunrise_edit_2.jpg",
+    "author": "Taken by Jesse Varner. Modified by AzaToth.",
+    "license": "CC BY-SA 2.5"
+  }
+}

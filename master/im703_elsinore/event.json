@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Elsinore",
+  "location": "Elsinore, Denmark",
+  "location_parts": {
+    "country": "DK",
+    "city": "Helsingør"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2442/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Kronborg_Castle.jpg",
+    "author": "Unknown",
+    "license": "CC BY-SA 3.0"
+  }
+}

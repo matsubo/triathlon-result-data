@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN 70.3 Ireland",
+  "location": "Ireland",
+  "location_parts": {
+    "country": "IE"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/296/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Ireland_Cliffs_of_Moher_BW_2025-09-11_14-27-51.jpg",
+    "author": "Berthold Werner",
+    "license": "CC BY-SA 4.0"
+  }
+}

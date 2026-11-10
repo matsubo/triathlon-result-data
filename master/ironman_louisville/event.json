@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Louisville",
+  "location": "Louisville, Kentucky, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Kentucky",
+    "city": "Louisville"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/15/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Louisville,_Kentucky_skyline_-_April_2011.jpg",
+    "author": "Stevietheman",
+    "license": "CC BY 3.0"
+  }
+}

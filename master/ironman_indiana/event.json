@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN Indiana",
+  "location": "Muncie, Indiana, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Indiana"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/308/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Muncie-indiana-downtown-from-above.jpg",
+    "author": "Unknown",
+    "license": "Public domain"
+  }
+}

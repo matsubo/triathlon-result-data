@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Canberra",
+  "location": "Canberra",
+  "location_parts": {
+    "country": "AU",
+    "region": "Australian Capital Territory",
+    "city": "Canberra"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/214/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Canberra_(AU),_Commonwealth_Avenue_Bridge_--_2019_--_1811.jpg",
+    "author": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0"
+  }
+}

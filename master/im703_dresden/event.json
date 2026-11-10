@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Dresden",
+  "location": "Dresden",
+  "location_parts": {
+    "country": "DE",
+    "city": "Dresden"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/341/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Dresden,_Elbe,_Schiff_%22August_der_Starke%22,_Frauenkirche_und_Kunstakademie.jpg",
+    "author": "Dguendel",
+    "license": "CC BY 4.0"
+  }
+}

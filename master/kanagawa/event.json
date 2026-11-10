@@ -1,0 +1,16 @@
+{
+  "name": "NISSAN CUP神奈川トライアスロン",
+  "location": "神奈川県横須賀市浦郷沖水域及び夏島町周辺特設コース",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "神奈川県",
+    "city": "横須賀市",
+    "venue": "浦郷沖水域及び夏島町周辺特設コース"
+  },
+  "source": "https://www.kn-tu.or.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Natsushima,_Yokosuka.jpg",
+    "author": "Σ64",
+    "license": "CC BY-SA 3.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Cairns",
+  "location": "Cairns, Australia",
+  "location_parts": {
+    "country": "AU",
+    "region": "Queensland",
+    "city": "Cairns"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2437/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Cairns_Esplanade_April_2008.jpg",
+    "author": "04marjess at English Wikipedia",
+    "license": "Public domain"
+  }
+}

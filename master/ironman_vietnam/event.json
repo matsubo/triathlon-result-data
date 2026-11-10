@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Vietnam",
+  "location": "Da Nang, Vietnam",
+  "location_parts": {
+    "country": "VN",
+    "city": "Da Nang"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/99/",
+  "description": "IRONMAN race series held in Vietnam. Hosts both the IRONMAN 70.3 Vietnam (annual since 2015) and the full-distance IRONMAN Vietnam (inaugural 2026).",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Dragon_bridge_from_above.png",
+    "author": "Cuong Tran",
+    "license": "Public Domain"
+  }
+}

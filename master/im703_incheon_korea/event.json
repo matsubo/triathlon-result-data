@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Incheon Korea",
+  "location": "Incheon Korea",
+  "location_parts": {
+    "country": "KR",
+    "city": "Incheon"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/242/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Incheon_bridge_(12).jpg",
+    "author": "Jinho Jung on Flickr",
+    "license": "Public domain"
+  }
+}

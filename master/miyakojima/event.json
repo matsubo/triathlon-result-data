@@ -1,0 +1,15 @@
+{
+  "name": "宮古島トライアスロン",
+  "location": "宮古島",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "沖縄県",
+    "city": "宮古島市"
+  },
+  "source": "https://systemway.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Yonahamaehama_Miyakojima_Okinawa_Japan04bs3s4500.jpg",
+    "author": "663highland",
+    "license": "CC BY-SA 3.0"
+  }
+}

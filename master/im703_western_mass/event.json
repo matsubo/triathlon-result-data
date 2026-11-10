@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Western Massachusetts",
+  "location": "Franklin, Massachusetts, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Massachusetts",
+    "city": "Springfield"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2435/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Pioneer_Valley_South_From_Mt._Sugarloaf.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0"
+  }
+}

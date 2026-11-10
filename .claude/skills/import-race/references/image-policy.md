@@ -1,28 +1,28 @@
 # Image Policy
 
-> Every event needs its own `.webp` — how to find, fetch and convert one, and how to verify none are missing
+> Every event needs its own `master/<event_id>/image.webp` — how to find, fetch and convert one, and how to verify none are missing
 
-**Every event MUST have a unique image.** Never leave the `image` field pointing at a
-non-existent file, and never reuse a placeholder across events.
+**Every event MUST have a unique image** at `master/<event_id>/image.webp` (600×400
+WebP). Never copy another Event's image, and never reuse a placeholder across events.
 
 ## Verify no event is missing its image
 
 ```bash
-node -e "
-const path = require('path');
-const fs = require('fs');
-const base = process.cwd();
-const data = JSON.parse(fs.readFileSync('race-info.json'));
-const missing = data.events.filter(e => {
-  if (!e.image) return false;
-  try { fs.accessSync(path.join(base, e.image)); return false; } catch { return true; }
-});
-if (missing.length === 0) console.log('All images OK');
-else missing.forEach(e => console.log('MISSING:', e.id, e.image));
-"
+bun run test:images
 ```
 
-`bun run test:images` covers this in the suite.
+It checks that every Event's `master/<event_id>/image.webp` exists and is WebP; a
+missing image is also a layout finding (`missing-image`) that fails `check:integrity`.
+Uniqueness: the importer rejects a new Event whose `image.webp` is byte-identical to
+another Event's, and `tests/images.test.ts` fails when any two Events' images are, so
+each image's bytes must be unique across `master/`.
+
+## Crediting the image
+
+Every Event must record the source in its `master/<event_id>/event.json` as `image_source`
+(required by `schemas/event.schema.json`): `{ "url": "…", "author": "…", "license": "…" }`
+(`author` optional). For a new Event, put it in the plan's `events[]` entry (required
+there too) and the importer writes it to `event.json`.
 
 ## Downloading from Wikimedia Commons
 
@@ -44,16 +44,16 @@ for p in d.get('query',{}).get('pages',{}).values():
 
 # Step 2: Download and convert to webp (use magick, NOT ffmpeg — ffmpeg lacks a webp encoder)
 curl -s -L -H "User-Agent: Mozilla/5.0" "DIRECT_URL" -o /tmp/src.jpg
-magick /tmp/src.jpg -resize 600x400^ -gravity center -extent 600x400 -quality 82 images/EVENT_ID.webp
+magick /tmp/src.jpg -resize 600x400^ -gravity center -extent 600x400 -quality 82 master/EVENT_ID/image.webp
 ```
 
 **Key rules:**
 - Use **direct** upload.wikimedia.org URLs (e.g. `/wikipedia/commons/a/ab/File.jpg`), NOT
   thumbnail paths (`/thumb/...`)
 - Use `magick` (ImageMagick 7) — `ffmpeg` does not support webp output on this system
-- Size: 600×400px — what every image in `images/` actually is, and the limit CLAUDE.md
-  states. `-resize 600x400^ -gravity center -extent 600x400` fills and centre-crops to
-  exactly that.
+- Size: 600×400px — what every `master/<event_id>/image.webp` actually is, and the limit
+  CLAUDE.md states. `-resize 600x400^ -gravity center -extent 600x400` fills and
+  centre-crops to exactly that.
 - Format: webp only
 
 ## Searching when the category is unknown

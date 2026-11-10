@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN Tours Metropole - Loire Valley",
+  "location": "Tours Metropole - Loire Valley",
+  "location_parts": {
+    "country": "FR",
+    "region": "Loire Valley",
+    "city": "Tours"
+  },
+  "source": "https://www.ironman.com/races/im-tours",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Chateau_de_Chenonceau_2008E.jpg",
+    "author": "Ra-smit (retouched derivative)",
+    "license": "GFDL"
+  }
+}

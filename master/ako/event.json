@@ -1,0 +1,15 @@
+{
+  "name": "赤穂トライアスロン",
+  "location": "兵庫県赤穂市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "兵庫県",
+    "city": "赤穂市"
+  },
+  "source": "https://ako-triathlon.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:141115_Ako_Castle_Ako_Hyogo_pref_Japan01bs3.jpg",
+    "author": "663highland",
+    "license": "CC BY 2.5"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "九十九里トライアスロン",
+  "location": "千葉県山武郡九十九里町",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "千葉県",
+    "city": "山武郡九十九里町"
+  },
+  "source": "https://www.99t.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:%E4%B9%9D%E5%8D%81%E4%B9%9D%E9%87%8C%E6%B5%9C.jpg",
+    "author": "Σ64",
+    "license": "CC BY-SA 4.0"
+  }
+}

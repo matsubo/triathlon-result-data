@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 European Championship",
+  "location": "European Championship",
+  "location_parts": {
+    "country": "DE",
+    "region": "Hesse",
+    "city": "Frankfurt"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/215/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Skyline_Frankfurt_am_Main_2015.jpg",
+    "author": "Christian Wolf (www.c-w-design.de)",
+    "license": "CC BY-SA 3.0 de"
+  }
+}

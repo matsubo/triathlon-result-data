@@ -1,0 +1,16 @@
+{
+  "name": "大阪城トライアスロン",
+  "location": "大阪城",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "大阪府",
+    "city": "大阪市",
+    "venue": "大阪城"
+  },
+  "source": "https://eventdev.osaka-triathlon.com/ja/toppage/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Osaka_Castle_02bs3200.jpg",
+    "author": "663highland",
+    "license": "CC BY 2.5"
+  }
+}

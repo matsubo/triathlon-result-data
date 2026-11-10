@@ -1,0 +1,13 @@
+{
+  "name": "IRONMAN 70.3 Thailand",
+  "location": "Thailand",
+  "location_parts": {
+    "country": "TH"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/248/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Phuket_Viewpoint.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0"
+  }
+}

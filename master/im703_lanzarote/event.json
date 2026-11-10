@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Lanzarote",
+  "location": "Lanzarote",
+  "location_parts": {
+    "country": "ES",
+    "region": "Canary Islands",
+    "city": "Puerto del Carmen"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/156/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Mountain_view_on_coastline_(Unsplash).jpg",
+    "author": "Rob Bye robertbye",
+    "license": "CC0"
+  }
+}

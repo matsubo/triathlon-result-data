@@ -1,0 +1,214 @@
+{
+  "categories": [
+    {
+      "id": "irago_a",
+      "name": "Aタイプ（ミドル）",
+      "distance": "MD",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 2.25,
+          "columns": [
+            {
+              "header": "ｽｲﾑﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｓ順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 70,
+          "columns": [
+            {
+              "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｂ順",
+              "role": "rank"
+            },
+            {
+              "header": "ｽﾌﾟﾘｯﾄ",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 20,
+          "columns": [
+            {
+              "header": "ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｒ順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合 順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子 順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子 順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "年齢 区分",
+          "role": "age_category"
+        },
+        {
+          "header": "年齡 別順",
+          "role": "age_rank"
+        },
+        {
+          "header": "PNLT",
+          "role": "penalty"
+        }
+      ],
+      "description": "2018年トライアスロン伊良湖大会 Aタイプ（ミドル）。スイム2.25km、バイク70km、ラン20km。",
+      "source_url": null
+    },
+    {
+      "id": "irago_b",
+      "name": "Bタイプ（オリンピック）",
+      "distance": "OD",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 1.5,
+          "columns": [
+            {
+              "header": "ｽｲﾑﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｓ順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 42,
+          "columns": [
+            {
+              "header": "ﾊﾞｲｸﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｂ順",
+              "role": "rank"
+            },
+            {
+              "header": "ｽﾌﾟﾘｯﾄ",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 10,
+          "columns": [
+            {
+              "header": "ﾗﾝﾗｯﾌﾟ",
+              "role": "lap"
+            },
+            {
+              "header": "Ｒ順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合 順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "男子 順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子 順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "年齢 区分",
+          "role": "age_category"
+        },
+        {
+          "header": "年齡 別順",
+          "role": "age_rank"
+        },
+        {
+          "header": "PNLT",
+          "role": "penalty"
+        }
+      ],
+      "description": "2018年トライアスロン伊良湖大会 Bタイプ（オリンピック）。スイム1.5km、バイク42km、ラン10km。",
+      "source_url": null
+    }
+  ]
+}

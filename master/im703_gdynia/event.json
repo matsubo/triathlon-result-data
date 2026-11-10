@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Gdynia",
+  "location": "Gdynia",
+  "location_parts": {
+    "country": "PL",
+    "city": "Gdynia"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/138/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:View_from_Gdynia_city_beach,_Feb_2023.jpg",
+    "author": "Dominic Nelson",
+    "license": "CC BY-SA 4.0"
+  }
+}

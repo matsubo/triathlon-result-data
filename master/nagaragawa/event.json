@@ -1,0 +1,15 @@
+{
+  "name": "長良川ミドルトライアスロン102",
+  "location": "岐阜県岐阜市",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "岐阜県",
+    "city": "岐阜市"
+  },
+  "source": "https://www.nagaragawa-middle102.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Port_of_Cormorant_Fishing_on_the_Nagaragawa_River.JPG",
+    "author": "Bariston",
+    "license": "CC BY-SA 3.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Marbella",
+  "location": "Marbella",
+  "location_parts": {
+    "country": "ES",
+    "region": "Andalusia",
+    "city": "Marbella"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/92/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Spain_Andalusia_Marbella_BW_2015-10-28_14-03-00_1.jpg",
+    "author": "Berthold Werner",
+    "license": "CC BY-SA 3.0"
+  }
+}

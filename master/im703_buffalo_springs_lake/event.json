@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Buffalo Springs Lake",
+  "location": "Buffalo Springs Lake",
+  "location_parts": {
+    "country": "US",
+    "region": "Texas",
+    "city": "Lubbock"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/126/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Buffalo_Springs_Lake_Quadrangle_-_DPLA_-_5652f7846126832789f61a558fd78837.jpg",
+    "author": "Geological Survey (U.S.)",
+    "license": "Public domain"
+  }
+}

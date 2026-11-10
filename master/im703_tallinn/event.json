@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Tallinn",
+  "location": "Tallinn, Estonia",
+  "location_parts": {
+    "country": "EE",
+    "city": "Tallinn"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2640/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Old_Town_Of_Tallinn.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0"
+  }
+}

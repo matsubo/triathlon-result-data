@@ -19,9 +19,9 @@ const files = [...new Map(categories.filter((c) => c.text !== null).map((c) => [
   ([tsv, text]) => ({ tsv, lines: text.split("\n") }),
 );
 
-const ledger = openLedger(join(repoRoot, "tsv-lint-known-issues.json"), {
+const ledger = openLedger(join(repoRoot, "checks", "known-issues", "tsv-lint.json"), {
   update: process.env.UPDATE_KNOWN_ISSUES === "1",
-  updateCommand: "bun run update:tsv-lint-known-issues",
+  updateCommand: "bun run update:known-issues:tsv-lint",
 });
 
 /**
@@ -42,7 +42,7 @@ const TIME_ROLES = ["lap", "total_time", "cumulative_time", "transition", "check
 const RANK_ROLES = ["overall_rank", "gender_rank", "age_rank", "rank", "cumulative_rank"];
 
 describe("Registered Categories", () => {
-  test("no Edition repeats, no TSV is shared by Categories, every master/ TSV is registered", () => {
+  test("no layout findings: every file under master/ is a corpus file at its place, every Event and Edition directory complete", () => {
     expect(corpus.findings.map((f) => f.message)).toEqual([]);
   });
 
@@ -133,7 +133,7 @@ describe("TSV Lint Rules: raw text", () => {
     expect(ledger.check({ extra_columns: findings })).toEqual([]);
   });
 
-  test("All filenames under master/ and images/ are ASCII", () => {
+  test("All filenames under master/ are ASCII", () => {
     const errors: string[] = [];
     function walk(dir: string) {
       for (const item of readdirSync(dir)) {
@@ -145,7 +145,7 @@ describe("TSV Lint Rules: raw text", () => {
         if (statSync(fullPath).isDirectory()) walk(fullPath);
       }
     }
-    for (const dir of [join(repoRoot, "master"), join(repoRoot, "images")]) walk(dir);
+    walk(join(repoRoot, "master"));
     expect(errors).toEqual([]);
   });
 });
@@ -248,8 +248,8 @@ describe("TSV Lint Rules: cells by Column role", () => {
     // (F for 女子; F0-24 for 24歳以下; M65+ for 65歳以上) so the same bracket
     // renders identically across events. Fix with
     // `bun run scripts/fix-age-category-labels.js`. Division labels that are
-    // not age brackets (一般男子, 高校生女子, …) go in age-category-allowlist.json;
-    // unfixable source defects are counted in tsv-lint-known-issues.json.
+    // not age brackets (一般男子, 高校生女子, …) go in checks/exceptions/age-category.json;
+    // unfixable source defects are counted in checks/known-issues/tsv-lint.json.
     const allow = new Set(loadExceptions("age_category"));
     const findings: Findings = {};
     for (const category of categories) {

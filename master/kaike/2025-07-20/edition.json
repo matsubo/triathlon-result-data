@@ -1,0 +1,230 @@
+{
+  "categories": [
+    {
+      "id": "kaike",
+      "name": "Aタイプ（ロング）",
+      "distance": "LD",
+      "description": "2025年第19回全日本トライアスロン皆生大会。鳥取県米子市を舞台に、スイム3km、バイク140km、ラン40kmのロングディスタンスで開催。美しい海と自然に囲まれたコースが魅力の大会です。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 3,
+          "columns": [
+            {
+              "header": "スイムラップ",
+              "role": "lap"
+            },
+            {
+              "header": "S順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 140,
+          "columns": [
+            {
+              "header": "バイクラップ",
+              "role": "lap"
+            },
+            {
+              "header": "B順",
+              "role": "rank"
+            },
+            {
+              "header": "スプリット",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 40,
+          "columns": [
+            {
+              "header": "ランラップ",
+              "role": "lap"
+            },
+            {
+              "header": "R順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "居住地",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "ペナルティ",
+          "role": "penalty"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "年代区分",
+          "role": "age_category"
+        },
+        {
+          "header": "年代順位",
+          "role": "age_rank"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=344&program_id=344_1",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "344_1"
+      }
+    },
+    {
+      "id": "kaike_b",
+      "name": "Bタイプ（セミロング）",
+      "distance": "MD",
+      "description": "2025年第19回全日本トライアスロン皆生大会。鳥取県米子市を舞台に、スイム3km、バイク115km、ラン23kmのセミロングディスタンスで開催。美しい海と自然に囲まれたコースが魅力の大会です。",
+      "segments": [
+        {
+          "sport": "swim",
+          "distance": 3,
+          "columns": [
+            {
+              "header": "スイムラップ",
+              "role": "lap"
+            },
+            {
+              "header": "S順",
+              "role": "rank"
+            }
+          ]
+        },
+        {
+          "sport": "bike",
+          "distance": 115,
+          "columns": [
+            {
+              "header": "バイクラップ",
+              "role": "lap"
+            },
+            {
+              "header": "B順",
+              "role": "rank"
+            },
+            {
+              "header": "スプリット",
+              "role": "cumulative_time"
+            },
+            {
+              "header": "通過",
+              "role": "cumulative_rank"
+            }
+          ]
+        },
+        {
+          "sport": "run",
+          "distance": 23,
+          "columns": [
+            {
+              "header": "ランラップ",
+              "role": "lap"
+            },
+            {
+              "header": "R順",
+              "role": "rank"
+            }
+          ]
+        }
+      ],
+      "meta_columns": [
+        {
+          "header": "総合順位",
+          "role": "overall_rank"
+        },
+        {
+          "header": "No.",
+          "role": "bib"
+        },
+        {
+          "header": "氏名",
+          "role": "name"
+        },
+        {
+          "header": "年齢",
+          "role": "age"
+        },
+        {
+          "header": "性別",
+          "role": "gender"
+        },
+        {
+          "header": "居住地",
+          "role": "residence"
+        },
+        {
+          "header": "総合記録",
+          "role": "total_time"
+        },
+        {
+          "header": "ペナルティ",
+          "role": "penalty"
+        },
+        {
+          "header": "男子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "女子順位",
+          "role": "gender_rank"
+        },
+        {
+          "header": "年代区分",
+          "role": "age_category"
+        },
+        {
+          "header": "年代順位",
+          "role": "age_rank"
+        }
+      ],
+      "source_url": "https://www.jtu.or.jp/result/?event_id=344&program_id=344_2",
+      "source_ref": {
+        "results_source": "jtu",
+        "id": "344_2"
+      }
+    }
+  ]
+}

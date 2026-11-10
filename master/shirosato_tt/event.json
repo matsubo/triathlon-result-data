@@ -1,0 +1,15 @@
+{
+  "name": "しろさとTT200",
+  "location": "茨城県城里町",
+  "location_parts": {
+    "country": "JP",
+    "prefecture": "茨城県",
+    "city": "城里町"
+  },
+  "source": "https://shirosato-tt.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Paddy_field_in_Shirosato,_Ibaraki_04.jpg",
+    "author": "Σ64",
+    "license": "CC BY 3.0"
+  }
+}

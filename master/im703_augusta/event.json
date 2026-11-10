@@ -1,0 +1,15 @@
+{
+  "name": "IRONMAN 70.3 Augusta",
+  "location": "Augusta, Georgia, USA",
+  "location_parts": {
+    "country": "US",
+    "region": "Georgia",
+    "city": "Augusta"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/race/2593/results/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Downtown_Augusta_from_Augusta_Riverwalk,_July_2024.jpg",
+    "author": "Thomson200",
+    "license": "CC0"
+  }
+}

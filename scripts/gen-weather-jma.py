@@ -2,7 +2,7 @@
 """Generate a weather-data.json from JMA (気象庁) hourly observations.
 
 Domestic (Japanese) races use JMA 官署 hourly_s1 pages, which carry the weather
-symbol, humidity, pressure and visibility that weather-schema.json expects.
+symbol, humidity, pressure and visibility that schemas/weather.schema.json expects.
 Overseas races use scripts/gen-weather-open-meteo.py instead.
 
 JMA publishes the 天気 (weather symbol) column late — it is absent for dates in
@@ -14,7 +14,7 @@ measured quantity still comes from JMA. Pass --no-fill-weather to disable.
 Usage:
   python3 scripts/gen-weather-jma.py --prec 54 --block 47602 \
       --date 2026-09-06 --lat 38.0272 --lon 138.2394 \
-      --out master/2026/sado/weather-data.json
+      --out master/sado/2026-09-06/weather-data.json
 
 Station codes are the prec_no / block_no pair from
 https://www.data.jma.go.jp/stats/etrn/view/hourly_s1.php

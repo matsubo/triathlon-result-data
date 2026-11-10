@@ -1,0 +1,14 @@
+{
+  "name": "IRONMAN 70.3 Nice France",
+  "location": "Nice France",
+  "location_parts": {
+    "country": "FR",
+    "city": "Nice"
+  },
+  "source": "https://www.coachcox.co.uk/imstats/series/195/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File%3ANice%2C_Quai_des_%C3%89tats-Unis_and_Promenade_des_Anglais_FRANCE.jpg",
+    "author": "Lspigon",
+    "license": "Public domain"
+  }
+}
