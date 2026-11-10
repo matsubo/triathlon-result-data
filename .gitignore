@@ -7,5 +7,6 @@
 # Local tooling artifacts
 .antigravitycli/
 .playwright-cli/
+.playwright/
 docs/superpowers/
 .claude/skills/playwright-cli/

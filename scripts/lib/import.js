@@ -48,7 +48,7 @@ import { paceWarnings } from "./segment-pace.js";
  * @property {string | null} source_url
  * @property {{sport: string, distance: number}[]} [segments] Segments of the course, in order, with km
  * @property {string} [name] Category name
- * @property {import("../../schema.ts").DistanceType} [distance_class]
+ * @property {import("../../schemas/types.ts").DistanceType} [distance_class]
  *
  * @typedef {{ fetch: (request: any) => Promise<SourceTable> }} ResultsSource
  * @typedef {{ ironman?: ResultsSource, jtu?: ResultsSource, prepared?: ResultsSource }} Sources
@@ -81,7 +81,10 @@ import { paceWarnings } from "./segment-pace.js";
  */
 
 const PLAN_SCHEMA = JSON.parse(
-  readFileSync(join(import.meta.dirname, "import-plan-schema.json"), "utf8"),
+  readFileSync(
+    join(import.meta.dirname, "..", "..", "schemas", "import-plan.schema.json"),
+    "utf8",
+  ),
 );
 
 /** Standard Segment km per Distance class, used when neither the plan nor the source gives them. */
@@ -210,7 +213,7 @@ const normalizedName = (s) =>
 const sha1 = (data) => createHash("sha1").update(data).digest("hex");
 
 /**
- * @param {any} plan parsed plan JSON (scripts/lib/import-plan-schema.json)
+ * @param {any} plan parsed plan JSON (schemas/import-plan.schema.json)
  * @param {{ sources: Sources, repo: import("./repo.js").Repo, dryRun?: boolean }} ports
  * @returns {Promise<ImportReport>}
  */
@@ -235,11 +238,11 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
     return report;
   }
 
-  const eventSchemaText = target.readText("event-schema.json");
-  const editionSchemaText = target.readText("edition-schema.json");
+  const eventSchemaText = target.readText("schemas/event.schema.json");
+  const editionSchemaText = target.readText("schemas/edition.schema.json");
   if (eventSchemaText == null || editionSchemaText == null)
     throw new Error(
-      "event-schema.json / edition-schema.json not found in repo",
+      "schemas/event.schema.json / schemas/edition.schema.json not found in repo",
     );
   const validateEvent = ajv.compile(JSON.parse(eventSchemaText));
   const validateEdition = ajv.compile(JSON.parse(editionSchemaText));
@@ -304,7 +307,7 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
     };
     if (!validateEvent(JSON.parse(eventFile(event).text)))
       errors.push(
-        `event ${ev.id}: event-schema.json: ${schemaErrors(validateEvent)}`,
+        `event ${ev.id}: schemas/event.schema.json: ${schemaErrors(validateEvent)}`,
       );
     newEvents.set(ev.id, event);
   }
@@ -732,7 +735,9 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
 
     const file = editionFile(event.id, edition);
     if (!validateEdition(JSON.parse(file.text)))
-      throw new Skip(`edition-schema.json: ${schemaErrors(validateEdition)}`);
+      throw new Skip(
+        `schemas/edition.schema.json: ${schemaErrors(validateEdition)}`,
+      );
     event.editions = [...event.editions, edition].sort(
       (/** @type {any} */ a, /** @type {any} */ b) =>
         a.date.localeCompare(b.date),

@@ -8,9 +8,9 @@
 
 ## ディレクトリ構成
 ```
-master/{race_id}/event.json                        大会の情報（event-schema.json）
+master/{race_id}/event.json                        大会の情報（schemas/event.schema.json）
 master/{race_id}/image.webp                        大会の画像（600x400のWebP、大会ごとに固有）
-master/{race_id}/{YYYY-MM-DD}/edition.json         開催日のカテゴリ一覧（edition-schema.json）
+master/{race_id}/{YYYY-MM-DD}/edition.json         開催日のカテゴリ一覧（schemas/edition.schema.json）
 master/{race_id}/{YYYY-MM-DD}/{category_id}.tsv    カテゴリのリザルト
 master/{race_id}/{YYYY-MM-DD}/weather-data.json    開催日の天気（ある場合のみ）
 ```
@@ -74,7 +74,7 @@ bun scripts/import.js plan.json
 - JTUのカテゴリの `id`・`name` は、前回の開催日に同じ距離のカテゴリが1つだけあれば省略できます（そこから引き継ぎます）。新しい大会では指定してください。カテゴリIDがTSVのファイル名（`{category_id}.tsv`）になります。
 - Importモジュールは開催日のディレクトリ `master/{race_id}/{YYYY-MM-DD}/`（カテゴリごとの `{category_id}.tsv` と `edition.json`）と、新しい大会なら `master/{race_id}/event.json` だけを書き込みます。ほかの大会は書き換えません。書き込むファイルはレポートの `written` に出ます。
 - JTU以外のリザルト（PDF・CSVなど）は、TSVを用意して `prepared[]` で取り込みます。
-- プランの書式は `scripts/lib/import-plan-schema.json`、詳しい手順は `.claude/skills/import-race/SKILL.md` を参照してください。
+- プランの書式は `schemas/import-plan.schema.json`、詳しい手順は `.claude/skills/import-race/SKILL.md` を参照してください。
 
 開催日の各カテゴリにはリザルトのTSVが必要です。リザルトがまだない開催日は追加できません（TSVのないカテゴリがあると `bun run test` が、開催日のない大会があると `bun run check:integrity` が失敗します）。
 
@@ -90,7 +90,7 @@ python3 scripts/gen-weather-open-meteo.py --lat {緯度} --lon {経度} \
     --tz {IANAタイムゾーン} --date YYYY-MM-DD \
     --out master/{race_id}/{YYYY-MM-DD}/weather-data.json
 ```
-天気データは weather-schema.json のスキーマに準拠していることを `bun run test:weather` で確認します。
+天気データは schemas/weather.schema.json のスキーマに準拠していることを `bun run test:weather` で確認します。
 
 ### 6. 整形と検証
 ```bash
@@ -110,7 +110,7 @@ bun run check:integrity   # master/ の構成に問題（layout findings）が�
 
 ## 注意事項
 - sourceには公式サイトのURLを使用。ない場合はJTUのイベントページURLを使用
-- 天気データは必ずweather-schema.jsonのスキーマに準拠すること
+- 天気データは必ず `schemas/weather.schema.json` のスキーマに準拠すること
 - 距離の単位：各セグメントの `distance` は km
 - distanceの値：
   - SS: スーパースプリント

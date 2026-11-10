@@ -30,7 +30,7 @@ master/<event_id>/<YYYY-MM-DD>/weather-data.json  present = the Edition has weat
 
 - `scripts/lib/layout.js` is the only code that builds or classifies these paths. `scripts/lib/corpus.js` (`readCorpus`) reads the corpus and fills in the derived `id`, `image`, `weather_file` and `result_tsv`. It reports every file that is not one of the five kinds at its place, and every incomplete Event or Edition directory, as a layout finding. Any layout finding fails `check:integrity`.
 - Events are ordered by id and Editions by date. There is no stored order.
-- `event-schema.json` and `edition-schema.json` replace `race-info-schema.json`. Image credits are each Event's `image_source`, which is required.
+- `schemas/event.schema.json` and `schemas/edition.schema.json` replace `race-info-schema.json`. Image credits are each Event's `image_source`, which is required.
 - The Import module writes only the new Edition directory, plus `event.json` for a new Event. A new Event's image must already be at `master/<id>/image.webp`, and its bytes must not match another Event's image.
 - Files are `JSON.stringify(x, null, 2)` plus a newline, which Biome accepts unchanged. Each file is far below Biome's 1 MiB limit, so Biome checks all of them.
 

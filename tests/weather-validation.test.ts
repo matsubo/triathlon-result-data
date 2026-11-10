@@ -6,7 +6,7 @@ import { describe, test, expect } from "bun:test";
 
 const repoRoot = resolve(import.meta.dirname, "..");
 const masterDir = join(repoRoot, "master");
-const schemaPath = join(repoRoot, "weather-schema.json");
+const schemaPath = join(repoRoot, "schemas", "weather.schema.json");
 
 function findWeatherDataFiles(dir: string): string[] {
   const files: string[] = [];
@@ -41,7 +41,7 @@ describe("Weather Data Validation", () => {
   addFormats(ajv as any);
   const validate = ajv.compile(schema);
 
-  test(`All ${weatherFiles.length} weather data files match weather-schema.json`, () => {
+  test(`All ${weatherFiles.length} weather data files match schemas/weather.schema.json`, () => {
     const errors: string[] = [];
 
     for (const file of weatherFiles) {

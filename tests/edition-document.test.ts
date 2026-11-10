@@ -159,8 +159,10 @@ describe("editionDocument: the Edition document", () => {
     expect(JSON.stringify(a)).not.toMatch(/memo|市民/);
   });
 
-  test("every Column role in edition-schema.json is handled or dropped", () => {
-    const schema = JSON.parse(readFileSync(join(resolve(import.meta.dirname, ".."), "edition-schema.json"), "utf8"));
+  test("every Column role in schemas/edition.schema.json is handled or dropped", () => {
+    const schema = JSON.parse(
+      readFileSync(join(resolve(import.meta.dirname, ".."), "schemas", "edition.schema.json"), "utf8"),
+    );
     const meta = schema.definitions.MetaColumnRole.enum.map((role: string) => ({ header: `m_${role}`, role }));
     const seg = schema.definitions.SegmentColumnRole.enum.map((role: string) => ({ header: `s_${role}`, role }));
     const repo = single([NAME, ...meta], [["Taro", ...meta.map(() => "1"), ...seg.map(() => "0:10:00")]], seg);
@@ -221,7 +223,7 @@ describe("editionDocument: errors", () => {
     expect(() => editionDocument(repo, "nope", "2024")).toThrow('event "nope" not found');
   });
 
-  test("a document failing result-schema.json is SchemaInvalid with the ajv errors", () => {
+  test("a document failing schemas/result.schema.json is SchemaInvalid with the ajv errors", () => {
     const repo = repoOf([edition([NAME], [], { distance: "MARATHON" })], { [TSV]: "Name\nTaro\n" });
     let error: unknown;
     try {

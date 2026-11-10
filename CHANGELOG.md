@@ -12,6 +12,16 @@ All notable changes to this repository are documented here. Versions follow the 
 - Image credits moved from `docs/image-sources.tsv` into each Event's `event.json` `image_source` (`{url, author?, license}`). The 33 rows for deleted images were dropped.
 - Known-issue ledgers rekeyed with unchanged counts: `tsv-lint-known-issues.json` by the new TSV paths, `integrity-baseline.json` by `<event>/<YYYY-MM-DD>/<category>` (was `<event>/<YYYY>/<category>`). The normalized output of every Edition is unchanged.
 
+### Changed (repository root)
+- The repository root holds only the standard files (README, CHANGELOG, AGENTS.md / CLAUDE.md, package.json, bun.lock, tsconfig.json, biome.json, .gitignore) and directories. Every other file moved, byte-identical except for paths it names:
+  - JSON Schemas to `schemas/`: `event-schema.json` → `schemas/event.schema.json`, `edition-schema.json` → `schemas/edition.schema.json`, `result-schema.json` → `schemas/result.schema.json`, `weather-schema.json` → `schemas/weather.schema.json`, `scripts/lib/import-plan-schema.json` → `schemas/import-plan.schema.json`. The generated `schema.ts` → `schemas/types.ts`.
+  - Known-issue ledgers to `checks/known-issues/`: `tsv-lint-known-issues.json` → `tsv-lint.json`, `integrity-baseline.json` → `integrity.json`. Their update commands are now `bun run update:known-issues:tsv-lint` and `bun run update:known-issues:integrity` (were `update:tsv-lint-known-issues` / `update:integrity-baseline`).
+  - Exceptions to `checks/exceptions/`: `name-space-allowlist.json` → `name-space.json`, `age-category-allowlist.json` → `age-category.json`, `duplicate-allowlist.json` → `duplicate.json`, `pace-exceptions.json` → `pace.json`.
+  - `GLOSSARY.md` → `docs/glossary.md`.
+- Removed `WEATHER_DATA_RULES.md`: it described the pre-5.x weather format (Japanese `date`, `weather` / `weatherIcon` / `windDirection`, `ajv validate`), which `schemas/weather.schema.json` now rejects. The schema and `.claude/skills/import-race/references/weather-data-policy.md` hold the current rules.
+- Removed `docs/redirects-event-ids.json`: an unreferenced, outdated copy of ai-tri's `lib/redirects-event-ids.json`, which is the one ai-tri uses.
+- `.playwright/` is gitignored.
+
 ### Changed (event images and credits)
 - Five Events that shared image content with another Event get their own Wikimedia Commons photo: `gamagori_fall` (was `gamagori`'s), `im703_atlantic_city_aqaubike` (was `im703_atlantic_city`'s), `ironman_gurye` (was `im703_gurye_korea`'s), `ironman_waco` (was `im703_waco`'s), `ironman_france` (was `ironman_world_championship`'s).
 - The 23 Events without a credit now have one, each traced to its Commons file by comparing the image with the Commons original. Corrected two credits: `ironman_world_championship` (Uhooep, CC BY-SA 4.0) and `im703_waco` (Michael Barera).

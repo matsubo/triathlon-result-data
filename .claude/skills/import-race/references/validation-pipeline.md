@@ -13,15 +13,15 @@ checks and require zeros:
 bun run scripts/fix-age-category-labels.js
 
 # Structural lint (time-format, rank-numeric, extra-columns, name-space and
-# 年齢区分-notation rules); counts must equal tsv-lint-known-issues.json
+# 年齢区分-notation rules); counts must equal checks/known-issues/tsv-lint.json
 bun run test:tsv-lint
 
-# Normalize-level integrity: fails on ANY drift from integrity-baseline.json
+# Normalize-level integrity: fails on ANY drift from checks/known-issues/integrity.json
 # (regression, improvement or stale entry); a clean new import must add zero
 # missing laps / totals
 bun run check:integrity
 
-# End-to-end normalize incl. result-schema validation for the new edition
+# End-to-end normalize incl. schemas/result.schema.json validation for the new edition
 bun scripts/normalize-tsv.js EVENT_ID YEAR > /dev/null && echo OK
 ```
 
@@ -42,9 +42,9 @@ for c in d['categories']:
 ```
 
 If a metric is legitimately nonzero (the SOURCE truly lacks the data), say so explicitly in
-the commit message and run `bun run update:integrity-baseline` so the Known-issue ledger
+the commit message and run `bun run update:known-issues:integrity` so the Known-issue ledger
 records it — never leave an unexplained regression. If a fix lowered a count, the checks fail
-until you run `bun run update:tsv-lint-known-issues` / `bun run update:integrity-baseline`
+until you run `bun run update:known-issues:tsv-lint` / `bun run update:known-issues:integrity`
 and commit the shrunken ledger. See [data-quality-gates](data-quality-gates.md).
 
 ## Build & validate
@@ -52,7 +52,7 @@ and commit the shrunken ledger. See [data-quality-gates](data-quality-gates.md).
 Run the full pipeline after any data change:
 
 ```bash
-# 1. Validate every event.json ↔ event-schema.json and edition.json ↔ edition-schema.json
+# 1. Validate every event.json ↔ schemas/event.schema.json and edition.json ↔ schemas/edition.schema.json
 bun run test:schema
 
 # 2. Validate weather files (every weather-data.json)

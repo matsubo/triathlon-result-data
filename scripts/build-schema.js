@@ -3,10 +3,10 @@ import path from "node:path";
 import { compileFromFile } from "json-schema-to-typescript";
 
 const schemaPaths = [
-  path.resolve("event-schema.json"),
-  path.resolve("edition-schema.json"),
+  path.resolve("schemas/event.schema.json"),
+  path.resolve("schemas/edition.schema.json"),
 ];
-const outputPath = path.resolve("schema.ts");
+const outputPath = path.resolve("schemas/types.ts");
 
 const bannerComment = `/* eslint-disable */
 /**
@@ -136,9 +136,9 @@ async function main() {
 
     const finalTs = parts.join("\n") + helpers;
     fs.writeFileSync(outputPath, finalTs, "utf8");
-    console.log("Successfully generated schema.ts!");
+    console.log("Successfully generated schemas/types.ts!");
   } catch (error) {
-    console.error("Failed to build schema.ts:", error);
+    console.error("Failed to build schemas/types.ts:", error);
     process.exit(1);
   }
 }

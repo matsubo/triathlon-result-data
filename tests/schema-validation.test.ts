@@ -22,11 +22,11 @@ function schemaErrors(schemaFile: string, kind: "event" | "edition"): string[] {
 }
 
 describe("Schema Validation", () => {
-  test("every master/<event_id>/event.json matches event-schema.json", () => {
-    expect(schemaErrors("event-schema.json", "event")).toEqual([]);
+  test("every master/<event_id>/event.json matches schemas/event.schema.json", () => {
+    expect(schemaErrors("schemas/event.schema.json", "event")).toEqual([]);
   });
 
-  test("every master/<event_id>/<date>/edition.json matches edition-schema.json", () => {
-    expect(schemaErrors("edition-schema.json", "edition")).toEqual([]);
+  test("every master/<event_id>/<date>/edition.json matches schemas/edition.schema.json", () => {
+    expect(schemaErrors("schemas/edition.schema.json", "edition")).toEqual([]);
   });
 });

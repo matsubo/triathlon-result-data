@@ -71,7 +71,7 @@ out.push(
     `both: ${flagged.filter((c) => c.outsideBand && c.offEditions).length})`,
 );
 out.push(
-  `- Exempted as genuine (pace-exceptions.json): ${checks.filter((c) => c.exception).length}`,
+  `- Exempted as genuine (checks/exceptions/pace.json): ${checks.filter((c) => c.exception).length}`,
 );
 out.push("", "## Bands", "");
 out.push(

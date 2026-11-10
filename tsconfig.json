@@ -9,5 +9,5 @@
     "skipLibCheck": true,
     "types": ["bun-types"]
   },
-  "include": ["schema.ts", "tests/**/*.ts"]
+  "include": ["schemas/types.ts", "tests/**/*.ts"]
 }

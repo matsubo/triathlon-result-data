@@ -14,8 +14,8 @@ import { corpusFiles, type FixtureEdition, type FixtureEvent } from "./corpus-fi
 const repoRoot = resolve(import.meta.dirname, "..");
 const FIXTURES = join(import.meta.dirname, "fixtures/import");
 const SCHEMAS = {
-  "event-schema.json": readFileSync(join(repoRoot, "event-schema.json"), "utf8"),
-  "edition-schema.json": readFileSync(join(repoRoot, "edition-schema.json"), "utf8"),
+  "schemas/event.schema.json": readFileSync(join(repoRoot, "schemas", "event.schema.json"), "utf8"),
+  "schemas/edition.schema.json": readFileSync(join(repoRoot, "schemas", "edition.schema.json"), "utf8"),
 };
 
 // ---- builders ----------------------------------------------------------

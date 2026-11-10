@@ -31,7 +31,7 @@ master/<event_id>/<YYYY-MM-DD>/weather-data.json  開催日の天気（ある場
 - 大会
   - `master/<event_id>/event.json`
   - 大会IDはディレクトリ名です。
-  - スキーマ: `event-schema.json`
+  - スキーマ: `schemas/event.schema.json`
   - モデル名: `Event`
 - 大会の開催日
   - `master/<event_id>/<YYYY-MM-DD>/edition.json`
@@ -39,7 +39,7 @@ master/<event_id>/<YYYY-MM-DD>/weather-data.json  開催日の天気（ある場
   - 天気情報の入力
     - 過去の天気は[このサイト](https://tenki.jp/past/2025/04/weather/)を参考に取得する。
     - 地点が少ないので近い都市を選ぶ。
-  - スキーマ: `edition-schema.json`
+  - スキーマ: `schemas/edition.schema.json`
   - モデル名: `Edition`
 - カテゴリ
   - モデル名: `Category`
@@ -69,7 +69,7 @@ bun scripts/import.js plan.json
 ```
 
 開催日のディレクトリ `master/<event_id>/<YYYY-MM-DD>/` に、カテゴリごとの `<category_id>.tsv` と `edition.json` が書き込まれます。ほかの大会のファイルは書き換えません。
-プランの書式は `scripts/lib/import-plan-schema.json` を参照してください。
+プランの書式は `schemas/import-plan.schema.json` を参照してください。
 
 ### 天気情報の追加
 
@@ -81,7 +81,7 @@ bun scripts/import.js plan.json
 
 過去の天気をWeb上で探して、スクショを撮ってサンプルのデータを添付しつつAIに投げれば作れます。
 
-天気データは `weather-schema.json` で定義されたJSON Schemaに従って作成してください。GitHub Actionsで自動的にスキーマ検証が実行されます。
+天気データは `schemas/weather.schema.json` で定義されたJSON Schemaに従って作成してください。GitHub Actionsで自動的にスキーマ検証が実行されます。
 
 
 ## リザルトを掲載する方法
@@ -136,7 +136,7 @@ GitHub Actions の CI ワークフロー（`.github/workflows/ci.yml`）でも�
 pull request のたびに同じテストが自動的に実行され、JSONの構文エラーがないか確認
 されます。
 
-`event.json` は `event-schema.json`、`edition.json` は `edition-schema.json` で検証されます。
+`event.json` は `schemas/event.schema.json`、`edition.json` は `schemas/edition.schema.json` で検証されます。
 `master/` のディレクトリ構成もチェックしています。`event.json`・`image.webp`・`edition.json`
 がない、開催日のない大会がある、どのカテゴリにも対応しないファイルがある、といった構成の問題
 （layout findings）があると `bun run test` と `bun run check:integrity` が失敗します。
@@ -148,7 +148,7 @@ bun run check:integrity
 
 ### 天気データの検証
 
-天気データ（`master/<event_id>/<YYYY-MM-DD>/weather-data.json`）は、`weather-schema.json` で定義されたJSON Schemaに基づいて自動検証されます（`bun run test:weather`）。GitHub Actions の CI ワークフローが push と pull request のたびに実行し、データの整合性を確認します。
+天気データ（`master/<event_id>/<YYYY-MM-DD>/weather-data.json`）は、`schemas/weather.schema.json` で定義されたJSON Schemaに基づいて自動検証されます（`bun run test:weather`）。GitHub Actions の CI ワークフローが push と pull request のたびに実行し、データの整合性を確認します。
 
 
 

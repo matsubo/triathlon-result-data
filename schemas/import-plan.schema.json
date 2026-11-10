@@ -76,7 +76,7 @@
         "source": { "type": "string", "pattern": "^https?://" },
         "image_source": {
           "type": "object",
-          "description": "Credit of master/<id>/image.webp, written to event.json; checked against event-schema.json"
+          "description": "Credit of master/<id>/image.webp, written to event.json; checked against schemas/event.schema.json"
         }
       }
     },

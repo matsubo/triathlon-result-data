@@ -10,7 +10,7 @@
  * year is left as-is (relabelAgeCategory): that label is corrupt.
  * Values with no canonical form (divisions such as 一般男子, OCR garbage) are
  * left alone too; tests/tsv-lint.test.ts reports them against
- * age-category-allowlist.json and tsv-lint-known-issues.json.
+ * checks/exceptions/age-category.json and checks/known-issues/tsv-lint.json.
  *
  * Idempotent. Run after importing any TSV:
  *   bun run scripts/fix-age-category-labels.js

@@ -2,7 +2,7 @@
 """Generate a weather-data.json from JMA (気象庁) hourly observations.
 
 Domestic (Japanese) races use JMA 官署 hourly_s1 pages, which carry the weather
-symbol, humidity, pressure and visibility that weather-schema.json expects.
+symbol, humidity, pressure and visibility that schemas/weather.schema.json expects.
 Overseas races use scripts/gen-weather-open-meteo.py instead.
 
 JMA publishes the 天気 (weather symbol) column late — it is absent for dates in

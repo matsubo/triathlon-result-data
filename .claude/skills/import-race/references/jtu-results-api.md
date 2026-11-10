@@ -22,7 +22,7 @@ curl -s -g "https://results.jtu.or.jp/api/results?cond[result_table_id]=NNNN"
 ## Import pipeline
 
 Write an import plan (a throwaway JSON file outside the repository, schema
-`scripts/lib/import-plan-schema.json`) with one `jtu[]` entry per program to import, and
+`schemas/import-plan.schema.json`) with one `jtu[]` entry per program to import, and
 run it through the Import module. Never write an add-*/import-* script.
 
 ```json
@@ -93,7 +93,7 @@ What the JTU adapter and the core do:
 - **Pace warnings**: the report flags each Segment whose median lap implies an implausible
   pace or strays more than ×1.4 from the Event's other Editions at the same declared
   distance (`scripts/lib/segment-pace.js`). Resolve each one from race-day evidence: fix
-  the Segment, or add a genuine pace to `pace-exceptions.json`; see SKILL.md step 4.
+  the Segment, or add a genuine pace to `checks/exceptions/pace.json`; see SKILL.md step 4.
 - **Refused automatically**: a TSV byte-identical to another TSV (the carousel
   contamination signature), a declared Segment whose lap column is empty for every finisher,
   a duplicated single-use role, an existing (event, date) with different programs.

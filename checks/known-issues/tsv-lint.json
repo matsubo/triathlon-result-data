@@ -1,5 +1,5 @@
 {
-  "description": "Known issues found by tests/tsv-lint.test.ts: per rule and repo-relative TSV path, the exact number of violations still waiting for a fix from the source. New files must be clean. Counts only shrink (docs/adr/0002-known-issue-counts-only-shrink.md): fix the data (usually by re-importing from the original source), then run `bun run update:tsv-lint-known-issues` and commit the shrunken ledger.",
+  "description": "Known issues found by tests/tsv-lint.test.ts: per rule and repo-relative TSV path, the exact number of violations still waiting for a fix from the source. New files must be clean. Counts only shrink (docs/adr/0002-known-issue-counts-only-shrink.md): fix the data (usually by re-importing from the original source), then run `bun run update:known-issues:tsv-lint` and commit the shrunken ledger.",
   "rules": {
     "time_format": {
       "master/fujihill/2017-06-11/fujihill.tsv": 3,

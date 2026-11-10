@@ -22,6 +22,18 @@ Input (master/<event_id>/)
 
 Every path under `master/` is derived from the event ID (directory name), the edition date (directory name) and the category ID (TSV basename); no file stores a path. `scripts/lib/layout.js` is the one module that builds and parses these paths.
 
+Repository layout:
+
+```
+master/                 the corpus: one directory per event (see above)
+schemas/                JSON Schemas (event, edition, result, weather, import plan) and the generated types.ts
+checks/known-issues/    Known-issue ledgers: tsv-lint.json, integrity.json (counts only shrink)
+checks/exceptions/      Exceptions: correct values that break a data rule (name-space, age-category, duplicate, pace)
+scripts/                normalizer, importer and check CLIs; scripts/lib/ holds the modules
+tests/                  bun tests
+docs/                   glossary.md and the ADRs (docs/adr/)
+```
+
 ## Data model
 
 ```
@@ -58,7 +70,7 @@ bun scripts/normalize-tsv.js yokohama 2025-05-18
 - `event_id` is the directory name of `master/<event_id>/event.json`.
 - A year must match exactly one edition of the event; when the event ran more than once that year, the command exits 1 listing the dates, and you pass the full date.
 - Warnings are written to **stderr**; normalized JSON goes to **stdout**.
-- Output is validated against `result-schema.json` before being emitted.
+- Output is validated against `schemas/result.schema.json` before being emitted.
 
 ### Normalization rules
 
@@ -138,12 +150,12 @@ Prefer the importer (see [Importing new race data](#importing-new-race-data)): i
 
 When editing by hand:
 
-- An event's fields (`name`, `location`, `location_parts`, `source`, `description`, `image_source`) live in `master/<event_id>/event.json`, validated by `event-schema.json`.
-- An edition's categories live in `master/<event_id>/<YYYY-MM-DD>/edition.json` (`{ "categories": [...] }`), validated by `edition-schema.json`. Each category declares its `segments` (ordered sports) and maps TSV headers to normalized fields via `columns` and `meta_columns`.
+- An event's fields (`name`, `location`, `location_parts`, `source`, `description`, `image_source`) live in `master/<event_id>/event.json`, validated by `schemas/event.schema.json`.
+- An edition's categories live in `master/<event_id>/<YYYY-MM-DD>/edition.json` (`{ "categories": [...] }`), validated by `schemas/edition.schema.json`. Each category declares its `segments` (ordered sports) and maps TSV headers to normalized fields via `columns` and `meta_columns`.
 
 Events are ordered by ID and editions by date; there is no manual ordering.
 
-Validate and regenerate TypeScript types (`schema.ts` is generated from both schemas):
+Validate and regenerate TypeScript types (`schemas/types.ts` is generated from both schemas):
 
 ```bash
 bun run test:schema
@@ -156,7 +168,7 @@ Store a WebP image symbolic of the venue at `master/<event_id>/image.webp`, exac
 
 ### Add weather data
 
-Per edition, at `master/<event_id>/<YYYY-MM-DD>/weather-data.json`, following `weather-schema.json`. The file's presence is what gives the edition weather; it is not registered anywhere else. Include 3-hourly entries (03, 06, 09, 12, 15, 18, 21, 24). Use JMA's past weather records from the nearest AMeDAS station (`scripts/gen-weather-jma.py`); overseas races use `scripts/gen-weather-open-meteo.py`.
+Per edition, at `master/<event_id>/<YYYY-MM-DD>/weather-data.json`, following `schemas/weather.schema.json`. The file's presence is what gives the edition weather; it is not registered anywhere else. Include 3-hourly entries (03, 06, 09, 12, 15, 18, 21, 24). Use JMA's past weather records from the nearest AMeDAS station (`scripts/gen-weather-jma.py`); overseas races use `scripts/gen-weather-open-meteo.py`.
 
 Validate:
 
@@ -175,7 +187,7 @@ master/<event_id>/<YYYY-MM-DD>/<category_id>.tsv
 The basename is the category ID (`^[a-z0-9_]+$`), and the category must be listed in that edition's `edition.json`. Keep the original column headers — the repository normalizes them through the `columns` / `meta_columns` mapping in `edition.json`, so you do not need to rename anything by hand.
 
 **TSV conventions:**
-- Separate family name and given name with a **half-width space** (`山田 太郎`, not `山田　太郎`, not `山田太郎` with no space at all). Without the space, the same person can't be matched across races. `tests/tsv-lint.test.ts` enforces this automatically; legitimate exceptions (foreign names that don't split into two tokens, nicknames, single-token sign-ins) go in `name-space-allowlist.json`. Team/nickname rows with a blank age field, or values containing digits/parentheses/nakaguro, are treated as non-personal and skipped by the check.
+- Separate family name and given name with a **half-width space** (`山田 太郎`, not `山田　太郎`, not `山田太郎` with no space at all). Without the space, the same person can't be matched across races. `tests/tsv-lint.test.ts` enforces this automatically; legitimate exceptions (foreign names that don't split into two tokens, nicknames, single-token sign-ins) go in `checks/exceptions/name-space.json`. Team/nickname rows with a blank age field, or values containing digits/parentheses/nakaguro, are treated as non-personal and skipped by the check.
 - Use `DNF` / `DNS` / `DSQ` / `TOV` / `OPEN` / `SKIP` for non-finisher rows.
 
 Contributions are welcome via Issue or Pull Request.
@@ -211,7 +223,7 @@ Tests are powered by [bun test](https://bun.sh/docs/cli/test) and TypeScript.
 ```bash
 bun run test             # runs all tests (bun test) and TypeScript typecheck
 bun run test:json        # JSON syntax validity
-bun run test:schema      # every event.json ↔ event-schema.json, every edition.json ↔ edition-schema.json
+bun run test:schema      # every event.json ↔ schemas/event.schema.json, every edition.json ↔ schemas/edition.schema.json
 bun run test:weather     # validate every weather-data.json
 bun run test:normalizers # unit tests for normalizer modules
 bun run test:tsv-lint    # TSV conventions (e.g. no full-width spaces) and layout of master/
@@ -223,14 +235,14 @@ bun run check:duplicates # detect duplicate race editions
 A single GitHub Actions workflow, **CI** (`.github/workflows/ci.yml`), runs on every push to `main` and every pull request:
 
 - `bun run test` — all of the tests above plus the typecheck.
-- `bun run check:integrity` — normalize every edition and compare missing-value counts against `integrity-baseline.json` (keys `<event>/<YYYY-MM-DD>/<category>`); any layout finding (unexpected file under `master/`, missing `event.json` / `image.webp` / `edition.json`) fails it.
-- `bun run check:duplicates` — flag pairs of editions whose `(name, total_time)` fingerprints overlap ≥80 % (allowlist genuinely distinct lookalikes in `duplicate-allowlist.json`).
+- `bun run check:integrity` — normalize every edition and compare missing-value counts against `checks/known-issues/integrity.json` (keys `<event>/<YYYY-MM-DD>/<category>`); any layout finding (unexpected file under `master/`, missing `event.json` / `image.webp` / `edition.json`) fails it.
+- `bun run check:duplicates` — flag pairs of editions whose `(name, total_time)` fingerprints overlap ≥80 % (allowlist genuinely distinct lookalikes in `checks/exceptions/duplicate.json`).
 
 ## Importing new race data
 
 ### With the importer
 
-Write an import plan (a JSON file outside the repository, schema `scripts/lib/import-plan-schema.json`) and run:
+Write an import plan (a JSON file outside the repository, schema `schemas/import-plan.schema.json`) and run:
 
 ```bash
 bun scripts/import.js /tmp/import-plan.json --dry-run   # writes in memory only

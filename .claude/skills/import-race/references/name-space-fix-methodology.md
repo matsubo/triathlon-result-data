@@ -33,8 +33,8 @@ Japanese surname dictionary):
    GBDT (trained on kanji) — resolve these by hand or leave alone; 3-part
    Western/Indonesian names (e.g. `ファンデルフリート`, `バユプラウィラサリム`)
    don't fit this repo's one-space convention at all.
-5. Whatever can't be resolved goes in `name-space-allowlist.json` at repo
-   root, which `tests/tsv-lint.test.ts` reads to exempt those exact name
+5. Whatever can't be resolved goes in `checks/exceptions/name-space.json`,
+   which `tests/tsv-lint.test.ts` reads to exempt those exact name
    strings from the check.
 
 See `sport-enum-schema-gap` for a similar repo-wide data-quality gap found

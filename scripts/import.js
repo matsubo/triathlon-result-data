@@ -1,5 +1,5 @@
 /**
- * Import Editions from an import plan (scripts/lib/import-plan-schema.json).
+ * Import Editions from an import plan (schemas/import-plan.schema.json).
  *
  *   bun scripts/import.js <plan.json> [--dry-run]
  *

@@ -1,5 +1,5 @@
 /**
- * Edition document: the normalized JSON of one Edition (result-schema.json),
+ * Edition document: the normalized JSON of one Edition (schemas/result.schema.json),
  * built from the Category reader.
  *
  *   editionDocument(repo, eventId, dateOrYear) → { document, warnings, issues }
@@ -33,7 +33,7 @@ import { readCategories } from "./category-reader.js";
  * @property {{ sport: string, distance_km: number }[]} segments
  * @property {Athlete[]} athletes
  *
- * @typedef {object} EditionDocument the normalized JSON of one Edition (result-schema.json)
+ * @typedef {object} EditionDocument the normalized JSON of one Edition (schemas/result.schema.json)
  * @property {string} event_id
  * @property {string} name
  * @property {string} location
@@ -67,7 +67,7 @@ export class AmbiguousEdition extends Error {
   }
 }
 
-/** The document fails result-schema.json. */
+/** The document fails schemas/result.schema.json. */
 export class SchemaInvalid extends Error {
   /**
    * @param {import("ajv").ErrorObject[]} errors
@@ -90,7 +90,7 @@ function validator() {
   if (!validateDocument) {
     const schema = JSON.parse(
       readFileSync(
-        join(import.meta.dirname, "..", "..", "result-schema.json"),
+        join(import.meta.dirname, "..", "..", "schemas", "result.schema.json"),
         "utf-8",
       ),
     );

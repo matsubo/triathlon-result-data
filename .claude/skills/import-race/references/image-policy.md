@@ -20,7 +20,7 @@ each image's bytes must be unique across `master/`.
 ## Crediting the image
 
 Every Event must record the source in its `master/<event_id>/event.json` as `image_source`
-(required by `event-schema.json`): `{ "url": "…", "author": "…", "license": "…" }`
+(required by `schemas/event.schema.json`): `{ "url": "…", "author": "…", "license": "…" }`
 (`author` optional). For a new Event, put it in the plan's `events[]` entry (required
 there too) and the importer writes it to `event.json`.
 
