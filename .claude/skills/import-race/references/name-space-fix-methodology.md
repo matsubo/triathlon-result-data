@@ -2,7 +2,7 @@
 
 > How to bulk-fix TSV 氏名 fields missing the family/given-name half-width space, and where the resulting lint/allowlist live
 
-On 2026-07-01, found `master/2022/kisarazu/default.tsv` had zero half-width
+On 2026-07-01, found `master/kisarazu/2022-06-19/kisarazu_2022.tsv` had zero half-width
 spaces in any 氏名 value (`星大樹` instead of `星 大樹`), breaking cross-race
 name matching. A repo-wide scan (`tests/tsv-lint.test.ts` now runs this check
 every time) turned up the same problem in 105 files, ~2701 names total.
@@ -38,4 +38,4 @@ Japanese surname dictionary):
    strings from the check.
 
 See `sport-enum-schema-gap` for a similar repo-wide data-quality gap found
-the same way (grep across `master/`, not just trust `race-info.json`).
+the same way (grep across `master/`, not just trust `edition.json`).

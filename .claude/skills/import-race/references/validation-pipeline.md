@@ -52,7 +52,7 @@ and commit the shrunken ledger. See [data-quality-gates](data-quality-gates.md).
 Run the full pipeline after any data change:
 
 ```bash
-# 1. Validate race-info.json schema
+# 1. Validate every event.json ↔ event-schema.json and edition.json ↔ edition-schema.json
 bun run test:schema
 
 # 2. Validate weather files (every weather-data.json)

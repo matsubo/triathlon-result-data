@@ -44,8 +44,9 @@ results, or JMA weather not yet published. Skip it, record it as deferred in
 
 ## Mandatory checklist (every import, both modes)
 
-- [ ] `race-info.json` validates against `race-info-schema.json`
-- [ ] Each new event has an `image` field pointing to an existing, **unique** `.webp`
+- [ ] Every `event.json` / `edition.json` validates against `event-schema.json` /
+      `edition-schema.json` (`bun run test:schema`)
+- [ ] Each new event has its own **unique** `master/<event_id>/image.webp` (600×400 WebP)
 - [ ] TSV columns align with the edition's `segments` / `meta_columns` mapping
 - [ ] Segment distances come from race-day evidence, and every pace warning of the Import
       report is resolved: `segments` fixed, or a genuine pace added to `pace-exceptions.json`
@@ -89,8 +90,9 @@ this workflow needs is in the repository.
 
 1. **Sync, then inventory.** Run `git fetch` and `git pull --ff-only` first, because another
    session may already have imported the same races (see the 2026-10-09 note in
-   `references/discovery.md`). Then read `race-info.json` and build the set of
-   `(event, date)` editions already imported. Editions key off `edition.date`, not a
+   `references/discovery.md`). Then build the set of `(event, date)` editions already
+   imported: the Editions are the date directories `master/<event_id>/<YYYY-MM-DD>/`
+   (or `readCorpus` from `scripts/lib/corpus.js`). Editions key off that date, not a
    `year` field. Do not re-import these. Leftover uncommitted import files mean an earlier
    run was interrupted: finish and include them. Leave unrelated untracked or modified
    files alone.
@@ -112,9 +114,9 @@ this workflow needs is in the repository.
    missing `(event, date)` editions.
    - Cross-check every "already imported" verdict by **date**, not by an `event_id=` grep
      on `source_url` — many editions carry a blank `source_url`.
-   - Cross-check every "new event" claim by name **and** date against `race-info.json`
-     before trusting it — this repository has repeatedly grown duplicate event ids that
-     way.
+   - Cross-check every "new event" claim by name **and** date against the existing
+     `master/*/event.json` files and their Edition directories before trusting it — this
+     repository has repeatedly grown duplicate event ids that way.
    - Sanity-check freshness: a race fetched the day after it is held often returns only
      the PRO field. Compare the athlete count and age-group breadth against the prior
      year before importing.
@@ -124,9 +126,10 @@ this workflow needs is in the repository.
 
 4. **Import the editions with the Import module** — write an import plan, never an
    add-*/import-* script:
-   - New events only, first: add a unique `.webp` image (≤600×400) per
-     `references/image-policy.md` — never reuse a placeholder. The plan refuses a new
-     Event whose image is missing or already used.
+   - New events only, first: put a unique 600×400 WebP at `master/<event_id>/image.webp`
+     per `references/image-policy.md` — never reuse a placeholder or copy another
+     Event's image. The plan refuses a new Event whose image is missing or byte-identical
+     to another Event's; record its credit in the plan's optional `image_source`.
    - Write one plan JSON **outside the repository** (e.g. `/tmp/import-plan.json`; plan
      files are not committed) covering every routine candidate of the run. Schema:
      `scripts/lib/import-plan-schema.json`. IRONMAN: `"ironman": "<subevent uuid>"`
@@ -161,13 +164,15 @@ this workflow needs is in the repository.
      others are written), 1 = plan invalid (nothing written).
    - The module writes canonical 年齢区分 labels (M25-29) itself. Fix any 氏名 it
      can't (a missing family/given space, per `references/name-space-fix-methodology.md`).
-   - `weather-data-generator` → create the `master/<year>/<id>/weather-data.json` the
-     import referenced (see `references/weather-data-policy.md`).
+   - `weather-data-generator` → create `master/<event_id>/<YYYY-MM-DD>/weather-data.json`
+     for each new Edition that needs weather; the importer does not write it, and the
+     file's presence is what gives the Edition weather (see
+     `references/weather-data-policy.md`).
 
 5. **Validate and audit** — full commands and the aggregate-audit rationale in
    `references/validation-pipeline.md`:
    ```bash
-   bun run test:schema       # race-info.json ↔ race-info-schema.json
+   bun run test:schema       # event.json ↔ event-schema.json, edition.json ↔ edition-schema.json
    bun run test:weather      # every weather-data.json ↔ weather-schema.json
    bun scripts/normalize-tsv.js <event_id> <year>
    bun run build:schema
@@ -178,8 +183,9 @@ this workflow needs is in the repository.
    Never accept an import on the strength of a few eyeballed rows — the audit is
    aggregate statistics, and a nonzero metric must either be fixed or explained in the
    commit message and recorded with `bun run scripts/check-integrity.js --update`.
-   If an edition cannot be made to pass, remove its files and its `race-info.json` entry,
-   record it as deferred, and commit the rest.
+   If an edition cannot be made to pass, delete its Edition directory
+   `master/<event_id>/<YYYY-MM-DD>/` (and, for an Event that was new in this run, the whole
+   `master/<event_id>/`), record it as deferred, and commit the rest.
 
 6. **Record what this run learned** by appending a dated section to
    `references/discovery.md`: the new source ceiling, any new column captions and how they

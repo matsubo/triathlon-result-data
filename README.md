@@ -13,11 +13,14 @@ Normalized data from this repository powers [AI TRI+](https://ai-triathlon-resul
 ## Architecture
 
 ```
-Input (master/)
-  *.tsv              (denormalized results) ─┐
-  weather-data.json  (race-day weather)     ─┤── normalize-tsv.js ──→ JSON (stdout)
-race-info.json       (column mapping / meta) ┘
+Input (master/<event_id>/)
+  event.json                       (event name / location / source)      ─┐
+  <YYYY-MM-DD>/edition.json        (categories, segments, column mapping) ─┤
+  <YYYY-MM-DD>/<category_id>.tsv   (denormalized results)                 ─┤── normalize-tsv.js ──→ JSON (stdout)
+  <YYYY-MM-DD>/weather-data.json   (race-day weather)                     ─┘
 ```
+
+Every path under `master/` is derived from the event ID (directory name), the edition date (directory name) and the category ID (TSV basename); no file stores a path. `scripts/lib/layout.js` is the one module that builds and parses these paths.
 
 ## Data model
 
@@ -52,7 +55,7 @@ bun scripts/normalize-tsv.js sado 2024
 bun scripts/normalize-tsv.js yokohama 2025-05-18
 ```
 
-- `event_id` corresponds to `events[].id` in `race-info.json`.
+- `event_id` is the directory name of `master/<event_id>/event.json`.
 - A year must match exactly one edition of the event; when the event ran more than once that year, the command exits 1 listing the dates, and you pass the full date.
 - Warnings are written to **stderr**; normalized JSON goes to **stdout**.
 - Output is validated against `result-schema.json` before being emitted.
@@ -131,9 +134,16 @@ bun scripts/normalize-tsv.js yokohama 2025-05-18
 
 ### Add an event
 
-Edit `race-info.json`. The structure is a tree of events → editions → categories. Each category declares its `segments` (ordered sports) and maps TSV headers to normalized fields via `columns` and `meta_columns`.
+Prefer the importer (see [Importing new race data](#importing-new-race-data)): it writes the new edition directory and, for a new event, its `event.json`, and runs every safety check.
 
-Validate and regenerate TypeScript types:
+When editing by hand:
+
+- An event's fields (`name`, `location`, `location_parts`, `source`, `description`, `image_source`) live in `master/<event_id>/event.json`, validated by `event-schema.json`.
+- An edition's categories live in `master/<event_id>/<YYYY-MM-DD>/edition.json` (`{ "categories": [...] }`), validated by `edition-schema.json`. Each category declares its `segments` (ordered sports) and maps TSV headers to normalized fields via `columns` and `meta_columns`.
+
+Events are ordered by ID and editions by date; there is no manual ordering.
+
+Validate and regenerate TypeScript types (`schema.ts` is generated from both schemas):
 
 ```bash
 bun run test:schema
@@ -142,11 +152,11 @@ bun run build:schema
 
 ### Add a race image
 
-Store a WebP image symbolic of the venue at `images/<event_id>.webp`, roughly 400×300 px (≤300×200 is also fine). **Placeholder re-use is not allowed** — every event needs its own image.
+Store a WebP image symbolic of the venue at `master/<event_id>/image.webp`, exactly 600×400 px (resize and crop to fit). **Placeholder re-use is not allowed** — every event needs its own image; never copy another event's image (the importer rejects a byte-identical copy). Record the image credit in the event's `event.json` as `image_source` (`{ "url", "author"?, "license" }`).
 
 ### Add weather data
 
-Per edition, at `master/<year>/<event_id>/weather-data.json`, following `weather-schema.json`. Include 3-hourly entries (03, 06, 09, 12, 15, 18, 21, 24). Use JMA's past weather records from the nearest AMeDAS station.
+Per edition, at `master/<event_id>/<YYYY-MM-DD>/weather-data.json`, following `weather-schema.json`. The file's presence is what gives the edition weather; it is not registered anywhere else. Include 3-hourly entries (03, 06, 09, 12, 15, 18, 21, 24). Use JMA's past weather records from the nearest AMeDAS station (`scripts/gen-weather-jma.py`); overseas races use `scripts/gen-weather-open-meteo.py`.
 
 Validate:
 
@@ -156,13 +166,13 @@ bun run test:weather
 
 ### Add results
 
-Drop TSV files under:
+Each category's TSV lives at:
 
 ```
-master/<year>/<event_id>/<category>.tsv
+master/<event_id>/<YYYY-MM-DD>/<category_id>.tsv
 ```
 
-Keep the original column headers — the repository normalizes them through the `columns` / `meta_columns` mapping in `race-info.json`, so you do not need to rename anything by hand.
+The basename is the category ID (`^[a-z0-9_]+$`), and the category must be listed in that edition's `edition.json`. Keep the original column headers — the repository normalizes them through the `columns` / `meta_columns` mapping in `edition.json`, so you do not need to rename anything by hand.
 
 **TSV conventions:**
 - Separate family name and given name with a **half-width space** (`山田 太郎`, not `山田　太郎`, not `山田太郎` with no space at all). Without the space, the same person can't be matched across races. `tests/tsv-lint.test.ts` enforces this automatically; legitimate exceptions (foreign names that don't split into two tokens, nicknames, single-token sign-ins) go in `name-space-allowlist.json`. Team/nickname rows with a blank age field, or values containing digits/parentheses/nakaguro, are treated as non-personal and skipped by the check.
@@ -200,12 +210,12 @@ Tests are powered by [bun test](https://bun.sh/docs/cli/test) and TypeScript.
 
 ```bash
 bun run test             # runs all tests (bun test) and TypeScript typecheck
-bun run test:json        # JSON syntax validity and path references
-bun run test:schema      # race-info.json ↔ race-info-schema.json
+bun run test:json        # JSON syntax validity
+bun run test:schema      # every event.json ↔ event-schema.json, every edition.json ↔ edition-schema.json
 bun run test:weather     # validate every weather-data.json
 bun run test:normalizers # unit tests for normalizer modules
-bun run test:tsv-lint    # TSV conventions (e.g. no full-width spaces)
-bun run test:images      # verify image references and detect orphaned images
+bun run test:tsv-lint    # TSV conventions (e.g. no full-width spaces) and layout of master/
+bun run test:images      # verify every event's image.webp exists and is WebP
 bun run test:typecheck   # run static type check (tsc --noEmit)
 bun run check:duplicates # detect duplicate race editions
 ```
@@ -213,10 +223,21 @@ bun run check:duplicates # detect duplicate race editions
 A single GitHub Actions workflow, **CI** (`.github/workflows/ci.yml`), runs on every push to `main` and every pull request:
 
 - `bun run test` — all of the tests above plus the typecheck.
-- `bun run check:integrity` — normalize every edition and compare missing-value counts against `integrity-baseline.json`.
+- `bun run check:integrity` — normalize every edition and compare missing-value counts against `integrity-baseline.json` (keys `<event>/<YYYY-MM-DD>/<category>`); any layout finding (unexpected file under `master/`, missing `event.json` / `image.webp` / `edition.json`) fails it.
 - `bun run check:duplicates` — flag pairs of editions whose `(name, total_time)` fingerprints overlap ≥80 % (allowlist genuinely distinct lookalikes in `duplicate-allowlist.json`).
 
 ## Importing new race data
+
+### With the importer
+
+Write an import plan (a JSON file outside the repository, schema `scripts/lib/import-plan-schema.json`) and run:
+
+```bash
+bun scripts/import.js /tmp/import-plan.json --dry-run   # writes in memory only
+bun scripts/import.js /tmp/import-plan.json             # writes the TSVs, then edition.json, then (new event) event.json
+```
+
+The importer writes only the new edition directory and, for a new event, its `event.json`; it never rewrites other events. File paths and edition order are derived (a TSV is named after its category ID), so the plan names neither. A new event in `events[]` has no `image` field: put its image at `master/<event_id>/image.webp` before importing (the plan is rejected otherwise, or when the image is byte-identical to another event's). Weather is generated separately afterwards.
 
 ### From the JTU results system
 
@@ -234,7 +255,7 @@ Rough year ranges for `event_id`:
 | 2024 | 239–310 |
 | 2025 | 309–374 |
 
-Scrape `table.result_table` from each program page and write TSV to `master/<year>/<event_id>/`. Filter out non-main-age-group categories (kids, junior, relay, para, elementary, middle-school, aquathlon, duathlon, beginner, challenge).
+Scrape `table.result_table` from each program page and write TSV to `master/<event_id>/<YYYY-MM-DD>/<category_id>.tsv`. Filter out non-main-age-group categories (kids, junior, relay, para, elementary, middle-school, aquathlon, duathlon, beginner, challenge).
 
 ### From PDFs
 
