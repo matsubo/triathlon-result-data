@@ -74,15 +74,7 @@ export interface RaceEvent {
  * Race distance/type classification
  */
 export type DistanceType =
-  | "LD"
-  | "MD"
-  | "OD"
-  | "SD"
-  | "SS"
-  | "DUATHLON"
-  | "AQUATHLON"
-  | "MARATHON"
-  | "OTHER";
+  "LD" | "MD" | "OD" | "SD" | "SS" | "DUATHLON" | "AQUATHLON" | "MARATHON" | "OTHER";
 /**
  * Type of sport segment
  */
@@ -91,12 +83,7 @@ export type Sport = "swim" | "bike" | "run" | "trail_running";
  * Semantic role of this column within the segment
  */
 export type SegmentColumnRole =
-  | "lap"
-  | "checkpoint"
-  | "rank"
-  | "transition"
-  | "cumulative_time"
-  | "cumulative_rank";
+  "lap" | "checkpoint" | "rank" | "transition" | "cumulative_time" | "cumulative_rank";
 /**
  * Semantic role of this metadata column
  */

@@ -26,14 +26,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "bun@1.4.0",
+  "packageManager": "bun@1.4.4",
   "devDependencies": {
-    "@biomejs/biome": "^2.4.15",
-    "@types/bun": "^1.1.2",
+    "@biomejs/biome": "^2.6.6",
+    "@types/bun": "^1.4.4",
     "ajv": "^8.20.0",
-    "ajv-formats": "^2.1.1",
+    "ajv-formats": "^3.0.1",
     "husky": "^9.1.7",
-    "json-schema-to-typescript": "^14.0.1",
-    "typescript": "^5.4.5"
+    "json-schema-to-typescript": "^16.0.0",
+    "typescript": "^7.0.2"
   }
 }
