@@ -79,7 +79,7 @@ What the IRONMAN adapter and the core decide for you:
   more than half the Athletes against the previous Edition is a warning in the report.
 
 New Events go in `events[]` of the plan (`id`, `name`, `location`, `location_parts`,
-`source`, optional `description` / `image_source` `{url, author?, license}`); there is
+`source`, `image_source` `{url, author?, license}`, optional `description`); there is
 no `image` field — stage the Event's unique `master/<id>/image.webp` before importing
 (the plan refuses a missing image or one byte-identical to another Event's).
 

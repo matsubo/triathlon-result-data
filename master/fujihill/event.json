@@ -7,5 +7,10 @@
     "city": "富士吉田市",
     "venue": "富士スバルライン"
   },
-  "source": "https://www.fujihc.jp/"
+  "source": "https://www.fujihc.jp/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Fuji_Subaru_Line_5th_Station,_Mount_Fuji_(42361723450).jpg",
+    "author": "Fabio Achilli from Milano, Italy",
+    "license": "CC BY 2.0"
+  }
 }

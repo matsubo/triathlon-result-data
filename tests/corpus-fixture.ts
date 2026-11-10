@@ -15,7 +15,13 @@ export type FixtureEvent = { id: string; editions: FixtureEdition[]; [field: str
 export function corpusFiles(events: FixtureEvent[]): Record<string, string> {
   const files: Record<string, string> = {};
   for (const { editions, ...event } of events) {
-    const ev = eventFile({ name: event.id, location_parts: { country: "JP" }, source: "https://example.com", ...event });
+    const ev = eventFile({
+      name: event.id,
+      location_parts: { country: "JP" },
+      source: "https://example.com",
+      image_source: { url: "https://example.com/image", license: "CC0" },
+      ...event,
+    });
     files[ev.path] = ev.text;
     files[imagePath(event.id)] = `image of ${event.id}`;
     for (const edition of editions) {

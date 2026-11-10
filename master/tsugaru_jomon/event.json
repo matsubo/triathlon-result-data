@@ -6,5 +6,10 @@
     "prefecture": "青森県",
     "city": "つがる市"
   },
-  "source": "https://jomontri.com/"
+  "source": "https://jomontri.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Shichirinagahama_Aomori_Japan_IMG_2540.jpg",
+    "author": "あおもりくま,(Aomorikuma)",
+    "license": "CC BY-SA 4.0"
+  }
 }

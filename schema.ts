@@ -52,9 +52,9 @@ export interface RaceEvent {
    */
   description?: string;
   /**
-   * Credit of the event image (image.webp beside this file): where it comes from, its author and license. Optional until every image is credited.
+   * Credit of the event image (image.webp beside this file): where it comes from, its author and license.
    */
-  image_source?: {
+  image_source: {
     /**
      * Page of the original image
      */

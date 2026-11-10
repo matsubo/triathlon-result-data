@@ -7,5 +7,10 @@
     "city": "信濃町",
     "venue": "タングラム斑尾スキー＆リゾート"
   },
-  "source": "https://www.jtu.or.jp/result_program/?event_id=379"
+  "source": "https://www.jtu.or.jp/result_program/?event_id=379",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Madarao_Kogen_Ski_Resort_(4483368693).jpg",
+    "author": "takaokun",
+    "license": "CC BY 2.0"
+  }
 }

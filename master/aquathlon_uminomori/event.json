@@ -7,5 +7,10 @@
     "city": "江東区",
     "venue": "海の森水上競技場"
   },
-  "source": "https://www.jtu.or.jp/championship-series/aquathlon/"
+  "source": "https://www.jtu.or.jp/championship-series/aquathlon/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Sea_Forest_Waterway_Tokyo_(cropped).jpg",
+    "author": "Diplomatic Security Service (U.S. Department of State)",
+    "license": "Public domain"
+  }
 }

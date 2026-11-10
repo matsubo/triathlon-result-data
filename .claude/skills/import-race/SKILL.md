@@ -129,7 +129,7 @@ this workflow needs is in the repository.
    - New events only, first: put a unique 600×400 WebP at `master/<event_id>/image.webp`
      per `references/image-policy.md` — never reuse a placeholder or copy another
      Event's image. The plan refuses a new Event whose image is missing or byte-identical
-     to another Event's; record its credit in the plan's optional `image_source`.
+     to another Event's, or that has no `image_source`; record its credit there.
    - Write one plan JSON **outside the repository** (e.g. `/tmp/import-plan.json`; plan
      files are not committed) covering every routine candidate of the run. Schema:
      `scripts/lib/import-plan-schema.json`. IRONMAN: `"ironman": "<subevent uuid>"`

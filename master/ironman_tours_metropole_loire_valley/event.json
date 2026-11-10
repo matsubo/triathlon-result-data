@@ -6,5 +6,10 @@
     "region": "Loire Valley",
     "city": "Tours"
   },
-  "source": "https://www.ironman.com/races/im-tours"
+  "source": "https://www.ironman.com/races/im-tours",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Chateau_de_Chenonceau_2008E.jpg",
+    "author": "Ra-smit (retouched derivative)",
+    "license": "GFDL"
+  }
 }

@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import { resolve } from "node:path";
 import { describe, expect, test } from "bun:test";
 import { readCorpus } from "../scripts/lib/corpus.js";
@@ -17,5 +18,19 @@ describe("Image Assets Integrity", () => {
       else if (tag(0) !== "RIFF" || tag(8) !== "WEBP") bad.push(`${event.id}: ${event.image} is not a WebP file`);
     }
     expect(bad).toEqual([]);
+  });
+
+  test("no two Events share a byte-identical image.webp", () => {
+    // Every Event needs its own image; a copied placeholder is reuse
+    // (the Import module refuses one for a new Event, this covers the rest).
+    const byHash = new Map<string, string[]>();
+    for (const event of readCorpus(repo).events) {
+      const bytes = repo.readBytes(event.image);
+      if (!bytes) continue;
+      const hash = createHash("sha1").update(bytes).digest("hex");
+      byHash.set(hash, [...(byHash.get(hash) ?? []), event.id]);
+    }
+    const shared = [...byHash.values()].filter((ids) => ids.length > 1).map((ids) => ids.join(", "));
+    expect(shared).toEqual([]);
   });
 });

@@ -4,5 +4,10 @@
   "location_parts": {
     "country": "DE"
   },
-  "source": "https://www.challenge-roth.com/"
+  "source": "https://www.challenge-roth.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Roth_2005_0933.JPG",
+    "author": "GS",
+    "license": "CC BY-SA 3.0"
+  }
 }

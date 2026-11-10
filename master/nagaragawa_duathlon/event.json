@@ -6,5 +6,10 @@
     "prefecture": "岐阜県",
     "city": "海津市"
   },
-  "source": "https://gifu-triathlon.jp/event/2025/01/b958bd1e8007ef7bc4ef3c022842a9de44e46a29.html"
+  "source": "https://gifu-triathlon.jp/event/2025/01/b958bd1e8007ef7bc4ef3c022842a9de44e46a29.html",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Kiso_Three_Rivers_and_Kisosansen_Park.jpg",
+    "author": "Alpsdake",
+    "license": "CC BY-SA 3.0"
+  }
 }

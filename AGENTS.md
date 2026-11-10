@@ -111,7 +111,7 @@ Agents can help navigate and understand this triathlon result data repository wh
 
 master/ のパスはすべて Event id・Edition の日付・Category id から導出され、どこにも保存しない。
 
-- `master/<event_id>/event.json` Event（大会）の情報。`name`・`location`・`location_parts`・`source`・`description`（任意）・`image_source`（任意、画像のクレジット `{url, author?, license}`）。Event id はディレクトリ名
+- `master/<event_id>/event.json` Event（大会）の情報。`name`・`location`・`location_parts`・`source`・`description`（任意）・`image_source`（必須、画像のクレジット `{url, author?, license}`）。Event id はディレクトリ名
 - `master/<event_id>/image.webp` 大会を象徴する画像。WebP形式、600x400。Event ごとに1枚
 - `master/<event_id>/<YYYY-MM-DD>/edition.json` Edition（開催回）のカテゴリ定義 `{ "categories": [...] }`。カテゴリごとに `segments` 配列で競技構成を定義（例: `[{sport:"swim"}, {sport:"bike"}, {sport:"run"}]`）。TSVカラムと正規化フィールドのマッピングルール（`columns`, `meta_columns`）を含む。日付はディレクトリ名（`YYYY-01-01` の仮日付もそのまま）。Event は id 順、Edition は日付順に並ぶ（手で順序を決めない）
 - `master/<event_id>/<YYYY-MM-DD>/<category_id>.tsv` 大会のリザルトデータ（入力・非正規化）。カテゴリごとに1ファイルで、ファイル名がカテゴリID（IRONMAN は `<event_id>_<year>.tsv`、その他は `<event_id>.tsv`・`<event_id>_sprint.tsv` 等）
@@ -136,8 +136,9 @@ It sets up Bun, runs `bun install`, then:
 1. `bun run test` — every `tests/*.test.ts` (JSON syntax, every
    `event.json` / `edition.json` / `weather-data.json` against
    `event-schema.json` / `edition-schema.json` / `weather-schema.json`, TSV
-   lint including "no layout findings", every Event's `image.webp` exists and
-   is WebP, normalizer unit tests) followed by `tsc --noEmit`
+   lint including "no layout findings", every Event's `image.webp` exists, is
+   WebP and is not byte-identical to another Event's, normalizer unit tests)
+   followed by `tsc --noEmit`
 2. `bun run check:integrity` — normalizes every Edition (validating each
    against `result-schema.json`) and compares header-warning, unknown status
    token, missing-value and implausible Segment pace counts against
@@ -182,7 +183,7 @@ Running these three commands locally reproduces CI exactly.
 - **IRONMAN**: labs-v2 のサブイベント uuid を `ironman` に指定する。テンプレート（full / 70.3）は既存エディションの distance から推定する（新規大会・混在時は `template` を指定）。
 - **JTU**: 取り込むプログラムごとに `jtu[]` を1件。JSON API（`results.jtu.or.jp/api`）から取得する。`jtu.or.jp/result` の SPA は Playwright でスクレイピングしない（カルーセルで他大会の表が混入する）。キャプションの列ロールは `scripts/lib/results-sources/jtu.js` の語彙で決まり、未知のキャプションはエラーになる（プランの `columns.rename` / `drop` で対処）。
 - **PDF・CSV 等**: リポジトリ外で TSV を作り（PDF は `pdfplumber`）、`prepared[]` に列マッピングとともに指定する。
-- **新規大会**: `events[]` に `id`・`name`・`location`（任意）・`location_parts`・`source`・`description`（任意）・`image_source`（任意、画像のクレジット）を書く。`image` フィールドはない。取り込みの **前に** 画像を `master/<id>/image.webp` に置く（無いとプラン不正）。他の大会の image.webp とバイト単位で同じ画像はプラン不正になる（コピーの使い回し不可）。
+- **新規大会**: `events[]` に `id`・`name`・`location`（任意）・`location_parts`・`source`・`description`（任意）・`image_source`（必須、画像のクレジット）を書く。`image` フィールドはない。取り込みの **前に** 画像を `master/<id>/image.webp` に置く（無いとプラン不正）。他の大会の image.webp とバイト単位で同じ画像はプラン不正になる（コピーの使い回し不可）。`image_source` が無い新規大会もプラン不正になる。
 - **フィルタすべきカテゴリ:** キッズ、ジュニア、リレー、パラ、小学、中学、アクアスロン、デュアスロン、ビギナー、チャレンジ等（メインのエイジグループカテゴリのみ取り込む）。1つの表の中に部門列がないかも確認する。
 - コースが標準と違う場合は `segments` で距離を指定する。中止された種目（スイム中止など）は `segments` から省くことでのみ表す。
 - **種目距離は当日の実績から決める**: リザルトのコース注記、JTU の `/api/programs/<pid>/additionals`、当日のアナウンス、大会レポートを根拠にする。募集要項や前回エディションの距離はコピーしない（スイムの短縮・中止や暑さによるランの短縮は当日に決まることが多い）。
@@ -217,8 +218,8 @@ Import モジュールは天気データを書かない。取り込み後に生�
 
 - `master/<event_id>/image.webp` に置く。WebP形式、ちょうど 600x400px（リサイズ・クロップして合わせる）
 - 各大会の開催地を象徴する風景写真を使用
-- **プレースホルダー画像の使い回しは不可** — 必ず個別の画像を設定する。他の大会の画像をコピーしない（バイト単位で同じ画像は Import モジュールが拒否する）
-- 画像のクレジットはその大会の `event.json` の `image_source`（`{url, author?, license}`）に記録する
+- **プレースホルダー画像の使い回しは不可** — 必ず個別の画像を設定する。他の大会の画像をコピーしない（バイト単位で同じ画像は Import モジュールが拒否し、`tests/images.test.ts` が全 Event について検査する）
+- 画像のクレジットはその大会の `event.json` の `image_source`（`{url, author?, license}`、必須）に記録する
 
 ### 6. 検証と出力確認
 

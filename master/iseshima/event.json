@@ -7,5 +7,10 @@
     "city": "志摩市",
     "venue": "大矢浜海水浴場"
   },
-  "source": "https://shima-tri.com/"
+  "source": "https://shima-tri.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Ago_Bay_and_Shima_Peninsula_ac.jpg",
+    "author": "Asturio Cantabrio",
+    "license": "CC BY-SA 4.0"
+  }
 }

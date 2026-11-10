@@ -298,7 +298,7 @@ export async function runImport(plan, { sources, repo, dryRun = false }) {
       location_parts: ev.location_parts,
       source: ev.source,
       ...(ev.description !== undefined && { description: ev.description }),
-      ...(ev.image_source !== undefined && { image_source: ev.image_source }),
+      image_source: ev.image_source,
       image,
       editions: [],
     };

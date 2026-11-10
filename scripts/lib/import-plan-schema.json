@@ -55,7 +55,7 @@
     "NewEvent": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["id", "name", "location_parts", "source"],
+      "required": ["id", "name", "location_parts", "source", "image_source"],
       "properties": {
         "id": { "$ref": "#/definitions/Id" },
         "name": { "type": "string", "minLength": 1 },

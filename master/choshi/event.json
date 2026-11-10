@@ -7,5 +7,10 @@
     "city": "銚子市",
     "venue": "銚子マリーナ"
   },
-  "source": "http://www.tokio-world.com/choshi/"
+  "source": "http://www.tokio-world.com/choshi/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Naarai_Coast_01.jpg",
+    "author": "Σ64",
+    "license": "CC BY 3.0"
+  }
 }

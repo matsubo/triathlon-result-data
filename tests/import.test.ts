@@ -274,9 +274,15 @@ describe("runImport: IRONMAN add", () => {
     expect(events[2].editions[0].categories[0].id).toBe("ironman_new_2026");
   });
 
-  test("a new Event whose image is missing, reuses another Event's image bytes or whose name duplicates an Event makes the plan invalid", async () => {
+  test("a new Event whose image is missing, reuses another Event's image bytes, has no image_source or whose name duplicates an Event makes the plan invalid", async () => {
     const repo = seed([im703Event("im703_a", "2025-06-01")], { [imagePath("im703_copy")]: "image of im703_a" });
-    const newEvent = (id: string, name: string) => ({ id, name, location_parts: { country: "JP" }, source: "https://example.com/" });
+    const newEvent = (id: string, name: string) => ({
+      id,
+      name,
+      location_parts: { country: "JP" },
+      source: "https://example.com/",
+      image_source: { url: "https://example.com/image", license: "CC0" },
+    });
     const report = await runImport(
       {
         events: [newEvent("im703_a_again", "IRONMAN 70.3 IM703_A"), newEvent("im703_copy", "Copy")],
@@ -299,6 +305,11 @@ describe("runImport: IRONMAN add", () => {
 
     const bad = await runImport({ editions: [{ event: "x", date: "2026-7-1", ironman: "u" }] }, { sources: {}, repo });
     expect(bad.exit_code).toBe(1);
+
+    const { image_source: _, ...uncredited } = newEvent("im703_y", "Y");
+    const noCredit = await runImport({ events: [uncredited], editions: [{ event: "im703_y", date: "2026-07-01", ironman: "u" }] }, { sources: {}, repo });
+    expect(noCredit.exit_code).toBe(1);
+    expect(noCredit.plan_errors).toEqual(["/events/0 must have required property 'image_source'"]);
   });
 
   test("a cancelled swim is expressed by omitting swim from segments", async () => {

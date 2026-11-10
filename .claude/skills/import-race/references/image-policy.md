@@ -14,13 +14,15 @@ bun run test:images
 It checks that every Event's `master/<event_id>/image.webp` exists and is WebP; a
 missing image is also a layout finding (`missing-image`) that fails `check:integrity`.
 Uniqueness: the importer rejects a new Event whose `image.webp` is byte-identical to
-another Event's, so each image's bytes must be unique across `master/`.
+another Event's, and `tests/images.test.ts` fails when any two Events' images are, so
+each image's bytes must be unique across `master/`.
 
 ## Crediting the image
 
-Record the source in that Event's `master/<event_id>/event.json` as `image_source`:
-`{ "url": "…", "author": "…", "license": "…" }` (`author` optional). For a new Event, put
-it in the plan's `events[]` entry and the importer writes it to `event.json`.
+Every Event must record the source in its `master/<event_id>/event.json` as `image_source`
+(required by `event-schema.json`): `{ "url": "…", "author": "…", "license": "…" }`
+(`author` optional). For a new Event, put it in the plan's `events[]` entry (required
+there too) and the importer writes it to `event.json`.
 
 ## Downloading from Wikimedia Commons
 

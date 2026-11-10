@@ -6,5 +6,10 @@
     "prefecture": "福島県",
     "city": "いわき市"
   },
-  "source": "https://fksmtri.jimdofree.com/"
+  "source": "https://fksmtri.jimdofree.com/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E5%90%8D%E6%B5%9C%E6%B8%AF.JPG",
+    "author": "Takku",
+    "license": "Public domain"
+  }
 }

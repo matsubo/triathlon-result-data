@@ -5,5 +5,10 @@
     "country": "AZ",
     "city": "Baku"
   },
-  "source": "https://www.ironman.com/races/im703-baku"
+  "source": "https://www.ironman.com/races/im703-baku",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:Baku_Bulvar.jpg",
+    "author": "Samir Rəsulov",
+    "license": "Public domain"
+  }
 }

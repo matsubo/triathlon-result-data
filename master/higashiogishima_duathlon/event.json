@@ -6,5 +6,10 @@
     "prefecture": "神奈川県",
     "city": "川崎市"
   },
-  "source": "https://www.jtu.or.jp/event/65836/"
+  "source": "https://www.jtu.or.jp/event/65836/",
+  "image_source": {
+    "url": "https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E6%89%87%E5%B3%B6%E6%9D%B1%E5%85%AC%E5%9C%92_-_panoramio.jpg",
+    "author": "hiniiyam",
+    "license": "CC BY 3.0"
+  }
 }

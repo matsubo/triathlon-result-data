@@ -4,7 +4,7 @@
   "description": "master/<event_id>/event.json: one race event. The id is the directory name; the event image is image.webp beside this file; the editions are the YYYY-MM-DD directories beside it.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["name", "location_parts", "source"],
+  "required": ["name", "location_parts", "source", "image_source"],
   "properties": {
     "name": {
       "type": "string",
@@ -55,7 +55,7 @@
     },
     "image_source": {
       "type": "object",
-      "description": "Credit of the event image (image.webp beside this file): where it comes from, its author and license. Optional until every image is credited.",
+      "description": "Credit of the event image (image.webp beside this file): where it comes from, its author and license.",
       "additionalProperties": false,
       "required": ["url", "license"],
       "properties": {
