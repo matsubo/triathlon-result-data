@@ -2,7 +2,7 @@
 
 All notable changes to this repository are documented here. Versions follow the `version` field in `package.json`; commits between version bumps are grouped under the version that introduced them.
 
-## Unreleased
+## 6.0.0 — 2026-11-10
 
 ### Changed (repository layout, breaking for consumers)
 - `race-info.json`, `images/` and `master/<year>/<dir>/` are replaced by one directory per Event (ADR-0003): `master/<event_id>/event.json`, `master/<event_id>/image.webp`, and per Edition `master/<event_id>/<YYYY-MM-DD>/edition.json`, `<category_id>.tsv` and `weather-data.json` (an Edition has weather exactly when that file exists). No path is stored any more. `result_tsv`, `weather_file` and `image` are derived by `scripts/lib/layout.js`, the only code that builds `master/` paths. Events are ordered by id and Editions by date.
