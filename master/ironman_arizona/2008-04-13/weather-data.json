@@ -1,9 +1,9 @@
 {
   "date": "2008-04-13",
-  "sunrise": "05:58",
-  "sunset": "18:58",
-  "minTemp": 15.4,
-  "maxTemp": 35.7,
+  "sunrise": "05:59",
+  "sunset": "18:57",
+  "minTemp": 11.6,
+  "maxTemp": 34.0,
   "hourly": [
     {
       "time": "3",

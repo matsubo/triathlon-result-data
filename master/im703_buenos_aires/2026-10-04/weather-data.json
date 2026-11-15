@@ -1,9 +1,9 @@
 {
   "date": "2026-10-04",
-  "sunrise": "06:24",
+  "sunrise": "06:25",
   "sunset": "18:59",
-  "minTemp": 13.6,
-  "maxTemp": 20.0,
+  "minTemp": 11.1,
+  "maxTemp": 22.1,
   "hourly": [
     {
       "time": "3",
