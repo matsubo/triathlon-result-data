@@ -21,22 +21,31 @@ edition in this repository. Two ways in:
 ## Autonomy
 
 Run the whole procedure — discover, import, validate, commit, push — **without asking the
-user for confirmation**. A routine addition needs no approval: a new edition of an existing
-event, or a new event of a kind the repository already carries (age-group triathlon, 国スポ,
-日本選手権), that passes every gate in step 5.
+user for confirmation**, in an interactive run as much as in an unattended one. A routine
+addition needs no approval: a new edition of an existing event, or a new event of a kind the
+repository already carries (age-group triathlon, 国スポ, 日本選手権), that passes every gate
+in step 5.
 
-Stop and ask only for decisions the repository cannot answer. Import every routine candidate
-first, then ask about these (or list them in the report):
-- A candidate that `references/discovery.md` records as **excluded or deferred by user
-  choice** (e.g. JTU 441 日本スーパースプリント選手権).
-- A kind of event the repository has no precedent for, including standalone aquathlon /
-  duathlon events (see their policy files).
-- Rewriting already-committed data: re-fetching a committed edition, merging duplicate
-  event ids, regenerating committed weather files.
+**Decide everything else by precedent** — how the repository already handled the same kind
+of case (owner instruction 2026-11-16: 「取り込みは過去の慣例に従って判断して。」). Consult:
+- `references/discovery.md` — the dated log of what earlier runs imported, left out or
+  deferred, and why;
+- the policy files in `references/` (aquathlon, duathlon, weather, image, quality gates);
+- the existing Editions and Categories under `master/` — a program or table that earlier
+  Editions of the same race never imported stays out, one they imported goes in;
+- `git log` — how a comparable change was committed before.
 
-In an unattended run, such as the daily Orca automation "triathlon race discovery", never
-ask. Leave those candidates out, list them in the report, and record them as pending in
-`references/discovery.md`.
+A recorded owner decision ("by user choice", "user decision <date>") **is** precedent: apply
+it, don't ask again (e.g. JTU 441 日本スーパースプリント選手権 stays excluded). Rewriting
+committed data — re-fetching a committed edition, merging duplicate event ids, regenerating
+committed weather files — is allowed only when the same kind of rewrite has been committed
+before; cite that commit, verify that only the intended fields change, and commit it on its
+own. Record each decision with its evidence in `references/discovery.md`.
+
+Only a case with **no precedent at all** — nothing comparable ever imported or rejected, no
+policy file, no recorded owner decision — is left for the user. Import everything else first;
+leave that candidate out, record it as pending in `references/discovery.md` with the reason
+no precedent applies, and list it in the report. Do not stop the run to ask.
 
 Do not ask about a candidate that fails a quality check — for example PRO-only partial
 results, or JMA weather not yet published. Skip it, record it as deferred in
@@ -121,8 +130,8 @@ this workflow needs is in the repository.
      the PRO field. Compare the athlete count and age-group breadth against the prior
      year before importing.
 
-   Proceed straight to step 4 with every routine candidate; see **Autonomy** above for the
-   few cases that still need the user.
+   Proceed straight to step 4 with every routine candidate, and decide the rest by
+   precedent (see **Autonomy** above).
 
 4. **Import the editions with the Import module** — write an import plan, never an
    add-*/import-* script:
@@ -209,5 +218,6 @@ this workflow needs is in the repository.
      force-push or bypass hooks (`--no-verify`).
 
 8. **Report** the pushed commit hashes, what was imported (events, editions, athlete
-   counts), what was skipped or deferred and why, and any decisions left for the user.
+   counts), what was skipped or deferred and why, each decision taken by precedent with its
+   evidence, and any no-precedent case left for the user with the reason.
 

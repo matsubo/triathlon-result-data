@@ -15,9 +15,10 @@ filter targets side-categories within triathlon event weekends, not
 standalone championship-caliber duathlon races. Schema already has a
 DUATHLON distance for a reason.
 
-**How to apply:** During /import-race discovery, list standalone duathlon
-events as candidates for confirmation rather than silently dropping them
-(same treatment as aquathlon). Distance for this "CalfMan Signature" series, confirmed via WebSearch (not
+**How to apply:** decide by precedent (SKILL.md → Autonomy), without asking.
+New editions of the CalfMan Signature events above are routine imports; JTU 434
+大潟村デュアスロン (2026-10-04, 20 rows, would be a new event) was excluded by user
+choice on 2026-10-05 — follow the decision the case resembles. Distance for this "CalfMan Signature" series, confirmed via WebSearch (not
 guessed from splits): **Run 5km / Bike 30km / Run 5km**, 40km total, for the
 age-group category (other categories are shorter for students/juniors/
 elementary). JTU
