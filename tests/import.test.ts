@@ -195,7 +195,7 @@ describe("runImport: IRONMAN add", () => {
     expect(JSON.parse(editionText).categories[0]).not.toHaveProperty("result_tsv");
   });
 
-  test("the IRONMAN adapter replays a recorded payload into the committed TSV bytes", async () => {
+  test("the IRONMAN adapter replays a recorded payload into TSV rows, Gender from the Division", async () => {
     const payload = readFileSync(join(FIXTURES, "ironman-im703-porec-2026.json"), "utf8");
     const urls: string[] = [];
     const ironman = ironmanSource({
@@ -221,7 +221,7 @@ describe("runImport: IRONMAN add", () => {
         "ede8f8d9-0f56-40ac-b975-42a65dd2ecff\t3\tNiklas Hornshøj\tM\tM30-34\t1\t4:03:43\t0:27:09\t0:02:45\t2:09:55\t0:01:58\t1:21:55\tDenmark\t",
         "68311211-5a05-eb11-a813-000d3a5a1bfb\t99999\tLars Aarts\tM\tM50-54\t99999\t\t0:36:35\t0:04:35\t2:25:42\t0:15:17\t\tNetherlands\tDNF",
         "e52b3b75-3a7c-ef11-a670-000d3a3126fd\t99999\tManuela Boccia\tF\tF40-44\t99999\t\t\t\t\t\t\tItaly\tDNS",
-        "875bf874-c0f1-4822-a530-fe3bdfbf74a3\t99999\tMauro Secco\tM\tPC/ID\t99999\t6:19:34\t0:38:25\t0:06:25\t3:11:11\t0:05:01\t2:18:32\tItaly\t",
+        "875bf874-c0f1-4822-a530-fe3bdfbf74a3\t99999\tMauro Secco\t\tPC/ID\t99999\t6:19:34\t0:38:25\t0:06:25\t3:11:11\t0:05:01\t2:18:32\tItaly\t",
         "b97be266-fed9-f011-8543-6045bd01aedd\t99999\tJan Vukovich\tM\tM25-29\t99999\t\t\t\t\t\t\tAustria\tDQ",
         "",
       ].join("\n"),

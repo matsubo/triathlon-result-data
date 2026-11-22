@@ -8,6 +8,10 @@
  *
  * Kept as published (the normalizer handles them): `99999` overall / division
  * rank placeholders, DNF / DNS / DQ in Status, an empty Status for finishers.
+ *
+ * Since 2026-11 labs-v2 serves splits only as `wtc_*formatted` strings ("4:03:43";
+ * the second counts are gone) and no longer carries the athlete profile's
+ * gender, so Gender comes from the race Division's M / F prefix.
  */
 
 const API_BASE = "https://labs-v2.competitor.com/api/results";
@@ -84,11 +88,20 @@ function formatTime(seconds) {
   return `${h}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
 }
 
-/** @param {number | undefined} code */
-function formatGender(code) {
-  if (code === 1) return "M";
-  if (code === 2) return "F";
-  return "";
+/** @param {string | null | undefined} formatted `H:MM:SS`; null / "0:00:00" when not timed */
+function parseFormatted(formatted) {
+  const m = /^(\d+):(\d{2}):(\d{2})$/.exec(formatted ?? "");
+  if (!m) return "";
+  return formatTime(Number(m[1]) * 3600 + Number(m[2]) * 60 + Number(m[3]));
+}
+
+/**
+ * `M30-34` / `MPRO` / `MGuide` → M, likewise F; PC, PC/ID, HC, Unknown… → "".
+ * @param {string} division
+ */
+function genderOfDivision(division) {
+  const m = /^([MF])(?:\d|PRO$|Guide$|ST$)/.exec(division);
+  return m ? m[1] : "";
 }
 
 /**
@@ -100,25 +113,23 @@ function toRow(r) {
   if (r.wtc_dnf) status = "DNF";
   else if (r.wtc_dns) status = "DNS";
   else if (r.wtc_dq) status = "DQ";
+  const division = r.wtc_AgeGroupId?.wtc_agegroupname || "";
   return [
     r.wtc_ContactId?.contactid || "",
     String(r.wtc_finishrankoverall || ""),
     // The source occasionally carries doubled spaces ("Rodrigo Cañete  Galeano").
     (r.wtc_ContactId?.fullname || r.athlete || "").replace(/\s+/g, " ").trim(),
-    formatGender(r.wtc_ContactId?.gendercode),
-    r.wtc_AgeGroupId?.wtc_agegroupname || "",
+    genderOfDivision(division),
+    division,
     String(r.wtc_finishrankgroup || ""),
-    formatTime(r.wtc_finishtime),
-    formatTime(r.wtc_swimtime),
-    formatTime(r.wtc_transition1time),
-    formatTime(r.wtc_biketime),
-    formatTime(r.wtc_transition2time),
-    formatTime(r.wtc_runtime),
-    // The controlled "country representing" name resolves to ISO2 downstream;
-    // address1_country is athlete-entered free text (US/USA/deu/are...).
-    r._wtc_countryrepresentingid_value_formatted ||
-      r.wtc_ContactId?.address1_country ||
-      "",
+    parseFormatted(r.wtc_finishtimeformatted),
+    parseFormatted(r.wtc_swimtimeformatted),
+    parseFormatted(r.wtc_transition1timeformatted),
+    parseFormatted(r.wtc_biketimeformatted),
+    parseFormatted(r.wtc_transitiontime2formatted),
+    parseFormatted(r.wtc_runtimeformatted),
+    // The controlled "country representing" name resolves to ISO2 downstream.
+    r._wtc_countryrepresentingid_value_formatted || "",
     status,
   ];
 }
